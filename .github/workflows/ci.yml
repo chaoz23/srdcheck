@@ -1,0 +1,25 @@
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pytest pypdf
+      - name: Fetch SRD and extract text (provenance-verified)
+        run: |
+          bash sources/fetch.sh
+          python sources/extract.py
+      - name: Rebuild entity registry and verify it matches the committed one
+        run: |
+          cp adapters/srd-5.2.1/entities.json /tmp/committed.json
+          python adapters/srd-5.2.1/build_entities.py
+          diff /tmp/committed.json adapters/srd-5.2.1/entities.json
+      - run: python -m pytest tests/ -q
