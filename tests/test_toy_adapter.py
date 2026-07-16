@@ -12,8 +12,8 @@ sys.path.insert(0, str(ROOT))
 
 from srdcheck.engine import Engine  # noqa: E402
 
-BOTH = Engine([ROOT / "adapters" / "srd-5.2.1",
-               ROOT / "adapters" / "toy-tictactoe"])
+BOTH = Engine([ROOT / "srdcheck" / "adapters" / "srd-5.2.1",
+               ROOT / "srdcheck" / "adapters" / "toy-tictactoe"])
 
 
 def move(board, player, cell):
@@ -67,10 +67,10 @@ def test_cross_adapter_jurisdiction():
 
 def test_adapters_dont_cross_answer():
     """The SRD adapter must not answer toy queries or vice versa."""
-    srd_only = Engine([ROOT / "adapters" / "srd-5.2.1"])
+    srd_only = Engine([ROOT / "srdcheck" / "adapters" / "srd-5.2.1"])
     assert srd_only.query("ttt.move", {"board": ".........",
                                        "player": "X",
                                        "cell": 5}).exit_code == 2
-    toy_only = Engine([ROOT / "adapters" / "toy-tictactoe"])
+    toy_only = Engine([ROOT / "srdcheck" / "adapters" / "toy-tictactoe"])
     assert toy_only.query("turn.plan",
                           {"speed": 30, "plan": []}).exit_code == 2

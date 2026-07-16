@@ -15,7 +15,7 @@ import sys
 
 from .engine import Engine
 
-ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent.parent / "adapters"
+ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent / "adapters"
 
 SCHEMA = {
     "input": {
@@ -79,3 +79,7 @@ def main(argv=None):
 
 if __name__ == "__main__":
     sys.exit(main())
+
+
+def script():
+    raise SystemExit(main())

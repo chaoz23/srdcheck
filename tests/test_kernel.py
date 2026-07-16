@@ -10,7 +10,7 @@ sys.path.insert(0, str(ROOT))
 
 from srdcheck.engine import Engine  # noqa: E402
 
-ADAPTER = ROOT / "adapters" / "srd-5.2.1"
+ADAPTER = ROOT / "srdcheck" / "adapters" / "srd-5.2.1"
 
 
 def engine():

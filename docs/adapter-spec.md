@@ -1,7 +1,7 @@
 # Adapter spec — v0.9 (release candidate)
 
 > **Status:** the spec has now survived its first non-SRD adapter —
-> [`adapters/toy-tictactoe/`](../adapters/toy-tictactoe/), a game with boards
+> [`srdcheck/adapters/toy-tictactoe/`](../srdcheck/adapters/toy-tictactoe/), a game with boards
 > instead of turns, cited to a Markdown file instead of a PDF — with zero kernel
 > changes and one spec amendment (repo-local sources, below). It is a release
 > candidate: one external adopter away from v1. Build against it with the
@@ -10,7 +10,7 @@
 An adapter is a directory that teaches the content-neutral kernel one ruleset:
 
 ```
-adapters/<name>/
+srdcheck/adapters/<name>/
   manifest.json    # provenance — REQUIRED
   entities.json    # what content exists — REQUIRED
   atoms/*.json     # rule atoms: parameters + citations
@@ -30,7 +30,7 @@ rules texts.
 
 `{category: [names…]}`. This powers the jurisdiction gate: any entity not present
 in a loaded adapter yields an honest exit 2, never a guess. Generate it from the
-source document (see `adapters/srd-5.2.1/build_entities.py`), don't hand-type it.
+source document (see `srdcheck/adapters/srd-5.2.1/build_entities.py`), don't hand-type it.
 
 ## Rule atoms
 

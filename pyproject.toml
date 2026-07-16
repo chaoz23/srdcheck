@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srdcheck"
+version = "0.1.0"
+description = "Deterministic rules verdicts for game-running agents — cited, reproducible, honest about jurisdiction. SRD 5.2.1 is adapter #1."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{name = "chaoz23"}]
+keywords = ["srd", "ttrpg", "rules-engine", "ai-agents", "mcp", "verdicts"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Topic :: Games/Entertainment :: Role-Playing",
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Homepage = "https://github.com/chaoz23/srdcheck"
+
+[project.scripts]
+srdcheck = "srdcheck.cli:script"
+srdcheck-mcp = "srdcheck.mcp:script"
+
+[project.optional-dependencies]
+dev = ["pytest", "pypdf"]
+
+[tool.setuptools]
+packages = ["srdcheck"]
+
+[tool.setuptools.package-data]
+srdcheck = ["adapters/**/*.json", "adapters/**/*.py", "adapters/**/*.md"]
