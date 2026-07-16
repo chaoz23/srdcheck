@@ -23,7 +23,7 @@ srdcheck answers one kind of question: *is this legal under the rules?* — and 
 
 - **Rulesets are adapters.** The kernel knows no game; all rule content loads from adapter packages, each carrying its own provenance manifest — source document, hash, license, attribution — that every verdict cites through. The SRD 5.2.1 adapter ships in this repo as the reference implementation. Anyone can build an adapter for another ruleset — a community, a private table, or a publisher shipping a first-party adapter for their own IP — and their content never passes through this project. The adapter catalog points; it never hosts.
 
-See [docs/product-truths.md](docs/product-truths.md) for the invariants this project holds itself to.
+See [docs/product-truths.md](docs/product-truths.md) for the invariants this project holds itself to, and [docs/anatomy-of-a-turn.md](docs/anatomy-of-a-turn.md) for where srdcheck sits in a game-running agent's pipeline — a combat turn and a level-up, worked end to end.
 
 ## Truth scorecard
 
