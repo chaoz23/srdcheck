@@ -302,9 +302,148 @@ def turn_options(adapter, p):
     return v.legal(why, cites, aid, rules, data={"options": options})
 
 
+# Attack-roll modifier composition. Conditions whose attack effects this
+# adapter version models; anything else known yields exit 2 (T1/T8).
+_ATTACK_MODELED = {"prone", "invisible", "blinded", "restrained", "paralyzed",
+                   "stunned", "grappled", "incapacitated"}
+
+
+def _compose(adapter, adv, dis):
+    """Fold source lists through the p.8 composition atoms."""
+    a = adapter.atoms
+    if adv and dis:
+        atom = a["roll.both-cancel"]
+        return "straight", 1, atom
+    if adv:
+        atom = a["roll.dont-stack"] if len(adv) > 1 else a["roll.advantage-mechanic"]
+        return "advantage", 2, atom
+    if dis:
+        atom = a["roll.dont-stack"] if len(dis) > 1 else a["roll.advantage-mechanic"]
+        return "disadvantage", 2, atom
+    return "straight", 1, None
+
+
+def roll_compose(adapter, p):
+    """Pure composition: {advantage_sources: [..], disadvantage_sources: [..],
+    reroll_available?: bool} -> net roll mode."""
+    adv = list(p.get("advantage_sources", []))
+    dis = list(p.get("disadvantage_sources", []))
+    mode, dice, atom = _compose(adapter, adv, dis)
+    cites, rules = [], []
+    if atom:
+        cites, rules = [_cite(atom)], [atom["id"]]
+    data = {"roll": mode, "d20s": dice,
+            "advantage_sources": adv, "disadvantage_sources": dis}
+    why = (f"{len(adv)} Advantage source(s) and {len(dis)} Disadvantage "
+           f"source(s) compose to: {mode} ({dice} d20).")
+    if p.get("reroll_available"):
+        rr = adapter.atoms["roll.reroll-one-die"]
+        cites.append(_cite(rr))
+        rules.append(rr["id"])
+        data["reroll_note"] = "reroll or replace only one die, not both"
+    return v.legal(why, cites, adapter.id, rules, data=data)
+
+
+def attack_modifiers(adapter, p):
+    """Compose an attack roll's Advantage/Disadvantage from modeled conditions.
+
+    params: attacker{conditions[], exhaustion_level?, can_be_seen_by_target?},
+    target{conditions[], is_grappler_of_attacker?, can_see_attacker...},
+    distance_ft.
+    """
+    a, aid = adapter.atoms, adapter.id
+    atk = p.get("attacker", {})
+    tgt = p.get("target", {})
+    for side in (atk, tgt):
+        for c in side.get("conditions", []):
+            if not adapter.lookup_entity(c):
+                return v.cannot_adjudicate(
+                    f"'{c}' is not a condition known to this ruleset.",
+                    adapter=aid)
+            if c.lower() not in _ATTACK_MODELED:
+                return v.cannot_adjudicate(
+                    f"'{c}' is known content, but its attack-roll effects are "
+                    "not modeled in this adapter version; refusing rather "
+                    "than risking a wrong verdict.", adapter=aid)
+    ac = {c.lower() for c in atk.get("conditions", [])}
+    tc = {c.lower() for c in tgt.get("conditions", [])}
+    dist = p.get("distance_ft", 5)
+    adv, dis, cites, rules = [], [], [], []
+
+    def hit(atom_id, side_list, label):
+        atom = a[atom_id]
+        side_list.append(label)
+        cites.append(_cite(atom))
+        rules.append(atom_id)
+
+    if "prone" in ac:
+        hit("condition.prone.attacks", dis, "attacker is Prone")
+    if "blinded" in ac:
+        hit("condition.blinded.attacks", dis, "attacker is Blinded")
+    if "restrained" in ac:
+        hit("condition.restrained.attacks", dis, "attacker is Restrained")
+    if "grappled" in ac and not tgt.get("is_grappler_of_attacker"):
+        hit("condition.grappled.attacks", dis,
+            "attacker is Grappled, target is not the grappler")
+    if "invisible" in ac:
+        if tgt.get("can_see_attacker"):
+            atom = a["condition.invisible.attacks"]
+            cites.append(_cite(atom))
+            rules.append(atom["id"])
+        else:
+            hit("condition.invisible.attacks", adv, "attacker is Invisible")
+
+    if "prone" in tc:
+        if dist <= a["condition.prone.attacks"]["params"]["against_adv_within_ft"]:
+            hit("condition.prone.attacks", adv,
+                f"target is Prone, attacker within 5 ft ({dist} ft)")
+        else:
+            hit("condition.prone.attacks", dis,
+                f"target is Prone, attacker beyond 5 ft ({dist} ft)")
+    for cond, atom_id in (("blinded", "condition.blinded.attacks"),
+                          ("restrained", "condition.restrained.attacks"),
+                          ("paralyzed", "condition.paralyzed.attacks"),
+                          ("stunned", "condition.stunned.attacks")):
+        if cond in tc:
+            hit(atom_id, adv, f"target is {cond.capitalize()}")
+    if "invisible" in tc:
+        if atk.get("can_see_target"):
+            atom = a["condition.invisible.attacks"]
+            return v.cannot_adjudicate(
+                "The target is Invisible but the attacker can somehow see it. "
+                "The condition text says the Invisible creature doesn't gain "
+                "'this benefit' against a creature that can see it — whether "
+                "that clause covers the Disadvantage on attacks against it is "
+                "genuinely ambiguous in the rules text. GM's call.",
+                [_cite(atom)], aid, [atom["id"]])
+        hit("condition.invisible.attacks", dis, "target is Invisible")
+
+    mode, dice, comp = _compose(adapter, adv, dis)
+    if comp:
+        cites.append(_cite(comp))
+        rules.append(comp["id"])
+    data = {"roll": mode, "d20s": dice,
+            "advantage_sources": adv, "disadvantage_sources": dis,
+            "flat_modifiers": []}
+    lvl = int(atk.get("exhaustion_level", 0))
+    if lvl:
+        ex = a["condition.exhaustion.d20-penalty"]
+        data["flat_modifiers"].append(
+            {"value": ex["params"]["per_level"] * lvl,
+             "source": f"Exhaustion level {lvl}"})
+        cites.append(_cite(ex))
+        rules.append(ex["id"])
+    why = f"Attack roll: {mode} ({dice} d20)."
+    if data["flat_modifiers"]:
+        why += f" Flat modifier {data['flat_modifiers'][0]['value']} (Exhaustion)."
+    return v.legal(why, cites, aid, rules, data=data)
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
     "turn.options": turn_options,
     "reaction.available": reaction_available,
+    "roll.compose": roll_compose,
+    "attack.modifiers": attack_modifiers,
 }
