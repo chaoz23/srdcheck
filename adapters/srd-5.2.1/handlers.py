@@ -226,8 +226,85 @@ def reaction_available(adapter, p):
         + ra["citation"]["quote"], [_cite(ra)], aid, [ra["id"]])
 
 
+def _condition_gate(adapter, p):
+    """Shared jurisdiction gate for turn-state queries. None = pass."""
+    for c in [x.strip() for x in p.get("conditions", [])]:
+        if not adapter.lookup_entity(c):
+            return v.cannot_adjudicate(
+                f"'{c}' is not a condition known to this ruleset.",
+                adapter=adapter.id)
+        if c.lower() not in _MODELED_CONDITIONS:
+            return v.cannot_adjudicate(
+                f"'{c}' is known content, but its turn-economy effects are "
+                "not modeled in this adapter version; refusing rather than "
+                "risking a wrong verdict.", adapter=adapter.id)
+    return None
+
+
+def turn_options(adapter, p):
+    """T5: enumerate what remains legal this turn given the same state
+    shape turn.plan takes (speed, conditions, spent) — no plan."""
+    gate = _condition_gate(adapter, p)
+    if gate:
+        return gate
+    a, aid = adapter.atoms, adapter.id
+    conds = {c.strip().lower() for c in p.get("conditions", [])}
+    spent = dict(p.get("spent", {}))
+    cites, rules, options, notes = [], [], [], []
+
+    def add_cite(atom_id):
+        atom = a[atom_id]
+        cites.append(_cite(atom))
+        rules.append(atom_id)
+
+    incapacitated = "incapacitated" in conds
+    if incapacitated:
+        add_cite("condition.incapacitated.inactive")
+        notes.append("Incapacitated: no action, Bonus Action, or Reaction — "
+                     "movement is not blocked by this condition.")
+    else:
+        slot_left = int(spent.get("spell_slots_this_turn", 0)) < 1
+        if not spent.get("action"):
+            options.append({"do": "action", "spell_slot_available": slot_left})
+        if not spent.get("bonus_action"):
+            options.append({"do": "bonus-action",
+                            "spell_slot_available": slot_left})
+        if not spent.get("reaction"):
+            options.append({"do": "reaction", "spell_slot_available": slot_left,
+                            "note": "usable on your own turn"})
+
+    if not spent.get("free_interaction"):
+        options.append({"do": "free-interaction"})
+
+    speed = p.get("speed", 0)
+    if "grappled" in conds:
+        add_cite("condition.grappled.speed-zero")
+        speed = 0
+    left = max(0, speed - int(spent.get("movement_ft", 0)))
+    prone = "prone" in conds
+    if prone:
+        add_cite("condition.prone.movement")
+        if left >= 2:
+            add_cite("movement.crawling-cost")
+            options.append({"do": "move", "mode": "crawl",
+                            "feet_remaining": left // 2})
+        stand_cost = speed // 2
+        if speed > 0 and left >= stand_cost:
+            options.append({"do": "stand-up", "cost_ft": stand_cost})
+        elif speed == 0:
+            notes.append("Speed 0: cannot right yourself from Prone.")
+    elif left > 0:
+        add_cite("turn.movement-budget")
+        options.append({"do": "move", "mode": "walk", "feet_remaining": left})
+
+    why = (f"{len(options)} option kinds remain this turn."
+           + (" " + " ".join(notes) if notes else ""))
+    return v.legal(why, cites, aid, rules, data={"options": options})
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
+    "turn.options": turn_options,
     "reaction.available": reaction_available,
 }

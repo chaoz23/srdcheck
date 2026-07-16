@@ -31,13 +31,14 @@ class Verdict:
     citations: list[Citation] = field(default_factory=list)
     adapter: str = ""
     rule_ids: list[str] = field(default_factory=list)
+    data: dict = field(default_factory=dict)
 
     @property
     def verdict(self):
         return _NAMES[self.exit_code]
 
     def as_dict(self):
-        return {
+        d = {
             "verdict": self.verdict,
             "exit_code": self.exit_code,
             "why": self.why,
@@ -45,10 +46,14 @@ class Verdict:
             "rule_ids": self.rule_ids,
             "adapter": self.adapter,
         }
+        if self.data:
+            d["data"] = self.data
+        return d
 
 
-def legal(why, citations=(), adapter="", rule_ids=()):
-    return Verdict(LEGAL, why, list(citations), adapter, list(rule_ids))
+def legal(why, citations=(), adapter="", rule_ids=(), data=None):
+    return Verdict(LEGAL, why, list(citations), adapter, list(rule_ids),
+                   data or {})
 
 
 def illegal(why, citations=(), adapter="", rule_ids=()):

@@ -1,16 +1,16 @@
 {
  "name": "srdcheck",
- "description": "Deterministic rules verdicts over the SRD 5.2.1 for game-running agents. Exit codes are the verdict: 0 legal, 1 illegal, 2 cannot-adjudicate (unknown content or GM discretion — an honest refusal, not an error). Every verdict carries citations to the source text.",
+ "description": "Deterministic rules verdicts over the SRD 5.2.1 for game-running agents. Exit codes are the verdict: 0 legal, 1 illegal, 2 cannot-adjudicate (unknown content or GM discretion \u2014 an honest refusal, not an error). Every verdict carries citations to the source text.",
  "status": "pre-release; query surface is unstable until v0.1",
  "invocation": {
   "command": "python -m srdcheck",
   "subcommands": {
    "jurisdiction <name>": "Is this spell/creature/condition/action known to the loaded rulesets? exit 0 = known content (categories in payload); exit 2 = unknown/third-party content.",
-   "query <type> <params-json>": "Adjudicate a structured proposal. Current types: turn.plan (judge a whole proposed turn: budgets, movement, conditions, spell-slot limit), reaction.available (is a Reaction legal right now), mage-hand.use.",
+   "query <type> <params-json>": "Adjudicate a structured proposal. Current types: turn.plan (judge a whole proposed turn), turn.options (T5 enumeration: what remains legal this turn, given the same state shape \u2014 options carry feet_remaining, costs, and slot availability), reaction.available, mage-hand.use.",
    "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
    "--schema": "Print JSON Schema for input and output."
   }
  },
  "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter}",
- "notes": "The 'why' field is templated from cited rule text, not model-generated. Verdicts are deterministic: same query, same answer, every time."
+ "notes": "The 'why' field is templated from cited rule text, not model-generated. Verdicts are deterministic: same query, same answer, every time. turn.options and turn.plan are consistency-tested against each other: everything enumerated is accepted, everything past a boundary is rejected."
 }
