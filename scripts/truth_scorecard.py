@@ -85,6 +85,10 @@ def table(f):
          f"bench/ publishes {f['nsets']} sets across {f['nsubjects']} "
          "subjects with cited gold verdicts; cmd: driver lets any agent "
          "benchmark itself"),
+        ("T14", "every state has a lineage", "planned (Epic 2)",
+         "ratified 2026-07-16: state valid only as the output of a stamped "
+         "transition chain, verifiable by replay; the model declares, the "
+         "ledger derives — lands with the event.apply reducer"),
     ]
     lines = ["| truth | claim | status | evidence |", "|---|---|---|---|"]
     for t, claim, status, ev in rows:
