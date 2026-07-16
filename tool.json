@@ -12,5 +12,19 @@
   }
  },
  "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter}",
- "notes": "The 'why' field is templated from cited rule text, not model-generated. Verdicts are deterministic: same query, same answer, every time. turn.options and turn.plan are consistency-tested against each other: everything enumerated is accepted, everything past a boundary is rejected."
+ "notes": "The 'why' field is templated from cited rule text, not model-generated. Verdicts are deterministic: same query, same answer, every time. turn.options and turn.plan are consistency-tested against each other: everything enumerated is accepted, everything past a boundary is rejected.",
+ "mcp": {
+  "command": "python3 -m srdcheck.mcp",
+  "transport": "stdio",
+  "tools": [
+   "jurisdiction",
+   "turn_plan",
+   "turn_options",
+   "reaction_available",
+   "roll_compose",
+   "attack_modifiers",
+   "mage_hand_use"
+  ],
+  "notes": "Zero-dependency stdlib MCP server. Tool descriptions/schemas are supplied by loaded adapters (queries.json). Verdicts arrive as structuredContent; illegal is a result, not an error."
+ }
 }

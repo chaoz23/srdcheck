@@ -28,6 +28,8 @@ class Adapter:
         for f in sorted((self.root / "atoms").glob("*.json")):
             for atom in json.loads(f.read_text()):
                 self.atoms[atom["id"]] = atom
+        qm = self.root / "queries.json"
+        self.query_meta = json.loads(qm.read_text()) if qm.exists() else {}
         self._handlers = self._load_handlers()
 
     def _load_handlers(self):

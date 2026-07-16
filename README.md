@@ -47,6 +47,24 @@ $ python -m srdcheck --schema                          # I/O contract for agents
 
 Deterministic, offline, no tokens, sub-millisecond. The query surface is small and unstable until v0.1 — the architecture (kernel + [adapters](docs/adapter-spec.md)) is the point.
 
+## For agents (MCP)
+
+srdcheck is an MCP server with zero dependencies — stdlib only, nothing to install beyond cloning:
+
+```json
+{
+  "mcpServers": {
+    "srdcheck": {
+      "command": "python3",
+      "args": ["-m", "srdcheck.mcp"],
+      "cwd": "/path/to/srdcheck"
+    }
+  }
+}
+```
+
+Seven tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`. Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
+
 ## The benchmark
 
 [`bench/`](bench/) is the rules-fidelity referee: versioned question sets with SRD-cited gold verdicts, a harness that scores any model or agent (`gemini:`, `ollama:`, or `cmd:your-agent` on stdin/stdout), and a [generated scorecard](bench/scorecard.md) that reports wrong-rate, refusal-rate, and false-confidence separately, per category, with no aggregate number — ever. Its first published finding: frontier models ace codified rules and fail by *false confidence* exactly where the rules end. Benchmark your own DM product with one command.
