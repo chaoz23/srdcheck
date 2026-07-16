@@ -1,0 +1,16 @@
+{
+ "date": "2026-07-16",
+ "model": "gemini-pro-latest",
+ "task": "first verdict from tool.json alone",
+ "attempts_to_first_verdict": 1,
+ "elapsed_s": 3.9,
+ "success": true,
+ "verdict_exit_code": 0,
+ "attempts": [
+  {
+   "attempt": 1,
+   "command": "python -m srdcheck jurisdiction Grappled",
+   "exit_code": 0
+  }
+ ]
+}
