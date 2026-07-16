@@ -152,5 +152,95 @@
     "broken": 0
    }
   }
+ },
+ "drift": {
+  "gemini_gemini-pro-latest": {
+   "phantom-effect": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "condition-tracking": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "budget-slots": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "budget-reaction": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-condition": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  },
+  "ollama_qwen3_8b-q4_K_M": {
+   "phantom-effect": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "condition-tracking": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "budget-slots": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "budget-reaction": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-condition": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  }
  }
 }

@@ -25,6 +25,23 @@ Per-category, wrong-rate and refusal-rate separated, no aggregate score — by d
 | qwen3-8b | spellcasting | 6 | 2 | 0 | 0 | 0 |
 | qwen3-8b | stacking | 3 | 0 | 0 | 0 | 0 |
 
+## Set: drift
+
+| subject | category | n | wrong | refusal | false-confidence | broken |
+|---|---|--:|--:|--:|--:|--:|
+| gemini_gemini-pro-latest | budget-reaction | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | budget-slots | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | condition-tracking | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | control | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-condition | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | budget-reaction | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | budget-slots | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | condition-tracking | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | control | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-condition | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-effect | 1 | 1 | 0 | 0 | 0 |
+
 ## Set: stateful
 
 | subject | category | n | wrong | refusal | false-confidence | broken |

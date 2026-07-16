@@ -1,0 +1,36 @@
+{
+ "version": "0.1",
+ "doctrine": "State travels; it never resides here. Every field must be read or written by a rule atom (the minimality ratchet) — see field_atoms. The lineage field is stamped by the kernel and is not game state.",
+ "field_atoms": {
+  "speed": ["turn.movement-budget", "condition.grappled.speed-zero", "condition.prone.movement"],
+  "conditions": ["condition.incapacitated.inactive", "condition.grappled.speed-zero", "condition.prone.movement", "condition.prone.attacks", "condition.invisible.attacks", "condition.blinded.attacks", "condition.restrained.attacks", "condition.paralyzed.attacks", "condition.stunned.attacks", "condition.grappled.attacks"],
+  "exhaustion_level": ["condition.exhaustion.d20-penalty"],
+  "concentration_on": ["concentration.breaks-on-incapacitated"],
+  "turn.action_spent": ["turn.one-action"],
+  "turn.bonus_action_spent": ["turn.one-bonus-action"],
+  "turn.reaction_spent": ["turn.one-reaction-per-round"],
+  "turn.free_interaction_spent": ["turn.one-free-interaction"],
+  "turn.movement_ft_spent": ["turn.movement-budget", "movement.crawling-cost"],
+  "turn.spell_slots_spent_this_turn": ["spell.one-slot-per-turn"]
+ },
+ "schema": {
+  "type": "object",
+  "properties": {
+   "speed": {"type": "integer"},
+   "conditions": {"type": "array", "items": {"type": "string"}},
+   "exhaustion_level": {"type": "integer", "minimum": 0, "maximum": 6},
+   "concentration_on": {"type": ["string", "null"],
+    "description": "name of the effect being concentrated on, or null"},
+   "turn": {"type": "object", "properties": {
+    "action_spent": {"type": "boolean"},
+    "bonus_action_spent": {"type": "boolean"},
+    "reaction_spent": {"type": "boolean"},
+    "free_interaction_spent": {"type": "boolean"},
+    "movement_ft_spent": {"type": "integer"},
+    "spell_slots_spent_this_turn": {"type": "integer"}}},
+   "lineage": {"type": "object",
+    "description": "kernel-stamped transition chain metadata; not game state"}
+  },
+  "required": ["speed", "conditions", "turn"]
+ }
+}
