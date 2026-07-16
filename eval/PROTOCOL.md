@@ -4,7 +4,7 @@
 
 ## Question set
 
-~25–30 items in `questions/`, each a JSON file:
+~25–30 items in `questions.jsonl`, one JSON object per line:
 
 ```json
 {
