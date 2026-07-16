@@ -57,6 +57,9 @@ Knowledge parity with frontier models is assumed, not contested. Any feature who
 **T13 — The benchmark is a product, not a test suite.**
 The eval harness ships findings, versioned and citable by third parties; its quality bar is the product bar, and it judges srdcheck itself as readily as any model. Its first finding — frontier models ace rules knowledge and flunk jurisdiction — is the reason the rest of the product exists.
 
+**T14 — Every state has a lineage.**
+A state object is valid only as the output of a stamped transition chain, verifiable by replay. The model declares; the ledger derives: state entries are computed from declared events, never asserted — a diary is not a ledger. GM rulings enter the lineage tagged as rulings, so the chain separates law from discretion. srdcheck never produces an event, never advances time, never generates randomness — the caller owns the loop; we own the fold.
+
 ## Anti-goals
 
 - Not a DM, not a VTT, not a character builder UI, not a campaign manager.
