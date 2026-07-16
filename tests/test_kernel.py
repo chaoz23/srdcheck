@@ -98,3 +98,15 @@ def test_cli_exit_codes():
     assert r.returncode == 0
     assert run("--schema").returncode == 0
     assert run("query", "x", "not-json").returncode == 3
+
+
+def test_kernel_verdict_path_is_pure():
+    """T6 lint: no randomness anywhere in the kernel; no network or
+    subprocess in the verdict path (cli/mcp are I/O shells by design)."""
+    rng = re.compile(r"\b(import random|from random|secrets)\b")
+    net = re.compile(r"\b(urllib|socket|http\.client|requests|subprocess)\b")
+    for f in (ROOT / "srdcheck").glob("*.py"):
+        text = f.read_text()
+        assert not rng.search(text), f"{f.name}: RNG in kernel"
+        if f.name in ("verdict.py", "engine.py", "adapter.py"):
+            assert not net.search(text), f"{f.name}: I/O in verdict path"

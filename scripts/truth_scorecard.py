@@ -30,11 +30,14 @@ def facts():
     ntests = sum(1 for l in collected.splitlines() if "::" in l)
     card = json.loads((ROOT / "bench" / "scorecard.json").read_text())
     subjects = {s for v in card.values() for s in v}
+    cs = json.loads((ROOT / "bench" / "results" / "cold-start.json").read_text())
     sys.path.insert(0, str(ROOT))
     from srdcheck.mcp import Server
     ntools = len(Server().tools)
     return dict(atoms=len(atoms), quoted=quoted, ntests=ntests,
-                nsets=len(card), nsubjects=len(subjects), ntools=ntools)
+                nsets=len(card), nsubjects=len(subjects), ntools=ntools,
+                cs_attempts=cs['attempts_to_first_verdict'],
+                cs_secs=cs['elapsed_s'], cs_date=cs['date'])
 
 
 def table(f):
@@ -55,8 +58,8 @@ def table(f):
          "consistency sweeps (50 turn states + toy boards) verify "
          "enumerate/validate agreement in both directions on every push"),
         ("T6", "judge, never simulate", "enforced in CI",
-         "determinism test (identical verdicts across repeated queries); "
-         "kernel verdict path holds no RNG, network, or owned state"),
+         "determinism test plus a purity lint: no randomness anywhere in "
+         "the kernel, no network or subprocess in the verdict path"),
         ("T7", "mechanism never knows the game", "enforced in CI",
          "kernel lint scans every kernel module for game vocabulary "
          "(it caught a real violation during development)"),
@@ -66,10 +69,12 @@ def table(f):
         ("T9", "never a single number", "enforced in CI",
          "bench scorecard freshness test; per-category tables, no aggregate "
          "score exists anywhere in this repository"),
-        ("T10", "stranger-agent bootstrap", "partial",
-         f"CLI, --pipe, --schema, tool.json, pip install, and an MCP server "
-         f"exposing {f['ntools']} tools are shipped; the standing cold-start "
-         "agent eval is not built yet"),
+        ("T10", "stranger-agent bootstrap", "enforced in CI",
+         f"cold-start conformance test reaches a first verdict from "
+         f"tool.json/--schema/MCP alone ({f['ntools']} tools); live probe: "
+         f"a frontier model given only tool.json produced a correct first "
+         f"verdict in {f['cs_attempts']} attempt(s), {f['cs_secs']}s "
+         f"({f['cs_date']})"),
         ("T11", "table speed", "enforced in CI",
          "p95 latency budget test: 100 verdicts must stay under 100 ms at "
          "p95 (typically sub-millisecond)"),
