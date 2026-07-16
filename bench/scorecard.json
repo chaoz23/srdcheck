@@ -1,0 +1,156 @@
+{
+ "core": {
+  "gemini-3.1-pro": {
+   "action-economy": {
+    "n": 7,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "spellcasting": {
+    "n": 6,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "conditions": {
+    "n": 6,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "build-legality": {
+    "n": 4,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "stacking": {
+    "n": 3,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "cannot-adjudicate": {
+    "n": 4,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 2,
+    "broken": 0
+   }
+  },
+  "gemini-3.1-pro+excerpts": {
+   "action-economy": {
+    "n": 7,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "spellcasting": {
+    "n": 6,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "conditions": {
+    "n": 6,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "build-legality": {
+    "n": 4,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "stacking": {
+    "n": 3,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "cannot-adjudicate": {
+    "n": 4,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 3,
+    "broken": 0
+   }
+  },
+  "qwen3-8b": {
+   "action-economy": {
+    "n": 7,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "spellcasting": {
+    "n": 6,
+    "wrong": 2,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "conditions": {
+    "n": 6,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "build-legality": {
+    "n": 4,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "stacking": {
+    "n": 3,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "cannot-adjudicate": {
+    "n": 4,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 1,
+    "broken": 0
+   }
+  }
+ },
+ "stateful": {
+  "gemini-3.1-pro": {
+   "stateful": {
+    "n": 10,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  },
+  "qwen3-8b": {
+   "stateful": {
+    "n": 10,
+    "wrong": 3,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  }
+ }
+}

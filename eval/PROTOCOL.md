@@ -1,3 +1,5 @@
+> **Historical document.** This protocol governed the Phase 0 kill test (2026-07-16). The living benchmark now lives in [`bench/`](../bench/) — sets, harness, and generated scorecard.
+
 # Phase 0 Kill Test — Protocol
 
 **Question this test answers:** does grounding rules adjudication in SRD text measurably beat a frontier model's raw knowledge? If raw models ace this set, the retrieval/grounding layer is dead and only the deterministic legality engine survives (with reduced ambition).
