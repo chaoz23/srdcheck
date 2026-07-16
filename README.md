@@ -4,7 +4,7 @@
 
 Machine verdicts over the rules of the System Reference Document 5.2.1: cited, reproducible, delivered in milliseconds with zero tokens, and honest enough to refuse questions that aren't the rules' to answer. The rules lawyer for agents.
 
-> **Status: private staging.** Phase 0 (kill test) complete — see [eval/RESULTS-phase0.md](eval/RESULTS-phase0.md). Nothing here is released; the truth scorecard below is a placeholder until the first tagged version.
+> **Status: pre-release, building in the open.** The kill tests that shaped the product — including the one that killed half our original idea — are in [eval/RESULTS-phase0.md](eval/RESULTS-phase0.md), and the with/without-rails demo is in [demo/mage-hand/](demo/mage-hand/). No tagged release yet; the truth scorecard below ships with v0.1.
 
 ## Why this exists
 

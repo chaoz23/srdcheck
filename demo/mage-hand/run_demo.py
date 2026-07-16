@@ -29,8 +29,11 @@ If the verdict is "legal" or "illegal", your ruling must follow it. If it is "ca
 
 
 def gemini_key():
-    text = (pathlib.Path.home() / ".openclaw/secrets/gemini.env").read_text()
-    return re.search(r"GEMINI_API_KEY=(\S+)", text).group(1)
+    import os
+    if os.environ.get("GEMINI_API_KEY"):
+        return os.environ["GEMINI_API_KEY"]
+    env = pathlib.Path.home() / ".openclaw/secrets/gemini.env"
+    return re.search(r"GEMINI_API_KEY=(\S+)", env.read_text()).group(1)
 
 
 def call_model(prompt):
