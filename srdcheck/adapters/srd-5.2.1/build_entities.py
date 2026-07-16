@@ -5,7 +5,7 @@ import json
 import pathlib
 import re
 
-ROOT = pathlib.Path(__file__).resolve().parents[2]
+ROOT = pathlib.Path(__file__).resolve().parents[3]
 TEXT = ROOT / "sources" / "text"
 OUT = pathlib.Path(__file__).parent / "entities.json"
 

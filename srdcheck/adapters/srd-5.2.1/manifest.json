@@ -1,6 +1,6 @@
 {
  "name": "srd-5.2.1",
- "version": "0.1.0-unstable",
+ "version": "0.1.0",
  "ruleset": "System Reference Document 5.2.1 (2024 rules)",
  "source": {
   "url": "https://media.dndbeyond.com/compendium-images/srd/5.2/SRD_CC_v5.2.1.pdf",

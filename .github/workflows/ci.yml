@@ -19,7 +19,9 @@ jobs:
           python sources/extract.py
       - name: Rebuild entity registry and verify it matches the committed one
         run: |
-          cp adapters/srd-5.2.1/entities.json /tmp/committed.json
-          python adapters/srd-5.2.1/build_entities.py
-          diff /tmp/committed.json adapters/srd-5.2.1/entities.json
+          cp srdcheck/adapters/srd-5.2.1/entities.json /tmp/committed.json
+          python srdcheck/adapters/srd-5.2.1/build_entities.py
+          diff /tmp/committed.json srdcheck/adapters/srd-5.2.1/entities.json
       - run: python -m pytest tests/ -q
+      - name: Truth scorecard freshness (never hand-edited)
+        run: python scripts/truth_scorecard.py --check

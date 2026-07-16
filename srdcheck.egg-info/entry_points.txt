@@ -1,0 +1,3 @@
+[console_scripts]
+srdcheck = srdcheck.cli:script
+srdcheck-mcp = srdcheck.mcp:script
