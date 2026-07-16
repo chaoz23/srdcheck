@@ -6,7 +6,7 @@
   "command": "python -m srdcheck",
   "subcommands": {
    "jurisdiction <name>": "Is this spell/creature/condition/action known to the loaded rulesets? exit 0 = known content (categories in payload); exit 2 = unknown/third-party content.",
-   "query <type> <params-json>": "Adjudicate a structured proposal. Current types: mage-hand.use.",
+   "query <type> <params-json>": "Adjudicate a structured proposal. Current types: turn.plan (judge a whole proposed turn: budgets, movement, conditions, spell-slot limit), reaction.available (is a Reaction legal right now), mage-hand.use.",
    "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
    "--schema": "Print JSON Schema for input and output."
   }
