@@ -93,13 +93,15 @@ def parse_verdict(text):
 
 def main():
     arm = sys.argv[1]
+    qfile = pathlib.Path(sys.argv[2]) if len(sys.argv) > 2 else QUESTIONS
+    suffix = "" if qfile == QUESTIONS else "-" + qfile.stem.replace("questions-", "")
     RESULTS.mkdir(exist_ok=True)
-    out = RESULTS / f"arm-{arm}.jsonl"
+    out = RESULTS / f"arm-{arm}{suffix}.jsonl"
     done = set()
     if out.exists():
         done = {json.loads(l)["id"] for l in out.open() if l.strip()}
 
-    qs = [json.loads(l) for l in QUESTIONS.open()]
+    qs = [json.loads(l) for l in qfile.open()]
     for q in qs:
         if q["id"] in done:
             continue

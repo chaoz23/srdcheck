@@ -2,17 +2,19 @@
 """Score kill-test arms per PROTOCOL.md. Usage: score.py [A B C ...]"""
 
 import json
+import os
 import pathlib
 import sys
 from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parent
 CATS = ["action-economy", "spellcasting", "conditions", "build-legality",
-        "stacking", "cannot-adjudicate"]
+        "stacking", "stateful", "cannot-adjudicate"]
+SUFFIX = os.environ.get("SUFFIX", "")
 
 
 def score(arm):
-    path = ROOT / "results" / f"arm-{arm}.jsonl"
+    path = ROOT / "results" / f"arm-{arm}{SUFFIX}.jsonl"
     if not path.exists():
         return None
     recs = [json.loads(l) for l in path.open() if l.strip()]

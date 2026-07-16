@@ -8,10 +8,12 @@ srdcheck is the trust layer between AI and the rules of the game. It converts ru
 
 The longer aspiration: prove that a natural-language ruleset can be compiled into verdicts agents can trust. The SRD is the **first** ruleset, not the identity.
 
+**Post-Phase-0 reframe (2026-07-16):** srdcheck does not compete with what frontier models know — Phase 0 showed they recall these rules nearly perfectly. It sells the four things no model can supply by construction: **proof** (citations), **refusal** (jurisdiction — models were false-confident on every out-of-scope category, and grounding made it worse), **determinism** (state held exactly, not attentively), and **economy** (zero tokens in the verdict path). The benchmark that revealed this is itself a product: the neutral referee for a market already arguing about rules fidelity.
+
 ## Product truths
 
 **T1 — A wrong verdict is the only unforgivable bug.**
-Players and agents forgive "I can't rule on that"; they never forgive confidently wrong. Wrong-verdict rate is scored separately from coverage and is never traded for it. Exit 2 is a feature.
+Players and agents forgive "I can't rule on that"; they never forgive confidently wrong. Wrong-verdict rate is scored separately from coverage and is never traded for it. Exit 2 is a feature. *(Validated Phase 0: every model tested, frontier included, preferred a confident wrong-jurisdiction verdict to a refusal — refusal must be engineered.)*
 
 **T2 — No citation, no rule.**
 Every verdict carries its chain of SRD 5.2.1 citations. A rule we cannot cite is a rule we do not have.
@@ -32,7 +34,7 @@ No dice, no narration, no turn-taking, no owned game state. State comes in with 
 The kernel contains zero game constants. All game facts live in a swappable content layer compiled from cited source text.
 
 **T8 — Honest boundaries beat broad coverage.**
-SRD-only is a feature. "Unknown content" and "GM discretion" are truthful answers, delivered proudly. Editions are never blended.
+SRD-only is a feature. "Unknown content" and "GM discretion" are truthful answers, delivered proudly. Editions are never blended. *(Validated Phase 0: jurisdiction-honesty is the one thing frontier models measurably lack.)*
 
 **T9 — Eval results are never a single number.**
 Per-category verdicts, with wrong-rate and refusal-rate shown separately. One blended score destroys the trust the tool exists to create.
@@ -43,8 +45,15 @@ Discovery to first correct verdict in minutes with no human in the loop. The boo
 **T11 — Verdicts at table speed.**
 The verdict path is deterministic computation — no LLM call, no network dependency, runs local/offline; the human-readable *why* is templated, not generated. Working budget: p95 single verdict < 100 ms, full legal-action enumeration < 500 ms on commodity hardware.
 
+**T12 — Never sell what the model already has.**
+Knowledge parity with frontier models is assumed, not contested. Any feature whose pitch is "the model might not know this" is cut on sight. The value is proof, refusal, determinism, and economy — the four things a model cannot supply by construction.
+
+**T13 — The benchmark is a product, not a test suite.**
+The eval harness ships findings, versioned and citable by third parties; its quality bar is the product bar, and it judges srdcheck itself as readily as any model. Its first finding — frontier models ace rules knowledge and flunk jurisdiction — is the reason the rest of the product exists.
+
 ## Anti-goals
 
 - Not a DM, not a VTT, not a character builder UI, not a campaign manager.
 - Never a homebrew/community content platform.
 - Never marketed as replacing the DM; marketed as making every DM — human or agent — harder to argue with.
+- **Never a retrieval/RAG/lookup layer** — killed by Phase 0 data (frontier raw = 0% wrong; grounding fixed nothing and worsened false confidence).
