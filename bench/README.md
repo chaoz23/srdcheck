@@ -24,6 +24,11 @@ four failure modes are reported separately and never blended
 - `stateful` (10) — multi-round scenarios where the verdict depends on
   tracked state (reaction refresh timing, slot ledgers, silently broken
   concentration).
+- `drift` (6) — one 15-round encounter probed for **unprompted application**:
+  the subject adjudicates a later turn and is scored on whether state that
+  changed rounds earlier (a broken concentration, a spent slot ledger, an
+  expired condition) leaks in stale. Categories are failure modes, plus a
+  control probe for invented constraints.
 
 Set files are versioned; results record the prompt version. Questions use
 original wording; `cannot-adjudicate` probes use invented content, never
@@ -50,3 +55,11 @@ almost exclusively by **false confidence** in the discretion zone, which
 grounding worsens rather than fixes. An 8B local model is wrong on ~1 in 5
 codified questions and never refuses. This is why srdcheck's engine exists
 and why its exit code 2 is a feature.
+
+Drift addendum (2026-07-16): on the 15-round `drift` set, the frontier model
+went 6/6 — including applying a round-3 concentration break at round 5,
+unprompted — while the 8B local model missed exactly the two
+unprompted-application traps (4/6). At clean-log, 15-round horizons, frontier
+models do not drift; the ledger's case rests on lineage (receipts, replay,
+portability), determinism, economy, and cheap-model accuracy. Noisy
+multi-hour-transcript horizons remain an open lane.

@@ -1,0 +1,41 @@
+=== Mira's ledger: the model declares, the ledger derives ===
+  R1 #1   turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R1 #2   action            [ rule  ] 801cd1edbe0eb58f  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R2 #3   turn-start        [ rule  ] ac7ace81e7ca08a4  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R2 #4   action            [ rule  ] 801cd1edbe0eb58f  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R3 #5   condition-gained  [ rule  ] e499e4227bd4d16d  Incapacitated gained; Concentration on 'Bless' ends immediately.
+  R4 #6   turn-start        [ rule  ] 0be39addea3d1f44  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R4 ---  action            [REJECTED] state unchanged: Step 1 (action): Inactive. You can't take any action, Bonus Action
+  R4 #7   condition-ended   [ rule  ] bd6adf76a44f918b  Incapacitated ended and removed. (Broken Concentration does not resume.)
+  R5 #8   turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R5 #9   action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R6 #10  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R6 #11  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R7 #12  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R7 #13  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R8 #14  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R8 #15  move              [ rule  ] e40ae6903834e5d7  The plan fits the turn: 15 of 30 ft of movement, budgets respected. Movement
+  R8 #16  action            [ rule  ] 33d00c533ad71587  The plan fits the turn: 15 of 30 ft of movement, budgets respected. Movement
+  R9 #17  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+  R9 #18  bonus-action      [ rule  ] 377d2ffe0db9511a  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+  R9 #19  action            [ rule  ] 5b41b32c5599c160  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R10 #20  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R10 #21  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R11 #22  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R11 #23  ruling            [ruling ] bd6adf76a44f918b  Recorded as a table ruling, not a rule derivation — the lineage marks it as 
+ R11 #24  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R12 #25  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R12 #26  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R13 #27  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R13 #28  reaction          [ rule  ] fe3caa828d570cbe  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R13 ---  reaction          [REJECTED] state unchanged: Step 1: no reaction remains this turn. You can take a Reaction on 
+ R14 #29  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R14 #30  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+ R15 #31  turn-start        [ rule  ] bd6adf76a44f918b  Turn begins: action, Bonus Action, interaction, and movement budgets reset; 
+ R15 #32  action            [ rule  ] f3161ef251188255  The plan fits the turn: 0 of 30 ft of movement, budgets respected. Movement 
+
+transitions: 32 stamped, 2 rejected (rejections leave the chain untouched)
+final state hash: f3161ef251188255
+rulings in chain: 1 (discretion is tagged, never disguised as a rule)
+deterministic replay, hash-for-hash: True
+Bless correctly dead since R3: True

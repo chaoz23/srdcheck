@@ -5,6 +5,8 @@ Handlers read their facts from rule atoms (parameters + citations); the
 control flow below is the code escape hatch the adapter spec allows.
 """
 
+import json
+
 from srdcheck import verdict as v
 
 
@@ -439,6 +441,153 @@ def attack_modifiers(adapter, p):
     return v.legal(why, cites, aid, rules, data=data)
 
 
+# The reducer (Epic 2 / T14). The model declares; the ledger derives.
+# Stunned/Paralyzed embed Incapacitated (cited atoms); unknown or unmodeled
+# conditions refuse rather than record state we would later misjudge.
+_STATE_CONDITIONS = {"grappled", "prone", "incapacitated", "invisible",
+                     "blinded", "restrained", "stunned", "paralyzed"}
+_EMBEDS_INCAPACITATED = {"incapacitated": None,
+                         "stunned": "condition.stunned.incapacitated",
+                         "paralyzed": "condition.paralyzed.incapacitated"}
+
+_FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
+               "reaction_spent": False, "free_interaction_spent": False,
+               "movement_ft_spent": 0, "spell_slots_spent_this_turn": 0}
+
+
+def _state_to_plan_params(state):
+    t = state.get("turn", {})
+    return {"speed": state.get("speed", 0),
+            "conditions": state.get("conditions", []),
+            "spent": {"action": t.get("action_spent"),
+                      "bonus_action": t.get("bonus_action_spent"),
+                      "reaction": t.get("reaction_spent"),
+                      "free_interaction": t.get("free_interaction_spent"),
+                      "movement_ft": t.get("movement_ft_spent", 0),
+                      "spell_slots_this_turn":
+                          t.get("spell_slots_spent_this_turn", 0)}}
+
+
+def event_apply(adapter, p):
+    """fold(state, declared_event) -> verdict (+ data.next_state on exit 0).
+
+    Never produces an event, never advances time on its own, never rolls.
+    """
+    from srdcheck import lineage
+    a, aid = adapter.atoms, adapter.id
+    state = p.get("state") or {}
+    event = p.get("event") or {}
+    etype = event.get("type")
+    nxt = json.loads(json.dumps(state)) if state else {}
+    nxt.setdefault("conditions", [])
+    nxt.setdefault("turn", dict(_FRESH_TURN))
+    cites, rules, kind = [], [], "rule"
+
+    def grab(atom_id):
+        cites.append(_cite(a[atom_id]))
+        rules.append(atom_id)
+
+    if etype == "turn-start":
+        nxt["turn"] = dict(_FRESH_TURN)
+        grab("turn.one-reaction-per-round")
+        why = ("Turn begins: action, Bonus Action, interaction, and movement "
+               "budgets reset; the Reaction returns at the start of your turn.")
+    elif etype == "round-advance":
+        why = ("Round advances: no per-round state is modeled in this adapter "
+               "version (durations are the caller's clock).")
+    elif etype in ("action", "bonus-action", "reaction", "free-interaction",
+                   "move", "stand-up"):
+        step = {"do": etype}
+        if etype == "move":
+            step["feet"] = int(event.get("feet", 0))
+            step["crawl"] = bool(event.get("crawl"))
+        lvl = int(event.get("spell", {}).get("level", -1))
+        if lvl >= 0:
+            step["spell"] = {"level": lvl}
+        check = turn_plan(adapter, {**_state_to_plan_params(state),
+                                    "plan": [step]})
+        if check.exit_code != 0:
+            return check
+        t = nxt["turn"]
+        if etype in ("action", "bonus-action", "reaction"):
+            t[etype.replace("-", "_") + "_spent"] = True
+            if lvl > 0:
+                t["spell_slots_spent_this_turn"] += 1
+        elif etype == "free-interaction":
+            t["free_interaction_spent"] = True
+        elif etype == "move":
+            t["movement_ft_spent"] += (step["feet"] * 2 if step["crawl"]
+                                       else step["feet"])
+        elif etype == "stand-up":
+            t["movement_ft_spent"] += state.get("speed", 0) // 2
+            nxt["conditions"] = [c for c in nxt["conditions"]
+                                 if c.lower() != "prone"]
+        conc = event.get("concentration_on")
+        if conc:
+            if nxt.get("concentration_on"):
+                grab("concentration.one-effect")
+            nxt["concentration_on"] = conc
+        cites.extend(check.citations)
+        rules.extend(check.rule_ids)
+        why = check.why
+    elif etype == "condition-gained":
+        name = event.get("name", "")
+        if not adapter.lookup_entity(name):
+            return v.cannot_adjudicate(
+                f"'{name}' is not a condition known to this ruleset.",
+                adapter=aid)
+        if name.lower() not in _STATE_CONDITIONS:
+            return v.cannot_adjudicate(
+                f"'{name}' is known content, but its state interactions are "
+                "not modeled in this adapter version; refusing rather than "
+                "recording state we would later misjudge.", adapter=aid)
+        if name.lower() not in {c.lower() for c in nxt["conditions"]}:
+            nxt["conditions"].append(name)
+        embed = _EMBEDS_INCAPACITATED.get(name.lower(), "absent")
+        if embed != "absent" and nxt.get("concentration_on"):
+            broken = nxt["concentration_on"]
+            nxt["concentration_on"] = None
+            if embed:
+                grab(embed)
+            grab("concentration.breaks-on-incapacitated")
+            why = (f"{name} gained; Concentration on '{broken}' ends "
+                   "immediately.")
+        else:
+            why = f"{name} gained and recorded."
+    elif etype == "condition-ended":
+        name = event.get("name", "")
+        have = {c.lower(): c for c in nxt["conditions"]}
+        if name.lower() not in have:
+            return v.illegal(
+                f"'{name}' cannot end: the state does not contain it.",
+                adapter=aid)
+        nxt["conditions"].remove(have[name.lower()])
+        why = f"{name} ended and removed. (Broken Concentration does not resume.)"
+    elif etype == "ruling":
+        kind = "ruling"
+        patch = event.get("state_patch") or {}
+        allowed = set(json.loads(
+            (adapter.root / "state_schema.json").read_text()
+        )["schema"]["properties"]) - {"lineage"}
+        bad = set(patch) - allowed
+        if bad:
+            return v.cannot_adjudicate(
+                f"Ruling patch touches fields outside the state schema: "
+                f"{sorted(bad)} (minimality ratchet).", adapter=aid)
+        nxt.update(json.loads(json.dumps(patch)))
+        why = ("Recorded as a table ruling, not a rule derivation — the "
+               "lineage marks it as discretion.")
+    else:
+        return v.cannot_adjudicate(
+            f"'{etype}' is not a declared-event type this adapter reduces.",
+            adapter=aid)
+
+    verdict = v.legal(why, cites, aid, rules)
+    verdict.data = {"next_state": lineage.stamp(state, event, verdict, nxt,
+                                                kind=kind)}
+    return verdict
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -446,4 +595,5 @@ HANDLERS = {
     "reaction.available": reaction_available,
     "roll.compose": roll_compose,
     "attack.modifiers": attack_modifiers,
+    "event.apply": event_apply,
 }
