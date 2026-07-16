@@ -37,7 +37,7 @@ Machine fields (verdict, exit code, rule IDs, citations) for agents; a readable 
 No dice, no narration, no turn-taking, no owned game state. State comes in with the query; a verdict goes out.
 
 **T7 — The mechanism never knows the game.**
-The kernel contains zero game constants. All game facts live in a swappable content layer compiled from cited source text.
+The kernel contains zero game constants. All game facts live in **adapters** — content packages with their own provenance manifest (source document, hash, license, attribution) that verdicts cite through. The SRD ships as adapter #1, a reference implementation, not the identity. Anyone — a community, a table, a publisher protecting its own IP — can ship an adapter for their ruleset without their content ever passing through this project.
 
 **T8 — Honest boundaries beat broad coverage.**
 SRD-only is a feature. "Unknown content" and "GM discretion" are truthful answers, delivered proudly. Editions are never blended. *(Validated Phase 0: jurisdiction-honesty is the one thing frontier models measurably lack.)*
@@ -60,6 +60,6 @@ The eval harness ships findings, versioned and citable by third parties; its qua
 ## Anti-goals
 
 - Not a DM, not a VTT, not a character builder UI, not a campaign manager.
-- Never a homebrew/community content platform.
+- Never a homebrew/community content platform — the adapter catalog *points*, it never hosts. Content lives in its maintainer's repo, under its maintainer's license.
 - Never marketed as replacing the DM; marketed as making every DM — human or agent — harder to argue with.
 - **Never a retrieval/RAG/lookup layer** — killed by Phase 0 data (frontier raw = 0% wrong; grounding fixed nothing and worsened false confidence).
