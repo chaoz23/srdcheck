@@ -1,6 +1,6 @@
 # Anatomy of a turn
 
-Where srdcheck sits in a game-running agent's pipeline, shown on two worked examples: a combat turn and a complex skill scene. The pattern is the spine of the project: **deterministic rails handle everything exact, so the model's every token goes to the only work that needs a mind.**
+Where srdcheck sits in a game-running agent's pipeline, shown on three worked examples: a combat turn, a complex skill scene, and one famously squirrely cantrip. The pattern is the spine of the project: **deterministic rails handle everything exact, so the model's every token goes to the only work that needs a mind.**
 
 The pipeline has three kinds of parts:
 
@@ -63,6 +63,19 @@ Night. Vex the rogue drops through a warehouse skylight onto the rafters. Two gu
 Same pipeline as combat: intelligence at both ends (intent in, story out), rails in the middle — and the scene's tension came entirely from constraints the engine refused to bend.
 
 *(Build legality is the third place the pattern pays, quietly: a combat error lasts a round, but a character-sheet error compounds into every roll for a campaign. srdcheck stamps level-ups the same way it stamps turns.)*
+
+## Example 3 — the Mage Hand test (one cantrip, all three exit codes)
+
+Mage Hand is the improvisation magnet of the game: a spectral floating hand, and a table full of players inventing uses for it. It's also where language models get squirrely in both directions — the over-permissive hand that strangles guards, the over-restrictive one that can't touch anything. The actual spell (SRD 5.2.1 p.145) is a short *can* list — manipulate an object, open an unlocked door or container, stow or retrieve from an open container, pour out a vial — and a short *can't* list — attack, activate magic items, carry more than 10 pounds — floating in an ocean of GM discretion. That makes it a one-object test of the entire verdict boundary. Same wizard, four proposals, thirty seconds of table time:
+
+- *"The hand lifts the key out of the open lockbox across the room."* — **exit 0, legal**: retrieving an item from an open container, under 10 pounds, within 30 feet. All three cited.
+- *"The hand grabs his dagger and stabs him."* — **exit 1, illegal**: the hand can't attack. One citation, no debate.
+- *"It picks up the strongbox and floats it to me."* — **exit 1, illegal**: the strongbox weighs 25 pounds; the limit is 10. Arithmetic, cited.
+- *"It unties the prisoner's ropes while I keep talking."* — **exit 2, cannot-adjudicate**: is untying knots "manipulating an object"? The text neither grants nor forbids fine manipulation; there's no check mechanic in the spell. The model rules it — maybe yes but slowly, maybe a check — knowing it's ruling, not reciting.
+
+And two quiet ledger jobs while all that happens: the hand's 30-foot leash and 1-minute duration are armed triggers (drift past the range and it vanishes — mid-scene, whether anyone remembers or not), and when the player later asks *"does casting Web break my concentration on the hand?"* the verdict is instant and cited: Mage Hand has no Concentration requirement at all — a thing models confidently get wrong in both directions.
+
+The squirrely spell is the sales demo: hard walls where the text draws them, honest shrugs where it doesn't, and the model free to be a good GM in exactly the space the rules left for one.
 
 ## The one-line version
 
