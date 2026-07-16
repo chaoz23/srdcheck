@@ -1,5 +1,11 @@
 # srdcheck — Core Value & Product Truths
 
+## The spine
+
+**Pave deterministic rails so intelligence is spent only where intelligence is the only thing that works.**
+
+Attention is the game-runner's scarce resource, and bookkeeping is theft. A general model will always complete a task — the failure is never "can't," it's "did it the expensive way" because the cheap, provable path didn't exist or wasn't discoverable. srdcheck is that path for the rules of the game.
+
 ## Core value
 
 **When an agent needs to know what's legal at the table, there is exactly one call to make — and the answer can be trusted, or it isn't given.**

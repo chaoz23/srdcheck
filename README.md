@@ -1,8 +1,16 @@
 # srdcheck
 
-**The rules lawyer for agents.** Machine verdicts over the rules in the System Reference Document 5.2.1 — with citations, at table speed.
+**Deterministic rails for game-running agents — so intelligence is spent only where intelligence is the only thing that works.**
 
-> **Status: private staging.** Phase 0 (kill test) in progress. Nothing here is released; the truth scorecard below is a placeholder until the first tagged version.
+Machine verdicts over the rules of the System Reference Document 5.2.1: cited, reproducible, delivered in milliseconds with zero tokens, and honest enough to refuse questions that aren't the rules' to answer. The rules lawyer for agents.
+
+> **Status: private staging.** Phase 0 (kill test) complete — see [eval/RESULTS-phase0.md](eval/RESULTS-phase0.md). Nothing here is released; the truth scorecard below is a placeholder until the first tagged version.
+
+## Why this exists
+
+A model running a game is a brilliant improviser with a finite attention budget. Every mechanical micro-check it handles in-context — *is this legal, is that slot spent, does the reaction refresh this round* — spends tokens and attention that belong to the only work that needs a mind: the story, the improvisation, the table. And the checks a model *can* answer, it cannot **prove**, cannot **reproduce**, and — as our own benchmark showed — will not **refuse** when the question is outside the rules' jurisdiction.
+
+We tested this before building. Frontier models answered our SRD rules questions nearly perfectly — and confidently ruled on house rules, GM discretion, and content that doesn't exist in the SRD, where the only correct answer is "not my call." Small local models got 19–30% wrong with zero refusals. So srdcheck does not compete with what models know. It is a rail: state in, verdict out, citations attached, deterministically, every time.
 
 ## What it is
 
