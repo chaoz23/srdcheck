@@ -1,0 +1,4028 @@
+
+===== PAGE 1 =====
+Dungeon Module B2
+The Keep on the Borderlands
+by Gary Gygax
+INTRODUCTORY MODULE FOR CHARACTER LEVELS 1-3
+B2
+9034
+This module includes a cover folder with maps and a complete description booklet to form a ready-made scenario for
+DUNGEONS & DRAGONS® Basic Set. It has been specifically designed for use by beginning Dungeon Masters so that
+they may begin play with a minimum of preparations.
+Within are many features to aid novice players and Dungeon Masters: legends and background information, a list of
+adventuring characters, tips on how to be an effective Dungeon Master, plus an interesting area for characters to base
+themselves in (the Keep) before setting out to explore the Caves of Chaos!
+If you enjoy this module, lok for more releases in the D&D
+® family from TSR, The Game Wizards.
+© 1980, 1981, TSR Hobbies, Inc. All Rights Reserved.
+DUNGEONS & DRAGONS® and D&D® are registered trade marks owned by TSR Hobbies, Inc.
+Special
+InstructionalModule
+FOR DUNGEONS & DRAGONS®
+BASIC SET
+©1980 TSR Hobbies, Inc. All Rights Reserved
+TSR Hobbies, Inc.
+POB 756
+LAKE GENEVA, WI 53147
+PRINTED IN U.S.A.
+
+===== PAGE 2 =====
+
+
+===== PAGE 3 =====
+Dungeon Module B2
+The Keep on the Borderlands
+by Gary Gygax
+INTRODUCTORY MODULE FOR CHARACTER LEVELS  
+1-3
+This module includes  a cover folder with maps  and a complete description booklet to  form  a  ready-made scenario for
+DUNGEONS & DRAGONS@ Basic Set. It hus been specially designed for use by beginning Dungeon Musters so  that they
+muy begin  play  with  a minimum of preparations.
+Within are muny features to  aid  novice players and Dungeon Musters: legends, history  and background  information,  a list
+of adventuring  characters, tips on how to be an effective Dungeon Muster, plus on interesting  area for characters to base
+themselves in (the Keep) before  setting out to explore the Caves of Chuos!
+If you enjoy this module, look for more releases in the D&D@ family from TSR, The Gume Wizards.
+Distributed to the book trade in the United States by Random House, Inc. and in Canada by Random House
+of Canada, Ltd. Distributed to the toy and hobby trade by regional distributors.
+C 1981 by TSR Hobbies, Inc., All Rights Reserved.
+DUNGEONS & DRAGONS@ and D&D@ are registered trademarks owned by TSR Hobbies, Inc.
+TSR Hobbies, Inc.
+POB  756
+LAKE GENEVA, WI 53147
+PRINTED IN U.S.A.
+ISBN  0-935696-47-4
+
+===== PAGE 4 =====
+Dungeons & Dragons
+Dungeon Module #B2
+The Keep on the Borderlands
+Introduction: Welcome to the land of imagination. You are
+about to begin a journey into worlds where magic and
+monsters are the order of the day, where law and chaos
+are forever at odds, where adventure and heroism are the
+meat and drink of all who would seek their fortunes in un-
+common pursuits. This is the realm of DUNGEONS  
+&
+DRAGONS@ Adventure Game.
+If you plan to play in this module and participate in the fun
+of adventuring, stop reading now. The information in the
+rest of the module is for your Dungeon Master or DM, so that
+he or she may guide you and other players through a thrill-
+ing adventure. Knowing too much about the contents of this
+module will spoil the surprises and excitement of the game.
+Dungeon Masters, if many copies of this module are avail-
+able to the players, you may wish to alter sections of the
+Keep and the Caves of Chaos. If you do this, you will be sure
+to have new surprises for players who might be familiar with
+some of the contents of the module. You are not entering
+this world in the usual manner, for you are setting forth to be
+a 
+Dungeon Master. Certainly there are stout fighters,
+mighty magic-users, wily thieves, and courageous clerics
+who will make their mark in the magical lands of D&D@
+adventure. You, however, are above even the greatest of
+these, for as DM you are to become the Shaper of the
+Cosmos. It is you who will give form and content to all the
+universe. You will breathe life into the stillness, giving mean-
+ing and purpose to all the actions which are to follow. The
+others in your group will assume the roles of individuals and
+play their parts, but each can only perform within the
+bounds you will set. It is now up to you to create a magical
+realm filled with danger, mystery, and excitement, com-
+plete with countless challenges. Though your role is the
+greatest, it is also the most difficult. You must now prepare
+to become all things to all people.
+NOTES FOR THE DUNGEON MASTER
+The basic instruction book for DUNGEONS & DRAGONS@
+Game has given you the information necessary to under-
+stand this game and start play. This module is another tool.
+It is a scenario or setting which will help you to understand
+the fine art of being a Dungeon Master as you introduce
+your group of players to your own fantasy world, 
+your inter-
+pretation of the many worlds of DUNGEONS & DRAGONS@
+Adventure. THE KEEP ON THE BORDERLANDS is simply of-
+fered for your use as a way to move smoothly and rapidly
+into your own special continuing adventures or cam-
+paigns. Read the module thoroughly; you will notice that
+the details are left in your hands. This allows you to person-
+alize the scenario, and suit it to what you and your players
+will find most enjoyable.
+NOTE: Several words in the following text will be followed by
+an asterisk (*). This means that the word will be explained in
+the Glossary at the end of this module.
+This module has been designed to allow six to nine player
+characters of first level to play out many adventures,
+gradually working up to second or third level of experience
+in the process. 
+The group is assumed to have at least one
+magic-user and one cleric In It. If you have fewer than six
+players, be sure to arrange for them to get both advice and
+help in the KEEP. For example, they should have advice
+from a friendly individual to “stay near the beginning of the
+ravine area, and enter the lower caves first”, to avoid their
+getting into immediate trouble with higher level monsters.
+Likewise, the services of several men-at-arms* 
+must be
+available to smaller parties, If only two or three player char-
+acters are to adventure, be sure to have a non-player char-
+acter or two go along, as well as a few men-at-arms. In ad-
+dition, give the player characters a magic dagger or some
+magic arrows and at least one 
+potion of healing - family
+bequests to aid them in finding their fame and fortune
+when they go against Chaos.
+The DM should be careful to give the player characters a
+reasonable chance to survive. If your players tend to be
+rash and unthinking, it might be better to allow them to
+have a few men-at-arms accompany them even if the party
+is large, and they don’t attempt to hire such mercenaries*.
+Hopefully, they will quickly learn that the monsters here will
+work together and attack intelligently, if able. If this lesson is
+not learned, all that can be done is to allow the chips to fall
+where they may. Dead characters cannot be brought back
+to life here!
+Using the KEEP as “home base”, your players should be
+able to have quite a number of adventures (playing
+sessions) before they have exhausted all the possibilities of
+the 
+Caves of Chaos map. Assuming that they have played
+well, their player characters will certainly have advanced
+a level or two in experience when the last minion of dark-
+ness falls before their might. While your players will have
+advanced in their understanding and ability, you will like-
+wise have increased your skills as DM. In fact, before they
+have finished all the adventure areas of this module, it is
+likely that you will have begun to add your own separate
+maps to the setting. The KEEP is only a small section of the
+world. You must build the towns and terrain which surround
+it. You must shape the societies, create the kingdoms, and
+populate the countryside with men and monsters.
+The KEEP is a microcosm, a world in miniature. Within its
+walls your players will find what is basically a small village
+with a social order, and will meet opponents of a sort. Out-
+side lies the way to the 
+Caves of Chaos where monsters
+abound. As you build the campaign setting, you can use
+this module as a guide. Humankind and its allies have es-
+tablished strongholds 
+- whether fortresses or organized
+countries - where the players’ characters will base them-
+selves, interact with the society, and occasionally en-
+counter foes of one sort or another. Surrounding these
+strongholds are lands which may be hostile to the bold ad-
+venturers. Perhaps there are areas of wilderness filled with
+dangerous creatures, or maybe the neighboring area is a
+land where chaos and evil rule (for wilderness adventures,
+see DUNGEONS 
+& DRAGONS@ EXPERT SET). There are natural
+obstacles to consider, such as mountains, marshes, deserts,
+and seas. There can also be magical barriers, protections,
+and portals. Anything you can imagine could be part of
+your world if you so desire. The challenge to your imagina-
+tion is to make a world which will bring the ultimate in fabu-
+lous and fantastic adventure to your players. A world which
+they may believe in.
+NOTE: For your convenience, whenever a monster or non-
+player character (NPC*) is described in the text, the details
+will be listed in the following order:
+Name (Armor Class, Class/Level  
+or Hit Dice, hit points, Num-
+ber of Attacks per round, Damage per attack, Move-
+ment (per round), Save as class and level, Morale)
+Armor Class = AC; Class: Cleric = C, Fighter = F, Magic-
+user = M, Thief = T,  Dwarf = D, Elf = E, Halfling = H, Normal
+Man = LVL  0 or NM; Level = #, Hit Dice = HD, hit points =
+hp, Number of Attacks =#AT,  Damage = D, Movement =
+MV, Save = Save, Morale = ML.
+Class/level is only used for non-player characters (NPCs),
+while Hit  Dice is used for all other monsters. Movement in a
+game turn is three times the movement given for one com-
+bat round. NPCs 
+save at the same level as their class level
+of experience.
+2
+
+===== PAGE 5 =====
+Examples: Taverner (AC 9, LVL 0, hp 6, #AT  I, D 1-6, ML 8)
+Guard (AC 4, F 1,  hp 7, #AT 1,  D 1-6, ML 10)
+Kobold (AC 7, HD V2, hp 3, #AT 1, D 1-4, MV (40’)
+Save NM, ML 6)
+#AT  l/2 indicates that the player may only attack once
+every 2 rounds.
+l An asterisk after Hit Dice indicates an experience point
+bonus.
+* * Two asterisks after Hit Dice indicates double the normal
+experience point bonus.
+Determining Armor Class:
+Armor Class Type of Armor
+9 None
+;
+Shield only
+Leather
+:
+Leather&Shield
+Chainmail
+4 Chainmail &Shield
+i
+Plate Mail
+Plate Mail &Shield
+1 Plate Mail & magic Shield +1 (or other
+combinations)
+Note that an Armor Class (AC) of less than 2 is possible for
+characters wearing magic armor, carrying a magic shield,
+having a higher than normal Dexterity score, and/or wear-
+ing a 
+ring of protection. Players using these items will sub-
+tract bonuses from their AC - for example, a fighter using
+both Plate Mail + 1 and Shield + 1 would have AC 0.
+Using the Combat Tables:
+To find the die roll needed to hit any Armor Class, look at
+the HOW TO ATTACK section in the D&D  Basic Set rule-
+book. Compare the Level (if a character) or Hit Dice (if a
+monster) with the AC of the target to find the number
+needed ‘to hit’. For Armor Classes lower than 2, adjust the
+number upwards; a character needing a roll of 17 to hit
+AC 2 would need an 18 to hit AC I, 19 to hit AC 0, and so
+forth. Unless magic or silver weapons are needed to cause
+damage (and not available), a roll of 20 will 
+always hit,
+and a roll of 1 will always miss!
+A bonus of +1 should be added to the “to hit” die roll of
+high level characters, for they have more training and ex-
+perience in fighting. This bonus will apply to Fighters of 4th
+level or above, to Clerics and Thieves of 5th level or above,
+and to Magic-Users of 6th level or above.
+Movement in Combat:
+Combat movement is usually very short and quick. In a
+combat situation, only short charges or retreats are al-
+lowed. After combat is resolved, movement rates return to
+normal. The movement speed for characters is:
+Unarmored, unencumbered man:
+40 feet per
+melee round
+Metal armored or encumbered man: 20 feet per
+melee round
+Metal armored, encumbered man: 10 feet per
+melee round
+To determine a monster’s movement speed in combat,
+divide its base movement speed by 3.
+Note: Movement speed may be different if the optional en-
+cumbrance rule is used.
+When dice are used to randomly determine a number, the
+type of dice used are abbreviated ‘d#’ (‘d4’ means a four-
+sided die, ‘d6’ a six-sided, and so forth). If more than one is
+rolled, the number required is placed before the ‘d’ (‘2d6’
+means two six-sided dice). If any number is to be added to
+the total of the dice, it is indicated afterward (‘d4 + 2’ means
+to roll a four-sided die and add 2 to the total: ‘2d8 + 1’ will
+thus give a number from 3 to 17). You will quickly get to
+know all of these abbreviations, and may use them when
+you design your own dungeon.
+Become familiar with this module, then make whatever ad-
+ditions or changes you feel are necessary for 
+your cam-
+paign. Once you are satisfied, gather the players together
+and have them create their characters. This will take some
+time, so at first, don’t plan on getting much playing done
+unless there is a lot of time available. After each person has
+rolled the numbers for his or her characteristics (Strength,
+Intelligence, etc.), selected a class, and found how much
+money he or she has to begin, you should introduce them
+to the setting by reading the Background section to them. If
+you wish, feel free to limit the classes your players may
+choose as suits your setting. You might wish not to have
+elves or halflings in the KEEP, or you might not want any
+thieves as beginning characters. It is all up to you as DM to
+decide the shape of the campaign. Likewise, you can opt
+to give the player characters a special item of equipment
+to begin with 
+- possibly mules, a weapon, some trade
+goods, or virtually anything of small value (within reason).
+After you have explained the background, allow your
+players to begin interacting with their characters. Give
+them time to wander around the KEEP, learning what is
+there, finding the limits of their freedom, and meeting the
+other “inhabitants” of the place. They may quickly estab-
+lish their base in the 
+Traveler’s Inn, purchase their equip-
+ment, and then visit the tavern - where they may gather
+bits of information for their coming adventures. All of this
+play, as well as what will come afterwards, requires that the
+players play the personae (personalities) of the characters
+that they will have throughout the length of the campaign,
+much like an actor plays a role in a play. You, however,
+have a far greater challenge and obligation! You not only
+must order and create the world, you must also play the
+part of each and every creature that the player characters
+encounter. You must be gate guard and merchant, inn-
+keeper and 
+orc  oracle and madman as the situation dic-
+tates. The role of DM is all-powerful, but it also makes many
+demands. It is difficult to properly play the village idiot at
+one moment and the wise man the next, the noble clergy-
+man on one hand and the vile monster on the other. In one
+role you must be cooperative, in the next uncaring and
+non-commital, then foolish, then clever, and so on. Be pre-
+pared!
+Whether the first time you play or the next, the players will
+set forth to find and explore the many 
+Caves of Chaos. You
+must describe the journey to the place and what the char-
+acters see, and allow them to choose how they will go
+about their adventuring. In such situations, the DM must be
+a truly disinterested party, giving information as required
+by questioning and proper action, but neither helping nor
+hindering otherwise. When the players experience their first
+encounter with a monster, you must be ready to play the
+part fully. If the monster is basically unintelligent, you must
+have it act accordingly. Make the encounter exciting with
+the proper dramatics of the animal sort 
+- including noises!
+If the encounter is with an intelligent monster, it is up to the
+DM to not only provide an exciting description but also to
+correctly act the part of the monster. Rats, for instance, will
+swarm chitteringly from their burrows 
+- a wave of lice-
+ridden hunger seeking to overrun the adventurers with
+sheer numbers, but easily driven off squealing with blows
+and fire. Goblins, on the other hand, will skulk and hide in
+3
+
+===== PAGE 6 =====
+order to ambush and trap the party - fleeing from more
+powerful foes, but always ready to set a new snare for the
+unwary character.
+If all of this seems too difficult, never fear! Just as your
+players are learning and gaining experience at D&D@
+play, so too will you be improving your ability as a DM. The
+work necessary to become a master at the art is great, far
+greater than that necessary to be a top player, but the re-
+wards are even greater. You will bring untold enjoyment to
+many players in your role as DM, and all the while you will
+have the opportunity to exercise your imagination and
+creative ability to the fullest. May each of your dungeon
+adventure episodes always be a wondrous experience!
+HOW TO BE AN EFFECTIVE DUNGEON MASTER
+As Dungeon Master, the beginner is faced with a difficult
+problem. The DM is the most important person in the D&D@
+game. He or she sets up and controls all situations, makes
+decisions, and acts as the link between the players and the
+world he or she has created. Perhaps the most common
+question asked by a beginning Dungeon Master is, “What
+do I do to run a game?” It is possible to read through the
+rules and become slightly lost by all the things that must be
+prepared or known before DMing a game.
+Unlike most boardgames, D&D play relies on information,
+both from the players and the DM. In boardgames, the way
+the game is played is obvious. First one person moves, and
+then another. Actions are limited and choices are few. In
+this game, the action is only limited by the abilities of the
+character, the imagination of the player, and the decisions
+of the DM. The play will often go in unexpected directions
+and the DM will sometimes be required to decide on situa-
+tions not covered in the rules. The DM is the judge.
+As a judge, moderator, or referee, the DM must constantly
+deal with the players. Just as the referee of a sporting event,
+the DM must be fair. He or she cannot be “out to get the
+players”, nor should he or she be on their side all the time.
+The DM must be 
+neutral. If a party has played well and
+succeeded, the DM should not punish them by sending
+more and more monsters at them or thwart their plans; on
+the other hand, if the players have acted foolishly, they
+should get their “just rewards”. In combat, the DM should
+play the monsters to the best of the monster’s ability. If the
+creature is stupid, it may be easily tricked or may not al-
+ways do the smartest thing. If the monster is clever or intelli-
+gent, it will fight to its best advantage. The DM must be fair,
+but the players must play wisely.
+The DM is also the designer of the situations and must bear
+in mind the abilities of his or her players. It is the job of the
+DM to see that the situations and characters balance. If
+things are too difficult, the players will become dis-
+couraged; too easy and they will become bored. Is it pos-
+sible for a good player to win, yet still be a challenge and a
+risk in doing so? Is the amount of treasure gained equal to
+the danger of trying to get it? As DM, much satisfaction
+comes from watching players overcome a difficult situa-
+tion. But they should do it on their own!
+To defeat monsters and overcome problems, the DM must
+be a dispenser of information. Again, he or she must be fair
+- telling the party what it can see, but not what it cannot.
+Questions will be asked by players, either of the DM or of
+some character the party has encountered, and the DM
+must decide what to say. Information should never be
+given away that the characters have not found out 
+-
+secret doors may be missed, treasure or magic items over-
+looked, or the wrong question asked of a townsperson. The
+players must be allowed to make their own choices. There-
+fore, it is important that the DM give accurate information,
+but 
+the choice of action is the players’ decision.
+Throughout all this  - making decisions, playing roles,
+handling monsters - the DM must remember that he or she
+is in control. The DM is the judge, and it is his or her game./
+The DM should listen to the players and weigh their argu-
+ments fairly when disagreements arise, but the final deci-
+sion belongs to the DM. The Dungeon Master’s word is law!
+TIME
+The Dungeon Master is responsible for keeping a track of
+game time. Inside the dungeon, a normal turn is ten
+minutes long (adventure time). A normal turn is determined
+by the distance the slowest party member can travel, using
+the 
+CHARACTER MOVEMENT TABLE in the  Dungeons &
+Dragons Basic Set rulebook. For example, a party whose
+slowest member moves at 120feet per turn, would travel 120
+feet in a turn. When the party has mapped 120 feet of dun-
+geon, one turn has passed.
+lf fighting should occur, the time reference shifts 
+to melee
+rounds  of 10 seconds each. Melee rounds are used to simu-
+late the quick exchange of blows in combat. For conveni-
+ence, a DM should consider one entire melee* to last  
+long as one normal turn (that is, 10 minutes), no matter how
+many melee rounds the combat actually took. The extra
+time is spent recovering one’s breath, bandaging wounds,
+resharpening blunted weapons, etc. 
+The 
+actual (clock-time) length of a turn varies. A turn might
+take longer than ten actual minutes, especially if a long
+combat has taken place. On the other hand, a turn may be
+quite short in actual time, if the party is heading back
+through a familiar area.
+In general, a party should rest and sleep eight hours every
+24. Cautious player characters will sleep in shifts, with a
+guard always awake.
+Remember that player characters heal 1-3 points naturally
+every 24 hours of full rest.
+DIVIDING TREASURE AND COMPUTING EXPERIENCE
+After the party leaves the dungeon safely, all surviving
+player characters should divide the treasure and be
+awarded their experience points. Division of treasure is the
+players’ responsibility. Awarding experience points is the
+Dungeon Master’s responsibility.
+Ideally, treasure should be divided equally among surviv-
+ing player characters, with retainers* usually receiving a
+share (minus any advance payment already given them).
+Players may decide to only give magical items to charac-
+ter classes that could use them. For example, a fighter
+should take a magical sword as part of his or her share in
+preference to a scroll.
+Non-magical treasure is usually divided first, since it is
+easier to divide equally. It is seldom possible to divide
+magic items equally. A suggested solution to division of
+magic items is to have each character roll percentile dice
+and let the highest score have first pick, second highest
+score second pick, and so on until there are no more
+magical items. Retainers may, or may not, be given an
+equal chance for a magic item. If they are excluded, a DM
+should note the fact and take it into account when it next
+comes time to test the retainers’ loyalty.
+For example, a party consisting of a fighter, a magic-user,
+and a retainer (all first level) returns safely to the Keep. Their
+recovered treasure equals 520 gold pieces, 1000 silver
+pieces, a necklace worth 400 gold pieces, a sword 
++I and
+a ring of water walking. The total value of all non-magical
+treasure is 1020 gold pieces. Without selling the necklace, it
+would be impossible for the party to split the treasure
+4
+
+===== PAGE 7 =====
+equally. The two player characters compromise by giving
+the necklace to their retainer, to insure his loyalty with a
+greater share of treasure. They each take only 310 gold
+pieces, but the magic-user keeps the ring and the fighter
+keeps the sword.
+Experience points are awarded by the DM to player
+characters on the basis of non-magical treasure recovered
+and monsters killed or overcome. Experience points for
+recovered treasure are calculated at one experience
+point for every gold piece worth of non-magical treasure.
+Experience points for monsters overcome or killed is
+calculated by using the 
+Experience Points for Monsters
+chart in the DUNGEONS & DRAGONS Basic Set rulebook.
+Unless a player character has earned extra treasure
+through the use of his or her class abilities (for example, a
+thief who steals treasure which he did not report to the
+party), the DM should  
+divide the experience points
+earned through treasure recovery equally among all sur-
+viving party members. Since, in the above example, the
+entire party recovered 1020 gold pieces worth of non-
+magical treasure, the fighter and the magic-user each re-
+ceive 340 experience points for the treasure recovered. The
+retainer receives 1/2 normal experience, since he was only
+following orders, and not doing his own thinking. The re-
+tainer thus receives only 170 experience points for re-
+covered treasure.
+To recover the treasure, it was necessary for the party mem-
+bers to kill 19 orcs,  7 skeletons, and an ogre. The party
+should receive 10 points of experience for each orc  killed,
+as orcs  have 1 hit die. The party should receive 5 experi-
+ence points for each skeleton. For killing the ogre, they
+should receive 125 experience points, since it has 4 + 1 hit
+dice. The total experience points for defeating monsters
+would be 350. When this is divided, the magic-user and
+fighter each receive 117 additional experience points. The
+retainer  receives only one-half, 59 additional experience
+points. The total experience for each player character is
+457 (340 + 117) experience points apiece. The retainer re-
+ceives 229 experience points.
+When enough experience points are accumulated, a
+player character rises to the next higher level, and gains
+the benefits of that level (an additional hit die, a new spell,
+etc.). Wealth can be used to buy new equipment, to pay for
+everyday expenses, and to hire retainers.
+PREPARATION FOR THE USE OF THE MODULE
+The use of this module first requires that the DM be familiar
+with its contents. Therefore, the first step is to completely
+read through the module, referring to the maps provided to
+learn the locations of the various features. A second (and
+third!) reading will be helpful in learning the nature of the
+monsters, their methods of attack and defense, and the
+treasures guarded.
+Certain buildings of the KEEP will frequently be visited by
+the adventurers (such as the Travelers Inn, Tavern, and Pro-
+visioner). Floor plans are very useful in visualizing these
+areas. For information on their preparation, refer to the sec-
+tion entitled “Designing Floor Plans” near the end of the
+module.
+Once you are familiar with the areas described in the
+module and have drawn whatever additional plans you
+wish, assist the players in preparing their characters by
+reading them the section entitled 
+Background. This will set
+the stage for the game.
+After the background is given, the players may prepare
+their characters. Full details are given in the 
+D&D  BASIC
+SET rulebook. A written record of each character should be
+kept by the players.
+As an alternative to rolling up new characters, the players
+may (at the DM’s option) select characters from the NPC*
+list in this module. Note that the personalities given are for
+the DM’s use with NPC’s only, and are not to be used by the
+players.
+Before the Players enter the KEEP, the DM may privately give
+each Player one rumor about the CAVES OF CHAOS. This in-
+formation may be shared or kept secret, as the 
+players
+wish. The DM should avoid interfering with their choices
+whatever the result. Additional information may be
+gathered in the KEEP itself; use the 
+Rumors Table in the “DM
+Notes About the Keep” for this purpose, or create your own
+based on the CAVES.
+To start an adventure outside the KEEP, the players must de-
+cide on an order of march - who will be in the first rank,
+middle, and at the rear of the party. This should be drawn
+on a sheet of paper and given to the DM for his or her refer-
+ence. Any changes in the order (due to injuries, special
+procedures, etc.) should be noted on the sheet as they
+occur. In a standard 10’ wide corridor, the most common
+arrangement is two adventurers, side by side, in each rank;
+however, three characters could occupy a single rank if all
+of their weapons were small (such as daggers and hand
+axes).
+One player in the group should be selected as leader and
+‘caller’ for the party; another one or two should take care of
+necessary mapping. INDIVIDUAL PLAYERS MAY DECIDE ON
+THEIR ACTIONS, but it is the ‘caller’ who gives the DM the de-
+tails on the party’s course of action (such as “We’ll head
+down the eastern corridor.“). The caller should discuss the
+party’s actions with the players, and inform the DM of the
+decisions of the group. When a player speaks and in-
+dicates that an action is being taken, 
+it has begun - even
+if the player changes his mind. Use your discretion in these
+cases, and remember that the DM has the final say in all
+matters.
+The players should use graph paper to map the areas
+being explored. Have them indicate which direction is
+north, and use compass directions to describe details and
+direction of travel (“We’ll go west and turn north at the next
+intersection”). Use the same method to describe areas to
+them (“You see a corridor which goes about 30’ south and
+then turns west”). Be sure to keep your descriptions ac-
+curate, though you may say such things as ‘about forty
+feet’, especially in open areas or when describing irregular
+5
+
+===== PAGE 8 =====
+surfaces. Players will often show you their map and ask “IS
+this right?” Do not correct their mistakes unless the error
+would be obvious in the eyes of the adventurers, and re-
+member that, in most cases, maps do not have to be exact.
+Encourage good mapping skills and an attention to detail,
+and avoid falling into a rut of continually answering map
+questions.
+Exploration of the CAVES OF CHAOS will take more than one
+game session. When the players want to stop play, they
+must find an exit and (preferably) return to the KEEP. You
+may divide treasure and award experience when this
+occurs. Remember to make adjustments to the areas they
+visited 
+- the monsters may build new defenses, reoccupy
+areas that were cleaned out, and so forth.
+If the adventurers wish to stop exploring for a while and
+take a rest period (for example, the customary 8 hours rest
+each night), they should tell the DM exactly where they
+plan to stay and who is standing guard. Just as with march-
+ing order, it is important that the guard and sleeping posi-
+tions be noted on paper, since this may be crucial if and
+when a monster approaches.
+During play, make careful notes on the monsters killed, the
+amount of treasure taken, experience gained, and any
+other details of interest. It is then a simple matter to
+compute the totals at the end of a play session. See the
+section of this module entitled “DIVIDING TREASURE AND
+COMPUTING EXPERIENCE” for more information.
+BACKGROUND
+The Realm of mankind is narrow and constricted. Always
+the forces of Chaos press upon its borders, seeking to en-
+slave its populace, rape its riches, and steal its treasures. If
+it were not for a stout few, many in the Realm would indeed
+fall prey to the evil which surrounds them. Yet, there are al-
+ways certain exceptional and brave members of humanity,
+as well as similar individuals among its allies 
+- dwarves,
+elves, and halflings - who rise above the common level
+and join battle to stave off the darkness which would other-
+wise overwhelm the land. Bold adventurers from the Realm
+set off for the Borderlands to seek their fortune. It is these ad-
+venturers who, provided they survive the challenge, carry
+the battle to the enemy. Such adventurers meet the forces
+of Chaos in a testing ground where only the fittest will return
+to relate the tale. Here, these individuals will become
+skilled in their profession, be it fighter or magic-user, cleric
+or thief. They will be tried in the fire of combat, those who re-
+turn, hardened and more fit. True, some few who do survive
+the process will turn from Law and good and serve the
+masters of Chaos, but most will remain faithful and ready to
+fight chaos wherever it threatens to infect the Realm.
+You are indeed members of that exceptional class, ad-
+venturers who have journeyed to the KEEP ON THE BORDER-
+LANDS in search of fame and fortune. Of course you are in-
+experienced, but you have your skills and a heart that cries
+out for adventure. You have it in you to become great, but
+you must gain experience and knowledge and greater
+skill. There is much to learn, and you are willing and eager
+to be about it! Each of you has come with everything which
+could possibly be given you to help. Now you must fend for
+yourselves; your fate is in your hands, for better or worse.
+Ahead, up the winding road, atop a sheer-wailed mount of
+stone, looms the great KEEP. Here, at one of civilization’s
+strongholds between good lands and bad, you will base
+yourselves and equip for forays against the wicked mon-
+sters who lurk in the wilds. Somewhere nearby, amidst the
+dark forests and tangled fens, are the Caves of Chaos
+where fell creatures lie in wait. All this you know, but before
+you dare adventure into such regions you must become
+acquainted with the other members of your group, for each
+life will depend upon the ability of the others to cooperate
+against the common foe. Now, before you enter the grim
+fortress, is the time for introductions and an exchange of in-
+formation, for fate seems to have decreed that you are to
+become an adventurous band who must pass through
+many harrowing experiences together on the path which
+leads towards greatness.
+START:
+You have travelled for many days, leaving the Realm and
+entering into the wilder area of the Borderlands. Farms and
+towns have become less frequent and travellers few. The
+road has climbed higher as you enter the forested and
+mountainous country.
+You now move up a narrow, rocky track. A sheer wall of nat-
+ural stone is on your left, the path falling away to a steep
+cliff on the right. There is a small widening ahead, where
+the main gate to the KEEP is. The blue-clad men-at-arms*
+who guard the entrance shout at you to give your names
+and state your business. All along the wall you see curious
+faces peering down at you  
+- eager to welcome new
+champions of Law, but ready with crossbow and pole arm*
+to give another sort of welcome to enemies.
+(DM  Note: Have each player identify his or her character’s
+name and profession. Have them answer in their own words
+why they seek entrance to the place. If the answer sounds
+unnatural, assume the role of the corporal of the watch,
+and begin to cross-examine the speaker. Now is the time to
+make the players realize that whatever they say  
+- as
+speech or relating their actions - will be noted by you, as
+Dungeon Master, and acted upon accordingly in whatever
+role is appropriate to the situation. A courteous and full
+reply might well win a friend amongst the soldiers who
+might be of aid sometime. Rudeness and discourtesy may ,
+bring suspicion and enemies to trouble the course of things
+within the otherwise safe base area. When you are satisfied
+that the scene is played out, have the group enter.)
+DM Notes About The Keep:
+1.  This whole place is well-organized for security and for
+defense. In time of need, many civilians will arm and
+help man the walls, while non-combatants bring am-
+munition, food, and water to the walls and help the
+wounded. Sentries are alert. A party of guards patrols
+the walls irregularly, and a commander checks every
+half hour to hour. It is very unlikely that persons can
+enter or leave without being seen, unless magic is
+used. (You can have magical traps placed in key
+areas to shout “ALARM” whenever an invisible creature
+passes within 
+10'  or so!)
+Within the Keep itself, the townspeople are generally
+law-abiding and honest. Boorishness and ill manners
+will be frowned upon. If any member of a party should
+be caught in a criminal act, the alarm will be sounded
+instantly. Citizens will try to prevent the escape of any
+lawbreakers (without sacrificing their lives) until the
+guard arrives in 1-2 turns. If met with resistance, the
+guard will not hesitate to use force, even killing if they
+must. Those offenders taken prisoner will be locked in
+the dungeons under the Keep and punished for their
+crimes.
++ indicates a ballista,  a huge, heavy crossbow
+manned by two men. It fires like a crossbow, but has
+a range of 480 feet, hits as if it were fired by a fighter
+of Ist-3rd level, and does 2 six-sided dice of dam-
+age plus two points (4-14 points of damage per hit).
+6
+
+===== PAGE 9 =====
+Each ballista has 12 missiles. They may only be fired
+once every four rounds (requiring 3 rounds to load
+and 1 to fire).
++El indicates a light catapult with a range of 241 to 480
+feet which fires half as often as a ballista (once per 8
+rounds). Each requires two crewmen to operate, hits
+as if fired by a normal man, but can hit 1-6 targets in
+any close group (or one large target) for 1 six-sided
+die of damage each (6 dice if one large target).
+There is ammunition for six catapult shots per ma-
+chine.
+II. Floor plans might be useful. Note that most areas have
+two or more stories, and there is furniture in the rooms
+not shown. Also left out are details of heating, light, and
+descriptive touches such as color, rafters, decoration,
+etc. If you have time, floor plans and detailing of each
+area might be very helpful, exceptionally so in places
+frequented by the adventurers. See the appendix
+covering this near the end of the module.
+Ill. Information from inhabitants of the KEEP might be
+gained by player characters. You may give one rumor
+(at random, using d20)  to each player as starting in-
+formation Other rumors may be keyed to other persons
+in the KEEP. For example: “Talking with the Taverner
+(#15) might reveal either rumor #18 or #19;  he will give
+the true rumor if his reaction is good.”
+Do not give out all the rumors. You may add whatever
+false rumors you wish, but adding to the amount of true
+information is not recommended.
+The false rumors are noted by an ‘F’ after the number.
+1.
+2.F
+3.
+4.
+5.
+6.F
+7.
+8.
+9.F
+10.F
+II.
+12.
+13.
+14.F
+15.F
+16.
+17.
+18.
+19.F
+20.
+RUMOR TABLE
+A merchant, imprisoned in the caves, will reward
+his rescuers.
+A powerful magic-user will destroy all cave in-
+vaders.
+Tribes of different creatures live in different
+caves.
+An ogre sometimes helps the cave dwellers.
+A magic wand was lost in the caves’ area.
+All of the cave entrances are trapped.
+If you get lost, beware the eater of men!
+Altars are very dangerous.
+A fair maiden is imprisoned within the caves.
+“Bree-yark” is goblin-language for “we sur-
+render”!
+Beware of treachery from within the party.
+The big dog-men live very high in the caves.
+There are hordes of tiny dog-men in the lower
+caves.
+Piles of magic armor are hoarded in the southern
+caves.
+The bugbears  in the caves are afraid of dwarves!
+Lizard-men live in the marshes.
+An elf once disappeared across the marshes,
+Beware the mad hermit of the north lands.
+Nobody has ever returned from an expedition to
+the caves.
+There is more than one tribe of orcs  within the
+caves.
+IV. Entrance to the Inner Bailey* can be gained if the ad-
+venturers perform a heroic act in behalf of the KEEP, if
+they bring back an exceptional trophy or valuable
+prisoners, or if they contribute a valuable magic item
+or 1,000 or more gold pieces to the place. They will be
+invited to a feast and revel, and then closely watched
+and carefully questioned. If the Castellan’ likes the
+looks of the group, and his assistants agree, he will ask
+them to perform a special mission (suitable to their
+ability, but difficult 
+- use the area map or the Caves of
+Chaos to find a suitable goal). On the other hand, if
+they are rude or behave badly, he will simply retire
+early, ending the revel, and they will never be aided or
+invited back. If they try to steal or are threatening, the
+group will be attacked and killed immediately [if this
+can be managed, of course).
+Groups sent on a mission will be 
+blessed and given up
+to 100  g.p. each for any needed supplies. If they
+succeed, they will be given passes to the Inner Bailey
+and can ask the Castellan for aid if there is a major foe
+to overcome (in the 
+Caves’ area). He will send a mini-
+mum of one corporal and 3 archers in plate, or at maxi-
+mum the sergeant, a corporal, and a dozen 
+men-at-
+arms.
+V. After the normal possibilities of this module are ex-
+hausted, you might wish to continue to center the
+action of your campaign around the KEEP by making it
+the base for further adventures which you may devise.
+For example (assuming that the group has done good
+service for the Castellan), have a large force of bandits
+move into the area, and then appoint the group to
+command an expedition of KEEP troops, mercenaries,
+and so on to drive them away. Or the party might be-
+come “traders” operating out of the KEEP, hoping to
+find adventures as they travel in the surrounding area
+(for wilderness adventures see the 
+D&D@ EXPERT SET].
+7
+
+===== PAGE 10 =====
+AREAS OF THE KEEP
+1. MAIN GATE: Two towers 30’ high with battlements*,
+flank a gatehouse 20’ high. All have holes for bow and
+crossbow fire. A deep crevice in front of the place is
+spanned by a drawbridge (usually up). There is a
+portcullis’ at the entry and large gates at the far end of
+the passage. The passage is about 10’ wide and high,
+the ceiling above pierced with murder holes*, and
+walls to either side slitted for archery. It is obvious that
+the building is constructed of great blocks of the hard-
+est granite, undoubtedly common throughout the en-
+tire fortress. 
+ Two men-at-arms (AC 3, F I, hp 5, #AT I,
+D 1-6, ML 10) will approach when the drawbridge is
+lowered and the portcullis raised. Each is clad in plate
+mail and carries a pole arm*. They require that persons
+entering the KEEP put their weapons away, and then
+will escort them through the short tunnel into area 3..
+2. FLANKING TOWERS: Atop each tower are four cross-
+bowmen with crossbows cocked and ready to fire.
+Each is clad in chain mail (AC 5), wearing a sword and
+dagger, and has a shield (AC 4 when picked up) near-
+by. (AC 5 or 4, F I, hp 4, #AT 1 or 1/2 with crossbow, D 1-6,
+ML 10.) Inside each tower are 12 other men-at-arms, four
+being “on-duty” and armored and armed as the men-
+at-arms on the tower tops. The other eight in the tower
+are resting, and it will take one full turn for these men to
+ready themselves for battle. They are exactly like the
+others, except instead of crossbows, they carry long
+bows. (AC 5 or 4, F I, hp 4, 
+#AT  I, D 1-6, ML 10.) The three
+floors of these towers will contain supplies of bolts and
+arrows, spears, rocks, and several barrels of oil (all for
+hurling down on attackers). There will also be pallets*
+for sleeping, pegs with clothing belonging to the
+soldiers, and some small tables, stools, and benches.
+Each man-at-arms will have (d6) copper pieces and
+(d4) silver pieces on his person.
+3. ENTRY YARD: This narrow place is paved. All entrants,
+save those of the garrison, will be required to dismount
+and stable their animals (area 4., below). The 
+corporal
+of the watch is here. He is dressed in plate mail and
+carries a shield, with sword and dagger at his waist.
+(AC 2, F 2, hp 15, #AT I, D 2-7; his sword is a 
++1 magic
+weapon, ML II .) The corporal is rather grouchy, with a
+low charisma, but he admires outspoken, brave
+fighters and is easily taken in by a pretty girl. Beside
+him is a man in robes (a scribe) who records the name
+of each person who enters or leaves, and flanking
+each man is another man-at-arms in plate with pole
+arms as noted in 
+I., above. (AC 3, F I, hp 5, #AT 1, D 1-6,
+ML 10.) When dismounted, lackeys* will come from
+area 4. (the stable) to take the mounts or mules. Any
+goods which are not carried by the adventurers will be
+stored in area 5. (the warehouse). Another lackey will
+then show travelers to the Traveler’s Inn.
+4. COMMON STABLE: This long building is about 15’ high,
+with a 3’ parapet* atop its flat roof, so that it can be
+used in defense of the gate. The  gateside  wall is
+pierced for archery. There are always 5-8 (d4 + 4)
+lackeys inside tending to horses and gear. Each is un-
+armored (AC 9) but can fight with various available
+weapons (pitch forks and the like 
+- treat as pole arms)
+and each has 1-4 hit points. There will be various light
+horses (AC 7, HD 2, hp 8 each, #AT 2, D I-411-4, ML 7)  and
+draft horses (AC 7, HD 2 + 1,  hp 9 each, #AT 0) here, 2-8 of
+each, as well as 1-4 mules.
+5. COMMON WAREHOUSE: Visiting merchants and other
+travelers who have quantities of goods are required to
+keep their materials here until they are either sold to
+the persons at the KEEP or taken elsewhere. The build-
+ing is the same as the stable (4., above) with respect to
+height, parapet, etc. Its double doors are chained and
+padlocked, and the 
+corporal of the watch must be
+called to gain entry, as he has the keys. Inside are two
+wagons, a cart, many boxes, barrels, and bales  
+-
+various food items, cloth, arrows, bolts, salt, and two
+tuns’ of wine. (Average value is 100 gold pieces per
+wagon-load).
+6. BAILIFF’S TOWER: The superintendent (or bailiff) of the
+outer bailey* of the fortress lives here. (AC 1, F 3, hp 22,
+#AT  I, D 2-7 due to sword +1, ML 12.) He is wearing
+magic plate mail +1 or wields a sword +1, and is also
+able to use a longbow which is hanging on the wall. He
+and the scribe share offices on the lower floor. Their
+quarters are on the second story. (Usual furnishings of
+bed, chest, armoire*, table, chairs, rug, etc.) (The bailiff
+has 3d6 gold pieces with him always, the scribe has
+2d6 silver pieces and d4 gold pieces in his purse. There
+are 50 gold pieces hidden in the bailiff’s old boots in
+the armoire*, and hanging on his wall is a quiver with
+20 arrows, 3 of which are magic 
+arrows +1. The scribe
+has a jewelled  ink pot worth 100 gold pieces, but it is
+dirty and ink covered, looks worthless, and is on his
+table in plain sight.) The third floor is a storage area,
+and the fourth story quarters twelve men-at-arms. Six
+are armored in leather and shield (AC 6) with pole arm
+and hand axe, the other six have chain mail (AC 5),
+crossbow, and sword and serve as the escort of the
+bailiff from time to time. (F I, hp 4, 
+#AT  I, D 1-6, ML IO.)
+Each carries 2d6 copper pieces and 1d6 silver pieces.
+Their room contains pallets, pegs with cloaks and other
+clothing, two long tables with benches, a supply of 180
+bolts, and several dozen large rocks. The whole tower is
+40’ high, with a 5’ tall battlement atop it. All walls are
+pierced for archery.
+7. PRIVATE APARTMENTS: Special quarters are available
+for well-to-do families, rich merchants, guildmasters,
+and the like. The five small apartments along the south
+wall are occupied by families of persons dwelling
+within the Outer Bailey of the KEEP. The two large ones
+(indicated by  
+7a. and 7b.) currently house a jewel
+merchant and a priest:
+a. Jewel Merchant: This normal man and his wife are
+guarded by a pair of 2nd level
+fighters in chainmail and shield with
+sword and dagger. (AC 4, F 2, hp 17,
+12, 
+#AT  I, D l-6, ML 8.) The four are
+lodged in the eastern portion of the
+building, the merchant and his wife
+being on the upper floor most of the
+time. Each guard commands a
+huge dog trained to kill. (AC 6, HD 3,
+hp 12, II, #AT I, D 1-6, MV 
+(60’) Save
+F 2, ML 9.) The merchant has a
+locked iron box with 200 platinum
+pieces and 100 gold pieces inside.
+Secreted in his belt are 10 gems of
+100 gold piece value each. He will
+buy gems at 60% to 90% (d4 x 10 +
+50%) of value. He sells at 110% to
+140% (d4 x 10 + 100%) of value. His
+wife wears a jeweled bracelet,
+necklace, and earrings (600, 1,200,
+and 300 gold piece value respec-
+tively), also available for sale as per
+gems. They are awaiting a caravan
+back to more civilized lands. All per-
+sons here have  3d6 silver pieces
+each upon their person. The 
+apart-
+8
+
+===== PAGE 11 =====
+ment is well-furnished, but there is
+nothing of particular interest or
+value, except for the coins, gems,
+and jewelry noted.
+b.  Priest: The western portion houses the jovial priest who
+8.
+9.
+is taking advantage of his stopover at the KEEP
+to discuss theology with learned folk and to
+convert others. Everyone speaks well of him, al-
+though the two 
+acolytes with him are avoided,
+as they never speak - the priest says they must
+follow vows of silence until they attain priestly
+standing. His well-appointed chambers are
+comfortably furnished and guests are always
+welcomed with a cozy fire and plenty of ale or
+wine. The priest is a very fine companion and
+an excellent listener. He does not press his
+religious beliefs upon any unwilling person. He
+is outspoken in his hatred of evil, and if ap-
+proached by a party of adventurers seeking the
+Caves of Chaos, he will certainly accompany
+them. He has plate mail +1 and a shield +1
+(AC -1) and a mace +1, and has a Dexterity of 15
+(thus the low AC). He also has a magic cleric
+scroll with a  
+hold person and a silence, 15’
+radius spell on it. He appears very robust (18 hit
+points), as do his assistants. The latter wear
+chain mail, carry shields and have maces. (AC
+4, C I, hp 7 each, #AT  1, D 1-6, ML 7.)  (Note: All
+are chaotic and evil, being in the KEEP to spy
+and defeat those seeking to gain experience
+by challenging the monsters in the 
+Caves of
+Chaos. Once in the caves the priest will use a
+cause light wounds (does 2-7 points of damage
+to the creature touched, a normal “to hit” roll
+must be made to touch the victim) or a light
+spell as needed to hinder and harm adventur-
+ers. Betrayal will always occur during a crucial
+encounter with monsters.) Each cleric carries
+4d6 silver pieces, and each wears a gold chain
+worth 100 gold pieces (the 
+priest’s has a blood-
+stone gem worth 500 gold pieces in addition). (A
+small sack hidden in the priest’s chair contains
+30 each of platinum, gold, electrum, silver, and
+copper pieces, plus one jeweled clasp worth
+300 gold pieces. These are for bribes for sub.
+version or to use to gain freedom if necessary.)
+SMITHY AND ARMORER: This building is about 20’ high,
+with the usual 5’ parapet above and walls pierced for
+defense. The lower floor is occupied by a forge, bel-
+lows, and other items. Here horses and mules are shod,
+weapons made, armor repaired and similar work
+done. The smith is also an armorer, and has two assist-
+ants. (Smith: AC 7 from leather armor, 
+F 1,  hp 11, #AT  1,  D
+1-6; he uses his hammer as a weapon, ML 8. His two as-
+sistants: AC 8, LVL 0, hp 5 each, #AT 1, D 1-6; they will
+pick up any weapons handy if need be, ML 8.) There
+are 2 swords, 1 mace, a suit of man-sized chain mail,
+and II finished spears in the shop. In the second story
+are rooms where the smith, his family, and his assistants
+live. (The rooms have normal furnishings, but a jar
+hidden in the smith’s bedroom holds 27  
+electrum
+pieces.) The smith carries d4 gold pieces, and each as-
+sistant has 2d6 silver pieces.
+PROVISIONER: This low building houses a shop where
+all of the equipment needed for dungeon adventurers
+(as listed in the rulebook) are sold. He does not sell
+weapons other than spears, daggers, arrows and bolts.
+He has a few (7) shields, but does not sell armor or
+mounts. He will direct any persons interested in such
+items to the trader next door. Prices are as shown in the
+10.
+11.
+9
+rules. He will buy equipment from adventurers at 50% of
+listed price. The provisioner is a normal man: in time of
+need he has leather armor and shield (AC 6) and will
+man the walls or otherwise fight with a spear. (In the
+shop he is AC 9, LVL 0, hp 3, 
+#AT  1, D 1-6, ML 7.) His wife
+and two children live in a small apartment in the place.
+He carries d6 gold pieces. He has a strong box with 100
+gold pieces, 16  
+electrum  pieces, and 30 copper
+pieces.
+TRADER: This place deals in all armor, weapons, and
+large quantities of goods such as salt, spices, cloth,
+rare woods, etc. The trader is very interested in obtain-
+ing furs. (Prices are as per the rulebook, purchases 
+from
+adventurers are at 50% of listed cost, except for furs
+which will be bought by him at whatever their stated
+value is 
+if the seller demands.) He is a normal man (AC
+9. LVL 0, hp 2, #AT  1,  D 1-6, ML 7); his two sons are likewise
+(AC 9, LVL 0, hp 3 each, #AT 1, D l-6, ML 7). All have
+leather armor and shields (AC 6) and pole arms and
+swords for use when necessary. [Hidden under the floor-
+boards of their small apartment are 500 gold pieces
+and 1,110 silver pieces. Each carries 2d6 gold pieces in
+his purse.)
+LOAN BANK: Here anyone can change money or gems
+for a 10% fee. The banker will also keep a person’s
+wealth stored safely at no charge if it is left for at least
+one month, otherwise there is a 10% fee. Loans at an
+interest rate of 10% per month can be obtained for up
+to 5 gold pieces with no security deposit; over 5 gold
+pieces requires some item of at least twice the value of
+the loan. A sign on the shop states clearly that this
+place is under direct protection of the KEEP, and there
+is always a man-at-arms in chain mail with long bow
+and sword watching the place from tower 
+12.. (AC 5, F
+I, hp 4, #AT  1, D l-6, ML 10.) (The banker is a retired 3rd
+level fighter (AC 9, F 3, hp 12, #AT  1, D 1-6, ML 9) with a
+sword handy, and plate and shield (AC 2) stored in his
+apartment above. He carries 6 platinum pieces and 12
+gold pieces with him.) There is a scrawny old clerk in
+the place as well (2nd level magic-user, 5 
+hit points,
+with sleep and ventriloquism spells ready) who
+typically handles transactions. A hired mercenary
+fighter (AC 3, F 1, hp 7, 
+#AT  1 or 1/2 with crossbow, D 1-6,
+ML 8) in plate mail and armed with battle axe and
+crossbow is on guard inside the door. Displayed for
+sale are the following items:
+1 carved ivory tusk - price 50 g.p.
+1 silver cup - 20 g.p.
+1 crystal decanter* - price 45 g.p. (actual worth 10
+g.p.)
+1 jade ring - price 250 g.p. (actual worth 400 g.p.)
+1 dagger with jeweled scabbard - price 600 g.p.
+1 fur-trimmed cape - price 75 g.p.
+3 blank vellum* books - price 20 g.p. each
+1 gold &silver belt - price 90 g.p.
+1 set of thief’s tools - price 100 g.p. (actual worth 35
+g.p.)
+1 iron box with secret lock - price 50 g.p.
+The strong room of the place is in the cellar. It is pro-
+tected by a locked iron door which leads to a small
+vault with 12 compartments each protected by locks
+with hidden poison needles (save versus Poison at 
++1
+or die). These compartments hold the following items:
+#1,
+ #4, #11  empty
+#2 has 277 g.p. and 1 gem worth 500 g.p.
+#3 has a gold altar service set forth 6,000 g.p.
+
+===== PAGE 12 =====
+#5
+#6
+#7
+#8
+#9
+is trapped with a sleeping gas - no save, sleep for
+3 turns; characters above 4th level save vs. Poison
+to avoid effect.
+has 1,000 each platinum, gold, electrum, silver and
+copper pieces.
+has four pit vipers (AC 6, HD 1 
+l , hp 5 each, #AT 1,  D
+1-4 plus poison, MV (30’) Save F 1, ML  7).
+has 3 gems of 1,000 g.p. value, 4 of 5OO g.p.,  II of
+100 g.p., 25 of 50g.p., and 18 of 10 g.p. value.
+has an arrow trap which will always hit anyone in
+front if its door - 4 arrows each doing 1-6 points of
+damage (Divide arrows amongst persons in front).
+12.
+13.
+14.
+15.
+#10  has an alabaster and gold statue worth 3,000 g.p.
+in a rare wood and silk case worth 600 g.p.
+#I2 has a sack with 58 platinum pieces and 91 elec-
+trum pieces in it.
+(Empty compartments indicate funds out on loan. Bold-
+faced numbers are those belonging to the banker.)
+WATCH TOWER: This 45’ tall tower has all of the usual
+defensive devices. It houses six men-at-arms in chain
+mail (AC 5) with bows and swords, 6 others in leather
+and carrying shields (AC 6) and pole arms 
+(F  I, hp 4
+each, #AT I, D 1-6, ML IO), and the captain of the watch
+(AC 2, F 3, hp 20, #AT  1, D 2-7 with dagger +1, or 3-8 with
+sword +2,  ML II). The captain lives on the first floor
+(with the usual furnishings, but he has a silver flagon
+and tankard worth 750 g.p.). He is known to carry quite
+a bit of money with him (20 platinum pieces, II gold
+pieces, 8 silver pieces), although the soldiers have only
+small coins 
+(2d6  silver pieces each). The second and
+third floors are barracks for the men-at-arms. The upper
+story holds a supply of 200 arrows, many rocks, 2 barrels
+of oil, and 24 spears.
+FOUNTAIN SQUARE: There is a large, gushing fountain
+in the center of the square. On holidays, local farmers
+and tradesmen set up small booths to sell their goods in
+this place.
+TRAVELERS INN: This long, low structure has five small
+private rooms and a large common sleeping room for
+a full dozen. (Servants and the like always sleep in the
+stables, 4., of course.) Private rooms cost 1 
+g.p.  per
+night, but sleeping in the common room is only 1 silver
+piece per night. The innkeeper and his family live in a
+small loft above the inn. They are obviously normal
+persons of no fighting ability. This building is some 18’
+high.
+TAVERN: This place is the favorite of visitors and inhabi-
+tants of the KEEP alike. The food is excellent, the drinks
+generous and good. The place is always active, with
+4-16 
+(4d4)  patrons at any time of day or night. The bill of
+fare reads:
+ALE 1 e.p. SOUP 1 s.p.
+SMALL BEER 1 s.p. STEW 1 e.p.
+WINE 1 e.p. ROAST FOWL 1 g.p.
+HONEY MEAD 1 g.p.
+BARK TEA 1 s.p.
+ROAST JOINT  2 g.p.
+1 e.p.
+BREAD 1 c.p./slice CHEESE 1 s.p./wedge
+PUDDING 1 s.p./bowl FRUIT 1 s.p.
+The barkeep, if talking with a good customer and drink-
+ing to his health, will sometimes talk about the lands
+around the keep (1 drink per story, half of which may be
+true). He is known to hate small beer and love honey
+mead. There is a 50% chance that 2-5 (d4 + I) of the
+patrons will be mercenary men-at-arms looking for
+work. (AC 6, F 1, hp 5 each, #AT I, D 1-6, ML 7.) Each will
+have leather armor 
+& shield, and sword and dagger;
+16.
+17.
+GUILD HOUSE: When members of any guild (merchants,
+craft, artisans, etc.) travel to this area, they are offered
+the hospitality of this two-story building. This is a fee col-
+lection and administragive post, and the staff is careful
+to observe what traffic passes through the KEEP. Any
+trader who passes through must pay guild dues of 5% of
+the value of his merchandise, but he then gains the
+protection of the Guild House, assuming he is not a
+regular member. Craftsmen and artisans must gain
+Guild permission to enter or leave the land, paying a
+fee of 2d6 gold pieces either way (depending on the
+value of their trade). The lower floor contains the Guild
+Master’s and his two clerks’ quarters and an office (all
+sparsely furnished, but the Master has a gold ring worth
+50 g.p., and 2d6 g.p. in his purse; each clerk has d4
+each of gold, silver, and copper pieces. A strongbox
+under the Master’s bed holds 712 gold pieces.) They
+are normal men (AC 9, LVL 0, hp 4 each, 
+#AT  1,  D 1-6, ML
+7), with chain mail (AC 5),  crossbows, and swords kept in
+a closet for quick use. There are two servants who will
+not fight and who have quarters in the cellar. The upper
+floor is divided into two private rooms and a dormitory
+for guests. The Master is very influential, and his favor or
+dislike will be reflected in the treatment of persons by
+fortress personnel. Four men-at-arms with leather armor
+and shields and armed with spear and sword are on
+duty at all times, two on the first floor, two above (AC 6, F
+1, hp 6 each, #AT I, D 1-6, ML 8). They are fanatical
+Guildsmen who will obey any order from the Master.
+Guests of the Guild eat here. Drinking is frowned upon.
+CHAPEL: The spiritual center of the Keep is opposite the
+Guild House. This building has a peaked roof two stories
+tall; the interior is one large room. The altar is located
+at the eastern end, with a colored glass window (worth
+350 g.p. intact) above it; the window is 20’ tall and 8’
+wide. An offering box is fastened securely atop a heavy
+pedestal in the southeast corner; it contains l-100 c.p.
+all other desired equipment must be purchased by the
+employer, including missile weapons, and dungeon
+gear. Wages for duty include all gear purchased, room
+and board, and 1 
+s.p.  per day of service. If no gear is
+purchased, the cost rises to 1 g.p.  per day. (Note that a
+mere spear or minor equipment is considered as no
+gear.) It is always necessary to buy mercenaries a drink
+before discussing terms of employment. There is a 10%
+chance that each of the following persons will be in the
+tavern at any given time:
+CORPORAL OF THE WATCH
+CAPTAIN OF THE WATCH
+BAILIFF (see 
+6., above)
+PRIEST (see 7b., above)
+2-4 WATCHMEN (see 12., above)
+SERGEANT OF THE GUARD (see 18., below)
+WANDERER (a 2nd or 3rd level fighter, dwarf, elf, or
+halfling  as the DM decides, with complete equipment
+for adventuring; such a wanderer is 75% likely to join
+an expedition if offered 25% of the treasure gained, but
+1 in 6 will be of chaotic alignment).
+The taverner is a normal man (AC 9, LVL 0, hp 6, #AT 1,  D
+1-6, ML 7), as are his son and the pot boy’ (AC 9, LVL 0,
+hp 5, 2, #AT 1, D 1-6, ML 7), but in time of need they will
+don leather armor, carry shields (AC 6), and bear arms
+against attackers. The place is also served by his wife,
+daughter, a serving wench, and a scullion*. (The owner
+and his son each have 2d6 gold pieces in their purses,
+the wife 
+d6, all others have 2d6 coppers.) The cellar is
+where drink and food are stored and prepared, and
+where the servants sleep. The family sleeps in the small
+loft. (Hidden in an old crock under empty flour bags in
+the back room are 82 copper pieces, 29 silver pieces,
+40 
+electrum  pieces, and 17 gold pieces.)
+10
+
+===== PAGE 13 =====
+18.
+and 1-100 s.p.  at any time of the day. It is emptied each
+evening by the Curate (5th level cleric), who deposits
+the coins with the Banker (11., above). A small stairway
+in the northwest corner, behind the bare wooden pews,
+leads to the cellar, where the Curate and his three as-
+sistants have their quarters.
+The Curate is the most influential person in the Keep ex-
+cept for the Castellan (26., below). He has a + 1 ‘to hit’,
+due to his high level; (AC  0 due to  plate mail $1,
+normal shield, and a ring of protection +1, C 5, hp 24,
+#AT I, D see below, ML 10). He will wield either a mace
++ 1 (D2-7)  or a snake staff. The snake staff adds + 1 to
+“to hit” rolls and does 2-7 (1d6+1)  points of damage.
+On command the staff turns into a snake and coils
+around the person hit. The victim is held helpless until
+The Curate recalls the staff (or for 
+1d4 turns maximum).
+The snake staff crawls back to the cleric on command.
+He rarely wears his armor (unless the Keep is threaten-
+ed), but is never without his ring and Staff. His three
+Acolytes (AC 9 or 2, C I, hp 6, 5, 5, #AT  I, D 1-6, ML 7)
+have plate mail and shield (AC 2) and mace. They are
+normally clothed in robes (AC 9) but will arm for battle
+on command of the Curate.
+The Curate normally carries the following spells: cure
+light wounds, detect magic, bless, hold person.  He
+will only use the cure on a member of his congrega-
+tion, such as an officer of the Guard or a shopkeeper.
+All of the clerics’ armor and weapons are stored in the
+Curate’s locked room in the Chapel cellar, which has
+normal but sparse furnishings. The Chapel also owns
+many magic potions 
+(3 of healing, 1 or ESP, 1 of gase-
+ous form) and a magic scroll with one cure disease (a
+higher level spell which will cure any one normal
+disease), one  hold person,  and three  cure light
+wounds spells on it. All of these magic items are hidden
+in a secret compartment underneath the offering box
+pedestal. The door of the compartment cannot be
+found unless the pedestal is moved. The door has two
+locks in it; the Curate and the Castellan have the only
+sets of keys.
+If questioned closely by a friend, the Curate might (50%
+of the time) reveal his distrust of the Priest (7b.,  above)
+who visits the Keep regularly. The Acolytes, however,
+think very highly of the Priest, and will say so to any who
+ask about him.
+INNER GATEHOUSE: This stone structure is itself like a
+small fort. The southern portion is only about 15’ high,
+plus battlement; the rear part is some 30’ tall, plus bat-
+tlement. There are arrow slits in the southern section of
+course, and along the walls of the 20’ wide, 10’ high
+passage through to the north. This passage slopes up-
+wards towards the inner courtyard. The heavy gates
+are doublebound with iron and spiked. There are six
+guards on duty at all times (two inside the gateway, two
+on the lower battlement, two on the upper), plus one of-
+ficer on call (see below). No visitor is allowed beyond
+this point except by invitation or unless he or she has
+special permits.
+The first floor of the place is the main armory. There are
+dozens of shields and of each sort of weapon.  
+Two
+small  rooms are quarters for the Sergeant and Captain
+of the Guard (furnishings are sparse). The second story
+on the north houses the Guardsmen stationed here.
+Captain of the Guard: (AC 0, due to plate mail + I and
+shield +1, F 3, hp 24, #AT I, D 1-6 plus magical bonus,
+ML II). He has a sword +2 and a spear +1. This man is
+very kind, friendly and an excellent leader. (He will
+sometimes move about in the Outer Bailey disguised as
+a mercenary.) He has 15 gold pieces and a 150 g.p.
+II
+19.
+20.
+21.
+22.
+23.
+gem in the pommel* of his dagger.
+Sergeant of the Guard: (AC 2, due to chain mail with a
+shield +1, and a ring of protection +1, F 2, hp 16, #AT
+1,  D 3-8 due to Strength plus magic weapon bonus, ML
+11.) This very strong fellow (strength 17) is a hard fighter
+and loves to drink and brawl He wields a sword +1
+and a dagger +1. He carries d6 each of gold, elec-
+trum, and silver pieces. (There is a potion of healing in
+a chest in his room under a spare cape.)
+Guardsmen: There are 24 quartered here. Each has
+chain mail and shield, sword, dagger, and hand axe.
+Eight are crossbowmen, eight are long bowmen, and
+eight have pole arms. (AC 4 or 5 when not using shield,
+F I, hp 5 each, 
+#AT  1 or 1/2 for crossbows, D 1-6,  ML 10.)
+Two from each group are on duty at any given time; the
+rest take a full turn to armor and arm and turn out. (Each
+has 2d6 silver pieces.)
+SMALL TOWER: This typical tower houses eight guards-
+men who are all armored in chain mail (AC 5) and car-
+ry crossbows and swords. Shields are stored below, so
+in hand-to-hand combat they are AC 4. (AC 5 or 4, F I,
+hp 5 each, #AT 1 or 
+1/2 for crossbows, D I-6, ML IO.) Two
+are on duty atop the tower at all times. The other six are
+in the chamber below. The base of the tower is solid ex-
+cept for the small stair up.
+GUARD TOWER: This 50’ high structure houses 24
+guardsmen (as in 18.,  above). Their commander is the
+corporal of the guard (AC 0, F I, hp 9, #AT  I, D 1-6 plus
+magic bonus, ML II.) He is armed with a sword and a
+dagger +1. There are supplies of food, weapons, and
+oil on the upper floor. The rest of the building is bar-
+racks and a room for the leader.
+INNER BAILEY: This entire area is grass-covered. The
+troops drill here, and there are practice and jousting
+areas. During the daylight hours they will always be a
+dozen or more soldiers engaged in weapons practice.
+CAVALRY STABLES: There are 30 war horses (AC 7, HD 3,
+hp II each, #AT  2, D I-611-6, ML 8) and 1-4 riding horses
+(AC 7, HD 2, hp 8 each, #AT 2, D I-411-4, ML 7)  kept within.
+They are tended by two lackeys’ (AC 9, LVL 0, hp 2
+each, 
+#AT  1, D I-6, ML 7) and guarded by two men-at-
+arms (AC 4, F 1,  hp 4, #AT I, D 1-6, ML 8).
+GREAT TOWER: This 60’ high structure houses 24 guards-
+men, one-third with crossbows, one-third with bows,
+one-third with pole arms, and another 
+corporal as per
+20., above. (See 18. for tower details and so on.)
+24. THE KEEP FORTRESS: This place has many tiers and is
+solidly built to withstand attack. The lowest level con-
+sists of a 15’ high front section. The round flanking
+towers are 60’ high, while the main building is 30’ high.
+All sections have battlements. The door is solid iron, In-
+side are a great hall, an armory for the cavalry, and
+several side chambers for small dinners or meetings.
+The cellars below have vast stores of provisions,
+quarters for a score of servants, a cistern*, and a dun-
+geon area with four stout cells.
+The Castellan’ lives in area 27. (see below), but he and
+his assistants will be in the lower part of the building
+during the day, tending to business and holding audi-
+ence. There will always be eight guardsmen in plate
+(AC 3) with crossbows and swords on duty on the wall,
+and the same number with plate 
+& shield (AC 2) and
+swords stationed inside. (AC 2, F 1,  hp 5 each, #AT 1 or 1/2
+with crossbows, D I-6, ML 8.) The whole place is well
+decorated, and the furniture is heavy and upholstered.
+Second Floor: There are rooms here for up to 36
+cavalrymen, plus two chambers for special guests.
+There are 12 heavy cavalrymen with plate &shield and
+
+===== PAGE 14 =====
+sword and dagger (AC 2, F I, hp 8 each, #AT 1, D I-6,
+ML 10). There are also 18 medium cavalrymen in
+chain, each with crossbow and axe, quartered here.
+(AC 5, F I, hp 6 each, #AT I or 
+1/2 for crossbows, D 1-6,
+ML 10.) Their rooms are sparsely furnished with only
+a cot, chair, and armoire* for each. Two couriers,
+men-at-arms with leather armor and swords, are
+currently quartered in one side chamber. (AC 7, F I,
+hp 3, #AT  1,  D 1-6, ML 8.)
+25. TOWER: Each is 40’ high, with battlements, and pierced
+with arrow slits to protect the east and west corners of
+the building. The fortress men-at-arms are housed in
+these structures and in the towers indicated by 26.
+26. CENTRAL TOWERS: These structures rise 20’ above the
+roof of the fortress, with a 5’ battlement on their roof.
+Their two upper stories house 12 men-at-arms each; 6 in
+plate (AC 3) with crossbow and sword, 6 in plate and
+shield (AC 2) with sword (AC 3 or 2, F I, hp 5, #AT  1 or 1/2
+for crossbows, D 1-6, ML IO) who are off-duty. It will take
+one turn for them to get ready for battle. In the two
+lower floors are the  Castellan’s  assistants.
+Scribe: This individual is a 2nd level cleric, armored in
+plate & shield, with a mace. (AC 2, C 2, hp II,
+#AT I, D I-6. ML 8.) He has a hold person spell
+on a scroll he carries; his own spell is light
+which he may cast on an opponent’s eyes to
+blind him. The scribe’s chamber is austere,
+and there is nothing of value within except a
+gold holy symbol worth 150 gold pieces. He
+has 48 gold pieces in his purse.
+Advisor: This individual is a third level elf (AC 0 due to
+Dexterity 16 and plate mail +1, E 3, hp 18, #AT
+1, D 1-6, ML 12). He wears a ring of fire resist-
+ance and carries a short bow (which he uses
+at + 2 “to hit” due to high Dexterity) and 10 ar-
+rows +1. His spells are charm person, read
+magic, and web. Tapestries and carpets are
+all about the room (one tapestry is worth 500
+g.p.); he has very nice furniture. He wears a
+jeweled pendant worth 1,000 g.p. and carries
+6 platinum and 10 gold pieces in his purse.
+27. CASTELLAN’S  CHAMBER: This portion of the fortress is
+10’ above the main roof and has battlements. Inside is
+the private room of the commander of the whole Keep,
+It is lavishly furnished, with a silver mirror (worth 300 g.p.)
+on the wall, a malachite bowl (worth 750 g.p.) on a
+table, and a fox robe (worth 1,200 g.p.) in his armoire*.
+He has a small silver case (worth 450 g.p.) which con-
+tains 40 platinum pieces and 12 gems worth 100 g.p.
+each. There is a spear +1 on the wall by the door.
+Castellan: 6th level fighter (+ 1 to hit due to his high
+level), (AC -3 due to Dexterity 16, plate mail
++ 1, shield + 1, and ring of protection + 1,
+hp 48, #AT I, D I-6 plus magical bonus, ML
+12) with  sword +2, dagger +1, and an
+elven cloak and boots. (He also carries a
+potion of levitation and a potion of heal-
+ing with him at all times.) His chain of office
+is silver with gems (worth 1,800 g.p.), and he
+carries 10 each of platinum, gold, and
+electrum  pieces, plus a gem worth 500 g.p.
+He is a very clever fellow, but at times he
+can be too hasty in his decisions. His
+bravery and honesty are absolute. If a
+guest asks him any question, he will do his
+best to answer, providing that it does not
+compromise the security of the KEEP.
+ADVENTURES OUTSIDE THE KEEP
+After the group establishes itself and obtains equipment,
+they will either follow clues gained in conversation with res-
+idents of the KEEP or set out exploring on their own (or both).
+Naturally, they will be trying to find the Caves of Chaos, but
+this will take some travelling, and in the meantime they
+might well run into more than they can handle. Thus there
+are two maps 
+- an AREA MAP for use when the party
+searches for the caves, and the CAVES OF CHAOS MAP
+which is a dungeon level map. First, take a look at the AREA
+MAP.
+The “Realm” is to the west, off the map. The road branches,
+one path to the KEEP ON THE BORDERLANDS, the other lead-
+ing off into the forsaken wilderness beyond the ken of Law.
+Note that most features are unnamed, so you can name
+them as suits your campaign. Inspection of the map will
+also show that there are five special areas. Numbers 1-4
+indicate outside encounters and are detailed below. The
+Caves of the Unknown area is left for you to use as a place
+to devise your own cavern complex or dungeon maze. You
+may also wish to expand on the other encounter areas, de-
+signing camps, lairs or lost ruins to permit more adventur-
+ing. If you do not wish to undertake this at first, simply DO
+NOT ALLOW YOUR PLAYERS TO LOCATE IT EVEN IF THEY THOR-
+OUGHLY SEARCH THE VERY SPACE IT IS IN. (It was hidden by a
+magical illusion so as to be undetectable . . . 
+)
+The normal movement rate is 1 square per hour searching,
+3 walking. Walking in the fens is at the rate of 1 square per
+hour. Walking is done in the forest at 2 squares per hour.
+(Wilderness adventures are more completely explained in
+the 
+D&D EXPERT SET rulebook.)
+Camping Outdoors Overnight: Nothing will bother the
+party when camped outdoors, unless they are within six
+squares of a numbered encounter area. For each square
+they are within the six square range there is a 1 in 6 chance
+that the monsters there will seek them; so at 6 squares there
+is a 1 in 6 chance, at 5 there is a 2 in 6, at 4 there is a 3 in 6, at
+3 there is a 4 in 6, at 2 there is a 5 in 6 and at I square a 6 in 6
+- automatic encounter. Treat otherwise as a normal en-
+counter.
+Organized parties should post at least one guard in shifts
+throughout the night. However, if the party posts no guards,
+the monsters will surprise automatically as the party was
+sleeping and unaware. If the party has a fire lit, the mon-
+sters will never be surprised, even though the party may be.
+Also take note of what provisions are brought with the party.
+They are adventuring, not hunting, and so they should not
+expect to find food. They should bring enough food and
+water with them. If not, when the party eats all the food, they
+will either have to try their luck at hunting (1 chance in 6 to
+catch food for 
+one day for d6 men), or return to the Keep to
+restock their supplies. Stress to them in some manner that
+they will probably prefer to return to the Keep, knowing that
+they will fare better there, and not risk encountering mon-
+sters while hunting.
+If the party attempts to move off the map, have a sign, a
+wandering stranger, a friendly talking magpie, or some
+other “helper” tell them that they are moving in the wrong
+direction.
+Area Map Encounter Areas:
+1. MOUND OF THE LIZARD MEN: The streams and pools of
+the fens* are the home of a tribe of exceptionally evil
+lizard men. Being nocturnal, this group is unknown to
+the residents of the KEEP, and they will not bother
+individuals moving about in daylight unless they set
+foot on the mound, under which the muddy burrows
+and dens of the tribe are found. One by one, males will
+12
+
+===== PAGE 15 =====
+come out of the marked opening and attack the party.
+There are 6 males total (AC 5, HD 2 + 
+1,  hp 12, 10, 9, 8, 7,
+5, #AT  1, D 2-7, MV (20’) Save F 2, ML 12) who will attack. If
+all these males are killed, the remainder of the tribe will
+hide in the lair. Each has only crude weapons: the larg
+est has a necklace worth 1,100 gold pieces.
+In the lair is another male (AC 5, HD 2 + 1,  hp 11, #AT  1,  D
+2-7, Save F 2, ML 12)  3 females (who are equal to males,
+but attack as I + 1 hit dice monsters, and have 8, 6 and
+6 hit points respectively), 8 young (with 1 hit point each
+and do not attack), and 6 eggs. Hidden under the nest
+with the eggs are 112 copper pieces, 186 silver pieces,
+a gold ingot worth 
+90 gold pieces, a healing potion
+and a poison potion. The first person crawling into the
+lair will always lose the initiative to the remaining lizard
+man and the largest female, unless the person thrusts a
+torch well ahead of his or her body.
+2. SPIDERS’ LAIR: Two black widow spiders (AC 6, HD 3*,
+hp 11, 10, #AT  I, D 2-12 plus poison, MV (20’) (40’) in web,
+Save F 2, ML 8) have spun their webs amongst the trees
+here. Under a pile of leaves nearby is the skeleton of a
+victim, a hapless elf. Everything he bore has turned to
+rot and ruin, save a filthy shield which appears quite
+worthless (but cleaning and oiling will return it to 
++1
+magic status).
+3. RAIDER CAMP: A party of a dozen chaotic fighters has
+camped here - close enough to be able to spy on the
+KEEP, far enough away so as to be unlikely to be dis-
+covered by patrols. The members of this group are:
+Leader: AC 5 (chain mail), F 2, hp 12, #AT I, D 1-6,
+ML 10, bow and spear
+Lieutenant: AC 6 (leather and shield), F 1,  hp 7, #AT 1,
+D 1-6, ML 9, spear and sword
+2 Bowmen: AC 7 (leather armor), F I, hp 4 each, #AT
+1,  D 1-6, ML 8, bows and daggers
+8 Spearmen: AC 6 (leather and shield), F 1,  hp 5 each,
+#AT  1,  D 1-6, ML 8, spears and daggers
+Each has 3d6 silver pieces, the lieutenant has an addi-
+tional d6 gold pieces, and the leader has an addition-
+al 2d6 gold pieces. They each have a bed roll and the
+bowmen have an extra quiver of 20 arrows. There is a
+cask of good wine on a tree stump in the camp. Several
+game animals are hung from branches and can be
+eaten or taken along as they are cleaned.
+4. THE MAD HERMIT: For many years a solitary hermit has
+haunted this area of the forest, becoming progressively
+wilder and crazier and more dangerous. His home is in
+a huge hollow oak, the entrance to the hollow con-
+cealed by a thick bush. Inside is a mound of leaves and
+a couple of pieces of crude furniture. Even his cup and
+plate are handmade of wood and are of no value.
+(There is a small chest buried under a few inches of dirt
+under the leaves of the Mad Hermit’s “bed”. In this con-
+tainer are 31 gold pieces, 164 silver pieces, a potion of
+Invisibility, and a dagger +1.) The hermit also has a
+“pet”, a mountain lion, which lurks on a limb of the oak,
+ready to spring upon any unwary intruder. (This crea-
+ture will always get first attack.)
+Mad Hermit: (3rd level thief, AC 4 due to leather armor,
+ring of protection +1 and Dexterity 17, hp 15, #AT  1 at
++ 2, D 3-8, ML 10.) The hermit has a 30% chance to move
+silently and a 20% chance to  hide in shadows. His
+madness gives him a +2  bonus to hit and a +2  bonus
+on damage (thus the bonus for striking from behind is
++ 6 to hit, and double normal damage + 2 points). He
+carries no treasure (other than the ring he wears!).
+Mountain Lion: AC 6, HD 3 + 2, hp 15, #AT  3, D I-311-311-6,
+MV (50’) Save F 2, ML 8. (This creature will always attack
+first in each round. If it leaps down upon an opponent,
+it gains +2  to hit on each of its attacks that combat
+round. Usually it will first attack by jumping, and then it
+will stay on the ground and fight normally. If it is not en-
+gaged in combat during any round, however, it will
+take the opportunity to leap into a tree and then spring
+down on the next round.)
+(The DM may choose to have the Mad Hermit approach
+the group on friendly terms, claiming to be a holy man
+seeking goodness in nature 
+- perhaps he actually be-
+lieves that at times. He will suddenly turn on the group
+when the opportunity presents itself, striking from be-
+hind, and calling his ferocious “pet” to his aid.)
+13
+
+===== PAGE 16 =====
+THE CAVES OF CHAOS
+(DM Note: When the players discover the ravine area, read
+the following paragraph to them. Add whatever you feel is
+appropriate to the description of what they see, but be
+careful not to give anything away or mislead them. In-
+formation on how you should handle the whole area is
+given before the encounter area descriptions.]
+START: The forest you have been passing through has been
+getting more dense, tangled, and gloomier than before.
+The thick, twisted tree trunks, unnaturally misshapen limbs,
+writhing roots, clutching and grasping thorns and briars all
+seem to warn and ward you off, but you have forced and
+hacked your way through regardless. Now the strange
+growth has suddenly ended 
+- you have stepped out of the
+thicket into a ravine-like area. The walls rise rather steeply
+to either side to a height of about 100’ or so  - dark,
+streaked rock mingled with earth. Clumps of trees grow
+here and there, both on the floor of the ravine and up the
+sloping walls of the canyon. The opening you stand in is
+about 200’ wide. The ravine runs at least 400’ west (actually
+440’) to where the western end rises in a steep slope. Here
+and there, at varying heights on all sides of the ravine, you
+can see the black mouths of cave-like openings in the rock
+walls. The sunlight is dim, the air dank, there is an oppres-
+sive feeling here 
+- as if something evil is watching and
+waiting to pounce upon you. There are bare, dead trees
+here and there, and upon one a vulture perches and gazes
+hungrily at you. A flock of ravens rise croaking from the
+ground, the beat of their wings and their cries magnified by
+the terrain to sound loud and horrible. Amongst the litter of
+rubble, boulders, and dead wood scattered about on the
+ravine floor, you can see bits of gleaming ivory and white 
+-
+closer inspection reveals that these are bones and skulls of
+men, animals, and other things,. . .
+You know that you have certainly discovered the Caves  Of
+Chaos.
+NOTES FOR THE DM ON THE CAVES OF CHAOS
+CAVE AREA MAP:  There are woods overlays and rough
+contour lines* shown on the map. These are only for surface
+movement references, and once your players are under-
+ground you should ignore these markings.
+WOODS: The small groves and copses are thick growths,
+tangled and forbidding. You may, at your option, have
+characters encounter occasional monsters herein  
+-
+stirges, humanoids (kobolds,  orcs,  etc.) from the caves
+nearby, or the like. Movement through these wooded areas
+is slow and difficult. Characters must move in single file.
+Even though not shown, there are single trees, shrubs, and
+bushes elsewhere.
+UNDERGROUND: The caves, passages, and rooms of the
+complex are on different levels. Passages slope upwards
+and downwards between the contours, even where stair-
+ways are not shown. Areas are roofed by at least 5’ of solid
+rock.
+INTERIORS: Except where noted otherwise, all underground
+areas are natural or cut from living rock. All surfaces are
+rough (and easy for a thief to climb) with small ledges,
+minor cracks, small holes, etc.
+RANSOMING PRISONERS:  Organized tribes can optionally
+be allowed to take player characters prisoner, freeing one
+to return to the KEEP in order to bring a ransom back to free
+the captives. Set the sums low - 10 to 100 gold pieces (or a
+magic item which the ransoming monsters would find use-
+ful) per prisoner. If the ransom is paid, allow the characters
+to go free. Then, without telling the players, assume that this
+success brought fame to the capturing monsters, so their
+numbers will be increased by 2-12 additional members,
+and the tribe will also be very careful to watch 
+for  a return
+of the adventurers seeking revenge for their humiliating
+captivity. The period of extra alertness will last for 1-4 weeks;
+the increase in numbers is permanent.
+TRIBAL ALLIANCES AND WARFARE: You might allow player
+characters to somehow become aware that there is a
+constant fighting going on between the goblins and hob-
+goblins on one side and the orcs,  sometimes with gnoll al-
+lies, on the other - with the kobolds hoping to be forgotten
+by all, and the bugbears  picking off any stragglers who
+happen by. With this knowledge, they might be able to set
+tribes to fighting one another, and then the adventurers
+can take advantage of the weakened state of the feuding
+humanoids. Be careful to handle this whole thing properly;
+it is a device you may use to aid players who are few in
+number but with a high level of playing skill. It will make it
+too easy if there are many players, or if players do not ac-
+tually use wits instead of force when the opportunity pre-
+sents itself.
+MONSTERS LEARNING FROM EXPERIENCE: Allow intelligent
+monsters (even those with only low intelligence) to learn
+from experience. If player characters use flaming oil
+against them, allow the monsters to use oil as soon as they
+can find some. If adventurers are always sneaking up on
+them, have the monsters set warning devices to alert them
+of intruders. If characters run from overwhelming numbers,
+have the monsters set up a ruse by causing a few to shout
+and make noise as if there were many coming, thus hope-
+fully frightening off the intruders. This method of handling
+monsters is basic to becoming a good DM. Apply the
+principle wherever and whenever you have reason.
+EMPTIED AREAS:  When monsters are cleared out of an
+area, the place will be deserted for 1-4 weeks. If no further
+intrusion is made into the area, however, the surviving
+former inhabitants will return or else some other monster
+will move in. For instance, a 
+thou1 might move into the
+minotaur’s cave complex (I.), bringing with him whatever
+treasure he has.
+Encounter Areas:
+A. KOBOLD LAIR: There is a 2 in 6 chance that as the group
+enters the cave-like tunnel, 8 kobolds will come out
+from hiding in the trees above and attack. Kobolds:
+AC 7, HD 
+1/2, hp 3 each, #AT I, D 1-4, MV (40’), Save NM,
+ML 6). Each carries d8 silver pieces.
+Note: 30’ inside the entrance is a pit 
+(B). There is a 3 in
+6 chance that each person in the front rank will
+fall in unless they are probing ahead. There is a
+1 in 6 chance that individuals in the second rank
+will also fall in, but only if they are close to the
+first rank and the character ahead has fallen in.
+The pit is 10’ deep, and those falling in will take
+1-6 points of damage. The pit lid will close, and
+persons within cannot escape without aid from
+the outside. The noise will attract creatures from
+areas 1. and 2. Planks for crossing the pit are
+stored at #1 
+., beyond.
+1. GUARD ROOM:  6 kobold auards (AC 7. HD 1/2. hp 3
+2.
+each, #AT I, D 1-4, Save NM,  ML 6). They will throw their
+spears the first round if they have initiative. Each carries
+d6 silver pieces. One will run to warn areas 4. and 6..
+The guards will be alerted by loud noises or lights.
+GIANT RATS (amidst garbage and waste): There are 18
+giant rats (AC 7, HD 
+1/2, hp 2 each, #AT  I, D 1-3 plus
+disease, MV (40’), Save F 1,  ML 8). Each time a character
+14
+
+===== PAGE 17 =====
+
+
+===== PAGE 18 =====
+
+
+===== PAGE 19 =====
+CHARACTER ATTACKS
+Attacker’s Defender’s Armor Class
+level 9 8 7 6 5 4 3 2 1 0 -1 -2-3
+(Normalman) II 12 13 14 15 16 17 18 19 20 20 20 20
+1st to 3rd 10 II 12 13 14 15 16 17 18 19 20 20 20
+4th + hiaher’ 9 10 II 12 13 14 15 16 17 18 19 20 20
+l for NPCs or higher level characters
+Monster’s
+Hit Dice
+up to 1
+1+ to 2
+2+  to3
+3+  to4
+4+  to5
+5+  to6
+6+  to7
+7+  to9
+9+  to II
+II + to 13
+13+ to15
+15+ to 17
+17+ or more
+MONSTER ATTACKS
+Defender’s Armor Class
+9 8 7 6 5 4 3 2 1 O -1 -2 -3
+10  II 12 13 14 15 16 17 18 19 20 20 20
+9 10  II 12 13 14 15 16 17 18 19 20 20
+8 9 10 II 12 13 14 15 16 17 18 19 20
+7 8 9 10 II 12 13 14 15 16 17 18 19
+6 7 8 9 10 II 12 13 14 15 16  
+10 18
+5 6 7 8 9 10 II 12 13 14 15 16 17
+4 5 6 7 8 9 10 II 12 13 14 15 16
+3 4 5 6 7 8 9 10 II 12 13 14 15
+2 3 4 5 6 7 8 9 10 II 12 13 14
+2 2 3 4 5 6 7 8 9 10 II 12 13
+2 2 2 3 4 5 6 7 8 9 10 II 12
+2 2 2 2 3 4 5 6 7 8 9 10 II
+22222345678910
+Type of Attack
+Death Paralysis Rods,
+Character Ray or Magic or Turn Dragon Stave,
+Class Poison Wands To Stone Breath or Spells
+Clerics II 12 14 16 15
+Dwarves and
+Halflings 10 II
+Elves 12 13
+Fighters 12 13
+Magic-users 13 14
+12 13 14
+13 15 15
+14
+::
+::
+16
+15
+Thieves
+13 14 16 15
+Saving Throws for Higher Level Characters
+In the D&D BASIC rules, NPCs  higher than 3rd level should
+use the saving throws given above. In the D&D EXPERT SET,
+saving throws are given for higher level characters, In the
+more advanced game, a character’s saving throws get
+easier to make as the character advances in experience
+level.
+The DM may want to give higher level NPCs  a bonus of +2
+on all saving throw rolls to imitate their improved ability to
+save vs. special attacks. This should not be done, however,
+if the D&D EXPERT rules are used.COST OF EQUIPMENT AND WEAPONS
+Weapons
+Item
+Axes:
+Battle Axe (two-handed)
+Hand Axe
+Bows:
+Crossbow (fires quarrels)
+Case with 30 quarrels
+Long Bow
+Short Bow
+Quiver with 20 arrows
+1 silver-tipped arrow
+Daggers:
+Normal dagger
+Silver dagger
+Swords:
+Short Sword
+Sword (normal)
+Two-handed Sword
+Other weapons:
+Mace*
+Club*
+Pole Arm (two-handed)
+Sling with 30 Sling Stones’
+Spear
+War Hammer*
+* these weapons may be used by a cleric.
+Armor
+Cost in gp
+7
+4
+30
+10
+40
+25
+:
+3;
+7
+10
+15
+Item AC Cost in gp
+Chain Mail Armor 5 40
+Leather Armor 7 20
+Plate Mail Armor 60
+Shield
+ (-I”,* 10
+l deduct 1 from Armor Class number if shield is used.
+FANTASY ADVENTURE GAME
+REFERENCE TABLES
+(This page is perforated for easy removal.)
+Miscellaneous
+Item
+Backpack
+Flask of Oil
+Hammer (small)
+Holy Symbol
+Holy Water (1 vial)
+Iron Spikes (12)
+Lantern
+Mirror (hand-sized, steel)
+Rations:
+Iron Rations (preserved food for
+I person/l week)
+Standard Rations (unpreserved food
+for 1 person/l week)
+Rope (50’ length)
+Sacks:
+Small
+Large
+Thieves’ Tools
+Tinder Box (flint&steel)
+Torches (6)
+Water/Wine Skin
+Wolfsbane (1 bunch)
+Wooden Pole (10’ long)
+Cost in gp
+5
+;
+25
+25
+1
+10
+5
+15
+5
+1
+:
+25
+3
+1
+1
+10
+1
+Sometimes the characters may wish to buy an item not on
+this list. In this case, the DM must carefully consider whether
+such an item could be found for sale and, if so, how much it
+would cost. The item should then be added to this list.
+
+===== PAGE 20 =====
+CLERICAL ABILITIES MAGIC-USER AND ELF SPELLS
+First level Clerical Spells
+1. Cure Light Wounds 5. Protection from Evil
+2. Detect Evil 6. Purify Food and Water
+3. Detect Magic 7. Remove Fear
+4. Light 8. Resist Cold
+Second level Cleric Spells
+I. Bless
+2. Hold Person
+3. Silence 15’ radius
+Clerics vs. Undead
+Cleric’s
+level Skeletons Zombies Ghouls Wights Wraiths
+:
+7 9 II No effect No effect
+T 7 9 II No effect
+3 T T 7 9 II
+T  means that the cleric automatically Turns the undead; a
+number is the roll needed (on 2d6)  to Turn. A complete
+explanation of Turning  undead is given in the class
+description of clerics.
+First level Spells
+1. Charm Person 7. Protection from Evil
+2. Detect Magic
+3. Floating Disc
+8. Read Languages
+9. Read Magic
+4. Hold Portal 10. Shield
+5. Light II. Sleep
+6. Magic Missile 12. Ventriloquism
+Second level Spells
+I. Continual Light 7. Levitate
+2. Detect Evi I 8. Locate Object
+3. Detect Invisible
+4. ESP
+9. Mirror Image
+10. Phantasmal Force
+2:  
+ ln;z;$ility 11. Web
+12. Wizard Lock
+Third level Spells
+1.  Dispel Magic
+2. Fire Ball
+3. Fly
+ARMOR CLASSES
+VARIABLE WEAPON DAMAGE
+Damage
+1-4 (ld4)
+1-4 (ld4)
+1-4 
+(1d4)
+1-4 (1d4)
+1-6 (1d6)
+1-6 (1d6)
+l-6 (1d6)
+l-6 (1d6)
+1-6 (ld6)
+1-6 
+(1d6)
+1-6 (ld6)
+1-8 (ld8)
+l-8 
+(1d8)
+I-IO (1d10)
+I-IO (1d10)
+* Two-handed weapon
+Weapon Type
+Torch
+Dagger
+Sling stone
+Club
+Arrow
+Hand Axe
+Mace
+Quarrel’ (Crossbow Bolt)
+Short Sword
+Spear
+War Hammer
+Battle Axe  
+l
+Sword
+Pole Arm’
+Two-handed Sword’
+Type of Armor Armor Class
+Clothing only 9
+Shield only 8
+Leather Armor 7
+Leather Armor &Shield
+Chain Mail Armor
+ii
+Chain Mail Armor&Shield 4
+Plate Mail Armor 3
+Plate Mail Armor&Shield 2
+Armor Class is a measure of how well a character is pro-
+I
+tected from physical attacks. As the Armor Class number
+gets lower, the character becomes harder to hit. Armor
+Class is affected by such things as magic, magic items,
+and Dexterity, as well as by the type of armor worn.
+Armor Class may be lowered (improved) by Dexterity and
+magical bonuses. A fighter with a Dexterity score of 16,
+plate mail +1, and a shield +1 would have a total Armor
+Class of -2. Magical protection pluses are always
+subtracted from the number of the Armor Class.
+WANDERING MONSTERS: LEVEL 1 WANDERING MONSTERS: LEVEL 2
+Die
+Roll
+1
+:
+9
+6
+l
+9
+10
+II
+12
+13
+14
+15
+16
+17
+18
+19
+20
+Wandering
+Monster
+Acolyte (A)
+Bandit (N-C)
+Beetle, Fire(N)
+Dwarf(L)
+Gnome (L)
+Goblin(C)
+*Green Slime(N)
+Halfling (L)
+Killer Bee(N)
+Kobold (C)
+Lizard. Gecko (N)
+Orc (C)  .
+Shrew, Giant(N)
+Skeleton(C)
+Snake, Cobra (N)
+Spider, Crab(N)
+Sprite(N)
+Stirge (N)
+Trader (A)
+Wolf(N)
+No.
+1-8
+1-8
+1-8
+1-6
+l-8
+2-8
+3-118
+I-IO
+4-16
+1-3
+2-8
+I-IO
+3-12
+1-6
+:I:8
+I-IO
+l-8
+2-12
+Die
+Roll
+1
+:
+4
+5
+6
+i
+9
+10
+II
+12
+13
+14
+15
+:;
+:i
+20
+Wandering
+Monster
+Beetle, Oil (N)
+Berserker (N)
+Cat, Mt. Lion(N)
+Elf (L/N)
+Ghoul (C)
+Gnoll (C)
+*Gray Ooze (N)
+Hobgoblin (C)
+Lizard, Draco (N)
+Lizard Man (N)
+Neanderthal (N)
+Noble (A)
+Pixie (N)
+Robber Fly(N)
+Rock Baboon (N)
+Snake, Pit Viper(N)
+Spider, Black Widow(N)
+Troglodyte (C)
+Veteran (A)
+Zombie(C)
+No.
+1-8
+1-6
+l-4
+1-4
+1-6
+1-6
+1
+l-6
+l-4
+1-3
+I-IO
+2-12
+2-8
+1-6
+2-12
+1-8
+1-3
+1-8
+2-8
+2-8
+WANDERING MONSTERS: LEVEL 3
+Die Wandering
+Roll Monster No.
+;
+Beetle, Tiger(N) l-6
+Bugbear (C) 2-8
+3 Carrion Crawler(N) 1-3
+2 Doppleganger Driver (C)
+Ant(N)
+2-8 1-6
+6 *Gargoyle(C) l-6
+lt
+Gelatinous Cube(N) 1
+Harpy (C) l-6
+9 Living Statue, Crystal (N) l-6
+10 *Lycanthrope, Wererat (C) 1-8
+II Medium (A) 1-4
+12 Medusa (C) l-3
+13 NPC Party (A) 5-8
+14 l Ochre Jelly(N) 1
+15 Ogre (C) l-6
+16 Shadow(C) 1-8
+17 Spider, Tarantella (N) 1-3
+18 Thou1  (C) 1-6
+:: White Ape(N) 1-6
+* Wight (C) 1-6
+
+===== PAGE 21 =====
+is bitten there is a 1-in-20 chance of getting a disease,
+unless a save vs. Poison is made. If the saving throw
+failed, there is a 25% chance the character will die in 1- 
+6 (ld6) days. Otherwise the character will be too sick to
+adventure for one game month. These monsters are the
+pets of the kobolds, living off the garbage and waste of
+their hosts. They will rush to the sound of the trap door
+closing or of battle. They have nothing of value in their
+lair or on their bodies, but their leader (rat 
+#18)  who will
+be at the back of the pack, a huge fellow (AC 5 due to
+speed and cunning, HD l-l, hp 4, #AT 2, D 2-4/2-4,  MV
+(40’) Save F I, ML 8) wears a thin silver chain set with 5
+small gems (jewelry value 400 gold pieces, chain value
+50 gold pieces, each gem worth 50 gold pieces). The
+weight of a few rats will not trigger the pit trap.
+3. FOOD STORAGE ROOM: The door is locked. This place
+contains various sorts of dried and salted meat, grain,
+and vegetables in sacks, boxes, barrels, and piles.
+There are also bits and pieces of past human victims.
+There is nothing of value here; even the wine in a large
+cask is thin and vinegary.
+4. GUARD ROOM: Here are 3 very large kobold guards
+with chain mail and bows to fire down the passage at
+attackers (AC 5, HD 
+1+ 1, hp 5 each, #AT  I, D 1-6, MV
+(40'),  Save NM, ML 6). The guards will hide behind the
+corner for cover, so all missiles fired at them will be at -2
+“to hit”. Each carries a hand axe in his belt and a purse
+with 2d6 gold pieces.
+5. KOBOLD CHIEFTAIN’S ROOM: This huge kobold (AC 5,
+HD 2, hp 8, 
+#AT  1,  D 2-8 (2d4),  MV (40’), Save F 1,  ML 8) is so
+powerful that he fights with a battle axe. He has the key
+to the storage room (#3.) and a large gem on a great
+golden chain about his neck (value 1,200 gold pieces).
+Five female kobolds (AC 7, HD 1/2, hp 2 each, #AT I,
+D 1-3, Save NM, ML 8 due to the chief) are also in the
+room. There are heaps of cloth and bits of battered fur-
+niture in the place. Hidden in an old blanket hanging
+on the wall are 50 gold pieces (sewn into the hem).
+Each female has d6 gold pieces. A locked chest holds
+203 copper, 61 silver, and 22 
+electrum  pieces.
+6. COMMON CHAMBER: The rest of the kobold tribe lives
+here. There are 17 males (AC 7, HD 1/2, hp 3 each, #AT  I,
+D 1-4, MV (40’), Save NM, ML 6), 23 females (AC 7, HD 1/2,
+hp 2 each, #AT 1, D 1-3, Save NM, ML 6), and 8 young
+(which do not attack). If their caves are invaded, those
+able will help in its defense. Males have d6 silver
+pieces each, females d4 silver pieces each; the young
+have nothing. Amidst the litter of cloth and bits and
+scraps of odds-and-ends there is a piece of silk worth
+150 gold pieces. (If the party does not search it will not
+be located.)
+(DM Note: Kobold losses will not be replaced, though in-
+jured kobolds will heal. If the attackers hurl oil at the
+kobolds, they will retreat if possible, rather than suffer
+damage. Should they have the opportunity to find any
+flasks of oil, the kobolds will use them against attacking
+characters!)
+B. ORC LAIR: Upon entering, the party will see that the
+wall 30’ to the north is decorated with heads and skulls
+(human, elven, dwarven) in various stages of decay.
+These cheerful greetings are placed in niches which
+checker about 100 square feet of the surface of the
+wall. Close inspection will show that one is orcish (see
+g. below). Sounds of activity can be heard from the
+west, but all is quiet to the east.
+Areag: This narrowing area is a guard post, the
+watcher 
+(Orc:  AC 7, HD 1,  hp 5, #AT 1,  D 1-6, MV
+(40’), Save F I, ML 8) having a small, window-
+7.
+8.
+9.
+10.
+11.
+like opening from which he can observe the
+entrance 
+to the  lair. A piece of gray canvas
+behind gives the impression that the guard’s
+head is another of the ghastly trophies which
+decorate the wall. If adventurers enter, he will
+quickly duck down, slipping a goblin head
+into the place his own was, and alert the 
+orcs
+at 7.
+GUARD ROOM: 4 orcs: (AC 7, HD 1, hp 5 each, #AT  I,
+D 1-6, MV (40’), Save F 1,  ML 8). These guards are armed
+with spears. Each carries one for hurling and one to
+melee with. They have d8 electrum  pieces each. When
+alerted, they will rush to engage intruders, raising the
+alarm when they see them. There is nothing of value in
+their chamber, there being only pallets and shabby
+clothing hanging on pegs.
+The watcher (g.) will alert the 4 guards here (exactly as
+in 7., above) who will rush west and then south to flank
+or surround intruders threatening area 7. or 9. or ap-
+proaching their own quarters.
+BANQUET AREA: There is a great fireplace on the south
+wall and many tables and benches in this 30’ x 50’
+chamber 
+- the table at the north end having a large
+chair at its head where the orc  leader usually holds
+court. The place is empty of orcs  although there is a
+small fire of charcoal burning in the fireplace.
+COMMON ROOM:  Here are quartered 12 male 
+orcs
+(AC 7, HD I, hp 4 each, #AT I, D 1-6, Save F I, ML 8) and
+18 females and 9 young (who do not fight). The males
+have 2d6 silver pieces each, the others have nothing of
+worth. The few furnishings in the room are likewise of no
+value.
+STORAGE CHAMBER:  The door is locked. Amidst the
+stacks and heaps of supplies here (see 3., above), there
+are 3 shields, 17 spears, and 2 battle axes in excellent
+condition. A small crate in the far northeast corner con-
+tains a long-forgotten crossbow and 60 bolts. There is
+nothing else of value in the place.
+12. ORC LEADER’S ROOM:  This large creature is clad in
+chain mail, has a shield +1, and carries a mace. He
+fights as a 4 hit dice monster, has 15 hit points, and
+adds +2  to damage he causes when successfully strik-
+ing an opponent (thus, 3-8 points of damage). This is
+due to his strength and skill. He carries 31 gold pieces,
+and wears a ring set with a gem (total value 700 g.p.).
+The room is carpeted, has tapestries upon the walls
+(note one of these covers the entrance to the small
+cave to the west), and battered but still serviceable
+furniture and a cot. His two mates sleep on cushions at
+the foot of his resting place. The two females in the
+place fight as males (AC 7, HD I, hp 3 each, #AT I, D 1-6,
+Save F I, ML 8) and each has 2d6 gold pieces on her
+person. The chests and other furniture have nothing of
+value.
+If hard pressed, the leader will wiggle behind the
+tapestries on the south wall and attempt to work the
+catch on the secret door to the south and go to the rival
+tribe for help, but his very life must be in great peril be-
+fore he will do so. (Adventurers can only spring this
+catch by rolling a 1 (on a d6) twice in a row, or having
+two characters do so simultaneously.)
+Area 
+1: This alcove is used by the orc  leader to store
+arms and treasure. There are two complete
+suits of chain mail here (man-sized and 
+dwarf-
+sized), 4 swords, and a locked iron chest which
+holds 205 copper, 286 silver, 81 gold, and 13
+platinum pieces. A small niche in the back
+15
+
+===== PAGE 22 =====
+wall, with a boulder in front covering it, hides a
+potion of healing  and a scroll with a  6-die  fire
+ball spell on it.
+(DM  Note: Orc  losses cannot be replaced, but after an
+initial attack by adventurers, the males at location  10. will
+move four of their number into area 9., arm these orcs  with
+crossbows, and lay an ambush for intruders. If the leader is
+slain, all surviving 
+orcs  from this locale will seek refuge with
+the tribe at C. (see below), taking everything of value (and
+even of no value) with them, and B.  will thereafter be de-
+serted.)
+C.
+13.
+14.
+15.
+16.
+ORC LAIR:  Similar to the  orcs  at area  B., these monsters
+inhabit cave areas 14.-16.  These orcs,  however, do not
+rely upon a continual watch being kept; instead, they
+have a series of nearly invisible strings running across
+the entry passage, about II’ from the entrance. When
+any of these strings is tripped, a heavy, weighted net
+suspended from the ceiling  will drop upon intruders,
+and metal pieces tied to it will create an alarm sound.
+(The trip strings will be spotted only if careful observa-
+tion is asked for, each observer having a 1 in 6 chance
+of seeing the devices. The camouflaged net is 10’ wide
+and 18’ long, made of thick, tarred ropes, and will en-
+trap the victim for 1-4 rounds. Meanwhile, 
+orcs  from
+area 14. will be there in 1 round . . . .)
+FORGOTTEN ROOM: Only the two orc  leaders (from this
+area and from B.) know of this place, They secretly meet
+here on occasion to plan co-operative ventures or dis-
+cuss tribal problems, for although separate tribes are
+not exactly friendly, both leaders are aware of the fact
+that there is strength in numbers. A small table and two
+chairs are in the middle of the room. There is a wooden
+chest to one side which holds a bow, a quiver of 20
+arrows, 2 swords, and 2 daggers. Two shields are hung
+on the south wall. There are only odds and ends other-
+wise, except that in the southeast corner, hidden be-
+neath an old bucket (which is filled with black, stag-
+nant water) are two small pouches, each holding 1
+gem of 50 gold piece value, 10 gold pieces, and 20 sil-
+ver pieces. Nesting under these small pouches are 2
+giant centipedes: (AC 9, HD 1/2,, hp 2 each, #AT I, D ill-
+ness, MV (20’), Save NM, ML 7).
+COMMON CHAMBER: Here there are quartered 9 male
+orcs  with shields and swords (AC 6, HD 1,  hp 3 each, #AT
+1,  D 1-6, MV (40’), Save F 1,  ML 8) and 8 females and 3
+young who do not fight. The males have d20 silver
+pieces each, the females d4 copper pieces, the young
+have nothing. The place is a mess, and there is nothing
+of value in it. The males will go the entrance if they hear
+the net falling, arriving in 1 round.
+COMMON HALL: General meetings are held here, and
+food is likewise cooked and eaten here. There are 6
+males here, 2 with crossbows, (AC 7, HD I, hp 3 each,
+#AT 1 or 
+1/2 for crossbows, Save F I, ML 8) and 4 females
+(non-combatant), dwelling in the western forepart.
+Each has treasure on their person equal to 
+14.,  above.
+The males here will also go to the entrance if they hear
+the noise of the netfalling, arriving in 3 rounds.
+LEADER’S ROOM: A guard (g.) is always posted just in-
+side the door, and he cannot be surprised. 
+(Orc:  AC 5
+for chain mail, HD 1 + I, hp 6, #AT I, D 1-6. Save F I, ML 8,
+carries 2d6 silver and d4 gold pieces.) He immediately
+shouts an alarm if any intruders attempt to enter. Be-
+hind him are stacks of barrels and boxes and sacks 
+-
+extra supplies for the tribe. (One small wine barrel, 400
+coins in weight, contains a good quality wine worth 55
+gold pieces.) None of the other items here have value,
+and the foodstuffs is not up to human standards.
+The area to the east houses the leader (AC 2, HD 3, hp
+16, #AT I, D 1-6, Save F 3, ML 10). He is a very large orc
+who wears plate mail and carries a shield. He uses a
+sword and attacks as a 3 hit die monster. At his belt is a
+magic hand axe 
++1 which he will hurl at an opponent,
+and he can do so and still attack normally in the same
+round of combat. His belt is made of silver, with a gold
+buckle (total value 160 gold pieces), and his sword has
+a 100 gold piece gem set in its pommel*. In his purse
+are 8 gold pieces, 17 
+electrum  pieces, and 5 silver
+pieces. His mate is equal to a male orc  in combat
+(AC 7, HD I, hp 5, #AT I, D 1-6, Save F 1, ML IO), and she
+has a bracelet of ivory which is worth 100 gold pieces.
+The area is well furnished, and a small chest of drawers
+contains a sack with 50 platinum pieces tied shut with a
+rope of climbing. There is also a copper bowl, finely
+wrought and chased with silver, on a small table near
+the bed. However, it is filled with garbage and very tar-
+nished, so it looks as if it were worth 10 silver pieces,
+rather than the actual 50 gold pieces, unless it is closely
+inspected.
+(DM Note: Orc  losses cannot be replaced. If this tribe is
+attacked, they will have the males at area 15. watching the
+entrance, ready for a second try by the adventurers. If the
+leader is slain, the survivors will seek safety in area B., if pos-
+sible; otherwise, they will flee the place entirely, carrying
+their goods away.)
+D.
+17.
+18.
+19.
+GOBLIN LAIR: The natural cave quickly turns into the
+worked stone tunnels typical of this whole complex. The
+passageways here are very busy, and for every 10’
+distance covered by the party there is a 1 in 6 chance
+that they will encounter a group of goblins (see below)
+Check each time the party travels 30’ (a 3 in 6 chance)
+until wandering goblins are encountered, then check
+no further. When an encounter occurs, the entire bunch
+of goblins will attack and cry out an alarm (Bree-Yark!)
+at the same time. Wandering goblins are in addition to
+those found in numbered areas.
+Wandering Goblins: 6 males (AC 6, HD l-l, hp 3 each,
+#AT I, D 1-6, MV 
+(20’), Save NM, ML 7). Each will have d6
+silver pieces. (They are patrolling and carrying mes-
+sages back and forth. The group will also be carrying
+several bags 
+(d6) of fairly good foodstuffs - not worth
+much, but quite suitable for human fare.)
+GUARD CHAMBER: 6 goblin guards with several spears
+each (AC 6, HD I-I, hp 3 each, #AT  1,  D 1-6, Save NM, ML
+7) are alertly watching both passages here for intruders
+of any sort, including hobgoblins from the south. They
+each have d4 x 10 copper and d4 silver pieces. The
+chamber has a barrel with 60 spears, a small table, 2
+benches and a keg of water.
+GUARD CHAMBER: This is the same as 17.,  above,
+except the goblins watch mainly to the east. If there is a
+cry of “BREE-YARK” (similar to “Hey Rube!“), 2 of these
+guards will rush to the secret door, toss a sack with 250
+gold pieces in it to the ogre 
+(E.,  22., below) and ask him
+to help them. The ogre will accept the payment and
+will enter the goblins’ lair and move to attack intruders
+immediately, if possible. The sack of gold coins is
+hidden in a water barrel in the corner by the secret
+door.
+COMMON ROOM: There are 10 males (AC 6, HD l-l, hp
+3 each, #AT  I, D 1-6, Save NM, ML 7)  and 14females and
+6 young (who do not fight) dwelling here. Food is pre-
+pared and eaten here, and general meetings are like-
+wise held here. There are heaps of bedding, tables,
+stools, benches, etc. all around the whole place, mak-
+ing it very cluttered. Each male has d6 silver pieces,
+16
+
+===== PAGE 23 =====
+each female has 2d6 copper pieces. If the wandering
+group of goblins has not been encountered when the
+adventures enter this area, be certain to have those 6
+additional males in this chamber.
+20. CHIEFTAIN’S ROOM: The goblin leader (AC 4 due to
+chain mail and shield, HD 3, hp II, #AT I, D 2-7 due to
+Strength and skill, Save F 2, ML 9), 3 guards (AC 6, HD
+1 +I, hp 7, #AT  I, D 1-6, Save NM, ML 9 due to presence
+of chief), and several females are quartered here. The
+chief has a purse with 18 gold and 2 platinum pieces in
+it; each of his guards has 8 
+electrum  pieces and d6
+silver pieces. There is a silver cup (value 90 gold
+pieces) under his bed. He and the guards have bows
+hung on the wall, and if there is time they will take them
+down and use them. If hard-pressed, 2 of the female
+goblins can fight as well as males, and will do so (2 fe-
+male goblins (AC 7, HD I-I, hp 2 each, #AT I, D 1-6, MV
+(20’), Save NM, ML 9 due to the presence of the chief);
+the other females do not fight.
+This place has quite a bit of good furniture in it - all
+scaled to goblin-size, of course. A low bench near the
+bed has a secret drawer under the seat, and inside is
+stored the treasure of the goblins: a tapestry with silver
+and gold threads which is worth 900 gold pieces.
+Nearby is a stand with a pewter bowl which holds 273
+silver and 321 copper pieces.
+21. STORAGE CHAMBER: Note that at position g. there are 4
+goblin guards on duty (AC 7, HD I-I, hp 4 each, #AT I, D
+1-6, Save NM, ML 7), armed with ready crossbows and
+swords. Many bales, boxes, crates, barrels, and sacks
+are stacked and heaped in the large chamber. They
+contain cloth, food, beer, and wine 
+- all of no special
+worth. The hard-working but not-too-bright goblins con-
+tinually bring supplies of stolen and looted goods to
+this place. They do not realize that their large cousins,
+the hobgoblins at area 
+F., below, use a secret door
+known only to them to steal the best of the foodstuffs
+and drink. If the adventurers stay in this chamber for
+more than 1 turn, a party of 4 hobgoblins will come
+through the secret door:
+4 Hobgoblins: (AC 6, HD 1 + 1, hp 6 each, #AT  I, D 1-8,
+MV (30’), Save F I, ML 9.) Each carries d4 gold pieces.
+(DM  Note: Goblin losses cannot be replaced. If they are
+being soundly defeated by intruders, the goblins will
+attempt to hide or flee east. Those who do so will go from
+area 
+17. to area 23., inform the hobgoblins, and join forces
+with them, so adjust encounters appropriately.)
+E. OGRE CAVE: Persons entering this place will notice a
+strong, sour odor and then notice what appears to be a
+huge bear sprawled asleep in the southwestern part of
+the cave. This is nothing more than the skin of a huge
+bear which the ogre killed and uses as a bed, making it
+more comfortable by heaping leaves underneath. The
+ogre sits in the eastern portion of his lair, and noise will
+certainly bring him ready to do battle. This huge Ogre
+has AC 4 due to his thick hide and another thick bear-
+skin he wears for protection. Because of his high
+strength, he hits opponents for 3-12 (1d10+2)  points of
+damage (AC 4, HD 4 + I, hp 25, D 3-12, MV 
+(30’), Save F 4,
+ML IO). The ogre has grown wealthy by serving as a
+mercenary 
+- generally on the side of the goblins (and
+their occasional allies, the hobgoblins), although he
+has been bought off by the orcs  and gnolls from time to
+time. He will rush to aid the goblins when they toss him
+the sack of coins (see 18., above). If anyone offers him a
+greater fee - one which he can actually see and feel
+- it is 90% likely that he will simply take it (and the gob-
+lins’ money too!), and return to his lair.
+17
+22. The ogre sits here on top of a great leather bag. In this
+bag are seven large sacks which contain:
+#1: 287 silver pieces; #2:  a hard cheese; #3:  182 copper
+pieces and 91 electrum  pieces; #4:  289 gold pieces; #5:
+a keg of brandy (value 80 gold pieces); #6:  303 copper
+pieces; #7:  241 gold pieces (actually lead coins with a
+wash of gold, so value of each is only I copper!).
+If intruders offer him a bribe of 20 or more gold piece
+value, the ogre will be 90% likely to allow them to leave
+unmolested, but if he catches them again, he will
+attempt to kill them, whatever the offers. Hidden under
+a heap of old bones in the southern portion of his cave
+are 6 magic 
+arrows +1, a potion of invisibility, and a
+magic scroll with 2 cleric spells - cure light wounds,
+hold person.
+F. HOBGOBLIN  LAIR: Seldom are these fierce creatures
+troubled by marauders, for the entrance to their lair is
+guarded by a stout, barred door at the back of the
+entry cave. Skulls are lined along the walls, and sever-
+al are affixed to the oaken door to highlight a warning
+written in common runes: “Come in - we’d like to have
+you for dinner!” (Which could be misinterpreted as a
+cordial invitation to dine  .) Careful inspection of
+the barred door has a 1 in 6 chance per person
+examining it of detecting a secret mechanism which
+allows a person outside to slide the bar back so the
+portal can be entered. If it is forced open, it will require
+three Is (on a d6) to indicate the bar has been broken,
+and the noise will alert area 
+26. If a knock spell is used
+to open the door, the noise of the falling bar will be
+heard, but guards will not have time to react, so the in-
+truders will have two rounds of time before the guards
+will come.
+23. COMMON ROOM: This place quarters 5 males (AC 6, HD
+1 + I, hp 5 each, #AT I, D 1-8, MV (30’), Save F I, ML 8)
+with d4 x 10 silver pieces each; 8 females (AC 7. HD 1,
+hp 4 each, 
+#AT  I, D 1-6, Save F 1, ML 7) with 2d6 silver
+pieces each, and 3 young which do not fight and have
+no treasure. There are heaps of cloth and skins for beds,
+some odds and ends of furniture, and a small barrel of
+beer, buckets, etc. in the place, all worthless. The males
+are watching the east door which communicates with
+the goblin lair 
+(D., above) and are battle-ready.
+24. TORTURE CHAMBER/PLAYROOM/FOOD STORAGE:
+There are 2 very large, ugly hobgoblins here. Each is
+equal to a 2 + 1 hit dice monster, one having 10 hit
+points, the other 8 hit points, and both wear chain mail
+(AC 5). One also has a whip, as well as a sword, so that
+he can strike at opponents up to 15’ distant, and if a hit
+is scored, the whip will jerk the victim off his or her feef
+and stun (paralyze) him or her for 1-2 melee rounds.
+However, once closely engaged, the hobgoblin can-
+not make use of his whip, so he will cast it aside. Each of
+these monsters has a purse with d6 each copper, silver,
+and 
+electrum  pieces. The larger also has a silver armlet
+worth 135 gold pieces. They guard 6 prisoners who are
+chained to the walls. There are two chairs, a small
+table, a central fire pit, and various implements of
+torture in the chamber. The keys to the prisoners’ chains
+are hanging on the wall in the southwest corner. The
+prisoners are:
+#1: A plump, half-dead merchant, scheduled to be
+eaten tonight in a special banquet. If he is rescued
+and returned to the KEEP, the Guild will pay a 100
+gold piece reward, grant the rescuers honorary
+Guild status, and exempt them for one year from
+any fees, dues, taxes, and the like which the Guild
+would normally collect.
+
+===== PAGE 24 =====
+#2:
+#3:
+#4:
+#5:
+#6:
+An orc  (AC 7, HD 1,  hp 4, ML 8) who will fight goblins
+and hobgoblins gladly, if handed a weapon (of
+course, he will seek to escape from the adventurers
+at first chance, taking whatever he can with him,
+and informing his fellows at 
+B.  (above), of what hap-
+pened).
+A man-at-arms (AC 9 due to no armor, F 1,  hp 5, ML
+7) who formerly served as a guard for the mer-
+chant. He will take service with rescuers for 1 year if
+an offer is made, for room and board only, if given
+armor and weapons.
+A normal female, the merchant’s wife, in fact, who
+is also slated for the big feast. She will personally re-
+ward her rescuers by giving them a 
+dagger +1 she
+has in her room back at the KEEP.
+A crazy gnoll (AC 9 due to no armor, HD 2, hp 9, #AT
+I, D 1-6, Save F 2, ML 8) who will snatch up a
+weapon and attack his rescuers if he is freed. (He
+will cause only 1-6 points of damage due to his
+weakened condition.)
+Another man-at-arms as #3,  above, who will be-
+have the same way his companion will.
+25. COMMON CHAMBER:  This large place is used for
+meals, meetings, and general revels of the hobgoblin
+tribe. There are many tables and benches set out now,
+as the place is being readied for the coming feast. 4
+males (AC 6, HD 1 + I, hp 5 each, 
+#AT  1,  D 1-8, MV (30’),
+Save F I, ML 8), 5 females (AC 7, HD I, hp 4 each, #AT I,
+D 1-6, Save F I, ML 7), and 9 young (who will not fight)
+are working here. Males have d4 gold pieces each,
+females 2d6 silver pieces. The head table has a set of
+pewter dishes on it, and their value is 25 g.p. for the set.
+26.
+27.
+GUARD ROOM: 6 hobgoblins (AC 7 when using cross-
+bows or 6, HD 1+ I, hp 6 each, #AT 1 or 1/2 for crossbows,
+D 1-6, Save F I, ML 8), 3 with crossbows which they’ll fire
+once before dropping and taking their maces for close
+combat. Each carries d4 each gold, silver, and copper
+pieces. If they hear the door being battered, or the bar
+falling, all but one will immediately rush to the entry,
+while the other will alert area 27., and then join his fel-
+lows. It takes two rounds for them to reach the entry,
+and the sixth will join the other guards on round four.
+ARMORY: 3 hobgoblin guards (AC 5 due to chain mail,
+HD1+1, hp6 each, #AT 1, D1-8, Save F1, ML 8) are on
+duty here at all times. If warning comes, two will move
+to the door to wait in ambush, and the other will pass
+through the secret entrance (to area 
+31.) to alert the
+chief. Each guard has 2d4 each of silver and electrum
+pieces. In the chamber are the following:
+1 suit of man-sized plate mail
+1 suit of dwarf-sized plate mail
+3 suits of man-sized chain mail
+2 suits of elf-sized chain mail
+7 suits of man-sized leather armor
+11 shields
+6 daggers
+1 battle axe
+4 maces
+3 swords
+2 bows (short)
+1 longbow
+13 crossbows
+11 score* arrows (14 arrows have silver heads)
+9 score’ bolts
+51 spears
+19 pole arms
+42 helmets of various sizes
+28.
+29.
+Armor-type items are standing or hung from racks.
+Weapons are in chests or on pegs or in racks.
+STOREROOM: Goods stolen from the stupid goblins are
+kept here until needed above. There will be a single
+guard (AC 6, HD 1 +I, hp 5, #AT I, D 1-8, Save 
+F I, ML 8)
+on duty here at all times. He has 2d8 electrum  pieces. (If
+the looting party does not encounter adventurers in
+area 
+21.. they will also be here: 4 hobgoblins (AC 6, HD
+1 + 1,  hp 6 each, #AT  1,  D 1-8, Save F 1,  ML 8). Each of the
+four carries d4 gold pieces.
+GUARD ROOM:  2 hobgoblin guards with crossbows
+and swords stand here. (AC 7, HD 
+1+ I, hp 5 each, #AT 1
+or 1/2 for crossbows, D 1-6, Save F 1,  ML 8.) With them are
+2 females who will fight (AC 7, HD I, hp 4 each, #AT I, D
+1-6, Save F I, ML 7). Males have 2d6 each silver and
+copper pieces, females have no treasure. There are
+two cots, a bench, a stool, and a large box (filled with
+soiled clothing) in the room. If attackers are seen, one
+female will alert area 30., the other area 31.; then both
+will fight.
+30. HOBGOBLIN  CHIEF’S QUARTERS:  This great, ugly crea-
+ture (AC 2 due to his plate mail and shield, HD 5, hp 22,
+#AT  I, D 3-10 due to Strength and skill, MV (30’), Save F 5,
+ML 10) has 5 platinum and 31 gold pieces in his purse.
+He wears a silver and gem studded belt (value 600 gold
+pieces). With him are 4 large female hobgoblins, each
+equal to a male (AC 6, HD 1 + 1,  hp 6 each, #AT 1,  D 1-8,
+Save F I, ML 10 due to the chief), and each has 2d6
+gold pieces. The room is crowded with furniture and
+junk - all of no real worth, except that there is a false
+bottom in a huge iron box filled with mangy animal
+skins, The secret portion of the iron box holds 25
+platinum, 200 gold, 115 electrum, and 400 silver pieces
+plus a 100 gold piece gem and a potion of poison.
+Amidst a heap of kindling wood near the fireplace
+(southeast corner) there is concealed a wand of para-
+lyzation, but it has only 7 charges left in it.
+31. GUARD ROOM: 4 hobgoblins (AC 5 due to chain mail,
+HD 1 +I, hp 5 each, #AT I, D 1-8, Save F I, ML 8), each
+with 2d6 electrum, silver, and copper pieces. They are
+alert for danger, and when notified, they will pass the
+word to areas 29., 30., 
+and/or  27., as required. The room
+is rather bare, having only 2 pallets, a stool, and a
+large water barrel.
+(DM Note: As usual, hobgoblin losses cannot be replaced
+during the course of normal play, which is a period of only
+several days or weeks of action. The hobgoblins are fairly
+smart, well-organized, and alert. If their chief is killed, they
+will typically seek to escape alive, unless their opponents
+are obviously weak and inferior. Survivors will reinforce the
+goblins at  D., above, unless their attackers are very
+dangerous and the hobgoblins can see that the whole
+Caves’ area is in trouble. . .)
+G. SHUNNED CAVERN: Even the normal inhabitants of this
+area, including the ogre, stay away from here, for the
+creatures who dwell herein are exceptionally danger-
+ous. Any creature foolish enough to venture out at night
+becomes fair game. A horrible stench is noticed as
+soon as creatures enter the cavern area.
+EMPTY GALLERY:  The odor of these places is awful.
+Bones and rotting corpses are spread here and there
+amidst a litter of dead leaves and old branches. If a
+careful search is made, adventurers will find a coin
+every round:  1-2 = 1 copper piece, 3-4 = 1 silver
+piece, 5-6  = 1 
+electrum  piece. The sound of such
+searching might bring visitors! Roll on the table below
+for an encounter:
+32.
+18
+
+===== PAGE 25 =====
+33.
+34.
+H.
+1-
+2-
+3-
+Owl bear from 34., below
+2-12 giant rats (AC 7, HD 
+1/2, hp 2 each, #AT 1, D
+1-3 plus disease, MV (40’), Save F 1,  ML 8)
+Gray ooze from 33., below
+4-6 - Nothing is attracted to the noise
+SHALLOW POOL: This portion of the cavern is very wet,
+and all of the walls and the floor have a sheen from the
+dampness, There is a large pool of shallow water (as
+shown), and a few white, blind fish are swimming there-
+in. There is a jewel-encrusted goblet worth 1,300 gold
+pieces in the water. There are 3 gray ooze monsters in
+this place (only 2 if 1 has already been encountered in
+a 32. area). Each causes 1-8 hit points of damage on
+the first round, unless attacking from above, because
+half of their damage will be taken up in destroying the
+foot and leg protection of the victim. Thereafter, attacks
+cause 2-16 points of damage, as do attacks from
+above. (AC 8, HD 3*, hp 15 each, #AT I, D 1-8 first round,
+then 2-16 destroys armor, MV 
+(3’) Save F 2, ML 12.) The
+pair always in the place are the one at the south edge
+of the pool and the one on the ceiling in the southwest-
+ern portion of the area. There is only a 1 in 20 chance of
+noticing either unless a pole device is used to prod the
+area before the pool or unless two or more torches are
+held aloft so as to fully light the ceiling area. The third
+gray ooze will be on the ceiling to the left of the en-
+trance, if present.
+OWL BEAR’S DEN: The owl bear (AC 5, HD 5, hp 30, #AT 3,
+D I-811-811-8, MV (40’) Save F 3, ML 9) sleeps in the most
+southerly part of its den, digesting a meal of gnoll it just
+caught at dawn. If aroused, the beast will roar and rush
+out, striking with its two great paws and toothy beak for
+1-8 points of damage per hit, with three such attacks
+per round, i.e. a claw, another clawing attack, and
+then ,a snap of its beak. It has no treasure, but amidst
+the many sticks and bones it sleeps on is a bone tube (1
+in 6 chance of noticing it for each person searching the
+heap, with a check for each once per round) with a
+protection from undead scroll within it.
+BUGBEAR  LAIR: The group of bugbears is not numerous,
+but what it lacks in numbers, it makes up for in strength
+and cunning. There are signs beside the entrance cave
+in kobold, orcish, goblin, etc. Each says: “Safety,
+security  and repose for all humanoids who enter -
+WELCOME! (Come in and report to the first guard on the
+left for a hot meal and bed assignment.)”
+35. GUARD ROOM: 3 bugbears (AC 5, HD 3 + 1, hp 11 each,
+#AT I. D 2-8. MV (30’). Save F 3, ML 9) with 2d10  gold
+pieces each, These creatures lounge on stools near a
+smoking brazier which has skewers of meat toasting
+over the coals. Each will ignore his great mace when
+intruders enter, reaching instead for the food. Though
+they do not speak common, they will grab and eat a
+chunk, then offer the skewers to the adventurers 
+- and
+suddenly use them as swords to strike first blow (at +2
+bonus to hit due to surprise!) unless the victims are very
+alert. There are two cots in the place and a large gong.
+If the battle goes badly, one will smite the gong to warn
+the others in the complex.
+36.
+CHIEFTAIN’S ROOM: This tough old bugbear is equal to
+an ogre (AC 5, HD 4+1,  hp 18, #AT I, D 3-12 (d10+2),
+Save F 4, ML 9). He has a pouch with a key, 29 platinum
+pieces, and 3 50 g.p. gems in it. With him is a female
+bugbear equal to the male (AC 5, HD 3 + I, hp 12, #AT I,
+D 2-8, Save F 3, ML 9). She has gold earrings worth 100
+g.p. The furnishings of the room are battered and
+crude, but several pieces of silk are mixed up with the
+bedding, in all 6 may be found; the party will be able to
+37.
+38.
+sell them for 20 g.p. each. There is a gray chest stuck up
+on a ledge near the ceiling which will only be spotted if
+the room is carefully searched. It contains 1,462 silver
+pieces, a 30 pound statue of alabaster and ivory (worth
+200 gold pieces), and 2 potions of healing (which will
+break if the chest is roughly handled). It will take three
+or four strong characters to bring this down safely.
+There is a hand axe 
++1 on the wall, and if the chieftain
+has the chance, he will take it down and hurl it first,
+then close for full melee. He knows of the secret door 
+-
+it is his escape route in desperate situations.
+SPOILS ROOM: The heavy door is locked, and the key is
+in the pouch of the chieftain (36.,  above). Inside are a
+shield + 1, being used as a tray to hold a heap of dried
+herbs (catnip, something these particular bugbears
+relish), various boxes and crates of high quality dried or
+salted foodstuffs, leather hides in a stack, 3 barrels of
+ale, a tun of wine, and a small keg of oil (20 flask
+capacity). (If all but the shield and oil are sold at the
+KEEP, the value will be 400 gold pieces.) Breaking the
+lock or smashing the door will bring the guards from 35.
+and the chieftain and his mate from 36..
+COMMON ROOM: 3 males (AC 5, HD 3 + I, hp 12 each,
+#AT I, D 2-8, MV 
+(30’),  Save F 3, ML 9) with 2d6 each of
+gold and silver pieces, 7 females (AC 6, HD 2, hp 8
+each, #AT I, D 1-8, Save F 2, ML 8), and 3 young 
+bug-
+bears (AC 7, HD 1, hp 3 each, #AT 1,  D 1-4, Save F 1,  ML 7)
+live here. There are piles of bedding and old garments
+here and there. Blackened by soot, there is a silver urn
+worth 175 g.p. near the fireplace, but only close
+examination will reveal its true value.
+39. GUARD ROOM: Watching here are 2 males (AC 5, HD
+3 + 1,  hp 10 each, #AT 1,  D 2-8, Save F 3, ML 9) with 2d8
+gold pieces each, and 3 females (AC 6, HD 2, hp 7
+each, #AT 1, D 1-8, Save F 2, ML 8) each with 
+d10  gold
+pieces. Each has a spear in addition to normal
+weapons, so that they can hurl this missile and then
+close to fight hand-to-hand. These bugbears tend to the
+slaves as well as help to guard the entrance to their
+lair. There are bedrolls, a bench, a long table, a water
+pail, and sacks of meal scattered here and there in the
+chamber. Keys to the doors to 40. and 41. are on the
+wall opposite the stairs. Both corridors to the slave pens
+have meal sacks and small boxes and barrels of provi-
+sions and watered wine along their length.
+40. SLAVE PEN: The iron door is secured by a bar, chain,
+and heavy padlock. Inside is a litter of straw, a bucket,
+and the following slaves: 3 kobolds (AC 9, HD 
+1/2, hp 2
+each, MV (40’), Save NM, ML 6), 1 goblin (AC 9, HD l-l,
+hp 3 each, MV (20’), Save NM, ML 7), 4 orcs  (AC 9, HD I,
+hp 5 each, MV (40’), Save F 1, ML 8), and 2 humans (AC 9,
+F 1,  hp 4 each, MV (40’), ML 7)  - optionally add 1 dwarf
+(AC 9, D 2, hp 12, MV (40’), ML 8) and 2 elves (AC 9, E 1,  hp
+7 each, MV (40’), ML 8) in place of 2 of the kobolds and 1
+of the orcs.  They are chained to the wall with a com-
+mon chain and a heavy padlock. All will fight against
+the bugbears if given weapons. (Treat as AC 9 unless
+protection is provided.) The humans will serve as those
+noted in F., 24., above. The dwarf and elves, if used by
+the DM, may agree to help the adventurers as long as
+they stay in the Caves’ area continuously and fight. The
+other creatures will desert at first opportunity.
+41. SLAVE PEN: Another barred, chained, and padlocked
+iron door keeps safe the following slaves: 3 hobgoblins
+(AC 8, HD 1+ 1,  hp 6 each, MV (30’), Save F 1,  ML 8), 2
+gnolls (AC 8, HD 2 + 1,  hp 9 each, MV (30’), Save F 2, ML
+8), 1 (rebel) bugbear (AC 7, HD 3+  I, hp 14, MV (30’),
+Save F 3, ML 9) and 1 huge human - a seeming wild-
+man, with mighty muscles, shaggy hair and beard, and
+staring eyes. He is a Hero (a 4th level fighter). His 18
+19
+
+===== PAGE 26 =====
+Strength and + 1 for his level give him a total of +4  “to
+hit” bonus and + 3 to damage (AC 9 due to no armor, F
+4, hp 24, #AT  1,  D 4-9, ML 10). (He is prone to fits of berserk
+fury due to his enslavement, and if armed and in
+combat it is 50% likely per round that he will strike a
+friend instead of a foe in his lust to slay!) If freed, these
+slaves will attempt to flee, although they will attack
+bugbears who are in the way of their escape. There are
+two exceptions: the big bugbear hates his fellows, and
+will take arms and fight against them or any of the other
+inhabitants of the whole area; he will continue to do so
+for as long as the party stays there. The hero is an evil
+person; once he is armed, and after battle madness
+leaves him, he will either kill the adventurers who freed
+him, so as to have all their treasure for himself, or else
+he will steal whatever is most valuable and then sneak
+off - but only if he knows the party is too strong for him.
+(DM Note: There are 2 bugbears out hunting, and they will
+return with a human corpse and 83 gold pieces the day
+after adventurers first enter the bugbear lair. They will be
+placed on guard duty at 35., if appropriate, and their
+statistics are the same as the guards there. Bugbears will
+stay in the place until all are dead, save the chieftain, who
+will seek help from the minotaur at I., 45.)
+I. CAVES OF THE MINOTAUR:  This labyrinth* houses a
+number of nasty things, but the worst is a fiendishly
+clever minotaur who abides herein. Immediately upon
+entering the place, adventurers will feel slightly dizzy 
+-
+the effects of a powerful spell which will cause them to
+lose all sense of direction.
+The minotaur will agree to help the bugbears against
+invaders at the cost of one human slave every three
+days of service 
+- of course, the slave is eaten in that
+period. The minotaur keeps only the choicest of
+treasures, tossing unwanted loot to whomever happens
+to find it at the mouth of the labyrinth.
+(DM Notes: You may allow players to find a few low-value
+coins, normal equipment, weapons, or armor at the en-
+trance. After 30’ past the cave mouth, a spell of 
+direction
+confusion (a special spell) will begin to function, so start to
+misdirect them by naming incorrect directions, i.e. south-
+east instead of northeast, east instead of west, etc. Don’t
+worry about calling the same passage as a different direc-
+tion should they travel over the same route twice 
+- that’s
+the effect of the magic on them. You may wish to allow the
+mapping character a secret saving throw every couple of
+turns, a 19 or 20 indicating that the effect has been thrown
+off.)
+42. STIRGE  CAVE: There are 13 of these flying monsters
+here: (AC 7, HD 1, hp 3 each, #AT 1 at +2  to hit, D 1-3 first
+round plus 1-4 per additional round, MV (60’) Save F I,
+ML 9). If opponent is hit, stirge will automatically suck
+blood each round thereafter, doing 1-4 hit points of
+damage due to blood drain until victim is dead or
+stirge is killed. The minotaur loves to catch and eat
+these creatures, so they avoid him, and they are quite
+hungry. In fact, this hunger makes it 90% likely that they
+will be squeaking and hooting to one another, so the
+party won’t be surprised. They have no treasure.
+43. FIRE BEETLES: Three dwell in this area: (AC 4, HD 1 + 2, hp
+7 each, #AT  1, D 2-8 (2d4),  MV (40’), Save F I, ML 7). They
+too are hungry and will hasten to attack any persons
+entering their area. They have no treasure, but 2 glands
+above their eyes and one in their abdomen will glow
+with a red light, 10’ radius, for 1-6 days after the beetle is
+killed.
+44. FIRE BEETLES: There are 2 of these creatures here, in all
+respects like those in 43., above.
+45. THE MINOTAUR: This huge monster has AC 4 due to a
+great chain mail coat he wears, and carries a spear
++1. When he first attacks, the minotaur (AC 4, HD 6, hp
+35, #AT  1 or 2, D 4-9 or I-611-6, MV (40’), Save F 6, ML 12)
+will rush forward and stab with his spear for 4-9 (d6+ 3)
+points of damage, due to his strength. The next round
+he will gore and bite doing 1-6 points of damage with
+each successful attack. The minotaur may only use his
+spear 
+or his horns and bite.
+When intruders enter the area, the minotaur im-
+mediately moves to attack. He knows this area so weft
+that the only way for victims to escape is to go through
+the secret door into area 36., or else to run out of the
+place and climb a large tree.
+The cave the minotaur dwells in has skulls and bones
+arrayed in decorative patterns. The secret door is
+actually a slab of stone which takes not less than 3
+humans to move. (It will be noticed by careful checking
+of the walls, but how it is moved requires a roll of a 1 on
+a six-sided die to indicate the searcher has found
+where it can be grasped. All of the minotaur’s treasure
+is behind this slab of rock. It hides:
+1 locked chest (with poison needle in lock) 
+- con-
+tents 930 gold and 310 electrum  pieces
+1 staff of healing
+1 suit of man-sized (optionally elf-sized) plate mail
++1
+1 locked coffer - contents 3 potion bottles (gase-
+ous form, healing, growth)
+1 locked chest - contents 3 pieces of jewelry worth
+1600, 900,  and 600 g.p. respectively
+20
+
+===== PAGE 27 =====
+J. GNOLL LAIR: The entry into this place is a small cave,
+and only at the end will worked stone be visible. If the
+adventurers have a light or make much noise, the
+guards (46.) will certainly be alerted and ready.
+46. GUARD ROOM: There are always 4 gnolls (AC 5, HD 2,
+hp 9 each, #AT 1,  D 2-8, MV (30’), Save F 2, ML 8) on duty
+here. Two have bows, and will shoot at intruders until
+melee takes place; they will then run for help while the
+other two fight. Each gnoll has d8 each of electrum,
+silver, and copper pieces.
+47. GUARD ROOM: 3 males (AC 5, HD 2, hp 8 each, #AT I, D
+2-8, Save F 2, ML 8) and 5 females (AC 6, HD 1 + 1,  hp 5
+each, #AT  I, D 1-8, Save F I, ML 8) are quartered here.
+They will be ready to fight immediately. The males have
+d6 gold pieces each, the females have d4. There is a
+scattering of rude furniture in the place, heaps of bed-
+ding on the floor, several hides and pelts on the walls
+(one is a valuable sable cloak worth 450 g.p.), and a
+barrel of water in the southwest corner of the room.
+48. LOCKED ROOM: This chamber is a store room and ar-
+mory. Besides the usual provisions, there are 7 shields, a
+suit of dwarf-sized chain mail, 12 hand axes, 3 
+long-
+bows, 5 quivers of arrows (20 in each), and a sword -1,
+cursed. One barrel of exceptionally fine ale is leaking,
+and the odor will tempt adventurers to taste it. It is so
+good, in fact, that there is a 5 in 6 chance per taste that
+he or she will draw a healthy draught and then spend
+the next I-4 turns drinking. (If this occurs, be sure that
+you have the appropriate characters sing, make noise,
+and act foolishly. Any of their attacks will be at -2 to hit;
+this will continue for as many turns as they spent drink-
+ing, i.e. l-4).
+49. 
+COMMON ROOM: This place quarters the gnoll tribe -
+6 males (AC 5, HD 2, hp 8 each, #AT  I, D 2-8, Save F 2, ML
+8)  II females (AC 6, HD 1 +I, hp 5 each, #AT I, D 1-8,
+Save F I, ML 8), and 18 young who do not fight. Males
+have d6 each of electrum  and silver pieces, females
+d10  silver pieces each. There is the usual clutter of
+worthless furniture in the room.
+50. GNOLL  CHIEFTAIN’S QUARTERS: The gnoll leader (AC 3
+due to pieces of plate mail worn, HD 3, hp 17, #AT  I, D 4-
+10 (2d4+2)  due to his strength, Save F 3. ML IO), his two
+sons (AC 4, HD 2+1,  hp IO each, #AT I, D 3-9 (2d4+1),
+Save F 2, ML IO) and four female gnolls (AC 6, HD 1 + I,
+hp 5 each, #AT 1, D 1-8, Save F 1, ML 9) are waiting in this
+room. The chieftain has a pair of silver armbands  worth
+50 gold pieces each, and there are 39 gold pieces in
+his belt pouch. His sons have d10  each of gold, elec-
+trum and silver pieces, Each female wears a silver neck
+chain worth 30 gold pieces and has 2d6 electrum
+pieces in addition. The furnishings of the place are
+crude and battered. A large metal pot beneath a flag-
+stone in the fireplace alcove hides 200 copper, 157
+silver, 76 electrum, and 139 gold pieces.
+The secret door and passage to area  K., 63.,  is un-
+known to all. Just inside the entrance is the skeleton of a
+human thief, his leg is broken and he must have died
+here trying to escape through the secret door. The
+rotten leather armor and corroded weapons are value-
+less, but the purse at his belt holds 12 gems of 50 g.p.
+base value each, and the 
+elven boots upon his bony
+feet are still in usable shape.
+(DM Note: Losses by the gnolls cannot be replaced. They
+are in a loose alliance with the orcs, so if there are surviving
+gnolls, they will move to the orc  areas and vice versa. If you
+wish, allow the chieftain to be able to escape enemies by
+climbing up the chimney of the fireplace in his area.)
+K. SHRINE OF EVIL CHAOS: A faint, foul draft issues from
+the 20’ wide cave mouth which is the entrance to this
+place. The worn path through the copse of obscenely
+twisted and oddly bloated trees gives those approach-
+ing along its length an eerie sense of unease, and as
+soon as they enter the cave mouth a dim awareness of
+lurking evil will pervade their senses. Red strata inter-
+twines with bulging black veins running through the
+hewn rock walls beyond the entrance. The wide corri-
+dors and chambers are deathly still. A faint groaning
+sound, and a shrill piping may be occasionally heard,
+barely perceptible even if the party is absolutely silent
+and listening.
+The floors are smooth and worn by the tread of count-
+less feet of the worshipers at this grim place. The foot-
+steps of intruders will echo alarmingly in these vaulted
+halls (+ 2 chance of being surprised), and extreme
+care must be taken to muffle such sounds if the party
+has any hopes of remaining undetected until the mo-
+ment of their choosing. Continual noise will bring a
+group of zombie guards to investigate:
+8 zombies: (AC 8. HD 2, hp 8 each, #AT  1,  D 1-8, MV
+(40’), Save F 1, ML 12). These ghastly monsters are
+clad in filthy red and black striped uniforms. Each
+carries a cleaver-like battle axe. (Each wears an
+amulet’ of protection  from turning, so attempts by
+a cleric to turn them are made as if they were
+ghouls rather than zombies.)
+51. BOULDER FILLED PASSAGE: Large rocks and boulders
+have been placed here in order to seal off this tunnel. It
+will take 100 man-turns to open a way large enough for
+a human to pass through into the area beyond. (You
+have the option of allowing this passage to lead to the
+outside somewhere to the southwest of the 
+Caves of
+Chaos, or you may choose to have it go all the way to
+the Cave of the Unknown. If you opt for the latter case,
+you must, of course, prepare an appropriate under-
+ground area map and stock it with monsters and
+treasures.)
+52. HALL OF SKELETONS: This unusual audience chamber
+has a dais and throne-like chair set with 4 large red
+gems (500 g.p. each) at the south end. It is otherwise
+empty except for a dozen skeletons, clad in rags of
+chain mail and bearing battered shields and rusty
+scimitars (swords), propped against the walls. These
+bony guards do not move, and any attempt to turn
+them immediately upon entering the chamber will
+have no effect, as they are obviously not animated.
+However, as soon as intruders touch the dais or throne
+chair, these monsters will spring to life from their posi-
+tions on either wall of the chamber. Each has an 
+amu-
+let of protection from turning  upon it, so they are
+turned by a cleric as if they were zombies (AC 7, HD 1,
+hp 3 each, #AT  1, D 1-6, Save F 1, ML 12). They have no
+treasure.
+Once the skeletons are disposed of, it is an easy matter
+to pry the 4 garnets (gems) from the back of the chair.
+53. GUARD ROOM: There will always be 8 zombies (AC 8,
+HD 2, hp 8 each, #AT I, D 1-8, Save F I, ML 12), turned as
+if they were ghouls due to a amulet of protection from
+turning hulking silently here, 4 at either end of the hall.
+Anyone entering will be attacked unless they are
+robed in temple garb (see area 54.. below) and have
+an amulet identical to the ones which the undead
+guard groups or priests wear. There is no treasure here.
+54. ACOLYTES’ CHAMBER: There are 4 acolytes (1st level
+clerics) here (AC 5, C 1, hp 4 each, #AT  1, D 1-6, ML 8), all
+21
+
+===== PAGE 28 =====
+dressed in rusty-red robes, with black cowls*. Under
+these robes each wears chain mail and a mace at his
+belt. Each carries 10 gold pieces in his purse, and the
+leader wears an amulet of 
+protection from good. This
+amulet circles the wearer with a magic barrier. The
+amulet serves as some protection from good attacks
+(attacks by monsters of some alignment other than the
+wearer’s alignment) by adding 1 to the wearer’s saving
+throws, and subtracting 1 from the “to hit” die roll of
+these opponents. The spell will also keep out attacks
+from enchanted (magical) monsters (such as gar-
+goyles), but not missile fire attacks from these creatures.
+Their room contains four hard pallets*, a brazier*, a
+table, four stools, a cabinet for clothing, a water pail, a
+waste bucket, and a flagon* of wine and four cups.
+There is nothing of value amongst these items.
+55. CHAPEL OF EVIL  CHAOS: This place is of red stone, the
+floor being a mosaic checkerboard of black and red.
+The south wall is covered by a huge tapestry which de-
+picts a black landscape, barren trees, and unidentifi-
+able but horrible black shapes in silhouette 
+- possibly
+demons of some sort  - holding aloft a struggling
+human. A gray sky is torn by wisps of purple clouds, and
+a bloody moon with a skull-like face on it leers down
+upon the scene. Four black pillars support the domed
+ceiling some 25’ overhead. Between these columns,
+just in front of the tapestry, is a stone altar of red veined
+black rock, rough-hewn and stained brown with dried
+blood. Upon it are 4 ancient bronze vessels 
+- a shallow
+bowl, a pair of goblets, and a ewer, a vase-shaped
+pitcher. They are also bloodstained but obviously worth
+a great deal of money. (The value is 1,000 g.p. for each
+cup, and 2,000 g.p. for each of the other items, but
+these are relics of evil, and any character possessing
+them will 
+not part with them or sell them nor allow
+others to handle them.) For each character who picks
+up one of these objects, the DM should have the char-
+acter roll a saving throw vs. Magic at -2. Any who save
+successfully will get a “feeling of great evil” about the
+object, and he or she may voluntarily put it down. If the
+save fails, the character will rapidly fall under the influ-
+ence of a demonic spell and within 6 days become a
+servant of chaos and evil, returning to this chapel to re-
+place the relics, and then staying as a guard forever
+after. If someone attempts to destroy these relics the
+great bell (see 58., below) will sound and the Shrine’s
+residents will come running in 3 rounds. If a 
+detect evil
+spell is cast upon these items, they will glow an ugly
+purple, and all good characters will feel instant loath-
+ing for them. If the character who has taken them has a
+dispel magic and then a bless spell cast upon him or
+her, there is a 60% chance of removing the evil on the
+first day, 50% on the 2nd,  40% on the 3rd,  30% on the
+4th. 20% on the 5th,  and 10% on the 6th. Otherwise,
+nothing will be able to save the character!)
+56. ADEPTS’ CHAMBER: There are 4 adepts (2nd level
+clerics) here, each clad in a black robe with a maroon
+colored cowl* (AC 3, C 2, hp 
+8 each, #AT  I, D 1-6, ML 8).
+They have plate mail beneath their garments, and
+each bears a mace. Their waists are circled with
+copper chains (worth 40 g.p. each) with skull-shaped
+clasps fashioned of bone. Each carries a purse with 20
+gold and 5 platinum pieces, and each wears an amu-
+let of 
+protection from good (#54.),  which makes their ef-
+fective armor class 2 vs. good creatures. The first and
+second have cause light wounds (does 2-7 points of
+damage to creature touched; normal “to hit” roll must
+be made to touch victim) spells, the third a 
+light spell,
+the fourth a cause fear (those who fail to save vs. Spells
+must flee in terror for 1 turn. A normal “to hit” roll must
+be made to affect creature) spell. They will use their
+57.
+58.
+59.
+spells first, if possible, before engaging in combat with
+weapons. In the room are four beds, four small stands,
+a table, four chairs, four chests for clothing, and various
+books and scrolls of evil nature 
+- nothing of value.
+However, on the table are copper dishes and vessels
+(total weight 300 coins) of exceptional craftsmanship
+which are worth 175 gold pieces. (If the party opts
+destroy the evil writings, they should receive an 
+addi-
+tional 600 experience points for the act, unless they are
+themselves evil, in which case they should receive
+points for keeping and reading these works.) If hard
+pressed, these evil clerics will attempt to flee and warn
+their master by striking the great bell (58.).
+HALL OF UNDEAD WARRIORS: There are four files of the
+undead here, two of 10 skeletons each, two of 10 zom-
+bies each. The former face south, the latter north.
+20 skeletons: AC 6 (due to chain mail rags and shields),
+HD I, hp 3 each, #AT  I, D 1-6, Save F I, ML 12, turned as if
+they were zombies.
+20 zombies: AC 5 (due to chain mail), HD 2, hp 8 each,
+#AT  1,  D 1-8, Save F 1,  ML 12, turned as ghouls.
+Upon striking of the great iron bell at 58., below, the
+skeletons will issue forth from the south door of the
+place and march into the temple (58.) to line the south
+wall, while the zombies plod out the north exit to line
+the north wall of the temple. If intruders enter room 57.,
+are in the passage to the temple, or are within the
+temple itself, these undead warriors will attack. Proper
+garments and amulets will prevent attack unless the
+head cleric commands the undead to do so. They
+have no treasure.
+TEMPLE OF EVIL CHAOS: This huge area has an arched
+ceiling some 30’ or more in height. The floor is of
+polished black stone which has swirling patterns of red
+veins through it. The walls behind the draperies,  and
+the ceiling as well, are of dull black rock, while the west
+wall is of translucent red stone which is seemingly one
+piece, polished to mirror-like smoothness. A great bell
+of black iron stands near the entrance point, with a pair
+of mallets beside its supports. To the south are several
+long benches or pews. There are three stone altars to
+the west, the northernmost of pure black, the middle
+one of streaked red and black, the last of red with
+black flecks. At the western end of the temple area is a
+dais of black stone, with four lesser chairs on its lower
+tier and a great throne above. The chairs are of bone;
+the ivory throne is set with gold and adorned with gems
+of red and black (10 black stones each worth 100 gold
+pieces, 10 red stones each worth 500 gold pieces, and
+one large red stone worth 1,000 g.p.). The signs and
+sigils*  upon these seats are of pure chaos and evil. The
+other walls are covered by draperies of deep purple
+with embroidered symbols and evil sayings, done in
+scarlet and gold and black thread. As soon as the
+party enters the place, black candles in eight great
+candelabras on either side of the place will come
+alight magically, shooting forth a disgusting red
+radiance. Shapeless forms of purple, yellow and green
+will dance and sway on the western wall, and if anyone
+looks at them for more than a moment, they must save
+versus Spells or be mesmerized into chanting a hymn to
+chaotic evil. Should three or more voices be so raised,
+the iron bell will sound automatically by magic, but
+even one such chant will alert the guards of the head
+cleric (see below). Zombie guards will enter here in 3 
+rounds after entry, even if the party is quiet.
+THE CHAMBERS OF THE EVIL PRIEST: Location 59.g is the
+anteroom where special visitors are entertained by the
+chief cleric. There are lavish furnishings here, although
+22
+
+===== PAGE 29 =====
+none are of particular value except for a golden
+flagon and cups (flagon worth 500 g.p., each of the
+nine cups has 100 g.p. value). Three zombies are on
+guard here. (AC 2 due to plate mail and shield, HD 2,
+hp 13 each, #AT 1,  D 1-8, Save F 1,  ML 12.) They stand un-
+moving unless they are summoned by a chant from the
+temple area, someone enters their area, or they are
+commanded by the evil priest.
+Location 59. is the private chamber of the evil priest. He
+is 3rd level, wears plate mail + 1, has a shield + 1, and
+wears an amulet of protection from good, which adds
+a further  +1 to his armor class when attacked by
+“good” creatures. (AC 0 or -1 due to magic armor and
+amulet, C 3, hp 14, #AT I, D 2-7 (staff) or 1-6 (mace), ML
+10). He attacks with a 
+snake staff, which is + 1 to hit. On
+command the staff will turn into a snake and coil
+around the person hit. The person is held helpless for
+1d4 turns, or until the cleric recalls the staff. The staff
+then crawls back to the cleric on command. He also
+has a normal mace hanging from his belt. He has a
+gold ring with a black gem (value 1,400 gold pieces)
+and a purse with 51 platinum pieces in it. He wears a
+black cape and cowl, with red robes beneath. His
+spells are:  
+cause light wounds (inflicts 2-7 points of
+damage) and  cause fear. The priest must touch
+someone, strike to hit, for the spells to take affect. He
+also has a scroll with three cleric spells on it: 
+detect
+magic, hold person, silence, 15’ radius.  He has a
+potion-of gaseous form which he will use to escape
+through the boulder-filled corridor, 51.,  when all else
+fails.
+60.GUEST CHAMBER: This lower room is for important
+guests of the place. It contains a large bed, table,
+chairs, etc. There is nothing of value within, although
+the tapestries adorning the walls (things picturing evil
+cruelties and obscene rites) appear expensive. Be-
+neath a velvet cloth on the table is a polished mirror.
+His room is furnished lavishly, with a red carpet, furni-
+ture of black wood with velvet upholstery of scarlet,
+and a large bed covered with silken covers of black
+and red cushions and pillows. A demon idol leers from
+the wall to the north, directly over the bed. If anyone
+other than the priest touches it it will topple over upon
+the person, causing 2-12 points of damage. It has
+Iwo gem eyes (100 g.p. value each). The evil priest will
+dart behind a screen in the southeast corner, enter a
+wardrobe there, slip through a secret door in its back,
+and then down a short passage and out into the
+corridor through another secret door, should his life be
+in danger. When the secret door in the back of the
+wardrobe is opened by the party, 500 gold pieces and
+50 gems of 10 gold piece value each will spill from the
+wardrobe into the room to hopefully cause pursuers to
+stop for the loot. The priest will meanwhile either try 
+to
+rally his forces, or else escape (assuming that most of
+his fellows have been eliminated already).
+61. TORTURE CHAMBER: There are various implements of
+torture here, both large and small  - a rack, iron
+maiden, tongs, pincers, whips, etc. Comfortable chairs
+are scattered along the walls, evidently so placed to
+allow visitors an enjoyable view of the proceedings.
+The 
+torturer lives in the forepart of the place, and he
+will attack unauthorized persons who enter. He is a third
+level fighter with chain mail under his black leather
+garments. His weapon is a huge battle axe. Torturer: AC
+5, F 3, hp 19, #AT I, D 3-8 (1d6+2  due to Strength), ML 8.
+Hidden in his mattress are 135 gold pieces and a
+bracelet worth 700 gold pieces.
+62. THE CRYPT: The door to this room is bolted shut. This
+long hall is of roughly hewn stone, with a low ceiling. In
+it are many coffins and large sarcophagi with the re-
+mains of servants of the Temple of Chaos. The sixth tomb
+opened will contain a wight: (AC 5, HD 3*,  hp 13, #AT  I,
+D drain one level, MV (30’), Save F 2, ML 12). There is no
+treasure buried with any of the remains, but there is a
+secret compartment in the wight’s tomb; this contains a
+sword +2.  a scroll of protection from undead, a helm
+of alianment change, and a silver dagger worth 800
+gold pieces because of the gems set into its pommel*.
+63.
+64.
+STORAGE CHAMBER: There are many piles of boxes,
+crates, barrels, sacks, and so forth here - the supplies
+of the temple are kept here. There is nothing of value,
+and if the party stays within the place for longer than 3
+rounds, a gelatinous cube will move down the corridor
+into the place and block it. (AC 8, HD 4*,  hp 22, #AT  I, D
+2-8 plus paralyzation, MV (20’), Save F 2, ML 12.) Inside
+the creature are d12 each of copper, silver, electrum,
+gold, and platinum pieces, as well as several bones -
+evidently parts of a victim not yet wholly digested. (One
+of the “bones” is actually a wand of enemy detection
+with 9 charges left. If it is not gotten out of the monster
+within 1 turn, it will be ruined by digestive juices.) The
+secret door in the room leads to the 
+gnoll  chieftain’s
+cave (50.,  above).
+CELL: The door is of iron, locked and barred, but a
+window is set in the door. This is the place where
+prisoners are kept until tortured to death or sacrificed
+in the area above. There are several skeletons still
+chained to the wall, and one scantily clad female 
+- a
+fair maiden obviously in need of rescuing! As she is
+partly around a corner, at first only her shapely legs
+and body up to the shoulders can be seen. Those who
+enter and approach closer are in for a rude shock! This
+is actually a 
+medusa recently taken by the evil priest’s
+zombie guards. (AC 8, HD 4**,  hp 20, #AT 1, D l-6 plus
+poison, MV (30’), Save F 4, ML 8.) An opponent hit by the
+medusa’s attack has been bitten by the asp-hair and
+must save vs. Poison or die. Persons looking at the crea-
+ture 
+- including those fighting her from the front -
+must save versus being Turned to Stone by the medusa.
+Not being above such things, the cleric had plans for
+removing its snakes, blinding it, and then eventually
+sacrificing it at a special rite to a demon. The medusa
+will spare one or two of the adventurers from her gaze,
+promising them she has magic which will turn their
+companions back to flesh again, if they will free her
+from her chains. She does, in fact, have a special
+elixir*, a potion of 
+stone to flesh in a small vial, enough
+liquid to turn six persons, who have been turned to
+stone, back to normal, but she does not intend to give it
+away. If freed she will attempt to “stone” her rescuers.
+CREDITS:
+Designed and written by: Gary Gygax
+Revised by: Dave Cook, Harold Johnson, Jon  
+Pickens,
+Michael Price, Evan Robinson, Lawrence Schick,
+Stephen D. Sullivan
+Editing: Mike Carr, David Cook, Harold Johnson, Jeff R.
+Leason,  Frank Mentzer, Tom Moldvay, Lawrence Schick,
+Edward G. Sollers,  Stephen D. Sullivan, Jean Wells
+Art: David S. LaForce,  Erol Otus,  Jim Roslof
+23
+
+===== PAGE 30 =====
+NON-PLAYER CHARACTERS  (NPCs)
+Whenever the players encounter a person, it is helpful to
+have the characteristics of that person at ready. Before
+play, roll the Strength, Intelligence, etc. for each NPC.
+Make the adjustments as permitted in the D&D BASIC SET,
+select a personality, and equip the character (if details are
+not already given).
+The tables below will help get you started. You may select
+from the list of personalities or roll 
+(d20)  at random, giving
+one or two types to each NPC. Use common sense - a
+character can’t be rude and courteous, for example. Feel
+free to add to this list; it gives just a few examples for you to
+begin with.
+PERSONALITIES
+I. Brave II. Kind
+2. Careless 12. Lazy
+3. Cautious 13. Modest
+4. Cheerful 14. Nosy
+5. Courteous 15. Prankish
+6. Dishonest 16. Rude
+7. Forgiving 17. Suspicious
+8. Friendly 18. Talkative
+9. Helpful 19. Trusting
+10. Honest 20. Wasteful
+For your convenience, you may key the characteristics
+listed below to the persons mentioned in the module. For
+instance, a note after the Taverner 
+"c#4” would indicate
+that when the players meet him, the DM is to use the char-
+acteristics of 
+#4  (below) to represent him. Remember to
+make as many listings as you need! The class designations
+(Ftr, etc.) do not apply to normal men, of course, and may
+be ignored when used to represent normal men.
+HUMANS
+Class
+1. Ftr
+2. Ftr
+3. Ftr
+4. Ftr
+5. Ftr
+6. Ftr
+7. Ftr
+8. Thf
+9. Thf
+10. Thf
+II. Cl
+12. Cl
+13. Cl
+14. M-U
+Str Int Wis
+14 13 7
+16 10 9
+17 8 13
+15 8 II
+18 10 7
+14 8 10
+13 10 6
+II 12 8
+14 6 II
+8 9 11
+II 10 14
+13 7 15
+7 II 17
+10 17 12
+Dex Con Cha
+II 12 14
+9 II 15
+10 15 12
+14 16 6
+II 13 9
+13 17 II
+10 14 17
+14 II 7
+16 12 10
+17 8 16
+8 13 9
+11 10 10
+9 16 8
+6 9 II
+Personality
+Cheerful,
+honest
+Talkative,
+careless
+Brave,
+forgiving
+Honest,
+wasteful
+Kind,
+trusting
+Helpful,
+forgiving
+Kind,
+dishonest
+Prankish,
+rude
+Nosy,
+suspicious
+Modest,
+careless
+Lazy,
+trusting
+Friendly,
+wasteful
+Courteous,
+helpful
+Cautious,
+modest
+DEMI-HUMANS
+Class Str Int Wis
+15. Elf 16 14 7
+16. Elf 14 15 10
+Dex Con Cha
+9 13 10
+17 14 5
+Personality
+Suspicious,
+dishonest
+Cautious,
+rude
+17. Hflg
+18. Hflg
+17 12 8 14 10 9 Courteous,
+nosy
+15 10 II II II 7 Prankish,
+friendly
+19. Dwarf 18 8 9 12 9 13
+Brave,
+talkative
+20. Dwarf 16 9 15 8 17 11 Cheerful,
+lazy
+DESIGNING FLOOR PLANS
+Once you have become familiar with the KEEP - who its res-
+idents are, where the main buildings are located, and so
+forth - it will be helpful to have details about the layout
+and contents of certain places. Players can easily ‘see’ an
+area they are visiting if you have prepared a floor plan. The
+Guild House 
+(#16)  will be used as an example of this pro-
+cedure.
+On the map of the KEEP, the Guild House is shown to be an
+‘L’ shape about 40’ long. Draw a large version of it on a
+piece of graph paper (the kind with 
+1/4"  squares usually
+works best). Leave room for a key (noting what symbols are
+being used) and index the sheet for easy reference.
+The outer walls should have the same dimensions as the
+building’s outline. Note the 
+scale (what map length repre-
+sents what real length) at the bottom of the key. In the
+example given, 1/4" equals two feet of ‘real’ length. Since
+the walls in a normal building are from six inches to one
+foot thick, they may be represented by single lines; an outer
+wall should be indicated by thicker lines.
+Now look closely at the description of the building in the
+text. The lower floor contains the Guild Master’s quarters,
+two clerks’ quarters, and an office. Give equal spaces to
+the clerks, more to the Guild Master, and the most to the
+office (as it represents the main purpose of the building).
+The rooms may be in whatever order you like; just re-
+member that the outer door shown on the map probably
+opens into the office, not into a private bedroom. Most
+doors are 3 to 5 feet wide. Be sure to include steps down to
+the cellar and up to the rooms on the second floor. Add
+some windows to help provide light.
+Try and think of what items would be in a sparsely furnished
+office in the KEEP (probably chairs, tables, desks, a lockbox
+or chest, and a cabinet or two). Consider how necessities
+would be provided: heat (fireplaces), water (barrels), and
+food (a kitchen in the cellar). The fireplaces should be
+located first 
+- chimneys go straight up, and must be
+placed in the same area on each floor. Most buildings
+have one or two chimneys. Remember to heat each room,
+if possible! Add other furnishings wherever you wish, includ-
+ing any information provided in the text.
+The completed office in this example has the Master’s desk
+along the west wall under a window, flanked by records
+cabinets. The clerks’ desks and collection table are just in-
+side a railing, which keep visitors from wandering into the
+work area. Waiting chairs are placed for the Guild mem-
+bers’ convenience. A secret door in the fireplace leads to
+the Master’s bedroom 
+- a quick escape route in case of
+trouble. The locked chest is for money received in Guild
+dues, but is usually empty due to a clever ‘drop’ system. It is
+triggered by a lever under the Master’s desk, which dumps
+the chest’s contents down a short chute into a cellar stor-
+age room! (You may add whatever tricks and traps you
+wish.)
+Arrange the bedroom furnishings (table, chairs, bed,
+armoire, etc.) in a similar manner. On the second floor
+(divided into private bedrooms and dormitory, according
+24
+
+===== PAGE 31 =====
+to the text) build the rooms off of the stairs, hallways, and
+fireplaces. It’s easy!
+Now you design the cellar, remembering a few key facts:
+1. The stairs and chimneys must connect properly to
+the first floor.
+2. Two servants live in the cellar, but not as richly as the
+clerks or the Guild Master.
+3. A heavily barred, locked room must be under the of-
+fice to receive the Guild fees from the chute.
+4. A kitchen must be located by one of the fireplaces.
+You won’t have to worry about windows or outside doors -
+but you might wish to include a secret entrance to a long-
+forgotten dungeon (which, of course, you must design and
+stock with monsters and treasure)!
+Adding the details to a house, church, or other structure
+can take a lot of time, but it’s not as hard as you might think.
+Before playing the module, lay out as many buildings of the
+KEEP as you can. The most commonly used buildings will be
+the TRAVELERS’ INN 
+(14.),  the TAVERN (15), the GUILD HOUSE
+(16.1, and the CHAPEL (17.). You may add just a few simple
+furnishings to each if you wish, leaving the many smaller
+details for later. By designing floor plans, you can experi-
+ment with many of your own ideas before starting a major
+project - like the CAVES OF THE UNKNOWN.
+TIPS TO THE PLAYERS
+It often helps for beginning players to have advice on how
+to play D&D.  Many points are overlooked by novices in
+their eagerness to get on with the adventure, The following
+points are given to help these players.
+Most importantly, players should be organized and co-
+operative. Each player should have complete information
+on his or her character easily on hand and should supply
+the DM with this information quickly and accurately if
+asked. As parties will usually involve a variety of alignments
+and classes, players should work together to use their abili-
+ties effectively. Arguing among players will cause delays,
+attract monsters, and often result in the deaths of some or
+all of the members.
+Cooperation should also be given to the DM. He or she is
+the judge of the game and his or her decisions are final. If a
+player disagrees, he or she should calmly state why, and
+accept whatever the DM decides. Shouting, crying, pout-
+ing, or refusing to accept decisions only angers the other
+players. The game should be fun for all involved. Not every-
+thing will go the way players want it.
+Planning is another important part of play. Players should
+be well equipped, comparing each member’s list and
+balancing the items on each. No character should be over-
+burdened nor under-equipped. This may mean sharing the
+costs of extra items. Rope, oil, torches, spikes, and other
+useful items should always be carried. Plans should be con-
+sidered for encountering monsters and casting spells.
+Caution is also necessary and is a part of planning. A party
+that charges forward without preparation is almost
+certainly doomed. Danger should be expected at any
+moment and from any direction, possibly even from one’s
+own party. Lying and trickery are not unknown. Cautious
+play will help avoid many (but not all) tricks and traps and
+may save a life. However, too much caution is as danger-
+ous as too little. Many instances will require bold and quick
+actions on the part of the players, before all is lost.
+Above all a player must think. The game is designed to
+challenge the minds and imaginations of the players.
+25
+Those who tackle problems and use their abilities, wits, and
+new ideas will succeed more often than fail. The challenge
+of thinking is a great deal of the fun of the game.
+GLOSSARY
+amulet - A charm inscribed with a magic symbol.
+armoire - A large trunk or closet where clothes are kept
+bailey - The outer wall of a castle, or an area within  such a
+wall.
+battlement - A parapet with open spaces atop a wall,
+used for defense or decoration.
+brazier - A pan for holding hot coals, usually on a tripod
+Castellan - A governor or warden of a castle or fort
+cistern - A reservoir for storing Iiquids,  especially water
+contour line - A line connecting points having the same
+elevation on a map.
+cowl - The hood on a cloak.
+decanter - A vessel used to pour or store liquids;  usually
+used for wines and other liquids containing  sedi-
+ment.
+elixir - A sweet liquid, or a cure-all.
+fen - Low land which is covered, wholly or partially, by
+water; a swamp.
+flagon - A large vessel or bottle of metal or porcelain.
+usually with a lid.
+hilt - The handle of a sword or dagger.
+labyrinth - A confusing maze, usually of tunnels under-
+ground.
+lackey - A servant, usually very low in class
+man-at-arms - A soldier of the most common type
+melee - Hand-to-hand combat between groups of char-
+acters and monsters.
+mercenary - A soldier who fights for wages rather than
+sworn loyalty.
+murder holes - Slits cut into a ceiling so that victims  pass-
+ing below may be attacked from above.
+NPC - A non-playing character, controlled by the Dun-
+geon Master rather than one of the players
+pallet - A straw-filled mattress or small, hard bed
+parapet - A wall or elevation of earth or stone to protect
+soldiers.
+pole arm - A large, heavy weapon on a long pole. There
+are many types, all of which are considered
+equal for D&D BASIC SET combat.
+pommel - The knob on the hilt of a sword or dagger
+portcullis - An iron grate hung over a gateway and
+lowered between grooves to prevent passage.
+pot boy - A young servant or slave who works in a tavern or
+inn.
+retainer - Special NPC followers of player characters, who
+travel on adventures for a share of any treasure
+found.
+sarcophagus - A stone coffin (Plural - sarcophagi.)
+scenario - An outline of a possible course of events.
+score - 20 items,
+scullion - A kitchen helper, usually very low in class
+tun - A measure of wine: 252 gallons, or 8 barrels.
+vellum - A very strong cream-colored paper.
+
+===== PAGE 32 =====
+
+
+===== PAGE 33 =====
+DRAW YOUR OWN FLOOR PLAN
+
+===== PAGE 34 =====
+ADDITIONAL NON-PLAYER CHARACTERS
+Use this sheet to list persons in the KEEP or in the CAVES OF CHAOS. Profession could be Fighter, Innkeeper, and so forth.
+Special refers to spells, valuables, and other details you may wish to include. Location should be noted by building or
+cave number.
+       Class/
+    Name   Profession   Level   AC   hp   Str   Int   Wis   Dex   Con   Cha   Personality   Special   Place
+  1.
+  2.
+  3.
+  4.
+  5.
+  6.
+  7.
+  8.
+  9.
+10.
+11.
+12
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+28
+
+===== PAGE 35 =====
+This item is only one of the many popular playing aids for DUNGEONS & DRAGONS® Fantasy Adventure Game
+produced by TSR Hobbies, Inc. Other playing aids currently available for use with the D&D® game system include:
+Dungeon Module B1 (In Search of the Unknown)
+Dungeon Module B2 (The Keep on the Borderlands)
+Dungeon Module X1 (The Isle of Dread)
+Monster and Treasure Assortment, Set One to Three: Levels One through Nine (makes the job of stocking dungeon
+levels easy)
+Dungeon Geomorphs (allows the DM to create thousands of different dungeon levels by arraigning them in different
+combinations)
+D&D Player Character Record Sheets (allows players to record all important information about their characters
+in an easy-to-use format)
+Other releases of additional items relating to D&D® Adventure Games are planned for the future. TSR Hobbies
+publishes a complete line of fantasy and science fiction games and rules which are available from better hobby,
+game, and department stores nationwide. If you desire a complete catalog, write to: TSR Hobbies, Inc., POB 756,
+Lake Geneva, WI 53147
+ISBN 0-935696-47-4

@@ -1,6 +1,6 @@
 {
  "turn.plan": {
-  "description": "Judge a whole proposed turn under SRD 5.2.1 action economy: action/bonus-action/reaction/free-interaction budgets, movement (crawling, standing from Prone, Grappled speed 0), Incapacitated, and the one-spell-slot-per-turn rule. Returns legal/illegal/cannot-adjudicate with citations; illegal verdicts name the first offending step.",
+  "description": "Judge a whole proposed turn under SRD 5.2.1 ACTION ECONOMY: action/bonus-action/reaction/free-interaction budgets, movement (crawling, standing from Prone, Grappled speed 0), Incapacitated, and the one-spell-slot-per-turn rule. Returns legal/illegal/cannot-adjudicate with citations; illegal verdicts name the first offending step. Scope: this checks the turn's economy only \u2014 it does NOT verify that a feature grants a given action (e.g. two-weapon fighting or Extra Attack prerequisites). Unmodeled conditions and out-of-range inputs (negative speed, spell level >9) return exit 2 rather than a guess.",
   "inputSchema": {
    "type": "object",
    "properties": {

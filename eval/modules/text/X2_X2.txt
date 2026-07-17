@@ -1,0 +1,3060 @@
+
+===== PAGE 1 =====
+
+
+===== PAGE 2 =====
+ungeon odule X2 
+Castle Amber 
+(Chateau d’ Amberville) 
+AN ADVENTURE FOR CHARACTER LEVELS 3-6 
+Trapped in the mysterious Castle Amber, you find yourselves cut offfrom the world you know. The castle isfraught with peril. Members of the 
+strange Amberfamily, some insane, some merely deadly, lurk around every corner. Somewhere in the castle is the key to your escape, but can 
+you survive long enough to find it? 
+This module contains referee notes, background information, maps, andexploration keys intendedfor use with theD&D€xpert rules. Be sure 
+to look for other D&D modules from TSR, the Game Wizards! 
+Distributed to the book trade in the United States by Random House, Inc. and in Canada by Random House of Canada. Ltd. 
+Distributed to the toy and hobby trade by regional distributors. 
+01981 TSR Hobbies, Inc. All Rights Reserved. 
+DUNGEONS & DRAGONS and D&D are registered trademarks owned by TSR Hobbies, Inc. 
+PRINTED IN USA. 
+ISBN 0-935696-51-2 
+TSR Hobbies, Inc. 
+POB 756 
+Lake Geneva, WI 53147 9051 
+
+===== PAGE 3 =====
+DUNGEONS & DRAGONS@ Expert Set 
+Dungeon Module X2 
+CASTLE MER 
+Castle Amber is intended for use with the DUNGEONS & 
+DRAGONS Expert Set, which continues and expands the 
+D&D@ Basic rules. This module cannot be used without the D&D 
+Basic and Expert rules. 
+PART 1: INTRODUCTION 
+The information in this module is only for the Dungeon Master who 
+will guide the players through the adventure. Knowledge of the 
+contents of this module will spoil the surprise and excitement for 
+players. If you plan to participate in this module as a player, please 
+stop reading now. 
+Notes for the Dungeon Master 
+Before beginning to play, the DM should read the module thor- 
+oughly to become familiar with it in detail. The information that is 
+boxed is to be read aloud to the players at the appropriate time. 
+The material that is not boxed is for the DM’s use and should only 
+be revealed to the players at the DMs discretion. 
+This module has been designed for a party of 6 to 10 characters, 
+between the 3rd and 6th levels of experience. The total of the 
+party’s experience levels should be from 26 to 34, with a total of 30 
+being best. For example: a party might be made up of a 4th level 
+fighter, a 6th level cleric, a 5th level magic-user, a 3rd level thief, a 
+5th level dwarf, a 4th level elf and a 3rd level halfling for a total of 
+30- (4+6+5+3+5+4+3=30). If thepartyhasastrengthofless 
+than 26 levels or more than 34, the DM may wish to adjust the 
+strength of the monsters in this module - either making them 
+smaller and less numerous or larger and more numerous. Each 
+party should have at least 1 magic-user or elf and 1 cleric. 
+Castle Amber (Chiiteau D’Amberville) is made up of 9 parts 
+-some provide wilderness adventures and some provide dungeon- 
+like adventures. 
+Part One (this section) outlines the scope of the adventure and 
+describes the family of Amber (D’Amberville). 
+Part Two details the West Wing of the Amber family mansion 
+(dungeon adventure). 
+Part Three describes the Indoor Forest in the central part of 
+the mansion, which is built like a greenhouse (wilderness 
+adventure). 
+Part Four is a description of the family Chapel (dungeon 
+adventure). 
+Part Five describes the plan of the East Wing (dungeon 
+adventure). 
+Part Six details the dungeon under the mansion (dungeon 
+adventure). 
+Part Seven is a description of Averoigne, based on a fantasy 
+world created by the author Clark Ashton Smith* (wilderness 
+adventure). 
+part Eight describes the Tomb of Stephen Amber (La Tombe 
+Etienne D’Amberville) - (dungeon adventure). 
+Part Nine gives details on the new monsters introduced in this 
+module. 
+During the adventures the DM should be careful to give the player 
+characters a reasonable chance for survival. The emphasis is on 
+reasonable. Try to be impartial and fair, but if players persist at 
+taking unreasonable risks, or if bravery turns into foolhardiness, 
+the DM should make it clear that the characters will die unless they 
+act more intelligently. Everyone should cooperate to make the 
+adventure fun and exciting. 
+When describing monster encounters, the DM should not des- 
+cribe them only by what they look like. After all, there are four 
+other senses as well - smell, sound, taste and feelings of heat, 
+cold, wetness and so forth. The DM should try to vary the ap- 
+proach to encounters whenever possible. For example: the party 
+might first hear a monster coming before actually meeting the 
+monster. Such advance warnings are also a good way to warn a 
+party that an encounter might be too difficult to handle. The DM 
+should try to avoid lettingunplanned wandering monsters ruin the 
+balance of the adventure, making it too tough for the party. 
+The descriptions of each room give only a minimum of detail. The 
+DM should feel free to add any additional details, such as the 
+dimensions of the room, so long as this does not alter the challenge 
+of the encounter. Additional detail is not necessary, but it may 
+strengthen the atmosphere of the adventure. 
+This module is not designed to be played completely in a single 
+session; a number of gaming sessions will be needed to finish it. If 
+the party tries to complete the entire module without stopping 
+periodically to regain lost hit points and restore spells, they are all 
+quite likely to die. The party has an unknown powerful ally looking 
+after them. Prince Stephen Amber (described in detail in a later 
+section) will send a cloud of amber light to encircle the party at the 
+end of a gaming session. This light will protect the party from all 
+wandering monsters and provides nourishment. The amber light 
+will also restore all lost hit points to wounded characters and allows 
+magic-users, elves and clerics a chance to regain their spells. Time 
+outside the amber light stops while it continues for those within the 
+light. Thus, if characters gain enough experience to reach higher 
+experience levels they may train and study between gaming ses- 
+sions and rise in experience levels. Those characters who gain 
+experience levels may use the abilities gained at the new level the 
+next time they play. In general, the DM will find that a single part of 
+the module is equaf to one gaming session. 
+For the convenience of the DM, whenever a monster or NPC is 
+described in the text, the game statistics will be listed in paren- 
+theses in the following order: 
+Monster Name (Armor Class; Hit Dice or Class/Level; hit points; 
+Number of Attacks per round; Damage per attack; Movement per 
+turn (round); Save As: Class/Level; Morale; Alignment; and Abili- 
+ties for NPCs, if necessary.) 
+Abbreviations which are used are: 
+Armor Class = AC, Hit Dice = HD, Cleric = C, Dwarf = D, Elf = E, 
+Fighter = F, Halfling = H, Magic-User = M, Thief = T, Normal Man 
+=NM; Level = #, hit points = hp, Number of Attacks = #AT 
+Damage = D, Movement = MV, Save As = Save, Morale = ML; 
+Alignment = AL; Strength = S, Intelligence = I, Wisdom = W, 
+Dexterity = D, Constitution = C, Charisma = Ch. 
+Class/Leuel is only used for NPCs, while Hit Dice is used for all 
+other monsters. It should be noted that movement in a game turn is 
+three times the movement rate per round. 
+*Permission to base Part Seven on the Averoigne stories of Clark 
+Ashton Smith was graciously granted by CASiana Literary En- 
+terprises, Inc. 
+2 
+
+===== PAGE 4 =====
+I I 
+The Amber Family 
+The Amber family did not come from the world where this adven- 
+ture takes place. Their roots go back many centuries to another 
+world in a different dimension. The world where the Ambers 
+originated is similar to the medieval France of our world. It is a 
+parallel Earth with a history that is similar, yet different from our 
+own. The two main differences are 
+1) magic is real, but illegal, and the law is upheld by the 
+2) this world has not yet progressed beyond medieval 
+church. 
+technology. 
+The Amber family held estates in the province of Averoigne on the 
+alternate Earth. Their original family name was D’Amberville. This 
+family was noted for secretly practicing magic. In their search for 
+power, the D’Ambervilles began to study black magic, especially 
+magic that dealt with certain dark elder gods whose worship was 
+forbidden. When their secret studies became known, the D’Am- 
+berville family was outcast. After a short but deadly war, the 
+D’Ambervilles fled through a temporary gateway between dimen- 
+sions. They were given refuge in Glantri, a country ruled by a 
+council of independent princes, each a powerful magic-user. (For 
+more details of Glantri and the continent it is located on, see 
+Dungeon Module X1, The Isle of Dread.) 
+After several generations of living in Glantri, the D’Amberville 
+family grew so powerful that each new family leader automatically 
+became one of the Princes or Princesses of Glantri. They shor- 
+tened their name to Amber and all family members learned to 
+speak two languages, French and the common language of Glantri. 
+For a century or so, the Ambers were one of the major powers in 
+Glantri. In particular, the seventh and last Prince, Prince Stephen 
+Amber, was one of the most powerful magic-users in the history of 
+Glantri. Suddenly, however, the entire Amber family and their 
+mansion, Castle Amber, disappeared. They were never seen again 
+and no one knows for sure what happened to them. In time, the 
+Ambers became legends, the subjects of tales to frighten misbe- 
+having children. 
+Note: The Amber family is not one of Clark Ashton Smith’s 
+creations and does not appear in any Averoigne stories. Their 
+origin has been traced to Averoigne to aid the continuity of the 
+module and to ease transition in and out of Averoigne in the course 
+of the adventure. 
+The personalities of the lost Amber family members set the mood 
+for the adventure. The Ambers are not quite sane! They range 
+from slightly eccentric to completely insane. For the most part, the 
+family is chaotic. While they are proud of their name, they seldom 
+cooperate with each other. Most of the family members believe 
+they can do anything once they set their mind to it. The Ambers 
+live magically lengthened lives, but they have seen too much and 
+are bored. They seek anything to relieve this boredom. On top of 
+their other traits, the Ambers possess a bizarre sense of humor. It 
+amuses them to watch adventurers battle obstacles which the 
+Amber family members place in their way. The Ambers are equally 
+amused whether the adventurers succeed or fail. A good spectacle 
+is more important to them than defeating the adventurers. The 
+Ambers tend to be fair, out of the belief that a rigged game is too 
+predictable and not much fun. 
+Eccentricity, chaotic individualism, great pride and a warped sense 
+of humor are the main Amber family traits that the DM should keep 
+in mind. The DM also should note that many of the Amber family 
+names, when first encountered, are given in both English and 
+French. For simplicity, the DM may use the more familiar English 
+names or may add exotic flavor to Castle Amber by using the 
+original French ones. A glossary of names, translations and pro- 
+nunciations is given at the end of this module. 
+Start 
+Your party has been traveling overland to Glantri City, tracking 
+down rumors that one of the Princes of Glantri is looking for 
+brave adventurers willing to undertake a special mission (for a 
+suitable fee, of course). You were especially eager to receive the 
+commission, because the Princes of Glantri are noted for their 
+generosity, not only with money but also with magical gifts. 
+Leading pack mules laden with supplies, you have been follow- 
+ing a river that the local inhabitants assured you would lead to 
+Glantri City. Unfortunately, no hired guide was available, and 
+either the directions given you were wrong or you have taken 
+the wrong fork by mistake. At any rate, you have good reason 
+to suspect that you are lost and will have to retrace your route 
+tomorrow. 
+The sun is setting and it is time to make camp. The most 
+defensible campsite is on a nearby hill. The night passes safely, 
+though everyone’s sleep is plagued with nightmares. When the 
+sun finally rises, you stare out at a world gone mad. Instead of 
+the hill where you made camp last night, your bedrolls now lie in 
+a foyer of an ornate mansion. A freshly swept carpet graces the 
+floor. The walls are decorated with bright, colorful tapestries. 
+Brass candelabras line the entranceway. They show signs of 
+having been recently polished and are filled with candles. 
+More frightening than the sudden change from the wilderness 
+to a mansion, is the smoky gray mist which surrounds the 
+mansion at a distance of 30 feet, blocking all sight beyond. No 
+sound penetrates the mist. A mule which acciden- 
+tally wandered into the mist was quickly lost to sight, though its 
+lead rope was clearly visible at the edge of the mist. When the 
+rope was hauled back in, the dead body of the mule was 
+dragged back into the sunlight. What killed the mule cannot be 
+determined, but it died with a horrible look of pain on its face. 
+The mist advances on the mansion even as the party watches, 
+but luckily it does not enter the foyer. The double doors to the 
+interior swing open into the main hallway by themselves. 
+The Gray Mist completely surrounds the mansion and covers all of 
+the land beyond. Should the players decide to walk into the mist, 
+on the first round they will begin to choke and suffocate. They will 
+feel disoriented and begin to get nauseous with painful cramps. 
+3 
+
+===== PAGE 5 =====
+They will experience nightmarish visions and the pain will grow 
+more intense with each passing second. Every round thereafter 
+that the character remains in the mist he or she must save vs. 
+Poison or suffer 1-6 points of damage from the noxious gases. Each 
+character must also save vs. Spells or become momentarily de- 
+ranged and flee back to the mansion. The mist does not end. 
+The Gray Mist is a device to ensure that the party will enter the 
+mansion. If at all possible it should not actually kill any characters. 
+While the adventures may be hard and dangerous, by searching all 
+the rooms in the mansion the party will find the clues that will allow 
+them to cross the mist safely and return to the world where the 
+adventure started. 
+The interior of the castle, or chateau, is lavish. The stone walls are 
+usually covered with either tapestries or wooden paneling. The 
+stone floors are usually covered with carpets or wood parqueting 
+(square wooden tiles of contrasting color patterns). The rooms are 
+huge and their ceilings are 30 or higher. The doors are generally 
+made of heavy, reinforced oak planks. Unless they are listed as 
+locked, the doors will open for the party without being forced. The 
+furnishings are ornate and expensive. The predominant style is 
+flashy with extensive gold inlay, intricate carvings and deep, bright 
+colors. 
+Wandering Monsters 
+The party is likely to encounter wandering monsters throughout 
+Castle Amber and the land of Averoigne, except in the Tomb of 
+Stephen Amber. The West Wing, East Wing, Chapel and Dungeon 
+all use the same wandering monster encounter table. There are 
+separate encounter tables for both the Indoor Forest and 
+Averoigne. 
+The chance the party will encounter a wandering monster is 1 on 
+ld6. The DM should check for an encounter every two turns. For 
+the sake of variety, it is suggested that no wandering monster be 
+encountered more than once until they have all been encountered. 
+If one is rolled up a second time, the DM should choose another 
+that has not been encountered yet. 
+Wandering Monster Encounter Table (d20) 
+(West Wing, East Wing, Chapel, and Dungeon) 
+Die 
+Roll Monster Number Statistics 
+1 Doppleganger 
+2 Hobgoblin 
+Servant 
+3 Isabel Amber1 
+4 Living Statue, 
+Crystal 
+5 Living Statue, 
+Iron 
+6 Living Statue, 
+Rock 
+7 Lupin 
+8 Lycanthrope, 
+Werewolf 
+9 Lycanthrope, 
+Weretiger 
+1-6 
+3-18 
+1 
+1-6 
+1-4 
+1-3 
+3-12 
+1-6 
+1-4 
+AC 5; HD 4*; #AT 1; D 1-12; 
+MV (30); Save F10: ML 10; 
+AL C. 
+AC 6; HD 1+1; #AT 1; D 1-8; 
+MV (30); Save F1; ML 8; AL C. 
+AC 9: M12; hp 26; #AT 1; 
+D 1-4 + spells; MV (40); Save 
+M12; M9; AL C. 
+AC 4; HD 3; #AT 2; D 1-6/1-6; 
+MV (30); Save F3; ML 11; 
+AL N. 
+AC 2; HD 4; #AT 2; D 1-8/1-8; 
+MV (10); Save F4; ML 11; 
+AL N. 
+2-12; MV (20); Save F5; ML 11; 
+AL C. 
+MV (40); Save F2; ML 8; AL L. 
+MV (60); Save F4; ML 8; AL C. 
+2-12; MV (50); Save F5; ML 9; 
+AL N. 
+AC 4; HD 5**; #AT 2; D 2-12/ 
+AC 6; HD 2; #AT 1; D 1-8; 
+AC 4; HD 4*; #AT 1; D 2-8; 
+AC 3; HD 5*; #AT 3; D 1-6/1-6/ 
+10 Magen, Caldron 
+11 Magen, Hypnos 
+12 Magen, Galvan 
+13 MaryHelen 
+Amber?? 
+14 Rakasta 
+15 Shadow 
+16 Skeleton 
+17 Spider, 
+Black Widow 
+18 Thou1 Servant 
+1-4 
+1 
+1-3 
+1 
+2-12 
+1-8 
+4-16 
+1-3 
+1-6 
+19 William Amber??? 1 
+20 Zombie 2-8 
+AC 5; HD 4*; #AT 1; D acid 
+1-10; MV (40'); Save F4; ML 12; 
+AL N. 
+AC 7; HD 2*; #AT 1; D charm; 
+MV (40'); Save M2; ML 12; 
+AL N. 
+AC 3; HD 5*; #AT 1; D 3-18 
+lightning or by weapon; 
+MV (40); Save F5; ML 12; 
+AL N. 
+AC 0; F14; hp 60; #AT 1; 
+D 1-8 (+3); MV (20); Save F14; 
+ML 10; AL C (see below) 
+AC 6; HD 2+1; #AT 3; D 1-4 
+each; MV (30'); Save F2; ML 9; 
+AL N. 
+AC 7; HD 2+2*; #AT 1; D 1-4 + 
+special; MV (30); Save F2; 
+ML 12; AL C. 
+MV (20); Save F1; ML 12; 
+AL C. 
+poison; MV (20) web (40'); 
+Save F2; ML 8; AL N. 
+AC 6; HD 3*; #AT 1; D 1-8 + 
+paralysis; MV (40'); Save F3; 
+ML 10; AL C. 
+AC 9; M10; hp 24; #AT 1; 
+D 1-4 + spells; MV (40); Save 
+M10; ML 9; AL C (see below) 
+MV (40); Save F1; ML 12; 
+AL C. 
+AC 7; HD 1; #AT 1; D 1-6; 
+AC 6; HD 3"; #AT 1; D 1-4 + 
+AC 8; HD 2; #AT 1; D 1-8; 
+t Isabel Amber (Isabelle D'Amberville) 
+Abilities: S 12, I 17, W 11, D 9, C 10, Ch 15. 
+Magic items: potion of speed and ring of delusion. 
+Her spells: 
+First level: floating disc, light, shield, ventriloquism 
+Second level: invisibility, knock, levitate, locate 
+Third level: clairvoyance, lightning bolt, protection 
+Fourth level confusion, dimension door, wizard eye 
+Fifth level: pass wall, wall of stone 
+Sixth level: anti-magic shell, disintegrate 
+object 
+from normal missiles 
+??Mary Helen Amber (Marie-Hblene D'Amberville) 
+Abilities: S 17, I 10, W 11, D 14, C 13, Ch 12. 
+Magic items: sword +1, NSA, chain +2 worn under normal 
+clothing and a ring of protection +1. 
+tttWilliam Amber (Guillaume D'Amberville) 
+Abilities: S 10,118, W 11, D 12, C 9, Ch 13. 
+Magic items: potion of invulnerability and boots of 
+His spells: 
+levitation. 
+First level: floating disc, read magic, sleep 
+Second level: detect evil, knock, web 
+Third level: hold person, invisibility 10' R, protection 
+Fourth level polymorph others, wall of fire, wizard 
+Fifth level: pass wall, telekinesis 
+from normal missiles 
+eye 
+4 
+
+===== PAGE 6 =====
+PART 2: WEST WING 
+1. FOYER 
+The foyer, which has already been described, is empty except for 
+the characters and their pack animals. The party members may 
+enter the chateau proper, but the animals will balk at entering the 
+front hall and, if forced through the doors, will continue to struggle 
+and run away at the first chance they get. The hall is dark, as are all 
+the rooms unless noted otherwise. The gray mist blocks sunlight 
+from every direction except directly above. 
+2. THE GRAND SALON. 
+This room is luxuriously furnished with plush chairs, polished 
+wood tables, ornate rugs and other fine furniture. The furniture 
+has been pushed back against the walls and the carpets have 
+been rolled up. In the middle of the floor, an impromptu boxing 
+ring has been set up. In one corner of the ring a man stands as 
+still as a statue with his hands raised in the boxing guard 
+position. This man is wearing amber silk trunks. You notice that 
+his skin has an unreal quality. Seated near the boxer is a man 
+dressed in colorful silks, fancy lace and rich velvets. He also 
+wears a large-brimmed hat flaunting a peacock’s feather. A 
+jeweled rapier is slung on his right side on a supple leather 
+baldric. He has wavy black hair and a closely trimmed beard 
+which comes to a point. Two men in plate mail carrying hal- 
+berds stand as guards on either side of the richly dressed man. 
+The guards’ flesh has the same unreal quality as the boxer’s. 
+The seated man’s flesh does not have this quality. 
+While the chairs have been pushed back, they all face toward 
+the boxing ring. Floating above the center of each chair is a pair 
+of red, unblinking eyes that turn to watch you. 
+The boxer is a demos magen (AC 7; HD 3+2; hp 24; #AT 2; D 1-3 
+each; MV (40); Save F5; ML 9; AL N), a being created by special 
+enchantments (see Part 9, New Monsters). This magen or magi- 
+cal man is one of the Amber family’s creations, especially trained to 
+fight with its fists. The two halberd-wielding guards are also 
+demos magen (AC 2; HD 3+2; hp 19 each; #AT 1; D 1-10; MV (20); 
+Save F4; ML 9; AL N). The richly dressed man is John-Louis 
+Amber (Jean-Louis D’Amberville), (AC 2: F/12; hp54; #AT 1; D 1-8 
++2; MV (20); Save F12; ML 10; AL C). Beneath his rich clothing he 
+wears chain mail +2. His rapier is a sword +2. When he gives the 
+command “Fight!” the boxer will commence boxing. When he 
+gives the command “Kill!,” all three magen will attack the party. 
+When he gives the command “Stop!,” all three magen will stop 
+fighting. John-Louis is the only individual the magen will obey. 
+John-Louis is the trainer and manager for the magen boxer. As 
+soon as the party enters, he will try to set up a bare-knuckle boxing 
+match between his magen and whatever champion the party may 
+choose from among their members. He offers even odds (the odds 
+can be raised or lowered at the DM’s discretion, depending on how 
+even the match is), and he will cover up to 10,000 gp in bets. The 
+bets must be made from cash in hand. John-Louis will extend no 
+credit. 
+The party is not obligated to accept the boxing match. They may 
+refuse and leave the room with no penalty. Should they decide to 
+accept the match, it will be five boxing rounds long. The challenger 
+can neither wear armor nor use any weapons. The challenger may 
+prepare for the match using whatever magic he or she thinks may 
+be helpful. A boxing round is defined as 1 minute of combat, or 6 
+normal combat rounds. At the beginning of each round the party 
+may “throw in the towel” to save their champion from taking 
+further damage. The challenger automatically loses if the party 
+throws in the towel. 
+When boxing, normal combat procedure is followed but charac- 
+ters cause only 1-2 points of damage plus their bonuses; the magen 
+does 1-3 points of damage. If the challenger lasts two rounds (i.e., 
+still has 1 or more hit points left at the end of the second round), 
+John-Louis will reward the party with an additional 1 gp above and 
+beyond any side bets. If the challenger lasts three rounds, John- 
+Louis will give the party an additional 10 gp; for four rounds, 100 
+gp; and if the challenger should last all five rounds, John-Louis will 
+reward the party with 1,000 gp. If the challenger wins, John-Louis 
+will pay 10,000 gp. The rewards are not cumulative; John Louis will 
+pay only the highest amount the challenger has earned. 
+The challenger can win several ways. If either combatant is re- 
+duced to 0 hit points, he dies. Any time a combatant strikes for the 
+maximum amount of damage possible, there is a 5% chance (1 on 
+ld20) he will knock his opponent out. The losing combatant passes 
+out, regaining consciousness in 1-10 rounds. A combatant can also 
+win by a decision. Total the damage that each combatant does in 
+each of the five boxing rounds. The combatant who caused the 
+most damage each round wins the round. In the case of a tie, the 
+magen wins the round. Whichever combatant wins the most box- 
+ing rounds is the winner, even if there is no knockout or kill. 
+The eyes floating over each chair belong to other members of the 
+Amber family, who have cast wizard eye and phantasmal force 
+spells in order to watch the match. John-Louis had 20,000 gp in a 
+locked iron chest set into the floor. The party may win some or all 
+of the money from him or they may attempt to attack him and take 
+the money. The rest of the Amber family will not interfere if he is 
+attacked, even if he is killed. 
+3. STUDY. 
+The room is paneled in polished mahogany. A large fireplace 
+faced with marble is set in the south wall. Whatever furniture 
+was once in this room has been removed, except for an iron- 
+bound wooden chest in the southeastern corner. Lying around 
+the fireplace are a dozen or so bedrolls. Near the bedrolls are a 
+dozen humanoids with cat-like faces dressed in leather armor. 
+The cat-beings are rakasta (AC 6: HD 2+1; hp 10 each; #AT 3; D 1-4 
+each; MV (30); Save F2; ML 9; AL N). They wear iron claws over 
+their paws and attack with two claws and a bite. For further 
+information see Part 9, New Monsters. 
+The rakasta, with the permission of the Amber family, have turned 
+this study into a lair. In the far corner of the room is a wooden chest 
+that holds the rakastas’ treasure: 6,000 gp, 2,000 pp, and a large 
+ornate silver key worth 500 gp that can be used to open the silver 
+gate to Averoigne in the Dungeon (Part 6). 
+5 
+
+===== PAGE 7 =====
+4. DINING ROOM 
+Upon entering, you see a dining room in an advanced state of 
+decay. After a short time, 12 men and 12 women in costly garb 
+walk into the room through the solid south wall and proceed to 
+sit down around the table. As soon as the 24 guests enter, the 
+appearance of the dining room miraculously changes so it 
+seems undecayed. If you concentrate hard enough, you can still 
+see the original decayed scene beneath the fresh double- 
+images. The 24 banquet guests are faintly transparent. Seven- 
+teen of these guests are human, three are elves, two are 
+dwarves and two are halflings. Beside the 24 chairs already filled 
+are a dozen empty chairs with diningware and utensils set 
+before them. In front of several of the empty chairs are place- 
+cards with the names of party members. 
+The ghost-like figures have no physical substance and cannot be 
+touched or dispelled. Any object striking one passes through as if 
+nothing was there. The figures will not seem to notice or communi- 
+cate with the characters. 
+Each player character has one full turn to decide whether to sit 
+down at the banquet table. After one turn, all empty chairs, place- 
+cards and table settings where a character has not been seated will 
+disappear. Once everyone who wishes to be seated is seated, the 
+double doors at the head of a double flight of stairs in the north wall 
+will open and ghostly servants will begin to bring in the dinner, 
+course by course. The servants are also transparent, as is the food 
+they bring to all the ghostly guests, except to the characters. The 
+food given to the characters seems perfectly normal to all senses. 
+The first course is onion soup with croutons and melted cheese, 
+plus a mellow amber wine. The second course consists of a tossed 
+salad. The third course, the main course, is roast beef, wheat 
+bread, mushrooms in wine sauce, green beans and a red wine. The 
+final course consists of apple streudal and brandy. 
+Characters seated at the banquet may eat any, all, or none of the 
+foods. Most of the foods are magical. To gain or suffer the magical 
+effects, all of a type of food must be eaten. Characters must all 
+declare whether or not they have eaten a particular food before 
+they find out what that food's effects are. A type of food will only 
+affect a character once. 
+The various effects of the foods are: 
+Onion Soup: Save vs. Spells. If the save is made, nothing 
+happens. If it is not made, the character gains 1-4 hit points 
+permanently. 
+Amber Wine: This wine will cure any disease or blindness, 
+neutralizes poison currently in the character's system, and/or 
+restores any lost hit points immediately. If none of this applies, 
+nothing happens. 
+Tossed Salad: One of the character's abilities (picked at ran- 
+dom ) gains 1-2 points and one ability loses 1-2 points; this may 
+affect the same ability. (No score can be raised above 18 or 
+lowered below 3.) 
+Roast Beef This is not magical, but is tender, tasty and pink in 
+the center. 
+Wheat Bread Save vs. Spells. If the save is made, the charac- 
+ter becomes immune to the effects of starvation. If the save is 
+unsuccessful, the character will forever need twice the normal 
+amount of nourishment. 
+Green Beans: These are not magical. 
+Mushrooms in Wine Sauce: Save vs. Poison. If the save is 
+made the character gains +4 on all future saves vs. Poison. If it is 
+not successful, the character dies of toadstool poisoning. 
+Red Wine: This wine causes magical drunkenness for 2-12 
+turns. 
+Apple Streudal: Save vs. Spells. If the save is failed the charac- 
+ter gains the ability to ESP (as per the spell) once per week. If 
+the save is made, nothing happens. 
+Brandy: Save vs. Death Ray. If the save is failed, the character 
+becomes insubstantial and joins the ghostly feast forever as an 
+additional transparent guest. If the save is made, nothing 
+happens. 
+5. THE HALL OF MIRRORS 
+I 
+You enter a wide, long hallway running east to west. In the 
+center of the hall is a 10' wide red carpet stretching from the 
+' west door to the east door. The ceiling arches 20 high over- 
+head. Near the east end of the hall, a raised catwalk stretches 
+across the hallway 10' above the players' heads. At either end of 
+the overpass are double doors. Thousands of 1" square mirrors 
+are set into the ceiling and walls. The resulting reflection of your 
+torches resembles a swarm of fireflies as myriad pinpoints of 
+light are reflected back. The floor of the hall, where it is not 
+covered with the red carpet, is polished white marble. The 
+marble is so shiny you can see your reflections on its surface. 
+Polished brass candelabra line both walls and crystal chandeli- 
+ers hang from the ceiling. All the candle holders on the candela- 
+bra and chandeliers are filled with unlit candles. 
+As soon as all the characters are in the hall, or as many as 
+circumstances permit, all the hallway doors will suddenly swing 
+open and then slam shut. The resulting draft will extinguish all light 
+sources in the hall, even magical ones. 
+If anyone in the hall tries to relight a light source or cast a light 
+spell, all the candles in the hall will magically light at the same time 
+with a brilliant flash. The light will be reflected off the walls, ceiling 
+and floor and off the highly polished chandeliers and candelabra. 
+The resulting light is so bright that all characters will be temporarily 
+blinded. All characters must save vs. Spells or be blinded for 3-18 
+turns each. Those who save will be blinded for only half the time. 
+Once the candles are lit, the hall will be lit as if under a permanent 
+light spell. Should a character regain his or her sight while in the 
+hall, he or she will be able to see normally. The characters will be 
+able to tell that their blindness is not permanent, but will be unable 
+to guess how long the blindness will last. 
+The idea of this encounter area is to test the players' inventiveness 
+when their characters are confronted with the sudden loss of sight. 
+Wandering monsters should be rolled for normally. The DM 
+should use discretion when confronting a blinded party with 
+monsters. 
+6 
+
+===== PAGE 8 =====
+6. LINEN CLOSET 
+You see a closet filled with shelves of fresh linen, bath towels, 
+soap and other household items. 
+The closet is empty except for the items mentioned. 
+7. SERVANTS QUARTERS 
+This room appears to have been quarters for the Amber family 
+servants. The room is now completely filled with a mass of giant 
+spider webs. Three giant spiders sit in the webs. 
+The room has been turned into an aranea lair. Three aranea (AC 7: 
+HD 3**; hp 18, 16,14; #AT 1; D 1-6 +poison and spells; MV (20’); 
+web (40); Save M3: ML 8; AL C; see Part 9, New Monsters) live 
+in the lair. Their spells are: 
+Aranea #1- First level: charm person, light 
+Second level: phantasmal force 
+Aranea #2 - First level: read magic, ventriloquism 
+Second level: detect evil 
+Aranea #3 - First level: floating disc, sleep 
+Second level: continual light 
+The aranea treasure is in a wooden box wrapped with webs and 
+hung in the webbing. The box contains 5 gems worth 100 gp, 500 
+gp, 10 gp, 100 gp and 50 gp, plus 2 pieces of jewelry worth 1,500 gp 
+and 1,400 gp. 
+8. SERVANTS QUARTERS 
+The only part not so covered is a small four-foot-square stone 
+platform raised 2’ off the floor, located against the east wall. 
+Cemented to the platform is a stone chest shaped like a 3’ cube. 
+The entire ceiling is a dull black. 
+The floor is, of course, covered with green slime (AC always hit; 
+HD lo*; hp 52; #AT 1; D special; MV (1‘); Save F1; ML 12; AL N). 
+The green slime is 2 deep across the entire floor. It covers so much 
+volume that it has 10 hit dice worth of hit points, instead of 2. It still 
+fights as a 2 HD monster, however. 
+Clinging to the ceiling is a huge black pudding (AC 6; HD 10”; hp 
+56; #AT 1; D 3-24; MV (20’); Save F5; ML 12; AL N). The black 
+pudding will attack anyone trying to reach the chest by flying or 
+levitation. 
+If a character gets within 5’ of the stone platform and chest, he or 
+she will notice that both look wet. They are covered with a gray 
+ooze (AC 8: HD 3*; hp 19; #AT 1; D 2-16; MV (3’); Save F2; ML 12; 
+AL N). The chest has a heavy stone slab top which can be lifted 
+with a combined strength of 25. The chest holds 3,000 gp, 1,000 pp, 
+a staff of healing, a sword +2 (Intelligence 9, Ego 11, Will 22; AL 
+N; detects magic, finds traps and detects sloping passages). 
+9. BEDROOM 
+This is a richly furnished bedroom. The bed is longer than 
+normal. Standing next to the bed is an 8’ tall creature with the 
+shape of a human and the head of a lion. A jeweled golden 
+crown rests atop his head. He wears golden plate mail. 
+This individual is Richard Amber, the Lion-Hearted (Richard 
+Coeur de Lion D’Amberville) - (AC 2; F/10; hp 43; #AT 1; D 1-8 
+(+6); MV (20’); Save F10; ML 11; AL C; S 18,19, W 10, D 12, C 11, 
+Ch 15). Richard is a 10th level fighter who has been magically 
+altered. He is the leader of the rakasta in room #3, The Study. If he 
+decides to fight, he will charge with a terrible roar. Anyone hearing 
+the roar must save vs. Spells or be affected as if by a wand of fear. 
+Richard has plate mail +2, a sword +3, NSA, and carries a potion 
+of poison. His crown is worth 3,800 gp. 
+10. MASTER BEDROOM 
+~ ~~ 
+The room is a large ornate bedroom. There is a large four poster 
+I bed in the middle of the room with all the curtains drawn. 
+If the party quietly investigates the drawn curtains, they will find an 
+individual, apparently asleep, bundled under the covers. The figure 
+under the blankets is completely covered. The party will notice 
+that the figure is larger than a normal sized human and does not fit 
+well in the bed. 
+The figure under the covers is actually an ogre (AC 5; HD 4+1; hp 
+25; #AT 1; D 1-10; MV (30’); Save F4; ML 10; ALC) which has been 
+enchanted to believe that it is Janet Amber. The ogre is dressed in 
+silken night clothes which are bursting at the seams, because they 
+were designed for a much smaller individual. This ogre killed Janet 
+Amber (Janette D’Amberville), the gown’s owner, and is now 
+imitating its mistress. Hence it wears her clothes, sleeps in her bed, 
+etc. Janet’s body is hidden inside a fireplace chimney against the 
+north wall. 
+If awakened, the ogre will try to act the part of a gracious host. 
+Unfortunately, its command of languages and of the social graces 
+is slight and it will become more and more frustrated as it continues 
+to make mistakes, until the ogre finally goes berserk and attacks. 
+11. BEDROOM. 
+This is another bedroom filled with costly furniture. Seated on 
+the bed are two pale, manlike, almost transparent figures com- 
+posed of thick mist. One of the figures resembles a middle-aged 
+man while the other resembles a matronlv woman. 
+The two figures are wraiths (AC 3; HD 4**; hp 18 each; #AT 1; D 
+1-6 +energy drain; MV (40); Fly (80); Save F4; ML 12; AL C). They 
+will attack on sight. Behind a mirror mounted on the north wall is 
+an iron safe cemented into the wall. The safe is locked and the lock 
+is trapped so that, if not successfully detected and removed, a 
+cloud of deadly spores (10’ x 10 x 10) will explode outward when 
+the safe is opened. Anyone within the cloud who fails to save vs. 
+Poison will die. The safe contains 5,000 gp. 
+12. KITCHEN. 
+This room is a large kitchen. You see a dozen ghostlike hobgob- 
+lins dressed in pale amber-colored livery preparing a large meal. 
+The hobgoblin servants and the food they are preparing are 
+transparent. 
+The hobgoblins are busy preparing for the ghostly feast (see room 
+#4, The Dining Room). They cannot be touched, either by wea- 
+pons or magic, nor can they touch the characters. They will 
+completely ignore the characters no matter what the party does. 
+Besides the normal kitchen apparatus and the ghostly hobgoblins, 
+the room is empty. A flight of stairs leads up to a set of double doors 
+in the south wall. The doors open onto an overpass which arches 
+over the Hall of Mirrors (room #5) and enters the Dining Room 
+(room #4). The servants use the overpass to carry food from the 
+kitchen to the dining room without disturbing any guests. 
+7 
+
+===== PAGE 9 =====
+PART 3: THE INDOOR FOREST 
+Here a huge octagon-shaped building with seven domes has been 
+turned into an indoor forest. The seven domes are made of thick 
+panes of clear glass that let sunlight filter into the garden forest. 
+The domes are nearly 100 feet high. Many trees of various types, 
+some reaching a height of 83 feet,are planted in the garden. 
+Numerous flowers. grasses, and bushes have also been planted. A 
+stream meanders through the forest, widening into a fountain-pool 
+in the middle of the garden. The north-west section of the forest 
+slopes upward to form a 20 high hill. 
+A 10 wide path wanders through the garden. The path was de- 
+signed as a kind of scenic tour by the Amber family. The plant 
+growth here is so thick that characters will only be able to see into 
+an area 10’ wide on either side of the path. Beyond this area, the 
+forest grows too thickly for anything to be seen clearly. The most 
+that can be noted are vague movements, swaying branches, etc. 
+Movement while on the path is normal. Movement off the path is at 
+half the normal rate due to the thickness of the brush and trees. 
+Furthermore, when out of sight of the path, there is a chance of 
+becoming lost (1-2 on ld6). If the party becomes lost, roll ld8 to 
+determine which direction they travel (1 =north, 2=northeast, 3= 
+east, 4 = southeast, 5 = south, 6 = southwest, 7 = west, 8 = 
+northwest). To further discourage off-path movement, the Amber 
+family has constructed a number of pit traps with sharpened stakes 
+at the bottom. Each trap does 2-12 points of damage to anyone 
+falling into one and will be sprung by the first individual to walk on 
+it. They also have planted a number of impenetrable barriers of 
+thorn bushes. Crossing the stream anywhere other than on the 
+bridge takes one full turn. 
+There are no rooms in the indoor forest; there are, however, a 
+number of encounter areas. The encounter areas are designed 
+primarily for use when the party is on the path. It is possible, 
+however, to stumble into an encounter area while off the path. The 
+area where the encounter could take place is marked on the map. 
+Note there is no gray mist overhead, so that the forest is sunlit and 
+other light sources are unnecessary. 
+Wandering Monsters 
+A special Wandering Monster Encounter Table for the indoor 
+forest is given below. When the party is on the path, check for a 
+possible wandering monster once every two turns (1 in 6 chance). 
+When the party is off the path, check every turn for a possible 
+wandering monster. 
+Indoor Forest Wandering Monster Encounter Table (d8) 
+Die 
+Roll Monster Number Statistics 
+1 Bear, Grizzly 1-4 
+2 Centaur 1-6 
+3 Hawk, Giant 1-3 
+4 Isidora Amber? 1 
+,5 R hagodessa 1-4 
+AC 6; HD 5; #AT 3; D 1-4/1-4/ 
+1-8; MV 120 (40); Save F2; 
+ML 8; AL N. 
+AC 5; HD 4; #AT 3; D 1-6 each; 
+MV 180 (60’); Save F4; ML 8; 
+AL N. 
+MV 450 (150); Save F2; ML 8; 
+AL N. 
+AC 9; M11; #AT 1; D 1-4 + 
+spells; MV 120’ (40’); Save M11; 
+ML 9; AL C. 
+AC 5; HD 4+2; #AT 2; D 0/2-16; 
+MV 150 (50’); Save F2; ML 9; 
+AL N. 
+AC 6; HD 3+3; #AT 1; D 1-6; 
+6 Robber Fly 2-12 AC 6; HD 2; #AT 1; D 1-8; MV 
+90 (30’) By 180 (60); Save F1; 
+ML 8; AL N. 
+poison; MV 120 (40); Save F2; 
+ML 8; AL N. 
+8 Weasel, Giant 1-4 AC 7; HD 4+4; #AT 1 + special; 
+D 2-8; MV 150 (50); Save F3; 
+ML 8; AL N. 
+7 Snake, Giant 1-2 AC 5; HD 4*; #AT 2; D 1-4 + 
+Rattler 
+t Isidora Amber (Isodore D’Amberville) 
+Abilities: S 11, I 18, W 14, D 14, C 9, Ch 15. 
+Magic items: Potion of animal control and a ring of control 
+plant. 
+Her Spells: 
+First level: charm person, detect magic, read magic, 
+Second level: detect invisible, ESP 
+Third level: dispel magic, infravision, water breathing 
+Fourth level: charm monster, growth of plants, 
+Fifth level: feeblemind, hold monster 
+Sixth level: move earth 
+sleep 
+hallucinatory terrain 
+13. THE FOREST OF DOOM 
+The path runs southeast-northwest here, continuing forward in 
+a series of S-shaped curves. The trees along this part of the path 
+are larger than any trees you have seen thus far. 
+Six of the trees along this section of the path are actually killer trees 
+(AC 5; HD 6; hp27 each; #AT 5; D special; MV none; Save F3; ML 
+12; AL N; for further information see Part 9, New Monsters). The 
+trees will wait to attack until as many of the party as possible are 
+within tentacle reach. There are three killer trees on either side of 
+the path. Another dozen killer trees are inside the encounter area 
+to the west, but beyond reach from the path. Should the party 
+wander off the path, the DM should see that they encounter at 
+least a few of these. 
+14. SHADOW PARANOIA 
+You hear branches rustling on both sides of the path. At the 
+limit of your sight you see a number of grotesque shadowy 
+forms to both sides of the road apparently following you. 
+The forms are only illusions and the rustling is done mechanically. 
+This encounter is designed to keep the party guessing, and to 
+make sure they can never be certain which dangers are real and 
+which are not real until they are fully investigated. 
+15. THE MAIDEN AND THE UNICORN 
+You see an amber-skinned woman with long golden hair sleep- 
+ing in the middle of the path. A unicorn is sleeping next to her. 
+The woman is wearing a dress the color of yellow daffodils. Her 
+head rests on a rolled up saffron-colored cloak. One arm is 
+draped around a small wooden chest. 
+The woman is actually a gold dragon in human form. The gold 
+dragon is very young (AC -2; HD 8**; hp 36; #AT 3 plus breath 
+weapon in dragon form only, otherwise spells; D 2-8/2-8/6-36 plus 
+breath weapon in dragon form only, otherwise, by spells; MV 90 
+(30), fly 240’ (80’) in dragon form only, otherwise 120 (40); Save 
+M8; ML 10; AL L). In her human form, the only attack the gold 
+dragon has is her spells: 
+8 
+
+===== PAGE 10 =====
+First level: charm person, light, protection from evil, 
+Second level: detect evil, ESP, knock, wizard lock 
+Third level: dispel magic, hold person, protection from 
+sleep 
+normal missiles, water breathing 
+Inside the chest are 4,000 pp. Note that since she is in a flammable 
+forest, the gold dragon will breathe chlorine gas, not fire. 
+The unicorn (AC 2; HD 4*; hp 18; #AT 3; D 1-8 each; MV 240 (80); 
+Save F8; ML 7; AL L) is a close friend and ally of the gold dragon 
+and will fight in the gold dragon’s defense. 
+The gold dragon does not know how to get past the Gray Mist. She 
+will not leave the indoor forest. 
+16. THE BILLYGOAT’S WOE. 
+A 10 wide wooden bridge spans a meandering stream. The path 
+continues across the bridge. On the side of the bridge closest to 
+you, you see a humanoid with the head and horns of a billygoat 
+saying: “Please don’t eat me, Mr. Troll, my brothers, who are 
+right behind me, are much bigger and fatter than I am.” 
+A deep gruff voice from beneath the bridge answers, “All right, 
+you may pass, I’ll wait for your brothers.” The billygoat exits 
+across the bridge. 
+Not surprisingly, a troll (AC 4; HD 6+3*; hp 30; MV 40‘; Save F6; 
+ML 10; AL C) lives under the bridge. Unless he can somehow be 
+tricked, he will attack the party if they venture within the area of 
+this encounter, mistaking the party for the billygoat’s older 
+brothers. 
+17. A CROCK OF CROCS. 
+The river which winds through the indoor forest is filled with 
+crocodiles. If the party passes within 10 of either bank of the river 
+(while off the path) or tries to cross the river (except by the bridge), 
+the party will encounter 1-8 crocodiles (AC 5; HD 2; hp 9 each; #AT 
+1; D 1-8; MV 90 (30); Save F1; ML 7; AL N). 
+18. THE FOUNTAIN OF DEATH. 
+In the center of the indoor forest is a circular pool of water. The 
+pool is fed by a stream which wanders through the foresth the 
+middle of the pool is a fountain. The fountain is shaped like three 
+interlinked gargoyles. The gargoyles spray water from their 
+mouths. Embedded at the base of the trio of statues, you see the 
+lid of a metal chest. The lid is padlocked. 
+The gargoyles are only stone statues. The real danger lies hidden. 
+The fountain is the lair of a giant amoeba (AC 9; HD 15; hp 68; #AT 
+1; D 2-12; MV 30 (10); Save F7; ML 10; AL N for more information 
+see Part 9, New Monsters). The giant amoeba covers the entire 
+bottom of the fountain. It is hidden beneath mud, water-logged 
+leaves and copper pieces thrown into the pool for “good luck.” 
+(The DM may wish to give any character who throws more coins 
+into the pool +1 to hit and damage in an encounter with the 
+amoeba.) The chest is locked but not trapped. It contains 3,000 gp 
+plus a large ornate silver key worth 500 gp, which can be used to 
+open the silver gate to Averoigne in the Dungeon (Part 6). 
+19. KING MIDAS’ ACORNS. 
+The trees on both sides of the curving path are mainly oak trees. 
+You notice six amber colored squirrels darting about in the 
+trees collecting acorns. When a squirrel touches an acorn, the 
+acorn appears to turn into gold. The squirrel then gathers up 
+the golden acorn and carries it to a nearby hole in the trunk of a 
+larse snarled tree. 
+The squirrels are magical. They can only live by eating golden 
+acorns and have the ability to transform only acorns into gold by 
+their touch. Unfortunately, the squirrels can also only live in the 
+indoor forest and will die if taken out of their home. Inside the 
+squirrel’s lair are 400 acorns worth 5 gp each. The six squirrels (AC 
+8; HD 5; hp 1 each; #AT 1; D 1 point; MV 120 (40); Save NM; ML 
+10; AL N) will defend their hard earned cache of food. Note that 
+their bite or touch will not turn a character into gold. Any attack on 
+the squirrels will, however, automatically trigger a counter-attack 
+by the Wild Hunt from encounter area 20. 
+20. THE WILD HUNT. 
+The hillside suddenly cracks open and a number of mounted 
+creatures begin to ride out. 
+This is the “Wild Hunt” that patrols the Indoor Forest. Small 
+animals will alert the Hunt when intruders approach the lair. The 
+riders are lupins and rakasta. The two lupins (AC 6; HD 2; hp 9; 
+#AT 1; D 1-10 or 1-8; MV 120 (40); Save F2; ML 9; ALL; for more 
+information see Part 9, New Monsters) ride dire wolves (AC 6; 
+HD 4+1; hp 19 each; #AT 1; D 2-8; MV 150 (50‘); Save F2; ML8; AL 
+N) and charge with a mounted lance before switching to a sword. 
+The two rakasta (AC 6; HD 2+1; hp 10 each; #AT3; D 1-4 each; MV 
+90 (30’); Save F2; ML9; AL N) are riding sabre-tooth tigers (AC 6; 
+HD 8; hp 36 each; #AT 3; D 1-8/1-8/2-16; MV 150 (50); Save F4; 
+ML 10; AL N). The lupins and rakasta are led by Andrew David 
+Amber (Andre-David D’Amberville) (AC 6; F9; hp 40; #AT 1; D . 
+1-10 + 2 or 1-6 + 4; MV 120 (40); Save F9; ML 10; AL C; S 17, I 12, 
+W 9, D 11, C 10, Ch 12). Andrew David has been magically altered 
+so that he now has the head of a large black goat and his body is 
+covered with black, shaggy hair. His eyes glow red, and though he 
+has hands, instead of human feet he has goat hooves. Andrew 
+David rides a giant elk (AC 6; HD 8; hp36; #AT 1; D 1-12; MV 120’ 
+(40); Save F4; ML 7; AL N). When he first attacks he will make a 
+mounted lance charge, and then melee with a mace +2. He also 
+has a potion of animal control. Andrew David designed the 
+Indoor Forest and he patrols it regularly with the Wild Hunt. 
+9 
+
+===== PAGE 11 =====
+21. WILDERNESS GATHERING 
+You can see that the path ahead of you makes a right angle turn. 
+You get a strange feeling that you are being watched. A closer 
+look at the surrounding forests shows that all the plants in this 
+area seem to have faces which turn and follow your every move. 
+This is another encounter designed to keep the party alert and 
+guessing. The faces on the flowers and trees are actually phan- 
+tasmal forces and wizard eyes being cast by members of the 
+Amber family. 
+22. FLOWERS OF EVIL. 
+The trees around the sweeping curve are sparser than usual 
+and the area between the trees is filled with tall grass and giant 
+flowers. There are two types of flowers; some look like amber- 
+colored water lilies, and others look like white roses. The water 
+lily buds are closed, while the rose buds are open. 
+The grass and flowers of this area work together against the 
+unwary. The golden water lilies are actually amber lotus flowers 
+(AC 9; HD %; hp 3 each; #AT 1; D 40’ x 40 cloud of pollen, those in 
+it must save vs. Spells or fall asleep for 4-16 turns; MV 0; Save NM; 
+ML 12; AL N; for more information see Part 9, New Monsters). 
+There are 20 amber lotus flowers. Any individual who falls asleep 
+from their attack has a 50% chance of falling off the path, ending up 
+in the grab grass at either side of the path (AC 9: HD 20; hp 90; #AT 
+1; D grabs and holds anyone entering the patch;MVO;Save NM; 
+ML 12; AL N; for more information see Part 9, New Monsters). 
+Even if the victim should wake up, he or she will be unable to fight 
+back since his or her arms will be pinned. No spells can be cast 
+when held by the grab grass because the appropriate gestures 
+cannot be made. There is a 5% chance per round of breaking free, 
++5% per strength point greater than 12. The white roses are actual- 
+ly twelve vampire rose bushes (AC 7; HD 4; hp 18 each; #AT 1; D 
+1-8; MV 30 (10); Save F2; ML 12; AL C; for more information, see 
+Part 9, New Monsters). They will attack any who wander off the 
+path, wrapping a stalk around a victim’s neck after he or she is 
+securely held by the grab grass. Victims are injected with hypnotic 
+anesthetic, and must save vs. Spells or lose all will to fight, allowing 
+the vampire rosebush to automatically drain 1-8 points of blood per 
+round. 
+23. THE BLOOD-STAINED ARCH. 
+Three massive stones form an archway over the path, in front of 
+the door. It appears as if the only way to get to the door is to 
+pass beneath the dolmen arch. A steady patter of blood drips 
+from the underside of the arch, and it looks extremely difficult 
+to pass under the arch without becoming blood-spattered. 
+There is, indeed, no other way to reach the door except by passing 
+under the arch. The dolmen arch is a legendary artifact of the 
+Amber family. The blood which drips from the arch is in atonement 
+for all the bloody crimes committed by the Ambers. Every individ- 
+ual who passes beneath the arch must save vs. Spells. If they make 
+their saves, nothing happens. If they do not make their saves, they 
+gain temporary luck. Individuals who fail their saves will gain a 
+bonus of 1-6 (roll ld6) on “to hit” and damage rolls, all saving 
+throws, and armor class (the same bonus for each) for the duration 
+of the time spent in room #34, The Throne Room. 
+PART 4: THE CHAPEL 
+24. THE MAIN CHAPEL. 
+This large building is the Amber family chapel. Brightly colored 
+stained glass windows are inset into the walls. The pews are 
+made of intricately carved oak and have plush velvet cushions. 
+The floor is wood parquet, making a colorful pattern. The entire 
+building seems strangely garish and lewdly decorated for a 
+religious house. Lined up along the south, east and west walls 
+are 24 marble statues. The statues, while carved wearing saintly 
+gowns, actually seem to mock saintliness. The sarcastic, leering 
+faces of the statues all bear a distinctive Amber family cast. 
+The statues actually are the enchanted bodies of famous (or in- 
+famous) members of the Amber family. They periodically come to 
+life. Every statue has a 1 in 6 chance of coming to life when a party 
+member passes within 10. The statues are AC 4 and have 8 HD. 
+They have no physical attack, but do possess one random magical 
+ability. Roll ld6: 1 =bless, 2 = curse, 3 =turn to stone, 4 =bestow 
+magical gift, 5 =raise an attribute of one individual 1 point, 6 =cause 
+any disease. 
+The blessing gives a permanent +1 modifier to all saving throws, the 
+number needed to hit, and damage done. Typical curses are dim- 
+inution to half size, growth of a long heavy tail slowing movement 
+by half or change of alignment. Turn to stone is the same as the 
+spell. Bestowal of a magic gift is at random, using the D&D Expert 
+Game magic item tables (or the DM’s choice). An attribute is 
+raised +1 only and is chosen randomly. Ability scores cannot be 
+raised above 18. Typical diseases are malaria (-4 to hit until cured) 
+and the Amber Death (death in 1-20 turns unless cured, the corpse 
+turns amber). The DM is encouraged to modify and/or expand this 
+brief sampling. 
+The animated statue must touch a victim for the magical power to 
+take effect. One statue can affect one victim only. A touched victim 
+is still entitled to a save vs. Spells. A successful save negates the 
+magical effect of the touch, even if the effect was beneficial. Any 
+statue reduced to 0 hit points or less will stop moving; otherwise, 
+animated statues will try to touch victims, moving at 40 per round. 
+Underneath the altar at the front of the chapel is a trap door leading 
+to an underground passage to room #50 in the Dungeon (Part 6). 
+If the party has not already adventured in the East Wing (Part 5), 
+the DM is advised to ignore the trap door until the party has 
+explored this section of the mansion. The DM should make sure, 
+however, that the party eventually finds one of the two entrances 
+to the dungeon (the other is in room #42 The Black Room). The 
+party must venture into the dungeon to successfully escape the 
+gray mist. 
+25. BURIED ALIVE! 
+You hear a muffled, forlorn howling and a faint scratching 
+sound that seems to be coming from somewhere beneath the 
+chapel paving stones to the west. 
+10 
+
+===== PAGE 12 =====
+Madeline Amber (Magdalkne D’Amberville) (AC 9; F8; hp 36; #AT 
+1; D 1-8+1; MV (40); Save F8; ML 10; AL C) is buried here. She fell 
+into a cateleptic trance, a condition that resembles death, and was 
+buried by her eccentric brother Charles Amber (Charles D’Am- 
+berville) who thought she was dead, She is now frantically trying to 
+dig her way out of the crypt. If the party rescues her, she will be 
+grateful enough to aid them (only while they are in the chapel). 
+Unfortunately, she will attack her brother Charles on sight should 
+the party encounter him (see room #30, Chapel Library). 
+While this room looks like a bedroom for a cleric, it is much 
+more lavishly furnished than is usual. The room appears to be 
+empty. - 
+26 a-f. MONASTIC CELLS. 
+Each room is a sparsely furnished cell. Seated on the wooden slab 
+which serves as a bed in each cell are three zombies dressed in 
+amber monk’s robes (AC 8; HD 2; hp 9 each; #AT 1; D 1-8; MV 
+(40’); Save F1; ML 12; ALC. The zombies will, of course, attack on 
+sight unless turned by a cleric. As soon as the zombies attack in 
+one room, all the other zombies will come rushing out of the other 
+cells to attack the party. 
+27. CONSULTATION ROOM. 
+Ten chairs are arranged in a semi-circle around a desk and 
+chair. Seated in each of the eleven chairs is a skeleton-like figure 
+dressed in cowled amber monk’s robes. 
+The figures in the ten chairs around the desk are skeletons (AC 7; 
+HD 1; hp 5 each; #AT 1; D 1-6; MV (20); Save F1; ML 12; AL C) 
+that will attack on sight. The figure behind the desk is a bone golem 
+(AC 2; HD 8; hp 36; #AT 4; D 1-8 each; MV (40); Save F4; ML 12; 
+AL N) who will also attack on sight. The bone golem cannot be 
+easily distinguished from a skeleton until it attacks because its 
+extra arms are hidden by the robe and desk. Hanging around the 
+neck of the bone golem is a large, ornate silver key worth 500 gp, 
+which can be used to open the silver gate to Averoigne in the 
+Dungeon (Part 6). 
+This room is empty, except for the furniture. 
+29. RELIQUARY STORAGE 
+This room appears to be astorage area for typical clerical items. I 
+An inspection will reveal four holes in the ceiling. The holes are one 
+foot in diameter and stretch six feet into the ceiling. 
+Hole #1 ends in a killer bee hive with 6 killer bees (AC 7; HD 1/2; 
+hp 1 each; #AT 1; D 1-3 +special; MV (50); Save F1; ML 9; AL 
+N), 4 large killer bees (HD 1; hp 5 each), and a queen bee (HD 
+2; hp 9) which can sting repeatedly without dying. 
+Hole #2 ends in a sack that is filled with 1,000 gp. 
+Hole #3 ends in a large bladder filled with water. 
+Hole #4 ends in the nest of a cockatrice (AC 6; HD 5; hp 23; 
+#AT 1; D 1-6 + petrification; MV (30) fly (60); Save F5; ML 7; 
+AL N). 
+Reaching up into the holes with a hand will do nothing since the end 
+of the hole cannot be reached. Poking a pole or spear up the holes 
+will stir up the killer bees, break open the sack of gold pieces, burst 
+the water-filled bladder, or knock down the cockatrice’s nest (un- 
+less the party, in the DM’s opinion, is extremely careful). The falling 
+water and falling coins are harmless. The killer bees and the 
+cockatrice will attack. 
+30. CHAPEL LIBRARY. 
+As you are about to open the door, you hear a voice softly call: 
+“Please be quiet. I can’t stand loud noises!” 
+Charles Amber lives in the library. Charles (AC 9; M9; hp 18; #AT 
+1; D 1-4 +spells; MV (40); Save M9; ML 8; AL C; S 9, I 16, W 10, D 
+10, C 7, Ch 11) is extremely sensitive to all sensations and cannot 
+stand noises above a whisper, lighting brighter than shadows, any 
+but the most bland tastes, normal smells, or to be touched by 
+anything other than the sheerest silk clothing. He believes that he 
+has gone mad, as have so many other Ambers, because he swears 
+he can hear his dead sister crying out to him from her grave. 
+Charles is not insane. His sister is not dead and she really is calling 
+on him to release her from her premature burial (see area #25, 
+Buried Alive!). If the party rescued Madeline Amber, she will 
+attack her brother as soon as she hears his voice (assuming she is 
+still with the party, of course). 
+If the party ignored Madeline Amber ( AC 9; F8; hp 36; #AT 1; 
+D 1-8 +1; MV (40); Save F8; ML 10; AL C) they will hear a distant 
+cracking boom and shortly she will burst into the room. Her hair 
+will be disheveled, her grave clothes tattered, her fingernails brok- 
+en and her hands bloodied from the effort to dig herself out. 
+Madeline has gone completely insane, and will first attack her 
+brother and then anyone else nearby. She will attack as if a ber- 
+serker (+2 to hit and damage) using the sword which was buried 
+with her. 
+While Charles is over sensitive to sensations, he usually manages 
+to overcome his handicap and fight normally. His spells are: 
+First level: darkness, hold portal, sleep 
+Second level: detect invisible, invisibility, phantasmal 
+Third level: dispel magic, hold person, infravision 
+Fourth level: wall of ice, wizard eye 
+Fifth level: animate dead 
+force 
+11 
+
+===== PAGE 13 =====
+Charles wears a ring of spell turning with 8 charges. The room 
+also contains a wooden chest beneath an old tablecloth, which 
+holds Madeline’s old war shield +1, 10,000 cp and 5,000 gp. 
+31. VESTRY. 
+~ ~~ ~ 
+You open the door and see a number of apparently empty 
+clerical robes dancing a bizarre, repetitive dance around a circle 
+painted on the floor in amber-colored paint. 
+The robes are empty robes that have been magically animated. 
+The dance was once part of some obscure Amber family ritual. The 
+meaning has long since been lost, but it amuses the Ambers to let 
+the robes dance on. 
+32. SANCTUM SANCTORUM. 
+A man dressed in richly gilded plate mail and amber-colored 
+robes, wearing a cross of carved amber around his neck, kneels 
+praying at a golden altar. As soon as the door opens he turns 
+and asks in a polite voice, “May 1 help you?” 
+The man is Simon Amber (Simon D’Amberville) (AC 2; C14; hp37; 
+#AT 1; D 1-6 + spells; MV (40); Save C14; ML 10; AL C; S 12, I 16, 
+W 18, D 11, C 9, Ch 13) and he has no intention of helping the 
+party. He is thoroughly corrupt and evil. Simon will not attack the 
+party at first, but will wait until he gains some advantage, such as 
+surprise or the party’s trust, and then attack. He is cunning and 
+sneaky. He prefers to catch the party off guard. He will smile falsely 
+and act the part of a benefactor until he lulls the party’s suspicions, 
+then he will attack. Simon’s spells are: 
+First level: cause light wounds x2, detect magic, 
+Second level: blight, know alignment, hold person, 
+Third level: continual darkness, cause disease x2 
+Fourth level cause serious wounds x2 
+Fifth level: insect plague, quest x2, finger of death 
+darkness, cause fear 
+silence 15’ r, snake charm 
+Simon has the following magic items: a potion of control plants, a 
+ring of protection +1, a broom of flying and a snake staff. The 
+altar is only gold plated, but is still worth 2,000 gp. 
+If Simon throws a quest spell on anyone the quest will be to find the 
+tomb of Stephen Amber. Simon is a friend of Charles Amber, who 
+animates dead so Simon can use them as the chapel’s attendants. 
+33. CHOIR LOFT 
+Most of the choir loft is filled with statues whose mouths are 
+gaping open. The statues do not have the Amber family resemb- 
+lance. Along the south wall is the keyboard to an organ. You do 
+not see any organ pipes. 
+The 88 statues are victims of the Amber family. The statues were 
+once normal humans with singing ability. The Ambers turned the 
+singers into stone and then magically animated the stone statues. 
+When one of the keys on the keyboard is pressed down one of the 
+statues will sing one note. The Ambers can thus play entire songs 
+using the stone choir. Except for the choir and keyboard the room 
+is empty. 
+PART 5: EAST WING 
+34. THE THRONE ROOM. 
+The walls of this room are covered with mosaics depicting 
+courtly scenes. The floor is polished marble. Two thrones sit 
+atop a raised dais. At the east end of the room a red velvet 
+carpet runs from the double doors to the thrones. A skeletal 
+figure sits on each throne. The skeletons are dressed in rotting 
+velvet. One skeleton holds a jeweled mace. Twenty more ske- 
+letons stand on guard, ten each along the north and south walls. 
+The skeletons wear rusted armor and carry halberds with rust- 
+ed blades. Another dozen skeletons, wearing decayed court 
+dress, stand in front of the thrones. 
+These skeletons are all that remains of Henry Amber’s (Henri 
+D’Amberville’s) coronation. The skeletons’ bones were fused by 
+the devastation so that they stand in rigid poses, a courtier bowing, 
+a lady leaning sideways to gossip, and so on. 
+The devastation resulted from the curse of Prince Stephen Amber. 
+The prince was murdered by his brother Henry and Stephen’s wife 
+Princess Catherine (Catharine D’Amberville), or so they thought. 
+When the culprits were sure that Prince Stephen was dead and 
+were ready to usurp his rightful place with the help of the Princes of 
+Glantri, they held this coronation; then the devastation struck. 
+Princess Catherine, a 13th level magic-user, was warned by a 
+premonition seconds before the devastation struck. She managed 
+to save herself by magic jarring into her throne. Since nothing 
+survived the devastation, she has been stranded in the throne ever 
+since. She will attempt to take possession of any one individual 
+who enters the room (roll randomly to determine which charac- 
+ter). Princess Catherine is both evil and hopelessly insane due to 
+her disembodied ordeal. 
+There is only a 50% chance on the first round she takes possession 
+of a body that the body can be effectively controlled, because she 
+has been without a body for so long. Each round thereafter, the 
+chance to control the body increases by 10% until either the body is 
+under control or Catherine’s soul is destroyed. Once a body is 
+controlled, Catherine can use the body to cast the spells she 
+knows and attack. Her spells are: 
+First level: detect magic, hold portal, light, read 
+Second level: detect invisible, ESP, knock, levitate 
+Third level haste, hold person, infravision, invisibility 
+Fourth level: confusion, dimension door, polymorph 
+Fifth level: animate dead, contact higher plane, hold 
+Sixth level: death spell, remove geas, invisible stalker 
+languages 
+10’ r 
+others 
+monster 
+12 
+
+===== PAGE 14 =====
+In a secret compartment in the back of her throne (protected by a 
+poison needle trap) are Catherine’s crown jewels; 7 matched pie 
+ces of jewelry worth of a total of 12,000 gp. 
+35. BALLROOM. 
+The floor of this large room is wood parquet. The acoustics in 
+this room are excellent. In the center of the north wall is a 
+balcony. You notice several musical instruments lying on the 
+balcony. Swinging from a large chandelier in the center of the 
+room is a small, hairy, mishapen figure dressed in the clothing of 
+a court jester. He holds the ends of three long chains. The 
+chains are connected to iron collars around the necks of three 
+white furred apes who are standing on the floor. 
+The figure in the jester’s clothing is Little-Ape (Petit-Singe) who 
+was court jester to Stephen Amber. The Amber family continually 
+mocked Little-Ape because the man was small, permanently 
+stooped, had overly long arms and was exceptionally hairy so that 
+he did somewhat resemble a small ape. But, though his body was 
+grotesque, Little-Ape was a man, and he concealed his pride and 
+lust for vengeance. He bided his time, studying the magical books 
+of the Amber family and watching their magical rituals until he 
+mastered two spells: polymorph other and charm monster. 
+Little-Ape used these spells for revenge against the three members 
+of the Amber family who taunted him the most. Those three were 
+polymorphed into white apes and then charmed to serve Little- 
+Ape. 
+Little-Ape’s revenge amused Stephen Amber, and he made the 
+polymorph and charm spells permanent. Though many family 
+members demanded Little-Ape’s death, Stephen decided on 
+another punishment. Little-Ape (AC 9: HD 1; hp 5; #AT 1; D 1-4; 
+MV (40); Save F1; ML 9; AL N) has been geased so that he will die 
+if he leaves the ballroom. Stephen supplied the jester with several 
+potions of longevity (only one remains) and a bag of unending 
+nourishment, a magical item which provides enough food and 
+water for four humans (or in this case, one human and three apes) 
+once per day. 
+Little-Ape will only attack if for some reason he mistakes a party 
+member for an Amber (for example, a party member wearing 
+stolen Amber clothing). He will use his two spells before fighting 
+with his dagger. Otherwise, the DM should roll Little-Ape’s reac- 
+tion to the party normally (using the system suggested in the D&D 
+Basic game rules). 
+36. LIBRARY. 
+This room is obviously a library. Its walls are lined with shelves 
+filled with books and scrolls. There is someone sitting in a 
+leather covered chair in the center of the room reading a book. 
+Though the individual has the body of a human, his head is that 
+of a large collie dog. Around his neck is a small amber whistle. 
+The individual is Claude Amber (Claude D’Amberville), (AC 3; 
+F10; hp 56; #AT 1; D 1-8+2; MV (20); Save F10; ML 10; ALL; S 16, I 
+18, W 10, D 14, C 13, Ch 15). He wears plate mail under his robes. 
+Claude is an unusual member of the Amber family. Not only has he 
+chosen to follow the teachings of Law, but he is continually trying 
+to get the other family members to mend their ways. Claude is 
+gentle, unless aroused by injustice. While he recognizes their 
+faults, Claude is still faithful to the Amber family. 
+Claude is not likely to attack the party unless threatened by them. 
+Before combat, he will blow the amber whistle. Claude is the leader 
+of the lupins in room #44, The bedroom. They will come to his aid 
+if he is attacked, just as he will come to their aid if they are attacked. 
+A careful search of the room will reveal that three of the scrolls are 
+treasure items. Claude will allow the party to search the library 
+only if they first pay a 5,000 gp deposit as payment should they 
+discover any valuables (which, after all, belong to the Amber 
+family). 
+Scroll #l is a cursed scroll which turns the reader into a dog 
+Scroll #2 is a magic-user/elf scroll with five spells: locate 
+Scroll #3 is a piece of parchment containing instructions on 
+(save applicable). 
+object, fireball, wall of ice, ice storm, wall of fire. 
+how to escape the gray mist. 
+The third scroll reads as follows: 
+To Those Who Would Be Free: 
+The secret that will break the curse surrounding Castle Amber 
+and lift the gray mist is engraved on the inside lid of Stephen 
+Amber’s casket. To summon Prince Stephen’s tomb from 
+beyond space and time, four magical items are needed. The 
+four items, The Enchanted Sword of Sylaire, The Viper 
+Circled Mirror, The Ring of Eibon, and a potion of time 
+travel, can all be found in Averoigne, our old homeland. Touch 
+ring to viper’s tail. Anoint the sword with the potion. Shatter the 
+mirror with the sword, and Prince Stephen’s tomb will appear. 
+Search first for the Gate of the Silver Keys. 
+(Scrawled on the bottom of the scroll in another handwriting 
+are these notes:) 
+Sylaire - The Enchanted Sword - Sephora? 
+Vyones - The Viper Circled Mirror - Gaspard 
+Perigon - The Ring of Eibon - Luc le 
+Les Hiboux?Ximes? - potion of time travel - 
+Malachie? 
+du Nord 
+C haudronnier 
+Azedarac? Jehan? 
+Moriamis? 
+13 
+
+===== PAGE 15 =====
+37. BEDROOM. 
+The room holds a single bed and typical bedroom furniture. The 
+room appears to be empty. 
+Except for the bedroom furniture, the room is empty. 
+38. CARD ROOM. 
+The walls of this room are wood paneled. The floor is cov- 
+ered by a plush carpet. A number of card tables and wooden 
+chairs are scattered around the room. Sitting behind a table in 
+the middle of the room is a matronly woman dressed like a 
+gypsy. On the table in front of her are 10 cards, face down. The 
+cards are arranged in two rows of five cards each. As soon as 
+the door opens, the woman says, “Welcome, come in, come in. 
+The cards know all. The cards see all. Make yourselves comfor- 
+table. Who’ll be the first to choose a card? Pick a card, any 
+card.” 
+The woman is Madam Camilla Amber (Mdre Camille D’Amber- 
+ville). She is not actually in the room. The image the party sees is 
+the result of a projected image spell with a wizard eye spell so 
+that Madam Camilla can see what is happening. If the image of the 
+woman is touched, it will disappear. The image will also disappear 
+after three turns when the spell duration ends. 
+The 10 cards all come from the tarot deck. All the cards are 
+magical. One character can take only one card (if he or she so 
+wishes), and the DM should roll ldlO to determine the card chos- 
+en. The character will find it impossible to pick a second card. The 
+cards retain their magical powers even if Madam Camilla disap- 
+pears. They lose their magical ability after being chosen. The 10 
+cards, their descriptions, and their powers are 
+1) THE MOON (LA LUNE) - 
+Description: A man sits near a tree with a dog at his feet. He plays 
+a lute and sings a song for a woman standing on a nearby balcony. 
+A giant crayfish is slowly crawling up to the balcony toward the 
+woman. High overhead, a crescent moon shines. This card, when 
+chosen, was upside down. 
+Magical Power: The chooser temporarily goes insane (no saving 
+throw). He or she will attack one party member at random, fighting 
+with weapons or spells. The insanity will last one turn only. 
+2) THE KING OF WANDS (LE ROI DE BATON) - 
+Description: An elderly, bearded man sits on a throne. The man 
+wears a crown and holds a scepter. 
+Magical Power: The chooser receives a gift of a magic 
+wand/staff/rod chosen by the DM or at random. 
+3) THE QUEEN OF CUPS (LA REINE DES COUPES) - 
+Description: A queenly figure stands holding a cup in her right 
+hand and a scepter in her left hand. 
+Magical Power: The chooser receives a magic cup which will 
+grow warm when someone tells a lie to its holder. The cup has 2-5 
+charges. 
+4) THE FOOL (LE MAT) - 
+Description: A young man dressed in the brightly colored cloth- 
+ing of a court jester pauses momentarily on the edge of a cliff. The 
+man is smiling. He is not bothering to watch where he is going. 
+Magical Power: The chooser has a feeblemind spell cast on him 
+or her. 
+5) THE PAGE OF COINS (LE VALET DES DENIERS) - 
+Description: A young man dressed in the clothing of a page holds 
+up a large coin. This card is upside down when chosen. 
+Magical Power: All the coins the chooser is carrying suddenly 
+disappear. 
+6) STRENGTH (LA FORCE) - 
+Description: A man holds back a lion using only his bare hands. 
+At the man’s feet lies a club. 
+Magical Power: The chooser has a strength spell cast on him or 
+her. 
+7) THE WHEEL OF FORTUNE (LA ROUE DE FORTUNE) - 
+Description: A blind-folded woman turns a large wheel. On top of 
+the wheel sit a man and a woman rejoicing at their good fortune. At 
+the bottom of the wheel, a man falls off into a chasm. 
+Magical Power: Have the chooser roll 2d6. On a roll of 2-5 the 
+character will be -2 on attacks and saving throws for the next 2-20 
+turns. On a roll of 6-8 nothing happens. On a roll of 9-12 the 
+character will be +2 on attacks and saving throws for the next 2-20 
+turns. 
+8) DEATH (LA MORT) - 
+Description: A skeleton wielding a scythe stands on barren 
+wasteland. 
+Magical Power: The chooser must save vs. Death Ray or die. 
+9) THE KNIGHT OF SWORDS (LE CHEVALIER DES 
+Description: A man with a sword raised high rides a rearing 
+horse. The man wears a plumed hat and a flowing red cape. This 
+card is upside down when chosen. 
+Magical Power: The chooser receives a cursed +1 weapon ap- 
+propriate to the character’s class. Its user will always attack when 
+sighting potential opponents and will continue to fight until the 
+wielder or all enemies are dead. Spell casters can attack with spells 
+or this weapon. Remember that its possessor will not voluntarily 
+get rid of a cursed weapon and will use it in preference to other 
+weapons. 
+EPEES) - 
+10) THE JUGGLER (LE BATTELEUR) - 
+Description: A man in a wide-brimmed hat stands in front of 
+various objects placed at random on a table. The man points a 
+wand in his right hand toward the sky while pointing with his left 
+hand toward the ground. 
+Magical Power: If the chooser is not a spell caster, he or she 
+receives a ring of spell storing with 4 spells of the DM’s choice 
+stored in it (ventriloquism, knock, fly and dimension door are 
+recommended). Otherwise nothing happens. 
+39. THE BLUE ROOM. 
+The walls and ceiling of this room are painted blue. The floor is 
+covered with an azure colored carpet. The incense of cedar, 
+saffron, and ambergris fills the room. The room contains miscel- 
+laneous furniture, all dyed blue. The room appears to be empty. 
+Except for the furniture, the room is empty. 
+40. THE WHITE ROOM. 
+A snow-white carpet covers the floor of this room. The walls 
+and ceiling are ivory colored. You can smell the incense of 
+jasmine, ginseng and mandrake root. The white colored furni- 
+ture in the room is covered with a layer of frost. The tempera- 
+ture in the room is freezing. A giant, white, six-legged lizard 
+stares at vou. 
+14 
+
+===== PAGE 16 =====
+a, 
+3 
+a, 
+I- 
+- 
+0 0 
+I 
+0 0 
+a, 
+I 
+0 0 
+E 
+a, a 
+0 
+E 
+
+===== PAGE 17 =====
+Pr 0 
+
+===== PAGE 18 =====
+This illustration shows the location of the dungeon under Castle Amber. The northern 
+passage leads to the trap door in the chapel (area 24) and the eastern passage leads to 
+the trap door in the Black Room (area 42). Both trap doors lead to 40-foot-high 
+staircases that wind steeply down into the dungeon. 
+
+===== PAGE 19 =====
+The Tomb of Stephen Amber 
+N t0-l door 
+mud 
+water 
+flame 
+1 square = 10 feet 
+
+===== PAGE 20 =====
+The lizard is a frost salamander* (AC 3; HD 12*; hp 50; #AT 5 + 
+special; D 1-6 (~4)/2-12 + 1-8; MV (40); Save F12; ML 9; AL C). 
+Piled in a corner of the room, beneath a layer of snow, are 6,000 sp 
+and 8,000 gp. 
+41. THE GREEN ROOM. 
+The walls and ceiling of this room are painted green. An 
+emerald- colored carpet covers the floor. The room is empty of 
+furniture. The scent of sandlewood, roses and musk fills the 
+room. A giant man stands in the center of the room. The giant’s 
+skin is pale green and his hair and long shaggy beard are dark 
+green. He holds a two-handed sword. A normal sword is belted 
+at his waist. He is dressed in leather clothing dyed green. 
+The man blocks the other doorway in the room. The green man will 
+tell the party that the only way they can pass is if they cut his head 
+off. He will offer them the use of his two-handed sword (the only 
+weapon which can harm him). If a character takes the sword, 
+attacks the green man and rolls an unmodified 16 or greater it will 
+cut the giant’s head off. In the meantime, the giant will attack the 
+wielder of the two-handed sword, attacking as an 8 HD monster, 
+doing 1-8+3 points of damage. The party can turn and leave, but 
+they must fight the green man to use the other door. The green 
+man is immune to all spells. He can only be struck and killed if his 
+head is cut off with the two-handed sword, otherwise, he takes no 
+damage from attacks. His two-handed sword will not hurt anyone 
+but himself. 
+42. THE BLACK ROOM. 
+Ebony paint covers the walls and ceiling of this room. A sable 
+carpet covers the floor. The scent of henbane, assaofetida, and 
+hellebore root fills the room. All the furniture in the room is 
+lacquered black. The room appears to be empty. 
+A close inspection of the room will reveal that while the room is free 
+of monsters and treasure, the carpet conceals a trap door in the 
+northeast corner leading to an underground passage to room 46, 
+the Magical Letter Squares (in Part 6, The Dungeon). 
+43. THE RED ROOM. 
+A blood-red carpet covers the floor. The walls and ceiling have 
+been painted scarlet. The incense of sulpher, benzoin and 
+euphorbium fills the room. The furniture in the room has been 
+lacquered red. A large man stands in the center of the room. 
+The man has scarlet skin and yellow hair. He wears reddish- 
+gold armor. His shield shines like the sun. 
+This man is a member of the Brotherhood of the Sun (AC 0 ; HD 
+12; hp54; #AT 1; D 1-8+3; MV (40); Save F12; ML9; AL L; for more 
+information see Part 9, New Monsters). A leakproof, red-hot iron 
+chest contains a molten pool of gold; when cool (solid) it is worth 
+5,000 9p. 
+The Sun Brother has taken service with Claude Amber in return 
+for Claude’s past help in slaying an evil efreeti. 
+44. BED ROOM. 
+In this room are eight humanoids who have the heads of large 
+doss. 
+The canine-like humanoids are lupins (AC 6; HD 2; hp 9 each; #AT 
+1; D 1-8; MV (40); Save F2; ML 9; AL L; for more information see 
+Part 9; New Monsters). The lupins are led by Claude Amber 
+(room #36) and will go to his aid if he calls for help. They are 
+protecting a treasure chest which holds 7,000 gp, a wand of fire 
+balls (6 charges) and a displacer cloak. 
+45. FOYER. 
+This room is an antechamber leading outside. You notice that 
+the gray mist still surrounds the castle. Inside the room are six 3’ 
+tall humanoids with pasty gray-green skin, large saucer-shaped 
+eyes and pointed ears. 
+The 3’ tall humanoids are gremlins (AC 7; HD 1**; hp 5 each; #AT 
+special; D special; MV (40); Save El; ML 12; AL C; for more 
+information see Part 9; New Monsters). They are whimsical 
+creatures with an evil sense of humor. As soon as the party opens 
+the door the gremlins will attack by radiating their chaotic area of 
+effect in a 20 radius. Anyone who does not save vs. Spells each 
+round will find that everything is going wrong. This chaotic aura 
+can cause mechanical devices to not work, belt buckles to pop 
+open, or axe-heads to fall off, all at the whim of the gremlins. Any 
+attacks on a gremlin that miss may hit the attacker; the DM should 
+roll for hitting. Any spells cast at the gremlins will affect the caster, 
+if a save vs. Spells is failed. Gremlin magic is more playful than 
+deadly. 
+PART 6: THE DUNGEON 
+46. MAGICAL LETTER SQUARE. 
+J 
+A large square grid has been painted on the floor in the middle of 
+this room. The grid is five 10’ x 10 squares long and wide, a total 
+of 25 squares. A huge capital letter has been painted in the 
+middle of each square. There is a door on the other side of the 
+room, but to reach it you must step on several of the painted 
+squares. 
+The grid is a magical “letter square.” Notice that the letters on the 
+grid spell out the same five names if read from right to left, left to 
+right, top to bottom or bottom to top. Each five-letter name is the 
+name of a magical spirit with special powers. The letter square can 
+be used to invoke one of these powers or to invoke the basic magic 
+of the letter square itself. 
+If a character walks on the letter square without spelling out one of 
+the five names or stands on one of the letters that character will be 
+affected by the power of the letter square - lunacy. 
+Lunacy: Any character affected by lunacy will act normally, ex- 
+cept when the moon is full, new or in its first or last quarter. When 
+the moon is full, the character will either become violent and attack 
+others for no apparent reason or will just sit and stare rapturously 
+at the moon and perhaps howl. When the moon is new or in its first 
+or last quarters, the character will become depressed and para- 
+noid, believing good friends are deadly enemies. 
+15 
+
+===== PAGE 21 =====
+If a character walks across the letter square stepping on five of the 
+letters in order to spell one of the five names of the spirits, the 
+character will be affected by the power of that spirit. Each spirit’s 
+name can be invoked only once and then other characters may 
+walk across the letter square to spell out the same name without 
+being affected. The affects of each name are: 
+GOHEN: The character gains 1-3 points of wisdom 
+(cannot be raised above 18). 
+ORARE: The character gains +2 on all saving throws. 
+HASAH: The character is struck blind. 
+ERARO: The character is transformed into a werewolf and 
+NEHOG: The character gains 1-3 points of charisma 
+should be run by the DM. 
+(cannot be raised above 18). 
+Note: All ill effects of the magical letter square can be removed with 
+a remove curse spell. 
+47 a-d. CELLS. 
+You see four dungeon cells. The back and side walls of each cell 
+are made of stone. The front wall is a grid of iron bars. In one cell 
+you see a long-haired man holding a paint brush and a bucket of 
+paint. He is huddled in the corner of the room, staring raptu- 
+rously at a highly realistic painting of the moon on the back wall 
+of his cell. In another cell you see a large man with the head of a 
+bull. The other two cells appear to be empty. 
+The man with the paint brush is in cell 47b. He is Gaston Amber 
+(Gaston D’Amberville) (AC 9; M 9; hp 33; #AT 1; D 1-4 +1; MV 
+(4O);SaveM9;ML6;ALN;S10,116,W7,D11,C12,Chll)who 
+was caught in the magical letter square. He is a lunatic who has 
+forgotten all his spells. He fights with a dagger he has hidden in the 
+bucket. Anyone who has become a lunatic as a result of the 
+magical letter square will enter the cell and join Gaston. The door is 
+unlocked. 
+Cell 47a is not really empty. It contains an invisible stalker (AC 3; 
+HD 8*; hp 36; #AT 1; D 4-16; MV (40‘); Save F8; ML 12; ALN) that 
+will attack anyone who enters the cell, surprising victimson a roll of 
+1-5 (d6). After the first round, the DM is advised to allow characters 
+to fight it at -4 to hit. 
+The minotaur in cell 47c is actually an illusion. Cell 47d is empty. 
+48a. MORGUE. 
+This long corridor is very chilly, as if the temperature is being 
+magically manipulated to remain cool. The north and south 
+walls are lined with many rows of small doors. There are six 
+rows of six 3’ x 3’doors on each wall. Other than these features, 
+the corridor is emDtv. 
+Upon investigation, the party will discover that there are small 
+painted markings on five of the small doors. All the doors in the 
+corridor open easily. The unmarked doors swing back to reveal a 
+3’ x 3‘niche extending back into the wall for 6. The recessed space 
+is empty. In the spaces behind the marked doors, however, are 
+dead human bodies under sheets, one body behind each marked 
+door. Each body is drained of blood and has had its brain neatly 
+removed. 
+This room is a storage area for the victims of the brain collector in 
+room 48b. The brainless bodies are kept here until they can be 
+disposed of or used for further research purposes. 
+48b. THE BRAIN COLLECTOR. 
+This room is equipped somewhat like an alchemist’s laboratory, 
+though most of the equipment looks unfamiliar. There are a 
+number of knives, scissors and other surgical tools. A metal 
+table stands in the middle of the room. On it is strapped a 
+human male. Near the table stands a large, horrible, unearthly 
+creature on six crab-like legs. It has a grotesque bloated body 
+covered with an oily yellow-orange membrane, from which 
+protrude masses of short tentacles, four yellow, bulging eyes 
+and a repulsive tooth-filled mouth in the top. There are five large 
+lumps on the upper part of its body, just above the baleful eyes. 
+‘his strange monster is a Neh-Thalggu, or brain collector (AC 2; 
+HD lo*; hp 55; #AT 1 + spells; D 1-10 +spells; MV (60); Save F10; 
+ML 10; AL C; for more information see Part 9, New Monsters). 
+At some point during Castle Amber’s travels through time and 
+space, the creature was able to cross through the dimensional 
+barrier and take up residence within the castle. This room serves 
+as its living quarters and laboratory. The man on the table is dead, 
+his blood drained and his upper skull cut away. This creature 
+collects brains by swallowing a removed brain; the brain then 
+moves into a pocket in its head. It can collect up to 12 brains. If the 
+brain collector is interrupted in the midst of collecting a brain it will 
+furiously attack any intruders. The five lumps over its eyes show 
+the presence of the brains it has already stolen. For each brain it 
+collects the creature gains the ability to cast one magic-user spell 
+of 1st-3rd level. The spells it can use are: 
+First Level charm person, magic missile 
+Second Level: levitate, phantasmal force 
+Third Level: haste 
+In a corner of the room is the brain collector’s junk bin. In it are the 
+clothing, weapons and equipment of its victims. Most of the con- 
+tents of the bin are worthless, but a thorough search will reveal 
+seven 100 gp value gems in various pockets and pouches, 200 gp in 
+coins, a shield +1 and a sword +2. 
+49. MAGEN VATS. 
+~~ ~ ~ 
+This room contains a number of large metal vats and cauldrons, 
+some of which contain irridescent, frothy liquids. Magical sym- 
+bols are engraved on each vat and cauldron. There are many 
+tables and shelves holding flasks and vials of various liquids, 
+solids or powders. Standing in a silent row against the east wall 
+are four human-like beings. All are naked, though two hold 
+short swords. As the room is entered, the four beings rush to 
+attack. 
+This room is a creation room for magen (see Part 9, New Mons- 
+ters), having been magically consecrated for such a purpose and 
+then stocked with the necessary materials and equipment. This is 
+where the powerful wizards of the Amber family design and create 
+various types of magen. The four human-like beings are them- 
+selves recently created magen, one of each type: a demos (AC 7; 
+HD 3+2; hp 26; #AT 1; D short sword 1-6; MV (40); Save F4; ML 
+16 
+
+===== PAGE 22 =====
+12; AL N), a hypnos (AC 7; HD 2*; hp 12; #AT 1; D charm person; 
+MV (40); Save M2; ML 12; AL N), a caldron (AC 5; HD 4*; hp 20; 
+#AT 1; D wraps victim with its arms and legs and secretes acid for 
+1-10; MV (40); Save F4; ML 12; AL N), and a galvan (AC 3; HD 5*; 
+hp 33; #AT 1; D lightning bolt for 3-18 or by weapon; MV (40); 
+Save F5; ML 12; AL N). They have been instructed to remain in the 
+room as guards and to destroy interlopers. 
+It is quite impossible for the characters to make constructive use of 
+any of the materials found in this room, as the complex magical 
+formulae necessary at each step of the creation process are far 
+beyond their collective knowledge. There is, however, a large iron 
+safe stashed away under one of the tables. Inside are 5,000 gp 
+worth of powdered gold and platinum in crystal vials, 2,000 gp 
+worth of semi-precious stones, and a tiny, human-shaped figurine 
+carved from gold-inlaid black onyx worth 800 gp. 
+50. ALCHEMISTRY LABORATORY. 
+This large room is outfitted as a complete alchemistry labora- 
+tory with long wooden tables and myriad wood shelves filled 
+with strange flasks and glassware: alembics, calcinators, sub- 
+limators, athanors, retorts and distillation apparatus. 
+As soon as all the characters, or as many characters as possible, 
+are in the room, all the doors close magically and lock (as per a 
+wizard lock spell). Spikes will not hold a door open nor will party 
+members trying to hold the door open succeed. Only a knock spell 
+will open the door (unless the party can figure out some reasona- 
+ble alternative such as transmuting the stone door to mud). Once 
+all the doors are shut, concealed vents will open and begin to fill the 
+room with a black powdery cloud which moves as though it is alive. 
+There are 20 vents spaced evenly throughout the room. Every 
+round a character breathes in the fumes or comes into direct 
+contact with the powdery cloud, the character must save vs. Spells 
+or fall asleep. There is no place in the room to avoid the black dust. 
+Amber family) will put to sleep those who breathe its fumes. It will 
+The black powdery cloud is black lotus dust. The black lotus is a 
+rare, highly poisonous and highly magical plant. Its fumes can bring 
+death or ecstasy, depending on how the black lotus dust is pre- 
+pared. This particular alchemical preparation (a secret of the 
+cause exceptionally vivid dreams (or nightmares) and has the 
+magical property of possibly making those dreams (or nightmares) 
+come true. 
+The DM can make up any dream he or she wishes, giving the 
+character an equal chance for a good dream, a neutral dream or a 
+nightmare. A DM also can use some or all of the suggested dream 
+outlines given below. The more detail the DM can invent, the more 
+interesting each dream becomes. Remember that dreams need not 
+be logical. 
+No matter what type of dream the individual has, the dream will 
+become real if the individual fails to save vs. Spells a second time. 
+The other characters will, of course, see only the end result of the 
+dream. All the characters will awake at approximately the same 
+time. 
+Dream Suggestions: 
+1) A dream that a winged god (or goddess) visits the character and 
+decides to give the character the gift of flight. The character 
+sprouts wings and soars among the clouds. The character will 
+wake up with real wings if the save is not made. 
+2) A dream that the character was captured by strange lizard folk, 
+then put on display in an open cage in some unknown city. Fortu- 
+nately a passing magic-user took pity on the character and tele- 
+ported him or her safely back to where the dream began. 
+3) A dream that the character saved the life of an important 
+courtier in Glantri. The courtier befriended the character and 
+successfully plotted in the character’s behalf. The character has 
+been made an honorary Lord or Lady in Glantri (no lands or 
+money go with the title, but the character does win the right to act 
+like a Lord or Lady). 
+4) A dream of endlessly running down hill away from a boulder 
+which is rolling at the character. Fortunately the character wakes 
+just before it crushes him or her. 
+5) A dream of a strange land called Averoigne (see Part 7). The 
+character will disappear from the room and will be out of play, but 
+will awake in the clearing on the far side of the Gate of the Silver 
+Keys at just about the same time that the party actually arrives and 
+opens the Gate. 
+6) A dream of suddenly being attacked while walking down some 
+unknown dungeon corridor, by one monster rolled at random from 
+the Wandering Monster Table for levels 4-5 in the D&D Expert 
+rules. Conduct the fight normally. 
+7) A dream about a glorious, heroic quest filled with dangers that 
+the character successfully defeats. The character gains 1 exper- 
+ience level immediately (with the minimum number of experience 
+points) if the dream comes true. 
+8) A dream that all the plantlife in the world suddenly gains demon- 
+ic intelligence and plans to take over the world. The character is 
+the only person who knows the truth. Fortunately he or she 
+discovers an ancient artifact which, when destroyed, returns the 
+plants to normal. Unfortunately no one will believe the PC’s story. 
+(100 experience points anyway if the dream comes true.) 
+9) A dream that one wandering monster, rolled randomly from the 
+Wandering Monster Table for levels 6-7, suddenly breaks into a 
+room where the character is alone. Conduct the fight normally. If 
+the character is victorious and the dream comes true, the charac- 
+ter receives the experience points plus one magical item rolled at 
+random. 
+10) A dream of a long terrible fall which ends in a worse crash (and 
+death, if the dream is real). 
+51. LAIR OF THE GREAT WORM. 
+You see a huge mound of treasure 10 high by 10 wide by 40 
+long lying in the middle of the room. A great portion of the 
+treasure appears to be copper and silver pieces. 
+The mound of treasure is actually a slime worm (AC 5; HD 10; hp 
+64; #AT 1; D 2-12; MV (20’); Save F5; ML9; AL N; for more details 
+see Part 9, New Monsters). This creature secretes a sticky slime 
+that coats its back, so that coins, jewels, shields and other items of 
+treasure stick to it when the worm rolls over the treasure. The 
+slime does not affect attacks. This particular slime worm is so old 
+that its back is completely covered with treasure. The monster will 
+wait until the party begins to search the “pile of treasure” before 
+attacking. 
+The slime worm will swallow its prey whole on an unmodified “to 
+hit” roll of 18 or better. Prey that has been swallowed will take 2-12 
+17 
+
+===== PAGE 23 =====
+points of damager per round until rescued. 
+The treasure consists of 50,000 cp, 10,000 sp, 3,000 gp and miscel- 
+laneous bits of non-magical armor and weapons. 
+52. BOBBING FOR A KEY. 
+In the center of this otherwise bare room is a 10 foot deep 
+sunken pit filled with liquid. A thin glass sphere floats in the 
+middle of the pit. Inside the sphere can be seen a large silver 
+key. 
+The liquid is an acid and anyone falling into the pit must save vs. 
+Death Ray or die. The acid will burn for 1-8 points of damage if 
+someone puts their hand in it. The thin glass sphere will shatter 
+unless it is delicately handled. If the key falls into the acid, the key 
+will be ruined. This silver key is worth 500 gp and can be used to 
+open the silver gate to Averoigne (see 57). 
+53. THE DEMON OF DEATH. 
+A pentagram surrounded by a circle has been painted in white 
+paint on the floor in the middle of this room. An amber colored 
+candle burns at each point of the pentagram. A hunting horn of 
+amber hangs from a peg on one wall. There is movement in the 
+darkness in the center of the pentagram and you see standing 
+there a 10 tall humanoid covered with a dull gray scaly skin. Its 
+gaunt body is hairless. Ivory fangs protrude from its mouth and 
+its fingers end in metallic talons. Its eyes glow like smoldering 
+coals and two huge bat-like wings grow out of its back. 
+The creature inside the pentagram is a death demon (AC 4; HD 
+7**; hp 32; #AT 3; D 1-4/1-4 + paralysis and 2-8 + poison; MV (30) 
+fly (60’); Save F7; ML 10; AL C; for more details see Part 9, New 
+Monsters). Anyone struck by the creature’s adamantine claws 
+must save vs. Paralysis or be paralyzed for 2-8 turns; those bitten 
+must save vs. Poison at -2 or die. 
+The death demon will promise anything if the party agrees to 
+release it. All the party needs to do is break the magic circle by 
+throwing dirt on it, covering it with a cloak or so on. If the death 
+demon is freed it will immediately attack the party, as death dem- 
+ons have no sense of gratitude but only the insatiable desire to 
+destroy. The magic circle prevents the death demon from attack- 
+ing. The horn on the wall, when blown, has the power to force any 
+demon to return to its own plane of existence. It has only two 
+charges remaining. 
+54. STORAGE ROOM. 
+The room is filled with dusty shelves. The shelves appear to be 
+empty. There does not appear to be anything else in the room. 
+Most of the shelves are empty, but at the back of one of the top 
+shelves is a dusty, cobweb-covered roll of parchment. This parch- 
+ment is the same as scroll #3 found in room 36, The Library 
+-titled “TO Those Who Would Be Free”. 
+55. KENNELS. 
+This room is outfitted as a dog kennel. There are four dog- 
+houses here and you see four reddish-brown hounds, each the 
+size of a pony. 
+The hounds are hellhounds (AC 4; HD 4*; hp 18 each; #AT 1; D 1-6 
+or breathe fire for 4-24; MV (40); Save F4; ML 9; AL C). They will 
+18 
+not attack if any of the characters are dressed in the clothes of a 
+member of the Amber family. 
+Inside one doghouse are four gems worth 100 gp, 100 gp, 500 gp 
+and 1,000 gp. 
+56. ENTRANCE TO THE LAND OF THE GHOULS. 
+In the middle of the room is a 10’ wide pit. The pit is guarded by 
+six hideous, beast-like humans. 
+The humans are ghouls (AC 6; HD 2*; #AT 3; D 1-3 each + 
+paralyzation; MV (30); Save F2; ML 9; AL C). They are guarding a 
+pit which leads to an underground labyrinth. This labyrinth even- 
+tually leads to the land of the ghouls. While the land of the ghouls 
+plays no part in the adventure as written in this module, the DM 
+can create an underground labyrinth and ghoul kingdom to sup- 
+plement the adventure, if he or she so desires. At the bottom of the 
+pit (70 deep) is a treasure chest containing 3,000 gp and a spear 
++3. 
+57. THE GATE OF THE SILVER KEYS. 
+~ ~~ 
+Set into the south wall is a 10 x 10’ silver gate with three large 
+r keyholes. In front of the gate is a giant lion made of amber. 
+The giant lion is an amber golem (AC 6; HD lo**; hp 47; #AT 3; D 
+2-12/2-12/2-20; MV (60); Save F5; ML 12; AL N) which will attack 
+as soon as the party opens the door. If the amber golem is killed, it 
+will fall apart into pieces of amber. The amber is worth 5,000 gp. 
+Inside the amber golem is a scroll. The scroll is the same as scroll#3 
+in room 36, The Library - titled “To Those Who Would Be 
+Free”. 
+The silver gate leads to Averoigne (and eventually to the Tomb of 
+Stephen Amber). It requires at least three silver keys to open the 
+silver gate. All the silver keys found in Castle Amber are interchan- 
+geable, but three must be turned simultaneously for the gate to 
+open. (The DM may wish to modify the number of keys necessary 
+to open the silver gate if the party is not doing well, since it is 
+essential that the party open the gate and continue the adventure 
+in Averoigne.) 
+On the far side of the silver gate is a clearing beside a road in the 
+midst of a dense forest. The gate works one way only. It will take 
+party members to Averoigne, but will not return them to Castle 
+Amber. Individuals in the clearing cannot see the gate, and the spot 
+where it would stand is normal forest. 
+PART 7: AVEROIGNE 
+Averoigne is a province in a parellel world similar to medieval 
+France. In this particular parallel world, magic is considered to be 
+an evil pagan practice. Clerics do not cast spells, and spell casters 
+in general are viewed with suspicion. While the ecclesiastical laws 
+are not rigidly enforced, spell casters are subject to arrest and trial 
+by the Inquisition (with subsequent execution left to the civil au- 
+thorities). As long as the party uses its spells to occasionally aid the 
+citizens of Averoigne without actively harming them, party 
+members are not likely to be arrested. 
+Averoigne is based on 11 short stories written by Clark Ashton 
+Smith. Most of the stories originally appeared in Weird Tales in 
+the 1930’s. CASiana Literary Enterprises, Inc., has graciously giv- 
+en its permission to base this section of the adventure upon the 
+Clark Ashton Smith Averoigne stories (for a complete listing of the 
+stories, consult the bibliography at the end of Part 7). 
+
+===== PAGE 24 =====
+The wilderness map represents the Province of Averoigne. The 
+area surrounding Averoigne province is not detailed and can be 
+any type of terrain the DM wishes. 
+The encounters in this part of the module are left sketchy since 
+most take place in cities and would require more detail and space 
+than is available in this module. The DM should flesh out each 
+adventure as he or she desires, designing NPCs, town streets and 
+other details as necessary. When exploring the wilderness off the 
+main roads, the party is more likely to encounter normal animals, 
+such as wolves, bears, panthers, hawks, snakes and so on, rather 
+than monsters. A bibliography of the stories of Averoigne is given 
+at the back of this module, so DMs may find inspiration for fleshing 
+out these adventures if it is desired. 
+The capital and major city of Averoigne is Vyones. Vyones is a 
+walled city that houses a cathedral and the Archbishop of Vyones 
+(the political and clerical leader of the province). Outside Vyones' 
+walls is a large cemetery. The fertile plains around Vyones host 
+numerous towns, hamlets, and taverns. The second largest city of 
+Averoigne is Ximes. Ximes has smaller walls than Vyones, and the 
+Bishop of Ximes lives here. The only other city in Averoigne is 
+P6rigon. Pe'rigon is unwalled and houses an abbey. 
+The largest villages in Averoigne are Touraine, Les Hiboux, Sainte 
+(Ste) Ze'nobie, Cordeliers, Moulins, and La Frenaie. La Frenaie is 
+also the name of a castle-chateau. Sylaire, Fausseflammes, Malin- 
+bois, and Ylourgne are ruined chateaux. 
+Averoigne is noted mainly for Averoigne Forest which fills three 
+quarters of the province. The river Isoile runs from Ylourgne to the 
+swamps around Les Hiboux. There are three main areas of cleared 
+farmland in Averoigne around the three cities. The well-watered 
+area around Vyones is the most fertile and houses the largest 
+population. A road runs from Vyoyes to Ximes; a dirt track leads 
+from Ximes to Phrigon and from Perigon to Vyones. 
+The culture of Averoigne is similar to that of France during the 
+High Middle Ages (c.A.D. 1100 - 1350). The original Averoigne 
+stories cover a number of different time periods but for purposes of 
+simplicity and playability all the Averoigne stories are consid- 
+ered to occur roughly within the same era. Fausseflammes and 
+Sylaire are gateways to earlier times.TheTomb of Stephen Amber 
+cannot be found in Averoigne as it is constantly traveling through 
+space, time and the varied planes of existence. 
+Wandering Monsters 
+Averoigne uses a special Wandering Monster Table. Check three 
+times per day (morning, noon, and night) for wandering monsters. 
+Encounters will occur on a roll of 1 or 2 on ld6. . 
+Averoigne Wandering Monster Encounter Table 
+Die 
+Roll Monster Number Statistics 
+1 G6rardde 1 AC 2; F7; hp 39; #AT 1; 
+L' Automnet D 1-8+2; MV 60 (20); Save F7; 
+ML 9; AL L. 
+D 1-4 + spells; MV 120 (40'); 
+Save M6; ML 8; AL N. 
+D i-8+1; MV 90 (30); Save T14; 
+ML 10; AL C. 
+2 Gilles Greniert 1 AC 9; M6; hp 15; #AT 1; 
+3 Jehan 1 AC 4; T14; hp 46; #AT 1; 
+Mauvaissoirt 
+4 Lycanthrope, 2-8 AC 5; HD 4*; hp 18 each; 
+Werewolf #AT 1; D 2-8; MV 180 (60); 
+Save F4; ML 8; AL C. 
+5 Moriamist 1 AC 9; M11; hp 25; #AT 1; 
+D 1-4 + spells; MV 120 (40); 
+Save M11; ML 9; AL N. 
+6 Pagans 3-30 AC 6; HD 1; hp 5 each; 
+#AT 1; D 1-6; MV 90' (30'); 
+Save F1; ML 8; AL N. 
+#AT 1; D 1-4 or special; 
+MV 120 (40') fly 240 (80); 
+Save F3; ML 12; AL C. 
+#AT 1; D 1-4 + special; 
+MV 90 (30); Save F2; ML 12; 
+AL C. 
+7 Phantoms 1-4 AC 9; HD 6; hp 28 each; 
+8 Shadow 1-12 AC 7; HD 2+2*; hp 11 each; 
+?See descriptions below. 
+Ggrard de I'Automne - Abilities: S 17,19, W 14, D 16, C 13, Ch 
+15. Gerard is a professional troubadour. He travels from one 
+chateau to another singing his poetry to the local lords and 
+ladies. He is also skilled at fighting and is able to handle most 
+dangerous situations. He carries a rapier and a hornbeam staff 
+sharpened to a point at one end ( an excellent weapon vs. vam- 
+pires). He also wears chain mail and carries a shield. G6rard is 
+courteous and well-mannered. He is quite likely to travel with 
+the party, at least until they reach a village, town or chateau. 
+Gilles Grenier - Abilities: S 10, I 16, W 7, D 11, C 12, Ch 10. 
+Gilles is a sorceror who specializes in mixing potions, particular- 
+ly love potions. He does not usually practice black magic, but 
+neither does he go out of his way to avoid black magic. Gilles 
+murdered his wife Sabine in a fit of passion, and now the 
+ingredients he uses to make his potions are cursed. He is able to 
+make up any of the more common potions for a suitable price. 
+However, there is a 50% chance that a potion he sells will have 
+harmful effects, either the reverse of what is expected or it will 
+be poison. His spells are: 
+First level: detect magic, read languages 
+Second level: detect invisible, locate object 
+Third level: hold person, lightning bolt 
+Jehan Mauvaissoir - Abilities: S 16, I 13, W 17, D 18, C 14, Ch 
+15. Jehan is the retainer and associate of Azedarc, a black 
+magician who cheated his way into becoming the Bishop of 
+Ximes. Jehan Mauvaissoir is a thief and assassin. He is cunning, 
+treacherous and completely without morals. Jehan will stop at 
+nothing to protect Azedarc's secret. He will deny all knowledge 
+of potions of time travel, but probably will try to slip the potion 
+into the party's wine to be rid of them. If party members drink 
+some of the potion they will be sent into the past and must visit 
+Moriamis to return. 
+Jehan prefers trickery to violence, and guile to fighting. He also 
+uses the names of Sieur des Emaux and Melchire. Jehan and 
+Azedarc can travel back and forth in time. Both are actually 
+centuries old, though they do not appear aged. Jehan has the 
+thieving abilities of a 14th level thief. He wears leather armor 
+and uses a short sword and dagger. 
+Moriamis - Abilities: S 12, I 16, W 18, D 15, C 13, Ch 17. 
+Moriamis is a sorceress who was born in Averoigne before the 
+inquisition. Her spells avoid the taint of black magic since no 
+such distinction was made during her lifetime. She should be 
+handled by the DM as a normal magic-user. She stole Azedarc's 
+19 
+
+===== PAGE 25 =====
+secret of time travel and can brew a potion of time travel if 
+needed. Moriamis is the mortal enemy of Azedarc and Jehan. 
+She is quite likely to befriend the party and give them a potion of 
+time travel for some favor. Her spells are: 
+First level: charm person, detect magic, protection 
+Second level: detect evil, ESP, phantasmal force 
+Third level: dispel magic, fly, infravision 
+Fourth level: charm monster, remove curse, wizard 
+Fifth level: contact higher plane. hold monster 
+Sixth level: reincarnation 
+from evil, read magic 
+eye 
+X. ENTRANCE TO AVEROIGNE 
+The party enters Averoigne through the Gate of the Silver Keys, 
+emerging onto the map at this point. Any characters who dreamed 
+of meeting the party in Averoigne and disappeared will appear here 
+as the party arrives. This is a clearing alongside the road to Vyones 
+and Ximes. Exploring will reveal that just around a bend in the road 
+to the north is the Inn of Bonne Joissance, where the party may 
+rest free of danger. 
+It is important at this point that the party understand what they are 
+searching for. The instructions on the scrolls - “To Those Who 
+Would Be Free” - for breaking the curse on Castle Amber are 
+engraved on the inside of the lid of Stephen Amber’s casket. 
+However, Stephen Amber’s Tomb travels in time and space and 
+thus must first be summoned. To summon the tomb the party 
+must find four special magic items somewhere in the land of 
+Averoigne. These items are 
+1) The Enchanted Sword of Sylaire 
+2) The Viper-Circled Mirror 
+3) The Ring of Eibon 
+4) A potion of time travel 
+The scrolls indicate that the sword can be found in the ruins of 
+Sylaire. The mirror may be found in Vyones. The ring is currently 
+in Pkrigon. A potion of time travel may be found in several places, 
+but Ximes is the most likely. The sword is owned by Sephora, the 
+mirror by Gaspard du Nord, the ring by Luc le Chaudronnier, and 
+the potions by Azedarc, Jehan Mauvaissoir, and Moriamis. 
+The DM should make sure that the party possesses the instruc- 
+tions on scroll #3 - “To Those Who Would Be Free” - at this 
+point, even if the scroll has to miraculously appear. 
+The DM should allow the Inn of Bonne Jouissance to be reasona- 
+bly crowded. After the initial distrust of strangers fades, the local 
+inhabitants will be quite willing to gossip. The following information 
+can be gained by a liberal expenditure of money to buy drinks: 
+1) Vyones, Pgrigon and Ximes are the three major cities of 
+Averoigne. 
+2) The Inn of Bonne Jouissance lies on the road to Vyones and 
+Ximes: Vyones is to the north and Ximes is to the south. 
+3) Sylaire is a ruined chateau with an evil reputation about 30 
+miles to the east of the inn, across the river Isoile. 
+4) Les Hiboux is a village in the swamps somewhere south of 
+Ximes. 
+5) Azedarc is the Bishop of Ximes. Opinion seems equally 
+divided as to whether the man is a black magician masquer- 
+ading as a bishop or a saintly, maligned man. 
+None of the other names on the list are known to the local inhabit- 
+ants of the inn. As the party travels around Averoigne, the DM may 
+wish to give out further useful information when it is reasonable 
+and necessary to do so. 
+58. THE ENCHANTED SWORD OF SYLAIRE. 
+The chances of the party getting lost searching for Sylaire are 
+good. However, the DM should not let the party remain lost for too 
+long before they stumble on Sylaire by accident. 
+The area around Sylaire is brown, open moor studded with druidic 
+stone pillars. Sylaire is both the name of the ruined castle and the 
+name of an enchanted land. The path into this enchanted land 
+leads through a stone arch. Beyond the arch the trees are larger 
+and greener than those in Averoigne. Even the seasons seem 
+different, as the sun shines longer and winter seems very far away. 
+In this enchanted land only one high, round tower stands where the 
+mighty castle of Sylaire once stood. 
+The tower is the home of Sephora, chatelaine of Sylaire and a 
+magic-user (AC 9; M14; hp 30; #AT 1 + spells; D 1-4 + special; MV 
+120 (40); Save M14; ML 10; AL N). Sephora is very beautiful, with 
+thick, curly chestnut hair bound with silver filigree. Her spells are 
+First level: charm person, detect magic, hold portal, 
+Second level: ESP, mirror image, phantasmal force, 
+Third level: clairvoyance, dispel magic, hold person, 
+Fourth level: growth of plants, hallucinatory terrain, 
+Fifth level: conjure elemental, contact higher plane, 
+Sixth level control weather, flesh to stone, reincarnation 
+sleep 
+wizard lock 
+lightning bolt 
+massmorph, polymorph others 
+magic jar 
+In addition to her spells, Sephora has the power to charm any male 
+who sees her, if he fails to save vs. Spells. If she is attacked, the 
+charmed males will fight to protect her. The DM may wish to give 
+her two male guards already. 
+It should be made clear to the party that if they are rash enough to 
+attack Sephora, they will probably all die. Sephora’s initial reaction 
+to the party will be beneficial, since no one enters Sylaire without 
+her willing it. Sephora has a mission for the party. She knows of 
+their need for the Enchanted Sword of Sylaire and will trade the 
+sword in return for the party’s aid. A werewolf is stalking Sylaire 
+and Sephora could use help in slaying the creature. She will warn 
+the party that the werewolf, in human form, is a powerful 
+magic-user. 
+20 
+
+===== PAGE 26 =====
+The werewolf (AC 5; HD 4*; hp 24; #AT 1; D 2-8; MV 180 (60); 
+Save M10; ML 8; AL C) is Malachie du Marias, who is also a high 
+level magic-user (AC 9; M10; hp 24; #AT 1; D 1-4 + spells; MV 120 
+(40’); Save M10; ML 8; AL C). When encountered, there is a 50% 
+chance Malachie will be in werewolf form and a 50% chance he will 
+be in human form. In werewolf form he will attack with his bite, 
+using hit and run tactics if the party is too powerful. In human form 
+he will cast spells. Given a chance to prepare a strategy, Malachie 
+will assume human form and cast his spells and then change to a 
+werewolf and attack. His spells are 
+First level: darkness, magic missile, shield 
+Second level: detect invisible, phantasmal force, web 
+Third level dispel magic, haste, protection from 
+Fourth level: dimension door, polymorph others, wizard 
+Fifth level: animate dead. transmute rock to mud 
+normal missiles 
+eye 
+To find Malachie the party must search the ruins and the forest 
+around Sylaire, avoiding the pitfalls and creatures that lair there. 
+The DM should create whatever challenges he or she desires. If 
+Malachie is encountered at night he will have a pack of 2-5 wolves 
+running with him (AC 7; HD 2+2; hp 11 each; #AT 1; D 1-6; MV 180 
+(60); Save F1; ML8; AL N). 
+The Enchanted Sword of Sylaire is a sword +3, +5 vs.undead.lts 
+purpose is to slay undead and it will automatically kill any undead it 
+hits on an unmodified score of 18 or better. It also can detect evil 
+and detect invisible and gives the user the ability to fly (as per the 
+spell) for up to three turns three times per day. Sephora will also 
+give the party a scroll witha fly spell on it when they succeed in 
+destroying the werewolf. 
+59. THE VIPER-CIRCLED MIRROR. 
+The Viper-Circled Mirror is a round mirror with a frame that looks 
+like a bronze viper eating its tail. The mirror is owned by Gaspard 
+du Nord (AC 9; M7; hp 25; #AT 1; D 1-4 + spells; MV 120 (40); 
+Save M7; ML 8; AL N). Gaspard is a neutral magician who lives in 
+Vyones. 
+When the party arrives at Vyones they will find the town in an 
+uproar. Most of the citizens will be crowded into the square listen- 
+ing to the Archbishop of Vyones. The archbishop is describing a 
+calamity about to befall the town. The evil black magician, Na- 
+thaire, whom the citizens drove out of Vyones, has begun his 
+revenge. Nathaire specialized in necromancy - magic involving 
+the dead. He has taken great numbers of bodies and created a 
+golem-like colossus. The colossus towers one hundred feet tall. It 
+uses an entire tree for a club. Only magical weapons can harm it. 
+The citizens of Vyones have no magical weapons. Their only 
+defences are the city walls which the colossus will quickly batter 
+down. Vyones is on the verge of panic. 
+A citizen dressed in green and brown robes steps up to the podium 
+and asks for silence. He tells the crowd that he thinks he knows a 
+way that the colossus can be defeated. The man is Gaspard du 
+Nord. Before he saw the error of his ways, he was one of Na- 
+thaire’s pupils. Gaspard no longer practices magic, since it is a 
+forbidden art. But he does remember the formula to a black 
+powder which, when blown into the face of the colossus, will return 
+it to its natural state, a dead body. 
+Gaspard is willing to mix up a batch of the magic powder. He 
+himself is not a warrior, so a group of adventurous volunteers is still 
+needed to travel north to Ylourgne, where Nathaire is animating 
+the colossus, and use the powder to stop the creature. 
+Gaspard is willing to give to the party his most prized possession, 
+the Viper-Circled Mirror, if they succeed in destroying the colos- 
+sus. The Vyones City Council will add a 10,000 gp reward if the 
+mission is successful. 
+If the party tries to steal the mirror, they will first find it impossible 
+to separate Gaspard from the crowd of citize‘ns. Secondly, Gas- 
+pard does not have the mirror with him, nor is i\ in his quarters (he 
+has buried it in a secret place). The citizens of $yones will not take 
+kindly to any attack on Gaspard. Hundreds of armed citizens will 
+arrest the party. They will be given a choice - beheading, or 
+volunteering to destroy the colossus. If forced into the mission, the 
+party will still receive the mirror from Gaspard upon completion of 
+the task, but forfeits the 10,000 gp reward. 
+If the party volunteers for the mission, they will meet Nathaire and 
+the colossus in the forest north of Vyones. Since the colossus 
+shakes the ground as it walks, the party will have plenty of advance 
+warning. They will be able to set an ambush and attack with 
+surprise. 
+If the party is forced to fight the colossus instead of volunteering, 
+they will meet the colossus right outside the walls of Vyones. 
+Hundreds of bowmen line the walls to make sure the party tries to 
+perform the task. The party will not be able to attack with surprise. 
+The DM should make sure that the party has a fair chance to defeat 
+the colossus. If they have not already journied to Sylaire, the DM 
+might wish to have Gaspard hint that Sylaire holds a weapon useful 
+against the colossus. The DM should then make sure that the 
+colossus does not attack until the party returns from Sylaire. 
+If the colossus should somehow prove unbeatable, the party 
+should still receive the mirror as long as they made a reasonably 
+valiant attempt to defeat the colossus. The colossus will ravage 
+Vyones until nightfall, then move away to some other part of 
+Averoigne. Gaspard will be among the survivors and will give the 
+party the mirror as a reward for trying their best, even though they 
+were defeated. 
+The colossus (AC 8; HD loo*; hp 350; #AT 1; D 10-80; MV 240 
+(80); Save F14; ML 12; AL C) is controlled by Nathaire who has 
+magic jarred into the titanic body. His own body rides in a basket 
+strapped to the back of the colossus. The colossusattacks asa21+ 
+HD monster. 
+Gaspard will make enough powder to allow five separate attempts 
+at hurling it in the face of the colossus. The powder must be hurled 
+from 10 or closer into the colossus’ face to work. If the party does 
+not have the means of flying, it is still possible to hurl the powder 
+from the top of the tallest building in Vyones (the cathedral) when 
+the colossus comes within 10 of the tower. A successful attack 
+with the powder will destroy the motivating force behind the colos- 
+sus. It will crash to the ground, crushing Nathaire and his pupils. 
+Attacks to hit with the powder while flying are normal. Attacks 
+from the cathedral roof are at -4 to hit. 
+60. THE RING OF EIBON. 
+The Ring of Eibon is an heirloom belonging to Luc le Chaudronni- 
+er, a white magician. Luc lives in the city of P6rigon. The city is 
+currently being terrorized by a mysterious attacker known as the 
+Beast of Averoigne. The Beast stalks its prey by night, killing both 
+animals and men. The only portion of the kill which the Beast 
+devours is the marrow inside the bones. 
+Just before the party arrives at Pbrigon, a blazing red comet will 
+21 
+
+===== PAGE 27 =====
+appear in the sky. The comet will hover over Averoigne, lighting up 
+the night sky with its scarlet fires. The Beast and the comet appear 
+at the same time. 
+The party will be unable to find Luc le Chaudronnier until late at 
+night. Luc is hunting the Beast of Averoigne, hoping to exorcise the 
+foul murderer using the Ring of Eibon. The party will be able to 
+track Luc to a clearing outside the Abbey of Perigon, where Luc 
+and a number of men-at-arms tried to stop the Beast and were 
+unsuccessful. 
+The party arrives just in time to see a snaky figure climb the wall of 
+the Abbey and a serpent-like tail disappear through the topmost 
+window of the tallest tower in the abbey. Luc and the guardsmen lie 
+on the ground outside the tower. Several guardsmen are dead; Luc 
+is wounded but will recover. The Beast has stolen the Ring of 
+Eibon. After the Beast stole the ring, Luc saw the Beast climb up 
+the abbey tower wall and enter through the topmost window. 
+The window is that of the cell belonging to ThGophile, the Abbot of 
+Pe‘rigon. When the party enters the Abbey and climbs the bell 
+tower stairs to the room all they will find is Theophile dressed in a 
+black-cowled robe. He is unharmed. He saw nothing out of the 
+ordinary. He claims that he was asleep until a few minutes ago 
+when he was awakened by noises outside his window. 
+The abbot begins pacing as he talks. Most of the room is lit by torch 
+lights. However, one section of the room is lit by the blood-red light 
+from the comet shining in through the window. During his pacing, 
+the abbot will finally walk into the red light and stop. is over- 
+come by an immediate transformation. The abbot Theophile be- 
+comes the Beast of Averoigne. 
+It is difficult to see the exact form of the Beast since it is surrounded 
+by a swirling, shadowy red mist. Inside the blood-red mist, a black 
+semi-serpentine form can barely be distinguished. The serpentine 
+beast has a large flat snakish head with sharp serrated teeth, arms 
+and a serpent’s tail instead of legs. Its arms end in ebony talons. On 
+one finger is the Ring of Eibon. The ring is only visible when 
+Th6ophile is in Beast form. 
+The Beast of Averoigne (AC 0; HD 14*; hp 63; #AT 3; D 1-10/ 
+1- 10/3-18; MV 150 (50); Save F 14; ML 12; AL C) will attack on 
+sight. The transformation is instantaneous. The Beast attacks with 
+two claws and a bite. It can only be hit by magic weapons. 
+If the Beast is killed, it will change back to the form of Thgophile. 
+The citizens of P&igon, while secretly believing that poor Theo- 
+phile was indeed cursed into becoming the Beast, will publicly deny 
+it. They will ask the party to leave Pe‘rigon and not come backJhe 
+party may take the ring with them. 
+61. POTION OF TIME TRAVEL. 
+Several individuals in Averoigne own potions of time travel. Two 
+of them, Jehan Mauvaissoir and Moriamis, might be encountered 
+by chance. If so, the DM should give the party a fair chance of 
+obtaining a potion of time travel. Moriamis, in particular, will be 
+willing to help the party as long as the risk to herself is minimal. 
+If the party does not obtain a potion of time travel as a result of a 
+chance encounter, they will have to journey to Ximes to see 
+Azedarc. (The Les Hiboux clue on the scroll is a false clue, and if 
+they attempt to follow it they will wander through the swamp 
+confronting the creatures that live there before discovering that no 
+one knows about a potion of time travel). 
+Azedarc, the Bishop of Ximes, is an evil magician (AC 9; M14; hp 
+40; #AT 1; D 1-4 + spells; MV 120’ (40); Save M14; ML 9; AL C), a 
+fact he will go to any length to keep secret. His spells are 
+First level: darkness, read languages, read magic, 
+Second level: detect evil, ESP, phantasmal force, 
+Third level: clairvoyance, dispel magic, lightning bolt, 
+Fourth level: confusion, polymorph others, remove 
+Fifth level: conjure elemental, feeblemind, magic jar 
+Sixth level: control weather, geas, projected image 
+ventriloquism 
+wizard lock 
+protection from evil, 10 r 
+curse, wizard eye 
+The DM should make sure the party realizes that magic is consi- 
+dered evil in Averoigne, before they meet Azedarc. 
+The DM should use discretion when judging the confrontation 
+between the party and Azedarc. If the party accuses Azedarc of 
+being a magician in front of other witnesses, Azedarc will have to 
+defend his position in the community. He is likely to accuse the 
+party itself of witchcraft and order the city guard to arrest them. 
+On the other hand, if they secretly confront Azedarc, he would 
+probably be willing to trade a potion of time travel for another 
+magic item or items of at least equal value. 
+Two factors are particularly important in the confrontation be- 
+tween Azedarc and the party: 
+1) The confrontation should be secret; 
+2) The party should take some sort of precaution against 
+If the party does both of the above, the DM should allow them to 
+trade for a potion of time travel. 
+treachery on Azedarc’s part. 
+The DM should note that this encounter, like many other city 
+encounters, calls for intelligent play rather than mindless fighting. 
+City streets are not dungeon corridors and if the party breaks the 
+law they will have to pay the consequences. 
+PART 8: THE TOMB OF STEPHEN AMBER 
+The party should now possess the Enchanted Sword of Sylaire, 
+the Viper-Circled Mirror, the Ring of Eibon and a potion of 
+time travel. If they do not, they can go no further and will be 
+trapped in Averoigne. The DM should give the party every con- 
+ceivable chance to obtain the four magic items. Once these items 
+are in their possession the characters may summon the Tomb of 
+Stephen Amber. 
+When the Ring of Eibon is touched to the viper’s tail on the mirror 
+frame, the serpent wil uncoil enough for the ring to slide over the 
+tail. The ring will then slowly move up the viper’s body until it 
+circles the head like a collar. The viper’s tail will once again be 
+gripped in the viper’s mouth. 
+When the Enchanted Sword of Sylaire is anointed with the 
+potion of time travel, the blade will glow bright gold. As soon as 
+the blade comes into contact with the mirror, the party will hear a 
+high pitched humming. The mirror, ring and sword will then shatter 
+22 
+
+===== PAGE 28 =====
+into thousands of shards. 
+The amber haze will once more surround and heal the party. The 
+world of Averoigne will fade out and the party will find itself on a 
+seemingly endless plain. In front of them is a massive, square, 50’ 
+tall tomb made of amber colored marble. Carved over the entrance 
+is the name “Stephen Amber.” 
+On the door is painted the Amber family crest; A black shield with a 
+gold phoenix (Sable, a phoenix Or). An amber crown is painted 
+above the crest. 
+62. FIRST GUARDIAN. 
+Lying in the middle of this room, atop a pile of silver coins and 
+gems, is a huge winged lizard. The gigantic lizard is covered with 
+metallic blue scales. It appears to be asleep. 
+The sleeping blue dragon (AC 0; HD 9**; hp 41; #AT3; D 2-7/2-7/3- 
+30 + breath; MV (30’) fly (80’); Save F9; ML 9; AL N) is the first 
+guardian of Stephen’s tomb. Its lightning breath strikes in the 
+shape of a line loo’ long by 5’ wide. The dragon does not talk or use 
+spells. If the dragon wakes, it will fight to prevent the party opening 
+the west or east doors. The dragon’s treasure is 86,000 sp and 59 
+gems worth a total of 5,900 gp. 
+63. FIRE. 
+Flames leap and crackle off the walls and ceiling of this long 
+corridor. It looks like it is possible to walk down the corridor 
+without getting burned as long as one stays in the center of the 
+hallway where the heat is least. 
+A flame salamander (AC 2; HD 8*; hp 36; #AT 3; D 1-4/1-4/1-8 + 
+special; MV (40); Save F8; ML 8; AL N) waits to attack the party 
+around the last corner of the room. Everyone coming within 20’ of 
+the flame salamander will automatically take 1-8 points of fire 
+damage per round. Everyone coming within 20’ of a wall or ceiling 
+also will automatically take 1-8 points of fire damage per round. 
+The ceiling is 50 high. 
+64. AIR. 
+You open the door and look down to find that the ground is 
+thousands of feet below you. A solid-looking cloud trail, 10 
+wide, forms a path down the center of the hallway. 
+The cloud-path will easily support the weight of the party although 
+they will fall if they step off the path. The walls of this hallway, 
+though invisible, continue all the way to the ground as invisible 
+force fields so that even flying individuals cannot leave this hallway 
+except through one of the doors. Around the far corner of the hall a 
+wyvern (AC 3; HD 7*; hp 32; #AT 2; D 2-16/1-6 + poison; MV (30’) 
+fly (80); Save F4; ML 9; AL C) waits to attack the party. There is a 
+99% chance that any individual falling to the ground will be killed by 
+the fall (roll % dice, a roll of 00 indicates survival with 1-4 hit points 
+left). 
+65. SECOND GUARDIAN. 
+A 14‘ tall humanoid with gray rock-like skin stands in front of the 
+inner door. The humanoid holds a large stalactite as a club. A 
+large treasure chest sits behind him. 
+The humanoid guardian is a stone giant (AC 4; HD 9; hp48; #AT 1; 
+D 3-18; MV (40); Save F9; ML 9; AL N). It will fight to prevent the 
+party from opening the inner door. The chest is locked but not 
+trapped. It contains 5,000 gp, a neutral sword +1, +2 vs. spell 
+users (8 intelligence, 8 ego, detects invisible and detects traps), 
+a cursed scroll (turns victim into a living fly trapped in a piece of 
+amber), a potion of clairaudience and a potion of invisibility. 
+66. THIRD GUARDIAN. 
+A creature with the face of a man, the body of a lion, the wings of 
+a giant bat and a tail ridged with spikes guards the room. 
+The third guardian is a manticore (AC 4; HD 6+1; hp 28 #AT 3 or 
+spikes; D 1-4/1-4/2-8/ 6 x 1-6; MV (40) fly (60); Save F6; ML9; AL 
+C). It will fight to keep the party from opening the east or west 
+door. Inside the room, hidden by an invisibility spell, are 3,000 gp. 
+67. EARTH. 
+I The floor of this room is sunken and filled with mud. I 
+The mud-filled floor is 10’ deep. Hidden beneath the surface of the 
+mud is a Mud Golem (AC 9; HD 8*; hp 36; #AT 1; D 2-12 + 
+smothering; MV (30); Save F8; ML 12; AL N). The mud golem can 
+be hit only with magical weapons. The mud golem will rise to the 
+surface of the mud to attack when the party passes. Characters 
+fighting in the mud will do so at -2 to hit. 
+68. WATER. 
+IS long room has a sunken floor filled with water to the 
+edge of the door. 
+The water is 40’ deep and salty. A great white shark (AC 4; HD 8; 
+hp 36; #AT 1; D 2-20; MV (60’); Save F4; ML 7; AL N) lies in wait for 
+the party. It will attack anyone who tries to move past it in the 
+water. 
+69. FOURTH GUARDIAN. 
+A large creature with a dragon-like body and five snake-like 
+heads guards this room. I - I 
+The final guardian is a five-headed hydra (AC 5; HD 5; hp 23; #AT 
+5; D 1-10 each; MV (40); Save F5; ML 9; AL N). It will fight to 
+prevent the party opening the door to room 70, Stephen’s Crypt. 
+70. STEPHEN’S CRYPT. 
+In the center of this room is an ornate mahogany casket. The 
+casket rests on a raised dais. A silver candelabra and an iron 
+brazier stand at the head and feet of the casket. The candel- 
+abra holds burning amber candles, and perfumed smoke rises 
+from the brazier. A large tapestry covers all the wall space, 
+Carved into the inside lid of the casket are the words “Burn the 
+tapestry to break my curse”. A skeleton wearing a crown of gold 
+lies inside the casket. Nothing will happen until the tapestry is 
+burned. 
+If the party burns the tapestry, a man dressed in rich velvet robes 
+and wearing a golden crown and other fine jewelry will suddenly 
+appear, stepping out of the smoke and ashes. He stretches and 
+says, “Thanks, I’ve been trapped in there for ages.” The tomb 
+disappears and the party is back outside Castle Amber. The gray 
+23 
+
+===== PAGE 29 =====
+mist has disappeared and the party can see the river they had been 
+following at the start. They are back in their world. The castle was 
+frozen in time as a result of Stephen’s curse. Now that the curse is 
+broken, the lost ages catch up with the castle in minutes. The walls 
+grow pitted and crumble into ruins. Tapestries molder into dust. 
+The inhabitants of Castle Amber age rapidly and die, ending as 
+mummified skeletons. The only things left intact in the ruins are the 
+party members, the treasure they won and Stephen Amber. 
+Stephen is a 25th level magic-user (AC 9; M25’ hp 79; #AT 1 + 
+Spells; D 1-4; MV (40’); Save M25; ML 11; AL N). Details for higher 
+levels are given in the D&D@ Companion Set, but the details are 
+not necessary for the DM to run Stephen Amber as an NPC. For 
+purposes of simplicity, the DM should allow Stephen to cast any 
+magic-user spell in the D&D Expert rulebook. Stephen is grateful 
+for his release and will not fight the party unless he is attacked (in 
+which case he will teleport away). If the party does not attack 
+Stephen, he will reward each of his rescuers with a piece of antique 
+jewelry worth 3,000-18,000 gp each and a magic item rolled at 
+random appropriate to the individual’s class. The magic item will 
+not be cursed; if a cursed item is rolled continue rolling until an 
+appropriate item is rolled. If the DM feels the item rolled is too 
+powerful, he or she may select another. 
+Stephen also has a ring of 4 wishes. He will use the ring to bring 
+back to life up to four characters (even if the character was 
+disintegrated, jeliified, etc.). If more than four characters have died 
+during the course of the adventure, he will pick four at random to 
+bring back to life. Characters returned to life only receive exper- 
+ience pointsfor the adventure up until the point where they died. If 
+no characters have died, Stephen will not use the ring nor reveal its 
+power. 
+Once Stephen has rewarded the players, he will thank them again, 
+speak some arcane words and, with grand gestures, disappear in a 
+billow of smoke. 
+PART 9: NEW MONSTERS 
+Amber Lotus Flowers 
+Armor Class: 9 
+Hit Dice: Save As: Normal Man 
+Movement: 0 Morale: 12 
+Attacks: 1 Treasure Type: Nil 
+Damage: special Alignment: Neutral 
+No. Appearing: 0 (3-18) 
+Amber lotus flowers look like golden water lilies the size of sun- 
+flowers. When a creature approaches within 10 the blossoms open 
+and spray a 40 x 40’ cloud of pollen. Any individual within the 
+affected area must save vs. Spells or fall asleep for 4-16 turns. The 
+flowers can spray a fresh burst of pollen every 3- 12 rounds. Amber 
+lotus flowers are often found acting in concert with other deadly 
+plants such as vampire roses and killer trees. 
+Amoeba, Giant 
+Armor Class: 9 
+Hit Dice: 10-15 Save As: Fighter 7 
+Movement: 30 (10) Mor a I e : 10 
+Attacks: 1 Treasure Type: Nil 
+Damage: 2-12 Alignment: Neutral 
+Giant amoeba are 30’ wide single celled animals. Except for the 1’ 
+wide gray nucleus, an amoeba is translucent. If the nucleus is 
+hidden or disguised, the amoeba will be practically invisible and 
+able to attack with surprise. Giant amoeba attack by first envelop- 
+ing victims, then secreting an acid to digest them. 
+No. Appearing: 1 
+Aranea 
+Armor Class: 7 No. Appearing 1-3 (1-6) 
+Hit Dice: 3** Save As: Magic-user 3 
+Move: 60 (20) Mor a 1 e : 7 
+Treasure Type: D 
+Attacks: 1 bite Alignment: Chaotic 
+Damage: 1-6 + poison 
+Web 120 (40) 
+Aranea are an intelligent giant spider race. They are as large as a 
+small pony, and are greenish-brown in color. An aranea can be 
+distinguished from other giant spiders by the massive odd-shaped 
+lump on its back that houses its large brain. Aranea are web- 
+spinners, and their bite is poisonous. 
+The front limbs of an aranea are divided into flexible digits. The 
+aranea uses these to grasp prey and manipulate simple tools. In 
+addition, the aranea can cast spells as a 3rd level magic-user and 
+they spend most of their time in magic research. 
+For use of aranea in wilderness adventures see Dungeon Module 
+X1: The Isle of Dread. 
+Brain Collector 
+Armor Class: 2 
+Hit Dice: 10* Save As: Fighter 10 
+Move: . 180(60) Morale: 10 
+Attacks: 1 bite + spells Treasure Type: C 
+Damage: 1-10 + spells Alignment: Chaotic 
+No. Appearing: 1 (1) 
+Brain collectors, or Neh-Thalggu in their own language, are a race 
+of other-dimensional creatures who are only occasionally able to 
+cross the barriers separating their universe from this one. Only 
+near sources of great magical energy, such as Castle Amber, 
+where the fabric of time and space is twisted, can they find small 
+gateways here. They do not think like any creature known, but 
+seem for some purpose to be driven to collect brains. 
+Brain collectors are truly hideous, with bloated, yellow-orange, 
+oily, amorphous bodies from which sprout dozens of short wri- 
+thing tentacles. They move about on six crab-like legs. Four large, 
+yellow, bulging eyes and a tooth-filled maw are set in its bulbous 
+head. They attack by biting with their mouth or casting spells. 
+These creatures slay characters and then carefully cut away the 
+top of the head with surgical tools to expose the brain. They 
+remove the brain and swallow it. The brain then moves into one of 
+several pockets within the brain collector’s own head where the 
+brain may be utilized. Each brain forms a distinctive lump in the 
+head of the monster. For each brain the creature collects it gains 
+the ability to use one magic-user spell of 1st to 3rd level once per 
+day. The DM should determine each new spell randomly. Once a 
+brain collector reaches this universe, it begins to work hard to 
+acquire as many brains in as short a time as possible. A brain 
+collector can collect up to a maximum of 12 brains. 
+24 
+
+===== PAGE 30 =====
+Death Demon 
+Armor Class: 4 
+Hit Dice: 7** Save As: Fighter 7 
+Move: 90' (30') Mor a 1 e : 10 
+Fly 180' (60') 
+Attacks: 3 Alignment: Chaotic 
+Damage: 1-4/1-4/2-8 + 
+No. Appearing: 1-4 
+Treasure Type: E 
+special 
+Death demons, also known as Ostegos, appear as 10' tall gaunt, 
+hairless humanoids with gray scaly skin. Ivory fangs protrude from 
+their mouths and their fingers are tipped with adamantine talons. 
+Their eyes glow like smoldering coals and two huge bat-like wings 
+grow out of their back. 
+Death demons attack with their claws and fangs. Any creature 
+struck by its claw must save vs. Paralysis or be paralyzed for 2-8 
+turns. Any creature bitten by a death demon must save vs. Poison 
+at -2 or die. 
+Death demons also have infravision, 60 range, and the abilities to 
+teleport with no error and cause darkness, 10 radius. 
+Golem, Mud 
+Armor Class: 9 
+Hit Dice: 8* Save As: Fighter 8 
+Move: 90' (30') Morale: 12 
+Attacks: 1 hug Treasure Type: Nil 
+Damage: 2-12 + Alignment: Neutral 
+No. Appearing: 1 (1) 
+smothering 
+A mud golem is a humanoid monster magically created from mud. 
+It can swim or walk on the surface of mud and quicksand without 
+sinking. It can remain submerged in mud or quicksand indefinitely, 
+and rise to the surface when it wishes. Mud golems hug their 
+victims with both arms, trying to smother the victim in its body. If a 
+mud golem hits, it will automatically cause 2-12 points of smother- 
+ing damage each round thereafter. Like other golems, mud golems 
+can be hit only by magical weapons. They are immune to sleep, 
+charm and hold spells, as well as all forms of gases. 
+Grab Grass 
+Armor Class: 9 
+Hit Dice: 1 per 5' square Save As: Normal Man 
+Movement: 0 Morale: 12 
+Attacks: 1 Treasure Type: Nil 
+Damage: special Alignment: Neutral 
+Grab grass looks like ordinary tall grass (3-5' tall). Grab grass is 
+animated and will attempt to hold any individual that moves into or 
+through it. There is a 5% chance each round that anyone with a 
+strength of 12 or less can break free of the grab grass. For every 
+point of strength greater than 12 the chance increases by 5% (an 
+individual with 16 strength, for example, would have a 25% chance 
+each round to break free). The grab grass patch has one hit die for 
+every 5' square area (thus 5' square are destroyed for every 8 hit 
+points of damage done to the grab grass). 
+No. Appearing: not applicable 
+Gremlin 
+Armor Class: 7 
+Hit Dice: 1** Save As: Elf 1 
+Move: 120' (40') Morale: 12 
+Attacks: special Treasure Type: Nil 
+Damage: special Alignment: Chaotic 
+Gremlins are 3' tall humanoids with pasty gray-green skin, large 
+saucer-shaped eyes and pointed ears. They are whimsical and 
+have an evil sense of humor. Gremlins can radiate a chaotic aura 
+with a20' radius. Inside the area of effect, "If anything can go wrong 
+in a given situation, it probably will." Characters must successfully 
+save vs. Spells each round to avoid the effect of the gremlins. 
+Gremlins have no attack other than their chaotic aura. However, 
+any creature which attacks a gremlin and misses must roll a second 
+attack against himself or herself. Any character casting a spell 
+within the chaotic aura must roll a save vs. Spells. If successful, the 
+spell affects the gremlins; if unsuccessful, the spell affects the 
+caster. 
+No. Appearing: 1-6 (1-6) 
+Gremlin magic usually affects mechanical devices before non- 
+mechanical devices. A crossbow might break in half, belt buckles 
+might pop-open, ax-heads might fall off their shaft, etc. The exact 
+effects of gremlin magic depend on the situation and the DMs 
+imagination. In general, the magic is not deadly but is playfully 
+malignant. 
+Killer Trees 
+Armor Class: 5 
+Hit Dice: 6 Save As: Fighter 3 
+Movement: 0 Morale: 12 
+Attacks: 4 limbs/ Treasure Type: Nil 
+Damage: 0 each/ 3-18 
+No. Appearing: 0 (2-12) 
+1 mouth Alignment: Neutral 
+Killer trees look.like large trees. They can resemble any tree 
+species. Killer trees are part animal, part vegetable. They need 
+both sunlight and meat to survive. Some of the limbs of the killer 
+trees are actually tentacles. These tentacles can reach out 20' and 
+grab victims. The victims are then dragged to the mouth of the 
+killer tree which is disguised as a large tree-bole. Each limb has 1 
+HD and a successful attack on a limb doing 5 or more points of 
+damage will sever it. One attack can sever only one limb. If the 
+victim does not cut his or her way free, the victim will be dragged to 
+the tree mouth on the round after the limb hit successfully, and 
+take an automatic 3-18 points of damage per round thereafter. 
+Lupin 
+Armor Class: 6 
+Hit Dice: 2 Save As: Fighter 2 
+Movement: 120' (40') Morale: 8 
+Attacks: 1 weapon Treasure Type: C 
+Damage: 1-8 Alignment: Lawful 
+No. Appearing: 2-12 (5-40) 
+25 
+
+===== PAGE 31 =====
+Lupins are dog-like humanoids. They have fur-covered human-like 
+bodies with canine heads.They hate werewolves and will attack 
+them on sight (knowing a werewolf even in its human form). Lupins 
+have a tribal society with hereditary rulers. Lupins are often allied 
+with humans. In battle, lupins sometimes ride trained dire wolves, 
+attacking with a mounted lance charge. 
+Magen 
+Hypnos 
+Armor Class: 7 
+Hit Dice: 2* 
+Move: 120 (40) 
+Attacks: 1 
+Damage: Charm 
+No. Appearing: l(0) 
+Save As: Magic- 
+User 2 
+Morale: 12 
+Treasure Type: U 
+Alignment: Neutral 
+Demos Caldron 
+7orarmor 5 
+type 
+3 +2 4* 
+120 (40) 120’ (40) 
+1 weapon 1 special 
+1-8 or by 1-10 
+weapon 
+Fighter 4 Fighter 4 
+2-12 (0) 1-4 (0) 
+12 12 
+C v 
+Neutral Neutral 
+Galvan 
+3 
+5* 
+120 (40) 
+1 or light- 
+ning bolt 
+by weapon 
+or 3-18 
+Fighter 5 
+1-3 (0) 
+12 
+C 
+Neutral 
+Magen (“Gens Magica” or “magical people”) are beings created 
+with complex conjurations and strict alchemical formulae by high 
+level magic-users. They will follow the commands of their creator 
+to the death. Though magen resemble perfectly formed humans, 
+they are not actually living beings. They exist purely through 
+magic, and do not need air, water, food or sleep. They do not age. 
+When killed, their physical bodies dissolve in a burst of flame and 
+smoke. There are four basic types of magen given here, though the 
+DM may wish to design more. There are no outwardly visible 
+differences in the four types until they reveal their special powers. 
+Hypnos. Hypnos magen are telepathic and have been given a 
+permanent charm person spell by their creator. They can 
+attempt to charm one victim per round. If the victim does not 
+save vs. Spells he or she will obey the hypnos magen’s telepa- 
+thic commands. The victim will not obey suicidal commands. 
+Once an individual has successfully saved he or she is immune 
+to the charm power of that particular magen. 
+Demos. Demos magen have no special powers and fight with 
+weapons. If they wear armor, they will have the armor class of 
+that armor; otherwise, their armor class is 7. 
+Caldron. Caldron magen have the ability to stretch their arms 
+and legs up to 20. They attempt to wrap their limbs around a 
+victim and, if successful, secrete an acid which does 1-10 points 
+of damage. The victim will continue to take damage each round 
+unless freed. 
+Galvan. Galvan magen have the ability to store static electri- 
+city which they discharge as lightning bolts doing 3-18 points of 
+damage. The lightning bolt forms a line 60 long by 5’ wide. A 
+successful save vs. Dragon Breath reduces damage by half. 
+Galvan magen can discharge up to three lightning bolts per day. 
+They will also use weapons. 
+The procedure for creating a magen varies according to the type 
+desired, as the special properties of some magen require extra 
+work on the part of the magic-user. In general, a large expenditure 
+of time and money (for the costly and/or magical ingredients) is 
+necessary to create even one or two magen. Also many high-level 
+spells, scrolls and wishes must be used during the preparations. 
+Even so, there is always a good chance that the incantations will 
+fail. - 
+Pagan 
+Armor Class: 6 
+Hit Dice: 1 Save As: Fighter 1 
+Movement: 120 (40) Morale: 8 
+Attacks: 1 weapon Treasure Type: A 
+Damage: 1-6 Alignment: Neutral 
+No. Appearing: 0 (3-30) 
+Pagans worship the gods and goddesses of nature. They follow the 
+teachings of certain druids, clerics of nature gods. Pagans practice 
+seasonal sacrifices which they believe help maintain the cycles of 
+the year. They sometimes practice human sacrifice. Characters 
+captured in battles with pagans probably will be used as human 
+sacrifices. Pagans generally form tribal societies. 
+Pagans will be encountered in Averoigne on the edge of the wilder- 
+ness. They hold their ceremonies in isolated forest glades and 
+grottos. Pagans will not be encountered in cities, towns, or villages. 
+Phantoms* 
+Armor Class: 9 
+Hit Dice: 6* Save As: Fighter 6 
+Move: 120 (40) Morale: 6 
+Fly 240 (80) Treasure Type: C 
+Attack: 1 Alignment: Chaotic 
+Damage: 1-4 + special 
+No. Appearing: 1-3 (1-4) 
+Phantoms are magical beings. They appear to be solid, but their 
+bodies are made of mist which they can form into any shape which 
+is human-size or smaller. They use this ability to lure creatures to 
+their doom by leading them into dangerous areas. They can appear 
+as a fellow adventurer, a limping dog, or whatever the DM can 
+imagine. Phantoms can fly and, because they are made of mist, 
+they can walk on water or quicksand as if it were solid ground and 
+call for aid. Any character trying to aid the warrior will discover the 
+seemingly solid ground is actually quicksand. 
+Magical attacks upon a phantom will do full damage, while other 
+attacks will do only half damage. Phantoms can turn invisible at 
+will, and once per day can cast the following spells: confusion, 
+hallucinatory terrain and phantasmal force. These creatures 
+are very cowardly and if their deception is discovered they will turn 
+invisible and attempt to flee. If forced to fight they will attack 
+causing 1-4 points of damage with each blow. 
+Rakasta 
+Armor Class: 6 
+Hit Dice: 2 + 1 sabre-tooths) 
+Move: 90 (30) Save As: Fighter 2 
+Attacks: 2 claws/lbite Morale: 9 
+Damage: 1-4 each Treasure Type: M (special) 
+No. Appearing: 0 (3-30 +1-8 
+Alignment: Neutral 
+The rakasta are a race of nomadic, cat-like humanoids. They walk 
+upright, much like humans, but are covered with soft, tawny fur 
+and have feline heads. The rakasta fight with special metal “war 
+claws” fitted over their natural claws (without these special claws, 
+the rakasta claw attacks do only 1-2 points each). The rakasta can 
+use normal weapons such as swords, but generally disdain them, pre- 
+ferring instead to use their “natural” weapons, the war claws. 
+For information on using rakasta in wilderness adventures see 
+Dungeon Module X 1: The Isle of Dread. 
+26 
+
+===== PAGE 32 =====
+Slime Worm 
+Armor Class: 5 No. Appearing: 1 
+Hit Dice: 10 Save As: Fighter 5 
+Movement: 60 (20) Morale: 9 
+Attacks: 1 bite Treasure Type: D 
+Damage: 2-12 Alignment: Neutral 
+Slime worms are giant-sized worms that secrete a sticky substance 
+that coats their backs. They roll in treasure hordes so that their 
+backs are covered with coins, jewels, weapons, armor, etc. The 
+slime does not affect attacks. There is a chance (a roll of 1-5 on ld6) 
+that a slime worm will be indistinguishable from a large pile of 
+treasure. Slime worms attack with surprise whenever possible. 
+They swallow their prey whole on an unmodified to hit roll of 18 or 
+more. Swallowed prey will take 2-12 points of damage per round 
+until dead or free (similar to a purple worm). 
+Sun Brother 
+Armor Class: 0 
+Hit Dice: lo*- 14* Save As: Fighter 10-14 
+Move: 120 (40) Morale: 9 (12) 
+Attacks: 1 weapon Treasure Type: Nil 
+Damage: 1-8 (+3) Alignment: Lawful 
+Sun brothers are members of the Brotherhood of the Sun, mortal 
+enemies of efreet. Sun brothers belong to a race of 7’ tall huma- 
+noids with crimson skin and bright yellow hair called Sollux, related 
+No. Appearing: 1 (1) 
+Pronunciation Guide 
+A French pronunciation guide is given here for DMs who would 
+like to use the foreign pronunciations to add an air of mystery to 
+the module. Each word is broken down into syllables of sound- 
+alike letter combinations. Vowels with a “-” over them are long 
+vowels, while those with no markings are pronounced short. 
+Thus the word “pronunciation” would be pronounced 
+“pro.nun.sG.a.shun”. 
+In some cases English translations for the French word are 
+given. Those translations given in quotations are English equi- 
+valents, but should not be translated because they are proper 
+names. 
+And&-David - (An.dr^a-Da.vGd), Andrew David 
+Averoigne - (Av.ur.wan.ye) 
+Le Batteleur - (Ba.tel.yeur), The Juggler 
+Bonne Jouissance - (Bun Jeu.&sawns) 
+Catherine - (Kot.rEn), Catherine 
+Charles - (Shad), Charles 
+Le Chdteau - (Sbaw.t6), castle or manor 
+Le Chevalier des Epees - shau.val.ya Da.zii.pa), The Knight 
+Claude - (Klod), Claude 
+Couer de Lion - (Kur de le.yon), Lion-Hearted 
+D’Amberville - (Dam.bur.vel), Amber 
+$.I, de la, d’,-or des - (deu, de la, d or da), of 
+Etienne - (A.tG.yen), Stephen 
+Fausseflammes - (Fos.flam) 
+La Force - (La Fors), Strength 
+La Frenaie - (Fru.na), “Grove of Ash” 
+Gaspard du Nord - (Gas.par deu Nor), “Gaspard of the North” 
+Gaston - (Gas.tun), Gaston 
+Gerard de I’Automne - (Ja.rar de Lo.tum), “Gerard of Autumn” 
+Guillaume - (Ge.yom), William 
+of Swords 
+to efreet but lawful in nature. The Brotherhood of the Sun is 
+distinguished by wearing red-gold armor and carrying blazing sun 
+shields (treat as a light spell). All Sollux are immune to dispel 
+illusions and to detect invisible. They are unaffected by normal 
+fire and magical fire attacks suffer -1 to hit and damage. 
+The sun brothers vary in hit dice from 10 to 14. They have a morale 
+of 9 normally and a morale of 12 when fighting efreeti. 
+Vampire Roses 
+Armor Class: 7 No. Appearing: 1-8 
+Hit Dice: 4 Save As: Fighter 2 
+Movement: 30’ (10) Mor a 1 e : 12 
+Attacks: 1 thorn + Treasure Type: Nil 
+Damage: 1-8 
+blood drain Alignment: Chaotic 
+Vampire roses look like normal white rose bushes. They can, 
+however, uproot themselves to move about slowly. Each 4 HD 
+worth of vampire roses represents a single rose bush. The thorny 
+stalks of vampire roses can whip around a victim, inflicting 1-8 
+points of damage. The thorns are hollow. Once a thorn stalk has 
+stuck and wrapped around a victim, the vampire rose will drain 1-8 
+points of blood per round automatically. The vampire rose also 
+injects a hypnotic anesthetic into the victim’s bloodstream; the 
+victim must save vs. Spells or lose all willpower, allowing the 
+vampire rose to continue sucking blood until the victim dies. After 
+a vampire rose has completely drained a victim, the roses will be 
+colored blood red instead of white. 
+Henri - (Awn.rg), Henry 
+Les Hiboux, (E.bou), “Owls” 
+Isabelle - (E.za.bel), Isabel 
+Isidore --(E.ze.dor), Isidora 
+Isoile - (E.zwal) 
+Janette - (Jaw.net), Janet 
+Jean-Louis - (Jawn LkG), John Louis 
+le, la, 1’ or les - (le, la, 1’ or la), the 
+Luc le Chaudronnier - (LGk le Sho.drawn,yZ), “Luke the 
+Magdalene - (Mog.da.len), Madeline 
+Malachie du Marais - (Mal.a.kTdeu Maw.6) “Malachi of the 
+Malinbois - (Mal.in.bwa), “Evil Woods” 
+Marie-H8Gne - (Ma.rE hen), Mary Helen 
+Le MZt - (Ma), The Fool 
+La Mort - (Mor), Death 
+Mhe Camille - (Mer Ka.mZ.ye), Madam Camilla 
+Nathaire - (Na.tair) 
+perigon - (Pair2.gon) 
+Petit-Singe - (Pe.tB Sanj), Little Ape 
+Prince - (Prans), Prince 
+La Reine des Coupes - (Ren d& Keu.pZ), Queen of Cups 
+Richard - (RG.shar), Richard 
+Le Roi des Batons - (Rwa dZ Ba.ton), King of Wands 
+La Roue de la Fortune - (Reu de la For.teun), The Wheel of 
+Sainte Z6nobie - (Sant ZSn.ii.bZ), Saint Zenobia 
+Simon - (Skmon), Simon 
+Sylaire - (Sdair) 
+Theophile - (TZ.CfGl), Theophilus 
+La Tombe - (Tbmb), Tomb 
+Touraine - (Tou.ren) 
+Le Valet des Deniers - (Va.15 d^a Den.yS), The Page of Coins 
+Vyones - (VCy6n) 
+Ximes - (Z&n) 
+Ylourgne - (E.lurn.ye) 
+Cauldron” 
+Swamp” 
+Fortune 
+27 
+
+===== PAGE 33 =====
+BIBLIOGRAPHY CREDITS 
+A bibliography of the Averoigne stories is included here for anyone 
+who wants to read the original material or for DMs seeking ideas 
+for further adventures in Averoigne. All the stories and books are 
+by Clark Ashton Smith. The books are published in hardback in 
+the United States by Arkham House Publishers, Inc., and in pa- 
+perback in the United Kingdom by Panther Books, Ltd. 
+“The Enchantress of Sylaire” in The Abominations of 
+“The Colossus of Ylourgne,” “The Disinterment of Venus” 
+Yondo. 
+and “The Satyr” in Genius Loci. 
+Lost Worlds. 
+“The Beast of Averoigne” and “The Holiness of Azedarc” in 
+“The Mandrakes” in Other Dimensions. 
+“The End of the Story” and “A Rendezvous in Averoigne” 
+“The Maker of Gargoyles” and “Mother of Toads” in Tales 
+in Out of Space & Time. 
+of Science and Sorcery. 
+Designer: Tom Moldvay 
+Development: Dave Cook, Allen Hammack, Kevin Hendryx, 
+Harold Johnson, Tom Moldvay, Jon Pickens 
+Editors: Harold Johnson, Edward Sollers, Steve Winter 
+Art: Jim Holloway, Harry Quinn, Jim Roslof, Stephen D. Sullivan, 
+Playtesters: Tom Hanlon, Steve Kaszar, Rick Mansfield, 
+Erol Otus 
+Gordon Schick, Lawrence Schick, Jonathan Smuck, 
+Ralph Wagner, Bill Wilkerson 
+Special Thanks to: Clark Ashton Smith and CASiana Literary 
+Enterprises, Inc., for use of the Averoigne stories as 
+inspirational material. 
+To Those Who Would Be Free: 
+The secret that will break the curse surrounding Castle Amber and lift the gray 
+mist is engraved on the inside lid of Stephen Amber’s casket. To snmmon Prince 
+Stephen’s tomb from beyond space and time, four magical items are needed. The 
+four items, The Enchanted Sword of Sylaire, The Viper Circled Mirror, The Rmg 
+of Eibon, and a potion of time and travel, can all be found in Averoigne, our old 
+homeland. Touch ring to viper’s tail. Anoint the sword with the potion. Shatter 
+the mirror with the sword, and Prince Stephen’s tomb will appear. 
+Search first for the Gate of the Silver Keys. 
+Ay Cai.re- 7Le €ncLanted Awo.rd-+Lo.ra? JQaL‘acLie? 
+Wyone5- 715, Wipm Ci.rcLd JQi.r.ro.r-ga+a.rd du dVo.rd 
+G%.ricjon- 7Le &ins of €iGon-Luc L‘e CLaud7onnie.r 
+dfiGoux? >ime5?-potion o time t.raveC-&zeda.rac? 
+$Lm? 
+JQo.riarnii? 
+f 
+28 
+
+===== PAGE 34 =====
+
+
+===== PAGE 35 =====
+I Choir Loft 
+,' 
+I 
+@ door 
+doubledoor 
+secret door 
+boxing ring 
+fireplace 
+stairs 
+7 TJ., light woods 
+thorn barrier U 
+1 square = 10 feet 
+East Wing 
+
+===== PAGE 36 =====

@@ -1,0 +1,1043 @@
+
+===== S3 PAGE 2 =====
+LEVEL 1
+11
+12E
+12
+DOOR
+DOUBLE DOOR
+OPEN DOORWAY
+BROWN CARD DOOR
+GREY CARD DOOR
+RED CARD DOOR
+- 5
+10
+R
+R CH
+METERT
+12]
+12
+12
+- 12
+R
+VIOLET CARD DOOR
+ORANGE CARD DOOR
+YELLOW CARD DOOR
+JET BLACK CARD DOOR
+DROP TUBE
+ON/OFF LIT AREA
+BRIGHTLY LIT AREA
+DIMLY LIT AREA
+UNLIT AREA
+
+===== S3 PAGE 3 =====
+LEVEL II
+001a3 t
+DOOR
+• PILARS
+SCALE: 1 SQUARE EQUALS 10 FEET
+BROWN CARD DOOR
+SPHINCTER
+MACHINERY
+HOLE IN DECK
+
+===== S3 PAGE 4 =====
+LEVEL
+CAE GO
+HOLD
+CARSO
+HOLE
+CARGO
+HDLD
+CARGO
+HOLD
+CARGO
+IN DIL S
+80T
+FLOOR
+CAR GIO
+HOLD
+NICH
+CLUB
+DANCINE
+CARGO
+HELD V
+DOOR
+DOUBLE DOOR
+OPEN DOORWAY
+BROWN CARD DOOR
+DROP TUBE
+LIFT
+FOLIAGE
+VIOLET CARD DOOR
+VINES
+HOLD
+CAR GO
+HOLD
+LOUNGE
+13
+CAEGI
+1L0
+CARGE
+HOLDI
+13
+LOUNCE
+4
+4A
+KITCHEN
+CARGO
+HOLD
+HOLE IN CEILING
+ON/OFF LIT AREA
+BRIGHTLY LIT AREA
+DIMLY LIT AREA
+UNLIT AREA
+
+===== S3 PAGE 5 =====
+LEVEL IV
+LIFT
+0 10 55
+FENCE
+FOLIAGE
+FOLIAGE
+WATER
+FEED
+STORAGE
+SWAMP
+STREAM
+PATH
+ASTRA
+TIEW
+LOUNGE
+190 30
+19
+00M
+27
+BURROW
+ON/OFF LIT AREA
+BRIGHTLY LIT AREA
+UNLIT AREA
+
+===== S3 PAGE 6 =====
+LEVEL V
+TRAPDOOR
+BULKHEAD WALL/
+BROWN CARO DOOR
+MOLO
+LIFT
+PILLARS
+WATER
+SPHINCTER
+
+===== S3 PAGE 7 =====
+LEVEL VI
+CARGO
+HOLD
+-IP-
+WOR NDUT
+7
+CARGO
+HOLO
+CIR CO
+=0 L0
+890-°
+DOOR
+DOUBLE DOOR
+OPEN DOORWAY
+BROWN CARO DOOR
+V
+G
+CLEGO
+EEMNASILM
+-SE AT 5
+-SEATS
+UP-
+DRESSIN
+CARGO
+-PRESSIN
+E CATE
+B
+1
+RO BE
+ELACLY
+•-IP-
+ISENIS
+TRAIN TN 3
+GAE GO
+HOLO
+THEATER
+CARGO
+HO LD
+10
+FUIFT:
+VIOLET CARD DOOR
+GREY CARD DOOR
+STAIRS
+CURTAIN
+LIFT
+WATER
+LOCKER
+ST
+STORAGE
+4
+LIFT
+CAESO
+HELD
+
+===== S3 PAGE 8 =====
+RoStAF B0
+This item is only one of the many popular playing aids for
+ADVANCED DUNGEONS & DRAGONS® Fantasy Adventure
+Game produced by TSR Hobbies, Inc. Other playing aids
+for the AD&D™ game system currently available include:
+Players Handbook (everything the AD&D player needs
+to know]
+Dungeon Masters Guide (the essential reference work
+for DMs]
+Monster Manual (over 350 monsters, with full explana-
+tions and many illustrations)
+DEITIES & DEMIGODS™ Cyclopedia (over a dozen pan-
+theons given in AD&D terms to aid the DM in ex-
+panding a campaign
+AD&D Dungeon Masters Screen (combat fables, sav-
+ing throws, psionics, and many other valuable refer-
+ence tables for Dis and players]
+AD&D Dungeon Masters Adventure Log (contains
+many tables not on the DM Screen, as well as illus-
+trations of armor and weapons and pages on which
+to record all information needed about parties of
+adventurers]
+AD&D Non-Player Character Record Sheets
+AD&D Player Character Record Sheets
+AD&D Permanent Character Folder and Adventure
+Record Sheets
+Rogues Gallery (hundreds of pre-rolled characters,
+usable as player characters or NPCs)
+THE WORLD OF GREYHAWK™ Fantasy World Setting
+(two full-color continental maps, with complete de-
+scriptions of history, geography, and legends. Ap
+proved for use with the AD&D game system)
+Dungeon Module A1 (Slave Pits of the Undercity)
+Dungeon Module A2 (Secret of the Slaver's
+Stockade)
+Dungeon Module A3 (Assault on the Aerie of the
+Slavelords)
+Dungeon Module A4 (In the Dungeons of the
+Slavelords)
+Dungeon Module C1 (Hidden Shrine of Tamoachan)
+Dungeon Module C2 (Ghost Tower of Inverness)
+Dungeon Module D1-2 (Descent into the Depths of
+the Earth)
+Dungeon Module D3 (Vault of the Drow)
+Dungeon Module G1-2-3 (Against the Giants)
+Dungeon Module I1 (Dwellers of the Forbidden
+City)
+Dungeon Module Q1 (Queen of the Demonweb Pits)
+Dungeon Module 51 (Tomb of horrors
+Dungeon Module S2 (White Plume Mountain)
+Dungeon Module T1 (Village of Hommiet)
+Other releases of additional items related to the AD&D™ game system are planned for the future, TSR Hobbies, Inc.
+publishes a complete line of games, playing aids, and gaming accessories available from better hobby, game, and
+department stores nationwide. If you desire a complete cafalogue, write to: TR Hobbles, Inc., POB 756, Lake Geneva,
+WI 53147.
+The designation "T'" is used to refer to trademarks owned by TSR Hobbies, Inc.
+ISBN 0-935696-14-8
+394-51543-9TSR0800
+
+===== S3 PAGE 9 =====
+Dungeon Module S3
+Expedition to the Barrier Peaks
+by Gary Gygax
+AN ADVENTURE FOR CHARACTER LEVELS 8-12
+TROOTUS 80
+This
+module
+was
+the
+official ADVANCED
+DUNGEONS & DRAGONS@ Tournament scenario
+at Origins
+The author
+wishes
+to
+express his thanks to Mr. Robert Kuntz who contributed substantial
+been carefully revised and updated to conform to ADVANCED DUNGEONS & DRAGONS game systems. Included herein
+are background information for players, statistics for a party substantially the same as that used for the tournament, DM
+notes, six level maps with encounter matrices, and numerous full color illustrations of scenes from the adventure in orde
+to enhance the enjoyment of participants. There are also many new and special monsters designed for this scenario, and
+they appear nowhere else. This module is located upon the Map of the World of Greyhawk (WORLD Of GREYHAWK
+fantasy world setting from TSR).
+If you enjoy this module, be sure and try any of the many other unique offerings in this line from TSR!
+Distributed to the book trade in the United States by Random House, Inc. and in Canada by Random House of Canada, Ltd
+Distributed to the toy and hobby trade by regional distributors.
+© 1980, 1981, TSR Hobbies, Inc. All Rights Reserved.
+TSK
+The Game Wizards
+All Rights Reserved
+TSR Hobbies, Inc.
+POB 756
+LAKE GENEVA, WI 53147
+ISBN 0-935696- 14-8
+© 1980 TSR Hobbies Inc.
+PRINTED IN US
+s module booklet is protectedunder the copyright lows of the United States of America Any reproduction or other unauthorized use of the material or artwork contained hereir
+hibited without written consent of TSR Hobbies, li
+Advanced Dungeons & Dragons Advanced D&D and AD&D are trademarks owned by TSR Hobbies, Inc.&
+
+===== S3 PAGE 10 =====
+Advanced Dungeons & Dragons
+Special Dungeon Module #S3
+EXPEDITION TO THE BARRIER PEAKS
+This module was begun early in 1976 when TSR was contem-
+plating publication of a science fantasy role playing game.
+Ward had already shown us some rough notes on META-
+MORPHOSIS ALPHA; I thought it would be a splendid idea to
+introduce Jim's game at Origins Il, and introduce the concept to
+D&D players by means of the tournament scenario. | laid out
+the tournament from old "Greyhawk Castle" campaign materi-
+al involving a spaceship, and Rob Kuntz helped me to populate
+the ruined vessel. Both this scenario and METAMORPHOSIS ALPHA
+proved successful,
+but while the latter has been continually
+available since mid-1976 only a few copies of the tournament
+dungeon used for Origins II have been around. METAMORPHO-
+SIS ALPHA is currently beging rewritten and expanded for a
+major new edition, and GAMMA WORLD game is highly popu-
+lar too. As this module offers a unique and challenging blend of
+fantasy and science fantasy role playing, it seemed logical to
+reintroduce it to the public. What could be more logical than to
+make available a scenario which blends the two role playing
+approaches into a single form? Now, designed to be playable
+with ADVANCED DUNGEONS & DRAGONS rules, The
+Expedition to the Barrier Peaks will serve as both an
+exciting insertion into your campaign and as a primer on how
+to combine "science" into your fantasy role playing. I hope that
+you will enjoy reading and playing it as much as | enjoyed
+WORLD OF GREYHAWK MAP LOCATION: The mountains
+northwest of the city of Hornwood in the Grand Duchy of Geoff.
+BACKGROUND INFORMATION: The Grand Duchy of Geoff has
+recently been plagued by a rash of unusually weird and terrible
+monsters of unknown sort. This western area, particularly the
+mountain fastness which separates the Grand Duchyfrom the Dry
+Steppes, has long been renowned for the generation of the most
+fearsome beasts, and it has been shunned accordingly - save
+for a handful
+of hardy souls with exceptional abilities and
+sufficient wealth to build stout strongholds to ward off the attacks
+of the predatory creatures intesting the rugged lands thereabout.
+Within the last few months, however, a walled town not far distant
+from the area, and four small fortresses as well, were destroyed by
+mysterious attacks! The remaining barons and lords have
+preserved in brine several partially decomposed corpses found
+on or near the sites of the ravaging. While these strange bodies
+are assumed to have belonged to the forces which were
+responsible for the destruction, the remains were too far gone to
+learn anything other than they were
+of creatures heretofore
+unknown to even the wisest sages of Geoff. The urgent plea for aid
+accompanied these
+gruesome corpses
+ignored, and the Grand Duke acted immediately. Choosing
+several of his doughtiest henchmen to lead the
+expedition, he
+called upon the other powers of the state to likewise furnish their
+minions for the expedition as well. Thus, the Society of the
+Magivestre, the Fellowship of the Blinding Light, the Magsmen's
+Brotherhood, and the High Lord of Etvendom (at Hochotve) also
+selected the bravest of adventurers and equipped them
+to accompany the expedition as their representa-
+tives A total of 15 have assembled beneath the pennoned turrets
+of the Grand Duke's mighty castle near Gorna.
+There it was learned that
+several unconfirmed reports have
+related that monsters have been disgorged from a gated cave at
+random intervals. The entrance to this place is high upon a rocky
+face, and sheathed in armor. This protection has purportedly
+frustrated all attempts to
+explore the space beyond the metal
+valve - although several search parties have entirely dis-
+appeared, so it is possible they entered but never returned. Your
+expedition must find out exactly what this cave is, what is causing
+the monsters to come forth, who is responsible, and how to
+prevent future incursions. In addition, any other
+information
+regarding this mysterious locale, its strange denizens, magical
+devices, or unusual weaponry is highly desirable. His High
+Radiance, Owen III, has assured all of the concerned parties that
+whatever information is gained will be given to all, and wealth
+found will be shared according to the contribution each
+individual or representative group makes to the overall success of
+the expedition. If necessary, the Grand Duke has vowed to send
+forth an army to lay waste to the offending place and extinguish
+every living thing therein. Should your expedition not meet with
+total success, this step will be considered, but His High Radiance
+personally doubts such extreme measures will be required
+considering the strength of the expedition and the ability of its
+members. The Grand Duke feels assured that you will certainly
+locate the person or thing responsible for the troubles plaguing
+Geoff and eliminate him, her, or it from the face of the land.
+Your party set forth from Gorna a sennight ago, and for the past
+two days have been climbing higher into the crags of the Barrier
+Last night was spent in the keep of the only Baron
+remaining in the area - and he was fulsome glad for your
+company. This morning, as the eastern horizon turned from pearl
+gray to rosy pink, a score of the Baron's retainers guided the
+expedition towards the unknown area. It is now afternoon, and
+you have set up camp in a hidden dell but a few bowshots
+the strange entrance. The men-at-arms have been detailed to
+guard the supplies and mounts at the camp while you go
+onward immediately. They will await your return for four full days
+before returning to the keep. Gathering your personal gear, you
+are now climbing the steep slope of the dell's north side, passing
+the rim, and forcingyourwaythrough a dense growth oftrees and
+undergrowth. There, across a field and beyond a rocky rise, awaits
+NOTES FOR THE DUNGEON MASTER ONLY
+After your players have had a chance to digest the background
+information, have them order the party in the manner they desire
+- typical open field order, 20' corridor order, and 10°
+corridor
+order. If they are to take the personae of the characters originalty
+used, pass out sheets so they may record the data. Each
+participant can play the role of one, two, or even three of the
+characters.
+Do not be surprised if one or more of the better
+players are suspicious of what they are about to get into, for the
+discerning will have noted the hints given in the introduction.
+Be certain that you are quite familiar with the entire module, and
+read each encounter section carefully. Be sure to display
+illustrations at the appropriate time, and allow players to view
+them as long as they like - just keep track of the minutes and
+rack off rounds accordingly.
+generally remains
+completely
+functional.
+corridors are not lit or are dimly lit and these are darkly
+screened. Certain
+areas are lightly screened; these are sections
+where the lighting is very bright. White areas have
+full lighting,
+but rooms are lit only when a panel beside the door is touched
+darkly screened areas = no light or dim light, 60' vision
+lightly screened areas = bright light
+unscreened areas = on/off lights
+EXCEPTION: all 'tween decks areas are unlit and level IV has
+and dark periods.
+2
+
+===== S3 PAGE 11 =====
+Scale is 10' per square and shown on the level maps. Ceiling
+height variations are likewise shown thereon. Doors and
+hatchways need special attention, for they require color cards to
+function, so standard door symbols can not be employed, and
+care must be taken to correctly
+recall which letter code
+represents which order of card. The letter symbols for doors (or
+color of card to activate a deck hatchway) are:
+Go gray card
+R a red card
+Y = yellow card
+0 = orange card
+V = violet card
+B = brown card
+J = jet black card
+Whenever the party approaches a standard door, display
+ILLUSTRATION #1 There are some doors which will open merely
+by pressing upon the panel beside them, and such portals are
+indicated by the standard door symbol. Open doors are shown
+as: → F. Drop chutes are described in the matrix to level I. The
+UP side is always towards the ship's hull, the DOWN is always
+towards the interior; this is coded
+"U" and "D" respectively. Drop
+chutes with full anti-gravity are coded with the letter "A" in the
+center, and these tubes are brightly lit. Those in which the anti-
+gravity is NOT functioning, but in which the grasp handles still
+move are coded with the letter "G" in the center (to indicate that
+gravity is in effect); these tubes are only dimly lit. Non-functioning
+drop chutes are coded with the letter "N°;
+gravity nor do their handles move. and they are completely
+dark. Drop chutes are illustrated on the map thus:
+U
+(N)
+U
+(A)
+UÂD
+D
+OÊU
+ILLUSTRATION #2 illustrates a typical tube. Note that the
+illustration shows a sealed sphincter above, indicating that the
+level above is sealed off. (In this case, of course, the level above is
+gone, when this module of the ship was blasted free in the
+cataclysm which destroyed the vessel.) Similar closing devices
+will be noted by users of a drop tube, but the mechanisms will be
+open. Important note: Small, broad doors will be noticeable in
+the drop tube between levels Land III and and VI These are
+access doors to the 'tween decks
+areas. They are keyed to
+All radiation areas are matrixed with the numerals 13 regardless
+of level, except on level IV where no hazard exists. Each matrix
+includes a key describing the effects of exposure to this radiation.
+Cross hatched areas 'tween decks are areas of possible danger
+from generators and other equipment. These dangers are
+described in the appropriate places.
+The jagged area of level || ('tween decks area) is a hole blasted in
+the deck, and thereisorresponding area marked on the map
+for level | which indicates where this opening occurs in the
+overhead. See the appropriate matrix for details.
+Be certain to employ the illustrations as indicated - or whenever
+players are in an area with a graphic depiction and request to be
+shown the illustration again.
+Emphasize the strange flora and fauna on level IV and then show
+them the appropriate illustrations! It is also important to note that
+the lighting on this level is an exception to the standard. The entire
+level will light up for 14 hours and then go dark for 7, ie. the lights
+go out suddenly and return 42 turns later. Keep track of entry time
+and turns within the ship!
+COLORED CARDS
+Each of these cards are rectangular bits of nearly indestructible
+plastic about three inches long by two inches wide. Since
+characters should not be aware of the actual nature of the
+different technological items found on the ship, descriptions have
+been provided for most of the unusual items that they might find.
+Colored cards will appear as heavily leaded panes of colored
+glass. No clues to their function should be given, as the
+characters must figure out their proper use. While some colors are
+specific, most will serve to open doors to areas which are keyed to
+lesser rank color. The colors are given below, with descending
+order of rank and general description of the rank/occupation-
+profession of holder each was designed for. Note that robots and
+androids will note color by means of theirvisual sensors, provided
+the card is held forth in a manner which enables the scanning of
+its surface.
+GRAY
+ship commander and top officials
+RED
+police/security officials
+YELLOW*
+medical officers
+ORANGE
+VIOLET
+security personnel
+technicians
+BROWN
+crew and maintenance workers
+JET BLACK
+passengers/colonists
+*Yellow cards will not trigger orange entry locks.
+To trigger an entry, the card is slipped into the proper slot and
+when the door/access opens, the card is dropped into the return
+An improper card triggers an alarm, a low buzzing sound, and the
+card is held by the lock.
+THE SPACESHIP
+Sometime
+else, a large exploration-colonization expedition of
+human origln was overtaken in the course of its journey by a
+deadly plague. In a vain effort to halt the spread of the virus, the
+modular sections of the vessel were sealed and then separated.
+each left to its own fate. The section concerned here was drawn
+through a black hole and spewed into the universe
+the
+World of Greyhawk fantasy setting exists. Chance brought it
+to that very planet, and its computersand robotics brought it to an
+intact landing.
+This process, however, caused an earth tremor, and a landslide
+buried the ship section for several decades. Then a computer
+malfunction sent worker robots to a cargo hatch to discharge
+material,
+and when these robots found the hatch blocked by
+fallen earth and stone, they promptly cleared it and unloaded the
+requisite cargo - unfortunately
+for the inhabitants of the area, for
+the holds contained various alien fauna and flora, and the
+offloading freed these creatures from stasis. Some died
+immediately, some lived for a time, and a few species prospered
+and propagated.
+Recently, another earthquake uncovered an upper air lock, and
+the
+tremor caused the
+same computer malfunction, so
+worker robots again cleared the lower cargo lock and period
+ically discharged more of the unwanted "goods".
+START: The expedition has just topped the rise and gained
+their
+first view of the metal doored "cave". At this point SHOW PLAYERS
+ILLUSTRATION #3 which depicts the hillside where erosion has
+exposed two doors - a small upper door (through which the
+party must enter), and a large lower cargo hatch (which will open
+only when the party is inside and certain conditions prevail).
+WHENEVER THE PARTY APPROACHES FOR THE FIRST TIME THE SMALL
+DOOR WILL BE OPEN. It will remain open for six full turns (1 hour); it
+will then close for 20 hours and reopen for another six turns. As the
+men-at-arms will wait exactly four days, the party had better be
+on its toes and not too timid
+Entry is from the south side ofthevessel. When the party enters they
+will see a metal room, about 1 8' deep and 20' wide, with a curving
+south (rear) wall. At that moment, the outer door will silently shut
+and the 20' wide inner door will part to reveal the 60' by 60' entry
+area with drop tube (non-functioning) to the lower levels. The "V"
+doors inside and flanking the air lock (and the one to the far north
+as well) are access to the space suit storage racks - as well as
+emergency means of entry/egress to the air lock. Naturally, the
+party will not be able to utilize these portals without a violet or
+higher level color card
+3
+
+===== S3 PAGE 12 =====
+KEY TO LEVEL I: OFFICIALS, OFFICERS,
+AND TECHNICIANS QUARTERS
+WANDERING MONSTERS:
+Encounter occurs 1 in 12, check each turn.
+SOUTHERN HEMISPHERE:
+1. 9-16 "vegepygmies" with 2-5 dog-creatures (ILLUSTRATION #4)
+2. police
+robot
+(ILLUSTRATION #5)
+3. 2-3 displacer beasts
+4.
+worker
+robot (ILLUSTRATION #6)
+5. lurker above
+6 9-16 "vegepygmies" with 2-5 dog-creatures (ILLUSTRATION #4)
+Vegepygmies, Police and worker robots are detailed below.
+NORTHERN HEMISPHERE:
+1.
+worker robot
+2.
+14-24
+3.
+"vegepygmies" (ILLUSTRATION #7)
+2-5 shadows
+4.
+5.
+police
+robot (ILLUSTRATION #5)
+14-24
+"vegepygmies"
+(ILLUSTRATION #7)
+6.
+1-2 will-o'-wisps
+NOTE: Whenever the party is before a door use ILLUSTRATION #1
+The metal around the upper slot will be color keyed, if applicable.
+DROP TUBES: As previously noted, these four devices are in
+different states of functioning. Each tube is a cylinder with an
+opening on both sides. Inside are two tracks opposite each
+other, running down thevertical length ofthe shaft. Each track has
+a series of handles spaced eight feet apart. One of these tracks
+will be moving up and the other will be moving down in all tubes
+that are operational. Use ILLUSTRATION #2 to aid in describing
+the drop tubes. In those which anti-grav still functions, the
+individual need only step in, float weightlessly, and grasp a
+passing handle to be borne in whichever direction is desired. At
+the top and bottom of the tube the handles fold into the wall to
+complete a circuit. In the non-operational tube, of course, the
+handles do not move at all, but they will support up to400 pounds
+of weight. The tube which still functions mechanically, but which
+has no anti-gravity, can be used if the characters firmly grasp a
+handle prior to stepping into the chute; if any character attempts
+to step into the tube and then grasp a handle, allow a base 10%
+chance of success, +5% for each point of dexterity above 6.
+Failure equals a fall which will almost certainly prove fatal from the
+upper level, allowing 1d6 for each 10' of vertical distance fallen.
+UNNUMBERED ROOMS: These rooms are typically apartments,
+activity rooms (those with doors which require no color card),
+and utility/maintenance/storerooms. Unless noted by a number
+code each such area is
+furniture or rotting goods therein, and from 0-3 (d4,
+inanimate skeletons of generally
+is worthless or in bad condition, the furnishings plastic or metal,
+and only bits of rag or odd pieces of junk can be found
+DINING ROOMS: The two large ones to the west have mess tables
+and were cafeteria-like places. The three smaller ones to the east
+were for the higher-ups, and they contained tables and chairs. All
+five of these areas are now in ruins. The furnishings are jumbled.
+and there are quite a number of skeletons and bones strewn
+about. They have nothing of value within them.
+KITCHENS: Even/thing which was possibly useful and not bolted
+down has been removed from these areas. However, there are still
+computer operated food dispensers as indicated in each
+kitchen. Each kitchen will have some bare counter space and a
+number of unused trays about. Along one wall is a bench with a
+number of metal boxes resting on it. Each box has a darkcolored
+glass door in the front of it and arranged beside these are a
+number of square metal plates (selector buttons). On top of each
+box is a short, black cylinder (temperature control knob). Inside
+each box are a number of shelves spaced close together. Along
+other walls are a fine metal mesh (microphone/speaker grille)
+with a rivet (call button) below it. Next to these is a long, narrow
+door that opens to a small shelf-like compartment. Near the
+entrance is a dark glass plate with four rivets below it. (This was the
+daily menu screen. The riiets were control buttons for it. The menu
+screen no longer works.) If food is dispensed, it will be sewed in a
+compartmented tray of a horn-like material (plastic). There is a
+20% chance that each machine that is tried will serve. There are
+eight per kitchen, and not less than two will function, but one of
+the functioning
+machines has a 50% chance of dispensing
+poisonous food. If pygmies are encountered in a kitchen area
+they will gain +2 on "to hit" and on damage due to their ferocious
+reaction at seeing their food supply threatened. At least one will
+immediately return to their home area and gather the whole tribe
+GAME ROOMS: These rooms originally housed various amuse-
+ment devices of mechanical and electronic nature. The
+mechanical ones have been broken and looted, but the
+electronic ones are still functional. If the party members have any
+of the coinage used on the ship they can get rid of it here
+"shooting" at spaceships, monsters, etc. You may optionally
+include any sort of gambling devices You wish here - slot
+machines, black jack, etc. How you run such games is strictly up
+to you. Describe machines as brightly colored boxes with various
+slots, buttons, wheels, weapons, etc. as component parts. There
+are also several standard shooting gallery games
+include guns with handles bolted to tables, others with cables
+coming out of them, and other various things like this. Players
+should be told that they are mysterious metal shaped objects
+unless they have found such weapons or have encountered
+creatures using them. In this case, they should be told they see
+objects similar to those they have already seen. If any
+character spends a turn or more practicing with these shooting
+galleries, trying to learn how to handle
+specifically stated), they may be allowed a -1 on their die rolls on
+the charts when attempting to learn how to use a similarweapon.
+LOUNGES: These areas were once very posh and comfortable,
+but they are now messy. There are torn easy chairs, small tables
+broken and
+overturned, broken drink and
+snack dispensers,
+rubble and ashes from fires, bones and skulls, and some few
+personal items in the deep folds of lounge furniture lost during the
+last few hectic days before the plague took everyone. Roll a d6 for
+searched. Check once only. The treasure
+1 - notes on escaped intellect devourer (level Il)*
+2 - 1-3 ampules of serum which will cure any disease
+injected**
+* 3 pee i rey worth 90 0 30 9. each
+5
+- jet black card
+6
+- violet or orange card (50%/50%)
+*must use comprehend languages to understand; it will detail
+where the creature has been confined; after the first 1 is rolled a
+brown card will be found thereafter
+**70% potent, 20% neutral, 10% poison
+MEETING ROOMS: These areas contain various long, fixed tables,
+chairs, broken communications panels (bent metal and broken
+wiring), and many skeletons. There is nothing of value, and
+anything loose has been taken away.
+RECREATION AREA: This room was for various group participation
+games and similar activities. The equipment and furniture is now
+destroyed or taken. There are many piles of litter and skeletons in
+the place. The party can spend many turns searching here and
+find absolutely nothing usetul.
+MEDICAL AREAS: The main records office and examination clinic
+is in the central complex square. A robotic recording instructs
+anyone entering to come back tomorrow, as all personnel are
+absent; emergency cases can report to MED 1 or MED 2 for
+4
+
+===== S3 PAGE 20 =====
+KEY TO LEVEL IV: BOTANICAL GARDENS,
+ROOKERY, AND MENAGERIE
+WANDERING MONSTERS:
+Encounter occurs 1 in 4, check each turn:
+1. four-winged bird
+7.
+four-winged bird
+2. three legged monkeyoid
+8. squirreloid
+3. rabbitoid
+9. tree lizardoid
+4. white, multi-legged grub 10. rabbitoid
+5. ratoid
+11. 1' grasshopperoid
+6. six-eyed toad
+12. rabbitoid (ILLUSTRATION #42)
+Note: All encounters are with HARMLESS creatures unless keyed in
+the matrix below.
+Immediately upon setting foot on this deck it will be apparent to
+the party that it is teeming with life. A number of calls, whistles,
+screams, and similar sounds can be heard. This noise does not
+reach the upper walkway due to a sonic screen. Those areas not
+covered with foliage will be spread with dead leaves and
+vegetable matter, bones,
+rubbish, husks, andsoforth, and earth is
+slowly spilling onto heretofore bare metal decks. Small creatures
+- animals, birds, insects, reptiles - can be seen darting here and
+there.
+WHEN THE PARTY ENTERS THE LEVEL DISPLAY EITHER ILLUSTRATION
+#31 or #32 AS APPLICABLE.
+TIERS: The whole botanical garden area is designed to give the
+impression of naturalness and space. There are tiers rising along
+the boundary of the place, each being about 5' higherthan the
+next. Likewise, a tier descends towards the central
+the islet in the center of that body is tiered in 10' heights. These
+walls are made to appear as natural stone and are generally
+obscured by vegetation.
+SMALL ANIMAL BURROWS: Artificial burrows carefully built into the
+outer layers of tiers.
+burrows by means of the work spaces underneath the rising tiers.
+These burrows are illustrated as a "C" shape representing the entry
+and an "o" or oval representing
+the den area. They are large
+enough to permit the entry of a gnome or halfling.
+WALKWAYS: The flagged walkways are shown by dotted lines. The
+circular dotted areas are resting places with stone benches.
+Vegetation is so thick as to make it impossible to tell what
+direction a pathway goes. The "S" marks on the circular areas of
+are concealed entrances to the 'tween decks area
+Serviceway lanes under the tiers have their access in the 10' wide
+passage between the garden area and the periphery areas.
+Small, latched metal doors give into the den portions of the
+burrows.
+STREAMLETS
+AND POOLS: The solid lines
+small streams
+of
+running water. They vary in depth from 1' to 2' or so and are about
+across shelved from 2' depth at the edge to about 10' (despite
+some siting) in the center. Life abounds in and near them -
+insects, colorful fish, amphibians, and so forth.
+SWAMP as indicated on the level map is an area of the garden
+where underground piping leaks badly. Combined with the rise of
+the central lake, a boggy area has occurred with water from 1' to
+3' or so deep between hummocks of vegetation.
+LAKE: This body of water was formerly a large, natural aquarium
+for the enjoyment of upper echelon personnel. Various water
+creatures of a harmless sort, or marine life confined to water and
+not overly dangerous, could be viewed from above and below in
+the under-islet viewing chamber (see islet, below). It still has
+numbers of fish breaking its surface now and then, as well
+as
+reptilian
+and amphibian sorts of creatures along its verge. (See
+cross-section of Underislet Observatory for lake depths.)
+Bridge access to the islet is illustrated in graphic #32 and #33, if
+the latter is applicable This is the only normal approach.
+(See 18., below, for details of what will be attracted if any person
+peers over the edge of the bridge.)
+ISLET: This centerpiece originally was the setting for the loveliest of
+exotic flora and its attendant fauna. There is no path on the small
+land space, but the way leads directly to a pair of doors which
+open at a touch of the key plate.
+Underislet Marine Observatory
+is illustrated in cross-section and
+by ILLUSTRATION #25.
+The stairway spirals down to 50', 70' and
+100' depth observation floors. If the ship's lights are on theviewers
+will see various forms of large and small fish, and have a one in six
+chance of getting a glimpse of the "frog-thing" (18.) Glints of
+gems will be seen from the lake bed! If they use lights in the
+observatory they absolutely will not only see that creature, but it
+will begin smashing at the plastiglass observation windows to
+get
+at the tender morsels within. The chance to break through is 5%
+per round. Attempts will cease as soon as the light is extinguished
+or the party is out of the monster's sight.
+A small closet on the lowest level of the marine observatory can
+be opened with a violet card. Inside are a half dozen wet suits with
+breathing apparatus in flat chest packs which attach to full
+bubble-type
+headgear,
+swimming
+foot fins,
+and back pack
+propulsion devices.
+• USE ILLUSTRATION #26.
+From 2-4 workable
+sets can be garnered from the six there, but there is a 10% chance
+per item that lock of technical knowledge will cause the item to
+malfunction when the wearer enters the water. The chest
+breathing apparatus will function for 9 turns, and then a buzzing
+sound will be emitted to indicate that 3 turns of time remain
+before the pock must be recharged. The back propulsion device
+has a lever trigger which shoots forth a gas jet; under water this
+propels the wearer at 12"
+movement rate for 6 rounds before
+becoming useless. If used on the surface, it causes an
+uncontrollable hopping. The device can be shut off after one
+round and then turned back on
+The rear wall of this closet has another small door keyed to a violet
+card, and this opens to a smaller chamber - on air lock. If there
+are persons within the 4' × 8' room when the door is closed, it will
+first fill with water, and then an outer hatch will open. The noise of
+this is 75% likely to attract 18., the Froghemoth (q.v.).
+LETTERED AND NUMBERED ENCOUNTERS:
+A. DEADLY PURPLE BLOSSOM PLANT (see 5., below).
+B. DEADLY TRI-FLOWER PLANT (see 5., below).
+C. DEADLY SNAPPER-SAW PLANT (see 5., below).
+D. THE HORRID PLANT (see 5., below).
+E. GLOBE PALM (see 5., below).
+Be certain not to confuse B designation plant encounters with
+B( brown) color card keyed doors. Also remember that S denotes
+a concealed hatchway to the service deck beneath.
+1. 8 LEECHOIDS: USE ILLUSTRATION #27. AC 7, MV 3", HD 2+2, hp
+15, 14, 4x12, 11, 10, #AT 1, D 1-4. These swamp creatures are
+nearly identical to the giant leeches common elsewhere. The
+victim must save versus poison, however, for otherwise the
+next round he or she will go into a hallucinatory state and lay
+down in the swamp (duration 3 turns). Blood drain is 2 hit
+points per round until dead, but the victim can easily drown
+first.
+2. LOW GRASS PATCH: USE ILLUSTRATION #28.
+This is the deadly
+boring grass, a mutated, carnivorous plant which attacks any
+living thing which rests upon it. The blades are corkscrewed
+and they will immediately bite into exposed flesh, inflicting
+from 5-20 hit points of damage that round, and like amounts
+on each successive round. On the second and each
+successive rounds the victim must save versus poison or be
+paralyzed. Any wound inflicted by this stuff slows the victim to
+50% of normal movement, and this slowing remains for 1-4
+days or until a neutralize poison spell or device is applied.
+12
+
+===== S3 PAGE 30 =====
+WEAPONS DATA
+Blaster Pistol: USE ILLUSTRATION #52.
+Range: S=3", M=6", L=9"
+Power Disc Drain: 1/use
+Rate of Fire: 2/round
+Damage: 5-30 hit points
+Save: Unarmored = 1/½ damage; armored = no damage (but save
+When found, this item will usually be folded. It weighs about 1%
+Ibs. and will unfold to about 1 foot. It is composed of a U-shaped
+section of metal rod with a black rivet on one end and an
+attached piece of thick glass mounted in a frame. This glass is
+about the size of a hand mirror. On one side of the frame are 2
+raised discs, while on the other is a fine mesh, mounted on a rod.
+The two sides of the glass are dark on one side (the firing side)
+and clear on the other (the viewing side). In the hinge joining the
+handle and glass frame is a slot about the size of a coin.
+The pistol is operated by turning the top dial. On the viewing side
+of the screen, crosshairs and range figures (in an unreadable
+language) will appear. The second dial will magnify the scene
+slightly. Once a target is selected, the pistol is fired by pressing the
+black button in the handle.
+Saving throw is versus petrifaction. Armor which does not save
+effectively destroyed. Each time armor is hit by a blaster its
+adjusted thereafter by -3 cumulative, or in the
+shield, -2 and the shield is destroyed (or no minusesforthe armor
+is destroyed), i.e.
+is being destroyed in
+the process of saving its wearer. Shields of less than +3 value are
+always destroyed from the first hit by a
+The rifle must first be unfolded and then the left arm is thrust
+through the collar. This band will automatically
+grip so that the gun need not be held constantly. It will only
+when the blue button is pushed.
+one of the colored settings is pushed. The black button on the U-
+shaped handle is pushed to fire. The shot originates from the
+B
+Blaster Rifle: USE ILLUSTRATION #53.
+Range: S=5", M=10", L=15"
+Area of Effect: 1' beam or special
+Power Disc Drain: 2/use
+Rate of Fire: /round
+Damage: Disruption or special
+Save: All vs petrifaction see below
+As with the blaster pistol, this item will also be usually found in a
+folded-up state, about 11½' long. When unfolded, it is about 3'
+long, It weighs nearly 5 Ibs. It appears to consist of jointed metal
+rods, a curved metal plate, a hardened leather band or collar
+and a pane of glass, framed and mounted on the end of a rod
+There is a black rivet at the end of the U-shaped rod. The metal
+plate has 3 raised, colored bars - black, white, and red - and a
+coin-shaped slot above them. There is a blue rivet on the side
+above the collar. The band is made of a hardened leather or
+may be seen. The glass is thick and dark on both sides. On one
+side of the frame is a metal mesh mounted on a small rod.
+The effects of the settings
+are:
+BLACK - Disruption beam setting usable to maximum range.
+This beam will vaporize anything short of hull metal
+when it hits. The beam affects up to six cubic feet of
+material. When an individual creature is the target a
+save is applicable. Shields are automatically de-
+stroyed, armor and protection devices must also be
+saved for. If save is successful individual takes 5-30 hit
+points, and saving throws for armor and/or protection
+devices is at -5 against next blaster (pistol or rifle)
+attack. Target creatures are stunned for 1-4 rounds
+WHITE - Heat beam setting effective out to medium range. A
+wave of heat sweeps out in a 4' beam, and all in its
+path must save. Metallic armor reduces saving throw
+by -7, shields by -2, but magical bonuses are added
+ie. magic plate (+3) and shield (+3) would reduce
+the chance of saving by 9, but magical bonuses (+6
+in this example) adjust that to only a -3. Creatures
+failing to save are melted, those saving take 5-20 hit
+points of damage and lose 1-6 points of strength for
+1-6 turns due to heat exhaustion.
+RED - Flame plane setting effective only to short range. A
+horizontal plane cuts a triangular area out to 5"
+(weapon's short range), with a 2%" base. Inflam-
+mable materials in this plane start burning, and
+creatures take either 4-24 hit points of damage or
+2-12 hit points if they successfully save. This setting
+does not lower armor values against successive
+saving throws, as it does not harm armor.
+
+===== S3 PAGE 40 =====
+The Advanced Dungeons & Dragons Game Family
+PLAYERS HANDBOOK. This hardbound volume contains everything the player needs to know in
+AD&D™ fantasy adventures. Within it are complete information on characters, levels,
+equipment, spells, and more.
+DUNGEON MASTERS GUIDE. The hardbound book of essential reference information for the Dungeon
+Master. Including combat and saving throw tables, magic items, wandering monsters, how to
+DM a game and campaign, etc.
+MONSTER MANUAL. A hardbound compendium of the creatures inhabiting the AD&D fantasy world.
+Over 350 descriptions of monsters, from Aerial Servant to Zombie, profusely illustrated.
+THE WORLD OF GREYHAWK. This work provides a complete campaign milieu in which to base
+adventures and characters, place dungeons, etc. Two large full-color maps, a folder, and a
+32-page booklet full of ready-made historical and geographical information. Suitable for use
+with Advanced D&D™ game systems.
+DUNGEON MASTERS SCREEN. Actually two laminated reference screens, one for normal combat,
+saving throws, and other oft-needed information, and another for psionic combat. With full
+color illustrations.
+PLAYER CHARACTER RECORD SHEETS
+PERMANENT CHARACTER FOLDER AND ADVENTURE RECORD SHEETS
+NON-PLAYER CHARACTER RECORD SHEETS
+These three products are designed for various types of character record keeping, and are
+made for the convenience of player and Dungeon Master alike. All are three-hole drilled for
+easy notebook storage.
+THE ROGUES GALLERY. An aid for the harried Dungeon Master, this booklet contains hundreds of
+ready-made non-player characters, as well as caravans, bandit groups, dungeon parties,
+and more.
+MODULES
+Every AD&D module is a ready-to-play adventure setting, populated with appropriate
+monsters, treasures, tricks, and traps, and including maps, background intormation, and
+histories. Though each individual module is designed to stand on its own, several series are
+specially made to form a connected progression of adventures.
+Dungeon Module A1 (Slave Pits of the Undercity)
+Dungeon Module A2 (Secret of the Slaver's Stockade)
+Dungeon
+Module A3 (Assault on the Aerie of the Slavelords)
+Dungeon
+• Module A4 (In the Dungeons of the Slavelords)
+Dungeon
+Module C1 (Hidden Shrine of Tamoachan)
+Dungeon
+Module C2 (Ghost Tower of Inverness)
+Dungeon Module D1-2 (Descent into the Depths of the Earth)
+Dungeon
+Module D3 (Vault of the Drow)
+Dungeon Module G1-2-3 (Against the Giants)
+Dungeon
+Module 11 (Dwellers of the Forbidden City)
+Dungeon Module Q1 (Queen of the Demonweb Pits)
+Dungeon Module S1 (Tomb of Horrors)
+Dungeon Module S2 (White Plume Mountain)
+Dungeon Module T1 (Village of Hommlet)
+The designation "M" is used to refer to trademarks owned by TSR Hobbies, Inc.
+
+===== S3 PAGE 55 =====
+14
+
+===== S3 PAGE 70 =====
+29
+80
+
+===== S3 PAGE 90 =====
+48
+5
+
+===== S3 PAGE 100 =====
+58
