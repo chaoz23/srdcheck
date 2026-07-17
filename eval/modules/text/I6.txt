@@ -1,0 +1,2725 @@
+
+===== PAGE 1 =====
+
+
+===== PAGE 2 =====
+ADVANCED DUNGEONS & DRAGONS®
+Fantasy Adventure Module
+by Tracy and Laura Hickman
+An Adventure for Character Levels 5-7
+Ravenloft is a classic gothic horror story. Many mysteries sur-
+round Strahd, his castle Ravenloft, and the lands of Barovia. After
+entering Barovia, the PCs are trapped by a deadly fog. Their
+adventure can run in any direction, culminating in a fantastic
+vampire hunt.
+The dark forests of Barovia are filled with wolves and other crea-
+tures, making travel there quite unsafe.
+In a clearing in the Svalich woods, lies a gypsy camp. Only Madam
+Eva and her troupe pass in and out of Barovia. There are rumors
+that Strahd gave Madam Eva a potion that neutralizes the fog, but
+no one has ever actually seen the potion. It is well known that
+Madam Eva foretells the future with surprising accuracy.
+The village of Barovia is a sad place now. Most of the shops have
+been forced to close. The night, and its creatures, belong to Strahd.
+When the sun sets, the people of Barovia barricade their homes,
+trembling in fear. Each night the attacks get worse.
+The Burgomaster's mansion is the center of most attacks. For some
+reason, Strahd is after Ireena Kolyana, the Burgomaster's adopted
+daughter. Since the Burgomaster was killed, and his mansion's
+great holy symbol stolen, Ireena is without protection.
+On the outskirts of the village sits a church. Only the constant
+prayers of the priest keep it safe at night.
+Far above the village sits Castle Ravenloft, Strahd's home and
+fortress. Every night thousands of bats fly out of the castle's towers
+to feed. It is said that sometimes Strahd flies with them. Certainly,
+Barovia will never be safe until all the evil in his castle is destroyed.
+No one knows what hides within the castle. Ancient tales tell of
+dungeons and catacombs deep under the castle. Other stories recall
+the great halls, treasures, and glory of Ravenloft centuries ago.
+Undoubtedly Strahd has installed numerous deadly traps since
+then.
+Editor: Curtis Smith
+Graphic Designer: Debra Stubbe
+Illustrator: Clyde Caldwell
+ADVANCED DUNGEONS & DRAGONS and AD&D are trademarks of TSR, Inc.
+Distributed to the book trade in the United States by Random House, Inc.
+and in Canada by Random House of Canada, Ltd.
+Distributed to the toy and hobby trade by regional distributors.
+Distributed in the United Kingdom by TSR (UK), Ltd.
+This module is protected under the copyright laws of the United States of
+America. Any reproduction or other unauthorized use of the material or
+artwork contained herein is prohibited without the express written per-
+mission of TSR, Inc.
+ISBN 0-88038-042-X
+394-53465-4TSR0600
+PRINTED IN USA
+TSR, Inc.
+FOB 756
+Lake Geneva,
+Wl 53147
+TSR (UK) Ltd.
+The Mill, Rathmore Road
+Cambridge CB HAD
+United Kingdom
+TSR , Inc 9075
+TABLE OF CONTENTS
+Page
+Count Strahd von Zarovich
+Who he is and how to play him ..................... 3
+Fortunes of Ravenloft
+The gypsy card reading that foretells the adventure .... 4
+Lands of Barovia
+The Count's domain ............................... 6
+Start of the Adventure
+A desperate plea for help ........................... 7
+Lands of Barovia Planned Encounters
+Meeting Strahd and his creatures .................... 7
+Svalich Woods
+Home of the worg wolves ........................... 7
+Village of Barovia
+Once a prosperous town, now without hope .......... 8
+Burgomaster's mansion
+Where Strahd seeks Ireena Kolyana .................. 9
+Gypsy Camp
+Temporary home to Madam Eva and her troupe ....... 11
+Castle Ravenloft
+Strahd's home and fortress .......................... 12
+Castle Ravenloft Planned Encounters
+Main Floor ....................................... 13
+Court of the Count ................................. 17
+Rooms of Weeping ................................ 18
+Spires of Ravenloft ................................. 21
+Larders of Ill Omen ................................ 22
+Dungeon and Catacomb ............................ 24
+Optional Ending
+After 500 years, Tatyana and Sergei reunited .......... 30
+Appendices
+New monsters, NPCs, and treasures .................. 30
+The Tome of Strahd
+How Strahd became the first Vampyr ................ 31
+
+===== PAGE 3 =====
+"I am the ancient. My beginnings are lost in the darknessof the past. I am not dead. Nor am I alive. I am undead, forever."
+-Count Strahd von Zarovich
+This module is designed for a party of six to eight player
+characters (PCs) of the 5th to 7th levels of experience. A balance of
+character classes is helpful since the PCs will face a wide variety of
+problems. Each character class will certainly have its moment to
+shine. At least one of the PCs must be a fighter with a longsword.
+Read this entire module before playing. This module includes
+some complicated spells and traps. Pay special attention to these
+parts before running this module, to make your game flow more
+smoothly.
+Some areas described in this module are exact duplicates of
+other areas. Areas that are exactly alike have the same number on
+the maps. There is only one text description to use for each of these
+areas.
+When the vampire, Strahd von Zarovich, is destroyed, the
+adventure is over. You must use every power available to the
+vampire to keep him (and the game) going. When the
+vampire is truly destroyed, you may want to use the
+optional ending on p. 30 to end this adventure.
+Sometimes, characters must make dexterity or
+constitution checks. To make a dexterity/ con-
+stitution check, a character must roll his dex-
+terity/constitution or less on 1d20. The effects of
+the the roll are explained in each case.
+All indoor and nighttime descriptions are
+written with the assumption that the PCs are using a torch
+to see by. A torch normally lights a 40-foot-radius
+area.
+New monsters and types of nonplayer characters
+(NPCs) are explained in Monsters, Creatures, and Men, on
+p. 31. Whenever NPCs or monsters appear in the text, their
+statistics are given as follows:
+# monster name: armor class; movement; hit dice;
+points; number of attacks per round; dam-
+age; alignment; special attacks; special defenses;
+other attributes and abilities as necessary.
+Abbreviations Used in Statistics
+AC=Armor Class
+MV=Movement
+HD=Hit Dice
+hp=hit points
+#AT=Attacks/round
+Dmg=Damage
+SA=Special Attacks
+SD=Special Defense
+MR=Magic
+Resistance
+C=Cleric
+F=Fighter
+MU=Magic User
+T=Thief
+S=Strength
+I=Intelligence
+W=Wisdom
+D=Dexterity
+Con=Constitution
+Ch=Charisma
+AL=Alignment
+LG=Lawful Good
+NG=Neutral Good
+CG=Chaotic Good
+CN=Chaotic Neutral
+LN=Lawful Neutral
+N=True Neutral
+CE=Chaotic Evil
+NE=Neutral Evil
+LE=Lawful Evil
+
+===== PAGE 4 =====
+Count Strahd
+Von Zarovich, Vampire
+The entire adventure centers around the vampire. Always keep in
+mind the motives of the vampire, how he moves about, and what
+his cunning plot is. You must play Strahd in the same way the
+players play their characters. Study this NPC as carefully as the
+players study their characters.
+Count Strahd Von Zarovich (The First Vampyr)
+FREQUENCY: Unique
+NUMBER APPEARING: 1
+ARMOR CLASS:-1
+MOVE: 12"/18"
+HIT DICE: 10 (55 hit points)
+% IN LAIR: 90%
+TREASURE TYPE: F
+NUMBER OF ATTACKS: 1
+DAMAGE/ATTACK: 5-10 (ld6+4)
+SPECIAL ATTACKS: Energy Drain
+SPECIAL DEFENSES: +1 or better weapon to hit
+MAGIC RESISTANCE: See below
+INTELLIGENCE: Genius
+ALIGNMENT: CE
+SIZE: M
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+Although Strahd can be encountered in many places, he is always
+encountered in the place indicated by your Fortunes of Ravenloft
+results (see p. 4), unless he has been forced to his tomb.
+Strahd is a slightly above-average vampire. He has the normal
+18/76 strength and his blows drain 2 life levels from his oppo-
+nents. Strahd has the usual vampire abilities. He can only be hit by
+magical weapons and can regenerate 3 hit points per round. He
+can assume gaseous form at will or shape change into a large bat.
+He can charm person at will by gazing into a character's eyes,
+causing that character to make a saving throw vs. spells with a
+penalty of -2.
+Strahd is also a 10th level magic user. He learned his magic
+from studies during his life and from subsequent studies over the
+centuries. His available spells are:
+First level: comprehend languages,
+hold portal, protection from good, sleep.
+Second level: invisibility, locate objects,
+mirror image, ESP.
+Third level: fireball, gust of wind, suggestion.
+Fourth level: polymorph other, polymorph self.
+Fifth level: animate dead, distance distortion
+Strahd has a variety of spies and servants. They report to him four
+times each day (at dawn, noon, dusk, and midnight). There is a
+60% chance that Strahd knows the PCs' location at these times. If
+Strahd knows their location, he attacks the PCs—wherever they
+are—within two hours. Strahd chooses the time and method of his
+attacks carefully.
+Strahd can attack in each of the following ways once.
+1. Strahd attacks a single PC for 5 melee rounds, then leaves.
+2. Strahd calls 10-15 Strahd zombies to attack the party. All of the
+zombies must attack at the same time in the same place.
+3. Strahd calls 3-12 worg wolves to attack the party. All of the
+wolves must attack at the same time in the same place.
+When playing Strahd, above all, keep these three things in mind.
+1. Strahd chooses when he attacks. Strahd is supposed to be a
+genius, play him as one. Whenever he is aware of the PCs'
+positions, he is allowed to make an attack how and where he
+wants. His attacks must be timed to be most advantageous to
+him. To do that, Strahd must move around during the adven-
+ture. However, he can always be found in the place deter-
+mined in Fortunes of Ravenloft. It is your responsibility to see
+that the vampire uses his abilities to his greatest advantage.
+2. Strahd knows when to withdraw. He knows when he is in over
+his head. If he is losing a battle he becomes gaseous, poly-
+morphs into a wolf or bat, and/or summons other creatures to
+guard his retreat.
+3. Strahd's attacks depend upon his goals. There is a reason why
+Strahd lured the PCs into his little kingdom. This reason is
+determined in Fortunes of Ravenloft. Strahd's plans for
+achieving his goal are listed with his goals.
+
+===== PAGE 5 =====
+Deal the
+top five
+cards
+face down.
+Fortunes of Ravenloft is an imitation ancient gypsy card read-
+ing. It does not resemble any real or mystical fortune telling
+process. Fortunes of Ravenloft determines Strahd's goals and the
+placement of important treasures. This card reading can add a
+great deal of flavor to your game, and makes Ravenloft different
+when you play it again.
+You must run this card reading before playing this module.
+If, during the course of the adventure, the PCs have their for-
+tunes read at the gypsy camp, run this card reading again, out
+loud. Substitute the new results for the old ones. Be sure to write
+down the results of your card reading, so you have them when
+you need them.
+Find a regular 52-card deck of playing cards. Remove all 2, 4,
+6, 8, 9, and joker cards from the deck. Now you have a set of
+four suits with eight cards in each suit. Shuffle the deck.
+If you don't have a regular deck of cards, you can get the
+same results by rolling 1d8 to determine the type of card and 1d4
+to determine its suit. Roll again if you get the same card in any
+suit twice.
+Table 1. Fortunes of Ravenloft: Places
+Card Place
+STUDY (K37)
+TREASURE ROOM (K41)
+I You should seek for a carefully hidden plate of great worldly
+wealth. I see a blazing lire protecting the place.
+The object is set prominently atop the other treasures in the
+room. If Strahd is there, he is counting his ill-gotten gains.
+CHAPEL OF RAVENLOFT (K15)
+You may find this amid she ruins of a place of suppli-
+cation.
+10
+The object is on the altar, brightly illuminated by a shaft of light
+from the ceiling. If Strahd is there, he is standing in the center of
+the room — a dark shape in the vast hall.
+HIGH TOWER ROOM (K60)
+| This is in a place of dizzying heights that all loathe to travel.
+The road winds ever upward and the rocks themselves live
+here!
+The object is in a locked iron chest. If Strahd is there, he is at the
+window, looking over his lands.
+Jack CRYPT OF SERGEI VON ZAROVICH (K85)
+It is in a place of tranquility, a harbor for the mighty and
+powerful. It is in a place of wisdom, warmth, and despair.
+Great secrets are there.
+This lies with a fallen prince of old. The brother of dark is
+light and lie rests in this place.
+The object is lying across Sergei's chest. If Strahd is there, he is
+lying across the marble slab, weeping.
+Queen CRYPT OF RAVENOVIA (K88)
+The object is on the mantlepiece, just under the portrait of the
+woman. If Strahd is there, he is sitting back in the overstaffed
+chair, staring into the blazing fire.
+This is in the mother's place.
+The object is lying on top of Ravenovia's coffin. If Strahd, is .
+there, he is in a frenzy of rage and despair.
+
+===== PAGE 6 =====
+King KINGS AUDIENCE HALL (K25)
+A king's throne is the place to find (his.
+Ace
+The object is lying across the dais behind the throne. If Strahd is
+there, he is sitting on the throne.
+CRYPT OF STRAHD (K86)
+This is a very bad sign. This is in the very heart of dark-
+ness: his home, his source. It is his center and his life. It is the
+one place to which he must return.
+The object is in a corner of the room. If Strahd is here, he is
+within his coffin, ready to attack at the first sign of someone
+opening the lid.
+Table 2. Fortunes of Ravenloft:
+Modifiers
+Suit "To Hit" and Armor Class Modifiers
+The PCs gain a +1 bonus to hit and a -i bonus to their AC.
+There is a very good influence there. If you are there, the
+powers of good will aid you.
+Jack or
+Queen
+The PCs gain a +1 bonus to hit, but suffer a +1 penalty to
+their AC.
+The diamond blesses your skill there, but bodes poorly for
+your protection.
+Table 3. Fortunes of
+Ravenloft: Strahd's Goals
+Card
+3 or 5
+Strahd's Goal
+Strahd seeks a new identity.
+Not yet, but soon, one who appears to be your friend
+will become your enemy.
+Strahd will try to be alone with a charmed PC. When he is
+alone with a (harmed PC, Strahd casts a polymorph other
+spell on the PC, turning the PC; into a vampire. The spell
+operates as detailed in the AD&D™ Players Handbook with
+the following clarifications. The PC; takes the form of a
+vampire and radiates a magical aura, regardless of whether
+the PC; survives a system shock check or not. A PC; that
+survives a system shock check has all of the abilities of a
+vampire as detailed in the AD&D™ Monster Manual, regard-
+less of whether that PC; passes a mental check or not. Undead
+cannot drain levels from undead. Thus, if a polymorphed PC.
+vampire retains his own mind, he and Strahd can light, but
+neither can drain levels from the other. They can both, how-
+ever, drain levels from non-undead. Alter tinning the PC; into a
+vampire. Strahd casts a polymorph self and turns into the
+likeness of the PC. Strahd puts the new vampire PC into his
+own coffin and attempts to join the party, masquerading as the
+PC. Strahd will try to persuade the party that he found a way
+out of Barovia. Strahd can, after all, open the gates. Strahd
+wants to move to another country using his new identity. The
+gypsies will carry dirt from his crypt to his new home.
+7 or 10 Strahd wants to make a magical sphere of darkness.
+This card tells of a tool of evil. Darkness surrounds and
+protects this tool, giving comfort to black hearts and pro-
+tection from good.
+Strahd is trying to assemble a magical item that casts a contin-
+uous sphere of darkness. Such an item would greatly extend
+the range of his travels. Over the centuries he gathered the
+pieces of the sphere one by one, until now he is missing only
+one piece, a black opal. Strahd mistakenly believes that one of
+the PCs has a black opal stone. Strahd will use his natural
+charm person abilities to charm lone PCs. Strahd will send
+those charmed PCs back to the party, asking, "Do you have the
+black opal?" When Strahd discovers that none of the PCs have
+a black opal, he will attempt to destroy them.
+Strahd wants to win the love of Ireena Kolyana.
+The darkness loves a light and desires it. Great subtle plans
+are in motion about you; plans that the dead may find
+warmth from the living.
+King or
+Ace
+Strahd will attempt to charm all of the PCs, and make them
+attack Ireena. When they attack, Strahd will swoop down and
+save her from the PCs. Strahd hopes that the rescue will turn
+Ireena's heart to him. He wants Ireena to love him willingly
+rather than by force.
+Strahd wants the Sunsword.
+The PCs suffer a -1 penalty to hit, but gain a -1 bonus to
+their AC.
+The club sustains your strength here, but holds you from
+your victory, taking more time than it otherwise would.
+Here is a high and noble card. One of you carries a weapon
+that is stronger than any other against the evil in this land.
+Only one part is missing from this weapon. That part is
+found in the evil one's lair.
+The PCs suffer a -1 penalty and a +1 penalty to their AC.
+The spade is a dark shadow of evil cast over that place. You
+fight under its influence here.
+See Treasures and Tomes on p. 31 for details about the suns-
+word. Strahd wants to destroy the sunsword. He believes (cor-
+reclly) that one of the PCs (a random fighter) has has been
+unknowingly carrying the sunsword lor some time. If the
+sunsword hilt is found and reunited with the blade, Strahd
+could be in real trouble.
+
+===== PAGE 7 =====
+Lands of Barovia
+A perpetual rolling blackness of thunderclouds casts a gray pall
+over the land. The darker silhouette of Castle Ravenloft looks over
+the valley from its 1,000 foot pillar of rock.
+Castle Ravenloft dominates the small village of Barovia. The
+castle stands high atop a natural pillar of rock against the cliffs to
+the north of the village. The dark Svalich woods surround the
+village and cliffs. Use Map 1 to see the relative locations of the
+town and Castle Ravenloft.
+The road to the village and lands of Barovia goes through
+ancient iron gates, controlled by the will of Count Strahd. There
+are only two gates, one east of the village and one west of the castle
+crossroads up the mountain. The gates open when the PCs arrive
+but close after they enter Barovia. The gates will not open for the
+PCs again until Strahd is destroyed.
+There is a deathly stillness in the dark Barovian woods. Yet the
+woods are patrolled constantly by the wolves and serving beasts of
+Count Strahd.
+No one has left Barovia for centuries. This is because of the
+trapping fog that exists everywhere in Barovia. Once it is breathed,
+it infuses itself around a character's vital organs as a neutralized
+poison. The fog does not taste or smell any different than normal
+fog. It does not harm characters as long as they continue to breathe
+the air in Barovia. However, when they leave Barovia, the poison
+becomes active. Characters must save vs. poison or start to choke.
+Unless choking characters reenter Barovia within 24 hours, they
+die. The choking stops as soon as they breathe the fog again.
+The gypsies were given a potion by Strahd that cancels the
+effects of the fog. This potion is jealously guarded by Madam Eva,
+who buried it in a secret place. It is impossible for the PCs to
+discover the potion. The fog is magically produced by Strahd and
+disappears entirely upon his destruction.
+The poor villagers of Barovia have been terrorized for centuries
+by "the devil" Strahd. Only the town priest and the few survivors
+of the second ruling house of Barovia have the will to offer more
+than just personal resistance to Strahd. No villager has left Barovia
+for centuries. Those who tried never returned, dying from the vile
+snapping teeth of the Barovian wolves and the choking deadly fog.
+Every 3 turns, check for a random encounter. When the PCs are
+not in Castle Ravenloft, during daytime, use Table 4 at right,
+during nighttime, use Table 5 at right. When the PCs are in Castle
+Ravenloft, use Table 6 on p. 12.
+Each night the PCs stay anywhere other than in the castle (Area
+K), Strahd attacks with his wolves and bats. His attacks are
+intended more to frighten the PCs than to damage them. Strahd
+just toys with them. After 5 melee rounds, Strahd and his creatures
+withdraw.
+If the PCs are indoors, every turn Strahd attacks, wolves try to
+break through a window or a door. A roll of 1 or 2 on 1d6 means
+that a wolf breaks through. Once a wolf gets in, the remainder of
+the wolves and bats come in. The wolves and Strahd never attack
+Ireena Kolyana. After 5 melee rounds, all of the creatures flee into
+the night, leaving only Strahd's hollow laughter in the distance.
+4-16(4d4) worg wolves: AC 6; MV 18"; HD 4+4; #AT 1; Dmg 2-8;
+AL NE.
+10-100 (l0dl00) bats: AC 6; MV 4"/18"; HD 1d4; #AT 0; Dmg 0;
+AL N.
+The bats fly into the room, getting into the way of spell casting.
+Characters must make dexterity checks to cast spells with material
+components.
+Strahd may knock at the door, but he cannot enter the building
+until someone invites him in. Strahd tries to charm characters into
+inviting him in.
+Table 4. Barovia Daytime Random Encounters
+(Sunup to Sundown)
+Roll 1d6. If the result is a 1, the PCs encounter something. Roll 1d8
+and use the encounter below with the resulting number.
+Roll Encounter
+1 2-8 (2d4) worg wolves: AC 6; MV 18"; HD 4+4; #AT 1; Dmg
+2-8; AL NE.
+2 1-10 gypsies: AC 6; MV 12"; HD 6; #AT 1; Dmg 1-8; AL NE.
+3 1-4 villagers: AC 9; MV 12"; HD 2; #AT 1; Dmg 1-6; AL NG.
+4 1-4 worg wolves: AC 6; MV 18"; HD 4+4; #AT 1; Dmg 2-8; AL
+NE.
+5 1-4 gypsies: AC 6; MV 12"; HD 6; #AT 1; Dmg 1-8; AL NE.
+6 1-4 villagers: AC 9; MV 12"; HD 2; #AT 1; Dmg 1-6; AL NG.
+Table 5. Barovia Nighttime Random Encounters
+(Sundown to Dawn)
+Roll 1d6. If the result is a 1 or 2, the PCs encounter something. Roll
+1dl2 and use the encounter below with the resulting number.
+Roll Encounter
+1-2 l-10worgwolves:AC6;MV18";HD4+4;#ATl;Dmg2-8;AL
+NE.
+3 2-20 (2dlO) worg wolves: AC 6; MV 18"; HD 4+4; #AT 1; Dmg
+2-8; AL NE.
+4-5 3-12 (3d4) zombies: AC 8; MV 6"; HD 2; #AT 1; Dmg 1-8; AL
+N.
+6-7 10-100(l0dl0) bats: AC6; MV4"/18"; HD 1d4; #AT0; Dmg 0;
+AL N.
+8 1 ghost: AC 0/8 if corporeal; MV 9"; HD 10; #AT 1; Dmg age
+10-40 years; AL LE.
+9 3-12 (3d4) ghouls: AC 6; MV 9"; HD 2; #AT 3; Dmg 1-3 / 1-3
+/1-6; AL CE.
+10 1-4 wights: AC 5; MV 12"; HD 4+3; #AT 1; Dmg 1-4; AL LE;
+SA hit drains 1 energy level.
+11 1-4 wraiths: AC 4; MV 12"/24"; HD 5+3; #AT 1; Dmg 1-6; AL
+LE; SA hit drains 1 energy level.
+12 1 maiden vampire: AC 1; MV 12"/18"; HD 8+3; #AT 1; Dmg
+5-10; AL CE; SA hit drains 2 energy levels, gaze can charm, can
+become gaseous in same way as Strahd.
+
+===== PAGE 8 =====
+Lands of Barovia
+Planned Encounters
+The PCs start their adventure in an old inn, a few hours march east
+of the gates of Barovia.
+To a party of seasoned adventurers such as yourselves, this is
+but another dull tavern in another dull town in some nameless
+province. It is but another passage of time between the chal-
+lenges of true adventuring. Such is the doldrum of existence
+—waiting for another opportunity.
+Outside the Inn, a fog lies over the town this evening,
+draping everything in its clammy grasp. The damp cobbled
+street shines as the light of street lanterns dances across the slick
+stones. The cold fog chills the bones and shivers the soul of
+anyone outside.
+Yet inside these tavern walls the food is hearty and the ale is
+warm and frothy. A fire blazes in the hearth and the tavern is
+alive with the tumbling voices of country folk.
+Suddenly, a hush falls over the tavern. Even the flagons of
+ale seem to silence themselves. The tavern door swings open.
+Framed by the lamp-lit fog, a form strides into the room. His
+heavy, booted footfalls and the jingle of his coins shatter the
+silence. His brightly colored clothes are draped in loose folds
+about him and his hat hangs askew, hiding his eyes in shadows.
+Without hesitation, he walks directly up to your table and
+stands proudly in a wide stance with folded arms.
+His accented voice speaks, "I have been sent to you to deliver
+this message! If you be creatures of honor, you will come to my
+master's aid at first light. It is not advisable to travel the Svalich
+woods at night!" He pulls from his tunic a sealed letter,
+addressed to all of you in beautiful flowing script. He drops the
+letter on the table. "Take the west road from here some five
+hours march down through the Svalich woods. There you will
+find my master in Barovia."
+Amid the continued silent stares of the patronage, the gypsy
+strides to the bar and says to the wary barkeeper, "Fill the
+glasses, one and all. Their throats are obviously parched." He
+drops a purse heavy with gold on the bar. With that, he leaves.
+The babble of tavern voices resumes, although somewhat
+subdued. The letter is lying before you. Dated yesterday, the ink
+is still not dry and the parchment is crisp. The seal is of a crest
+you don't recognize.
+If the PCs open the letter, read its contents from the following
+boxed text.
+Hail to thee of might and valor:
+I, a lowly servant of the township of Barovia, send honor to
+thee. We plead for thy so desperately needed assistance within
+our community.
+The love of my life, Ireena Kolyana, has been afflicted by an
+evil so deadly that even the good people of our town cannot
+protect her. She languishes from her wound and I would have
+her saved from this menace.
+There is much wealth in this community. I offer all that
+might be had to thee and thy fellows if thou shah but answer my
+desperate plea.
+Come quickly for her time is at hand! All that I have shall be
+thine!
+Kolyan Indrirovich,
+Burgomaster
+Allow the PCs to make whatever preparations they feel are neces-
+sary for the adventure. Use Map 1 for areas A-K.
+A. The Old Svalich Road
+Black pools of water stand like dark mirrors about the muddy
+roadway. Thick, cold mists spread a pallor over the road. Giant
+tree trunks stand on both sides of the road, their branches
+clawing into the mists. In every direction the mists grow thicker
+and the forest grows more oppressive.
+It takes the PCs five hours to get to area B, traveling on the road.
+B. The Gates of Barovia
+Jutting from the impenetrable woods on both sides of the road,
+high stone buttresses loom up gray in the fog. Huge iron gates
+hang on the stonework. Dew clings with cold tenacity to the
+rusted bars. Two statues of armed guardians silently flank the
+gate. Their heads, missing from their shoulders, now lie among
+the weeds at their feet. They greet you only with silence.
+If the PCs approach within 50 feet, the gates open, screeching as
+they move. The gates close behind the PCs after they pass through.
+The gates will not open for the PCs from this side. Anyone
+attempting to cross back over the border is choked by the fog. Once
+the PCs enter, they must destroy the vampire or be trapped in
+Barovia!
+C. The Svalich Woods
+Towering trees, whose tops are lost in heavy gray mist, block
+out all save a death-gray light. The tree trunks almost touch.
+The thick, damp undergrowth presses in on you, making it
+impossible even to see one another at all times. The woods have
+the silence of a forgotten grave, yet exude the feeling of an
+unsounded scream.
+Three turns after all the PCs enter the woods, they find a dead
+villager in the underbrush. He holds an envelope crumpled in his
+hand. The remains of his clothes are torn and raked with claw
+marks. Paw prints of many large wolves are pressed into the clay
+around the body. The man has obviously been dead for several
+days.
+The letter is dated one week ago. It is sealed with a large "B."
+The parchment is worn and flimsy. It reads as follows:
+Hail thee of might and valor:
+I, the Burgomaster of Barovia send you honor — with
+despair.
+My adopted daughter, the fair Ireena, has been these past
+nights bitten by a creature calling its race "vampyr." For over
+400 years he has drained this land of the life-blood of its people.
+Now, my dear Ireena languishes and dies from an unholy
+wound caused by this vile beast. Yet I fear, too, that the creature
+has some more cunning plan in mind. He has become too
+powerful to be fought any longer.
+Letter continues on next page.
+
+===== PAGE 9 =====
+So I say to you, give us up for dead and encircle this land
+with the symbols of good. Let holy men call upon their power
+that the evil one may be contained within the walls of weeping
+Barovia. Leave our sorrows to our graves, and save the world
+from this evil fate of ours.
+There is much wealth entrapped in this community. Return
+for your reward after we are all departed for a better life.
+Kolyan Indirovich,
+Burgomaster
+Roll 1d6 every turn the PCs are in the woods. If the result is 4 or
+more, the PCs hear a lone wolf cry in the distance. One more wolf
+cries each round. If the PCs are still in the woods after 5 rounds of
+howling, the wolves attack. If the PCs are entering Barovia, only 5
+wolves attack; if the PCs are attempting to leave Barovia, 25 wolves
+attack. The wolves stop their attack if the PCs leave the woods by
+entering the village.
+5 or 25 worg wolves: AC 6; MV 18"; HD 4+4; #AT 1; Dmg 2-8;
+AL NE.
+D. The River Ivlis
+The river Ivlis flows as clear as a blue winter sky through the
+valley.
+E. The Village of Barovia
+Tall shapes loom out of the dense fog that surrounds every-
+thing. The muddy ground underfoot gives way to slick, wet
+cobblestones. The tall shapes become recognizable as the dwel-
+lings of the village of Barovia. The windows of each house stare
+out from pools of black nothingness. No sound cuts the silence
+except for a single mournful sobbing that echoes through the
+streets from a distance.
+The sobbing comes from location E3. With the exception of build-
+ings El and E2, all of the shops are permanently closed. All of the
+unoccupied stores and shops have been looted and ruined. Claw
+marks cover most of the walls. There is no treasure to be found in
+any of the unoccupied stores.
+There is a 60% chance that there is someone at home in each
+house. Characters listening at doors hear low, muffled whispers.
+Each occupied house has one man in it. There is a 30% chance
+that his wife is with him. There is a 10% chance that 1-8 children
+are also in the house. The Barovians never attack first and always
+flee if possible. At night they tend to cower and hold lawful good
+holy symbols before them.
+E1. Bildrath's Mercantile
+The sparse light from this building spills out from behind
+drawn heavy curtains. A sign over the door creaks on its hinges,
+proclaiming this "Bildrath's Mercantile."
+The building is about 70 feet long by 40 feet wide. Inside, Bildrath
+is behind the counter. He will sell the PCs anything on the official
+AD&D™ shopping list, except items found under "Religious
+Items,""Livestock,'' and "Transport.'' Everything is ten times the
+normal price. If the PCs give him any trouble, he calls Parriwim-
+ple, his stock-boy, to help him straighten out the PCs.
+Bildrath, Barovian merchant, F-4: AC 8; MV 12"; hp 30; #AT 1;
+Dmg 1-8; AL LN; S 15, I 10, W 12, D 14, Con 11, Ch 13.
+Bildrath trades with the gypsies when they pass through. He is not,
+however, above making a profit from anyone else who is unlucky
+enough to find themselves here. He serves himself. He certainly
+promises no sanctuary. He never bargains a price since he believes,
+"If you want it badly enough, you'll pay for it — because you
+certainly won't be taking your business elsewhere."
+Parriwimple, Barovian, F-9: AC 2; MV 12"; hp 50; #AT 1;
+Dmg 5-12 (ld8+4); AL LN; S 18/80, I 3, W 9, D 17, Con 14,
+Ch 8.
+Parriwimple is Bildrath's stock boy. Parriwimple may occasion-
+ally be asked by his uncle, Bildrath, to carry items out for the PCs
+to look at. Parriwimple's muscles rippling beneath his leather
+tunic should give ample warning to the PCs of his strength and
+power. Parriwimple is extremely simple-minded, unlike Bildrath.
+Parriwimple is dedicated to his uncle and will not follow the PCs.
+In his own dim way he knows that to cross the master of the castle
+is death—or worse.
+E2. "Blood of the Vine" Tavern
+A single shaft of light thrusts into the main square, its bright-
+ness like a solid pillar in the heavy fog. Above the gaping
+doorway, a sign hangs precariously askew proclaiming this the
+"Blood on the Vine Tavern."
+The tavern building is about 60 feet square. Close inspection of the
+sign reveals that the sign originally read, "Blood of the Vine," but
+the "F" has been scratched over with an "N." This once finely
+appointed tavern has grown shoddy over the years. A blazing fire
+in the hearth gives scant warmth to the few huddled souls within.
+The silence here is broken only by the occasional sip of watery
+wine. Arik, the barkeeper, is behind the bar. Three gypsies are at a
+table on the left. Ismark sits mysteriously in shadows to the right.
+Arik, Barovian barkeep, F-0: AC 8; MV 12"; hp 3; #AT 1; Dmg 1-4;
+AL CN, S 9,I 4, W 7, D 13, Con 8, Ch 10.
+Mindlessly, Arik cleans glasses, one after the other. When they are
+all clean, he starts over. If spoken to, he takes orders for drinks in a
+dull, hollow voice. After serving drinks, he returns to cleaning
+glasses. Arik ignores all questions.
+3 gypsies, F-4: AC 4; MV 12"; hp 32, 30, 24; #AT 1; Dmg 2-7 (1d6
++ 1); AL LN.
+The gypsies lurk near the door. They own the tavern and see to it
+that all customers pay their bills. These gypsies are otherwise
+disinterested in the PCs.
+Ismark the Lesser, Barovian, F-2: AC 7; MV 12"; hp 18; #AT 1;
+Dmg 1-6 (longsword); AL LG; S 15,I 12, W 13, D 10, Con 16,
+Ch 13.
+Ismark sits in the corner sipping his wine. He speaks fair common
+speech. Ismark is the son of the Burgomaster. To aid his adopted
+sister, Ireena Kolyana, he greets the PCs and takes them to the
+Burgomaster's home.
+Ismark is as tight-lipped as any of the other Barovian villagers,
+unless the subject deals with his adopted sister, Ireena Kolyana or
+Strahd. Ismark knows everything the other villagers know.
+Ismark also knows that for some unknown reason, Strahd is
+attracted to Ismark's sister more than anything else. Ismark's
+father, the Burgomaster, has been dead for over 10 days. The
+
+===== PAGE 10 =====
+great holy symbol that provided their strongest protection from
+the vampire was stolen. Now, Ireena is unprotected and helpless in
+the house.
+If Ismark is shown the letter the PCs received at the start of the
+adventure he confirms that the Burgomaster did attempt to send a
+letter of warning. The PCs' letter, however, was certainly not
+written by the Burgomaster. Ismark recognizes that the handwrit-
+ing is not the Burgomaster's.
+E3. Mad Mary's Townhouse
+A moaning sob floats through the still, gray streets, coloring
+your thoughts with sadness. The sounds flow from a dark,
+two-story townhouse.
+The house (about 40 feet square) is boarded up and barricaded
+from the inside. Mad Mary sits in the middle of the floor of an
+upstairs bedroom. She is lost in her sorrow and despondency. She
+barely recognizes the presence of anyone in the room.
+Mary hid her beloved daughter, Gertruda, in this house for the
+girl's entire life. Gertruda broke out of the house and has not been
+seen since. Her mother fears the worst.
+Mad Mary, Barovian, F-0: AC 8; MV 9"; hp 1; #AT 1; Dmg 1-4;
+AL CN; S 4, I 14, W 3, D 12, Con 14, Ch 11,
+E4. Burgomaster's Home
+A weary-looking mansion squats behind a rusting iron fence.
+The iron gates are twisted and torn. The right gate lies cast
+aside while the left swings crazily in the wind. The stuttering
+squeal and clang of the gate repeats with mindless precision.
+Weeds choke the grounds and press with menace upon the
+house itself. Yet, against the walls, the growth has been trodden
+under to form a path all about the domain. Heavy claw mark-
+ings have stripped the once-beautiful finish of the walls. Great
+black blottings tell of the fires that have assailed the walls. Not a
+pane nor shard of glass stands in any window. All the windows
+are barred with heavy planking, each plank marked with stains
+of evil omen.
+The mansion is approximately 120 feet long east to west and 50 feet
+wide north to south. Ireena Kolyana is inside and will not open the
+heavily barred door to anyone unless absolutely convinced that
+those outside her door are of no allegiance to the Count. If the PCs
+covince her (or if Ismark is with them), she will open the door and
+invite them in. If the PCs enter, use the following boxed text.
+The interior of the house is well furnished, although the fix-
+tures show sign of considerable wear. Obvious oddities are the
+boarded-up windows and the overuse of holy symbols in every
+room. The Burgomaster is in a side drawing room — dead. He
+is lying in a room that is dark, despite the candles burning in
+his honor. The stench in the house is horrible.
+Ireena will accompany the PCs. She has been bitten twice by the
+vampire and can no longer be protected here. The townspeople are
+afraid of her and avoid her. The PCs are her only hope for
+protection.
+Ireena is a sweet but troubled woman. Although she may at
+first appear mild, she has a strong will and a good arm. By no
+means a hapless victim, she will aid the party as best she can in
+saving herself. Ireena does not remember her early past. She does
+not know how she came to Barovia nor where she came from.
+Ireena will inform the party that each night, wolves and other,
+terrible creatures attack the house. The Burgomaster's heart could
+not stand the constant assault and he died a natural death. Stran-
+gely, since his death, the wolves have not attacked the house. The
+Burgomaster has been dead for nearly 10 days, but no one from the
+town has been brave enough to help Ismark take him out for
+burial. As the Burgomaster has been dead for nearly a week, the
+letter presented to the party in the tavern is certainly forged.
+Ireena Kolyana, Barovian, F-4: AC 10; MV 12"; hp 6; #AT 1;
+Dmg 1-4; AL LG; S 13, I 10, W 14, D 17, Ch 18,
+E5. Guest House
+The guest house is roughly 50 feet square. It is the guest house of
+the Burgomaster's house, but it is not fortified against undead as
+are most of the other buildings in town,
+E6. The Church
+Atop a slight rise, against the very roots of the castle's pillar-
+stone, stands a gray, sagging edifice of stone and wood. This
+church has weathered the assaults of evil for centuries on end
+and is worn and weary. The bell tower hangs to one side, its
+sweet tone long silenced. Flickering light shines through holes
+burned through the roof shingles. The rafters strain feebly
+against their load.
+The church is 50 feet wide by 120 feet long. Its interior is a
+shambles, with overturned and broken benches littering the dusty
+floor. At a claw-scarred altar toward the far end is the priest.
+Donavich, Barovian priest, C-2: AC 10; MV 10"; hp 10; #AT 1;
+Dmg 1-4; AL LG; clerical spells; S 9,I 13, W 16, D 14, Con 14,
+Ch 15.
+The priest has been praying and chanting throughout the night.
+His voice is hoarse and weak. His spells today are:
+First Level: protection from evil, sanctuary, detect evil, remove fear
+He spent this night, as every night, warding off evil from his
+church. The priest knows the following.
+Only nightly prayers have kept the church a place of cleanly
+sacredness in Barovia.
+There is a book in the library of Ravenloft that might be able to
+help destroy the devil Strahd. It is well known from ancient times
+that Strahd kept meticulous notes on all that he did or said.
+Perhaps some weakness of his may be found there.
+Ireena Kolyana was not the natural daughter of Kolyan Indiro-
+vich. Although Ireena never knew, Old Kolyan found her one day
+at the edge of the Svalich Woods near the Pillarstone of Ravenloft.
+She was but a girl then and seemed to have no memory of her past.
+Old Kolyan adopted her as though she were one of his own and
+loved her dearly.
+E7. Cemetery
+During daytime, this is a quiet and peaceful place behind the
+church. Every night at midnight, however, a ghostly procession
+takes place. One hundred spirits rise from the graveyard and
+march up the road to castle Ravenloft. They have no interest in the
+living and cannot be hit, damaged, or turned. They will not
+communicate with the PCs. At the castle, the spirits march straight
+
+===== PAGE 11 =====
+10
+
+===== PAGE 12 =====
+to the chapel (K15), up the high tower stair (K18) to the top of the
+tower (K59). There, they throw themselves down the shaft toward
+the crypts, where they disappear. These are the spirits of previous
+adventurers who died trying to destroy Strahd. Every night they
+attempt to complete their quest and each night they fail.
+100 spirits: AC 0; MV 6"; HD 0; #AT 0; Dmg 0; AL CN.
+F. Road Junction
+Suddenly, the road splits into the forbidding Svalich woods.
+The northern fork slants up slightly to the north while the
+southern fork slants slightly downward. Dense fog obscures
+your vision. A cold autumn wind whistles down the northern
+lane, cutting icily through your clothing. Dead brown leaves
+rush about. There is no sound other than the wind and leaves.
+The northern fork leads to area G. The southern road goes to area
+I.
+G. Tser Pool Encampment
+The canopy of mist and branches overhead suddenly gives way
+to black clouds boiling far above. There is a clearing here. Dry,
+brittle grass rustles in the biting wind. On the far side of the
+clearing are several colorful wagons parked on the banks of a
+pool. The mournful strains of an accordion mix meekly with
+the moaning of the wind. Several brightly clad figures sur-
+round a large, roaring fire. The road seems to pass close by this
+camp.
+There are 10 gypsies standing and sitting around the fire. If the
+PCs approach the camp, they are asked to join in the singing
+around the campfire. Whether they join the singing or not, one of
+the gypsies tells them, "It was fated that you would visit this
+humble camp. Madam Eva foretold your coming. She awaits
+you." He leads the PCs into a large tent (area Gl). The gypsies
+attack only if some act of hostility or insult is displayed within the
+camp.
+l0 gypsies, F-4: AC 6; MV 12"; hp43,34,32,31,29,27,25,18,16,13;
+#AT 1; Dmg 1-8; AL NE.
+Gl. Madam Eva's Tent
+Use the following boxed text only if the PCs enter the tent.
+Within, all is dimly illuminated in pools of red light. A small,
+low table stands across from the doorway, covered in a black
+velvet cloth. Glints of light seem to flash from a crystal ball on
+the table as a hunched figure peers into its depths. She speaks.
+Her voice crackles like dry weeds. Her tone soars and falls like
+the wind outside. "At last you have arrived!" Her sudden cac-
+kling laughter bursts like mad lightning from her withered
+lips.
+This is Madam Eva. She speaks the name of each PC, and makes
+some reference to a past deed of each PC. She asks the PCs if they
+wish their fortunes to be read. If they agree she proceeds with the
+sequence outlined in Fortunes of Ravenloft on p. 4. If the PCs
+don't want a reading of their fates, continue play using the For-
+tunes of Ravenloft results you generated before starting the game.
+Madam Eva, gypsy, C-10: AC 10; MV 9"; hp 22; #AT 1; Dmg 1d4;
+AL CN; clerical spells; S 15,I 10, W 17, D 15, Con 13, Ch 8.
+Madam Eva can cast the following spells each day.
+First Level: darkness, protection from evil, cause fear, command,
+cure light wounds (X2)
+Second Level: augury, chant, hold person, know alignment, speak
+with animals, silence 15' radius
+Third Level: glyph of warding, curse (X2), locate object
+Fourth Level: cause serious wounds, detect lie, divination
+Fifth Level: true seeing, raise dead
+This old woman may seem crazed and mad to the PCs but she is, in
+fact, quite cunning and sharp of mind. She is never fooled by
+adventurers (she has seen a good many in her time) and is very
+neutral. She serves Strahd as long as that benefits her and her
+troupe. She never gives aid and never needs any.
+H. Tser Falls
+This is the bottom of the falls. There is nothing of any interest
+here. A stone bridge can be seen nearly a thousand feet
+overhead.
+I. Carriage
+Once again you continue down the fog-shrouded road, dead
+leaves crackling along your track. The road splits in two. The
+dirt road continues to the northwest while a wide road leads east
+into the heart of the dense forest. Patches of cobblestone show
+up through the east road, telling that it was once a great road.
+To the right side of the fork stands a large carriage with two
+horses. Both horses are black as pitch. The horses snort violent
+puffs of steamy breath into the chill air. The carriage door
+swings open silently.
+2 horses: AC 7; MV 18"; HD 2+2; hp 8,8; #AT 3; Dmg 1-6/1-6/1-3;
+AL N.
+The two horses pull the carriage. They are under Strahd's control,
+and wait until the PCs get into the carriage. There is plenty of
+room in the carriage for all of the PCs. If the PCs get into the
+carriage, the horses draw it down the road to area J. The horses
+cannot be discouraged from their course.
+J. The Gates of Ravenloft
+After passing through the craggy peaks of the Balinoks, the
+road takes a sudden turn to the east and the startling awesome
+presence of Ravenloft itself towers before you. The carriage
+comes to a stop just in front of twin guardhouses of turreted
+stone, broken from years of use and exposure. Beyond these, a
+50-foot-wide precipice gapes between the Balinok cliffs and the
+walls of Ravenloft, a chasm of dizzying depth that disappears
+into the fog-shrouded distance far below. The lowered draw-
+bridge of old shorn-up wood beams hangs precariously between
+you and the arched entrance to the courtyard. The chains of the
+drawbridge creak in the wind, their rust-eaten iron straining
+with the weight. From atop the high strong walls, stone gar-
+goyles seem to stare at you from their hollow sockets and grin
+hideously. A rotting wooden portcullis, green with growth,
+hangs in the entry tunnel. Beyond this, the main doors of
+11
+
+===== PAGE 13 =====
+Ravenloft stand open. A rich warm light spills from them into
+the courtyard. Torches flutter sadly in sconces on both sides of
+the open doors.
+The drawbridge creaks and groans under any weight but is rela-
+tively sturdy. Each time anyone except Strahd crosses the draw-
+bridge, there is a 5% chance of a cross board breaking. If a cross
+board breaks, the character on it must make a dexterity check or
+fall to the bottom of the cliffs, 1,000 feet below.
+A patch of green slime hangs over the entry tunnel. It turns
+living flesh into green slime in 1-4 melee rounds and eats through
+metal within 3 melee rounds. It can be scraped off quickly (if the
+scraper is discarded), excised, frozen, or burned. A cure disease kills
+green slime. The slime will not fall on characters entering the
+castle.
+1 green slime: AC 9; MV 0"; HD 2; hp 10; #AT 1; Dmg special;
+AL N.
+K. Castle Ravenloft
+Use the following Castle Ravenloft section to adventure inside the
+castle.
+Castle Ravenloft
+As the PCs enter the castle area, the weather worsens. Dismal rain
+starts to fall, turning into a torrent within an hour.
+Table 6. Castle Ravenloft Random Encounters
+Roll 1d6. If the result is a 1 or 2, the PCs encounter something. Roll
+1dl2 and use the encounter below with the resulting number.
+Roll Encounter
+1-2 10-100(10dlO)bats:AC6;MV4"/18";HD ld4;#ATO;Dmg 0;
+AL N.
+3 2-12 (2d6) wraiths: AC 4; MV 12"/24"; HD 5+3; #AT 1; Dmg
+1-6; AL LE; SA hit drains 1 energy level.
+4 1-10 Strahd zombies: AC 8; MV 9"; HD 4; #AT 1 per part; Dmg
+1-8; AL N; SA hit of 5 or more points dismembers, dismem-
+bered limbs attack; turn as mummies.
+5 1-8 giant spiders: AC 4; MV 3"/*12"; HD 4+4; #AT 1; Dmg
+2-8; AL CE; SA bite is poisonous.
+6 1-4 angry villagers: AC 8; MV 12"; HD 2; #AT 1; Dmg 1-6; AL
+NG. They are brandishing torches and pitchforks in a ridicu-
+lous display of force. They are enraged. Everywhere they go,
+they shout for justice. They follow the PCs unless prevented
+from doing so. As long as these citizens are with the adventur-
+ers, random encounters occur on a roll of 1, 2, 3, or 4.
+7 2-16 (2d8) gargoyles: AC 5; MV 9"/15"; HD 4+4; #AT 4; Dmg
+1-3 /1-3 / 1-6 / 1-4; AL N; SD +1 weapon or better required to
+hit.
+8 10-100 (l0dl0) bats: AC 6; MV 4"/18"; HD 1d4; #AT 0; Dmg 0;
+AL N.
+9 1-8 gypsies: AC 6; MV 12"; HD 6; #AT 1; Dmg 1-8; AL NE.
+10 2-16 (2d8) wights: AC 5; MV 12"; HD 4+3; #AT 1; Dmg 1-4;
+AL LE; SA hit drains 1 energy level.
+11 Use Table 7.
+12 Use Table 7.
+Table 7. Castle Ravenloft Special Encounters
+Roll 1d6. Use the encounter below with the resulting number.
+1 1-4 vampires: AC 1; MV 12"/18"; HD 8+3; #AT 1; Dmg 5-10;
+AL CE; SA hit drains 2 energy levels. These are old, hapless
+victims of the Count.
+2 1 groaning spirit: AC 0; MV 15"; HD 7; #AT 1; Dmg 1-8; AL
+CE. If the PCs have already defeated this spirit, roll again on
+this table. During darkness, this spirit may keen. If she does,
+everyone within hearing must save vs. deathray or die on the
+spot. If the PCs have encountered her before, and she keened,
+she cannot keen again.
+3 1 -2 rust monsters: AC 2; MV 18"; HD 5; #AT 2; Dmg Nil; AL
+N; SA hit rusts metal to dust. These monsters cannot damage
+the sun sword.
+4 1-6 spectres: AC 2; MV 15"/30"; HD 7+3; #AT 1; Dmg 1-8; AL
+LE; SA drains 2 life levels.
+5 1 helpful spirit: AC 0; MV 15"/30"; HD 9+2; #AT 1; Dmg 1-6;
+AL LG. Unless attacked, this spirit honestly answers one
+question from the PCs. The answer must be 25 words or less.
+After answering one question, or if it is attacked before ans-
+wering, this spirit disappears.
+6 Strahd von Zarovich: AC -1; MV 12"/18"; HD 10; hp 55; #AT
+1; Dmg 5-10 (ld6+4); AL CE; SA hit drains 2 life levels, see p. 3
+for other abilities.
+Castle Ravenloft
+Planned Encounters
+Ravenloft Courtyard use Map 2 for K1 -K6.
+K1. Front Courtyard
+If the party has not entered the keep (any room, K7-K88) read the
+following boxed description aloud to the players. The draw bridge
+is down and the portcullis open. If the party has already entered
+the keep, the drawbridge is up and the portcullis down.
+Thick cold fog swirls around in this darkened courtyard. Spo-
+radic flashes of lightning lance the angry clouds overhead.
+Thunder pounds the courtyard. A light drizzle begins to fall.
+Ahead, torch flames flutter in the wind on each side of the
+keep's open main doors. Warm light spills from those open
+doors into the courtyard. Doors in the gate towers on each side
+of the tunnel entrance are shut against the rain. A howling
+wind rushes through the courtyard. The dark towers of the keep
+loom above in the mists. Flickering lights shine from a short
+round tower on the south east side of the keep.
+12
+
+===== PAGE 14 =====
+The open main doors to the keep lead to room K7. Tall stone walls
+surround the courtyard.
+The gate tower doors are locked. Characters who enter one of
+the gate towers find themselves on a rock floor with a hollow tower
+stretching skyward above them. The mechanism for raising and
+lowering the drawbridge and portcullis fills both gate towers. The
+latch mechanism in each gate tower is magically activated by a
+word that only Strahd knows. Neither the drawbridge nor the
+portcullis will move until both latches are activated (either by the
+secret word, or by a dispell magic).
+K2. Center Court Gate
+A massive wall here joins the outer walls of the castle to the
+keep. A single gate, 20 feet wide, leads through the joining wall.
+The gate is blocked by a rusting portcullis.
+The portcullis is unlocked and can be lifted open if characters
+whose combined strength exceeds 10 points lift for 1 round. It is
+easily held open, but falls back into place once let go.
+K3. Servants Court
+The small door into the keep can be opened as a normal dungeon
+door. It leads to room K23.
+K4. Carriage House
+The double doors swing open to reveal a sleek, black carriage
+fitted with glass walls and a polished wood roof.
+K5. Chapel Garden
+Behind the towering boarded windows at the back of the keep, a
+small garden struggles to survive. Small flowers press sadly
+skyward against the gloom.
+A large iron gate leads to K6.
+K6. Overlook
+Dead leaves turn spirals about your feet, wheeling and careen-
+ing over the stone railing. Dark, surging clouds overhead driz-
+zle constantly. By looking over the edge of a low stone wall, you
+see that you are on a construction jutting out at least 20 feet
+from the cliff face. The gray dismal town of Barovia is 1,000 feet
+below. A set of dirt-caked windows are set into the cliff face, 110
+feet below the platform.
+Characters who wish to try entering the windows must first reach
+them. Getting to the windows requires finding some way to safely
+drop 110 feet down and move 20 feet back under the platform.
+Characters that fall plunge 1,000 feet to the rocky base of the
+Pillarstone of Ravenloft.
+Main Floor Use Map 3 for K7-K24.
+K7. Entry
+The ornate massive doors hang open. Fluttering torches cast
+dim yellow flickers of light from the entry way. Twenty feet
+into the castle, a second set of doors suddenly swings open
+effortlessly and the sounds of organ music flow out. Overhead,
+in the entryway, four statues of dragons glare down, their eyes
+flickering in the torchlight.
+If the PCs enter this room through the west doors, the dragons will
+not attack. If anyone except Strahd enters this room through the
+east doors, the dragons come alive, drop to the floor hissing and
+spitting, and attack. These small dragons allow adventurers into
+the castle, but not out of it. Whenever this room is empty, the
+dragons return to their perches and turn to stone. The dragons
+never leave this room.
+4 red dragons: AC -1; MV 9"/24"; HD 9; hp 18, 18, 18, 18; #AT 3;
+Dmg 1-8 / 1-8 / 3-30; AL CE.
+K8. Great Entry
+Use the following boxed description if the PCs are entering this
+room for the first time.
+Cobwebs hang from dust-covered columns of this great hall,
+illuminated by torches fluttering in iron sconces. The dust and
+webs cast strange, moving shadows across the faces of stone
+gargoyles squatting motionlessly on the rim of the domed
+ceiling. Cracked and faded ceiling frescoes are covered by cen-
+turies of decay. Two doors of bronze stand closed to the east. To
+the north, a wide staircase climbs into darkness. All the while,
+sad and majestic organ tones float about you from a lit hallway
+to the south.
+After all the PCs leave this room, the gargoyles attack any PC that
+returns to this room. The gargoyles also swoop down to fight if
+they are attacked. When the gargoyles attack, the air turbulence
+from their wings extinguishes the torches in the sconces.
+8 gargoyles: AC 5; MV 9"/15"; HD 4+4; hp 31,27,26,23,22,18,12,
+10; #AT 4; Dmg 1-3 / 1-3 / 1-6 / 1-4; AL CE.
+K9. Guests' Hall
+If the PCs are entering this hall for the first time, use the first boxed
+description. If they have been here before, use the second boxed
+description.
+Torchlight flutters against the walls of this vaulted hall. To the
+east, a dark and forbidding hallway runs into darkness. Beside
+that opening, a suit of armor, oiled and glistening, stands at
+attention in a shallow alcove. To the west, large double doors
+hang slightly open, a steady bright light escaping through the
+opening. Swells of organ music come from behind the doors,
+spilling their melody of power and defeat into the hall.
+The hallway lies in darkness. Double doors open to the west.
+To the east, a single arched corridor of stone masonry is lit by
+light from the circular stairs now visible some 20 feet away. The
+light is coming from up the staircase. The staircase also des-
+cends into a terrible darkness. Standing beside the archway to
+the stairs, a suit of armor stands in a shallow alcove, a dark
+shadow falling across its faceplate.
+The armor described is just a normal suit of plate mail that is well
+cared for. There is a 40% chance that it will fit any human party
+member.
+K10. Dining Hall
+If this is the first time the party has been here, use the first boxed
+description. If the party has been here before, use the second boxed
+description.
+13
+
+===== PAGE 15 =====
+This is a magnificent 40-foot-square room, brilliantly lit by
+three massive crystal chandeliers. Pillars of stone stand against
+dull white marble walls, supporting the ceiling. In the center of
+the room, a long, heavy table stands covered with a fine white
+satin cloth. The table is laden with delectable foods of every
+type: roasted beast basted in a savory sauce, roots and herbs of
+every taste, and sweet fruits and vegetables. Places are set for
+each of you with fine delicate china and silver. At each place
+there is a crystal goblet filled with an amber liquid whose
+delicate fragrance tantalizes your senses. At the center of the far
+west wall, between floor-to-ceiling length mirrors, stands a
+massive organ. Its pipes blare out a thunderous melody that
+offers in its tone greatness and despair. Seated before the keys,
+its back toward you, a single caped figure pounds the keys in
+raptured ecstasy. The figure suddenly stops and a deep silence
+falls over the dining hall. The figure slowly turns toward you.
+K13. Turret Post Access Hall
+The first time the PCs enter this room, the figure at the organ
+welcomes them and invites them to dine. The figure is an illusion
+of Strahd, created with the mirrors in the room. Strahd himself is
+elsewhere. The figure can be seen in the mirrors. The figure
+converses with the PCs for 3 rounds, never moving from the organ
+bench. When the 3 rounds are over, or if the illusion is attacked, it
+simply disappears with a mocking laugh.
+The moment the figure disappears, a fierce, bone-chilling
+wind rises up and roars through the hall, putting out all non-
+magical lights. The PCs hear the screech of ancient hinges and the
+solid thud of many heavy doors slamming shut, one after another,
+into the distance. They also hear the portcullis clang shut, and the
+tired groan of the aged drawbridge pulling up. After you describe
+those sounds, use the following boxed description.
+The vast room is dark. A wind whistles through its confines.
+Crystal sings in the darkness as the great chandeliers rustle in
+the wind. The fragrance of food wafts its way through the
+darkened hall.
+Behind the organ is a secret door to Kl 1.
+K11. South Ground Archers' Post
+A single arched corridor leads to the south. There are several
+mirrors in this room. A tall, dark figure in a flowing cape floats
+in the middle of the room. Old archers' slits in the north and
+west walls are bricked up.
+This is the room from where the illusionary figure of Strahd in
+K10 is worked. The floating figure is actually a mannequin sus-
+pended by black cords from the ceiling.
+K12. Turret Post
+A high domed ceiling caps the 30-foot-diameter room before
+you. Frescos, faded with age adorn the ceiling, but are impossi-
+ble to make out. Tall, thin arrow slits look out over the
+courtyard.
+The arrow slits are 2 ½ feet tall and 4 inches wide.
+This long, narrow corridor runs east and west. Cobwebs fill the
+hall and obstruct sight beyond a few feet.
+K1 4. Hall of Faith
+This long, dusty hall leads eastward into the dark heart of
+Ravenloft. Statues line the hallway on both sides, their eyes
+seeming to watch you as you pass.
+The statues are harmless. Their following eyes are a simple optical
+illusion.
+K15. Chapel of Ravenloft
+Dim, colored light filters through broken and boarded up stain
+glass windows, illuminating the ancient chapel of Ravenloft.
+Pews and benches lie about the floor in jumbled disarray,
+coated with centuries of dust. Beyond this debris, lit by a single,
+piercing shaft of light, an altar stands upon the platform. The
+light falls directly on a small statue. A figure is draped over the
+altar. This room seems as though nothing has disturbed it in
+centuries, and that nothing ever could.
+The small statue is the Icon of Ravenloft. The figure is all that
+remains of a mighty evil cleric who attempted to obtain the Icon of
+Ravenloft. Check your Fortunes of Ravenloft results for a possible
+encounter and other treasure in this room.
+The Icon of Ravenloft is a holy artifact of tremendous lawful
+good power. The artifact adds a +4 bonus to turn any undead and
+heals 6-21 (3d6+3) hit points once per day when used by a cleric of
+good alignment. The icon is a small carving of the purest silver. It
+is 12 inches tall and 6 inches across.
+The ceiling in this room and the balcony over the west wall
+cannot be seen from the floor without extra torches. If the PCs
+brighten the room, they see the figures sitting on the balcony in
+room K28.
+K16. North Chapel Alcoves
+This arched room opens into a vast chamber to the east, and a
+rising staircase to the west. Alcoves in the north and south walls
+open into this room. Within the dark confines of the alcoves
+lurk 8-foot-tall shadowy figures. Their stone forms show
+mighty muscled arms and legs. A black shadow falls across the
+features of their faces.
+The statues are harmless. The stairway is K29 and the vast chamber
+is the chapel, K15.
+K17. South Chapel Alcoves
+This arched room opens into a vast chamber to the east, and a
+huge circular staircase to the west. There are alcoves in the
+north and south walls of this room. Eight-foot-tall shadowy
+figures lurk in the cold, dark confines of both alcoves. The
+figures' muscular stone arms hold bright blades. Black shadows
+fall across the features of their face.
+The statues are harmless. The staircase is K18.
+14
+
+===== PAGE 16 =====
+15
+
+===== PAGE 17 =====
+K18. High Tower Staircase
+The large gray flagstones of this spiraling staircase lead up and
+down around a 20-foot-wide stone core. Cobwebs fill the stair-
+case, making it difficult to see even the ceiling. Heavy beams
+sag overhead from centuries of weight.
+The staircase starts at K84 and spirals upward around a central
+shaft to just below K17. A small crack in the outer stairway wall
+leads to K63. Just below K17, a solid masonry wall completely
+blocks the staircase. A small chink in the masonry wall allows gas
+to pass from one side of this wall to the other. Once past this wall,
+the staircase continues up past K17 300 feet to K59. The shaft that
+these stairs surround, K18a, runs vertically from K84 to K59 with-
+out any holes or obstructions. There is a solid wall between the
+staircase and the shaft.
+K18a. High Tower Shaft
+A dark stone shaft stretches out before you farther than you can
+see. Rushing wind sways the cobwebs that fill the shaft.
+This shaft starts at K84 and rises straight up through the keep to
+K59. A solid wall separates this shaft from the staircase around it,
+K18. The shaft is 390 feet tall. Wind blows up the shaft. Anyone
+falling down the shaft from K59 takes 20d6 points of damage.
+K19. Grand Landing
+Massive stairs rise to a landing 20 feet wide by 40 feet long.
+Stone arches support a ceiling covered with frescos, 20 feet
+overhead. The frescos faded lines depict the stone mountain
+atop which Ravenloft stands, being taken by armored forces on
+horseback. The faces of the characters in the fresco are scratched
+beyond recognition. Dust floats in the air here, making it
+difficult to see details. There is a staircase on each side of the
+20-foot-wide south wall. There are two alcoves between the
+staircases. Light filtering through the dust shows two suits of
+armor covered with dark stains, one standing in each alcove.
+Each suit of armor holds a mace designed like a curved dragon
+head. Engraved words on the arches above the alcoves are
+scratched out.
+Both staircases lead to K25. The massive stairs lead down to K8.
+Anyone crossing in front of the alcoves activates the suits of armor.
+The suits of armor are rigged to a mechanical device activated
+by pressure plates in front of the alcoves. There is a 60% chance that
+any weight over 400 gp (40 pounds) activates the trap. When
+activated, one of the suits springs forward, flailing its arms and
+mace. It hits and does 1-4 points of damage if it rolls 16+ on 1d20.
+After leaping out it retracts, only to leap again if weight is still on
+the plate. The device is purely mechanical and acts very much like
+a puppet. This little joke is intended to spook more than damage.
+K20. Tower Hall of Honor
+A mosaic floor stretches about into the darkness. A vast, empty
+tower rises above you. You cannot see more than a few yards up,
+yet you feel the tower's cold expanse pressing down on you. A
+spiral staircase rises slowly into the darkness circling the open
+shaft. In the center of the room, another set of stairs leads down.
+The staircase in the center of the floor leads down to hall K71. If the
+characters step onto the spiral staircase, they awaken the Guardian
+of Sorrow who will be active for 12 hours. The spiral staircase
+starts on Map 3, goes up past K13 on Map 4, past K46 on Map 5 to
+K60 on Map 9.The Guardian of Sorrow is this tower; this tower, including the
+spiral staircase, is alive! The Guardian's heart hangs at the top of
+the tower. There are 10 halberds mounted on the tower walls along
+the spiral staircase. The Guardian uses the halberds to attack the
+characters. The tower itself shakes and pitches, causing all charac-
+ters on the stairs to make a dexterity check every round or fall from
+the staircase to the floor below. Characters may crawl up the stairs
+at ¼ their movement rate without having to make dexterity checks.
+Only blows to the pulsing heart overhead can damage the
+Guardian.
+The Gardian of Sorrow: AC 8; MV 0"; HD 3; hp 10; #AT 6; Dmg
+1-10; AL NE.
+Use the following boxed description if the PCs awaken the Guard-
+ian of Sorrow.
+As you step onto the huge staircase, a reddish light flares to life
+high overhead, settling into a dull, pulsing red glow. You now
+see the full immensity of this tower. The spiral staircase circles
+up the tower's full height of 240 feet. At the domed pinnacle of
+the hollow tower, a pulsing red glass heart beats with light. The
+10-foot-wide stairs that circle up the tower end at a door far
+overhead. The hollow tower is about 60 feet in diameter at its
+base, narrowing toward the top. Fallen boulders and arrows are
+strewn across the floor.
+K20a. Tower Hall Stair
+This stairway leads from K71 to K.20.
+K21. South Tower Stair
+This stairway is lit by fluttering torches in iron sconces. A
+chilly wind rushes down the circling stairway, seeming to kill
+the very heat of the torches.
+These stairs start at K73 and go up through K61, K9, K30, and K35
+to K47.
+K22. Archers' Post
+This is where archers used to defend the keep. The castle court-
+yard is visible through narrow archers' slits that line the walls.
+The slits are 2½ feet tall and 4 inches wide.
+K23. Servants' Entrance
+Dim light filters in through dust-caked windows in the east
+wall. A large, heavy table sits in the center of the room coated
+with dust. A thick book lies open on the desk top with an
+inkwell and quill next to it. There is a broken door in the north
+wall. A staircase drops into total darkness in the south wall. On
+each side of the staircase, a skeleton in bright armor stands
+sagging at attention holding a rusty halberd. There is a door in
+the east wall next to the windows.
+16
+
+===== PAGE 18 =====
+The skeletons are hanging on pegs and pose no threat to the party.
+The staircase drops to K62.
+The ancient book is weathered and brittle, but the ink in the
+well is fresh. At the top of each page is scribed, "Please register for
+your own convenience and that of your next of kin." The book is
+over half-filled with names. All of the names are illegible.
+K24. Servants' Quarters
+K28. King's Worship Place
+Broken furniture and torn cloth are strewn about this 20-by-40-
+foot room. Dim illumination comes from the dirt-caked win-
+dows in the east and north walls. A rickety staircase climbs up
+to a second level.
+The stairs climb to K34.
+Court Of the Count Use Map 4 for K25-K34.
+K25. Audience Hall
+Dim light from the courtyard falls into this room in jagged
+shafts through the broken glass and iron frames of a large
+window in the west wall. This immense room stands in chilly,
+brooding darkness. Hundreds of dust-thick cobwebs drape the
+room, hiding the ceiling from view. Directly across from the
+window are double doors in the east wall. Ornate door carvings
+are obscured by a thick layer of dust. Further south, a single
+door also leads from the east wall. At the far southern end of the
+hall, a huge throne stands atop a raised platform. The back of
+the throne is turned to the room. Staircases at both ends of the
+north wall lead down.
+A small dais stands south of the throne. A secret door in the south
+wall leads to K13. The staircases in the north wall go down to K19.
+Check your Fortunes of Ravenloft results for possible treasure or
+encounters here.
+K26. Guard's Post
+Massive double doors open into this quiet 10-foot-wide section
+of dark corridor from the east and west. From both sides of the
+corridor, deep alcoves of darkness face each other with death-
+like silence. Almost beyond sight, seeming to float within the
+alcoves' blackness, human figures can be made out.
+The two figures are skeletons that were hung here long ago, each
+held up by a spear stuck through it into the wall behind it. The
+skeletons are harmless, even though they are both holding spears.
+A secret door in the back of the north alcove leads to K33.
+K27. Hall of Grace
+This 20-foot-wide hall has a dark vaulted ceiling. Shadows
+seem to dance across the distant ceiling. A low moan rises and
+falls the length of the corridor, intoning sadness and despair.
+The shadows are from the characters' flickering torches. The
+moaning is only the wind. Halfway down the hall on the south
+side there is a secret door that leads to room K31.
+This long balcony overlooks a vast rubble-strewn room. Two
+large, ornate thrones stand in the middle of the balcony that is
+covered with dust. The thrones face away from the brass-
+banded double doors that lead to the balcony. The thrones
+could easily shield someone sitting in them from anyone
+behind them.
+Two Strahd zombies are sitting in the thrones. They attack if any
+member of the party looks around the edge of the thrones. Other-
+wise, they remain still.
+2 Strahd zombies: AC 8; MV 6"; HD 4; hp 12, 10; #AT variable;
+Dmg 1-6; AL NE; single hit of 5 points or more dismembers,
+dismembered limbs attack; turn as mummies.
+K29. Creaking Landing
+A staircase of old wood climbs shakily up a stonework shaft.
+With each step upon it, the wood strains underfoot, creaking
+and groaning.
+This staircase climbs from K16 to K28. It may seem unstable but is,
+in fact, quite sturdy.
+K30. Office of the King's Accountant
+Dusty scrolls and tomes line the walls of this room and are
+scattered across the floor. In the center of all this clutter stands a
+huge accountant's desk. A figure crouches atop a tall stool,
+scratching a seemingly endless scroll of paper with a dry quill
+pen. A rope hangs next to the creature from a hole in the
+ceiling.
+The figure is Lief Lipsiege, an accountant. He is chained to the
+desk and has no interest in the PCs or their concerns. Under no
+circumstances will he voluntarily leave this room. Lief will pull
+the rope whenever he feels threatened.
+Lief Lipsiege, human accountant, F-0: AC 10; MV 9"; HD 2; hp 5;
+#AT 1; Dmg 1-4; AL CE.
+Lief was pressed into service by Strahd ages ago. Lief keeps all the
+books for Strahd, recording his riches and conquests. Lief has been
+here longer than he can remember. He is grumpy because the
+Count does not allow him to know about all of the treasures. Still,
+Lief found out where one of the treasures lies. Lief will, if treated
+with kindness, tell the PCs the exact location of the Holy Symbol
+of Ravenkind (See Treasures and Tomes for a description of this
+symbol. Then check your Fortunes of Ravenloft results for where
+the symbol is.) Lipseige will draw a crude map of how to get to the
+symbol. His map should be geographically accurate, but must not
+avoid any of the traps or other dangers that may lie in the way. Lief
+will not necessarily know the most direct route to the symbol.
+If the rope is pulled, a tremendously loud gong sounds. Within
+1-10 minutes, a monster from Table 6 appears and attacks the PCs.
+Treat the monster as a normal random encounter.
+Scattered about the room under the papers are 20,000 cp; 1000
+gp; 500 pp; and 100 reference books on accounting procedures
+worth 10 gp each.
+17
+
+===== PAGE 19 =====
+K31. Trap works K34. Servants' Upper Floor
+The aroma of grease and well-oiled wood fills your nostrils as
+you enter the room. The entire room is filled with intricate
+machinery. There are small passages between the gears and
+pulleys. Behind all the machinery, a cold shaft rises up from the
+darkness and continues past the room.
+This machinery raises a stone compartment from K61 past this
+room, K31, and K31b, to K47. The stone compartment moves up
+and down in a shaft, K31a. The bottom of the shaft is 90 feet from
+here.
+There is a 40% chance that any character who tries to activate
+the mechanism can do so. If activated, all of the gears, ropes and
+pulleys move at once. Well cared for, the device operates relatively
+quietly. When the trap is moving, a 10-foot-wide stone compart-
+ment rises past K31. There is a secret door in the top of the
+compartment. Anyone riding on the roof of the compartment
+while it goes up the shaft will be crushed against the top of the
+shaft within one round, taking 3-30 (3dlO) points of damage.
+K31a. Trap Shaft
+This deep shaft smells of well-oiled wood. There is a large
+wooden screw along the east wall, and another along the west
+wall.
+The shaft is 230 feet from top to bottom. When the trap is in
+motion, the screws turn, raising a stone compartment from K61
+past K31 and 31b through a trap door to K47.
+K31b. Trap Access
+This is a narrow, 10-foot-long corridor between the shaft, K31a,
+and a secret door leading to K39. The bottom of the shaft is 130 feet
+from here.
+K32. Maid's Hall
+Stained, yellowed lace hangs neatly from eight canopied beds.
+The single lithe figure of a woman moves about the room,
+dusting the furniture.
+The maid, Helga, is a vampire who will attack the PCs only when
+an opportunity to do so without having to fight the entire party
+presents itself. She also attacks if commanded to do so by Strahd.
+Helga, vampire: AC 1; MV 12"/18"; HD 8+3; hp 36; #AT 1; Dmg
+5-10 (ld6+4) + drain 2 levels; AL CE; SD +1 weapons or better
+needed to hit her.
+Helga will join the party, if asked to. She claims to be the daughter
+of a villager, cruelly forced into service of the Strahd. She will
+plead on her hands and knees, if necessary, to be saved from this
+awful place. She will play the part of the innocent female to the
+last, only revealing her ferocity as a vampire when she attacks. She
+is, in fact, the daughter of one of the townspeople but she chose a
+life of evil with Strahd.
+K33. King's Apartment Stair
+This hall and staircase lead up to K45 from K26 and K32.
+The floor sags in the middle of this room. Dirt-caked windows
+allow little light through from outside. Broken bedframes litter
+the floor.
+A secret door on the west end of the south wall leads to a ladder.
+The ladder leads up 20 feet to secret door into the stairway, K20.
+The stairway guardian activates as soon as the PCs step through
+the secret door onto the staircase.
+Rooms Of Weeping Use Map 5 for K35 - K46.
+K35. Facing Guardians
+A door of delicately engraved steel stands at the west end of this
+dark hallway. Intricate details still stand out clearly on the
+door's surface. The door seems to almost shine with a light of its
+own, untouched by time. Yet, on each side of this door there is
+an alcove filled with a darkness that shames the night. A figure
+stands like a shadow within each alcove, still as the cliffs of
+Balinok.
+The figures are wraiths that attack anyone attempting to move
+through this hall.
+2 wraiths: AC 4; MV 12"/24"; HD 5+3; hp 22,20; #AT 1; Dmg 1-8 +
+drain 1 level; AL LE.
+K36. Dining Hall of the Count
+Dust fills your lungs. The musty smell of death and decay swirls
+around you. Before you, a long table of polished oak lies
+beneath a blanket of dust. The rotting table cloth lies tattered
+beneath dusty china plates and stained silverware. In the center
+of the table, a large, tiered cake leans heavily to one side. The
+once white frosting has turned green with age. Cobwebs drape
+like dusty lace down every side. A single doll figure of a well-
+dressed woman adorns the crest of the cake under thick layers of
+dust. A window in the south wall is draped with heavy curtains.
+This room has wooden doors in the north and west walls, and an
+ornate steel door in the east wall. The toy figure of the groom from
+the top of the cake was cast on the floor; the PCs can find it if they
+search through the dust on the floor.
+K37. Study
+A blazing hearth fire fills this room with rolling waves of red
+and amber light. The walls are lined with ancient books and
+tomes, their leather covers well oiled and preserved through
+careful use. All is in order here. The stone floor is hidden
+beneath a luxurious rug of a deep-patterned weave. A large, low
+table sits in the center of the room, waxed and polished to a
+mirrored finish. Even the poker next to the blazing fireplace is
+polished. Large, overstuffed divans and couches stand in order
+about the room. Two luxurious chairs face the hearth. A huge
+painting hangs over the mantlepiece in a heavy, gilded frame.
+The rolling light of the fire illuminates the carefully rendered
+painting. It is an exact likeness of the Burgomaster's daughter,
+Ireena Kolyana. Though the painting is obviously centuries
+old, the likeness is unmistakable.
+18
+
+===== PAGE 20 =====
+There are two separate doors in the north wall. Another door is in
+the south wall and a set of double doors in the west wall. A secret
+door behind the fireplace is opened by lifting the poker from its
+stand. Remember that characters must put the fire out before
+passing through the fireplace, or take 1-6 points of damage for
+each round that they stand within the blazing hearth. Check your
+Fortunes of Ravenloft results for possible treasure and encounters
+here.
+K38. False Treasury
+K41. Treasury
+This smoky room lies behind the fireplace. Glinting through
+the smoke, gold, silver, and copper coins lie scattered around a
+closed chest. The fittings on the chest tell of great workman-
+ship. Attached to the east wall are two torch sconces. The
+southernmost sconce holds a torch with an intricate metal base.
+The other is empty. A skeleton of a man lies against the wall in
+broken plate armor. His right hand is on his throat while his
+left hand holds the matching torch from the empty sconce.
+There are 50 gp, 100 sp, and 2,000 cp scattered around the trap-
+rigged chest. The chest is unlocked. It opens easily, sending out a
+sleeping gas that makes characters unconscious for 1-4 hours. To
+avoid the sleeping gas, characters must make a saving throw vs.
+poison with a penalty of -4. If all the characters fall asleep, they all
+awaken unharmed in room K50, 4 hours later. If any of the charac-
+ters remain awake, nothing further takes place as a result of this
+trap.
+If the torch is taken from the dead man's hand and placed back
+into the empty sconce, the secret door on the north side of the east
+wall opens, leading to room K39. Taking the torch from the sconce
+at any time reverses the process. A good tactic for any wandering
+monster that encounters the characters in K39 is to remove the
+torch here in K38, effectively trapping the characters in K39.
+K39. Hall of Riches
+This ancient hall is choked with spider webs. Their dusty forms
+hide the very walls and ceiling. The webs are broken by a single
+cleared path down the center of the room.
+This hall ends at a pair of bronze doors of highly ornate design.
+These doors lead to K40. Remember that the mechanism for open-
+ing the secret door to K38 can only be actuated from K38. Behind
+the cobwebs against the south wall, a secret door leads to K31b.
+K40. Belfry
+Dusty cobwebs fill the area, their musty smell assaulting your
+senses and obscuring sight. Deep pools of darkness lie all about
+you as you attempt in vain to penetrate the spidery veils. A
+single path leads to the center of the room where a rope dangles
+from high above.
+The rope is attached to a bell 50 feet overhead. Pulling or attempt-
+ing to climb the rope sounds a loud, long "GONG." That sound
+causes five giant spiders to drop from their webs and attack. The
+spiders only attack if they are attacked or if the gong is sounded.
+Behind the cobwebs on the west side of the north wall there is a
+secret door that leads to K41.
+5 giant spiders: AC 4; MV 3"/*12"; HD 4+4; hp 24, 22, 22, 17, 12;
+#AT 1; Dmg 2-8 (2d4) + poison; AL CE.
+The plundered riches of Strahd's secret horde lie before you.
+The following treasures are in this room: 50,000 cp; 10,000 sp;
+10,000 gp; 1,000 pp; 15 100 gp gems; 10 1,000 gp jewels; a magical
+(glowing) sword (+2); and three maces (each +3). Check your
+Fortunes of Ravenloft results for possible treasure and encounters
+here.
+K42. Bedchamber
+Sweet smells waft from this delicately lit room. Windows on the
+west wall are covered by heavy red draperies, hanging stiffly
+from the high ceiling 20 feet overhead. Their tassels of golden
+fiber glint in the light of three candelabras sitting atop small
+tables about the room. Tall white candles burn with bright,
+steady light. A large bed, canopied by silken curtains, sits with
+its headboard against the north wall. Lying amid the velvet and
+satin sheets and bedclothes is a woman in a nightcoat. One of
+her dainty slippers has fallen to the floor at the foot of the bed.
+Carved into the headboard with great skill and care is a large
+"Z."
+Double doors lead from this room to the south and east. The figure
+in the bed is Gertruda, the daughter of Mad Mary. Gertruda is
+oblivious to any danger to herself—especially from Strahd. Shel-
+tered by her mother all of her life, Gertruda is innocent and
+believes only in a rather fairytale view of life. When faced with
+a decision, Gertruda almost always makes the most simplistic
+choice. She is naive to the point of being a danger to herself and
+others. Fortunately, Strahd has not yet bitten her. He is intent on
+his current plot and is saving her for later.
+Gertruda, Barovian, F-0: AC 10; MV 12"; hp 4; #AT 1; Dmg 1-4; AL
+NG, S 8,1 8, W 4, D 16, Con 13, Ch 16.
+K43. Bath Chamber
+In the center of this room stands a large, ornate iron tub.
+K44. Closet
+Within this room hang 28 capes and an assortment of black
+formal wear. Two windows in the south wall are covered with
+heavy curtains.
+K45. Hall of Heroes
+Long, low moans drift down from alcoves that line both walls
+of this long hall. The ceiling has fallen here, leaving rubble
+strewn across the floor. Overhead, the beams of Ravenloft's roof
+are exposed. Sporadic lightning from the clouds above flashes
+into this hall. A graven statue stands within each of the 10
+alcoves. Shafts of light cross the statues' faces at obscure angles.
+Another sudden flash and crack of lightning reveals their faces
+formed in the shapes of terrified men and women.
+The statues are imbued with the spirits of long-lost ancestors of
+Ravenloft who grieve at the loss of Ravenloft's former glory. Each
+spirit (one in each of the 10 statues) will answer one question for
+the PCs if asked directly. The spirits' answers should be short and
+vague. There is a 20% chance that each spirit's answer is wrong.
+19
+
+===== PAGE 21 =====
+
+
+===== PAGE 22 =====
+K46. Courtyard Overlook
+This is a wide walkway around most of the keep. The drizzle of
+rain continues. Far below these parapets are the shining wet
+cobblestones of the courtyard.
+This walkway runs around the front of the upper portion of the
+keep. To the north and south, a walkway runs along the top of a
+wall (over K2) to the outer wall of the castle. See Map 2 for the
+length and location of the castle walls. All of the windows leading
+from K46 into the keep are shut and locked, but can easily be
+broken.
+Spires Of Ravenloft Use Map 6 for K47-K53.
+K47. The Landing
+A landing of flagstone 10 feet wide by 20 feet long wobbles
+slightly underfoot. The chill draft of wind whistles mournfully
+through the room, rushing down from the circular stairs on the
+north end of the east wall. Pausing only for a single round
+through the landing, the wind continues down the stairs on the
+south. A single doorway with a heavy plank and metal-banded
+door opens to the west. Beside this door, an ancient portrait
+stands watch over the area, its still eyes staring defiantly back at
+your own.
+There is a base 10% chance that each member of the party sees the
+eyes in the portrait shift to look at him. The portrait attacks the
+PCs only if they attack it or if they try to enter this room through
+the door in the west wall. A trap door in the floor leads to K31a.
+The portrait attacks with its spells. The portrait's material
+spell components are built into its frame. The portrait tries to hold
+characters in front of it until Strahd commands it to release them.
+When the frame is destroyed the painting loses all its power.
+The Guardian Portrait: AC 8; MV 0"; HD 5; hp 15; #AT 1; Dmg 1-6
++ levitate and hypnotic pattern; AL CE.
+K48. Offstair
+This dusty spiraling staircase climbs up into the tower.
+This stairway rises from K47, past K54, to K57.
+K49. Lounge
+A low ceiling, supported by heavy beams, seems to press down
+on this room. The west wall curves with the tower and is fitted
+with three windows of leaded glass in steel latticework. Plush
+overstuffed chairs and couches are placed about the room.
+Their fabric has faded with age until the prints are nearly gone.
+A bookcase lines the east wall between two doors.
+The books are of no real help to the party. Some of the titles found
+on the bookshelf are: "Embalming, The Lost Art," "Life Among
+the Undead: Learning to Cope," "Identifying Blood Types: A
+Beginners' Handbook," and "Masonry and Woodworking."
+K50. Guestroom
+A huge bed sits in the center of this room, its four corner posts
+rising to a black canopy trimmed with gold tassels. Several
+comfortable divans are placed about the room. There is a
+banded door in the west wall and a smaller unhanded door in
+the east wall.
+There is no danger in this area during the day. However, during
+the night, the witches from K56 come through the east door (after
+attacking with a sleep spell) and take a member of the party, an
+NPC if possible, back to their lair at K56.
+K51. Closet
+This small, empty 10-foot-square room is lined with pegs to
+hang of cloaks and clothes on.
+There is a secret trap door in the ceiling through which the witches
+come to attack the party at night.
+K52. Smokestack
+Jutting from the steeply sloping rooftop of the castle, a spindly
+smokestack, 5 feet wide at the top, rises 30 feet from the peak of
+the roof, belching smoke from its iron-pronged capstone.
+The chimney leads down 60 feet to the blazing fireplace in K37.
+The smoke and fire in the chimney causes 1 -6 points of damage per
+round spent in the chimney. Characters take normal fire damage
+of 1-6 within the blaze below.
+K53. Rooftop
+The sagging rooftop of the keep slopes precipitously toward
+the courtyard some 100 feet below. The ancient roof tiles slide
+easily underfoot, gladly giving up their burden and dropping
+into the fog shrouded distance below. Each falling tile resounds
+with a hollow click as it hits the flagstones of the courtyard.
+There is a base 30% chance per round that anyone attempting to
+traverse this roof will start to fall toward the edge. Characters must
+make dexterity checks to catch themselves. Normal damage from
+the fall is 10-60 (10d6) points for those who fall and fail their
+dexterity check. Thieves can use their climb walls ability here, but
+with a 10% penalty. The roof hangs out over K46.
+K54. Familiar Room Use Map 7 for K54-K56.
+As you enter this room, an evil essence embraces you. Torn and
+broken couches lie in heaps, haphazardly strewn about the
+20-foot-square room. The low ceiling seems to press down
+upon you. Deep claw marks cover the hardwood furniture.
+Claw marks have also sliced the once lush upholstery to shreds.
+From the dark shadows amid the rubble, three pairs of green
+eyes stare back at you.
+3 black cat familiars: AC 7; MV 12"; HD 1; hp 4, 2, 1; #AT 2;
+Dmg 1-4; AL CE.
+These are the cat familiars of the witches in K56. If the familiars see
+the PCs here, the witches are alerted to their presence.
+K55. Element Room
+This is a large oppressive room with a low ceiling of heavy
+beams. This room is lit only by the dim light of two leaded glass
+21
+
+===== PAGE 23 =====
+windows in the south wall. Steel lattice work covers both win-
+dows. Several tables stand throughout the room, their legs
+seeming to barely support the glass jars and bottles that sit atop
+them.
+K58. Bridge
+There is a secret trap door in the floor at the northeast corner of the
+room. Perceptive characters might notice a disturbance in the dust
+on the floor leading to the eastern door on the north wall. The dust
+appears as though something was dragged across the floor from
+the trap door to the doorway. The bottles contain clearly marked
+elements of magical use such as "Eye of Newt," "Hair of Bat,"
+"Snail hearts," and "Maresweat." There are, however, no com-
+pleted potions among the bottles.
+K56. Caldron
+Through the darkness of this room you can just barely see
+green-glowing wisps bubbling up from a huge black kettle.
+Electric sounds of cackling suddenly strike, sending a shudder
+through you.
+7 witches, human: AC 8; MV 9"; HD 2; hp 13,12, 8,8, 7,6,2; #AT 1;
+Dmg 1-4; AL CE; SA see spells below.
+The witches attack immediately. They are incanting in this room.
+Each witch can cast two spells.
+Witch #1: burning hands, charm person.
+Witch #2: dancing lights, detect magic.
+Witch #3: feather fall, friends.
+Witch #4: hold portal, dark.
+Witch #5: magic missile, protection from good.
+Witch #6: push, read magic.
+Witch #7: shield, shocking grasp.
+The witches' spellbook sits open beside the far side of the kettle.
+The book is evil and does 3-30 (3dl0) points of damage to anyone
+of non-evil alignment who even touches it. The book can be
+handled by evil characters. It contains all of the spells the witches
+know (see above) plus fear, curse and cloudkill spells and is worth
+42,750 gp. The spellbook cannot be found until after all the
+witches are destroyed.
+Use Map 8 for K57-K58.
+K57. Parapet Pentagram
+This is the top of the tower. A turmoil of black, boiling clouds
+rolls unceasingly over the dark towers of Ravenloft. The 60-
+foot-diameter tower roof is rimmed with broken parapets that
+drop into the swirling mists of fog below. A slender stone
+bridge spans the gap between this tower and the tower to the
+north, some 20 feet away. To the east, the high tower of Raven-
+loft thrusts skyward with no apparent opening at this point.
+The courtyard is 190 feet below. Anyone falling off the south or
+east edge takes 19-114 (19d6) points of damage. The roof of the
+keep is 80 feet from this point, so anyone falling off the north or
+west edge of the tower first takes 8-48 (8d6) points of damage, then
+must make a dexterity check or fall to the courtyard for an addi-
+tional 10-60 (10d6) points of damage.
+This slender stone and masonry bridge hangs in the swirling
+fog. The stones are wet and slippery. The old iron handrailings
+rusted away years ago, leaving the bridge without hand holds.
+The bridge connects K57 and K20. See K57 for falling damage.
+K59. Hightower Peak Use Map 10 for K59.
+The spiraling staircase finally ends at a 5-foot-wide walkway
+that circles the shaft. In the center of the tower's highest floor, a
+15-foot-diameter hole drops into the cold heart of Ravenloft
+itself. Cold air rushes up from the shaft sending a chill through
+your every bone. Archers' slits line the walls. Aging beams
+support a steep roof. One beam and part of the roof have fallen
+away, leaving a gaping hole to the sky.
+The hole is K18a.
+K60. Northtower Peak Use Map 9 for K60.
+The stairs emerge into a brightly lit room with manacles at-
+tached to the walls and a wooden frame bed.
+Check your Fortunes of Ravenloft results for possible treasure
+here.
+Larders of Ill Omen use Map 11 for K61-K72.
+K61. Hallway
+A web-filled stairway spirals down into the south end of this
+10-foot-wide arched hallway. The stairs continue to wind down
+further into the unholy depths of Ravenloft. A door leads out
+from the north end of this hallway.
+There is an elevator trap in this hallway triggered by pressure on a
+panel in the floor. There is a secret door in the ceiling over the floor
+panel. The secret door can be opened; it leads to K31a.
+Anything weighing 400 gp (40 pounds) or more has a 30%
+chance of triggering the trap. Roll for each character as he crosses
+the floor plate. When the trap is sprung, two steel portcullises drop
+with lightning speed, closing off the middle 10-foot section of the
+hallway. Characters must make a dexterity check with a +5 bonus
+to avoid being hit by the closing portcullis for 1-8 points of
+damage.
+As soon as the steel portcullises close, two stone blocks, 10 feet
+wide by 2 feet deep, slowly descend from the ceiling. The stone
+blocks take 1 full round (60 seconds) to drop to the floor, closing
+just behind the steel portcullises. The blocks weigh 40 tons apiece
+and are an irresistable force. Characters trapped between the stones
+must make a saving throw vs. poison (sleeping gas) with a -4
+penalty or fall asleep. Those who remain awake inside the trap feel
+the floor suddenly rush upward. The stone compartment they are
+in takes them to K47. The trapped and sleeping characters present
+an excellent opportunity for Strahd to attack.
+Characters who are not trapped between the falling portcul-
+lises see the stone walls fall around their fellow adventurers, hear
+several terrible grinding noises from within for 1 melee round, and
+then watch the stones and portcullises rise—revealing a clear
+corridor.
+22
+
+===== PAGE 24 =====
+K62. Servants' Hall K66. Butler's Quarters
+This hall stands in deadly silence. The low ceiling sags from
+heavy beams. A fog clings to the floor in thick patches, obscur-
+ing everything less than 3 feet above the floor. A giant shadow is
+cast across the ceiling as a dark figure shuffles purposefully
+down the corridor toward you.
+At the east end of the hall is a rusted but sound portcullis leading to
+K63. The double doors to the west are made of heavy planks,
+banded with steel. Stairs on the east end of the north wall lead up to
+K23. The figure approaching is Cyrus Belview who will not attack
+first. The light in the room comes from a lantern on the floor
+behind Cyrus.
+Cyrus Belview, human, F-0: AC 8; MV 12"; HD 2; hp 8; #AT 1;
+Dmg 1-4; AL CN.
+Poor old Cyrus is obviously crazy. He has served the master for
+uncounted years and is totally devoted to him. Cyrus tries to get the
+PCs to retire "to your room in the tower" (K49). If the PCs do not
+go to K49, Cyrus returns to his work of preparing his dinner in
+K65. Cyrus tends to giggle to himself from time to time for no
+apparent reason. He also likes to tell poor jokes at the most
+inopportune moments.
+K63. Wine Cellar
+Arched frames of stone form a low wet ceiling over this wine
+cellar. Great casks of wine line the walls, their bands rusting
+and their contents long since spilled onto the ground.
+At the far south end of the west wall, a crack, ½ inch wide by 5
+inches long, leads to K18.
+K64. Guards' Stair
+This is a spiral staircase of gray, dusty stones.
+This stairway starts at K68 and goes up past K13 to K46.
+K65. Kitchen
+A horrible odor of decay assaults your senses as you enter this
+steaming room. A huge pot bubbles over a blazing fire in the
+center of the floor, its green, muddy contents rolling over and
+over.
+Any characters that look into the pot encounter the zombies that
+are in the pot. If Cyrus Belview is present (see area K62 above)
+when the zombies attack, he grabs a large club near the door and
+tries to beat them back into the pot. Cyrus explains that he just
+isn't the cook he used to be and his meals tend to get out of hand
+these days.
+3 (normal) zombies: AC 8; MV 6"; HD 2; hp 5,4,2; #AT 1; Dmg 1-8;
+AL N.
+This 20-foot-square room is cramped by numerous items fill-
+ing it from wall to wall. A small sagging bed sits to one side
+under a huge faded tapestry of Ravenloft castle. Dusty lanterns
+sit in various places. Huge, rich curtains are draped hapha-
+zardly about the room. Thousands of pieces of junk cover the
+floor. Broken swords, crumpled shields and helmets lie in piles
+all about.
+There is nothing of value in this room. If Cyrus Belview is with the
+party, the PCs should notice that he is fingering their equipment
+and chuckling to himself. Cyrus has been picking up equipment
+from dead adventurers for years. He looks forward to adding to his
+collection after Strahd gets through with the PCs.
+K67. Guards' Hall
+Darkness, cold as a winter sweat, wraps around you. Large oak
+tables, scarred and beaten, lay scattered like toys about this
+room, their wood crushed and splintered. Dark stains cover the
+floor and the wall.
+The room is 30 feet wide east to west and 60 feet long north to
+south. There is a door in the center of the north wall and a door in
+the center of the south wall. A set of double doors lead from the east
+wall.
+K68. Guards' Run
+This 10-foot-wide arched corridor starts at a heavy wooden door
+on the north. Cool, moist air blows out from an archway in the
+west wall.
+The archway leads to K69. The north door leads to K67. The
+hallway ends at K64 to the south.
+K69. Guards' Quarters
+Sickly yellow lichen covers the ceiling of this 10-foot-wide
+passage running east and west. Opening off to both sides of this
+passage are 10-foot-square alcoves. Rotting cots and rags are in
+the shadows of the alcoves. A deathly silence fills the hall.
+When the characters enter the hall halfway, 10 skeletons leap from
+the alcoves and attack.
+10 skeletons: AC 7; MV 12"; HD 1; hp 7,7, 7,6,6,5,3,3,1,1; #AT 1;
+Dmg 1-6; AL N.
+K70. Kingsman Hall
+This 30-foot-square room lies in chaos. Shattered furniture lies
+in heaps near the walls. Broken bones lie scattered amid
+crumpled and crushed plate armor. Shields and swords jut from
+the walls as if driven there by some tremendous force. There is a
+door in the center of the north wall, and a door in the center of
+the south wall. A dark archway leads out through the east wall.
+K71. Kingsmen Quarters
+A dark, low passage leads to an ascending staircase. Sickly
+yellow lichen covers the ceiling. There is a small room on each
+side of the passage.
+23
+
+===== PAGE 25 =====
+K72. Office of Vengeance
+This shadowy room is in perfect order. An old cot stands to one
+side, its heavy blanket made taut and straight. A great table
+stands with its chair, inkwell, and quill lying carefully in place.
+Lances and swords are carefully hung on the walls.
+A shadow demon lives in this room. After the party enters the
+room, the demon will leap out and attack. A secret door in the
+north end of the west wall leads to K79.
+1 shadow demon: AC 1; MV 12"; HD 7+3; hp 35; #AT 3;
+Dmg 1-8/1-6/1-6; AL CE; SA +2 to hit, can cast darkness 10'
+radius, fear once per day; SD takes half damage in darkness or
+torchlight, immune to fire, cold, and lightning, turn as "spe-
+cial" undead, 50% chance of going undetected.
+If illuminated by a torch, the demon becomes AC 5, only +1 to hit,
+and takes normal damage. If a light spell is cast upon it, the demon
+takes 1-6 points of damage per level of the caster, as if struck by a
+fireball. The demon appears as a shadowy humanoid form with
+dim red eye slits.
+Dungeon and Catacomb use Map 12 for K73-K88.
+K73. Dungeon Hall
+The stairs descend into black, still water that fills an arched
+hallway before you. The water's surface is like dark mirrored
+glass, disturbed only occasionally by the "thwick" of a drop
+falling from the ceiling. Twenty feet down the hallway, arched
+doorways lead downward 2 feet from each side of the hallway.
+In each arched doorway, an iron door stands closed and par-
+tially submerged. All is still except for a weak cry for help
+coming through the south door.
+The floor beneath the water is not as solid as it may seem. There is
+a safe path (see Diagram A), but the rest of the floor is covered with
+special weight-sensitive trap doors. There is a 5% chance per 100 gp
+(10 lbs.) weight that a person standing on the false floor will cause
+the trap to open. The pit under each trap door is a teleport that is
+activated by the opening door.
+The numbers on the floor in Diagram A are the cells the traps
+teleport to. If a character sets off a trap, other characters in the hall
+see an explosion of air and water fly up around the trapped
+character (air that was trapped in the pit is released suddenly when
+the trap door opens). The trapped character suddenly falls from
+sight. The trap doors automatically reset themselves, leaving only
+a slowly dissipating swirl in the water. Trapped characters are
+teleported into dungeon cells, closed with iron bars, the floor 5 feet
+under water (see areas K74 and K75). Strahd attacks lone characters
+here if he can.
+K74. North Dungeon
+The fungus-laden ceiling hangs 3 feet above still, black water
+that fills this dungeon corridor. The water is 5 feet deep. Small
+cells, their entrances blocked by iron bars, are on both sides of
+this arched central hall. Liquid drips from the hanging growth
+on the ceiling.
+The corridor is 40 feet long. There is a secret door 5 feet up the
+north wall of cell "e" that leads to a polished marble slide (K82).
+The secret door can only be opened from K82.
+In each cell listed below, many previous adventurers gave up
+their gold. All the items are lying under water.
+Cell a 6100 ep
+Cell b 5600 ep
+Cell c 600 pp
+Cell g 6900 ep
+Cell h magical (glowing) +2 sword, LG; I 11; EGO 9
+K75. South Dungeon
+Use the boxed description from K74. A werewolf lurks in the water
+in cell a, waiting. There are 650 pp in cell b.
+1 werewolf: AC 5; MV 15"; HD 4+3; hp 17; #AT 1; Dmg 2-8 (2d4);
+AL CE; SD can only be hit by silver or +1 or better weapons.
+The werewolf appears as a villager. He begs the PCs to rescue him.
+He was locked in here by Strahd because he disobeyed Strahd. The
+werewolf is anxious to prove his worth to Strahd, so he will try to
+join the party and attack the PCs at the first good chance.
+K76. Torture Room
+Dark, low shapes thrust up out of the still, brackish water that
+fills this room.
+This room is 50 feet square. The ceiling is 17 feet above the water,
+which is 3 feet deep. There is an arched exit in the center of the east
+wall. To the north, a large balcony (K77) stands 7 feet above the
+level of the water in the room. Close examination reveals that the
+dark shapes in the room are racks, iron maidens, stocks, and other
+torture apparatus. The skeletons of their last victims seem frozen
+in silent screams. The lower portions of them are underwater.
+They are Strahd Zombies who attack after the party is in the room.
+The zombies rise slowly out of the water, their slime-gray arms
+clawing upward through the water as they attack.
+6 Strahd zombies: AC 8; MV 9"; HD 4; hp 18, 16, 15, 13, 12, 10;
+#AT 1; Dmg 1-8; AL N; single hit of 5 or more points dis-
+members, dismembered limbs attack; turn as mummies.
+K77. Observation Balcony
+There are two large thrones on this balcony. Behind the throne
+is a large red velvet curtain running 30 feet from the east wall to
+the west wall. The ceiling here is 10 feet high.
+This room continues behind the curtain an additional 10 feet to a
+wall with a door in the center of it. The door leads to K78. A bag
+containing 600 pp is hidden beneath the western-most throne.
+Diagram A. Traps in K73
+24
+
+===== PAGE 26 =====
+25
+
+===== PAGE 27 =====
+K78. Brazier Room K79. Western Stair
+This room is 30 feet square, rising to a 20-foot-tall flat ceiling.
+Gargoyle carvings smile, revealing their teeth, from high upon
+the walls, well lit by a brazier that burns fiercely in the center of
+the room. From their alcoves in the center of the east and west
+walls, two iron statues stand saluting with their weapons bared.
+Each statue has four arms, one with a shield, one with a sword,
+and the remaining two with their palms toward the ceiling over
+their heads. Their eyes seem to watch you as you walk about the
+room. High overhead, an hourglass with writing on its base
+hangs suspended above the brazier. All of its sand is in the
+upper portion, somehow refusing to run down into the bottom.
+In the center of the room next to the brazier is a golden chest. A
+single door stands in the south wall while three doors line the
+north wall.
+The statues are iron golems. Each golem holds a stone in each
+hand.
+2 iron golems: AC 3; MV 6"; HD 10; hp 80, 80; #AT 1; Dmg 4dlO;
+AL N; SD immune to all spells except electrical attacks, which
+slow them to 50% movement; magical fire-based attacks repair
+instead of damage.
+The writing on the base of the hour glass reads:
+In the palm of my hand
+Is the time left to thee
+When it's consumed
+Will the flame set you free!
+All the doors in this room are spring-loaded and shut on their
+own if not prevented from doing so. When all the doors are shut,
+the sands in the hourglass start falling and run for 5 rounds. All of
+the doors lock shut. After the sands run out, the golems activate
+and attack for 5 rounds. They then return to their original posi-
+tions, at which time the door the party entered the room by
+unlocks. The opening of any door resets the hourglass sands. Only
+a single door can be opened at any one time. To open a door other
+than the one they entered the room by, the characters must get one
+of the stones from the statues' hands and place it into the flaming
+brazier in the center of the room. If they do, the fire seems to
+consume the stone, but the stone magically appears again in the
+palm of the statue's hand. The stones activate the doors as follows:
+DOOR
+Southern door
+West door on North wall
+Center door on North wall
+Eastern door on North Wall
+STONE GOLEM HAND
+Red Stone West Right
+Blue Stone West Left
+Black Stone East Right
+Opal Stone East Left
+The golems remain inanimate until the sands of the hourglass run
+out. They will not use their natural poisonous gas ability. They
+can only be struck by +3 weapons or better.
+The chest appears locked. Opening the chest from the front
+releases a cloud of sleeping gas from the false compartment in the
+top. Once the false top has been opened, an illusion shows an
+empty trunk. The trunk actually opens from the back and contains
+a deck of many things; a scroll of protection from magic; a scroll
+containing the two clerical spells dispel evil and flamestrike; and
+two potions of healing.
+This staircase of ancient stone is worn smooth through use in
+ages long forgotten. Dust lies upon the floor and dry cobwebs
+choke its passage.
+The stairs rise at a 45 degree angle for a distance of 40 horizontal
+feet where they come up to a landing 10 feet square. A second set of
+stairs continues upward to the east at a similar angle a distance of
+30 horizontal feet ending at a door to K72.
+K80. Center Stair
+The door creaks open to reveal a stone staircase between rough
+masonry walls. The hall is relatively free of obstruction and
+there is little dust on the steps. A cool dampness seems to flow
+from within as a thick fog slowly forms in the room. The
+staircase is obscured in the swirling mists. The wind within
+howls mournfully.
+The stairs rise at a 45 degree angle a distance of 20 horizontal feet to
+a 10-foot-square landing. The masonry walls then abruptly end
+opening into a roughly hewn tunnel heading east (K81).
+K81. Tunnel
+This is a long, low tunnel. Its rough damp walls are barely
+discernible through thick fog. This tunnel passes through the
+rock-pillar of Ravenloft itself.
+Dwarves can tell that this is a relatively new construction com-
+pared to that which has been seen thus far. The tunnel is 80 feet
+long and ends in a stone door. There is a trap door in the floor, 25
+feet east of the top of the stairs.
+The trap is activated by weight. There is a 5% chance for every
+100 gp weight (10 pounds) on the trap door that the door suddenly
+opens. When the trap door opens, everyone who is standing on it
+falls onto the marble chute in K82.
+K82. Marble Slide
+This is a smooth dark shaft of polished black marble.
+The shaft plunges from the trap door in K81 through a one-way
+secret door into cell e in K74. Thieves have a penalty of -35% on
+their climb walls ability here.
+K83. Western Stair
+This is a dark spiral staircase of rough-hewn stone.
+The staircase starts at K78, goes up to K83a, then continues up to
+K37.
+K83a. Western Stair Landing
+This 40-foot-long corridor connects two spiral stairways. The
+stairway on the north end of the west wall leads down further
+under castle Ravenloft. The stairway on the south end of the
+west wall leads up out of sight. All the stones in the walls and
+stairways are rough-hewn.
+The north stairway leads down to K78. The southern stairway
+leads up to K37.
+26
+
+===== PAGE 28 =====
+K84. The Catacombs
+Buried deep beneath the keep of Ravenloft, this arched ceiling
+sags over squat crypts, forming these catacombs. A thick fog
+clings to the floor at knee height. Cobwebs hang limp in the
+musty air. Thick dust has settled over everything, filling the
+crypts' engravings, making it difficult to make out the names of
+those buried here. The black ceiling is moving.
+PLEASE READ THIS SECTION WITH CARE. MUCH ACTIV-
+ITY CAN TAKE PLACE HERE. The catacombs fill an area
+roughly 110 feet east to west by 180 feet north to south. The
+catacombs are made up of 10-foot-wide arched walkways running
+between 10-foot-square crypts. The arched walkways and the
+crypts support the ceiling. There are five exits.
+1. The crypt 1 door to the tunnel, K81.
+2. The barred doorway north to room K85.
+3. The barred doorway east to room K87.
+4. The teleport in crypt 32 to room K86.
+5. Up the high tower stair (K18) or shaft (K18a) to the west.
+Each crypt houses the remains of the person (or persons) listed
+on the crypt's stone door with an epitaph. The percent chance of
+opening a crypt door is equal to twice the total number of strength
+points applied. Super-strength characters add their percentages
+bonuses directly to the total chance. Each crypt is described below.
+Unless noted otherwise, each crypt contains a 3-by-5-foot rectan-
+gular slab of marble, 3 feet high, with a skeleton draped in rags
+lying atop it.
+3,000 bats: AC 6; MV 4"/18"; HD 1d4; #AT 0; Dmg 0; AL N.
+The bats hang here during daytime hours and fly out in the
+evening through K18a to hunt at night. They will not attack
+humans unless specifically commanded to by Strahd or unless
+provoked. These bats do no damage but do get in the way of spell
+casting. While these bats are attacking, any character attempting
+to cast a spell with a material component must make a dexterity
+check for the spell to work. Make it obvious to the players that
+killing the bats is more trouble than it is worth.
+There are transpositional teleports between crypts 37 and 38,
+between crypt 37 and the wall south of it, and between crypt 38 and
+the wall south of it. These teleports form a protective ring around
+the obvious entrance to Strahd's coffin. These teleports exchange a
+living body passing through them for the undead body of a wight
+from crypt 14. Since the transfer is practically instantaneous, and
+since only living and undead matter is teleported, the teleported
+character's armor, clothing, etc., becomes suddenly occupied by a
+wight. The teleport puts the wight into the same pose the character
+it is replacing had. The teleport exchange appears to others as
+though the character who was walking through the crypt passage
+suddenly turned into a wight. The wight turns and attacks the
+party with the original character's weapons. A wight appearing in
+a PC's clothing and armor is not damaged by any holy symbols
+that PC had (because the symbols are not forcefully presented).
+The teleported character finds himself lying in a dark, confined
+space (the interior of the wight's coffin) wearing ragged, rotting
+cloth. The coffin lid requires a lift gates throw to be made with a
+penalty of -5% to open it because of the confined space. If Strahd
+attacks at this time, he may want to help open the coffin lid and
+attack the character in it.
+Once out of their crypts, the creatures in K84 will pursue the
+PCs anywhere, except into rooms K85, K86, and K87.
+Each crypt is listed below. The epitaph on each stone door is
+written in quotes.
+Crypt 1. "Spectre Ab-Centeer. She now walks that path of pain and
+torment. A gift to all who look upon her still."
+The stone door leads not to a crypt, but to a hewn tunnel of stone
+(K81).
+Crypt 2. "Artista DeSlop — Court Ceiling Painter"
+Crypt 3. "The Lady Isolde Yunk (Isolde the Incredible). Purveyor
+of Antiques and Imports."
+Crypt 4. "Prince Aerial Du Plumette (Aerial the Heavy)"
+1 ghost: AC 0/8; MV 9"; HD 10; hp 40; #AT 1; Dmg age 10-40 years;
+AL LE.
+The stone door is on the south side of this crypt. Ariel was a terrible
+man, who sacrificed more than himself in his quest for wings.
+Characters that see this ghost age 10-40 years and flee in panic for
+for 2-12 (2d6) turns unless they make a saving throw vs. spells.
+Clerics above 6th level are immune to this attack, and other classes
+above 8th level gain a +2 bonus on their rolls. The ghost attacks
+with a magic jar spell while ethereal, or by touch if materialized as
+noted. Spells do not work against a ghost unless they are cast on
+the ethereal plane. Any human, dwarf, elf, gnome or halfling that
+is killed by a ghost is dead forever.
+Crypt 5. "Artank Swilovich: Here interred and with great mourn-
+ing courtesy of the Barovian Wine Distillers Brotherhood."
+Crypt 6.
+The name and epitaph on this crypt have been clawed off as if by
+some mad tormented beast. The stone once read, "Marya Marko-
+via: Great was her beauty, undone by a jealous hand."
+Crypt 7.
+The stone door lies on the floor, obscured by the fog. The crypt
+gapes open. Rags of white linen lie flat on the slab. A spectre waits
+within.
+1 spectre: AC 2; MV 15"/30"; HD 7+3; hp 40; #AT 1; Dmg 1d8 +
+drain 2 energy levels; AL LE; SD +1 or better weapon to hit.
+This spectre is not affected by sleep, charm, hold, or cold based
+spells. Anyone totally drained of levels by the spectre becomes a
+half-strength spectre in the control of the monster that drained
+him.
+Rotting leather bags under the linen cloth contain a total of
+3,400 gp.
+The epitaph reads: "Endorovich (Endorovich the Terrible):
+What the blood of an thousand slaves did not do, the spurn of a
+woman accomplished." This man loved Marya (see crypt 6) and
+found that she loved someone else in his court. As Marya and her
+lover were dining, Endorovich put poison into the man's wine
+27
+
+===== PAGE 29 =====
+glass. The glasses were mixed up and the girl drank it instead. The
+lover was hanged for the deed and buried in the cemetery behind
+the church in Barovia township. Endorovich never did get over his
+guilt and, in his madness, killed many in his lifetime.
+Crypt 8. "Duchess Dorfniya Dilisnya"
+Crypt 9. "Pidlwik (Fool of Dorfniya)"
+Four earthen jars in a corner of the crypt each contain 1,550 ep.
+Crypt 10. "Sir Leanne Triksky (Sir Lee the Crusher). What sword
+did not, time's passage did."
+Three pieces of jewelry are draped over the skeleton, each valued at
+5,000 gp.
+Crypt 11. "Tasha Petrovna, Healer of Kings. Light unto the West.
+Servant. Companion."
+Crypt 12. "King Toisky"
+Crypt 13. "King Intree Katsky (Katsky the Bright. King, Ruler, and
+Inventor)."
+Five-hundred pp are in a hole under the skeleton.
+Crypt 14. "Stahbal Indi-Bhak: Advisor to Endorvich from eastern
+lands. A truer friend no ruler ever had. Here lies his family in
+honor."
+Inside, the vault appears to be three times the size indicated by its
+walls. In the vault there are 15 stone coffins with heavy lids. There
+is a wight in each coffin. Characters are teleported into these
+coffins (as the wights are teleported out) from the traps around the
+entrance to K86. The remaining wights assist anyone inside a
+coffin trying to remove its lids, thus making the feat relatively easy.
+The wights can only be hit by magical weapons.
+15 wights: AC 5; MV 12"; HD 4+3; #AT 1; Dmg 1d4 + drain 1 energy
+level; AL LE.
+Crypt 15. "KHAZAN: His word was power."
+Crypt 16. "Elsa Fallona"
+Crypt 17. "Sir Sedrik Spinwitovich (Admiral Spinwitovich). Con-
+fused though he was, he built the greatest naval force ever
+assembled in a land locked country."
+Crypt 18.
+The opening stone has been carefully laid to one side. Through
+the swirly mists of the perpetual fog newly engraved letters can be
+read, "Ireena Kolyana: Wife."
+The crypt is empty. This is where Strahd intends to keep Ireena
+after she is "converted."
+Crypt 19. "Animus (Builder of the Keep). Thou standeth amidst
+the monument to his life."
+Crypt 20. "Sasha Ivliskova: Wife."
+1 vampire: AC 2; MV 12"/18"; HD 8+3; hp 47; #AT 2; Dmg ld6+4 +
+drain 2 energy levels; AL CE.
+This vampire is an old wife of Strahd's, a townsperson now under
+his control.
+Crypt 21. "Patrina Velikovna: Bride."
+1 banshee: AC 0; MV 15"; HD 7; hp 47; #AT 2; Dmg 1d6 +2 with 2
+levels energy drain; AL CE; SA keening, save vs. spells or die.
+Dwarves notice that the engraving on this stone door is newer than
+most of those found so far. The Banshee inside attacks as soon as
+the crypt is opened. Her treasure is behind her in the crypt.
+She may only cry her deadly keening once per day, and then
+only in total darkness. The very sight of her acts as a fear spell
+unless a saving throw is made.
+Patrina was a gypsy elf maiden who, having learned in early
+life a great deal of the black arts, was nearly a match for Strahd's
+powers. She felt a great bond with Strahd and desired to become
+one of his wives. Strahd, ever willing, agreed, but before the final
+draining of spirit from her soul could take place, her own people
+stoned her to death in mercy. Strahd demanded, and got, the body.
+She then became the banshee spirit found here.
+Heaped in mounds about the crypt is Patrina's treasure: 500pp,
+3,300 gp; and 5,300 ep.
+Crypt 22. "Sir Erik Vonderbucks"
+Crypt 23.
+The opening stone is unmarked. The crypt is empty.
+Crypt 24. "Ivan DeRose, Champion of Winter Dog Racing. The
+race may go to the swift, but vengeance is for the loser's relatives."
+Crypt 25. "Stephan Gregorovich, First Counselor to Baron von
+Zarovich"
+Crypt 26. "Intree Sik-Valoo: He spurned wealth for the knowledge
+he could take to heaven."
+Crypt 27.
+There are three huge spiders in this crypt.
+3 huge spiders: AC 6; MV 18"; HD 2+2; hp 16, 16, 11; #AT 1;
+Dmg 1-6 + poison; AL N.
+Crypt 28. "Ardent Pallette, Chef Delux"
+A body in white cloth with a high chef's hat atop the skull rots
+naturally. Inside the hat are three pieces of jewelry worth 1,200 gp
+each.
+Crypt 29. "Ivan Ivanovich, Beloved of Anna Petrovna."
+Crypt 30. "Prefect Ciril Romulich (Beloved of King Barov and
+Queen Raven) High Priest of the Most Holy Order."
+28
+
+===== PAGE 30 =====
+A body in white clothing rots naturally, its skull resting atop a
+small chest. Within the chest are 10+7 arrows; 1 scroll of raise dead;
+and 3 bottles containing potions of poison, clairvoyance, and
+invulnerability.
+Crypt 31. "$$We knew him only by his wealth"
+There is a large, bulging chest in the center of the crypt. The floor
+is a trapper who attacks anyone that steps up to the apparent chest.
+1 trapper: AC 3; MV 3"; HD 12; hp 62; #AT 4+; Dmg 4 + victim's
+AC; AL N.
+Crypt 32. "St. Finderway, Saint of Lost Travellers"
+The crypt is featureless except for two alcoves in the back wall.
+Over the alcoves is written "Pass not these portals ye foolish
+mortals!"
+These alcoves are transmitting and receiving teleports. The
+alcove on the east sends those who enter it to the eastern most
+alcove in K86. Stepping into the western alcove has no effect; it
+receives persons teleporting from the western alcove in K86.
+Crypt 33.
+The stone door is blank. This crypt has never been used.
+Crypt 34. "King Dostron"
+Crypt 35.
+The stone door is blank. This crypt has never been used.
+Crypt 36.
+The stone door is clawed and marked so that no name is readable.
+The tomb is empty.
+Crypt 37. "Gralmore Nimblenobs"
+The stone door only gives the name above. A body in red robes lies
+within, rotting naturally. About the corpse are one +1 sword with
+one wish; a scroll with charm monster, polymorph other, and
+polymorph self spells; and a scroll with fireball, hold person,
+haste, lightning bolt, and slow spells.
+Crypt 38. "Americo Standardski (Inventor)"
+When this crypt is opened, three pairs of red glowing eyes stare
+out. Three hellhounds attack. These hellhounds do 5 points of
+damage at up to 10 feet from their scorching firebreath; or only 4
+points if the character saves vs. dragonbreath. They can use their
+breath once per round for as many rounds as they wish.
+3 hellhounds: AC 4; MV 12"; HD 5; hp 29,23,23; #AT 1; Dmg 1-10
++ breath weapon; AL LE.
+Crypt 39. "Beucephalus, The Wonder Horse. May the flowers
+grow ever greener where he trods."
+This crypt has a larger door than all the rest. A nightmare inside
+rears up when the door is opened. The nightmare's smoking
+breath obscures vision, blinds opponents, and chokes them tem-
+29
+
+===== PAGE 31 =====
+porarily, causing them to attack with a -2 penalty (to hit and
+damage) unless a saving throw is made. This is Strahd's steed. The
+steed usually leaves by flying up the shaft in the spiral staircase,
+K18a.
+1 nightmare: AC -4; MV 15"/36"; HD 6+6; hp 29; #AT 3; Dmg 2d4
+(fangs) /2d4+2 / 2d4+2 (burning hooves); AL NE; SA breath
+weapon of smoke.
+Crypt 40. "Tatsaul Eris: Last of the line"
+K85. Tomb of Sergei Von Zarovich
+A peaceful stillness, a calm amid the storm, is felt here. In the
+center of the tomb, a white marble slab holds the coffin of Sergei
+Von Zarovich. This quiet room is 50 feet long north to south
+and 30 feet across. To the north, behind the intricately inlaid
+coffin, there are three alcoves. Beautifully carved statues stand
+in each alcove, just as the day they were placed there.
+The coffin opens easily to the touch of any lawful good character.
+The body is clothed in shining +2 plate mail armor. Check your
+Fortunes of Ravenloft results for possible treasure and encounters
+here.
+A darkness clouds this room and the essence of evil permeates
+the very air. The smell of freshly turned earth is here. This room
+appears to be 50 feet long from east to west and 30 feet across.
+There are three empty alcoves in the south wall. Settled into the
+dirt on the floor, lies a shining black coffin of finely waxed
+wood. The coffin's fittings are of brilliant brass. The lid is
+closed.
+Check your Fortunes of Ravenloft results for possible treasure and
+encounters here. If Strahd has been reduced to 0 hit point-, within
+the previous 8 game hours, his body is in this coffin.
+Two of the three alcoves on the south wall are teleports. The
+center alcove is non-magical. The east alcove is the entry point for
+a teleport from crypt 32. Entering the east alcove does nothing.
+The west alcove teleports whoever enters it to the west alcove in
+crypt 32.
+K87. Guardians
+Wide steps descend to a landing flanked by two alcoves. Within
+each alcove, standing the full 30-foot height of the ceiling, is a
+bronze statue holding a spear. A soft blue curtain of light flows
+between the two alcoves. Dimly visible on the other side of the
+light curtain are more descending stairs.
+Anyone of lawful good alignment can pass through the curtain
+without difficulty. All other alignments are teleported back to the
+top of the stairs behind them.
+K88. Tomb of Barov and Ravenovia
+This tomb rests in hushed silence. Great stained windows fil-
+ling the eastern walls filter dim light into this room. A closed
+coffin stands on each side of this roughly 40-foot-square room.
+After Strahd is destroyed forever, you may want to provide an
+ending for the players to wrap things up. The following scenario
+is provided as an optional ending to this module. The scenario is
+set at dawn on the overlook (K6). Ireena Kolyana must be with the
+PCs.
+Thick clouds are overhead. Through the chilly morning mists,
+the lands of Barovia are visible far below. There is a peaceful-
+ness here. Rest has come to the valley for the first time anyone
+ran remember. There is sleep without fear.
+A light flashes brilliantly behind you. Wheeling around,
+you see a shining stately man in white armor and cape. His
+rugged features show great strength of will, yet the forcefulness
+of his presence is tempered by his calm, sad eyes. His features
+are those of Strahd, yet subtly different.
+His voice is calm and peaceful. "My name is Sergei von
+Zarovich." He turns to Ireena, "Tatyana, the time is at hand to
+rest. Come, my love and wife." He stretches forth his hand.
+Ireena Kolyana's questioning eyes suddenly open with
+recognition and knowledge. Forgotten memories rush upon
+her. "Sergei!" she cries, springing to him with the grace of a
+doe. They embrace.
+Ireena turns to you. "I am Ireena Kolyana, but in my past I
+was Sergei's beloved Tatyana. Through these many centuries
+we have played out the tragedy of our lives. Now, with our
+deepest gratitude to you, that tragedy is over. It is time for joy to
+begin again."
+Shimmering light surrounds Ireena and Sergei. Hand in
+hand, they walk east toward the edge of the overlook. Their feet
+do not touch the ground, they tread a path beyond this mortal
+world. Their invisible road takes them beyond the eastern prec-
+ipice, their glow illuminating and thinning the clouds above
+Barovia. The clouds suddenly break open, letting glorious
+shafts of sunlight flood through. In the valley below, the
+strange fog dissolves, loosing its power. Barovia is free once
+more.
+Check your Fortunes of Ravenloft results for possible treasure and
+encounters here.
+Treasures and Tomes
+Holy Symbol of Ravenkind
+The Holy Symbol of Ravenkind is an ancient platinum medallion
+that was once worn by the High Priest of Ravenloft. It is a power-
+ful lawful good symbol.
+The holy symbol is shaped like the sun, with a large crystal
+embedded in its center. Around the crystal are many holy symbols
+of light and truth. When presented forcefully toward any undead
+creature, the medallion adds +2 to the cleric's "turn undead" roll.
+When presented against vampires, however, it flares with the light
+of the sun for 1-10 rounds. Remember that vampires are destroyed
+by exposure to direct sunlight for 10 rounds. Vampires cannot
+move or attack while the medallion flares. Other creatures are not
+be affected by the medallion. The medallion can only be used once
+per week.
+30
+
+===== PAGE 32 =====
+Sunsword
+The sunsword is a magical longsword. Its blade is a form of crystal
+glassteel, held by a platinum hilt and guard. It glows with dim
+blue light most of the time.
+The sunsword is a +2 sword against all creatures except
+undead. When within 30 feet of any undead, the blade suddenly
+glows brilliant blue. The blade is +3 vs. undead (to hit and dam-
+age). When used against vampires, the blade flares and sparks
+when it hits, inflicting 10 additional points of damage per hit.
+Ages ago, Strahd employed a powerful magician to destroy the
+sword. The first part of the process required that the hilt and blade
+be separated, then destroyed simultaneously. However, before the
+hilt and blade were destroyed, the magician's assistant stole the
+blade and attempted to flee from Barovia. Though his body was
+later found in the woods, the blade was not with him. When it was
+separated from the hilt, the blade took on the appearance of a
+normal longsword.
+Though the hilt remained in Castle Ravenloft, the blade was
+never found. Strahd has always lived in fear that the blade may be
+reunited with the hilt. It so happens that one of the PCs has been
+using the blade with a normal hilt (since without the hilt it cannot
+be discerned from a normal blade). If the PCs find the hilt, it will
+magically leap onto the blade, replacing the PC's hilt, becoming
+the sunsword.
+Tome of Strahd
+The Tome of Strahd is an ancient work penned by Strahd himself.
+It is a tragic tale of how Strahd came to his fallen state. The book is
+bound in a thick black leather cover with brass hinges and fasten-
+ings. The pages are of parchment and very brittle. Most of the book
+is written in the curious shorthand that only Strahd himself
+employs. Stains and age have made most of the work illegible.
+There is a base 30% chance to read any paragraph in the book. Read
+the paragraphs in order from the text below.
+I am The Ancient, I am The Land. My beginnings are lost in
+the darkness of the past. I was the warrior, I was good and just. I
+thundered across the land like the wrath of a just god, but the
+war years and the killing years wore down my soul as the wind
+wears stone into sand.
+All goodness slipped from my life; I found my youth and
+strength gone and all I had left was death. My army settled in
+the valley of Barovia and took power over the people in the
+name of a just god, but with none of a god's grace or justice.
+I called for my family, long unseated from their ancient
+thrones, and brought them here to settle in the castle Ravenloft.
+They came with a younger brother of mine, Sergei. He was
+handsome and youthful. I hated him for both.
+From the families of the valley, one spirit shone above all
+others. A rare beauty, who was called "perfection," "joy," and
+"treasure." Her name was Tatyana and I longed for her to be
+mine.
+I loved her with all my heart. I loved her for her youth. I
+loved her for her joy. But she spurned me! "Old One" was my
+name to her — "elder" and "brother" also. Her heart went to
+Sergei. They were betrothed. The date was set.
+With words she called me "brother," but when I looked into
+her eyes they reflected another name — "death." It was the
+death of the aged that she saw in me. She loved her youth and
+enjoyed it. But I had squandered mine.
+The death she saw in me turned her from me. And so I came
+to hate death, my death. My hate is very strong; I would not be
+called "death" so soon.
+I made a pact with death, a pact of blood. On the day of the
+wedding, I killed Sergei, my brother. My pact was sealed with
+his blood.
+I found Tatyana weeping in the garden east of the Chapel.
+She fled from me. She would not let me explain, and a great
+anger swelled within me. She had to understand the pact I made
+for her. I pursued her. Finally, in despair, she flung herself from
+the walls of Ravenloft and I watched everything I ever wanted
+fall from my grasp forever.
+It was a thousand feet through the mists. No trace of her was
+ever found. Not even I know her final fate.
+Arrows from the castle guards pierced me to my soul, but I
+did not die. Nor did I live. I became undead, forever.
+I have studied much since then.''Vampyr" is my new name.
+I still lust for life and youth, and I curse the living that took
+them from me. Even the sun is against me. It is the sun and light
+I fear the most. But little else can harm me now. Even a stake
+through my heart does not kill me, though it holds me from
+movement. But the sword, that cursed sword that Sergei
+brought! I must dispose of that awful tool! I fear and hate it as
+much as the sun.
+I have often hunted for Tatyana. I have even felt her within
+my grasp, but she escapes. She taunts me! She taunts me! What
+will it take to bend her love to me?
+I now reside far below Ravenloft. I live among the dead and
+sleep beneath the very stones of this hollow castle of despair. I
+shall seal shut the walls of the stairs that none may disturb me.
+Monsters, Creatures, and Men
+Barovian Villagers
+FREQUENCY: Rare
+NUMBER APPEARING: 3-10
+ARMOR CLASS: 10
+MOVE: 12"
+HIT DICE: 2
+% IN LAIR: 90%
+TREASURE TYPE: Individuals M, B in lair
+NUMBER OF ATTACKS: 1
+DAMAGE/ATTACK: 1-6
+SPECIAL ATTACKS: Nil
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Normal
+INTELLIGENCE: Normal
+ALIGNMENT: NG
+SIZE: M
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+The Barovians and their ancestors have lived in this valley for as
+long as anyone can remember. Their lives are deeply imbedded in
+their homes and their traditions. They are, by nature, very wary of
+31
+
+===== PAGE 33 =====
+strange peoples and customs, almost to the point of paranoia. The
+way Barovians deal with strangers is somewhat unsettling. They
+have a tendency to stare openly, in silence, venting their disap-
+proval of everything that is not familiar to them. Barovians are not
+talkative with strangers to the extent of being pointedly rude. Most
+Barovians have violent tempers that boil through their customary
+silence when they are provoked. They also have a social cohesive-
+ness (thrust upon them by their weird circumstances) that can
+make them rise up together against outsiders if one Barovian is
+mistreated.
+Barovians are, by tradition, a happy people, though their his-
+tory and current conditions are not happy. If one manages to win
+the trust of a Barovian, one has a friend for life and an ally that will
+never fail.
+The Barovians know the following:
+1. When they attempt to leave the land of Barovia, they begin to
+choke. Those who do not turn back perish.
+2. The Master of Ravenloft is "The Devil Strahd." Barovians
+believe that Strahd is a curse placed over the land because of
+some forgotten sin of their ancestors.
+3. Vampires can be destroyed, but no one has ever succeeded.
+Barovians know all the tricks for destroying vampires out-
+lined in the Monster Manual.
+Gypsies
+FREQUENCY: Common
+NUMBER APPEARING: 3-30
+ARMOR CLASS: 6
+MOVE: 12"
+HIT DICE: 5
+% IN LAIR: 10%
+TREASURE TYPE: Individual M, A in lair
+NUMBER OF ATTACKS: 1
+DAMAGE/ATTACK: 1-8
+SPECIAL ATTACKS: Nil
+SPECIAL DEFENSES: Nil
+MAGIC RESISTANCE: Normal
+INTELLIGENCE: High
+ALIGNMENT: NE
+SIZE: M
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+Gypsies' traditions, humor, and language are dark and myste-
+rious. Only the gypsies can pass through Barovia at will. Their
+leader, Madam Eva, foreshadows the events that befall adventur-
+ers. Gypsies may be found anywhere.
+The gypsies speak in long flowing riddles of often useless
+information. They tell tales of their forefathers that are almost
+certainly untrue. Their riddles and stories are a front, for the
+gypsies are a most serious people. They are quick to act when their
+lives or traditions are threatened. They are merciless when they feel
+they must be.
+Gypsies readily tell adventurers that they have a potion that
+protects them from the vampire. Although this is a lie, they
+attempt to sell their fake potion for as much money as they can get.
+The gypsies always try to appear as though they are helpful. In
+truth, the only information that they ever give away is misleading
+at best and often a lie. The gypsies are in the service of Strahd von
+Zarovich and fear the consequences of disobedience.
+Strahd Zombies
+FREQUENCY: Very rare
+NUMBER APPEARING: 1-10
+ARMOR CLASS: 8
+MOVE: 9"
+HIT DICE: 4
+% IN LAIR: 80%
+TREASURE TYPE: Nil
+NUMBER OF ATTACKS: See below
+DAMAGE/ATTACK: 1-8
+SPECIAL ATTACKS: Severed members also attack
+SPECIAL DEFENSES: Turn as Mummies
+MAGIC RESISTANCE: Normal
+INTELLIGENCE: Non-
+ALIGNMENT: N
+SIZE: M
+PSIONIC ABILITY: Nil
+Attack/Defense Modes: Nil
+Strahd zombies are a form of undead that serve the vampire Strahd
+von Zarovich. They were called into being through a dark magic,
+now forgotten even by Strahd himself. Strahd zombies were created
+from the long-dead guards of Castle Ravenloft.
+Strahd zombies appear fragile. Their gray green flesh looks soft
+and their bones seem brittle. Any single hit of 5 points or more
+severs parts of their bodies.
+Despite their appearance, however, the life forces of Strahd
+zombies are very great. Severed limbs continute to attack.
+Each Strahd zombie's life force lies in its total being. So, dam-
+age to any part damages the whole creature. Damage to any one
+part in excess of a Strahd zombie's total hit points destroys all of
+that zombie's parts.
+Strahd zombies are turned as mummies.
+117-T-9075
+32
+
+===== PAGE 34 =====
+
+
+===== PAGE 35 =====
+
+
+===== PAGE 36 =====
+
+
+===== PAGE 37 =====
+
+
+===== PAGE 38 =====
+
+
+===== PAGE 39 =====
+
+
+===== PAGE 40 =====

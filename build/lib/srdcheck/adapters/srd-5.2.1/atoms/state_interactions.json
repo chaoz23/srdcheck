@@ -1,0 +1,18 @@
+[
+ {"id": "concentration.breaks-on-incapacitated", "kind": "prohibition",
+  "params": {},
+  "citation": {"section": "Rules Glossary > Concentration", "page": 179,
+   "quote": "Incapacitated or Dead. Your Concentration ends if you have the Incapacitated condition or you die."}},
+ {"id": "concentration.one-effect", "kind": "limit",
+  "params": {"max_effects": 1},
+  "citation": {"section": "Rules Glossary > Concentration", "page": 179,
+   "quote": "Another Concentration Effect. You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration."}},
+ {"id": "condition.stunned.incapacitated", "kind": "definition",
+  "params": {"embeds": "Incapacitated"},
+  "citation": {"section": "Rules Glossary > Stunned [Condition]", "page": 189,
+   "quote": "Incapacitated. You have the Incapacitated condition."}},
+ {"id": "condition.paralyzed.incapacitated", "kind": "definition",
+  "params": {"embeds": "Incapacitated"},
+  "citation": {"section": "Rules Glossary > Paralyzed [Condition]", "page": 186,
+   "quote": "Incapacitated. You have the Incapacitated condition."}}
+]

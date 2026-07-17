@@ -1,0 +1,282 @@
+{
+ "turn.plan": {
+  "description": "Judge a whole proposed turn under SRD 5.2.1 ACTION ECONOMY: action/bonus-action/reaction/free-interaction budgets, movement (crawling, standing from Prone, Grappled speed 0), Incapacitated, and the one-spell-slot-per-turn rule. Returns legal/illegal/cannot-adjudicate with citations; illegal verdicts name the first offending step. Scope: this checks the turn's economy only \u2014 it does NOT verify that a feature grants a given action (e.g. two-weapon fighting or Extra Attack prerequisites). Unmodeled conditions and out-of-range inputs (negative speed, spell level >9) return exit 2 rather than a guess.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "speed": {
+     "type": "integer",
+     "description": "the creature's Speed in feet"
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "active conditions by name (unmodeled ones are honestly refused)"
+    },
+    "spent": {
+     "type": "object",
+     "description": "budgets already used this turn",
+     "properties": {
+      "action": {
+       "type": "boolean"
+      },
+      "bonus_action": {
+       "type": "boolean"
+      },
+      "reaction": {
+       "type": "boolean"
+      },
+      "free_interaction": {
+       "type": "boolean"
+      },
+      "movement_ft": {
+       "type": "integer"
+      },
+      "spell_slots_this_turn": {
+       "type": "integer"
+      }
+     }
+    },
+    "plan": {
+     "type": "array",
+     "description": "proposed steps in order",
+     "items": {
+      "type": "object",
+      "properties": {
+       "do": {
+        "enum": [
+         "action",
+         "bonus-action",
+         "reaction",
+         "move",
+         "free-interaction",
+         "stand-up"
+        ]
+       },
+       "feet": {
+        "type": "integer"
+       },
+       "crawl": {
+        "type": "boolean"
+       },
+       "spell": {
+        "type": "object",
+        "properties": {
+         "level": {
+          "type": "integer",
+          "description": "0 = cantrip (no slot); >0 expends a slot"
+         }
+        }
+       }
+      },
+      "required": [
+       "do"
+      ]
+     }
+    }
+   },
+   "required": [
+    "speed",
+    "plan"
+   ]
+  }
+ },
+ "turn.options": {
+  "description": "Enumerate what remains legal this turn given the same state shape as turn.plan (no plan). Options carry feet_remaining, stand-up cost, crawl mode, and spell-slot availability. Consistency-tested against turn.plan: everything enumerated is accepted, everything past a boundary rejected.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "speed": {
+     "type": "integer"
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "spent": {
+     "type": "object"
+    }
+   },
+   "required": [
+    "speed"
+   ]
+  }
+ },
+ "reaction.available": {
+  "description": "Is taking a Reaction legal right now? Reactions refresh at the start of your own turn (not the round) and are usable on your own turn.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "spent_since_turn_start": {
+     "type": "boolean",
+     "description": "true if a Reaction was taken since the start of this creature's last turn"
+    },
+    "conditions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "required": [
+    "spent_since_turn_start"
+   ]
+  }
+ },
+ "roll.compose": {
+  "description": "Compose net Advantage/Disadvantage from lists of sources: multiple sources never add dice, and any Advantage plus any Disadvantage yields a straight single-d20 roll regardless of counts. Optionally notes the reroll-one-die-only rule.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "advantage_sources": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "disadvantage_sources": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "reroll_available": {
+     "type": "boolean"
+    }
+   }
+  }
+ },
+ "attack.modifiers": {
+  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "attacker": {
+     "type": "object",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "exhaustion_level": {
+       "type": "integer"
+      },
+      "can_see_target": {
+       "type": "boolean"
+      }
+     }
+    },
+    "target": {
+     "type": "object",
+     "properties": {
+      "conditions": {
+       "type": "array",
+       "items": {
+        "type": "string"
+       }
+      },
+      "is_grappler_of_attacker": {
+       "type": "boolean"
+      },
+      "can_see_attacker": {
+       "type": "boolean"
+      }
+     }
+    },
+    "distance_ft": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "distance_ft"
+   ]
+  }
+ },
+ "mage-hand.use": {
+  "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Uses outside the text's can/can't lists return cannot-adjudicate \u2014 the GM's call, honestly labeled.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "kind": {
+     "type": "string",
+     "description": "manipulate_object | open_unlocked | stow_retrieve_open | pour_vial | attack | activate_magic_item | anything else = GM territory"
+    },
+    "weight_lb": {
+     "type": "number"
+    },
+    "distance_ft": {
+     "type": "number"
+    }
+   },
+   "required": [
+    "kind"
+   ]
+  }
+ },
+ "event.apply": {
+  "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, ruling (GM discretion \u2014 recorded and tagged as discretion, never as a rule). srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "state": {
+     "type": "object",
+     "description": "current state per the adapter's state_schema.json (state travels; it never resides here)"
+    },
+    "event": {
+     "type": "object",
+     "properties": {
+      "type": {
+       "enum": [
+        "turn-start",
+        "round-advance",
+        "action",
+        "bonus-action",
+        "reaction",
+        "free-interaction",
+        "move",
+        "stand-up",
+        "condition-gained",
+        "condition-ended",
+        "ruling"
+       ]
+      },
+      "feet": {
+       "type": "integer"
+      },
+      "crawl": {
+       "type": "boolean"
+      },
+      "spell": {
+       "type": "object"
+      },
+      "concentration_on": {
+       "type": "string"
+      },
+      "name": {
+       "type": "string"
+      },
+      "note": {
+       "type": "string"
+      },
+      "state_patch": {
+       "type": "object"
+      }
+     },
+     "required": [
+      "type"
+     ]
+    }
+   },
+   "required": [
+    "state",
+    "event"
+   ]
+  }
+ }
+}
