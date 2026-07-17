@@ -20,6 +20,10 @@ def mage_hand_use(adapter, p):
     """p: {kind, weight_lb?, distance_ft?} — one proposed use of the hand."""
     a = adapter.atoms
     aid = adapter.id
+    if p.get("weight_lb", 0) < 0 or p.get("distance_ft", 0) < 0:
+        return v.cannot_adjudicate(
+            "Negative weight or distance is not a valid input; cannot "
+            "adjudicate.", adapter=aid)
 
     leash = a["mage-hand.range-leash"]
     if p.get("distance_ft", 0) > leash["params"]["max"]:
@@ -84,6 +88,16 @@ def turn_plan(adapter, p):
     """
     a = adapter.atoms
     aid = adapter.id
+    if int(p.get("speed", 0)) < 0:
+        return v.cannot_adjudicate(
+            f"Speed {p.get('speed')} is not a valid Speed; cannot adjudicate.",
+            adapter=aid)
+    for step in p.get("plan", []):
+        lvl = step.get("spell", {}).get("level")
+        if lvl is not None and not 0 <= int(lvl) <= 9:
+            return v.cannot_adjudicate(
+                f"Spell level {lvl} is outside the SRD range (cantrip 0 to "
+                "9th level); cannot adjudicate.", adapter=aid)
     conds = [c.strip() for c in p.get("conditions", [])]
     for c in conds:
         cats = adapter.lookup_entity(c)
@@ -206,8 +220,12 @@ def turn_plan(adapter, p):
     cites.append(_cite(bu))
     rules.append(bu["id"])
     return v.legal(
-        f"The plan fits the turn: {moved} of {speed} ft of movement, budgets "
-        "respected. Movement may be split around actions.",
+        f"Action economy is legal: {moved} of {speed} ft of movement, one "
+        "action / bonus action / reaction / free interaction each at most, "
+        "one spell slot at most, movement may be split around actions. This "
+        "checks the turn's economy only — it does not verify that a feature "
+        "grants a given action (e.g. two-weapon fighting or Extra Attack "
+        "prerequisites), which the SRD leaves to the character's features.",
         cites, aid, rules)
 
 
@@ -356,6 +374,11 @@ def attack_modifiers(adapter, p):
     a, aid = adapter.atoms, adapter.id
     atk = p.get("attacker", {})
     tgt = p.get("target", {})
+    exl = int(atk.get("exhaustion_level", 0))
+    if not 0 <= exl <= 6:
+        return v.cannot_adjudicate(
+            f"Exhaustion level {exl} is outside the SRD range (0 to 6; a "
+            "creature dies at 6); cannot adjudicate.", adapter=aid)
     for side in (atk, tgt):
         for c in side.get("conditions", []):
             if not adapter.lookup_entity(c):
