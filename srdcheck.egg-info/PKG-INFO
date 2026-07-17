@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: srdcheck
-Version: 0.1.0
+Version: 0.1.1
 Summary: Deterministic rules verdicts for game-running agents — cited, reproducible, honest about jurisdiction. SRD 5.2.1 is adapter #1.
 Author: chaoz23
 License-Expression: MIT
