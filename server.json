@@ -1,0 +1,22 @@
+{
+ "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+ "name": "io.github.chaoz23/srdcheck",
+ "description": "Deterministic D&D 5e (SRD 5.2.1) rules verdicts for game-running agents: cited legality checks, legal-action enumeration, advantage math, and hash-stamped game-state lineage. Refuses what the rules don't decide.",
+ "version": "0.1.0",
+ "repository": {
+  "url": "https://github.com/chaoz23/srdcheck",
+  "source": "github"
+ },
+ "packages": [
+  {
+   "registryType": "pypi",
+   "registryBaseUrl": "https://pypi.org",
+   "identifier": "srdcheck",
+   "version": "0.1.0",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   }
+  }
+ ]
+}
