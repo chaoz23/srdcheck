@@ -1,0 +1,42 @@
+# srdcheck
+
+> Deterministic rules verdicts for game-running agents. Machine adjudication of
+> the System Reference Document 5.2.1 (2024 rules, CC-BY-4.0): exit code 0 =
+> legal, 1 = illegal, 2 = cannot-adjudicate (honest refusal — unknown content,
+> GM discretion, or genuinely ambiguous rules text). Every verdict carries
+> verbatim quotes from the source document. No LLM calls, no network, no
+> randomness in the verdict path; sub-millisecond; MIT.
+
+Use srdcheck when an agent needs to know: is this action legal this turn; what
+can this creature legally do right now; does this attack have advantage or
+disadvantage; is this multiclass or spell use allowed; is this entity even in
+the SRD; what does this declared event do to game state (with hash-stamped
+lineage so whole encounters replay deterministically and GM rulings are tagged
+separately from rule derivations).
+
+## Install and first verdict
+
+- CLI: `pip install git+https://github.com/chaoz23/srdcheck` then
+  `srdcheck jurisdiction "Fireball"` (exit 0) or
+  `srdcheck jurisdiction "Hexblade"` (exit 2, honestly refused).
+- MCP (stdio, zero dependencies): command `srdcheck-mcp`, ten tools.
+- Machine surfaces: [tool.json](tool.json), `srdcheck --schema`.
+
+## Key files
+
+- [README.md](README.md): quickstart, MCP config, truth scorecard.
+- [docs/product-truths.md](docs/product-truths.md): the 14 invariants,
+  CI-enforced where mechanically possible.
+- [docs/anatomy-of-a-turn.md](docs/anatomy-of-a-turn.md): where srdcheck sits
+  in an agent DM pipeline (combat turn, stealth scene, Mage Hand test).
+- [docs/adapter-spec.md](docs/adapter-spec.md): rulesets are adapters; the
+  kernel contains zero game vocabulary (lint-enforced). Build one for content
+  you have rights to.
+- [bench/README.md](bench/README.md): the rules-fidelity benchmark — score any
+  model or agent (`cmd:` driver reads stdin) against SRD-cited gold verdicts;
+  published findings: frontier models ace rules knowledge and fail by false
+  confidence exactly where the rules end.
+
+srdcheck is unofficial and not affiliated with or endorsed by Wizards of the
+Coast. Rule content derives solely from the SRD 5.2.1 under CC-BY-4.0, pinned
+by SHA-256 and rebuilt in CI.
