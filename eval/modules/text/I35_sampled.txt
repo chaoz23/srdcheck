@@ -1,0 +1,2720 @@
+
+===== I3-5 PAGE 2 =====
+Original Module Design: Tracy Hickman, Laura Hickman, and
+Philip Meyers
+Additional Design: Peter Rice and Wm. John Wheeler
+Revision: Wm. John Wheeler
+Editing: Curtis Smith, Edward Sollers, Marlene Weigel, and Wm.
+John Wheeler
+Cover: Keith Parkinson
+Cartography: Dennis Kauth, Ron Kauth, Dave LaForce, Steve
+Sullivan, and Stephanie Tabat
+Typography: Betty Elmore
+Distributed to the book trade in the United States by Random House Inc.,
+and in Canada by Random House of Canada, Ltd.
+Distributed to the toy and hobby trade by regional distributors.
+Distributed in the United Kingdom by TSR UK Ltd.
+Copyright 1987 TSR Inc. All Rights Reserved.
+This adventure is protected under the copyright laws of the United States
+of America. Any reproduction or other unauthorized use of the material
+contained herein is prohibited without the express written permission of
+TSR Inc.
+First Printing May 1987
+Printed in the U.S.A.
+Table
+of Contents
+Foreword
+Chapter 1: Background And Storyline.
+Chapter 2: Judging Notes For The Referee
+Chapter 3: Setting Up The Campaign.
+Chapter 4: Bralizzar, Gateway To Raurin
+Chapter 5: Across Northknife Pass ...
+Chapter 6: Desert Of Desolation
+••••
+Chapter 7: Sunken City Of Pazar.....
+Chapter 8: Tomb Of Amun-Re ......
+Chapter 9: Oasis Of The White Palm .
+Chapter 10: Temple Of Set ....
+Chapter 11: Crypt Of Badr Al-Mosak .
+Chapter 12: Lost City Of Phoenix
+Chapter 13: Skysea/The Cursed City Of Stone
+Chapter 14: Lost Tomb Of Martek ...
+3
+4
+• 10
+• 12
+• 19
+• 22
+• 36
+. 40
+• 62
+• 74
+80
+. 86
+• 94
+108
+
+===== I3-5 PAGE 3 =====
+Foreword
+This has been an ambitious project. It is difficult to revise the good work done by
+someone else and to add material to it that does not destroy the flavor of the origi-
+nal. To do this has been my task.
+Tracy Hickman, Laura Hickman, and Philip Meyers provided an excellent set of
+adventures in the original Desert Of Desolation Series, I3 through IS. The story that
+held these adventures together was of a campaign style, an epic quest against seem-
+ingly insuperable odds. To this material, Peter Rice and I have added new designs,
+expanding on some of the open ends that were left behind in the original works. We
+designed the adventure map, tying together all of the adventure areas, and we cre-
+ated the ancient alphabet used on all of the inscriptions. With the help of Jeff Grubb,
+Peter and I have expanded the history, storyline, and legends to tie together the
+adventures and weave in the new material, creating a viable campaign in the Forgot-
+ten Realms. In addition, as editor, I have completely revised the format, rewritten
+much of the text, and added significantly to the judging notes.
+What has resulted amazes me. The work has a luster and sparkle that I wish every
+one of my own designs had. I guess that is what happens when you take a jewel and
+polish it. It is enjoyable to read and the playtests of the revised work were a lot of
+fun.
+Here you have the Desert Of Desolation. You have a wonderful adventure ahead.
+I wish I could join you.
+Wm. John Wheeler
+March 31, 1987
+
+===== I3-5 PAGE 4 =====
+Chapter 1: Background and Storyline
+The Plot Line
+Play will begin with an encounter, wherein the
+players will probably use a teleportation
+device they discover to escape from
+a
+seemingly-impossible situation. They also will
+discover a waylaid message to Elminster the
+Sage detailing the discovery of prophesies
+requiring immediate attention. The teleporta-
+tion amulet that will take them far to the
+southwest, depositing them in Bralizzar, a
+frontier town nestled in the mountains known
+as The Dustwall.
+Discovering themselves in the sitting room
+of a wizard, actually quite pleased by their
+intrusion, they will be shown a map fragment
+of The Desert of Desolation, told details of the
+prophesy, and be asked to undertake a quest to
+forstall the events prophesied. Should they
+refuse, other, more physical, means will be
+used to insure their cooperation.
+The prophesies come from Martek, Grand
+Vizier of Raurin, called "The Greatest of
+Mages." One thousand years ago, Martek
+imprisoned an evil efreet of great power. He
+realized that the efreet would eventually
+release himself and would gather evil minions
+to wreak his vengeance on the land and peo-
+ples of the desert. He also foresaw that he
+could minimize the damage from the vengeful
+efreet if he were somehow able to be brought
+back to life at the proper moment. Thus, he set
+up a magical quest for a band of heroes whose
+ultimate goal would be to break into his Inner
+Sanctum and resurrect him at just the proper
+moment, about 1000 years after his death.
+Fearing that to leave his tomb open would be
+to risk its plunder and the foiling of his scheme,
+he would have to make the quest a difficult
+one, one of many parts, all of which were
+needed to be successful. He enchanted five
+large gemstones, which he called the Great
+Stars, or the Star Gems; all of these would be
+necessary to gain entrance to his tomb and res-
+urrect him. He scattered these among the
+sheiks, pharaohs, and other rulers of the des-
+ert. He gave magical instructions about the
+way the gems should be treated and placed
+clues to their whereabouts in several places,
+knowing that the wizards of a later age would
+piece together parts of the story.
+He engineered the imprisonment of a great
+djinn to combat the efreet while the quest for
+the stones was undertaken. This would act as a
+safety valve in case the quest failed. He placed
+lingering enchantment on a revered place, so
+that its rulers would always have the key to the
+djinn literally in the palms of their hands.
+Finally, he devised the greatest scheme of all.
+He set one of the star gems to guard the efreet,
+knowing that his heroes of the future would
+actually release the efreet in their quest. The
+efreet would begin to wreak vengeance and
+would further expend power combatting the
+djinn. Then, when Martek was released, he
+would be able to banish the efreet from the
+land forever.
+The Desert of Desolation abounds in clues
+and artifacts from Martek's quest. Several
+months before the beginning of play a wizard/
+scholar managed to decipher an ancient tome
+actually prepared by Martek to reveal key
+pieces of his quest at this time. The tome states
+that an evil efreet will soon be released on the
+land and that a band of heroes is needed to
+gather the five magical Star Gems of Martek,
+now scattered in the Desert of Desolation.
+These stones would allow the heroes to enter
+Martek's tomb, where they could release Mar-
+tek's fabled Sphere of Power to destroy the
+efreet.
+Fulfilling the prophesy is the story that will
+unfold for the player characters. They will, by
+choice or force, go north to Raurin, to the
+cursed area called The Desert of Desolation.
+Once a fertile land, ruled by benevolent Phar-
+aohs, only ruins now remain,
+the bleached
+bones of great cities awash in shifting sands.
+The heroes-to-be will travel to the now-
+sunken ruins of Pazar, where they will find one
+of the Star Gems. Actually, they will also
+release the efreet, if all goes as Martek intend-
+ed, and this will seem to fulfill the events he
+foretold. They will travel to ruined Terbakar
+and meet the spectre of Amun-Re, in whose
+theft-proof tomb they will find a second Star
+Gem and incidentally break a curse that will
+restore water to the desert.
+Making friends (and enemies) in the Oasis of
+the White Palm will lead the adventurers to the
+Temple of Set buried beneath the oasis. There,
+they will find a third Star Gem. An excursion
+to the crypt of Badr Al-Mosak will bring them
+face- to-face with the evil minions already
+gathered by the efreeti they freed, as well as
+another Star Gem.
+A journey to the ruined city of Phoenix will
+adventurers to release the djinn
+imprisoned there. He will fulfill his part of
+Martek's plan and begin to combat the efreet,
+who, unfortunately, awaits him. Efreet and
+djinn lock in a titanic struggle against one
+another, unleashing firewinds and icestorms
+that rain down upon the desert peoples.
+Finally, the quest will take the heroes across
+the glass of Skysea, created by the original bat-
+tle between Martek and the efreet. There, in
+the ruined city of Medinat Muskawoon, they
+will search for the final Star Gem, the magical
+compass that will guide the heroes to Martek's
+tomb. To fulfill the prophesy and save the land
+from total destruction, all that remains is to
+gain entrance to the hidden Citadel of Martek.
+Inside, they will discover that they are not
+alone, for others have managed to discover the
+entrance to the Citadel. Without at least three
+Star Gems, however, these people were fated
+to remain imprisoned in the entry garden of the
+Citadel. Gaining entrance to the Grand Hall of
+the Crystal Prism, the heroes will find that
+there are three tests at which they must succeed
+before they can gain the Inner Sanctum, the
+resting place for Martek and his Sphere of
+Power. In order to activate the key to the Inner
+Sanctum, they will have to best three unusual
+adventure areas — the Black Abyss, the Mobi-
+us Tower, and the Crypt of Al-Alisk.
+Once in the Inner Sanctum of Martek, the
+adventurers will have to use the Star Gems to
+release Martek's Sphere of Power. Though
+thought to be a magical artifact, the Sphere is
+actually Martek himself. The player characters
+must figure out how to bring him back to life
+so that he can use his power to destroy the
+efreeti. Once he has been brought back to life,
+Martek will reward the heroes and return them
+to wherever in the land they desire to be,
+allowing them to witness the fulfilling of his
+prophesy as he banishes the efreet.
+General
+Background
+Information
+There is background information presented at
+the start of each chapter. The information in
+these Background sections is specific to the
+area and play described in the chapter. The
+background information presented here is
+more general. It ranges from a condensed his-
+tory of the area to information about Martek
+and his quest.
+Use this information when the PCs are deal-
+ing with a knowledgeable NPC, such as the
+wizard Aman Al-Raqib. Remember, when giv-
+ing out information, do not be too specific if it
+will affect play.
+Travel Through The Desert Of
+Desolation
+At one time, when the River Athis flowed,
+trade between the cities of the north in
+Mulhorand and Semphar and those in Durpar
+passed through the great deserts of Raurin by
+following that great river. The River Athis
+sprang from a magical fountain in Terbakar,
+the rich and verdant capital of the Bakar, a a
+jewel in the desert. Its pharaohs had ruled there
+for time out of mind, and though its libraries
+were noted in some circles, it was the Waters of
+Athis revered by the dwellers of the desert. The
+River Athis that sprang from Terbakar gave
+life to a long and sinuous corridor from there
+generally northward, passing by the garden
+city of Pazar, the sacred White Palm, the city
+of Carthag now called Phoenix, and beyond to
+the lands where the legendary Martek had his
+When the Pharaoh Amun-Re called down a
+curse on his people and the River Athis ceased
+
+===== I3-5 PAGE 5 =====
+to flow in response, the fertile river valley
+dried up. So, too, did the teeming life made
+possible by the flow dry up. With life in the
+desert nearly impossible, the trade routes that
+followed the River Athis became drifted over
+with sand. With the curse came universal dry-
+ness, and the area was renamed the Desert of
+Desolation to reflect that. The cities of Durpar
+and the southern trade roads were cut off from
+Mulhorand and Semphar.
+But while the Desert was dead, the rest of the
+world was not, and a barrier of sand could not
+last forever. If it was possible to cross the des-
+ert along the banks of the River Athis while
+life-giving water flowed there, it was still pos-
+sible once those waters were lost to Amun-Re's
+curse. The rich and populous lands to the
+north virtually demanded trade begin once
+again. That trade could have gone to sea
+through the Golden Water and around to the
+Alambar Sea, but the voyage was long and
+dangerous. Better, reasoned the merchants, to
+find a way across the Desert of Desolation, the
+rest of Raurin, and Plains of Purple Dust to the
+wealthy and ancient cities of Gheldaneth,
+Unthalas, Jhandyl, Phannaskul, and Phelzol.
+At last, the pressure from the merchants was
+too great, and a caravan, one modest in size,
+well guarded, and supplied, left the town of
+Bralizzar, once the staging point of the trade
+north. It crossed the intervening sand guided
+by a few Raurindi who only knew of the area,
+long desolate, from stories at the knees of their
+elders. The trek to the dry valley of the Athis
+was killing, and tale these intrepid traders
+brought back was one of desolation and dan-
+ger. But it could be done, and the pressure to
+trade had an outlet. Thus entered the Sand-
+voyagers Guild.
+The Raurindi / Durpari Conflict
+The Durpari saw the re-establishment of trade
+across the desert as a way to return to their her-
+itage. Traders to the core, they had plied their
+wares in the Athis river valley before the curse
+had made it barren. They saw caravan trade
+between the remaining oases as the manner in
+They were driven by two motives beyond
+those of trade alone: as members of the one
+god Anu, they were sworn to the destruction
+of the idols of the older gods of the Raurindi,
+and they were secretly ashamed that they had
+deserted the land to the Raurindi. Thus they
+came back to the desert with the glint of gold in
+their eyes, and a hatred of the Raurindi and all
+they stood for in their hearts.
+While the Raurindi had protected the tem-
+ples of the old gods, the Durparis were bent on
+their destruction. As the Durpari swept into
+Bralizzar, the Dustwall Mountains, and the
+Desert of Desolation, they pushed the Raurin-
+di before them... or destroyed them.
+The Durpari
+The Durpari are a civilized people who are
+traders to the core. Because of this, they have
+developed great cunning in business, and their
+commitment to the truth is less than total.
+They prefer to talk, rather than fight, though
+they have some of the most fearsome troops in
+the southern lands, their dreaded Lancers and
+It was the Durpari who established trade
+through the deserts of the south, and it was the
+Durpari who re-established it when trade
+became nearly impossible following the curse
+of Amun-Re. The Durpari are the only group
+of people who venture through the Desert of
+Desolation with regularity. Although they
+often go on trading missions, they prefer to
+remain at home, usually at an oasis fortress or
+other trade center.
+call Anu. Their religion deems as heretical the
+worship of many gods, and they are duty-
+bound to destroy idols and temples dedicated
+to the "old" religions.
+The Durpari Airlancers fly on pegasi they
+breed for the purpose. They can communicate
+with their beasts in very complex ways.
+The Raurindi And The Dervishes
+As a people, the Raurindi became nearly
+extinct when their lands turned to desert mil-
+lennia ago. Those who were left became desert
+nomads, a dark people, rough from the desert
+winds and sands. Hot-tempered and emotion-
+al, they do not generally care for outsiders.
+They are somber, pessimistic, and almost
+always bad-mannered, but they are scrupu-
+lously honest and completely fearless. To their
+friends, they are generous and forgiving.
+except of a personal insult.
+Many Raurindi have since been assimilated
+into the Durpari, particularly in areas within
+and bordering the great deserts. Most of these
+have converted to the "True Faith" of the Dur-
+pari, who worship the one god Anu. Neverthe-
+less, some of the Raurindi cling secretly to the
+old ways. Called Dervishes, they are aliens,
+outcasts, and even outlaws wherever they go.
+In fact, because they feel that their god has
+turned away from them in relegating them to
+the desert, not only do they worship the old
+religions, but they now fanatically protect the
+religious freedoms and holy places of all peo-
+ples, whatever their practices or beliefs. They
+hate robbers of graves and tombs, and protect
+such places from "infidels," tending to make
+encampments nearby. If they find a holy item
+or place has been looted or damaged, they will
+mark the vandal/thief for Bloodquest. This
+means that they will use their considerable
+tracking ability (the same as rangers) to hunt
+down and destroy the one so marked. The final
+stroke is carried out under the trembling.
+vibrating scream of any Dervishes at hand,
+5
+fighting to the death. This has spawned a des-
+ert proverb: "Woe be unto him who puts blood
+in the eye of the Dervish."
+Star Gems Of Martek
+Martek gave five Star Gems to the rulers of the
+lands crossed by the River Athis, one to each.
+The Star of Mo-Pelar, a fist-sized opal, he gave
+to the Pharaoh Amun-Re, who locked it in his
+theft-proof tomb. The Star of Aga-Pelar, a
+huge sapphire of midnight black with a star of
+purest white, he gave to the Lord of Pazar in
+return for keeping Khalitharius prisoner. The
+Star of Shah-Pelar, a very large faceted ruby,
+he gave to a pharaoh whose name is lost in
+antiquity; the gem was stolen by the evil Badr
+Al-Mosak, and is said to be buried with him.
+The Star of Khan-Pelar, an enormous clear
+crystal, is thought to be buried near the White
+Palm. The Star of Melos-Pelar, a facetted amy-
+thest ball, was taken into the Cursed City of
+Stone, never to be seen again. All five are
+needed to locate Martek's Tomb.
+The Sphere Of Power
+Legend says that Martek's Sphere of Power
+was buried with him. Using that wondrous
+tool, Martek bested the evil Efreet Pasha Kha-
+litharius in a magical battle that has not been
+seen since. The very desert sands flowed like
+water before the freet was imprisoned
+The truth is that Martek's knowledge and
+wisdom are his "sphere of power." They indeed
+lie with him in his Citadel, and when he is
+brought back to life, he will use them to banish
+the evil efreet Khalitharius forever.
+
+===== I3-5 PAGE 6 =====
+Chapter 2: Judging Notes For The Referee
+This adventure is designed for a party of six to
+eight player characters of 5th to 7th levels. A
+balance of character classes is suggested, for a
+wide variety of problems will confront the
+players. Each character class will certainly
+have its moments to shine.
+About The
+Presentation
+This is a campaign-style product. It is an epic
+adventure featuring the player characters as
+heroes. The story line is meant to be usable in
+any campaign, beginning at any location. We
+feel that it is at its best when played that way.
+Nevertheless, the adventure has several dis-
+tinct parts, each usable as a scenario on its
+own. For this reason, the adventure is present-
+ed in sections, each one a chapter in this book-
+let. If you choose to do so, you may lift a
+section from the adventure and play it sepa-
+rately, though some work would be necessary
+to fit it into ongoing play.
+Furthermore, there are three places where
+beginning play makes sense. These places rep-
+resent the starting points for the three I Series
+modules as they were originally published.
+One place is at the tomb of Amun-Re, ignoring
+the preparatory campaign material. A second
+is in the Oasis of the White Palm, assuming
+that the events at the pyramid of Amun-Re are
+things of the recent past. A third is at the Pil-
+lars of Martek, wherein all of the quest has
+been completed and the heroes only need to
+gain entrance to the tomb.
+The information needed to run this adven-
+ture is presented in the same way for each sec-
+tion and part of a section. The various types of
+information are given below.
+Boxed Text
+This is material meant to be read to the players
+unless specific circumstances in your game pre-
+vent their knowing the information given. In
+general, boxed text will give what the adven-
+turers could see, hear, or otherwise perceive
+before actually beginning to interact with the
+adventure area. Indoor and nighttime descrip-
+tions were written assuming that the adventur-
+ers are using a torch or lantern to see by, thus
+illuminating a 30-foot radius area.
+For example, boxed text for a room would
+give a brief description of the room's contents
+as seen from the doorway; this would include a
+description of the room's inhabitants. Another
+example of boxed text would be introductory
+material that would set the stage for subse-
+quent play.
+NPC and Monster Statistics
+The inhabitants of an encounter area will be
+summarized within the DM text for the area.
+The statistics for these inhabitants are given in
+paragraphs with all lines but the first indented
+from the left-hand side. The stats are presented
+in the same order in all cases, one after another
+and separated by semicolons. This order is
+given below, with the abbreviations used
+explained. Spells and special equipment are
+given below the stats.
+DM Judging Text
+This text is printed in standard paragraph for-
+mat. The first paragraphs of an encounter
+area's judging text most often will provide gen-
+eral information about the area itself that is not
+readily apparent to the player characters.
+The next paragraphs will explain the area's
+peculiarities. They could detail the reaction of
+the area's inhabitants to various party behav-
+iors. Traps or tricks will be described in these
+paragraphs, and treasure will detailed in the
+same way.
+Inscriptions and Scrolls
+In many of this adventure's encounter areas,
+there are phrases, sentences or verses written
+in "an ancient alphabet." These inscriptions
+and scrolls give the players hints about expect-
+ed actions or solutions to puzzles. The writings
+are translated in text indented within the DM
+Judging Text. The original inscriptions are pro-
+vided on the reverse of the DM's fold-up map.
+Known Information And Rumors
+Many times, an NPC will know information
+that will be valuable to the player characters.
+This information is given in the DM judging
+text as separate paragraphs indented on both
+sides.
+Specific References
+Whenever the judging text makes reference to
+other chapters or parts of this book, italics are
+used.
+Inscriptions and Maps
+A large, colored map sheet accompanies this
+book. On the front are four maps, three for
+players and one for the DM. It has several dot-
+ted lines that indicate where cuts should be
+made. Accompanying the colored mapsheet is
+a 16-page booklet with the maps from the
+adventure; these are for the DM.
+Desert of Desolation Player Maps
+In the text are indicated where the three player
+maps are to be given to players. If things go
+in Bralizzar. One of these is of the south end of
+the Desert of Desolation, showing the location
+of the Oasis of the White Palm, Pazar, Terba-
+kar, and the Gates of Sule. The other is a map
+of the pyramid and temple at Terbakar.
+Then, if things go well again, the third play-
+er map will be given to the players in the Tem-
+ple of Set. It shows the north end of the Desert
+of Desolation, including the city of Medinat
+Muskawoon and the Oracle Stones and Pillars
+of Martek. The central section of this old map,
+which purportedly was made by Martek, is
+Desert of Desolation DM Map
+The long DM map of the desert (Map 6-1) is in
+the same scale as the two player maps. Thus,
+the player maps can be laid over the top of the
+DM map and they will fit. In a similar way, if
+you need to, you can lay a sheet of tracing
+paper over the top of the DM map and then
+transfer information to the player maps.
+Furthermore, the diagram of the Palm Sign
+on the hand of the Princess Shadalah is also in
+scale with the DM and player maps, so the dia-
+gram can be traced and laid on top of the play-
+er map to show the exact position of Phoenix.
+This is important, because the location of
+Phoenix is not known to any NPCs, and it
+appears on no map the players or NPCs have
+Inscriptions
+On the back of the DM map of the desert are
+listed all of the ancient inscriptions from the
+adventure, except for the Tome of Martek. You
+should photocopy these inscriptions and then
+cut them out to give to players when the
+inscription is found.
+General Notes
+Ability Checks
+Occasionally, the DM judging text calls for
+dexterity, constitution, or charisma checks.
+When this occurs, have the affected player or
+players roll 1d20. If the roll is less than or equal
+to the statistic named, the check will be suc-
+cessful. Otherwise, the check was a failure.
+The effects of success and failure are explained
+in each case.
+Cumulative Chances
+At times, the DM judging text gives a "cumula-
+tive chance" that something
+occurs.
+This
+means that each time a roll is made, the chance
+becomes greater. For example: As long as a
+character sits under a palm tree, there is a 5%
+cumulative chance per turn that a coconut will
+fall on his head. Thus, there is a 5% chance of a
+coconut falling the first turn, a 10% chance the
+second turn, a 15% chance the third turn, and
+so on.
+Magical Traps
+Some areas within the tombs and crypts con-
+tain complex magical spells and traps. To make
+the game flow more smoothly, you should pay
+special attention to these areas before playing
+those sections.
+
+===== I3-5 PAGE 7 =====
+Duplicated Encounter Areas
+Certain encounter areas, both in the wilder-
+ness and in the tombs and crypts, are dupli-
+cates of other areas. Areas that are exactly
+alike usually have the same Map Number.
+There is only one text description to use for
+each of these areas.
+Judging Mounted
+Travel
+You will need to referee desert travel for the
+first 10 days of the adventure, and then at oth-
+er times as the party travels between adventure
+areas. To do this, you will have to take into
+account the type of mount being used, the load
+carried, the amount of water being consumed,
+and the terrain being crossed. The consump-
+tion of water and the effects of dehydration are
+important enough topics that they have their
+own major section.
+Types of Mounts Available
+It will be assumed here that the player charac-
+ters are mounted, either on double-humped
+(bactrian) camels, or on Durpari horses, a sort
+medium warhorse without the training. These
+mounts are available for purchase in Bralizzar,
+or they will be given to the party by the sol-
+diers, should that happenstance occur.
+Camel, bactrian: AC 7; MV 21"; HD 3; hp
+3d8; #AT 1; D d4; AL N; SA spits.
+Camels attack by biting and spitting. They
+are ill-tempered, and thus there is a 50%
+chance that they will spit at anyone trying
+to mount them. If the attack succeeds, there
+is a 25% chance that the rider will be blind-
+ed for d3 rounds. Once mounted, the camel
+will continue on without difficulty.
+Movement rate is affected by encum-
+brance, as shown in the section on Encum-
+brance, Movement, and Mounts. A camel
+that has remained in one place for an hour
+is likely to lie down; the chance of this is
+20% cumulative. A camel will refuse to rise
+40% of the time, this chance diminishing by
+5% per turn of coaxing.
+Though it requires 1 ration of plants and 2
+rations of water per day, a camel can travel
+without food or water for 1 week with no
+effect. It may travel a second week without
+food or water, but its carrying capacity will
+be halved. After 2 weeks without food or
+water, the camel must be fed and watered
+or its value as a mount deteriorates rapidly.
+The table below gives the reaction of a cam-
+el to disturbances.
+Horse, Durpari: AC 7; MV 18"; HD 2+2; hp
+2d8+2; #AT 3; D d6/d6/d3; AL N.
+ac, Moment and Mone AN
+carrying more than its normal load must be
+rested for at least 1 turn every 6 turns; to
+have the full benefit of this rest, the load
+must be completely removed and the horse
+must be fed ½ ration and given ½ ration of
+water. There is a 1% chance per 8 hours of
+travel through rugged or very rugged ter-
+rain that the horse will pull up lame.
+A horse needs 4 rations of plants or grain
+and 4 rations of water per day. It may travel
+2 days without food or water, or 3 days on
+reduced rations, but then it will be fatigued.
+Horses will react to outside stimulus as
+given in the table. Use the result for Other
+to represent reaction to sudden movement.
+Reaction of Mounts
+The mounts used by the player characters in
+this adventure will react to outside stimulus
+according to the following table, using the
+guidelines given on pages 92 and 93 of the Wil-
+derness Survival Guide. The first number rep-
+resents chance of detection on d12, the second,
+the chance of becoming agitated, and the third,
+the chance of panic.
+Normal terrain would be the Sandvoyagers
+Track or the dry riverbed of the River Athis.
+Rugged terrain would be the open desert, the
+blasted hills that border the desert, Northknife
+Pass, and the shifting sands. Very rugged ter-
+rain would be the high blasted hills. These are
+discussed further in the section Judging Large-
+Scale Movement.
+A mount can carry its load and move normally
+for half a day (8 hours), with occasional rest eve-
+ry hour. It may be pushed beyond this limit, trav-
+elling continuously for half its current MV in
+hours, to a limit of 12 hours total,
+without
+adverse effects. Any further movement likely will
+fatigue the animal. For example, a Durpari horse
+loaded with 4000 gp can move for 8 hours at 18";
+if pushed, it can travel another 4 hours (total 12
+hours) at 18" with no ill effects. A bactrian camel
+loaded with 6000 gp can move for 8 hours at 6";
+it can be pushed for another 3 hours (6 divided by
+2) at 6". If a mount is pushed beyond its limit,
+there is a cumulative chance per hour that it will
+become fatigued. This is discussed in the subsec-
+tion below.
+Mount
+Camel
+Draft Horse
+Fire
+6/ 9/11
+5/11/12
+Table 1: Reaction of Mounts
+Weather
+Noise
+6/10/12
+6/11/12
+8/10/12
+4/10/12
+Odor
+4/10/12
+7/10/12
+Other
+6/10/12
+6/10/12
+Encumbrance, Terrain, and Mounts
+The normal and maximum loads for camels and horses are shown in the table below:
+Beast Type
+Camel, bactrian
+Loads For Beasts of Burden
+Normal Load (gp)
+4000
+Maximum Load (gp)
+6000
+Horse, Durpari
+The amount of load determines how fast the mount can travel. The less the load, the faster the tra-
+vel for any terrain type. This is shown by the table below.
+Load and Terrain Effects on MV
+Beast Type
+Maximum Load (gP)
+MV Depending On Terrain
+Normal
+Rugged
+Very Rugged
+Camel, bactrian
+Horse, Durpari
+None
+4000
+4500
+5000
+5500
+6000
+None
+4000
+4500
+5000
+5500
+6000
+6500
+18 + 1d4
+8 + 1d4
+4
+18
+9
+3
+15
+8
+12
+8
+9
+7
+6
+6
+18 + 1d4
+8+1d4
+18
+9
+0
+7
+6
+16
+8
+14
+8
+12
+7
+10
+8
+4
+4
+3
+7
+
+===== I3-5 PAGE 8 =====
+Fatigue For Mounts
+An animal can become fatigued if not given its
+ration of food and water or if pushed beyond
+its endurance limits.
+Fatigue from Deprivation
+If a Durpari horse is given no food or water for
+more than 2 days, or given reduced rations for
+more than 3 days, it will become fatigued. If a
+camel is given no food or water for more than 2
+weeks it will become useless as a mount or
+beast of burden. When fatigued by depriva-
+tion, the mount must be fed and watered, and
+it must be allowed to rest 8 full hours, or it will
+remain fatigued.
+Fatigue from Overexertion
+Furthermore, there is a cumulative chance per
+hour that an animal will become fatigued if
+pushed beyond its limits. This chance depends
+on the terrain, as shown in the table below:
+Terrain Effects on Fatigue
+Terrain
+Fatigue Chance
+Northknife Pass
+50% per hour
+Sandvoyagers Track
+25% per hour
+Open Desert
+35% per hour
+Blasted Hills
+35% per hour
+Shifting Sands
+50% per hour
+Sinkholes
+75% per hour
+River Athis Riverbed
+30% per hour
+When fatigued by overexertion, an animal
+must be rested for 12 hours plus 2 hours for
+every hour it was pushed beyond its limits.
+Fatigue Effects on Mounts
+Movement for a fatigued animal is at half its
+MV for the terrain and encumbrance. It may
+move at its normal pace 1 round per turn, for a
+total of 1 turn in 10. It may not move at all if
+the full movement rate is less than 3".
+In any case,
+there is a 20%
+cumulative
+chance per hour that a fatigued animal forced
+to continue to work or move will become
+exhausted. When exhausted, the mount will
+not move and may collapse (25% chance if
+unburdened, 50% chance with normal load,
+75% chance with more than normal load).
+An exhausted animal likely will die. There is
+a base 50% chance this will occur in 1d4 hours.
+If this does not occur, there is still a chance that
+it will die, based on its hp. For 8 hours, a roll
+1d6-3 will indicate the number of hp the animal
+will suffer. If it loses all hp, it dies, but if, after
+8 hours, it is still alive, it will regain 2 hp per
+hour. When at full hp, it is no longer exhaust-
+ed, but it is still fatigued.
+Judging
+Large-Scale
+Movement
+It takes a human afoot, moving at a scale speed
+of 12", one hour to cross one mile of desert on
+the Sandvoyagers Track; at this speed, it will
+take 5 hours to traverse one desert hex on the
+DM map, which has a scale of 1 hex = 5 miles.
+All other movements should be adjusted to
+that scale. Given that movement rate and a
+normal load, an adventurer riding a camel or a
+Durpari horse, MV 18", can traverse one hex
+in 3-⅓ hours.
+Off the Sandvoyagers Track is a different sto-
+ry. The only other normal terrain is the dry riv-
+erbed of the River Athis. All other open desert
+terrain is at least classified as difficult, with
+much of it being classified as rugged or very rug-
+ged. These classifications will have a great effect
+on how fast the PCs can travel, as shown by the
+table below. In the table below, the travel times
+are given for one hex of the terrains listed. It is
+assumed that the mounts are rested and fed and
+are not carrying any greater than a normal load.
+Adjust these travel times if this is not the case.
+Travel Times Per Hex of Terrain
+Type
+Normal
+Terrain
+Sandvoyagers Track
+Difficult
+River Athis Riverbed
+Desert Dunes
+Low Blasted Hills
+Rugged
+Northknife Pass
+Shifting Sands
+Very Rugged High Blasted Hills
+Travel
+Time
+3-13 hr
+4 hr
+6 hr
+6 hr
+8 hr
+8 hr
+20 hr
+Judging Water
+Consumption and
+Dehydration
+Part of the play of this adventure involves the
+player characters struggling against a wilder-
+ness likely to be unfamiliar to them. Though
+this struggle will be a daily occurrence, it is
+best not to get bogged down in the particulars.
+If the player characters have planned well,
+they should have no trouble with dehydration;
+if they have been sent on their way by the sol-
+diers, they will have to use care.
+Daily Water Requirement
+For the purposes of this adventure, use the rule
+of thumb that a ration of water is 1 gallon (50
+gp encumbrance) per day while riding (light
+activity), and twice that afoot (heavy activity)
+during the day. If iron rations are carried
+instead of normal rations, add 1 gallon for eve-
+ry 4 carried to account for the water not gained
+from the food itself.
+Camels require 1 gallon per day and horses
+require 4 times that amount. If plants are not
+carried to feed the mounts, add 1 gallon for
+every 4 to the water needed, making up for
+that lost from the food.
+Careful conservation, and travel at night
+will stretch 7-days' water ration to 10 days.
+Dehydration
+If the player characters or their mounts get less
+than their minimum ration of water per day,
+they eventually will become fatigued from
+dehydration. A player character can go with-
+out water for 2 days in the Desert of Desola-
+tion before adverse effects creep in. As
+indicated elsewhere, a camel may go without
+food or water for one week without penalty,
+and a second week at half carrying capacity. A
+horse, on the other hand, can only go 2 days
+without food or water, or 3 at reduced rations.
+The rules for judging the effects of reduced
+water consumption may be found in the Wil-
+derness Survival Guide, pages 50-53, 88-89.
+The effects on combat and other strength-
+related activities are given there.
+Finding Water
+Two tries at locating water may be made in
+each 24-hour period. Unless a character has
+proficiency in Desert Survival, the chances of
+finding water are not great; such proficiency
+doubles the chances given below.
+Because of the curse laid on Amun-Re, there
+is no chance of finding water in the Desert of
+Desolation between The Dustwall and Terba-
+kar. North of the pyramid to the Oasis of the
+White Palm, there is a 10% chance of finding
+water within 2d6 + 3 feet of the surface at the
+foot of a dune or in the rocky hills. From the
+Oasis of the White Palm north to Skysea, there
+is a 20% chance to find water at these same
+locations. There is no chance of finding water
+in the sinkhole areas.
+Except for the occasional oases, there are no
+plants in this part of the desert.
+Judging Sighting
+Distance
+The Pyramid Tomb of Amun-Re may be seen
+from the pass through The Dustwall in the ear-
+ly morning, but not after the sun's heat has a
+chance to beat down on the desert. From the
+top of a dune or a rocky hill, the pyramid can
+be seen from 10 miles (2 hexes). The obelisks
+(tall stone monuments) can be seen from 5
+miles (1 hex). The various ruins can be seen
+from 2-3 miles distant, or half a hex. Man-sized
+objects are recognizable for what they are at
+500 yards. Large sandstorms can be seen for at
+least 30 miles (6 hexes), and dust devils (desert
+tornadoes) can be seen for 20 miles (4 hexes).
+
+===== I3-5 PAGE 10 =====
+Chapter 3: Setting Up the Campaign
+In order to set up the campaign, the party must
+be transported to the far southeast corner of
+the Forgotten Realms, to the land of Durpar.
+There, in on the northern border of that land,
+nestled in The Dustwall, the mountains that
+border the Desert of Desolation, is the town of
+Bralizzar. In Bralizzar, the PCs may learn all
+they can about the mission, which is to gain
+the Sphere of Power of Martek, the area's most
+eminent archmage, now dead 1000 years.
+This chapter provides one method for get-
+ting the party to Bralizzar. You can devise oth-
+ers, including a trek overland, if you desire.
+The advantage of the method presented here is
+that the party can leave the area where they
+presently adventure, play through the entire
+campaign, and be returned to their starting
+point without needing to know any details
+about the intervening geography.
+Expected Play
+The party, while on a wilderness adventure,
+will be driven into a cave inhabited by a family
+of trolls. Finding combat impossible (or at least
+unlikely) to be concluded successfully, they
+venture deep into the cave. They find a pair of
+scrolls and a teleport device that will take them
+to Bralizzar, where the campaign will really
+begin.
+Throughout the play of this encounter,
+encourage any role-play that would normally
+be expected, such as tethering mounts, secur-
+ing gear, gathering firewood, etc., even though
+these preparations will not have much to do
+with the outcome. This encounter is linear in
+nature; the PCs have little or no choice about
+what will happen to them (if they want to live),
+but this fact must not be thrust down the play-
+ers' throats. At all times, make it seem that the
+PCs' actions completely determine their fate.
+Troll Cave
+Encounter Areas
+Refer to Map 3-1 when playing this encounter.
+The Troll Cave has two chambers separated by
+a narrow, twisting passage. The outer chamber
+is large and deep, with a mouth that drops
+steeply to a flattened place 15 feet below. The
+inner chamber is much smaller.
+1. Seeking Shelter
+The party is moving through a steep pass, pos-
+sibly Gnoll Pass or somewhere similar, when
+this occurs. Read this description:
+The way is rock-strewn and rough this high
+in the steep path. As darkness falls, you
+notice that a storm of monumental propor-
+tions is brewing,
+and will strike before
+long. Shelter is needed, and soon!
+A glance at the pass being climbed con-
+firms that it would be very dangerous to
+remain here, for any substantial rain would
+turn the trail into a tumultuous torrent of
+water as it flows over the rocky ground.
+Thus, you reason, the only safe place is off
+the trail, up into the rocks themselves.
+Before long, the party spots a cave above
+them. The way up to the cave is difficult, and it
+is impossible to bring mounts up to the mouth,
+though there is a place above the flood mark
+and 15 feet below the cave mouth where
+mounts and heavy gear can be left.
+It is important that the PCs feel that the storm
+has driven them into the cave. It probably is
+best if it breaks before they actually reach the
+mouth, but after they spot it.
+2. The Outer Chamber
+The storm begins in earnest just as you
+enter the cave. Cold rain is driven by high
+winds into the cave mouth for 10 feet, soak-
+ing the area. The torrent breaks loose small
+rocks and mud above the cave mouth,
+50 feet
+UP
+2
+Map 3-1
+Troll Cave
+10
+
+===== I3-5 PAGE 12 =====
+Chapter 4: Bralizzar, Gateway to Raurin
+Background
+The town of Bralizzar is a caravansarai nestled
+in The Dustwall at the southern edge of the
+Desert of Desolation. The town began as a
+way-station for caravans headed north toward
+the busy cities of Pazar, Terbakar, and Phoenix
+along the River Athis. It was here that the cara-
+vans spent time before attempting Northknife
+Pass into the desert plain beyond and the peril-
+ous trek through the hills and dunes to Terba-
+kar, from whence the River Athis sprang.
+During the winter, many caravans would
+spend time here until Northknife Pass was
+cleared of snow, and it was through Bralizzar
+that first caravans from the north would come
+in the spring. It was the importance of the
+town that allowed it, with no other visible
+means of support, to become one of the jewels
+of the area.
+All this changed with the curse of Amun-Re.
+The River Athis dried, the cities nearby were
+abandoned, and most of the caravans depart-
+ed. A few intrepid adventurers passed through
+Bralizzar, headed toward the Desert of Desola-
+tion, but they were far between. Finally, all
+that was left were the abandoned temples of
+forgotten gods, and the Raurindi Dervishes.
+The Raurindi, the remnants of the proud cit-
+izens of the once-fertile river valley to the
+north, came to Bralizzar. Seeing themselves as
+the guardians of the past and the hope of the
+future, the Raurindi took over care for the tem-
+ples. Their religion, which accepted all reli-
+gions as sacred, made them duty-bound to
+protect those places deemed holy. They settled
+in Bralizzar in the deserted homes of the rich
+and waited. They waited for centuries.
+When the Sandvoyagers Guild reopened the
+trade route north, the Durpari merchants were
+not far behind. Now the town is their home,
+the Raurindi who once lived here either assimi-
+lated or pushed back out into the desert again
+to live as nomads. The Durpari cared nothing
+for the old religions, worshipping only their
+god Anu. The temples that once lined the
+major streets of Bralizzar fell into disrepair or
+were turned, like the Inn of the Golden Palm,
+to other uses. The wide streets became crowd-
+ed with small shops and hovels except for the
+grand boulevard that leads from the still-proud
+administration building to the grand temple to
+the west. Only the boulevard retained its beau-
+ty, lined with the large residences of the
+wealthy and powerful and flanked by build-
+ings that would make the cities of Zindalank or
+Seldazzar proud
+Since trade that exists by a thread can toler-
+ate no interference, Bralizzar became a town of
+absolute law. A Lancer stronghold was cre-
+ated. Courts were also established, as well as
+inn and hostels for those who would travel into
+the desert.
+To control the flow of merchandise to and
+from the desert and to make it difficult for pil-
+laged caravan booty to be transported, guard-
+posts stand on the main trails that led to the
+Northknife and South Passes. Those entering
+the town from the north with a caravan are
+asked (forced) to show bona fides from the
+merchants of Phannaskul or Gheldaneth that
+they are legitimate traders. Those leaving town
+toward Northknife Pass are "asked" to show,
+in the same manner, a release from the Het-
+mann of Bralizzar to prove their right to cross
+On the south side of Bralizzar, travelers are
+asked their business in town and issued a cop-
+per medallion as proof that they have entered
+town honestly. This medallion is to be retained
+by all visitors to Bralizzar as an affidavit of
+their transient status. Citizens of the town,
+those who have been before the Hetmann and
+have proved their ability to maintain them-
+selves, are issued a silver medallion. This
+medallion need not be carried at all times, but
+it must be able to be produced on one-hour's
+Thus Bralizzar, a vigorous town of 500 per-
+manent residents and twice that many tran-
+sients, flourishes because the Durpari know
+that it is the last outpost before the arduous
+trek across the Raurin begins. It flourishes
+because its administrators know that to allow
+the laws to be relaxed for a moment would be
+to plunge the desert trade into the abyss of the
+past. It flourishes even though it has no sense
+In every way, it is the Durpari who re-
+established Bralizzar as the gateway to the
+Deserts of Raurin. At first a flourishing city,
+next a ghost-town, then a desert waystation,
+now become a thriving town of modest size,
+Bralizzar reflects the Durpari.
+Expected Play
+Bralizzar is not as detailed as other adventure
+areas. Its purpose is to set the tone of the cam-
+paign, to provide a beginning point and a place
+to provision the party, and to give you a way
+to provide your players with some back-
+ground information through the game setting.
+Play here can be as extensive as you desire, and
+you may flesh out the town as much as you
+like.
+Most of the play here is likely to be role-
+play, as the PCs gather information and sup-
+plies. If the players are smart, they will exhaust
+every resource, keeping their noses clean, until
+they know whatever there is to know about
+the desert and their mission.
+Providing Information To
+Players
+In supplying specific information from knowl-
+edgeable NPCs (such as Aman Al-Raqib, Het-
+12
+mann Pasha Burak, or Lancer Captain Ashuk
+Masani), use the Background sections of the
+chapters in this book. Use this chapter to pro-
+vide information about Bralizzar itself. Use the
+information in Chapter 1: Background and
+Storyline to provide information for the NPCs
+to give out on desert trade and the Sandvoy-
+agers Guild and on the various legends sur-
+rounding the mission. For information about
+Pazar, Terbakar, the Oasis of the White Palm,
+Phoenix, and Medinat Muskawoon (now the
+Cursed City of Stone), see the Background sec-
+tions in Chapters 7, 8, 9, 12, and 13. When
+rumors are the information supplied, use the
+General Rumors section of Chapter 2: Judging
+Notes for the Dungeon Master to provide
+them.
+Be cautious in providing hard information.
+It is necessary to give the players some infor-
+mation to work with, but it is crucial not to
+give them too much. In no case will an NPC
+know any specific details, and the facts provid-
+ed in the Background sections can be altered or
+changed to suit the whim of the DM. After all,
+much of what is recorded in those sections is
+1000 years old, and time has a way of erasing
+details.
+Player Maps
+There are two player maps on the colored map
+sheet that should be given out during role-play
+in this adventure area. One of these player
+maps, Map 6-2, shows the south end of the
+Desert of Desolation. It is at the same scale as
+the DM map of the desert, and it shows the
+pyramid of Amun-Re, Pazar, the Oasis of the
+White Palm, the Gates of Sule, and the dry riv-
+erbed of the River Athis. This will give the
+players their first clues about where in the Des-
+ert of Desolation they should begin. Another
+of these player maps is a map of the temple and
+tomb of Amun-Re.
+Unless play goes very badly, and the players
+are not at all cooperative, these maps should
+be given to the PCs by Aman. Failing that,
+they could be given to the PCs by Captain
+Murak after he escorts them to Northknife
+Pass.
+Joining a Sandvoyagers Guild
+Caravan
+There is a bit of a problem should the PCs
+decide the best thing for them would be to join
+a Sandvoyagers Caravan. From a gaming
+point of view, the best course of play is for the
+PCs to go it alone in the desert, with only their
+own skills and resources to help them face that
+dangerous trek. Unfortunately, with the pres-
+ence of the Sandvoyagers Guild, this is likely
+to be a very poor second choice for them.
+Clearly the way for them to travel is as part of
+an official caravan. If it were not for the sub-
+stantial amount of gaming opportunity that
+
+===== I3-5 PAGE 20 =====
+Northknife Pass
+Map 5-1
+Elevation 1000'
+Impassable terrain
+Elevation 0
+High peaks)
+Snowcapped peaks
+Elevation 8000
+Foothills
+Path of caravans (1)
+Stream ford (2) P
+Narrow passes (3,
+4)
+Spring stream (5)
+Cave (6) O
+Scenic view (7)
+The Dustwall (8)
+
+===== I3-5 PAGE 30 =====
+point, one to the right and one to the left. The-
+se trails disappear behind dunes after setting
+generally easterly and westerly directions of
+travel. These trails may be spotted by a ranger
+at half normal ability, with a bonus of 10% for
+skill in the desert. A recent sandstorm will cut
+the chance to find the trails in half once more.
+There is no doubt, however, that the sign-
+post indicates a trail once existed to the east
+(toward Pazar) and to the west (to the city of
+Terbakar, wherein were built the temple and
+pyramid of Amun-Re). The runes written in
+the ancient alphabet are reproduced as Inscrip-
+tion 6B on the reverse of the DM's fold-up
+map; they read as follows:
+Here lies the road of the kings to the Gar-
+den City of Pazar, whilst there lies the
+road to Terbakar, Keeper of the Pyramid.
+9. Land of Bakar
+This area does not appear any different from the
+rest of the Desert of Desolation, but it is haunted
+by the ghost of Amun-Re, last Pharoah of Bakar.
+For each hour that a party remains in this area,
+there is a 5% cumulative chance that they will
+encounter the ghost during that or the following
+night. When the encounter occurs, read the
+boxed description below.
+Your skin blistered all day until the hot des-
+ert sun sank slowly below the horizon.
+Now, the deep blue mists of the night swirl
+over the sands of Raurin, the incomparable
+Desert of Dust.
+As the cool night air drains the heat from
+the sand, you and your friends huddle
+around your campfire, glancing nervously
+about. An aura of eerie menace surrounds
+this place.
+Gradually, the winds change direction,
+bearing a thin streak of white mist toward
+you from the west. It swirls and disappears
+behind a dune 100 yards away. Moments
+later, a solitary figure appears from behind
+that same dune, plodding through the cool-
+ing desert sand. He appears to be dressed in
+a leopard-skin robe and an ornate head-
+piece. He does not seem to be aware of your
+presence, yet he is heading directly toward
+you.
+As a soul cursed by the gods, Amun-re cannot
+be harmed nor can he give harm to the party.
+Thus, he will not react to hostile moves, going
+so far as to be unresponsive even if a weapon
+passes through him. Likewise, he must not
+appear to be threatening, merely mysterious.
+Until he speaks and leaves no doubt about who
+and what he is, cloak him in as much mystery
+as possible, never saying directly that he is a
+ghost. Give hints, such as "he leaves no track
+in the desert sand" or "he seems to be strangely
+insubstantial, perhaps a trick of the moon-
+light." Make the players guess at his nature
+with no confirmation from you.
+The ghost will appear to take no notice of
+the party until they are within 15 yards, at
+which time he will turn and address the party
+directly, reciting his sad story. At this time,
+read the following boxed copy.
+I am Amun-Re, son of Takosh-Re of the
+house of Mo-Pelar That which you see is
+but my shadow which has walked these
+lands for time uncounted, in search of
+mighty men of valor, to plead their aid.
+In my time was I Pharoah of this land now
+before you. Then, Bakar was a green and
+beautiful land, blessed by the gods of Heaven
+Westward with the wondrous spring of Athis,
+which gave life to our land and nurtured our
+crops. Yet did robbers raid the tombs of my
+forefathers and take from them tokens of
+their passage into the lands of the dead, thus
+keeping them from their reward after life. I
+swore that, at all costs, I would not fall prey
+to their evil deeds.
+So it was that I made mighty and terrible
+war upon my neighbors, plundering their
+lands of wealth for my own passage. I did
+enter a contract with a great mage to work
+a mighty wonder, and, upon the sweat and
+blood of my people, I did build a theft-
+proof tomb.
+My people turned against me with bitter
+hatred. not only robbed our borderlands
+but taxed grievously my own people, and
+so took from them their wealth. They rose
+up in anger, demanding their gold and pre-
+cious gems, their lives and freedom.
+I cursed them, saying, "By the ruling staff
+and the Star Gem of Mo-Pelar, I curse you.
+Threaten not my life, or by them and by the
+holy name of Osiris, will the stopping of
+my heart also stop the Spring of Athis from
+her life-giving flow. As the river slows and
+dies, so shall your land wither in the wilder-
+ness. This do I swear by Osiris holy name
+and these implements of my power."
+From a sea of upraised fists before me,
+rose one with a spear. The shaft sped from
+the darkness, and so, too, that night did the
+Spring of Athis stop its flow.
+In death, my spirit gleefully approached
+my pyramid. But Osiris stopped my spirit
+from entering that tomb, for, said he, "Your
+monument to life was to be the benefit you
+brought to the people under your steward-
+ship, not this edifice of stone. As you
+looked only to your death in life, so shall
+you look only to your life in death. I am
+bound to fulfill your curse, for you have
+called it down with power in my name. But
+1 do curse you as well, Amun-Re You shall
+not enter this tomb where the implements
+are of your voyage to heaven until some
+mortal soul does despoil this place, taking
+your staff of ruling and the Star Gem of
+Mo-Pelar from your theft-proof tomb."
+Even have I talked with the wind in hope
+of help. Uncounted seasons have passed,
+and my Kingdom is not now to be seen in
+these desert lands. of it, nothing remains
+save for my tomb, which stands now as
+then, untouched by time, sands, wind, or
+men. Though many have tried to plunder
+my wealth, none has succeeded, and I am
+forbidden passage to heaven until one suc-
+ceeds.
+My wealth is thine if thou can but best that
+which I have built. Remove both my staff of
+ruling and the Star Gem from my tomb. So
+then will you gain great wealth, and so then
+will you release me. Follow my path to wealth
+or woe, to thy destiny or thy doom.
+The ghost of Amun-re will appear to the party
+every night thereafter that they are within the
+realm of Bakar and have not yet entered the
+temple and tomb. When the party is within
+sight of the pyramid, when he will appear and
+slowly raise his arm up to point towards the
+ancient tomb.
+10. First Glimpse of Pazar
+Read this description when the PCs are within
+10 miles of Pazar. The statue described can be
+seen from the top of a dune.
+Waist-deep in the desert sands, a stone
+giant stands guard over some aged ruins.
+Featureless from this distance, the statue
+appears to be clasping a tablet.
+When the PCs approach closer, use the materi-
+al in Chapter 7: Sunken City of Pazar and the
+corresponding inscriptions and maps.
+11. First Glimpse of Terbakar
+and the Tomb of Amun-Re
+From the top of any dune within 150 miles, and
+the top of any hill within 300 miles, the pol-
+ished stone of the pyramid walls reflects the
+sunlight, allowing it to act as a landmark and a
+beacon even before its shape may be discerned
+Within 50 miles, the 700-foot-tall pyramid
+takes shape, and when the party comes within
+20 miles, it will be nearly continuously visible.
+From a dune-top 5 miles away, the ruins of Ter-
+bakar may be seen, along with the temple and
+pyramid of Amun-Re. Read the boxed descrip-
+tion below.
+In the midst of the vast desert sands stands
+the last relic of a dead civilization. From the
+broken foundations of a once-mighty city,
+a great pyramid rises, its polished stone
+walls gleaming in the sunlight like the facets
+30
+
+===== I3-5 PAGE 45 =====
+whereby his spirit might pass into his
+ordained statue and live within the
+stone we worship here. Such a passage
+was always provided for the Kings that
+they may live among us once more.
+The flames in the offering bowl burn with nei-
+ther smoke nor heat, nor is there any apparent
+fuel source. Anything that is placed in the bowl
+vanishes in a spectacular upsurge of flame, as
+the PCs can see when the Assistant Holy laseda
+places a cloth-wrapped package in the bowl.
+The bowl is a rather spectacular teleporta-
+tion device to the Welcome Room (area 1) in
+Kordan's Master Maze. If a PC enters the bowl
+entirely, do not describe for him anything.
+Instead, describe for the remaining players
+what has happened by reading the following
+boxed text. Because the teleportation device
+will split the party, it is advisable not to let any-
+one know the fate of the vanished party mem-
+As soon as (name the PC here) is com-
+pletely inside the offering bowl, the flames
+surge up,
+blocking his (her) from sight.
+When the flames die down immediately
+thereafter, the bowl is empty save for the
+flames. (Name the PC here) has vanished.
+After concluding play in this room with the
+rest of the party, take any party members who
+were teleported aside and read for them the
+descriptions of the experience and their present
+location in the Welcome Room (area 1) of Kor-
+dan's Master Maze.
+The flames have done
+them no damage. Continue with a split party
+as long as necessary.
+5. West Water Storage Vault
+The 10-foot wide arched corridor opens
+into a vertical circular shaft 30 feet in diam-
+eter. The shaft has wet, slime-covered walls
+dropping into darkness below and rising 30
+feet to a domed ceiling above. The air here
+is very humid.
+The shaft drops down 120 feet to murky water
+30 feet deep. The waters of Athis (see area 6)
+fill the bottom of this shaft.
+There is an underground
+between this area and the East Water Storage
+Silo (area 6). This tunnel is 15 feet in diameter
+and connects 10 feet from the bottom of the
+vault. There is a slow current through this tun-
+nel in this direction from the connecting silo.
+The water in the vault and the connecting
+tunnel is the Waters of Athis, which have heal-
+ing properties within the tomb. Once per 24
+hours, a person drinking the water while inside
+the pyramid will gain back 1d10 damage
+points. The pyramid concentrates cosmic
+energy to give the water its healing powers; the
+water will not have any healing powers outside
+of the pyramid.
+It is from the bottom of this vault that the
+water was teleported out to the now-dry Foun-
+tain of Athis, which stands just before the tem-
+ple. The water used to be created magically on
+the Halls of the Upper Priesthood level. When
+Amun-Re's curse took effect,
+the water
+stopped being created. Now, it is teleported
+from this place to The Pharoah's True Way
+(Tomb Level area 1), where it begins its rapid
+downward journey once again. When the
+curse is broken, the waters will flow freely
+Should a PC happen onto the area wherein
+the water is teleported away continuously, he.
+too will be teleported. It is likely that this will
+split the party. Continue play in the vault,
+making no mention of the fate of the PC, who
+will not reappear.
+Unless the party follows, run the PC sepa-
+rately, describing in very general terms the fol-
+lowing tumultuous journey. The PC will be
+teleported to the top of the water Pillar of
+Athis (Gauntlet Level area 4). As the water
+plunges downward, he will fall with it, taking
+1d6 damage points immediately. He will be
+carried through a duct and spilled out into the
+rapids of The Grand Hall of the Pharoahs
+(Gauntlet Level area 3); this passage, until he
+enters a duct at the rapids' foot, will give
+another 1d6 damage points. Eventually, he will
+be spewed out from the lion's mouth in the
+Dome of Flight (Priesthood Halls Level area 5).
+He will take an additional 1d6 damage points
+from the 30-foot fall to the pool below, from
+which adventuring may begin again. Should
+the PC die in the process, his body can eventu-
+ally be found floating in this same pool.
+6. East Water Storage Silo
+The 10-foot-wide corridor opens onto a
+vertical shaft 30 feet in diameter. The wet
+and slimy walls drop down into darkness
+and rise 30 feet to the top of a domed ceil-
+ing. The air is very humid here, and the
+thunderous sound of cascading water fills
+the chamber.
+The shaft drops 120 feet into turbulent and
+foaming white water 30 feet deep. Fifty feet
+below the arched entrance, water gushes from
+a 10-foot-diameter opening in the north wall,
+falling to the water below. This Sluiceway
+(area 7) leads up to Kordan's Master Maze.
+There is an underground tunnel connecting
+this silo with the West Water Storage Vault
+(area 5); this tunnel is 15 feet in diameter and
+enters 10 feet above the floor of the silo. The
+water here is Water of Athis (see area 5).
+45
+
+===== I3-5 PAGE 50 =====
+two sides. At an inside curve, his arms will be
+bent backward; at an outside curve, his arms
+will be somewhat in front of him. Similarly, if 4
+PCs walk abreast in the mist and they come to
+a corner, the PC at the outside will have to hur-
+ry to catch up, whereas the person at the inside
+will seem to rush ahead. If the PCs send one
+with a rope ahead, they can send rope signals.
+They even can use the rope to distinguish total
+distance between one clear area and another.
+It is clues like these that will help the players
+solve the problem of determining where they
+are. Be sure to reward good play, stretching a
+point a bit if necessary to do so. Wondering
+monsters will take their toll when bad play
+results.
+3. Standard 30-Foot Corridor
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+lead out from the center of both side walls
+and are also filled with mists.
+4. Standard Plank Door 1
+The mists part to reveal a 10-foot square
+section of clear corridor. The mists fill the
+archway to the rear, and a heavy door bars
+passage ahead.
+5. Six Bags Full
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+lead out from the center of both side walls
+and are also filled with mists. Six small,
+leather sacks lie in the center of the corri-
+dor.
+The sacks contain 510 gp.
+6. Door Hammer
+You are in a 10-foot square section of clear
+corridor with the mists filling the archway
+at one end and a heavy plank door at the
+other. A hammer lies by the door.
+This is a hammer +1.
+7. Silver Ringer
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+lead out from the center of both side walls
+and are also filled with mists. On the floor
+in the center of the area is a ring that
+appears to be made of fine silver.
+There is a base chance of 20% for PCs to detect
+a fresh breeze from the north exit. Following
+this breeze will lead to a way to the next level.
+The ring is a ring of contrariness; it also con-
+fers the ability to fly, as in the 3rd level spell
+fly. The ring will not come off until a remove
+curse is cast upon the wearer, an event that the
+wearer will resist with every power available.
+8. Breezeway
+The mists part to reveal a 10-foot square
+clear intersection of four archways, each
+filled with swirling rust-colored mists.
+There is a base chance of 40% for PCs to detect
+a cool, fresh breeze from the east exit. This
+leads to the Well of Questions (area 28), a way
+to the next level.
+9. Кпоск, Кпоск
+The mists part to reveal a 10-foot square
+section of clear corridor. Mist fills the arch-
+way to the rear, and a heavy plank door
+bars the way ahead. On the door, in com-
+mon speech is written "Knock First."
+The sign is to alert the bandits inside that there
+are foolish adventures about to come in.
+10. Standard Plank Door 2
+The mists part to reveal a 10-foot square
+clear intersection of archways. Three arch-
+ways are filled with the rust-colored mists,
+and the fourth is blocked by a heavy wood-
+en door.
+11. Drafty Door
+The mists part to reveal a 10-foot square
+section of clear corridor. Mists fill the arch-
+way behind, and a heavy wooden door
+bars passage ahead. A fresh, cool breeze
+flows out from under the door.
+The sounds of tumbling torrents of water will
+be heard if listening at the door is successful.
+12. A Bad Smell 1
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+50
+lead out from the center of both walls and
+are also filled with mists.
+The stench of carrion can be detected from the
+south exit 10% of the time.
+13. A Bad Smell 2
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+lead out from the center of both side walls
+and are also filled with mists.
+The stench of carrion can be detected from the
+north exit 10% of the time.
+14. Treasure Sled
+The mists part to reveal a 10-foot by 30-
+foot section of clear corridor with mists fill-
+ing the archways at both ends. Archways
+lead out from the center of both side walls
+and are also filled with mists. Lying on the
+floor in the center is the skeleton of a person
+who seems to have died while pulling a
+sled. The sled holds three chests, two on the
+bottom row with the third on top of them.
+There is a base 20% chance for PCs to detect
+the stench of carrion from the north exit. The
+skeleton is harmless.
+When the top chest is opened, it shoots out
+drug-tipped darts in an arc ranging from
+straight up to directly in front of the chest. All
+PCs directly in front of the box must make a
+successful dexterity check or be hit by some of
+the darts. Anyone hit must save vs. poison or
+be paralyzed for 1d20 turns. The chest now
+contains only old, used, orc socks and the trap
+mechanism. The bottom two chests each con-
+tain 500 gp, loose.
+15. Carnage
+The mists part to reveal a T-shaped intersec-
+tion. Strewn all about are bodies in various
+states of decay; all died in battle. In the cen-
+ter of the area, a body lies on its back, spit-
+ted through by a brightly shining sword
+that sticks into the stone floor. Each branch
+of the intersection is 10 feet long and disap-
+pears into the rust-orange mists.
+The shining sword is the only usable piece of
+equipment to be found among the bodies in the
+room. A careful examination of the sword will
+reveal the word Enduval inscribed on the blade
+near the hilt. Enduval is a cursed berserking
+sword. When first used in combat, it forces its
+user to attack the nearest person to him, friend
+or foe. The bearer must continue attacking
+
+===== I3-5 PAGE 60 =====
+3d. Pet Fist
+The final flight of steps leads up past the rapid
+waters to a semi-circular area 30 feet wide by
+20 feet deep. There is a bronze arm with its
+hand formed into a fist in the center of the
+area. Behind this can be seen a throne.
+If the party has not yet met Munafik, he will be
+seated in the throne, waiting nearly motionless
+until the pet fist is bested before using any of
+his personal powers. Unless a party member
+specifically attacks him or comes too close,
+Munafik will remain placid and motionless
+until the pet fist can fight no more.
+The pet fist will attack anything that moves
+within its 15-foot reach. When it has taken its
+full 50 damage points, it will collapse as a huge
+heap of mud. Then, Munafik will rise immedi-
+ately, eyes blazing and face contorted in a hid-
+eous snarl. Levelling one hand at the party, he
+will cast a spell. He will behave intelligently in
+his attempt to best the party. If necessary, he
+will escape to another part of this level to con-
+tinue the arcane combat there. Because he has
+hidden his heart elsewhere, Munafik cannot be
+damaged or killed by spells or blows. Cutting
+hits will slice right through him with no effect
+and thrusts will impale him but do no damage
+for his "heart isn't in it" (see area 8); he has
+trapped his soul elsewhere. Spells will affect
+him as they would any 10th level MU, except
+that damaging attacks have no effect. For
+example, a hold person will hold him, but a
+magic missile will cause no damage.
+Pet Fist: AC 7; MV 3"; HD 10; hp 50; #AT 2; D
+1d10/1d10; AL C
+Munafik: AC 7; MV 12"; MU 10; hp N/A;
+#AT 1; D 1d6; AL LE.
+3e. Exit at Last
+Behind the throne there is a set of bronze
+double doors.
+These doors lead to the Pillar of Athis (area 4).
+They open easily and quietly.
+4. Pillar of Athis
+In the center of this 30-foot-wide semi-
+circular room, a 10-foot-diameter column
+of water thunders down from a circular
+opening in the ceiling, passing through a
+matching opening in the floor. The room
+shakes with the violence of the water flow.
+There are 10-foot-wide corridors leading
+to the east and west. The common speech
+symbol for "7" is engraved in the floor in
+front of the opening in the floor.
+Anyone verbally asking a question will trigger
+a deep, watery voice that will speak from the
+pillar and ask three questions. If any of the
+questions is answered with a lie, the character
+answering will be struck by lightning for 1d8
+damage points and the pillar will begin again
+with the first question. If a question is
+answered truthfully, the column will proceed
+to the next question until
+all three are
+answered. The questions it will ask are 1)
+"What is your name?"; 2) "What is your
+quest?"; and 3) "On whose hallowed ground
+If the answer "Amun-Re" is given to the
+third question, the column will instruct: "Put
+thy hand in mine" and a white impression of a
+hand will appear in the floor in front of the
+column. Anyone of good or neutral alignment
+who places his hand into this will cause the
+water pillar to run backwards, from the floor
+to the ceiling. If an evil person tries to put his
+hand into the impression, a lightning bolt will
+gently knock him to the floor for 1-8 damage
+points. When the column is flowing back-
+wards, anyone (regardless of alignment) step-
+ping into the water during the next five
+minutes will be swept upward 30 feet to the
+Pharaoh's True Way (True Tomb Level area 1),
+with no danger of drowning.
+5. Reading Room
+An octagonal white marble room 30 feet
+across has 10-foot-wide archways in the
+east and west walls. An old book lies on a
+marble slab in the center of the room.
+The book is a Libram of Ineffable Damnation.
+Any evil MU who reads this book will advance
+to the mid-point of the next highest experience
+level. The book takes one week to read. Any
+good or neutral person who reads even one
+word of the book will drop to the mid-point of
+the next lowest level of experience.
+6. Waterbed
+In the center of this 30-foot-wide octagonal
+room fashioned of white marble there is a
+10-foot-wide by 15-foot-long pool of
+water. A large bed with satin sheets rides in
+the middle of the pool on pontoons, tied to
+the pool's edges with ropes.
+8. Dining Room
+This octagonal room 30 feet across appears
+empty. Archways in the east and west walls
+lead out of the room.
+9. Storage Room
+The north wall of this octagonal room has
+been broken through, with rubble and dirt
+piled on the floor. There is a 4-foot-wide by
+5-foot-tall rough-hewn tunnel that appears
+to twist its way down and to the north. A
+10-foot-wide archway is set in the center of
+the south wall.
+10. Rumpus Room
+The north wall of this octagonal room dis-
+plays chains and open manacles, the pins
+missing.
+11. Heart's Lair
+At the end of the narrow, low-ceilinged,
+twisting tunnel lies a rough cavern, made
+more by force than grace from the fitted
+stones of the pyramid. Jumbled blocks are
+strewn about the floor. The cavern mea-
+sures roughly 30 feet north to south and 40
+feet east to west. Something can be seen
+glittering in a small cave in the northeast
+corner. A hugh dark shape stands in front
+of the cave in stony silence.
+A clay golem is guarding the Treasure and
+must be overdome. It will only attack if the
+characters approach within 5 feet of it.
+Behind the golem in the cove is a glass bell
+jar that glints through the dust and soot that
+covers it. The jar is sealed to the base and the
+glass will break before the base will loosen.
+Within the jar (treat the glass as AC4; hp 28) a
+beating human heart can be seen. After the jar
+is broken; the heart will die.
+Munafik's; only the death of the heart will kill
+the evil priest of the pyramid.
+Clay Golem: AC 7; MV 7"; HD 11; hp 50; #AT
+1; D 3d10; AL CE/N.
+7. Sitting Room
+The floor of this 30-foot-wide octagonal room
+is covered with a rug, a nice contrast to the
+white marble walls and ceiling. A chair and a
+bench stand against the west wall.
+60
+
+===== I3-5 PAGE 75 =====
+will be vacant, the zombie having returned to
+the Carnivorous Cavern (area 3).
+Zombie: AC 8; MV 6"; HD 2; hp 12; #AT 1: D
+1d8; AL N.
+3. Carnivorous Cavern
+Within this small, dark cavern stand sev-
+eral figures, swaying from side to side.
+Four (three if one zombie was in the Temple
+Entry) zombies are standing in this room. They
+will not attack unless their room is entered or
+the glyph of warding on the Door of Warding
+(area 5) goes off.
+Zombies: AC 8; MV 6"; HD 2; hp
+12,10,8,(12); #AT 1; D 1d8; AL N.
+4. Followers' Purification
+Room
+The walls of this room are painted to depict
+terrible creatures marching to war. In the
+middle of the floor are three wading pools,
+three feet long east to west by six inches
+deep. The northernmost pool holds a per-
+fumed, transparent liquid with a green
+tinge. The middle pool contains a deep red
+liquid, and the southernmost pool contains
+a clear liquid.
+The worshippers are required to wade through
+these pools as a rite of purification before they
+worship their evil deity. There is nothing spe-
+cial about any of the liquids.
+5. Door of Warding
+The cult members will say the passwords as in
+Trap/Trick below before passing through the
+arched door. All cultists know the passwords
+into this part of the complex. Player characters
+who follow the cultists will learn the
+passwords.
+Over the doorway between this room and
+the Followers' Purification Room (area 4) are 3
+glyphs of warding, one on each wall and one
+on the floor. Unless the words "Seti," "Minion,"
+and "Nol-anka" are spoken before a character
+passes, the glyphs will be discharged. In addi-
+tion to giving damage, this will summon the
+zombies from the Carnivorous Cavern (area 3)
+and, if between midnight and 3am alert the
+worship group in this room to the presence of
+strangers. The floor glyph will cause blindness,
+and the wall glyphs will do 10 points of fire
+damage each.
+6. Outer Temple of Set
+Two rows of thick pillars covered with cha-
+otic designs support the 50-foot tall ceiling
+of this hall. At the north end of the chamber
+is a huge stone idol of a man with the sneer-
+ing head of a jackal. The eyes of the idol
+look like large red gems. The idol's hands
+rest on his knees. Before the massive idol, a
+pit 10 feet across glows with a pulsating red
+From midnight to 3am, there will be 13 people
+here, standing around the pit. All wear red
+robes with hoods that cover their faces. Four of
+them stand beside the idol, two on each side
+facing south, while the other nine face the pit
+looking north. The four around the pit will be
+Corga Kazan, Korus Eikoth, and two acolytes;
+the remainder are dervish cultists.
+If anyone attempts to pry the gemstones,
+which appear to be worth 10,000 gp each, from
+the face of the statue, its 10-foot long arms will
+animate and attack as a 16 + HD monster with
+an AC of 0 and 80 hp each. Each arm does 4d10
+damage points. Once removed, the stones will
+start to glow brightly and give off intense heat,
+causing 6d6 damage points to all within 10 feet
+of them. After one turn, the stones will melt
+and the heat will disappear. If an ice storm or
+cone of cold is used on the gems, they will
+become cold immediately and retain their full
+From the depths of the pit comes a faint, pul-
+sating red light. The pit appears to be bottom-
+less. This is an illusion, for the pit is actually
+only 100 feet deep. The illusion is placed at the
+50-foot level and a character lowered on a rope
+farther than this will see the pit for what it
+really is. At the 60-foot level a pair of secret
+doors are located on the east side. The doors
+open outwards. They lead to a smooth, but
+climbable, chute leading steeply upwards to a
+horizontal, solid stone ceiling. This ceiling is
+the dropping floor in Cross and Double Cross
+(area 9); the trap cannot be triggered from
+here. A large number of skeletons are at the
+bottom of the pit. Small pieces of jewelry
+worth a total of 300 gp are scattered among the
+Corga Kazan, dervish cleric: AC 5; MV 12"; C
+5; hp 27; #AT 1; D 1d6 + 2; AL LE. He car-
+ries the following spells: command, cure
+light wounds, darkness, light, sanctuary,
+hold person twice per day, silence 15' radi-
+us, know alignment, dispel magic. He is
+armed with a mace +1. For more details,
+see the section on Major Non-Player Char-
+acters in Chapter 9: Oasis of the White
+Korus Eikoth, second son of the sheik: AC 1;
+MV 12"; F7; hp 45; #AT 3/2; D 1d8 + 4; AL
+75
+LE; strength bonus +2 to hit, +4 damage;
+S 18/88; I 11; W 9; Dex 15; Con 15; Ch 10.
+Korus is armed with a scimitar +1 and
+wears chainmail +2. He also has one
+potion of ESP and six arrows + 1. For more
+details, see the section on
+I Major Non-
+Player Characters in Chapter 9: Oasis of
+the White Palm.
+2 Acolytes: AC 6; MV 12": C 2; hp 11,6; #AT
+1; D 1d8; AL LE. Each has the following
+spells: darkness, command, cause fear,
+cause light wounds.
+Dervish cultists: AC 7; MV 12"; F 3; hp
+15,15,14,20,20,10,12,23,13; #AT 1; D 1d4;
+AL LN.
+7. Acolytes' Quarters
+This 20-foot square room is sparsley fur-
+nished with three sets of rude desks and
+beds and three small chests.
+The acolytes will be here except from midnight
+to 3am, when they will be in the Outer Temple
+(area 6). They are fiercely dedicated to their
+cause and religion and would rather die than
+betray them.
+The chests contain only old clothes, socks,
+religious books, etc. An ancient wall safe is
+concealed behind a small secret door in the east
+wall. Four small boxes are inside, one each of
+gold, silver, lead, and obsidian. The obsidian
+box contains a phylactery of monstrous atten-
+tion and a periapt of foul rotting; it is guarded
+by a glyph of warding that will cause 2d10
+points of lightning damage when touched, and
+only Corga knows that the word Tabang neu-
+tralizes the glyph. The gold and silver boxes
+contain incense of obsession while the lead box
+contains incense of meditation.
+2 Acolytes: AC 6; MV 12"; C 2; hp 11,6; #AT
+1; D 1d8; AL LE. Each has the following
+spells: darkness, command, cause fear,
+cause light wounds.
+8. Priest's Purification
+Chamber
+Wall carvings showing grand harvests have
+been defaced and scarred in this 30-foot
+square room. Three elaborate basins stand
+on decorated pedestals, each containing a
+different liquid. The first liquid is clear, the
+second liquid, which bubbles and steams, is
+a dull red, and the third liquid, which
+burns, is amber.
+These basins are used in the evil priest's cere-
+mony of preparation. The unholy water in the
+first basin will cause 1d6 + 1 damage points to
+
+===== I3-5 PAGE 90 =====
+6. Kitchen of Khalif Mubrek
+Along the left wall of this large, lofty
+kitchen, are three, large ovens and a cook-
+ing surface with an iron grate across a
+hearth. The opposite wall is lined with cup-
+boards, and the right wall has three water
+taps. On the opposite wall is a doorway
+over which are runes that reform them-
+selves to state, "Go out this door."
+There is nothing in the room except for the
+water taps which drip water, ever so slowly,
+into the basins below them. The cupboards
+The three water taps are more practical
+jokes. The first tap operates normally, but
+when a man bends to drink from it or take
+water from it, the water will lessen until the
+flow stops; the flow will begin again as the
+adventurer withdraws. The water from the
+second tap will flow normally until a PC tries
+to drink or withdraw water from it. Then, the
+water will pour forth to spray the PC in the
+face. This water in the third tap can be drawn
+or drunk without difficulty, but it will turn the
+lips and tongue of the drinker black for 24
+hours after each use.
+7. The Hall of Khalif Mubrek
+This long, narrow hall is designed to lead to
+the sleeping quarters of the house. In the
+center of the hall is an obelisk of black stone
+upon which is inscribed a raised hand, palm
+facing toward the kitchen door. The obelisk
+blocks the view of the opposite wall. Sev-
+eral bodies can be seen beyond the obelisk.
+As the runes over the exit in area 6 warned, the
+adventurers should not enter this room, for
+danger lies within. If they should not venture
+beyond the black obelisk, they will have to
+combat an exact duplicate of themselves.
+This room is a lock to keep those who have
+entered the sleeping quarters of the house in
+those rooms. The side of the obelisk opposite
+the kitchen door is a mirror of opposition. If
+any PC approaches, it will produce his dupli-
+cate as soon as his reflection may be seen. The
+duplicate will step from the mirror and fight to
+the death. It will be armed and armored exact-
+ly like the PC, but there will be no magic
+attached to any of the duplicate's equipment. It
+will have the same number of hp that the PC
+has at the time of the attack. The bodies seen
+beyond the obelisk are those of unwary adven-
+turers who were killed by their duplicates; the-
+se bodies did not produce skeletons. One is of a
+dwarf with a pickaxe.
+In the floor just in front of the mirror of
+opposition, there is a trap door. It leads to a
+cellar below. In the cellar is a rough-hewn tun-
+nel that leads to the pit beneath the Death Trap
+of Chininsk Ambar (area 12); this tunnel was
+made by the dwarf with the pickaxe, who was
+unlucky enough to be killed by his duplicate, a
+classic case of tunneling from the frying pan
+into the fire.
+8. The Secret Maze of Kharan
+The door stands open to a darkened room
+beyond. Light supplied by torches and the
+glow from above has difficulty piercing the
+interior gloom. From the room comes the
+must smell of stale air, as though from
+something long-dead. Above and around
+the door are inscribed runes, which reform
+themselves to read:
+Step boldly all who enter here. Tis
+not the place for cowards.
+Conquer selves and inner fear.
+Who dares will be rewarded.
+For play in this area, use Map 12-2 in the Map
+Booklet. The play of the maze is divided into
+two parts: the party must negotiate the Maze
+of Darkness to find the teleporter that will take
+them to the Maze of Light, where they must
+negotiate the Hall of Mirrors to find the exit.
+8a. The Maze of Darkness
+Just inside the door is a 4-foot-wide corri-
+dor that branches off to the right. The
+walls, floor, and ceiling are constructed of
+black stone, so dark and lusterless that they
+seem to absorb all light. The only sparks of
+color being the clothing and equipment.
+The party should be allowed to grope through
+the maze, turning which ever way they want.
+Sooner or later they will reach the silver tele-
+portation disk set into the floor of the maze.
+They will have to use this disk to enter the sec-
+ond portion of the maze. The disk is 3 feet 6
+inches in diameter and nearly fills the entire
+corridor. It is possible to maneuver around the
+disk, but with only 3 inches to spare on either
+side, a Dexterity check will be required from
+all but thieves, who may use their climb walls
+chance if it is better.
+Any person touching the disk, by stepping
+into it, by touching it accidentally, or by
+attempting to mark it for future reference, will
+be teleported. If a coin or other object is
+thrown onto the disk, it will remain there. If
+someone tries to pick up the coin, as soon as
+the connection is made with the coin, no mat-
+ter how slight, he will be teleported. If, after a
+coin is thrown onto the disk a party member
+steps onto the disk, the party member will be
+teleported, leaving the coin untouched. That
+the party is to use the disk is found in the
+inscription over the front door.
+8b. The Maze of Light
+The light in the room is blinding, with thou-
+sands of torches illuminating the space. The
+torches dance and move together alongside
+thousands of faces, also all the same.
+This is a maze of mirrors made of highly pol-
+ished, white marble. The stone will reflect
+clearly the light brought to the room as well as
+the faces and actions of those transported here.
+When judging this encounter, the DM should
+remember that anything that is done will be
+reflected infinitely. Thus, if a coin is placed on
+the floor, it will appear reflected in every direc-
+tion.
+By careful thought, the maze can be defeat-
+ed. Unlike other mazes which may be solved
+by always turning in the same direction, this
+maze is made up of a series of free-standing
+surfaces. If the party can find an exterior wall,
+they will be able to solve the puzzle.
+One of the best ways to solve the problem is
+to reduce the amount of light to a single
+source, and then hood this one as much as pos-
+sible. The party can then link hands or rope
+them selves together, and begin to fumble
+through the maze. If a free-standing mirror is
+encountered, the front of the party will usually
+be able to circumnavigate it to see the last
+member of the party going round the corner.
+9. Entry Corridor of Chininsk
+Ambar
+A long, narrow corridor extends into the
+darkness to the left. Across the hall is an
+arched door, above which is a mosaic cal-
+ligraphy. The door is of wood bound with
+iron with the latch on the left and the hinges
+behind the door to the right, as shown by
+the large, reinforcing straps riveted to the
+door on that side. The door pushes open to
+The corridor is blocked at the left end by rub-
+ble and sand, and so the door must be
+breached before the party can continue. The
+latch shows no sign of being trapped, but when
+lifted, it will not function. Everything about
+this door is the opposite of what would be
+expected from the description.
+Depressing the latch, not lifting as expected,
+causes it to release the door catch. But instead
+of releasing a catch on the left side of the door,
+as expected, it actually releases a catch on the
+right. Furthermore, the door, instead of push-
+ing open to the right as expected, pulls open to
+the left. Thus, by pushing against the door
+while lifting the latch (which is what would be
+the expected method of opening the door),
+90
+
+===== I3-5 PAGE 100 =====
+6. Lovers. A pair of young people sit side-by-
+side in a small,
+ivy-covered
+alcove,
+engrossed in each other. If they are not
+approached, the vision will fade in a min-
+ute. If approaches, the boy will look up and
+smile at the approaching PCs, but the girl
+will collapse against his shoulder. As this
+happens, the boy will raise his hand as if to
+restrain the PCs. If not approached closer,
+the vision will fade. If the PCs continue to
+approach, the boy will turn to the girl,
+holding her closely in her arms. Both will
+become skeletal as the approach continues,
+fading into the darkness before contact can
+be made.
+Cursed City Random Event Table
+1. A Warning. Materializing out of the dark-
+ness, a spectral form appears. The figure is
+cloaked, its feet disappearing into the dark-
+ness that seems to intensify around the fig-
+ure. Slowly raising its head to reveal
+glowing eyes under the hood, it holds up a
+skeletal hand and speaks, "Only brave men
+need continue here. Beware all others in
+this place." The spectral shape fades from
+sight.
+2. Ghost Thief: AC 8; MV g"; HD 5; hp 24;
+#AT 1; D 1d6; SA age 10-40 years; SD mag-
+ic or silver weapons needed to hit; AL CE.
+The ghost will appear behind the last party
+member in the affected group. It will attack
+with surprise; normal saving throws are
+applicable.
+3. 1-3 Ghost Fighters: AC 3; MV 12"; HD 7;
+#AT 1; D 1d8; SA age 10-40 years; SD mag-
+ic or silver weapons needed to hit; AL LE.
+The fighters will appear in front of the par-
+ty, blocking passage. They will attack
+immediately. Saving throws vs. fear are
+applicable only on the first encounter with
+these ghosts.
+4. Wight: AC 5; MV 12"; HD 4+3; #AT 1; D
+1-4; SA energy drain; SD silver or magical
+weapons to hit; AL LE. The wight appears
+from the direction of the closest unexplored
+ruin.
+5. Wraith: AC 4; MV 12" /24"; HD 5+3; #AT
+1; D 1d6 + energy drain; SD silver or magi-
+cal weapons needed to hit; AL LE. The
+wraith will appear from the direction of the
+nearest unexplored ruin.
+6. The Last Caravan. This encounter will take
+place only if the party is in the city square.
+It will occur only once on any one night.
+Reroll if otherwise.
+A caravan is surrounded by a horde of
+screaming people. The caravaneers are
+fighting desperately against the mob, but
+they are losing ground. A gigantic fighter,
+standing near the lead camel is fighting four
+other men and is holding them at bay. A
+spear, thrown by an unseen antagonist,
+strikes him in the shoulder; he turns toward
+the assault. Someone stabs with a sword,
+the blow striking the giant in the back. He
+stumbles and, before he can recover, is
+swept under by the mob. The last camel in
+line is down and thrashing out with his
+hooves as the mob swirls over him like the
+rising tide covering a reef.
+If the party intervenes, they will become
+targets for attack by 6d6 of the ghostly
+mob. If the party remains on the sidelines,
+1-3 of the mob will see them and attack.
+The party withdraws, they may watch the
+destruction of the last caravan to leave
+Medinat Muskawoon.
+Ghostly Mob: AC 6; MV 9"; HD 4; hp 15;
+#AT 1; D 1d4; SA nil; SD silver or magic
+weapons to hit; AL LE.
+1. Limestone Causeway
+The causeway that leads northwest
+through the blasted and rugged hills sur-
+rounding the city ruins is made of white
+limestone. Its top is perfectly smooth and
+flat, a perfect roadway no narrower than 20
+feet wide.
+2. Riddle Obelisk
+An obelisk stands tall in the center of the
+northern city square. Its base is 25 feet
+square, and its height is well over 100 feet.
+The slanting walls are polished and reflec-
+tive, save at the base, wherein are etched
+inscriptions in the ancient alphabet. The
+inscription on the east and west sides is
+long, probably of several sentences. That
+on the north and south sides is but a few
+words, and beneath it is a fist-sized indenta-
+tion.
+The inscription on the east and west sides is
+the riddle that the players must solve if they
+are to obtain the Star of Melos-Pelar. It is
+reproduced as Inscription 13-A on the
+reverse of the DM's fold-up map, and is
+translated as follows:
+Star is hidden from sunlight by the Sun.
+Four tests must ye pass before it shines
+forth. To hunt treasure ye must treasure
+hunt. From the gods, their gifts seek.
+Cleanliness is next to godliness. When
+ye have a friend's tears, the fiery gift,
+and the hawk's wings, carry ye the four-
+100
+teen golden links to bridge the swamp.
+Only then can mortals hear the chimes
+and then may the Star light the way.
+The shorter inscription on the north and south
+walls is reproduced as Inscription 13-B on the
+reverse of the DM's fold-up map. It reads as
+follows:
+In its appointed time shall man arise
+from his ignorance and, reaching for the
+stars, offer them in wisdom.
+Once the Star of Melos-Pelar is obtained from
+the Temple of Ra, the obelisk will chime, con-
+tinuing to do so until this occurs. If any other
+Star Gem is placed in the hole, the east-and
+west-face inscriptions will begin to glow. If,
+after the Star of Melos-Pelar is found, another
+Star Gem is placed in the indentation,
+chime will be somewhat muted, but will con-
+tinue nevertheless. If the Star of Melos-Pelar is
+placed in the hollow place under the writing,
+read the boxed description below.
+In a soft, though commandingly penetrat-
+ing voice, the obelisk begins to speak
+aloud, saying:
+"The Sphere of Power retrieve:
+This then is destiny's decree.
+Doom and death with no reprieve:
+This is the ancient prophecy.
+Go ye to his mighty tomb
+Where sky meets shore and sky again,
+There sound the note, dispel the gloom,
+And bring the light to entrance gain."
+The Star Gem that was placed in the hollow
+flares into sudden brilliance, lit from with-
+in. The voice continues:
+*The gem before you takes the power
+To light the way toward Martek's tower,
+Where, if survive those here assembled,
+All shall see their finest hour."
+And the Star Gem, its light extinguished,
+falls onto the square.
+From this point on, that gem will glow with
+soft white light when held in the hand. If the
+hand holding the gem is pointed in the direc-
+tion of the Pillar of Martek (Map 6-1, area 25),
+it will flare up with a brilliant white light.
+3 and 4. The Narrows and
+Glass Lake
+Between the high, tortured hills to the
+northeast probes a glittering tongue of
+glass. To the very shores of this tongue the
+rugged rocky slopes press in. Straight as an
+arrow it runs to the sea of glass beyond.
+The mile-long mirrored lake is nearly
+
+===== I3-5 PAGE 110 =====
+Once inside the Grand Hall, the PCs and
+NPCs will compete for the the three miniature
+crystal minarets needed to complete the Cita-
+del model in the Cathedral (area 4). Complet-
+ing this model will allow them entry into the
+Martek's Inner Sanctum.
+If you intend to add this complication, you
+must decide how the NPCs will behave. There
+are two ways of doing this. One way would be
+to have the NPCs precede the PCs wherever
+they go. This will add a great deal of excite-
+ment in the short run, as the PCs spot the
+NºCs ahead, but with careful planning on the
+part of the party, it could end abruptly if the
+PCs can manage to kill off or otherwise inca-
+pacitate the NPCs. It is not likely, unless you
+only use the NPCs as a plot device, that they
+will make it all the way to Martek's tomb, and
+so the excitement this mode generates is proba-
+bly short-lived.
+A second way, requiring perhaps a bit more
+work on your part, would be to plot out what
+the NPCs will do before you learn what the
+PCs intend. If you make up a time-line of NPC
+play, perhaps by actually playing out the NPC
+searches through the Citadel, then you will
+have a guide as to what takes place when the
+party does its own searches. The PCs could
+come upon the NPCs while they were hard at
+work, or vice versa. The NPCs could even
+solve part of the puzzle before the party, gain-
+ing whatever treasure is to be had.
+case, you should take care to play the NPCs in
+a reasonable way. The most important thing to
+the NPCs is their survival. The next most
+important thing will be to get to Martek's
+tomb. They should not be run in self-destruct
+mode, either by throwing them to the party
+like cannon fodder or to the monsters either. If
+you assume that the NPCs are at least as intelli-
+gent as the party, the end result will be more
+exciting, and more dangerous for the PCs.
+It is not likely that the evil NPCs would split
+up, there being more safety in numbers, but it
+may be that one would scout ahead. Neither is
+it likely that the evil NPCs would fight
+amongst themselves, ignoring their ultimate
+safety. It is also unlikely that Percivilis would
+team up with the other three NPCs. Yet, you
+could use any of these paths of action if it will
+help make play more interesting.
+The object here is to have fun yourself and
+to provide excitement and fun for your play-
+ers. Only you know your group and how they
+will behave. If they have a hard time solving
+puzzles without any outside interference, keep
+the NPC activity low-key or dispense with it
+altogether. If they start to trash the dungeons
+too quickly, heighten the intensity of the NPC
+interaction. Use the NPCs to give the party
+some interesting choices, such as rescuing the
+NºCs from a wandering monster attack.
+Whatever occurs, the NPCs should not get to
+the Inner Sanctum of Martek very far ahead of
+the party.
+Trifakas (human wizard): AC 4; MV 12"; MU
+12; hp 30; #AT 1; D 1d4; AL LE; SA and SD
+spell abilities; S 7; I 18; W 9; Dex 17; Con
+12; Ch 15. He can cast the following spells
+once per day: charm person, comprehend
+languages, jump, write; darkness 15-foot
+radius, forget, web, wizard lock; fireball,
+haste, lightning bolt, slow; fumble, poly-
+morph other, polymorph self; feeblemind
+magic jar, passwall, teleport; legend lore.
+Trifakas will behave in a gracious and
+priestly manner toward the PCs. He will be
+polite and helpful, all the while scheming
+and probing the PCs for their knowledge
+about the area and the location of the Star
+Gems. In his first conversation with the
+PCs, he will want to know whether they
+have any large gemstones, telling them that
+gems might be useful in activating the tele-
+port platform where they arrived (Dais of
+Reception, area 4). He will also tell them
+that, to his knowledge, that is the only way
+out of the Garden. Trifakas knows that the
+teleport platform will not operate in
+reverse, but he does not want the PCs to
+experiment at the doors of the Grand Hall
+He knows that the names of the Star Gems
+must be used with the stones to open the
+doors to the Grand Hall. He has tried the
+words without the stones, but nothing hap-
+pened. If really pressed, he will tell the PCs
+that the names of the gems that open the
+doors are "Pelar, Sellar, Kellar" and that
+they must be spoken in that order. This is a
+lie, of course, to make sure that the party
+does not get into the Grand Hall before he
+does. He also knows that the names of the
+Star Gems are sacred to the guilders, who
+will attack anyone speaking those words.
+He will not tell the names of the stones to
+anyone because, once he has the Star
+Gems, that is his only way out of the Gar-
+den of the Cursed.
+Pawnis (drow elf fighter/thief): AC 5; MV12";
+F2/T8; hp 42; #AT 1; D 1d6; AL CE; SA
+magical abilities; SD + 2 on all saves; MR
+70%; S 12; I 13; W 10; Dex 16; Con 10; Ch
+13. Pawnis is armed with a short sword and
+a dagger, both of which lost their drow
+magic in the desert; he has two darts coated
+with drow sleep poison (save vs. poison at
+-4 or sleep for 1d10+2 rounds) that he
+managed to keep well buried. He also wears
+chainmail armor and his outer wear, care-
+fully sealed against the rays of the sun, still
+act like a cloak of elvenkind and boots of
+elvenkind. Pawnis has 12" infravision and
+110
+can use the following spells once per day:
+dancing lights, darkness, faerie fire, detect
+magic, know alignment, levitate.
+Pawnis believes (incorrectly) that the key
+to the great doors has something to dow
+with the Mound of the Lawgivers as well as
+with the three great stars from the guilder
+legends. He does not know what the Star
+Gems are or do, and Trifakas has not told
+him; nevertheless, he suspects Trifakas is
+withholding something, though he hides
+this suspicion. Pawnis knows that the
+Mound of the Lawgivers is a place of death
+and that very few will tread on its slopes.
+He is smart enough to see that his best shot
+at leaving the Garden of the Cursed is with
+Trifakas and Sardok.
+Sardok (human thief): AC 4; MV 12"; T 10; hp
+38; #AT 1; D 1d6 + 2; AL CE; S 14; 1 16; W
+10; Dex 15; Con 17; Ch 12.
+Sardok, though cunning, cruel, and usually
+rude, is more loyal to Trifakas than is
+Pawnis. He trusts Trifakas more, and he
+truly believes that the wizard will get him
+out of here. He is willing to continue his
+deception of the guilders until that day.
+Percivilis (human paladin): AC 4; MV 12"; P
+6; hp 43; #AT 1; D 1d8; AL LG; S 17; I 16;
+W 13; Dex 15; Con 12; Ch 18.
+Percivilis wears chain mail + 1 and uses a long-
+sword. He has joined the palan-teen in the Gar-
+den of the Cursed because they seem like him.
+He knows the basic history of the peoples of
+the Garden, and how they came to be there. He
+also knows that Trifakas and his assistants are
+recent arrivals and nothing more than two
+thieves and a greedy wizard in search of
+power, fortune, and fame. Believing as he does
+that if you haven't anything nice to say that
+
+===== I3-5 PAGE 120 =====
+changes here. If the PCs watch the rocks that
+break away and fly into the storm, they will
+notice that all of the large pieces bump against
+the island before hurtling down into the whirl-
+pool of the Black Abyss. Each large rock can
+safely carry one person to the island. Find the
+distance to the island using the current hex
+size.
+7. Island of Crystal
+This platform of giant crystals, flats in the
+center of the storm. All around the island,
+the whirlpool spins faster and faster before
+racing down into the chasm of the Black
+Abyss, but the air here is calm. The island
+and the air above it glow with a soft white
+light. In the center of the island, a miniature
+crystal minaret stands on top of a crystal
+base.
+The moment each character steps onto the crystal
+island, the effects of the distance, time and magic
+changes stop for that character. The island is
+roughly triangular, about 100 feet on a side.
+The crystal minaret is the treasure the PCs
+seek. Removing it from the base will cause the
+island to break apart, however, and it and
+everyone on it will plunge into the whiripool
+storm surrounding the island. As they fall, the
+distance, time, and magic changes will start
+again. But the problem is not for the falling
+characters, but for those who remain behind,
+for the crystal minaret will transform the
+storm into a teleport of limited duration, as
+discussed in the description for Chaos (area 8).
+Read the following boxed description when
+a character removes the crystal minaret. Do
+not mention the teleport.
+As you pull the crystal minaret from its
+base, a horrible, loud rumble shakes the
+area. Putting the crystal back in its base
+does no good. The sound gets louder. The
+soft white light of the island starts to pulse
+and turns red. The winds of the storm move
+in to cover the island. The spinning clouds
+make it almost impossible to see. The crys-
+tals sizzle as red lightning strikes them.
+Suddenly, in a flash of light and a shower of
+flying crystals, the entire island explodes!
+Those on it fall into the whirlpool storm of
+the Abyss and disappear.
+8. Chaos
+As you fall at a terrifying speed, the wind
+blasts you in gusts. The glowing clouds all
+around feel damp and clammy. Ruby-
+colored lightning streaks past, barely miss-
+ing you. You're being tumbled head-over-
+heels into the center of the storm, still fall-
+ing. The whirling clouds spin into a single
+hole of nothingness. There is no light, no
+dark, no time or space. The spiral storm
+spins toward the planes of the Abyss ahead
+You feel yourself being pulled further into
+the Abyss, to be trapped forever.
+Anyone falling into this storm before the
+removing of the crystal minaret destroys the
+Island of Crystal (area 7) will fall into the 666
+planes of the Abyss.
+After the crystal minaret has been removed,
+however, the storm will teleport the charac-
+ters, their gear, and the crystal minaret back to
+the Return from Other Worlds (Crystal Prism
+area 7a). This teleport will last for 10 rounds
+only, and then any character that remains
+behind will be trapped here forever. During
+this 10 rounds, however, any character
+remaining who jumps or talls into the storm
+will be teleported back as well.
+The problem is one for the players to figure
+out. There is no way to see the teleport spell
+work, for the visibility is so poor. Other spells
+may allow them to gain the knowledge that
+they should jump, but with the various distor-
+tions, this may be a matter of luck.
+Mobius Tower
+Encounter Areas
+Use Map 14-6 from the Map Booklet for play in
+this area. The sections on Background and
+Expected Play give information that will be
+useful in refereeing play here.
+Mobius Tower Random
+Encounters
+There are no random encounters in the Mobius
+Tower, though there are planned encounters in
+many areas.
+1. Arrival
+You find yourself standing in a 40-foot
+square room, dimly lit by torches on the
+walls. There is a stillness in the room; there
+is no sound or motion here. With a start,
+you notice that the dim flames in the torch-
+es do not flicker.
+You are standing on a raised circular plat-
+form 20 teet across. To the south, a glitter-
+ing object sits on a pillow. Four doorways
+lead out of the room, one near each corner
+of the room. The northeast door is open 2
+feet. The southwest door is wide open, and
+the other two doors are closed.
+None of the doors will move at all since they
+are time-trapped. The doors cannot be dam-
+120
+aged. The torch flames are hard and cold.
+The glittering object is the crystal minaret that
+the PCs need. Finding it was easy. The crystal
+minaret and the pillow on which it rests, how-
+ever, will not move through any physical means
+nor any magical means save a teleport spell to the
+Tower of Time (Level 4, area 26).
+2. Apartment of the Firstwife
+A large oval bed strewn with pillows is in
+the center of this 30-foot-square room. The
+figure of a woman dressed in royal robes
+sits on the edge of the bed, unmoving. She
+is inspecting a curved dagger blade. An
+ornate door stands open in the center of the
+west wall, and a curtain of beads blocks an
+archway in the east wall.
+The woman looks elven, but evil and cunning,
+judging by the expression on her face. There is
+some sort of liquid frozen onto the blade of the
+dagger. The bead curtain cannot be moved;
+behind it are many fine clothes. The west door
+leads to a spiral staircase going up to area 20 of
+Level 2.
+This woman was part of a plot against her
+husband,
+the sheik of this tower. She was
+imprisoned in this room for her plotting. Her
+spirit has become a groaning spirit that lives in
+this room.
+The spirit will appear 1d6 rounds after the PCs
+enter and then speak in a moaning voice, saying:
+"For uncounted time have I sorrowed in these
+halls and now you, the living, come to torment
+me. Why do you curse me for my very
+thoughts?" She will attack immediately, using her
+keening wail 2d4 rounds after the start of melee.
+The keening wail will cause all within the room to
+save vs. death magic or die immediately.
+Groaning Spirit: AC 0; MV 15"; HD 7: hp 22;
+#AT 1; D 1d8; AL CE; SA keening wail.
+3. Closet
+Behind the immoveable bead curtain are
+many fine clothes within this 10-foot-
+square closet.
+Even if the PCs can get through the bead curtain,
+which cannot be damaged or broken, everything
+here is time-trapped and will not move.
+4. Guard Room
+This small 20-foot-square room has two
+arched doorways, one in the south wall and
+one in the east wall. Four large, muscular
+figures stand at attention along the west
+wall, apparently guards. Their faces are
+masked by turbans, and they wear robes.
+They have large scimitars at their sides.
+
+===== I3-5 PAGE 130 =====
+Map 6-3 (Players):

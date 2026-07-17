@@ -93,7 +93,7 @@ srdcheck is an MCP server with zero dependencies — stdlib only. After `pip ins
 }
 ```
 
-Nine tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
+Ten tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, `event_apply` (the state reducer — folds a declared event into a verdict plus a hash-stamped next state), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
 
 ## The benchmark
 
