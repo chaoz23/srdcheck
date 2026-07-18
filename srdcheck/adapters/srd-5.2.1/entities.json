@@ -300,281 +300,1962 @@
   "Wind Wall"
  ],
  "creature": [
-  "Aboleth",
-  "Air Elemental",
-  "Allosaurus",
-  "Animated Objects",
-  "Ankheg",
-  "Ankylosaurus",
-  "Ape",
-  "Archelon",
-  "Assassin",
-  "Awakened Plants",
-  "Axe Beak",
-  "Azer Sentinel",
-  "Baboon",
-  "Badger",
-  "Balor",
-  "Bandits",
-  "Barbed Devil",
-  "Basilisk",
-  "Bat",
-  "Bearded Devil",
-  "Behir",
-  "Berserker",
-  "Black Bear",
-  "Black Dragons",
-  "Black Pudding",
-  "Blink Dog",
-  "Blood Hawk",
-  "Blue Dragons",
-  "Boar",
-  "Bone Devil",
-  "Brass Dragons",
-  "Bronze Dragons",
-  "Brown Bear",
-  "Bugbears",
-  "Bulette",
-  "Camel",
-  "Cat",
-  "Centaur Trooper",
-  "Chain Devil",
-  "Chimera",
-  "Chuul",
-  "Clay Golem",
-  "Cloaker",
-  "Cloud Giant",
-  "Cockatrice",
-  "Commoner",
-  "Constrictor Snake",
-  "Copper Dragons",
-  "Couatl",
-  "Crab",
-  "Crawling Claws, Swarm of",
-  "Crocodile",
-  "Cultists",
-  "Darkmantle",
-  "Death Dog",
-  "Deer",
-  "Deva",
-  "Dire Wolf",
-  "Djinni",
-  "Doppelganger",
-  "Draft Horse",
-  "Dragon Turtle",
-  "Dretch",
-  "Drider",
-  "Druid",
-  "Dryad",
-  "Eagle",
-  "Earth Elemental",
-  "Efreeti",
-  "Elephant",
-  "Elk",
-  "Erinyes",
-  "Ettercap",
-  "Ettin",
-  "Fire Elemental",
-  "Fire Giant",
-  "Flesh Golem",
-  "Flying Snake",
-  "Frog",
-  "Frost Giant",
-  "Fungi",
-  "Gargoyle",
-  "Gelatinous Cube",
-  "Ghast",
-  "Ghost",
-  "Ghoul",
-  "Giant Ape",
-  "Giant Badger",
-  "Giant Bat",
-  "Giant Boar",
-  "Giant Centipede",
-  "Giant Constrictor Snake",
-  "Giant Crab",
-  "Giant Crocodile",
-  "Giant Eagle",
-  "Giant Elk",
-  "Giant Fire Beetle",
-  "Giant Frog",
-  "Giant Goat",
-  "Giant Hyena",
-  "Giant Lizard",
-  "Giant Octopus",
-  "Giant Owl",
-  "Giant Rat",
-  "Giant Scorpion",
-  "Giant Seahorse",
-  "Giant Shark",
-  "Giant Spider",
-  "Giant Toad",
-  "Giant Venomous Snake",
-  "Giant Vulture",
-  "Giant Wasp",
-  "Giant Weasel",
-  "Giant Wolf Spider",
-  "Gibbering Mouther",
-  "Glabrezu",
-  "Gladiator",
-  "Gnoll Warrior",
-  "Goat",
-  "Goblins",
-  "Gold Dragons",
-  "Gorgon",
-  "Gray Ooze",
-  "Green Dragons",
-  "Green Hag",
-  "Grick",
-  "Griffon",
-  "Grimlock",
-  "Guardian Naga",
-  "Guards",
-  "Half-Dragon",
-  "Harpy",
-  "Hawk",
-  "Hell Hound",
-  "Hezrou",
-  "Hill Giant",
-  "Hippogriff",
-  "Hippopotamus",
-  "Hobgoblins",
-  "Homunculus",
-  "Horned Devil",
-  "Hunter Shark",
-  "Hydra",
-  "Hyena",
-  "Ice Devil",
-  "Imp",
-  "Incubus",
-  "Invisible Stalker",
-  "Iron Golem",
-  "Jackal",
-  "Killer Whale",
-  "Knight",
-  "Kobold Warrior",
-  "Kraken",
-  "Lamia",
-  "Lemure",
-  "Lich",
-  "Lion",
-  "Lizard",
-  "Mages",
-  "Magmin",
-  "Mammoth",
-  "Manticore",
-  "Marilith",
-  "Mastiff",
-  "Medusa",
-  "Mephits",
-  "Merfolk Skirmisher",
-  "Merrow",
-  "Mimic",
-  "Minotaur of Baphomet",
-  "Mule",
-  "Mummies",
-  "Nalfeshnee",
-  "Night Hag",
-  "Nightmare",
-  "Noble",
-  "Ochre Jelly",
-  "Octopus",
-  "Ogre",
-  "Oni",
-  "Otyugh",
-  "Owl",
-  "Owlbear",
-  "Panther",
-  "Pegasus",
-  "Phase Spider",
-  "Piranha",
-  "Pirates",
-  "Pit Fiend",
-  "Planetar",
-  "Plesiosaurus",
-  "Polar Bear",
-  "Pony",
-  "Priests",
-  "Pseudodragon",
-  "Pteranodon",
-  "Purple Worm",
-  "Quasit",
-  "Rakshasa",
-  "Rat",
-  "Raven",
-  "Red Dragons",
-  "Reef Shark",
-  "Remorhaz",
-  "Rhinoceros",
-  "Riding Horse",
-  "Roc",
-  "Roper",
-  "Rust Monster",
-  "Saber-Toothed Tiger",
-  "Sahuagin Warrior",
-  "Salamander",
-  "Satyr",
-  "Scorpion",
-  "Scout",
-  "Sea Hag",
-  "Seahorse",
-  "Shadow",
-  "Shambling Mound",
-  "Shield Guardian",
-  "Silver Dragons",
-  "Skeletons",
-  "Solar",
-  "Specter",
-  "Sphinxes",
-  "Spider",
-  "Spirit Naga",
-  "Sprite",
-  "Spy",
-  "Stirge",
-  "Stone Giant",
-  "Stone Golem",
-  "Storm Giant",
-  "Succubus",
-  "Swarm of Bats",
-  "Swarm of Insects",
-  "Swarm of Piranhas",
-  "Swarm of Rats",
-  "Swarm of Ravens",
-  "Swarm of Venomous Snakes",
-  "Tarrasque",
-  "Tiger",
-  "Toughs",
-  "Treant",
-  "Triceratops",
-  "Troll",
-  "Troll Limb",
-  "Tyrannosaurus Rex",
-  "Unicorn",
-  "Vampires",
-  "Venomous Snake",
-  "Vrock",
-  "Vulture",
-  "Warhorse",
-  "Warrior Infantry",
-  "Warrior Veteran",
-  "Warriors",
-  "Water Elemental",
-  "Weasel",
-  "Werebear",
-  "Wereboar",
-  "Wererat",
-  "Weretiger",
-  "Werewolf",
-  "White Dragons",
-  "Wight",
-  "Will-o\u2019-Wisp",
-  "Winter Wolf",
-  "Wolf",
-  "Worg",
-  "Wraith",
-  "Wyvern",
-  "Xorn",
-  "Zombies"
+  {
+   "name": "Aboleth",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.258"
+  },
+  {
+   "name": "Adult Black Dragon",
+   "cr": "14",
+   "xp": 11500,
+   "citation": "SRD 5.2.1 p.264"
+  },
+  {
+   "name": "Adult Blue Dragon",
+   "cr": "16",
+   "xp": 15000,
+   "citation": "SRD 5.2.1 p.266"
+  },
+  {
+   "name": "Adult Brass Dragon",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.268"
+  },
+  {
+   "name": "Adult Bronze Dragon",
+   "cr": "15",
+   "xp": 13000,
+   "citation": "SRD 5.2.1 p.270"
+  },
+  {
+   "name": "Adult Copper Dragon",
+   "cr": "14",
+   "xp": 11500,
+   "citation": "SRD 5.2.1 p.276"
+  },
+  {
+   "name": "Adult Gold Dragon",
+   "cr": "17",
+   "xp": 18000,
+   "citation": "SRD 5.2.1 p.291"
+  },
+  {
+   "name": "Adult Green Dragon",
+   "cr": "15",
+   "xp": 13000,
+   "citation": "SRD 5.2.1 p.294"
+  },
+  {
+   "name": "Adult Red Dragon",
+   "cr": "17",
+   "xp": 18000,
+   "citation": "SRD 5.2.1 p.318"
+  },
+  {
+   "name": "Adult Silver Dragon",
+   "cr": "16",
+   "xp": 15000,
+   "citation": "SRD 5.2.1 p.324"
+  },
+  {
+   "name": "Adult White Dragon",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.340"
+  },
+  {
+   "name": "Air Elemental",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.258"
+  },
+  {
+   "name": "Allosaurus",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.344"
+  },
+  {
+   "name": "Ancient Black Dragon",
+   "cr": "21",
+   "xp": 33000,
+   "citation": "SRD 5.2.1 p.265"
+  },
+  {
+   "name": "Ancient Blue Dragon",
+   "cr": "23",
+   "xp": 50000,
+   "citation": "SRD 5.2.1 p.267"
+  },
+  {
+   "name": "Ancient Brass Dragon",
+   "cr": "20",
+   "xp": 25000,
+   "citation": "SRD 5.2.1 p.269"
+  },
+  {
+   "name": "Ancient Bronze Dragon",
+   "cr": "22",
+   "xp": 41000,
+   "citation": "SRD 5.2.1 p.271"
+  },
+  {
+   "name": "Ancient Copper Dragon",
+   "cr": "21",
+   "xp": 33000,
+   "citation": "SRD 5.2.1 p.277"
+  },
+  {
+   "name": "Ancient Gold Dragon",
+   "cr": "24",
+   "xp": 62000,
+   "citation": "SRD 5.2.1 p.292"
+  },
+  {
+   "name": "Ancient Green Dragon",
+   "cr": "22",
+   "xp": 41000,
+   "citation": "SRD 5.2.1 p.294"
+  },
+  {
+   "name": "Ancient Red Dragon",
+   "cr": "24",
+   "xp": 62000,
+   "citation": "SRD 5.2.1 p.319"
+  },
+  {
+   "name": "Ancient Silver Dragon",
+   "cr": "23",
+   "xp": 50000,
+   "citation": "SRD 5.2.1 p.325"
+  },
+  {
+   "name": "Ancient White Dragon",
+   "cr": "20",
+   "xp": 25000,
+   "citation": "SRD 5.2.1 p.341"
+  },
+  {
+   "name": "Animated Armor",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.259"
+  },
+  {
+   "name": "Animated Flying Sword",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.259"
+  },
+  {
+   "name": "Animated Rug of Smothering",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.259"
+  },
+  {
+   "name": "Ankheg",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.259"
+  },
+  {
+   "name": "Ankylosaurus",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.344"
+  },
+  {
+   "name": "Ape",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.344"
+  },
+  {
+   "name": "Archelon",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.344"
+  },
+  {
+   "name": "Archmage",
+   "cr": "12",
+   "xp": 8000,
+   "citation": "SRD 5.2.1 p.305"
+  },
+  {
+   "name": "Assassin",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.260"
+  },
+  {
+   "name": "Awakened Shrub",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.260"
+  },
+  {
+   "name": "Awakened Tree",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.260"
+  },
+  {
+   "name": "Axe Beak",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.260"
+  },
+  {
+   "name": "Azer Sentinel",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.261"
+  },
+  {
+   "name": "Baboon",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.345"
+  },
+  {
+   "name": "Badger",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.345"
+  },
+  {
+   "name": "Balor",
+   "cr": "19",
+   "xp": 22000,
+   "citation": "SRD 5.2.1 p.261"
+  },
+  {
+   "name": "Bandit",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.261"
+  },
+  {
+   "name": "Bandit Captain",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.261"
+  },
+  {
+   "name": "Barbed Devil",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.262"
+  },
+  {
+   "name": "Basilisk",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.262"
+  },
+  {
+   "name": "Bat",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.345"
+  },
+  {
+   "name": "Bearded Devil",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.262"
+  },
+  {
+   "name": "Behir",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.263"
+  },
+  {
+   "name": "Berserker",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.263"
+  },
+  {
+   "name": "Black Bear",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.345"
+  },
+  {
+   "name": "Black Dragon Wyrmling",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.263"
+  },
+  {
+   "name": "Black Pudding",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.265"
+  },
+  {
+   "name": "Blink Dog",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.266"
+  },
+  {
+   "name": "Blood Hawk",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.345"
+  },
+  {
+   "name": "Blue Dragon Wyrmling",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.266"
+  },
+  {
+   "name": "Boar",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.346"
+  },
+  {
+   "name": "Bone Devil",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.267"
+  },
+  {
+   "name": "Brass Dragon Wyrmling",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.268"
+  },
+  {
+   "name": "Bronze Dragon Wyrmling",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.269"
+  },
+  {
+   "name": "Brown Bear",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.346"
+  },
+  {
+   "name": "Bugbear Stalker",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.271"
+  },
+  {
+   "name": "Bugbear Warrior",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.272"
+  },
+  {
+   "name": "Bulette",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.272"
+  },
+  {
+   "name": "Camel",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.346"
+  },
+  {
+   "name": "Cat",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.346"
+  },
+  {
+   "name": "Centaur Trooper",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.272"
+  },
+  {
+   "name": "Chain Devil",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.272"
+  },
+  {
+   "name": "Chimera",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.273"
+  },
+  {
+   "name": "Chuul",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.273"
+  },
+  {
+   "name": "Clay Golem",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.274"
+  },
+  {
+   "name": "Cloaker",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.274"
+  },
+  {
+   "name": "Cloud Giant",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.275"
+  },
+  {
+   "name": "Cockatrice",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.275"
+  },
+  {
+   "name": "Commoner",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.275"
+  },
+  {
+   "name": "Constrictor Snake",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.346"
+  },
+  {
+   "name": "Copper Dragon Wyrmling",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.275"
+  },
+  {
+   "name": "Couatl",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.277"
+  },
+  {
+   "name": "Crab",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.347"
+  },
+  {
+   "name": "Crocodile",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.347"
+  },
+  {
+   "name": "Cultist",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.278"
+  },
+  {
+   "name": "Cultist Fanatic",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.278"
+  },
+  {
+   "name": "Darkmantle",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.278"
+  },
+  {
+   "name": "Death Dog",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.279"
+  },
+  {
+   "name": "Deer",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.347"
+  },
+  {
+   "name": "Deva",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.279"
+  },
+  {
+   "name": "Dire Wolf",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.347"
+  },
+  {
+   "name": "Djinni",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.280"
+  },
+  {
+   "name": "Doppelganger",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.280"
+  },
+  {
+   "name": "Draft Horse",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.347"
+  },
+  {
+   "name": "Dragon Turtle",
+   "cr": "17",
+   "xp": 18000,
+   "citation": "SRD 5.2.1 p.281"
+  },
+  {
+   "name": "Dretch",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.281"
+  },
+  {
+   "name": "Drider",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.281"
+  },
+  {
+   "name": "Druid",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.282"
+  },
+  {
+   "name": "Dryad",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.282"
+  },
+  {
+   "name": "Dust Mephit",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.307"
+  },
+  {
+   "name": "Eagle",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.348"
+  },
+  {
+   "name": "Earth Elemental",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.282"
+  },
+  {
+   "name": "Efreeti",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.283"
+  },
+  {
+   "name": "Elephant",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.348"
+  },
+  {
+   "name": "Elk",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.348"
+  },
+  {
+   "name": "Erinyes",
+   "cr": "12",
+   "xp": 8400,
+   "citation": "SRD 5.2.1 p.283"
+  },
+  {
+   "name": "Ettercap",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.284"
+  },
+  {
+   "name": "Ettin",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.284"
+  },
+  {
+   "name": "Fire Elemental",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.284"
+  },
+  {
+   "name": "Fire Giant",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.285"
+  },
+  {
+   "name": "Flesh Golem",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.285"
+  },
+  {
+   "name": "Flying Snake",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.348"
+  },
+  {
+   "name": "Frog",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.348"
+  },
+  {
+   "name": "Frost Giant",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.285"
+  },
+  {
+   "name": "Gargoyle",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.286"
+  },
+  {
+   "name": "Gelatinous Cube",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.286"
+  },
+  {
+   "name": "Ghast",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.287"
+  },
+  {
+   "name": "Ghost",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.287"
+  },
+  {
+   "name": "Ghoul",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.288"
+  },
+  {
+   "name": "Giant Ape",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.349"
+  },
+  {
+   "name": "Giant Badger",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.349"
+  },
+  {
+   "name": "Giant Bat",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.349"
+  },
+  {
+   "name": "Giant Boar",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.349"
+  },
+  {
+   "name": "Giant Centipede",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.349"
+  },
+  {
+   "name": "Giant Constrictor Snake",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.350"
+  },
+  {
+   "name": "Giant Crab",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.350"
+  },
+  {
+   "name": "Giant Crocodile",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.350"
+  },
+  {
+   "name": "Giant Eagle",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.350"
+  },
+  {
+   "name": "Giant Elk",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.351"
+  },
+  {
+   "name": "Giant Fire Beetle",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.351"
+  },
+  {
+   "name": "Giant Frog",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.351"
+  },
+  {
+   "name": "Giant Goat",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.351"
+  },
+  {
+   "name": "Giant Hyena",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.352"
+  },
+  {
+   "name": "Giant Lizard",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.352"
+  },
+  {
+   "name": "Giant Octopus",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.352"
+  },
+  {
+   "name": "Giant Owl",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.352"
+  },
+  {
+   "name": "Giant Rat",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.353"
+  },
+  {
+   "name": "Giant Scorpion",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.353"
+  },
+  {
+   "name": "Giant Seahorse",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.353"
+  },
+  {
+   "name": "Giant Shark",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.353"
+  },
+  {
+   "name": "Giant Spider",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.353"
+  },
+  {
+   "name": "Giant Toad",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.354"
+  },
+  {
+   "name": "Giant Venomous Snake",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.354"
+  },
+  {
+   "name": "Giant Vulture",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.354"
+  },
+  {
+   "name": "Giant Wasp",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.354"
+  },
+  {
+   "name": "Giant Weasel",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.355"
+  },
+  {
+   "name": "Giant Wolf Spider",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.355"
+  },
+  {
+   "name": "Gibbering Mouther",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.288"
+  },
+  {
+   "name": "Glabrezu",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.289"
+  },
+  {
+   "name": "Gladiator",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.289"
+  },
+  {
+   "name": "Gnoll Warrior",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.289"
+  },
+  {
+   "name": "Goat",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.355"
+  },
+  {
+   "name": "Goblin Boss",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.290"
+  },
+  {
+   "name": "Goblin Minion",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.290"
+  },
+  {
+   "name": "Goblin Warrior",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.290"
+  },
+  {
+   "name": "Gorgon",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.292"
+  },
+  {
+   "name": "Gray Ooze",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.293"
+  },
+  {
+   "name": "Green Dragon Wyrmling",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.293"
+  },
+  {
+   "name": "Green Hag",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.295"
+  },
+  {
+   "name": "Grick",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.295"
+  },
+  {
+   "name": "Griffon",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.295"
+  },
+  {
+   "name": "Grimlock",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.296"
+  },
+  {
+   "name": "Guard",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.296"
+  },
+  {
+   "name": "Guard Captain",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.296"
+  },
+  {
+   "name": "Guardian Naga",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.296"
+  },
+  {
+   "name": "Half-Dragon",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.297"
+  },
+  {
+   "name": "Harpy",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.297"
+  },
+  {
+   "name": "Hawk",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.355"
+  },
+  {
+   "name": "Hell Hound",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.297"
+  },
+  {
+   "name": "Hezrou",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.298"
+  },
+  {
+   "name": "Hill Giant",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.298"
+  },
+  {
+   "name": "Hippogriff",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.298"
+  },
+  {
+   "name": "Hippopotamus",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.355"
+  },
+  {
+   "name": "Hobgoblin Captain",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.299"
+  },
+  {
+   "name": "Hobgoblin Warrior",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.298"
+  },
+  {
+   "name": "Homunculus",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.299"
+  },
+  {
+   "name": "Horned Devil",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.299"
+  },
+  {
+   "name": "Hunter Shark",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.356"
+  },
+  {
+   "name": "Hydra",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.300"
+  },
+  {
+   "name": "Hyena",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.356"
+  },
+  {
+   "name": "Ice Devil",
+   "cr": "14",
+   "xp": 11500,
+   "citation": "SRD 5.2.1 p.300"
+  },
+  {
+   "name": "Ice Mephit",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.307"
+  },
+  {
+   "name": "Imp",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.300"
+  },
+  {
+   "name": "Incubus",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.301"
+  },
+  {
+   "name": "Invisible Stalker",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.301"
+  },
+  {
+   "name": "Iron Golem",
+   "cr": "16",
+   "xp": 15000,
+   "citation": "SRD 5.2.1 p.302"
+  },
+  {
+   "name": "Jackal",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.356"
+  },
+  {
+   "name": "Killer Whale",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.356"
+  },
+  {
+   "name": "Knight",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.302"
+  },
+  {
+   "name": "Kobold Warrior",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.302"
+  },
+  {
+   "name": "Kraken",
+   "cr": "23",
+   "xp": 50000,
+   "citation": "SRD 5.2.1 p.303"
+  },
+  {
+   "name": "Lamia",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.303"
+  },
+  {
+   "name": "Lemure",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.304"
+  },
+  {
+   "name": "Lich",
+   "cr": "21",
+   "xp": 33000,
+   "citation": "SRD 5.2.1 p.304"
+  },
+  {
+   "name": "Lion",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.356"
+  },
+  {
+   "name": "Lizard",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.357"
+  },
+  {
+   "name": "Mage",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.305"
+  },
+  {
+   "name": "Magma Mephit",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.307"
+  },
+  {
+   "name": "Magmin",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.305"
+  },
+  {
+   "name": "Mammoth",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.357"
+  },
+  {
+   "name": "Manticore",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.306"
+  },
+  {
+   "name": "Marilith",
+   "cr": "16",
+   "xp": 15000,
+   "citation": "SRD 5.2.1 p.306"
+  },
+  {
+   "name": "Mastiff",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.357"
+  },
+  {
+   "name": "Medusa",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.306"
+  },
+  {
+   "name": "Merfolk Skirmisher",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.308"
+  },
+  {
+   "name": "Merrow",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.308"
+  },
+  {
+   "name": "Mimic",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.308"
+  },
+  {
+   "name": "Minotaur Skeleton",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.326"
+  },
+  {
+   "name": "Minotaur of Baphomet",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.309"
+  },
+  {
+   "name": "Mule",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.357"
+  },
+  {
+   "name": "Mummy",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.309"
+  },
+  {
+   "name": "Mummy Lord",
+   "cr": "15",
+   "xp": 13000,
+   "citation": "SRD 5.2.1 p.309"
+  },
+  {
+   "name": "Nalfeshnee",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.310"
+  },
+  {
+   "name": "Night Hag",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.311"
+  },
+  {
+   "name": "Nightmare",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.311"
+  },
+  {
+   "name": "Noble",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.312"
+  },
+  {
+   "name": "Ochre Jelly",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.312"
+  },
+  {
+   "name": "Octopus",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.357"
+  },
+  {
+   "name": "Ogre",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.312"
+  },
+  {
+   "name": "Ogre Zombie",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.344"
+  },
+  {
+   "name": "Oni",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.312"
+  },
+  {
+   "name": "Otyugh",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.313"
+  },
+  {
+   "name": "Owl",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.358"
+  },
+  {
+   "name": "Owlbear",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.313"
+  },
+  {
+   "name": "Panther",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.358"
+  },
+  {
+   "name": "Pegasus",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.313"
+  },
+  {
+   "name": "Phase Spider",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.313"
+  },
+  {
+   "name": "Piranha",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.358"
+  },
+  {
+   "name": "Pirate",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.314"
+  },
+  {
+   "name": "Pirate Captain",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.314"
+  },
+  {
+   "name": "Pit Fiend",
+   "cr": "20",
+   "xp": 25000,
+   "citation": "SRD 5.2.1 p.314"
+  },
+  {
+   "name": "Planetar",
+   "cr": "16",
+   "xp": 15000,
+   "citation": "SRD 5.2.1 p.315"
+  },
+  {
+   "name": "Plesiosaurus",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.358"
+  },
+  {
+   "name": "Polar Bear",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.359"
+  },
+  {
+   "name": "Pony",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.359"
+  },
+  {
+   "name": "Priest",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.316"
+  },
+  {
+   "name": "Priest Acolyte",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.316"
+  },
+  {
+   "name": "Pseudodragon",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.316"
+  },
+  {
+   "name": "Pteranodon",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.359"
+  },
+  {
+   "name": "Purple Worm",
+   "cr": "15",
+   "xp": 13000,
+   "citation": "SRD 5.2.1 p.316"
+  },
+  {
+   "name": "Quasit",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.317"
+  },
+  {
+   "name": "Rakshasa",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.317"
+  },
+  {
+   "name": "Rat",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.359"
+  },
+  {
+   "name": "Raven",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.359"
+  },
+  {
+   "name": "Red Dragon Wyrmling",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.318"
+  },
+  {
+   "name": "Reef Shark",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.360"
+  },
+  {
+   "name": "Remorhaz",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.319"
+  },
+  {
+   "name": "Rhinoceros",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.360"
+  },
+  {
+   "name": "Riding Horse",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.360"
+  },
+  {
+   "name": "Roc",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.320"
+  },
+  {
+   "name": "Roper",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.320"
+  },
+  {
+   "name": "Rust Monster",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.320"
+  },
+  {
+   "name": "Saber-Toothed Tiger",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.360"
+  },
+  {
+   "name": "Sahuagin Warrior",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.321"
+  },
+  {
+   "name": "Salamander",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.321"
+  },
+  {
+   "name": "Satyr",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.321"
+  },
+  {
+   "name": "Scorpion",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.360"
+  },
+  {
+   "name": "Scout",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.322"
+  },
+  {
+   "name": "Sea Hag",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.322"
+  },
+  {
+   "name": "Seahorse",
+   "cr": "0",
+   "xp": 0,
+   "citation": "SRD 5.2.1 p.361"
+  },
+  {
+   "name": "Shadow",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.322"
+  },
+  {
+   "name": "Shambling Mound",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.323"
+  },
+  {
+   "name": "Shield Guardian",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.323"
+  },
+  {
+   "name": "Shrieker Fungus",
+   "cr": "0",
+   "xp": 0,
+   "citation": "SRD 5.2.1 p.286"
+  },
+  {
+   "name": "Skeleton",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.325"
+  },
+  {
+   "name": "Solar",
+   "cr": "21",
+   "xp": 33000,
+   "citation": "SRD 5.2.1 p.326"
+  },
+  {
+   "name": "Specter",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.327"
+  },
+  {
+   "name": "Sphinx of Lore",
+   "cr": "11",
+   "xp": 7,
+   "citation": "SRD 5.2.1 p.327"
+  },
+  {
+   "name": "Sphinx of Valor",
+   "cr": "17",
+   "xp": 18000,
+   "citation": "SRD 5.2.1 p.328"
+  },
+  {
+   "name": "Sphinx of Wonder",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.327"
+  },
+  {
+   "name": "Spider",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.361"
+  },
+  {
+   "name": "Spirit Naga",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.329"
+  },
+  {
+   "name": "Sprite",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.329"
+  },
+  {
+   "name": "Spy",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.329"
+  },
+  {
+   "name": "Steam Mephit",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.308"
+  },
+  {
+   "name": "Stirge",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.329"
+  },
+  {
+   "name": "Stone Giant",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.330"
+  },
+  {
+   "name": "Stone Golem",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.330"
+  },
+  {
+   "name": "Storm Giant",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.330"
+  },
+  {
+   "name": "Succubus",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.331"
+  },
+  {
+   "name": "Swarm of Bats",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.361"
+  },
+  {
+   "name": "Swarm of Crawling Claws",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.278"
+  },
+  {
+   "name": "Swarm of Insects",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.361"
+  },
+  {
+   "name": "Swarm of Piranhas",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.362"
+  },
+  {
+   "name": "Swarm of Rats",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.362"
+  },
+  {
+   "name": "Swarm of Ravens",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.362"
+  },
+  {
+   "name": "Swarm of Venomous Snakes",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.362"
+  },
+  {
+   "name": "Tarrasque",
+   "cr": "30",
+   "xp": 155000,
+   "citation": "SRD 5.2.1 p.331"
+  },
+  {
+   "name": "Tiger",
+   "cr": "1",
+   "xp": 200,
+   "citation": "SRD 5.2.1 p.363"
+  },
+  {
+   "name": "Tough",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.332"
+  },
+  {
+   "name": "Tough Boss",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.332"
+  },
+  {
+   "name": "Treant",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.333"
+  },
+  {
+   "name": "Triceratops",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.363"
+  },
+  {
+   "name": "Troll",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.333"
+  },
+  {
+   "name": "Troll Limb",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.333"
+  },
+  {
+   "name": "Tyrannosaurus Rex",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.363"
+  },
+  {
+   "name": "Unicorn",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.334"
+  },
+  {
+   "name": "Vampire",
+   "cr": "13",
+   "xp": 10000,
+   "citation": "SRD 5.2.1 p.335"
+  },
+  {
+   "name": "Vampire Familiar",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.334"
+  },
+  {
+   "name": "Vampire Spawn",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.334"
+  },
+  {
+   "name": "Venomous Snake",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.363"
+  },
+  {
+   "name": "Violet Fungus",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.286"
+  },
+  {
+   "name": "Vrock",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.336"
+  },
+  {
+   "name": "Vulture",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.363"
+  },
+  {
+   "name": "Warhorse",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.364"
+  },
+  {
+   "name": "Warhorse Skeleton",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.326"
+  },
+  {
+   "name": "Warrior Infantry",
+   "cr": "1/8",
+   "xp": 25,
+   "citation": "SRD 5.2.1 p.336"
+  },
+  {
+   "name": "Warrior Veteran",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.337"
+  },
+  {
+   "name": "Water Elemental",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.337"
+  },
+  {
+   "name": "Weasel",
+   "cr": "0",
+   "xp": 10,
+   "citation": "SRD 5.2.1 p.364"
+  },
+  {
+   "name": "Werebear",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.337"
+  },
+  {
+   "name": "Wereboar",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.338"
+  },
+  {
+   "name": "Wererat",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.338"
+  },
+  {
+   "name": "Weretiger",
+   "cr": "4",
+   "xp": 1100,
+   "citation": "SRD 5.2.1 p.339"
+  },
+  {
+   "name": "Werewolf",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.339"
+  },
+  {
+   "name": "Wight",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.341"
+  },
+  {
+   "name": "Will-o\u2019-Wisp",
+   "cr": "2",
+   "xp": 450,
+   "citation": "SRD 5.2.1 p.341"
+  },
+  {
+   "name": "Winter Wolf",
+   "cr": "3",
+   "xp": 700,
+   "citation": "SRD 5.2.1 p.342"
+  },
+  {
+   "name": "Wolf",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.364"
+  },
+  {
+   "name": "Worg",
+   "cr": "1/2",
+   "xp": 100,
+   "citation": "SRD 5.2.1 p.342"
+  },
+  {
+   "name": "Wraith",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.342"
+  },
+  {
+   "name": "Wyvern",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.343"
+  },
+  {
+   "name": "Xorn",
+   "cr": "5",
+   "xp": 1800,
+   "citation": "SRD 5.2.1 p.343"
+  },
+  {
+   "name": "Young Black Dragon",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.264"
+  },
+  {
+   "name": "Young Blue Dragon",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.266"
+  },
+  {
+   "name": "Young Brass Dragon",
+   "cr": "6",
+   "xp": 2300,
+   "citation": "SRD 5.2.1 p.268"
+  },
+  {
+   "name": "Young Bronze Dragon",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.270"
+  },
+  {
+   "name": "Young Copper Dragon",
+   "cr": "7",
+   "xp": 2900,
+   "citation": "SRD 5.2.1 p.276"
+  },
+  {
+   "name": "Young Gold Dragon",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.291"
+  },
+  {
+   "name": "Young Green Dragon",
+   "cr": "8",
+   "xp": 3900,
+   "citation": "SRD 5.2.1 p.293"
+  },
+  {
+   "name": "Young Red Dragon",
+   "cr": "10",
+   "xp": 5900,
+   "citation": "SRD 5.2.1 p.318"
+  },
+  {
+   "name": "Young Silver Dragon",
+   "cr": "9",
+   "xp": 5000,
+   "citation": "SRD 5.2.1 p.324"
+  },
+  {
+   "name": "Zombie",
+   "cr": "1/4",
+   "xp": 50,
+   "citation": "SRD 5.2.1 p.343"
+  }
  ],
  "condition": [
   "Blinded",
