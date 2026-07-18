@@ -42,6 +42,41 @@ Per-category, wrong-rate and refusal-rate separated, no aggregate score — by d
 | ollama_qwen3_8b-q4_K_M | phantom-condition | 1 | 0 | 0 | 0 | 0 |
 | ollama_qwen3_8b-q4_K_M | phantom-effect | 1 | 1 | 0 | 0 | 0 |
 
+## Set: drift_long
+
+| subject | category | n | wrong | refusal | false-confidence | broken |
+|---|---|--:|--:|--:|--:|--:|
+| gemini_gemini-pro-latest | control/h05 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | control/h15 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | control/h30 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/h05 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/h15 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/h30 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/h05 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/h15 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/h30 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/h05 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/h15 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/h30 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-massive-death/h05 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-massive-death/h15 | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-massive-death/h30 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | control/h05 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | control/h15 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | control/h30 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-alive/h05 | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-alive/h15 | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-alive/h30 | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-death-save/h05 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-death-save/h15 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-death-save/h30 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-effect/h05 | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-effect/h15 | 1 | 0 | 0 | 0 | 1 |
+| ollama_qwen3_8b-q4_K_M | phantom-effect/h30 | 1 | 1 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-massive-death/h05 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-massive-death/h15 | 1 | 0 | 0 | 0 | 0 |
+| ollama_qwen3_8b-q4_K_M | phantom-massive-death/h30 | 1 | 0 | 0 | 0 | 0 |
+
 ## Set: stateful
 
 | subject | category | n | wrong | refusal | false-confidence | broken |

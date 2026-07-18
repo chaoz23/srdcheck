@@ -29,6 +29,17 @@ four failure modes are reported separately and never blended
   changed rounds earlier (a broken concentration, a spent slot ledger, an
   expired condition) leaks in stale. Categories are failure modes, plus a
   control probe for invented constraints.
+- `drift_long` (15) — the drift question extended to the M1 combat-resolution
+  state (a fighter healed up from 0, a character who *died* on his third failed
+  save, a caster whose Concentration broke because the damage dropped her, an
+  instant-death) and run at **three horizons** — 5 / 15 / 30 rounds between the
+  causal event and the probe — to separate distance-to-probe from failure mode.
+  Five modes × three horizons; the category is `<mode>/h<NN>` so the scorecard
+  reports per-mode and per-horizon at once. This set is **generated**
+  (`python bench/drift_gen.py`), not hand-authored: each scenario's focal
+  creature is folded through srdcheck's own reducer and the gold is checked
+  against the derived true state (`tests/test_drift_gen.py`) — the benchmark
+  cannot drift because the engine is its oracle.
 
 Set files are versioned; results record the prompt version. Questions use
 original wording; `cannot-adjudicate` probes use invented content, never
@@ -88,3 +99,15 @@ unprompted-application traps (4/6). At clean-log, 15-round horizons, frontier
 models do not drift; the ledger's case rests on lineage (receipts, replay,
 portability), determinism, economy, and cheap-model accuracy. Noisy
 multi-hour-transcript horizons remain an open lane.
+
+Drift × horizon (2026-07-18, `drift_long`): extending the probe to M1
+combat-resolution state (heal-the-dead, dead-spell-effect, instant death, a
+reset death-save track) and to **30-round** horizons did not move the frontier
+model — **0 wrong of 15**, clean across all five modes at h05/h15/h30. The 8B
+local model was **5 wrong + 1 broken**, and — the sharper finding — its failures
+are *mode*-shaped, not *horizon*-shaped: it misses the same two state transitions
+at every horizon and passes the other three at every horizon. Its problem is not
+context length; it never models the transition. Frontier drift stays at zero even
+with HP/death-save state at long horizons; local models need the deterministic
+reducer for accuracy, not for memory. Noisy freeform-transcript horizons remain
+the open lane.

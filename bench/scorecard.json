@@ -242,5 +242,221 @@
     "broken": 0
    }
   }
+ },
+ "drift_long": {
+  "gemini_gemini-pro-latest": {
+   "phantom-death-save/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  },
+  "ollama_qwen3_8b-q4_K_M": {
+   "phantom-death-save/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h05": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h15": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/h30": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/h05": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 1
+   },
+   "phantom-effect/h30": {
+    "n": 1,
+    "wrong": 1,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-massive-death/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h05": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h15": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "control/h30": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  }
  }
 }
