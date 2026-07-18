@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build entities.json from the extracted SRD text + outline (run after sources/extract.py)."""
+"""Build entities.json from the extracted SRD text + outline (run after this adapter's sources/extract.py)."""
 
 import json
 import pathlib
 import re
 
-ROOT = pathlib.Path(__file__).resolve().parents[3]
-TEXT = ROOT / "sources" / "text"
+HERE = pathlib.Path(__file__).resolve().parent
+TEXT = HERE / "sources" / "text"
 OUT = pathlib.Path(__file__).parent / "entities.json"
 
 # A spell block: a name line, then a "Level N School" / "School Cantrip" line,

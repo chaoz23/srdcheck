@@ -72,6 +72,37 @@ Entity entries are either bare name strings or objects with a `name` field plus
 adapter-defined facts (e.g. a creature's `cr`/`xp`/`citation`); the handle
 exposes both without the kernel interpreting the facts.
 
+## The version-migration contract
+
+Supporting a new version of a ruleset (e.g. SRD 5.1 alongside 5.2.1) is cheap and
+isolated, because **the version-coupling lives entirely in the build layer, never
+in the kernel or consumers.** Building the 5.1 adapter established the contract:
+
+- **Each version is a self-contained adapter.** It owns its `sources/`
+  (hash-pinned document + fetch script), its **version-specific**
+  `build_entities.py`, and its committed `entities.json`. Nothing at the repo
+  root is version-specific.
+- **A new version = one version-specific build script.** Different editions
+  format differently (5.1 writes `Challenge 10 (5,900 XP)`, 5.2.1 writes
+  `CR 10 (XP 5,900; PB +4)`; the 5.1 PDF extracts with whitespace/hyphen noise).
+  So the build script is per-version. But it emits the *same standard files*, so
+  **the kernel, the query handlers, the public API, and every consumer are
+  untouched** — a new version drops in via `load_adapter("srd-5.3")`.
+- **Completeness oracle, always.** Each version's registry ships with a CI check
+  that its size equals an independent anchor count in that version's text
+  (`Casting Time:` blocks, stat-block markers). Silent incompleteness fails the
+  build — a hard-won rule.
+- **`"default_load": false`** keeps an older/reference version loadable-on-demand
+  without blurring the primary ruleset: it answers `load_adapter(...)` and
+  `edition_check(...)` but stays out of the default engine (so `jurisdiction`
+  and the query surface remain the current edition).
+- **Cross-version comparison is caller-parameterized**, not baked in:
+  `edition_check(name, category, current, priors)` does a content-neutral
+  set-difference across versions — adapters never reference each other.
+
+The kernel never knows the game *or the version*; multi-version support is proven
+by 5.1 loading with zero kernel changes.
+
 ## The deal
 
 The kernel promises adapters: deterministic dispatch, the verdict envelope,

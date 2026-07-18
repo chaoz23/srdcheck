@@ -1,10 +1,10 @@
-sources/*.pdf
+srdcheck/adapters/srd-5.2.1/sources/*.pdf
 __pycache__/
 *.pyc
 .DS_Store
 node_modules/
-sources/text/
-sources/index.json
+srdcheck/adapters/srd-5.2.1/sources/text/
+srdcheck/adapters/srd-5.2.1/sources/index.json
 .venv/
 
 # SRD 5.1 adapter sources (version-layer epic)
