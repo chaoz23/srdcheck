@@ -17,6 +17,7 @@ new versions slot in without a breaking change.
     a.query(query_type, params)     # run a query; returns a verdict dict
 """
 
+import json
 import pathlib
 
 from .engine import Engine
@@ -28,6 +29,18 @@ def available_adapters():
     """Versioned identifiers of the bundled adapters."""
     return sorted(p.name for p in ADAPTERS_DIR.iterdir()
                   if (p / "manifest.json").exists())
+
+
+def default_adapter_paths():
+    """Adapter dirs the default engine loads — every bundled adapter except
+    those whose manifest sets "default_load": false (e.g. a reference/older
+    version kept loadable-on-demand so it doesn't blur the primary ruleset)."""
+    out = []
+    for p in sorted(ADAPTERS_DIR.iterdir()):
+        m = p / "manifest.json"
+        if m.exists() and json.loads(m.read_text()).get("default_load", True):
+            out.append(p)
+    return out
 
 
 def load_adapter(identifier):

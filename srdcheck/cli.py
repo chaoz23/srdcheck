@@ -45,8 +45,8 @@ SCHEMA = {
 
 
 def _engine():
-    paths = sorted(p for p in ADAPTERS_DIR.iterdir() if (p / "manifest.json").exists())
-    return Engine(paths)
+    from .access import default_adapter_paths
+    return Engine(default_adapter_paths())
 
 
 def _emit(verdict):

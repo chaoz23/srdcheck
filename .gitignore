@@ -6,3 +6,7 @@ node_modules/
 sources/text/
 sources/index.json
 .venv/
+
+# SRD 5.1 adapter sources (version-layer epic)
+srdcheck/adapters/srd-5.1/sources/*.pdf
+srdcheck/adapters/srd-5.1/sources/text/

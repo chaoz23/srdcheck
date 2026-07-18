@@ -17,11 +17,17 @@ jobs:
         run: |
           bash sources/fetch.sh
           python sources/extract.py
-      - name: Rebuild entity registry and verify it matches the committed one
+      - name: Rebuild 5.2.1 registry and verify it matches the committed one
         run: |
-          cp srdcheck/adapters/srd-5.2.1/entities.json /tmp/committed.json
+          cp srdcheck/adapters/srd-5.2.1/entities.json /tmp/committed-521.json
           python srdcheck/adapters/srd-5.2.1/build_entities.py
-          diff /tmp/committed.json srdcheck/adapters/srd-5.2.1/entities.json
+          diff /tmp/committed-521.json srdcheck/adapters/srd-5.2.1/entities.json
+      - name: Fetch + rebuild the SRD 5.1 registry and verify it matches
+        run: |
+          bash srdcheck/adapters/srd-5.1/sources/fetch.sh
+          cp srdcheck/adapters/srd-5.1/entities.json /tmp/committed-51.json
+          python srdcheck/adapters/srd-5.1/build_entities.py
+          diff /tmp/committed-51.json srdcheck/adapters/srd-5.1/entities.json
       - run: python -m pytest tests/ -q
       - name: Truth scorecard freshness (never hand-edited)
         run: python scripts/truth_scorecard.py --check
