@@ -68,7 +68,8 @@ def table(f):
          "genuinely ambiguous rules text all return exit 2 with citations"),
         ("T9", "never a single number", "enforced in CI",
          "bench scorecard freshness test; per-category tables, no aggregate "
-         "score exists anywhere in this repository"),
+         "score exists anywhere in this repository — even the leaderboard ranks "
+         "by wrong-count alone (T1) and shows the other failure modes unblended"),
         ("T10", "stranger-agent bootstrap", "enforced in CI",
          f"cold-start conformance test reaches a first verdict from "
          f"tool.json/--schema/MCP alone ({f['ntools']} tools); live probe: "
@@ -83,8 +84,10 @@ def table(f):
          "cut in review — enforced by humans and admitted as such"),
         ("T13", "the benchmark is a product", "shipped",
          f"bench/ publishes {f['nsets']} sets across {f['nsubjects']} "
-         "subjects with cited gold verdicts; cmd: driver lets any agent "
-         "benchmark itself"),
+         "subjects with cited gold verdicts, incl. a per-horizon drift lane "
+         "whose golds are engine-derived; a generated LEADERBOARD ranks any "
+         "subject; cmd: driver + validate command let a third party submit a "
+         "tamper-checked result"),
         ("T14", "every state has a lineage", "enforced in CI",
          "event.apply reducer stamps every transition (predecessor hash, "
          "causing event, rule ids, rule-vs-ruling kind); tests cover replay "
