@@ -306,5 +306,32 @@
     "name"
    ]
   }
+ },
+ "encounter.xp-budget": {
+  "description": "XP budget per character for encounter building (SRD 5.2.1 p.202): given party level (1-20) and difficulty (low/moderate/high), returns the per-character XP budget with citation. Pass party_size to also get the total. Combine with creature.stats to check whether an encounter is within budget.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "level": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 20
+    },
+    "difficulty": {
+     "enum": [
+      "low",
+      "moderate",
+      "high"
+     ]
+    },
+    "party_size": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "level",
+    "difficulty"
+   ]
+  }
  }
 }
