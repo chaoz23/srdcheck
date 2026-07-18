@@ -82,6 +82,40 @@ $ python bench/harness.py run --set core --subject "cmd:./your-agent"
 stdout — that's how you benchmark your own DM product or agent stack.
 Runs are resumable; `score` regenerates the scorecard from whatever is on disk.
 
+## Get on the leaderboard
+
+[`LEADERBOARD.md`](LEADERBOARD.md) ranks every subject per set by **wrong-count**
+— the one categorically unforgivable failure ([T1](../docs/product-truths.md)) —
+and shows the other three failure modes as separate columns. There is no
+composite score ([T9](../docs/product-truths.md)); the ranking is one honest
+axis, not a blend.
+
+**The `cmd:` contract.** Your agent is any command that:
+
+1. reads the harness prompt followed by `\n\nQuestion: <the rules question>` on
+   **stdin**, and
+2. prints exactly one JSON object on **stdout**:
+   `{"verdict": "legal" | "illegal" | "cannot-adjudicate", "citations": ["..."], "rationale": "..."}`
+
+The verdict is scored against the set's gold; `cannot-adjudicate` is the honest
+answer when the rules don't decide, and is never counted as *wrong*.
+[`examples/refuse_baseline.py`](examples/refuse_baseline.py) is a runnable
+reference (the maximally-cautious floor — never wrong, useless).
+
+```console
+$ python bench/harness.py run --set core \
+    --subject "cmd:python bench/examples/refuse_baseline.py"
+$ python bench/harness.py validate --set core \
+    --subject "cmd:python bench/examples/refuse_baseline.py"   # integrity check
+```
+
+**Submitting.** Run the sets you want against your subject, then open a PR adding
+your `bench/results/<subject>/<set>.jsonl` files. CI runs
+`harness.py validate` on every committed result (`tests/test_submissions.py`): a
+submission that answers a foreign question or records a doctored gold is rejected,
+so the board can't be gamed. Golds are the set files' own verdicts — you can't
+grade your own homework.
+
 ## Published findings so far
 
 From the day-one runs (2026-07-16, full analysis in
