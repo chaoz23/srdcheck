@@ -52,6 +52,26 @@ code escape hatch: control flow lives here, but every fact a handler uses must c
 from an atom, and every verdict path must cite. The kernel never imports game
 vocabulary — a lint test enforces it.
 
+## Versioned identifiers & the stable consumer interface
+
+An adapter directory is named by a **versioned identifier** (e.g. `srd-5.2.1`).
+A different version of the same ruleset ships as a *separate* identifier
+(`srd-5.1`, `srd-5.3`), so versions coexist and a new one is added without a
+breaking change — the version is first-class, not baked into the code.
+
+Downstream tools consume an adapter through the supported top-level API, never
+by reaching into internal file paths:
+
+```python
+from srdcheck import load_adapter, available_adapters
+a = load_adapter("srd-5.2.1")
+a.categories(); a.names(category); a.record(category, name); a.query(qt, params)
+```
+
+Entity entries are either bare name strings or objects with a `name` field plus
+adapter-defined facts (e.g. a creature's `cr`/`xp`/`citation`); the handle
+exposes both without the kernel interpreting the facts.
+
 ## The deal
 
 The kernel promises adapters: deterministic dispatch, the verdict envelope,
