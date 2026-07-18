@@ -3,6 +3,7 @@ README.md
 pyproject.toml
 srdcheck/__init__.py
 srdcheck/__main__.py
+srdcheck/access.py
 srdcheck/adapter.py
 srdcheck/cli.py
 srdcheck/engine.py
@@ -21,6 +22,7 @@ srdcheck/adapters/srd-5.2.1/handlers.py
 srdcheck/adapters/srd-5.2.1/manifest.json
 srdcheck/adapters/srd-5.2.1/queries.json
 srdcheck/adapters/srd-5.2.1/state_schema.json
+srdcheck/adapters/srd-5.2.1/atoms/encounter_budget.json
 srdcheck/adapters/srd-5.2.1/atoms/mage_hand.json
 srdcheck/adapters/srd-5.2.1/atoms/roll_modifiers.json
 srdcheck/adapters/srd-5.2.1/atoms/state_interactions.json
@@ -33,11 +35,15 @@ srdcheck/adapters/toy-tictactoe/queries.json
 srdcheck/adapters/toy-tictactoe/atoms/rules.json
 tests/test_bench.py
 tests/test_bootstrap.py
+tests/test_creature_queries.py
+tests/test_creature_registry.py
+tests/test_encounter_budget.py
 tests/test_enumeration.py
 tests/test_input_sanitation.py
 tests/test_kernel.py
 tests/test_ledger.py
 tests/test_mcp.py
+tests/test_public_api.py
 tests/test_roll_modifiers.py
 tests/test_toy_adapter.py
 tests/test_turn_economy.py
