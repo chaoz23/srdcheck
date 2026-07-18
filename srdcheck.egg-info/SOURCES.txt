@@ -39,6 +39,7 @@ tests/test_creature_queries.py
 tests/test_creature_registry.py
 tests/test_encounter_budget.py
 tests/test_enumeration.py
+tests/test_extraction_completeness.py
 tests/test_input_sanitation.py
 tests/test_kernel.py
 tests/test_ledger.py

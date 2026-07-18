@@ -15,7 +15,7 @@ from .cli import ADAPTERS_DIR
 from .engine import Engine
 
 PROTOCOL_VERSION = "2025-06-18"
-SERVER_INFO = {"name": "srdcheck", "version": "0.1.2"}
+SERVER_INFO = {"name": "srdcheck", "version": "0.1.3"}
 
 JURISDICTION_TOOL = {
     "name": "jurisdiction",
