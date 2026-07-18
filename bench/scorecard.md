@@ -77,6 +77,23 @@ Per-category, wrong-rate and refusal-rate separated, no aggregate score — by d
 | ollama_qwen3_8b-q4_K_M | phantom-massive-death/h15 | 1 | 0 | 0 | 0 | 0 |
 | ollama_qwen3_8b-q4_K_M | phantom-massive-death/h30 | 1 | 0 | 0 | 0 | 0 |
 
+## Set: drift_noisy
+
+| subject | category | n | wrong | refusal | false-confidence | broken |
+|---|---|--:|--:|--:|--:|--:|
+| gemini_gemini-pro-latest | phantom-alive/buried | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/epic | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/heavy | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-alive/light | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/buried | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/epic | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/heavy | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-death-save/light | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/buried | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/epic | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/heavy | 1 | 0 | 0 | 0 | 0 |
+| gemini_gemini-pro-latest | phantom-effect/light | 1 | 0 | 0 | 0 | 0 |
+
 ## Set: stateful
 
 | subject | category | n | wrong | refusal | false-confidence | broken |
