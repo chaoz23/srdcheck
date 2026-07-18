@@ -23,6 +23,7 @@ class Adapter:
         # field plus adapter-defined facts (the kernel stays content-neutral —
         # it indexes names and carries records without interpreting either).
         ents = json.loads((self.root / "entities.json").read_text())
+        self.entities_by_category = ents
         self.entities = {}
         self.entity_facts = {}
         for category, items in ents.items():
