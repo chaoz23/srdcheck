@@ -34,6 +34,23 @@ Set files are versioned; results record the prompt version. Questions use
 original wording; `cannot-adjudicate` probes use invented content, never
 real third-party names.
 
+## Coverage lane (what fraction of combat srdcheck can adjudicate)
+
+The correctness lanes above ask "is srdcheck *right*?" The coverage census
+(`python bench/coverage.py`, corpus `sets/coverage.jsonl`) asks "how *much* of a
+real combat turn can it adjudicate, and where are the gaps?" Each event is routed
+to a query and scored ADJUDICATED / REFUSED (a modeled-scope gap) / UNCOVERED (no
+query yet). Coverage is reported over an **honest denominator** — GM discretion,
+dice, and VTT geometry are tagged out-of-scope and excluded, because srdcheck
+should *never* do that work (T6). A test ratchets the in-scope coverage floor
+upward as engine slices land, and asserts out-of-scope events stay uncovered.
+
+First census (2026-07-18): **64% in-scope coverage**. The closeable gaps are
+concentrated in one system — HP/damage, death saves, and saving throws — plus the
+bounded set of not-yet-modeled conditions. Per-spell effects are the long-tail
+swamp (kept refused, T8); contests/skills/initiative/cover are correctly
+out-of-scope. This is the prioritization signal for deepening the engine.
+
 ## Run a subject
 
 ```console

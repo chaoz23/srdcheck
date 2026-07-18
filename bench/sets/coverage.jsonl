@@ -1,0 +1,36 @@
+{"id":"cov-move-1","kind":"movement","event":"A fighter with Speed 30 moves 25 feet.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"move","feet":25}]}}}
+{"id":"cov-move-2","kind":"movement","event":"A creature moves 40 feet on Speed 30.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"move","feet":40}]}}}
+{"id":"cov-econ-1","kind":"action-economy","event":"Casts a slot spell with the action and another with a bonus action.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"action","spell":{"level":2}},{"do":"bonus-action","spell":{"level":1}}]}}}
+{"id":"cov-econ-2","kind":"action-economy","event":"Takes two bonus actions in a turn.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"bonus-action"},{"do":"bonus-action"}]}}}
+{"id":"cov-atk-1","kind":"attack-modifiers","event":"Attacks a prone target from 5 feet.","route":{"type":"attack.modifiers","params":{"attacker":{},"target":{"conditions":["Prone"]},"distance_ft":5}}}
+{"id":"cov-atk-2","kind":"attack-modifiers","event":"An invisible attacker strikes.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Invisible"]},"target":{},"distance_ft":10}}}
+{"id":"cov-atk-3","kind":"attack-modifiers","event":"A restrained creature attacks.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Restrained"]},"target":{},"distance_ft":5}}}
+{"id":"cov-roll-1","kind":"roll-composition","event":"Three sources grant advantage, one imposes disadvantage.","route":{"type":"roll.compose","params":{"advantage_sources":["a","b","c"],"disadvantage_sources":["d"]}}}
+{"id":"cov-react-1","kind":"reaction","event":"Tries an opportunity attack after the reaction was spent.","route":{"type":"reaction.available","params":{"spent_since_turn_start":true}}}
+{"id":"cov-opts-1","kind":"enumeration","event":"What can this creature legally do right now?","route":{"type":"turn.options","params":{"speed":30}}}
+{"id":"cov-slot-1","kind":"spell-economy","event":"Casts a bonus-action cantrip then a slot spell.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"bonus-action","spell":{"level":0}},{"do":"action","spell":{"level":1}}]}}}
+{"id":"cov-mhand-1","kind":"specific-spell-modeled","event":"Mage Hand lifts a key from an open box.","route":{"type":"mage-hand.use","params":{"kind":"stow_retrieve_open","weight_lb":0.1,"distance_ft":20}}}
+{"id":"cov-state-1","kind":"state-transition","event":"A new turn begins; budgets and reaction refresh.","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":[],"turn":{"reaction_spent":true}},"event":{"type":"turn-start"}}}}
+{"id":"cov-cstat-1","kind":"creature-stats","event":"How much XP is a Ghast worth?","route":{"type":"creature.stats","params":{"name":"Ghast"}}}
+{"id":"cov-budget-1","kind":"encounter-budget","event":"XP budget for a level-3 moderate encounter, party of 4.","route":{"type":"encounter.xp-budget","params":{"level":3,"difficulty":"moderate","party_size":4}}}
+{"id":"cov-condmove-1","kind":"condition-movement","event":"A grappled creature tries to move 15 feet.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Grappled"],"plan":[{"do":"move","feet":15}]}}}
+{"id":"cov-prone-1","kind":"condition-movement","event":"A prone creature stands up.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Prone"],"plan":[{"do":"stand-up"}]}}}
+{"id":"cov-dmg-1","kind":"damage-hp","event":"The fighter takes 12 slashing damage.","route":{"type":null}}
+{"id":"cov-dmg-2","kind":"damage-hp","event":"Is the goblin reduced to 0 hit points?","route":{"type":null}}
+{"id":"cov-dmg-3","kind":"damage-hp","event":"A creature at 0 HP takes damage — instant death check.","route":{"type":null}}
+{"id":"cov-death-1","kind":"death-saves","event":"A downed character makes a death saving throw.","route":{"type":null}}
+{"id":"cov-death-2","kind":"death-saves","event":"Third death save failure — the character dies.","route":{"type":null}}
+{"id":"cov-save-1","kind":"saving-throw","event":"DC 15 Dexterity save against a Fireball.","route":{"type":null}}
+{"id":"cov-save-2","kind":"saving-throw","event":"Constitution save to maintain concentration after 10 damage.","route":{"type":null}}
+{"id":"cov-spell-1","kind":"spell-effect","event":"Fireball deals 8d6 fire in a 20-foot radius.","route":{"type":null}}
+{"id":"cov-spell-2","kind":"spell-effect","event":"Bless adds 1d4 to the attack roll.","route":{"type":null}}
+{"id":"cov-spell-3","kind":"spell-effect","event":"Hold Person paralyzes the target on a failed save.","route":{"type":null}}
+{"id":"cov-cond-1","kind":"unmodeled-condition","event":"A Frightened creature makes an attack.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Frightened"]},"target":{},"distance_ft":5}}}
+{"id":"cov-cond-2","kind":"unmodeled-condition","event":"A Poisoned creature's turn.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Poisoned"],"plan":[{"do":"action"}]}}}
+{"id":"cov-cond-3","kind":"unmodeled-condition","event":"A Charmed creature tries to attack its charmer.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Charmed"]},"target":{},"distance_ft":5}}}
+{"id":"cov-feat-1","kind":"feature-prereq","event":"A lone two-weapon-fighting offhand attack with no Attack action.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"bonus-action"}]}}}
+{"id":"cov-contest-1","kind":"contest","event":"A grapple contest: Athletics vs Athletics.","route":{"type":null}}
+{"id":"cov-contest-2","kind":"contest","event":"A shove: Athletics vs the target's Acrobatics.","route":{"type":null}}
+{"id":"cov-skill-1","kind":"skill-check","event":"A DC 15 Wisdom (Perception) check to spot the ambush.","route":{"type":null}}
+{"id":"cov-init-1","kind":"initiative","event":"Roll initiative for the encounter.","route":{"type":null}}
+{"id":"cov-cover-1","kind":"cover-geometry","event":"The target has half cover behind a low wall.","route":{"type":null}}
