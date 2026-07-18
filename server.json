@@ -1,8 +1,8 @@
 {
  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
  "name": "io.github.chaoz23/srdcheck",
- "description": "Deterministic D&D 5e (SRD 5.2.1) rules verdicts for agents — cited, honest about jurisdiction.",
- "version": "0.1.1",
+ "description": "Deterministic D&D 5e (SRD 5.2.1) rules verdicts for agents \u2014 cited, honest about jurisdiction.",
+ "version": "0.1.2",
  "repository": {
   "url": "https://github.com/chaoz23/srdcheck",
   "source": "github"
@@ -12,11 +12,18 @@
    "registryType": "pypi",
    "registryBaseUrl": "https://pypi.org",
    "identifier": "srdcheck",
-   "version": "0.1.1",
+   "version": "0.1.2",
    "runtimeHint": "uvx",
    "runtimeArguments": [
-    {"type": "named", "name": "--from", "value": "srdcheck"},
-    {"type": "positional", "value": "srdcheck-mcp"}
+    {
+     "type": "named",
+     "name": "--from",
+     "value": "srdcheck"
+    },
+    {
+     "type": "positional",
+     "value": "srdcheck-mcp"
+    }
    ],
    "transport": {
     "type": "stdio"
