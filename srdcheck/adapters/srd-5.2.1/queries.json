@@ -220,7 +220,7 @@
   }
  },
  "event.apply": {
-  "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, ruling (GM discretion \u2014 recorded and tagged as discretion, never as a rule). srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold.",
+  "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, damage (amount; crit:true for a Critical Hit; folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP), heal (amount; restores HP and, from 0, consciousness + resets death saves), death-save (result: the rolled d20 1-20; folds success/failure counts, nat-1 double failure, nat-20 revival, stabilize, and death), ruling (GM discretion \u2014 recorded and tagged as discretion, never as a rule). The caller supplies every die result; srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -243,6 +243,9 @@
         "stand-up",
         "condition-gained",
         "condition-ended",
+        "damage",
+        "heal",
+        "death-save",
         "ruling"
        ]
       },
@@ -257,6 +260,18 @@
       },
       "concentration_on": {
        "type": "string"
+      },
+      "amount": {
+       "type": "integer",
+       "description": "damage or healing amount (damage/heal events)"
+      },
+      "crit": {
+       "type": "boolean",
+       "description": "true if damage is from a Critical Hit (doubles death-save failures at 0 HP)"
+      },
+      "result": {
+       "type": "integer",
+       "description": "the rolled d20 (1-20) for a death-save event; the caller rolls, srdcheck folds"
       },
       "name": {
        "type": "string"
@@ -331,6 +346,57 @@
    "required": [
     "level",
     "difficulty"
+   ]
+  }
+ },
+ "save.check": {
+  "description": "Adjudicate a D20 Test (a saving throw or any check) against a DC: does d20_result + modifier meet or exceed the DC? (SRD 5.2.1 p.6.) The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck computes and cites the pass/fail. Returns data {total, dc, success}. Refuses (exit 2) if the d20 result or DC is missing.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "d20_result": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 20,
+     "description": "the rolled d20 (the caller rolls; srdcheck never generates randomness)"
+    },
+    "modifier": {
+     "type": "integer",
+     "description": "total modifier added to the d20 (ability + proficiency + situational)"
+    },
+    "dc": {
+     "type": "integer",
+     "description": "the Difficulty Class to meet or exceed"
+    }
+   },
+   "required": [
+    "d20_result",
+    "dc"
+   ]
+  }
+ },
+ "concentration.check": {
+  "description": "Compute the Concentration saving-throw DC when a concentrating creature takes damage: DC = max(10, damage // 2), capped at 30 (SRD 5.2.1 p.179). Optionally pass d20_result (+ con_modifier) to also resolve whether concentration holds. Returns data {dc[, total, success]}. The caller rolls; srdcheck folds.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "damage": {
+     "type": "integer",
+     "description": "damage taken while concentrating"
+    },
+    "d20_result": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 20,
+     "description": "optional: the rolled d20 for the Constitution save"
+    },
+    "con_modifier": {
+     "type": "integer",
+     "description": "Constitution save modifier (used only if d20_result is given)"
+    }
+   },
+   "required": [
+    "damage"
    ]
   }
  }

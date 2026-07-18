@@ -45,11 +45,19 @@ dice, and VTT geometry are tagged out-of-scope and excluded, because srdcheck
 should *never* do that work (T6). A test ratchets the in-scope coverage floor
 upward as engine slices land, and asserts out-of-scope events stay uncovered.
 
-First census (2026-07-18): **64% in-scope coverage**. The closeable gaps are
+First census (2026-07-18): **64% in-scope coverage**. The closeable gaps were
 concentrated in one system — HP/damage, death saves, and saving throws — plus the
 bounded set of not-yet-modeled conditions. Per-spell effects are the long-tail
 swamp (kept refused, T8); contests/skills/initiative/cover are correctly
-out-of-scope. This is the prioritization signal for deepening the engine.
+out-of-scope.
+
+M1 (2026-07-18) closed that combat-resolution cluster — the reducer now folds
+`damage` / `heal` / `death-save` events (HP loss, Falling Unconscious,
+monster/massive-damage instant death, the death-save track) and two saving-throw
+queries (`save.check`, `concentration.check`), each cited and rolled by the
+caller (T6). In-scope coverage rose to **89%**; the remaining in-scope gap is the
+not-yet-modeled conditions, which honestly refuse (T8). The floor is ratcheted in
+`tests/test_coverage_census.py`.
 
 ## Run a subject
 

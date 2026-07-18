@@ -16,6 +16,13 @@ def _cite(atom):
                       c["page"], c.get("quote"))
 
 
+def event_int(p, key):
+    """Read an integer param, or None if absent. Keeps None distinct from 0
+    (a declared d20 of 0 is invalid; an absent one means 'DC only')."""
+    val = p.get(key)
+    return int(val) if val is not None else None
+
+
 def mage_hand_use(adapter, p):
     """p: {kind, weight_lb?, distance_ft?} — one proposed use of the hand."""
     a = adapter.atoms
@@ -586,6 +593,132 @@ def event_apply(adapter, p):
                 adapter=aid)
         nxt["conditions"].remove(have[name.lower()])
         why = f"{name} ended and removed. (Broken Concentration does not resume.)"
+    elif etype == "damage":
+        hp, hp_max = nxt.get("hp"), nxt.get("hp_max")
+        amount = int(event.get("amount", 0))
+        if hp is None or hp_max is None:
+            return v.cannot_adjudicate(
+                "Damage needs 'hp' and 'hp_max' in state.", adapter=aid)
+        if amount < 0:
+            return v.cannot_adjudicate("Damage cannot be negative.", adapter=aid)
+        crit = bool(event.get("crit"))
+        if nxt.get("dead"):
+            grab("damage.reduces-hp")
+            why = "Already dead; damage has no further effect."
+        elif hp > 0:
+            grab("damage.reduces-hp")
+            remainder = amount - hp
+            if amount < hp:
+                nxt["hp"] = hp - amount
+                why = f"Takes {amount} damage: {hp} to {nxt['hp']} HP."
+            elif nxt.get("is_monster"):
+                nxt["hp"] = 0
+                nxt["dead"] = True
+                grab("hp.monster-death")
+                why = f"Takes {amount} damage, drops to 0 — a monster dies instantly."
+            elif remainder >= hp_max:
+                nxt["hp"] = 0
+                nxt["dead"] = True
+                grab("hp.massive-damage-death")
+                why = (f"Takes {amount}; {remainder} remains past 0, >= HP max "
+                       f"{hp_max} — instant death (massive damage).")
+            else:
+                nxt["hp"] = 0
+                grab("hp.falling-unconscious")
+                if "Unconscious" not in nxt["conditions"]:
+                    nxt["conditions"].append("Unconscious")
+                if nxt.get("concentration_on"):
+                    nxt["concentration_on"] = None
+                    grab("concentration.breaks-on-incapacitated")
+                why = "Drops to 0 HP and falls Unconscious."
+        else:  # damage while already at 0 HP (an unstable character)
+            grab("death-save.damage-at-0")
+            nxt["stable"] = False
+            if amount >= hp_max:
+                nxt["dead"] = True
+                why = f"Damage {amount} at 0 HP >= HP max {hp_max} — dies."
+            else:
+                fails = 2 if crit else 1
+                nxt["death_save_failures"] = min(
+                    3, int(nxt.get("death_save_failures", 0)) + fails)
+                if nxt["death_save_failures"] >= 3:
+                    nxt["dead"] = True
+                    grab("death-save.mechanic")
+                    why = (f"Damage at 0 HP = {fails} failure(s); third failure "
+                           "— dies.")
+                else:
+                    why = (f"Damage at 0 HP = {fails} death-save failure(s) "
+                           f"(now {nxt['death_save_failures']}/3).")
+    elif etype == "heal":
+        hp, hp_max = nxt.get("hp"), nxt.get("hp_max")
+        amount = int(event.get("amount", 0))
+        if hp is None or hp_max is None:
+            return v.cannot_adjudicate(
+                "Healing needs 'hp' and 'hp_max' in state.", adapter=aid)
+        if amount <= 0:
+            return v.cannot_adjudicate("Healing must be positive.", adapter=aid)
+        if nxt.get("dead"):
+            return v.illegal(
+                "A dead creature can't be restored by hit-point healing.",
+                adapter=aid)
+        was_down = hp == 0
+        nxt["hp"] = min(hp_max, hp + amount)
+        grab("hp.healing-restores")
+        if was_down:
+            grab("hp.falling-unconscious")
+            grab("death-save.reset-on-heal")
+            nxt["death_save_successes"] = 0
+            nxt["death_save_failures"] = 0
+            nxt["stable"] = False
+            nxt["conditions"] = [c for c in nxt["conditions"]
+                                 if c.lower() != "unconscious"]
+            why = (f"Heals {amount}: regains {nxt['hp']} HP and consciousness; "
+                   "death saves reset.")
+        else:
+            why = f"Heals {amount}: {hp} to {nxt['hp']} HP."
+    elif etype == "death-save":
+        if nxt.get("hp") != 0 or nxt.get("dead") or nxt.get("stable"):
+            return v.cannot_adjudicate(
+                "A Death Saving Throw is made only by an unstable creature at "
+                "0 HP.", adapter=aid)
+        roll = int(event.get("result", 0))
+        if not 1 <= roll <= 20:
+            return v.cannot_adjudicate(
+                "A death save needs the d20 result (1-20).", adapter=aid)
+        grab("death-save.mechanic")
+        succ = int(nxt.get("death_save_successes", 0))
+        fail = int(nxt.get("death_save_failures", 0))
+        if roll == 20:
+            grab("death-save.natural-1-and-20")
+            grab("death-save.reset-on-heal")
+            nxt["hp"] = 1
+            nxt["death_save_successes"] = 0
+            nxt["death_save_failures"] = 0
+            nxt["conditions"] = [c for c in nxt["conditions"]
+                                 if c.lower() != "unconscious"]
+            why = "Natural 20: regain 1 HP and consciousness."
+        elif roll == 1:
+            grab("death-save.natural-1-and-20")
+            nxt["death_save_failures"] = min(3, fail + 2)
+            if nxt["death_save_failures"] >= 3:
+                nxt["dead"] = True
+                why = "Natural 1: two failures; third failure — dies."
+            else:
+                why = f"Natural 1: two failures (now {nxt['death_save_failures']}/3)."
+        elif roll >= 10:
+            nxt["death_save_successes"] = min(3, succ + 1)
+            if nxt["death_save_successes"] >= 3:
+                nxt["stable"] = True
+                why = "Third success — the creature is Stable."
+            else:
+                why = f"Success ({nxt['death_save_successes']}/3)."
+        else:
+            nxt["death_save_failures"] = min(3, fail + 1)
+            if nxt["death_save_failures"] >= 3:
+                nxt["dead"] = True
+                why = "Third failure — the creature dies."
+            else:
+                why = f"Failure ({nxt['death_save_failures']}/3)."
     elif etype == "ruling":
         kind = "ruling"
         patch = event.get("state_patch") or {}
@@ -685,6 +818,53 @@ def encounter_xp_budget(adapter, p):
     return v.legal(why, [_cite(atom)], aid, [atom["id"]], data=data)
 
 
+def save_check(adapter, p):
+    """Adjudicate a saving throw: does the declared d20 result + modifier meet
+    the DC? The caller supplies the rolled d20 (RNG is out of scope, T6); the
+    engine computes the outcome, cited."""
+    a, aid = adapter.atoms, adapter.id
+    atom = a["save.d20-vs-dc"]
+    d20 = event_int(p, "d20_result")
+    dc = p.get("dc")
+    if d20 is None or not 1 <= d20 <= 20:
+        return v.cannot_adjudicate("Provide the d20 result (1-20).", adapter=aid)
+    if not isinstance(dc, int):
+        return v.cannot_adjudicate("Provide the DC.", adapter=aid)
+    total = d20 + int(p.get("modifier", 0))
+    ok = total >= dc
+    return v.legal(
+        f"Save total {total} (d20 {d20} + {p.get('modifier', 0)}) vs DC {dc}: "
+        f"{'success' if ok else 'failure'}.", [_cite(atom)], aid, [atom["id"]],
+        data={"total": total, "dc": dc, "success": ok})
+
+
+def concentration_check(adapter, p):
+    """Concentration save on taking damage: DC = max(10, damage // 2), capped at
+    30 (SRD 5.2.1 p.179); optionally resolve the declared d20 result."""
+    a, aid = adapter.atoms, adapter.id
+    dc_atom, save_atom = a["save.concentration-dc"], a["save.d20-vs-dc"]
+    dmg = int(p.get("damage", 0))
+    if dmg < 0:
+        return v.cannot_adjudicate("Damage cannot be negative.", adapter=aid)
+    dc = min(dc_atom["params"]["cap"], max(dc_atom["params"]["floor"], dmg // 2))
+    data = {"dc": dc}
+    why = f"Concentration DC is max(10, {dmg} // 2) = {dc}."
+    cites = [_cite(dc_atom)]
+    rules = [dc_atom["id"]]
+    d20 = event_int(p, "d20_result")
+    if d20 is not None:
+        if not 1 <= d20 <= 20:
+            return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+        total = d20 + int(p.get("con_modifier", 0))
+        ok = total >= dc
+        data.update(total=total, success=ok)
+        why += (f" Save total {total} vs DC {dc}: concentration "
+                f"{'maintained' if ok else 'broken'}.")
+        cites.append(_cite(save_atom))
+        rules.append(save_atom["id"])
+    return v.legal(why, cites, aid, rules, data=data)
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -696,4 +876,6 @@ HANDLERS = {
     "creature.valid": creature_valid,
     "creature.stats": creature_stats,
     "encounter.xp-budget": encounter_xp_budget,
+    "save.check": save_check,
+    "concentration.check": concentration_check,
 }

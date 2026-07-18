@@ -11,7 +11,14 @@
   "turn.reaction_spent": ["turn.one-reaction-per-round"],
   "turn.free_interaction_spent": ["turn.one-free-interaction"],
   "turn.movement_ft_spent": ["turn.movement-budget", "movement.crawling-cost"],
-  "turn.spell_slots_spent_this_turn": ["spell.one-slot-per-turn"]
+  "turn.spell_slots_spent_this_turn": ["spell.one-slot-per-turn"],
+  "hp": ["damage.reduces-hp", "hp.falling-unconscious", "hp.healing-restores", "hp.massive-damage-death", "hp.monster-death", "death-save.reset-on-heal"],
+  "hp_max": ["hp.massive-damage-death", "death-save.damage-at-0"],
+  "is_monster": ["hp.monster-death"],
+  "death_save_successes": ["death-save.mechanic", "death-save.natural-1-and-20", "death-save.reset-on-heal"],
+  "death_save_failures": ["death-save.mechanic", "death-save.natural-1-and-20", "death-save.damage-at-0", "death-save.reset-on-heal"],
+  "stable": ["death-save.mechanic"],
+  "dead": ["hp.massive-damage-death", "hp.monster-death", "death-save.mechanic", "death-save.damage-at-0"]
  },
  "schema": {
   "type": "object",
@@ -28,6 +35,14 @@
     "free_interaction_spent": {"type": "boolean"},
     "movement_ft_spent": {"type": "integer"},
     "spell_slots_spent_this_turn": {"type": "integer"}}},
+   "hp": {"type": "integer", "description": "current hit points"},
+   "hp_max": {"type": "integer", "description": "hit point maximum"},
+   "is_monster": {"type": "boolean",
+    "description": "true = monster (dies at 0 HP); false/absent = character (falls unconscious + death saves)"},
+   "death_save_successes": {"type": "integer", "minimum": 0, "maximum": 3},
+   "death_save_failures": {"type": "integer", "minimum": 0, "maximum": 3},
+   "stable": {"type": "boolean"},
+   "dead": {"type": "boolean"},
    "lineage": {"type": "object",
     "description": "kernel-stamped transition chain metadata; not game state"}
   },
