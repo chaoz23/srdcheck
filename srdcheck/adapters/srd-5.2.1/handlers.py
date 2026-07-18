@@ -657,6 +657,34 @@ def creature_stats(adapter, p):
               "citation": rec["citation"]})
 
 
+def encounter_xp_budget(adapter, p):
+    """XP budget per character for a party level + difficulty (issue #4,
+    SRD 5.2.1 p.202). Optionally multiply by party_size for the total budget."""
+    a, aid = adapter.atoms, adapter.id
+    atom = a["encounter.xp-budget-per-character"]
+    table = atom["params"]["table"]
+    level = str(p.get("level", ""))
+    difficulty = str(p.get("difficulty", "")).strip().lower()
+    if level not in table:
+        return v.cannot_adjudicate(
+            f"Party level {p.get('level')!r} is outside the SRD 5.2.1 table "
+            "(levels 1-20).", [_cite(atom)], aid, [atom["id"]])
+    if difficulty not in atom["params"]["difficulties"]:
+        return v.cannot_adjudicate(
+            f"Difficulty {p.get('difficulty')!r} is not one of "
+            f"{atom['params']['difficulties']}.", [_cite(atom)], aid, [atom["id"]])
+    per_character = table[level][difficulty]
+    data = {"per_character": per_character, "citation": "SRD 5.2.1 p.202"}
+    why = (f"Level {level} {difficulty} encounter: {per_character} XP per "
+           "character.")
+    size = p.get("party_size")
+    if isinstance(size, int) and size > 0:
+        data["party_size"] = size
+        data["total"] = per_character * size
+        why += f" Total for a party of {size}: {data['total']} XP."
+    return v.legal(why, [_cite(atom)], aid, [atom["id"]], data=data)
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -667,4 +695,5 @@ HANDLERS = {
     "event.apply": event_apply,
     "creature.valid": creature_valid,
     "creature.stats": creature_stats,
+    "encounter.xp-budget": encounter_xp_budget,
 }
