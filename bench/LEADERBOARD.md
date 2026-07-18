@@ -26,6 +26,12 @@ Sorted by **wrong verdicts** — the only categorically unforgivable failure ([T
 | 1 | gemini_gemini-pro-latest | 0 | 0 | 0 | 0 |
 | 2 | ollama_qwen3_8b-q4_K_M | 5 | 0 | 0 | 1 |
 
+## Set: drift_noisy (n=12)
+
+| rank | subject | wrong | refusal | false-confidence | broken |
+|--:|---|--:|--:|--:|--:|
+| 1 | gemini_gemini-pro-latest | 0 | 0 | 0 | 0 |
+
 ## Set: stateful (n=10)
 
 | rank | subject | wrong | refusal | false-confidence | broken |

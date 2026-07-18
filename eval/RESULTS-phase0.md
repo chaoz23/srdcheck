@@ -69,3 +69,51 @@ Two findings:
 2. **The local floor's drift is mode-shaped, not horizon-shaped.** qwen3 fails the same two state transitions (a dead creature can't be healed; a spell ends when its caster drops) at 5, 15, and 30 rounds alike, and passes the other three modes at every horizon. Its problem isn't context length — it's not modeling the transition at all. This is exactly the accuracy gap the deterministic reducer closes for the many AI-DM products that run local/cheap models.
 
 Caveat (unchanged, and the real open lane): these logs are still clean `ROUND N —` prose with explicit state callouts. Real play buries the same state in tens of thousands of tokens of freeform narration across hours. Noisy-transcript horizons remain untested; FIREBALL-style real transcripts are the right raw material and the natural next probe. The economy and determinism arguments are unaffected by any eval — a frontier call per mechanical check costs seconds and cents; the kernel budget is <100 ms and $0.
+
+## Noisy-transcript drift pilot (`drift_noisy`, 2026-07-18, Epic 5 M0)
+
+The caveat above named the real open question, so we probed it. `drift_noisy`
+renders the same reducer-grounded scenarios as `drift_long` — but as **freeform
+play prose**: GM narration, in-character dialogue, out-of-character table talk,
+dice asides, other characters' turns. The one load-bearing fact (Theron died on
+his third save; Mira's Concentration broke when she dropped) is stated **once, in
+prose**, then buried under filler at four lengths: ~600 / ~3k / ~9k / **~33k
+words** (the last ≈ 43k tokens — the multi-hour regime the caveat named). Three
+phantom-state modes × four lengths = 12 probes. Fairness is enforced in CI: the
+fact is always present in the rendering (`tests/test_drift_noisy.py`), so an error
+would be drift, not an unfair omission — this measures retrieval-under-volume, not
+inference from ambiguity.
+
+| Arm | Wrong (n=12) |
+|---|---|
+| gemini-pro-latest | **0** — clean across all three modes at ~600 / ~3k / ~9k / ~33k words |
+
+**Finding: no frontier drift, even at ~43k tokens of naturalistic noise.** The
+easy, synthetic form of the noisy-transcript question is a null. Combined with
+`drift_long` (no drift on clean logs to 30 rounds), the evidence for a strong
+frontier model's state-tracking robustness is now fairly broad.
+
+Three honest limits keep this from closing the question — and one of them is
+structural:
+
+1. **Synthetic noise is lower-entropy than real play.** The filler here is
+   coherent and templated (rotating names/foes/weapons), but it lacks the genuine
+   distractors, contradictions-in-play, retcons, and obliquely-stated state of a
+   real table. A single non-repeating fact may stand out *more* against synthetic
+   filler than against real narration — which would make a null *easier* to get.
+2. **The faithful test material is license-blocked.** Real transcripts (FIREBALL,
+   Zhu et al. 2023) are the right substrate, but the dataset's D&D-content and
+   third-party-user provenance mean we do not ingest it into this repo. FIREBALL
+   informs the *shape* of the synthetic prose only. A truly faithful run would
+   need a licensed, non-redistributed local eval — a decision, not a code change.
+3. **We state the fact plainly (by design).** Real play sometimes leaves it
+   implicit; testing *inference from an implied state* is a different, harder
+   probe we deliberately did not run, because its gold would no longer be
+   unambiguous.
+
+Product read: this does **not** change the pitch. The ledger's value for frontier
+customers never rested on catching frontier drift; it rests on proof, replay,
+determinism, portability, and economy. The pilot's contribution is to *scope* the
+drift question honestly — the synthetic version is null up to ~43k tokens, and the
+faithful version is gated on a data-licensing decision, not on more engineering.
+Building a larger synthetic set would most likely just reconfirm the null.

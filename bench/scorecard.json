@@ -458,5 +458,93 @@
     "broken": 0
    }
   }
+ },
+ "drift_noisy": {
+  "gemini_gemini-pro-latest": {
+   "phantom-alive/light": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/heavy": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/buried": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-alive/epic": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/light": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/heavy": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/buried": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-effect/epic": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/light": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/heavy": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/buried": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   },
+   "phantom-death-save/epic": {
+    "n": 1,
+    "wrong": 0,
+    "refusal": 0,
+    "false_conf": 0,
+    "broken": 0
+   }
+  }
  }
 }

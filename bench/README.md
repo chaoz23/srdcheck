@@ -40,6 +40,17 @@ four failure modes are reported separately and never blended
   creature is folded through srdcheck's own reducer and the gold is checked
   against the derived true state (`tests/test_drift_gen.py`) — the benchmark
   cannot drift because the engine is its oracle.
+- `drift_noisy` (12) — the `drift_long` scenarios re-rendered as **freeform play
+  prose** (GM narration, in-character and out-of-character table talk, dice
+  asides) with the one load-bearing fact stated once and then buried under filler
+  at four lengths (~600 / ~3k / ~9k / ~33k words). Tests whether a subject loses
+  the fact under *volume*, not under ambiguity — CI enforces that the fact is
+  always present in the rendering (`tests/test_drift_noisy.py`). Generated
+  (`python bench/drift_noisy.py`); gold is reducer-derived. Pilot finding
+  (2026-07-18): frontier **0 wrong / 12**, no drift even at ~43k tokens — see the
+  [published findings](#published-findings-so-far) for the null result and its
+  limits. FIREBALL (Zhu et al. 2023) informs the prose *shape* only; no dataset
+  content is ingested.
 
 Set files are versioned; results record the prompt version. Questions use
 original wording; `cannot-adjudicate` probes use invented content, never
@@ -143,5 +154,14 @@ are *mode*-shaped, not *horizon*-shaped: it misses the same two state transition
 at every horizon and passes the other three at every horizon. Its problem is not
 context length; it never models the transition. Frontier drift stays at zero even
 with HP/death-save state at long horizons; local models need the deterministic
-reducer for accuracy, not for memory. Noisy freeform-transcript horizons remain
-the open lane.
+reducer for accuracy, not for memory.
+
+Noisy-transcript drift pilot (2026-07-18, `drift_noisy`): re-rendering those
+scenarios as freeform play prose and burying the load-bearing fact under up to
+**~33k words (~43k tokens)** of table-talk *still* did not move the frontier model
+— **0 wrong of 12**. The synthetic form of the noisy-transcript question is a
+null. Two limits keep it from closing the question: synthetic filler is
+lower-entropy than real play (which can make a null *easier*), and the faithful
+substrate (real transcripts) is license-gated out of this repo. Full analysis and
+the product read in [`../eval/RESULTS-phase0.md`](../eval/RESULTS-phase0.md). The
+faithful test is now a data-licensing decision, not an engineering gap.
