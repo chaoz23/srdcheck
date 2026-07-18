@@ -82,7 +82,7 @@ Consume a ruleset's content through a stable, versioned interface — no couplin
 ```python
 from srdcheck import load_adapter, available_adapters
 
-available_adapters()               # ['srd-5.2.1', 'toy-tictactoe']
+available_adapters()               # ['srd-5.1', 'srd-5.2.1', 'toy-tictactoe']
 a = load_adapter("srd-5.2.1")      # a versioned identifier
 a.categories()                     # the content categories this adapter carries
 a.names("creature")                # every creature name (326, complete from the stat blocks)
