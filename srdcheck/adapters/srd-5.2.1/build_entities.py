@@ -9,25 +9,40 @@ ROOT = pathlib.Path(__file__).resolve().parents[3]
 TEXT = ROOT / "sources" / "text"
 OUT = pathlib.Path(__file__).parent / "entities.json"
 
-LEVEL_RE = re.compile(
-    r"^(Level \d+ \w+|\w+ Cantrip)\b.*\(", re.IGNORECASE)
+# A spell block: a name line, then a "Level N School" / "School Cantrip" line,
+# then "Casting Time:". Anchor on the level line + Casting Time (not on a
+# parenthesized class list, which may wrap to the next line — the old parser
+# required it inline and silently dropped ~38 spells, incl. Cure Wounds).
+_SPELL_LEVEL = re.compile(r"^(Level \d+ \w+|\w+ Cantrip)\b", re.IGNORECASE)
+
+
+def _fix_casing(name):
+    """pypdf occasionally mis-cases a stylized spell title ('SplASh'). A real
+    title-cased word never has a lowercase immediately followed by an uppercase;
+    normalize only such artifact words, leaving clean names untouched."""
+    return " ".join(w[0].upper() + w[1:].lower() if re.search(r"[a-z][A-Z]", w)
+                    else w for w in name.split(" "))
 
 
 def spells():
-    names = []
+    out = {}
     for p in range(105, 175):
         f = TEXT / f"page-{p:03d}.txt"
         if not f.exists():
             continue
-        lines = f.read_text().splitlines()
-        for i in range(len(lines) - 2):
-            name = lines[i].strip()
-            if not name or len(name) > 40 or name[0].islower():
+        lines = [l.rstrip() for l in f.read_text().splitlines()]
+        for i in range(1, len(lines) - 2):
+            if not _SPELL_LEVEL.match(lines[i].strip()):
                 continue
-            nxt = lines[i + 1].strip() + " " + lines[i + 2].strip()
-            if LEVEL_RE.match(lines[i + 1].strip()) and "Casting Time:" in nxt:
-                names.append(name)
-    return sorted(set(names))
+            if "Casting Time:" not in (lines[i + 1] + lines[i + 2]):
+                continue
+            for j in range(i - 1, max(i - 3, -1), -1):
+                c = lines[j].strip()
+                if (c and not c[0].islower() and len(c) < 40
+                        and not c.startswith("System Reference")):
+                    out[_fix_casing(c)] = p
+                    break
+    return sorted(out)
 
 
 # Creature stat-block header: "<Size>[ or <Size>] <Type>[ (<subtype>)], <Alignment>"
