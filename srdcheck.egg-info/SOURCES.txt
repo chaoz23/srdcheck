@@ -25,6 +25,7 @@ srdcheck/adapters/srd-5.2.1/handlers.py
 srdcheck/adapters/srd-5.2.1/manifest.json
 srdcheck/adapters/srd-5.2.1/queries.json
 srdcheck/adapters/srd-5.2.1/state_schema.json
+srdcheck/adapters/srd-5.2.1/atoms/combat_resolution.json
 srdcheck/adapters/srd-5.2.1/atoms/encounter_budget.json
 srdcheck/adapters/srd-5.2.1/atoms/mage_hand.json
 srdcheck/adapters/srd-5.2.1/atoms/roll_modifiers.json
@@ -41,8 +42,11 @@ srdcheck/adapters/toy-tictactoe/queries.json
 srdcheck/adapters/toy-tictactoe/atoms/rules.json
 tests/test_bench.py
 tests/test_bootstrap.py
+tests/test_combat_resolution.py
+tests/test_coverage_census.py
 tests/test_creature_queries.py
 tests/test_creature_registry.py
+tests/test_drift_gen.py
 tests/test_edition_check.py
 tests/test_encounter_budget.py
 tests/test_enumeration.py
@@ -54,5 +58,6 @@ tests/test_mcp.py
 tests/test_public_api.py
 tests/test_roll_modifiers.py
 tests/test_srd_5_1_adapter.py
+tests/test_submissions.py
 tests/test_toy_adapter.py
 tests/test_turn_economy.py
