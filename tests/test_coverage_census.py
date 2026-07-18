@@ -26,8 +26,9 @@ def _counts():
 
 def test_in_scope_coverage_floor():
     # ratchet: raise this floor whenever an engine slice closes a gap. Never lower.
+    # 0.64 (M0 census) -> 0.89 (M1 combat resolution closed damage/death/saves).
     adj, total = _counts()
-    assert adj / total >= 0.64, f"in-scope coverage regressed: {adj}/{total}"
+    assert adj / total >= 0.89, f"in-scope coverage regressed: {adj}/{total}"
 
 
 def test_out_of_scope_stays_uncovered():
@@ -43,10 +44,9 @@ def test_every_kind_has_a_scope():
         assert ev["kind"] in SCOPE, ev["kind"]
 
 
-def test_the_concentrated_gap_is_combat_resolution():
-    # documents the M1 target: HP/damage + death saves + saving throws are the
-    # top closeable cluster (one coherent system)
-    gap_kinds = {ev["kind"] for ev in CORPUS
-                 if SCOPE.get(ev["kind"]) == "in-scope"
-                 and classify(ev)[0] != "ADJUDICATED"}
-    assert {"damage-hp", "death-saves", "saving-throw"} <= gap_kinds
+def test_combat_resolution_gap_is_closed():
+    # M1 closed the concentrated combat-resolution cluster that the M0 census
+    # identified. These must now adjudicate; regressing any is a ratchet break.
+    adjudicated = {ev["kind"] for ev in CORPUS
+                   if classify(ev)[0] == "ADJUDICATED"}
+    assert {"damage-hp", "death-saves", "saving-throw"} <= adjudicated

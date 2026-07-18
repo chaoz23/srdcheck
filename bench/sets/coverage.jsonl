@@ -15,13 +15,13 @@
 {"id":"cov-budget-1","kind":"encounter-budget","event":"XP budget for a level-3 moderate encounter, party of 4.","route":{"type":"encounter.xp-budget","params":{"level":3,"difficulty":"moderate","party_size":4}}}
 {"id":"cov-condmove-1","kind":"condition-movement","event":"A grappled creature tries to move 15 feet.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Grappled"],"plan":[{"do":"move","feet":15}]}}}
 {"id":"cov-prone-1","kind":"condition-movement","event":"A prone creature stands up.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Prone"],"plan":[{"do":"stand-up"}]}}}
-{"id":"cov-dmg-1","kind":"damage-hp","event":"The fighter takes 12 slashing damage.","route":{"type":null}}
-{"id":"cov-dmg-2","kind":"damage-hp","event":"Is the goblin reduced to 0 hit points?","route":{"type":null}}
-{"id":"cov-dmg-3","kind":"damage-hp","event":"A creature at 0 HP takes damage — instant death check.","route":{"type":null}}
-{"id":"cov-death-1","kind":"death-saves","event":"A downed character makes a death saving throw.","route":{"type":null}}
-{"id":"cov-death-2","kind":"death-saves","event":"Third death save failure — the character dies.","route":{"type":null}}
-{"id":"cov-save-1","kind":"saving-throw","event":"DC 15 Dexterity save against a Fireball.","route":{"type":null}}
-{"id":"cov-save-2","kind":"saving-throw","event":"Constitution save to maintain concentration after 10 damage.","route":{"type":null}}
+{"id":"cov-dmg-1","kind":"damage-hp","event":"The fighter takes 12 slashing damage.","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":[],"turn":{},"hp":20,"hp_max":20},"event":{"type":"damage","amount":12}}}}
+{"id":"cov-dmg-2","kind":"damage-hp","event":"Is the goblin reduced to 0 hit points?","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":[],"turn":{},"hp":5,"hp_max":7,"is_monster":true},"event":{"type":"damage","amount":9}}}}
+{"id":"cov-dmg-3","kind":"damage-hp","event":"A creature at 0 HP takes damage — instant death check.","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":["Unconscious"],"turn":{},"hp":0,"hp_max":18},"event":{"type":"damage","amount":6,"crit":true}}}}
+{"id":"cov-death-1","kind":"death-saves","event":"A downed character makes a death saving throw.","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":["Unconscious"],"turn":{},"hp":0,"hp_max":18},"event":{"type":"death-save","result":13}}}}
+{"id":"cov-death-2","kind":"death-saves","event":"Third death save failure — the character dies.","route":{"type":"event.apply","params":{"state":{"speed":30,"conditions":["Unconscious"],"turn":{},"hp":0,"hp_max":18,"death_save_failures":2},"event":{"type":"death-save","result":6}}}}
+{"id":"cov-save-1","kind":"saving-throw","event":"DC 15 Dexterity save against a Fireball.","route":{"type":"save.check","params":{"d20_result":14,"modifier":3,"dc":15}}}
+{"id":"cov-save-2","kind":"saving-throw","event":"Constitution save to maintain concentration after 10 damage.","route":{"type":"concentration.check","params":{"damage":10,"d20_result":12,"con_modifier":2}}}
 {"id":"cov-spell-1","kind":"spell-effect","event":"Fireball deals 8d6 fire in a 20-foot radius.","route":{"type":null}}
 {"id":"cov-spell-2","kind":"spell-effect","event":"Bless adds 1d4 to the attack roll.","route":{"type":null}}
 {"id":"cov-spell-3","kind":"spell-effect","event":"Hold Person paralyzes the target on a failed save.","route":{"type":null}}
