@@ -611,6 +611,52 @@ def event_apply(adapter, p):
     return verdict
 
 
+def creature_valid(adapter, p):
+    """Is `name` a valid SRD 5.2.1 creature? (issue #3)
+
+    legal = a creature in 5.2.1; illegal = SRD content but not a creature
+    (e.g. a spell name); cannot-adjudicate = not in the SRD at all (could be a
+    2014-only name, a typo, or third-party content — this version, having only
+    the 5.2.1 adapter, cannot distinguish those honestly).
+    """
+    name = (p.get("name") or "").strip()
+    aid = adapter.id
+    if not name:
+        return v.cannot_adjudicate("No creature name provided.", adapter=aid)
+    rec = adapter.entity_record("creature", name)
+    if rec:
+        return v.legal(
+            f"'{rec['name']}' is a valid SRD 5.2.1 creature (CR {rec['cr']}).",
+            [v.Citation(rec["citation"])], aid)
+    cats = adapter.lookup_entity(name)
+    if cats:
+        return v.illegal(
+            f"'{name}' is SRD 5.2.1 content but not a creature "
+            f"(it is: {', '.join(sorted(set(cats)))}).", adapter=aid)
+    return v.cannot_adjudicate(
+        f"'{name}' is not a creature in SRD 5.2.1. It may be a 2014-only name, "
+        "a typo, or third-party content — this version cannot distinguish "
+        "those.", adapter=aid)
+
+
+def creature_stats(adapter, p):
+    """Return a creature's CR/XP with citation (issue #2). Depends on #1's data."""
+    name = (p.get("name") or "").strip()
+    aid = adapter.id
+    rec = adapter.entity_record("creature", name)
+    if not rec:
+        cats = adapter.lookup_entity(name)
+        why = (f"'{name}' is SRD content but not a creature; no creature stats."
+               if cats else
+               f"'{name}' is not a creature in SRD 5.2.1; no stats to return.")
+        return v.cannot_adjudicate(why, adapter=aid)
+    return v.legal(
+        f"{rec['name']}: CR {rec['cr']}, XP {rec['xp']}.",
+        [v.Citation(rec["citation"])], aid,
+        data={"name": rec["name"], "cr": rec["cr"], "xp": rec["xp"],
+              "citation": rec["citation"]})
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -619,4 +665,6 @@ HANDLERS = {
     "roll.compose": roll_compose,
     "attack.modifiers": attack_modifiers,
     "event.apply": event_apply,
+    "creature.valid": creature_valid,
+    "creature.stats": creature_stats,
 }
