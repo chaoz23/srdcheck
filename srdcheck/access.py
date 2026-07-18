@@ -20,6 +20,7 @@ new versions slot in without a breaking change.
 import json
 import pathlib
 
+from . import verdict as v
 from .engine import Engine
 
 ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent / "adapters"
@@ -99,3 +100,43 @@ class AdapterHandle:
     def query(self, query_type, params=None):
         """Run a query through this adapter; returns the verdict as a dict."""
         return self._engine.query(query_type, params or {}).as_dict()
+
+
+def edition_check(name, category, current="srd-5.2.1", priors=("srd-5.1",)):
+    """Cross-version validity: is `name` (a `category` entity) valid in the
+    `current` ruleset version, an edition trap (present in a `prior` version but
+    not the current one), or unknown? Caller-parameterized — the versions are
+    identifiers; no ordering is assumed. Content-neutral: `category` is data.
+
+    Returns the standard verdict: legal (in current) / illegal (an edition trap,
+    with the prior version + citation, plus heuristic candidates in current) /
+    cannot-adjudicate (in neither — a typo, third-party, or homebrew).
+    """
+    key = name.strip().lower()
+    cur = load_adapter(current)
+
+    def cite(handle, cat, nm):
+        rec = handle.record(cat, nm)
+        if rec and rec.get("citation"):
+            return [v.Citation(rec["citation"])]
+        return [v.Citation(handle.manifest.get("ruleset", handle.id))]
+
+    if key in {n.lower() for n in cur.names(category)}:
+        return v.legal(f"'{name}' is valid {category} content in {current}.",
+                       cite(cur, category, name), cur.id)
+    for pid in priors:
+        prior = load_adapter(pid)
+        if key in {n.lower() for n in prior.names(category)}:
+            candidates = [n for n in cur.names(category)
+                          if n.lower().startswith(key + " ")]
+            data = {"edition_trap": True, "found_in": pid, "in_current": False}
+            if candidates:
+                data["candidates_in_current"] = candidates
+            why = (f"'{name}' is a {pid} name, not present in {current} — an "
+                   "edition trap")
+            why += (f"; in {current} see: {', '.join(candidates)}."
+                    if candidates else ".")
+            return v.illegal(why, cite(prior, category, name), cur.id, data=data)
+    return v.cannot_adjudicate(
+        f"'{name}' is not a {category} in {current} or {list(priors)} — it may "
+        "be a typo, third-party, or homebrew content.", adapter=cur.id)

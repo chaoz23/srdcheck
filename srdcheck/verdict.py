@@ -56,9 +56,11 @@ def legal(why, citations=(), adapter="", rule_ids=(), data=None):
                    data or {})
 
 
-def illegal(why, citations=(), adapter="", rule_ids=()):
-    return Verdict(ILLEGAL, why, list(citations), adapter, list(rule_ids))
+def illegal(why, citations=(), adapter="", rule_ids=(), data=None):
+    return Verdict(ILLEGAL, why, list(citations), adapter, list(rule_ids),
+                   data or {})
 
 
-def cannot_adjudicate(why, citations=(), adapter="", rule_ids=()):
-    return Verdict(CANNOT_ADJUDICATE, why, list(citations), adapter, list(rule_ids))
+def cannot_adjudicate(why, citations=(), adapter="", rule_ids=(), data=None):
+    return Verdict(CANNOT_ADJUDICATE, why, list(citations), adapter,
+                   list(rule_ids), data or {})

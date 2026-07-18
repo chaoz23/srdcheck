@@ -2,6 +2,7 @@
 
   python -m srdcheck jurisdiction "<name>"
   python -m srdcheck query <query-type> '<params-json>'
+  python -m srdcheck edition-check "<name>" [--category creature] [--current srd-5.2.1] [--prior srd-5.1]
   python -m srdcheck --schema
   echo '{"type": "...", "params": {...}}' | python -m srdcheck --pipe
 
@@ -70,6 +71,21 @@ def main(argv=None):
             return _emit(_engine().jurisdiction(args[1]))
         if args[0] == "query" and len(args) == 3:
             return _emit(_engine().query(args[1], json.loads(args[2])))
+        if args[0] == "edition-check" and len(args) >= 2:
+            from .access import edition_check
+            name = args[1]
+            category, current, priors = "creature", "srd-5.2.1", []
+            rest = args[2:]
+            for i in range(0, len(rest) - 1, 2):
+                flag, val = rest[i], rest[i + 1]
+                if flag == "--category":
+                    category = val
+                elif flag == "--current":
+                    current = val
+                elif flag == "--prior":
+                    priors.append(val)
+            return _emit(edition_check(name, category, current,
+                                       tuple(priors) or ("srd-5.1",)))
     except (json.JSONDecodeError, KeyError) as e:
         print(json.dumps({"error": f"bad input: {e}"}))
         return 3
