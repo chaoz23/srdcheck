@@ -50,7 +50,7 @@ $ python -m srdcheck query mage-hand.use '{"kind": "attack"}'
   "citations": [{"section": "SRD 5.2.1 p.145 'Spells > Mage Hand'", "page": 145,
                  "quote": "The hand can't attack"}],
   "rule_ids": ["mage-hand.cant-attack"],
-  "adapter": "srd-5.2.1@0.1.0"
+  "adapter": "srd-5.2.1@0.1.1"
 }
 $ python -m srdcheck --schema                          # I/O contract for agents
 ```
