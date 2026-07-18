@@ -19,11 +19,18 @@ class Adapter:
         self.root = pathlib.Path(root)
         self.manifest = json.loads((self.root / "manifest.json").read_text())
         self.id = f"{self.manifest['name']}@{self.manifest['version']}"
+        # An entity is either a bare name string or an object with a "name"
+        # field plus adapter-defined facts (the kernel stays content-neutral —
+        # it indexes names and carries records without interpreting either).
         ents = json.loads((self.root / "entities.json").read_text())
         self.entities = {}
-        for category, names in ents.items():
-            for n in names:
-                self.entities.setdefault(n.lower(), []).append(category)
+        self.entity_facts = {}
+        for category, items in ents.items():
+            for item in items:
+                name = item["name"] if isinstance(item, dict) else item
+                self.entities.setdefault(name.lower(), []).append(category)
+                if isinstance(item, dict):
+                    self.entity_facts[(category, name.lower())] = item
         self.atoms = {}
         for f in sorted((self.root / "atoms").glob("*.json")):
             for atom in json.loads(f.read_text()):
@@ -48,6 +55,12 @@ class Adapter:
 
     def lookup_entity(self, name):
         return self.entities.get(name.strip().lower())
+
+    def entity_record(self, category, name):
+        """The full record for an entity that carries facts (e.g. a creature's
+        cr/xp/citation), or None. Content-neutral: the kernel does not interpret
+        the fields."""
+        return self.entity_facts.get((category, name.strip().lower()))
 
     def handle(self, query_type, params):
         return self._handlers[query_type](self, params)
