@@ -16,6 +16,9 @@ srdcheck.egg-info/dependency_links.txt
 srdcheck.egg-info/entry_points.txt
 srdcheck.egg-info/requires.txt
 srdcheck.egg-info/top_level.txt
+srdcheck/adapters/srd-5.1/build_entities.py
+srdcheck/adapters/srd-5.1/entities.json
+srdcheck/adapters/srd-5.1/manifest.json
 srdcheck/adapters/srd-5.2.1/build_entities.py
 srdcheck/adapters/srd-5.2.1/entities.json
 srdcheck/adapters/srd-5.2.1/handlers.py

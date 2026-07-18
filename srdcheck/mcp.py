@@ -11,7 +11,6 @@ Transport: newline-delimited JSON-RPC 2.0 on stdio; protocol pinned below.
 import json
 import sys
 
-from .cli import ADAPTERS_DIR
 from .engine import Engine
 
 PROTOCOL_VERSION = "2025-06-18"
@@ -45,9 +44,8 @@ def build_tools(engine):
 
 class Server:
     def __init__(self, adapter_paths=None):
-        paths = adapter_paths or sorted(
-            p for p in ADAPTERS_DIR.iterdir() if (p / "manifest.json").exists())
-        self.engine = Engine(paths)
+        from .access import default_adapter_paths
+        self.engine = Engine(adapter_paths or default_adapter_paths())
         self.tools, self.mapping = build_tools(self.engine)
 
     def handle(self, msg):
