@@ -278,5 +278,33 @@
     "event"
    ]
   }
+ },
+ "creature.valid": {
+  "description": "Is a name a valid SRD 5.2.1 creature? legal = yes (with CR + page citation); illegal = the name is SRD content but not a creature (e.g. a spell); cannot-adjudicate = not in the SRD at all (a 2014-only name, a typo, or third-party content \u2014 indistinguishable in this version).",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "name"
+   ]
+  }
+ },
+ "creature.stats": {
+  "description": "Return a creature's Challenge Rating and XP with a page citation, for deterministic encounter-budget math. legal with data {name, cr, xp, citation} for a known creature; cannot-adjudicate otherwise.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "name": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "name"
+   ]
+  }
  }
 }
