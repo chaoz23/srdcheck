@@ -17,7 +17,7 @@ import pytest
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-TEXT = ROOT / "sources" / "text"
+TEXT = ROOT / "srdcheck" / "adapters" / "srd-5.2.1" / "sources" / "text"
 REG = json.loads(
     (ROOT / "srdcheck" / "adapters" / "srd-5.2.1" / "entities.json").read_text())
 

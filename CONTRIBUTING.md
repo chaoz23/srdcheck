@@ -7,7 +7,7 @@ and CI enforces most of them mechanically.
 ## The one rule that is never waived: provenance
 
 **All rule content must derive from the official SRD 5.2.1 document** (fetched
-and hash-verified by `sources/fetch.sh`). Every rule atom carries a citation
+and hash-verified by `srdcheck/adapters/srd-5.2.1/sources/fetch.sh`). Every rule atom carries a citation
 with a verbatim quote; CI rebuilds the entity registry from the source document
 and fails on drift.
 
@@ -31,6 +31,6 @@ and host it in your own repo — the catalog points, it never hosts.
 
 ```console
 $ pip install -e ".[dev]"
-$ bash sources/fetch.sh && python sources/extract.py   # SRD text for citation work
+$ bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh && python srdcheck/adapters/srd-5.2.1/sources/extract.py   # SRD text for citation work
 $ python -m pytest tests/ -q
 ```
