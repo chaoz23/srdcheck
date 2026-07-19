@@ -1,22 +1,95 @@
 [
- {"id": "ttt.grid", "kind": "definition",
-  "params": {"cells": 9},
-  "citation": {"section": "RULES.md §1 'The grid'",
-   "quote": "The game is played on a grid of nine cells, numbered 1 through 9. A mark may only ever be placed in one of these nine cells."}},
- {"id": "ttt.turn-order", "kind": "limit",
-  "params": {"first": "X", "marks_per_turn": 1},
-  "citation": {"section": "RULES.md §2 'Turn order'",
-   "quote": "X moves first. Turns alternate strictly between X and O. On a turn, the moving player places exactly one mark of their own symbol."}},
- {"id": "ttt.empty-cell-only", "kind": "prohibition",
+ {
+  "id": "ttt.grid",
+  "kind": "definition",
+  "params": {
+   "cells": 9
+  },
+  "citation": {
+   "section": "RULES.md §1 'The grid'",
+   "quote": "The game is played on a grid of nine cells, numbered 1 through 9, left to right, top to bottom. A mark may only ever be placed in one of these nine cells."
+  }
+ },
+ {
+  "id": "ttt.turn-order",
+  "kind": "limit",
+  "params": {
+   "first": "X",
+   "marks_per_turn": 1
+  },
+  "citation": {
+   "section": "RULES.md §2 'Turn order'",
+   "quote": "X moves first. Turns alternate strictly between X and O. On a turn, the moving player places exactly one mark of their own symbol."
+  }
+ },
+ {
+  "id": "ttt.empty-cell-only",
+  "kind": "prohibition",
   "params": {},
-  "citation": {"section": "RULES.md §3 'Placement'",
-   "quote": "A mark may be placed only in an empty cell. A cell containing any mark is occupied and cannot be chosen."}},
- {"id": "ttt.win-lines", "kind": "definition",
-  "params": {"lines": [[1,2,3],[4,5,6],[7,8,9],[1,4,7],[2,5,8],[3,6,9],[1,5,9],[3,5,7]]},
-  "citation": {"section": "RULES.md §4 'Winning'",
-   "quote": "A player wins upon having three of their marks in any straight line: a row, a column, or a diagonal."}},
- {"id": "ttt.no-moves-after-end", "kind": "prohibition",
+  "citation": {
+   "section": "RULES.md §3 'Placement'",
+   "quote": "A mark may be placed only in an empty cell. A cell containing any mark is occupied and cannot be chosen."
+  }
+ },
+ {
+  "id": "ttt.win-lines",
+  "kind": "definition",
+  "params": {
+   "lines": [
+    [
+     1,
+     2,
+     3
+    ],
+    [
+     4,
+     5,
+     6
+    ],
+    [
+     7,
+     8,
+     9
+    ],
+    [
+     1,
+     4,
+     7
+    ],
+    [
+     2,
+     5,
+     8
+    ],
+    [
+     3,
+     6,
+     9
+    ],
+    [
+     1,
+     5,
+     9
+    ],
+    [
+     3,
+     5,
+     7
+    ]
+   ]
+  },
+  "citation": {
+   "section": "RULES.md §4 'Winning'",
+   "quote": "A player wins upon having three of their marks in any straight line: a row (1-2-3, 4-5-6, 7-8-9), a column (1-4-7, 2-5-8, 3-6-9), or a diagonal (1-5-9, 3-5-7)."
+  }
+ },
+ {
+  "id": "ttt.no-moves-after-end",
+  "kind": "prohibition",
   "params": {},
-  "citation": {"section": "RULES.md §5 'End of game'",
-   "quote": "The game ends immediately when a player wins, or when all nine cells are occupied without a winner (a draw). After the game has ended, no further marks may be placed."}}
+  "citation": {
+   "section": "RULES.md §5 'End of game'",
+   "quote": "The game ends immediately when a player wins, or when all nine cells are occupied without a winner (a draw). After the game has ended, no further marks may be placed."
+  }
+ }
 ]
