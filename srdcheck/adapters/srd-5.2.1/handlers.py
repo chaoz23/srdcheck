@@ -935,24 +935,90 @@ def encounter_xp_budget(adapter, p):
     return v.legal(why, [_cite(atom)], aid, [atom["id"]], data=data)
 
 
+# conditions that auto-fail Strength and Dexterity saves -> the citing atom
+_SAVE_AUTOFAIL_STR_DEX = {
+    "paralyzed": "condition.paralyzed.saves-fail",
+    "petrified": "condition.petrified.saves-fail",
+    "stunned": "condition.stunned.saves-fail",
+    "unconscious": "condition.unconscious.saves-fail",
+}
+_ABILITIES = {"str", "dex", "con", "int", "wis", "cha"}
+
+
 def save_check(adapter, p):
-    """Adjudicate a saving throw: does the declared d20 result + modifier meet
-    the DC? The caller supplies the rolled d20 (RNG is out of scope, T6); the
-    engine computes the outcome, cited."""
+    """Adjudicate a saving throw. Optionally ability-typed and condition-aware:
+    pass `save_ability` (str/dex/con/int/wis/cha) and `saver_conditions` to apply
+    the codified overrides — auto-fail Str/Dex (Paralyzed/Petrified/Stunned/
+    Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat
+    d20 penalty. The caller supplies the rolled d20 (RNG is out of scope, T6);
+    the engine composes and resolves, cited."""
     a, aid = adapter.atoms, adapter.id
     atom = a["save.d20-vs-dc"]
-    d20 = event_int(p, "d20_result")
     dc = p.get("dc")
-    if d20 is None or not 1 <= d20 <= 20:
-        return v.cannot_adjudicate("Provide the d20 result (1-20).", adapter=aid)
     if not isinstance(dc, int):
         return v.cannot_adjudicate("Provide the DC.", adapter=aid)
-    total = d20 + int(p.get("modifier", 0))
+    ability = (p.get("save_ability") or "").lower()
+    if ability and ability not in _ABILITIES:
+        return v.cannot_adjudicate(
+            f"'{ability}' is not an ability (str/dex/con/int/wis/cha).",
+            adapter=aid)
+    sc = {c.lower() for c in p.get("saver_conditions", [])}
+    for c in sc:
+        if not adapter.lookup_entity(c):
+            return v.cannot_adjudicate(
+                f"'{c}' is not a condition known to this ruleset.", adapter=aid)
+
+    # Auto-fail overrides the roll entirely (no d20 needed).
+    if ability in ("str", "dex"):
+        for cond, atom_id in _SAVE_AUTOFAIL_STR_DEX.items():
+            if cond in sc:
+                af = a[atom_id]
+                return v.legal(
+                    f"Automatic failure: a {cond.capitalize()} creature "
+                    f"auto-fails {ability.upper()} saving throws.",
+                    [_cite(af)], aid, [atom_id],
+                    data={"dc": dc, "success": False, "auto_fail": True})
+
+    # Compose Advantage/Disadvantage from conditions (caller rolls per the mode).
+    adv, dis, cites, rules = [], [], [_cite(atom)], [atom["id"]]
+    if ability == "dex" and "restrained" in sc:
+        rs = a["condition.restrained.saves"]
+        dis.append("Restrained (Dexterity save)")
+        cites.append(_cite(rs))
+        rules.append(rs["id"])
+    mode, dice, comp = _compose(adapter, adv, dis)
+    if comp:
+        cites.append(_cite(comp))
+        rules.append(comp["id"])
+
+    modifier = int(p.get("modifier", 0))
+    lvl = int(p.get("exhaustion_level", 0))
+    if lvl:
+        if not 0 <= lvl <= 6:
+            return v.cannot_adjudicate(
+                f"Exhaustion level {lvl} is outside the SRD range (0 to 6).",
+                adapter=aid)
+        ex = a["condition.exhaustion.d20-penalty"]
+        modifier += ex["params"]["per_level"] * lvl
+        cites.append(_cite(ex))
+        rules.append(ex["id"])
+
+    d20 = event_int(p, "d20_result")
+    data = {"dc": dc, "roll": mode, "d20s": dice}
+    if d20 is None:
+        # no roll supplied: report the composed mode + net modifier only.
+        data["net_modifier"] = modifier
+        return v.legal(
+            f"Saving throw: roll {mode} ({dice} d20){f', {modifier:+d} modifier' if modifier else ''} "
+            f"vs DC {dc}.", cites, aid, rules, data=data)
+    if not 1 <= d20 <= 20:
+        return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+    total = d20 + modifier
     ok = total >= dc
+    data.update(total=total, success=ok)
     return v.legal(
-        f"Save total {total} (d20 {d20} + {p.get('modifier', 0)}) vs DC {dc}: "
-        f"{'success' if ok else 'failure'}.", [_cite(atom)], aid, [atom["id"]],
-        data={"total": total, "dc": dc, "success": ok})
+        f"Save total {total} (d20 {d20} {modifier:+d}) vs DC {dc}, rolled "
+        f"{mode}: {'success' if ok else 'failure'}.", cites, aid, rules, data=data)
 
 
 def concentration_check(adapter, p):

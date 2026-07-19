@@ -186,9 +186,44 @@ def test_save_meets_or_exceeds_dc():
     assert v2.data["success"] is False
 
 
-def test_save_refuses_without_dc_or_roll():
+def test_save_refuses_without_dc():
     assert E.query("save.check", {"d20_result": 10}).exit_code == 2
-    assert E.query("save.check", {"dc": 10}).exit_code == 2
+
+
+def test_save_without_roll_reports_the_mode():
+    # no d20 supplied: compose and report the roll mode (like attack.modifiers),
+    # rather than refuse.
+    r = E.query("save.check", {"dc": 10})
+    assert r.exit_code == 0 and r.data["roll"] == "straight"
+
+
+def test_paralyzed_petrified_stunned_unconscious_auto_fail_str_dex():
+    for cond in ("Paralyzed", "Petrified", "Stunned", "Unconscious"):
+        for ab in ("str", "dex"):
+            r = E.query("save.check", {"save_ability": ab,
+                                       "saver_conditions": [cond],
+                                       "dc": 10, "d20_result": 20})
+            assert r.data["success"] is False and r.data["auto_fail"], (cond, ab)
+        # a nat-20 CON save is unaffected
+        con = E.query("save.check", {"save_ability": "con",
+                                     "saver_conditions": [cond],
+                                     "dc": 10, "d20_result": 20})
+        assert con.data["success"] is True, cond
+
+
+def test_restrained_disadvantage_on_dex_saves_only():
+    dex = E.query("save.check", {"save_ability": "dex",
+                                 "saver_conditions": ["Restrained"], "dc": 12})
+    assert dex.data["roll"] == "disadvantage"
+    con = E.query("save.check", {"save_ability": "con",
+                                 "saver_conditions": ["Restrained"], "dc": 12})
+    assert con.data["roll"] == "straight"
+
+
+def test_exhaustion_flat_penalty_on_saves():
+    r = E.query("save.check", {"save_ability": "con", "exhaustion_level": 3,
+                               "dc": 12, "d20_result": 16})
+    assert r.data["total"] == 10 and r.data["success"] is False  # 16 - 6
 
 
 def test_save_never_rolls():

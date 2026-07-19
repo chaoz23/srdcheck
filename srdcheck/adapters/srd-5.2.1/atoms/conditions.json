@@ -55,5 +55,14 @@
    "quote": "Speed 0. Your Speed is 0 and can't increase."}},
  {"id": "condition.paralyzed.auto-crit", "kind": "limit", "params": {"within_ft": 5},
   "citation": {"section": "Rules Glossary > Paralyzed [Condition]", "page": 186,
-   "quote": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."}}
+   "quote": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."}},
+ {"id": "condition.paralyzed.saves-fail", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Paralyzed [Condition]", "page": 186,
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."}},
+ {"id": "condition.stunned.saves-fail", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Stunned [Condition]", "page": 189,
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."}},
+ {"id": "condition.restrained.saves", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Restrained [Condition]", "page": 187,
+   "quote": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws."}}
 ]
