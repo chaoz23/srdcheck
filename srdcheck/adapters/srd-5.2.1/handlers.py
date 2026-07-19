@@ -726,6 +726,37 @@ def event_apply(adapter, p):
         if amount < 0:
             return v.cannot_adjudicate("Damage cannot be negative.", adapter=aid)
         crit = bool(event.get("crit"))
+        # Damage typing (SRD p.17): Immunity zeroes, Resistance halves, then
+        # Vulnerability doubles. Petrified grants Resistance to all damage.
+        # Applied to the incoming amount before HP/instant-death math.
+        dtype = (event.get("damage_type") or "").lower()
+        conds_l = {c.lower() for c in nxt.get("conditions", [])}
+        resists = {x.lower() for x in nxt.get("resistances", [])}
+        immunes = {x.lower() for x in nxt.get("immunities", [])}
+        vulns = {x.lower() for x in nxt.get("vulnerabilities", [])}
+        orig = amount
+        petrified_resist = "petrified" in conds_l
+        type_note = ""
+        if dtype and (dtype in immunes or "all" in immunes):
+            amount = 0
+            grab("damage.immunity-zero")
+            type_note = f" ({dtype.capitalize()} Immunity: {orig} → 0)"
+        else:
+            resist = petrified_resist or (dtype and
+                                          (dtype in resists or "all" in resists))
+            vuln = bool(dtype) and (dtype in vulns or "all" in vulns)
+            if resist and vuln:
+                grab("damage.order-of-application")
+            if resist:
+                amount //= 2
+                grab("damage.resistance-halves")
+                if petrified_resist:
+                    grab("condition.petrified.resist-damage")
+            if vuln:
+                amount *= 2
+                grab("damage.vulnerability-doubles")
+            if resist or vuln:
+                type_note = f" ({orig} → {amount} after damage type)"
         if nxt.get("dead"):
             grab("damage.reduces-hp")
             why = "Already dead; damage has no further effect."
@@ -773,6 +804,7 @@ def event_apply(adapter, p):
                 else:
                     why = (f"Damage at 0 HP = {fails} death-save failure(s) "
                            f"(now {nxt['death_save_failures']}/3).")
+        why += type_note
     elif etype == "heal":
         hp, hp_max = nxt.get("hp"), nxt.get("hp_max")
         amount = int(event.get("amount", 0))

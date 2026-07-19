@@ -31,5 +31,17 @@
    "quote": "If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails."}},
  {"id": "save.concentration-dc", "kind": "limit", "params": {"floor": 10, "cap": 30},
   "citation": {"section": "Rules Glossary > Concentration", "page": 179,
-   "quote": "The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."}}
+   "quote": "The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."}},
+ {"id": "damage.resistance-halves", "kind": "definition", "params": {},
+  "citation": {"section": "Playing the Game > Damage and Healing > Resistance and Vulnerability", "page": 17,
+   "quote": "If you have Resistance to a damage type, damage of that type is halved against you (round down)."}},
+ {"id": "damage.vulnerability-doubles", "kind": "definition", "params": {},
+  "citation": {"section": "Playing the Game > Damage and Healing > Resistance and Vulnerability", "page": 17,
+   "quote": "If you have Vulnerability to a damage type, damage of that type is doubled against you."}},
+ {"id": "damage.immunity-zero", "kind": "definition", "params": {},
+  "citation": {"section": "Playing the Game > Damage and Healing > Immunity", "page": 17,
+   "quote": "Immunity to a damage type means you don't take damage of that type."}},
+ {"id": "damage.order-of-application", "kind": "definition", "params": {},
+  "citation": {"section": "Playing the Game > Damage and Healing > Order of Application", "page": 17,
+   "quote": "Modifiers to damage are applied in the following order: adjustments such as bonuses, penalties, or multipliers are applied first; Resistance is applied second; and Vulnerability is applied third."}}
 ]

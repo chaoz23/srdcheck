@@ -97,6 +97,46 @@ def test_damage_needs_hp_in_state():
     assert v.exit_code == 2
 
 
+# --- damage typing: resistance / immunity / vulnerability (SRD p.17) ------
+
+def test_resistance_halves_rounding_down():
+    _, s = apply(state(hp=30, hp_max=30, resistances=["fire"]),
+                 {"type": "damage", "amount": 21, "damage_type": "fire"})
+    assert s["hp"] == 20  # 21 -> 10
+
+
+def test_immunity_zeroes():
+    v, s = apply(state(hp=30, hp_max=30, immunities=["fire"]),
+                 {"type": "damage", "amount": 20, "damage_type": "fire"})
+    assert s["hp"] == 30 and "damage.immunity-zero" in v.rule_ids
+
+
+def test_vulnerability_doubles():
+    _, s = apply(state(hp=30, hp_max=30, vulnerabilities=["fire"]),
+                 {"type": "damage", "amount": 12, "damage_type": "fire"})
+    assert s["hp"] == 6  # 12 -> 24
+
+
+def test_typing_only_applies_to_matching_type():
+    _, s = apply(state(hp=30, hp_max=30, resistances=["fire"]),
+                 {"type": "damage", "amount": 20, "damage_type": "cold"})
+    assert s["hp"] == 10  # unresisted
+
+
+def test_petrified_resists_all_damage_even_untyped():
+    _, s = apply(state(hp=30, hp_max=30, conditions=["Petrified"]),
+                 {"type": "damage", "amount": 20})
+    assert s["hp"] == 20  # halved by resist-all
+
+
+def test_resistance_then_vulnerability_order():
+    # halved (second) then doubled (third) nets to the original (SRD order).
+    _, s = apply(state(hp=30, hp_max=30, resistances=["fire"],
+                       vulnerabilities=["fire"]),
+                 {"type": "damage", "amount": 20, "damage_type": "fire"})
+    assert s["hp"] == 10  # 20 -> 10 -> 20
+
+
 def test_damage_to_a_dead_creature_is_a_noop():
     v, s = apply(state(hp=0, hp_max=20, dead=True),
                  {"type": "damage", "amount": 5})
