@@ -275,6 +275,10 @@
        "type": "boolean",
        "description": "true if damage is from a Critical Hit (doubles death-save failures at 0 HP)"
       },
+      "damage_type": {
+       "type": "string",
+       "description": "damage type (e.g. fire, cold, slashing); with the state's resistances/immunities/vulnerabilities it applies Immunity(0)/Resistance(half)/Vulnerability(double). Petrified resists all."
+      },
       "result": {
        "type": "integer",
        "description": "the rolled d20 (1-20) for a death-save event; the caller rolls, srdcheck folds"

@@ -68,7 +68,7 @@ CONDITION_EFFECTS = {
                   (M, "condition.petrified.speed-zero"),
                   (M, "condition.petrified.attacks"),
                   (M, "condition.petrified.saves-fail"),
-                  (D, "damage-typing"),
+                  (M, "condition.petrified.resist-damage"),
                   (D, "condition-immunity"), (N, "weight x10 / cease aging")],
     "Poisoned": [(M, "condition.poisoned.attacks"),
                  (D, "ability-check-surface")],
