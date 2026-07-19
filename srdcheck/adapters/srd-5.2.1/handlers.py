@@ -79,13 +79,13 @@ def mage_hand_use(adapter, p):
 # Unconscious DEFINITIONALLY embed Incapacitated (and Unconscious embeds Prone);
 # Frightened/Poisoned/Charmed/Deafened impose no economy restriction this surface
 # can check (Frightened's can't-approach is direction geometry, deferred by T6).
-# Every SRD condition is modeled on this surface EXCEPT Exhaustion, whose effect
-# here is a graduated per-level Speed reduction (not the flat Speed 0 this surface
-# handles); it is an explicitly reasoned deferral, not a silent refusal.
+# Every SRD condition is modeled on the turn-economy surface. Exhaustion needs
+# its level (a graduated Speed reduction), so it's modeled only when the caller
+# supplies exhaustion_level; the name alone gets a specific reasoned refusal.
 _MODELED_CONDITIONS = {"grappled", "prone", "incapacitated", "frightened",
                        "poisoned", "charmed", "deafened", "petrified",
                        "unconscious", "blinded", "invisible", "restrained",
-                       "stunned", "paralyzed"}
+                       "stunned", "paralyzed", "exhaustion"}
 # source condition -> (implied conditions it embeds, the citing atom for the embed)
 _CONDITION_EMBEDS = {
     "stunned": (["incapacitated"], "condition.stunned.incapacitated"),
@@ -99,16 +99,6 @@ _SPEED_ZERO = {"grappled": "condition.grappled.speed-zero",
                "paralyzed": "condition.paralyzed.speed-zero",
                "petrified": "condition.petrified.speed-zero",
                "unconscious": "condition.unconscious.speed-zero"}
-# known conditions deliberately deferred on the turn-economy surface, each with a
-# NAMED reason (an unbuilt surface capability, not "we didn't bother"). This keeps
-# the refusal honest per T8 while the completeness oracle records it.
-_ECONOMY_DEFERRED = {
-    "exhaustion": "Exhaustion reduces Speed by a graduated per-level amount "
-    "(not the flat Speed 0 this surface models); its movement effect is not "
-    "adjudicated here. Its attack-roll penalty is handled by attack.modifiers.",
-}
-
-
 def _expand_conditions(lower_conds):
     """Expand definitional embeds (Petrified/Unconscious carry Incapacitated,
     etc.). Returns (expanded_set, embed_atom_ids to co-cite when the embedded
@@ -128,8 +118,15 @@ def _effective_speed(adapter, p, cites, rules):
             atom = adapter.atoms[atom_id]
             cites.append(_cite(atom))
             rules.append(atom["id"])
-            p["_speed_zero_atom"] = atom_id  # so budget verdicts cite *why*
+            p["_speed_cause_atoms"] = [atom_id]  # so budget verdicts cite *why*
             return 0
+    lvl = int(p.get("exhaustion_level", 0))
+    if lvl:
+        ex = adapter.atoms["condition.exhaustion.speed-reduction"]
+        cites.append(_cite(ex))
+        rules.append(ex["id"])
+        p["_speed_cause_atoms"] = ["condition.exhaustion.speed-reduction"]
+        return max(0, speed - ex["params"]["per_level"] * lvl)
     return speed
 
 
@@ -158,8 +155,10 @@ def turn_plan(adapter, p):
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset; the plan "
                 "cannot be adjudicated.", adapter=aid)
-        if c.lower() in _ECONOMY_DEFERRED:
-            return v.cannot_adjudicate(_ECONOMY_DEFERRED[c.lower()], adapter=aid)
+        if c.lower() == "exhaustion" and not int(p.get("exhaustion_level", 0)):
+            return v.cannot_adjudicate(
+                "Exhaustion's Speed reduction is graduated (5 ft per level); "
+                "pass exhaustion_level (1-6) to adjudicate movement.", adapter=aid)
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
@@ -262,8 +261,7 @@ def turn_plan(adapter, p):
             mb = a["turn.movement-budget"]
             if moved + cost > speed:
                 mcites, mrules = [_cite(mb)], [mb["id"]]
-                sz = p.get("_speed_zero_atom")
-                if sz and speed == 0:
+                for sz in p.get("_speed_cause_atoms", []):
                     mcites.append(_cite(a[sz]))
                     mrules.append(sz)
                 return v.illegal(
@@ -315,9 +313,11 @@ def _condition_gate(adapter, p):
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset.",
                 adapter=adapter.id)
-        if c.lower() in _ECONOMY_DEFERRED:
-            return v.cannot_adjudicate(_ECONOMY_DEFERRED[c.lower()],
-                                       adapter=adapter.id)
+        if c.lower() == "exhaustion" and not int(p.get("exhaustion_level", 0)):
+            return v.cannot_adjudicate(
+                "Exhaustion's Speed reduction is graduated (5 ft per level); "
+                "pass exhaustion_level (1-6) to adjudicate movement.",
+                adapter=adapter.id)
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
@@ -367,11 +367,18 @@ def turn_options(adapter, p):
         options.append({"do": "free-interaction"})
 
     speed = p.get("speed", 0)
+    zeroed = False
     for c, atom_id in _SPEED_ZERO.items():
         if c in conds:
             add_cite(atom_id)
             speed = 0
+            zeroed = True
             break
+    lvl = int(p.get("exhaustion_level", 0))
+    if lvl and not zeroed:
+        ex = a["condition.exhaustion.speed-reduction"]
+        add_cite(ex["id"])
+        speed = max(0, speed - ex["params"]["per_level"] * lvl)
     left = max(0, speed - int(spent.get("movement_ft", 0)))
     prone = "prone" in conds
     if prone:
