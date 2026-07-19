@@ -31,8 +31,8 @@ def test_handshake_and_tool_list():
                      "reaction_available", "roll_compose",
                      "attack_modifiers", "mage_hand_use",
                      "event_apply", "creature_valid", "creature_stats",
-                     "encounter_xp_budget", "save_check", "concentration_check",
-                     "ttt_move", "ttt_options"}
+                     "encounter_xp_budget", "save_check", "check_make",
+                     "concentration_check", "ttt_move", "ttt_options"}
     for t in tools:
         assert t["description"] and t["inputSchema"]["type"] == "object"
 
@@ -77,7 +77,7 @@ def test_stdio_subprocess_end_to_end():
     assert len(replies) == 3
     by_id = {r["id"]: r for r in replies}
     assert by_id[1]["result"]["serverInfo"]["name"] == "srdcheck"
-    assert len(by_id[2]["result"]["tools"]) == 15
+    assert len(by_id[2]["result"]["tools"]) == 16
     sc = by_id[3]["result"]["structuredContent"]
     assert sc["data"]["roll"] == "straight"  # the infiltration composition
     assert proc.returncode == 0

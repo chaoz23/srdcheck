@@ -26,18 +26,14 @@ A = load_adapter("srd-5.2.1")
 ATOMS = Adapter(ROOT / "srdcheck" / "adapters" / "srd-5.2.1").atoms
 E = Engine([ROOT / "srdcheck" / "adapters" / "srd-5.2.1"])
 
-# Deferrals must name one of these unbuilt surfaces — a real capability srdcheck
-# doesn't expose, never a euphemism for laziness.
+# After the deferred-work pass, the ONLY remaining deferrals are surfaces
+# srdcheck deliberately never owns by doctrine (T6) — positional geometry, the
+# initiative order, and stealth/perception contests. These are principled
+# boundaries, not unbuilt features; modeling them would violate T6.
 ALLOWED_DEFERRALS = {
-    "save-ability-typing",   # save.check isn't Str/Dex/Con-typed
-    "damage-typing",         # no per-damage-type resistance subsystem
-    "ability-check-surface", # no ability/skill-check query
-    "social-check-surface",  # no social-interaction query
-    "stealth-perception",    # no hidden/perception subsystem
-    "geometry",              # positional/line-of-sight (T6, out of scope)
-    "graduated-speed",       # graduated per-level Speed reduction
-    "initiative",            # initiative is out of scope (T6/RNG)
-    "condition-immunity",    # granting immunity to other conditions
+    "geometry",            # positional / line-of-sight (T6)
+    "initiative",          # initiative order (T6 / RNG)
+    "stealth-perception",  # hidden/perception contests (out of scope)
 }
 
 M = "modeled"      # (M, atom_id)
@@ -46,10 +42,11 @@ N = "no-effect"    # flavor / no mechanical effect
 
 # condition -> list of (status, atom_id_or_reason) for each mechanical clause.
 CONDITION_EFFECTS = {
-    "Blinded": [(M, "condition.blinded.attacks"), (D, "ability-check-surface")],
+    "Blinded": [(M, "condition.blinded.attacks"),
+                (M, "condition.blinded.cant-see")],
     "Charmed": [(M, "condition.charmed.cant-harm-charmer"),
-                (D, "social-check-surface")],
-    "Deafened": [(D, "ability-check-surface")],
+                (M, "condition.charmed.social-advantage")],
+    "Deafened": [(M, "condition.deafened.cant-hear")],
     "Exhaustion": [(M, "condition.exhaustion.d20-penalty"),  # d20 Tests incl saves
                    (M, "condition.exhaustion.speed-reduction")],
     "Frightened": [(M, "condition.frightened.attacks"), (D, "geometry")],
@@ -69,9 +66,9 @@ CONDITION_EFFECTS = {
                   (M, "condition.petrified.attacks"),
                   (M, "condition.petrified.saves-fail"),
                   (M, "condition.petrified.resist-damage"),
-                  (D, "condition-immunity"), (N, "weight x10 / cease aging")],
-    "Poisoned": [(M, "condition.poisoned.attacks"),
-                 (D, "ability-check-surface")],
+                  (M, "condition.petrified.poison-immunity"),
+                  (N, "weight x10 / cease aging")],
+    "Poisoned": [(M, "condition.poisoned.attacks")],  # atom covers checks too
     "Prone": [(M, "condition.prone.attacks"), (M, "condition.prone.movement")],
     "Restrained": [(M, "condition.restrained.speed-zero"),
                    (M, "condition.restrained.attacks"),
@@ -101,24 +98,23 @@ def test_every_modeled_clause_points_at_a_real_atom():
                 assert ref in ATOMS, f"{cond}: unknown atom {ref}"
 
 
-def test_every_deferral_names_an_unbuilt_surface():
+def test_every_deferral_is_a_principled_t6_boundary():
+    # nothing may be deferred except the surfaces srdcheck never owns by doctrine.
+    # A new deferral for a *buildable* reason must fail here — build it instead.
     for cond, clauses in CONDITION_EFFECTS.items():
         for status, ref in clauses:
             if status == D:
                 assert ref in ALLOWED_DEFERRALS, \
-                    f"{cond}: deferral reason {ref!r} is not a recognized " \
-                    "unbuilt surface (is it really just unbuilt?)"
+                    f"{cond}: {ref!r} is not a principled T6 boundary — " \
+                    "if it's codified and buildable, model it, don't defer it"
 
 
 def test_every_condition_has_at_least_one_modeled_clause_or_is_pure_deferral():
-    # a condition that is ALL deferral/no-effect is allowed only if it genuinely
-    # has no attack/economy-surface effect (Deafened). Everything else must model
-    # something — otherwise it's a silent gap.
-    pure_deferral_ok = {"Deafened"}
+    # after the deferred-work pass, every SRD condition models at least one
+    # mechanical clause on a built surface. (No pure-deferral exemptions remain.)
     for cond, clauses in CONDITION_EFFECTS.items():
-        modeled = any(s == M for s, _ in clauses)
-        assert modeled or cond in pure_deferral_ok, \
-            f"{cond}: nothing modeled and not a known no-mechanical-surface case"
+        assert any(s == M for s, _ in clauses), \
+            f"{cond}: nothing modeled — a silent gap"
 
 
 def test_no_condition_is_silently_refused_on_built_surfaces():

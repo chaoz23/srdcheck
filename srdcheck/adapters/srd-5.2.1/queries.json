@@ -399,6 +399,29 @@
    ]
   }
  },
+ "check.make": {
+  "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "dc": {"type": "integer", "description": "the Difficulty Class to meet or exceed"},
+    "d20_result": {"type": "integer", "minimum": 1, "maximum": 20,
+     "description": "the rolled d20; omit to get the composed mode + net modifier"},
+    "modifier": {"type": "integer", "description": "ability + proficiency + situational modifier"},
+    "ability": {"type": "string", "description": "str | dex | con | int | wis | cha"},
+    "actor_conditions": {"type": "array", "items": {"type": "string"},
+     "description": "the checking creature's active conditions"},
+    "check_requires": {"type": "string",
+     "description": "'sight' or 'hearing' — triggers Blinded/Deafened auto-fail"},
+    "social": {"type": "boolean", "description": "true if this is a social interaction check"},
+    "target_charmed_by_actor": {"type": "boolean",
+     "description": "true if the target is Charmed by the actor (grants social Advantage)"},
+    "exhaustion_level": {"type": "integer", "minimum": 0, "maximum": 6,
+     "description": "applies Exhaustion's flat d20 penalty"}
+   },
+   "required": ["dc"]
+  }
+ },
  "concentration.check": {
   "description": "Compute the Concentration saving-throw DC when a concentrating creature takes damage: DC = max(10, damage // 2), capped at 30 (SRD 5.2.1 p.179). Optionally pass d20_result (+ con_modifier) to also resolve whether concentration holds. Returns data {dc[, total, success]}. The caller rolls; srdcheck folds.",
   "inputSchema": {

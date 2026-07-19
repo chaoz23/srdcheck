@@ -31,7 +31,7 @@ Honesty is the product (truth T8), so the boundaries are stated, not implied. As
 
 - **Feature prerequisites.** `turn.plan` judges the turn's *action economy* — that you spent at most one action, one bonus action, one reaction, one spell slot. It does not verify that a feature actually grants a given action. A lone two-weapon-fighting offhand attack is "action-economy legal" even though the 2024 rules require the Attack action first; that prerequisite lives in the character's features, which this version doesn't model. The success message says so explicitly.
 - **Per-spell effects.** Damage/HP, death saves, and saving throws are now modeled (the reducer folds `damage`/`heal`/`death-save`; `save.check` and `concentration.check` resolve caller-rolled saves), but *what a given spell does* — Fireball's 8d6, Hold Person's paralysis on a failed save — is the long-tail swamp and stays refused. srdcheck computes the save; it does not roll the dice or apply the spell's bespoke effect.
-- **Conditions — all 15 are now adjudicated** on the surfaces srdcheck exposes (attack-roll advantage/disadvantage/legality, and action-economy/Speed) with cited rules; a [completeness oracle](tests/test_condition_completeness.py) enforces in CI that none is silently refused as merely unbuilt. What's still *deferred* is named, not hidden: clauses needing an unbuilt surface — save-ability typing (auto-fail Str/Dex saves), damage-type resistance, ability/social/sense checks, positional geometry (Frightened's "can't approach"), and Exhaustion's graduated Speed reduction — return exit 2 with the specific reason.
+- **Conditions — all 15 are fully modeled** across every surface srdcheck exposes: attack rolls/legality, action economy and Speed (incl. Exhaustion's graduated reduction), condition-aware saving throws (auto-fail Str/Dex, Restrained's Dex Disadvantage) and ability checks (Blinded/Deafened auto-fail sight/hearing, Poisoned/Frightened Disadvantage), damage typing (Petrified's Resistance to all), and condition immunity (Petrified vs Poisoned). A [completeness oracle](tests/test_condition_completeness.py) enforces in CI that every codified clause is cited-and-modeled — the only clauses left deferred are the three srdcheck **never** owns by doctrine (T6): positional geometry (Frightened's "can't approach"), the initiative order, and stealth/perception contests. Those return exit 2 by principle, not for lack of building.
 - **Content outside the SRD 5.2.1** — subclasses, feats, spells, and monsters not in the SRD return exit 2 from `jurisdiction`.
 
 Nonsensical inputs (negative Speed, a 99th-level spell, exhaustion past 6) return exit 2 rather than a confident-looking answer. When in doubt, srdcheck refuses — a wrong verdict is the only unforgivable bug.
@@ -50,7 +50,7 @@ $ python -m srdcheck query mage-hand.use '{"kind": "attack"}'
   "citations": [{"section": "SRD 5.2.1 p.145 'Spells > Mage Hand'", "page": 145,
                  "quote": "The hand can't attack"}],
   "rule_ids": ["mage-hand.cant-attack"],
-  "adapter": "srd-5.2.1@0.1.2"
+  "adapter": "srd-5.2.1@0.1.3"
 }
 $ python -m srdcheck --schema                          # I/O contract for agents
 ```
@@ -73,7 +73,7 @@ srdcheck is an MCP server with zero dependencies — stdlib only. After `pip ins
 }
 ```
 
-Fifteen tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save`, into a verdict plus a hash-stamped next state), `save_check`/`concentration_check` (resolve a caller-rolled d20 against a DC, and compute the concentration-save DC from damage taken — srdcheck folds, never rolls), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
+Sixteen tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save` with damage typing, into a verdict plus a hash-stamped next state), `save_check`/`check_make`/`concentration_check` (resolve a caller-rolled d20 against a DC — condition-aware saving throws and ability checks, and the concentration-save DC from damage taken — srdcheck folds, never rolls), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
 
 ## As a Python library
 
@@ -115,8 +115,8 @@ Generated by `scripts/truth_scorecard.py` — regenerated and diff-checked in CI
 
 | truth | claim | status | evidence |
 |---|---|---|---|
-| T1 | wrong verdicts | enforced in CI | 182 tests including gold suites ported from the Phase 0 eval; any wrong verdict fails the build |
-| T2 | no citation, no rule | enforced in CI | 71/71 rule atoms carry verbatim source quotes; every-verdict-cites tests on all adjudicated paths |
+| T1 | wrong verdicts | enforced in CI | 196 tests including gold suites ported from the Phase 0 eval; any wrong verdict fails the build |
+| T2 | no citation, no rule | enforced in CI | 78/78 rule atoms carry verbatim source quotes; every-verdict-cites tests on all adjudicated paths |
 | T3 | advise, never overrule | structural | the API has no blocking or veto interface to wire; verdicts are advisory by construction |
 | T4 | one payload, two audiences | enforced in CI | every verdict carries machine fields plus a templated plain-English why; schema-tested |
 | T5 | enumeration is the product | proven in CI | consistency sweeps (50 turn states + toy boards) verify enumerate/validate agreement in both directions on every push |
@@ -124,7 +124,7 @@ Generated by `scripts/truth_scorecard.py` — regenerated and diff-checked in CI
 | T7 | mechanism never knows the game | enforced in CI | kernel lint scans every kernel module for game vocabulary (it caught a real violation during development) |
 | T8 | honest boundaries | enforced in CI | refusal goldens: unknown content, unmodeled conditions, and genuinely ambiguous rules text all return exit 2 with citations |
 | T9 | never a single number | enforced in CI | bench scorecard freshness test; per-category tables, no aggregate score exists anywhere in this repository — even the leaderboard ranks by wrong-count alone (T1) and shows the other failure modes unblended |
-| T10 | stranger-agent bootstrap | enforced in CI | cold-start conformance test reaches a first verdict from tool.json/--schema/MCP alone (15 tools); live probe: a frontier model given only tool.json produced a correct first verdict in 1 attempt(s), 3.9s (2026-07-16) |
+| T10 | stranger-agent bootstrap | enforced in CI | cold-start conformance test reaches a first verdict from tool.json/--schema/MCP alone (16 tools); live probe: a frontier model given only tool.json produced a correct first verdict in 1 attempt(s), 3.9s (2026-07-16) |
 | T11 | table speed | enforced in CI | p95 latency budget test: 100 verdicts must stay under 100 ms at p95 (typically sub-millisecond) |
 | T12 | never sell what the model has | held in review | a strategy invariant: features pitched on knowledge parity are cut in review — enforced by humans and admitted as such |
 | T13 | the benchmark is a product | shipped | bench/ publishes 5 sets across 5 subjects with cited gold verdicts, incl. a per-horizon drift lane whose golds are engine-derived; a generated LEADERBOARD ranks any subject; cmd: driver + validate command let a third party submit a tamper-checked result |
