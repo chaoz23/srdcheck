@@ -350,27 +350,41 @@
   }
  },
  "save.check": {
-  "description": "Adjudicate a D20 Test (a saving throw or any check) against a DC: does d20_result + modifier meet or exceed the DC? (SRD 5.2.1 p.6.) The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck computes and cites the pass/fail. Returns data {total, dc, success}. Refuses (exit 2) if the d20 result or DC is missing.",
+  "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides — auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing.",
   "inputSchema": {
    "type": "object",
    "properties": {
+    "dc": {
+     "type": "integer",
+     "description": "the Difficulty Class to meet or exceed"
+    },
     "d20_result": {
      "type": "integer",
      "minimum": 1,
      "maximum": 20,
-     "description": "the rolled d20 (the caller rolls; srdcheck never generates randomness)"
+     "description": "the rolled d20; omit to just get the composed roll mode + net modifier"
     },
     "modifier": {
      "type": "integer",
      "description": "total modifier added to the d20 (ability + proficiency + situational)"
     },
-    "dc": {
+    "save_ability": {
+     "type": "string",
+     "description": "str | dex | con | int | wis | cha — enables the ability-typed condition overrides (auto-fail Str/Dex, Restrained Dex disadvantage)"
+    },
+    "saver_conditions": {
+     "type": "array",
+     "items": {"type": "string"},
+     "description": "the saving creature's active conditions (drives auto-fail / disadvantage)"
+    },
+    "exhaustion_level": {
      "type": "integer",
-     "description": "the Difficulty Class to meet or exceed"
+     "minimum": 0,
+     "maximum": 6,
+     "description": "applies Exhaustion's flat d20 penalty to the save"
     }
    },
    "required": [
-    "d20_result",
     "dc"
    ]
   }
