@@ -695,19 +695,26 @@ def event_apply(adapter, p):
                 f"'{name}' is known content, but its state interactions are "
                 "not modeled in this adapter version; refusing rather than "
                 "recording state we would later misjudge.", adapter=aid)
-        if name.lower() not in {c.lower() for c in nxt["conditions"]}:
-            nxt["conditions"].append(name)
-        embed = _EMBEDS_INCAPACITATED.get(name.lower(), "absent")
-        if embed != "absent" and nxt.get("concentration_on"):
-            broken = nxt["concentration_on"]
-            nxt["concentration_on"] = None
-            if embed:
-                grab(embed)
-            grab("concentration.breaks-on-incapacitated")
-            why = (f"{name} gained; Concentration on '{broken}' ends "
-                   "immediately.")
+        current = {c.lower() for c in nxt["conditions"]}
+        if name.lower() == "poisoned" and "petrified" in current:
+            # Immunity to a condition means it isn't applied (SRD p.186).
+            grab("condition.petrified.poison-immunity")
+            why = ("Petrified grants Immunity to the Poisoned condition; it is "
+                   "not applied.")
         else:
-            why = f"{name} gained and recorded."
+            if name.lower() not in current:
+                nxt["conditions"].append(name)
+            embed = _EMBEDS_INCAPACITATED.get(name.lower(), "absent")
+            if embed != "absent" and nxt.get("concentration_on"):
+                broken = nxt["concentration_on"]
+                nxt["concentration_on"] = None
+                if embed:
+                    grab(embed)
+                grab("concentration.breaks-on-incapacitated")
+                why = (f"{name} gained; Concentration on '{broken}' ends "
+                       "immediately.")
+            else:
+                why = f"{name} gained and recorded."
     elif etype == "condition-ended":
         name = event.get("name", "")
         have = {c.lower(): c for c in nxt["conditions"]}
@@ -1060,6 +1067,94 @@ def save_check(adapter, p):
         f"{mode}: {'success' if ok else 'failure'}.", cites, aid, rules, data=data)
 
 
+def check_make(adapter, p):
+    """Adjudicate an ability check (a D20 Test) against a DC, condition-aware.
+    Actor conditions: Blinded/Deafened auto-fail a check that requires
+    sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage
+    (Frightened gated on line of sight to the source); Exhaustion its flat d20
+    penalty. On a social check where the actor is the target's charmer
+    (target_charmed_by_actor + social), the actor has Advantage. Caller rolls
+    (T6): with d20_result it resolves, otherwise it reports the composed mode."""
+    a, aid = adapter.atoms, adapter.id
+    dc = p.get("dc")
+    if not isinstance(dc, int):
+        return v.cannot_adjudicate("Provide the DC.", adapter=aid)
+    ability = (p.get("ability") or "").lower()
+    if ability and ability not in _ABILITIES:
+        return v.cannot_adjudicate(
+            f"'{ability}' is not an ability (str/dex/con/int/wis/cha).",
+            adapter=aid)
+    conds = {c.lower() for c in p.get("actor_conditions", [])}
+    for c in conds:
+        if not adapter.lookup_entity(c):
+            return v.cannot_adjudicate(
+                f"'{c}' is not a condition known to this ruleset.", adapter=aid)
+    requires = (p.get("check_requires") or "").lower()
+
+    if "blinded" in conds and requires == "sight":
+        bl = a["condition.blinded.cant-see"]
+        return v.legal(
+            "Automatic failure: a Blinded creature auto-fails a check that "
+            "requires sight.", [_cite(bl)], aid, [bl["id"]],
+            data={"dc": dc, "success": False, "auto_fail": True})
+    if "deafened" in conds and requires == "hearing":
+        df = a["condition.deafened.cant-hear"]
+        return v.legal(
+            "Automatic failure: a Deafened creature auto-fails a check that "
+            "requires hearing.", [_cite(df)], aid, [df["id"]],
+            data={"dc": dc, "success": False, "auto_fail": True})
+
+    adv, dis, cites, rules = [], [], [_cite(a["save.d20-vs-dc"])], ["save.d20-vs-dc"]
+    if "poisoned" in conds:
+        po = a["condition.poisoned.attacks"]  # covers ability checks too
+        dis.append("Poisoned")
+        cites.append(_cite(po))
+        rules.append(po["id"])
+    if "frightened" in conds and p.get("frightened_source_in_sight", True):
+        fr = a["condition.frightened.attacks"]  # covers ability checks too
+        dis.append("Frightened (source in sight)")
+        cites.append(_cite(fr))
+        rules.append(fr["id"])
+    if p.get("target_charmed_by_actor") and p.get("social"):
+        ch = a["condition.charmed.social-advantage"]
+        adv.append("target is Charmed by the actor (social interaction)")
+        cites.append(_cite(ch))
+        rules.append(ch["id"])
+    mode, dice, comp = _compose(adapter, adv, dis)
+    if comp:
+        cites.append(_cite(comp))
+        rules.append(comp["id"])
+
+    modifier = int(p.get("modifier", 0))
+    lvl = int(p.get("exhaustion_level", 0))
+    if lvl:
+        if not 0 <= lvl <= 6:
+            return v.cannot_adjudicate(
+                f"Exhaustion level {lvl} is outside the SRD range (0 to 6).",
+                adapter=aid)
+        ex = a["condition.exhaustion.d20-penalty"]
+        modifier += ex["params"]["per_level"] * lvl
+        cites.append(_cite(ex))
+        rules.append(ex["id"])
+
+    d20 = event_int(p, "d20_result")
+    data = {"dc": dc, "roll": mode, "d20s": dice}
+    if d20 is None:
+        data["net_modifier"] = modifier
+        return v.legal(
+            f"Ability check: roll {mode} ({dice} d20)"
+            f"{f', {modifier:+d} modifier' if modifier else ''} vs DC {dc}.",
+            cites, aid, rules, data=data)
+    if not 1 <= d20 <= 20:
+        return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+    total = d20 + modifier
+    ok = total >= dc
+    data.update(total=total, success=ok)
+    return v.legal(
+        f"Check total {total} (d20 {d20} {modifier:+d}) vs DC {dc}, rolled "
+        f"{mode}: {'success' if ok else 'failure'}.", cites, aid, rules, data=data)
+
+
 def concentration_check(adapter, p):
     """Concentration save on taking damage: DC = max(10, damage // 2), capped at
     30 (SRD 5.2.1 p.179); optionally resolve the declared d20 result."""
@@ -1099,5 +1194,6 @@ HANDLERS = {
     "creature.stats": creature_stats,
     "encounter.xp-budget": encounter_xp_budget,
     "save.check": save_check,
+    "check.make": check_make,
     "concentration.check": concentration_check,
 }

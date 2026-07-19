@@ -62,6 +62,14 @@ def test_unknown_condition_refused():
     assert v.exit_code == 2 and nxt is None
 
 
+def test_petrified_is_immune_to_the_poisoned_condition():
+    petrified = {**FRESH, "conditions": ["Petrified"]}
+    v, s = apply(petrified, {"type": "condition-gained", "name": "Poisoned"})
+    assert v.exit_code == 0
+    assert "Poisoned" not in s["conditions"]
+    assert "condition.petrified.poison-immunity" in v.rule_ids
+
+
 def test_petrified_embeds_incapacitated_and_breaks_concentration():
     _, s1 = apply(FRESH, {"type": "action", "spell": {"level": 1},
                           "concentration_on": "Bless"})

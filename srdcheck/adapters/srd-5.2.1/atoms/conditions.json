@@ -1,4 +1,7 @@
 [
+ {"id": "condition.blinded.cant-see", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Blinded [Condition]", "page": 177,
+   "quote": "Can't See. You can't see and automatically fail any ability check that requires sight."}},
  {"id": "condition.charmed.cant-harm-charmer", "kind": "prohibition", "params": {},
   "citation": {"section": "Rules Glossary > Charmed [Condition]", "page": 178,
    "quote": "Can't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects."}},
@@ -32,6 +35,9 @@
  {"id": "condition.petrified.saves-fail", "kind": "definition", "params": {},
   "citation": {"section": "Rules Glossary > Petrified [Condition]", "page": 186,
    "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."}},
+ {"id": "condition.petrified.poison-immunity", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Petrified [Condition]", "page": 186,
+   "quote": "Poison Immunity. You have Immunity to the Poisoned condition."}},
  {"id": "condition.unconscious.inert", "kind": "definition", "params": {},
   "citation": {"section": "Rules Glossary > Unconscious [Condition]", "page": 191,
    "quote": "Inert. You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone."}},
