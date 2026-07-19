@@ -1,0 +1,607 @@
+{
+ "generated_by": "scripts/concordance.py",
+ "atoms": {
+  "concentration.breaks-on-incapacitated": {
+   "adapter": "srd-5.2.1",
+   "page": 179,
+   "section": "Rules Glossary > Concentration",
+   "quote": "Incapacitated or Dead. Your Concentration ends if you have the Incapacitated condition or you die."
+  },
+  "concentration.one-effect": {
+   "adapter": "srd-5.2.1",
+   "page": 179,
+   "section": "Rules Glossary > Concentration",
+   "quote": "Another Concentration Effect. You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration."
+  },
+  "condition.blinded.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 177,
+   "section": "Rules Glossary > Blinded [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
+  },
+  "condition.blinded.cant-see": {
+   "adapter": "srd-5.2.1",
+   "page": 177,
+   "section": "Rules Glossary > Blinded [Condition]",
+   "quote": "Can't See. You can't see and automatically fail any ability check that requires sight."
+  },
+  "condition.charmed.cant-harm-charmer": {
+   "adapter": "srd-5.2.1",
+   "page": 178,
+   "section": "Rules Glossary > Charmed [Condition]",
+   "quote": "Can't Harm the Charmer. You can't attack the charmer or target the charmer with damaging abilities or magical effects."
+  },
+  "condition.charmed.social-advantage": {
+   "adapter": "srd-5.2.1",
+   "page": 178,
+   "section": "Rules Glossary > Charmed [Condition]",
+   "quote": "Social Advantage. The charmer has Advantage on any ability check to interact with you socially."
+  },
+  "condition.deafened.cant-hear": {
+   "adapter": "srd-5.2.1",
+   "page": 181,
+   "section": "Rules Glossary > Deafened [Condition]",
+   "quote": "Can't Hear. You can't hear and automatically fail any ability check that requires hearing."
+  },
+  "condition.exhaustion.d20-penalty": {
+   "adapter": "srd-5.2.1",
+   "page": 181,
+   "section": "Rules Glossary > Exhaustion [Condition]",
+   "quote": "D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level."
+  },
+  "condition.exhaustion.speed-reduction": {
+   "adapter": "srd-5.2.1",
+   "page": 181,
+   "section": "Rules Glossary > Exhaustion [Condition]",
+   "quote": "Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level."
+  },
+  "condition.frightened.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 182,
+   "section": "Rules Glossary > Frightened [Condition]",
+   "quote": "Ability Checks and Attacks Affected. You have Disadvantage on ability checks and attack rolls while the source of fear is within line of sight."
+  },
+  "condition.frightened.cant-approach": {
+   "adapter": "srd-5.2.1",
+   "page": 182,
+   "section": "Rules Glossary > Frightened [Condition]",
+   "quote": "Can't Approach. You can't willingly move closer to the source of fear."
+  },
+  "condition.grappled.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 182,
+   "section": "Rules Glossary > Grappled [Condition]",
+   "quote": "Attacks Affected. You have Disadvantage on attack rolls against any target other than the grappler."
+  },
+  "condition.grappled.speed-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 182,
+   "section": "Rules Glossary > Grappled [Condition]",
+   "quote": "Speed 0. Your Speed is 0 and can't increase."
+  },
+  "condition.incapacitated.inactive": {
+   "adapter": "srd-5.2.1",
+   "page": 184,
+   "section": "Rules Glossary > Incapacitated [Condition]",
+   "quote": "Inactive. You can't take any action, Bonus Action, or Reaction."
+  },
+  "condition.invisible.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 184,
+   "section": "Rules Glossary > Invisible [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Disadvantage, and your attack rolls have Advantage. If a creature can somehow see you, you don't gain this benefit against that creature."
+  },
+  "condition.paralyzed.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Paralyzed [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage."
+  },
+  "condition.paralyzed.auto-crit": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Paralyzed [Condition]",
+   "quote": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."
+  },
+  "condition.paralyzed.incapacitated": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Paralyzed [Condition]",
+   "quote": "Incapacitated. You have the Incapacitated condition."
+  },
+  "condition.paralyzed.saves-fail": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Paralyzed [Condition]",
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."
+  },
+  "condition.paralyzed.speed-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Paralyzed [Condition]",
+   "quote": "Speed 0. Your Speed is 0 and can't increase."
+  },
+  "condition.petrified.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage."
+  },
+  "condition.petrified.incapacitated": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Incapacitated. You have the Incapacitated condition."
+  },
+  "condition.petrified.poison-immunity": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Poison Immunity. You have Immunity to the Poisoned condition."
+  },
+  "condition.petrified.resist-damage": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Resist Damage. You have Resistance to all damage."
+  },
+  "condition.petrified.saves-fail": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."
+  },
+  "condition.petrified.speed-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Petrified [Condition]",
+   "quote": "Speed 0. Your Speed is 0 and can't increase."
+  },
+  "condition.poisoned.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Poisoned [Condition]",
+   "quote": "Ability Checks and Attacks Affected. You have Disadvantage on attack rolls and ability checks."
+  },
+  "condition.prone.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Prone [Condition]",
+   "quote": "Attacks Affected. You have Disadvantage on attack rolls. An attack roll against you has Advantage if the attacker is within 5 feet of you. Otherwise, that attack roll has Disadvantage."
+  },
+  "condition.prone.movement": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Prone [Condition]",
+   "quote": "Your only movement options are to crawl or to spend an amount of movement equal to half your Speed (round down) to right yourself and thereby end the condition. If your Speed is 0, you can't right yourself."
+  },
+  "condition.restrained.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 187,
+   "section": "Rules Glossary > Restrained [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage."
+  },
+  "condition.restrained.saves": {
+   "adapter": "srd-5.2.1",
+   "page": 187,
+   "section": "Rules Glossary > Restrained [Condition]",
+   "quote": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws."
+  },
+  "condition.restrained.speed-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 187,
+   "section": "Rules Glossary > Restrained [Condition]",
+   "quote": "Speed 0. Your Speed is 0 and can't increase."
+  },
+  "condition.stunned.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 189,
+   "section": "Rules Glossary > Stunned [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage."
+  },
+  "condition.stunned.incapacitated": {
+   "adapter": "srd-5.2.1",
+   "page": 189,
+   "section": "Rules Glossary > Stunned [Condition]",
+   "quote": "Incapacitated. You have the Incapacitated condition."
+  },
+  "condition.stunned.saves-fail": {
+   "adapter": "srd-5.2.1",
+   "page": 189,
+   "section": "Rules Glossary > Stunned [Condition]",
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."
+  },
+  "condition.unconscious.attacks": {
+   "adapter": "srd-5.2.1",
+   "page": 191,
+   "section": "Rules Glossary > Unconscious [Condition]",
+   "quote": "Attacks Affected. Attack rolls against you have Advantage."
+  },
+  "condition.unconscious.auto-crit": {
+   "adapter": "srd-5.2.1",
+   "page": 191,
+   "section": "Rules Glossary > Unconscious [Condition]",
+   "quote": "Automatic Critical Hits. Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you."
+  },
+  "condition.unconscious.inert": {
+   "adapter": "srd-5.2.1",
+   "page": 191,
+   "section": "Rules Glossary > Unconscious [Condition]",
+   "quote": "Inert. You have the Incapacitated and Prone conditions, and you drop whatever you're holding. When this condition ends, you remain Prone."
+  },
+  "condition.unconscious.saves-fail": {
+   "adapter": "srd-5.2.1",
+   "page": 191,
+   "section": "Rules Glossary > Unconscious [Condition]",
+   "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."
+  },
+  "condition.unconscious.speed-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 191,
+   "section": "Rules Glossary > Unconscious [Condition]",
+   "quote": "Speed 0. Your Speed is 0 and can't increase."
+  },
+  "damage.immunity-zero": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Immunity",
+   "quote": "Immunity to a damage type means you don't take damage of that type"
+  },
+  "damage.order-of-application": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Order of Application",
+   "quote": "Modifiers to damage are applied in the following order: adjustments such as bonuses, penalties, or multipliers are applied first; Resistance is applied second; and Vulnerability is applied third."
+  },
+  "damage.reduces-hp": {
+   "adapter": "srd-5.2.1",
+   "page": 16,
+   "section": "Playing the Game > Damage and Healing > Hit Points",
+   "quote": "Whenever you take damage, subtract it from your Hit Points."
+  },
+  "damage.resistance-halves": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Resistance and Vulnerability",
+   "quote": "If you have Resistance to a damage type, damage of that type is halved against you (round down)."
+  },
+  "damage.vulnerability-doubles": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Resistance and Vulnerability",
+   "quote": "If you have Vulnerability to a damage type, damage of that type is doubled against you."
+  },
+  "death-save.damage-at-0": {
+   "adapter": "srd-5.2.1",
+   "page": 18,
+   "section": "Playing the Game > Damage and Healing > Death Saving Throws > Damage at 0 Hit Points",
+   "quote": "If you take any damage while you have 0 Hit Points, you suffer a Death Saving Throw failure. If the damage is from a Critical Hit, you suffer two failures instead. If the damage equals or exceeds your Hit Point maximum, you die."
+  },
+  "death-save.mechanic": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Death Saving Throws",
+   "quote": "Roll 1d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become Stable (see \"Stabilizing a Character\" below). On your third failure, you die."
+  },
+  "death-save.natural-1-and-20": {
+   "adapter": "srd-5.2.1",
+   "page": 18,
+   "section": "Playing the Game > Damage and Healing > Death Saving Throws > Rolling a 1 or 20",
+   "quote": "When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point."
+  },
+  "death-save.reset-on-heal": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Death Saving Throws",
+   "quote": "The number of both is reset to zero when you regain any Hit Points or become Stable."
+  },
+  "encounter.xp-budget-per-character": {
+   "adapter": "srd-5.2.1",
+   "page": 202,
+   "section": "Gameplay Toolbox > Building Combat Encounters > XP Budget per Character",
+   "quote": "Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter."
+  },
+  "hp.falling-unconscious": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Falling Unconscious",
+   "quote": "If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition"
+  },
+  "hp.healing-restores": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Healing",
+   "quote": "Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost."
+  },
+  "hp.massive-damage-death": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Instant Death > Massive Damage",
+   "quote": "When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum."
+  },
+  "hp.monster-death": {
+   "adapter": "srd-5.2.1",
+   "page": 17,
+   "section": "Playing the Game > Damage and Healing > Instant Death > Monster Death",
+   "quote": "A monster dies the instant it drops to 0 Hit Points, although a Game Master can ignore this rule for an individual monster and treat it like a character."
+  },
+  "mage-hand.cant-activate-magic-items": {
+   "adapter": "srd-5.2.1",
+   "page": 145,
+   "section": "Spells > Mage Hand",
+   "quote": "The hand can't attack, activate magic items, or carry more than 10 pounds."
+  },
+  "mage-hand.cant-attack": {
+   "adapter": "srd-5.2.1",
+   "page": 145,
+   "section": "Spells > Mage Hand",
+   "quote": "The hand can't attack"
+  },
+  "mage-hand.carry-limit": {
+   "adapter": "srd-5.2.1",
+   "page": 145,
+   "section": "Spells > Mage Hand",
+   "quote": "The hand can't attack, activate magic items, or carry more than 10 pounds."
+  },
+  "mage-hand.granted-uses": {
+   "adapter": "srd-5.2.1",
+   "page": 145,
+   "section": "Spells > Mage Hand",
+   "quote": "you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial"
+  },
+  "mage-hand.range-leash": {
+   "adapter": "srd-5.2.1",
+   "page": 145,
+   "section": "Spells > Mage Hand",
+   "quote": "The hand vanishes if it is ever more than 30 feet away from you"
+  },
+  "movement.crawling-cost": {
+   "adapter": "srd-5.2.1",
+   "page": 179,
+   "section": "Rules Glossary > Crawling",
+   "quote": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain)."
+  },
+  "roll.advantage-mechanic": {
+   "adapter": "srd-5.2.1",
+   "page": 8,
+   "section": "D20 Tests > Advantage/Disadvantage > Roll Two D20s",
+   "quote": "When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage."
+  },
+  "roll.both-cancel": {
+   "adapter": "srd-5.2.1",
+   "page": 8,
+   "section": "D20 Tests > Advantage/Disadvantage > They Don't Stack",
+   "quote": "If circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa."
+  },
+  "roll.dont-stack": {
+   "adapter": "srd-5.2.1",
+   "page": 8,
+   "section": "D20 Tests > Advantage/Disadvantage > They Don't Stack",
+   "quote": "If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s."
+  },
+  "roll.reroll-one-die": {
+   "adapter": "srd-5.2.1",
+   "page": 8,
+   "section": "D20 Tests > Advantage/Disadvantage > Interactions with Rerolls",
+   "quote": "When you have Advantage or Disadvantage and something in the game lets you reroll or replace the d20, you can reroll or replace only one die, not both. You choose which one."
+  },
+  "save.concentration-dc": {
+   "adapter": "srd-5.2.1",
+   "page": 179,
+   "section": "Rules Glossary > Concentration",
+   "quote": "The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30."
+  },
+  "save.d20-vs-dc": {
+   "adapter": "srd-5.2.1",
+   "page": 6,
+   "section": "Playing the Game > D20 Tests",
+   "quote": "If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails."
+  },
+  "spell.one-slot-per-turn": {
+   "adapter": "srd-5.2.1",
+   "page": 105,
+   "section": "Spells > One Spell with a Spell Slot per Turn",
+   "quote": "On a turn, you can expend only one spell slot to cast a spell. This rule means you can't, for example, cast a spell with a spell slot using the Magic action and another one using a Bonus Action on the same turn."
+  },
+  "ttt.empty-cell-only": {
+   "adapter": "toy-tictactoe",
+   "page": null,
+   "section": "RULES.md §3 'Placement'",
+   "quote": "A mark may be placed only in an empty cell. A cell containing any mark is occupied and cannot be chosen."
+  },
+  "ttt.grid": {
+   "adapter": "toy-tictactoe",
+   "page": null,
+   "section": "RULES.md §1 'The grid'",
+   "quote": "The game is played on a grid of nine cells, numbered 1 through 9, left to right, top to bottom. A mark may only ever be placed in one of these nine cells."
+  },
+  "ttt.no-moves-after-end": {
+   "adapter": "toy-tictactoe",
+   "page": null,
+   "section": "RULES.md §5 'End of game'",
+   "quote": "The game ends immediately when a player wins, or when all nine cells are occupied without a winner (a draw). After the game has ended, no further marks may be placed."
+  },
+  "ttt.turn-order": {
+   "adapter": "toy-tictactoe",
+   "page": null,
+   "section": "RULES.md §2 'Turn order'",
+   "quote": "X moves first. Turns alternate strictly between X and O. On a turn, the moving player places exactly one mark of their own symbol."
+  },
+  "ttt.win-lines": {
+   "adapter": "toy-tictactoe",
+   "page": null,
+   "section": "RULES.md §4 'Winning'",
+   "quote": "A player wins upon having three of their marks in any straight line: a row (1-2-3, 4-5-6, 7-8-9), a column (1-4-7, 2-5-8, 3-6-9), or a diagonal (1-5-9, 3-5-7)."
+  },
+  "turn.break-up-move": {
+   "adapter": "srd-5.2.1",
+   "page": 14,
+   "section": "Movement and Position > Breaking Up Your Move",
+   "quote": "You can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn."
+  },
+  "turn.movement-budget": {
+   "adapter": "srd-5.2.1",
+   "page": 13,
+   "section": "Combat > Your Turn",
+   "quote": "On your turn, you can move a distance up to your Speed and take one action."
+  },
+  "turn.one-action": {
+   "adapter": "srd-5.2.1",
+   "page": 13,
+   "section": "Combat > Your Turn",
+   "quote": "On your turn, you can move a distance up to your Speed and take one action."
+  },
+  "turn.one-bonus-action": {
+   "adapter": "srd-5.2.1",
+   "page": 10,
+   "section": "Actions > Bonus Actions",
+   "quote": "You can take only one Bonus Action on your turn, so you must choose which Bonus Action to use if you have more than one available."
+  },
+  "turn.one-free-interaction": {
+   "adapter": "srd-5.2.1",
+   "page": 12,
+   "section": "Exploration > Time-Limited Object Interactions",
+   "quote": "interactions with objects are limited: one free interaction per turn. That interaction must occur during a creature's movement or action."
+  },
+  "turn.one-reaction-per-round": {
+   "adapter": "srd-5.2.1",
+   "page": 186,
+   "section": "Rules Glossary > Reaction",
+   "quote": "You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn."
+  }
+ },
+ "by_page": {
+  "srd-5.2.1 p.10": [
+   "turn.one-bonus-action"
+  ],
+  "srd-5.2.1 p.105": [
+   "spell.one-slot-per-turn"
+  ],
+  "srd-5.2.1 p.12": [
+   "turn.one-free-interaction"
+  ],
+  "srd-5.2.1 p.13": [
+   "turn.movement-budget",
+   "turn.one-action"
+  ],
+  "srd-5.2.1 p.14": [
+   "turn.break-up-move"
+  ],
+  "srd-5.2.1 p.145": [
+   "mage-hand.cant-activate-magic-items",
+   "mage-hand.cant-attack",
+   "mage-hand.carry-limit",
+   "mage-hand.granted-uses",
+   "mage-hand.range-leash"
+  ],
+  "srd-5.2.1 p.16": [
+   "damage.reduces-hp"
+  ],
+  "srd-5.2.1 p.17": [
+   "damage.immunity-zero",
+   "damage.order-of-application",
+   "damage.resistance-halves",
+   "damage.vulnerability-doubles",
+   "death-save.mechanic",
+   "death-save.reset-on-heal",
+   "hp.falling-unconscious",
+   "hp.healing-restores",
+   "hp.massive-damage-death",
+   "hp.monster-death"
+  ],
+  "srd-5.2.1 p.177": [
+   "condition.blinded.attacks",
+   "condition.blinded.cant-see"
+  ],
+  "srd-5.2.1 p.178": [
+   "condition.charmed.cant-harm-charmer",
+   "condition.charmed.social-advantage"
+  ],
+  "srd-5.2.1 p.179": [
+   "concentration.breaks-on-incapacitated",
+   "concentration.one-effect",
+   "movement.crawling-cost",
+   "save.concentration-dc"
+  ],
+  "srd-5.2.1 p.18": [
+   "death-save.damage-at-0",
+   "death-save.natural-1-and-20"
+  ],
+  "srd-5.2.1 p.181": [
+   "condition.deafened.cant-hear",
+   "condition.exhaustion.d20-penalty",
+   "condition.exhaustion.speed-reduction"
+  ],
+  "srd-5.2.1 p.182": [
+   "condition.frightened.attacks",
+   "condition.frightened.cant-approach",
+   "condition.grappled.attacks",
+   "condition.grappled.speed-zero"
+  ],
+  "srd-5.2.1 p.184": [
+   "condition.incapacitated.inactive",
+   "condition.invisible.attacks"
+  ],
+  "srd-5.2.1 p.186": [
+   "condition.paralyzed.attacks",
+   "condition.paralyzed.auto-crit",
+   "condition.paralyzed.incapacitated",
+   "condition.paralyzed.saves-fail",
+   "condition.paralyzed.speed-zero",
+   "condition.petrified.attacks",
+   "condition.petrified.incapacitated",
+   "condition.petrified.poison-immunity",
+   "condition.petrified.resist-damage",
+   "condition.petrified.saves-fail",
+   "condition.petrified.speed-zero",
+   "condition.poisoned.attacks",
+   "condition.prone.attacks",
+   "condition.prone.movement",
+   "turn.one-reaction-per-round"
+  ],
+  "srd-5.2.1 p.187": [
+   "condition.restrained.attacks",
+   "condition.restrained.saves",
+   "condition.restrained.speed-zero"
+  ],
+  "srd-5.2.1 p.189": [
+   "condition.stunned.attacks",
+   "condition.stunned.incapacitated",
+   "condition.stunned.saves-fail"
+  ],
+  "srd-5.2.1 p.191": [
+   "condition.unconscious.attacks",
+   "condition.unconscious.auto-crit",
+   "condition.unconscious.inert",
+   "condition.unconscious.saves-fail",
+   "condition.unconscious.speed-zero"
+  ],
+  "srd-5.2.1 p.202": [
+   "encounter.xp-budget-per-character"
+  ],
+  "srd-5.2.1 p.6": [
+   "save.d20-vs-dc"
+  ],
+  "srd-5.2.1 p.8": [
+   "roll.advantage-mechanic",
+   "roll.both-cancel",
+   "roll.dont-stack",
+   "roll.reroll-one-die"
+  ],
+  "toy-tictactoe RULES.md §1 'The grid'": [
+   "ttt.grid"
+  ],
+  "toy-tictactoe RULES.md §2 'Turn order'": [
+   "ttt.turn-order"
+  ],
+  "toy-tictactoe RULES.md §3 'Placement'": [
+   "ttt.empty-cell-only"
+  ],
+  "toy-tictactoe RULES.md §4 'Winning'": [
+   "ttt.win-lines"
+  ],
+  "toy-tictactoe RULES.md §5 'End of game'": [
+   "ttt.no-moves-after-end"
+  ]
+ }
+}
