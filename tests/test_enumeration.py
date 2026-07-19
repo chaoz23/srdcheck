@@ -69,8 +69,17 @@ def test_slot_flag_follows_spent():
             assert o["spell_slot_available"] is False
 
 
-def test_unmodeled_condition_exit_2():
-    assert options(conditions=["Stunned"]).exit_code == 2
+def test_stunned_enumerates_no_actions():
+    # Stunned is modeled now: Incapacitated -> no action/bonus/reaction options.
+    v = options(conditions=["Stunned"])
+    assert v.exit_code == 0
+    assert not [o for o in v.data["options"]
+                if o["do"] in ("action", "bonus-action", "reaction")]
+
+
+def test_exhaustion_enumeration_is_a_reasoned_deferral():
+    v = options(conditions=["Exhaustion"])
+    assert v.exit_code == 2 and "graduated" in v.why
 
 
 def _single_steps(opts_verdict):

@@ -42,6 +42,8 @@ The kernel contains zero game constants. All game facts live in **adapters** —
 **T8 — Honest boundaries beat broad coverage.**
 SRD-only is a feature. "Unknown content" and "GM discretion" are truthful answers, delivered proudly. Editions are never blended. *(Validated Phase 0: jurisdiction-honesty is the one thing frontier models measurably lack.)*
 
+*Corollary (the completeness edge, 2026-07-18):* honest refusal is for the genuinely **undecidable** — discretion, RNG, geometry, content outside the SRD. Refusing something that **is** codified in the SRD, because it isn't built yet, is a gap wearing the exit-2 costume — the opposite of what T8 protects. If it's deterministic and citable, it must be checkable. Every deferral must name a real unbuilt *surface*, never stand in for "we didn't bother." Enforced by the conditions completeness oracle (`tests/test_condition_completeness.py`) and the coverage census ratchet.
+
 **T9 — Eval results are never a single number.**
 Per-category verdicts, with wrong-rate and refusal-rate shown separately. One blended score destroys the trust the tool exists to create.
 

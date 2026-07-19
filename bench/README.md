@@ -77,8 +77,16 @@ M1 (2026-07-18) closed that combat-resolution cluster — the reducer now folds
 `damage` / `heal` / `death-save` events (HP loss, Falling Unconscious,
 monster/massive-damage instant death, the death-save track) and two saving-throw
 queries (`save.check`, `concentration.check`), each cited and rolled by the
-caller (T6). In-scope coverage rose to **89%**; the remaining in-scope gap is the
-not-yet-modeled conditions, which honestly refuse (T8). The floor is ratcheted in
+caller (T6). In-scope coverage rose to **89%**; the remaining gap was the
+not-yet-modeled conditions.
+
+A conditions completeness pass (2026-07-18) then closed that gap: **all 15 SRD
+conditions** now adjudicate on the built surfaces (attack rolls/legality and
+action-economy/Speed), with a completeness oracle
+(`tests/test_condition_completeness.py`) forbidding any codified condition from
+being silently refused as unbuilt. In-scope coverage is now **100%**; only clauses
+needing an unbuilt surface (save-typing, damage-typing, geometry, graduated Speed)
+remain deferred — each with a named reason. The floor is ratcheted at 1.0 in
 `tests/test_coverage_census.py`.
 
 ## Run a subject

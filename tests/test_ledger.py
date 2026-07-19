@@ -56,9 +56,19 @@ def test_stunned_breaks_concentration_with_citations():
     assert s3["concentration_on"] is None  # broken concentration stays broken
 
 
-def test_unmodeled_condition_refused():
-    v, nxt = apply(FRESH, {"type": "condition-gained", "name": "Frightened"})
+def test_unknown_condition_refused():
+    # Frightened is now a modeled state; an invented condition still refuses.
+    v, nxt = apply(FRESH, {"type": "condition-gained", "name": "Bewildered"})
     assert v.exit_code == 2 and nxt is None
+
+
+def test_petrified_embeds_incapacitated_and_breaks_concentration():
+    _, s1 = apply(FRESH, {"type": "action", "spell": {"level": 1},
+                          "concentration_on": "Bless"})
+    v, s2 = apply(s1, {"type": "condition-gained", "name": "Petrified"})
+    assert s2["concentration_on"] is None
+    assert "condition.petrified.incapacitated" in v.rule_ids
+    assert "concentration.breaks-on-incapacitated" in v.rule_ids
 
 
 def test_ruling_is_tagged_discretion():

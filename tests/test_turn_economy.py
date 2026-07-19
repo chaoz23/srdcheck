@@ -80,10 +80,20 @@ def test_unknown_condition_exit_2():
     assert plan([{"do": "action"}], conditions=["Hexcursed"]).exit_code == 2
 
 
-def test_unmodeled_known_condition_exit_2():
+def test_stunned_is_incapacitated_cant_act():
+    # Stunned is now modeled: it embeds Incapacitated, so taking an action is
+    # illegal (not an unbuilt refusal).
     v = plan([{"do": "action"}], conditions=["Stunned"])
+    assert v.exit_code == 1
+    assert "condition.stunned.incapacitated" in v.rule_ids
+
+
+def test_exhaustion_economy_is_a_reasoned_deferral():
+    # the one condition deferred on this surface refuses with a NAMED reason
+    # (graduated Speed reduction), never the generic "not modeled".
+    v = plan([{"do": "action"}], conditions=["Exhaustion"])
     assert v.exit_code == 2
-    assert "not modeled" in v.why
+    assert "graduated" in v.why and "not modeled" not in v.why
 
 
 def test_unknown_step_exit_2():
