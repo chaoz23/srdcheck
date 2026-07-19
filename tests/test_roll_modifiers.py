@@ -89,11 +89,19 @@ def test_seen_invisible_target_is_ambiguous_exit_2():
     assert "ambiguous" in v.why
 
 
-def test_unmodeled_condition_exit_2():
-    v = attack(attacker={"conditions": ["Frightened"]}, target={},
+def test_unknown_condition_exit_2():
+    # every SRD condition is now modeled (see test_condition_completeness); the
+    # remaining honest refusal is content that isn't an SRD condition at all.
+    v = attack(attacker={"conditions": ["Bewildered"]}, target={},
                distance_ft=5)
     assert v.exit_code == 2
-    assert "not modeled" in v.why
+    assert "not a condition known" in v.why
+
+
+def test_frightened_is_modeled_not_refused():
+    v = attack(attacker={"conditions": ["Frightened"]}, target={},
+               distance_ft=5)
+    assert v.exit_code == 0 and v.data["roll"] == "disadvantage"
 
 
 def test_all_attack_verdicts_cite():
@@ -101,3 +109,45 @@ def test_all_attack_verdicts_cite():
                target={"conditions": ["Restrained"]}, distance_ft=5)
     assert v.data["roll"] == "straight"
     assert v.citations and all(c.quote for c in v.citations)
+
+
+# --- condition completeness pass: attack-effect goldens -------------------
+
+def test_poisoned_attacker_has_disadvantage():
+    v = attack(attacker={"conditions": ["Poisoned"]}, target={}, distance_ft=5)
+    assert v.data["roll"] == "disadvantage"
+    assert "condition.poisoned.attacks" in v.rule_ids
+
+
+def test_frightened_disadvantage_only_when_source_in_sight():
+    seen = attack(attacker={"conditions": ["Frightened"]}, target={},
+                  distance_ft=5)
+    assert seen.data["roll"] == "disadvantage"
+    unseen = attack(attacker={"conditions": ["Frightened"],
+                              "frightened_source_in_sight": False},
+                    target={}, distance_ft=5)
+    assert unseen.data["roll"] == "straight"  # cited, but no Disadvantage
+
+
+def test_charmed_cannot_attack_the_charmer():
+    illegal = attack(attacker={"conditions": ["Charmed"]},
+                     target={"is_charmer_of_attacker": True}, distance_ft=5)
+    assert illegal.exit_code == 1
+    assert "condition.charmed.cant-harm-charmer" in illegal.rule_ids
+    # against anyone else, Charmed imposes nothing
+    other = attack(attacker={"conditions": ["Charmed"]}, target={}, distance_ft=5)
+    assert other.exit_code == 0 and other.data["roll"] == "straight"
+
+
+def test_target_petrified_and_unconscious_grant_advantage():
+    for cond in ("Petrified", "Unconscious"):
+        v = attack(attacker={}, target={"conditions": [cond]}, distance_ft=30)
+        assert v.data["roll"] == "advantage", cond
+
+
+def test_unconscious_and_paralyzed_auto_crit_within_5ft():
+    for cond in ("Unconscious", "Paralyzed"):
+        near = attack(attacker={}, target={"conditions": [cond]}, distance_ft=5)
+        assert near.data.get("auto_crit_on_hit"), cond
+        far = attack(attacker={}, target={"conditions": [cond]}, distance_ft=30)
+        assert not far.data.get("auto_crit_on_hit"), cond

@@ -26,9 +26,12 @@ def _counts():
 
 def test_in_scope_coverage_floor():
     # ratchet: raise this floor whenever an engine slice closes a gap. Never lower.
-    # 0.64 (M0 census) -> 0.89 (M1 combat resolution closed damage/death/saves).
+    # 0.64 (M0 census) -> 0.89 (M1 combat resolution) -> 1.0 (condition
+    # completeness pass: every SRD condition now adjudicates on the built
+    # surfaces; see test_condition_completeness). At 1.0, a new in-scope event
+    # for an unbuilt effect is meant to fail here — model it or classify it.
     adj, total = _counts()
-    assert adj / total >= 0.89, f"in-scope coverage regressed: {adj}/{total}"
+    assert adj / total >= 1.0, f"in-scope coverage regressed: {adj}/{total}"
 
 
 def test_out_of_scope_stays_uncovered():

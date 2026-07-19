@@ -74,16 +74,62 @@ def mage_hand_use(adapter, p):
 # models. Any other condition yields exit 2 rather than a silently wrong
 # verdict (T1/T8) — several unmodeled conditions (Stunned, Paralyzed, ...)
 # include Incapacitated, so ignoring them would corrupt verdicts.
-_MODELED_CONDITIONS = {"grappled", "prone", "incapacitated"}
+# completeness pass: every SRD condition with a codified turn-economy effect (or
+# none) is handled, so none is silently refused as merely unbuilt. Petrified and
+# Unconscious DEFINITIONALLY embed Incapacitated (and Unconscious embeds Prone);
+# Frightened/Poisoned/Charmed/Deafened impose no economy restriction this surface
+# can check (Frightened's can't-approach is direction geometry, deferred by T6).
+# Every SRD condition is modeled on this surface EXCEPT Exhaustion, whose effect
+# here is a graduated per-level Speed reduction (not the flat Speed 0 this surface
+# handles); it is an explicitly reasoned deferral, not a silent refusal.
+_MODELED_CONDITIONS = {"grappled", "prone", "incapacitated", "frightened",
+                       "poisoned", "charmed", "deafened", "petrified",
+                       "unconscious", "blinded", "invisible", "restrained",
+                       "stunned", "paralyzed"}
+# source condition -> (implied conditions it embeds, the citing atom for the embed)
+_CONDITION_EMBEDS = {
+    "stunned": (["incapacitated"], "condition.stunned.incapacitated"),
+    "paralyzed": (["incapacitated"], "condition.paralyzed.incapacitated"),
+    "petrified": (["incapacitated"], "condition.petrified.incapacitated"),
+    "unconscious": (["incapacitated", "prone"], "condition.unconscious.inert"),
+}
+# conditions that set Speed 0 -> the atom that says so
+_SPEED_ZERO = {"grappled": "condition.grappled.speed-zero",
+               "restrained": "condition.restrained.speed-zero",
+               "paralyzed": "condition.paralyzed.speed-zero",
+               "petrified": "condition.petrified.speed-zero",
+               "unconscious": "condition.unconscious.speed-zero"}
+# known conditions deliberately deferred on the turn-economy surface, each with a
+# NAMED reason (an unbuilt surface capability, not "we didn't bother"). This keeps
+# the refusal honest per T8 while the completeness oracle records it.
+_ECONOMY_DEFERRED = {
+    "exhaustion": "Exhaustion reduces Speed by a graduated per-level amount "
+    "(not the flat Speed 0 this surface models); its movement effect is not "
+    "adjudicated here. Its attack-roll penalty is handled by attack.modifiers.",
+}
+
+
+def _expand_conditions(lower_conds):
+    """Expand definitional embeds (Petrified/Unconscious carry Incapacitated,
+    etc.). Returns (expanded_set, embed_atom_ids to co-cite when the embedded
+    effect fires) so a Petrified 'can't act' verdict cites *why* it's inactive."""
+    expanded, embeds = set(lower_conds), []
+    for c, (implied, atom_id) in _CONDITION_EMBEDS.items():
+        if c in lower_conds:
+            expanded.update(implied)
+            embeds.append(atom_id)
+    return expanded, embeds
 
 
 def _effective_speed(adapter, p, cites, rules):
     speed = p.get("speed", 0)
-    if "grappled" in p["_conds"]:
-        atom = adapter.atoms["condition.grappled.speed-zero"]
-        cites.append(_cite(atom))
-        rules.append(atom["id"])
-        return 0
+    for c, atom_id in _SPEED_ZERO.items():
+        if c in p["_conds"]:
+            atom = adapter.atoms[atom_id]
+            cites.append(_cite(atom))
+            rules.append(atom["id"])
+            p["_speed_zero_atom"] = atom_id  # so budget verdicts cite *why*
+            return 0
     return speed
 
 
@@ -112,13 +158,15 @@ def turn_plan(adapter, p):
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset; the plan "
                 "cannot be adjudicated.", adapter=aid)
+        if c.lower() in _ECONOMY_DEFERRED:
+            return v.cannot_adjudicate(_ECONOMY_DEFERRED[c.lower()], adapter=aid)
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
                 "not modeled in this adapter version; refusing rather than "
                 "risking a wrong verdict.", adapter=aid)
     p = dict(p)
-    p["_conds"] = {c.lower() for c in conds}
+    p["_conds"], p["_embeds"] = _expand_conditions({c.lower() for c in conds})
 
     inc = a["condition.incapacitated.inactive"]
     spent = dict(p.get("spent", {}))
@@ -146,9 +194,11 @@ def turn_plan(adapter, p):
         do = step.get("do")
         if do in ("action", "bonus-action", "reaction"):
             if "incapacitated" in p["_conds"]:
+                ic = [_cite(inc)] + [_cite(a[e]) for e in p["_embeds"]]
+                ir = [inc["id"]] + list(p["_embeds"])
                 return v.illegal(
                     f"Step {i} ({do}): {inc['citation']['quote']}",
-                    [_cite(inc)], aid, [inc["id"]])
+                    ic, aid, ir)
             b = step_budget[do]
             if budgets[b] < 1:
                 atom = a[budget_atoms[b]]
@@ -211,11 +261,16 @@ def turn_plan(adapter, p):
                 rules.append(cr["id"])
             mb = a["turn.movement-budget"]
             if moved + cost > speed:
+                mcites, mrules = [_cite(mb)], [mb["id"]]
+                sz = p.get("_speed_zero_atom")
+                if sz and speed == 0:
+                    mcites.append(_cite(a[sz]))
+                    mrules.append(sz)
                 return v.illegal(
                     f"Step {i}: {feet} ft ({cost} ft of movement) exceeds the "
                     f"remaining budget ({speed - moved} of {speed} ft). "
                     f"{mb['citation']['quote']}",
-                    [_cite(mb)], aid, [mb["id"]])
+                    mcites, aid, mrules)
             moved += cost
         else:
             return v.cannot_adjudicate(
@@ -260,6 +315,9 @@ def _condition_gate(adapter, p):
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset.",
                 adapter=adapter.id)
+        if c.lower() in _ECONOMY_DEFERRED:
+            return v.cannot_adjudicate(_ECONOMY_DEFERRED[c.lower()],
+                                       adapter=adapter.id)
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
@@ -275,7 +333,10 @@ def turn_options(adapter, p):
     if gate:
         return gate
     a, aid = adapter.atoms, adapter.id
-    conds = {c.strip().lower() for c in p.get("conditions", [])}
+    conds, embeds = _expand_conditions(
+        {c.strip().lower() for c in p.get("conditions", [])})
+    p = dict(p)
+    p["_conds"] = conds
     spent = dict(p.get("spent", {}))
     cites, rules, options, notes = [], [], [], []
 
@@ -287,6 +348,8 @@ def turn_options(adapter, p):
     incapacitated = "incapacitated" in conds
     if incapacitated:
         add_cite("condition.incapacitated.inactive")
+        for e in embeds:
+            add_cite(e)
         notes.append("Incapacitated: no action, Bonus Action, or Reaction — "
                      "movement is not blocked by this condition.")
     else:
@@ -304,9 +367,11 @@ def turn_options(adapter, p):
         options.append({"do": "free-interaction"})
 
     speed = p.get("speed", 0)
-    if "grappled" in conds:
-        add_cite("condition.grappled.speed-zero")
-        speed = 0
+    for c, atom_id in _SPEED_ZERO.items():
+        if c in conds:
+            add_cite(atom_id)
+            speed = 0
+            break
     left = max(0, speed - int(spent.get("movement_ft", 0)))
     prone = "prone" in conds
     if prone:
@@ -332,7 +397,16 @@ def turn_options(adapter, p):
 # Attack-roll modifier composition. Conditions whose attack effects this
 # adapter version models; anything else known yields exit 2 (T1/T8).
 _ATTACK_MODELED = {"prone", "invisible", "blinded", "restrained", "paralyzed",
-                   "stunned", "grappled", "incapacitated"}
+                   "stunned", "grappled", "incapacitated",
+                   # completeness pass: every SRD condition with a codified
+                   # attack-roll / attack-legality effect (or none) is handled,
+                   # so none is silently refused as merely unbuilt.
+                   "frightened", "poisoned", "charmed", "deafened",
+                   "petrified", "unconscious",
+                   # Exhaustion's attack penalty is graduated: it comes through
+                   # the exhaustion_level param, not adv/disadv from the bare
+                   # name. Listed here so the name isn't refused as unbuilt.
+                   "exhaustion"}
 
 
 def _compose(adapter, adv, dis):
@@ -408,6 +482,27 @@ def attack_modifiers(adapter, p):
         cites.append(_cite(atom))
         rules.append(atom_id)
 
+    # Charmed is a legality question, not a modifier: a Charmed attacker can't
+    # attack the charmer. Only decidable when the caller says the target IS the
+    # charmer; otherwise it's just Disadvantage-free and legal.
+    if "charmed" in ac and tgt.get("is_charmer_of_attacker"):
+        atom = a["condition.charmed.cant-harm-charmer"]
+        return v.illegal(
+            "The attacker is Charmed by the target: it can't attack the charmer.",
+            [_cite(atom)], aid, [atom["id"]])
+    if "frightened" in ac:
+        # gated on line of sight to the source of fear (a caller fact, defaulting
+        # to the common case that a frightened creature can see what scares it).
+        if atk.get("frightened_source_in_sight", True):
+            hit("condition.frightened.attacks", dis,
+                "attacker is Frightened and the source of fear is in sight")
+        else:
+            atom = a["condition.frightened.attacks"]
+            cites.append(_cite(atom))
+            rules.append(atom["id"])  # cited, but no Disadvantage: source unseen
+    if "poisoned" in ac:
+        hit("condition.poisoned.attacks", dis, "attacker is Poisoned")
+
     if "prone" in ac:
         hit("condition.prone.attacks", dis, "attacker is Prone")
     if "blinded" in ac:
@@ -435,9 +530,23 @@ def attack_modifiers(adapter, p):
     for cond, atom_id in (("blinded", "condition.blinded.attacks"),
                           ("restrained", "condition.restrained.attacks"),
                           ("paralyzed", "condition.paralyzed.attacks"),
-                          ("stunned", "condition.stunned.attacks")):
+                          ("stunned", "condition.stunned.attacks"),
+                          ("petrified", "condition.petrified.attacks"),
+                          ("unconscious", "condition.unconscious.attacks")):
         if cond in tc:
             hit(atom_id, adv, f"target is {cond.capitalize()}")
+    auto_crit = None
+    for cond, atom_id in (("unconscious", "condition.unconscious.auto-crit"),
+                          ("paralyzed", "condition.paralyzed.auto-crit")):
+        if cond in tc:
+            crit = a[atom_id]
+            if dist <= crit["params"]["within_ft"]:
+                auto_crit = (f"target is {cond.capitalize()} and the attacker is "
+                             f"within {crit['params']['within_ft']} ft ({dist} ft)"
+                             ": a hit is a Critical Hit")
+                cites.append(_cite(crit))
+                rules.append(crit["id"])
+            break
     if "invisible" in tc:
         if atk.get("can_see_target"):
             atom = a["condition.invisible.attacks"]
@@ -457,6 +566,8 @@ def attack_modifiers(adapter, p):
     data = {"roll": mode, "d20s": dice,
             "advantage_sources": adv, "disadvantage_sources": dis,
             "flat_modifiers": []}
+    if auto_crit:
+        data["auto_crit_on_hit"] = auto_crit
     lvl = int(atk.get("exhaustion_level", 0))
     if lvl:
         ex = a["condition.exhaustion.d20-penalty"]
@@ -468,6 +579,8 @@ def attack_modifiers(adapter, p):
     why = f"Attack roll: {mode} ({dice} d20)."
     if data["flat_modifiers"]:
         why += f" Flat modifier {data['flat_modifiers'][0]['value']} (Exhaustion)."
+    if auto_crit:
+        why += f" A hit is a Critical Hit ({auto_crit.split(': ')[0]})."
     return v.legal(why, cites, aid, rules, data=data)
 
 
@@ -475,10 +588,14 @@ def attack_modifiers(adapter, p):
 # Stunned/Paralyzed embed Incapacitated (cited atoms); unknown or unmodeled
 # conditions refuse rather than record state we would later misjudge.
 _STATE_CONDITIONS = {"grappled", "prone", "incapacitated", "invisible",
-                     "blinded", "restrained", "stunned", "paralyzed"}
+                     "blinded", "restrained", "stunned", "paralyzed",
+                     "frightened", "poisoned", "charmed", "deafened",
+                     "petrified", "unconscious"}
 _EMBEDS_INCAPACITATED = {"incapacitated": None,
                          "stunned": "condition.stunned.incapacitated",
-                         "paralyzed": "condition.paralyzed.incapacitated"}
+                         "paralyzed": "condition.paralyzed.incapacitated",
+                         "petrified": "condition.petrified.incapacitated",
+                         "unconscious": "condition.unconscious.inert"}
 
 _FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
                "reaction_spent": False, "free_interaction_spent": False,
