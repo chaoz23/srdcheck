@@ -88,12 +88,23 @@ def test_stunned_is_incapacitated_cant_act():
     assert "condition.stunned.incapacitated" in v.rule_ids
 
 
-def test_exhaustion_economy_is_a_reasoned_deferral():
-    # the one condition deferred on this surface refuses with a NAMED reason
-    # (graduated Speed reduction), never the generic "not modeled".
+def test_exhaustion_without_level_asks_for_it():
+    # the name alone can't resolve a graduated effect: refuse with a NAMED reason.
     v = plan([{"do": "action"}], conditions=["Exhaustion"])
     assert v.exit_code == 2
     assert "graduated" in v.why and "not modeled" not in v.why
+
+
+def test_exhaustion_reduces_speed_5ft_per_level():
+    # level 2 -> Speed 30 becomes 20; a 25 ft move is now illegal.
+    over = E.query("turn.plan", {"speed": 30, "conditions": ["Exhaustion"],
+                                 "exhaustion_level": 2,
+                                 "plan": [{"do": "move", "feet": 25}]})
+    assert over.exit_code == 1 and "condition.exhaustion.speed-reduction" in over.rule_ids
+    ok = E.query("turn.plan", {"speed": 30, "conditions": ["Exhaustion"],
+                               "exhaustion_level": 2,
+                               "plan": [{"do": "move", "feet": 15}]})
+    assert ok.exit_code == 0
 
 
 def test_unknown_step_exit_2():

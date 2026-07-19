@@ -13,7 +13,13 @@
      "items": {
       "type": "string"
      },
-     "description": "active conditions by name (unmodeled ones are honestly refused)"
+     "description": "active conditions by name (all 15 SRD conditions modeled; unknown names refused)"
+    },
+    "exhaustion_level": {
+     "type": "integer",
+     "minimum": 0,
+     "maximum": 6,
+     "description": "required to adjudicate movement when Exhaustion is present (reduces Speed 5 ft per level)"
     },
     "spent": {
      "type": "object",

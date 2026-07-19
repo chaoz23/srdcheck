@@ -51,7 +51,7 @@ CONDITION_EFFECTS = {
                 (D, "social-check-surface")],
     "Deafened": [(D, "ability-check-surface")],
     "Exhaustion": [(M, "condition.exhaustion.d20-penalty"),  # d20 Tests incl saves
-                   (D, "graduated-speed")],
+                   (M, "condition.exhaustion.speed-reduction")],
     "Frightened": [(M, "condition.frightened.attacks"), (D, "geometry")],
     "Grappled": [(M, "condition.grappled.attacks"),
                  (M, "condition.grappled.speed-zero")],

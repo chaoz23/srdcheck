@@ -64,5 +64,8 @@
    "quote": "Saving Throws Affected. You automatically fail Strength and Dexterity saving throws."}},
  {"id": "condition.restrained.saves", "kind": "definition", "params": {},
   "citation": {"section": "Rules Glossary > Restrained [Condition]", "page": 187,
-   "quote": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws."}}
+   "quote": "Saving Throws Affected. You have Disadvantage on Dexterity saving throws."}},
+ {"id": "condition.exhaustion.speed-reduction", "kind": "limit", "params": {"per_level": 5},
+  "citation": {"section": "Rules Glossary > Exhaustion [Condition]", "page": 181,
+   "quote": "Speed Reduced. Your Speed is reduced by a number of feet equal to 5 times your Exhaustion level."}}
 ]
