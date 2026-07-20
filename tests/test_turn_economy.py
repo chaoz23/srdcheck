@@ -88,6 +88,23 @@ def test_stunned_is_incapacitated_cant_act():
     assert "condition.stunned.incapacitated" in v.rule_ids
 
 
+def test_difficult_terrain_doubles_move_cost():
+    # 20 ft through Difficult Terrain costs 40 on Speed 30 -> illegal
+    over = plan([{"do": "move", "feet": 20, "difficult_terrain": True}])
+    assert over.exit_code == 1 and "movement.difficult-terrain" in over.rule_ids
+    assert plan([{"do": "move", "feet": 15, "difficult_terrain": True}]).exit_code == 0
+
+
+def test_crawling_in_difficult_terrain_is_additive_triple():
+    # base + crawl(+1) + difficult(+1) = 3x per foot; 10 ft costs 30 (ok on 30)
+    ok = plan([{"do": "move", "feet": 10, "crawl": True,
+                "difficult_terrain": True}], conditions=["Prone"])
+    assert ok.exit_code == 0
+    over = plan([{"do": "move", "feet": 11, "crawl": True,
+                  "difficult_terrain": True}], conditions=["Prone"])
+    assert over.exit_code == 1
+
+
 def test_exhaustion_without_level_asks_for_it():
     # the name alone can't resolve a graduated effect: refuse with a NAMED reason.
     v = plan([{"do": "action"}], conditions=["Exhaustion"])

@@ -67,6 +67,10 @@
        "crawl": {
         "type": "boolean"
        },
+       "difficult_terrain": {
+        "type": "boolean",
+        "description": "the move is through Difficult Terrain (each foot costs 1 extra foot; additive with crawling)"
+       },
        "spell": {
         "type": "object",
         "properties": {

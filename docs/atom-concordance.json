@@ -367,6 +367,12 @@
    "section": "Rules Glossary > Crawling",
    "quote": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain)."
   },
+  "movement.difficult-terrain": {
+   "adapter": "srd-5.2.1",
+   "page": 181,
+   "section": "Rules Glossary > Difficult Terrain",
+   "quote": "If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot."
+  },
   "opportunity-attack.avoiding": {
    "adapter": "srd-5.2.1",
    "page": 15,
@@ -553,7 +559,8 @@
   "srd-5.2.1 p.181": [
    "condition.deafened.cant-hear",
    "condition.exhaustion.d20-penalty",
-   "condition.exhaustion.speed-reduction"
+   "condition.exhaustion.speed-reduction",
+   "movement.difficult-terrain"
   ],
   "srd-5.2.1 p.182": [
    "condition.frightened.attacks",

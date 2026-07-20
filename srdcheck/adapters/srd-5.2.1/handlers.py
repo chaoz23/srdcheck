@@ -247,21 +247,28 @@ def turn_plan(adapter, p):
         elif do == "move":
             feet = int(step.get("feet", 0))
             crawl = bool(step.get("crawl"))
+            difficult = bool(step.get("difficult_terrain"))
             if prone and not crawl:
                 pr = a["condition.prone.movement"]
                 return v.illegal(
                     f"Step {i}: moving while Prone without crawling. "
                     f"{pr['citation']['quote']}",
                     [_cite(pr)], aid, [pr["id"]])
-            cost = feet * 2 if crawl else feet
+            # each "1 extra foot" cost is additive (crawling in Difficult Terrain
+            # = 2 extra feet per foot, per the Crawling rule).
+            cost = feet * (1 + int(crawl) + int(difficult))
+            cost_atoms = []
             if crawl:
-                cr = a["movement.crawling-cost"]
-                cites.append(_cite(cr))
-                rules.append(cr["id"])
+                cost_atoms.append("movement.crawling-cost")
+            if difficult:
+                cost_atoms.append("movement.difficult-terrain")
+            for cid in cost_atoms:
+                cites.append(_cite(a[cid]))
+                rules.append(cid)
             mb = a["turn.movement-budget"]
             if moved + cost > speed:
                 mcites, mrules = [_cite(mb)], [mb["id"]]
-                for sz in p.get("_speed_cause_atoms", []):
+                for sz in list(p.get("_speed_cause_atoms", [])) + cost_atoms:
                     mcites.append(_cite(a[sz]))
                     mrules.append(sz)
                 return v.illegal(

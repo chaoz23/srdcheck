@@ -42,5 +42,9 @@
  {"id": "movement.crawling-cost", "kind": "limit",
   "params": {"extra_ft_per_ft": 1},
   "citation": {"section": "Rules Glossary > Crawling", "page": 179,
-   "quote": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain)."}}
+   "quote": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain)."}},
+ {"id": "movement.difficult-terrain", "kind": "limit",
+  "params": {"extra_ft_per_ft": 1},
+  "citation": {"section": "Rules Glossary > Difficult Terrain", "page": 181,
+   "quote": "If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot."}}
 ]
