@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: srdcheck
-Version: 0.1.5
+Version: 0.1.6
 Summary: Deterministic rules verdicts for game-running agents — cited, reproducible, honest about jurisdiction. SRD 5.2.1 is adapter #1.
 Author: chaoz23
 License-Expression: MIT
@@ -32,6 +32,8 @@ A model running a game is a brilliant improviser with a finite attention budget.
 
 We tested this before building. Frontier models answered our SRD rules questions nearly perfectly — and confidently ruled on house rules, GM discretion, and content that doesn't exist in the SRD, where the only correct answer is "not my call." Small local models got 19–30% wrong with zero refusals. So srdcheck does not compete with what models know. It is a rail: state in, verdict out, citations attached, deterministically, every time.
 
+**It matters most when the table isn't one model but several.** A game increasingly runs as *multiple* agents sharing one evolving state — a GM, player agents, a rules referee, tool-callers. There the problem stops being any single agent's attention budget and becomes **consistency**: five capable models will each read the SRD and adjudicate grapple, concentration, or a death save a little differently, and the shared game state quietly desyncs. No amount of individual intelligence guarantees they agree with *each other*, and every re-derivation is another chance to drift. A deterministic rail they all call — the same [atoms](docs/atom-concordance.md), the same citations, the same verdict every time — is the thing that keeps them in lockstep and gives every ruling a single provenance any of them (or a human) can audit. That is where srdcheck stops being a convenience and becomes load-bearing.
+
 ## What it is
 
 srdcheck answers one kind of question: *is this legal under the rules?* — and one better one: *what is legal right now?*
@@ -45,13 +47,15 @@ srdcheck answers one kind of question: *is this legal under the rules?* — and 
 
 See [docs/product-truths.md](docs/product-truths.md) for the invariants this project holds itself to, and [docs/anatomy-of-a-turn.md](docs/anatomy-of-a-turn.md) for where srdcheck sits in a game-running agent's pipeline — a combat turn, a stealth infiltration, and the Mage Hand test, worked end to end.
 
+**Show your work.** A big context window can *read* the SRD; srdcheck's value is the layer above — a consistent, cited set of rule atoms and a shared schema that several agents can rely on without each re-deriving the rules into context and drifting apart. [`docs/atom-concordance.md`](docs/atom-concordance.md) is the audit trail for that layer: every rule the engine applies, mapped to the exact SRD text it's grounded in (forward and inverse), generated and CI-checked-fresh, with a verbatim-citation oracle proving each quote really is on its cited page. A machine-readable [`atom-concordance.json`](docs/atom-concordance.json) is the slim index an agent can load to know what the rail covers and where it came from.
+
 ## What srdcheck does not check yet
 
 Honesty is the product (truth T8), so the boundaries are stated, not implied. As of v0.1 the SRD adapter covers combat-turn fundamentals; it does **not** yet check:
 
 - **Feature prerequisites.** `turn.plan` judges the turn's *action economy* — that you spent at most one action, one bonus action, one reaction, one spell slot. It does not verify that a feature actually grants a given action. A lone two-weapon-fighting offhand attack is "action-economy legal" even though the 2024 rules require the Attack action first; that prerequisite lives in the character's features, which this version doesn't model. The success message says so explicitly.
 - **Per-spell effects.** Damage/HP, death saves, and saving throws are now modeled (the reducer folds `damage`/`heal`/`death-save`; `save.check` and `concentration.check` resolve caller-rolled saves), but *what a given spell does* — Fireball's 8d6, Hold Person's paralysis on a failed save — is the long-tail swamp and stays refused. srdcheck computes the save; it does not roll the dice or apply the spell's bespoke effect.
-- **Conditions beyond** Grappled, Prone, Incapacitated, Invisible, Blinded, Restrained, Stunned, Paralyzed. Any other condition is refused (exit 2), never guessed — including Unconscious, which the reducer *sets* when a creature drops to 0 HP but whose attack/turn effects the adjudication queries don't yet model.
+- **Conditions — all 15 are fully modeled** across every surface srdcheck exposes: attack rolls/legality, action economy and Speed (incl. Exhaustion's graduated reduction), condition-aware saving throws (auto-fail Str/Dex, Restrained's Dex Disadvantage) and ability checks (Blinded/Deafened auto-fail sight/hearing, Poisoned/Frightened Disadvantage), damage typing (Petrified's Resistance to all), and condition immunity (Petrified vs Poisoned). A [completeness oracle](tests/test_condition_completeness.py) enforces in CI that every codified clause is cited-and-modeled — the only clauses left deferred are the three srdcheck **never** owns by doctrine (T6): positional geometry (Frightened's "can't approach"), the initiative order, and stealth/perception contests. Those return exit 2 by principle, not for lack of building.
 - **Content outside the SRD 5.2.1** — subclasses, feats, spells, and monsters not in the SRD return exit 2 from `jurisdiction`.
 
 Nonsensical inputs (negative Speed, a 99th-level spell, exhaustion past 6) return exit 2 rather than a confident-looking answer. When in doubt, srdcheck refuses — a wrong verdict is the only unforgivable bug.
@@ -70,7 +74,7 @@ $ python -m srdcheck query mage-hand.use '{"kind": "attack"}'
   "citations": [{"section": "SRD 5.2.1 p.145 'Spells > Mage Hand'", "page": 145,
                  "quote": "The hand can't attack"}],
   "rule_ids": ["mage-hand.cant-attack"],
-  "adapter": "srd-5.2.1@0.1.1"
+  "adapter": "srd-5.2.1@0.1.4"
 }
 $ python -m srdcheck --schema                          # I/O contract for agents
 ```
@@ -93,7 +97,7 @@ srdcheck is an MCP server with zero dependencies — stdlib only. After `pip ins
 }
 ```
 
-Fifteen tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save`, into a verdict plus a hash-stamped next state), `save_check`/`concentration_check` (resolve a caller-rolled d20 against a DC, and compute the concentration-save DC from damage taken — srdcheck folds, never rolls), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
+Twenty tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers` (conditions, distance, and the ranged-in-close-combat Disadvantage), `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save` with damage typing, into a verdict plus a hash-stamped next state), `save_check`/`check_make`/`concentration_check` (resolve a caller-rolled d20 against a DC — condition-aware saving throws and ability checks, and the concentration-save DC from damage taken — srdcheck folds, never rolls), `opportunity_attack_provoked` (the provoke rule and its exceptions), `grapple_initiate` (Grapple/Shove DC + size legality), `passive_perception` (10 + modifier, and it refuses the non-SRD ±5), `help_assist` (the Help action's proficiency gate), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
 
 ## As a Python library
 
@@ -135,8 +139,8 @@ Generated by `scripts/truth_scorecard.py` — regenerated and diff-checked in CI
 
 | truth | claim | status | evidence |
 |---|---|---|---|
-| T1 | wrong verdicts | enforced in CI | 157 tests including gold suites ported from the Phase 0 eval; any wrong verdict fails the build |
-| T2 | no citation, no rule | enforced in CI | 49/49 rule atoms carry verbatim source quotes; every-verdict-cites tests on all adjudicated paths |
+| T1 | wrong verdicts | enforced in CI | 219 tests including gold suites ported from the Phase 0 eval; any wrong verdict fails the build |
+| T2 | no citation, no rule | enforced in CI | 88/88 rule atoms carry verbatim source quotes; every-verdict-cites tests on all adjudicated paths |
 | T3 | advise, never overrule | structural | the API has no blocking or veto interface to wire; verdicts are advisory by construction |
 | T4 | one payload, two audiences | enforced in CI | every verdict carries machine fields plus a templated plain-English why; schema-tested |
 | T5 | enumeration is the product | proven in CI | consistency sweeps (50 turn states + toy boards) verify enumerate/validate agreement in both directions on every push |
@@ -144,10 +148,10 @@ Generated by `scripts/truth_scorecard.py` — regenerated and diff-checked in CI
 | T7 | mechanism never knows the game | enforced in CI | kernel lint scans every kernel module for game vocabulary (it caught a real violation during development) |
 | T8 | honest boundaries | enforced in CI | refusal goldens: unknown content, unmodeled conditions, and genuinely ambiguous rules text all return exit 2 with citations |
 | T9 | never a single number | enforced in CI | bench scorecard freshness test; per-category tables, no aggregate score exists anywhere in this repository — even the leaderboard ranks by wrong-count alone (T1) and shows the other failure modes unblended |
-| T10 | stranger-agent bootstrap | enforced in CI | cold-start conformance test reaches a first verdict from tool.json/--schema/MCP alone (15 tools); live probe: a frontier model given only tool.json produced a correct first verdict in 1 attempt(s), 3.9s (2026-07-16) |
+| T10 | stranger-agent bootstrap | enforced in CI | cold-start conformance test reaches a first verdict from tool.json/--schema/MCP alone (20 tools); live probe: a frontier model given only tool.json produced a correct first verdict in 1 attempt(s), 3.9s (2026-07-16) |
 | T11 | table speed | enforced in CI | p95 latency budget test: 100 verdicts must stay under 100 ms at p95 (typically sub-millisecond) |
 | T12 | never sell what the model has | held in review | a strategy invariant: features pitched on knowledge parity are cut in review — enforced by humans and admitted as such |
-| T13 | the benchmark is a product | shipped | bench/ publishes 4 sets across 5 subjects with cited gold verdicts, incl. a per-horizon drift lane whose golds are engine-derived; a generated LEADERBOARD ranks any subject; cmd: driver + validate command let a third party submit a tamper-checked result |
+| T13 | the benchmark is a product | shipped | bench/ publishes 5 sets across 5 subjects with cited gold verdicts, incl. a per-horizon drift lane whose golds are engine-derived; a generated LEADERBOARD ranks any subject; cmd: driver + validate command let a third party submit a tamper-checked result |
 | T14 | every state has a lineage | enforced in CI | event.apply reducer stamps every transition (predecessor hash, causing event, rule ids, rule-vs-ruling kind); tests cover replay verification, tamper detection, the schema minimality ratchet, and reducer/validator agreement; demo replays 15 rounds hash-for-hash |
 <!-- truth-scorecard:end -->
 
