@@ -513,5 +513,19 @@
     "disadvantage": {"type": "boolean", "description": "not part of the SRD passive formula; triggers an honest refusal"}
    }
   }
+ },
+ "help.assist": {
+  "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires choosing one of the helper's own skill/tool proficiencies — without the relevant proficiency it can't grant Advantage (illegal); the GM has final say on whether assistance is possible (surfaced as data.gm_discretion, not adjudicated). Assist an Attack Roll needs an enemy within 5 ft. Returns data {grants_advantage}. kind = ability-check | attack-roll.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "kind": {"enum": ["ability-check", "attack-roll"]},
+    "helper_has_relevant_proficiency": {"type": "boolean", "description": "does the helper have the relevant skill/tool proficiency (required to Assist an Ability Check)"},
+    "enemy_within_5ft": {"type": "boolean", "description": "is the distracted enemy within 5 ft (required to Assist an Attack Roll)"}
+   },
+   "required": [
+    "kind"
+   ]
+  }
  }
 }

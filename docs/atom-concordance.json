@@ -307,6 +307,24 @@
    "section": "Gameplay Toolbox > Building Combat Encounters > XP Budget per Character",
    "quote": "Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter."
   },
+  "help.assist-ability-advantage": {
+   "adapter": "srd-5.2.1",
+   "page": 183,
+   "section": "Rules Glossary > Help [Action] > Assist an Ability Check",
+   "quote": "That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The GM has final say on whether your assistance is possible."
+  },
+  "help.assist-attack": {
+   "adapter": "srd-5.2.1",
+   "page": 183,
+   "section": "Rules Glossary > Help [Action] > Assist an Attack Roll",
+   "quote": "You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."
+  },
+  "help.assist-choose-proficiency": {
+   "adapter": "srd-5.2.1",
+   "page": 182,
+   "section": "Rules Glossary > Help [Action] > Assist an Ability Check",
+   "quote": "Choose one of your skill or tool proficiencies and one ally who is near"
+  },
   "hp.falling-unconscious": {
    "adapter": "srd-5.2.1",
    "page": 17,
@@ -584,7 +602,12 @@
    "condition.frightened.attacks",
    "condition.frightened.cant-approach",
    "condition.grappled.attacks",
-   "condition.grappled.speed-zero"
+   "condition.grappled.speed-zero",
+   "help.assist-choose-proficiency"
+  ],
+  "srd-5.2.1 p.183": [
+   "help.assist-ability-advantage",
+   "help.assist-attack"
   ],
   "srd-5.2.1 p.184": [
    "condition.incapacitated.inactive",

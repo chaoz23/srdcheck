@@ -1,0 +1,11 @@
+[
+ {"id": "help.assist-choose-proficiency", "kind": "limit", "params": {},
+  "citation": {"section": "Rules Glossary > Help [Action] > Assist an Ability Check", "page": 182,
+   "quote": "Choose one of your skill or tool proficiencies and one ally who is near"}},
+ {"id": "help.assist-ability-advantage", "kind": "definition", "params": {},
+  "citation": {"section": "Rules Glossary > Help [Action] > Assist an Ability Check", "page": 183,
+   "quote": "That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The GM has final say on whether your assistance is possible."}},
+ {"id": "help.assist-attack", "kind": "definition", "params": {"within_ft": 5},
+  "citation": {"section": "Rules Glossary > Help [Action] > Assist an Attack Roll", "page": 183,
+   "quote": "You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn."}}
+]

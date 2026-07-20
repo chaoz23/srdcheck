@@ -1276,6 +1276,44 @@ def grapple_initiate(adapter, p):
               "save_ability": "str-or-dex (target's choice)", "on_fail": on_fail})
 
 
+def help_assist(adapter, p):
+    """Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check
+    requires choosing one of YOUR skill/tool proficiencies — without the relevant
+    proficiency it can't grant Advantage on that check (the codified gate), and
+    the GM has final say on whether the assistance is possible (surfaced, not
+    adjudicated). Assist an Attack Roll needs an enemy within 5 ft. `kind` =
+    ability-check | attack-roll."""
+    a, aid = adapter.atoms, adapter.id
+    kind = (p.get("kind") or "ability-check").lower()
+    if kind == "ability-check":
+        prof = a["help.assist-choose-proficiency"]
+        adv = a["help.assist-ability-advantage"]
+        if p.get("helper_has_relevant_proficiency") is False:
+            return v.illegal(
+                "Assist an Ability Check requires choosing one of your own skill "
+                "or tool proficiencies; without the relevant proficiency, Help "
+                "can't grant Advantage on that check.",
+                [_cite(prof)], aid, [prof["id"]])
+        return v.legal(
+            "The ally has Advantage on their next ability check with the chosen "
+            "skill or tool (expires at the start of your next turn). The GM has "
+            "final say on whether the assistance is possible.",
+            [_cite(prof), _cite(adv)], aid, [prof["id"], adv["id"]],
+            data={"grants_advantage": True, "gm_discretion": True})
+    if kind == "attack-roll":
+        atk = a["help.assist-attack"]
+        if p.get("enemy_within_5ft", True) is False:
+            return v.illegal(
+                "Assist an Attack Roll requires an enemy within 5 feet of you.",
+                [_cite(atk)], aid, [atk["id"]])
+        return v.legal(
+            "One of your allies has Advantage on their next attack roll against "
+            "that enemy (expires at the start of your next turn).",
+            [_cite(atk)], aid, [atk["id"]], data={"grants_advantage": True})
+    return v.cannot_adjudicate(
+        "kind must be 'ability-check' or 'attack-roll'.", adapter=aid)
+
+
 def passive_perception(adapter, p):
     """Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD
     5.2.1 p.22). The SRD defines no Advantage/Disadvantage adjustment to a
@@ -1311,4 +1349,5 @@ HANDLERS = {
     "opportunity-attack.provoked": opportunity_attack_provoked,
     "grapple.initiate": grapple_initiate,
     "passive.perception": passive_perception,
+    "help.assist": help_assist,
 }
