@@ -1276,6 +1276,24 @@ def grapple_initiate(adapter, p):
               "save_ability": "str-or-dex (target's choice)", "on_fail": on_fail})
 
 
+def passive_perception(adapter, p):
+    """Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD
+    5.2.1 p.22). The SRD defines no Advantage/Disadvantage adjustment to a
+    passive score, so a request for one is honestly refused (T2/T8) rather than
+    applying a ±5 rule this ruleset doesn't contain."""
+    a, aid = adapter.atoms, adapter.id
+    atom = a["passive.perception-formula"]
+    if p.get("advantage") or p.get("disadvantage"):
+        return v.cannot_adjudicate(
+            "SRD 5.2.1 defines Passive Perception as 10 + the check modifier and "
+            "specifies no Advantage/Disadvantage adjustment to a passive score; "
+            "that ±5 rule is not in this ruleset.", [_cite(atom)], aid, [atom["id"]])
+    mod = int(p.get("perception_modifier", 0))
+    score = atom["params"]["base"] + mod
+    return v.legal(f"Passive Perception = 10 + {mod} = {score}.",
+                   [_cite(atom)], aid, [atom["id"]], data={"score": score})
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -1292,4 +1310,5 @@ HANDLERS = {
     "concentration.check": concentration_check,
     "opportunity-attack.provoked": opportunity_attack_provoked,
     "grapple.initiate": grapple_initiate,
+    "passive.perception": passive_perception,
 }
