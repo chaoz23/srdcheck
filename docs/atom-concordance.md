@@ -8,7 +8,7 @@ A large context window can *read* the SRD. srdcheck's value is the layer above: 
 
 Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 
-## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (80 atoms)
+## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (83 atoms)
 
 | Atom | Page | Rule (verbatim) |
 |---|---|---|
@@ -63,6 +63,9 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 | `death-save.natural-1-and-20` | p.18 | When you roll a 1 on the d20 for a Death Saving Throw, you suffer two failures. If you roll a 20 on the d20, you regain 1 Hit Point. |
 | `death-save.reset-on-heal` | p.17 | The number of both is reset to zero when you regain any Hit Points or become Stable. |
 | `encounter.xp-budget-per-character` | p.202 | Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter. |
+| `help.assist-ability-advantage` | p.183 | That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The GM has final say on whether your assistance is possible. |
+| `help.assist-attack` | p.183 | You momentarily distract an enemy within 5 feet of you, giving Advantage to the next attack roll by one of your allies against that enemy. This benefit expires at the start of your next turn. |
+| `help.assist-choose-proficiency` | p.182 | Choose one of your skill or tool proficiencies and one ally who is near |
 | `hp.falling-unconscious` | p.17 | If you reach 0 Hit Points and don't die instantly, you have the Unconscious condition |
 | `hp.healing-restores` | p.17 | Your Hit Points can't exceed your Hit Point maximum, so any Hit Points regained in excess of the maximum are lost. |
 | `hp.massive-damage-death` | p.17 | When damage reduces a character to 0 Hit Points and damage remains, the character dies if the remainder equals or exceeds their Hit Point maximum. |
@@ -112,7 +115,8 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 - **p.178** — `condition.charmed.cant-harm-charmer`, `condition.charmed.social-advantage`
 - **p.179** — `concentration.breaks-on-incapacitated`, `concentration.one-effect`, `movement.crawling-cost`, `save.concentration-dc`
 - **p.181** — `condition.deafened.cant-hear`, `condition.exhaustion.d20-penalty`, `condition.exhaustion.speed-reduction`, `movement.difficult-terrain`
-- **p.182** — `condition.frightened.attacks`, `condition.frightened.cant-approach`, `condition.grappled.attacks`, `condition.grappled.speed-zero`
+- **p.182** — `condition.frightened.attacks`, `condition.frightened.cant-approach`, `condition.grappled.attacks`, `condition.grappled.speed-zero`, `help.assist-choose-proficiency`
+- **p.183** — `help.assist-ability-advantage`, `help.assist-attack`
 - **p.184** — `condition.incapacitated.inactive`, `condition.invisible.attacks`
 - **p.186** — `condition.paralyzed.attacks`, `condition.paralyzed.auto-crit`, `condition.paralyzed.incapacitated`, `condition.paralyzed.saves-fail`, `condition.paralyzed.speed-zero`, `condition.petrified.attacks`, `condition.petrified.incapacitated`, `condition.petrified.poison-immunity`, `condition.petrified.resist-damage`, `condition.petrified.saves-fail`, `condition.petrified.speed-zero`, `condition.poisoned.attacks`, `condition.prone.attacks`, `condition.prone.movement`, `turn.one-reaction-per-round`
 - **p.187** — `condition.restrained.attacks`, `condition.restrained.saves`, `condition.restrained.speed-zero`
