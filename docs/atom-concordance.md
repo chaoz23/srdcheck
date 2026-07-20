@@ -8,10 +8,11 @@ A large context window can *read* the SRD. srdcheck's value is the layer above: 
 
 Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 
-## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (73 atoms)
+## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (74 atoms)
 
 | Atom | Page | Rule (verbatim) |
 |---|---|---|
+| `attack.ranged-in-close-combat` | p.15 | When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition |
 | `concentration.breaks-on-incapacitated` | p.179 | Incapacitated or Dead. Your Concentration ends if you have the Incapacitated condition or you die. |
 | `concentration.one-effect` | p.179 | Another Concentration Effect. You lose Concentration on an effect the moment you start casting a spell that requires Concentration or activate another effect that requires Concentration. |
 | `condition.blinded.attacks` | p.177 | Attacks Affected. Attack rolls against you have Advantage, and your attack rolls have Disadvantage. |
@@ -94,6 +95,7 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 - **p.12** — `turn.one-free-interaction`
 - **p.13** — `turn.movement-budget`, `turn.one-action`
 - **p.14** — `turn.break-up-move`
+- **p.15** — `attack.ranged-in-close-combat`
 - **p.16** — `damage.reduces-hp`
 - **p.17** — `damage.immunity-zero`, `damage.order-of-application`, `damage.resistance-halves`, `damage.vulnerability-doubles`, `death-save.mechanic`, `death-save.reset-on-heal`, `hp.falling-unconscious`, `hp.healing-restores`, `hp.massive-damage-death`, `hp.monster-death`
 - **p.18** — `death-save.damage-at-0`, `death-save.natural-1-and-20`

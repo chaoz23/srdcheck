@@ -139,6 +139,24 @@ def test_charmed_cannot_attack_the_charmer():
     assert other.exit_code == 0 and other.data["roll"] == "straight"
 
 
+def test_ranged_in_close_combat_disadvantage_and_exceptions():
+    seen = attack(attacker={}, target={}, distance_ft=30, ranged=True,
+                  nearby_enemies=[{"can_see_attacker": True, "conditions": []}])
+    assert seen.data["roll"] == "disadvantage"
+    assert "attack.ranged-in-close-combat" in seen.rule_ids
+    # exception: an enemy who can't see you does not impose it
+    blind = attack(attacker={}, target={}, distance_ft=30, ranged=True,
+                   nearby_enemies=[{"can_see_attacker": False, "conditions": []}])
+    assert blind.data["roll"] == "straight"
+    # exception: an Incapacitated enemy does not impose it
+    incap = attack(attacker={}, target={}, distance_ft=30, ranged=True,
+                   nearby_enemies=[{"can_see_attacker": True,
+                                    "conditions": ["Incapacitated"]}])
+    assert incap.data["roll"] == "straight"
+    # a melee attack (ranged not set) is unaffected
+    assert attack(attacker={}, target={}, distance_ft=5).data["roll"] == "straight"
+
+
 def test_target_petrified_and_unconscious_grant_advantage():
     for cond in ("Petrified", "Unconscious"):
         v = attack(attacker={}, target={"conditions": [cond]}, distance_ft=30)

@@ -1,6 +1,12 @@
 {
  "generated_by": "scripts/concordance.py",
  "atoms": {
+  "attack.ranged-in-close-combat": {
+   "adapter": "srd-5.2.1",
+   "page": 15,
+   "section": "Playing the Game > Making an Attack > Ranged Attacks > Ranged Attacks in Close Combat",
+   "quote": "When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition"
+  },
   "concentration.breaks-on-incapacitated": {
    "adapter": "srd-5.2.1",
    "page": 179,
@@ -493,6 +499,9 @@
    "mage-hand.carry-limit",
    "mage-hand.granted-uses",
    "mage-hand.range-leash"
+  ],
+  "srd-5.2.1 p.15": [
+   "attack.ranged-in-close-combat"
   ],
   "srd-5.2.1 p.16": [
    "damage.reduces-hp"

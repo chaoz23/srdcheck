@@ -46,5 +46,8 @@
  {"id": "condition.exhaustion.d20-penalty", "kind": "limit",
   "params": {"per_level": -2},
   "citation": {"section": "Rules Glossary > Exhaustion [Condition]", "page": 181,
-   "quote": "D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level."}}
+   "quote": "D20 Tests Affected. When you make a D20 Test, the roll is reduced by 2 times your Exhaustion level."}},
+ {"id": "attack.ranged-in-close-combat", "kind": "definition", "params": {"within_ft": 5},
+  "citation": {"section": "Playing the Game > Making an Attack > Ranged Attacks > Ranged Attacks in Close Combat", "page": 15,
+   "quote": "When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition"}}
 ]
