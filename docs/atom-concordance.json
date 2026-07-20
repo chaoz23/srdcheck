@@ -367,6 +367,18 @@
    "section": "Rules Glossary > Crawling",
    "quote": "While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain)."
   },
+  "opportunity-attack.avoiding": {
+   "adapter": "srd-5.2.1",
+   "page": 15,
+   "section": "Playing the Game > Making an Attack > Opportunity Attacks > Avoiding Opportunity Attacks",
+   "quote": "You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, action, Bonus Action, or Reaction."
+  },
+  "opportunity-attack.making": {
+   "adapter": "srd-5.2.1",
+   "page": 15,
+   "section": "Playing the Game > Making an Attack > Opportunity Attacks > Making an Opportunity Attack",
+   "quote": "You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach."
+  },
   "roll.advantage-mechanic": {
    "adapter": "srd-5.2.1",
    "page": 8,
@@ -501,7 +513,9 @@
    "mage-hand.range-leash"
   ],
   "srd-5.2.1 p.15": [
-   "attack.ranged-in-close-combat"
+   "attack.ranged-in-close-combat",
+   "opportunity-attack.avoiding",
+   "opportunity-attack.making"
   ],
   "srd-5.2.1 p.16": [
    "damage.reduces-hp"

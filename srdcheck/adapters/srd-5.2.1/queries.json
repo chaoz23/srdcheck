@@ -461,5 +461,25 @@
     "damage"
    ]
   }
+ },
+ "opportunity-attack.provoked": {
+  "description": "Does a creature's movement provoke an Opportunity Attack? Provokes only when a creature the reactor can see leaves the reactor's reach using its own movement. It does NOT provoke on Disengage, Teleportation, forced movement, or an unseen mover (SRD 5.2.1 p.15). Whether reach is actually left is caller geometry (T6); whether the reactor has a Reaction is reaction.available. Returns data {provoked: bool}.",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "movement_kind": {
+     "enum": ["voluntary", "teleport", "forced", "disengage"],
+     "description": "how the creature is moving; only 'voluntary' (its own movement) can provoke"
+    },
+    "mover_seen_by_reactor": {
+     "type": "boolean",
+     "description": "can the reactor see the moving creature (default true)"
+    },
+    "leaves_reach": {
+     "type": "boolean",
+     "description": "does the movement take the creature out of the reactor's reach (caller-supplied geometry; default true)"
+    }
+   }
+  }
  }
 }

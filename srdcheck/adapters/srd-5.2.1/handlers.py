@@ -1193,6 +1193,43 @@ def concentration_check(adapter, p):
     return v.legal(why, cites, aid, rules, data=data)
 
 
+def opportunity_attack_provoked(adapter, p):
+    """Does a creature's movement provoke an Opportunity Attack? Provokes only
+    when a creature the reactor can see leaves the reactor's reach using its own
+    movement. It does NOT provoke on Disengage, Teleportation, forced movement
+    (moved without using its own movement/action/Bonus Action/Reaction), or when
+    the mover is unseen. Whether reach is actually left is caller-supplied
+    geometry (T6); whether the reactor has a Reaction to spend is
+    reaction.available. Returns data {provoked: bool}."""
+    a, aid = adapter.atoms, adapter.id
+    making, avoiding = a["opportunity-attack.making"], a["opportunity-attack.avoiding"]
+    kind = (p.get("movement_kind") or "voluntary").lower()
+    valid = {"voluntary", "teleport", "forced", "disengage"}
+    if kind not in valid:
+        return v.cannot_adjudicate(
+            f"movement_kind must be one of {sorted(valid)}.", adapter=aid)
+
+    def no(reason, atom):
+        return v.legal(f"No Opportunity Attack: {reason}.", [_cite(atom)], aid,
+                       [atom["id"]], data={"provoked": False})
+
+    if not p.get("leaves_reach", True):
+        return no("the creature does not leave your reach", making)
+    if kind == "disengage":
+        return no("the creature took the Disengage action", avoiding)
+    if kind == "teleport":
+        return no("the creature Teleported", avoiding)
+    if kind == "forced":
+        return no("the creature was moved without using its own movement "
+                  "(forced movement)", avoiding)
+    if not p.get("mover_seen_by_reactor", True):
+        return no("you can't see the creature", making)
+    return v.legal(
+        "Provokes an Opportunity Attack: a creature you can see leaves your "
+        "reach using its own movement.", [_cite(making)], aid, [making["id"]],
+        data={"provoked": True})
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -1207,4 +1244,5 @@ HANDLERS = {
     "save.check": save_check,
     "check.make": check_make,
     "concentration.check": concentration_check,
+    "opportunity-attack.provoked": opportunity_attack_provoked,
 }
