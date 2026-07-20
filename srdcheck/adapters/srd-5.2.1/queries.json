@@ -485,5 +485,22 @@
     }
    }
   }
+ },
+ "grapple.initiate": {
+  "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC (8 + Strength modifier + Proficiency Bonus) and the size / free-hand legality. legal (with data {dc, kind, on_fail}) if the attempt is valid; illegal if the target is more than one size larger, or (grapple) no free hand. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6).",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "kind": {"enum": ["grapple", "shove"]},
+    "str_modifier": {"type": "integer", "description": "the attacker's Strength modifier"},
+    "proficiency_bonus": {"type": "integer", "description": "the attacker's Proficiency Bonus"},
+    "attacker_size": {"enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]},
+    "target_size": {"enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]},
+    "has_free_hand": {"type": "boolean", "description": "does the attacker have a free hand (required for a Grapple)"}
+   },
+   "required": [
+    "kind"
+   ]
+  }
  }
 }
