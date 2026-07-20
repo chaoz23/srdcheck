@@ -1237,6 +1237,45 @@ def opportunity_attack_provoked(adapter, p):
         data={"provoked": True})
 
 
+_SIZES = ["tiny", "small", "medium", "large", "huge", "gargantuan"]
+
+
+def grapple_initiate(adapter, p):
+    """Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD p.190):
+    compute the save DC (8 + Strength modifier + Proficiency Bonus) and the
+    size / free-hand legality. The target's Strength-or-Dexterity save (its
+    choice) is then resolved via save.check with the returned DC; the escape
+    contest stays out of scope (T6). `kind` = grapple | shove."""
+    a, aid = adapter.atoms, adapter.id
+    kind = (p.get("kind") or "grapple").lower()
+    if kind not in ("grapple", "shove"):
+        return v.cannot_adjudicate("kind must be 'grapple' or 'shove'.",
+                                   adapter=aid)
+    atom = a[f"unarmed-strike.{kind}"]
+    dc = (atom["params"]["dc_base"] + int(p.get("str_modifier", 0))
+          + int(p.get("proficiency_bonus", 0)))
+    atk = (p.get("attacker_size") or "medium").lower()
+    tgt = (p.get("target_size") or "medium").lower()
+    if atk not in _SIZES or tgt not in _SIZES:
+        return v.cannot_adjudicate(f"size must be one of {_SIZES}.", adapter=aid)
+    if _SIZES.index(tgt) > _SIZES.index(atk) + atom["params"]["max_size_larger"]:
+        return v.illegal(
+            f"The target ({tgt.capitalize()}) is more than one size larger than "
+            f"the attacker ({atk.capitalize()}); the {kind} is impossible.",
+            [_cite(atom)], aid, [atom["id"]])
+    if kind == "grapple" and p.get("has_free_hand") is False:
+        return v.illegal("A Grapple requires a free hand to grab the target.",
+                         [_cite(atom)], aid, [atom["id"]])
+    on_fail = ("the Grappled condition" if kind == "grapple"
+               else "pushed 5 feet or the Prone condition (attacker's choice)")
+    return v.legal(
+        f"{kind.capitalize()} is possible: the target makes a Strength or "
+        f"Dexterity save (its choice) vs DC {dc}; on a failure, {on_fail}.",
+        [_cite(atom)], aid, [atom["id"]],
+        data={"dc": dc, "kind": kind,
+              "save_ability": "str-or-dex (target's choice)", "on_fail": on_fail})
+
+
 HANDLERS = {
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
@@ -1252,4 +1291,5 @@ HANDLERS = {
     "check.make": check_make,
     "concentration.check": concentration_check,
     "opportunity-attack.provoked": opportunity_attack_provoked,
+    "grapple.initiate": grapple_initiate,
 }
