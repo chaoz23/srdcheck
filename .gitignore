@@ -11,3 +11,4 @@ srdcheck/adapters/srd-5.2.1/sources/index.json
 srdcheck/adapters/srd-5.1/sources/*.pdf
 srdcheck/adapters/srd-5.1/sources/text/
 srdcheck/adapters/srd-5.1/sources/index.json
+.claude/settings.local.json
