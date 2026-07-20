@@ -1,6 +1,6 @@
 # srdcheck
 
-**Deterministic rails for game-running agents — so intelligence is spent only where intelligence is the only thing that works.**
+**The shared rules rail for a table of agents — one cited, deterministic verdict every model calls, so a party of AIs running a game together stays in lockstep instead of quietly disagreeing.**
 
 Machine verdicts over the rules of the System Reference Document 5.2.1: cited, reproducible, delivered in milliseconds with zero tokens, and honest enough to refuse questions that aren't the rules' to answer. The rules lawyer for agents.
 
@@ -8,11 +8,11 @@ Machine verdicts over the rules of the System Reference Document 5.2.1: cited, r
 
 ## Why this exists
 
-A model running a game is a brilliant improviser with a finite attention budget. Every mechanical micro-check it handles in-context — *is this legal, is that slot spent, does the reaction refresh this round* — spends tokens and attention that belong to the only work that needs a mind: the story, the improvisation, the table. And the checks a model *can* answer, it cannot **prove**, cannot **reproduce**, and — as our own benchmark showed — will not **refuse** when the question is outside the rules' jurisdiction.
+A game increasingly runs not as one model but as *several agents sharing one evolving state* — a GM, player agents, a rules referee, tool-callers. The moment more than one mind adjudicates, the binding problem stops being any single agent's knowledge or attention budget and becomes **consistency**: five capable models will each read the SRD and rule on grapple, concentration, or a death save a little differently, and the shared game state quietly desyncs. No amount of individual intelligence guarantees they agree with *each other*, and every re-derivation is another chance to drift. The fix is a deterministic rail they all call — the same [atoms](docs/atom-concordance.md), the same citations, the same verdict every time — so every ruling carries one provenance any agent (or a human) can audit. That is where srdcheck stops being a convenience and becomes load-bearing.
 
-We tested this before building. Frontier models answered our SRD rules questions nearly perfectly — and confidently ruled on house rules, GM discretion, and content that doesn't exist in the SRD, where the only correct answer is "not my call." Small local models got 19–30% wrong with zero refusals. So srdcheck does not compete with what models know. It is a rail: state in, verdict out, citations attached, deterministically, every time.
+Even at a table of one, the rail earns its place. A model running a game is a brilliant improviser with a finite attention budget: every mechanical micro-check it handles in-context — *is this legal, is that slot spent, does the reaction refresh this round* — spends tokens and attention that belong to the only work that needs a mind, the story. And the checks a model *can* answer, it cannot **prove**, cannot **reproduce**, and — as our own benchmark showed — will not **refuse** when the question is outside the rules' jurisdiction.
 
-**It matters most when the table isn't one model but several.** A game increasingly runs as *multiple* agents sharing one evolving state — a GM, player agents, a rules referee, tool-callers. There the problem stops being any single agent's attention budget and becomes **consistency**: five capable models will each read the SRD and adjudicate grapple, concentration, or a death save a little differently, and the shared game state quietly desyncs. No amount of individual intelligence guarantees they agree with *each other*, and every re-derivation is another chance to drift. A deterministic rail they all call — the same [atoms](docs/atom-concordance.md), the same citations, the same verdict every time — is the thing that keeps them in lockstep and gives every ruling a single provenance any of them (or a human) can audit. That is where srdcheck stops being a convenience and becomes load-bearing.
+We tested this before building. Frontier models answered our SRD rules questions nearly perfectly — and confidently ruled on house rules, GM discretion, and content that doesn't exist in the SRD, where the only correct answer is "not my call." Small local models got 19–30% wrong with zero refusals. So srdcheck does not compete with what models know. It is a rail: state in, verdict out, citations attached, deterministically, every time — and the *same* rail for every agent at the table.
 
 ## What it is
 
