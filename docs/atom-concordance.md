@@ -8,7 +8,7 @@ A large context window can *read* the SRD. srdcheck's value is the layer above: 
 
 Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 
-## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (76 atoms)
+## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (77 atoms)
 
 | Atom | Page | Rule (verbatim) |
 |---|---|---|
@@ -73,6 +73,7 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 | `mage-hand.granted-uses` | p.145 | you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial |
 | `mage-hand.range-leash` | p.145 | The hand vanishes if it is ever more than 30 feet away from you |
 | `movement.crawling-cost` | p.179 | While you're crawling, each foot of movement costs 1 extra foot (2 extra feet in Difficult Terrain). |
+| `movement.difficult-terrain` | p.181 | If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. |
 | `opportunity-attack.avoiding` | p.15 | You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, action, Bonus Action, or Reaction. |
 | `opportunity-attack.making` | p.15 | You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach. |
 | `roll.advantage-mechanic` | p.8 | When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. |
@@ -106,7 +107,7 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 - **p.177** — `condition.blinded.attacks`, `condition.blinded.cant-see`
 - **p.178** — `condition.charmed.cant-harm-charmer`, `condition.charmed.social-advantage`
 - **p.179** — `concentration.breaks-on-incapacitated`, `concentration.one-effect`, `movement.crawling-cost`, `save.concentration-dc`
-- **p.181** — `condition.deafened.cant-hear`, `condition.exhaustion.d20-penalty`, `condition.exhaustion.speed-reduction`
+- **p.181** — `condition.deafened.cant-hear`, `condition.exhaustion.d20-penalty`, `condition.exhaustion.speed-reduction`, `movement.difficult-terrain`
 - **p.182** — `condition.frightened.attacks`, `condition.frightened.cant-approach`, `condition.grappled.attacks`, `condition.grappled.speed-zero`
 - **p.184** — `condition.incapacitated.inactive`, `condition.invisible.attacks`
 - **p.186** — `condition.paralyzed.attacks`, `condition.paralyzed.auto-crit`, `condition.paralyzed.incapacitated`, `condition.paralyzed.saves-fail`, `condition.paralyzed.speed-zero`, `condition.petrified.attacks`, `condition.petrified.incapacitated`, `condition.petrified.poison-immunity`, `condition.petrified.resist-damage`, `condition.petrified.saves-fail`, `condition.petrified.speed-zero`, `condition.poisoned.attacks`, `condition.prone.attacks`, `condition.prone.movement`, `turn.one-reaction-per-round`
