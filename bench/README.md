@@ -84,10 +84,13 @@ A conditions completeness pass (2026-07-18) then closed that gap: **all 15 SRD
 conditions** now adjudicate on the built surfaces (attack rolls/legality and
 action-economy/Speed), with a completeness oracle
 (`tests/test_condition_completeness.py`) forbidding any codified condition from
-being silently refused as unbuilt. In-scope coverage is now **100%**; only clauses
-needing an unbuilt surface (save-typing, damage-typing, geometry, graduated Speed)
-remain deferred — each with a named reason. The floor is ratcheted at 1.0 in
-`tests/test_coverage_census.py`.
+being silently refused as unbuilt. In-scope coverage is **100%** and stays there
+as the census grows: it now also covers Ranged Attacks in Close Combat,
+Opportunity Attack triggers, Difficult Terrain, Grapple/Shove initiation, and the
+Help action (34 in-scope events). Only clauses needing an unbuilt surface
+(save-typing, damage-typing) or an out-of-scope surface (geometry, contests,
+initiative) remain deferred — each with a named reason. The floor is ratcheted at
+1.0 in `tests/test_coverage_census.py`.
 
 ## Run a subject
 

@@ -34,3 +34,9 @@
 {"id":"cov-skill-1","kind":"skill-check","event":"A DC 15 Wisdom (Perception) check to spot the ambush.","route":{"type":null}}
 {"id":"cov-init-1","kind":"initiative","event":"Roll initiative for the encounter.","route":{"type":null}}
 {"id":"cov-cover-1","kind":"cover-geometry","event":"The target has half cover behind a low wall.","route":{"type":null}}
+{"id":"cov-ranged-1","kind":"ranged-attack","event":"An archer fires while a seeing enemy stands adjacent.","route":{"type":"attack.modifiers","params":{"attacker":{},"target":{},"distance_ft":30,"ranged":true,"nearby_enemies":[{"can_see_attacker":true,"conditions":[]}]}}}
+{"id":"cov-oa-1","kind":"opportunity-attack","event":"A visible creature walks out of the fighter's reach.","route":{"type":"opportunity-attack.provoked","params":{"movement_kind":"voluntary","mover_seen_by_reactor":true}}}
+{"id":"cov-oa-2","kind":"opportunity-attack","event":"A creature Disengages before leaving reach.","route":{"type":"opportunity-attack.provoked","params":{"movement_kind":"disengage"}}}
+{"id":"cov-dt-1","kind":"difficult-terrain","event":"Moving 20 feet through Difficult Terrain on Speed 30.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"move","feet":20,"difficult_terrain":true}]}}}
+{"id":"cov-grap-1","kind":"grapple-shove","event":"A fighter grapples a foe with an Unarmed Strike.","route":{"type":"grapple.initiate","params":{"kind":"grapple","str_modifier":3,"proficiency_bonus":2}}}
+{"id":"cov-help-1","kind":"help-action","event":"An ally with the relevant proficiency uses Help on a check.","route":{"type":"help.assist","params":{"kind":"ability-check","helper_has_relevant_proficiency":true}}}
