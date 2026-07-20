@@ -509,6 +509,17 @@ def attack_modifiers(adapter, p):
             rules.append(atom["id"])  # cited, but no Disadvantage: source unseen
     if "poisoned" in ac:
         hit("condition.poisoned.attacks", dis, "attacker is Poisoned")
+    if p.get("ranged"):
+        # a ranged attack has Disadvantage if a seeing, non-Incapacitated enemy
+        # is within 5 ft. The caller supplies who is within 5 ft (geometry, T6);
+        # srdcheck applies the can-see + not-Incapacitated rule.
+        threatening = [e for e in p.get("nearby_enemies", [])
+                       if e.get("can_see_attacker")
+                       and "incapacitated" not in
+                       {c.lower() for c in e.get("conditions", [])}]
+        if threatening:
+            hit("attack.ranged-in-close-combat", dis,
+                "ranged attack within 5 ft of a seeing, non-Incapacitated enemy")
 
     if "prone" in ac:
         hit("condition.prone.attacks", dis, "attacker is Prone")

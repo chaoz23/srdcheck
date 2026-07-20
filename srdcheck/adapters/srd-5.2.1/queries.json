@@ -157,7 +157,7 @@
   }
  },
  "attack.modifiers": {
-  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
+  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and — for ranged attacks — the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -197,6 +197,21 @@
     },
     "distance_ft": {
      "type": "integer"
+    },
+    "ranged": {
+     "type": "boolean",
+     "description": "true if this is a ranged attack (weapon or spell); enables the Ranged Attacks in Close Combat rule"
+    },
+    "nearby_enemies": {
+     "type": "array",
+     "description": "enemies within 5 ft of the attacker (caller supplies the geometry). A ranged attack gets Disadvantage if any can see the attacker and isn't Incapacitated.",
+     "items": {
+      "type": "object",
+      "properties": {
+       "can_see_attacker": {"type": "boolean"},
+       "conditions": {"type": "array", "items": {"type": "string"}}
+      }
+     }
     }
    },
    "required": [
