@@ -54,7 +54,7 @@ $ python -m srdcheck query mage-hand.use '{"kind": "attack"}'
   "citations": [{"section": "SRD 5.2.1 p.145 'Spells > Mage Hand'", "page": 145,
                  "quote": "The hand can't attack"}],
   "rule_ids": ["mage-hand.cant-attack"],
-  "adapter": "srd-5.2.1@0.1.3"
+  "adapter": "srd-5.2.1@0.1.4"
 }
 $ python -m srdcheck --schema                          # I/O contract for agents
 ```
@@ -77,7 +77,7 @@ srdcheck is an MCP server with zero dependencies — stdlib only. After `pip ins
 }
 ```
 
-Sixteen tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers`, `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save` with damage typing, into a verdict plus a hash-stamped next state), `save_check`/`check_make`/`concentration_check` (resolve a caller-rolled d20 against a DC — condition-aware saving throws and ability checks, and the concentration-save DC from damage taken — srdcheck folds, never rolls), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
+Twenty tools: `jurisdiction`, `turn_plan`, `turn_options`, `reaction_available`, `roll_compose`, `attack_modifiers` (conditions, distance, and the ranged-in-close-combat Disadvantage), `mage_hand_use`, `event_apply` (the state reducer — folds a declared event, including `damage`/`heal`/`death-save` with damage typing, into a verdict plus a hash-stamped next state), `save_check`/`check_make`/`concentration_check` (resolve a caller-rolled d20 against a DC — condition-aware saving throws and ability checks, and the concentration-save DC from damage taken — srdcheck folds, never rolls), `opportunity_attack_provoked` (the provoke rule and its exceptions), `grapple_initiate` (Grapple/Shove DC + size legality), `passive_perception` (10 + modifier, and it refuses the non-SRD ±5), `help_assist` (the Help action's proficiency gate), `creature_valid`/`creature_stats` (cited SRD 5.2.1 creature validity + CR/XP), `encounter_xp_budget` (the p.202 party-level XP budget), and the toy adapter's `ttt_move`/`ttt_options` (which exist to prove the adapter spec). Every call returns the same verdict object as the CLI (verdict, exit_code, why, citations with source quotes) as structured content. An `illegal` verdict is a result, not an error; `cannot-adjudicate` is an honest refusal, not a failure. Tool descriptions and schemas come from the loaded adapters, so new adapters extend the tool list without kernel changes. See also [`tool.json`](tool.json) for the CLI surface.
 
 ## As a Python library
 
