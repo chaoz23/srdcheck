@@ -385,6 +385,12 @@
    "section": "Playing the Game > Making an Attack > Opportunity Attacks > Making an Opportunity Attack",
    "quote": "You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach."
   },
+  "passive.perception-formula": {
+   "adapter": "srd-5.2.1",
+   "page": 22,
+   "section": "Playing the Game > Proficiency > Passive Perception",
+   "quote": "Passive Perception = 10 + Wisdom (Perception) check modifier"
+  },
   "roll.advantage-mechanic": {
    "adapter": "srd-5.2.1",
    "page": 8,
@@ -624,6 +630,9 @@
   ],
   "srd-5.2.1 p.202": [
    "encounter.xp-budget-per-character"
+  ],
+  "srd-5.2.1 p.22": [
+   "passive.perception-formula"
   ],
   "srd-5.2.1 p.6": [
    "save.d20-vs-dc"

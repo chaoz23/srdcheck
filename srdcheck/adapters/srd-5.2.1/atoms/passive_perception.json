@@ -1,0 +1,5 @@
+[
+ {"id": "passive.perception-formula", "kind": "definition", "params": {"base": 10},
+  "citation": {"section": "Playing the Game > Proficiency > Passive Perception", "page": 22,
+   "quote": "Passive Perception = 10 + Wisdom (Perception) check modifier"}}
+]

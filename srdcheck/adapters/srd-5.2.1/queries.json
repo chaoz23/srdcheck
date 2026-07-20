@@ -502,5 +502,16 @@
     "kind"
    ]
   }
+ },
+ "passive.perception": {
+  "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that ±5 rule is not in this ruleset).",
+  "inputSchema": {
+   "type": "object",
+   "properties": {
+    "perception_modifier": {"type": "integer", "description": "the creature's Wisdom (Perception) check modifier"},
+    "advantage": {"type": "boolean", "description": "not part of the SRD passive formula; triggers an honest refusal"},
+    "disadvantage": {"type": "boolean", "description": "not part of the SRD passive formula; triggers an honest refusal"}
+   }
+  }
  }
 }

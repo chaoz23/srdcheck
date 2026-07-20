@@ -8,7 +8,7 @@ A large context window can *read* the SRD. srdcheck's value is the layer above: 
 
 Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 
-## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (79 atoms)
+## `srd-5.2.1@0.1.3` — System Reference Document 5.2.1 (2024 rules) (80 atoms)
 
 | Atom | Page | Rule (verbatim) |
 |---|---|---|
@@ -76,6 +76,7 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 | `movement.difficult-terrain` | p.181 | If a space is Difficult Terrain, every foot of movement in that space costs 1 extra foot. |
 | `opportunity-attack.avoiding` | p.15 | You can avoid provoking an Opportunity Attack by taking the Disengage action. You also don't provoke an Opportunity Attack when you Teleport or when you are moved without using your movement, action, Bonus Action, or Reaction. |
 | `opportunity-attack.making` | p.15 | You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach. |
+| `passive.perception-formula` | p.22 | Passive Perception = 10 + Wisdom (Perception) check modifier |
 | `roll.advantage-mechanic` | p.8 | When a roll has either Advantage or Disadvantage, roll a second d20 when you make the roll. Use the higher of the two rolls if you have Advantage, and use the lower roll if you have Disadvantage. |
 | `roll.both-cancel` | p.8 | If circumstances cause a roll to have both Advantage and Disadvantage, the roll has neither of them, and you roll one d20. This is true even if multiple circumstances impose Disadvantage and only one grants Advantage or vice versa. |
 | `roll.dont-stack` | p.8 | If multiple situations affect a roll and they all grant Advantage on it, you still roll only two d20s. Similarly, if multiple situations impose Disadvantage on a roll, you roll only two d20s. |
@@ -104,6 +105,7 @@ Adapters: `srd-5.2.1@0.1.3`, `toy-tictactoe@0.1.0`.
 - **p.16** — `damage.reduces-hp`
 - **p.17** — `damage.immunity-zero`, `damage.order-of-application`, `damage.resistance-halves`, `damage.vulnerability-doubles`, `death-save.mechanic`, `death-save.reset-on-heal`, `hp.falling-unconscious`, `hp.healing-restores`, `hp.massive-damage-death`, `hp.monster-death`
 - **p.18** — `death-save.damage-at-0`, `death-save.natural-1-and-20`
+- **p.22** — `passive.perception-formula`
 - **p.105** — `spell.one-slot-per-turn`
 - **p.145** — `mage-hand.cant-activate-magic-items`, `mage-hand.cant-attack`, `mage-hand.carry-limit`, `mage-hand.granted-uses`, `mage-hand.range-leash`
 - **p.177** — `condition.blinded.attacks`, `condition.blinded.cant-see`
