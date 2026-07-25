@@ -109,6 +109,10 @@
     },
     "spent": {
      "type": "object"
+    },
+    "exhaustion_level": {
+     "type": "integer",
+     "description": "the acting creature's Exhaustion level (0-6)"
     }
    },
    "required": [
@@ -161,7 +165,7 @@
   }
  },
  "attack.modifiers": {
-  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and — for ranged attacks — the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
+  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and \u2014 for ranged attacks \u2014 the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -179,6 +183,14 @@
       },
       "can_see_target": {
        "type": "boolean"
+      },
+      "unseen_by_target": {
+       "type": "boolean",
+       "description": "caller-supplied perception fact (T6): the target cannot see the attacker -> Advantage (p.14)"
+      },
+      "frightened_source_in_sight": {
+       "type": "boolean",
+       "description": "caller fact: can the Frightened attacker see the source of its fear (defaults true)"
       }
      }
     },
@@ -196,6 +208,14 @@
       },
       "can_see_attacker": {
        "type": "boolean"
+      },
+      "unseen_by_attacker": {
+       "type": "boolean",
+       "description": "caller-supplied perception fact (T6): the attacker cannot see the target -> Disadvantage (p.14)"
+      },
+      "is_charmer_of_attacker": {
+       "type": "boolean",
+       "description": "caller fact: the target is the creature that Charmed the attacker"
       }
      }
     },
@@ -212,8 +232,15 @@
      "items": {
       "type": "object",
       "properties": {
-       "can_see_attacker": {"type": "boolean"},
-       "conditions": {"type": "array", "items": {"type": "string"}}
+       "can_see_attacker": {
+        "type": "boolean"
+       },
+       "conditions": {
+        "type": "array",
+        "items": {
+         "type": "string"
+        }
+       }
       }
      }
     }
@@ -379,7 +406,7 @@
   }
  },
  "save.check": {
-  "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides — auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing.",
+  "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides \u2014 auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -399,11 +426,13 @@
     },
     "save_ability": {
      "type": "string",
-     "description": "str | dex | con | int | wis | cha — enables the ability-typed condition overrides (auto-fail Str/Dex, Restrained Dex disadvantage)"
+     "description": "str | dex | con | int | wis | cha \u2014 enables the ability-typed condition overrides (auto-fail Str/Dex, Restrained Dex disadvantage)"
     },
     "saver_conditions": {
      "type": "array",
-     "items": {"type": "string"},
+     "items": {
+      "type": "string"
+     },
      "description": "the saving creature's active conditions (drives auto-fail / disadvantage)"
     },
     "exhaustion_level": {
@@ -423,22 +452,57 @@
   "inputSchema": {
    "type": "object",
    "properties": {
-    "dc": {"type": "integer", "description": "the Difficulty Class to meet or exceed"},
-    "d20_result": {"type": "integer", "minimum": 1, "maximum": 20,
-     "description": "the rolled d20; omit to get the composed mode + net modifier"},
-    "modifier": {"type": "integer", "description": "ability + proficiency + situational modifier"},
-    "ability": {"type": "string", "description": "str | dex | con | int | wis | cha"},
-    "actor_conditions": {"type": "array", "items": {"type": "string"},
-     "description": "the checking creature's active conditions"},
-    "check_requires": {"type": "string",
-     "description": "'sight' or 'hearing' — triggers Blinded/Deafened auto-fail"},
-    "social": {"type": "boolean", "description": "true if this is a social interaction check"},
-    "target_charmed_by_actor": {"type": "boolean",
-     "description": "true if the target is Charmed by the actor (grants social Advantage)"},
-    "exhaustion_level": {"type": "integer", "minimum": 0, "maximum": 6,
-     "description": "applies Exhaustion's flat d20 penalty"}
+    "dc": {
+     "type": "integer",
+     "description": "the Difficulty Class to meet or exceed"
+    },
+    "d20_result": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 20,
+     "description": "the rolled d20; omit to get the composed mode + net modifier"
+    },
+    "modifier": {
+     "type": "integer",
+     "description": "ability + proficiency + situational modifier"
+    },
+    "ability": {
+     "type": "string",
+     "description": "str | dex | con | int | wis | cha"
+    },
+    "actor_conditions": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "the checking creature's active conditions"
+    },
+    "check_requires": {
+     "type": "string",
+     "description": "'sight' or 'hearing' \u2014 triggers Blinded/Deafened auto-fail"
+    },
+    "social": {
+     "type": "boolean",
+     "description": "true if this is a social interaction check"
+    },
+    "target_charmed_by_actor": {
+     "type": "boolean",
+     "description": "true if the target is Charmed by the actor (grants social Advantage)"
+    },
+    "exhaustion_level": {
+     "type": "integer",
+     "minimum": 0,
+     "maximum": 6,
+     "description": "applies Exhaustion's flat d20 penalty"
+    },
+    "frightened_source_in_sight": {
+     "type": "boolean",
+     "description": "caller fact: the Frightened creature can see the source of its fear (defaults true)"
+    }
    },
-   "required": ["dc"]
+   "required": [
+    "dc"
+   ]
   }
  },
  "concentration.check": {
@@ -472,7 +536,12 @@
    "type": "object",
    "properties": {
     "movement_kind": {
-     "enum": ["voluntary", "teleport", "forced", "disengage"],
+     "enum": [
+      "voluntary",
+      "teleport",
+      "forced",
+      "disengage"
+     ],
      "description": "how the creature is moving; only 'voluntary' (its own movement) can provoke"
     },
     "mover_seen_by_reactor": {
@@ -491,12 +560,44 @@
   "inputSchema": {
    "type": "object",
    "properties": {
-    "kind": {"enum": ["grapple", "shove"]},
-    "str_modifier": {"type": "integer", "description": "the attacker's Strength modifier"},
-    "proficiency_bonus": {"type": "integer", "description": "the attacker's Proficiency Bonus"},
-    "attacker_size": {"enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]},
-    "target_size": {"enum": ["tiny", "small", "medium", "large", "huge", "gargantuan"]},
-    "has_free_hand": {"type": "boolean", "description": "does the attacker have a free hand (required for a Grapple)"}
+    "kind": {
+     "enum": [
+      "grapple",
+      "shove"
+     ]
+    },
+    "str_modifier": {
+     "type": "integer",
+     "description": "the attacker's Strength modifier"
+    },
+    "proficiency_bonus": {
+     "type": "integer",
+     "description": "the attacker's Proficiency Bonus"
+    },
+    "attacker_size": {
+     "enum": [
+      "tiny",
+      "small",
+      "medium",
+      "large",
+      "huge",
+      "gargantuan"
+     ]
+    },
+    "target_size": {
+     "enum": [
+      "tiny",
+      "small",
+      "medium",
+      "large",
+      "huge",
+      "gargantuan"
+     ]
+    },
+    "has_free_hand": {
+     "type": "boolean",
+     "description": "does the attacker have a free hand (required for a Grapple)"
+    }
    },
    "required": [
     "kind"
@@ -504,24 +605,44 @@
   }
  },
  "passive.perception": {
-  "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that ±5 rule is not in this ruleset).",
+  "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that \u00b15 rule is not in this ruleset).",
   "inputSchema": {
    "type": "object",
    "properties": {
-    "perception_modifier": {"type": "integer", "description": "the creature's Wisdom (Perception) check modifier"},
-    "advantage": {"type": "boolean", "description": "not part of the SRD passive formula; triggers an honest refusal"},
-    "disadvantage": {"type": "boolean", "description": "not part of the SRD passive formula; triggers an honest refusal"}
+    "perception_modifier": {
+     "type": "integer",
+     "description": "the creature's Wisdom (Perception) check modifier"
+    },
+    "advantage": {
+     "type": "boolean",
+     "description": "not part of the SRD passive formula; triggers an honest refusal"
+    },
+    "disadvantage": {
+     "type": "boolean",
+     "description": "not part of the SRD passive formula; triggers an honest refusal"
+    }
    }
   }
  },
  "help.assist": {
-  "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires choosing one of the helper's own skill/tool proficiencies — without the relevant proficiency it can't grant Advantage (illegal); the GM has final say on whether assistance is possible (surfaced as data.gm_discretion, not adjudicated). Assist an Attack Roll needs an enemy within 5 ft. Returns data {grants_advantage}. kind = ability-check | attack-roll.",
+  "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires choosing one of the helper's own skill/tool proficiencies \u2014 without the relevant proficiency it can't grant Advantage (illegal); the GM has final say on whether assistance is possible (surfaced as data.gm_discretion, not adjudicated). Assist an Attack Roll needs an enemy within 5 ft. Returns data {grants_advantage}. kind = ability-check | attack-roll.",
   "inputSchema": {
    "type": "object",
    "properties": {
-    "kind": {"enum": ["ability-check", "attack-roll"]},
-    "helper_has_relevant_proficiency": {"type": "boolean", "description": "does the helper have the relevant skill/tool proficiency (required to Assist an Ability Check)"},
-    "enemy_within_5ft": {"type": "boolean", "description": "is the distracted enemy within 5 ft (required to Assist an Attack Roll)"}
+    "kind": {
+     "enum": [
+      "ability-check",
+      "attack-roll"
+     ]
+    },
+    "helper_has_relevant_proficiency": {
+     "type": "boolean",
+     "description": "does the helper have the relevant skill/tool proficiency (required to Assist an Ability Check)"
+    },
+    "enemy_within_5ft": {
+     "type": "boolean",
+     "description": "is the distracted enemy within 5 ft (required to Assist an Attack Roll)"
+    }
    },
    "required": [
     "kind"

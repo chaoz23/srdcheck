@@ -14,7 +14,7 @@ import sys
 from .engine import Engine
 
 PROTOCOL_VERSION = "2025-06-18"
-SERVER_INFO = {"name": "srdcheck", "version": "0.1.4"}
+SERVER_INFO = {"name": "srdcheck", "version": "0.2.0"}
 
 JURISDICTION_TOOL = {
     "name": "jurisdiction",

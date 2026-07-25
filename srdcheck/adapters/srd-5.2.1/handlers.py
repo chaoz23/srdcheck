@@ -537,6 +537,10 @@ def attack_modifiers(adapter, p):
     if "grappled" in ac and not tgt.get("is_grappler_of_attacker"):
         hit("condition.grappled.attacks", dis,
             "attacker is Grappled, target is not the grappler")
+    if atk.get("unseen_by_target") and not tgt.get("can_see_attacker"):
+        hit("attack.unseen-attacker", adv, "attacker is unseen by the target")
+    if tgt.get("unseen_by_attacker") and not atk.get("can_see_target"):
+        hit("attack.unseen-target", dis, "target is unseen by the attacker")
     if "invisible" in ac:
         if tgt.get("can_see_attacker"):
             atom = a["condition.invisible.attacks"]

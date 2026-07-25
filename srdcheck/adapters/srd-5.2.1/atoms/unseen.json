@@ -1,0 +1,8 @@
+[
+ {"id": "attack.unseen-attacker", "kind": "modifier", "params": {},
+  "citation": {"section": "Playing the Game > Combat > Unseen Attackers and Targets", "page": 14,
+   "quote": "When a creature can’t see you, you have Advantage on attack rolls against it."}},
+ {"id": "attack.unseen-target", "kind": "modifier", "params": {},
+  "citation": {"section": "Playing the Game > Combat > Unseen Attackers and Targets", "page": 14,
+   "quote": "When you make an attack roll against a target you can’t see, you have Disadvantage on the roll. This is true whether you’re guessing the target’s location or targeting a creature you can hear but not see."}}
+]

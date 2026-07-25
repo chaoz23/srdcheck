@@ -54,6 +54,26 @@ class Adapter:
     def query_types(self):
         return set(self._handlers) | {"jurisdiction"}
 
+    def cite(self, name):
+        """Verbatim source text block for a named heading (issue #14).
+        Provenance surface: returns the page's own text, never interpretation."""
+        import re
+        tdir = self.root / "sources" / "text"
+        if not tdir.exists():
+            return None
+        pat = re.compile(rf"^(?:[A-Z][A-Za-z' ]*: )?{re.escape(name)}\s*$",
+                         re.M | re.I)
+        for p in sorted(tdir.glob("page-*.txt")):
+            t = p.read_text()
+            m = pat.search(t)
+            if not m:
+                continue
+            page = int(p.stem.replace("page-", ""))
+            block = t[m.start():m.start() + 1700]
+            cut = block.rfind(".")
+            return {"page": page, "text": block[:cut + 1] if cut > 0 else block}
+        return None
+
     def lookup_entity(self, name):
         return self.entities.get(name.strip().lower())
 

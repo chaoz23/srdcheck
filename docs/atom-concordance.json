@@ -7,6 +7,18 @@
    "section": "Playing the Game > Making an Attack > Ranged Attacks > Ranged Attacks in Close Combat",
    "quote": "When you make a ranged attack roll with a weapon, a spell, or some other means, you have Disadvantage on the roll if you are within 5 feet of an enemy who can see you and doesn't have the Incapacitated condition"
   },
+  "attack.unseen-attacker": {
+   "adapter": "srd-5.2.1",
+   "page": 14,
+   "section": "Playing the Game > Combat > Unseen Attackers and Targets",
+   "quote": "When a creature can’t see you, you have Advantage on attack rolls against it."
+  },
+  "attack.unseen-target": {
+   "adapter": "srd-5.2.1",
+   "page": 14,
+   "section": "Playing the Game > Combat > Unseen Attackers and Targets",
+   "quote": "When you make an attack roll against a target you can’t see, you have Disadvantage on the roll. This is true whether you’re guessing the target’s location or targeting a creature you can hear but not see."
+  },
   "concentration.breaks-on-incapacitated": {
    "adapter": "srd-5.2.1",
    "page": 179,
@@ -545,6 +557,8 @@
    "turn.one-action"
   ],
   "srd-5.2.1 p.14": [
+   "attack.unseen-attacker",
+   "attack.unseen-target",
    "turn.break-up-move"
   ],
   "srd-5.2.1 p.145": [

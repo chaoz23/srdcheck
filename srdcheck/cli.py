@@ -67,6 +67,8 @@ def main(argv=None):
         if args[0] == "--pipe":
             q = json.loads(sys.stdin.read())
             return _emit(_engine().query(q["type"], q.get("params", {})))
+        if args[0] == "cite" and len(args) == 2:
+            return _emit(_engine().cite(args[1]))
         if args[0] == "jurisdiction" and len(args) == 2:
             return _emit(_engine().jurisdiction(args[1]))
         if args[0] == "query" and len(args) == 3:

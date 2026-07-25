@@ -2333,5 +2333,63 @@
   "Emanation",
   "Line",
   "Sphere"
+ ],
+ "class": [
+  "Barbarian",
+  "Bard",
+  "Cleric",
+  "Druid",
+  "Fighter",
+  "Monk",
+  "Paladin",
+  "Ranger",
+  "Rogue",
+  "Sorcerer",
+  "Warlock",
+  "Wizard"
+ ],
+ "subclass": [
+  "Champion",
+  "Circle of the Land",
+  "College of Lore",
+  "Draconic Sorcery",
+  "Evoker",
+  "Fiend Patron",
+  "Hunter",
+  "Life Domain",
+  "Oath of Devotion",
+  "Path of the Berserker",
+  "Thief",
+  "Warrior of the Open Hand"
+ ],
+ "species": [
+  "Dragonborn",
+  "Dwarf",
+  "Elf",
+  "Gnome",
+  "Goliath",
+  "Halfling",
+  "Human",
+  "Orc",
+  "Tiefling"
+ ],
+ "feat": [
+  "Ability Score Improvement",
+  "Alert",
+  "Archery",
+  "Boon of Combat Prowess",
+  "Boon of Dimensional Travel",
+  "Boon of Fate",
+  "Boon of Irresistible Offense",
+  "Boon of Spell Recall",
+  "Boon of Truesight",
+  "Boon of the Night Spirit",
+  "Defense",
+  "Grappler",
+  "Great Weapon Fighting",
+  "Magic Initiate",
+  "Savage Attacker",
+  "Skilled",
+  "Two-Weapon Fighting"
  ]
 }

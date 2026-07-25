@@ -26,11 +26,47 @@ class Engine:
             "Unknown or third-party content cannot be adjudicated.",
             adapter=known)
 
+    @staticmethod
+    def _unknown_fields(params, schema, prefix=""):
+        """Recursively collect keys the schema does not declare. Only enforced
+        where the schema declares properties; object-typed params without
+        declared properties (e.g. open state blobs) are left alone."""
+        props = (schema or {}).get("properties")
+        if not props or not isinstance(params, dict):
+            return []
+        unknown = [f"{prefix}{k}" for k in params if k not in props]
+        for k, v in params.items():
+            if k in props and isinstance(v, dict):
+                unknown += Engine._unknown_fields(v, props[k], f"{prefix}{k}.")
+        return unknown
+
+    def cite(self, name):
+        for a in self.adapters:
+            hit = a.cite(name)
+            if hit:
+                return v.legal(
+                    f"Verbatim source text for '{name}' (p.{hit['page']}).",
+                    adapter=a.id, data=hit)
+        known = ", ".join(a.id for a in self.adapters)
+        return v.cannot_adjudicate(
+            f"'{name}' not found as a heading in any loaded ruleset's source "
+            f"text ({known}).", adapter=known)
+
     def query(self, query_type, params):
         if query_type == "jurisdiction":
             return self.jurisdiction(params.get("name", ""))
         for a in self.adapters:
             if query_type in a.query_types:
+                schema = (a.query_meta.get(query_type) or {}).get("inputSchema")
+                unknown = self._unknown_fields(params or {}, schema)
+                if unknown:
+                    declared = sorted((schema or {}).get("properties", {}))
+                    return v.cannot_adjudicate(
+                        f"Unknown field(s) {unknown} — not in this query's schema. "
+                        f"Declared fields: {', '.join(declared)}. A misspelled field "
+                        "must refuse, not silently default (a wrong-looking verdict "
+                        "is as bad as a wrong verdict).",
+                        adapter=a.id, data={"unknown_fields": unknown})
                 return a.handle(query_type, params)
         known = sorted(t for a in self.adapters for t in a.query_types)
         return v.cannot_adjudicate(
