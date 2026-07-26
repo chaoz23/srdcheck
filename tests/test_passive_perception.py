@@ -18,7 +18,9 @@ def pp(**p):
 
 def test_score_is_10_plus_modifier():
     assert pp(perception_modifier=4).data["score"] == 14
-    assert pp().data["score"] == 10
+    # v0.3: no modifier supplied -> formula only, never a complete-looking 10
+    v = pp()
+    assert "score" not in v.data and v.data["score_formula"] == "10 + perception_modifier"
 
 
 def test_advantage_disadvantage_are_refused_as_non_srd():

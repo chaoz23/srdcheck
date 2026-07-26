@@ -156,3 +156,15 @@ srdcheck stands on lessons from Temple of Elemental Evil / Temple+ (dispatcher a
 
 <!-- MCP registry ownership marker (do not remove): binds this repo's PyPI package to its registry namespace. -->
 mcp-name: io.github.chaoz23/srdcheck
+
+
+## Formula blanks (v0.3)
+
+If a rule is a formula, the verdict is the formula — a **number** appears
+only when the caller supplied every blank. `grapple.initiate` without
+`str_modifier` + `proficiency_bonus` returns `dc_formula` and no `dc`;
+`passive.perception` without `perception_modifier` returns `score_formula`
+and no `score`. Origin: a live table where the base-8 rendered as "DC 8"
+when the true DC was 13. srdcheck stays lookup-pure: the formula is the rule
+text, filling caller-supplied blanks is arithmetic — deriving the blanks
+from a sheet is charactercheck's lane, never this one.

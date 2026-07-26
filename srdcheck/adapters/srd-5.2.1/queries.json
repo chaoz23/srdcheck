@@ -556,7 +556,7 @@
   }
  },
  "grapple.initiate": {
-  "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC (8 + Strength modifier + Proficiency Bonus) and the size / free-hand legality. legal (with data {dc, kind, on_fail}) if the attempt is valid; illegal if the target is more than one size larger, or (grapple) no free hand. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6).",
+  "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC (8 + Strength modifier + Proficiency Bonus) and the size / free-hand legality. legal with data {dc?, dc_formula, kind, on_fail} \u2014 the dc NUMBER appears only when the caller supplied str_modifier AND proficiency_bonus; otherwise the verdict returns the formula alone (a base-8 rendered as THE DC is a wrong-looking verdict) if the attempt is valid; illegal if the target is more than one size larger, or (grapple) no free hand. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6).",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -605,7 +605,7 @@
   }
  },
  "passive.perception": {
-  "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that \u00b15 rule is not in this ruleset).",
+  "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that \u00b15 rule is not in this ruleset). The score NUMBER appears only when perception_modifier is supplied; otherwise the formula alone is returned.",
   "inputSchema": {
    "type": "object",
    "properties": {

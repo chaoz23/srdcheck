@@ -1256,8 +1256,12 @@ def grapple_initiate(adapter, p):
         return v.cannot_adjudicate("kind must be 'grapple' or 'shove'.",
                                    adapter=aid)
     atom = a[f"unarmed-strike.{kind}"]
-    dc = (atom["params"]["dc_base"] + int(p.get("str_modifier", 0))
-          + int(p.get("proficiency_bonus", 0)))
+    base = atom["params"]["dc_base"]
+    formula = f"{base} + Strength modifier + Proficiency Bonus (the attacker's)"
+    have = (p.get("str_modifier") is not None
+            and p.get("proficiency_bonus") is not None)
+    dc = (base + int(p.get("str_modifier", 0))
+          + int(p.get("proficiency_bonus", 0))) if have else None
     atk = (p.get("attacker_size") or "medium").lower()
     tgt = (p.get("target_size") or "medium").lower()
     if atk not in _SIZES or tgt not in _SIZES:
@@ -1272,12 +1276,17 @@ def grapple_initiate(adapter, p):
                          [_cite(atom)], aid, [atom["id"]])
     on_fail = ("the Grappled condition" if kind == "grapple"
                else "pushed 5 feet or the Prone condition (attacker's choice)")
+    dc_txt = (f"DC {dc}" if have else
+              f"DC = {formula} — supply str_modifier and proficiency_bonus "
+              f"to resolve the number")
+    data = {"kind": kind, "dc_formula": formula,
+            "save_ability": "str-or-dex (target's choice)", "on_fail": on_fail}
+    if have:
+        data["dc"] = dc
     return v.legal(
         f"{kind.capitalize()} is possible: the target makes a Strength or "
-        f"Dexterity save (its choice) vs DC {dc}; on a failure, {on_fail}.",
-        [_cite(atom)], aid, [atom["id"]],
-        data={"dc": dc, "kind": kind,
-              "save_ability": "str-or-dex (target's choice)", "on_fail": on_fail})
+        f"Dexterity save (its choice) vs {dc_txt}; on a failure, {on_fail}.",
+        [_cite(atom)], aid, [atom["id"]], data=data)
 
 
 def help_assist(adapter, p):
@@ -1330,10 +1339,18 @@ def passive_perception(adapter, p):
             "SRD 5.2.1 defines Passive Perception as 10 + the check modifier and "
             "specifies no Advantage/Disadvantage adjustment to a passive score; "
             "that ±5 rule is not in this ruleset.", [_cite(atom)], aid, [atom["id"]])
+    if p.get("perception_modifier") is None:
+        return v.legal(
+            "Passive Perception = 10 + the Wisdom (Perception) check modifier "
+            "— supply perception_modifier to resolve the number.",
+            [_cite(atom)], aid, [atom["id"]],
+            data={"score_formula": "10 + perception_modifier"})
     mod = int(p.get("perception_modifier", 0))
     score = atom["params"]["base"] + mod
     return v.legal(f"Passive Perception = 10 + {mod} = {score}.",
-                   [_cite(atom)], aid, [atom["id"]], data={"score": score})
+                   [_cite(atom)], aid, [atom["id"]],
+                   data={"score": score,
+                         "score_formula": "10 + perception_modifier"})
 
 
 HANDLERS = {
