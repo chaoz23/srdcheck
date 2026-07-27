@@ -112,6 +112,15 @@ def main():
         "action": glossary("Action"),
         "area-of-effect": glossary("Area of Effect"),
     }
+    # merge the census-anchored name registries (v0.2) so a single rebuild
+    # reproduces the committed file - CI had been red since the registries
+    # were added by a separate script (fixed 2026-07-27).
+    import importlib.util, pathlib as _pl
+    nrp = _pl.Path(__file__).resolve().parents[3] / "scripts/build_name_registries.py"
+    spec = importlib.util.spec_from_file_location("nr", nrp)
+    nr = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(nr)
+    ents.update(nr.extract())
     OUT.write_text(json.dumps(ents, indent=1))
     for k, x in ents.items():
         print(f"{k}: {len(x)}", x[:3])
