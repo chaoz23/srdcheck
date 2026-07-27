@@ -29,7 +29,7 @@ def test_handshake_and_tool_list():
     names = {t["name"] for t in tools}
     assert names == {"jurisdiction", "turn_plan", "turn_options",
                      "reaction_available", "roll_compose",
-                     "attack_modifiers", "mage_hand_use",
+                     "attack_modifiers", "mage_hand_use", "spell_facts", "feature_uses",
                      "event_apply", "creature_valid", "creature_stats",
                      "encounter_xp_budget", "save_check", "check_make",
                      "concentration_check", "opportunity_attack_provoked", "grapple_initiate", "passive_perception", "help_assist",
@@ -78,7 +78,7 @@ def test_stdio_subprocess_end_to_end():
     assert len(replies) == 3
     by_id = {r["id"]: r for r in replies}
     assert by_id[1]["result"]["serverInfo"]["name"] == "srdcheck"
-    assert len(by_id[2]["result"]["tools"]) == 20
+    assert len(by_id[2]["result"]["tools"]) == 22
     sc = by_id[3]["result"]["structuredContent"]
     assert sc["data"]["roll"] == "straight"  # the infiltration composition
     assert proc.returncode == 0

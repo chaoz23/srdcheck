@@ -648,5 +648,49 @@
     "kind"
    ]
   }
+ },
+ "spell.facts": {
+  "description": "Machine-readable facts for a registered SRD 5.2.1 spell: casting_time, range, components, duration, concentration (bool). Optional caller blank cast_at (a number on the CALLER'S clock) adds expires_at = cast_at + duration as pure arithmetic; non-fixed durations return expires_at null. srdcheck holds no state and no clock. Unknown spell name -> exit 2.",
+  "inputSchema": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "name": {
+     "type": "string",
+     "description": "registered spell name"
+    },
+    "cast_at": {
+     "type": "number",
+     "description": "caller clock value at cast time (any unit-consistent number, e.g. epoch seconds)"
+    }
+   },
+   "required": [
+    "name"
+   ]
+  }
+ },
+ "feature.uses": {
+  "description": "Use-count formulas the SRD states as arithmetic (closed set: divine-sense = 1 + CHA modifier; lay-on-hands = 5 x paladin level). Formula-blanks discipline: without the blanks the verdict returns the formula only, never a number. Tables are out of scope.",
+  "inputSchema": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "feature": {
+     "enum": [
+      "divine-sense",
+      "lay-on-hands"
+     ]
+    },
+    "charisma_modifier": {
+     "type": "integer"
+    },
+    "paladin_level": {
+     "type": "integer"
+    }
+   },
+   "required": [
+    "feature"
+   ]
+  }
  }
 }

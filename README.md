@@ -168,3 +168,19 @@ and no `score`. Origin: a live table where the base-8 rendered as "DC 8"
 when the true DC was 13. srdcheck stays lookup-pure: the formula is the rule
 text, filling caller-supplied blanks is arithmetic — deriving the blanks
 from a sheet is charactercheck's lane, never this one.
+
+
+## Spell & feature facts (v0.4)
+
+```
+srdcheck query spell.facts '{"name": "Protection from Evil and Good", "cast_at": 1000}'
+srdcheck query feature.uses '{"feature": "divine-sense", "charisma_modifier": 4}'
+```
+
+Casting time, range, components, duration, concentration — the facts a DM
+misremembers at 2am — as cited verdicts, census-anchored over all 336 SRD
+spells (the build fails if any spell parses incompletely). `cast_at` adds
+`expires_at` as pure arithmetic on the caller's own clock: srdcheck holds no
+state and no clock. `feature.uses` covers the SRD's use-count *formulas*
+under the formula-blanks discipline. Origin: a 10-minute ward narrated as
+active for seventy minutes, caught by the human player.

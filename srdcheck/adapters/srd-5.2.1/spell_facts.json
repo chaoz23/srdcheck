@@ -1,0 +1,2690 @@
+{
+"acid arrow": {
+"casting_time": "Action",
+"components": "V, S, M (powdered rhubarb leaf)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 107,
+"range": "90 feet"
+},
+"acid splash": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 107,
+"range": "60 feet"
+},
+"aid": {
+"casting_time": "Action",
+"components": "V, S, M (a strip of white cloth)",
+"concentration": false,
+"duration": "8 hours",
+"page": 107,
+"range": "30 feet"
+},
+"alarm": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (a bell and silver wire)",
+"concentration": false,
+"duration": "8 hours",
+"page": 107,
+"range": "30 feet"
+},
+"alter self": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 107,
+"range": "Self"
+},
+"animal friendship": {
+"casting_time": "Action",
+"components": "V, S, M (a morsel of food)",
+"concentration": false,
+"duration": "24 hours",
+"page": 107,
+"range": "30 feet"
+},
+"animal messenger": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a morsel of food)",
+"concentration": false,
+"duration": "24 hours",
+"page": 108,
+"range": "30 feet"
+},
+"animal shapes": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "24 hours",
+"page": 108,
+"range": "30 feet"
+},
+"animate dead": {
+"casting_time": "1 minute",
+"components": "V, S, M (a drop of blood, a piece of flesh,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 108,
+"range": "10 feet"
+},
+"animate objects": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 108,
+"range": "120 feet"
+},
+"antilife shell": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 109,
+"range": "Self"
+},
+"antimagic field": {
+"casting_time": "Action",
+"components": "V, S, M (iron filings)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 109,
+"range": "Self"
+},
+"antipathy/sympathy": {
+"casting_time": "1 hour",
+"components": "V, S, M (a mix of vinegar and honey)",
+"concentration": false,
+"duration": "10 days",
+"page": 109,
+"range": "60 feet"
+},
+"arcane eye": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of bat fur)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 110,
+"range": "30 feet"
+},
+"arcane hand": {
+"casting_time": "Action",
+"components": "V, S, M (an eggshell and a glove)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 110,
+"range": "120 feet"
+},
+"arcane lock": {
+"casting_time": "Action",
+"components": "V, S, M (gold dust worth 25+ GP, which",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 110,
+"range": "Touch"
+},
+"arcane sword": {
+"casting_time": "Action",
+"components": "V, S, M (a miniature sword worth",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 110,
+"range": "90 feet"
+},
+"arcanist\u2019s magic aura": {
+"casting_time": "Action",
+"components": "V, S, M (a small square of silk)",
+"concentration": false,
+"duration": "24 hours",
+"page": 110,
+"range": "Touch"
+},
+"astral projection": {
+"casting_time": "1 hour",
+"components": "V, S, M (for each of the spell\u2019s targets,",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 111,
+"range": "10 feet"
+},
+"augury": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (specially marked sticks, bones,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 111,
+"range": "Self"
+},
+"aura of life": {
+"casting_time": "Action",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 111,
+"range": "Self"
+},
+"awaken": {
+"casting_time": "8 hours",
+"components": "V, S, M (an agate worth 1,000+ GP, which",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 111,
+"range": "Touch"
+},
+"bane": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of blood)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 112,
+"range": "30 feet"
+},
+"banishment": {
+"casting_time": "Action",
+"components": "V, S, M (a pentacle)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 112,
+"range": "30 feet"
+},
+"barkskin": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a handful of bark)",
+"concentration": false,
+"duration": "1 hour",
+"page": 112,
+"range": "Touch"
+},
+"beacon of hope": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 112,
+"range": "30 feet"
+},
+"befuddlement": {
+"casting_time": "Action",
+"components": "V, S, M (a key ring with no keys)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 112,
+"range": "150 feet"
+},
+"bestow curse": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 112,
+"range": "Touch"
+},
+"black tentacles": {
+"casting_time": "Action",
+"components": "V, S, M (a tentacle)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 113,
+"range": "90 feet"
+},
+"blade barrier": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 113,
+"range": "90 feet"
+},
+"bless": {
+"casting_time": "Action",
+"components": "V, S, M (a Holy Symbol worth 5+ GP)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 113,
+"range": "30 feet"
+},
+"blight": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 113,
+"range": "30 feet"
+},
+"blindness/deafness": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "1 minute",
+"page": 113,
+"range": "120 feet"
+},
+"blink": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 minute",
+"page": 113,
+"range": "Self"
+},
+"blur": {
+"casting_time": "Action",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 114,
+"range": "Self"
+},
+"burning hands": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 114,
+"range": "Self"
+},
+"call lightning": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 114,
+"range": "120 feet"
+},
+"calm emotions": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 114,
+"range": "60 feet"
+},
+"chain lightning": {
+"casting_time": "Action",
+"components": "V, S, M (three silver pins)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 114,
+"range": "150 feet"
+},
+"charm monster": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 114,
+"range": "30 feet"
+},
+"charm person": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 115,
+"range": "30 feet"
+},
+"chill touch": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 115,
+"range": "Touch"
+},
+"chromatic orb": {
+"casting_time": "Action",
+"components": "V, S, M (a diamond worth 50+ GP)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 115,
+"range": "90 feet"
+},
+"circle of death": {
+"casting_time": "Action",
+"components": "V, S, M (the powder of a crushed black",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 115,
+"range": "150 feet"
+},
+"clairvoyance": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a focus worth 100+ GP, either a",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 115,
+"range": "1 mile"
+},
+"clone": {
+"casting_time": "1 hour",
+"components": "V, S, M (a diamond worth 1,000+ GP,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 115,
+"range": "Touch"
+},
+"cloudkill": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 116,
+"range": "120 feet"
+},
+"color spray": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of colorful sand)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 116,
+"range": "Self"
+},
+"command": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 116,
+"range": "60 feet"
+},
+"commune": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (incense)",
+"concentration": false,
+"duration": "1 minute",
+"page": 116,
+"range": "Self"
+},
+"commune with nature": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 116,
+"range": "Self"
+},
+"comprehend languages": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a pinch of soot and salt)",
+"concentration": false,
+"duration": "1 hour",
+"page": 117,
+"range": "Self"
+},
+"compulsion": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 117,
+"range": "30 feet"
+},
+"cone of cold": {
+"casting_time": "Action",
+"components": "V, S, M (a small crystal or glass cone)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 117,
+"range": "Self"
+},
+"confusion": {
+"casting_time": "Action",
+"components": "V, S, M (three nut shells)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 117,
+"range": "90 feet"
+},
+"conjure animals": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 117,
+"range": "60 feet"
+},
+"conjure celestial": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 118,
+"range": "90 feet"
+},
+"conjure elemental": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 118,
+"range": "60 feet"
+},
+"conjure fey": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 118,
+"range": "60 feet"
+},
+"conjure minor elementals": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 118,
+"range": "Self"
+},
+"conjure woodland beings": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 118,
+"range": "Self"
+},
+"contact other plane": {
+"casting_time": "1 minute or Ritual",
+"components": "V",
+"concentration": false,
+"duration": "1 minute",
+"page": 119,
+"range": "Self"
+},
+"contagion": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "7 days",
+"page": 119,
+"range": "Touch"
+},
+"contingency": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a gem-encrusted statuette of",
+"concentration": false,
+"duration": "10 days",
+"page": 119,
+"range": "Self"
+},
+"continual flame": {
+"casting_time": "Action",
+"components": "V, S, M (ruby dust worth 50+ GP, which",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 119,
+"range": "Touch"
+},
+"control water": {
+"casting_time": "Action",
+"components": "V, S, M (a mixture of water and dust)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 119,
+"range": "300 feet"
+},
+"control weather": {
+"casting_time": "10 minutes",
+"components": "V, S, M (burning incense)",
+"concentration": true,
+"duration": "Concentration, up to 8 hours",
+"page": 120,
+"range": "Self"
+},
+"counterspell": {
+"casting_time": "Reaction, which you take when you see a",
+"components": "S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 120,
+"range": "60 feet"
+},
+"create food and water": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 120,
+"range": "30 feet"
+},
+"create or destroy water": {
+"casting_time": "Action",
+"components": "V, S, M (a mix of water and sand)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 121,
+"range": "30 feet"
+},
+"create undead": {
+"casting_time": "1 minute",
+"components": "V, S, M (one 150+ GP black onyx stone",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 121,
+"range": "10 feet"
+},
+"creation": {
+"casting_time": "1 minute",
+"components": "V, S, M (a paintbrush)",
+"concentration": false,
+"duration": "Special",
+"page": 121,
+"range": "30 feet"
+},
+"cure wounds": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 121,
+"range": "Touch"
+},
+"dancing lights": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of phosphorus)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 121,
+"range": "120 feet"
+},
+"darkness": {
+"casting_time": "Action",
+"components": "V, M (bat fur and a piece of coal)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 122,
+"range": "60 feet"
+},
+"darkvision": {
+"casting_time": "Action",
+"components": "V, S, M (a dried carrot)",
+"concentration": false,
+"duration": "8 hours",
+"page": 122,
+"range": "Touch"
+},
+"daylight": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 122,
+"range": "60 feet"
+},
+"death ward": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "8 hours",
+"page": 122,
+"range": "Touch"
+},
+"delayed blast fireball": {
+"casting_time": "Action",
+"components": "V, S, M (a ball of bat guano and sulfur)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 122,
+"range": "150 feet"
+},
+"demiplane": {
+"casting_time": "Action",
+"components": "S",
+"concentration": false,
+"duration": "1 hour",
+"page": 122,
+"range": "60 feet"
+},
+"detect evil and good": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 123,
+"range": "Self"
+},
+"detect magic": {
+"casting_time": "Action or Ritual",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 123,
+"range": "Self"
+},
+"detect poison and disease": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a yew leaf)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 123,
+"range": "Self"
+},
+"detect thoughts": {
+"casting_time": "Action",
+"components": "V, S, M (1 Copper Piece)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 123,
+"range": "Self"
+},
+"dimension door": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 123,
+"range": "500 feet"
+},
+"disguise self": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 124,
+"range": "Self"
+},
+"disintegrate": {
+"casting_time": "Action",
+"components": "V, S, M (a lodestone and dust)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 124,
+"range": "60 feet"
+},
+"dispel evil and good": {
+"casting_time": "Action",
+"components": "V, S, M (powdered silver and iron)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 124,
+"range": "Self"
+},
+"dispel magic": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 124,
+"range": "120 feet"
+},
+"dissonant whispers": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 124,
+"range": "60 feet"
+},
+"divination": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (incense worth 25+ GP, which the",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 125,
+"range": "Self"
+},
+"divine favor": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 minute",
+"page": 125,
+"range": "Self"
+},
+"divine smite": {
+"casting_time": "Bonus Action, which you take immedi -",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 125,
+"range": "Self"
+},
+"divine word": {
+"casting_time": "Bonus Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 125,
+"range": "30 feet"
+},
+"dominate beast": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 125,
+"range": "60 feet"
+},
+"dominate monster": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 125,
+"range": "60 feet"
+},
+"dominate person": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 126,
+"range": "60 feet"
+},
+"dragon\u2019s breath": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a hot pepper)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 126,
+"range": "Touch"
+},
+"dream": {
+"casting_time": "1 minute",
+"components": "V, S, M (a handful of sand)",
+"concentration": false,
+"duration": "8 hours",
+"page": 126,
+"range": "Special"
+},
+"druidcraft": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 126,
+"range": "30 feet"
+},
+"earthquake": {
+"casting_time": "Action",
+"components": "V, S, M (a fractured rock)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 127,
+"range": "500 feet"
+},
+"eldritch blast": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 127,
+"range": "120 feet"
+},
+"elementalism": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 127,
+"range": "30 feet"
+},
+"enhance ability": {
+"casting_time": "Action",
+"components": "V, S, M (fur or a feather)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 127,
+"range": "Touch"
+},
+"enlarge/reduce": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of powdered iron)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 127,
+"range": "30 feet"
+},
+"ensnaring strike": {
+"casting_time": "Bonus Action, which you take immedi -",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 128,
+"range": "Self"
+},
+"entangle": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 128,
+"range": "90 feet"
+},
+"enthrall": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 128,
+"range": "60 feet"
+},
+"etherealness": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Up to 8 hours",
+"page": 128,
+"range": "Self"
+},
+"expeditious retreat": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 129,
+"range": "Self"
+},
+"eyebite": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 129,
+"range": "Self"
+},
+"fabricate": {
+"casting_time": "10 minutes",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 129,
+"range": "120 feet"
+},
+"faerie fire": {
+"casting_time": "Action",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 129,
+"range": "60 feet"
+},
+"faithful hound": {
+"casting_time": "Action",
+"components": "V, S, M (a silver whistle)",
+"concentration": false,
+"duration": "8 hours",
+"page": 129,
+"range": "30 feet"
+},
+"false life": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of alcohol)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 129,
+"range": "Self"
+},
+"fear": {
+"casting_time": "Action",
+"components": "V, S, M (a white feather)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 130,
+"range": "Self"
+},
+"feather fall": {
+"casting_time": "Reaction, which you take when you or a",
+"components": "V, M (a small feather or piece of down)",
+"concentration": false,
+"duration": "1 minute",
+"page": 130,
+"range": "60 feet"
+},
+"find familiar": {
+"casting_time": "1 hour or Ritual",
+"components": "V, S, M (burning incense worth 10+ GP,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 130,
+"range": "10 feet"
+},
+"find steed": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 130,
+"range": "30 feet"
+},
+"find the path": {
+"casting_time": "1 minute",
+"components": "V, S, M (a set of divination tools\u2014such as",
+"concentration": true,
+"duration": "Concentration, up to 1 day",
+"page": 131,
+"range": "Self"
+},
+"find traps": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 131,
+"range": "120 feet"
+},
+"finger of death": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 131,
+"range": "60 feet"
+},
+"fire bolt": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 132,
+"range": "120 feet"
+},
+"fire shield": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of phosphorus or a firefly)",
+"concentration": false,
+"duration": "10 minutes",
+"page": 132,
+"range": "Self"
+},
+"fire storm": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 132,
+"range": "150 feet"
+},
+"fireball": {
+"casting_time": "Action",
+"components": "V, S, M (a ball of bat guano and sulfur)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 131,
+"range": "150 feet"
+},
+"flame blade": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a sumac leaf)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 132,
+"range": "Self"
+},
+"flame strike": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of sulfur)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 132,
+"range": "60 feet"
+},
+"flaming sphere": {
+"casting_time": "Action",
+"components": "V, S, M (a ball of wax)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 132,
+"range": "60 feet"
+},
+"flesh to stone": {
+"casting_time": "Action",
+"components": "V, S, M (a cockatrice feather)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 133,
+"range": "60 feet"
+},
+"floating disk": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a drop of mercury)",
+"concentration": false,
+"duration": "1 hour",
+"page": 133,
+"range": "30 feet"
+},
+"fly": {
+"casting_time": "Action",
+"components": "V, S, M (a feather)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 133,
+"range": "Touch"
+},
+"fog cloud": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 133,
+"range": "120 feet"
+},
+"forbiddance": {
+"casting_time": "10 minutes or Ritual",
+"components": "V, S, M (ruby dust worth 1,000+ GP)",
+"concentration": false,
+"duration": "1 day",
+"page": 133,
+"range": "Touch"
+},
+"forcecage": {
+"casting_time": "Action",
+"components": "V, S, M (ruby dust worth 1,500+ GP,",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 134,
+"range": "100 feet"
+},
+"foresight": {
+"casting_time": "1 minute",
+"components": "V, S, M (a hummingbird feather)",
+"concentration": false,
+"duration": "8 hours",
+"page": 134,
+"range": "Touch"
+},
+"freedom of movement": {
+"casting_time": "Action",
+"components": "V, S, M (a leather strap)",
+"concentration": false,
+"duration": "1 hour",
+"page": 134,
+"range": "Touch"
+},
+"freezing sphere": {
+"casting_time": "Action",
+"components": "V, S, M (a miniature crystal sphere)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 134,
+"range": "300 feet"
+},
+"gaseous form": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of gauze)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 134,
+"range": "Touch"
+},
+"gate": {
+"casting_time": "Action",
+"components": "V, S, M (a diamond worth 5,000+ GP)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 135,
+"range": "60 feet"
+},
+"geas": {
+"casting_time": "1 minute",
+"components": "V",
+"concentration": false,
+"duration": "30 days",
+"page": 135,
+"range": "60 feet"
+},
+"gentle repose": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (2 Copper Pieces, which the spell",
+"concentration": false,
+"duration": "10 days",
+"page": 135,
+"range": "Touch"
+},
+"giant insect": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 135,
+"range": "60 feet"
+},
+"glibness": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "1 hour",
+"page": 136,
+"range": "Self"
+},
+"globe of invulnerability": {
+"casting_time": "Action",
+"components": "V, S, M (a glass bead)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 136,
+"range": "Self"
+},
+"glyph of warding": {
+"casting_time": "1 hour",
+"components": "V, S, M (powdered diamond worth 200+",
+"concentration": false,
+"duration": "Until dispelled or triggered",
+"page": 136,
+"range": "Touch"
+},
+"goodberry": {
+"casting_time": "Action",
+"components": "V, S, M (a sprig of mistletoe)",
+"concentration": false,
+"duration": "24 hours",
+"page": 137,
+"range": "Self"
+},
+"grease": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of pork rind or butter)",
+"concentration": false,
+"duration": "1 minute",
+"page": 137,
+"range": "60 feet"
+},
+"greater invisibility": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 137,
+"range": "Touch"
+},
+"greater restoration": {
+"casting_time": "Action",
+"components": "V, S, M (diamond dust worth 100+ GP,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 137,
+"range": "Touch"
+},
+"guardian of faith": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "8 hours",
+"page": 137,
+"range": "30 feet"
+},
+"guards and wards": {
+"casting_time": "1 hour",
+"components": "V, S, M (a silver rod worth 10+ GP)",
+"concentration": false,
+"duration": "24 hours",
+"page": 137,
+"range": "Touch"
+},
+"guidance": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 138,
+"range": "Touch"
+},
+"guiding bolt": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 round",
+"page": 138,
+"range": "120 feet"
+},
+"gust of wind": {
+"casting_time": "Action",
+"components": "V, S, M (a legume seed)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 138,
+"range": "Self"
+},
+"hallow": {
+"casting_time": "24 hours",
+"components": "V, S, M (incense worth 1,000+ GP, which",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 138,
+"range": "Touch"
+},
+"hallucinatory terrain": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a mushroom)",
+"concentration": false,
+"duration": "24 hours",
+"page": 139,
+"range": "300 feet"
+},
+"harm": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 139,
+"range": "60 feet"
+},
+"haste": {
+"casting_time": "Action",
+"components": "V, S, M (a shaving of licorice root)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 139,
+"range": "30 feet"
+},
+"heal": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 139,
+"range": "60 feet"
+},
+"healing word": {
+"casting_time": "Bonus Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 139,
+"range": "60 feet"
+},
+"heat metal": {
+"casting_time": "Action",
+"components": "V, S, M (a piece of iron and a flame)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 139,
+"range": "60 feet"
+},
+"hellish rebuke": {
+"casting_time": "Reaction, which you take in response to",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 140,
+"range": "60 feet"
+},
+"heroes\u2019 feast": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a gem-encrusted bowl worth",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 140,
+"range": "Self"
+},
+"heroism": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 140,
+"range": "Touch"
+},
+"hex": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (the petrified eye of a newt)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 140,
+"range": "90 feet"
+},
+"hideous laughter": {
+"casting_time": "Action",
+"components": "V, S, M (a tart and a feather)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 140,
+"range": "30 feet"
+},
+"hold monster": {
+"casting_time": "Action",
+"components": "V, S, M (a straight piece of iron)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 140,
+"range": "90 feet"
+},
+"hold person": {
+"casting_time": "Action",
+"components": "V, S, M (a straight piece of iron)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 141,
+"range": "60 feet"
+},
+"holy aura": {
+"casting_time": "Action",
+"components": "V, S, M (a reliquary worth 1,000+ GP)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 141,
+"range": "Self"
+},
+"hunter\u2019s mark": {
+"casting_time": "Bonus Action",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 141,
+"range": "90 feet"
+},
+"hypnotic pattern": {
+"casting_time": "Action",
+"components": "S, M (a pinch of confetti)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 141,
+"range": "120 feet"
+},
+"ice knife": {
+"casting_time": "Action",
+"components": "S, M (a drop of water or a piece of ice)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 141,
+"range": "60 feet"
+},
+"ice storm": {
+"casting_time": "Action",
+"components": "V, S, M (a mitten)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 141,
+"range": "300 feet"
+},
+"identify": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (a pearl worth 100+ GP)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 142,
+"range": "Touch"
+},
+"illusory script": {
+"casting_time": "1 minute or Ritual",
+"components": "S, M (ink worth 10+ GP, which the spell",
+"concentration": false,
+"duration": "10 days",
+"page": 142,
+"range": "Touch"
+},
+"imprisonment": {
+"casting_time": "1 minute",
+"components": "V, S, M (a statuette of the target worth",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 142,
+"range": "30 feet"
+},
+"incendiary cloud": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 142,
+"range": "150 feet"
+},
+"inflict wounds": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 143,
+"range": "Touch"
+},
+"insect plague": {
+"casting_time": "Action",
+"components": "V, S, M (a locust)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 143,
+"range": "300 feet"
+},
+"instant summons": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (a sapphire worth 1,000+ GP)",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 143,
+"range": "Touch"
+},
+"invisibility": {
+"casting_time": "Action",
+"components": "V, S, M (an eyelash in gum arabic)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 143,
+"range": "Touch"
+},
+"irresistible dance": {
+"casting_time": "Action",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 143,
+"range": "30 feet"
+},
+"jump": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a grasshopper\u2019s hind leg)",
+"concentration": false,
+"duration": "1 minute",
+"page": 143,
+"range": "Touch"
+},
+"knock": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 143,
+"range": "60 feet"
+},
+"legend lore": {
+"casting_time": "10 minutes",
+"components": "V, S, M (incense worth 250+ GP, which",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 144,
+"range": "Self"
+},
+"lesser restoration": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 144,
+"range": "Touch"
+},
+"levitate": {
+"casting_time": "Action",
+"components": "V, S, M (a metal spring)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 144,
+"range": "60 feet"
+},
+"light": {
+"casting_time": "Action",
+"components": "V, M (a firefly or phosphorescent moss)",
+"concentration": false,
+"duration": "1 hour",
+"page": 144,
+"range": "Touch"
+},
+"lightning bolt": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of fur and a crystal rod)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 144,
+"range": "Self"
+},
+"locate animals or plants": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (fur from a bloodhound)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 144,
+"range": "Self"
+},
+"locate creature": {
+"casting_time": "Action",
+"components": "V, S, M (fur from a bloodhound)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 145,
+"range": "Self"
+},
+"locate object": {
+"casting_time": "Action",
+"components": "V, S, M (a forked twig)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 145,
+"range": "Self"
+},
+"longstrider": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of dirt)",
+"concentration": false,
+"duration": "1 hour",
+"page": 145,
+"range": "Touch"
+},
+"mage armor": {
+"casting_time": "Action",
+"components": "V, S, M (a piece of cured leather)",
+"concentration": false,
+"duration": "8 hours",
+"page": 145,
+"range": "Touch"
+},
+"mage hand": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 minute",
+"page": 145,
+"range": "30 feet"
+},
+"magic circle": {
+"casting_time": "1 minute",
+"components": "V, S, M (salt and powdered silver worth",
+"concentration": false,
+"duration": "1 hour",
+"page": 145,
+"range": "10 feet"
+},
+"magic jar": {
+"casting_time": "1 minute",
+"components": "V, S, M (a gem, crystal, or reliquary worth",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 146,
+"range": "Self"
+},
+"magic missile": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 146,
+"range": "120 feet"
+},
+"magic mouth": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (jade dust worth 10+ GP, which",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 146,
+"range": "30 feet"
+},
+"magic weapon": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 146,
+"range": "Touch"
+},
+"magnificent mansion": {
+"casting_time": "1 minute",
+"components": "V, S, M (a miniature door worth 15+ GP)",
+"concentration": false,
+"duration": "24 hours",
+"page": 147,
+"range": "300 feet"
+},
+"major image": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of fleece)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 147,
+"range": "120 feet"
+},
+"mass cure wounds": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 147,
+"range": "60 feet"
+},
+"mass heal": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 147,
+"range": "60 feet"
+},
+"mass healing word": {
+"casting_time": "Bonus Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 148,
+"range": "60 feet"
+},
+"mass suggestion": {
+"casting_time": "Action",
+"components": "V, M (a snake\u2019s tongue)",
+"concentration": false,
+"duration": "24 hours",
+"page": 148,
+"range": "60 feet"
+},
+"maze": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 148,
+"range": "60 feet"
+},
+"meld into stone": {
+"casting_time": "Action or Ritual",
+"components": "V, S",
+"concentration": false,
+"duration": "8 hours",
+"page": 148,
+"range": "Touch"
+},
+"mending": {
+"casting_time": "1 minute",
+"components": "V, S, M (two lodestones)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 148,
+"range": "Touch"
+},
+"message": {
+"casting_time": "Action",
+"components": "S, M (a copper wire)",
+"concentration": false,
+"duration": "1 round",
+"page": 148,
+"range": "120 feet"
+},
+"meteor swarm": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 149,
+"range": "1 mile"
+},
+"mind blank": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "24 hours",
+"page": 149,
+"range": "Touch"
+},
+"mind spike": {
+"casting_time": "Action",
+"components": "S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 149,
+"range": "120 feet"
+},
+"minor illusion": {
+"casting_time": "Action",
+"components": "S, M (a bit of fleece)",
+"concentration": false,
+"duration": "1 minute",
+"page": 149,
+"range": "30 feet"
+},
+"mirage arcane": {
+"casting_time": "10 minutes",
+"components": "V, S",
+"concentration": false,
+"duration": "10 days",
+"page": 149,
+"range": "Sight"
+},
+"mirror image": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 minute",
+"page": 150,
+"range": "Self"
+},
+"mislead": {
+"casting_time": "Action",
+"components": "S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 150,
+"range": "Self"
+},
+"misty step": {
+"casting_time": "Bonus Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 150,
+"range": "Self"
+},
+"modify memory": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 150,
+"range": "30 feet"
+},
+"moonbeam": {
+"casting_time": "Action",
+"components": "V, S, M (a moonseed leaf)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 150,
+"range": "120 feet"
+},
+"move earth": {
+"casting_time": "Action",
+"components": "V, S, M (a miniature shovel)",
+"concentration": true,
+"duration": "Concentration, up to 2 hours",
+"page": 151,
+"range": "120 feet"
+},
+"nondetection": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of diamond dust worth",
+"concentration": false,
+"duration": "8 hours",
+"page": 151,
+"range": "Touch"
+},
+"pass without trace": {
+"casting_time": "Action",
+"components": "V, S, M (ashes from burned mistletoe)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 151,
+"range": "Self"
+},
+"passwall": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of sesame seeds)",
+"concentration": false,
+"duration": "1 hour",
+"page": 151,
+"range": "30 feet"
+},
+"phantasmal force": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of fleece)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 151,
+"range": "60 feet"
+},
+"phantasmal killer": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 152,
+"range": "120 feet"
+},
+"phantom steed": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 152,
+"range": "30 feet"
+},
+"planar ally": {
+"casting_time": "10 minutes",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 152,
+"range": "60 feet"
+},
+"planar binding": {
+"casting_time": "1 hour",
+"components": "V, S, M (a jewel worth 1,000+ GP, which",
+"concentration": false,
+"duration": "24 hours",
+"page": 152,
+"range": "60 feet"
+},
+"plane shift": {
+"casting_time": "Action",
+"components": "V, S, M (a forked, metal rod worth 250+",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 153,
+"range": "Touch"
+},
+"plant growth": {
+"casting_time": "Action (Overgrowth) or",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 153,
+"range": "150 feet"
+},
+"poison spray": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 153,
+"range": "30 feet"
+},
+"polymorph": {
+"casting_time": "Action",
+"components": "V, S, M (a caterpillar cocoon)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 153,
+"range": "60 feet"
+},
+"power word heal": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 154,
+"range": "60 feet"
+},
+"power word kill": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 154,
+"range": "60 feet"
+},
+"power word stun": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 154,
+"range": "60 feet"
+},
+"prayer of healing": {
+"casting_time": "10 minutes",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 154,
+"range": "30 feet"
+},
+"prestidigitation": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Up to 1 hour",
+"page": 154,
+"range": "10 feet"
+},
+"prismatic spray": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 154,
+"range": "Self"
+},
+"prismatic wall": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "10 minutes",
+"page": 155,
+"range": "60 feet"
+},
+"private sanctum": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a thin sheet of lead)",
+"concentration": false,
+"duration": "24 hours",
+"page": 156,
+"range": "120 feet"
+},
+"produce flame": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": false,
+"duration": "10 minutes",
+"page": 156,
+"range": "Self"
+},
+"programmed illusion": {
+"casting_time": "Action",
+"components": "V, S, M (jade dust worth 25+ GP)",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 156,
+"range": "120 feet"
+},
+"project image": {
+"casting_time": "Action",
+"components": "V, S, M (a statuette of yourself worth",
+"concentration": true,
+"duration": "Concentration, up to 1 day",
+"page": 156,
+"range": "500 miles"
+},
+"protection from energy": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 157,
+"range": "Touch"
+},
+"protection from evil and good": {
+"casting_time": "Action",
+"components": "V, S, M (a flask of Holy Water worth 25+",
+"concentration": true,
+"duration": "Concentration up to 10 minutes",
+"page": 157,
+"range": "Touch"
+},
+"protection from poison": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 hour",
+"page": 157,
+"range": "Touch"
+},
+"purify food and drink": {
+"casting_time": "Action or Ritual",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 157,
+"range": "10 feet"
+},
+"raise dead": {
+"casting_time": "1 hour",
+"components": "V, S, M (a diamond worth 500+ GP, which",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 157,
+"range": "Touch"
+},
+"ray of enfeeblement": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 157,
+"range": "60 feet"
+},
+"ray of frost": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 157,
+"range": "60 feet"
+},
+"ray of sickness": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 158,
+"range": "60 feet"
+},
+"regenerate": {
+"casting_time": "1 minute",
+"components": "V, S, M (a prayer wheel)",
+"concentration": false,
+"duration": "1 hour",
+"page": 158,
+"range": "Touch"
+},
+"reincarnate": {
+"casting_time": "1 hour",
+"components": "V, S, M (rare oils worth 1,000+ GP, which",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 158,
+"range": "Touch"
+},
+"remove curse": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 158,
+"range": "Touch"
+},
+"resilient sphere": {
+"casting_time": "Action",
+"components": "V, S, M (a glass sphere)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 158,
+"range": "30 feet"
+},
+"resistance": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 158,
+"range": "Touch"
+},
+"resurrection": {
+"casting_time": "1 hour",
+"components": "V, S, M (a diamond worth 1,000+ GP,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 158,
+"range": "Touch"
+},
+"reverse gravity": {
+"casting_time": "Action",
+"components": "V, S, M (a lodestone and iron filings)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 159,
+"range": "100 feet"
+},
+"revivify": {
+"casting_time": "Action",
+"components": "V, S, M (a diamond worth 300+ GP, which",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 159,
+"range": "Touch"
+},
+"rope trick": {
+"casting_time": "Action",
+"components": "V, S, M (a segment of rope)",
+"concentration": false,
+"duration": "1 hour",
+"page": 159,
+"range": "Touch"
+},
+"sacred flame": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 159,
+"range": "60 feet"
+},
+"sanctuary": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a shard of glass from a mirror)",
+"concentration": false,
+"duration": "1 minute",
+"page": 159,
+"range": "30 feet"
+},
+"scorching ray": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 159,
+"range": "120 feet"
+},
+"scrying": {
+"casting_time": "10 minutes",
+"components": "V, S, M (a focus worth 1,000+ GP, such as",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 160,
+"range": "Self"
+},
+"searing smite": {
+"casting_time": "Bonus Action, which you take immedi -",
+"components": "V",
+"concentration": false,
+"duration": "1 minute",
+"page": 160,
+"range": "Self"
+},
+"secret chest": {
+"casting_time": "Action",
+"components": "V, S, M (a chest, 3 feet by 2 feet by 2 feet,",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 160,
+"range": "Touch"
+},
+"see invisibility": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of talc)",
+"concentration": false,
+"duration": "1 hour",
+"page": 160,
+"range": "Self"
+},
+"seeming": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "8 hours",
+"page": 160,
+"range": "30 feet"
+},
+"sending": {
+"casting_time": "Action",
+"components": "V, S, M (a copper wire)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 161,
+"range": "Unlimited"
+},
+"sequester": {
+"casting_time": "Action",
+"components": "V, S, M (gem dust worth 5,000+ GP,",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 161,
+"range": "Touch"
+},
+"shapechange": {
+"casting_time": "Action",
+"components": "V, S, M (a jade circlet worth 1,500+ GP)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 161,
+"range": "Self"
+},
+"shatter": {
+"casting_time": "Action",
+"components": "V, S, M (a chip of mica)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 161,
+"range": "60 feet"
+},
+"shield": {
+"casting_time": "Reaction, which you take when you are",
+"components": "V, S",
+"concentration": false,
+"duration": "1 round",
+"page": 161,
+"range": "Self"
+},
+"shield of faith": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (a prayer scroll)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 162,
+"range": "60 feet"
+},
+"shillelagh": {
+"casting_time": "Bonus Action",
+"components": "V, S, M (mistletoe)",
+"concentration": false,
+"duration": "1 minute",
+"page": 162,
+"range": "Self"
+},
+"shining smite": {
+"casting_time": "Bonus Action, which you take immedi -",
+"components": "V",
+"concentration": true,
+"duration": "Concentration, up to  1 minute",
+"page": 162,
+"range": "Self"
+},
+"shocking grasp": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 162,
+"range": "Touch"
+},
+"silence": {
+"casting_time": "Action or Ritual",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 162,
+"range": "120 feet"
+},
+"silent image": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of fleece)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 162,
+"range": "60 feet"
+},
+"simulacrum": {
+"casting_time": "12 hours",
+"components": "V, S, M (powdered ruby worth 1,500+ GP,",
+"concentration": false,
+"duration": "Until dispelled",
+"page": 162,
+"range": "Touch"
+},
+"sleep": {
+"casting_time": "Action",
+"components": "V, S, M (a pinch of sand or rose petals)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 163,
+"range": "60 feet"
+},
+"sleet storm": {
+"casting_time": "Action",
+"components": "V, S, M (a miniature umbrella)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 163,
+"range": "150 feet"
+},
+"slow": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of molasses)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 163,
+"range": "120 feet"
+},
+"sorcerous burst": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 163,
+"range": "120 feet"
+},
+"spare the dying": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 163,
+"range": "15 feet"
+},
+"speak with animals": {
+"casting_time": "Action or Ritual",
+"components": "V, S",
+"concentration": false,
+"duration": "10 minutes",
+"page": 164,
+"range": "Self"
+},
+"speak with dead": {
+"casting_time": "Action",
+"components": "V, S, M (burning incense)",
+"concentration": false,
+"duration": "10 minutes",
+"page": 164,
+"range": "10 feet"
+},
+"speak with plants": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "10 minutes",
+"page": 164,
+"range": "Self"
+},
+"spider climb": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of bitumen and a spider)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 164,
+"range": "Touch"
+},
+"spike growth": {
+"casting_time": "Action",
+"components": "V, S, M (seven thorns)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 164,
+"range": "150 feet"
+},
+"spirit guardians": {
+"casting_time": "Action",
+"components": "V, S, M (a prayer scroll)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 164,
+"range": "Self"
+},
+"spiritual weapon": {
+"casting_time": "Bonus Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 165,
+"range": "60 feet"
+},
+"starry wisp": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 165,
+"range": "60 feet"
+},
+"stinking cloud": {
+"casting_time": "Action",
+"components": "V, S, M (a rotten egg)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 165,
+"range": "90 feet"
+},
+"stone shape": {
+"casting_time": "Action",
+"components": "V, S, M (soft clay)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 165,
+"range": "Touch"
+},
+"stoneskin": {
+"casting_time": "Action",
+"components": "V, S, M (diamond dust worth 100+ GP,",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 165,
+"range": "Touch"
+},
+"storm of vengeance": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 165,
+"range": "1 mile"
+},
+"suggestion": {
+"casting_time": "Action",
+"components": "V, M (a drop of honey)",
+"concentration": true,
+"duration": "Concentration, up to 8 hours",
+"page": 166,
+"range": "30 feet"
+},
+"summon dragon": {
+"casting_time": "Action",
+"components": "V, S, M (an object with the image of a",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 166,
+"range": "60 feet"
+},
+"sunbeam": {
+"casting_time": "Action",
+"components": "V, S, M (a magnifying glass)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 166,
+"range": "Self"
+},
+"sunburst": {
+"casting_time": "Action",
+"components": "V, S, M (a piece of sunstone)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 167,
+"range": "150 feet"
+},
+"symbol": {
+"casting_time": "1 minute",
+"components": "V, S, M (powdered diamond worth 1,000+",
+"concentration": false,
+"duration": "Until dispelled or triggered",
+"page": 167,
+"range": "Touch"
+},
+"telekinesis": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 167,
+"range": "60 feet"
+},
+"telepathic bond": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (two eggs)",
+"concentration": false,
+"duration": "1 hour",
+"page": 168,
+"range": "30 feet"
+},
+"teleport": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 168,
+"range": "10 feet"
+},
+"teleportation circle": {
+"casting_time": "1 minute",
+"components": "V, M (rare inks worth 50+ GP, which the",
+"concentration": false,
+"duration": "1 round",
+"page": 168,
+"range": "10 feet"
+},
+"thaumaturgy": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Up to 1 minute",
+"page": 169,
+"range": "30 feet"
+},
+"thunderwave": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 169,
+"range": "Self"
+},
+"time stop": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 169,
+"range": "Self"
+},
+"tiny hut": {
+"casting_time": "1 minute or Ritual",
+"components": "V, S, M (a crystal bead)",
+"concentration": false,
+"duration": "8 hours",
+"page": 169,
+"range": "Self"
+},
+"tongues": {
+"casting_time": "Action",
+"components": "V, M (a miniature ziggurat)",
+"concentration": false,
+"duration": "1 hour",
+"page": 169,
+"range": "Touch"
+},
+"transport via plants": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": false,
+"duration": "1 minute",
+"page": 170,
+"range": "10 feet"
+},
+"tree stride": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 170,
+"range": "Self"
+},
+"true polymorph": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of mercury, a dollop of",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 170,
+"range": "30 feet"
+},
+"true resurrection": {
+"casting_time": "1 hour",
+"components": "V, S, M (diamonds worth 25,000+ GP,",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 170,
+"range": "Touch"
+},
+"true seeing": {
+"casting_time": "Action",
+"components": "V, S, M (mushroom powder worth 25+",
+"concentration": false,
+"duration": "1 hour",
+"page": 171,
+"range": "Touch"
+},
+"true strike": {
+"casting_time": "Action",
+"components": "S, M (a weapon with which you have profi -",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 171,
+"range": "Self"
+},
+"tsunami": {
+"casting_time": "1 minute",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 6 rounds",
+"page": 171,
+"range": "1 mile"
+},
+"unseen servant": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a bit of string and of wood)",
+"concentration": false,
+"duration": "1 hour",
+"page": 171,
+"range": "60 feet"
+},
+"vampiric touch": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 171,
+"range": "Self"
+},
+"vicious mockery": {
+"casting_time": "Action",
+"components": "V",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 171,
+"range": "60 feet"
+},
+"vitriolic sphere": {
+"casting_time": "Action",
+"components": "V, S, M (a drop of bile)",
+"concentration": false,
+"duration": "Instantaneous",
+"page": 172,
+"range": "150 feet"
+},
+"wall of fire": {
+"casting_time": "Action",
+"components": "V, S, M (a piece of charcoal)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 172,
+"range": "120 feet"
+},
+"wall of force": {
+"casting_time": "Action",
+"components": "V, S, M (a shard of glass)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 172,
+"range": "120 feet"
+},
+"wall of ice": {
+"casting_time": "Action",
+"components": "V, S, M (a piece of quartz)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 172,
+"range": "120 feet"
+},
+"wall of stone": {
+"casting_time": "Action",
+"components": "V, S, M (a cube of granite)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 173,
+"range": "120 feet"
+},
+"wall of thorns": {
+"casting_time": "Action",
+"components": "V, S, M (a handful of thorns)",
+"concentration": true,
+"duration": "Concentration, up to 10 minutes",
+"page": 173,
+"range": "120 feet"
+},
+"warding bond": {
+"casting_time": "Action",
+"components": "V, S, M (a pair of platinum rings worth",
+"concentration": false,
+"duration": "1 hour",
+"page": 173,
+"range": "Touch"
+},
+"water breathing": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a short reed)",
+"concentration": false,
+"duration": "24 hours",
+"page": 173,
+"range": "30 feet"
+},
+"water walk": {
+"casting_time": "Action or Ritual",
+"components": "V, S, M (a piece of cork)",
+"concentration": false,
+"duration": "1 hour",
+"page": 173,
+"range": "30 feet"
+},
+"web": {
+"casting_time": "Action",
+"components": "V, S, M (a bit of spiderweb)",
+"concentration": true,
+"duration": "Concentration, up to 1 hour",
+"page": 174,
+"range": "60 feet"
+},
+"weird": {
+"casting_time": "Action",
+"components": "V, S",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 174,
+"range": "120 feet"
+},
+"wind walk": {
+"casting_time": "1 minute",
+"components": "V, S, M (a candle)",
+"concentration": false,
+"duration": "8 hours",
+"page": 174,
+"range": "30 feet"
+},
+"wind wall": {
+"casting_time": "Action",
+"components": "V, S, M (a fan and a feather)",
+"concentration": true,
+"duration": "Concentration, up to 1 minute",
+"page": 174,
+"range": "120 feet"
+}
+}

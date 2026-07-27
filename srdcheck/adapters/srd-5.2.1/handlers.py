@@ -1353,7 +1353,88 @@ def passive_perception(adapter, p):
                          "score_formula": "10 + perception_modifier"})
 
 
+
+_SPELL_FACTS = None
+
+
+def _spell_facts(adapter):
+    global _SPELL_FACTS
+    if _SPELL_FACTS is None:
+        _SPELL_FACTS = json.load(open(adapter.root / "spell_facts.json"))
+    return _SPELL_FACTS
+
+
+def spell_facts(adapter, p):
+    """Machine-readable spell facts (casting time, range, components,
+    duration, concentration), census-anchored against the spell registry.
+    With caller-supplied `cast_at`, returns expires_at as pure arithmetic on
+    the caller's own clock - srdcheck holds no state and no clock. Origin:
+    a 10-minute ward narrated as active for ~70 minutes (2026-07-27)."""
+    aid = adapter.id
+    name = (p.get("name") or "").strip().lower()
+    facts = _spell_facts(adapter)
+    if name not in facts:
+        return v.cannot_adjudicate(
+            f"'{p.get('name')}' is not a registered SRD 5.2.1 spell name.",
+            adapter=aid)
+    f = dict(facts[name])
+    pg = f.pop("page")
+    data = {"facts": f}
+    why = (f"{p.get('name')}: casting time {f['casting_time']}; range "
+           f"{f['range']}; components {f['components']}; duration "
+           f"{f['duration']}" + ("; CONCENTRATION" if f["concentration"] else ""))
+    cast_at = p.get("cast_at")
+    if cast_at is not None:
+        import re as _re
+        m = _re.search(r"(\d+)\s*(round|minute|hour|day)", f["duration"].lower())
+        if m:
+            mult = {"round": 6, "minute": 60, "hour": 3600, "day": 86400}[m.group(2)]
+            data["expires_at"] = float(cast_at) + int(m.group(1)) * mult
+            data["duration_seconds"] = int(m.group(1)) * mult
+            why += f"; expires_at {data['expires_at']} on the caller's clock"
+        else:
+            data["expires_at"] = None
+            why += "; duration is not a fixed interval - caller adjudicates expiry"
+    return v.legal(why, [v.Citation(f"SRD 5.2.1 p.{pg}", pg, None)], aid,
+                   ["spell.facts"], data=data)
+
+
+_FEATURE_USES = {
+    "divine-sense": {"formula": "1 + Charisma modifier",
+                     "blanks": ["charisma_modifier"],
+                     "fn": lambda p: 1 + int(p.get("charisma_modifier", 0)),
+                     "page": 87},
+    "lay-on-hands": {"formula": "5 x paladin level (hit point pool)",
+                     "blanks": ["paladin_level"],
+                     "fn": lambda p: 5 * int(p.get("paladin_level", 0)),
+                     "page": 87},
+}
+
+
+def feature_uses(adapter, p):
+    """Use-count formulas the SRD states as arithmetic. Formula-blanks
+    discipline: no blanks supplied, no number - the formula alone."""
+    aid = adapter.id
+    feat = (p.get("feature") or "").strip().lower()
+    if feat not in _FEATURE_USES:
+        return v.cannot_adjudicate(
+            f"feature must be one of {sorted(_FEATURE_USES)}; use-count tables "
+            f"(not formulas) are out of scope.", adapter=aid)
+    spec = _FEATURE_USES[feat]
+    have = all(p.get(b) is not None for b in spec["blanks"])
+    data = {"formula": spec["formula"]}
+    if have:
+        data["uses"] = spec["fn"](p)
+        why = f"{feat}: {data['uses']} uses ({spec['formula']})."
+    else:
+        why = (f"{feat}: uses = {spec['formula']} - supply "
+               f"{spec['blanks']} to resolve the number.")
+    return v.legal(why, [v.Citation(f"SRD 5.2.1 p.{spec['page']}", spec["page"], None)],
+                   aid, ["feature.uses"], data=data)
+
 HANDLERS = {
+    "spell.facts": spell_facts,
+    "feature.uses": feature_uses,
     "mage-hand.use": mage_hand_use,
     "turn.plan": turn_plan,
     "turn.options": turn_options,
