@@ -1,0 +1,20 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 202,
+   "quote": "Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter.",
+   "section": "SRD 5.2.1 p.202 'Gameplay Toolbox > Building Combat Encounters > XP Budget per Character'"
+  }
+ ],
+ "data": {
+  "citation": "SRD 5.2.1 p.202",
+  "per_character": 100
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "encounter.xp-budget-per-character"
+ ],
+ "verdict": "legal",
+ "why": "Level 2 low encounter: 100 XP per character."
+}

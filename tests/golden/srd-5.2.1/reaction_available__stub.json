@@ -1,0 +1,16 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 186,
+   "quote": "You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn.",
+   "section": "SRD 5.2.1 p.186 'Rules Glossary > Reaction'"
+  }
+ ],
+ "exit_code": 1,
+ "rule_ids": [
+  "turn.one-reaction-per-round"
+ ],
+ "verdict": "illegal",
+ "why": "The Reaction is spent. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn."
+}

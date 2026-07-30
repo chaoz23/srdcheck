@@ -1,0 +1,18 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 87,
+   "section": "SRD 5.2.1 p.87"
+  }
+ ],
+ "data": {
+  "formula": "1 + Charisma modifier"
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "feature.uses"
+ ],
+ "verdict": "legal",
+ "why": "divine-sense: uses = 1 + Charisma modifier - supply ['charisma_modifier'] to resolve the number."
+}

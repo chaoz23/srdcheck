@@ -90,7 +90,8 @@
    "required": [
     "speed",
     "plan"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "turn.options": {
@@ -117,7 +118,8 @@
    },
    "required": [
     "speed"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "reaction.available": {
@@ -138,7 +140,8 @@
    },
    "required": [
     "spent_since_turn_start"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "roll.compose": {
@@ -161,7 +164,8 @@
     "reroll_available": {
      "type": "boolean"
     }
-   }
+   },
+   "additionalProperties": false
   }
  },
  "attack.modifiers": {
@@ -247,7 +251,8 @@
    },
    "required": [
     "distance_ft"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "mage-hand.use": {
@@ -268,7 +273,8 @@
    },
    "required": [
     "kind"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "event.apply": {
@@ -347,7 +353,8 @@
    "required": [
     "state",
     "event"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "creature.valid": {
@@ -361,7 +368,8 @@
    },
    "required": [
     "name"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "creature.stats": {
@@ -375,7 +383,8 @@
    },
    "required": [
     "name"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "encounter.xp-budget": {
@@ -402,7 +411,8 @@
    "required": [
     "level",
     "difficulty"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "save.check": {
@@ -444,7 +454,8 @@
    },
    "required": [
     "dc"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "check.make": {
@@ -502,7 +513,8 @@
    },
    "required": [
     "dc"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "concentration.check": {
@@ -527,7 +539,8 @@
    },
    "required": [
     "damage"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "opportunity-attack.provoked": {
@@ -552,7 +565,8 @@
      "type": "boolean",
      "description": "does the movement take the creature out of the reactor's reach (caller-supplied geometry; default true)"
     }
-   }
+   },
+   "additionalProperties": false
   }
  },
  "grapple.initiate": {
@@ -601,7 +615,8 @@
    },
    "required": [
     "kind"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "passive.perception": {
@@ -621,7 +636,8 @@
      "type": "boolean",
      "description": "not part of the SRD passive formula; triggers an honest refusal"
     }
-   }
+   },
+   "additionalProperties": false
   }
  },
  "help.assist": {
@@ -646,7 +662,8 @@
    },
    "required": [
     "kind"
-   ]
+   ],
+   "additionalProperties": false
   }
  },
  "spell.facts": {

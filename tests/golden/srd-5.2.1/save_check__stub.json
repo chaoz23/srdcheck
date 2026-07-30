@@ -1,0 +1,22 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 6,
+   "quote": "If the total of the d20 and its modifiers equals or exceeds the target number, the D20 Test succeeds. Otherwise, it fails.",
+   "section": "SRD 5.2.1 p.6 'Playing the Game > D20 Tests'"
+  }
+ ],
+ "data": {
+  "d20s": 1,
+  "dc": 2,
+  "net_modifier": 0,
+  "roll": "straight"
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "save.d20-vs-dc"
+ ],
+ "verdict": "legal",
+ "why": "Saving throw: roll straight (1 d20) vs DC 2."
+}

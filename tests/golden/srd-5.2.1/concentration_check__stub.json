@@ -1,0 +1,19 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 179,
+   "quote": "The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30.",
+   "section": "SRD 5.2.1 p.179 'Rules Glossary > Concentration'"
+  }
+ ],
+ "data": {
+  "dc": 10
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "save.concentration-dc"
+ ],
+ "verdict": "legal",
+ "why": "Concentration DC is max(10, 2 // 2) = 10."
+}

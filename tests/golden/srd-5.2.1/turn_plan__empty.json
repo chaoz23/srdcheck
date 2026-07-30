@@ -1,0 +1,16 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 14,
+   "quote": "You can break up your move, using some of its movement before and after any action, Bonus Action, or Reaction you take on the same turn.",
+   "section": "SRD 5.2.1 p.14 'Movement and Position > Breaking Up Your Move'"
+  }
+ ],
+ "exit_code": 0,
+ "rule_ids": [
+  "turn.break-up-move"
+ ],
+ "verdict": "legal",
+ "why": "Action economy is legal: 0 of 0 ft of movement, one action / bonus action / reaction / free interaction each at most, one spell slot at most, movement may be split around actions. This checks the turn's economy only \u2014 it does not verify that a feature grants a given action (e.g. two-weapon fighting or Extra Attack prerequisites), which the SRD leaves to the character's features."
+}

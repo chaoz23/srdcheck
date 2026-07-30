@@ -1,0 +1,8 @@
+{
+ "adapter": "toy-tictactoe@0.1.0",
+ "citations": [],
+ "exit_code": 2,
+ "rule_ids": [],
+ "verdict": "cannot-adjudicate",
+ "why": "ttt.options needs board and player."
+}

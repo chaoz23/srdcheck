@@ -3,6 +3,8 @@
   python -m srdcheck jurisdiction "<name>"
   python -m srdcheck query <query-type> '<params-json>'
   python -m srdcheck edition-check "<name>" [--category creature] [--current srd-5.2.1] [--prior srd-5.1]
+  python -m srdcheck conformance <adapter-id>   # the bar any adapter must clear
+  python -m srdcheck new-adapter <name>         # scaffold a conformant skeleton
   python -m srdcheck --schema
   echo '{"type": "...", "params": {...}}' | python -m srdcheck --pipe
 
@@ -67,6 +69,16 @@ def main(argv=None):
         if args[0] == "--pipe":
             q = json.loads(sys.stdin.read())
             return _emit(_engine().query(q["type"], q.get("params", {})))
+        if args[0] == "conformance" and len(args) == 2:
+            from .conformance import check as _cf
+            probs = _cf(args[1])
+            print(json.dumps({"adapter": args[1], "problems": probs,
+                              "ok": not probs}, indent=1))
+            return 1 if probs else 0
+        if args[0] == "new-adapter" and len(args) == 2:
+            from .scaffold import new_adapter
+            print(new_adapter(args[1]))
+            return 0
         if args[0] == "cite" and len(args) == 2:
             return _emit(_engine().cite(args[1]))
         if args[0] == "jurisdiction" and len(args) == 2:

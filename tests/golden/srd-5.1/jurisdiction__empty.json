@@ -1,0 +1,8 @@
+{
+ "adapter": "srd-5.1@0.1.0",
+ "citations": [],
+ "exit_code": 2,
+ "rule_ids": [],
+ "verdict": "cannot-adjudicate",
+ "why": "'' is not present in any loaded ruleset (srd-5.1@0.1.0). Unknown or third-party content cannot be adjudicated."
+}

@@ -41,6 +41,11 @@ def _to_move(board):
 
 def ttt_move(adapter, p):
     a, aid = adapter.atoms, adapter.id
+    # Honesty contract, modelled for adapter authors: missing input REFUSES,
+    # it never crashes - a KeyError is not a verdict.
+    if not all(k in p for k in ("board", "player", "cell")):
+        return v.cannot_adjudicate(
+            "ttt.move needs board, player and cell.", adapter=adapter.id)
     board, player, cell = p["board"], p["player"], int(p["cell"])
     bad = _gate_board(adapter, board)
     if bad:
@@ -72,6 +77,9 @@ def ttt_move(adapter, p):
 
 def ttt_options(adapter, p):
     a, aid = adapter.atoms, adapter.id
+    if not all(k in p for k in ("board", "player")):
+        return v.cannot_adjudicate(
+            "ttt.options needs board and player.", adapter=adapter.id)
     board, player = p["board"], p["player"]
     bad = _gate_board(adapter, board)
     if bad:

@@ -1,0 +1,14 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [],
+ "data": {
+  "advantage_sources": [],
+  "d20s": 1,
+  "disadvantage_sources": [],
+  "roll": "straight"
+ },
+ "exit_code": 0,
+ "rule_ids": [],
+ "verdict": "legal",
+ "why": "0 Advantage source(s) and 0 Disadvantage source(s) compose to: straight (1 d20)."
+}

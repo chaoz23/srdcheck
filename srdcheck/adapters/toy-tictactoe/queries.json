@@ -4,16 +4,53 @@
   "inputSchema": {
    "type": "object",
    "properties": {
-    "board": {"type": "string", "minLength": 9, "maxLength": 9},
-    "player": {"enum": ["X", "O"]},
-    "cell": {"type": "integer", "minimum": 1, "maximum": 9}},
-   "required": ["board", "player", "cell"]}},
+    "board": {
+     "type": "string",
+     "minLength": 9,
+     "maxLength": 9
+    },
+    "player": {
+     "enum": [
+      "X",
+      "O"
+     ]
+    },
+    "cell": {
+     "type": "integer",
+     "minimum": 1,
+     "maximum": 9
+    }
+   },
+   "required": [
+    "board",
+    "player",
+    "cell"
+   ],
+   "additionalProperties": false
+  }
+ },
  "ttt.options": {
   "description": "Enumerate the legal moves for a player on a board (same encoding as ttt.move). Empty when it is not the player's turn or the game has ended.",
   "inputSchema": {
    "type": "object",
    "properties": {
-    "board": {"type": "string", "minLength": 9, "maxLength": 9},
-    "player": {"enum": ["X", "O"]}},
-   "required": ["board", "player"]}}
+    "board": {
+     "type": "string",
+     "minLength": 9,
+     "maxLength": 9
+    },
+    "player": {
+     "enum": [
+      "X",
+      "O"
+     ]
+    }
+   },
+   "required": [
+    "board",
+    "player"
+   ],
+   "additionalProperties": false
+  }
+ }
 }

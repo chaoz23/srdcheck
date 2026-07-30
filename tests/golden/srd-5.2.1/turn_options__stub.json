@@ -1,0 +1,41 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 13,
+   "quote": "On your turn, you can move a distance up to your Speed and take one action.",
+   "section": "SRD 5.2.1 p.13 'Combat > Your Turn'"
+  }
+ ],
+ "data": {
+  "options": [
+   {
+    "do": "action",
+    "spell_slot_available": true
+   },
+   {
+    "do": "bonus-action",
+    "spell_slot_available": true
+   },
+   {
+    "do": "reaction",
+    "note": "usable on your own turn",
+    "spell_slot_available": true
+   },
+   {
+    "do": "free-interaction"
+   },
+   {
+    "do": "move",
+    "feet_remaining": 2,
+    "mode": "walk"
+   }
+  ]
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "turn.movement-budget"
+ ],
+ "verdict": "legal",
+ "why": "5 option kinds remain this turn."
+}

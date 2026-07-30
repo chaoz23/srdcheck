@@ -1,0 +1,19 @@
+{
+ "adapter": "srd-5.2.1@0.2.0",
+ "citations": [
+  {
+   "page": 22,
+   "quote": "Passive Perception = 10 + Wisdom (Perception) check modifier",
+   "section": "SRD 5.2.1 p.22 'Playing the Game > Proficiency > Passive Perception'"
+  }
+ ],
+ "data": {
+  "score_formula": "10 + perception_modifier"
+ },
+ "exit_code": 0,
+ "rule_ids": [
+  "passive.perception-formula"
+ ],
+ "verdict": "legal",
+ "why": "Passive Perception = 10 + the Wisdom (Perception) check modifier \u2014 supply perception_modifier to resolve the number."
+}

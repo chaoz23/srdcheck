@@ -31,3 +31,10 @@ jobs:
       - run: python -m pytest tests/ -q
       - name: Truth scorecard freshness (never hand-edited)
         run: python scripts/truth_scorecard.py --check
+      - name: Golden verdicts unchanged (refactors must be invisible)
+        run: python scripts/build_golden.py --check
+      - name: All bundled adapters pass conformance
+        run: |
+          python -m srdcheck conformance srd-5.2.1
+          python -m srdcheck conformance srd-5.1
+          python -m srdcheck conformance toy-tictactoe
