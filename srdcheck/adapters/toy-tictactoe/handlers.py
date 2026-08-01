@@ -1,8 +1,8 @@
 """Query handlers for the toy tic-tac-toe adapter.
 
 Exists to prove the adapter spec on a game with nothing in common with the
-SRD. Same contract: facts from atoms, citations on every verdict path,
-honest exit 2 at the edges.
+SRD. Same contract: facts from atoms, citations whenever a rule is applied,
+and no invented citation for an input boundary.
 """
 
 from srdcheck import verdict as v

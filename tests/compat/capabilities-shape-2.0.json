@@ -1,0 +1,69 @@
+{
+ "schema_version": "2.0",
+ "top_level": {
+  "schema_version": "string",
+  "engine": "object",
+  "machine_contracts": "object",
+  "release_tuple": "object",
+  "mcp_protocol_version": "string",
+  "mcp_supported_protocol_versions": "array",
+  "adapters": "array",
+  "mcp_tools": "array",
+  "result_contract": "object",
+  "query_coverage": "array",
+  "targets": "array"
+ },
+ "engine": {
+  "name": "string",
+  "version": "string"
+ },
+ "machine_contracts": {
+  "verdict_schema_version": "string",
+  "capabilities_schema_version": "string",
+  "compatibility_window": "string",
+  "supported_engine_minors": "array",
+  "why_stability": "string"
+ },
+ "release_tuple": {
+  "engine_version": "string",
+  "adapters": "array"
+ },
+ "result_contract": {
+  "canonical_promise": "string",
+  "authority_boundary": "string",
+  "prose_stability": "string",
+  "vision_rule": "string"
+ },
+ "adapter_item": {
+  "identifier": "string",
+  "name": "string",
+  "version": "string",
+  "data_version": "string",
+  "rules_version": "string",
+  "ruleset": "string",
+  "default_load": "boolean",
+  "digest": "string",
+  "query_types": "array"
+ },
+ "release_adapter_item": {
+  "identifier": "string",
+  "version": "string",
+  "data_version": "string",
+  "rules_version": "string",
+  "digest": "string"
+ },
+ "coverage_item": {
+  "adapter": "string",
+  "query_type": "string",
+  "capability": "string",
+  "checked_scope": "array",
+  "unchecked_scope": "array",
+  "evidence": "array"
+ },
+ "target_item": {
+  "id": "string",
+  "status": "string",
+  "capability": "string",
+  "not_shipped": "string"
+ }
+}

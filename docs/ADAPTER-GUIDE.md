@@ -30,6 +30,6 @@ Then follow toy-tictactoe for handlers and srd-5.2.1 for extraction patterns
 (build_entities.py, build_spell_facts.py, the census oracles in tests/).
 
 ## What the kit will not accept
-Blended scores, uncited verdicts, silent parameter swallowing, or content
+Blended scores, uncited applied-rule verdicts, silent parameter swallowing, or content
 whose license you cannot carry. The honesty machinery is the entry ticket —
 it is why a verdict from any adapter is worth trusting at a table.

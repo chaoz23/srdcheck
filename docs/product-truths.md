@@ -8,9 +8,14 @@ Attention is the game-runner's scarce resource, and bookkeeping is theft. A gene
 
 ## Core value
 
-**When an agent needs to know what's legal at the table, there is exactly one call to make — and the answer can be trusted, or it isn't given.**
+**When an agent needs a deterministic check that srdcheck ships, there is one
+named call to make — and a pass means only that the named checked scope passed.**
 
-srdcheck is the trust layer between AI and the rules of the game. It converts rules adjudication from a generation problem (hallucination-prone, unverifiable) into a computation with citations. Agents get machine verdicts; the humans at the table get, in the same payload, a plain-English *why* they can check against the book.
+srdcheck is a trust layer between AI and the rules of the game. Within its
+[generated capability map](capability-map.md), it converts specific rules
+checks from a generation problem into deterministic computation. Agents get
+machine verdicts; humans get explanatory *why* prose in the same payload. The
+prose is non-contractual; machine consumers branch on versioned fields.
 
 The longer aspiration: prove that a natural-language ruleset can be compiled into verdicts agents can trust. The SRD is the **first** ruleset, not the identity.
 
@@ -22,16 +27,25 @@ The longer aspiration: prove that a natural-language ruleset can be compiled int
 Players and agents forgive "I can't rule on that"; they never forgive confidently wrong. Wrong-verdict rate is scored separately from coverage and is never traded for it. Exit 2 is a feature. *(Validated Phase 0: every model tested, frontier included, preferred a confident wrong-jurisdiction verdict to a refusal — refusal must be engineered.)*
 
 **T2 — No citation, no rule.**
-Every verdict carries its chain of SRD 5.2.1 citations. A rule we cannot cite is a rule we do not have.
+Every adjudicated rule result carries its citation chain. A jurisdiction miss,
+invalid input, or unsupported query can refuse without inventing a source
+citation. A rule we cannot cite is a rule we do not apply.
 
 **T3 — Advise, never overrule the table.**
-srdcheck is the rules lawyer, not the rules judge. "Rulings, not rules" survives: the DM — human or agent — may consciously overrule any verdict, and the citation chain is what makes that overruling *informed*. srdcheck is never wired as a hard constraint that blocks play.
+srdcheck is the rules lawyer, not the rules judge. "Rulings, not rules" survives:
+the authorized DM — human or agent — may consciously overrule any verdict, and
+the citation chain is what makes that overruling *informed*. The calling agent
+is often the DM and may exercise that authority directly. srdcheck is never
+wired as a hard constraint that blocks play.
 
 **T4 — One payload, two audiences.**
 Machine fields (verdict, exit code, rule IDs, citations) for agents; a readable why-paragraph for humans, in the same object.
 
-**T5 — Enumeration is the product; validation is a membership check.**
-"What can this creature legally do right now?" is the question that makes agents better. The engine is a legal-action enumerator first; is-this-legal falls out of it.
+**T5 — Enumeration is the direction; validation proves each shipped slice.**
+"What can this creature legally do right now?" is the question that makes agents
+better. Today `turn.options` enumerates modeled budget option kinds and the toy
+adapter proves full enumerate/validate symmetry. Creature- and feature-complete
+enumeration remains a visibly labeled target.
 
 **T6 — Judge, never simulate.**
 No dice, no narration, no turn-taking, no owned game state. State comes in with the query; a verdict goes out.
@@ -51,7 +65,7 @@ Per-category verdicts, with wrong-rate and refusal-rate shown separately. One bl
 Discovery to first correct verdict in minutes with no human in the loop. The bootstrap path is itself under test: a standing eval runs a fresh agent cold and measures time-to-first-verdict.
 
 **T11 — Verdicts at table speed.**
-The verdict path is deterministic computation — no LLM call, no network dependency, runs local/offline; the human-readable *why* is templated, not generated. Working budget: p95 single verdict < 100 ms, full legal-action enumeration < 500 ms on commodity hardware.
+The verdict path is deterministic computation — no LLM call, no network dependency, runs local/offline; the human-readable *why* is templated, not generated. Working budget: p95 single verdict < 100 ms and shipped option enumeration < 500 ms on commodity hardware.
 
 **T12 — Never sell what the model already has.**
 Knowledge parity with frontier models is assumed, not contested. Any feature whose pitch is "the model might not know this" is cut on sight. The value is proof, refusal, determinism, and economy — the four things a model cannot supply by construction.
@@ -59,12 +73,19 @@ Knowledge parity with frontier models is assumed, not contested. Any feature who
 **T13 — The benchmark is a product, not a test suite.**
 The eval harness ships findings, versioned and citable by third parties; its quality bar is the product bar, and it judges srdcheck itself as readily as any model. Its first finding — frontier models ace rules knowledge and flunk jurisdiction — is the reason the rest of the product exists.
 
-**T14 — Every state has a lineage.**
-A state object is valid only as the output of a stamped transition chain, verifiable by replay. The model declares; the ledger derives: state entries are computed from declared events, never asserted — a diary is not a ledger. GM rulings enter the lineage tagged as rulings, so the chain separates law from discretion. srdcheck never produces an event, never advances time, never generates randomness — the caller owns the loop; we own the fold.
+**T14 — Every derived state has a lineage.**
+The caller supplies the bootstrap state; every successful `event.apply` output is
+stamped into a transition chain verifiable by replay. The caller declares and
+the reducer derives supported changes. Authorized DM rulings — whether made by
+a human or agent-DM — enter the lineage tagged as rulings, so the chain
+separates SRD derivation from table authority. srdcheck never produces an event,
+never advances time, never generates randomness — the caller owns the loop; we
+own the fold.
 
 ## Anti-goals
 
 - Not a DM, not a VTT, not a character builder UI, not a campaign manager.
 - Never a homebrew/community content platform — the adapter catalog *points*, it never hosts. Content lives in its maintainer's repo, under its maintainer's license.
-- Never marketed as replacing the DM; marketed as making every DM — human or agent — harder to argue with.
+- Never marketed as replacing DM authority; marketed as a cited rail an
+  authorized human or agent-DM can consult and consciously overrule.
 - **Never a retrieval/RAG/lookup layer** — killed by Phase 0 data (frontier raw = 0% wrong; grounding fixed nothing and worsened false confidence).

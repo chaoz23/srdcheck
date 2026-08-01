@@ -36,8 +36,8 @@ def negotiate_protocol(requested):
 JURISDICTION_TOOL = {
     "name": "jurisdiction",
     "description": ("Look up whether a named entity exists in the loaded "
-                    "rulesets' content registries. exit_code 0 = known "
-                    "content (categories in payload); 2 = unknown or "
+                    "rulesets' content registries. exit_code 0 = registered "
+                    "content; 2 = unknown or "
                     "third-party content, honestly refused."),
     "inputSchema": JURISDICTION_INPUT_SCHEMA,
     "outputSchema": VERDICT_OUTPUT_SCHEMA,
@@ -72,7 +72,10 @@ class Server:
         client caching schemas needs both, so report them separately."""
         info = dict(SERVER_INFO)
         info["rulesets"] = [
-            {"name": a.manifest.get("name"), "version": a.manifest.get("version")}
+            {"name": a.manifest.get("name"),
+             "version": a.manifest.get("version"),
+             "data_version": a.data_version,
+             "rules_version": a.rules_version}
             for a in self.engine.adapters
         ]
         return info

@@ -1,0 +1,639 @@
+{
+ "schema_version": "1.0",
+ "generated_from": "srdcheck/capability_claims.json + srdcheck capabilities + adapter queries.json",
+ "engine": {
+  "name": "srdcheck",
+  "version": "0.6.0"
+ },
+ "machine_contracts": {
+  "verdict_schema_version": "1.0",
+  "capabilities_schema_version": "2.0",
+  "compatibility_window": "N/N-1",
+  "supported_engine_minors": [
+   "0.6",
+   "0.5"
+  ],
+  "why_stability": "non-contractual"
+ },
+ "release_tuple": {
+  "engine_version": "0.6.0",
+  "adapters": [
+   {
+    "identifier": "srd-5.1",
+    "version": "0.1.0",
+    "data_version": "0.1.0",
+    "rules_version": "0.0.0",
+    "digest": "39e4a789148027c457cf4ada944c14a941ce5ae5f8f1b309b104d8af8e4d50a3"
+   },
+   {
+    "identifier": "srd-5.2.1",
+    "version": "0.2.1",
+    "data_version": "0.2.0",
+    "rules_version": "0.2.1",
+    "digest": "20b6aa0dad15b7d8f4f49f2d98e778385e8888b97c81ac05853b90aa1e3780eb"
+   },
+   {
+    "identifier": "toy-tictactoe",
+    "version": "0.1.0",
+    "data_version": "0.1.0",
+    "rules_version": "0.1.0",
+    "digest": "fb2c57e8b75e4050feaf5b3acf88eb20983e6093b66036ee89eb5d9a00bb6797"
+   }
+  ]
+ },
+ "result_contract": {
+  "canonical_promise": "A legal result means only that the query's named checked scope passed. It is not a claim of global or complete legality.",
+  "authority_boundary": "srdcheck reports an SRD-derived result. The authorized DM, whether human or agent, owns table rulings and may rule directly when the result requires DM authority.",
+  "prose_stability": "The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, rule_ids, citations, and structured data instead of parsing why.",
+  "vision_rule": "Target capabilities are labeled target and are never advertised as executable tools."
+ },
+ "shipped": [
+  {
+   "adapter": "kernel",
+   "query_type": "jurisdiction",
+   "capability": "Check whether a name occurs in a loaded adapter registry.",
+   "checked_scope": [
+    "registry membership"
+   ],
+   "unchecked_scope": [
+    "machine-readable matching categories in this version",
+    "mechanical legality",
+    "whether an unknown name is a typo, homebrew, or third-party content"
+   ],
+   "evidence": [
+    "tests/test_kernel.py::test_jurisdiction_known_content",
+    "tests/test_kernel.py::test_jurisdiction_unknown_content"
+   ],
+   "tool": "jurisdiction",
+   "description": "Registry-membership gate shared by loaded adapters."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "turn.plan",
+   "capability": "Check a proposed turn against the modeled action-economy and movement budgets.",
+   "checked_scope": [
+    "action, bonus-action, reaction, interaction, movement, and spell-slot-per-turn budgets",
+    "modeled condition effects on those budgets"
+   ],
+   "unchecked_scope": [
+    "whether a feature grants an action",
+    "targets, ranges, line of sight, cover, inventory, and bespoke feature prerequisites"
+   ],
+   "evidence": [
+    "tests/test_turn_economy.py::test_two_bonus_actions_illegal",
+    "tests/test_enumeration.py::test_t5_consistency_sweep"
+   ],
+   "tool": "turn_plan",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Judge a whole proposed turn under SRD 5.2.1 ACTION ECONOMY: action/bonus-action/reaction/free-interaction budgets, movement (crawling, standing from Prone, Grappled speed 0), Incapacitated, and the one-spell-slot-per-turn rule. Returns legal/illegal/cannot-adjudicate with citations; illegal verdicts name the first offending step. Scope: this checks the turn's economy only — it does NOT verify that a feature grants a given action (e.g. two-weapon fighting or Extra Attack prerequisites). Unmodeled conditions and out-of-range inputs (negative speed, spell level >9) return exit 2 rather than a guess."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "turn.options",
+   "capability": "Enumerate remaining modeled action-economy option kinds.",
+   "checked_scope": [
+    "remaining budget option kinds",
+    "movement remaining and modeled stand/crawl costs"
+   ],
+   "unchecked_scope": [
+    "every legal creature action",
+    "feature-specific actions, targets, geometry, and tactics"
+   ],
+   "evidence": [
+    "tests/test_enumeration.py::test_t5_consistency_sweep"
+   ],
+   "tool": "turn_options",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Enumerate what remains legal this turn given the same state shape as turn.plan (no plan). Options carry feet_remaining, stand-up cost, crawl mode, and spell-slot availability. Consistency-tested against turn.plan: everything enumerated is accepted, everything past a boundary rejected."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "reaction.available",
+   "capability": "Check whether the modeled reaction budget is available.",
+   "checked_scope": [
+    "reaction spent since turn start",
+    "Incapacitated and the Stunned, Paralyzed, Petrified, and Unconscious definitional embeds"
+   ],
+   "unchecked_scope": [
+    "whether a proposed trigger occurred",
+    "target and range legality"
+   ],
+   "evidence": [
+    "tests/test_turn_economy.py::test_reaction_available_honors_incapacitated_and_embeds",
+    "tests/test_turn_economy.py::test_reaction_available_refuses_unknown_and_non_condition_names"
+   ],
+   "tool": "reaction_available",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Is taking a Reaction legal right now? Reactions refresh at the start of your own turn (not the round) and are usable on your own turn. Incapacitated and conditions that definitionally include it (Stunned, Paralyzed, Petrified, Unconscious) prevent a Reaction. Unknown or non-condition names are refused."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "roll.compose",
+   "capability": "Compose caller-supplied Advantage and Disadvantage sources.",
+   "checked_scope": [
+    "cancellation and non-stacking of supplied sources",
+    "reroll-one-die note"
+   ],
+   "unchecked_scope": [
+    "discovering sources from narrative or character state",
+    "rolling dice"
+   ],
+   "evidence": [
+    "tests/test_roll_modifiers.py::test_two_adv_one_dis_is_straight",
+    "tests/test_roll_modifiers.py::test_stacked_advantage_still_two_dice"
+   ],
+   "tool": "roll_compose",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Compose net Advantage/Disadvantage from lists of sources: multiple sources never add dice, and any Advantage plus any Disadvantage yields a straight single-d20 roll regardless of counts. Optionally notes the reroll-one-die-only rule."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "attack.modifiers",
+   "capability": "Compose modeled attack modifiers from structured combatant facts.",
+   "checked_scope": [
+    "documented condition modifiers",
+    "Prone distance behavior",
+    "ranged attacks in close combat"
+   ],
+   "unchecked_scope": [
+    "cover and line-of-sight geometry",
+    "weapon or feature prerequisites",
+    "facts the caller did not supply"
+   ],
+   "evidence": [
+    "tests/test_roll_modifiers.py::test_prone_target_distance_flip",
+    "tests/test_roll_modifiers.py::test_ranged_in_close_combat_disadvantage_and_exceptions",
+    "tests/test_roll_modifiers.py::test_target_petrified_and_unconscious_grant_advantage"
+   ],
+   "tool": "attack_modifiers",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and — for ranged attacks — the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "mage-hand.use",
+   "capability": "Check one proposed Mage Hand use against its modeled grants, prohibitions, weight, and range.",
+   "checked_scope": [
+    "listed uses and prohibitions",
+    "10-pound limit",
+    "30-foot range for the proposal"
+   ],
+   "unchecked_scope": [
+    "fine-manipulation ambiguity",
+    "duration or range trigger tracking across events",
+    "narrative consequences"
+   ],
+   "evidence": [
+    "tests/test_kernel.py::test_mage_hand_demo_goldens"
+   ],
+   "tool": "mage_hand_use",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Uses outside the text's can/can't lists return cannot-adjudicate — the GM's call, honestly labeled."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "event.apply",
+   "capability": "Fold one supported, caller-declared event into a hash-stamped next state.",
+   "checked_scope": [
+    "declared event validation and supported state transitions",
+    "predecessor, event, rule, and ruling lineage"
+   ],
+   "unchecked_scope": [
+    "generating events",
+    "advancing time autonomously",
+    "geometry",
+    "bespoke spell effects"
+   ],
+   "evidence": [
+    "tests/test_ledger.py::test_lineage_chain_and_tamper_detection",
+    "tests/test_ledger.py::test_reducer_agrees_with_validator"
+   ],
+   "tool": "event_apply",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, damage (amount; crit:true for a Critical Hit; folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP), heal (amount; restores HP and, from 0, consciousness + resets death saves), death-save (result: the rolled d20 1-20; folds success/failure counts, nat-1 double failure, nat-20 revival, stabilize, and death), ruling (GM discretion — recorded and tagged as discretion, never as a rule). The caller supplies every die result; srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "creature.valid",
+   "capability": "Classify whether a name is a registered SRD 5.2.1 creature.",
+   "checked_scope": [
+    "creature registry membership",
+    "source citation for a match"
+   ],
+   "unchecked_scope": [
+    "creature action legality",
+    "third-party content",
+    "typo diagnosis"
+   ],
+   "evidence": [
+    "tests/test_creature_queries.py::test_valid_creature_is_legal_and_cited"
+   ],
+   "tool": "creature_valid",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Is a name a valid SRD 5.2.1 creature? legal = yes (with CR + page citation); illegal = the name is SRD content but not a creature (e.g. a spell); cannot-adjudicate = not in the SRD at all (a 2014-only name, a typo, or third-party content — indistinguishable in this version)."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "creature.stats",
+   "capability": "Return registered Challenge Rating and XP facts for a creature.",
+   "checked_scope": [
+    "name, Challenge Rating, XP, and source citation"
+   ],
+   "unchecked_scope": [
+    "stat-block actions and traits",
+    "encounter or turn legality"
+   ],
+   "evidence": [
+    "tests/test_creature_queries.py::test_stats_returns_cr_xp_citation"
+   ],
+   "tool": "creature_stats",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Return a creature's Challenge Rating and XP with a page citation, for deterministic encounter-budget math. legal with data {name, cr, xp, citation} for a known creature; cannot-adjudicate otherwise."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "encounter.xp-budget",
+   "capability": "Compute the SRD encounter XP budget from supplied level, difficulty, and party size.",
+   "checked_scope": [
+    "per-character and total XP budget arithmetic"
+   ],
+   "unchecked_scope": [
+    "encounter suitability",
+    "monster tactics",
+    "party composition beyond size and level"
+   ],
+   "evidence": [
+    "tests/test_encounter_budget.py::test_issue_example",
+    "tests/test_encounter_budget.py::test_cited"
+   ],
+   "tool": "encounter_xp_budget",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "XP budget per character for encounter building (SRD 5.2.1 p.202): given party level (1-20) and difficulty (low/moderate/high), returns the per-character XP budget with citation. Pass party_size to also get the total. Combine with creature.stats to check whether an encounter is within budget."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "save.check",
+   "capability": "Compose or resolve a saving throw from caller-supplied facts and roll.",
+   "checked_scope": [
+    "DC comparison",
+    "modeled condition modifiers and auto-fails",
+    "supplied d20 and modifiers"
+   ],
+   "unchecked_scope": [
+    "rolling dice",
+    "deriving sheet modifiers",
+    "effects of success or failure"
+   ],
+   "evidence": [
+    "tests/test_combat_resolution.py::test_save_meets_or_exceeds_dc",
+    "tests/test_combat_resolution.py::test_paralyzed_petrified_stunned_unconscious_auto_fail_str_dex"
+   ],
+   "tool": "save_check",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides — auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "check.make",
+   "capability": "Compose or resolve an ability check from caller-supplied facts and roll.",
+   "checked_scope": [
+    "DC comparison",
+    "modeled condition and social modifiers",
+    "supplied d20 and modifiers"
+   ],
+   "unchecked_scope": [
+    "rolling dice",
+    "choosing a DC",
+    "deriving modifiers",
+    "narrative outcome"
+   ],
+   "evidence": [
+    "tests/test_checks.py::test_poisoned_and_frightened_impose_disadvantage_on_checks",
+    "tests/test_checks.py::test_blinded_auto_fails_sight_checks_only"
+   ],
+   "tool": "check_make",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "concentration.check",
+   "capability": "Compute and optionally resolve the concentration save caused by supplied damage.",
+   "checked_scope": [
+    "damage-derived DC",
+    "supplied Constitution modifier and d20 result"
+   ],
+   "unchecked_scope": [
+    "tracking concentration over time",
+    "detecting damage events",
+    "rolling dice"
+   ],
+   "evidence": [
+    "tests/test_combat_resolution.py::test_concentration_dc_is_half_damage_floor_10_cap_30",
+    "tests/test_combat_resolution.py::test_concentration_resolves_when_roll_supplied"
+   ],
+   "tool": "concentration_check",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Compute the Concentration saving-throw DC when a concentrating creature takes damage: DC = max(10, damage // 2), capped at 30 (SRD 5.2.1 p.179). Optionally pass d20_result (+ con_modifier) to also resolve whether concentration holds. Returns data {dc[, total, success]}. The caller rolls; srdcheck folds."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "opportunity-attack.provoked",
+   "capability": "Check provocation from caller-supplied movement and visibility facts.",
+   "checked_scope": [
+    "supplied movement kind",
+    "supplied reach-exit and visibility facts on a potentially provoking voluntary path",
+    "Disengage, teleportation, and forced-movement exceptions"
+   ],
+   "unchecked_scope": [
+    "facts the caller omitted",
+    "computing geometry or reach exit",
+    "reaction availability",
+    "attack resolution"
+   ],
+   "evidence": [
+    "tests/test_opportunity_attack.py::test_voluntary_movement_by_a_seen_creature_provokes",
+    "tests/test_opportunity_attack.py::test_disengage_teleport_and_forced_movement_do_not_provoke",
+    "tests/test_opportunity_attack.py::test_missing_positive_prerequisites_refuse_instead_of_defaulting_true"
+   ],
+   "tool": "opportunity_attack_provoked",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Does a creature's movement provoke an Opportunity Attack? Provokes only when a creature the reactor can see leaves the reactor's reach using its own movement. It does NOT provoke on Disengage, Teleportation, forced movement, or an unseen mover (SRD 5.2.1 p.15). Supply movement_kind; a voluntary path also needs caller-observed leaves_reach and mover_seen_by_reactor unless a supplied false prerequisite already proves no provocation. Missing facts return cannot-adjudicate. Whether the reactor has a Reaction is reaction.available. Returns data {provoked: bool}."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "grapple.initiate",
+   "capability": "Check Grapple or Shove initiation and compose its save DC formula.",
+   "checked_scope": [
+    "caller-supplied attacker and target sizes",
+    "caller-supplied free-hand fact for Grapple",
+    "save DC formula and supplied formula blanks"
+   ],
+   "unchecked_scope": [
+    "prerequisite facts the caller omitted",
+    "escape contests",
+    "reach geometry",
+    "rolling or resolving the target save"
+   ],
+   "evidence": [
+    "tests/test_grapple.py::test_target_more_than_one_size_larger_is_impossible",
+    "tests/test_grapple.py::test_grapple_requires_a_free_hand",
+    "tests/test_grapple.py::test_missing_prerequisite_facts_refuse_instead_of_defaulting_medium_or_free",
+    "tests/test_formula_blanks.py::TestGrappleBlanks::test_no_blanks_yields_formula_never_a_number"
+   ],
+   "tool": "grapple_initiate",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC formula and checks supplied size / free-hand prerequisites. Both sizes are required; Grapple also requires has_free_hand. Missing prerequisite facts return cannot-adjudicate. legal returns data {dc?, dc_formula, kind, on_fail}; the dc NUMBER appears only when the caller supplied str_modifier AND proficiency_bonus, while those formula blanks may remain omitted. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6)."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "passive.perception",
+   "capability": "Compute Passive Perception from a supplied modifier.",
+   "checked_scope": [
+    "10 plus supplied Wisdom (Perception) modifier",
+    "refusal of the non-SRD plus-or-minus-five convention"
+   ],
+   "unchecked_scope": [
+    "deriving the modifier",
+    "Hide contests",
+    "line of sight and lighting"
+   ],
+   "evidence": [
+    "tests/test_passive_perception.py::test_score_is_10_plus_modifier",
+    "tests/test_passive_perception.py::test_advantage_disadvantage_are_refused_as_non_srd"
+   ],
+   "tool": "passive_perception",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD 5.2.1 p.22). Returns data {score}. The SRD defines no Advantage/Disadvantage adjustment to a passive score, so passing advantage/disadvantage is honestly refused (that ±5 rule is not in this ruleset). The score NUMBER appears only when perception_modifier is supplied; otherwise the formula alone is returned."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "help.assist",
+   "capability": "Check modeled prerequisites for the Help action.",
+   "checked_scope": [
+    "caller-supplied ability-check proficiency fact",
+    "caller-supplied attack-assist five-foot fact",
+    "Advantage grant"
+   ],
+   "unchecked_scope": [
+    "facts the caller omitted",
+    "whether assistance is fictionally possible",
+    "geometry discovery",
+    "the authorized DM's table ruling"
+   ],
+   "evidence": [
+    "tests/test_help_action.py::test_assist_ability_check_needs_the_relevant_proficiency",
+    "tests/test_help_action.py::test_assist_attack_roll_needs_an_enemy_within_5ft"
+   ],
+   "tool": "help_assist",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires an explicit helper_has_relevant_proficiency fact; false is illegal and omission is cannot-adjudicate. Fictional possibility remains an authorized DM ruling, including when the caller is the agent-DM (surfaced as data.gm_discretion). Assist an Attack Roll likewise requires an explicit enemy_within_5ft fact. Returns data {grants_advantage}. kind = ability-check | attack-roll."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "spell.facts",
+   "capability": "Return registered casting-time, range, component, duration, and concentration facts.",
+   "checked_scope": [
+    "registered spell facts",
+    "fixed-duration expiry arithmetic on a caller clock"
+   ],
+   "unchecked_scope": [
+    "spell effects",
+    "whether casting is legal",
+    "slots, targets, and stateful expiry triggers"
+   ],
+   "evidence": [
+    "tests/test_spell_facts.py::test_ward_regression",
+    "tests/test_spell_facts.py::test_mage_hand_not_concentration"
+   ],
+   "tool": "spell_facts",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Machine-readable facts for a registered SRD 5.2.1 spell: casting_time, range, components, duration, concentration (bool). Optional caller blank cast_at (a number on the CALLER'S clock) adds expires_at = cast_at + duration as pure arithmetic; non-fixed durations return expires_at null. srdcheck holds no state and no clock. Unknown spell name -> exit 2."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "feature.uses",
+   "capability": "Return the modeled use-count formula for the closed feature set.",
+   "checked_scope": [
+    "Divine Sense and Lay on Hands formulas",
+    "arithmetic when all blanks are supplied"
+   ],
+   "unchecked_scope": [
+    "other features",
+    "tables",
+    "whether a use remains in campaign state"
+   ],
+   "evidence": [
+    "tests/test_spell_facts.py::test_divine_sense_blanks",
+    "tests/test_spell_facts.py::test_lay_on_hands_blanks"
+   ],
+   "tool": "feature_uses",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.0",
+    "rules": "0.2.1"
+   },
+   "description": "Use-count formulas the SRD states as arithmetic (closed set: divine-sense = 1 + CHA modifier; lay-on-hands = 5 x paladin level). Formula-blanks discipline: without the blanks the verdict returns the formula only, never a number. Tables are out of scope."
+  },
+  {
+   "adapter": "toy-tictactoe",
+   "query_type": "ttt.move",
+   "capability": "Check one move against the bundled tutorial ruleset.",
+   "checked_scope": [
+    "board shape, turn order, cell occupancy, and terminal state"
+   ],
+   "unchecked_scope": [
+    "strategy",
+    "choosing a move"
+   ],
+   "evidence": [
+    "tests/test_toy_adapter.py::test_move_legality"
+   ],
+   "tool": "ttt_move",
+   "adapter_versions": {
+    "adapter": "0.1.0",
+    "data": "0.1.0",
+    "rules": "0.1.0"
+   },
+   "description": "Judge one proposed tic-tac-toe move. Board is a 9-character string of X, O, and . (dot = empty), cells 1-9 left-to-right top-to-bottom. Checks turn order, cell validity, occupancy, and whether the game has already ended."
+  },
+  {
+   "adapter": "toy-tictactoe",
+   "query_type": "ttt.options",
+   "capability": "Enumerate legal cells under the bundled tutorial ruleset.",
+   "checked_scope": [
+    "legal empty cells for the current player"
+   ],
+   "unchecked_scope": [
+    "strategy",
+    "ranking options"
+   ],
+   "evidence": [
+    "tests/test_toy_adapter.py::test_enumerate_validate_consistency"
+   ],
+   "tool": "ttt_options",
+   "adapter_versions": {
+    "adapter": "0.1.0",
+    "data": "0.1.0",
+    "rules": "0.1.0"
+   },
+   "description": "Enumerate the legal moves for a player on a board (same encoding as ttt.move). Empty when it is not the player's turn or the game has ended."
+  }
+ ],
+ "targets": [
+  {
+   "id": "batched-turn-orchestration",
+   "status": "target",
+   "capability": "Adjudicate a natural-language, multi-rule turn in one call.",
+   "not_shipped": "Current tools accept structured, capability-specific calls; the caller parses intent and orchestrates them."
+  },
+  {
+   "id": "creature-action-enumeration",
+   "status": "target",
+   "capability": "Enumerate every legal move for a creature from its full features and scene state.",
+   "not_shipped": "turn.options enumerates modeled budget kinds, not creature-specific actions, targets, or tactics."
+  },
+  {
+   "id": "spatial-geometry-cover-light",
+   "status": "target",
+   "capability": "Derive line of sight, lighting, cover, reach, and legal destinations from a map.",
+   "not_shipped": "Current checks consume relevant geometry facts supplied by a caller or another rail."
+  },
+  {
+   "id": "hide-lifecycle",
+   "status": "target",
+   "capability": "Adjudicate Hide preconditions, legal locations, and its future end triggers.",
+   "not_shipped": "Current tools can resolve a caller-structured check and Passive Perception but do not implement Hide or its lifecycle."
+  },
+  {
+   "id": "jump-distance",
+   "status": "target",
+   "capability": "Adjudicate and enumerate jump destinations.",
+   "not_shipped": "No shipped query models jumping."
+  },
+  {
+   "id": "duration-trigger-tracking",
+   "status": "target",
+   "capability": "Arm and resolve spell, condition, and feature triggers across future events.",
+   "not_shipped": "spell.facts reports durations and event.apply folds only its declared event set; neither autonomously tracks future triggers."
+  },
+  {
+   "id": "character-build-legality",
+   "status": "target",
+   "capability": "Validate level-up and character-build prerequisites.",
+   "not_shipped": "No shipped query adjudicates builds or stamps level-ups."
+  }
+ ]
+}

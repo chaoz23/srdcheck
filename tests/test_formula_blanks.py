@@ -3,8 +3,9 @@ the FORMULA, never as a complete-looking number. Origin: live table 2026-07-24
 — grapple.initiate returned 'DC 8' when the true DC was 13 (8 + STR 2 + PB 3).
 Audit (2026-07-26): grapple.initiate and passive.perception were the only
 stat-formula surfaces with silent-zero blanks; roll-resolution lanes
-(save.check, check.make, concentration.check) display their composition and
-legality-gate defaults (distance/weight/speed) are benign no-ops."""
+(save.check, check.make, concentration.check) display their composition. The
+Grapple/Shove prerequisite facts are required separately; only the arithmetic
+formula blanks remain optional here."""
 import pytest
 from srdcheck.engine import Engine
 from srdcheck.access import default_adapter_paths
@@ -17,7 +18,9 @@ def eng():
 
 class TestGrappleBlanks:
     def test_no_blanks_yields_formula_never_a_number(self, eng):
-        v = eng.query("grapple.initiate", {"kind": "grapple"})
+        v = eng.query("grapple.initiate", {
+            "kind": "grapple", "attacker_size": "medium",
+            "target_size": "medium", "has_free_hand": True})
         assert v.exit_code == 0
         assert "dc" not in v.data
         assert "8 + Strength modifier" in v.data["dc_formula"]
@@ -26,14 +29,16 @@ class TestGrappleBlanks:
     def test_live_table_regression_dc13(self, eng):
         v = eng.query("grapple.initiate",
                       {"kind": "grapple", "str_modifier": 2,
-                       "proficiency_bonus": 3})
+                       "proficiency_bonus": 3, "attacker_size": "medium",
+                       "target_size": "medium", "has_free_hand": True})
         assert v.exit_code == 0
         assert v.data["dc"] == 13
         assert v.data["dc_formula"].startswith("8 + ")
 
     def test_partial_blanks_still_formula_only(self, eng):
         v = eng.query("grapple.initiate",
-                      {"kind": "shove", "str_modifier": 4})
+                      {"kind": "shove", "str_modifier": 4,
+                       "attacker_size": "medium", "target_size": "medium"})
         assert "dc" not in v.data
 
 

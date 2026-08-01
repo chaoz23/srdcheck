@@ -21,10 +21,12 @@ from .engine import Engine
 from .schema import errors as schema_errors
 from .verdict import cannot_adjudicate
 from .verdict import VERDICT_OUTPUT_SCHEMA
+from .contract import VERDICT_SCHEMA_VERSION
 
 ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent / "adapters"
 
 SCHEMA = {
+    "schema_version": VERDICT_SCHEMA_VERSION,
     "input": {
         "type": "object",
         "properties": {

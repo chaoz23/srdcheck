@@ -299,10 +299,23 @@ def turn_plan(adapter, p):
 def reaction_available(adapter, p):
     """params: {spent_since_turn_start: bool, conditions: []}."""
     a, aid = adapter.atoms, adapter.id
-    conds = {c.strip().lower() for c in p.get("conditions", [])}
+    supplied = [c.strip() for c in p.get("conditions", [])]
+    for condition in supplied:
+        categories = adapter.lookup_entity(condition) or []
+        if "condition" not in categories:
+            reason = ("is known content, but is not a condition"
+                      if categories else "is not a condition known to this ruleset")
+            return v.cannot_adjudicate(
+                f"'{condition}' {reason}; reaction availability cannot be "
+                "adjudicated from that input.", adapter=aid)
+    conds, embeds = _expand_conditions({c.lower() for c in supplied})
     if "incapacitated" in conds:
         inc = a["condition.incapacitated.inactive"]
-        return v.illegal(inc["citation"]["quote"], [_cite(inc)], aid, [inc["id"]])
+        citations = [_cite(inc)] + [_cite(a[atom_id]) for atom_id in embeds]
+        rule_ids = [inc["id"]] + embeds
+        return v.illegal(
+            "An active condition includes Incapacitated. "
+            + inc["citation"]["quote"], citations, aid, rule_ids)
     ra = a["turn.one-reaction-per-round"]
     if p.get("spent_since_turn_start"):
         return v.illegal(
@@ -1214,9 +1227,10 @@ def opportunity_attack_provoked(adapter, p):
     reaction.available. Returns data {provoked: bool}."""
     a, aid = adapter.atoms, adapter.id
     making, avoiding = a["opportunity-attack.making"], a["opportunity-attack.avoiding"]
-    kind = (p.get("movement_kind") or "voluntary").lower()
+    raw_kind = p.get("movement_kind")
+    kind = raw_kind.lower() if isinstance(raw_kind, str) else None
     valid = {"voluntary", "teleport", "forced", "disengage"}
-    if kind not in valid:
+    if kind is not None and kind not in valid:
         return v.cannot_adjudicate(
             f"movement_kind must be one of {sorted(valid)}.", adapter=aid)
 
@@ -1224,8 +1238,17 @@ def opportunity_attack_provoked(adapter, p):
         return v.legal(f"No Opportunity Attack: {reason}.", [_cite(atom)], aid,
                        [atom["id"]], data={"provoked": False})
 
-    if not p.get("leaves_reach", True):
+    # A supplied false prerequisite is enough to conclude no provocation. Do
+    # not require unrelated facts merely to repeat that deterministic result.
+    if p.get("leaves_reach") is False:
         return no("the creature does not leave your reach", making)
+    if p.get("mover_seen_by_reactor") is False:
+        return no("you can't see the creature", making)
+
+    if kind is None:
+        return v.cannot_adjudicate(
+            "Provide movement_kind. It is required unless another supplied "
+            "fact already makes provocation impossible.", adapter=aid)
     if kind == "disengage":
         return no("the creature took the Disengage action", avoiding)
     if kind == "teleport":
@@ -1233,8 +1256,12 @@ def opportunity_attack_provoked(adapter, p):
     if kind == "forced":
         return no("the creature was moved without using its own movement "
                   "(forced movement)", avoiding)
-    if not p.get("mover_seen_by_reactor", True):
-        return no("you can't see the creature", making)
+    missing = [field for field in ("leaves_reach", "mover_seen_by_reactor")
+               if field not in p]
+    if missing:
+        return v.cannot_adjudicate(
+            "Provide the caller-observed fact" + ("s" if len(missing) > 1 else "")
+            + ": " + ", ".join(missing) + ".", adapter=aid)
     return v.legal(
         "Provokes an Opportunity Attack: a creature you can see leaves your "
         "reach using its own movement.", [_cite(making)], aid, [making["id"]],
@@ -1255,6 +1282,16 @@ def grapple_initiate(adapter, p):
     if kind not in ("grapple", "shove"):
         return v.cannot_adjudicate("kind must be 'grapple' or 'shove'.",
                                    adapter=aid)
+    required = ["attacker_size", "target_size"]
+    if kind == "grapple":
+        required.append("has_free_hand")
+    missing = [field for field in required if field not in p]
+    if missing:
+        return v.cannot_adjudicate(
+            "Provide the prerequisite fact" + ("s" if len(missing) > 1 else "")
+            + ": " + ", ".join(missing) + ". Strength modifier and "
+            "Proficiency Bonus may remain blank when only the DC formula is "
+            "needed.", adapter=aid)
     atom = a[f"unarmed-strike.{kind}"]
     base = atom["params"]["dc_base"]
     formula = f"{base} + Strength modifier + Proficiency Bonus (the attacker's)"
@@ -1262,8 +1299,8 @@ def grapple_initiate(adapter, p):
             and p.get("proficiency_bonus") is not None)
     dc = (base + int(p.get("str_modifier", 0))
           + int(p.get("proficiency_bonus", 0))) if have else None
-    atk = (p.get("attacker_size") or "medium").lower()
-    tgt = (p.get("target_size") or "medium").lower()
+    atk = p["attacker_size"].lower()
+    tgt = p["target_size"].lower()
     if atk not in _SIZES or tgt not in _SIZES:
         return v.cannot_adjudicate(f"size must be one of {_SIZES}.", adapter=aid)
     if _SIZES.index(tgt) > _SIZES.index(atk) + atom["params"]["max_size_larger"]:
@@ -1292,15 +1329,19 @@ def grapple_initiate(adapter, p):
 def help_assist(adapter, p):
     """Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check
     requires choosing one of YOUR skill/tool proficiencies — without the relevant
-    proficiency it can't grant Advantage on that check (the codified gate), and
-    the GM has final say on whether the assistance is possible (surfaced, not
-    adjudicated). Assist an Attack Roll needs an enemy within 5 ft. `kind` =
-    ability-check | attack-roll."""
+    proficiency it can't grant Advantage on that check (the codified gate). The
+    authorized DM — human or calling agent — decides whether the assistance is
+    possible (surfaced, not adjudicated). Assist an Attack Roll needs an enemy
+    within 5 ft. `kind` = ability-check | attack-roll."""
     a, aid = adapter.atoms, adapter.id
     kind = (p.get("kind") or "ability-check").lower()
     if kind == "ability-check":
         prof = a["help.assist-choose-proficiency"]
         adv = a["help.assist-ability-advantage"]
+        if "helper_has_relevant_proficiency" not in p:
+            return v.cannot_adjudicate(
+                "Provide helper_has_relevant_proficiency before adjudicating "
+                "Assist an Ability Check.", adapter=aid)
         if p.get("helper_has_relevant_proficiency") is False:
             return v.illegal(
                 "Assist an Ability Check requires choosing one of your own skill "
@@ -1309,13 +1350,18 @@ def help_assist(adapter, p):
                 [_cite(prof)], aid, [prof["id"]])
         return v.legal(
             "The ally has Advantage on their next ability check with the chosen "
-            "skill or tool (expires at the start of your next turn). The GM has "
-            "final say on whether the assistance is possible.",
+            "skill or tool (expires at the start of your next turn). The "
+            "authorized DM — possibly the calling agent — decides whether "
+            "the assistance is fictionally possible.",
             [_cite(prof), _cite(adv)], aid, [prof["id"], adv["id"]],
             data={"grants_advantage": True, "gm_discretion": True})
     if kind == "attack-roll":
         atk = a["help.assist-attack"]
-        if p.get("enemy_within_5ft", True) is False:
+        if "enemy_within_5ft" not in p:
+            return v.cannot_adjudicate(
+                "Provide enemy_within_5ft before adjudicating Assist an Attack "
+                "Roll.", adapter=aid)
+        if p.get("enemy_within_5ft") is False:
             return v.illegal(
                 "Assist an Attack Roll requires an enemy within 5 feet of you.",
                 [_cite(atk)], aid, [atk["id"]])

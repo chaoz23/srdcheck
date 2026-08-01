@@ -17,7 +17,8 @@ def oa(**p):
 
 
 def test_voluntary_movement_by_a_seen_creature_provokes():
-    v = oa(movement_kind="voluntary", mover_seen_by_reactor=True)
+    v = oa(movement_kind="voluntary", mover_seen_by_reactor=True,
+           leaves_reach=True)
     assert v.exit_code == 0 and v.data["provoked"] is True
     assert "opportunity-attack.making" in v.rule_ids
 
@@ -38,9 +39,18 @@ def test_not_leaving_reach_does_not_provoke():
     assert oa(leaves_reach=False).data["provoked"] is False
 
 
-def test_default_is_voluntary_and_seen():
-    # a bare call assumes the provoking case (voluntary, seen, leaves reach)
-    assert oa().data["provoked"] is True
+def test_missing_positive_prerequisites_refuse_instead_of_defaulting_true():
+    for params in ({},
+                   {"movement_kind": "voluntary"},
+                   {"movement_kind": "voluntary", "leaves_reach": True},
+                   {"movement_kind": "voluntary",
+                    "mover_seen_by_reactor": True}):
+        assert oa(**params).exit_code == 2, params
+
+
+def test_supplied_false_prerequisite_short_circuits_missing_facts():
+    assert oa(leaves_reach=False).data["provoked"] is False
+    assert oa(mover_seen_by_reactor=False).data["provoked"] is False
 
 
 def test_unknown_movement_kind_refuses():

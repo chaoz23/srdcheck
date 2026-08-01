@@ -1,2 +1,3 @@
 include LICENSE NOTICE README.md tool.json server.json
+include srdcheck/capability_claims.json
 recursive-include srdcheck/adapters *.json *.py *.md *.txt

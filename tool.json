@@ -1,22 +1,26 @@
 {
  "name": "srdcheck",
- "version": "0.5.1",
- "description": "Deterministic rules verdicts over the SRD for game-running agents. Exit codes are the verdict: 0 legal, 1 illegal, 2 cannot-adjudicate (unknown content or GM discretion — an honest refusal, not an error). Every verdict carries citations to the source text.",
- "status": "alpha; query surface may change within 0.x",
+ "version": "0.6.0",
+ "description": "Deterministic rules verdicts over the SRD for game-running agents. Exit codes are scoped results: 0 passes the named checked scope, 1 conflicts with it, 2 cannot-adjudicate (unknown content or a DM-authority decision, including when the caller is the agent-DM — an honest refusal, not an error). Applied rules carry citations; boundary refusals do not invent them.",
+ "status": "alpha; versioned machine schemas and the N/N-1 semantic window are reported by `capabilities`",
  "rulesets": [
   {
    "name": "srd-5.2.1",
-   "version": "0.2.0"
+   "version": "0.2.1",
+   "data_version": "0.2.0",
+   "rules_version": "0.2.1"
   },
   {
    "name": "toy-tictactoe",
-   "version": "0.1.0"
+   "version": "0.1.0",
+   "data_version": "0.1.0",
+   "rules_version": "0.1.0"
   }
  ],
  "invocation": {
   "command": "python -m srdcheck",
   "subcommands": {
-   "jurisdiction <name>": "Is this spell/creature/condition/action known to the loaded rulesets? exit 0 = known content (categories in payload); exit 2 = unknown/third-party content.",
+   "jurisdiction <name>": "Is this spell/creature/condition/action known to the loaded rulesets? exit 0 = registered content; exit 2 = unknown/third-party content.",
    "cite <heading>": "Verbatim, page-numbered source text for a named SRD heading. Provenance surface: returns the page's own text, never interpretation.",
    "query <type> <params-json>": "Adjudicate a structured proposal. Query types are supplied by the loaded adapters; see query_types below.",
    "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
@@ -47,8 +51,8 @@
    "turn.plan"
   ]
  },
- "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter}",
- "notes": "The 'why' field is templated from cited rule text, not model-generated. Verdicts are deterministic: same query, same answer, every time. turn.options and turn.plan are consistency-tested against each other.",
+ "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter}. Schema identity is published by --schema, MCP outputSchema, and capabilities.",
+ "notes": "The 'why' field is templated explanatory prose, not a machine compatibility field. Verdicts are deterministic: same query, same answer, every time. turn.options and turn.plan are consistency-tested against each other. Use `capabilities` for checked/unchecked scope and the exact release tuple.",
  "mcp": {
   "command": "python3 -m srdcheck.mcp",
   "transport": "stdio",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the README truth scorecard (product truths T1-T13 vs reality).
+"""Generate the README truth scorecard (product truths T1-T14 vs reality).
 
 Interpolates only deterministic numbers (atom counts, test counts, bench
 inventory) so regeneration is stable; the latency and correctness gates
@@ -47,16 +47,18 @@ def table(f):
          "eval; any wrong verdict fails the build"),
         ("T2", "no citation, no rule", "enforced in CI",
          f"{f['quoted']}/{f['atoms']} rule atoms carry verbatim source "
-         "quotes; every-verdict-cites tests on all adjudicated paths"),
+         "quotes; applied-rule paths cite, while boundary refusals do not "
+         "invent provenance"),
         ("T3", "advise, never overrule", "structural",
          "the API has no blocking or veto interface to wire; verdicts are "
          "advisory by construction"),
         ("T4", "one payload, two audiences", "enforced in CI",
          "every verdict carries machine fields plus a templated plain-English "
          "why; schema-tested"),
-        ("T5", "enumeration is the product", "proven in CI",
+        ("T5", "enumeration is the direction", "proven for shipped slices",
          "consistency sweeps (50 turn states + toy boards) verify "
-         "enumerate/validate agreement in both directions on every push"),
+         "enumerate/validate agreement in both directions on every push; "
+         "creature-complete enumeration remains a target"),
         ("T6", "judge, never simulate", "enforced in CI",
          "determinism test plus a purity lint: no randomness anywhere in "
          "the kernel, no network or subprocess in the verdict path"),
@@ -65,7 +67,8 @@ def table(f):
          "(it caught a real violation during development)"),
         ("T8", "honest boundaries", "enforced in CI",
          "refusal goldens: unknown content, unmodeled conditions, and "
-         "genuinely ambiguous rules text all return exit 2 with citations"),
+         "genuinely ambiguous rules text all return exit 2; ambiguity cites "
+         "its source, while registry and input boundaries may have no citation"),
         ("T9", "never a single number", "enforced in CI",
          "bench scorecard freshness test; per-category tables, no aggregate "
          "score exists anywhere in this repository — even the leaderboard ranks "
@@ -78,7 +81,7 @@ def table(f):
          f"({f['cs_date']})"),
         ("T11", "table speed", "enforced in CI",
          "p95 latency budget test: 100 verdicts must stay under 100 ms at "
-         "p95 (typically sub-millisecond)"),
+         "p95; lower local observations are not a compatibility promise"),
         ("T12", "never sell what the model has", "held in review",
          "a strategy invariant: features pitched on knowledge parity are "
          "cut in review — enforced by humans and admitted as such"),
@@ -88,8 +91,9 @@ def table(f):
          "whose golds are engine-derived; a generated LEADERBOARD ranks any "
          "subject; cmd: driver + validate command let a third party submit a "
          "tamper-checked result"),
-        ("T14", "every state has a lineage", "enforced in CI",
-         "event.apply reducer stamps every transition (predecessor hash, "
+        ("T14", "every derived state has a lineage", "enforced in CI",
+         "event.apply stamps every successful derived transition "
+         "(predecessor hash, "
          "causing event, rule ids, rule-vs-ruling kind); tests cover replay "
          "verification, tamper detection, the schema minimality ratchet, "
          "and reducer/validator agreement; demo replays 15 rounds "

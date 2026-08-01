@@ -45,10 +45,10 @@ def test_documented_adapter_versions_match_manifest():
 
 def test_capabilities_distinguish_engine_and_adapters():
     value = capabilities()
-    assert value["schema_version"] == "1.0"
+    assert value["schema_version"] == "2.0"
     assert value["engine"] == {"name": "srdcheck", "version": srdcheck.__version__}
     adapters = {item["identifier"]: item for item in value["adapters"]}
-    assert adapters["srd-5.2.1"]["version"] == "0.2.0"
+    assert adapters["srd-5.2.1"]["version"] == "0.2.1"
     assert len(adapters["srd-5.2.1"]["digest"]) == 64
     assert "turn_plan" in value["mcp_tools"]
 

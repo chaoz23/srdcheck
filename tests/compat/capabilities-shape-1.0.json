@@ -1,0 +1,25 @@
+{
+ "schema_version": "1.0",
+ "source_engine_version": "0.5.1",
+ "top_level": {
+  "schema_version": "string",
+  "engine": "object",
+  "mcp_protocol_version": "string",
+  "mcp_supported_protocol_versions": "array",
+  "adapters": "array",
+  "mcp_tools": "array"
+ },
+ "engine": {
+  "name": "string",
+  "version": "string"
+ },
+ "adapter_item": {
+  "identifier": "string",
+  "name": "string",
+  "version": "string",
+  "ruleset": "string",
+  "default_load": "boolean",
+  "digest": "string",
+  "query_types": "array"
+ }
+}

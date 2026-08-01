@@ -2,24 +2,28 @@
 
 > Deterministic rules verdicts for game-running agents. Machine adjudication of
 > the System Reference Document 5.2.1 (2024 rules, CC-BY-4.0): exit code 0 =
-> legal, 1 = illegal, 2 = cannot-adjudicate (honest refusal — unknown content,
-> GM discretion, or genuinely ambiguous rules text). Every verdict carries
-> verbatim quotes from the source document. No LLM calls, no network, no
-> randomness in the verdict path; sub-millisecond; MIT.
+> passes the named checked scope, 1 = conflicts with that scope, 2 =
+> cannot-adjudicate (honest refusal — unknown content, DM discretion, or
+> genuinely ambiguous rules text). Applied rules carry source quotes; boundary
+> refusals do not invent citations. No LLM calls, no network, no
+> randomness in the verdict path; p95 single-verdict CI budget under 100 ms;
+> MIT.
 
-Use srdcheck when an agent needs to know: is this action legal this turn; what
-can this creature legally do right now; does this attack have advantage or
-disadvantage; is this multiclass or spell use allowed; is this entity even in
-the SRD; what does this declared event do to game state (with hash-stamped
-lineage so whole encounters replay deterministically and GM rulings are tagged
-separately from rule derivations).
+Use srdcheck for a query listed in `srdcheck capabilities` and treat its
+`checked_scope` / `unchecked_scope` as authoritative. Current examples include
+modeled turn budgets, supplied attack modifiers, registered spell facts,
+creature registry facts, and supported declared state events. It does not
+currently validate multiclass builds or enumerate every creature-specific move.
+The calling agent may itself be the authorized DM; its table rulings remain
+distinct from SRD-derived results.
 
 ## Install and first verdict
 
 - CLI: `pip install git+https://github.com/chaoz23/srdcheck` then
   `srdcheck jurisdiction "Fireball"` (exit 0) or
   `srdcheck jurisdiction "Hexblade"` (exit 2, honestly refused).
-- MCP (stdio, zero dependencies): command `srdcheck-mcp`, ten tools.
+- MCP (stdio, zero dependencies): command `srdcheck-mcp`; discover the current
+  tool count and scope from `srdcheck capabilities`.
 - Machine surfaces: [tool.json](tool.json), `srdcheck --schema`.
 
 ## Key files
@@ -28,7 +32,9 @@ separately from rule derivations).
 - [docs/product-truths.md](docs/product-truths.md): the 14 invariants,
   CI-enforced where mechanically possible.
 - [docs/anatomy-of-a-turn.md](docs/anatomy-of-a-turn.md): where srdcheck sits
-  in an agent DM pipeline (combat turn, stealth scene, Mage Hand test).
+  in an agent-DM pipeline, split into executable-today and target behavior.
+- [docs/capability-map.json](docs/capability-map.json): generated checked scope,
+  unchecked scope, release tuple, and target claims for agents.
 - [docs/adapter-spec.md](docs/adapter-spec.md): rulesets are adapters; the
   kernel contains zero game vocabulary (lint-enforced). Build one for content
   you have rights to.

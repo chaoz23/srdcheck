@@ -1,0 +1,27 @@
+{
+ "x-srdcheck-schema-version": "1.0",
+ "type": "object",
+ "properties": {
+  "verdict": {"type": "string", "enum": ["legal", "illegal", "cannot-adjudicate"]},
+  "exit_code": {"type": "integer", "enum": [0, 1, 2]},
+  "why": {"type": "string"},
+  "citations": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "section": {"type": "string"},
+     "page": {"type": "integer"},
+     "quote": {"type": "string"}
+    },
+    "required": ["section"],
+    "additionalProperties": false
+   }
+  },
+  "rule_ids": {"type": "array", "items": {"type": "string"}},
+  "adapter": {"type": "string"},
+  "data": {"type": "object"}
+ },
+ "required": ["verdict", "exit_code", "why", "citations", "rule_ids", "adapter"],
+ "additionalProperties": false
+}

@@ -19,6 +19,15 @@ class Adapter:
         self.root = pathlib.Path(root)
         self.manifest = json.loads((self.root / "manifest.json").read_text())
         self.id = f"{self.manifest['name']}@{self.manifest['version']}"
+        # Older and third-party adapters may carry only the original aggregate
+        # version.  Explicit identities are additive; the aggregate version is
+        # the backward-compatible fallback, never a new conformance hurdle.
+        self.data_version = (self.manifest["data_version"]
+                             if "data_version" in self.manifest
+                             else self.manifest["version"])
+        self.rules_version = (self.manifest["rules_version"]
+                              if "rules_version" in self.manifest
+                              else self.manifest["version"])
         # An entity is either a bare name string or an object with a "name"
         # field plus adapter-defined facts (the kernel stays content-neutral —
         # it indexes names and carries records without interpreting either).

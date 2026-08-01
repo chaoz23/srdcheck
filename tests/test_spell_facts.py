@@ -43,6 +43,15 @@ def test_divine_sense_blanks(eng):
     assert v2.data["uses"] == 5
 
 
+def test_lay_on_hands_blanks(eng):
+    formula = eng.query("feature.uses", {"feature": "lay-on-hands"})
+    assert "uses" not in formula.data
+    assert "paladin level" in formula.data["formula"]
+    resolved = eng.query(
+        "feature.uses", {"feature": "lay-on-hands", "paladin_level": 4})
+    assert resolved.data["uses"] == 20
+
+
 def test_census_registry_complete(eng):
     import json, pathlib
     root = pathlib.Path("srdcheck/adapters/srd-5.2.1")

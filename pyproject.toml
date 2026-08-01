@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "srdcheck"
-version = "0.5.1"
+version = "0.6.0"
 description = "Deterministic rules verdicts for game-running agents — cited, reproducible, honest about jurisdiction. SRD 5.2.1 is adapter #1."
 readme = "README.md"
 requires-python = ">=3.10"
@@ -44,6 +44,7 @@ packages = ["srdcheck", "srdcheck.scaffold", "srdcheck.adapters"]
 # cannot-adjudicate (the 0.5.0 release defect). Asserted by
 # tests/test_packaging.py::test_wheel_contains_source_text.
 srdcheck = [
+    "capability_claims.json",
     "adapters/**/*.json",
     "adapters/**/*.py",
     "adapters/**/*.md",

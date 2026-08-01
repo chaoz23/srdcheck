@@ -21,10 +21,14 @@ srdcheck/adapters/<name>/
 ## manifest.json
 
 Name, version, ruleset, **source document + sha256**, license, required attribution,
-maintainer. Every verdict cites through this manifest — an adapter without clean
+maintainer. Every applied-rule result cites through this manifest — an adapter without clean
 provenance is not an adapter. The source may be a fetched document (`url` +
 `sha256`) or a repo-local file (`path` + `sha256`) for self-authored or bundled
-rules texts.
+rules texts. `data_version` and `rules_version` may identify those change streams
+independently. All present version identities must be complete SemVer 2.0
+strings. They are additive: only when a split-version key is absent is the
+aggregate adapter `version` used for it, so existing third-party manifests
+remain conformant while an explicit empty or malformed identity is rejected.
 
 ## entities.json
 
@@ -49,8 +53,9 @@ extend the tool list with zero kernel changes.
 
 Exports `HANDLERS: {query_type: fn(adapter, params) -> Verdict}`. Handlers are the
 code escape hatch: control flow lives here, but every fact a handler uses must come
-from an atom, and every verdict path must cite. The kernel never imports game
-vocabulary — a lint test enforces it.
+from an atom, and every applied-rule path must cite. Boundary refusals must not
+invent citations. The kernel never imports game vocabulary — a lint test
+enforces it.
 
 ## Versioned identifiers & the stable consumer interface
 
@@ -107,4 +112,5 @@ by 5.1 loading with zero kernel changes.
 
 The kernel promises adapters: deterministic dispatch, the verdict envelope,
 the jurisdiction gate, and zero opinions about your game. Adapters promise the
-kernel: provenance, citations on every path, and honest exit 2 at their edges.
+kernel: provenance, citations whenever they apply a rule, and honest exit 2 at
+their edges.

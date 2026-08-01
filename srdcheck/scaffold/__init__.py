@@ -1,7 +1,8 @@
 """`srdcheck new-adapter <name>`: scaffold a conformant adapter skeleton."""
 import json, pathlib
 
-MANIFEST = {"name": None, "version": "0.1.0", "license": "TODO-SPDX-ID",
+MANIFEST = {"name": None, "version": "0.1.0", "data_version": "0.1.0",
+            "rules_version": "0.1.0", "license": "TODO-SPDX-ID",
             "attribution": "TODO: the attribution your content license requires",
             "source": {"url": "TODO", "sha256": "TODO: hash-pin the source document"}}
 QUERIES = {"example.query": {

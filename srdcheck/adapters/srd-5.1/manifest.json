@@ -1,6 +1,8 @@
 {
  "name": "srd-5.1",
  "version": "0.1.0",
+ "data_version": "0.1.0",
+ "rules_version": "0.0.0",
  "ruleset": "System Reference Document 5.1 (2014 rules)",
  "source": {
   "url": "https://media.wizards.com/2023/downloads/dnd/SRD_CC_v5.1.pdf",

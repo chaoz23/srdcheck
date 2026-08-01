@@ -1,19 +1,8 @@
 {
- "adapter": "srd-5.2.1@0.2.0",
- "citations": [
-  {
-   "page": 15,
-   "quote": "You can make an Opportunity Attack when a creature that you can see leaves your reach. To make the attack, take a Reaction to make one melee attack with a weapon or an Unarmed Strike against that creature. The attack occurs right before it leaves your reach.",
-   "section": "SRD 5.2.1 p.15 'Playing the Game > Making an Attack > Opportunity Attacks > Making an Opportunity Attack'"
-  }
- ],
- "data": {
-  "provoked": true
- },
- "exit_code": 0,
- "rule_ids": [
-  "opportunity-attack.making"
- ],
- "verdict": "legal",
- "why": "Provokes an Opportunity Attack: a creature you can see leaves your reach using its own movement."
+ "adapter": "srd-5.2.1@0.2.1",
+ "citations": [],
+ "exit_code": 2,
+ "rule_ids": [],
+ "verdict": "cannot-adjudicate",
+ "why": "Provide movement_kind. It is required unless another supplied fact already makes provocation impossible."
 }

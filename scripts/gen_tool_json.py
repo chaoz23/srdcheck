@@ -26,12 +26,14 @@ def build():
     engine = Engine(default_adapter_paths())
     tools, _ = build_tools(engine)
     rulesets = [{"name": a.manifest.get("name"),
-                 "version": a.manifest.get("version")}
+                 "version": a.manifest.get("version"),
+                 "data_version": a.data_version,
+                 "rules_version": a.rules_version}
                 for a in engine.adapters]
     subcommands = {
         "jurisdiction <name>": (
             "Is this spell/creature/condition/action known to the loaded "
-            "rulesets? exit 0 = known content (categories in payload); "
+            "rulesets? exit 0 = registered content; "
             "exit 2 = unknown/third-party content."),
         "cite <heading>": (
             "Verbatim, page-numbered source text for a named SRD heading. "
@@ -50,11 +52,14 @@ def build():
         "version": __version__,
         "description": (
             "Deterministic rules verdicts over the SRD for game-running "
-            "agents. Exit codes are the verdict: 0 legal, 1 illegal, "
-            "2 cannot-adjudicate (unknown content or GM discretion — an "
-            "honest refusal, not an error). Every verdict carries citations "
-            "to the source text."),
-        "status": "alpha; query surface may change within 0.x",
+            "agents. Exit codes are scoped results: 0 passes the named "
+            "checked scope, 1 conflicts with it, "
+            "2 cannot-adjudicate (unknown content or a DM-authority decision, "
+            "including when the caller is the agent-DM — an "
+            "honest refusal, not an error). Applied rules carry citations; "
+            "boundary refusals do not invent them."),
+        "status": ("alpha; versioned machine schemas and the N/N-1 semantic "
+                   "window are reported by `capabilities`"),
         "rulesets": rulesets,
         "invocation": {
             "command": "python -m srdcheck",
@@ -63,12 +68,15 @@ def build():
                 qt for a in engine.adapters for qt in a.query_meta),
         },
         "output": ("JSON verdict object on stdout: {verdict, exit_code, why, "
-                   "citations[], rule_ids[], adapter}"),
+                   "citations[], rule_ids[], adapter}. Schema identity is "
+                   "published by --schema, MCP outputSchema, and "
+                   "capabilities."),
         "notes": (
-            "The 'why' field is templated from cited rule text, not "
-            "model-generated. Verdicts are deterministic: same query, same "
+            "The 'why' field is templated explanatory prose, not a machine "
+            "compatibility field. Verdicts are deterministic: same query, same "
             "answer, every time. turn.options and turn.plan are "
-            "consistency-tested against each other."),
+            "consistency-tested against each other. Use `capabilities` for "
+            "checked/unchecked scope and the exact release tuple."),
         "mcp": {
             "command": "python3 -m srdcheck.mcp",
             "transport": "stdio",
