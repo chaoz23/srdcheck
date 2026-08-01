@@ -38,8 +38,33 @@ python3 -m pytest tests/ -q
 python3 -m build
 python3 -m pytest tests/test_packaging.py -q
 
-# 6. Tag; CI publishes from the clean commit.
-git tag vX.Y.Z && git push --tags
+# 6. Commit the reviewed release diff on a branch and merge it through a PR.
+git status --short                 # inspect the exact release diff
+git add -u
+git commit -m "Release vX.Y.Z"
+git push -u origin release/vX.Y.Z
+
+# After the PR is green and merged, update and prove a clean main checkout.
+git switch main
+git pull --ff-only origin main
+test -z "$(git status --porcelain)"
+test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+
+# 7. Tag; CI builds, cold-tests, checksums, SBOMs, and attests the commit.
+git tag -a vX.Y.Z -m "srdcheck vX.Y.Z"
+git push origin refs/tags/vX.Y.Z
+
+# 8. After release-artifacts is green, explicitly dispatch the trusted PyPI
+#    publisher with that tag workflow's run ID. This rebuilds nothing: it
+#    downloads and checksum-verifies the exact CI artifacts before upload.
+gh workflow run publish-pypi.yml \
+  --ref main \
+  -f version=X.Y.Z \
+  -f artifact_run_id=TAG_WORKFLOW_RUN_ID
+
+# 9. Publish the GitHub release only after PyPI shows both files. That event
+#    starts registry-smoke against the exact public version.
+gh release create vX.Y.Z --verify-tag --generate-notes
 ```
 
 ## Acceptance before publishing

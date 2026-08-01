@@ -1,0 +1,120 @@
+name: publish-pypi
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Exact release version without a v prefix
+        required: true
+        type: string
+      artifact_run_id:
+        description: Successful release-artifacts tag workflow run ID
+        required: true
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: publish-pypi
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    name: Publish attested artifacts to PyPI
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: pypi
+      url: https://pypi.org/project/srdcheck/${{ inputs.version }}/
+    permissions:
+      actions: read
+      attestations: read
+      contents: read
+      id-token: write
+    env:
+      ARTIFACT_RUN_ID: ${{ inputs.artifact_run_id }}
+      GH_TOKEN: ${{ github.token }}
+      VERSION: ${{ inputs.version }}
+    steps:
+      - name: Validate the immutable tag build
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          [[ "$VERSION" =~ ^[0-9]+\.[0-9]+\.[0-9]+$ ]]
+          [[ "$ARTIFACT_RUN_ID" =~ ^[0-9]+$ ]]
+
+          TAG="v${VERSION}"
+          RUN_JSON="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}")"
+
+          test "$(jq -r .name <<<"$RUN_JSON")" = "release-artifacts"
+          test "$(jq -r .path <<<"$RUN_JSON")" = ".github/workflows/release-artifacts.yml"
+          test "$(jq -r .event <<<"$RUN_JSON")" = "push"
+          test "$(jq -r .status <<<"$RUN_JSON")" = "completed"
+          test "$(jq -r .conclusion <<<"$RUN_JSON")" = "success"
+          test "$(jq -r .head_branch <<<"$RUN_JSON")" = "$TAG"
+          test "$(jq -r .head_repository.full_name <<<"$RUN_JSON")" = "$GITHUB_REPOSITORY"
+
+          REF_JSON="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/tags/${TAG}")"
+          TAG_TYPE="$(jq -r .object.type <<<"$REF_JSON")"
+          TAG_SHA="$(jq -r .object.sha <<<"$REF_JSON")"
+          if [[ "$TAG_TYPE" = "tag" ]]; then
+            TAG_SHA="$(gh api "repos/${GITHUB_REPOSITORY}/git/tags/${TAG_SHA}" --jq .object.sha)"
+          else
+            test "$TAG_TYPE" = "commit"
+          fi
+          test "$(jq -r .head_sha <<<"$RUN_JSON")" = "$TAG_SHA"
+
+          COMPARE_STATUS="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/compare/${TAG_SHA}...${GITHUB_SHA}" \
+            --jq .status)"
+          [[ "$COMPARE_STATUS" = "ahead" || "$COMPARE_STATUS" = "identical" ]]
+
+          RUN_ATTEMPT="$(jq -r .run_attempt <<<"$RUN_JSON")"
+          JOBS_JSON="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}/attempts/${RUN_ATTEMPT}/jobs?per_page=100")"
+          test "$(jq '[.jobs[] | select(.name == "attest-tagged-build")] | length' \
+            <<<"$JOBS_JSON")" -eq 1
+          test "$(jq '[.jobs[] | select(.name == "attest-tagged-build" and .conclusion == "success")] | length' \
+            <<<"$JOBS_JSON")" -eq 1
+
+          ARTIFACTS_JSON="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}/artifacts?per_page=100")"
+          test "$(jq '[.artifacts[] | select(.name == "srdcheck-release-artifacts" and .expired == false)] | length' \
+            <<<"$ARTIFACTS_JSON")" -eq 1
+
+      - name: Download the exact release artifacts
+        shell: bash
+        run: >-
+          gh run download "$ARTIFACT_RUN_ID"
+          --repo "$GITHUB_REPOSITORY"
+          --name srdcheck-release-artifacts
+          --dir dist
+
+      - name: Verify checksums, provenance, and distributions
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -f "dist/srdcheck-${VERSION}-py3-none-any.whl"
+          test -f "dist/srdcheck-${VERSION}.tar.gz"
+          test -f dist/srdcheck.spdx.json
+          test -f dist/SHA256SUMS
+          test "$(wc -l < dist/SHA256SUMS)" -eq 3
+          sha256sum --check dist/SHA256SUMS
+          gh attestation verify "dist/srdcheck-${VERSION}-py3-none-any.whl" \
+            --repo "$GITHUB_REPOSITORY"
+          gh attestation verify "dist/srdcheck-${VERSION}.tar.gz" \
+            --repo "$GITHUB_REPOSITORY"
+
+          mkdir publish
+          cp "dist/srdcheck-${VERSION}-py3-none-any.whl" publish/
+          cp "dist/srdcheck-${VERSION}.tar.gz" publish/
+          test "$(find publish -maxdepth 1 -type f | wc -l)" -eq 2
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33 # release/v1
+        with:
+          packages-dir: publish/
+          print-hash: true

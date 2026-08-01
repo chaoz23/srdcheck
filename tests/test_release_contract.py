@@ -86,3 +86,22 @@ def test_release_workflows_cover_offline_install_and_registry_smoke():
     assert "workflow_dispatch:" in registry
     assert 'srdcheck==$VERSION' in registry
     assert "registry-artifacts/*.whl registry-artifacts/*.tar.gz" in registry
+
+
+def test_pypi_publish_reuses_only_verified_tag_artifacts():
+    publish = (ROOT / ".github" / "workflows" / "publish-pypi.yml").read_text()
+    assert "workflow_dispatch:" in publish
+    assert "if: github.ref == 'refs/heads/main'" in publish
+    assert "id-token: write" in publish
+    assert "attestations: read" in publish
+    assert "release-artifacts.yml" in publish
+    assert 'test "$(jq -r .conclusion' in publish
+    assert 'test "$(jq -r .head_branch' in publish
+    assert 'test "$(jq -r .head_sha' in publish
+    assert "compare/${TAG_SHA}...${GITHUB_SHA}" in publish
+    assert '.conclusion == "success"' in publish
+    assert '.expired == false' in publish
+    assert "sha256sum --check dist/SHA256SUMS" in publish
+    assert "gh attestation verify" in publish
+    assert "pypa/gh-action-pypi-publish@dc37677b2e1c63e2034f94d8a5b11f265b73ba33" in publish
+    assert "packages-dir: publish/" in publish
