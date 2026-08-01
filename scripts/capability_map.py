@@ -44,6 +44,7 @@ def build():
         "engine": caps["engine"],
         "machine_contracts": caps["machine_contracts"],
         "release_tuple": caps["release_tuple"],
+        "refusal_contract": caps["refusal_contract"],
         "result_contract": caps["result_contract"],
         "shipped": shipped,
         "targets": caps["targets"],
@@ -74,6 +75,22 @@ def render_markdown():
         f"- **Prose:** {promise['prose_stability']}",
         f"- **Vision:** {promise['vision_rule']}",
         "",
+        "## Exit-2 recovery contract",
+        "",
+        "Machine metadata lives in `data`; agents branch on it instead of "
+        "parsing `why`. An authorized agent-DM may resolve a DM-authority "
+        "table ruling directly.",
+        "",
+        "| reason | recoverability | default next action | authority |",
+        "|---|---|---|---|",
+    ]
+    for reason, recovery in doc["refusal_contract"]["reason_mappings"].items():
+        lines.append(
+            f"| `{reason}` | `{recovery['recoverability']}` | "
+            f"`{recovery['suggested_next_action']}` | "
+            f"`{recovery.get('required_authority', '—')}` |")
+    lines.extend([
+        "",
         "## Release identity",
         "",
         f"Engine `{doc['engine']['version']}`; verdict schema "
@@ -83,7 +100,7 @@ def render_markdown():
         "",
         "| adapter | adapter version | data version | rules version | digest |",
         "|---|---:|---:|---:|---|",
-    ]
+    ])
     for adapter in doc["release_tuple"]["adapters"]:
         lines.append(
             f"| `{adapter['identifier']}` | `{adapter['version']}` | "

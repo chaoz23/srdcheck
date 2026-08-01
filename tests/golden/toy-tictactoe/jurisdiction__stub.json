@@ -1,6 +1,12 @@
 {
  "adapter": "toy-tictactoe@0.1.0",
  "citations": [],
+ "data": {
+  "missing_inputs": [],
+  "reason_code": "unsupported-content",
+  "recoverability": "alternate-path",
+  "suggested_next_action": "select-adapter"
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",

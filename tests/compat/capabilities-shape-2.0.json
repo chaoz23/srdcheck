@@ -5,6 +5,7 @@
   "engine": "object",
   "machine_contracts": "object",
   "release_tuple": "object",
+  "refusal_contract": "object",
   "mcp_protocol_version": "string",
   "mcp_supported_protocol_versions": "array",
   "adapters": "array",
@@ -20,6 +21,7 @@
  "machine_contracts": {
   "verdict_schema_version": "string",
   "capabilities_schema_version": "string",
+  "refusal_contract_version": "string",
   "compatibility_window": "string",
   "supported_engine_minors": "array",
   "why_stability": "string"
@@ -27,6 +29,16 @@
  "release_tuple": {
   "engine_version": "string",
   "adapters": "array"
+ },
+ "refusal_contract": {
+  "schema_version": "string",
+  "metadata_location": "string",
+  "required_fields": "array",
+  "conditional_fields": "object",
+  "vocabularies": "object",
+  "reason_mappings": "object",
+  "allowed_action_overrides": "object",
+  "legacy_fallback": "object"
  },
  "result_contract": {
   "canonical_promise": "string",

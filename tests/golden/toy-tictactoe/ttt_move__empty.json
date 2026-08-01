@@ -2,6 +2,14 @@
  "adapter": "toy-tictactoe@0.1.0",
  "citations": [],
  "data": {
+  "missing_inputs": [
+   "board",
+   "player",
+   "cell"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts",
   "validation_errors": [
    "$.board: required field is missing",
    "$.player: required field is missing",

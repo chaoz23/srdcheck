@@ -45,7 +45,8 @@ def build():
         "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
         "--schema": "Print JSON Schema for input and output.",
         "capabilities": ("Print engine, protocol, adapter versions/digests, "
-                         "query types, and MCP tool names."),
+                         "query types, refusal recovery contract, and MCP "
+                         "tool names."),
     }
     return {
         "name": "srdcheck",
@@ -68,15 +69,19 @@ def build():
                 qt for a in engine.adapters for qt in a.query_meta),
         },
         "output": ("JSON verdict object on stdout: {verdict, exit_code, why, "
-                   "citations[], rule_ids[], adapter}. Schema identity is "
-                   "published by --schema, MCP outputSchema, and "
-                   "capabilities."),
+                   "citations[], rule_ids[], adapter, data?}. Exit-2 data "
+                   "contains stable reason and recovery fields. Schema and "
+                   "refusal contract identities are published by --schema, "
+                   "MCP outputSchema, and capabilities."),
         "notes": (
             "The 'why' field is templated explanatory prose, not a machine "
             "compatibility field. Verdicts are deterministic: same query, same "
-            "answer, every time. turn.options and turn.plan are "
-            "consistency-tested against each other. Use `capabilities` for "
-            "checked/unchecked scope and the exact release tuple."),
+            "answer, every time. On cannot-adjudicate, branch on structured "
+            "recovery data rather than prose; an authorized agent-DM may "
+            "resolve a DM-authority table ruling directly. turn.options and "
+            "turn.plan are consistency-tested against each other. Use "
+            "`capabilities` for checked/unchecked scope, refusal mappings, "
+            "and the exact release tuple."),
         "mcp": {
             "command": "python3 -m srdcheck.mcp",
             "transport": "stdio",
@@ -85,8 +90,8 @@ def build():
             "notes": (
                 "Zero-dependency stdlib MCP server. Tool descriptions/schemas "
                 "are supplied by loaded adapters (queries.json). Verdicts "
-                "arrive as structuredContent; illegal is a result, not an "
-                "error."),
+                "arrive as structuredContent; illegal and cannot-adjudicate "
+                "are results, not protocol errors."),
         },
         "_generated_by": "scripts/gen_tool_json.py",
     }

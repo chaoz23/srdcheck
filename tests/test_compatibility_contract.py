@@ -81,6 +81,8 @@ def test_capabilities_schema_v2_changes_are_additive_only():
                   current["machine_contracts"], baseline["machine_contracts"])
     _assert_shape("capabilities.release_tuple", current["release_tuple"],
                   baseline["release_tuple"])
+    _assert_shape("capabilities.refusal_contract", current["refusal_contract"],
+                  baseline["refusal_contract"])
     _assert_shape("capabilities.result_contract", current["result_contract"],
                   baseline["result_contract"])
     assert current["adapters"]
@@ -110,7 +112,7 @@ def test_capabilities_schema_1_to_2_migration_is_authentic_and_explicit():
         assert v2["adapter_item"][field] == kind
     assert set(v2["top_level"]) - set(v1["top_level"]) == {
         "machine_contracts", "release_tuple", "result_contract",
-        "query_coverage", "targets"}
+        "refusal_contract", "query_coverage", "targets"}
 
 
 def test_previous_minor_semantic_fixture():

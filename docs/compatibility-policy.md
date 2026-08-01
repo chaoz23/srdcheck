@@ -35,8 +35,17 @@ them.
 A new schema version requires migration notes. Removing or reinterpreting a
 machine field, query, reason code, or enum is not an additive change. Engine
 0.6.0 moves `capabilities` from schema 1.0 to 2.0 because it adds machine
-contracts, exact release tuples, checked/unchecked query coverage, and targets.
-The verdict instance envelope remains schema 1.0 and byte-shaped as before.
+contracts, exact release tuples, refusal recovery, checked/unchecked query
+coverage, and targets. The verdict instance envelope stays within the same
+frozen top-level property set under schema 1.0.
+
+Exit-code-2 recovery metadata is additive inside the verdict's existing open
+`data` object, so it does not change the frozen verdict v1 top-level shape. Its
+reason codes, recoverability values, next actions, canonical mappings, and
+authority semantics form a separately identified machine contract published by
+`srdcheck capabilities`. See [refusal recovery](refusal-recovery.md). Removing
+or reinterpreting one of those values requires a contract migration; adding
+explanatory detail to `why` does not.
 
 ## Exact release tuple
 

@@ -28,6 +28,15 @@ The usual caller is a game-running agent, often the authorized DM itself:
 srdcheck does not parse the player's sentence, roll dice, own a campaign clock,
 derive map geometry, choose tactics, or autonomously advance state.
 
+When a call returns `cannot-adjudicate`, the agent follows the versioned
+[refusal-recovery contract](refusal-recovery.md): repair invalid input, provide
+named missing facts, select another adapter, use another capability, resolve a
+table ruling, or stop only when no recovery is known. `resolve-table-ruling`
+with `required_authority: "dm"` does not automatically mean escalation. An
+authorized agent-DM exercises that authority directly; a caller without it
+routes the decision to the DM. Either path records a table ruling rather than
+mislabeling it as an SRD-derived result.
+
 ### Combat example: several narrow checks, not one global ruling
 
 Kira's player says: “I draw my shortsword, attack, move behind the pillar, and

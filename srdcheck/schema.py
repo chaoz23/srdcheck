@@ -5,12 +5,28 @@ before handler dispatch on every transport.
 """
 
 import math
+from dataclasses import dataclass
+
+
+@dataclass(frozen=True)
+class ValidationIssue:
+    """A machine-classifiable validation failure with legacy string rendering."""
+
+    path: str
+    code: str
+    detail: str
+
+    def __str__(self):
+        return f"{self.path}: {self.detail}"
 
 
 class ValidationError(ValueError):
     def __init__(self, errors):
-        self.errors = errors
-        super().__init__("; ".join(errors))
+        supplied = list(errors)
+        self.issues = [error for error in supplied
+                       if isinstance(error, ValidationIssue)]
+        self.errors = [str(error) for error in supplied]
+        super().__init__("; ".join(self.errors))
 
 
 def _path(parent, key):
@@ -46,69 +62,81 @@ def _matches_type(value, expected):
     }.get(expected, lambda: False)()
 
 
-def errors(value, schema, path="$", limit=50):
-    """Return deterministic validation errors for the supported schema subset."""
+def issues(value, schema, path="$", limit=50):
+    """Return typed, deterministic issues for the supported schema subset."""
     found = []
 
-    def add(message):
+    def add(issue_path, code, detail):
         if len(found) < limit:
-            found.append(message)
+            found.append(ValidationIssue(issue_path, code, detail))
 
     def walk(current, spec, current_path):
         if len(found) >= limit:
             return
         if not isinstance(spec, dict):
-            add(f"{current_path}: invalid schema")
+            add(current_path, "invalid-schema", "invalid schema")
             return
         expected = spec.get("type")
         if expected is not None:
             choices = expected if isinstance(expected, list) else [expected]
             if not any(_matches_type(current, choice) for choice in choices):
-                add(f"{current_path}: expected {' or '.join(map(str, choices))}")
+                add(current_path, "type",
+                    f"expected {' or '.join(map(str, choices))}")
                 return
         if "enum" in spec and current not in spec["enum"]:
-            add(f"{current_path}: expected one of {spec['enum']!r}")
+            add(current_path, "enum", f"expected one of {spec['enum']!r}")
         if isinstance(current, dict):
             properties = spec.get("properties", {})
             for name in spec.get("required", []):
                 if name not in current:
-                    add(f"{_path(current_path, name)}: required field is missing")
+                    add(_path(current_path, name), "required",
+                        "required field is missing")
             additional = spec.get("additionalProperties", True)
             for name, item in current.items():
                 if name in properties:
                     walk(item, properties[name], _path(current_path, name))
                 elif additional is False:
-                    add(f"{_path(current_path, name)}: field is not allowed")
+                    add(_path(current_path, name), "additional-property",
+                        "field is not allowed")
                 elif isinstance(additional, dict):
                     walk(item, additional, _path(current_path, name))
         if isinstance(current, list):
             if "minItems" in spec and len(current) < spec["minItems"]:
-                add(f"{current_path}: must contain at least {spec['minItems']} items")
+                add(current_path, "min-items",
+                    f"must contain at least {spec['minItems']} items")
             if "maxItems" in spec and len(current) > spec["maxItems"]:
-                add(f"{current_path}: must contain at most {spec['maxItems']} items")
+                add(current_path, "max-items",
+                    f"must contain at most {spec['maxItems']} items")
             item_schema = spec.get("items")
             if isinstance(item_schema, dict):
                 for index, item in enumerate(current):
                     walk(item, item_schema, _path(current_path, index))
         if isinstance(current, str):
             if "minLength" in spec and len(current) < spec["minLength"]:
-                add(f"{current_path}: length must be at least {spec['minLength']}")
+                add(current_path, "min-length",
+                    f"length must be at least {spec['minLength']}")
             if "maxLength" in spec and len(current) > spec["maxLength"]:
-                add(f"{current_path}: length must be at most {spec['maxLength']}")
+                add(current_path, "max-length",
+                    f"length must be at most {spec['maxLength']}")
         if isinstance(current, (int, float)) and not isinstance(current, bool):
             if not _is_finite_number(current):
-                add(f"{current_path}: number must be finite")
+                add(current_path, "finite", "number must be finite")
             elif "minimum" in spec and current < spec["minimum"]:
-                add(f"{current_path}: must be >= {spec['minimum']}")
+                add(current_path, "minimum", f"must be >= {spec['minimum']}")
             elif "maximum" in spec and current > spec["maximum"]:
-                add(f"{current_path}: must be <= {spec['maximum']}")
+                add(current_path, "maximum", f"must be <= {spec['maximum']}")
 
     walk(value, schema or {}, path)
     return found
 
 
+def errors(value, schema, path="$", limit=50):
+    """Return the legacy deterministic string API for schema failures."""
+    return [str(issue) for issue in issues(value, schema, path, limit)]
+
+
 def validate(value, schema):
-    found = errors(value, schema)
+    found = issues(value, schema)
     if found:
         raise ValidationError(found)
     return value

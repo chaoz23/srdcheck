@@ -1,6 +1,16 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
  "citations": [],
+ "data": {
+  "missing_inputs": [
+   "attacker_size",
+   "target_size",
+   "has_free_hand"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts"
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",

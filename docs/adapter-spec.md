@@ -59,6 +59,15 @@ from an atom, and every applied-rule path must cite. Boundary refusals must not
 invent citations. The kernel never imports game vocabulary — a lint test
 enforces it.
 
+Every new `cannot_adjudicate(...)` call explicitly supplies `reason_code` and
+`missing_inputs`; the kernel derives the canonical recoverability, next action,
+and any required authority. Use an action override only for a contract-approved
+case such as known content sent to the wrong capability. See
+[refusal recovery](refusal-recovery.md) for the six classes and public mapping.
+An older third-party adapter that omits this metadata remains loadable, but its
+unclassified refusal fails closed as `terminal` / `stop` rather than inviting
+an unsafe guess.
+
 ## Versioned identifiers & the stable consumer interface
 
 An adapter directory is named by a **versioned identifier** (e.g. `srd-5.2.1`).

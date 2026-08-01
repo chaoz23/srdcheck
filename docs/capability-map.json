@@ -8,6 +8,7 @@
  "machine_contracts": {
   "verdict_schema_version": "1.0",
   "capabilities_schema_version": "2.0",
+  "refusal_contract_version": "1.0",
   "compatibility_window": "N/N-1",
   "supported_engine_minors": [
    "0.6",
@@ -30,16 +31,100 @@
     "version": "0.2.1",
     "data_version": "0.2.1",
     "rules_version": "0.2.1",
-    "digest": "c75d28700fe0e2dced89c2db56ee874e180aa5f8ce009c0907060a6229236a57"
+    "digest": "e90da7306690cbbbac4bd0b5c1ea423e553c10aa6f03dc8b1f4877134b4b256c"
    },
    {
     "identifier": "toy-tictactoe",
     "version": "0.1.0",
     "data_version": "0.1.0",
     "rules_version": "0.1.0",
-    "digest": "fb2c57e8b75e4050feaf5b3acf88eb20983e6093b66036ee89eb5d9a00bb6797"
+    "digest": "45746ba2683f56ece60bcb10d434198f04a67c349547d9ecbd7282df4d972b16"
    }
   ]
+ },
+ "refusal_contract": {
+  "schema_version": "1.0",
+  "metadata_location": "data",
+  "required_fields": [
+   "reason_code",
+   "recoverability",
+   "missing_inputs",
+   "suggested_next_action"
+  ],
+  "conditional_fields": {
+   "required_authority": {
+    "when_reason_code": [
+     "rules-ambiguous",
+     "gm-discretion"
+    ]
+   }
+  },
+  "vocabularies": {
+   "reason_code": [
+    "invalid-input",
+    "missing-fact",
+    "unsupported-content",
+    "unmodeled-rule",
+    "rules-ambiguous",
+    "gm-discretion"
+   ],
+   "recoverability": [
+    "retry",
+    "alternate-path",
+    "authority",
+    "terminal"
+   ],
+   "suggested_next_action": [
+    "repair-request",
+    "provide-facts",
+    "select-adapter",
+    "use-other-capability",
+    "resolve-table-ruling",
+    "stop"
+   ],
+   "required_authority": [
+    "dm"
+   ]
+  },
+  "reason_mappings": {
+   "invalid-input": {
+    "recoverability": "retry",
+    "suggested_next_action": "repair-request"
+   },
+   "missing-fact": {
+    "recoverability": "retry",
+    "suggested_next_action": "provide-facts"
+   },
+   "unsupported-content": {
+    "recoverability": "alternate-path",
+    "suggested_next_action": "select-adapter"
+   },
+   "unmodeled-rule": {
+    "recoverability": "alternate-path",
+    "suggested_next_action": "use-other-capability"
+   },
+   "rules-ambiguous": {
+    "recoverability": "authority",
+    "suggested_next_action": "resolve-table-ruling",
+    "required_authority": "dm"
+   },
+   "gm-discretion": {
+    "recoverability": "authority",
+    "suggested_next_action": "resolve-table-ruling",
+    "required_authority": "dm"
+   }
+  },
+  "allowed_action_overrides": {
+   "unsupported-content": [
+    "use-other-capability"
+   ]
+  },
+  "legacy_fallback": {
+   "reason_code": "unmodeled-rule",
+   "recoverability": "terminal",
+   "missing_inputs": [],
+   "suggested_next_action": "stop"
+  }
  },
  "result_contract": {
   "canonical_promise": "A legal result means only that the query's named checked scope passed. It is not a claim of global or complete legality.",
@@ -213,7 +298,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Uses outside the text's can/can't lists return cannot-adjudicate — the GM's call, honestly labeled."
+   "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Uses outside the text's can/can't lists return cannot-adjudicate with gm-discretion and resolve-table-ruling; an authorized agent-DM may rule directly."
   },
   {
    "adapter": "srd-5.2.1",
@@ -239,7 +324,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, damage (amount; crit:true for a Critical Hit; folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP), heal (amount; restores HP and, from 0, consciousness + resets death saves), death-save (result: the rolled d20 1-20; folds success/failure counts, nat-1 double failure, nat-20 revival, stabilize, and death), ruling (GM discretion — recorded and tagged as discretion, never as a rule). The caller supplies every die result; srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold."
+   "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, damage (amount; crit:true for a Critical Hit; folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP), heal (amount; restores HP and, from 0, consciousness + resets death saves), death-save (result: the rolled d20 1-20; folds success/failure counts, nat-1 double failure, nat-20 revival, stabilize, and death), ruling (authorized DM discretion, including the calling agent-DM — recorded and tagged as discretion, never as a rule). The caller supplies every die result; srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold."
   },
   {
    "adapter": "srd-5.2.1",
@@ -335,7 +420,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides — auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing."
+   "description": "Adjudicate a saving throw against a DC (SRD 5.2.1 p.6). The CALLER rolls the d20 (RNG is out of scope, T6); srdcheck composes and resolves, cited. Optionally ability-typed and condition-aware: pass save_ability + saver_conditions to apply the codified overrides — auto-fail Str/Dex saves (Paralyzed/Petrified/Stunned/Unconscious), Disadvantage on Dex saves (Restrained), and Exhaustion's flat d20 penalty. With d20_result it returns {total, dc, success, roll[, auto_fail]}; without a d20 it composes and reports {roll, dc, net_modifier}. A missing DC returns missing-fact; malformed inputs or unsupported condition content return their structured recovery class."
   },
   {
    "adapter": "srd-5.2.1",
@@ -362,7 +447,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. Refuses (exit 2) only if the DC is missing."
+   "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. A missing DC returns missing-fact; malformed inputs or unsupported condition content return their structured recovery class."
   },
   {
    "adapter": "srd-5.2.1",
