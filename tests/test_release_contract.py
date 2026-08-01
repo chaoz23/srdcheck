@@ -74,3 +74,15 @@ def test_release_tag_identity_guard():
         assert "does not match" in str(error)
     else:
         raise AssertionError("mismatched release tag was accepted")
+
+
+def test_release_workflows_cover_offline_install_and_registry_smoke():
+    cold_smoke = (ROOT / "scripts" / "cold_artifact_smoke.py").read_text()
+    assert '"--no-index"' in cold_smoke
+    assert '"--no-build-isolation"' in cold_smoke
+
+    registry = (ROOT / ".github" / "workflows" / "registry-smoke.yml").read_text()
+    assert "release:" in registry and "types: [published]" in registry
+    assert "workflow_dispatch:" in registry
+    assert 'srdcheck==$VERSION' in registry
+    assert "registry-artifacts/*.whl registry-artifacts/*.tar.gz" in registry

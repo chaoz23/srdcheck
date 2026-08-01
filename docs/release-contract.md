@@ -63,4 +63,13 @@ CI builds wheel and sdist from a clean tree, installs each outside the checkout,
 pins archive metadata to the source commit timestamp for reproducibility, and
 verifies CLI, cite, library, capabilities, and MCP behavior. Tagged builds
 also produce checksums, an SPDX SBOM, GitHub build provenance, and downloadable
-artifacts. Publishing to PyPI remains a separate, explicitly authorized action.
+artifacts. Artifact installation uses no package index and no isolated build
+environment after the build backend has been provisioned, so both wheel and
+sdist journeys prove the runtime package is self-contained.
+
+Publishing to PyPI remains a separate, explicitly authorized action. After a
+package is published, publishing its GitHub release triggers `registry-smoke`;
+the same check can be dispatched manually with an exact version. It downloads
+both registry artifacts, disconnects pip from the registry, and repeats the
+headline journeys on Python 3.10 and 3.13. Publish the package before the GitHub
+release so a missing or delayed registry artifact fails visibly.

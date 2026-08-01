@@ -89,8 +89,10 @@ def smoke(artifact):
         outside = root / "outside-checkout"
         outside.mkdir()
         python = pathlib.Path(sys.executable)
-        run([str(python), "-m", "pip", "install", "--no-deps", "--target", str(site),
-             str(artifact)], outside)
+        run([
+            str(python), "-m", "pip", "install", "--no-deps", "--no-index",
+            "--no-build-isolation", "--target", str(site), str(artifact),
+        ], outside)
         clean_env = dict(os.environ)
         clean_env["PYTHONPATH"] = str(site)
         clean_env["PYTHONDONTWRITEBYTECODE"] = "1"
