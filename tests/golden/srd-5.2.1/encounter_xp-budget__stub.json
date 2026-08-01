@@ -7,6 +7,12 @@
    "section": "SRD 5.2.1 p.202 'Gameplay Toolbox > Building Combat Encounters > XP Budget per Character'"
   }
  ],
+ "data": {
+  "missing_inputs": [],
+  "reason_code": "invalid-input",
+  "recoverability": "retry",
+  "suggested_next_action": "repair-request"
+ },
  "exit_code": 2,
  "rule_ids": [
   "encounter.xp-budget-per-character"

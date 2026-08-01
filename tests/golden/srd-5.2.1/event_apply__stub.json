@@ -2,6 +2,12 @@
  "adapter": "srd-5.2.1@0.2.1",
  "citations": [],
  "data": {
+  "missing_inputs": [
+   "event.type"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts",
   "validation_errors": [
    "$.event.type: required field is missing"
   ]

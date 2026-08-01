@@ -2,6 +2,12 @@
  "adapter": "",
  "citations": [],
  "data": {
+  "missing_inputs": [
+   "name"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts",
   "validation_errors": [
    "$.name: required field is missing"
   ]

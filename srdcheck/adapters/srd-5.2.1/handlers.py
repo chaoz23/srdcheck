@@ -27,10 +27,16 @@ def mage_hand_use(adapter, p):
     """p: {kind, weight_lb?, distance_ft?} — one proposed use of the hand."""
     a = adapter.atoms
     aid = adapter.id
+    kind = p["kind"].strip()
+    if not kind:
+        return v.cannot_adjudicate(
+            "Mage Hand use kind must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     if p.get("weight_lb", 0) < 0 or p.get("distance_ft", 0) < 0:
         return v.cannot_adjudicate(
             "Negative weight or distance is not a valid input; cannot "
-            "adjudicate.", adapter=aid)
+            "adjudicate.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
 
     leash = a["mage-hand.range-leash"]
     if p.get("distance_ft", 0) > leash["params"]["max"]:
@@ -41,7 +47,7 @@ def mage_hand_use(adapter, p):
 
     for atom_id in ("mage-hand.cant-attack", "mage-hand.cant-activate-magic-items"):
         atom = a[atom_id]
-        if p.get("kind") == atom["params"]["use"]:
+        if kind == atom["params"]["use"]:
             return v.illegal(atom["citation"]["quote"] + ".",
                              [_cite(atom)], aid, [atom_id])
 
@@ -53,8 +59,8 @@ def mage_hand_use(adapter, p):
             [_cite(carry)], aid, [carry["id"]])
 
     grants = a["mage-hand.granted-uses"]
-    if p.get("kind") in grants["params"]["uses"]:
-        why = [f"granted use: '{grants['params']['uses'][p['kind']]}'"]
+    if kind in grants["params"]["uses"]:
+        why = [f"granted use: '{grants['params']['uses'][kind]}'"]
         if "weight_lb" in p:
             why.append(f"{p['weight_lb']} lb is within the "
                        f"{carry['params']['max']} lb limit")
@@ -66,8 +72,10 @@ def mage_hand_use(adapter, p):
     return v.cannot_adjudicate(
         "The spell text neither grants nor forbids this use. Whether "
         "'manipulate an object' extends to it — and any check required — "
-        "is the GM's ruling to make.",
-        [_cite(grants)], aid, [grants["id"]])
+        "must be resolved as a table ruling by the authorized DM, including "
+        "the calling agent when it is the DM.",
+        [_cite(grants)], aid, [grants["id"]],
+        reason_code="gm-discretion", missing_inputs=())
 
 
 # Turn economy. Conditions whose action-economy effects this adapter version
@@ -141,29 +149,50 @@ def turn_plan(adapter, p):
     if int(p.get("speed", 0)) < 0:
         return v.cannot_adjudicate(
             f"Speed {p.get('speed')} is not a valid Speed; cannot adjudicate.",
-            adapter=aid)
+            adapter=aid, reason_code="invalid-input", missing_inputs=())
     for step in p.get("plan", []):
         lvl = step.get("spell", {}).get("level")
         if lvl is not None and not 0 <= int(lvl) <= 9:
             return v.cannot_adjudicate(
                 f"Spell level {lvl} is outside the SRD range (cantrip 0 to "
-                "9th level); cannot adjudicate.", adapter=aid)
+                "9th level); cannot adjudicate.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
     conds = [c.strip() for c in p.get("conditions", [])]
     for c in conds:
-        cats = adapter.lookup_entity(c)
+        if not c:
+            return v.cannot_adjudicate(
+                "Condition names must not be blank.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
+        cats = adapter.lookup_entity(c) or []
         if not cats:
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset; the plan "
-                "cannot be adjudicated.", adapter=aid)
-        if c.lower() == "exhaustion" and not int(p.get("exhaustion_level", 0)):
+                "cannot be adjudicated.", adapter=aid,
+                reason_code="unsupported-content", missing_inputs=())
+        if "condition" not in cats:
             return v.cannot_adjudicate(
-                "Exhaustion's Speed reduction is graduated (5 ft per level); "
-                "pass exhaustion_level (1-6) to adjudicate movement.", adapter=aid)
+                f"'{c}' is known content, but is not a condition; the plan "
+                "cannot be adjudicated from that input.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
+        if c.lower() == "exhaustion":
+            if "exhaustion_level" not in p:
+                return v.cannot_adjudicate(
+                    "Exhaustion's Speed reduction is graduated (5 ft per "
+                    "level); pass exhaustion_level (1-6) to adjudicate "
+                    "movement.", adapter=aid, reason_code="missing-fact",
+                    missing_inputs=("exhaustion_level",))
+            if int(p["exhaustion_level"]) == 0:
+                return v.cannot_adjudicate(
+                    "exhaustion_level 0 contradicts an active Exhaustion "
+                    "condition; remove the condition or provide level 1-6.",
+                    adapter=aid,
+                    reason_code="invalid-input", missing_inputs=())
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
                 "not modeled in this adapter version; refusing rather than "
-                "risking a wrong verdict.", adapter=aid)
+                "risking a wrong verdict.", adapter=aid,
+                reason_code="unmodeled-rule", missing_inputs=())
     p = dict(p)
     p["_conds"], p["_embeds"] = _expand_conditions({c.lower() for c in conds})
 
@@ -229,7 +258,8 @@ def turn_plan(adapter, p):
                 return v.cannot_adjudicate(
                     f"Step {i}: standing up without the Prone condition has "
                     "no cost in the rules text; nothing to adjudicate.",
-                    adapter=aid)
+                    adapter=aid, reason_code="invalid-input",
+                    missing_inputs=())
             if speed == 0:
                 return v.illegal(
                     f"Step {i}: {pr['citation']['quote']}",
@@ -280,8 +310,10 @@ def turn_plan(adapter, p):
         else:
             return v.cannot_adjudicate(
                 f"Step {i}: '{do}' is not a turn component this adapter "
-                "models (improvised or unknown activity — GM's call).",
-                adapter=aid)
+                "models; an improvised activity must be resolved as a table "
+                "ruling by the authorized DM, including the calling agent "
+                "when it is the DM.", adapter=aid,
+                reason_code="gm-discretion", missing_inputs=())
 
     bu = a["turn.break-up-move"]
     cites.append(_cite(bu))
@@ -301,13 +333,23 @@ def reaction_available(adapter, p):
     a, aid = adapter.atoms, adapter.id
     supplied = [c.strip() for c in p.get("conditions", [])]
     for condition in supplied:
+        if not condition:
+            return v.cannot_adjudicate(
+                "Condition names must not be blank.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         categories = adapter.lookup_entity(condition) or []
         if "condition" not in categories:
-            reason = ("is known content, but is not a condition"
-                      if categories else "is not a condition known to this ruleset")
+            if categories:
+                return v.cannot_adjudicate(
+                    f"'{condition}' is known content, but is not a condition; "
+                    "reaction availability cannot be adjudicated from that "
+                    "input.", adapter=aid, reason_code="invalid-input",
+                    missing_inputs=())
             return v.cannot_adjudicate(
-                f"'{condition}' {reason}; reaction availability cannot be "
-                "adjudicated from that input.", adapter=aid)
+                f"'{condition}' is not a condition known to this ruleset; "
+                "reaction availability cannot be adjudicated from that input.",
+                adapter=aid, reason_code="unsupported-content",
+                missing_inputs=())
     conds, embeds = _expand_conditions({c.lower() for c in supplied})
     if "incapacitated" in conds:
         inc = a["condition.incapacitated.inactive"]
@@ -329,20 +371,41 @@ def reaction_available(adapter, p):
 def _condition_gate(adapter, p):
     """Shared jurisdiction gate for turn-state queries. None = pass."""
     for c in [x.strip() for x in p.get("conditions", [])]:
-        if not adapter.lookup_entity(c):
+        if not c:
+            return v.cannot_adjudicate(
+                "Condition names must not be blank.", adapter=adapter.id,
+                reason_code="invalid-input", missing_inputs=())
+        categories = adapter.lookup_entity(c) or []
+        if not categories:
             return v.cannot_adjudicate(
                 f"'{c}' is not a condition known to this ruleset.",
-                adapter=adapter.id)
-        if c.lower() == "exhaustion" and not int(p.get("exhaustion_level", 0)):
+                adapter=adapter.id, reason_code="unsupported-content",
+                missing_inputs=())
+        if "condition" not in categories:
             return v.cannot_adjudicate(
-                "Exhaustion's Speed reduction is graduated (5 ft per level); "
-                "pass exhaustion_level (1-6) to adjudicate movement.",
-                adapter=adapter.id)
+                f"'{c}' is known content, but is not a condition.",
+                adapter=adapter.id, reason_code="invalid-input",
+                missing_inputs=())
+        if c.lower() == "exhaustion":
+            if "exhaustion_level" not in p:
+                return v.cannot_adjudicate(
+                    "Exhaustion's Speed reduction is graduated (5 ft per "
+                    "level); pass exhaustion_level (1-6) to adjudicate "
+                    "movement.", adapter=adapter.id,
+                    reason_code="missing-fact",
+                    missing_inputs=("exhaustion_level",))
+            if int(p["exhaustion_level"]) == 0:
+                return v.cannot_adjudicate(
+                    "exhaustion_level 0 contradicts an active Exhaustion "
+                    "condition; remove the condition or provide level 1-6.",
+                    adapter=adapter.id,
+                    reason_code="invalid-input", missing_inputs=())
         if c.lower() not in _MODELED_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{c}' is known content, but its turn-economy effects are "
                 "not modeled in this adapter version; refusing rather than "
-                "risking a wrong verdict.", adapter=adapter.id)
+                "risking a wrong verdict.", adapter=adapter.id,
+                reason_code="unmodeled-rule", missing_inputs=())
     return None
 
 
@@ -486,18 +549,31 @@ def attack_modifiers(adapter, p):
     if not 0 <= exl <= 6:
         return v.cannot_adjudicate(
             f"Exhaustion level {exl} is outside the SRD range (0 to 6; a "
-            "creature dies at 6); cannot adjudicate.", adapter=aid)
+            "creature dies at 6); cannot adjudicate.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     for side in (atk, tgt):
         for c in side.get("conditions", []):
-            if not adapter.lookup_entity(c):
+            if not c.strip():
+                return v.cannot_adjudicate(
+                    "Condition names must not be blank.", adapter=aid,
+                    reason_code="invalid-input", missing_inputs=())
+            categories = adapter.lookup_entity(c) or []
+            if not categories:
                 return v.cannot_adjudicate(
                     f"'{c}' is not a condition known to this ruleset.",
-                    adapter=aid)
+                    adapter=aid, reason_code="unsupported-content",
+                    missing_inputs=())
+            if "condition" not in categories:
+                return v.cannot_adjudicate(
+                    f"'{c}' is known content, but is not a condition.",
+                    adapter=aid, reason_code="invalid-input",
+                    missing_inputs=())
             if c.lower() not in _ATTACK_MODELED:
                 return v.cannot_adjudicate(
                     f"'{c}' is known content, but its attack-roll effects are "
                     "not modeled in this adapter version; refusing rather "
-                    "than risking a wrong verdict.", adapter=aid)
+                    "than risking a wrong verdict.", adapter=aid,
+                    reason_code="unmodeled-rule", missing_inputs=())
     ac = {c.lower() for c in atk.get("conditions", [])}
     tc = {c.lower() for c in tgt.get("conditions", [])}
     dist = p.get("distance_ft", 5)
@@ -597,8 +673,10 @@ def attack_modifiers(adapter, p):
                 "The condition text says the Invisible creature doesn't gain "
                 "'this benefit' against a creature that can see it — whether "
                 "that clause covers the Disadvantage on attacks against it is "
-                "genuinely ambiguous in the rules text. GM's call.",
-                [_cite(atom)], aid, [atom["id"]])
+                "genuinely ambiguous in the rules text. The authorized DM, "
+                "including the calling agent when it is the DM, resolves the "
+                "table ruling.", [_cite(atom)], aid, [atom["id"]],
+                reason_code="rules-ambiguous", missing_inputs=())
         hit("condition.invisible.attacks", dis, "target is Invisible")
 
     mode, dice, comp = _compose(adapter, adv, dis)
@@ -646,15 +724,18 @@ _FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
 
 def _state_to_plan_params(state):
     t = state.get("turn", {})
-    return {"speed": state.get("speed", 0),
-            "conditions": state.get("conditions", []),
-            "spent": {"action": t.get("action_spent"),
-                      "bonus_action": t.get("bonus_action_spent"),
-                      "reaction": t.get("reaction_spent"),
-                      "free_interaction": t.get("free_interaction_spent"),
-                      "movement_ft": t.get("movement_ft_spent", 0),
-                      "spell_slots_this_turn":
-                          t.get("spell_slots_spent_this_turn", 0)}}
+    params = {"speed": state.get("speed", 0),
+              "conditions": state.get("conditions", []),
+              "spent": {"action": t.get("action_spent"),
+                        "bonus_action": t.get("bonus_action_spent"),
+                        "reaction": t.get("reaction_spent"),
+                        "free_interaction": t.get("free_interaction_spent"),
+                        "movement_ft": t.get("movement_ft_spent", 0),
+                        "spell_slots_this_turn":
+                            t.get("spell_slots_spent_this_turn", 0)}}
+    if "exhaustion_level" in state:
+        params["exhaustion_level"] = state["exhaustion_level"]
+    return params
 
 
 def event_apply(adapter, p):
@@ -696,6 +777,15 @@ def event_apply(adapter, p):
         check = turn_plan(adapter, {**_state_to_plan_params(state),
                                     "plan": [step]})
         if check.exit_code != 0:
+            if check.exit_code == v.CANNOT_ADJUDICATE:
+                # Preserve recovery across the composed call in the outer
+                # request's coordinate system. The inner plan reads this fact
+                # from state.
+                check.data["missing_inputs"] = [
+                    ("state.exhaustion_level"
+                     if path == "exhaustion_level" else path)
+                    for path in check.data["missing_inputs"]
+                ]
             return check
         t = nxt["turn"]
         if etype in ("action", "bonus-action", "reaction"):
@@ -720,16 +810,32 @@ def event_apply(adapter, p):
         rules.extend(check.rule_ids)
         why = check.why
     elif etype == "condition-gained":
-        name = event.get("name", "")
-        if not adapter.lookup_entity(name):
+        if "name" not in event:
+            return v.cannot_adjudicate(
+                "A condition-gained event needs the condition name.",
+                adapter=aid, reason_code="missing-fact",
+                missing_inputs=("event.name",))
+        name = (event["name"] or "").strip()
+        if not name:
+            return v.cannot_adjudicate(
+                "A condition-gained event name must not be blank.",
+                adapter=aid, reason_code="invalid-input", missing_inputs=())
+        categories = adapter.lookup_entity(name) or []
+        if not categories:
             return v.cannot_adjudicate(
                 f"'{name}' is not a condition known to this ruleset.",
-                adapter=aid)
+                adapter=aid, reason_code="unsupported-content",
+                missing_inputs=())
+        if "condition" not in categories:
+            return v.cannot_adjudicate(
+                f"'{name}' is known content, but is not a condition.",
+                adapter=aid, reason_code="invalid-input", missing_inputs=())
         if name.lower() not in _STATE_CONDITIONS:
             return v.cannot_adjudicate(
                 f"'{name}' is known content, but its state interactions are "
                 "not modeled in this adapter version; refusing rather than "
-                "recording state we would later misjudge.", adapter=aid)
+                "recording state we would later misjudge.", adapter=aid,
+                reason_code="unmodeled-rule", missing_inputs=())
         current = {c.lower() for c in nxt["conditions"]}
         if name.lower() == "poisoned" and "petrified" in current:
             # Immunity to a condition means it isn't applied (SRD p.186).
@@ -762,11 +868,16 @@ def event_apply(adapter, p):
     elif etype == "damage":
         hp, hp_max = nxt.get("hp"), nxt.get("hp_max")
         amount = int(event.get("amount", 0))
-        if hp is None or hp_max is None:
+        missing = [f"state.{field}" for field in ("hp", "hp_max")
+                   if nxt.get(field) is None]
+        if missing:
             return v.cannot_adjudicate(
-                "Damage needs 'hp' and 'hp_max' in state.", adapter=aid)
+                "Damage needs " + ", ".join(missing) + ".", adapter=aid,
+                reason_code="missing-fact", missing_inputs=missing)
         if amount < 0:
-            return v.cannot_adjudicate("Damage cannot be negative.", adapter=aid)
+            return v.cannot_adjudicate(
+                "Damage cannot be negative.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         crit = bool(event.get("crit"))
         # Damage typing (SRD p.17): Immunity zeroes, Resistance halves, then
         # Vulnerability doubles. Petrified grants Resistance to all damage.
@@ -850,11 +961,16 @@ def event_apply(adapter, p):
     elif etype == "heal":
         hp, hp_max = nxt.get("hp"), nxt.get("hp_max")
         amount = int(event.get("amount", 0))
-        if hp is None or hp_max is None:
+        missing = [f"state.{field}" for field in ("hp", "hp_max")
+                   if nxt.get(field) is None]
+        if missing:
             return v.cannot_adjudicate(
-                "Healing needs 'hp' and 'hp_max' in state.", adapter=aid)
+                "Healing needs " + ", ".join(missing) + ".", adapter=aid,
+                reason_code="missing-fact", missing_inputs=missing)
         if amount <= 0:
-            return v.cannot_adjudicate("Healing must be positive.", adapter=aid)
+            return v.cannot_adjudicate(
+                "Healing must be positive.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         if nxt.get("dead"):
             return v.illegal(
                 "A dead creature can't be restored by hit-point healing.",
@@ -875,14 +991,24 @@ def event_apply(adapter, p):
         else:
             why = f"Heals {amount}: {hp} to {nxt['hp']} HP."
     elif etype == "death-save":
+        if "hp" not in nxt:
+            return v.cannot_adjudicate(
+                "A Death Saving Throw needs current HP in state.", adapter=aid,
+                reason_code="missing-fact", missing_inputs=("state.hp",))
         if nxt.get("hp") != 0 or nxt.get("dead") or nxt.get("stable"):
             return v.cannot_adjudicate(
                 "A Death Saving Throw is made only by an unstable creature at "
-                "0 HP.", adapter=aid)
-        roll = int(event.get("result", 0))
+                "0 HP.", adapter=aid, reason_code="invalid-input",
+                missing_inputs=())
+        if "result" not in event:
+            return v.cannot_adjudicate(
+                "A death save needs the d20 result (1-20).", adapter=aid,
+                reason_code="missing-fact", missing_inputs=("event.result",))
+        roll = int(event["result"])
         if not 1 <= roll <= 20:
             return v.cannot_adjudicate(
-                "A death save needs the d20 result (1-20).", adapter=aid)
+                "A death save needs a d20 result from 1 to 20.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         grab("death-save.mechanic")
         succ = int(nxt.get("death_save_successes", 0))
         fail = int(nxt.get("death_save_failures", 0))
@@ -927,14 +1053,15 @@ def event_apply(adapter, p):
         if bad:
             return v.cannot_adjudicate(
                 f"Ruling patch touches fields outside the state schema: "
-                f"{sorted(bad)} (minimality ratchet).", adapter=aid)
+                f"{sorted(bad)} (minimality ratchet).", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         nxt.update(json.loads(json.dumps(patch)))
         why = ("Recorded as a table ruling, not a rule derivation — the "
                "lineage marks it as discretion.")
     else:
         return v.cannot_adjudicate(
             f"'{etype}' is not a declared-event type this adapter reduces.",
-            adapter=aid)
+            adapter=aid, reason_code="invalid-input", missing_inputs=())
 
     verdict = v.legal(why, cites, aid, rules)
     verdict.data = {"next_state": lineage.stamp(state, event, verdict, nxt,
@@ -950,10 +1077,16 @@ def creature_valid(adapter, p):
     2014-only name, a typo, or third-party content — this version, having only
     the 5.2.1 adapter, cannot distinguish those honestly).
     """
-    name = (p.get("name") or "").strip()
     aid = adapter.id
+    if "name" not in p:
+        return v.cannot_adjudicate(
+            "No creature name provided.", adapter=aid,
+            reason_code="missing-fact", missing_inputs=("name",))
+    name = (p["name"] or "").strip()
     if not name:
-        return v.cannot_adjudicate("No creature name provided.", adapter=aid)
+        return v.cannot_adjudicate(
+            "Creature name must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     rec = adapter.entity_record("creature", name)
     if rec:
         return v.legal(
@@ -967,20 +1100,35 @@ def creature_valid(adapter, p):
     return v.cannot_adjudicate(
         f"'{name}' is not a creature in SRD 5.2.1. It may be a 2014-only name, "
         "a typo, or third-party content — this version cannot distinguish "
-        "those.", adapter=aid)
+        "those.", adapter=aid, reason_code="unsupported-content",
+        missing_inputs=())
 
 
 def creature_stats(adapter, p):
     """Return a creature's CR/XP with citation (issue #2). Depends on #1's data."""
-    name = (p.get("name") or "").strip()
     aid = adapter.id
+    if "name" not in p:
+        return v.cannot_adjudicate(
+            "No creature name provided.", adapter=aid,
+            reason_code="missing-fact", missing_inputs=("name",))
+    name = (p["name"] or "").strip()
+    if not name:
+        return v.cannot_adjudicate(
+            "Creature name must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     rec = adapter.entity_record("creature", name)
     if not rec:
         cats = adapter.lookup_entity(name)
-        why = (f"'{name}' is SRD content but not a creature; no creature stats."
-               if cats else
-               f"'{name}' is not a creature in SRD 5.2.1; no stats to return.")
-        return v.cannot_adjudicate(why, adapter=aid)
+        if cats:
+            return v.cannot_adjudicate(
+                f"'{name}' is SRD content but not a creature; no creature "
+                "stats.", adapter=aid, reason_code="unsupported-content",
+                missing_inputs=(),
+                suggested_next_action="use-other-capability")
+        return v.cannot_adjudicate(
+            f"'{name}' is not a creature in SRD 5.2.1; no stats to return.",
+            adapter=aid, reason_code="unsupported-content",
+            missing_inputs=())
     return v.legal(
         f"{rec['name']}: CR {rec['cr']}, XP {rec['xp']}.",
         [v.Citation(rec["citation"])], aid,
@@ -999,11 +1147,13 @@ def encounter_xp_budget(adapter, p):
     if level not in table:
         return v.cannot_adjudicate(
             f"Party level {p.get('level')!r} is outside the SRD 5.2.1 table "
-            "(levels 1-20).", [_cite(atom)], aid, [atom["id"]])
+            "(levels 1-20).", [_cite(atom)], aid, [atom["id"]],
+            reason_code="invalid-input", missing_inputs=())
     if difficulty not in atom["params"]["difficulties"]:
         return v.cannot_adjudicate(
             f"Difficulty {p.get('difficulty')!r} is not one of "
-            f"{atom['params']['difficulties']}.", [_cite(atom)], aid, [atom["id"]])
+            f"{atom['params']['difficulties']}.", [_cite(atom)], aid,
+            [atom["id"]], reason_code="invalid-input", missing_inputs=())
     per_character = table[level][difficulty]
     data = {"per_character": per_character, "citation": "SRD 5.2.1 p.202"}
     why = (f"Level {level} {difficulty} encounter: {per_character} XP per "
@@ -1035,19 +1185,34 @@ def save_check(adapter, p):
     the engine composes and resolves, cited."""
     a, aid = adapter.atoms, adapter.id
     atom = a["save.d20-vs-dc"]
-    dc = p.get("dc")
-    if not isinstance(dc, int):
-        return v.cannot_adjudicate("Provide the DC.", adapter=aid)
+    if "dc" not in p:
+        return v.cannot_adjudicate(
+            "Provide the DC.", adapter=aid, reason_code="missing-fact",
+            missing_inputs=("dc",))
+    # The validator deliberately follows JSON Schema: an integral JSON number
+    # such as 12.0 satisfies type integer. Normalize it for handler arithmetic.
+    dc = int(p["dc"])
     ability = (p.get("save_ability") or "").lower()
     if ability and ability not in _ABILITIES:
         return v.cannot_adjudicate(
             f"'{ability}' is not an ability (str/dex/con/int/wis/cha).",
-            adapter=aid)
-    sc = {c.lower() for c in p.get("saver_conditions", [])}
+            adapter=aid, reason_code="invalid-input", missing_inputs=())
+    supplied_conditions = p.get("saver_conditions", [])
+    if any(not c.strip() for c in supplied_conditions):
+        return v.cannot_adjudicate(
+            "Condition names must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
+    sc = {c.lower() for c in supplied_conditions}
     for c in sc:
-        if not adapter.lookup_entity(c):
+        categories = adapter.lookup_entity(c) or []
+        if not categories:
             return v.cannot_adjudicate(
-                f"'{c}' is not a condition known to this ruleset.", adapter=aid)
+                f"'{c}' is not a condition known to this ruleset.", adapter=aid,
+                reason_code="unsupported-content", missing_inputs=())
+        if "condition" not in categories:
+            return v.cannot_adjudicate(
+                f"'{c}' is known content, but is not a condition.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
 
     # Auto-fail overrides the roll entirely (no d20 needed).
     if ability in ("str", "dex"):
@@ -1078,7 +1243,7 @@ def save_check(adapter, p):
         if not 0 <= lvl <= 6:
             return v.cannot_adjudicate(
                 f"Exhaustion level {lvl} is outside the SRD range (0 to 6).",
-                adapter=aid)
+                adapter=aid, reason_code="invalid-input", missing_inputs=())
         ex = a["condition.exhaustion.d20-penalty"]
         modifier += ex["params"]["per_level"] * lvl
         cites.append(_cite(ex))
@@ -1093,7 +1258,9 @@ def save_check(adapter, p):
             f"Saving throw: roll {mode} ({dice} d20){f', {modifier:+d} modifier' if modifier else ''} "
             f"vs DC {dc}.", cites, aid, rules, data=data)
     if not 1 <= d20 <= 20:
-        return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+        return v.cannot_adjudicate(
+            "d20 result must be 1-20.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     total = d20 + modifier
     ok = total >= dc
     data.update(total=total, success=ok)
@@ -1111,19 +1278,32 @@ def check_make(adapter, p):
     (target_charmed_by_actor + social), the actor has Advantage. Caller rolls
     (T6): with d20_result it resolves, otherwise it reports the composed mode."""
     a, aid = adapter.atoms, adapter.id
-    dc = p.get("dc")
-    if not isinstance(dc, int):
-        return v.cannot_adjudicate("Provide the DC.", adapter=aid)
+    if "dc" not in p:
+        return v.cannot_adjudicate(
+            "Provide the DC.", adapter=aid, reason_code="missing-fact",
+            missing_inputs=("dc",))
+    dc = int(p["dc"])
     ability = (p.get("ability") or "").lower()
     if ability and ability not in _ABILITIES:
         return v.cannot_adjudicate(
             f"'{ability}' is not an ability (str/dex/con/int/wis/cha).",
-            adapter=aid)
-    conds = {c.lower() for c in p.get("actor_conditions", [])}
+            adapter=aid, reason_code="invalid-input", missing_inputs=())
+    supplied_conditions = p.get("actor_conditions", [])
+    if any(not c.strip() for c in supplied_conditions):
+        return v.cannot_adjudicate(
+            "Condition names must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
+    conds = {c.lower() for c in supplied_conditions}
     for c in conds:
-        if not adapter.lookup_entity(c):
+        categories = adapter.lookup_entity(c) or []
+        if not categories:
             return v.cannot_adjudicate(
-                f"'{c}' is not a condition known to this ruleset.", adapter=aid)
+                f"'{c}' is not a condition known to this ruleset.", adapter=aid,
+                reason_code="unsupported-content", missing_inputs=())
+        if "condition" not in categories:
+            return v.cannot_adjudicate(
+                f"'{c}' is known content, but is not a condition.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
     requires = (p.get("check_requires") or "").lower()
 
     if "blinded" in conds and requires == "sight":
@@ -1166,7 +1346,7 @@ def check_make(adapter, p):
         if not 0 <= lvl <= 6:
             return v.cannot_adjudicate(
                 f"Exhaustion level {lvl} is outside the SRD range (0 to 6).",
-                adapter=aid)
+                adapter=aid, reason_code="invalid-input", missing_inputs=())
         ex = a["condition.exhaustion.d20-penalty"]
         modifier += ex["params"]["per_level"] * lvl
         cites.append(_cite(ex))
@@ -1181,7 +1361,9 @@ def check_make(adapter, p):
             f"{f', {modifier:+d} modifier' if modifier else ''} vs DC {dc}.",
             cites, aid, rules, data=data)
     if not 1 <= d20 <= 20:
-        return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+        return v.cannot_adjudicate(
+            "d20 result must be 1-20.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     total = d20 + modifier
     ok = total >= dc
     data.update(total=total, success=ok)
@@ -1197,7 +1379,9 @@ def concentration_check(adapter, p):
     dc_atom, save_atom = a["save.concentration-dc"], a["save.d20-vs-dc"]
     dmg = int(p.get("damage", 0))
     if dmg < 0:
-        return v.cannot_adjudicate("Damage cannot be negative.", adapter=aid)
+        return v.cannot_adjudicate(
+            "Damage cannot be negative.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     dc = min(dc_atom["params"]["cap"], max(dc_atom["params"]["floor"], dmg // 2))
     data = {"dc": dc}
     why = f"Concentration DC is max(10, {dmg} // 2) = {dc}."
@@ -1206,7 +1390,9 @@ def concentration_check(adapter, p):
     d20 = event_int(p, "d20_result")
     if d20 is not None:
         if not 1 <= d20 <= 20:
-            return v.cannot_adjudicate("d20 result must be 1-20.", adapter=aid)
+            return v.cannot_adjudicate(
+                "d20 result must be 1-20.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
         total = d20 + int(p.get("con_modifier", 0))
         ok = total >= dc
         data.update(total=total, success=ok)
@@ -1232,7 +1418,8 @@ def opportunity_attack_provoked(adapter, p):
     valid = {"voluntary", "teleport", "forced", "disengage"}
     if kind is not None and kind not in valid:
         return v.cannot_adjudicate(
-            f"movement_kind must be one of {sorted(valid)}.", adapter=aid)
+            f"movement_kind must be one of {sorted(valid)}.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
 
     def no(reason, atom):
         return v.legal(f"No Opportunity Attack: {reason}.", [_cite(atom)], aid,
@@ -1248,7 +1435,9 @@ def opportunity_attack_provoked(adapter, p):
     if kind is None:
         return v.cannot_adjudicate(
             "Provide movement_kind. It is required unless another supplied "
-            "fact already makes provocation impossible.", adapter=aid)
+            "fact already makes provocation impossible.", adapter=aid,
+            reason_code="missing-fact",
+            missing_inputs=("movement_kind",))
     if kind == "disengage":
         return no("the creature took the Disengage action", avoiding)
     if kind == "teleport":
@@ -1261,7 +1450,8 @@ def opportunity_attack_provoked(adapter, p):
     if missing:
         return v.cannot_adjudicate(
             "Provide the caller-observed fact" + ("s" if len(missing) > 1 else "")
-            + ": " + ", ".join(missing) + ".", adapter=aid)
+            + ": " + ", ".join(missing) + ".", adapter=aid,
+            reason_code="missing-fact", missing_inputs=missing)
     return v.legal(
         "Provokes an Opportunity Attack: a creature you can see leaves your "
         "reach using its own movement.", [_cite(making)], aid, [making["id"]],
@@ -1281,7 +1471,8 @@ def grapple_initiate(adapter, p):
     kind = (p.get("kind") or "grapple").lower()
     if kind not in ("grapple", "shove"):
         return v.cannot_adjudicate("kind must be 'grapple' or 'shove'.",
-                                   adapter=aid)
+                                   adapter=aid, reason_code="invalid-input",
+                                   missing_inputs=())
     required = ["attacker_size", "target_size"]
     if kind == "grapple":
         required.append("has_free_hand")
@@ -1291,7 +1482,8 @@ def grapple_initiate(adapter, p):
             "Provide the prerequisite fact" + ("s" if len(missing) > 1 else "")
             + ": " + ", ".join(missing) + ". Strength modifier and "
             "Proficiency Bonus may remain blank when only the DC formula is "
-            "needed.", adapter=aid)
+            "needed.", adapter=aid, reason_code="missing-fact",
+            missing_inputs=missing)
     atom = a[f"unarmed-strike.{kind}"]
     base = atom["params"]["dc_base"]
     formula = f"{base} + Strength modifier + Proficiency Bonus (the attacker's)"
@@ -1302,7 +1494,9 @@ def grapple_initiate(adapter, p):
     atk = p["attacker_size"].lower()
     tgt = p["target_size"].lower()
     if atk not in _SIZES or tgt not in _SIZES:
-        return v.cannot_adjudicate(f"size must be one of {_SIZES}.", adapter=aid)
+        return v.cannot_adjudicate(
+            f"size must be one of {_SIZES}.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     if _SIZES.index(tgt) > _SIZES.index(atk) + atom["params"]["max_size_larger"]:
         return v.illegal(
             f"The target ({tgt.capitalize()}) is more than one size larger than "
@@ -1341,7 +1535,9 @@ def help_assist(adapter, p):
         if "helper_has_relevant_proficiency" not in p:
             return v.cannot_adjudicate(
                 "Provide helper_has_relevant_proficiency before adjudicating "
-                "Assist an Ability Check.", adapter=aid)
+                "Assist an Ability Check.", adapter=aid,
+                reason_code="missing-fact",
+                missing_inputs=("helper_has_relevant_proficiency",))
         if p.get("helper_has_relevant_proficiency") is False:
             return v.illegal(
                 "Assist an Ability Check requires choosing one of your own skill "
@@ -1360,7 +1556,8 @@ def help_assist(adapter, p):
         if "enemy_within_5ft" not in p:
             return v.cannot_adjudicate(
                 "Provide enemy_within_5ft before adjudicating Assist an Attack "
-                "Roll.", adapter=aid)
+                "Roll.", adapter=aid, reason_code="missing-fact",
+                missing_inputs=("enemy_within_5ft",))
         if p.get("enemy_within_5ft") is False:
             return v.illegal(
                 "Assist an Attack Roll requires an enemy within 5 feet of you.",
@@ -1370,7 +1567,8 @@ def help_assist(adapter, p):
             "that enemy (expires at the start of your next turn).",
             [_cite(atk)], aid, [atk["id"]], data={"grants_advantage": True})
     return v.cannot_adjudicate(
-        "kind must be 'ability-check' or 'attack-roll'.", adapter=aid)
+        "kind must be 'ability-check' or 'attack-roll'.", adapter=aid,
+        reason_code="invalid-input", missing_inputs=())
 
 
 def passive_perception(adapter, p):
@@ -1384,7 +1582,8 @@ def passive_perception(adapter, p):
         return v.cannot_adjudicate(
             "SRD 5.2.1 defines Passive Perception as 10 + the check modifier and "
             "specifies no Advantage/Disadvantage adjustment to a passive score; "
-            "that ±5 rule is not in this ruleset.", [_cite(atom)], aid, [atom["id"]])
+            "that ±5 rule is not in this ruleset.", [_cite(atom)], aid,
+            [atom["id"]], reason_code="unmodeled-rule", missing_inputs=())
     if p.get("perception_modifier") is None:
         return v.legal(
             "Passive Perception = 10 + the Wisdom (Perception) check modifier "
@@ -1417,12 +1616,28 @@ def spell_facts(adapter, p):
     the caller's own clock - srdcheck holds no state and no clock. Origin:
     a 10-minute ward narrated as active for ~70 minutes (2026-07-27)."""
     aid = adapter.id
-    name = (p.get("name") or "").strip().lower()
+    if "name" not in p:
+        return v.cannot_adjudicate(
+            "Provide a spell name.", adapter=aid,
+            reason_code="missing-fact", missing_inputs=("name",))
+    name = (p["name"] or "").strip().lower()
+    if not name:
+        return v.cannot_adjudicate(
+            "Spell name must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     facts = _spell_facts(adapter)
     if name not in facts:
+        categories = adapter.lookup_entity(name) or []
+        if categories and "spell" not in categories:
+            return v.cannot_adjudicate(
+                f"'{p.get('name')}' is registered SRD 5.2.1 content, but is "
+                "not a spell.", adapter=aid, reason_code="unsupported-content",
+                missing_inputs=(),
+                suggested_next_action="use-other-capability")
         return v.cannot_adjudicate(
             f"'{p.get('name')}' is not a registered SRD 5.2.1 spell name.",
-            adapter=aid)
+            adapter=aid, reason_code="unsupported-content",
+            missing_inputs=())
     f = dict(facts[name])
     pg = f.pop("page")
     data = {"facts": f}
@@ -1461,11 +1676,20 @@ def feature_uses(adapter, p):
     """Use-count formulas the SRD states as arithmetic. Formula-blanks
     discipline: no blanks supplied, no number - the formula alone."""
     aid = adapter.id
-    feat = (p.get("feature") or "").strip().lower()
+    if "feature" not in p:
+        return v.cannot_adjudicate(
+            "Provide a feature name.", adapter=aid,
+            reason_code="missing-fact", missing_inputs=("feature",))
+    feat = (p["feature"] or "").strip().lower()
+    if not feat:
+        return v.cannot_adjudicate(
+            "Feature name must not be blank.", adapter=aid,
+            reason_code="invalid-input", missing_inputs=())
     if feat not in _FEATURE_USES:
         return v.cannot_adjudicate(
             f"feature must be one of {sorted(_FEATURE_USES)}; use-count tables "
-            f"(not formulas) are out of scope.", adapter=aid)
+            f"(not formulas) are out of scope.", adapter=aid,
+            reason_code="unmodeled-rule", missing_inputs=())
     spec = _FEATURE_USES[feat]
     have = all(p.get(b) is not None for b in spec["blanks"])
     data = {"formula": spec["formula"]}

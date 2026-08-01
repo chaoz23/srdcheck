@@ -7,7 +7,7 @@ honest exit 2 — never a guess (T1, T8).
 
 from . import verdict as v
 from .adapter import Adapter
-from .schema import errors as schema_errors
+from .schema import ValidationIssue, issues as schema_issues
 
 JURISDICTION_INPUT_SCHEMA = {
     "type": "object",
@@ -17,15 +17,39 @@ JURISDICTION_INPUT_SCHEMA = {
 }
 
 
+def validation_refusal(problems, adapter=""):
+    """Turn typed validation issues into a structured recovery verdict."""
+    unknown = [_input_path(problem.path) for problem in problems
+               if problem.code == "additional-property"]
+    missing = [_input_path(problem.path) for problem in problems
+               if problem.code == "required"]
+    data = {"validation_errors": [str(problem) for problem in problems]}
+    if unknown:
+        data["unknown_fields"] = unknown
+    reason_code = ("missing-fact"
+                   if all(problem.code == "required" for problem in problems)
+                   else "invalid-input")
+    return v.cannot_adjudicate(
+        "Invalid input; correct the request before adjudication: "
+        + "; ".join(data["validation_errors"]),
+        adapter=adapter,
+        data=data,
+        reason_code=reason_code,
+        missing_inputs=missing,
+    )
+
+
 class Engine:
     def __init__(self, adapter_paths):
         self.adapters = [Adapter(p) for p in adapter_paths]
 
     def jurisdiction(self, name):
-        if not isinstance(name, str) or not name.strip():
-            return v.cannot_adjudicate(
-                "Invalid input: name must be a non-empty string.",
-                data={"validation_errors": ["$.name: expected a non-empty string"]})
+        problems = schema_issues({"name": name}, JURISDICTION_INPUT_SCHEMA)
+        if isinstance(name, str) and not name.strip():
+            problems = [ValidationIssue(
+                "$.name", "min-length", "expected a non-empty string")]
+        if problems:
+            return self._invalid_input(problems)
         for a in self.adapters:
             cats = a.lookup_entity(name)
             if cats:
@@ -38,7 +62,9 @@ class Engine:
         return v.cannot_adjudicate(
             f"'{name}' is not present in any loaded ruleset ({known}). "
             "Unknown or third-party content cannot be adjudicated.",
-            adapter=known)
+            adapter=known,
+            reason_code="unsupported-content",
+            missing_inputs=[])
 
     def cite(self, name):
         for a in self.adapters:
@@ -50,18 +76,24 @@ class Engine:
         known = ", ".join(a.id for a in self.adapters)
         return v.cannot_adjudicate(
             f"'{name}' not found as a heading in any loaded ruleset's source "
-            f"text ({known}).", adapter=known)
+            f"text ({known}).", adapter=known,
+            reason_code="unsupported-content",
+            missing_inputs=[])
 
     def query(self, query_type, params):
+        if not isinstance(query_type, str) or not query_type.strip():
+            return v.cannot_adjudicate(
+                "Query type must be a non-empty string.",
+                reason_code="invalid-input", missing_inputs=[])
         if query_type == "jurisdiction":
-            problems = schema_errors(params, JURISDICTION_INPUT_SCHEMA)
+            problems = schema_issues(params, JURISDICTION_INPUT_SCHEMA)
             if problems:
                 return self._invalid_input(problems)
             return self.jurisdiction(params["name"])
         for a in self.adapters:
             if query_type in a.query_types:
                 schema = (a.query_meta.get(query_type) or {}).get("inputSchema")
-                problems = schema_errors(params, schema)
+                problems = schema_issues(params, schema)
                 if problems:
                     return self._invalid_input(problems, a.id)
                 return a.handle(query_type, params)
@@ -69,18 +101,17 @@ class Engine:
         return v.cannot_adjudicate(
             f"No loaded adapter answers query type '{query_type}'. "
             f"Available: {', '.join(known)}.",
-            adapter=", ".join(a.id for a in self.adapters))
+            adapter=", ".join(a.id for a in self.adapters),
+            reason_code="unmodeled-rule",
+            missing_inputs=[])
 
-    @staticmethod
-    def _invalid_input(problems, adapter=""):
-        unknown = [problem.split(":", 1)[0].removeprefix("$.")
-                   for problem in problems if problem.endswith("field is not allowed")]
-        data = {"validation_errors": problems}
-        if unknown:
-            data["unknown_fields"] = unknown
-        return v.cannot_adjudicate(
-            "Invalid input; correct the request before adjudication: "
-            + "; ".join(problems),
-            adapter=adapter,
-            data=data,
-        )
+    _invalid_input = staticmethod(validation_refusal)
+
+
+def _input_path(json_path):
+    """Convert the validator's JSON root notation to a request-relative path."""
+    if json_path.startswith("$."):
+        return json_path[2:]
+    if json_path.startswith("$"):
+        return json_path[1:]
+    return json_path

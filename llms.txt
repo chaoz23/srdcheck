@@ -17,6 +17,13 @@ currently validate multiclass builds or enumerate every creature-specific move.
 The calling agent may itself be the authorized DM; its table rulings remain
 distinct from SRD-derived results.
 
+On `cannot-adjudicate`, branch on the recovery fields in `data`, never on
+`why`: repair the request, provide the named missing facts, select an adapter,
+use another capability, resolve a table ruling, or stop.
+`required_authority: "dm"` is permission-aware rather than person-aware: an
+authorized agent-DM may rule directly, while another caller escalates. See
+[docs/refusal-recovery.md](docs/refusal-recovery.md).
+
 ## Install and first verdict
 
 - CLI: `pip install git+https://github.com/chaoz23/srdcheck` then

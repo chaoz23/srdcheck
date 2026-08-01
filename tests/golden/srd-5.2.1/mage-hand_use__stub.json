@@ -7,10 +7,17 @@
    "section": "SRD 5.2.1 p.145 'Spells > Mage Hand'"
   }
  ],
+ "data": {
+  "missing_inputs": [],
+  "reason_code": "gm-discretion",
+  "recoverability": "authority",
+  "required_authority": "dm",
+  "suggested_next_action": "resolve-table-ruling"
+ },
  "exit_code": 2,
  "rule_ids": [
   "mage-hand.granted-uses"
  ],
  "verdict": "cannot-adjudicate",
- "why": "The spell text neither grants nor forbids this use. Whether 'manipulate an object' extends to it \u2014 and any check required \u2014 is the GM's ruling to make."
+ "why": "The spell text neither grants nor forbids this use. Whether 'manipulate an object' extends to it \u2014 and any check required \u2014 must be resolved as a table ruling by the authorized DM, including the calling agent when it is the DM."
 }

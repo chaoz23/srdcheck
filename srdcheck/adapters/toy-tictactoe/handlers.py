@@ -25,13 +25,15 @@ def _gate_board(adapter, board):
     if len(board) != 9 or any(ch not in "XO." for ch in board):
         return v.cannot_adjudicate(
             "Malformed board: expected 9 characters of X, O, and '.' — "
-            "cannot adjudicate.", adapter=adapter.id)
+            "cannot adjudicate.", adapter=adapter.id,
+            reason_code="invalid-input", missing_inputs=[])
     if board.count("X") - board.count("O") not in (0, 1):
         return v.cannot_adjudicate(
             "Impossible board: mark counts violate alternating turn order, "
             "so no legal game reaches this position.",
             [_cite(adapter.atoms["ttt.turn-order"])], adapter.id,
-            ["ttt.turn-order"])
+            ["ttt.turn-order"], reason_code="invalid-input",
+            missing_inputs=[])
     return None
 
 
@@ -45,7 +47,10 @@ def ttt_move(adapter, p):
     # it never crashes - a KeyError is not a verdict.
     if not all(k in p for k in ("board", "player", "cell")):
         return v.cannot_adjudicate(
-            "ttt.move needs board, player and cell.", adapter=adapter.id)
+            "ttt.move needs board, player and cell.", adapter=adapter.id,
+            reason_code="missing-fact",
+            missing_inputs=[key for key in ("board", "player", "cell")
+                            if key not in p])
     board, player, cell = p["board"], p["player"], int(p["cell"])
     bad = _gate_board(adapter, board)
     if bad:
@@ -79,7 +84,10 @@ def ttt_options(adapter, p):
     a, aid = adapter.atoms, adapter.id
     if not all(k in p for k in ("board", "player")):
         return v.cannot_adjudicate(
-            "ttt.options needs board and player.", adapter=adapter.id)
+            "ttt.options needs board and player.", adapter=adapter.id,
+            reason_code="missing-fact",
+            missing_inputs=[key for key in ("board", "player")
+                            if key not in p])
     board, player = p["board"], p["player"]
     bad = _gate_board(adapter, board)
     if bad:

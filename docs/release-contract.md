@@ -18,10 +18,12 @@ This document carries the v0.5 release truth repaired in issues #16, #17, #18,
   rather than being masked by the aggregate version. A correction changes the
   affected adapter identity; it does not pretend to be an engine release.
 - **Capability schema version** versions the shape of `srdcheck capabilities`.
+- **Refusal contract version** versions the machine vocabulary and canonical
+  recovery mappings emitted for exit-code-2 results.
 - **MCP protocol versions** declare the revisions this server implements and
   the preferred revision it offers when a client requests an unsupported one.
 
-`python -m srdcheck capabilities` is the machine-readable source for all four
+`python -m srdcheck capabilities` is the machine-readable source for all five
 and records the exact engine/adapter/data/rules/digest release tuple.
 Adapter digests bind the provenance, entities, query schemas, atoms, and shipped
 per-page citation text used by a process.
@@ -41,12 +43,18 @@ Version changes follow these rules:
   stable within an identity. Because verdict v1 rejects unknown top-level
   fields, its property set is frozen; adding an emitted top-level field requires
   a new schema identity and migration. Capabilities schema 2.0 is introduced in
-  engine 0.6.0 for the machine contracts, exact release tuple, query coverage,
-  and target map. MCP protocol support is reported separately and never inferred
-  from the engine or adapter version.
+  engine 0.6.0 for the machine contracts, exact release tuple, refusal
+  recovery contract, query coverage, and target map. MCP protocol support is
+  reported separately and never inferred from the engine or adapter version.
 - The templated `why` string is explanatory, non-contractual prose. Exact
   goldens still make wording changes visible in review, but semantic
   compatibility fixtures intentionally project it out.
+- First-party exit-code-2 results put `reason_code`, `recoverability`,
+  `missing_inputs`, and `suggested_next_action` inside the existing verdict
+  `data` object; authority-bound results also carry `required_authority`. The
+  vocabulary and mappings are published by capabilities and documented in
+  [refusal recovery](refusal-recovery.md). Clients never parse `why` for this
+  control flow.
 - Every shipped change that corrects a wrong ruling identifies the affected
   adapter, queries, rule IDs, exact corrected engine/adapter/data/rules tuple,
   and migration note in `docs/ruling-corrections.json`. High/critical
@@ -69,7 +77,8 @@ PDFs are excluded from release artifacts.
 
 Every request is validated against its adapter-declared JSON Schema before a
 handler runs. Schema failures are verdict-level honest refusals with structured
-`validation_errors`; malformed JSON-RPC envelopes remain protocol errors.
+`validation_errors` plus machine recovery metadata; malformed JSON-RPC
+envelopes remain protocol errors.
 Every MCP tool publishes the common verdict output schema, and results are
 validated before they leave the process.
 

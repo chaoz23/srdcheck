@@ -15,7 +15,9 @@ HANDLERS = '''from srdcheck import verdict as v
 def example_query(adapter, p):
     """TODO. Honesty contract: refuse (exit 2) what this adapter does not
     cover; a wrong-LOOKING verdict is as bad as a wrong verdict."""
-    return v.cannot_adjudicate("not implemented yet", adapter=adapter.id)
+    return v.cannot_adjudicate(
+        "not implemented yet", adapter=adapter.id,
+        reason_code="unmodeled-rule", missing_inputs=[])
 
 
 HANDLERS = {"example.query": example_query}

@@ -9,6 +9,19 @@
 - **Prose:** The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, rule_ids, citations, and structured data instead of parsing why.
 - **Vision:** Target capabilities are labeled target and are never advertised as executable tools.
 
+## Exit-2 recovery contract
+
+Machine metadata lives in `data`; agents branch on it instead of parsing `why`. An authorized agent-DM may resolve a DM-authority table ruling directly.
+
+| reason | recoverability | default next action | authority |
+|---|---|---|---|
+| `invalid-input` | `retry` | `repair-request` | `—` |
+| `missing-fact` | `retry` | `provide-facts` | `—` |
+| `unsupported-content` | `alternate-path` | `select-adapter` | `—` |
+| `unmodeled-rule` | `alternate-path` | `use-other-capability` | `—` |
+| `rules-ambiguous` | `authority` | `resolve-table-ruling` | `dm` |
+| `gm-discretion` | `authority` | `resolve-table-ruling` | `dm` |
+
 ## Release identity
 
 Engine `0.6.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.6, 0.5`.
@@ -16,8 +29,8 @@ Engine `0.6.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.6, 0.5`.
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `c75d28700fe0…` |
-| `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `fb2c57e8b75e…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `e90da7306690…` |
+| `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `45746ba2683f…` |
 
 ## Shipped, executable today
 

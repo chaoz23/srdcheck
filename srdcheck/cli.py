@@ -17,9 +17,8 @@ import json
 import pathlib
 import sys
 
-from .engine import Engine
-from .schema import errors as schema_errors
-from .verdict import cannot_adjudicate
+from .engine import Engine, validation_refusal
+from .schema import issues as schema_issues
 from .verdict import VERDICT_OUTPUT_SCHEMA
 from .contract import VERDICT_SCHEMA_VERSION
 
@@ -70,13 +69,9 @@ def main(argv=None):
     try:
         if args[0] == "--pipe":
             q = json.loads(sys.stdin.read())
-            problems = schema_errors(q, SCHEMA["input"])
+            problems = schema_issues(q, SCHEMA["input"])
             if problems:
-                return _emit(cannot_adjudicate(
-                    "Invalid input; correct the request before adjudication: "
-                    + "; ".join(problems),
-                    data={"validation_errors": problems},
-                ))
+                return _emit(validation_refusal(problems))
             return _emit(_engine().query(q["type"], q.get("params", {})))
         if args[0] == "conformance" and len(args) == 2:
             from .conformance import check as _cf

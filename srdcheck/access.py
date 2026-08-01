@@ -70,6 +70,7 @@ def capabilities():
                            supported_engine_minors)
     from .mcp import PROTOCOL_VERSION, SUPPORTED_PROTOCOL_VERSIONS
     claims = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
+    refusal_contract = v.refusal_contract()
     adapters = []
     tool_names = {"jurisdiction"}
     for identifier in available_adapters():
@@ -105,6 +106,7 @@ def capabilities():
         "machine_contracts": {
             "verdict_schema_version": VERDICT_SCHEMA_VERSION,
             "capabilities_schema_version": CAPABILITIES_SCHEMA_VERSION,
+            "refusal_contract_version": refusal_contract["schema_version"],
             "compatibility_window": COMPATIBILITY_WINDOW,
             "supported_engine_minors": supported_engine_minors(__version__),
             "why_stability": WHY_STABILITY,
@@ -117,6 +119,7 @@ def capabilities():
         "mcp_supported_protocol_versions": list(SUPPORTED_PROTOCOL_VERSIONS),
         "adapters": adapters,
         "mcp_tools": sorted(tool_names),
+        "refusal_contract": refusal_contract,
         "result_contract": claims["result_contract"],
         "query_coverage": claims["query_coverage"],
         "targets": claims["targets"],
@@ -191,6 +194,14 @@ def edition_check(name, category, current="srd-5.2.1", priors=("srd-5.1",)):
     with the prior version + citation, plus heuristic candidates in current) /
     cannot-adjudicate (in neither — a typo, third-party, or homebrew).
     """
+    if not isinstance(name, str) or not name.strip():
+        return v.cannot_adjudicate(
+            "Edition-check name must be a non-empty string.",
+            reason_code="invalid-input", missing_inputs=[])
+    if not isinstance(category, str) or not category.strip():
+        return v.cannot_adjudicate(
+            "Edition-check category must be a non-empty string.",
+            reason_code="invalid-input", missing_inputs=[])
     key = name.strip().lower()
     cur = load_adapter(current)
 
@@ -218,4 +229,6 @@ def edition_check(name, category, current="srd-5.2.1", priors=("srd-5.1",)):
             return v.illegal(why, cite(prior, category, name), cur.id, data=data)
     return v.cannot_adjudicate(
         f"'{name}' is not a {category} in {current} or {list(priors)} — it may "
-        "be a typo, third-party, or homebrew content.", adapter=cur.id)
+        "be a typo, third-party, or homebrew content.", adapter=cur.id,
+        reason_code="unsupported-content",
+        missing_inputs=[])
