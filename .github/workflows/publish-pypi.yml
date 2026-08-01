@@ -21,6 +21,7 @@ concurrency:
 jobs:
   publish:
     name: Publish attested artifacts to PyPI
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
@@ -28,6 +29,7 @@ jobs:
       url: https://pypi.org/project/srdcheck/${{ inputs.version }}/
     permissions:
       actions: read
+      attestations: read
       contents: read
       id-token: write
     env:
@@ -64,6 +66,24 @@ jobs:
           fi
           test "$(jq -r .head_sha <<<"$RUN_JSON")" = "$TAG_SHA"
 
+          COMPARE_STATUS="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/compare/${TAG_SHA}...${GITHUB_SHA}" \
+            --jq .status)"
+          [[ "$COMPARE_STATUS" = "ahead" || "$COMPARE_STATUS" = "identical" ]]
+
+          RUN_ATTEMPT="$(jq -r .run_attempt <<<"$RUN_JSON")"
+          JOBS_JSON="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}/attempts/${RUN_ATTEMPT}/jobs?per_page=100")"
+          test "$(jq '[.jobs[] | select(.name == "attest-tagged-build")] | length' \
+            <<<"$JOBS_JSON")" -eq 1
+          test "$(jq '[.jobs[] | select(.name == "attest-tagged-build" and .conclusion == "success")] | length' \
+            <<<"$JOBS_JSON")" -eq 1
+
+          ARTIFACTS_JSON="$(gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${ARTIFACT_RUN_ID}/artifacts?per_page=100")"
+          test "$(jq '[.artifacts[] | select(.name == "srdcheck-release-artifacts" and .expired == false)] | length' \
+            <<<"$ARTIFACTS_JSON")" -eq 1
+
       - name: Download the exact release artifacts
         shell: bash
         run: >-
@@ -72,7 +92,7 @@ jobs:
           --name srdcheck-release-artifacts
           --dir dist
 
-      - name: Verify checksums and select distributions
+      - name: Verify checksums, provenance, and distributions
         shell: bash
         run: |
           set -euo pipefail
@@ -83,6 +103,10 @@ jobs:
           test -f dist/SHA256SUMS
           test "$(wc -l < dist/SHA256SUMS)" -eq 3
           sha256sum --check dist/SHA256SUMS
+          gh attestation verify "dist/srdcheck-${VERSION}-py3-none-any.whl" \
+            --repo "$GITHUB_REPOSITORY"
+          gh attestation verify "dist/srdcheck-${VERSION}.tar.gz" \
+            --repo "$GITHUB_REPOSITORY"
 
           mkdir publish
           cp "dist/srdcheck-${VERSION}-py3-none-any.whl" publish/
