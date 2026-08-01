@@ -35,6 +35,8 @@ remain conformant while an explicit empty or malformed identity is rejected.
 `{category: [names…]}`. This powers the jurisdiction gate: any entity not present
 in a loaded adapter yields an honest exit 2, never a guess. Generate it from the
 source document (see `srdcheck/adapters/srd-5.2.1/build_entities.py`), don't hand-type it.
+The same name may legitimately occur in multiple categories; a successful
+`jurisdiction` verdict returns every match, sorted, in `data.categories`.
 
 ## Rule atoms
 

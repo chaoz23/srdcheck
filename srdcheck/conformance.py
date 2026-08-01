@@ -43,9 +43,39 @@ def check(adapter_id, adapters_dir=None):
     except Exception as exc:
         problems.append(f"adapter failed to load ({type(exc).__name__})")
         return problems
+    # 2. every declared entity round-trips through jurisdiction, including
+    # names that intentionally occur in more than one category. Category
+    # collisions are valid; silently returning only the first match is not.
+    epath = adir / "entities.json"
+    if not epath.exists():
+        problems.append("missing entities.json")
+    else:
+        entities = json.loads(epath.read_text())
+        expected = {}
+        display_names = {}
+        for category, items in entities.items():
+            if not isinstance(items, list):
+                problems.append(f"entities category '{category}' is not a list")
+                continue
+            for item in items:
+                name = item.get("name") if isinstance(item, dict) else item
+                if not isinstance(name, str) or not name.strip():
+                    problems.append(f"{category}: entity lacks a non-empty name")
+                    continue
+                key = name.strip().lower()
+                expected.setdefault(key, set()).add(category)
+                display_names.setdefault(key, name)
+        for key, categories in expected.items():
+            verdict = a.query("jurisdiction", {"name": display_names[key]})
+            actual = (verdict.get("data") or {}).get("categories")
+            if verdict.get("exit_code") != 0 or actual != sorted(categories):
+                problems.append(
+                    f"jurisdiction '{display_names[key]}' returned categories "
+                    f"{actual!r}; expected {sorted(categories)!r}")
+                break
     qpath = adir / "queries.json"
-    schemas = json.load(open(qpath)) if qpath.exists() else {}
-    # 2. every declared query dispatches without crashing on empty params
+    schemas = json.loads(qpath.read_text()) if qpath.exists() else {}
+    # 3. every declared query dispatches without crashing on empty params
     for qt in sorted(set(list(schemas)) | {"jurisdiction"}):
         try:
             v = a.query(qt, {})
@@ -53,7 +83,7 @@ def check(adapter_id, adapters_dir=None):
                 problems.append(f"{qt}: verdict lacks exit_code")
         except Exception as e:
             problems.append(f"{qt}: crashed on empty params ({type(e).__name__})")
-    # 3. unknown-key refusal: a bogus top-level key must NOT pass silently
+    # 4. unknown-key refusal: a bogus top-level key must NOT pass silently
     for qt, spec in schemas.items():
         sch = (spec or {}).get("inputSchema") or {}
         if sch.get("additionalProperties") is False:
@@ -65,7 +95,7 @@ def check(adapter_id, adapters_dir=None):
             except Exception:
                 pass
             break   # one probe proves the kernel path
-    # 4. declared schemas must forbid undeclared keys
+    # 5. declared schemas must forbid undeclared keys
     loose = [qt for qt, spec in schemas.items()
              if ((spec or {}).get("inputSchema") or {}).get("additionalProperties") is not False]
     if loose:

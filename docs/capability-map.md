@@ -16,7 +16,7 @@ Engine `0.6.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.6, 0.5`.
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.0` | `0.2.1` | `20b6aa0dad15…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `c75d28700fe0…` |
 | `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `fb2c57e8b75e…` |
 
 ## Shipped, executable today
@@ -25,7 +25,7 @@ A `legal` result below means only that the named checked scope passed.
 
 | tool | capability | checked scope | explicitly unchecked | evidence |
 |---|---|---|---|---|
-| `jurisdiction` | Check whether a name occurs in a loaded adapter registry. | registry membership | machine-readable matching categories in this version; mechanical legality; whether an unknown name is a typo, homebrew, or third-party content | `tests/test_kernel.py::test_jurisdiction_known_content`; `tests/test_kernel.py::test_jurisdiction_unknown_content` |
+| `jurisdiction` | Check whether a name occurs in a loaded adapter registry and report every matching content category. | registry membership; all matching registry categories | mechanical legality; whether an unknown name is a typo, homebrew, or third-party content | `tests/test_kernel.py::test_jurisdiction_known_content`; `tests/test_kernel.py::test_jurisdiction_unknown_content`; `tests/test_kernel.py::test_jurisdiction_returns_all_categories_for_colliding_name` |
 | `turn_plan` | Check a proposed turn against the modeled action-economy and movement budgets. | action, bonus-action, reaction, interaction, movement, and spell-slot-per-turn budgets; modeled condition effects on those budgets | whether a feature grants an action; targets, ranges, line of sight, cover, inventory, and bespoke feature prerequisites | `tests/test_turn_economy.py::test_two_bonus_actions_illegal`; `tests/test_enumeration.py::test_t5_consistency_sweep` |
 | `turn_options` | Enumerate remaining modeled action-economy option kinds. | remaining budget option kinds; movement remaining and modeled stand/crawl costs | every legal creature action; feature-specific actions, targets, geometry, and tactics | `tests/test_enumeration.py::test_t5_consistency_sweep` |
 | `reaction_available` | Check whether the modeled reaction budget is available. | reaction spent since turn start; Incapacitated and the Stunned, Paralyzed, Petrified, and Unconscious definitional embeds | whether a proposed trigger occurred; target and range legality | `tests/test_turn_economy.py::test_reaction_available_honors_incapacitated_and_embeds`; `tests/test_turn_economy.py::test_reaction_available_refuses_unknown_and_non_condition_names` |

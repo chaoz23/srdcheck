@@ -10,10 +10,10 @@
   {
    "adapter": "kernel",
    "query_type": "jurisdiction",
-   "capability": "Check whether a name occurs in a loaded adapter registry.",
-   "checked_scope": ["registry membership"],
-   "unchecked_scope": ["machine-readable matching categories in this version", "mechanical legality", "whether an unknown name is a typo, homebrew, or third-party content"],
-   "evidence": ["tests/test_kernel.py::test_jurisdiction_known_content", "tests/test_kernel.py::test_jurisdiction_unknown_content"]
+   "capability": "Check whether a name occurs in a loaded adapter registry and report every matching content category.",
+   "checked_scope": ["registry membership", "all matching registry categories"],
+   "unchecked_scope": ["mechanical legality", "whether an unknown name is a typo, homebrew, or third-party content"],
+   "evidence": ["tests/test_kernel.py::test_jurisdiction_known_content", "tests/test_kernel.py::test_jurisdiction_unknown_content", "tests/test_kernel.py::test_jurisdiction_returns_all_categories_for_colliding_name"]
   },
   {
    "adapter": "srd-5.2.1",

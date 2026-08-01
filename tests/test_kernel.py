@@ -24,6 +24,12 @@ def test_jurisdiction_known_content():
     assert e.jurisdiction("Grappled").exit_code == 0
     assert e.jurisdiction("Aboleth").exit_code == 0
     assert e.jurisdiction("Disengage").exit_code == 0
+    assert e.jurisdiction("Acolyte").data["categories"] == ["background"]
+
+
+def test_jurisdiction_returns_all_categories_for_colliding_name():
+    assert engine().jurisdiction("Druid").data["categories"] == [
+        "class", "creature"]
 
 
 def test_jurisdiction_unknown_content():

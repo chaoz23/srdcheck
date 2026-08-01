@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
-"""Extract the closed SRD 5.2.1 name sets (class/subclass/species/feat) from the
-source page text and merge them into entities.json. Census-anchored: the census
-test re-runs this extraction independently and compares counts (issue #12)."""
+"""Extract the closed SRD 5.2.1 character-option name sets from the source
+page text and merge them into entities.json. Census-anchored: tests compare the
+result with independent structural anchors in the pinned source (issues #12/#15).
+
+Backgrounds are registry-only here: this records which named backgrounds exist
+in SRD 5.2.1 without interpreting their ability scores, feats, proficiencies,
+or equipment.
+"""
 import json, pathlib, re
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -19,6 +24,20 @@ def extract():
     all_text = "\n".join(pages.values())
     for name in CLASSES + SPECIES:
         assert re.search(rf"^{name}\s*$", all_text, re.M), f"heading missing: {name}"
+
+    # Background names: inside the source's "Background Descriptions" section,
+    # each named entry is immediately followed by its "Ability Scores:" field.
+    # Bound the parse at "Character Species" so later uses of the same field
+    # cannot become background names. This intentionally extracts names only;
+    # background mechanics are outside this registry-only slice.
+    descriptions = all_text.split("Background Descriptions", 1)[1]
+    descriptions = descriptions.split("Character Species", 1)[0]
+    background_lines = [line.strip() for line in descriptions.splitlines()]
+    backgrounds = {
+        background_lines[i - 1]
+        for i, line in enumerate(background_lines)
+        if i and line.startswith("Ability Scores:") and background_lines[i - 1]
+    }
     # subclasses: "<Class> Subclass: NAME" (wrap-aware, TOC lines excluded)
     subs = set()
     for t in pages.values():
@@ -45,7 +64,8 @@ def extract():
                     and len(l) < 40 and l[0].isalpha():
                 feats[l] = m.group(1)
     return {"class": sorted(CLASSES), "subclass": sorted(subs),
-            "species": sorted(SPECIES), "feat": sorted(feats)}
+            "species": sorted(SPECIES), "feat": sorted(feats),
+            "background": sorted(backgrounds)}
 
 if __name__ == "__main__":
     sets = extract()
