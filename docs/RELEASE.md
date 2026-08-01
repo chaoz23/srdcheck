@@ -69,7 +69,12 @@ gh release create vX.Y.Z --verify-tag --generate-notes
 
 ## Acceptance before publishing
 
-- [ ] `pytest tests/` green on Python 3.10–3.13
+- [ ] Full Ubuntu `test` lanes green on Python 3.10–3.13
+- [ ] `minimum-runtime` green on Python 3.10 with the declared build floor
+- [ ] Windows and macOS `platform-smoke` lanes green under the documented
+      [support contract](support-matrix.md)
+- [ ] `cold-install` green for both wheel and source distribution on Python
+      3.10 and 3.13
 - [ ] `tests/test_packaging.py` green — wheel carries `sources/text/*.txt`
       and `cite` works from a cold install, outside the repo, offline
 - [ ] `tests/test_metadata_fresh.py` green — every surface reports one version

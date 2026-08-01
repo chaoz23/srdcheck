@@ -28,15 +28,14 @@ jobs:
 
   test:
     needs: hygiene
-    runs-on: ${{ matrix.os }}
+    # Ubuntu carries the full correctness/provenance suite on every supported
+    # Python runtime. Windows and macOS have a separate public-artifact smoke
+    # contract below; do not describe those representative lanes as full parity.
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        os: [ubuntu-latest]
         python-version: ["3.10", "3.11", "3.12", "3.13"]
-        include:
-          - os: macos-latest
-            python-version: "3.12"
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -77,6 +76,50 @@ jobs:
           python -m srdcheck conformance srd-5.1
           python -m srdcheck conformance toy-tictactoe
 
+  # The minimum contract is Python 3.10, the declared setuptools floor, and no
+  # runtime dependencies. Build without isolation so the floor is genuinely
+  # exercised, then install the wheel with --no-deps/--no-index in the smoke.
+  minimum-runtime:
+    needs: hygiene
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.10"
+      - name: Install the minimum declared build backend
+        run: python -m pip install "setuptools==83.0.0"
+      - name: Build with the minimum dependency set
+        run: >-
+          python -m pip wheel . --no-deps --no-build-isolation
+          --wheel-dir dist
+      - name: Prove the zero-dependency runtime from a cold install
+        run: python scripts/cold_artifact_smoke.py dist
+
+  # Representative platform support contract. The smoke builds and installs
+  # both distributions into paths containing spaces and Unicode, then uses the
+  # installed CLI, library, citation data, and MCP stdio server. The full suite
+  # remains Ubuntu-only by explicit policy.
+  platform-smoke:
+    needs: hygiene
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest]
+        python-version: ["3.12"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install build tooling
+        run: python -m pip install build setuptools
+      - name: Build wheel and source distribution
+        run: python -m build --outdir dist
+      - name: Exercise both artifacts through the platform smoke contract
+        run: python scripts/cold_artifact_smoke.py dist
+
   # The gate 0.5.0 lacked: prove the *installed artifact* implements the
   # advertised behaviour, from a pristine tree, outside the repo, offline.
   cold-install:
@@ -96,5 +139,9 @@ jobs:
         run: |
           bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh
           bash srdcheck/adapters/srd-5.1/sources/fetch.sh
-      - name: Cold wheel install + headline journeys
+      - name: Build wheel and source distribution
+        run: python -m build --outdir dist
+      - name: Cold-install and exercise wheel and source distribution
+        run: python scripts/cold_artifact_smoke.py dist
+      - name: Packaging and metadata regression contracts
         run: python -m pytest tests/test_packaging.py tests/test_metadata_fresh.py -q
