@@ -88,6 +88,28 @@ def test_tool_calls_return_verdicts():
     assert r["error"]["code"] == -32601
 
 
+def test_mcp_integer_arguments_match_canonical_handler_semantics():
+    s = ready_server()
+
+    def call(arguments, mid):
+        response = s.handle(rpc("tools/call", {
+            "name": "encounter_xp_budget", "arguments": arguments,
+        }, mid=mid))
+        assert not response["result"]["isError"]
+        return response["result"]["structuredContent"]
+
+    canonical = call({
+        "level": 1, "difficulty": "low", "party_size": 4,
+    }, 11)
+    integral_float = call({
+        "level": 1.0, "difficulty": "low", "party_size": 4.0,
+    }, 12)
+
+    assert integral_float == canonical
+    assert integral_float["data"]["party_size"] == 4
+    assert isinstance(integral_float["data"]["party_size"], int)
+
+
 def test_protocol_negotiation_and_invalid_envelopes():
     s = Server()
     assert s.handle(rpc("tools/list"))["error"]["code"] == -32002

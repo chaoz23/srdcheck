@@ -23,6 +23,13 @@ def test_party_size_gives_total():
     v = q(level=5, difficulty="high", party_size=4)
     assert v.data["per_character"] == 1100 and v.data["total"] == 4400
 
+def test_integral_json_numbers_match_canonical_integer_semantics():
+    canonical = q(level=1, difficulty="low", party_size=4)
+    integral_float = q(level=1.0, difficulty="low", party_size=4.0)
+    assert integral_float.as_dict() == canonical.as_dict()
+    assert integral_float.data["party_size"] == 4
+    assert isinstance(integral_float.data["party_size"], int)
+
 def test_case_insensitive_difficulty():
     assert q(level=2, difficulty="MODERATE").data["per_character"] == 150
 
@@ -30,6 +37,7 @@ def test_out_of_range_refuses():
     assert q(level=21, difficulty="low").exit_code == 2
     assert q(level=0, difficulty="low").exit_code == 2
     assert q(level=5, difficulty="deadly").exit_code == 2
+    assert q(level=20.0, difficulty="high").data["per_character"] == 22000
 
 def test_cited():
     v = q(level=10, difficulty="moderate")

@@ -1,7 +1,9 @@
 """Small dependency-free validator for the JSON Schema subset adapters use.
 
 Schemas are part of the agent contract, not documentation: validation happens
-before handler dispatch on every transport.
+before handler dispatch on every transport. JSON Schema integral-number
+semantics are preserved without leaking Python's ``float`` representation into
+handlers: accepted integral floats are normalized to fresh integer values.
 """
 
 import math
@@ -135,8 +137,42 @@ def errors(value, schema, path="$", limit=50):
     return [str(issue) for issue in issues(value, schema, path, limit)]
 
 
+def normalize_integers(value, schema):
+    """Return a fresh schema-shaped value with integral floats made integers.
+
+    Callers validate first. This deliberately follows only the schema subset
+    supported by :func:`issues`; unknown permitted values are copied unchanged.
+    The input object is never mutated.
+    """
+    if not isinstance(schema, dict) or not schema:
+        return value
+
+    expected = schema.get("type")
+    choices = expected if isinstance(expected, list) else [expected]
+    if ("integer" in choices and isinstance(value, float)
+            and math.isfinite(value) and value.is_integer()):
+        return int(value)
+
+    if isinstance(value, dict):
+        properties = schema.get("properties", {})
+        additional = schema.get("additionalProperties", True)
+        normalized = {}
+        for name, item in value.items():
+            child_schema = properties.get(name)
+            if child_schema is None and isinstance(additional, dict):
+                child_schema = additional
+            normalized[name] = normalize_integers(item, child_schema or {})
+        return normalized
+
+    if isinstance(value, list):
+        item_schema = schema.get("items", {})
+        return [normalize_integers(item, item_schema) for item in value]
+
+    return value
+
+
 def validate(value, schema):
     found = issues(value, schema)
     if found:
         raise ValidationError(found)
-    return value
+    return normalize_integers(value, schema)
