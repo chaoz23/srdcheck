@@ -3,7 +3,6 @@
 import json
 import pathlib
 import re
-import tomllib
 
 import srdcheck
 from srdcheck.access import capabilities, default_adapter_paths
@@ -29,8 +28,9 @@ def test_engine_version_is_canonical_everywhere():
     server = json.loads((ROOT / "server.json").read_text())
     assert server["version"] == srdcheck.__version__
     assert {package["version"] for package in server["packages"]} == {srdcheck.__version__}
-    project = tomllib.loads((ROOT / "pyproject.toml").read_text())
-    assert project["project"]["version"] == srdcheck.__version__
+    project = (ROOT / "pyproject.toml").read_text()
+    match = re.search(r'^version\s*=\s*"([^"]+)"', project, re.MULTILINE)
+    assert match and match.group(1) == srdcheck.__version__
     assert f"Status: v{srdcheck.__version__}" in (ROOT / "README.md").read_text()
 
 
