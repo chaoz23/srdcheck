@@ -68,6 +68,18 @@ An older third-party adapter that omits this metadata remains loadable, but its
 unclassified refusal fails closed as `terminal` / `stop` rather than inviting
 an unsafe guess.
 
+### Integer normalization at dispatch
+
+Input schemas use JSON Schema numeric semantics: `1` and `1.0` both satisfy
+`type: integer`. After a request validates, the kernel passes each handler a
+fresh structure in which every schema-declared integral float is normalized to
+a Python integer, recursively through objects and arrays. Booleans, numeric
+strings, non-integral floats, and non-finite values do not satisfy an integer
+schema and refuse as structured `invalid-input`; required values that are absent
+remain structured `missing-fact`. Adapter-owned schemas that are intentionally
+validated inside a handler, such as the complete traveling `event.apply` state,
+must apply the same normalization immediately after successful validation.
+
 ## Versioned identifiers & the stable consumer interface
 
 An adapter directory is named by a **versioned identifier** (e.g. `srd-5.2.1`).

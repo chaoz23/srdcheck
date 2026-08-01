@@ -8,7 +8,8 @@ control flow below is the code escape hatch the adapter spec allows.
 import json
 
 from srdcheck import verdict as v
-from srdcheck.schema import ValidationIssue, issues as schema_issues
+from srdcheck.schema import (ValidationIssue, issues as schema_issues,
+                             normalize_integers)
 
 
 def _cite(atom):
@@ -1001,6 +1002,10 @@ def event_apply(adapter, p):
         state, canonical_state_schema, path="state")
     if state_problems:
         return _invalid_state(aid, state_problems)
+    # The engine normalizes declared query-schema integers before dispatch.
+    # state is intentionally shallow there (the complete schema is adapter
+    # owned), so canonicalize its accepted JSON Schema integers here too.
+    state = normalize_integers(state, canonical_state_schema)
     blank_problems = _blank_state_issues(state)
     if blank_problems:
         return _invalid_state(aid, blank_problems)
@@ -1392,13 +1397,18 @@ def event_apply(adapter, p):
         }
         patch_problems = schema_issues(
             patch, patch_schema, path="event.state_patch")
+        if patch_problems:
+            return _invalid_state(
+                aid, patch_problems,
+                subject="ruling state_patch (minimality ratchet)")
+        patch = normalize_integers(patch, patch_schema)
         candidate = json.loads(json.dumps(nxt))
         candidate.update(json.loads(json.dumps(patch)))
         successor_problems = schema_issues(
             candidate, canonical_state_schema, path="event.state_patch")
-        if patch_problems or successor_problems:
+        if successor_problems:
             return _invalid_state(
-                aid, patch_problems or successor_problems,
+                aid, successor_problems,
                 subject="ruling state_patch (minimality ratchet)")
         candidate_blanks = _blank_state_issues(
             candidate, path="event.state_patch")

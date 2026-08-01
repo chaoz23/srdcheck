@@ -31,7 +31,7 @@
     "version": "0.2.1",
     "data_version": "0.2.1",
     "rules_version": "0.2.1",
-    "digest": "17cee29ec1e569b502d498a5c80e7d4720df6426a2ab22110b5031c1e088769c"
+    "digest": "36073c804f677dbcaf6aed6e95f7dc8fdcdc34daad9c5ed25074f90f46ca571d"
    },
    {
     "identifier": "toy-tictactoe",

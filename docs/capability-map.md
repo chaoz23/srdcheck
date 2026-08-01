@@ -29,7 +29,7 @@ Engine `0.6.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.6, 0.5`.
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `17cee29ec1e5…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `36073c804f67…` |
 | `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `45746ba2683f…` |
 
 ## Shipped, executable today

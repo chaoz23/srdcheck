@@ -127,6 +127,27 @@ def test_non_json_library_state_refuses_instead_of_raising():
     assert "finite JSON values" in result.data["validation_errors"][0]
 
 
+def test_integral_float_state_is_normalized_without_mutating_caller_state():
+    current = state(
+        speed=30.0,
+        death_save_successes=0.0,
+        death_save_failures=0.0,
+        turn={**FRESH_TURN, "movement_ft_spent": 0.0,
+              "spell_slots_spent_this_turn": 0.0},
+    )
+    before = copy.deepcopy(current)
+
+    result = apply(current, {"type": "round-advance"})
+
+    assert result.exit_code == 0
+    next_state = result.data["next_state"]
+    assert isinstance(next_state["speed"], int)
+    assert isinstance(next_state["death_save_successes"], int)
+    assert isinstance(next_state["turn"]["movement_ft_spent"], int)
+    assert current == before
+    assert isinstance(current["speed"], float)
+
+
 def test_state_conditions_are_semantically_validated_before_every_fold():
     wrong_category = apply(
         state(conditions=["Fireball"]), {"type": "round-advance"})

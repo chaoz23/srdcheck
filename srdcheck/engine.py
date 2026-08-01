@@ -7,7 +7,8 @@ honest exit 2 — never a guess (T1, T8).
 
 from . import verdict as v
 from .adapter import Adapter
-from .schema import ValidationIssue, issues as schema_issues
+from .schema import (ValidationIssue, issues as schema_issues,
+                     normalize_integers)
 
 JURISDICTION_INPUT_SCHEMA = {
     "type": "object",
@@ -96,7 +97,12 @@ class Engine:
                 problems = schema_issues(params, schema)
                 if problems:
                     return self._invalid_input(problems, a.id)
-                return a.handle(query_type, params)
+                # JSON Schema defines 1 and 1.0 as the same integer. Handlers
+                # receive the canonical Python integer in a fresh structure so
+                # transport representation cannot change adjudication and the
+                # caller's request is never mutated.
+                return a.handle(
+                    query_type, normalize_integers(params, schema or {}))
         known = sorted(t for a in self.adapters for t in a.query_types)
         return v.cannot_adjudicate(
             f"No loaded adapter answers query type '{query_type}'. "
