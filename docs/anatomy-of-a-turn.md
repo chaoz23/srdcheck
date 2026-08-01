@@ -22,7 +22,7 @@ Round 3. Kira the ranger, initiative 14. Her player says: *"I drop my bow, draw 
   "exit_code": 2,
   "citations": [],
   "why": "Improvised actions have no defined mechanic in SRD 5.2.1; outcome and cost are the GM's ruling to make.",
-  "adapter": "srd-5.2.1@1.0.0"
+  "adapter": "srd-5.2.1@0.2.0"
 }
 ```
 
@@ -50,7 +50,7 @@ Night. Vex the rogue drops through a warehouse skylight onto the rafters. Two gu
   "citations": ["SRD 5.2.1 p.183 'Rules Glossary > Hide [Action]'",
                 "SRD 5.2.1 p.11 'Exploration > Vision and Light'"],
   "why": "Hiding requires being Heavily Obscured or behind Three-Quarters or Total Cover, and out of any enemy's line of sight. Dim Light is only Lightly Obscured, and both guards have line of sight to the rafter.",
-  "adapter": "srd-5.2.1@1.0.0"
+  "adapter": "srd-5.2.1@0.2.0"
 }
 ```
 

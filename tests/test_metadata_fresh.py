@@ -76,6 +76,31 @@ def test_tool_json_advertises_every_mcp_tool():
     assert card["version"] == srdcheck.__version__
 
 
+def test_mcp_registry_manifest_matches_package_version():
+    """server.json is what the public MCP registry serves. If it lags, agents
+    resolve a version that does not match what PyPI installs."""
+    manifest = json.loads((ROOT / "server.json").read_text(encoding="utf-8"))
+    assert manifest["version"] == srdcheck.__version__
+    for pkg in manifest.get("packages", []):
+        assert pkg["version"] == srdcheck.__version__, (
+            f"server.json package {pkg.get('identifier')} pinned to "
+            f"{pkg['version']}, expected {srdcheck.__version__}")
+
+
+def test_docs_do_not_invent_adapter_versions():
+    """Docs quoted `srd-5.2.1@1.0.0` in sample output while the adapter was at
+    0.2.0 — a reader copying that expects a ruleset that does not exist."""
+    live = {a.manifest["name"]: a.manifest["version"]
+            for a in mcp.Server().engine.adapters}
+    pattern = re.compile(r"\b(srd-[\d.]+)@([\d.]+)\b")
+    for path in (ROOT / "docs").rglob("*.md"):
+        for name, claimed in pattern.findall(path.read_text(encoding="utf-8")):
+            if name in live:
+                assert claimed == live[name], (
+                    f"{path.name} claims {name}@{claimed}, "
+                    f"but the adapter is at {live[name]}")
+
+
 def test_cli_reports_the_same_version():
     out = subprocess.run([sys.executable, "-m", "srdcheck", "--version"],
                          cwd=ROOT, capture_output=True, text=True)
