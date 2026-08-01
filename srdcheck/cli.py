@@ -104,7 +104,7 @@ def main(argv=None):
                     priors.append(val)
             return _emit(edition_check(name, category, current,
                                        tuple(priors) or ("srd-5.1",)))
-    except (json.JSONDecodeError, KeyError) as e:
+    except (ValueError, RecursionError, KeyError) as e:
         print(json.dumps({"error": f"bad input: {e}"}))
         return 3
     print(__doc__)

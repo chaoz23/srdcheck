@@ -12,6 +12,14 @@ from srdcheck.engine import Engine  # noqa: E402
 
 
 E = Engine([ROOT / "srdcheck" / "adapters" / "srd-5.2.1"])
+FRESH_TURN = {
+    "action_spent": False,
+    "bonus_action_spent": False,
+    "reaction_spent": False,
+    "free_interaction_spent": False,
+    "movement_ft_spent": 0,
+    "spell_slots_spent_this_turn": 0,
+}
 
 
 def assert_recovery(result, reason, recoverability, action, missing=()):
@@ -65,7 +73,8 @@ def test_missing_fact_paths_are_exact_and_path_sensitive():
         one, "missing-fact", "retry", "provide-facts",
         ("mover_seen_by_reactor",))
 
-    state = {"speed": 30, "conditions": [], "turn": {}, "hp": 4}
+    state = {"speed": 30, "conditions": [], "turn": dict(FRESH_TURN),
+             "hp": 4}
     damage = E.query(
         "event.apply", {"state": state, "event": {"type": "damage",
                                                     "amount": 1}})
@@ -209,7 +218,8 @@ def test_indirect_turn_options_and_event_apply_preserve_recovery_metadata():
 
 
 def test_event_apply_remaps_and_consumes_exhaustion_state_fact():
-    state = {"speed": 30, "conditions": ["Exhaustion"]}
+    state = {"speed": 30, "conditions": ["Exhaustion"],
+             "turn": dict(FRESH_TURN)}
     absent = E.query(
         "event.apply", {"state": state, "event": {"type": "action"}})
     assert_recovery(
@@ -228,7 +238,7 @@ def test_event_apply_remaps_and_consumes_exhaustion_state_fact():
     illegal = E.query("event.apply", {
         "state": {
             "speed": 30, "conditions": [],
-            "turn": {"action_spent": True},
+            "turn": {**FRESH_TURN, "action_spent": True},
         },
         "event": {"type": "action"},
     })

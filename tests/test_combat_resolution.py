@@ -19,7 +19,8 @@ FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
 
 def state(**kw):
     base = {"speed": 30, "conditions": [], "concentration_on": None,
-            "turn": dict(FRESH_TURN)}
+            "turn": dict(FRESH_TURN), "dead": False, "stable": False,
+            "death_save_successes": 0, "death_save_failures": 0}
     base.update(kw)
     return base
 
@@ -68,7 +69,7 @@ def test_monster_dies_at_zero():
 
 def test_damage_at_zero_is_one_failure():
     st = state(hp=0, hp_max=20, conditions=["Unconscious"])
-    v, s = apply(st, {"type": "damage", "amount": 6})
+    v, s = apply(st, {"type": "damage", "amount": 6, "crit": False})
     assert s["death_save_failures"] == 1
     assert "death-save.damage-at-0" in v.rule_ids
 
@@ -88,7 +89,7 @@ def test_damage_at_zero_ge_hp_max_is_death():
 def test_third_failure_from_damage_kills():
     st = state(hp=0, hp_max=20, conditions=["Unconscious"],
                death_save_failures=2)
-    v, s = apply(st, {"type": "damage", "amount": 3})
+    v, s = apply(st, {"type": "damage", "amount": 3, "crit": False})
     assert s["death_save_failures"] == 3 and s["dead"] is True
 
 
@@ -205,10 +206,10 @@ def test_third_failure_dies():
 
 def test_death_save_only_when_unstable_at_zero():
     v, _ = apply(state(hp=10, hp_max=20), {"type": "death-save", "result": 15})
-    assert v.exit_code == 2
+    assert v.exit_code == 1
     v2, _ = apply(state(hp=0, hp_max=20, stable=True),
                   {"type": "death-save", "result": 15})
-    assert v2.exit_code == 2
+    assert v2.exit_code == 1
 
 
 def test_death_save_needs_a_valid_d20():
