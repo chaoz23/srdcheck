@@ -84,7 +84,7 @@ def test_ruling_is_tagged_discretion():
                           "state_patch": {"conditions": ["Blinded"]}})
     assert s1["lineage"]["kind"] == "ruling"
     assert s1["conditions"] == ["Blinded"]
-    bad, _ = apply(FRESH, {"type": "ruling",
+    bad, _ = apply(FRESH, {"type": "ruling", "note": "invalid patch",
                            "state_patch": {"hit_points": 10}})
     assert bad.exit_code == 2
     assert "minimality" in bad.why
@@ -112,7 +112,9 @@ def test_lineage_chain_and_tamper_detection():
     tampered = json.loads(json.dumps(states[2]))
     tampered["speed"] = 60
     v, nxt = apply(tampered, events[2])
-    assert nxt["lineage"]["prev"] != states[3]["lineage"]["prev"]
+    assert v.exit_code == 2 and nxt is None
+    assert v.data["reason_code"] == "invalid-input"
+    assert "state.lineage.self" in v.data["validation_errors"][0]
 
 
 def test_minimality_ratchet():

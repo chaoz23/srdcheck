@@ -10,6 +10,7 @@ Transport: newline-delimited JSON-RPC 2.0 on stdio; protocol pinned below.
 
 import json
 import sys
+from copy import deepcopy
 
 from . import __version__
 from .engine import Engine, JURISDICTION_INPUT_SCHEMA
@@ -45,6 +46,32 @@ JURISDICTION_TOOL = {
 }
 
 
+def _published_input_schema(adapter, meta):
+    """Expand adapter-local refs into self-contained MCP tool schemas.
+
+    Engine dispatch keeps the shallow request schema so the reducer can label
+    a malformed existing state ``invalid-input`` instead of mistaking a
+    structural omission for a missing event fact. MCP discovery still exposes
+    the complete canonical state shape for client-side validation.
+    """
+    schema = deepcopy(meta.get("inputSchema", {"type": "object"}))
+    for property_name, reference in meta.get(
+            "inputSchemaPropertyRefs", {}).items():
+        filename, marker, pointer = reference.partition("#/")
+        if not marker or not filename or not pointer:
+            raise ValueError(f"invalid adapter-local schema ref: {reference!r}")
+        source = (adapter.root / filename).resolve()
+        root = adapter.root.resolve()
+        if source != root and root not in source.parents:
+            raise ValueError(f"schema ref escapes adapter root: {reference!r}")
+        value = json.loads(source.read_text(encoding="utf-8"))
+        for token in pointer.split("/"):
+            token = token.replace("~1", "/").replace("~0", "~")
+            value = value[token]
+        schema.setdefault("properties", {})[property_name] = deepcopy(value)
+    return schema
+
+
 def build_tools(engine):
     tools = [JURISDICTION_TOOL]
     mapping = {"jurisdiction": "jurisdiction"}
@@ -53,8 +80,7 @@ def build_tools(engine):
             name = qt.replace(".", "_").replace("-", "_")
             tools.append({"name": name,
                           "description": meta.get("description", ""),
-                          "inputSchema": meta.get("inputSchema",
-                                                  {"type": "object"}),
+                          "inputSchema": _published_input_schema(a, meta),
                           "outputSchema": VERDICT_OUTPUT_SCHEMA})
             mapping[name] = qt
     return tools, mapping
@@ -199,7 +225,7 @@ class Server:
                 continue
             try:
                 msg = json.loads(line)
-            except json.JSONDecodeError:
+            except (ValueError, RecursionError):
                 resp = self._error(None, -32700, "parse error")
                 stdout.write(json.dumps(resp) + "\n")
                 stdout.flush()

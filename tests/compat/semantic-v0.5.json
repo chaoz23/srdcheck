@@ -72,7 +72,7 @@
   {
    "id": "declared-action-fold",
    "query_type": "event.apply",
-   "params": {"state": {"round": 1, "turn": {"actor": "hero", "spent": {}}, "actors": {}, "conditions": []}, "event": {"type": "action"}},
+   "params": {"state": {"speed": 30, "conditions": [], "turn": {"action_spent": false, "bonus_action_spent": false, "reaction_spent": false, "free_interaction_spent": false, "movement_ft_spent": 0, "spell_slots_spent_this_turn": 0}}, "event": {"type": "action"}},
    "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["turn.break-up-move"], "citation_identity": [{"section": "SRD 5.2.1 p.14 'Movement and Position > Breaking Up Your Move'", "page": 14}], "data_subset": {"next_state": {"turn": {"action_spent": true}, "lineage": {"kind": "rule", "rule_ids": ["turn.break-up-move"]}}}}
   },
   {

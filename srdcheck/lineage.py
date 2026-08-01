@@ -8,12 +8,25 @@ was rule-derived or a ruling. verify() replays a chain and detects tampering.
 
 import hashlib
 import json
+from copy import deepcopy
 
 LINEAGE_KEY = "lineage"
 
 
 def canon_hash(state):
-    body = {k: v for k, v in state.items() if k != LINEAGE_KEY}
+    """Hash game state and every lineage field except the hash itself.
+
+    For a bootstrap state with no lineage this is its canonical state hash. For
+    a stamped state it is also the transition's ``lineage.self`` commitment,
+    binding the predecessor, declared event, rule ids, sequence, and kind to
+    that state without introducing a self-referential hash.
+    """
+    body = dict(state)
+    metadata = body.get(LINEAGE_KEY)
+    if isinstance(metadata, dict):
+        body[LINEAGE_KEY] = {
+            key: value for key, value in metadata.items() if key != "self"
+        }
     return hashlib.sha256(
         json.dumps(body, sort_keys=True, separators=(",", ":")).encode()
     ).hexdigest()[:16]
@@ -25,7 +38,7 @@ def stamp(prev_state, event, verdict, next_state, kind="rule"):
     out[LINEAGE_KEY] = {
         "seq": seq,
         "prev": canon_hash(prev_state),
-        "event": event,
+        "event": deepcopy(event),
         "rule_ids": list(verdict.rule_ids),
         "kind": kind,
         "self": None,

@@ -284,7 +284,10 @@
   }
  },
  "event.apply": {
-  "description": "The reducer (fold): apply one declared event to a state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types: turn-start (budgets reset, Reaction returns), round-advance, action / bonus-action / reaction / free-interaction / move / stand-up (validated against budgets and conditions; may carry spell:{level} and concentration_on), condition-gained, condition-ended, damage (amount; crit:true for a Critical Hit; folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP), heal (amount; restores HP and, from 0, consciousness + resets death saves), death-save (result: the rolled d20 1-20; folds success/failure counts, nat-1 double failure, nat-20 revival, stabilize, and death), ruling (authorized DM discretion, including the calling agent-DM \u2014 recorded and tagged as discretion, never as a rule). The caller supplies every die result; srdcheck never produces an event, never advances time on its own, never generates randomness: the caller owns the loop; this is the fold.",
+  "description": "The reducer (fold): apply one declared event to a canonical state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types and their only allowed facts: turn-start; round-advance; action / bonus-action / reaction (optional spell:{level}, and concentration_on only with spell); free-interaction; move (feet, optional crawl); stand-up; condition-gained / condition-ended (name); damage (amount, optional crit and damage_type); heal (amount); death-save (result: the caller-supplied d20 1-20); and ruling (nonblank note, optional schema- and adapter-model-valid state_patch). Budget events are validated against budgets and conditions. Damage folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP. Standard damage kills a monster at 0 HP; an authorized DM, including the calling agent-DM, records the SRD exception for an individual monster with a ruling that sets explicit dead false and character-style lifecycle state. Healing restores HP and, from 0, consciousness and resets death saves. A ruling is authorized DM discretion and is tagged as discretion, never as a rule. srdcheck never produces an event, advances time on its own, or generates randomness: the caller owns the loop; this is the fold.",
+  "inputSchemaPropertyRefs": {
+   "state": "state_schema.json#/schema"
+  },
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -315,19 +318,32 @@
        ]
       },
       "feet": {
-       "type": "integer"
+       "type": "integer",
+       "minimum": 0
       },
       "crawl": {
        "type": "boolean"
       },
       "spell": {
-       "type": "object"
+       "type": "object",
+       "properties": {
+        "level": {
+         "type": "integer",
+         "minimum": 0,
+         "maximum": 9
+        }
+       },
+       "required": [
+        "level"
+       ],
+       "additionalProperties": false
       },
       "concentration_on": {
        "type": "string"
       },
       "amount": {
        "type": "integer",
+       "minimum": 0,
        "description": "damage or healing amount (damage/heal events)"
       },
       "crit": {
@@ -349,7 +365,8 @@
        "type": "string"
       },
       "state_patch": {
-       "type": "object"
+       "type": "object",
+       "description": "optional partial state update for a recorded table ruling; supplied fields are validated against state_schema.json before lineage is stamped"
       }
      },
      "required": [

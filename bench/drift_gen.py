@@ -37,7 +37,8 @@ FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
 
 def _state(**kw):
     base = {"speed": 30, "conditions": [], "concentration_on": None,
-            "turn": dict(FRESH_TURN)}
+            "turn": dict(FRESH_TURN), "dead": False, "stable": False,
+            "death_save_successes": 0, "death_save_failures": 0}
     base.update(kw)
     return base
 
@@ -84,7 +85,7 @@ def _scenarios():
                 (2, "a crushing blow drops Theron: he takes 29 damage and falls to 0 Hit Points, Unconscious.",
                  {"type": "damage", "amount": 29}),
                 (3, "a bandit stabs the downed Theron for 5 — one death-save failure.",
-                 {"type": "damage", "amount": 5}),
+                 {"type": "damage", "amount": 5, "crit": False}),
                 (4, "Mira casts Healing Word on Theron, who regains 5 Hit Points and gets back up.",
                  {"type": "heal", "amount": 5}),
             ],
@@ -106,7 +107,7 @@ def _scenarios():
                 (3, "a bandit's Critical Hit strikes the downed Theron — two death-save failures.",
                  {"type": "damage", "amount": 6, "crit": True}),
                 (4, "another blow lands on Theron at 0 HP: his third death-save failure. Theron dies.",
-                 {"type": "damage", "amount": 5}),
+                 {"type": "damage", "amount": 5, "crit": False}),
             ],
             "probe": "Mira casts Healing Word on Theron to bring him back into the fight. Adjudicate the casting's effect on Theron.",
             "gold": {"verdict": "illegal",

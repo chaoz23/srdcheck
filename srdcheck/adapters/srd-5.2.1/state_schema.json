@@ -1,5 +1,5 @@
 {
- "version": "0.1",
+ "version": "0.2",
  "doctrine": "State travels; it never resides here. Every field must be read or written by a rule atom (the minimality ratchet) — see field_atoms. The lineage field is stamped by the kernel and is not game state.",
  "field_atoms": {
   "speed": ["turn.movement-budget", "condition.grappled.speed-zero", "condition.prone.movement"],
@@ -26,8 +26,8 @@
  "schema": {
   "type": "object",
   "properties": {
-   "speed": {"type": "integer"},
-   "conditions": {"type": "array", "items": {"type": "string"}},
+   "speed": {"type": "integer", "minimum": 0},
+   "conditions": {"type": "array", "items": {"type": "string", "minLength": 1}},
    "exhaustion_level": {"type": "integer", "minimum": 0, "maximum": 6},
    "concentration_on": {"type": ["string", "null"],
     "description": "name of the effect being concentrated on, or null"},
@@ -36,25 +36,44 @@
     "bonus_action_spent": {"type": "boolean"},
     "reaction_spent": {"type": "boolean"},
     "free_interaction_spent": {"type": "boolean"},
-    "movement_ft_spent": {"type": "integer"},
-    "spell_slots_spent_this_turn": {"type": "integer"}}},
-   "hp": {"type": "integer", "description": "current hit points"},
-   "hp_max": {"type": "integer", "description": "hit point maximum"},
+    "movement_ft_spent": {"type": "integer", "minimum": 0},
+    "spell_slots_spent_this_turn": {"type": "integer", "minimum": 0}},
+    "required": ["action_spent", "bonus_action_spent", "reaction_spent",
+     "free_interaction_spent", "movement_ft_spent",
+     "spell_slots_spent_this_turn"],
+    "additionalProperties": false},
+   "hp": {"type": "integer", "minimum": 0,
+    "description": "current hit points"},
+   "hp_max": {"type": "integer", "minimum": 1,
+    "description": "hit point maximum"},
    "is_monster": {"type": "boolean",
-    "description": "true = monster (dies at 0 HP); false/absent = character (falls unconscious + death saves)"},
-   "resistances": {"type": "array", "items": {"type": "string"},
+    "description": "true = monster (standard damage defaults to death at 0 HP); explicit dead false records the GM's choice to use character-style unconsciousness and death saves"},
+   "resistances": {"type": "array", "items": {"type": "string", "minLength": 1},
     "description": "damage types (or 'all') the creature has Resistance to — halved"},
-   "immunities": {"type": "array", "items": {"type": "string"},
+   "immunities": {"type": "array", "items": {"type": "string", "minLength": 1},
     "description": "damage types (or 'all') the creature has Immunity to — zeroed"},
-   "vulnerabilities": {"type": "array", "items": {"type": "string"},
+   "vulnerabilities": {"type": "array", "items": {"type": "string", "minLength": 1},
     "description": "damage types (or 'all') the creature has Vulnerability to — doubled"},
    "death_save_successes": {"type": "integer", "minimum": 0, "maximum": 3},
    "death_save_failures": {"type": "integer", "minimum": 0, "maximum": 3},
    "stable": {"type": "boolean"},
    "dead": {"type": "boolean"},
    "lineage": {"type": "object",
-    "description": "kernel-stamped transition chain metadata; not game state"}
+    "description": "kernel-stamped transition chain metadata; self commits to the game state plus every other lineage field",
+    "properties": {
+     "seq": {"type": "integer", "minimum": 1},
+     "prev": {"type": "string", "minLength": 1,
+      "description": "canonical bootstrap-state hash or the prior stamped state's lineage.self"},
+     "event": {"type": "object"},
+     "rule_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
+     "kind": {"type": "string", "enum": ["rule", "ruling"]},
+     "self": {"type": "string", "minLength": 1,
+      "description": "SHA-256 prefix over the canonical state plus seq, prev, event, rule_ids, and kind"}
+    },
+    "required": ["seq", "prev", "event", "rule_ids", "kind", "self"],
+    "additionalProperties": false}
   },
-  "required": ["speed", "conditions", "turn"]
+  "required": ["speed", "conditions", "turn"],
+  "additionalProperties": false
  }
 }
