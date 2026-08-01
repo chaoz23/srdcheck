@@ -92,12 +92,29 @@ def inspect_artifact(artifact):
 
 
 def console_entrypoints(site, platform_name=None):
-    """Return the two project.scripts launchers for a --target install."""
+    """Locate both project.scripts launchers from a ``--target`` install.
+
+    pip builds the target through its active ``home`` installation scheme, so
+    the launcher directory is not safely derivable from ``os.name`` alone.
+    Require the real launchers, but discover the two valid scheme directories
+    instead of predicting one.
+    """
     windows = (platform_name or os.name) == "nt"
-    scripts_dir = site / ("Scripts" if windows else "bin")
-    suffix = ".exe" if windows else ""
-    return (scripts_dir / f"srdcheck{suffix}",
-            scripts_dir / f"srdcheck-mcp{suffix}")
+    directories = ((site / "Scripts", site / "bin", site) if windows
+                   else (site / "bin", site / "Scripts", site))
+    suffixes = (".exe", "") if windows else ("", ".exe")
+
+    def locate(command):
+        candidates = [directory / f"{command}{suffix}"
+                      for directory in directories for suffix in suffixes]
+        for candidate in candidates:
+            if candidate.is_file():
+                return candidate
+        rendered = ", ".join(str(path) for path in candidates)
+        raise AssertionError(
+            f"installed {command} entry point is missing; checked: {rendered}")
+
+    return locate("srdcheck"), locate("srdcheck-mcp")
 
 
 def smoke(artifact):
@@ -200,9 +217,6 @@ def smoke(artifact):
         # Invoke them directly so Windows .exe wrappers and both entry-point
         # declarations are covered, not just the equivalent `python -m` paths.
         cli_entry, mcp_entry = console_entrypoints(site)
-        assert cli_entry.is_file(), "installed srdcheck entry point is missing"
-        assert mcp_entry.is_file(), "installed srdcheck-mcp entry point is missing"
-
         cli_payload = json.loads(run(
             [str(cli_entry), "jurisdiction", "Fireball"], outside,
             env=clean_env,

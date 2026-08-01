@@ -106,9 +106,37 @@ def test_artifact_directory_discovery_is_shell_independent(tmp_path):
 
 def test_console_entrypoint_paths_are_platform_specific(tmp_path):
     module = _cold_smoke_module()
-    posix = module.console_entrypoints(tmp_path, "posix")
-    windows = module.console_entrypoints(tmp_path, "nt")
-    assert posix == (tmp_path / "bin/srdcheck",
-                     tmp_path / "bin/srdcheck-mcp")
-    assert windows == (tmp_path / "Scripts/srdcheck.exe",
-                       tmp_path / "Scripts/srdcheck-mcp.exe")
+
+    posix_dir = tmp_path / "posix/bin"
+    posix_dir.mkdir(parents=True)
+    for name in ("srdcheck", "srdcheck-mcp"):
+        (posix_dir / name).touch()
+    assert module.console_entrypoints(tmp_path / "posix", "posix") == (
+        posix_dir / "srdcheck", posix_dir / "srdcheck-mcp")
+
+    windows_scripts = tmp_path / "windows-preferred/Scripts"
+    windows_scripts.mkdir(parents=True)
+    for name in ("srdcheck.exe", "srdcheck-mcp.exe"):
+        (windows_scripts / name).touch()
+    assert module.console_entrypoints(tmp_path / "windows-preferred", "nt") == (
+        windows_scripts / "srdcheck.exe",
+        windows_scripts / "srdcheck-mcp.exe")
+
+    # Hosted Windows exposed this alternate home-scheme layout.
+    windows_bin = tmp_path / "windows-home/bin"
+    windows_bin.mkdir(parents=True)
+    for name in ("srdcheck.exe", "srdcheck-mcp.exe"):
+        (windows_bin / name).touch()
+    assert module.console_entrypoints(tmp_path / "windows-home", "nt") == (
+        windows_bin / "srdcheck.exe", windows_bin / "srdcheck-mcp.exe")
+
+
+def test_console_entrypoint_discovery_fails_closed(tmp_path):
+    module = _cold_smoke_module()
+    try:
+        module.console_entrypoints(tmp_path, "nt")
+    except AssertionError as exc:
+        assert "installed srdcheck entry point is missing" in str(exc)
+        assert "Scripts" in str(exc) and "bin" in str(exc)
+    else:
+        raise AssertionError("missing console entry points were accepted")
