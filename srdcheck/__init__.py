@@ -3,7 +3,6 @@
 Kernel package: content-neutral (truth T7). Rule content lives in adapters.
 """
 
-
 def _detect_version():
     """The single source of engine version truth.
 
@@ -37,7 +36,7 @@ def _detect_version():
 __version__ = _detect_version()
 
 from .access import (  # noqa: E402,F401
-    AdapterHandle, available_adapters, edition_check, load_adapter,
+    AdapterHandle, available_adapters, capabilities, edition_check, load_adapter,
 )
 from .verdict import (  # noqa: F401
     CANNOT_ADJUDICATE, ILLEGAL, LEGAL,

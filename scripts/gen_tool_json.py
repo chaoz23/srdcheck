@@ -42,6 +42,8 @@ def build():
             "the loaded adapters; see query_types below."),
         "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
         "--schema": "Print JSON Schema for input and output.",
+        "capabilities": ("Print engine, protocol, adapter versions/digests, "
+                         "query types, and MCP tool names."),
     }
     return {
         "name": "srdcheck",

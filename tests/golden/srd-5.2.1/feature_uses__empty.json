@@ -1,8 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.0",
  "citations": [],
+ "data": {
+  "validation_errors": [
+   "$.feature: required field is missing"
+  ]
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",
- "why": "feature must be one of ['divine-sense', 'lay-on-hands']; use-count tables (not formulas) are out of scope."
+ "why": "Invalid input; correct the request before adjudication: $.feature: required field is missing"
 }

@@ -28,7 +28,7 @@ def test_move_legality():
     assert move("X........", "O", 2).exit_code == 0
     assert move("XXX...OO.", "O", 9).exit_code == 1      # game already won
     assert move("XOXXOXOXO", "X", 1).exit_code == 1      # full board (draw)
-    assert move(".........", "X", 12).exit_code == 1     # off the grid
+    assert move(".........", "X", 12).exit_code == 2     # malformed: off the grid
 
 
 def test_honest_edges():

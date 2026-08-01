@@ -9,7 +9,8 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from srdcheck.mcp import Server  # noqa: E402
+from srdcheck import __version__  # noqa: E402
+from srdcheck.mcp import PROTOCOL_VERSION, Server  # noqa: E402
 
 
 def rpc(method, params=None, mid=1):
@@ -19,10 +20,27 @@ def rpc(method, params=None, mid=1):
     return m
 
 
+def init_params(version=PROTOCOL_VERSION):
+    return {
+        "protocolVersion": version,
+        "capabilities": {},
+        "clientInfo": {"name": "srdcheck-tests", "version": "1.0"},
+    }
+
+
+def ready_server():
+    server = Server()
+    assert "result" in server.handle(rpc("initialize", init_params()))
+    assert server.handle({"jsonrpc": "2.0",
+                          "method": "notifications/initialized"}) is None
+    return server
+
+
 def test_handshake_and_tool_list():
     s = Server()
-    init = s.handle(rpc("initialize", {"protocolVersion": "2025-06-18"}))
+    init = s.handle(rpc("initialize", init_params()))
     assert init["result"]["serverInfo"]["name"] == "srdcheck"
+    assert init["result"]["serverInfo"]["version"] == __version__
     assert s.handle({"jsonrpc": "2.0",
                      "method": "notifications/initialized"}) is None
     tools = s.handle(rpc("tools/list"))["result"]["tools"]
@@ -36,14 +54,22 @@ def test_handshake_and_tool_list():
                      "ttt_move", "ttt_options"}
     for t in tools:
         assert t["description"] and t["inputSchema"]["type"] == "object"
+        assert t["outputSchema"]["required"] == [
+            "verdict", "exit_code", "why", "citations", "rule_ids", "adapter"]
 
 
 def test_tool_calls_return_verdicts():
-    s = Server()
+    s = ready_server()
     r = s.handle(rpc("tools/call", {"name": "jurisdiction",
                                     "arguments": {"name": "Fireball"}}))
     sc = r["result"]["structuredContent"]
     assert sc["exit_code"] == 0 and not r["result"]["isError"]
+
+    r = s.handle(rpc("tools/call", {"name": "jurisdiction",
+                                    "arguments": {"name": "Fireball", "typo": True}}))
+    sc = r["result"]["structuredContent"]
+    assert sc["exit_code"] == 2
+    assert sc["data"]["unknown_fields"] == ["typo"]
 
     r = s.handle(rpc("tools/call", {
         "name": "turn_plan",
@@ -61,11 +87,77 @@ def test_tool_calls_return_verdicts():
     assert r["error"]["code"] == -32601
 
 
+def test_protocol_negotiation_and_invalid_envelopes():
+    s = Server()
+    assert s.handle(rpc("tools/list"))["error"]["code"] == -32002
+    assert "result" in s.handle(rpc("ping"))
+    assert s.handle(rpc("initialize", {"protocolVersion": PROTOCOL_VERSION}))[
+        "error"]["code"] == -32602
+    init = s.handle(rpc("initialize", init_params("1900-01-01")))
+    assert init["result"]["protocolVersion"] == PROTOCOL_VERSION
+    assert s.handle(rpc("notifications/initialized"))["error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "2.0",
+                     "method": "notifications/initialized"}) is None
+    assert s.handle(rpc("initialize", init_params()))["error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "2.0", "method": "notifications/cancelled",
+                     "params": {"requestId": 99}}) is None
+    assert s.handle(rpc("notifications/cancelled", {"requestId": 99}))[
+        "error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "2.0", "method": "tools/list"}) is None
+    assert s.handle({"jsonrpc": "2.0", "method": "tools/call",
+                     "params": {"name": "jurisdiction",
+                                "arguments": {"name": "Fireball"}}}) is None
+    assert s.handle([])["error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "1.0", "id": 1, "method": "ping"})["error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "2.0", "id": None, "method": "ping"})[
+        "error"]["code"] == -32600
+    assert s.handle({"jsonrpc": "2.0", "id": True, "method": "ping"})[
+        "error"]["code"] == -32600
+    assert s.handle(rpc("tools/call", [], mid=2))["error"]["code"] == -32602
+    assert s.handle(rpc("tools/list", [], mid=4))["error"]["code"] == -32602
+    assert s.handle(rpc("tools/call", {"name": "turn_plan", "arguments": []}, mid=3))["error"]["code"] == -32602
+
+
+def test_stdio_returns_parse_error_for_bad_json():
+    import io
+    out = io.StringIO()
+    Server().serve(io.StringIO("not-json\n"), out)
+    response = json.loads(out.getvalue())
+    assert response["id"] is None
+    assert response["error"]["code"] == -32700
+
+
+def test_internal_exception_is_sanitized():
+    s = ready_server()
+    s.engine.query = lambda *_: (_ for _ in ()).throw(RuntimeError("secret detail"))
+    response = s.handle(rpc("tools/call", {
+        "name": "turn_plan", "arguments": {"speed": 30, "plan": []}}))
+    text = response["result"]["content"][0]["text"]
+    assert response["result"]["isError"]
+    assert "secret detail" not in text
+
+
+def test_invalid_internal_output_is_sanitized():
+    class BrokenVerdict:
+        @staticmethod
+        def as_dict():
+            return {"exit_code": 0, "private": "must not escape"}
+
+    s = ready_server()
+    s.engine.query = lambda *_: BrokenVerdict()
+    response = s.handle(rpc("tools/call", {
+        "name": "turn_plan", "arguments": {"speed": 30, "plan": []}}))
+    text = response["result"]["content"][0]["text"]
+    assert response["result"]["isError"]
+    assert text == "internal output validation failed"
+    assert "private" not in text
+
+
 def test_stdio_subprocess_end_to_end():
     proc = subprocess.Popen(
         [sys.executable, "-m", "srdcheck.mcp"],
         stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, cwd=ROOT)
-    msgs = [rpc("initialize", {"protocolVersion": "2025-06-18"}, mid=1),
+    msgs = [rpc("initialize", init_params(), mid=1),
             {"jsonrpc": "2.0", "method": "notifications/initialized"},
             rpc("tools/list", mid=2),
             rpc("tools/call", {"name": "attack_modifiers",

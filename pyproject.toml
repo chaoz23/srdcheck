@@ -35,7 +35,7 @@ markers = [
 ]
 
 [tool.setuptools]
-packages = ["srdcheck"]
+packages = ["srdcheck", "srdcheck.scaffold", "srdcheck.adapters"]
 
 [tool.setuptools.package-data]
 # *.txt carries the extracted CC-BY-4.0 SRD source text. It is REQUIRED at

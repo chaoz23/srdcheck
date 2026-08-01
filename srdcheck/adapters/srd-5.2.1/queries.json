@@ -43,7 +43,8 @@
       "spell_slots_this_turn": {
        "type": "integer"
       }
-     }
+     },
+     "additionalProperties": false
     },
     "plan": {
      "type": "array",
@@ -78,12 +79,14 @@
           "type": "integer",
           "description": "0 = cantrip (no slot); >0 expends a slot"
          }
-        }
+        },
+        "additionalProperties": false
        }
       },
       "required": [
        "do"
-      ]
+      ],
+      "additionalProperties": false
      }
     }
    },
@@ -196,7 +199,8 @@
        "type": "boolean",
        "description": "caller fact: can the Frightened attacker see the source of its fear (defaults true)"
       }
-     }
+     },
+     "additionalProperties": false
     },
     "target": {
      "type": "object",
@@ -221,7 +225,8 @@
        "type": "boolean",
        "description": "caller fact: the target is the creature that Charmed the attacker"
       }
-     }
+     },
+     "additionalProperties": false
     },
     "distance_ft": {
      "type": "integer"
@@ -245,7 +250,8 @@
          "type": "string"
         }
        }
-      }
+      },
+      "additionalProperties": false
      }
     }
    },
@@ -290,6 +296,7 @@
      "type": "object",
      "properties": {
       "type": {
+       "type": "string",
        "enum": [
         "turn-start",
         "round-advance",
@@ -347,7 +354,8 @@
      },
      "required": [
       "type"
-     ]
+     ],
+     "additionalProperties": false
     }
    },
    "required": [
@@ -398,11 +406,8 @@
      "maximum": 20
     },
     "difficulty": {
-     "enum": [
-      "low",
-      "moderate",
-      "high"
-     ]
+     "type": "string",
+     "description": "low, moderate, or high (case-insensitive)"
     },
     "party_size": {
      "type": "integer"

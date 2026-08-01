@@ -36,7 +36,7 @@ def test_cold_start_via_tool_json():
     probe = sub.replace("<name>", shlex.quote("Anything At All"))
     r = run_cmd(f"{base} {probe}")
     verdict = json.loads(r.stdout)
-    for field in schema["output"]["properties"]:
+    for field in schema["output"]["required"]:
         assert field in verdict, field
     assert r.returncode == verdict["exit_code"]
     assert r.returncode in (0, 2)
@@ -51,7 +51,11 @@ def test_cold_start_via_mcp():
     if cmd[0].startswith("python"):
         cmd[0] = sys.executable
     msgs = [{"jsonrpc": "2.0", "id": 1, "method": "initialize",
-             "params": {"protocolVersion": "2025-06-18"}},
+             "params": {
+                 "protocolVersion": "2025-06-18",
+                 "capabilities": {},
+                 "clientInfo": {"name": "bootstrap-test", "version": "1.0"},
+             }},
             {"jsonrpc": "2.0", "method": "notifications/initialized"},
             {"jsonrpc": "2.0", "id": 2, "method": "tools/list"}]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE,

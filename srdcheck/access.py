@@ -17,6 +17,7 @@ new versions slot in without a breaking change.
     a.query(query_type, params)     # run a query; returns a verdict dict
 """
 
+import hashlib
 import json
 import pathlib
 
@@ -42,6 +43,54 @@ def default_adapter_paths():
         if m.exists() and json.loads(m.read_text()).get("default_load", True):
             out.append(p)
     return out
+
+
+def _adapter_digest(root):
+    digest = hashlib.sha256()
+    included = {"manifest.json", "entities.json", "queries.json",
+                "spell_facts.json", "state_schema.json",
+                "handlers.py"}
+    paths = [p for p in root.rglob("*")
+             if p.is_file() and (p.name in included or "atoms" in p.parts
+                                 or ("sources" in p.parts and p.suffix == ".txt"))]
+    for path in sorted(paths):
+        digest.update(str(path.relative_to(root)).encode())
+        digest.update(b"\0")
+        digest.update(path.read_bytes())
+        digest.update(b"\0")
+    return digest.hexdigest()
+
+
+def capabilities():
+    """Machine-readable engine and bundled-adapter capability contract."""
+    from . import __version__
+    from .mcp import PROTOCOL_VERSION, SUPPORTED_PROTOCOL_VERSIONS
+    adapters = []
+    tool_names = {"jurisdiction"}
+    for identifier in available_adapters():
+        root = ADAPTERS_DIR / identifier
+        manifest = json.loads((root / "manifest.json").read_text())
+        queries_path = root / "queries.json"
+        queries = json.loads(queries_path.read_text()) if queries_path.exists() else {}
+        if manifest.get("default_load", True):
+            tool_names.update(q.replace(".", "_").replace("-", "_") for q in queries)
+        adapters.append({
+            "identifier": identifier,
+            "name": manifest["name"],
+            "version": manifest["version"],
+            "ruleset": manifest.get("ruleset", ""),
+            "default_load": manifest.get("default_load", True),
+            "digest": _adapter_digest(root),
+            "query_types": sorted(queries),
+        })
+    return {
+        "schema_version": "1.0",
+        "engine": {"name": "srdcheck", "version": __version__},
+        "mcp_protocol_version": PROTOCOL_VERSION,
+        "mcp_supported_protocol_versions": list(SUPPORTED_PROTOCOL_VERSIONS),
+        "adapters": adapters,
+        "mcp_tools": sorted(tool_names),
+    }
 
 
 def load_adapter(identifier):

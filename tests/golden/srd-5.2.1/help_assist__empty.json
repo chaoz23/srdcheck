@@ -1,26 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.0",
- "citations": [
-  {
-   "page": 182,
-   "quote": "Choose one of your skill or tool proficiencies and one ally who is near",
-   "section": "SRD 5.2.1 p.182 'Rules Glossary > Help [Action] > Assist an Ability Check'"
-  },
-  {
-   "page": 183,
-   "quote": "That ally has Advantage on the next ability check they make with the chosen skill or tool. This benefit expires if the ally doesn't use it before the start of your next turn. The GM has final say on whether your assistance is possible.",
-   "section": "SRD 5.2.1 p.183 'Rules Glossary > Help [Action] > Assist an Ability Check'"
-  }
- ],
+ "citations": [],
  "data": {
-  "gm_discretion": true,
-  "grants_advantage": true
+  "validation_errors": [
+   "$.kind: required field is missing"
+  ]
  },
- "exit_code": 0,
- "rule_ids": [
-  "help.assist-choose-proficiency",
-  "help.assist-ability-advantage"
- ],
- "verdict": "legal",
- "why": "The ally has Advantage on their next ability check with the chosen skill or tool (expires at the start of your next turn). The GM has final say on whether the assistance is possible."
+ "exit_code": 2,
+ "rule_ids": [],
+ "verdict": "cannot-adjudicate",
+ "why": "Invalid input; correct the request before adjudication: $.kind: required field is missing"
 }

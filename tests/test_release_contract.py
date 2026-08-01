@@ -1,0 +1,76 @@
+"""Release truth: installed data, versions, capabilities, and metadata agree."""
+
+import json
+import pathlib
+import re
+import tomllib
+
+import srdcheck
+from srdcheck.access import capabilities, default_adapter_paths
+from srdcheck.engine import Engine
+from srdcheck.mcp import SERVER_INFO
+
+ROOT = pathlib.Path(__file__).resolve().parents[1]
+
+
+def test_packaged_source_text_supports_citations():
+    adapter = ROOT / "srdcheck" / "adapters" / "srd-5.2.1"
+    source_page = adapter / "sources" / "text" / "page-116.txt"
+    assert source_page.exists()
+    assert "The target spends its turn moving away" in source_page.read_text()
+    verdict = Engine(default_adapter_paths()).cite("Command")
+    assert verdict.exit_code == 0
+    assert verdict.data["page"] == 116
+    assert "The target spends its turn moving away" in verdict.data["text"]
+
+
+def test_engine_version_is_canonical_everywhere():
+    assert SERVER_INFO["version"] == srdcheck.__version__
+    server = json.loads((ROOT / "server.json").read_text())
+    assert server["version"] == srdcheck.__version__
+    assert {package["version"] for package in server["packages"]} == {srdcheck.__version__}
+    project = tomllib.loads((ROOT / "pyproject.toml").read_text())
+    assert project["project"]["version"] == srdcheck.__version__
+    assert f"Status: v{srdcheck.__version__}" in (ROOT / "README.md").read_text()
+
+
+def test_documented_adapter_versions_match_manifest():
+    manifest = json.loads((ROOT / "srdcheck" / "adapters" / "srd-5.2.1" /
+                           "manifest.json").read_text())
+    examples = "\n".join((ROOT / path).read_text() for path in (
+        "README.md", "docs/anatomy-of-a-turn.md"))
+    versions = set(re.findall(r'"adapter": "srd-5\.2\.1@([^"]+)"', examples))
+    assert versions == {manifest["version"]}
+
+
+def test_capabilities_distinguish_engine_and_adapters():
+    value = capabilities()
+    assert value["schema_version"] == "1.0"
+    assert value["engine"] == {"name": "srdcheck", "version": srdcheck.__version__}
+    adapters = {item["identifier"]: item for item in value["adapters"]}
+    assert adapters["srd-5.2.1"]["version"] == "0.2.0"
+    assert len(adapters["srd-5.2.1"]["digest"]) == 64
+    assert "turn_plan" in value["mcp_tools"]
+
+
+def test_tool_metadata_matches_live_capabilities():
+    tool = json.loads((ROOT / "tool.json").read_text())
+    assert tool["version"] == srdcheck.__version__
+    assert set(tool["mcp"]["tools"]) == set(capabilities()["mcp_tools"])
+    assert "capabilities" in tool["invocation"]["subcommands"]
+
+
+def test_release_tag_identity_guard():
+    import importlib.util
+    path = ROOT / "scripts" / "verify_release_identity.py"
+    spec = importlib.util.spec_from_file_location("verify_release_identity", path)
+    module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(module)
+    assert module.engine_version() == srdcheck.__version__
+    module.verify_tag(f"v{srdcheck.__version__}", srdcheck.__version__)
+    try:
+        module.verify_tag("v999.0.0", srdcheck.__version__)
+    except SystemExit as error:
+        assert "does not match" in str(error)
+    else:
+        raise AssertionError("mismatched release tag was accepted")

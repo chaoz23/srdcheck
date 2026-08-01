@@ -1,8 +1,15 @@
 {
  "adapter": "toy-tictactoe@0.1.0",
  "citations": [],
+ "data": {
+  "validation_errors": [
+   "$.board: required field is missing",
+   "$.player: required field is missing",
+   "$.cell: required field is missing"
+  ]
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",
- "why": "ttt.move needs board, player and cell."
+ "why": "Invalid input; correct the request before adjudication: $.board: required field is missing; $.player: required field is missing; $.cell: required field is missing"
 }

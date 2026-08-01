@@ -1,8 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.0",
  "citations": [],
+ "data": {
+  "validation_errors": [
+   "$.name: required field is missing"
+  ]
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",
- "why": "'None' is not a registered SRD 5.2.1 spell name."
+ "why": "Invalid input; correct the request before adjudication: $.name: required field is missing"
 }
