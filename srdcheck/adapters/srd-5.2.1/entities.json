@@ -2391,5 +2391,11 @@
   "Savage Attacker",
   "Skilled",
   "Two-Weapon Fighting"
+ ],
+ "background": [
+  "Acolyte",
+  "Criminal",
+  "Sage",
+  "Soldier"
  ]
 }

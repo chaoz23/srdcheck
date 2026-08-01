@@ -36,8 +36,9 @@ def negotiate_protocol(requested):
 JURISDICTION_TOOL = {
     "name": "jurisdiction",
     "description": ("Look up whether a named entity exists in the loaded "
-                    "rulesets' content registries. exit_code 0 = registered "
-                    "content; 2 = unknown or "
+                    "rulesets' content registries. exit_code 0 = known "
+                    "content (all matching categories in data.categories); "
+                    "2 = unknown or "
                     "third-party content, honestly refused."),
     "inputSchema": JURISDICTION_INPUT_SCHEMA,
     "outputSchema": VERDICT_OUTPUT_SCHEMA,

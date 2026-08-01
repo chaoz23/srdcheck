@@ -29,9 +29,11 @@ class Engine:
         for a in self.adapters:
             cats = a.lookup_entity(name)
             if cats:
+                categories = sorted(set(cats))
                 return v.legal(
-                    f"'{name}' is known content: {', '.join(sorted(set(cats)))}.",
-                    adapter=a.id)
+                    f"'{name}' is known content: {', '.join(categories)}.",
+                    adapter=a.id,
+                    data={"categories": categories})
         known = ", ".join(a.id for a in self.adapters)
         return v.cannot_adjudicate(
             f"'{name}' is not present in any loaded ruleset ({known}). "

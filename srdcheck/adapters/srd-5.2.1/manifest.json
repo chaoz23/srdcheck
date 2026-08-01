@@ -1,7 +1,7 @@
 {
  "name": "srd-5.2.1",
  "version": "0.2.1",
- "data_version": "0.2.0",
+ "data_version": "0.2.1",
  "rules_version": "0.2.1",
  "ruleset": "System Reference Document 5.2.1 (2024 rules)",
  "source": {

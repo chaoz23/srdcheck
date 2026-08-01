@@ -18,6 +18,18 @@ def test_scaffold_creates_skeleton(tmp_path):
     assert all(s["inputSchema"]["additionalProperties"] is False for s in q.values())
 
 
+def test_conformance_checks_the_supplied_adapter_root(tmp_path):
+    """A third-party root must not fall back to a bundled adapter by id."""
+    from srdcheck.scaffold import new_adapter
+    import json, pathlib
+    d = pathlib.Path(new_adapter("external-rules", str(tmp_path)))
+    (d / "entities.json").write_text(json.dumps({
+        "role": ["Guide"],
+        "title": ["Guide"],
+    }))
+    assert check("external-rules", tmp_path) == []
+
+
 def test_golden_corpus_holds():
     import subprocess, sys
     r = subprocess.run([sys.executable, "scripts/build_golden.py", "--check"],

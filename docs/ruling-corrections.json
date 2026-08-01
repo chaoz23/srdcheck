@@ -28,7 +28,7 @@
    "corrected_in": {
     "engine_version": "0.6.0",
     "adapter_version": "0.2.1",
-    "data_version": "0.2.0",
+    "data_version": "0.2.1",
     "rules_version": "0.2.1"
    },
    "public_notice": "Earlier releases could return legal when required Opportunity Attack, Help, or Grapple/Shove facts were omitted, and reaction.available did not apply conditions that include Incapacitated. Version 0.6.0 refuses missing prerequisite facts and applies the cited condition embeds.",

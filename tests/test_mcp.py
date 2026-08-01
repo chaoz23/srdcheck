@@ -64,6 +64,7 @@ def test_tool_calls_return_verdicts():
                                     "arguments": {"name": "Fireball"}}))
     sc = r["result"]["structuredContent"]
     assert sc["exit_code"] == 0 and not r["result"]["isError"]
+    assert sc["data"]["categories"] == ["spell"]
 
     r = s.handle(rpc("tools/call", {"name": "jurisdiction",
                                     "arguments": {"name": "Fireball", "typo": True}}))

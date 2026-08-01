@@ -51,6 +51,25 @@ def test_creature_registry_is_complete():
         f"{anchors} stat blocks")
 
 
+def test_background_registry_matches_the_pinned_pdf_outline():
+    """Independent census: the PDF outline enumerates background children.
+
+    The registry builder parses description blocks from page text; checking the
+    separately extracted outline catches silent drops and accidental additions.
+    """
+    outline = json.loads((TEXT.parent / "index.json").read_text())
+    parent = next(i for i, entry in enumerate(outline)
+                  if entry["title"] == "Character Backgrounds")
+    depth = outline[parent]["depth"]
+    names = []
+    for entry in outline[parent + 1:]:
+        if entry["depth"] <= depth:
+            break
+        if entry["depth"] == depth + 1:
+            names.append(entry["title"])
+    assert REG["background"] == sorted(names)
+
+
 def test_conditions_match_the_enumerated_glossary_list():
     p179 = (TEXT / "page-179.txt").read_text()
     m = re.search(r"defines these conditions:\s*(.*?)\s*A condition doesn",

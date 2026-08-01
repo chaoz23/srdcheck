@@ -32,8 +32,8 @@ def build():
                 for a in engine.adapters]
     subcommands = {
         "jurisdiction <name>": (
-            "Is this spell/creature/condition/action known to the loaded "
-            "rulesets? exit 0 = registered content; "
+            "Is this named entity known to the loaded rulesets? exit 0 = "
+            "known content (all matching categories in data.categories); "
             "exit 2 = unknown/third-party content."),
         "cite <heading>": (
             "Verbatim, page-numbered source text for a named SRD heading. "

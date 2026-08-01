@@ -38,9 +38,10 @@ def test_unknown_adapter_raises_helpfully():
 def test_generic_category_access():
     a = srdcheck.load_adapter("srd-5.2.1")
     cats = a.categories()
-    assert {"creature", "spell", "condition"} <= set(cats)
+    assert {"creature", "spell", "condition", "background"} <= set(cats)
     names = a.names("creature")
     assert "Goblin Warrior" in names and len(names) >= 320
+    assert a.names("background") == ["Acolyte", "Criminal", "Sage", "Soldier"]
 
 
 def test_record_access_and_query_bridge():
