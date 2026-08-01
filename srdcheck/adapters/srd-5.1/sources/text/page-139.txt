@@ -1,0 +1,101 @@
+System	  Reference	   Document	  5.1 	   139	  
+• You	  create	  an	  instantaneous,	  harmless	  sensory
+effect,	  such	  as	  falling	  leaves,	  a	  puff	  of	  wind,	  th e
+sound	  of	  a	  small	  animal,	  or	  the	  faint	  odor	  of	  skunk.
+The	  effect	  must	  fit	  in	  a	  5 -­‐‑foot	  cube.
+• You	  instantly	  light	  or	  snuff	  out	  a	  candle,	  a	  torch,	  or
+a	  small	  campfire.
+Earthquake 
+8th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  500	  feet	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  dirt,	  a	  piece	  of	  rock,	  
+and	  a	  lump	  of	  clay) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  create	  a	  seismic	  disturbance	  at	  a	  point	  on	  the	  
+ground	  that	  you	  can	  see	  within	  range.	  For	  the	  
+duration,	  an	  intense	  tremor	  rips	  through	  the	  ground	  
+in	  a	  100-­‐‑foot-­‐‑radius	  circle	  centered	  on	  that	  point	  
+and	  shakes	  creatures	  and	  structures	  in	  contact	  with	  
+the	  ground	  in	  that	  area.	  
+	   The	  ground	  in	  the	  area	  becomes	  difficult	  terrain.	  
+Each	  creature	  on	  the	  ground	  that	  is	  concentrating	  
+must	  make	  a	  Constitution	  saving	  throw.	  On	   a	  failed	  
+save,	  the	  creature’s	  concentration	  is	  broken. 	  
+	   When	  you	  cast	  this	  spell	  and	  at	  the	  end	  of	  each	  
+turn	  you	  spend	  concentrating	  on	  it,	  each	  creature	  on	  
+the	  ground	  in	  the	  area	  must	  make	  a	  Dexterity	  saving	  
+throw.	  On	  a	  failed	  save,	  the	  creature	  is	  knocke d	  
+prone.	  
+	   This	  spell	  can	  have	  additional	  effects	  depending	  
+on	  the	  terrain	  in	  the	  area,	  as	  determined	  by	  the	  GM. 	  
+	   Fissures.	  Fissures	  open	  throughout	  the	  spell’s	  
+area	  at	  the	  start	  of	  your	  next	  turn	  after	  you	  cast	  the	  
+spell.	  A	  total	  of	  1d6	  such	  fissures	  open	   in	  locations	  
+chosen	  by	  the	  GM.	  Each	  is	  1d10	  ×	  10	  feet	  deep,	  10	  
+feet	  wide,	  and	  extends	  from	  one	  edge	  of	  the	  spell’s	  
+area	  to	  the	  opposite	  side.	  A	  creature	  standing	  on	  a	  
+spot	  where	  a	  fissure	  opens	  must	  succeed	  on	  a	  
+Dexterity	  saving	  throw	  or	  fall	  in.	  A	  creatur e	  that	  
+successfully	  saves	  moves	  with	  the	  fissure’s	  edge	  as	  it	  
+opens.	  
+	   A	  fissure	  that	  opens	  beneath	  a	  structure	  causes	  it	  
+to	  automatically	  collapse	  (see	  below). 	  
+	   Structures.	  The	  tremor	  deals	  50	  bludgeoning	  
+damage	  to	  any	  structure	  in	  contact	  with	  the	  ground	  
+in	  the	  area	  when	  you	  cast	  the	  spell	  and	  at	  the	  start	  of	  
+each	  of	  your	  turns	  until	  the	  spell	  ends.	  If	  a	  structure	  
+drops	  to	  0	  hit	  points,	  it	  collapses	  and	  potentially	  
+damages	  nearby	  creatures.	  A	  creature	  within	  half	  the	  
+distance	  of	  a	  structure’s	  height	  must	  m ake	  a	  
+Dexterity	  saving	  throw.	  On	  a	  failed	  save,	  the	  creature	  
+takes	  5d6	  bludgeoning	  damage,	  is	  knocked	  prone,	  
+and	  is	  buried	  in	  the	  rubble,	  requiring	  a	  DC	  20	  
+Strength	  (Athletics)	  check	  as	  an	  action	  to	  escape.	  
+The	  GM	  can	  adjust	  the	  DC	  higher	  or	  lower,	  
+depending	  on	  the	  nature	  of	  the	  rubble.	  On	  a	  
+successful	  save,	  the	  creature	  takes	  half	  as	  much	  
+damage	  and	  doesn’t	  fall	  prone	  or	  become	  buried. 	  
+Eldritch Blast 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+A	  beam	  of	  crackling	  energy	  streaks	  toward	  a	  
+creature	  within	  range.	  Make	  a	  ranged	  spell	  attack	  
+against	  the	  target.	  On	  a	  hit,	  the	  target	  takes	  1d10	  
+force	  damage.	  
+	   The	  spell	  creates	  more	  than	  one	  beam	  when	  you	  
+reach	  higher	  levels:	  two	  beams	  at	  5th	  level,	  three	  
+beams	  at	  11th	  level,	  and	  four	  beams	  at	  17th	  level.	  
+You	  can	  direct	  the	  beams	  at	  the	  same	  target	  or	  at	  
+different	  ones.	  Make	  a	  separate	  attack	  roll	  for	  each	  
+beam.	  
+Enhance Ability 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (fur	  or	  a	  feather	  from	  a	  beast) 	  
+Duration:	  Concentration,	  up	  to	  1	  hour. 	  
+You	  touch	  a	  creature	  and	  bestow	  upon	  it	  a	  magical	  
+enhancement.	  Choose	  one	  of	  the	  following	  effects;	  
+the	  target	  gains	  that	  effect	  until	  the	  spell	  ends. 	  
+	   Bear’s	  Endurance .	  The	  target	  has	  advanta ge	  on	  
+Constitution	  checks.	  It	  also	  gains	  2d6	  temporary	  hit	  
+points,	  which	  are	  lost	  when	  the	  spell	  ends. 	  
+	   Bull’s	  Strength .	  The	  target	  has	  advantage	  on	  
+Strength	  checks,	  and	  his	  or	  her	  carrying	  capacity	  
+doubles.	  
+	   Cat’s	  Grace.	  The	  target	  has	  advantage	  on	  Dexter ity	  
+checks.	  It	  also	  doesn’t	  take	  damage	  from	  falling	  20	  
+feet	  or	  less	  if	  it	  isn’t	  incapacitated. 	  
+	   Eagle’s	  Splendor .	  The	  target	  has	  advantage	  on	  
+Charisma	  checks. 	  
+	   Fox’s	  Cunning .	  The	  target	  has	  advantage	  on	  
+Intelligence	  checks. 	  
+	   Owl’s	  Wisdom .	  The	  target	  has	  a dvantage	  on	  
+Wisdom	  checks. 	  
+	   At	  Higher	  Levels .	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  you	  can	  target	  one	  
+additional	  creature	  for	  each	  slot	  level	  above	  2nd. 	  

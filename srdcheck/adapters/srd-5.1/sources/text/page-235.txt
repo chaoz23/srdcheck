@@ -1,0 +1,93 @@
+System	  Reference	   Document	  5.1 	   235	  
+Potion of Resistance 
+Potion,	  uncommon 	  
+When	  you	  drink	  this	  potion,	  you	  gain	  resistance	  to	  
+one	  type	  of	  damage	  for	  1	  hour.	  The	  GM	  chooses	  the	  
+type	  or	  determines	  it	  ra ndomly	  from	  the	  options	  
+below.	  
+d10	   Damage	  Type	   d10	   Damage	  Type	  
+1	   Acid	   6	   Necrotic	  
+2	   Cold	   7	   Poison	  
+3	   Fire	   8	   Psychic	  
+4	   Force	   9	   Radiant	  
+5	   Lightning	   10	   Thunder	  
+Potion of Speed 
+Potion,	  very	  rare 	  
+When	  you	  drink	  this	  potion,	  you	  gain	  the	  effect	  of	  the	  
+haste	  spell	  for	  1	  minute	  (no	  concentration	  required).	  
+The	  potion’s	  yellow	  fluid	  is	  streaked	  with	  black	  and	  
+swirls	  on	  its	  own. 	  
+Potion of Water Breathing 
+Potion,	  uncommon 	  
+You	  can	  breathe	  underwater	  for	  1	  hour	  after	  
+drinking	  this	  potion.	  Its	  cloudy	  green	  flui d	  smells	  of	  
+the	  sea	  and	  has	  a	  jellyfish -­‐‑like	  bubble	  floating	  in	  it. 	  
+Restorative Ointment 
+Wondrous	  item,	  uncommon 	  
+This	  glass	  jar,	  3	  inches	  in	  diameter,	  contains	  1d4	  +	  1	  
+doses	  of	  a	  thick	  mixture	  that	  smells	  faintly	  of	  aloe.	  
+The	  jar	  and	  its	  contents	  weigh	  1/2 	  pound.	  
+	   As	  an	  action,	  one	  dose	  of	  the	  ointment	  can	  be	  
+swallowed	  or	  applied	  to	  the	  skin.	  The	  creature	  that	  
+receives	  it	  regains	  2d8	  +	  2	  hit	  points,	  ceases	  to	  be	  
+poisoned,	  and	  is	  cured	  of	  any	  disease. 	  
+Ring of Animal Influence 
+Ring,	  rare	  
+This	  ring	  has	  3	  charg es,	  and	  it	  regains	  1d3	  expended	  
+charges	  daily	  at	  dawn.	  While	  wearing	  the	  ring,	  you	  
+can	  use	  an	  action	  to	  expend	  1	  of	  its	  charges	  to	  cast	  
+one	  of	  the	  following	  spells: 	  
+• Animal	  friendship 	  (save	  DC	  13)
+• Fear	  (save	  DC	  13),	  targeting	  only	  beasts	  that	  have
+an	  Intelligence	  of	  3	  or	  lower
+• Speak	  with	  animals
+Ring of Djinni Summoning 
+Ring,	  legendary	  (requires	  attunement) 	  
+While	  wearing	  this	  ring,	  you	  can	  speak	  its	  command	  
+word	  as	  an	  action	  to	  summon	  a	  particular	  djinni	  
+from	  the	  Elemental	  Plane	  of	  Air.	  The	  djinni	  appears	  
+in	  an	  unoccupied	  space	  you	  choose	  within	  120	  feet	  
+of	  you.	  It	  remains	  as	  long	  as	  you	  concentrate	  (as	  if	  
+concentrating	  on	  a	  spell),	  to	  a	  maximum	  of	  1	  hour,	  or	  
+until	  it	  drops	  to	  0	  hit	  points.	  It	  then	  returns	  to	  its	  
+home	  plane.	  
+	   While	  summoned,	  the	  djinni	  is	  fri endly	  to	  you	  and	  
+your	  companions.	  It	  obeys	  any	  commands	  you	  give	  it,	  
+no	  matter	  what	  language	  you	  use.	  If	  you	  fail	  to	  
+command	  it,	  the	  djinni	  defends	  itself	  against	  
+attackers	  but	  takes	  no	  other	  actions. 	  
+	   After	  the	  djinni	  departs,	  it	  can’t	  be	  summoned	  
+again	  for	  24	  hours,	  and	  the	  ring	  becomes	  nonmagical	  
+if	  the	  djinni	  dies. 	  
+Ring of Elemental Command 
+Ring,	  legendary	  (requires	  attunement) 	  
+This	  ring	  is	  linked	  to	  one	  of	  the	  four	  Elemental	  
+Planes.	  The	  GM	  chooses	  or	  randomly	  determines	  the	  
+linked	  plane.	  
+	   While	  wearing 	  this	  ring,	  you	  have	  advantage	  on	  
+attack	  rolls	  against	  elementals	  from	  the	  linked	  plane,	  
+and	  they	  have	  disadvantage	  on	  attack	  rolls	  against	  
+you.	  In	  addition,	  you	  have	  access	  to	  properties	  based	  
+on	  the	  linked	  plane. 	  
+	   The	  ring	  has	  5	  charges.	  It	  regains	  1d4	  + 	  1	  
+expended	  charges	  daily	  at	  dawn.	  Spells	  cast	  from	  the	  
+ring	  have	  a	  save	  DC	  of	  17. 	  
+	   Ring	  of	  Air	  Elemental	  Command. 	  You	  can	  expend	  
+2	  of	  the	  ring’s	  charges	  to	  cast	   dominate	  monster 	  on	  
+an	  air	  elemental.	  In	  addition,	  when	  you	  fall,	  you	  
+descend	  60	  feet	  per	  roun d	  and	  take	  no	  damage	  from	  
+falling.	  You	  can	  also	  speak	  and	  understand	  Auran. 	  
+	   If	  you	  help	  slay	  an	  air	  elemental	  while	  attuned	  to	  
+the	  ring,	  you	  gain	  access	  to	  the	  following	  additional	  
+properties:	  
+• You	  have	  resistance	  to	  lightning	  damage.
+• You	  have	  a	  flying	   speed	  equal	  to	  your	  walking
+speed	  and	  can	  hover.
+• You	  can	  cast	  the	  following	  spells	  from	  the	  ring,
+expending	  the	  necessary	  number	  of	  charges:	   chain
+lightning	  (3	  charges),	  gust	  of	  wind	  (2	  charges),	  or
+wind	  wall	  (1	  charge).
+Ring	  of	  Earth	  Elemental	  Command.	   You	  can
+expend	  2	  of	  the	  ring’s	  charges	  to	  cast	   dominate	  
+monster	  on	  an	  earth	  elemental.	  In	  addition,	  you	  can	  
+move	  in	  difficult	  terrain	  that	  is	  composed	  of	  rubble,	  

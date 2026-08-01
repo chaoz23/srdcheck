@@ -1,0 +1,95 @@
+System Reference Document 5.2.1
+30
+ Hamstring Blow. The target’s Speed is reduced by 
+15 feet until the start of your next turn. A target can 
+be affected by only one Hamstring Blow at a time—
+the most recent one.
+Level 11: Relentless Rage
+Your Rage can keep you fighting despite grievous 
+wounds. If you drop to 0 Hit Points while your Rage 
+is active and don’t die outright, you can make a DC 
+10 Constitution saving throw. If you succeed, your 
+Hit Points instead change to a number equal to 
+twice your Barbarian level.
+ Each time you use this feature after the first, the 
+DC increases by 5. When you finish a Short or Long 
+Rest, the DC resets to 10.
+Level 13: Improved Brutal Strike
+You have honed new ways to attack furiously. The 
+following effects are now among your Brutal Strike 
+options.
+ Staggering Blow. The target has Disadvantage on 
+the next saving throw it makes, and it can’t make 
+Opportunity Attacks until the start of your next 
+turn.
+ Sundering Blow. Before the start of your next 
+turn, the next attack roll made by another creature 
+against the target gains a +5 bonus to the roll. An 
+attack roll can gain only one Sundering Blow bonus.
+Level 15: Persistent Rage
+When you roll Initiative, you can regain all ex -
+pended uses of Rage. After you regain uses of Rage 
+in this way, you can’t do so again until you finish a 
+Long Rest.
+ In addition, your Rage is so fierce that it now lasts 
+for 10 minutes without you needing to do anything 
+to extend it from round to round. Your Rage ends 
+early if you have the Unconscious condition (not just 
+the Incapacitated condition) or don Heavy armor.
+Level 17: Improved Brutal Strike
+The extra damage of your Brutal Strike increases to 
+2d10. In addition, you can use two different Brutal 
+Strike effects whenever you use your Brutal Strike 
+feature.
+Level 18: Indomitable Might
+If your total for a Strength check or Strength saving 
+throw is less than your Strength score, you can use 
+that score in place of the total.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Irresistible Offense is recommended.
+Level 20: Primal Champion
+You embody primal power. Your Strength and Con -
+stitution scores increase by 4, to a maximum of 25.
+Barbarian Subclass:  
+Path of the Berserker
+Channel Rage into Violent Fury
+Barbarians who walk the Path of the Berserker 
+direct their Rage primarily toward violence. Their 
+path is one of untrammeled fury, and they thrill in 
+the chaos of battle as they allow their Rage to seize 
+and empower them.
+Level 3: Frenzy
+If you use Reckless Attack while your Rage is active, 
+you deal extra damage to the first target you hit on 
+your turn with a Strength-based attack. To deter -
+mine the extra damage, roll a number of d6s equal 
+to your Rage Damage bonus, and add them together. 
+The damage has the same type as the weapon or 
+Unarmed Strike used for the attack.
+Level 6: Mindless Rage
+You have Immunity to the Charmed and Fright -
+ened conditions while your Rage is active. If you’re 
+Charmed or Frightened when you enter your Rage, 
+the condition ends on you.
+Level 10: Retaliation
+When you take damage from a creature that is 
+within 5 feet of you, you can take a Reaction to 
+make one melee attack against that creature, using 
+a weapon or an Unarmed Strike.
+Level 14: Intimidating Presence
+As a Bonus Action, you can strike terror into others 
+with your menacing presence and primal power. 
+When you do so, each creature of your choice in a 
+30-foot Emanation originating from you must make 
+a Wisdom saving throw (DC 8 plus your Strength 
+modifier and Proficiency Bonus). On a failed save, 
+a creature has the Frightened condition for 1 min -
+ute. At the end of each of the Frightened creature’s 
+turns, the creature repeats the save, ending the ef -
+fect on itself on a success.
+ Once you use this feature, you can’t use it again 
+until you finish a Long Rest unless you expend a use 
+of your Rage (no action required) to restore your 
+use of it.

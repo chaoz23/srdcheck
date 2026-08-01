@@ -1,0 +1,94 @@
+System	  Reference	   Document	  5.1 	   174	  
+Ray of Enfeeblement 
+2nd-­‐‑level	  necromancy 	  
+Casting	  Time:	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+A	  black	  beam	  of	  enervating	  energy	  springs	  from	  
+your	  finger	  toward	  a	  creature	  within	  range.	  Make	  a	  
+ranged	  spell	  attack	  against	  the	  target.	  On	  a	  hit,	  the	  
+target	  deals	  only	  half	  damage	  with	  weapon	  attacks	  
+that	  use	  Strength	  until	  the	  spell	  ends. 	  
+	   At	  the	  end	  of	  each	  of	  the	  target’s	  turns,	  it	  can	  make	  
+a	  Constitution	  saving	  throw	  against	  the	  spell.	  On	  a	  
+success,	  the	  spell	  ends. 	  
+Ray of Frost 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+A	  frigid	  beam	  of	  blue -­‐‑white	  light	  streaks	  toward	  a	  
+creature	  within	  range.	  Make	  a	  ranged	  spell	  attack	  
+against	  the	  target.	  On	  a	  hit,	  it	  takes	  1d8	  cold	  damage,	  
+and	  its	  speed	  is	  reduced	  by	  10	  fe et	  until	  the	  start	  of	  
+your	  next	  turn. 	  
+	   The	  spell’s	  damage	  increases	  by	  1d8	  when	  you	  
+reach	  5th	  level	  (2d8),	  11th	  level	  (3d8),	  and	  17th	  
+level	  (4d8).	  
+Regenerate 
+7th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  prayer	  wheel	  and	  holy	  
+water)	  
+Duration:	  1	  hour	  
+You	  touch	  a	  creature	  and	  stimulate	  its	  natural	  
+healing	  ability.	  The	  target	  regains	  4d8	  +	  15	  hit	  points.	  
+For	  the	  duration	  of	  the	  spell,	  the	  target	  regains	  1	  hit	  
+point	  at	  the	  start	  of	  each	  of	  its	  turn s	  (10	  hit	  points	  
+each	  minute).	  
+	   The	  target’s	  severed	  body	  members	  (fingers,	  legs,	  
+tails,	  and	  so	  on),	  if	  any,	  are	  restored	  after	  2	  minutes.	  
+If	  you	  have	  the	  severed	  part	  and	  hold	  it	  to	  the	  stump,	  
+the	  spell	  instantaneously	  causes	  the	  limb	  to	  knit	  to	  
+the	  stump.	  
+Reincarnate 
+5th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  hour	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (rare	  oils	  and	  unguents	  worth	  
+at	  least	  1,000	  gp,	  which	  the	  spell	  consumes) 	  
+Duration:	  Instantaneous	  
+You	  touch	  a	  dead	  humanoid	  or	  a	  piece	  of	  a	  dead	  
+humanoid.	  Provided 	  that	  the	  creature	  has	  been	  dead	  
+no	  longer	  than	  10	  days,	  the	  spell	  forms	  a	  new	  adult	  
+body	  for	  it	  and	  then	  calls	  the	  soul	  to	  enter	  that	  body.	  
+If	  the	  target’s	  soul	  isn’t	  free	  or	  willing	  to	  do	  so,	  the	  
+spell	  fails.	  
+	   The	  magic	  fashions	  a	  new	  body	  for	  the	  creatu re	  to	  
+inhabit,	  which	  likely	  causes	  the	  creature’s	  race	  to	  
+change.	  The	  GM	  rolls	  a	  d100	  and	  consults	  the	  
+following	  table	  to	  determine	  what	  form	  the	  creature	  
+takes	  when	  restored	  to	  life,	  or	  the	  GM	  chooses	  a	  
+form.	  
+d100	   Race	  
+01–04	   Dragonborn	  
+05–13	   Dwarf,	  hill	  
+14–21	   Dwarf,	  mountain	  
+22–25	   Elf,	  dark	  
+26–34	   Elf,	  high	  
+35–42	   Elf,	  wood	  
+43–46	   Gnome,	  forest	  
+47–52	   Gnome,	  rock	  
+53–56	   Half-­‐elf	  
+57–60	   Half-­‐orc	  
+61–68	   Halfling,	  lightfoot	  
+69–76	   Halfling,	  stout	  
+77–96	   Human	  
+97–00	   Tiefling	  
+	   The	  reincarnated	  creature	   recalls	  its	  former	  life	  
+and	  experiences.	  It	  retains	  the	  capabilities	  it	  had	  in	  
+its	  original	  form,	  except	  it	  exchanges	  its	  original	  race	  
+for	  the	  new	  one	  and	  changes	  its	  racial	  traits	  
+accordingly.	  
+Remove Curse 
+3rd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+At	  your	  touch,	  all	  curses	  affecting	  one	  creature	  or	  
+object	  end.	  If	  the	  object	  is	  a	  cursed	  magic	  item,	  its	  
+curse	  remains,	  but	  the	  spell	  breaks	  its	  owner’s	  

@@ -1,0 +1,83 @@
+System	  Reference	   Document	  5.1 	   347	  
+Damage	  Resistances	   acid,	  cold,	  fire,	  lightning,	  thunder;	  
+bludgeoning,	  piercing,	  and	  slashing	  from	  nonmagical	  
+attacks	  
+Damage	  Immunities	   necrotic,	  poison	  
+Condition	  Immunities 	  charmed,	  exhaustion,	  grappled,	  
+paralyzed,	  petrified,	  poisoned,	  prone,	  restrained,	  
+unconscious	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  understands	  all	  languages	  it	  knew	  in	  life	  but	  
+can’t	  speak	  
+Challenge	  1	  (200	  XP)	  
+Incorporeal	  Movement.	   The	  specter	  can	  move	  through	  
+other	  creatures	  and	  objects	  as	  if	  they	  were	  difficult	  
+terrain.	  It	  takes	  5	  (1d10)	  force	  damage	  if	  it	  ends	  its	  turn	  
+inside	  an	  object. 	  
+Sunlight	  Sensitivity. 	  While	  in	  sunlight,	  the	  specter	  has	  
+disadvantage	  on	  attack	  rolls,	  as	  well	  as	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Life	  Drain.	  Melee	  Spell	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  10	  (3d6)	  necrotic	  damage.	  The	  target	  
+must	  succeed	  on	  a	  DC	  10	  Constitution	  saving	  throw	  or	  
+its	  hit	  point	  maximum	  is	  reduced	  by	  an	  amount	  equal	  
+to	  the	  damage	  taken.	  This	  reduction	  lasts	  until	  the	  
+creature	  finishes	  a	  long	  rest.	  The	  target	  dies	  if	  this	  
+effect	  reduces	  its	  hit	  point	  maximum	  to	  0.	  
+Sphinxes 
+Androsphinx	  
+Large	  monstrosity,	  lawful	  neutral 	  
+Armor	  Class	  17	  (natural	  armor) 	  
+Hit	  Points	  199	  (19d10	  +	  95) 	  
+Speed	  40	  ft.,	  fly	  60	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+22	  (+6)	   10	  (+0)	   20	  (+5)	   16	  (+3)	   18	  (+4)	   23	  (+6)	  
+Saving	  Throws	  Dex	  +6,	  Con	  +11,	  Int	  +9,	  Wis	  +10 	  
+Skills	  Arcana	  +9,	  Perception	  +10,	  Religion	  +15 	  
+Damage	  Immunities 	  psychic;	  bludgeoning,	  piercing,	  
+and	  slashing	  from	  nonmagical	  attacks	  
+Condition	  Immunities 	  charmed,	  frightened 	  
+Senses	  truesight	  120	  ft.,	  passive	  Perception	  20 	  
+Languages	  Common,	  Sphinx 	  
+Challenge	  17	  (18,000	  XP)	  
+Inscrutable.	  The	  sphinx	  is	  immune	  to	  any	  effect	  that	  
+would	  sense	  its	  emotions	  or	  read	  its	  thoughts,	  as	  well	  
+as	  any	  divination	  spell	  that	  it	  refuses.	  Wisdom	  (Insight)	  
+checks	  made	  to	  ascertain	  the	  sphinx’s	  intentions	  or	  
+sincerity	  have	  disadvant age.	  
+Magic	  Weapons. 	  The	  sphinx’s	  weapon	  attacks	  are	  
+magical.	  
+Spellcasting.	  The	  sphinx	  is	  a	  12th -­‐level	  spellcaster.	  Its	  
+spellcasting	  ability	  is	  Wisdom	  (spell	  save	  DC	  18,	  +10	  to	  
+hit	  with	  spell	  attacks).	  It	  requires	  no	  material	  
+components	  to	  cast	  its	  spells.	   The	  sphinx	  has	  the	  
+following	  cleric	  spells	  prepared: 	  
+Cantrips	  (at	  will):	   sacred	  flame,	  spare	  the	  dying ,	  
+thaumaturgy	  
+1st	  level	  (4	  slots):	   command,	  detect	  evil	  and	  good ,	  
+detect	  magic	  
+2nd	  level	  (3	  slots):	   lesser	  restoration ,	  zone	  of	  truth	  
+3rd	  level	  (3	  slots):	   dispel	  magic,	  tongues	  
+4th	  level	  (3	  slots):	   banishment,	  freedom	  of	  movement 	  
+5th	  level	  (2	  slots):	   flame	  strike,	  greater	  restoration 	  
+6th	  level	  (1	  slot):	   heroes’	  feast	  
+Actions	  
+Multiattack.	  The	  sphinx	  makes	  two	  claw	  attacks. 	  
+Claw.	  Melee	  Weapon	  Attack: 	  +12	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  17	  (2d10	  +	  6)	  slashing	  damage. 	  
+Roar	  (3/Day).	  The	  sphinx	  emits	  a	  magical	  roar.	  Each	  
+time	  it	  roars	  before	  finishing	  a	  long	  rest,	  the	  roar	  is	  
+louder	  and	  the	  effect	  is	  different,	  as	  detailed	  below.	  
+Each	  creature	  within	  500	  feet	  of	  the	  sphinx	  and	  able	  to	  
+hear	  the	  roar	  must	  make	  a	  saving	  throw. 	  
+First	  Roar.	  Each	  creature	  that	  fails	  a	  DC	  18	  Wisdom	  
+saving	  throw	  is	  frightened	  for	  1	  minute.	  A	  frightened	  
+creature	  can	  repeat	  the	  saving	  throw	  at	  the	  end	  of	  
+each	  of	  its	  turns,	  ending	  the	  effect	  on	  itself	  on	  a	  
+success.	  
+Second	  Roar.	  Each	  creature	  that	  fails	  a	  DC	  18	  Wisdom	  
+saving	  throw	  is	  deafened	  and	  frightened	  for	  1	  
+minute.	  A	  frightened	  creature	  is	  paralyzed	  and	  can	  
+repeat	  the	  saving	  throw	  at	  the	  end	  of	  each	  of	  its	  
+turns,	  ending	  the	  effect	  on	  itself	  on	  a	  success. 	  

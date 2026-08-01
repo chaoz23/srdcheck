@@ -1,0 +1,97 @@
+System Reference Document 5.2.1
+55
+ If a Channel Divinity effect requires a saving 
+throw, the DC equals the spell save DC from this 
+class’s Spellcasting feature.
+ Divine Sense. As a Bonus Action, you can open 
+your awareness to detect Celestials, Fiends, and 
+Undead. For the next 10 minutes or until you have 
+the Incapacitated condition, you know the location 
+of any creature of those types within 60 feet of 
+yourself, and you know its creature type. Within 
+the same radius, you also detect the presence of any 
+place or object that has been consecrated or dese -
+crated, as with the Hallow  spell.
+Level 3: Paladin Subclass
+You gain a Paladin subclass of your choice. The Oath 
+of Devotion subclass is detailed after this class’s de -
+scription. A subclass is a specialization that grants 
+you features at certain Paladin levels. For the rest 
+of your career, you gain each of your subclass’s fea-
+tures that are of your Paladin level or lower.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Paladin levels 
+8, 12, and 16.
+Level 5: Extra Attack
+You can attack twice instead of once whenever you 
+take the Attack action on your turn.
+Level 5: Faithful Steed
+You can call on the aid of an otherworldly steed. You 
+always have the Find Steed  spell prepared.
+ You can also cast the spell once without expend -
+ing a spell slot, and you regain the ability to do so 
+when you finish a Long Rest.
+Level 6: Aura of Protection
+You radiate a protective, unseeable aura in a 10-foot 
+Emanation that originates from you. The aura is in -
+active while you have the Incapacitated condition.
+ You and your allies in the aura gain a bonus to 
+saving throws equal to your Charisma modifier 
+(minimum bonus of +1).
+ If another Paladin is present, a creature can ben -
+efit from only one Aura of Protection at a time; the 
+creature chooses which aura while in them.
+Level 9: Abjure Foes
+As a Magic action, you can expend one use of this 
+class’s Channel Divinity to overwhelm foes with 
+awe. As you present your Holy Symbol or weapon, 
+you can target a number of creatures equal to your 
+Charisma modifier (minimum of one creature) that 
+you can see within 60 feet of yourself. Each target 
+must succeed on a Wisdom saving throw or have the 
+Frightened condition for 1 minute or until it takes 
+any damage. While Frightened in this way, a target 
+can do only one of the following on its turns: move, 
+take an action, or take a Bonus Action.
+Level 10: Aura of Courage
+You and your allies have Immunity to the Fright -
+ened condition while in your Aura of Protection. If 
+a Frightened ally enters the aura, that condition has 
+no effect on that ally while there.
+Level 11: Radiant Strikes
+Your strikes now carry supernatural power. When 
+you hit a target with an attack roll using a Melee 
+weapon or an Unarmed Strike, the target takes an 
+extra 1d8 Radiant damage.
+Level 14: Restoring Touch
+When you use Lay On Hands on a creature, you can 
+also remove one or more of the following conditions 
+from the creature: Blinded, Charmed, Deafened, 
+Frightened, Paralyzed, or Stunned. You must ex -
+pend 5 Hit Points from the healing pool of Lay On 
+Hands for each of these conditions you remove; 
+those points don’t also restore Hit Points to the 
+creature.
+Level 18: Aura Expansion
+Your Aura of Protection is now a 30-foot Emanation.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Truesight is recommended.
+Paladin Spell List
+This section presents the Paladin spell list. The 
+spells are organized by spell level and then alpha-
+betized, and each spell’s school of magic is listed. 
+In the Special column, C means the spell requires 
+Concentration, R means it’s a Ritual, and M means it 
+requires a specific Material component.
+Level 1 Paladin Spells
+Spell School Special
+Bless Enchantment C, M
+Command Enchantment —
+Cure Wounds Abjuration —
+Detect Evil and Good Divination C
+Detect Magic Divination C, R
+Detect Poison and Disease Divination C, R

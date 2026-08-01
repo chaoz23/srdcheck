@@ -1,0 +1,76 @@
+System	  Reference	   Document	  5.1 	   351	  
+another	  creature’s	  turn.	  The	  tarrasque	  regains	  spent	  
+legendary	  actions	  at	  the	  start	  of	  its	  turn. 	  
+Attack.	  The	  tarrasque	  makes	  one	  claw	  attac k	  or	  tail	  
+attack.	  
+Move.	  The	  tarrasque	  moves	  up	  to	  half	  its	  speed. 	  
+Chomp	  (Costs	  2	  Actions). 	  The	  tarrasque	  makes	  one	  
+bite	  attack	  or	  uses	  its	  Swallow. 	  
+Treant	  
+Huge	  plant,	  chaotic	  good 	  
+Armor	  Class	  16	  (natural	  armor) 	  
+Hit	  Points	  138	  (12d12	  +	  60) 	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+23	  (+6)	   8	  (−1)	   21	  (+5)	   12	  (+1)	   16	  (+3)	   12	  (+1)	  
+Damage	  Resistances 	  bludgeoning,	  piercing 	  
+Damage	  Vulnerabilities 	  fire	  
+Senses	  passive	  Perception	  13 	  
+Languages	  Common,	  Druidic,	  Elvish,	  Sylvan 	  
+Challenge	  9	  (5,000	  XP)	  
+False	  Appearance. 	  While	  the	  treant	  remains	  
+motionless,	  it	  is	  indistinguishable	  from	  a	  normal	  tree. 	  
+Siege	  Monster.	   The	  treant	  deals	  double	  damage	  to	  
+objects	  and	  structures. 	  
+Actions	  
+Multiattack.	  The	  treant	  makes	  two	  slam	  attacks. 	  
+Slam.	  Melee	  Weapon	  Attack: 	  +10	  to	  hit,	  reach	   5	  ft.,	  
+one	  target.	  Hit:	  16	  (3d6	  +	  6)	  bludgeoning	  damage. 	  
+Rock.	  Ranged	  Weapon	  Attack: 	  +10	  to	  hit,	  range	  60/180	  
+ft.,	  one	  target.	  Hit:	  28	  (4d10	  +	  6)	  bludgeoning	  damage. 	  
+Animate	  Trees	  (1/Day). 	  The	  treant	  magically	  animates	  
+one	  or	  two	  trees	  it	  can	  see	  within	  60 	  feet	  of	  it.	  These	  
+trees	  have	  the	  same	  statistics	  as	  a	  treant,	  except	  they	  
+have	  Intelligence	  and	  Charisma	  scores	  of	  1,	  they	  can’t	  
+speak,	  and	  they	  have	  only	  the	  Slam	  action	  option.	  An	  
+animated	  tree	  acts	  as	  an	  ally	  of	  the	  treant.	  The	  tree	  
+remains	  animate	  for 	  1	  day	  or	  until	  it	  dies;	  until	  the	  
+treant	  dies	  or	  is	  more	  than	  120	  feet	  from	  the	  tree;	  or	  
+until	  the	  treant	  takes	  a	  bonus	  action	  to	  turn	  it	  back	  into	  
+an	  inanimate	  tree.	  The	  tree	  then	  takes	  root	  if	  possible. 	  
+Troll	  
+Large	  giant,	  chaotic	  evil 	  
+Armor	  Class	  15	  (natural	  armor)	  
+Hit	  Points	  84	  (8d10	  +	  40)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   13	  (+1)	   20	  (+5)	   7	  (−2)	   9	  (−1)	   7	  (−2)	  
+Skills	  Perception	  +2	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  12 	  
+Languages	  Giant	  
+Challenge	  5	  (1,800	  XP)	  
+Keen	  Smell.	  The	  troll	  has	  advantage	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  smell. 	  
+Regeneration.	  The	  troll	  regains	  10	  hit	  points	  at	  the	  
+start	  of	  its	  turn.	  If	  the	  troll	  takes	  acid	  or	  fire	  damage,	  
+this	  trait	  doesn’t	  function	  at	  the	  start	  of	  the	  troll’s	  next	  
+turn.	  The	  troll	  die s	  only	  if	  it	  starts	  its	  turn	  with	  0	  hit	  
+points	  and	  doesn’t	  regenerate. 	  
+Actions	  
+Multiattack.	  The	  troll	  makes	  three	  attacks:	  one	  with	  its	  
+bite	  and	  two	  with	  its	  claws. 	  
+Bite.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  7	  (1d6	  +	  4)	  piercing	  damage. 	  
+Claw.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  11	  (2d6	  +	  4)	  slashing	  damage. 	  
+Monsters (U) 
+Unicorn	  
+Large	  celestial, lawful	  good	  
+Armor	  Class	  12	  
+Hit	  Points	  67	  (9d10	  +	  18)	  
+Speed	  50	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   14	  (+2)	   15	  (+2)	   11	  (+0)	   17	  (+3)	   16	  (+3)	  
+Damage	  Immunities 	  poison	  
+Condition	  Immunities 	  charmed,	  paralyzed,	  poisoned 	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  13 	  

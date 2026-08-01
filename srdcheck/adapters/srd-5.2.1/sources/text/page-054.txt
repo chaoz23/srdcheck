@@ -1,0 +1,100 @@
+System Reference Document 5.2.1
+54
+BrEakinG your oatH
+A Paladin tries to hold to the highest standards of 
+conduct, but even the most dedicated are fallible. 
+Sometimes a Paladin transgresses their oath.
+ A Paladin who has broken a vow typically seeks 
+absolution, spending an all-night vigil as a sign of pen -
+itence or undertaking a fast. After a rite of forgive -
+ness, the Paladin starts fresh.
+ If your Paladin unrepentantly violates their oath, 
+talk to your GM. Your Paladin should probably take a 
+more appropriate subclass or even abandon the class 
+and adopt another one.
+ As a Bonus Action, you can touch a creature 
+(which could be yourself) and draw power from the 
+pool of healing to restore a number of Hit Points to 
+that creature, up to the maximum amount remain -
+ing in the pool.
+ You can also expend 5 Hit Points from the pool of 
+healing power to remove the Poisoned condition 
+from the creature; those points don’t also restore 
+Hit Points to the creature.
+Level 1: Spellcasting
+You have learned to cast spells through prayer and 
+meditation. See “Spells” for the rules on spellcast -
+ing. The information below details how you use 
+those rules with Paladin spells, which appear in the 
+Paladin spell list later in the class’s description.
+ Spell Slots. The Paladin Features table shows 
+how many spell slots you have to cast your level 1+ 
+spells. You regain all expended slots when you fin -
+ish a Long Rest.
+ Prepared Spells of Level 1+. You prepare the 
+list of level 1+ spells that are available for you to 
+cast with this feature. To start, choose two level 
+1 Paladin spells. Heroism  and Searing Smite are 
+recommended.
+ The number of spells on your list increases as 
+you gain Paladin levels, as shown in the Prepared 
+Spells column of the Paladin Features table. When -
+ever that number increases, choose additional 
+Paladin spells until the number of spells on your 
+list matches the number in the Paladin Features 
+table. The chosen spells must be of a level for which 
+you have spell slots. For example, if you’re a level 5 
+Paladin, your list of prepared spells can include six 
+Paladin spells of level 1 or 2 in any combination.
+ If another Paladin feature gives you spells that 
+you always have prepared, those spells don’t count 
+against the number of spells you can prepare with 
+this feature, but those spells otherwise count as 
+Paladin spells for you.
+ Changing Your Prepared Spells. Whenever you 
+finish a Long Rest, you can replace one spell on your 
+list with another Paladin spell for which you have 
+spell slots.
+ Spellcasting Ability. Charisma is your spellcast -
+ing ability for your Paladin spells.
+ Spellcasting Focus. You can use a Holy Symbol as 
+a Spellcasting Focus for your Paladin spells.
+Level 1: Weapon Mastery
+Your training with weapons allows you to use the 
+mastery properties of two kinds of weapons of your 
+choice with which you have proficiency, such as 
+Longswords and Javelins.
+ Whenever you finish a Long Rest, you can change 
+the kinds of weapons you chose. For example, you 
+could switch to using the mastery properties of Hal -
+berds and Flails.
+Level 2: Fighting Style
+You gain a Fighting Style feat of your choice (see 
+“Feats” for feats). Instead of choosing one of those 
+feats, you can choose the option below.
+ Blessed Warrior. You learn two Cleric cantrips of 
+your choice (see the Cleric class’s section for a list 
+of Cleric spells). Guidance and Sacred Flame are rec-
+ommended. The chosen cantrips count as Paladin 
+spells for you, and Charisma is your spellcasting 
+ability for them. Whenever you gain a Paladin level, 
+you can replace one of these cantrips with another 
+Cleric cantrip.
+Level 2: Paladin’s Smite
+You always have the Divine Smite spell prepared. In 
+addition, you can cast it without expending a spell 
+slot, but you must finish a Long Rest before you can 
+cast it in this way again.
+Level 3: Channel Divinity
+You can channel divine energy directly from the 
+Outer Planes, using it to fuel magical effects. You 
+start with one such effect: Divine Sense, which is 
+described below. Other Paladin features give addi -
+tional Channel Divinity effect options. Each time 
+you use this class’s Channel Divinity, you choose 
+which effect from this class to create.
+ You can use this class’s Channel Divinity twice. 
+You regain one of its expended uses when you finish 
+a Short Rest, and you regain all expended uses when 
+you finish a Long Rest. You gain an additional use 
+when you reach Paladin level 11.

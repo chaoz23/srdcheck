@@ -1,0 +1,84 @@
+System	  Reference	   Document	  5.1 	   305	  
+3/day	  each:	  entangle,	  goodberry	  
+1/day	  each:	  barkskin,	  pass	  without	  trace ,	  shillelagh	  
+Magic	  Resistance. 	  The	  dryad	  has	  advantage	  on	  saving	  
+throws	  against	  spells	  and	  other	  magical	  effects. 	  
+Speak	  with	  Beasts	  and	  Plants. 	  The	  dryad	  can	  
+communicate	  with	  beasts	  and	  plants	  as	  if	  they	  shared	  a	  
+language.	  
+Tree	  Stride.	  Once	  on	  her	  turn,	  the	  dryad	  can	  use	  10	  
+feet	  of	  her	  movement	  to	  step	  magically	  into	  one	  living	  
+tree	  within	  her	  reach	  and	  emerge	  from	  a	  second	  living	  
+tree	  within	  60	  feet	  of	  the	  first	  tree,	  appearing	  in	  an	  
+unoccupied	  space	  within	  5	  feet	  of	  the	  second	  tree.	  
+Both	  trees	  must	  be	  Large	  or	  bigger. 	  
+Actions	  
+Club.	  Melee	  Weapon	  Attack: 	  +2	  to	  hit	  (+6	  to	  hit	  with	  
+shillelagh),	  reach	  5	  ft.,	  one	  target.	   Hit:	  2	  (1d4)	  
+bludgeoning	  damage,	  or	  8	  (1d8	  +	  4)	  bludgeoning	  
+damage	  with	  shillelagh.	  
+Fey	  Charm.	  The	  dryad	  targets	  one	  humanoid	  or	  beast	  
+that	  she	  can	  see	  within	  30	  feet	  of	  her .	  If	  the	  target	  can	  
+see	  the	  dryad,	  it	  must	  succeed	  on	  a	  DC	  14	  Wisdom	  
+saving	  throw	  or	  be	  magically	  charmed.	  The	  charmed	  
+creature	  regards	  the	  dryad	  as	  a	  trusted	  friend	  to	  be	  
+heeded	  and	  protected.	  Although	  the	  target	  isn’t	  under	  
+the	  dryad’s	  control,	  it	  takes	   the	  dryad’s	  requests	  or	  
+actions	  in	  the	  most	  favorable	  way	  it	  can. 	  
+	   Each	  time	  the	  dryad	  or	  its	  allies	  do	  anything	  harmful	  
+to	  the	  target,	  it	  can	  repeat	  the	  saving	  throw,	  ending	  
+the	  effect	  on	  itself	  on	  a	  success.	  Otherwise,	  the	  effect	  
+lasts	  24	  hours	  or	  until	   the	  dryad	  dies,	  is	  on	  a	  different	  
+plane	  of	  existence	  from	  the	  target,	  or	  ends	  the	  effect	  
+as	  a	  bonus	  action.	  If	  a	  target’s	  saving	  throw	  is	  
+successful,	  the	  target	  is	  immune	  to	  the	  dryad’s	  Fey	  
+Charm	  for	  the	  next	  24	  hours. 	  
+	   The	  dryad	  can	  have	  no	  more	  than	  one	   humanoid	  and	  
+up	  to	  three	  beasts	  charmed	  at	  a	  time. 	  
+Duergar	  
+Medium	  humanoid	  (dwarf),	  lawful	  evil 	  
+Armor	  Class	  16	  (scale	  mail,	  shield) 	  
+Hit	  Points	  26	  (4d8	  +	  8)	  
+Speed	  25	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+14	  (+2)	   11	  (+0)	   14	  (+2)	   11	  (+0)	   10	  (+0)	   9	  (−1)	  
+Damage	  Resistances	  poison	  
+Senses	  darkvision	  120	  ft.,	  passive	  Perception	  10 	  
+Languages	  Dwarvish,	  Undercommon 	  
+Challenge	  1	  (200	  XP)	  
+Duergar	  Resilience. 	  The	  duergar	  has	  advantage	  on	  
+saving	  throws	  against	  poison,	  spells,	  and	  illusions,	  as	  
+well	  as	  to	  resist	  being	  charmed	  or 	  paralyzed.	  
+Sunlight	  Sensitivity. 	  While	  in	  sunlight,	  the	  duergar	  has	  
+disadvantage	  on	  attack	  rolls,	  as	  well	  as	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Enlarge	  (Recharges	  after	  a	  Short	  or	  Long	  Rest). 	  For	  1	  
+minute,	  the	  duergar	  magically	  increases	  in	  size,	  along	  
+with	  anything	  it	  is	  wearing	  or	  carrying.	  While	  enlarged,	  
+the	  duergar	  is	  Large,	  doubles	  its	  damage	  dice	  on	  
+Strength-­‐based	  weapon	  attacks	  (included	  in	  the	  
+attacks),	  and	  makes	  Strength	  checks	  and	  S trength	  
+saving	  throws	  with	  advantage.	  If	  the	  duergar	  lacks	  the	  
+room	  to	  become	  Large,	  it	  attains	  the	  maximum	  size	  
+possible	  in	  the	  space	  available. 	  
+War	  Pick.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  6	  (1d8	  +	  2)	  piercing	  damage,	  or	  11	  (2d 8	  
++ 2)	  piercing	  damage	  while	  enlarged.
+Javelin.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  30/120	  ft.,	  one	  target.	   Hit:	  5	  (1d6	  +	  
+2) piercing	  damage,	  or	  9	  (2d6	  +	  2)	  piercing	  damage
+while	  enlarged.
+Invisibility	  (Recharges	  after	  a	  Short	  or	  Long	  Rest).	   The	  
+duergar	  magically	  turns	  invisible	  until	  it	  attacks,	  casts	  a	  
+spell,	  or	  uses	  its	  Enlarge,	  or	  until	  its	  concentration	  is	  
+broken,	  up	  to	  1	  hour	  (as	  if	  concentrating	  on	  a	  spell).	  
+Any	  equipment	  the	  duergar	   wears	  or	  carries	  is	  invisible	  
+with	  it.	  
+Monsters (E) 
+Elementals 
+Air	  Elemental	  
+Large	  elemental,	  neutral 	  
+Armor	  Class	  15	  
+Hit	  Points	  90	  (12d10	  +	  24) 	  
+Speed	  0	  ft.,	  fly	  90	  ft.	  (hover) 	  

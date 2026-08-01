@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   177	  
+	   On	  a	  successful	  save,	  the	  target	  isn’t	  affected,	  and	  
+you	  can’t	  use	  this	  spell	  against	  it	  again	  for	  24	  hours. 	  
+	   On	  a	  failed	  save,	  the	  spell	  creates	  an	  invisible	  
+sensor	  within	  10	  feet	  of	  the	  target.	  You	  can	  see	  and	  
+hear	  through	  the	  sensor	  as	  if	  you	  were	  there.	  The 	  
+sensor	  moves	  with	  the	  target,	  remaining	  within	  10	  
+feet	  of	  it	  for	  the	  duration.	  A	  creature	  that	  can	  see	  
+invisible	  objects	  sees	  the	  sensor	  as	  a	  luminous	  orb	  
+about	  the	  size	  of	  your	  fist. 	  
+	   Instead	  of	  targeting	  a	  creature,	  you	  can	  choose	  a	  
+location	  you	  have	  se en	  before	  as	  the	  target	  of	  this	  
+spell.	  When	  you	  do,	  the	  sensor	  appears	  at	  that	  
+location	  and	  doesn’t	  move. 	  
+Secret Chest 
+4th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (an	  exquisite	  chest,	  3	  feet	  by	  2	  
+feet	  by	  2	  feet,	  constructe d	  from	  rare	  materials	  
+worth	  at	  least	  5,000	  gp,	  and	  a	  Tiny	  replica	  made	  
+from	  the	  same	  materials	  worth	  at	  least	  50	  gp) 	  
+Duration:	  Instantaneous	  
+You	  hide	  a	  chest,	  and	  all	  its	  contents,	  on	  the	  Ethereal	  
+Plane.	  You	  must	  touch	  the	  chest	  and	  the	  miniature	  
+replica	  that	  serves	  as	  a	  material	  component	  for	  the	  
+spell.	  The	  chest	  can	  contain	  up	  to	  12	  cubic	  feet	  of	  
+nonliving	  material	  (3	  feet	  by	  2	  feet	  by	  2	  feet). 	  
+	   While	  the	  chest	  remains	  on	  the	  Ethereal	  Plane,	  you	  
+can	  use	  an	  action	  and	  touch	  the	  replica	  to	  recall	  the	  
+chest.	  It	  appears	  in	  an	  unoccupied	  space	  on	  the	  
+ground	  within	  5	  feet	  of	  you.	  You	  can	  send	  the	  chest	  
+back	  to	  the	  Ethereal	  Plane	  by	  using	  an	  action	  and	  
+touching	  both	  the	  chest	  and	  the	  replica.	  
+	   After	  60	  days,	  there	  is	  a	  cumulative	  5	  percent	  
+chance	  per	  day	  that	  the 	  spell’s	  effect	  ends.	  This	  effect	  
+ends	  if	  you	  cast	  this	  spell	  again,	  if	  the	  smaller	  replica	  
+chest	  is	  destroyed,	  or	  if	  you	  choose	  to	  end	  the	  spell	  
+as	  an	  action.	  If	  the	  spell	  ends	  and	  the	  larger	  chest	  is	  
+on	  the	  Ethereal	  Plane,	  it	  is	  irretrievably	  lost. 	  
+See Invisibility 
+2nd-­‐‑level	  divination 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  talc	  and	  a	  small	  
+sprinkling	  of	  powdered	  silver) 	  
+Duration:	  1	  hour	  
+For	  the	  duration,	  you	  see	  invisible	  creatures	  and	  
+objects	  as	  if	  they	  were	  visible,	  and	  you	   can	  see	  into	  
+the	  Ethereal	  Plane.	  Ethereal	  creatures	  and	  objects	  
+appear	  ghostly	  and	  translucent. 	  
+Seeming 
+5th-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S	  
+Duration:	  8	  hours	  
+This	  spell	  allows	  you	  to	  change	  the	  appearance	  of	  
+any	  number	  of	  creatures	  that	  you	  can	  see	  within	  
+range.	  You	  give	  each	  target	  you	  choose	  a	  new,	  
+illusory	  appearance.	  An	  unwilling	  target	  can	  make	  a	  
+Charisma	  saving	  throw,	  and	  if	  it	  succeeds,	  it	  is	  
+unaffected	  by	  this	  spell.	  
+	   The	  spell	  disguises	  physical	  appearance	  as	  well	  as	  
+clothing,	  armor,	  weapons,	  and	  equipment.	  You	  can	  
+make	  each	  creature	  seem	  1	  foot	  shorter	  or	  taller	  and	  
+appear	  thin,	  fat,	  or	  in	  between.	  You	  can’t	  change	  a	  
+target’s	  body	  type,	  so	  you	  must	  cho ose	  a	  form	  that	  
+has	  the	  same	  basic	  arrangement	  of	  limbs.	  Otherwise,	  
+the	  extent	  of	  the	  illusion	  is	  up	  to	  you.	  The	  spell	  lasts	  
+for	  the	  duration,	  unless	  you	  use	  your	  action	  to	  
+dismiss	  it	  sooner. 	  
+	   The	  changes	  wrought	  by	  this	  spell	  fail	  to	  hold	  up	  
+to	  physical	  inspection.	  For	  example,	  if	  you	  use	  this	  
+spell	  to	  add	  a	  hat	  to	  a	  creature’s	  outfit,	  objects	  pass	  
+through	  the	  hat,	  and	  anyone	  who	  touches	  it	  would	  
+feel	  nothing	  or	  would	  feel	  the	  creature’s	  head	  and	  
+hair.	  If	  you	  use	  this	  spell	  to	  appear	  thinner	  than	  you	  
+are,	  the	  hand	  of	  someone	  who	  reaches	  out	  to	  touch	  
+you	  would	  bump	  into	  you	  while	  it	  was	  seemingly	  
+still	  in	  midair.	  
+	   A	  creature	  can	  use	  its	  action	  to	  inspect	  a	  target	  
+and	  make	  an	  Intelligence	  (Investigation)	  check	  
+against	  your	  spell	  save	  DC.	  If	  it	  succeeds,	  it	  be comes	  
+aware	  that	  the	  target	  is	  disguised. 	  
+Sending 
+3rd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  Unlimited	  
+Components:	  V,	  S,	  M	  (a	  short	  piece	  of	  fine	  copper	  
+wire)	  
+Duration:	  1	  round	  
+You	  send	  a	  short	  message	  of	  twenty -­‐‑five	  words	  or	  
+less	  to	  a	  creature	  with 	  which	  you	  are	  familiar.	  The	  
+creature	  hears	  the	  message	  in	  its	  mind,	  recognizes	  
+you	  as	  the	  sender	  if	  it	  knows	  you,	  and	  can	  answer	  in	  
+a	  like	  manner	  immediately.	  The	  spell	  enables	  

@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   252	  
+can	  pick	  a	  special	  purpose	  or	  roll	  on	  the	  following	  
+table.	  
+d10	   Purpose	  
+1	   Aligned:	  The	  item	  seeks	  to	  defeat	  or	  destroy	  those	  of	  a	  
+diametrically	  opposed	  alignment.	  (Such	  an	  item	  is	  
+never	  neutral.)	  
+2	   Bane:	  The	  item	  seeks	  to	  defeat	  or	  destroy	  creatures	  of	  
+a	  particular	  kind,	  such	  as	  fiends,	  shapechangers,	  trolls,	  
+or	  wizards.	  
+3	   Protector:	  The	  item	  seeks	  to	  defend	  a	  particular	  race	  
+or	  kind	  of	  creature,	  such	  as	  elves	  or	  druids. 	  
+4	   Crusader:	  The	  item	  seeks	  to	  defeat,	  weaken,	  or	  
+destroy	  the	  servants	  of	  a	  particular	  deity. 	  
+5	   Templar:	  The	  item	  seeks	  to	  defend	  the	  servants	  and	  
+interests	  of	  a	  particular	  deity. 	  
+6	   Destroyer:	  The	  item	  craves	  destruction	  and	  goads	  its	  
+user	  to	  fight	  arbitrarily. 	  
+7	   Glory	  Seeker:	  The	  item	  seeks	  renown	  as	  the	  greatest	  
+magic	  item	  in	  the	  world,	  by	  establishing	  its	  user	  as	  a	  
+famous	  or	  notorious	  figure. 	  
+8	   Lore	  Seeker:	  The	  item	  craves	  knowledge	  or	  is	  
+determined	  to	  solve	  a	  mystery,	  learn	  a	  secret,	  or	  
+unravel	  a	  cryptic	  prophecy. 	  
+9	   Destiny	  Seeker:	  The	  item	  is	  convinced	  that	  it	  and	  its	  
+wielder	  have	  key	  roles	  to	  play	  in	  future	  events. 	  
+10	   Creator	  Seeker:	  The	  item	  seeks	  its	  creator	  and	  wants	  
+to	  understand	  why	  it	  was	  created. 	  
+Conflict 
+A	  sentient	  item	  has	  a	  will	  of	  its	  own,	  shaped	  by	  its	  
+personality	  and	  alignment.	  If	  its	  wielder	  acts	  in	  a	  
+manner	  opposed	  to	  the	  item’s	  alignment	  or	  pur pose,	  
+conflict	  can	  arise.	  When	  such	  a	  conflict	  occurs,	  the	  
+item	  makes	  a	  Charisma	  check	  contested	  by	  the	  
+wielder’s	  Charisma	  check.	  If	  the	  item	  wins	  the	  
+contest,	  it	  makes	  one	  or	  more	  of	  the	  following	  
+demands:	  
+• The	  item	  insists	  on	  being	  carried	  or	  worn	  at	  all
+times.
+• The	  item	  demands	  that	  its	  wielder	  dispose	  of
+anything	  the	  item	  finds	  repugnant.
+• The	  item	  demands	  that	  its	  wielder	  pursue	  the
+item’s	  goals	  to	  the	  exclusion	  of	  all	  other	  goals.
+• The	  item	  demands	  to	  be	  given	  to	  someone	  else.
+If	  its	  wielder	  refuses	  to	  c omply	  with	  the	  item’s
+wishes,	  the	  item	  can	  do	  any	  or	  all	  of	  the	  following: 	  
+• Make	  it	  impossible	  for	  its	  wielder	  to	  attune	  to	  it.
+• Suppress	  one	  or	  more	  of	  its	  activated	  properties.
+• Attempt	  to	  take	  control	  of	  its	  wielder.
+If	  a	  sentient	  item	  attempts	  to	  take	  co ntrol	  of	  its
+wielder,	  the	  wielder	  must	  make	  a	  Charisma	  saving	  
+throw,	  with	  a	  DC	  equal	  to	  12	  +	  the	  item’s	  Charisma	  
+modifier.	  On	  a	  failed	  save,	  the	  wielder	  is	  charmed	  by	  
+the	  item	  for	  1d12	  hours.	  While	  charmed,	  the	  wielder	  
+must	  try	  to	  follow	  the	  item’s	  command s.	  If	  the	  
+wielder	  takes	  damage,	  it	  can	  repeat	  the	  saving	  throw,	  
+ending	  the	  effect	  on	  a	  success.	  Whether	  the	  attempt	  
+to	  control	  its	  user	  succeeds	  or	  fails,	  the	  item	  can’t	  
+use	  this	  power	  again	  until	  the	  next	  dawn. 	  
+Artifacts 
+Orb of Dragonkind 
+Wondrous	  item,	  a rtifact	  (requires	  attunement) 	  
+Ages	  past,	  elves	  and	  humans	  waged	  a	  terrible	  war	  
+against	  evil	  dragons.	  When	  the	  world	  seemed	  
+doomed,	  powerful	  wizards	  came	  together	  and	  
+worked	  their	  greatest	  magic,	  forging	  five	   Orbs	  of	  
+Dragonkind	  (or	  Dragon	  Orbs)	  to	  help	  them	  defeat	  the	  
+dragons.	  One	  orb	  was	  taken	  to	  each	  of	  the	  five	  
+wizard	  towers,	  and	  there	  they	  were	  used	  to	  speed	  
+the	  war	  toward	  a	  victorious	  end.	  The	  wizards	  used	  
+the	  orbs	  to	  lure	  dragons	  to	  them,	  then	  destroyed	  the	  
+dragons	  with	  powerful	  magic. 	  
+	   As	  the	  wizard	  towers	  fell	  in	  later	  ages,	  the	  orbs	  
+were	  destroyed	  or	  faded	  into	  legend,	  and	  only	  three	  
+are	  thought	  to	  survive.	  Their	  magic	  has	  been	  warped	  
+and	  twisted	  over	  the	  centuries,	  so	  although	  their	  
+primary	  purpose	  of	  calling	  dragons	  still	  functions,	  
+they	  also	  allow 	  some	  measure	  of	  control	  over	  
+dragons.	  
+	   Each	  orb	  contains	  the	  essence	  of	  an	  evil	  dragon,	  a	  
+presence	  that	  resents	  any	  attempt	  to	  coax	  magic	  
+from	  it.	  Those	  lacking	  in	  force	  of	  personality	  might	  
+find	  themselves	  enslaved	  to	  an	  orb. 	  
+	   An	  orb	  is	  an	  etched	  crystal 	  globe	  about	  10	  inches	  
+in	  diameter.	  When	  used,	  it	  grows	  to	  about	  20	  inches	  
+in	  diameter,	  and	  mist	  swirls	  inside	  it. 	  
+	   While	  attuned	  to	  an	  orb,	  you	  can	  use	  an	  action	  to	  
+peer	  into	  the	  orb’s	  depths	  and	  speak	  its	  command	  
+word.	  You	  must	  then	  make	  a	  DC	  15	  Charisma 	  check.	  
+On	  a	  successful	  check,	  you	  control	  the	  orb	  for	  as	  long	  
+as	  you	  remain	  attuned	  to	  it.	  On	  a	  failed	  check,	  you	  
+become	  charmed	  by	  the	  orb	  for	  as	  long	  as	  you	  
+remain	  attuned	  to	  it. 	  
+	   While	  you	  are	  charmed	  by	  the	  orb,	  you	  can’t	  
+voluntarily	  end	  your	  attuneme nt	  to	  it,	  and	  the	  orb	  
+casts	  suggestion	  on	  you	  at	  will	  (save	  DC	  18),	  urging	  
+you	  to	  work	  toward	  the	  evil	  ends	  it	  desires.	  The	  
+dragon	  essence	  within	  the	  orb	  might	  want	  many	  
+things:	  the	  annihilation	  of	  a	  particular	  people,	  
+freedom	  from	  the	  orb,	  to	  spread	  suffe ring	  in	  the	  

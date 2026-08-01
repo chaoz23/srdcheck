@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+130
+Fear
+Level 3 Illusion (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a white feather)
+Duration: Concentration, up to 1 minute
+Each creature in a 30-foot Cone must succeed on a 
+Wisdom saving throw or drop whatever it is holding 
+and have the Frightened condition for the duration.
+ A Frightened creature takes the Dash action and 
+moves away from you by the safest route on each 
+of its turns unless there is nowhere to move. If the 
+creature ends its turn in a space where it doesn’t 
+have line of sight to you, the creature makes a Wis -
+dom saving throw. On a successful save, the spell 
+ends on that creature.
+Feather Fall
+Level 1 Transmutation (Bard, Sorcerer, Wizard)
+Casting Time: Reaction, which you take when you or a 
+creature you can see within 60 feet of you falls
+Range: 60 feet
+Components: V, M (a small feather or piece of down)
+Duration: 1 minute
+Choose up to five falling creatures within range. A 
+falling creature’s rate of descent slows to 60 feet per 
+round until the spell ends. If a creature lands before 
+the spell ends, the creature takes no damage from 
+the fall, and the spell ends for that creature.
+Find Familiar
+Level 1 Conjuration (Wizard)
+Casting Time: 1 hour or Ritual
+Range: 10 feet
+Components: V, S, M (burning incense worth 10+ GP, 
+which the spell consumes)
+Duration: Instantaneous
+You gain the service of a familiar, a spirit that takes 
+an animal form you choose: Bat, Cat, Frog, Hawk, 
+Lizard, Octopus, Owl, Rat, Raven, Spider, Weasel, 
+or another Beast that has a Challenge Rating of 0. 
+Appearing in an unoccupied space within range, the 
+familiar has the statistics of the chosen form (see 
+“Monsters”), though it is a Celestial, Fey, or Fiend 
+(your choice) instead of a Beast. Your familiar acts 
+independently of you, but it obeys your commands.
+ Telepathic Connection. While your familiar is 
+within 100 feet of you, you can communicate with it 
+telepathically. Additionally, as a Bonus Action, you 
+can see through the familiar’s eyes and hear what it 
+hears until the start of your next turn, gaining the 
+benefits of any special senses it has.
+ Finally, when you cast a spell with a range of 
+touch, your familiar can deliver the touch. Your fa-
+miliar must be within 100 feet of you, and it must 
+take a Reaction to deliver the touch when you cast 
+the spell.
+ Combat. The familiar is an ally to you and your 
+allies. It rolls its own Initiative and acts on its own 
+turn. A familiar can’t attack, but it can take other 
+actions as normal.
+ Disappearance of the Familiar. When the famil -
+iar drops to 0 Hit Points, it disappears. It reappears 
+after you cast this spell again. As a Magic action, 
+you can temporarily dismiss the familiar to a pocket 
+dimension. Alternatively, you can dismiss it forever. 
+As a Magic action while it is temporarily dismissed, 
+you can cause it to reappear in an unoccupied space 
+within 30 feet of you. Whenever the familiar drops 
+to 0 Hit Points or disappears into the pocket dimen -
+sion, it leaves behind in its space anything it was 
+wearing or carrying.
+ One Familiar Only. You can’t have more than one 
+familiar at a time. If you cast this spell while you 
+have a familiar, you instead cause it to adopt a new 
+eligible form.
+Find Steed
+Level 2 Conjuration (Paladin)
+Casting Time: Action
+Range: 30 feet
+Component: V, S
+Duration: Instantaneous
+You summon an otherworldly being that appears as 
+a loyal steed in an unoccupied space of your choice 
+within range. This creature uses the Otherworldly 
+Steed stat block. If you already have a steed from 
+this spell, the steed is replaced by the new one.
+ The steed resembles a Large, rideable animal of 
+your choice, such as a horse, a camel, a dire wolf, 
+or an elk. Whenever you cast the spell, choose the 
+steed’s creature type—Celestial, Fey, or Fiend—
+which determines certain traits in the stat block.
+ Combat. The steed is an ally to you and your al -
+lies. In combat, it shares your Initiative count, and 
+it functions as a controlled mount while you ride it 
+(as defined in the rules on mounted combat). If you 
+have the Incapacitated condition, the steed takes 
+its turn immediately after yours and acts inde -
+pendently, focusing on protecting you.
+ Disappearance of the Steed.  The steed disap -
+pears if it drops to 0 Hit Points or if you die. When 
+it disappears, it leaves behind anything it was 
+wearing or carrying. If you cast this spell again, you 
+decide whether you summon the steed that disap -
+peared or a different one.
+ Using a Higher-Level Spell Slot. Use the spell 
+slot’s level for the spell’s level in the stat block.

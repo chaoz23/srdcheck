@@ -1,0 +1,93 @@
+System Reference Document 5.2.1
+189
+ CR.  Challenge Rating summarizes the threat a 
+monster poses and is detailed in “Monsters.” The 
+Experience Points characters receive for defeating 
+a monster and its Proficiency Bonus follow. Some 
+creatures that are created by magic have no CR. See 
+also “Challenge Rating” and “Experience Points.”
+ Traits. The monster’s traits, if any, are features 
+that are active at all times or in certain situations.
+ Actions.  The monster can take these actions in 
+addition to those detailed in this glossary. See also  
+“Playing the Game” (“Actions”).
+ Bonus Actions. If the monster has Bonus Action 
+options, they are listed in this section.
+ Reactions. If the monster can take special Reac -
+tions, those are listed in this section.
+ Attack Notation. The entry for a monster’s attack 
+starts by identifying whether the attack is a melee 
+or a ranged attack and then provides the attack 
+roll’s bonus, its reach or range, and what happens 
+on a hit. An attack is against one target unless its 
+entry says otherwise.
+ Saving Throw Effect Notation. If an effect forces 
+a saving throw, the effect’s entry starts by identify -
+ing the kind of saving throw required and then pro -
+vides the save’s DC, a description of which creatures 
+must make the save, and what happens on a failed 
+or a successful save.
+ Damage Notation. A stat block usually provides 
+both a static number and a die expression for each 
+instance of damage. For example, an attack might 
+deal 4 (1d4 + 2) damage on a hit. The GM deter -
+mines whether you use the static number or the die 
+expression in parentheses; you don’t use both.
+Study [Action]
+When you take the Study action, you make an Intel -
+ligence check to study your memory, a book, a clue, 
+or another source of knowledge and call to mind an 
+important piece of information about it.
+ The Areas of Knowledge table suggests which 
+skills are applicable to various areas of knowledge.
+Areas of Knowledge
+Skill Areas
+Arcana Spells, magic items, eldritch symbols, 
+magical traditions, planes of existence, 
+and certain creatures (Aberrations, 
+Constructs, Elementals, Fey, and 
+Monstrosities)
+History Historic events and people, ancient 
+civilizations, wars, and certain creatures 
+(Giants and Humanoids)
+Investigation Traps, ciphers, riddles, and gadgetry
+Nature Terrain, flora, weather, and certain 
+creatures (Beasts, Dragons, Oozes, and 
+Plants)
+Religion Deities, religious hierarchies and rites, 
+holy symbols, cults, and certain crea -
+tures (Celestials, Fiends, and Undead)
+Stunned [Condition]
+While you have the Stunned condition, you experi -
+ence the following effects.
+ Incapacitated.  You have the Incapacitated 
+condition.
+ Saving Throws Affected. You automatically fail 
+Strength and Dexterity saving throws.
+ Attacks Affected.  Attack rolls against you have 
+Advantage.
+Suffocation [Hazard]
+A creature can hold its breath for a number of 
+minutes equal to 1 plus its Constitution modifier 
+(minimum of 30 seconds) before suffocation begins. 
+When a creature runs out of breath or is choking, 
+it gains 1 Exhaustion level at the end of each of 
+its turns. When a creature can breathe again, it 
+removes all levels of Exhaustion it gained from 
+suffocating.
+Surprise
+If a creature is caught unawares by the start of 
+combat, that creature is surprised, which causes it 
+to have Disadvantage on its Initiative roll. See also  
+“Playing the Game” (“Combat”).
+Swimming
+While you’re swimming, each foot of movement 
+costs 1 extra foot (2 extra feet in Difficult Terrain). 
+You ignore this extra cost if you have a Swim Speed 
+and use it to swim. At the GM’s option, moving any 
+distance in rough water might require a successful 
+DC 15 Strength (Athletics) check.
+Swim Speed
+A Swim Speed can be used to swim without expend -
+ing the extra movement normally associated with 
+swimming. See also  “Swimming” and “Speed.”

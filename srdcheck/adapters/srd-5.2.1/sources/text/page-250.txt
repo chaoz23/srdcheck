@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+250
+a maximum of 30. The manual then loses its magic 
+but regains it in a century.
+Tome of Understanding
+Wondrous Item, Very Rare 
+This book contains intuition and insight exercises, 
+and its words are charged with magic. If you spend 
+48 hours over a period of 6 days or fewer studying 
+the book’s contents and practicing its guidelines, 
+your Wisdom increases by 2, to a maximum of 30. 
+The manual then loses its magic, but regains it in 
+a century.
+Trident of Fish Command
+Weapon (Trident), Uncommon (Requires Attunement)
+This magic weapon has 3 charges, and it regains 
+1d3 expended charges daily at dawn. While you 
+carry it, you can expend 1 charge to cast Dominate 
+Beast (save DC 15) from it on a Beast that has a 
+Swim Speed.
+Universal Solvent
+Wondrous Item, Legendary 
+This tube holds milky liquid with a strong alcohol 
+smell. When found, a tube contains 1d6 + 1 ounces.
+ You can take a Utilize action to pour 1 or more 
+ounces of solvent from the tube onto a surface 
+within reach. Each ounce instantly dissolves up to 1 
+square foot of adhesive it touches, including Sover -
+eign Glue.
+Vicious Weapon
+Weapon (Any Simple or Martial), Rare 
+This magic weapon deals an extra 2d6 damage to 
+any creature it hits. This extra damage is of the 
+same type as the weapon’s normal damage.
+Vorpal Sword
+Weapon (Glaive, Greatsword, Longsword, or Scimitar), 
+Legendary (Requires Attunement)
+You gain a +3 bonus to attack rolls and damage 
+rolls made with this magic weapon. In addition, the 
+weapon ignores Resistance to Slashing damage.
+ When you use this weapon to attack a creature 
+that has at least one head and roll a 20 on the d20 
+for the attack roll, you cut off one of the creature’s 
+heads. The creature dies if it can’t survive without 
+the lost head. A creature is immune to this effect 
+if it has Immunity to Slashing damage, if it doesn’t 
+have or need a head, or if the GM decides that the 
+creature is too big for its head to be cut off with this 
+weapon. Such a creature instead takes an extra 30 
+Slashing damage from the hit. If the creature has 
+Legendary Resistance, it can expend one daily use 
+of that trait to avoid losing its head, taking the extra 
+damage instead.
+Wand of Binding
+Wand, Rare (Requires Attunement)
+This wand has 7 charges.
+ Spells. While holding the wand, you can cast one 
+of the spells (save DC 17) on the following table 
+from it. The table indicates how many charges you 
+must expend to cast the spell.
+Spell Charge 
+Cost
+Hold Monster 5
+Hold Person 2
+ Regaining Charges. The wand regains 1d6 + 
+1 expended charges daily at dawn. If you expend 
+the wand’s last charge, roll 1d20. On a 1, the wand 
+crumbles into ashes and is destroyed.
+Wand of Enemy Detection
+Wand, Rare (Requires Attunement)
+This wand has 7 charges. While holding it, you can 
+take a Magic action to expend 1 charge. For 1 min -
+ute, you know the direction of the nearest creature 
+Hostile to you within 60 feet, but not its distance 
+from you. The wand can sense the presence of Hos -
+tile creatures that are Invisible, ethereal, disguised, 
+or hidden, as well as those in plain sight. The effect 
+ends if you stop holding the wand.
+ Regaining Charges. The wand regains 1d6 + 
+1 expended charges daily at dawn. If you expend 
+the wand’s last charge, roll 1d20. On a 1, the wand 
+crumbles into ashes and is destroyed.
+Wand of Fear
+Wand, Rare (Requires Attunement)
+This wand has 7 charges.
+ Spells. While holding the wand, you can cast one 
+of the spells (save DC 15) on the following table 
+from it. The table indicates how many charges you 
+must expend to cast the spell.
+ 
+Spell
+Charge 
+Cost
+Command (“flee” or “grovel” only) 1
+Fear (60-foot Cone) 3
+ Regaining Charges. The wand regains 1d6 + 
+1 expended charges daily at dawn. If you expend 
+the wand’s last charge, roll 1d20. On a 1, the wand 
+crumbles into ashes and is destroyed.
+Wand of Fireballs
+Wand, Rare (Requires Attunement by a Spellcaster)
+This wand has 7 charges. While holding it, you can 
+expend no more than 3 charges to cast Fireball (save 
+DC 15) from it. For 1 charge, you cast the level 3 ver -
+sion of the spell. You can increase the spell’s level by 
+1 for each additional charge you expend.

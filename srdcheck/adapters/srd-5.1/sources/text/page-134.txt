@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   134	  
+Range:	  150	  feet	  
+Components:	  V,	  S,	  M	  (a	  tiny	  ball	  of	  bat	  guano	  and	  
+sulfur)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+A	  beam	  of	  yellow	  light	  flashes	  from	  your	  pointing	  
+finger,	  then	  condenses	  to	  linger	  at	  a	  chosen	  point	  
+within	  range	  as	  a	  glowing	  bead	  for	  the	  duration.	  
+When	  the	  spell	  ends,	  either	  because	  your	  
+concentration	  is	  broken	  or	  because	  you	  decide	  to	  
+end	  it,	  the	  bead	   blossoms	  with	  a	  low	  roar	  into	  an	  
+explosion	  of	  flame	  that	  spreads	  around	  corners.	  
+Each	  creature	  in	  a	  20 -­‐‑foot-­‐‑radius	  sphere	  centered	  on	  
+that	  point	  must	  make	  a	  Dexterity	  saving	  throw.	  A	  
+creature	  takes	  fire	  damage	  equal	  to	  the	  total	  
+accumulated	  damage	  on	  a	  fa iled	  save,	  or	  half	  as	  
+much	  damage	  on	  a	  successful	  one. 	  
+	   The	  spell’s	  base	  damage	  is	  12d6.	  If	  at	  the	  end	  of	  
+your	  turn	  the	  bead	  has	  not	  yet	  detonated,	  the	  
+damage	  increases	  by	  1d6. 	  
+	   If	  the	  glowing	  bead	  is	  touched	  before	  the	  interval	  
+has	  expired,	  the	  creature	  t ouching	  it	  must	  make	  a	  
+Dexterity	  saving	  throw.	  On	  a	  failed	  save,	  the	  spell	  
+ends	  immediately,	  causing	  the	  bead	  to	  erupt	  in	  flame.	  
+On	  a	  successful	  save,	  the	  creature	  can	  throw	  the	  
+bead	  up	  to	  40	  feet.	  When	  it	  strikes	  a	  creature	  or	  a	  
+solid	  object,	  the	  spell	  en ds,	  and	  the	  bead	  explodes. 	  
+	   The	  fire	  damages	  objects	  in	  the	  area	  and	  ignites	  
+flammable	  objects	  that	  aren’t	  being	  worn	  or	  carried. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  8th	  level	  or	  higher,	  the	  base	  damage	  
+increases	  by	  1d6	  for	  ea ch	  slot	  level	  above	  7th. 	  
+Demiplane 
+8th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  S	  
+Duration:	  1	  hour	  
+You	  create	  a	  shadowy	  door	  on	  a	  flat	  solid	  surface	  
+that	  you	  can	  see	  within	  range.	  The	  door	  is	  large	  
+enough	  to	  allow	  Medium	  creature s	  to	  pass	  through	  
+unhindered.	  When	  opened,	  the	  door	  leads	  to	  a	  
+demiplane	  that	  appears	  to	  be	  an	  empty	  room	  30	  feet	  
+in	  each	  dimension,	  made	  of	  wood	  or	  stone.	  When	  the	  
+spell	  ends,	  the	  door	  disappears,	  and	  any	  creatures	  or	  
+objects	  inside	  the	  demiplane	  remain	  t rapped	  there,	  
+as	  the	  door	  also	  disappears	  from	  the	  other	  side. 	  
+	   Each	  time	  you	  cast	  this	  spell,	  you	  can	  create	  a	  new	  
+demiplane,	  or	  have	  the	  shadowy	  door	  connect	  to	  a	  
+demiplane	  you	  created	  with	  a	  previous	  casting	  of	  
+this	  spell.	  Additionally,	  if	  you	  know	  the	   nature	  and	  
+contents	  of	  a	  demiplane	  created	  by	  a	  casting	  of	  this	  
+spell	  by	  another	  creature,	  you	  can	  have	  the	  shadowy	  
+door	  connect	  to	  its	  demiplane	  instead. 	  
+Detect Evil and Good 
+1st-­‐‑level	  divination 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+For	  the	  duration,	  you	  know	  if	  there	  is	  an	  aberration,	  
+celestial,	  elemental,	  fey,	  fiend,	  or	  undead	  within	  30	  
+feet	  of	  you,	  as	  well	  as	  where	  the	  creature	  is	  located.	  
+Similarly,	  you	  know	  if	  there	  is	  a	  place	  or	  object	  
+within	  30	  feet	  of	  you	  that	  has	  been	  magically	  
+consecrated	  or	  desecrated. 	  
+	   The	  spell	  can	  penetrate	  most	  barriers,	  but	  it	  is	  
+blocked	  by	  1	  foot	  of	  stone,	  1	  inch	  of	  common	  metal,	  a	  
+thin	  sheet	  of	  lead,	  or	  3	  feet	  of	  wood	  or	  dirt. 	  
+Detect Magic 
+1st-­‐‑level	  divination	   (ritual)	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+For	  the	  duration,	  you	  sense	  the	  presence	  of	  magic	  
+within	  30	  feet	  of	  you.	  If	  you	  sense	  magic	  in	  this	  way,	  
+you	  can	  use	  your	  action	  to	  see	  a	  faint	  aura	  arou nd	  
+any	  visible	  creature	  or	  object	  in	  the	  area	  that	  bears	  
+magic,	  and	  you	  learn	  its	  school	  of	  magic,	  if	  any. 	  
+	   The	  spell	  can	  penetrate	  most	  barriers,	  but	  it	  is	  
+blocked	  by	  1	  foot	  of	  stone,	  1	  inch	  of	  common	  metal,	  a	  
+thin	  sheet	  of	  lead,	  or	  3	  feet	  of	  wood	  or	  dirt .	  
+Detect Poison and Disease 
+1st-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  yew	  leaf) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+For	  the	  duration,	  you	  can	  sense	  the	  presence	  and	  
+location	  of	  poisons,	  poisonous	  creature s,	  and	  
+diseases	  within	  30	  feet	  of	  you.	  You	  also	  identify	  the	  
+kind	  of	  poison,	  poisonous	  creature,	  or	  disease	  in	  
+each	  case.	  
+	   The	  spell	  can	  penetrate	  most	  barriers,	  but	  it	  is	  
+blocked	  by	  1	  foot	  of	  stone,	  1	  inch	  of	  common	  metal,	  a	  
+thin	  sheet	  of	  lead,	  or	  3	  feet	   of	  wood	  or	  dirt. 	  

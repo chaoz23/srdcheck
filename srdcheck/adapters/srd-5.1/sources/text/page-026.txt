@@ -1,0 +1,68 @@
+System	  Reference	   Document	  5.1 	   26	  
+Monk 
+Class Features 
+As	  a	  monk,	  you	  gain	  the	  following	  class	  features. 	  
+Hit Points 
+Hit	  Dice:	  1d8	  per	  monk	  level	  
+Hit	  Points	  at	  1st	  Level: 	  8	  +	  your	  Constitution	  
+modifier	  
+Hit	  Points	  at	  Higher	  Levels: 	  1d8	  (or	  5)	  +	  your	  
+Constitution	  modifier	  per	  monk	  level	  after	  1st 	  
+Proficiencies 
+Armor:	  None	  
+Weapons:	  Simple	  weapons,	  shortswords 	  
+Tools:	  Choose	  one	  type	  of	   artisan’s	  tools	  or	  one	  
+musical	  instrument 	  
+Saving	  Throws:	   Strength,	  Dexterity 	  
+Skills:	  Choose	  two	  from	  Acrobatics,	  Athletics,	  
+History,	  Insight,	  Religion,	  and	  Stealth 	  
+Equipment 
+You	  start	  with	  the	  following	  equipment,	  in	  addition	  
+to	  the	  equipment	  granted	  by	  yo ur	  background: 	  
+• (a)	  a	  shortsword	  or	  ( b)	  any	  simple	  weapon
+• (a)	  a	  dungeoneer’s	  pack	  or	  ( b)	  an	  explorer’s	  pack
+• 10	  darts
+The	  Monk	  
+Level	   Proficiency	  Bonus	   Martial	  Arts	   Ki	  Points	   Unarmored	  Movement 	   Features	  
+1st	   +2 1d4	   —	   —	   Unarmored	  Defense,	  Martial	  Arts 	  
+2nd	   +2 1d4	   2	   +10	  ft. Ki,	  Unarmored	  Movement 	  
+3rd	   +2 1d4	   3	   +10	  ft. Monastic	  Tradition,	  Deflect	  Missiles 	  
+4th	   +2 1d4	   4	   +10	  ft. Ability	  Score	  Improvement,	  Slow	  Fall 	  
+5th	   +3 1d6	   5	   +10	  ft. Extra	  Attack,	  Stunning	  Strike 	  
+6th	   +3 1d6	   6	   +15	  ft. Ki-­‐Empowered	  Strikes,	  Monastic	  Tradition	  feature 	  
+7th	   +3 1d6	   7	   +15	  ft. Evasion,	  Stillness	  of	  Mind 	  
+8th	   +3 1d6	   8	   +15	  ft. Ability	  Score	  Improvement 	  
+9th	   +4 1d6	   9	   +15	  ft. Unarmored	  Movement	  improvement 	  
+10th	   +4 1d6	   10	   +20	  ft. Purity	  of	  Body	  
+11th	   +4 1d8	   11	   +20	  ft. Monastic	  Tradition	  feature 	  
+12th	   +4 1d8	   12	   +20	  ft. Ability	  Score	  Improvement 	  
+13th	   +5 1d8	   13	   +20	  ft. Tongue	  of	  the	  Sun	  and	  Moon 	  
+14th	   +5 1d8	   14	   +25	  ft. Diamond	  Soul	  
+15th	   +5 1d8	   15	   +25	  ft. Timeless	  Body	  
+16th	   +5 1d8	   16	   +25	  ft. Ability	  Score	  Improvement 	  
+17th	   +6 1d10	   17	   +25	  ft. Monastic	  Tradition	  feature 	  
+18th	   +6 1d10	   18	   +30	  ft. Empty	  Body	  
+19th	   +6 1d10	   19	   +30	  ft. Ability	  Score	  Improvement 	  
+20th	   +6 1d10	   20	   +30	  ft. Perfect	  Self	  
+Unarmored Defense 
+Beginning	  at	  1st	  level,	  while	  you	  are	  wearing	  no	  
+armor	  and	  not	  wielding	  a	  shield,	  your	  AC	  equals	  10	  +	  
+your	  Dexterity	  modifier	  +	  your	  Wisdom	  modifier. 	  
+Martial Arts 
+At	  1st	  level,	  your	  practice	  of	  martial	  arts	  gives	  you	  
+mastery	  of	  combat	  styles	  that	  use	  unarmed	  strikes	  
+and	  monk	  weapons,	  which	  are	  shortswords	  and	  any	  
+simple	  melee	  weapons	  that	  don’t	  have	  the	  two -­‐‑
+handed	  or	  heavy	  property. 	  
+	   You	  gain	  the	  following	  benefits	  while	  you	  are	  
+unarmed	  or	  wielding	  only	  monk	  weapons	  and	  you	  
+aren’t	  wearing	  armor	  or	  wielding	  a	  shield: 	  
+• You	  can	  use	  Dexterity	  instead	  of	  Strength	  for	  the
+attack	  and	  damage	  rolls	  of	  your	  unarmed	  strikes
+and	  monk	  weapons.
+• You	  can	  roll	  a	  d4	  in	  place	  of	  the	  normal	  damage	  of
+your	  unarmed	  strike	  or	  monk	  weapon.	  This	  die	  
+changes	  as	  you	  gain	  monk	  levels,	  as	  shown	  in	  t he	  
+Martial	  Arts	  column	  of	  the	  Monk	  table. 	  
+• When	  you	  use	  the	  Attack	  action	  with	  an	  unarmed
+strike	  or	  a	  monk	  weapon	  on	  your	  turn,	  you	  can

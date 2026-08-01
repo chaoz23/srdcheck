@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   126	  
+the	  target	  behaves.	  If	  the	  target	  can’t	  follow	  your	  
+command,	  the	  spell	  ends. 	  
+	   Approach.	  The	  target	  moves	  toward	  you	  by	  the	  
+shortest	  and	  most	  direct	  route,	  ending	  its	  turn	  if	  it	  
+moves	  within	  5	  feet	  of	  you. 	  
+	   Drop.	  The	  target	  drops	  whatever	  it	  is	  holding	  and	  
+then	  ends	  its	  turn. 	  
+	   Flee.	  The	  target	  spends	  its	  turn	  moving	  away	  from	  
+you	  by	  the	  fastest	  available	  means. 	  
+	   Grovel.	  The	  target	  falls	  prone	  and	  then	  ends	  its	  
+turn.	  
+	   Halt.	  The	  target	  doesn’t	  move	  and	  takes	  no	  actions.	  
+A	  flying	  creature	  stays	  aloft,	  provided	  that	  it	  is	  able	  
+to	  do	  so.	  If	  it	  must	  move	  to	  stay	  aloft,	  it	  flies	  the	  
+minimum	  distance	  needed	  to	  remain	  in	  the	  air. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  you	  can	  affect	  one	  
+additional	  creature	  for	  each	  slot	  level	  above	  1st.	  The	  
+creatures	  must	  be	  within	  30	  feet	  of	  each	  other	  when	  
+you	  target	  them.	  
+Commune 
+5th-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (incense	  and	  a	  vial	  of	  holy	  or	  
+unholy	  water)	  
+Duration:	  1	  minute	  
+You	  contact	  your	  deity	  or	  a	  divine	  proxy	  and	  ask	  up	  
+to	  three	  questions	  that	  can	  be	  answ ered	  with	  a	  yes	  
+or	  no.	  You	  must	  ask	  your	  questions	  before	  the	  spell	  
+ends.	  You	  receive	  a	  correct	  answer	  for	  each	  question. 	  
+	   Divine	  beings	  aren’t	  necessarily	  omniscient,	  so	  
+you	  might	  receive	  “unclear”	  as	  an	  answer	  if	  a	  
+question	  pertains	  to	  information	  that	  lies	  beyond	  the	  
+deity’s	  knowledge.	  In	  a	  case	  where	  a	  one -­‐‑word	  
+answer	  could	  be	  misleading	  or	  contrary	  to	  the	  
+deity’s	  interests,	  the	  GM	  might	  offer	  a	  short	  phrase	  
+as	  an	  answer	  instead. 	  
+	   If	  you	  cast	  the	  spell	  two	  or	  more	  times	  before	  
+finishing	  your	  next	  long	  r est,	  there	  is	  a	  cumulative	  
+25	  percent	  chance	  for	  each	  casting	  after	  the	  first	  that	  
+you	  get	  no	  answer.	  The	  GM	  makes	  this	  roll	  in	  secret. 	  
+Commune with Nature 
+5th-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  briefly	  become	  one	  with	  nature	  and	  gain	  
+knowledge	  of	  the	  surrounding	  territory.	  In	  the	  
+outdoors,	  the	  spell	  gives	  you	  knowledge	  of	  the	  land	  
+within	  3	  miles	  of	  you.	  In	  caves	  and	  other	  natural	  
+underground	  settings,	  the	  radius	  is	  limited	  to	  300	  
+feet.	  The	  spell	  doesn’t	  function	  where	  nature	  has	  
+been	  replaced	  by	  construction,	  such	  as	  in	  dungeons	  
+and	  towns.	  
+	   You	  instantly	  gain	  knowledge	  of	  up	  to	  three	  facts	  
+of	  your	  choice	  about	  any	  of	  the	  following	  subjects	  as	  
+they	  relate	  to	  the	  area: 	  
+• terrain	  and	  bodies	  o f	  water
+• prevalent	  plants,	  minerals,	  animals,	  or	  peoples
+• powerful	  celestials,	  fey,	  fiends,	  elementals,	  or
+undead
+• influence	  from	  other	  planes	  of	  existence
+• buildings
+For	  example,	  you	  could	  determine	  the	  location	  of
+powerful	  undead	  in	  the	  area,	  the	  location	   of	  major	  
+sources	  of	  safe	  drinking	  water,	  and	  the	  location	  of	  
+any	  nearby	  towns. 	  
+Comprehend Languages 
+1st-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  soot	  and	  salt) 	  
+Duration:	  1	  hour	  
+For	  the	  duration,	  you	  under stand	  the	  literal	  meaning	  
+of	  any	  spoken	  language	  that	  you	  hear.	  You	  also	  
+understand	  any	  written	  language	  that	  you	  see,	  but	  
+you	  must	  be	  touching	  the	  surface	  on	  which	  the	  
+words	  are	  written.	  It	  takes	  about	  1	  minute	  to	  read	  
+one	  page	  of	  text. 	  
+	   This	  spell	  doesn’ t	  decode	  secret	  messages	  in	  a	  text	  
+or	  a	  glyph,	  such	  as	  an	  arcane	  sigil,	  that	  isn’t	  part	  of	  a	  
+written	  language. 	  
+Compulsion 
+4th-­‐‑level	  enchantment 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Creatures	  of	  your 	  choice	  that	  you	  can	  see	  within	  
+range	  and	  that	  can	  hear	  you	  must	  make	  a	  Wisdom	  
+saving	  throw.	  A	  target	  automatically	  succeeds	  on	  
+this	  saving	  throw	  if	  it	  can't	  be	  charmed.	  On	  a	  failed	  
+save,	  a	  target	  is	  affected	  by	  this	  spell.	  Until	  the	  spell	  
+ends,	  you	  can	  us e	  a	  bonus	  action	  on	  each	  of	  your	  
+turns	  to	  designate	  a	  direction	  that	  is	  horizontal	  to	  

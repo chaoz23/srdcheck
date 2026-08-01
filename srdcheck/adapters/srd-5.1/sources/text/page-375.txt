@@ -1,0 +1,79 @@
+System	  Reference	   Document	  5.1 	   375	  
+Bite.	  Melee	  Weapon	  Attack: 	  +8	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  21	  (3d10	  +	  5)	  piercing	  damage,	  and	  the	  
+target	  is	  grappled	  (escape	  DC	  16).	  Until	  this	  grapple	  
+ends,	  the	  target	  is	  restrained,	  and	  the	  crocodile	  can’t	  
+bite	  another	  target.	  
+Tail.	  Melee	  Weapon	  Attack: 	  +8	  to	  hit,	  reach	  10	  ft.,	  one	  
+target	  not	  grappled	  by	  the	  crocodile. 	  Hit:	  14	  (2d8	  +	  5)	  
+bludgeoning	  damage.	  If	  the	  target	  is	  a	  creature,	  it	  must	  
+succeed	  on	  a	  DC	  16	  Strength	  saving	  throw	  or	  be	  
+knocked	  prone. 	  
+Giant	  Eagle	  
+Large	  beast,	  neutral	  good 	  
+Armor	  Class	  13	  
+Hit	  Points	  26	  (4d10	  +	  4)	  
+Speed	  10	  ft.,	  fly	  80	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+16	  (+3)	   17	  (+3)	   13	  (+1)	   8	  (−1)	   14	  (+2)	   10	  (+0)	  
+Skills	  Perception	  +4	  
+Senses	  passive	  Perception	  14 	  
+Languages	  Giant	  Eagle,	  understands	  Common 	  and	  
+Auran	  but	  can’t	  speak	  them 	  
+Challenge	  1	  (200	  XP)	  
+Keen	  Sight.	  The	  eagle	  has	  advantage	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Multiattack.	  The	  eagle	  makes	  two	  attacks:	  one	  with	  its	  
+beak	  and	  one	  with	  its	  talons. 	  
+Beak.	  Melee	  Weapon	   Attack:	  +5	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  6	  (1d6	  +	  3)	  piercing	  damage. 	  
+Talons.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  10	  (2d6	  +	  3)	  slashing	  damage. 	  
+A	  giant	  eagle	  is	  a	  noble	  creature	  that	  speaks	  its	  own	  
+language	  and	  understand s	  speech	  in	  the	  Common	  
+tongue.	  A	  mated	  pair	  of	  giant	  eagles	  typically	  has	  up	  
+to	  four	  eggs	  or	  young	  in	  their	  nest	  (treat	  the	  young	  
+as	  normal	  eagles). 	  
+Giant	  Elk	  
+Huge	  beast,	  unaligned 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  42	  (5d12	  +	  10)	  
+Speed	  60	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+19	  (+4)	   16	  (+3)	   14	  (+2)	   7	  (−2)	   14	  (+2)	   10	  (+0)	  
+Skills	  Perception	  +4	  
+Senses	  passive	  Perception	  14 	  
+Languages	  Giant	  Elk,	  understands	  Common,	  Elvish,	  and	  
+Sylvan	  but	  can’t	  speak	  them 	  
+Challenge	  2	  (450	  XP)	  
+Charge.	  If	  the	  elk	  moves	  at	  least	   20	  feet	  straight	  
+toward	  a	  target	  and	  then	  hits	  it	  with	  a	  ram	  attack	  on	  
+the	  same	  turn,	  the	  target	  takes	  an	  extra	  7	  (2d6)	  
+damage.	  If	  the	  target	  is	  a	  creature,	  it	  must	  succeed	  on	  
+a	  DC	  14	  Strength	  saving	  throw	  or	  be	  knocked	  prone. 	  
+Actions	  
+Ram.	  Melee	  Weapon	  Att ack:	  +6	  to	  hit,	  reach	  10	  ft.,	  one	  
+target.	  Hit:	  11	  (2d6	  +	  4)	  bludgeoning	  damage. 	  
+Hooves.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  
+one	  prone	  creature.	   Hit:	  22	  (4d8	  +	  4)	  bludgeoning	  
+damage.	  
+The	  majestic	  giant	  elk	  is	  rare	  to	  the	  point	  that	  its	  
+appearance	  is	  often	  taken	  as	  a	  foreshadowing	  of	  an	  
+important	  event,	  such	  as	  the	  birth	  of	  a	  king.	  Legends	  
+tell	  of	  gods	  that	  take	  the	  form	  of	  giant	  elk	  when	  
+visiting	  the	  Material	  Plane.	  Many	  cultures	  therefore	  
+believe	  that	  to	  h unt	  these	  creatures	  is	  to	  invite	  
+divine	  wrath.	  
+Giant	  Fire	  Beetle	  
+Small	  beast,	  unaligned 	  
+Armor	  Class	  13	  (natural	  armor) 	  
+Hit	  Points	  4	  (1d6	  +	  1)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+8	  (−1)	   10	  (+0)	   12	  (+1)	   1	  (−5)	   7	  (−2)	   3	  (−4)	  
+Senses	  blindsight	  30	  ft.,	  pass ive	  Perception	  8 	  
+Languages	  —	  
+Challenge	  0	  (10	  XP)	  
+Illumination.	  The	  beetle	  sheds	  bright	  light	  in	  a	  10 -­‐foot	  
+radius	  and	  dim	  light	  for	  an	  additional	  10	  feet. 	  

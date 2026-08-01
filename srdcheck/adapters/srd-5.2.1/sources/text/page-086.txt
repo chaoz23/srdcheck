@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+86
+Storm’s Thunder (Storm Giant). When you take 
+damage from a creature within 60 feet of you, you 
+can take a Reaction to deal 1d8 Thunder damage 
+to that creature.
+ Large Form. Starting at character level 5, you can 
+change your size to Large as a Bonus Action if you’re 
+in a big enough space. This transformation lasts for 
+10 minutes or until you end it (no action required). 
+For that duration, you have Advantage on Strength 
+checks, and your Speed increases by 10 feet. Once 
+you use this trait, you can’t use it again until you 
+finish a Long Rest.
+ Powerful Build. You have Advantage on any abil-
+ity check you make to end the Grappled condition. 
+You also count as one size larger when determining 
+your carrying capacity.
+Halfling
+Creature Type: Humanoid
+Size: Small (about 2–3 feet tall)
+Speed: 30 feet
+As a Halfling, you have these special traits.
+ Brave.  You have Advantage on saving throws you 
+make to avoid or end the Frightened condition.
+ Halfling Nimbleness. You can move through the 
+space of any creature that is a size larger than you, 
+but you can’t stop in the same space.
+ Luck.  When you roll a 1 on the d20 of a D20 Test, 
+you can reroll the die, and you must use the new 
+roll.
+ Naturally Stealthy. You can take the Hide action 
+even when you are obscured only by a creature that 
+is at least one size larger than you.
+Human
+Creature Type: Humanoid
+Size: Medium (about 4–7 feet tall) or Small (about 2–4 
+feet tall), chosen when you select this species
+Speed: 30 feet
+As a Human, you have these special traits.
+ Resourceful. You gain Heroic Inspiration when-
+ever you finish a Long Rest.
+ Skillful.  You gain proficiency in one skill of your 
+choice.
+ Versatile. You gain an Origin feat of your choice 
+(see “Feats”). Skilled is recommended.
+Orc
+Creature Type: Humanoid
+Size: Medium (about 6–7 feet tall)
+Speed: 30 feet
+As an Orc, you have these special traits.
+ Adrenaline Rush. You can take the Dash action as 
+a Bonus Action. When you do so, you gain a number 
+of Temporary Hit Points equal to your Proficiency 
+Bonus.
+ You can use this trait a number of times equal 
+to your Proficiency Bonus, and you regain all ex -
+pended uses when you finish a Short or Long Rest.
+ Darkvision.  You have Darkvision with a range of 
+120 feet.
+ Relentless Endurance. When you are reduced to 
+0 Hit Points but not killed outright, you can drop to 
+1 Hit Point instead. Once you use this trait, you can’t 
+do so again until you finish a Long Rest.
+Tiefling
+Creature Type: Humanoid
+Size: Medium (about 4–7 feet tall) or Small (about 3–4 
+feet tall), chosen when you select this species
+Speed: 30 feet
+As a Tiefling, you have the following special traits.
+ Darkvision. You have Darkvision with a range of 
+60 feet.
+ Fiendish Legacy. You are the recipient of a legacy 
+that grants you supernatural abilities. Choose a leg -
+acy from the Fiendish Legacies table. You gain the 
+level 1 benefit of the chosen legacy.
+ When you reach character levels 3 and 5, you 
+learn a higher-level spell, as shown on the table. 
+You always have that spell prepared. You can cast it 
+once without a spell slot, and you regain the ability 
+to cast it in that way when you finish a Long Rest. 
+You can also cast the spell using any spell slots you 
+have of the appropriate level.
+ Intelligence, Wisdom, or Charisma is your spell -
+casting ability for the spells you cast with this trait 
+(choose the ability when you select the legacy).
+ Otherworldly Presence.  You know the Thauma-
+turgy cantrip. When you cast it with this trait, the 
+spell uses the same spellcasting ability you use for 
+your Fiendish Legacy trait.
+Fiendish Legacies
+Legacy Level 1 Level 3 Level 5
+Abyssal You have Resistance to Poison damage. 
+You also know the Poison Spray cantrip.
+Ray of Sickness Hold Person
+Chthonic You have Resistance to Necrotic damage. 
+You also know the Chill Touch cantrip.
+False Life Ray of Enfeeblement
+Infernal You have Resistance to Fire damage. 
+You also know the Fire Bolt cantrip.
+Hellish Rebuke Darkness

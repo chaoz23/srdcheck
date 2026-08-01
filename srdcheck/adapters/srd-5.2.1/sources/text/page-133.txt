@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+133
+Flesh to Stone
+Level 6 Transmutation (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a cockatrice feather)
+Duration: Concentration, up to 1 minute
+You attempt to turn one creature that you can see 
+within range into stone. The target makes a Consti -
+tution saving throw. On a failed save, it has the Re -
+strained condition for the duration. On a successful 
+save, its Speed is 0 until the start of your next turn. 
+Constructs automatically succeed on the save.
+ A Restrained target makes another Constitution 
+saving throw at the end of each of its turns. If it 
+successfully saves against this spell three times, 
+the spell ends. If it fails its saves three times, it is 
+turned to stone and has the Petrified condition for 
+the duration. The successes and failures needn’t be 
+consecutive; keep track of both until the target col -
+lects three of a kind.
+ If you maintain your Concentration on this spell 
+for the entire possible duration, the target is Petri -
+fied until the condition is ended by Greater Resto -
+ration or similar magic.
+Floating Disk
+Level 1 Conjuration (Wizard)
+Casting Time: Action or Ritual
+Range: 30 feet
+Components: V, S, M (a drop of mercury)
+Duration: 1 hour
+This spell creates a circular, horizontal plane of 
+force, 3 feet in diameter and 1 inch thick, that floats 
+3 feet above the ground in an unoccupied space 
+of your choice that you can see within range. The 
+disk remains for the duration and can hold up to 
+500 pounds. If more weight is placed on it, the spell 
+ends, and everything on the disk falls to the ground.
+ The disk is immobile while you are within 20 feet 
+of it. If you move more than 20 feet away from it, the 
+disk follows you so that it remains within 20 feet of 
+you. It can move across uneven terrain, up or down 
+stairs, slopes and the like, but it can’t cross an ele -
+vation change of 10 feet or more. For example, the 
+disk can’t move across a 10-foot-deep pit, nor could 
+it leave such a pit if it was created at the bottom.
+ If you move more than 100 feet from the disk (typ -
+ically because it can’t move around an obstacle to 
+follow you), the spell ends.
+Fly
+Level 3 Transmutation (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a feather)
+Duration: Concentration, up to 10 minutes
+You touch a willing creature. For the duration, the 
+target gains a Fly Speed of 60 feet and can hover. 
+When the spell ends, the target falls if it is still aloft 
+unless it can stop the fall.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 3.
+Fog Cloud
+Level 1 Conjuration (Druid, Ranger, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 1 hour
+You create a 20-foot-radius Sphere of fog centered 
+on a point within range. The Sphere is Heavily Ob -
+scured. It lasts for the duration or until a strong 
+wind (such as one created by Gust of Wind ) dis-
+perses it.
+ Using a Higher-Level Spell Slot. The fog’s radius 
+increases by 20 feet for each spell slot level above 1.
+Forbiddance
+Level 6 Abjuration (Cleric)
+Casting Time: 10 minutes or Ritual
+Range: Touch
+Components: V, S, M (ruby dust worth 1,000+ GP)
+Duration: 1 day
+You create a ward against magical travel that pro -
+tects up to 40,000 square feet of floor space to a 
+height of 30 feet above the floor. For the duration, 
+creatures can’t teleport into the area or use portals, 
+such as those created by the Gate  spell, to enter the 
+area. The spell proofs the area against planar travel, 
+and therefore prevents creatures from accessing 
+the area by way of the Astral Plane, the Ethereal 
+Plane, the Feywild, the Shadowfell, or the Plane Shift  
+spell.
+ In addition, the spell damages types of creatures 
+that you choose when you cast it. Choose one or 
+more of the following: Aberrations, Celestials, Ele -
+mentals, Fey, Fiends, and Undead. When a creature 
+of a chosen type enters the spell’s area for the first 
+time on a turn or ends its turn there, the creature 
+takes 5d10 Radiant or Necrotic damage (your 
+choice when you cast this spell).
+ You can designate a password when you cast the 
+spell. A creature that speaks the password as it en -
+ters the area takes no damage from the spell.
+ The spell’s area can’t overlap with the area of 
+another Forbiddance spell. If you cast Forbiddance 
+every day for 30 days in the same location, the spell 
+lasts until it is dispelled, and the Material compo -
+nents are consumed on the last casting.

@@ -1,0 +1,92 @@
+299
+System Reference Document 5.2.1
+Traits
+Pack Tactics. The hobgoblin has Advantage on an at-
+tack roll against a creature if at least one of the hobgob-
+lin’s allies is within 5 feet of the creature and the ally 
+doesn’t have the Incapacitated condition.
+Actions
+Longsword. Melee Attack Roll: +3, reach 5 ft. Hit: 12 
+(2d10 + 1) Slashing damage.
+Longbow. Ranged Attack Roll: +3, range 150/600 ft. 
+Hit: 5 (1d8 + 1) Piercing damage plus 7 (3d4) Poi-
+son damage.
+Hobgoblin Captain
+Medium Fey (Goblinoid), Lawful Evil
+AC 17  Initiative +4 (14)
+HP 58 (9d8 + 18)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 14 +2 +2 Con 14 +2 +2
+Int 12 +1 +1 WIS 10 +0 +0 Cha 13 +1 +1
+Gear Greatsword, Half Plate Armor, Longbow
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Common, Goblin
+CR 3 (XP 700; PB +2)
+Traits
+Aura of Authority. While in a 10-foot Emanation origi-
+nating from the hobgoblin, the hobgoblin and its allies 
+have Advantage on attack rolls and saving throws, 
+provided the hobgoblin doesn’t have the Incapacitated 
+condition.
+Actions
+Multiattack. The hobgoblin makes two attacks, using 
+Greatsword or Longbow in any combination.
+Greatsword. Melee Attack Roll: +4, reach 5 ft. Hit: 9 
+(2d6 + 2) Slashing damage plus 3 (1d6) Poison damage.
+Longbow. Ranged Attack Roll: +4, range 150/600 
+ft. Hit: 6 (1d8 + 2) Piercing damage plus 5 (2d4) Poi-
+son damage.
+Homunculus
+Homunculus
+Tiny Construct, Neutral
+AC 13  Initiative +2 (12)
+HP 4 (1d4 + 2)
+Speed 20 ft., Fly 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 4 −3 −3 Dex 15 +2 +2 Con 14 +2 +2
+Int 10 +0 +0 WIS 10 +0 +2 Cha 7 −2 +0
+Immunities Poison; Charmed, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Understands Common plus one other language 
+but can’t speak
+CR 0 (XP 10; PB +2)
+Traits
+Telepathic Bond. While the homunculus is on the same 
+plane of existence as its master, the two of them can 
+communicate telepathically with each other.
+Actions
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing 
+damage, and the target is subjected to the following 
+effect. Constitution Saving Throw: DC 12. Failure: The 
+target has the Poisoned condition until the end of the 
+homunculus’s next turn. Failure by 5 or More: The tar-
+get has the Poisoned condition for 1 minute. While Poi-
+soned, the target has the Unconscious condition, which 
+ends early if the target takes any damage.
+Horned Devil
+Horned Devil
+Large Fiend (Devil), Lawful Evil
+AC 18  Initiative +7 (17)
+HP 199 (19d10 + 95)
+Speed 30 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 22 +6 +10 Dex 17 +3 +7 Con 21 +5 +5
+Int 12 +1 +1 WIS 16 +3 +7 Cha 18 +4 +8
+Resistances Cold
+Immunities Fire, Poison; Poisoned
+Senses Darkvision 150 ft. (unimpeded by magical 
+Darkness); Passive Perception 13
+Languages Infernal; telepathy 120 ft.
+CR 11 (XP 7 ,200; PB +4)
+Traits
+Diabolical Restoration. If the devil dies outside the 
+Nine Hells, its body disappears in sulfurous smoke, and 
+it gains a new body instantly, reviving with all its Hit 
+Points somewhere in the Nine Hells.
+Magic Resistance. The devil has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The devil makes three attacks, using Sear-
+ing Fork or Hurl Flame in any combination. It can re-
+place one attack with a use of Infernal Tail.

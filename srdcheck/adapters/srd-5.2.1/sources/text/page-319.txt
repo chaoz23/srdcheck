@@ -1,0 +1,102 @@
+319
+System Reference Document 5.2.1
+Fire Breath (Recharge 5–6). Dexterity Saving Throw: 
+DC 21, each creature in a 60-foot Cone. Failure: 59 
+(17d6) Fire damage. Success: Half damage.
+Spellcasting. The dragon casts one of the following 
+spells, requiring no Material components and using 
+Charisma as the spellcasting ability (spell save DC 20, 
++12 to hit with spell attacks):
+At Will: Command (level 2 version), Detect Magic, 
+Scorching Ray
+1/Day: Fireball
+Legendary Actions
+Legendary Action Uses: 3 (4 in Lair). Immediately after 
+another creature’s turn, the dragon can expend a use to 
+take one of the following actions. The dragon regains all 
+expended uses at the start of each of its turns.
+Commanding Presence. The dragon uses Spellcasting 
+to cast Command (level 2 version). The dragon can’t 
+take this action again until the start of its next turn.
+Fiery Rays. The dragon uses Spellcasting to cast Scorch-
+ing Ray. The dragon can’t take this action again until the 
+start of its next turn.
+Pounce. The dragon moves up to half its Speed, and it 
+makes one Rend attack.
+Ancient Red Dragon
+Gargantuan Dragon (Chromatic), Chaotic Evil
+AC 22 Initiative +14 (24)
+HP 507 (26d20 + 234)
+Speed 40 ft., Climb 40 ft., Fly 80 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 30 +10 +10 Dex 10 +0 +7 Con 29 +9 +9
+Int 18 +4 +4 WIS 15 +2 +9 Cha 27 +8 +8
+Skills Perception +16, Stealth +7
+Immunities Fire
+Senses Blindsight 60 ft., Darkvision 120 ft.; 
+Passive Perception 26
+Languages Common, Draconic
+CR 24 (XP 62,000, or 75,000 in lair; PB +7)
+Traits
+Legendary Resistance (4/Day, or 5/Day in Lair). If 
+the dragon fails a saving throw, it can choose to suc-
+ceed instead.
+Actions
+Multiattack. The dragon makes three Rend attacks. It 
+can replace one attack with a use of Spellcasting to cast 
+Scorching Ray (level 3 version).
+Rend. Melee Attack Roll: +17 , reach 15 ft. Hit: 19 (2d8 
++ 10) Slashing damage plus 10 (3d6) Fire damage.
+Fire Breath (Recharge 5–6). Dexterity Saving Throw: 
+DC 24, each creature in a 90-foot Cone. Failure: 91 
+(26d6) Fire damage. Success: Half damage.
+Spellcasting. The dragon casts one of the following 
+spells, requiring no Material components and using 
+Charisma as the spellcasting ability (spell save DC 23, 
++15 to hit with spell attacks):
+At Will: Command (level 2 version), Detect Magic, 
+Scorching Ray (level 3 version)
+1/Day Each: Fireball (level 6 version), Scrying
+Legendary Actions
+Legendary Action Uses: 3 (4 in Lair). Immediately after 
+another creature’s turn, the dragon can expend a use to 
+take one of the following actions. The dragon regains all 
+expended uses at the start of each of its turns.
+Commanding Presence. The dragon uses Spellcasting 
+to cast Command (level 2 version). The dragon can’t 
+take this action again until the start of its next turn.
+Fiery Rays. The dragon uses Spellcasting to cast Scorch-
+ing Ray (level 3 version). The dragon can’t take this ac-
+tion again until the start of its next turn.
+Pounce. The dragon moves up to half its Speed, and it 
+makes one Rend attack.
+Remorhaz
+Remorhaz
+Huge Monstrosity, Unaligned
+AC 17  Initiative +5 (15)
+HP 195 (17d12 + 85)
+Speed 40 ft., Burrow 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 24 +7 +7 Dex 13 +1 +1 Con 21 +5 +5
+Int 4 −3 −3 WIS 10 +0 +0 Cha 5 −3 −3
+Immunities Cold, Fire
+Senses Darkvision 60 ft., Tremorsense 60 ft.; 
+Passive Perception 10
+Languages None
+CR 11 (XP 7 ,200; PB +4)
+Traits
+Heat Aura. At the end of each of the remorhaz’s turns, 
+each creature in a 5-foot Emanation originating from 
+the remorhaz takes 16 (3d10) Fire damage.
+Actions
+Bite. Melee Attack Roll: +11, reach 10 ft. Hit: 18 (2d10 
++ 7) Piercing damage plus 14 (4d6) Fire damage. If the 
+target is a Large or smaller creature, it has the Grappled 
+condition (escape DC 17), and it has the Restrained 
+condition until the grapple ends.
+Bonus Actions
+Swallow. Strength Saving Throw: DC 19, one Large or 
+smaller creature Grappled by the remorhaz (it can have 
+up to two creatures swallowed at a time). Failure: The 
+target is swallowed by the remorhaz, and the Grappled 
+condition ends. A swallowed creature has the Blinded 

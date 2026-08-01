@@ -1,0 +1,91 @@
+System Reference Document 5.2.1
+63
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Rogue levels 
+8, 10, 12, and 16.
+Level 5: Cunning Strike
+You’ve developed cunning ways to use your Sneak 
+Attack. When you deal Sneak Attack damage, you 
+can add one of the following Cunning Strike effects. 
+Each effect has a die cost, which is the number of 
+Sneak Attack damage dice you must forgo to add the 
+effect. You remove the die before rolling, and the 
+effect occurs immediately after the attack’s damage 
+is dealt. For example, if you add the Poison effect, 
+remove 1d6 from the Sneak Attack’s damage before 
+rolling.
+ If a Cunning Strike effect requires a saving throw, 
+the DC equals 8 plus your Dexterity modifier and 
+Proficiency Bonus.
+ Poison (Cost: 1d6). You add a toxin to your strike, 
+forcing the target to make a Constitution saving 
+throw. On a failed save, the target has the Poisoned 
+condition for 1 minute. At the end of each of its 
+turns, the Poisoned target repeats the save, ending 
+the effect on itself on a success.
+ To use this effect, you must have a Poisoner’s Kit 
+on your person.
+ Trip (Cost: 1d6). If the target is Large or smaller, 
+it must succeed on a Dexterity saving throw or have 
+the Prone condition.
+ Withdraw (Cost: 1d6). Immediately after the 
+attack, you move up to half your Speed without pro -
+voking Opportunity Attacks.
+Level 5: Uncanny Dodge
+When an attacker that you can see hits you with an 
+attack roll, you can take a Reaction to halve the at -
+tack’s damage against you (round down).
+Level 7: Evasion
+You can nimbly dodge out of the way of certain dan -
+gers. When you’re subjected to an effect that allows 
+you to make a Dexterity saving throw to take only 
+half damage, you instead take no damage if you 
+succeed on the saving throw and only half damage 
+if you fail. You can’t use this feature if you have the 
+Incapacitated condition.
+Level 7: Reliable Talent
+Whenever you make an ability check that uses one 
+of your skill or tool proficiencies, you can treat a 
+d20 roll of 9 or lower as a 10.
+Level 11: Improved Cunning Strike
+You can use up to two Cunning Strike effects when 
+you deal Sneak Attack damage, paying the die cost 
+for each effect.
+Level 14: Devious Strikes
+You’ve practiced new ways to use your Sneak Attack 
+deviously. The following effects are now among 
+your Cunning Strike options.
+ Daze (Cost: 2d6). The target must succeed on a 
+Constitution saving throw, or on its next turn, it can 
+do only one of the following: move or take an action 
+or a Bonus Action.
+ Knock Out (Cost: 6d6). The target must succeed 
+on a Constitution saving throw, or it has the Uncon -
+scious condition for 1 minute or until it takes any 
+damage. The Unconscious target repeats the save 
+at the end of each of its turns, ending the effect on 
+itself on a success.
+ Obscure (Cost: 3d6). The target must succeed on 
+a Dexterity saving throw, or it has the Blinded con -
+dition until the end of its next turn.
+Level 15: Slippery Mind
+Your cunning mind is exceptionally difficult to con -
+trol. You gain proficiency in Wisdom and Charisma 
+saving throws.
+Level 18: Elusive
+You’re so evasive that attackers rarely gain the 
+upper hand against you. No attack roll can have 
+Advantage against you unless you have the Incapac -
+itated condition.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of the 
+Night Spirit is recommended.
+Level 20: Stroke of Luck
+You have a marvelous knack for succeeding when 
+you need to. If you fail a D20 Test, you can turn the 
+roll into a 20.
+ Once you use this feature, you can’t use it again 
+until you finish a Short or Long Rest.

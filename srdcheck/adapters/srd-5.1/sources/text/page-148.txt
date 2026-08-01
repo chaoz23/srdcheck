@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   148	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  7th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d6	  for	  each	  slot	  level	  above	  6th.	  
+Gaseous Form 
+3rd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  gauze	  and	  a	  wisp	  of	  
+smoke)	  
+Duration:	  Concentration,	  up	  to	  1	  hour 	  
+You	  transform	  a	  willing	  creature	  you	  touch,	  along	  
+with	  everything	  it’s	  wearing	  and	  carrying,	  into	  a	  
+misty	  cloud	  for	  the	  duration.	  The	  spell	  ends	  if	  the	  
+creature	  drops	  to	   0	  hit	  points.	  An	  incorporeal	  
+creature	  isn’t	  affected. 	  
+	   While	  in	  this	  form,	  the	  target’s	  only	  method	  of	  
+movement	  is	  a	  flying	  speed	  of	  10	  feet.	  The	  target	  can	  
+enter	  and	  occupy	  the	  space	  of	  another	  creature.	  The	  
+target	  has	  resistance	  to	  nonmagical	  damage,	   and	  it	  
+has	  advantage	  on	  Strength,	  Dexterity,	  and	  
+Constitution	  saving	  throws.	  The	  target	  can	  pass	  
+through	  small	  holes,	  narrow	  openings,	  and	  even	  
+mere	  cracks,	  though	  it	  treats	  liquids	  as	  though	  they	  
+were	  solid	  surfaces.	  The	  target	  can’t	  fall	  and	  remains	  
+hovering	  in	  the	  air	  even	  when	  stunned	  or	  otherwise	  
+incapacitated.	  
+	   While	  in	  the	  form	  of	  a	  misty	  cloud,	  the	  target	  can’t	  
+talk	  or	  manipulate	  objects,	  and	  any	  objects	  it	  was	  
+carrying	  or	  holding	  can’t	  be	  dropped,	  used,	  or	  
+otherwise	  interacted	  with.	  The	  target	  can’ t	  attack	  or	  
+cast	  spells.	  
+Gate 
+9th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  diamond	  worth	  at	  least	  
+5,000	  gp)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  conjure	  a	  portal	  linking	  an	  unoccupied	  space	  
+you	  can	  see	  within	  ra nge	  to	  a	  precise	  location	  on	  a	  
+different	  plane	  of	  existence.	  The	  portal	  is	  a	  circular	  
+opening,	  which	  you	  can	  make	  5	  to	  20	  feet	  in	  
+diameter.	  You	  can	  orient	  the	  portal	  in	  any	  direction	  
+you	  choose.	  The	  portal	  lasts	  for	  the	  duration. 	  
+	   The	  portal	  has	  a	  front	  and	  a	  back	  on	  each	  plane	  
+where	  it	  appears.	  Travel	  through	  the	  portal	  is	  
+possible	  only	  by	  moving	  through	  its	  front.	  Anything	  
+that	  does	  so	  is	  instantly	  transported	  to	  the	  other	  
+plane,	  appearing	  in	  the	  unoccupied	  space	  nearest	  to	  
+the	  portal.	  
+	   Deities	  and	  other	   planar	  rulers	  can	  prevent	  portals	  
+created	  by	  this	  spell	  from	  opening	  in	  their	  presence	  
+or	  anywhere	  within	  their	  domains. 	  
+	   When	  you	  cast	  this	  spell,	  you	  can	  speak	  the	  name	  
+of	  a	  specific	  creature	  (a	  pseudonym,	  title,	  or	  
+nickname	  doesn’t	  work).	  If	  that	  creatu re	  is	  on	  a	  
+plane	  other	  than	  the	  one	  you	  are	  on,	  the	  portal	  opens	  
+in	  the	  named	  creature’s	  immediate	  vicinity	  and	  
+draws	  the	  creature	  through	  it	  to	  the	  nearest	  
+unoccupied	  space	  on	  your	  side	   of	  the	  portal.	  You	  gain	  
+no	  special	  power	  over	  the	  creature,	  and	  it	  is	  free	  to	  
+act	  as	  the	  GM	  deems	  appropriate.	  It	  might	  leave,	  
+attack	  you,	  or	  help	  you. 	  
+Geas 
+5th-­‐‑level	  enchantment 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  60	  feet	  
+Components:	  V	  
+Duration:	  30	  days	  
+You	  place	  a	  magical	  command	  on	  a	  creature	  that	  you	  
+can	  see	  within	  range,	  for cing	  it	  to	  carry	  out	  some	  
+service	  or	  refrain	  from	  some	  action	  or	  course	  of	  
+activity	  as	  you	  decide.	  If	  the	  creature	  can	  understand	  
+you,	  it	  must	  succeed	  on	  a	  Wisdom	  saving	  throw	  or	  
+become	  charmed	  by	  you	  for	  the	  duration.	  While	  the	  
+creature	  is	  charmed	  by	  you, 	  it	  takes	  5d10	  psychic	  
+damage	  each	  time	  it	  acts	  in	  a	  manner	  directly	  
+counter	  to	  your	  instructions,	  but	  no	  more	  than	  once	  
+each	  day.	  A	  creature	  that	  can’t	  understand	  you	  is	  
+unaffected	  by	  the	  spell. 	  
+	   You	  can	  issue	  any	  command	  you	  choose,	  short	  of	  
+an	  activity	  that	  would	  result	  in	  certain	  death.	  Should	  
+you	  issue	  a	  suicidal	  command,	  the	  spell	  ends. 	  
+	   You	  can	  end	  the	  spell	  early	  by	  using	  an	  action	  to	  
+dismiss	  it.	  A	  remove	  curse,	  greater	  restoration ,	  or	  
+wish	  spell	  also	  ends	  it. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  s pell	  using	  a	  
+spell	  slot	  of	  7th	  or	  8th	  level,	  the	  duration	  is	  1	  year.	  
+When	  you	  cast	  this	  spell	  using	  a	  spell	  slot	  of	  9th	  level,	  
+the	  spell	  lasts	  until	  it	  is	  ended	  by	  one	  of	  the	  spells	  
+mentioned	  above. 	  
+Gentle Repose 
+2nd-­‐‑level	  necromancy	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  salt	  and	  one	  copper	  
+piece	  placed	  on	  each	  of	  the	  corpse’s	  eyes,	  which	  
+must	  remain	  there	  for	  the	  duration) 	  

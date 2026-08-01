@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+123
+You create a shadowy Medium door on a flat solid 
+surface that you can see within range. This door can 
+be opened and closed, and it leads to a demiplane 
+that is an empty room 30 feet in each dimension, 
+made of wood or stone (your choice).
+ When the spell ends, the door vanishes, and any 
+objects inside the demiplane remain there. Any 
+creatures inside also remain unless they opt to be 
+shunted through the door as it vanishes, landing 
+with the Prone condition in the unoccupied spaces 
+closest to the door’s former space.
+ Each time you cast this spell, you can create a 
+new demiplane or connect the shadowy door to a 
+demiplane you created with a previous casting of 
+this spell. Additionally, if you know the nature and 
+contents of a demiplane created by a casting of this 
+spell by another creature, you can connect the shad -
+owy door to that demiplane instead.
+Detect Evil and Good
+Level 1 Divination (Cleric, Paladin)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 10 minutes
+For the duration, you sense the location of any Ab -
+erration, Celestial, Elemental, Fey, Fiend, or Undead 
+within 30 feet of yourself. You also sense whether 
+the Hallow spell is active there and, if so, where.
+ The spell is blocked by 1 foot of stone, dirt, or 
+wood; 1 inch of metal; or a thin sheet of lead.
+Detect Magic
+Level 1 Divination (Bard, Cleric, Druid, Paladin, 
+Ranger, Sorcerer, Warlock, Wizard)
+Casting Time: Action or Ritual
+Range: Self
+Components: V, S
+Duration: Concentration, up to 10 minutes
+For the duration, you sense the presence of magical 
+effects within 30 feet of yourself. If you sense such 
+effects, you can take the Magic action to see a faint 
+aura around any visible creature or object in the 
+area that bears the magic, and if an effect was cre -
+ated by a spell, you learn the spell’s school of magic.
+ The spell is blocked by 1 foot of stone, dirt, or 
+wood; 1 inch of metal; or a thin sheet of lead.
+Detect Poison and Disease
+Level 1 Divination (Cleric, Druid, Paladin, Ranger)
+Casting Time: Action or Ritual
+Range: Self
+Components: V, S, M (a yew leaf)
+Duration: Concentration, up to 10 minutes
+For the duration, you sense the location of poisons, 
+poisonous or venomous creatures, and magical 
+contagions within 30 feet of yourself. You sense the 
+kind of poison, creature, or contagion in each case.
+ The spell is blocked by 1 foot of stone, dirt, or 
+wood; 1 inch of metal; or a thin sheet of lead.
+Detect Thoughts
+Level 2 Divination (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (1 Copper Piece)
+Duration: Concentration, up to 1 minute
+You activate one of the effects below. Until the spell 
+ends, you can activate either effect as a Magic action 
+on your later turns.
+ Sense Thoughts.  You sense the presence of 
+thoughts within 30 feet of yourself that belong to 
+creatures that know languages or are telepathic. 
+You don’t read the thoughts, but you know that a 
+thinking creature is present.
+ The spell is blocked by 1 foot of stone, dirt, or 
+wood; 1 inch of metal; or a thin sheet of lead.
+ Read Thoughts. Target one creature you can see 
+within 30 feet of yourself or one creature within 
+30 feet of yourself that you detected with the Sense 
+Thoughts option. You learn what is most on the tar -
+get’s mind right now. If the target doesn’t know any 
+languages and isn’t telepathic, you learn nothing.
+ As a Magic action on your next turn, you can try 
+to probe deeper into the target’s mind. If you probe 
+deeper, the target makes a Wisdom saving throw. 
+On a failed save, you discern the target’s reasoning, 
+emotions, and something that looms large in its 
+mind (such as a worry, love, or hate). On a successful 
+save, the spell ends. Either way, the target knows 
+that you are probing into its mind, and until you 
+shift your attention away from the target’s mind, 
+the target can take an action on its turn to make an 
+Intelligence (Arcana) check against your spell save 
+DC, ending the spell on a success.
+Dimension Door
+Level 4 Conjuration (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 500 feet
+Components: V
+Duration: Instantaneous
+You teleport to a location within range. You arrive 
+at exactly the spot desired. It can be a place you can 
+see, one you can visualize, or one you can describe 
+by stating distance and direction, such as “200 feet 
+straight downward” or “300 feet upward to the 
+northwest at a 45-degree angle.”
+ You can also teleport one willing creature. The 
+creature must be within 5 feet of you when you tele -
+port, and it teleports to a space within 5 feet of your 
+destination space.

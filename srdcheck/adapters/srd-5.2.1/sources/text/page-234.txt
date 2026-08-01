@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+234
+duplicating the effect of the Grease  spell in that area 
+for 8 hours.
+ This sticky, black unguent is thick and heavy, but 
+it flows quickly when poured. 
+Pearl of Power
+Wondrous Item, Uncommon (Requires Attunement by 
+a Spellcaster)
+While this pearl is on your person, you can take a 
+Magic action to regain one expended spell slot of 
+level 3 or lower. Once you use the pearl, it can’t be 
+used again until the next dawn.
+Periapt of Health
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing this pendant, you can take a Magic 
+action to regain 2d4 + 2 Hit Points. Once used, this 
+property can’t be used again until the next dawn.
+ In addition, you have Advantage on saving throws 
+to avoid or end the Poisoned condition while you 
+wear this pendant.
+Periapt of Proof against Poison
+Wondrous Item, Rare (Requires Attunement)
+This delicate silver chain has a brilliant-cut black 
+gem pendant. While you wear it, you have Immunity 
+to the Poisoned condition and Poison damage.
+Periapt of Wound Closure
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing this pendant, you gain the following 
+benefits.
+ Life Preservation. Whenever you make a Death 
+Saving Throw, you can change a roll of 9 or lower to 
+a 10, turning a failed save into a successful one.
+ Natural Healing Boost.  Whenever you roll a Hit 
+Point Die to regain Hit Points, double the number of 
+Hit Points it restores.
+Philter of Love
+Potion, Uncommon 
+The next time you see a creature within 10 minutes 
+after drinking this philter, you are charmed by that 
+creature and have the Charmed condition for 1 
+hour.
+ This rose-hued, effervescent liquid contains one 
+easy-to-miss bubble shaped like a heart.
+Pipes of Haunting
+Wondrous Item, Uncommon 
+These pipes have 3 charges and regain 1d3 ex -
+pended charges daily at dawn. You can take a Magic 
+action to play them and expend 1 charge to create 
+an eerie, spellbinding tune. Each creature of your 
+choice within 30 feet of you must succeed on a DC 
+15 Wisdom saving throw or have the Frightened 
+condition for 1 minute. A creature that fails the save 
+repeats it at the end of each of its turns, ending the 
+effect on itself on a success. A creature that suc -
+ceeds on its save is immune to the effect of these 
+pipes for 24 hours.
+Pipes of the Sewers
+Wondrous Item, Uncommon (Requires Attunement)
+While these pipes are on your person, ordinary rats 
+and giant rats are Indifferent toward you and won’t 
+attack you unless you threaten or harm them.
+ The pipes have 3 charges and regain 1d3 ex -
+pended charges daily at dawn. If you play the pipes 
+as a Magic action, you can take a Bonus Action to 
+expend 1 to 3 charges, calling forth one Swarm 
+of Rats with each expended charge if enough rats 
+are within half a mile of you to be called in this 
+fashion (as determined by the GM). If there aren’t 
+enough rats to form a swarm, the charge is wasted. 
+Called swarms move toward the music by the short -
+est available route but aren’t under your control 
+otherwise.
+ Whenever a Swarm of Rats  that isn’t under an-
+other creature’s control comes within 30 feet of you 
+while you are playing the pipes, the swarm makes 
+a DC 15 Wisdom saving throw. On a successful 
+save, the swarm behaves as it normally would and 
+can’t be swayed by the pipes’ music for the next 24 
+hours. On a failed save, the swarm is swayed by the 
+pipes’ music and becomes Friendly to you and your 
+allies for as long as you continue to play the pipes 
+each round as a Magic action. A Friendly swarm 
+obeys your commands. If you issue no commands 
+to a Friendly swarm, it defends itself but otherwise 
+takes no actions. If a Friendly swarm starts its turn 
+more than 30 feet away from you, your control over 
+that swarm ends, and the swarm behaves as it nor -
+mally would and can’t be swayed by the pipes’ mu -
+sic for the next 24 hours.
+Plate Armor of Etherealness
+Armor (Half Plate Armor or Plate Armor), Legendary 
+(Requires Attunement)
+While you’re wearing this armor, you can take a 
+Magic action and use a command word to gain the 
+effect of the Etherealness  spell. The spell ends imme -
+diately if you remove the armor or take a Magic ac -
+tion to repeat the command word. This property of 
+the armor can’t be used again until the next dawn.
+Portable Hole
+Wondrous Item, Rare 
+This fine black cloth, soft as silk, is folded up to the 
+dimensions of a handkerchief. It unfolds into a cir -
+cular sheet 6 feet in diameter.
+ You can take a Magic action to unfold a Por -
+table Hole and place it on or against a solid sur -
+face, whereupon the Portable Hole creates an 

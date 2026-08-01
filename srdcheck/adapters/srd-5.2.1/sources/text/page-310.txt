@@ -1,0 +1,96 @@
+310
+System Reference Document 5.2.1
+Traits
+Legendary Resistance (3/Day, or 4/Day in Lair). If 
+the mummy fails a saving throw, it can choose to suc-
+ceed instead.
+Magic Resistance. The mummy has Advantage on sav-
+ing throws against spells and other magical effects.
+Undead Restoration. If destroyed, the mummy gains a 
+new body in 24 hours if its heart is intact, reviving with 
+all its Hit Points. The new body appears in an unoccu-
+pied space within the mummy’s lair. The heart is a Tiny 
+object that has AC 17 , HP 10, and Immunity to all dam-
+age except Fire.
+Actions
+Multiattack. The mummy makes one Rotting Fist 
+or Channel Negative Energy attack, and it uses 
+Dreadful Glare.
+Rotting Fist. Melee Attack Roll: +9, reach 5 ft. Hit: 15 
+(2d10 + 4) Bludgeoning damage plus 10 (3d6) Necrotic 
+damage. If the target is a creature, it is cursed. While 
+cursed, the target can’t regain Hit Points, it gains no 
+benefit from finishing a Long Rest, and its Hit Point 
+maximum decreases by 10 (3d6) every 24 hours that 
+elapse. A creature dies and turns to dust if reduced to 0 
+Hit Points by this attack.
+Channel Negative Energy. Ranged Attack Roll: +9, 
+range 60 ft. Hit: 25 (6d6 + 4) Necrotic damage.
+Dreadful Glare. Wisdom Saving Throw: DC 17 , one 
+creature the mummy can see within 60 feet. Failure: 25 
+(6d6 + 4) Psychic damage, and the target has the Para-
+lyzed condition until the end of the mummy’s next turn.
+Spellcasting. The mummy casts one of the following 
+spells, requiring no Material components and using 
+Wisdom as the spellcasting ability (spell save DC 17 , +9 
+to hit with spell attacks):
+At Will: Dispel Magic, Thaumaturgy
+1/Day Each: Animate Dead, Harm, Insect Plague (level 
+7 version)
+Reactions
+Whirlwind of Sand. Trigger: The mummy is hit by an 
+attack roll. Response: The mummy adds 2 to its AC 
+against the attack, possibly causing the attack to miss, 
+and the mummy teleports up to 60 feet to an unoccu-
+pied space it can see. Each creature of its choice that 
+it can see within 5 feet of its destination space has 
+the Blinded condition until the end of the mummy’s 
+next turn.
+Legendary Actions
+Legendary Action Uses: 3 (4 in Lair). Immediately after 
+another creature’s turn, the mummy can expend a use to 
+take one of the following actions. The mummy regains all 
+expended uses at the start of each of its turns.
+Dread Command. The mummy casts Command (level 
+2 version), using the same spellcasting ability as Spell-
+casting. The mummy can’t take this action again until 
+the start of its next turn.
+Glare. The mummy uses Dreadful Glare. The mummy 
+can’t take this action again until the start of its 
+next turn.
+Necrotic Strike. The mummy makes one Rotting Fist or 
+Channel Negative Energy attack.
+Nalfeshnee
+Nalfeshnee
+Large Fiend (Demon), Chaotic Evil
+AC 18  Initiative +5 (15)
+HP 184 (16d10 + 96)
+Speed 20 ft., Fly 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +5 Dex 10 +0 +0 Con 22 +6 +11
+Int 19 +4 +9 WIS 12 +1 +6 Cha 15 +2 +7
+Resistances Cold, Fire, Lightning
+Immunities Poison; Frightened, Poisoned
+Senses Truesight 120 ft.; Passive Perception 11
+Languages Abyssal; telepathy 120 ft.
+CR 13 (XP 10,000; PB +5)
+Traits
+Demonic Restoration. If the nalfeshnee dies outside the 
+Abyss, its body dissolves into ichor, and it gains a new 
+body instantly, reviving with all its Hit Points some-
+where in the Abyss.
+Magic Resistance. The nalfeshnee has Advantage on 
+saving throws against spells and other magical effects.
+Actions
+Multiattack. The nalfeshnee makes three Rend attacks.
+Rend. Melee Attack Roll: +10, reach 10 ft. Hit: 16 (2d10 
++ 5) Slashing damage plus 11 (2d10) Force damage.
+Teleport. The nalfeshnee teleports up to 120 feet to an 
+unoccupied space it can see.
+Bonus Actions
+Horror Nimbus (Recharge 5–6). Wisdom Saving 
+Throw: DC 15, each creature in a 15-foot Emanation 
+originating from the nalfeshnee. Failure: 28 (8d6) Psy-
+chic damage, and the target has the Frightened condi-
+tion for 1 minute, until it takes damage, or until it ends 
+its turn with the nalfeshnee out of line of sight. Success: 

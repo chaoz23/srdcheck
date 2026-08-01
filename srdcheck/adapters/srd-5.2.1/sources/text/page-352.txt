@@ -1,0 +1,92 @@
+352
+System Reference Document 5.2.1
+Giant Hyena
+Large Beast, Unaligned
+AC 12  Initiative +2 (12)
+HP 45 (6d10 + 12)
+Speed 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 14 +2 +2 Con 14 +2 +2
+Int 2 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +3
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages None
+CR 1 (XP 200; PB +2)
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) 
+Piercing damage.
+Bonus Actions
+Rampage (1/Day). Immediately after dealing damage 
+to a creature that was already Bloodied, the hyena can 
+move up to half its Speed, and it makes one Bite attack.
+Giant Lizard
+Large Beast, Unaligned
+AC 12  Initiative +1 (11)
+HP 19 (3d10 + 3)
+Speed 40 ft., Climb 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 12 +1 +3 Con 13 +1 +1
+Int 2 −4 −4 WIS 10 +0 +0 Cha 5 −3 −3
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages None
+CR 1/4 (XP 50; PB +2)
+Traits
+Spider Climb. The lizard can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Actions
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) 
+Piercing damage.
+Giant Octopus
+Large Beast, Unaligned
+AC 11  Initiative +1 (11)
+HP 45 (7d10 + 7)
+Speed 10 ft., Swim 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 13 +1 +1 Con 13 +1 +1
+Int 5 −3 −3 WIS 10 +0 +0 Cha 4 −3 −3
+Skills Perception +4, Stealth +5
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages None
+CR 1 (XP 200; PB +2)
+Traits
+Water Breathing. The octopus can breathe only under-
+water. It can hold its breath for 1 hour outside water.
+Actions
+Tentacles. Melee Attack Roll: +5, reach 10 ft. Hit: 10 
+(2d6 + 3) Bludgeoning damage. If the target is a Me-
+dium or smaller creature, it has the Grappled condition 
+(escape DC 13) from all eight tentacles. While Grap-
+pled, the target has the Restrained condition.
+Reactions
+Ink Cloud (1/Day). Trigger: The octopus takes damage 
+while underwater. Response: The octopus releases ink 
+that fills a 10-foot Cube centered on itself, and the oc-
+topus moves up to its Swim Speed. The Cube is Heavily 
+Obscured for 1 minute or until a strong current or simi-
+lar effect disperses the ink.
+Giant Owl
+Large Celestial, Neutral
+AC 12  Initiative +2 (12)
+HP 19 (3d10 + 3)
+Speed 5 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 15 +2 +2 Con 12 +1 +1
+Int 10 +0 +0 WIS 14 +2 +4 Cha 10 +0 +0
+Skills Perception +6, Stealth +6
+Resistances Necrotic, Radiant
+Senses Darkvision 120 ft.; Passive Perception 16
+Languages Celestial; understands Common, Elvish, and 
+Sylvan but can’t speak them
+CR 1/4 (XP 50; PB +2)
+Traits
+Flyby. The owl doesn’t provoke an Opportunity Attack 
+when it flies out of an enemy’s reach.
+Actions
+Talons. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (1d10 
++ 2) Slashing damage.
+Spellcasting. The owl casts one of the following spells, 
+requiring no spell components and using Wisdom as 
+the spellcasting ability:
+At Will: Detect Evil and Good, Detect Magic
+1/Day: Clairvoyance

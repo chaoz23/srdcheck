@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+212
+Bag of Devouring
+Wondrous Item, Very Rare 
+This bag resembles a Bag of Holding but is a feeding 
+orifice for a gigantic extradimensional creature. 
+Turning the bag inside out closes the orifice.
+ The extradimensional creature attached to the 
+bag can sense whatever is placed inside the bag. 
+Animal or vegetable matter placed wholly in the 
+bag is devoured and lost forever. When part of a liv -
+ing creature is placed in the bag, as happens when 
+someone reaches inside it, there is a 50 percent 
+chance that the creature is pulled inside the bag. A 
+creature inside the bag can take an action to try to 
+escape, doing so with a successful DC 15 Strength 
+(Athletics) check. Another creature can take an ac -
+tion to reach into the bag to pull a creature out, do -
+ing so with a successful DC 20 Strength (Athletics) 
+check, provided the puller isn’t pulled inside the bag 
+first. Any creature that starts its turn inside the bag 
+is devoured, its body destroyed.
+ Inanimate objects can be stored in the bag, which 
+can hold a cubic foot of such material. However, 
+once each day, the bag swallows any objects inside 
+it and spits them out into another plane of existence. 
+The GM determines the time and plane.
+ If the bag is pierced or torn, it is destroyed, and 
+anything contained within it is transported to a 
+random location on the Astral Plane.
+Bag of Holding
+Wondrous Item, Uncommon 
+This bag has an interior space considerably larger 
+than its outside dimensions—roughly 2 feet square 
+and 4 feet deep on the inside. The bag can hold up 
+to 500 pounds, not exceeding a volume of 64 cubic 
+feet. The bag weighs 5 pounds, regardless of its 
+contents. Retrieving an item from the bag requires 
+a Utilize action.
+ If the bag is overloaded, pierced, or torn, it is de -
+stroyed, and its contents are scattered in the Astral 
+Plane. If the bag is turned inside out, its contents 
+spill forth unharmed, but the bag must be put right 
+before it can be used again. The bag holds enough 
+air for 10 minutes of breathing, divided by the num -
+ber of breathing creatures inside.
+ Placing a Bag of Holding inside an extradimen -
+sional space created by a Handy Haversack, Portable 
+Hole, or similar item instantly destroys both items 
+and opens a gate to the Astral Plane. The gate orig -
+inates where the one item was placed inside the 
+other. Any creature within a 10-foot-radius Sphere 
+centered on the gate is sucked through it to a ran -
+dom location on the Astral Plane. The gate then 
+closes. The gate is one-way and can’t be reopened.
+Bag of Tricks
+Wondrous Item, Uncommon 
+This bag made from gray, rust, or tan cloth appears 
+empty. Reaching inside the bag, however, reveals 
+the presence of a small, fuzzy object.
+ You can take a Magic action to pull the fuzzy ob -
+ject from the bag and throw it up to 20 feet. When 
+the object lands, it transforms into a creature you 
+determine by rolling on the table that corresponds 
+to the bag’s color. See “Monsters” for the creature’s 
+stat block. The creature vanishes at the next dawn 
+or when it is reduced to 0 Hit Points.
+ The creature is Friendly to you and your allies, 
+and it acts immediately after you on your Initiative 
+count. You can take a Bonus Action to command 
+how the creature moves and what action it takes on 
+its next turn, such as attacking an enemy. In the ab -
+sence of such orders, the creature acts in a fashion 
+appropriate to its nature.
+ Once three fuzzy objects have been pulled from 
+the bag, the bag can’t be used again until the next 
+dawn.
+Gray Bag of Tricks
+1d8 Creature 1d8 Creature
+1 Weasel 5 Panther
+2 Giant Rat 6 Giant Badger
+3 Badger 7 Dire Wolf
+4 Boar 8 Giant Elk
+Rust Bag of Tricks
+1d8 Creature 1d8 Creature
+1 Rat 5 Giant Goat
+2 Owl 6 Giant Boar
+3 Mastiff 7 Lion
+4 Goat 8 Brown Bear
+Tan Bag of Tricks
+1d8 Creature 1d8 Creature
+1 Jackal 5 Black Bear
+2 Ape 6 Giant Weasel
+3 Baboon 7 Giant Hyena
+4 Axe Beak 8 Tiger
+Bead of Force
+Wondrous Item, Rare 
+This small black sphere measures 3/4 of an inch in 
+diameter and weighs an ounce. Typically, 1d4 + 4 
+Beads of Force are found together.
+ You can take a Magic action to throw the bead up 
+to 60 feet. The bead explodes in a 10-foot-radius 
+Sphere on impact and is destroyed. Each creature 

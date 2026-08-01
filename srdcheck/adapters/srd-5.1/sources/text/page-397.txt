@@ -1,0 +1,77 @@
+System	  Reference	   Document	  5.1 	   397	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  1/8	  (25	  XP)	  
+Actions	  
+Scimitar.	  Melee	  Weapon	  Att ack:	  +3	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  4	  (1d6	  +	  1)	  slashing	  damage. 	  
+Light	  Crossbow.	   Ranged	  Weapon	  Attack: 	  +3	  to	  hit,	  
+range	  80	  ft./320	  ft.,	  one	  target. 	  Hit:	  5	  (1d8	  +	  1)	  piercing	  
+damage.	  
+Bandits	  rove	  in	  gangs	  and	  are	  sometimes	  led	  by	  
+thugs,	  veterans,	  or	  spellcasters.	  Not	  all	  bandits	  are	  
+evil.	  Oppression,	  drought,	  disease,	  or	  famine	  can	  
+often	  drive	  otherwise	  honest	  folk	  to	  a	  life	  of	  banditry. 	  
+	   Pirates	  are	  bandits	  of	  the	  high	  seas.	  They	  might	  be	  
+freebooters	  interested	  only	  in	  treasure	  and	  murder,	  
+or	  they	  might	  be	  privateers	  sanctioned	  by	  the	  crown	  
+to	  attack	  and	  plunder	  an	  enemy	  nation’s	  vessels.	  
+Bandit	  Captain	  
+Medium	  humanoid	  (any	  race),	  any	  non -­‐lawful	  
+alignment	  
+Armor	  Class	  15	  (studded	  leather) 	  
+Hit	  Points	  65	  (10d8	  +	  20)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   16	  (+3)	   14	  (+2)	   14	  (+2)	   11	  (+0)	   14	  (+2)	  
+Saving	  Throws	  Str	  +4,	  Dex	  +5,	  Wis	  +2 	  
+Skills	  Athletics	  +4,	  Deception	  +4 	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  two	  languages 	  
+Challenge	  2	  (450	  XP)	  
+Actions	  
+Multiattack.	  The	  captain	  makes	  three	  melee	  attacks:	  
+two	  with	  its	  scimitar	  and	  one	  with	  its	  dagger.	  Or	  the	  
+captain	  makes	  two	  ranged	  attacks	  with	  its	  daggers. 	  
+Scimitar.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  6	  (1d6	  +	  3)	  slashing	  damage.	  
+Dagger.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +5	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  20/60	  ft.,	  one	  target.	   Hit:	  5	  (1d4	  +	  
+3) piercing	  damage.
+Reactions	  
+Parry.	  The	  captain	  adds	  2	  to	  its	  AC	  against	  one	  melee	  
+attack	  that	  would	  hit	  it.	  To	  do	  so,	  the	  captain 	  must	  see	  
+the	  attacker	  and	  be	  wielding	  a	  melee	  weapon. 	  
+It	  takes	  a	  strong	  personality,	  ruthless	  cunning,	  and	  a	  
+silver	  tongue	  to	  keep	  a	  gang	  of	  bandits	  in	  line.	  The	  
+bandit	  captain 	  has	  these	  qualities	  in	  spades. 	  
+	   In	  addition	  to	  managing	  a	  crew	  of	  selfish	  
+malcontents,	  the	   pirate	  captain 	  is	  a	  variation	  of	  the	  
+bandit	  captain,	  with	  a	  ship	  to	  protect	  and	  command.	  
+To	  keep	  the	  crew	  in	  line,	  the	  captain	  must	  mete	  out	  
+rewards	  and	  punishment	  on	  a	  regular	  basis. 	  
+	   More	  than	  treasure,	  a	  bandit	  captain	  or	  pirate	  
+captain	  craves	  infamy.	  A	  prisoner	  who	  appeals	  to	  the	  
+captain’s	  vanity	  or	  ego	  is	  more	  likely	  to	  be	  treated	  
+fairly	  than	  a	  prisoner	  who	  does	  not	  or	  claims	  not	  to	  
+know	  anything	  of	  the	  captain’s	  colorful	  reputation. 	  
+Berserker	  
+Medium	  humanoid	  (any	  race),	  any	  chaotic	  alignment 	  
+Armor	  Class	  13	  (hide	  armor) 	  
+Hit	  Points	  67	  (9d8	  +	  27)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+16	  (+3)	   12	  (+1)	   17	  (+3)	   9	  (−1)	   11	  (+0)	   9	  (−1)	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  one	  language	  (usually	  Co mmon)	  
+Challenge	  2	  (450	  XP)	  
+Reckless.	  At	  the	  start	  of	  its	  turn,	  the	  berserker	  can	  gain	  
+advantage	  on	  all	  melee	  weapon	  attack	  rolls	  during	  that	  
+turn,	  but	  attack	  rolls	  against	  it	  have	  advantage	  until	  the	  
+start	  of	  its	  next	  turn. 	  
+Actions	  
+Greataxe.	  Melee	  Weapon	  Attack:	  +5	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  9	  (1d12	  +	  3)	  slashing	  damage. 	  
+Hailing	  from	  uncivilized	  lands,	  unpredictable	  
+berserkers	  come	  together	  in	  war	  parties	  and	  seek	  
+conflict	  wherever	  they	  can	  find	  it. 	  

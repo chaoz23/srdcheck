@@ -1,0 +1,93 @@
+300
+System Reference Document 5.2.1
+Searing Fork. Melee Attack Roll: +10, reach 10 ft. Hit: 
+15 (2d8 + 6) Piercing damage plus 9 (2d8) Fire damage.
+Hurl Flame. Ranged Attack Roll: +8, range 150 ft. Hit: 
+26 (5d8 + 4) Fire damage. If the target is a flammable 
+object that isn’t being worn or carried, it starts burning.
+Infernal Tail. Dexterity Saving Throw: DC 17 , one crea-
+ture the devil can see within 10 feet. Failure: 10 (1d8 
++ 6) Necrotic damage, and the target receives an infer-
+nal wound if it doesn’t have one. While wounded, the 
+target loses 10 (3d6) Hit Points at the start of each of 
+its turns. The wound closes after 1 minute, after a spell 
+restores Hit Points to the target, or after the target or a 
+creature within 5 feet of it takes an action to stanch the 
+wound, doing so by succeeding on a DC 17 Wisdom 
+(Medicine) check.
+Hydra
+Hydra
+Huge Monstrosity, Unaligned
+AC 15  Initiative +4 (14)
+HP 184 (16d12 + 80)
+Speed 40 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 20 +5 +5 Dex 12 +1 +1 Con 20 +5 +5
+Int 2 −4 −4 WIS 10 +0 +0 Cha 7 −2 −2
+Skills Perception +6
+Immunities Blinded, Charmed, Deafened, Frightened, 
+Stunned, Unconscious
+Senses Darkvision 60 ft.; Passive Perception 16
+Languages None
+CR 8 (XP 3,900; PB +3)
+Traits
+Hold Breath. The hydra can hold its breath for 1 hour.
+Multiple Heads. The hydra has five heads. Whenever 
+the hydra takes 25 damage or more on a single turn, 
+one of its heads dies. The hydra dies if all its heads are 
+dead. At the end of each of its turns when it has at least 
+one living head, the hydra grows two heads for each of 
+its heads that died since its last turn, unless it has taken 
+Fire damage since its last turn. The hydra regains 20 Hit 
+Points when it grows new heads.
+Reactive Heads. For each head the hydra has beyond 
+one, it gets an extra Reaction that can be used only for 
+Opportunity Attacks.
+Actions
+Multiattack. The hydra makes as many Bite attacks as it 
+has heads.
+Bite. Melee Attack Roll: +8, reach 10 ft. Hit: 10 (1d10 
++ 5) Piercing damage.
+Ice Devil
+Ice Devil
+Large Fiend (Devil), Lawful Evil
+AC 18  Initiative +7 (17)
+HP 228 (24d10 + 96)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +5 Dex 14 +2 +7 Con 18 +4 +9
+Int 18 +4 +4 WIS 15 +2 +7 Cha 18 +4 +9
+Skills Insight +7 , Perception +7 , Persuasion +9
+Immunities Cold, Fire, Poison; Poisoned
+Senses Blindsight 120 ft.; Passive Perception 17
+Languages Infernal; telepathy 120 ft.
+CR 14 (XP 11,500; PB +5)
+Traits
+Diabolical Restoration. If the devil dies outside the 
+Nine Hells, its body disappears in sulfurous smoke, and 
+it gains a new body instantly, reviving with all its Hit 
+Points somewhere in the Nine Hells.
+Magic Resistance. The devil has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The devil makes three Ice Spear attacks. It 
+can replace one attack with a Tail attack.
+Ice Spear. Melee or Ranged Attack Roll: +10, reach 5 
+ft. or range 30/120 ft. Hit: 14 (2d8 + 5) Piercing damage 
+plus 10 (3d6) Cold damage. Until the end of its next 
+turn, the target can’t take a Bonus Action or Reaction, 
+its Speed decreases by 10 feet, and it can move or take 
+one action on its turn, not both. Hit or Miss: The spear 
+magically returns to the devil’s hand immediately after a 
+ranged attack.
+Tail. Melee Attack Roll: +10, reach 10 ft. Hit: 15 (3d6 
++ 5) Bludgeoning damage plus 18 (4d8) Cold damage.
+Ice Wall (Recharge 6). The devil casts Wall of Ice (level 
+8 version), requiring no spell components and using In-
+telligence as the spellcasting ability (spell save DC 17).
+Imp
+Imp
+Tiny Fiend (Devil), Lawful Evil
+AC 13   Initiative +3 (13)
+HP 21 (6d4 + 6)
+Speed 20 ft., Fly 40 ft.

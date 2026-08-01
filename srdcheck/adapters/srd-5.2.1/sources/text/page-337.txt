@@ -1,0 +1,98 @@
+337
+System Reference Document 5.2.1
+Traits
+Pack Tactics. The warrior has Advantage on an attack 
+roll against a creature if at least one of the warrior’s al-
+lies is within 5 feet of the creature and the ally doesn’t 
+have the Incapacitated condition.
+Actions
+Spear. Melee or Ranged Attack Roll: +3, reach 5 ft. or 
+range 20/60 ft. Hit: 4 (1d6 + 1) Piercing damage.
+Warrior Veteran
+Medium or Small Humanoid, Neutral
+AC 17  Initiative +3 (13)
+HP 65 (10d8 + 20)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 13 +1 +1 Con 14 +2 +2
+Int 10 +0 +0 WIS 11 +0 +0 Cha 10 +0 +0
+Skills Athletics +5, Perception +2
+Gear Greatsword, Heavy Crossbow, Splint Armor
+Senses Passive Perception 12
+Languages Common plus one other language
+CR 3 (XP 700; PB +2)
+Actions
+Multiattack. The warrior makes two Greatsword or 
+Heavy Crossbow attacks.
+Greatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 
+(2d6 + 3) Slashing damage.
+Heavy Crossbow. Ranged Attack Roll: +3, range 
+100/400 ft. Hit: 12 (2d10 + 1) Piercing damage.
+Reactions
+Parry. Trigger: The warrior is hit by a melee attack roll 
+while holding a weapon. Response: The warrior adds 2 
+to its AC against that attack, possibly causing it to miss.
+Water Elemental
+Water Elemental
+Large Elemental, Neutral
+AC 14  Initiative +2 (12)
+HP 114 (12d10 + 48)
+Speed 30 ft., Swim 90 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 14 +2 +2 Con 18 +4 +4
+Int 5 −3 −3 WIS 10 +0 +0 Cha 8 −1 −1
+Resistances Acid, Fire
+Immunities Poison; Exhaustion, Grappled, Paralyzed, 
+Petrified, Poisoned, Prone, Restrained, Unconscious
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Primordial (Aquan)
+CR 5 (XP 1,800; PB +3)
+Traits
+Freeze. If the elemental takes Cold damage, its Speed 
+decreases by 20 feet until the end of its next turn.
+Water Form. The elemental can enter an enemy’s space 
+and stop there. It can move through a space as narrow 
+as 1 inch without expending extra movement to do so.
+Actions
+Multiattack. The elemental makes two Slam attacks.
+Slam. Melee Attack Roll: +7 , reach 5 ft. Hit: 13 (2d8 
++ 4) Bludgeoning damage. If the target is a Medium or 
+smaller creature, it has the Prone condition.
+Whelm (Recharge 4–6). Strength Saving Throw: DC 15, 
+each creature in the elemental’s space. Failure: 22 (4d8 
++ 4) Bludgeoning damage. If the target is a Large or 
+smaller creature, it has the Grappled condition (escape 
+DC 14). Until the grapple ends, the target has the Re-
+strained condition, is suffocating unless it can breathe 
+water, and takes 9 (2d8) Bludgeoning damage at the 
+start of each of the elemental’s turns. The elemental 
+can grapple one Large creature or up to two Medium 
+or smaller creatures at a time with Whelm. As an ac-
+tion, a creature within 5 feet of the elemental can pull 
+a creature out of it by succeeding on a DC 14 Strength 
+(Athletics) check. Success: Half damage only.
+Werebear
+Werebear
+Medium or Small Monstrosity (Lycanthrope), Neutral Good
+AC 15  Initiative +3 (13)
+HP 135 (18d8 + 54)
+Speed 30 ft., 40 ft. (bear form only), Climb 30 ft. (bear 
+form only)
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 10 +0 +0 Con 17 +3 +3
+Int 11 +0 +0 WIS 12 +1 +1 Cha 12 +1 +1
+Skills Perception +7
+Gear Handaxes (4)
+Senses Darkvision 60 ft.; Passive Perception 17
+Languages Common (can’t speak in bear form)
+CR 5 (XP 1,800; PB +3)
+Actions
+Multiattack. The werebear makes two attacks, using 
+Handaxe or Rend in any combination. It can replace 
+one attack with a Bite attack.
+Bite (Bear or Hybrid Form Only). Melee Attack Roll: 
++7 , reach 5 ft. Hit: 17 (2d12 + 4) Piercing damage. If 
+the target is a Humanoid, it is subjected to the follow-
+ing effect. Constitution Saving Throw: DC 14. Failure: 
+The target is cursed. If the cursed target drops to 0 Hit 
+Points, it instead becomes a Werebear under the GM’s 

@@ -1,0 +1,91 @@
+333
+System Reference Document 5.2.1
+Treant
+Treant
+Huge Plant, Chaotic Good
+AC 16  Initiative +3 (13)
+HP 138 (12d12 + 60)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 23 +6 +6 Dex 8 −1 −1 Con 21 +5 +5
+Int 12 +1 +1 WIS 16 +3 +3 Cha 12 +1 +1
+Vulnerabilities Fire
+Resistances Bludgeoning, Piercing
+Senses Passive Perception 13
+Languages Common, Druidic, Elvish, Sylvan
+CR 9 (XP 5,000; PB +4)
+Traits
+Siege Monster. The treant deals double damage to ob-
+jects and structures.
+Actions
+Multiattack. The treant makes two Slam attacks.
+Slam. Melee Attack Roll: +10, reach 5 ft. Hit: 16 (3d6 
++ 6) Bludgeoning damage.
+Hail of Bark. Ranged Attack Roll: +10, range 180 ft. 
+Hit: 28 (4d10 + 6) Piercing damage.
+Animate Trees (1/Day). The treant magically animates 
+up to two trees it can see within 60 feet of itself. Each 
+tree uses the Treant stat block, except it has Intelligence 
+and Charisma scores of 1, it can’t speak, and it lacks 
+this action. The tree takes its turn immediately after the 
+treant on the same Initiative count, and it obeys the tre-
+ant. A tree remains animate for 1 day or until it dies, the 
+treant dies, or it is more than 120 feet from the treant. 
+The tree then takes root if possible.
+Troll
+Troll
+Large Giant, Chaotic Evil
+AC 15  Initiative +1 (11)
+HP 94 (9d10 + 45)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 13 +1 +1 Con 20 +5 +5
+Int 7 −2 −2 WIS 9 −1 −1 Cha 7 −2 −2
+Skills Perception +5
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages Giant
+CR 5 (XP 1,800; PB +3)
+Traits
+Loathsome Limbs (4/Day). If the troll ends any turn 
+Bloodied and took 15+ Slashing damage during that 
+turn, one of the troll’s limbs is severed, falls into the 
+troll’s space, and becomes a Troll Limb. The limb acts 
+immediately after the troll’s turn. The troll has 1 Exhaus-
+tion level for each missing limb, and it grows replace-
+ment limbs the next time it regains Hit Points.
+Regeneration. The troll regains 15 Hit Points at the start 
+of each of its turns. If the troll takes Acid or Fire dam-
+age, this trait doesn’t function on the troll’s next turn. 
+The troll dies only if it starts its turn with 0 Hit Points 
+and doesn’t regenerate.
+Actions
+Multiattack. The troll makes three Rend attacks.
+Rend. Melee Attack Roll: +7 , reach 10 ft. Hit: 11 (2d6 
++ 4) Slashing damage.
+Bonus Actions
+Charge. The troll moves up to half its Speed straight 
+toward an enemy it can see.
+Troll Limb
+Small Giant, Chaotic Evil
+AC 13  Initiative +1 (11)
+HP 14 (4d6)
+Speed 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 12 +1 +1 Con 10 +0 +0
+Int 1 −5 −5 WIS 9 −1 −1 Cha 1 −5 −5
+Senses Darkvision 60 ft.; Passive Perception 9
+Languages None
+CR 1/2 (XP 100; PB +2)
+Traits
+Regeneration. The limb regains 5 Hit Points at the start 
+of each of its turns. If the limb takes Acid or Fire dam-
+age, this trait doesn’t function on the limb’s next turn. 
+The limb dies only if it starts its turn with 0 Hit Points 
+and doesn’t regenerate.
+Troll Spawn. The limb uncannily has the same senses 
+as a whole troll. If the limb isn’t destroyed within 24 
+hours, roll 1d12. On a 12, the limb turns into a Troll. 
+Otherwise, the limb withers away.
+Actions
+Rend. Melee Attack Roll: +6, reach 5 ft. Hit: 9 (2d4 + 
+4) Slashing damage.

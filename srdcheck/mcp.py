@@ -11,10 +11,25 @@ Transport: newline-delimited JSON-RPC 2.0 on stdio; protocol pinned below.
 import json
 import sys
 
+from . import __version__
 from .engine import Engine
 
 PROTOCOL_VERSION = "2025-06-18"
-SERVER_INFO = {"name": "srdcheck", "version": "0.2.0"}
+# Protocol revisions this server can actually speak, newest first. Used to
+# negotiate: we must not echo a client's requested version back unless we
+# support it, or the client will assume features we do not implement.
+SUPPORTED_PROTOCOL_VERSIONS = ("2025-06-18", "2025-03-26")
+# Engine version comes from the package, never a second hardcoded literal.
+# Adapter (ruleset) versions are reported separately — see _server_info.
+SERVER_INFO = {"name": "srdcheck", "version": __version__}
+
+
+def negotiate_protocol(requested):
+    """Return the protocol revision to run at, per MCP initialize semantics:
+    honour the client's request when we support it, else offer our newest."""
+    if requested in SUPPORTED_PROTOCOL_VERSIONS:
+        return requested
+    return PROTOCOL_VERSION
 
 JURISDICTION_TOOL = {
     "name": "jurisdiction",
@@ -48,15 +63,26 @@ class Server:
         self.engine = Engine(adapter_paths or default_adapter_paths())
         self.tools, self.mapping = build_tools(self.engine)
 
+    def _server_info(self):
+        """Engine version and ruleset versions are distinct facts: the engine
+        is this package, the rulesets are whatever adapters are loaded. A
+        client caching schemas needs both, so report them separately."""
+        info = dict(SERVER_INFO)
+        info["rulesets"] = [
+            {"name": a.manifest.get("name"), "version": a.manifest.get("version")}
+            for a in self.engine.adapters
+        ]
+        return info
+
     def handle(self, msg):
         method = msg.get("method")
         mid = msg.get("id")
         if method == "initialize":
             return self._result(mid, {
-                "protocolVersion": msg.get("params", {}).get(
-                    "protocolVersion", PROTOCOL_VERSION),
+                "protocolVersion": negotiate_protocol(
+                    msg.get("params", {}).get("protocolVersion")),
                 "capabilities": {"tools": {}},
-                "serverInfo": SERVER_INFO})
+                "serverInfo": self._server_info()})
         if method == "notifications/initialized":
             return None
         if method == "ping":

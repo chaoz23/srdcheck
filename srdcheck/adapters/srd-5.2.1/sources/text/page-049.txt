@@ -1,0 +1,79 @@
+System Reference Document 5.2.1
+49
+Fighter Subclass: Champion
+Pursue Physical Excellence in Combat
+A Champion focuses on the development of martial 
+prowess in a relentless pursuit of victory. Champi -
+ons combine rigorous training with physical excel -
+lence to deal devastating blows, withstand peril, 
+and garner glory. Whether in athletic contests or 
+bloody battle, Champions strive for the crown of the 
+victor.
+Level 3: Improved Critical
+Your attack rolls with weapons and Unarmed 
+Strikes can score a Critical Hit on a roll of 19 or 20 
+on the d20.
+Level 3: Remarkable Athlete
+Thanks to your athleticism, you have Advantage on 
+Initiative rolls and Strength (Athletics) checks.
+ In addition, immediately after you score a Critical 
+Hit, you can move up to half your Speed without 
+provoking Opportunity Attacks.
+Level 7: Additional Fighting Style
+You gain another Fighting Style feat of your choice.
+Level 10: Heroic Warrior
+The thrill of battle drives you toward victory. 
+During combat, you can give yourself Heroic Inspi -
+ration whenever you start your turn without it.
+Level 15: Superior Critical
+Your attack rolls with weapons and Unarmed 
+Strikes can now score a Critical Hit on a roll of 
+18–20 on the d20.
+Level 18: Survivor
+You attain the pinnacle of resilience in battle, giving 
+you these benefits.
+ Defy Death.  You have Advantage on Death Saving 
+Throws. Moreover, when you roll 18–20 on a Death 
+Saving Throw, you gain the benefit of rolling a 20 on 
+it.
+ Heroic Rally. At the start of each of your turns, 
+you regain Hit Points equal to 5 plus your Constitu -
+tion modifier if you are Bloodied and have at least 1 
+Hit Point.
+Monk
+Core Monk Traits
+Primary Ability Dexterity and Wisdom
+Hit Point Die D8 per Monk level
+Saving Throw 
+Proficiencies
+Strength and Dexterity
+Skill Proficiencies Choose 2: Acrobatics, Athlet -
+ics, History, Insight, Religion, 
+or Stealth
+Weapon Proficiencies Simple weapons and Martial 
+weapons that have the Light 
+property
+Tool Proficiencies Choose one type of Artisan’s 
+Tools or Musical Instrument (see 
+“Equipment”)
+Armor Training None
+Starting Equipment Choose A or B: (A) Spear, 5 
+Daggers, Artisan’s Tools or 
+Musical Instrument chosen 
+for the tool proficiency above, 
+Explorer’s Pack, and 11 GP; or 
+(B) 50 GP
+Becoming a Monk …
+As a Level 1 Character
+• Gain all the traits in the Core Monk Traits table.
+• Gain the Monk’s level 1 features, which are listed 
+in the Monk Features table.
+As a Multiclass Character
+• Gain the Hit Point Die trait from the Core Monk 
+Traits table.
+• Gain the Monk’s level 1 features, which are listed 
+in the Monk Features table.
+Monk Class Features
+As a Monk, you gain the following class features 
+when you reach the specified Monk levels. These 
+features are listed in the Monk Features table.

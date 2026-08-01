@@ -1,0 +1,96 @@
+System Reference Document 5.2.1
+85
+ Intelligence, Wisdom, or Charisma is your spell -
+casting ability for the spells you cast with this trait 
+(choose the ability when you select the lineage).
+ Fey Ancestry. You have Advantage on saving 
+throws you make to avoid or end the Charmed 
+condition.
+ Keen Senses. You have proficiency in the Insight, 
+Perception, or Survival skill.
+ Trance.  You don’t need to sleep, and magic can’t 
+put you to sleep. You can finish a Long Rest in 4 
+hours if you spend those hours in a trancelike medi -
+tation, during which you retain consciousness.
+Gnome
+Creature Type: Humanoid
+Size: Small (about 3–4 feet tall)
+Speed: 30 feet
+As a Gnome, you have these special traits.
+ Darkvision. You have Darkvision with a range of 
+60 feet.
+ Gnomish Cunning. You have Advantage on Intelli -
+gence, Wisdom, and Charisma saving throws.
+ Gnomish Lineage. You are part of a lineage that 
+grants you supernatural abilities. Choose one of the 
+following options; whichever one you choose, Intel -
+ligence, Wisdom, or Charisma is your spellcasting 
+ability for the spells you cast with this trait (choose 
+the ability when you select the lineage):
+Forest Gnome. You know the Minor Illusion cantrip. 
+You also always have the Speak with Animals  spell 
+prepared. You can cast it without a spell slot a 
+number of times equal to your Proficiency Bonus, 
+and you regain all expended uses when you finish 
+a Long Rest. You can also use any spell slots you 
+have to cast the spell.
+Rock Gnome. You know the Mending and Presti-
+digitation cantrips. In addition, you can spend 10 
+minutes casting Prestidigitation  to create a Tiny 
+clockwork device (AC 5, 1 HP), such as a toy, fire 
+starter, or music box. When you create the device, 
+you determine its function by choosing one effect 
+from Prestidigitation ; the device produces that 
+effect whenever you or another creature takes a 
+Bonus Action to activate it with a touch. If the cho -
+sen effect has options within it, you choose one of 
+those options for the device when you create it. 
+For example, if you choose the spell’s ignite-extin -
+guish effect, you determine whether the device 
+ignites or extinguishes fire; the device doesn’t do 
+both. You can have three such devices in existence 
+at a time, and each falls apart 8 hours after its 
+creation or when you dismantle it with a touch as 
+a Utilize action.
+Goliath
+Creature Type: Humanoid
+Size: Medium (about 7–8 feet tall)
+Speed: 35 feet
+As a Goliath, you have these special traits.
+ Giant Ancestry. You are descended from Giants. 
+Choose one of the following benefits—a supernatu -
+ral boon from your ancestry; you can use the chosen 
+benefit a number of times equal to your Proficiency 
+Bonus, and you regain all expended uses when you 
+finish a Long Rest:
+Cloud’s Jaunt (Cloud Giant). As a Bonus Action, you 
+magically teleport up to 30 feet to an unoccupied 
+space you can see.
+Fire’s Burn (Fire Giant). When you hit a target 
+with an attack roll and deal damage to it, you can 
+also deal 1d10 Fire damage to that target.
+Frost’s Chill (Frost Giant). When you hit a target 
+with an attack roll and deal damage to it, you 
+can also deal 1d6 Cold damage to that target and 
+reduce its Speed by 10 feet until the start of your 
+next turn.
+Hill’s Tumble (Hill Giant). When you hit a Large 
+or smaller creature with an attack roll and deal 
+damage to it, you can give that target the Prone 
+condition.
+Stone’s Endurance (Stone Giant). When you take 
+damage, you can take a Reaction to roll 1d12. Add 
+your Constitution modifier to the number rolled 
+and reduce the damage by that total.
+Elven Lineages
+Lineage Level 1 Level 3 Level 5
+Drow The range of your Darkvision increases to 120 feet.   
+You also know the Dancing Lights  cantrip.
+Faerie Fire Darkness
+High Elf You know the Prestidigitation  cantrip. Whenever you finish 
+a Long Rest, you can replace that cantrip with a different 
+cantrip from the Wizard spell list.
+Detect Magic Misty Step
+Wood Elf Your Speed increases to 35 feet. You also know the 
+Druidcraft cantrip.
+Longstrider Pass without Trace

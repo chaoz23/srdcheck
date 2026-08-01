@@ -1,0 +1,73 @@
+System	  Reference	   Document	  5.1 	   398	  
+Commoner	  
+Medium	  humanoid	  (any	  race),	  any	  al ignment	  
+Armor	  Class	  10	  
+Hit	  Points	  4	  (1d8)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   10	  (+0)	   10	  (+0)	   10	  (+0)	   10	  (+0)	   10	  (+0)	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  0	  (10	  XP)	  
+Actions	  
+Club.	  Melee	  Weapon	  Attack: 	  +2	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  2	  (1d4)	  bludgeoning	  damage. 	  
+Commoners	  include	  peasants,	  serfs,	  slaves,	  servants,	  
+pilgrims,	  merchants,	  artisans,	  and	  hermits. 	  
+Cultist	  
+Medium	  humanoid	  (any	  race),	  any	  non -­‐good	  alignment 	  
+Armor	  Class	  12	  (leather	  armo r)	  
+Hit	  Points	  9	  (2d8)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+11	  (+0)	   12	  (+1)	   10	  (+0)	   10	  (+0)	   11	  (+0)	   10	  (+0)	  
+Skills	  Deception	  +2,	  Religion	  +2 	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  1/8	  (25	  XP)	  
+Dark	  Devotion. 	  The	  cultist	  has	  advantage	  on	  saving	  
+throws	  against	  being	  charmed	  or	  frightened. 	  
+Actions	  
+Scimitar.	  Melee	  Weapon	  Attack: 	  +3	  to	  hit,	  reach	  5	  ft.,	  
+one	  creature.	  Hit:	  4	  (1d6	  +	  1)	  slashing	  damage. 	  
+Cultists	  swear	  allegiance	  to	  dark	  powers	  such	  as	  
+elemental	  princes,	  demon	  lords,	  or	  archdevils.	  Most	  
+conceal	  their	  loyalties	  to	  avoid	  being	  ostracized,	  
+imprisoned,	  or	  executed	  for	  their	  beliefs.	  Unlike	  evil	  
+acolytes,	  cultists	  often	  show	  signs	  of	  insanity	  in	  their	  
+beliefs	  and	  practices. 	  
+Cult	  Fanatic	  
+Medium	  humanoid	  (a ny	  race),	  any	  non -­‐good	  alignment 	  
+Armor	  Class	  13	  (leather	  armor) 	  
+Hit	  Points	  33	  (6d8	  +	  6)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+11	  (+0)	   14	  (+2)	   12	  (+1)	   10	  (+0)	   13	  (+1)	   14	  (+2)	  
+Skills	  Deception	  +4,	  Persuasion	  +4,	  Religion	  +2 	  
+Senses	  passive	  Perception	  11 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  2	  (450	  XP)	  
+Dark	  Devotion. 	  The	  fanatic	  has	  advantage	  on	  saving	  
+throws	  against	  being	  charmed	  or	  frightened. 	  
+Spellcasting.	  The	  fanatic	  is	  a	  4th -­‐level	  spellcaster.	  Its	  
+spellcasting	  ability	  is	  Wisdom	  (spell 	  save	  DC	  11,	  +3	  to	  
+hit	  with	  spell	  attacks).	  The	  fanatic	  has	  the	  following	  
+cleric	  spells	  prepared: 	  
+Cantrips	  (at	  will):	   light,	  sacred	  flame,	  thaumaturgy	  
+1st	  level	  (4	  slots):	   command,	  inflict	  wounds,	  shield	  of	  
+faith	  
+2nd	  level	  (3	  slots):	   hold	  person,	  spiritual	  weapon	  
+Actions	  
+Multiattack.	  The	  fanatic	  makes	  two	  melee	  attacks. 	  
+Dagger.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  20/60	  ft.,	  one	  creature.	   Hit:	  4	  (1d4	  
++ 2)	  piercing	  damage.
+Fanatics	  are	  often	  part	  of	  a	  cult’s	  leadership,	  using	  
+their	  charisma	  and	  dogma	  to	  influence	  and	  prey	  on	  
+those	  of	  weak	  will.	  Most	  are	  interested	  in	  personal	  
+power	  above	  all	  else. 	  
+Druid	  
+Medium	  humanoid	  (any	  race),	  any	  alignment 	  
+Armor	  Class	  11	  (16	  with	  barkskin)	  
+Hit	  Points	  27	  (5d8	  +	  5)	  
+Speed	  30	  ft.	  

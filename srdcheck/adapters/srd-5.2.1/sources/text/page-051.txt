@@ -1,0 +1,88 @@
+System Reference Document 5.2.1
+51
+expend 1 Focus Point to take both the Disengage 
+and the Dodge actions as a Bonus Action.
+ Step of the Wind. You can take the Dash action 
+as a Bonus Action. Alternatively, you can expend 1 
+Focus Point to take both the Disengage and Dash 
+actions as a Bonus Action, and your jump distance is 
+doubled for the turn.
+Level 2: Unarmored Movement
+Your speed increases by 10 feet while you aren’t 
+wearing armor or wielding a Shield. This bonus 
+increases when you reach certain Monk levels, as 
+shown on the Monk Features table.
+Level 2: Uncanny Metabolism
+When you roll Initiative, you can regain all ex -
+pended Focus Points. When you do so, roll your 
+Martial Arts die, and regain a number of Hit Points 
+equal to your Monk level plus the number rolled.
+ Once you use this feature, you can’t use it again 
+until you finish a Long Rest.
+Level 3: Deflect Attacks
+When an attack roll hits you and its damage in -
+cludes Bludgeoning, Piercing, or Slashing damage, 
+you can take a Reaction to reduce the attack’s total 
+damage against you. The reduction equals 1d10 plus 
+your Dexterity modifier and Monk level.
+ If you reduce the damage to 0, you can expend 1 
+Focus Point to redirect some of the attack’s force. 
+If you do so, choose a creature you can see within 5 
+feet of yourself if the attack was a melee attack or a 
+creature you can see within 60 feet of yourself that 
+isn’t behind Total Cover if the attack was a ranged 
+attack. That creature must succeed on a Dexterity 
+saving throw or take damage equal to two rolls of 
+your Martial Arts die plus your Dexterity modifier. 
+The damage is the same type dealt by the attack.
+Level 3: Monk Subclass
+You gain a Monk subclass of your choice. The War -
+rior of the Open Hand subclass is detailed after this 
+class’s description. A subclass is a specialization 
+that grants you features at certain Monk levels. For 
+the rest of your career, you gain each of your sub -
+class’s features that are of your Monk level or lower.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Monk levels 8, 
+12, and 16.
+Level 4: Slow Fall
+You can take a Reaction when you fall to reduce any 
+damage you take from the fall by an amount equal 
+to five times your Monk level.
+Level 5: Extra Attack
+You can attack twice instead of once whenever you 
+take the Attack action on your turn.
+Level 5: Stunning Strike
+Once per turn when you hit a creature with a Monk 
+weapon or an Unarmed Strike, you can expend 1 
+Focus Point to attempt a stunning strike. The target 
+must make a Constitution saving throw. On a failed 
+save, the target has the Stunned condition until the 
+start of your next turn. On a successful save, the 
+target’s Speed is halved until the start of your next 
+turn, and the next attack roll made against the tar -
+get before then has Advantage.
+Level 6: Empowered Strikes
+Whenever you deal damage with your Unarmed 
+Strike, it can deal your choice of Force damage or its 
+normal damage type.
+Level 7: Evasion
+When you’re subjected to an effect that allows you 
+to make a Dexterity saving throw to take only half 
+damage, you instead take no damage if you succeed 
+on the saving throw and only half damage if you fail.
+ You don’t benefit from this feature if you have the 
+Incapacitated condition.
+Level 9: Acrobatic Movement
+While you aren’t wearing armor or wielding a 
+Shield, you gain the ability to move along vertical 
+surfaces and across liquids on your turn without 
+falling during the movement.
+Level 10: Heightened Focus
+Your Flurry of Blows, Patient Defense, and Step of 
+the Wind gain the following benefits.
+ Flurry of Blows. You can expend 1 Focus Point 
+to use Flurry of Blows and make three Unarmed 
+Strikes with it instead of two.

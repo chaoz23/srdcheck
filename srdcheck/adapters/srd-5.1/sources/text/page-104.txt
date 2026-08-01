@@ -1,0 +1,25 @@
+System	  Reference	   Document	  5.1 	   104	  
+images	  that	  any	  creature	  can	  see,	  but	  the	  most	  insidious	  
+illusions	  plant	  an	  image	  directly	  in	  the	  mind	  of	  a	  creature. 	  
+Necromancy	  spells	  manipulate	  the	  energies	  of	  life	  and	  
+death.	  Such	  spells	  can	  grant	  an	  extra	  reserve	  of	  life	  force,	  
+drain	  the	  life	  energy	  from	  another	  creature,	  create	  the	  
+undead,	  or	  even	  bring	  the	  dead	  back	  to	  life. 	  
+Creating	  the	  undead	  through	  the	  use	  of	  necromancy	  spells	  
+such	  as	  animate	  dead	  is	  not	  a	  good	  act,	  and	  only	  evil	  casters	  
+use	  such	  spells	  frequently. 	  
+Transmutation	  spells	  change	  the	  properties	  of	  a	  creature,	  
+object,	  or	  environment.	  They	  might	  turn	  an	  enemy	  into	  a	  
+harmless	  creature,	  bolster	  the	  strength	  of	  an	  ally,	  make	  an	  
+object	  move	  at	  the	  caster’s	  command,	  or	  enhance	  a	  creature’s	  
+innate	  healing	  abilities	  to	  rapidly	  recover	  from	  injury.	  
+Combining Magical Effects 
+The	  effects	  of	  different	  spells	  add	  together	  while	  the	  
+durations	  of	  those	  spells	  overlap.	  The	  effects	  of	  the	  
+same	  spell	  cast	  multiple	  times	  don’t	  combine,	  
+however.	  Instead,	  the	  most	  potent	  effect —such	  as	  
+the	  highest	  bonus —from	  those	  castings	  applies	  
+while	  their	  durations	  overlap. 	  
+	   For	  example,	  if	  two	  clerics	  cast	   bless	  on	  the	  same	  
+target,	  that	  character	  gains	  the	  spell’s	  benefit	  only	  
+once;	  he	  or	  she	  doesn’t	  get	  to	  roll	  two	  bonus	  dice. 	  

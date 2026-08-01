@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+161
+is otherwise up to you. The spell lasts for the 
+duration.
+ The changes wrought by this spell fail to hold up 
+to physical inspection. For example, if you use this 
+spell to add a hat to a creature’s outfit, objects pass 
+through the hat.
+ A creature that takes the Study action to examine 
+a target can make an Intelligence (Investigation) 
+check against your spell save DC. If it succeeds, it 
+becomes aware that the target is disguised.
+Sending
+Level 3 Divination (Bard, Cleric, Wizard)
+Casting Time: Action
+Range: Unlimited
+Components: V, S, M (a copper wire)
+Duration: Instantaneous
+You send a short message of 25 words or fewer to 
+a creature you have met or a creature described to 
+you by someone who has met it. The target hears 
+the message in its mind, recognizes you as the 
+sender if it knows you, and can answer in a like 
+manner immediately. The spell enables targets to 
+understand the meaning of your message.
+ You can send the message across any distance and 
+even to other planes of existence, but if the target 
+is on a different plane than you, there is a 5 percent 
+chance that the message doesn’t arrive. You know if 
+the delivery fails.
+ Upon receiving your message, a creature can 
+block your ability to reach it again with this spell for 
+8 hours. If you try to send another message during 
+that time, you learn that you are blocked, and the 
+spell fails.
+Sequester
+Level 7 Transmutation (Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (gem dust worth 5,000+ GP, 
+which the spell consumes)
+Duration: Until dispelled
+With a touch, you magically sequester an object or a 
+willing creature. For the duration, the target has the 
+Invisible condition and can’t be targeted by Divina-
+tion spells, detected by magic, or viewed remotely 
+with magic.
+ If the target is a creature, it enters a state of sus -
+pended animation; it has the Unconscious condition, 
+doesn’t age, and doesn’t need food, water, or air.
+ You can set a condition for the spell to end early. 
+The condition can be anything you choose, but it 
+must occur or be visible within 1 mile of the target. 
+Examples include “after 1,000 years” or “when the 
+tarrasque awakens.” This spell also ends if the tar -
+get takes any damage.
+Shapechange
+Level 9 Transmutation (Druid, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a jade circlet worth 1,500+ GP)
+Duration: Concentration, up to 1 hour
+You shape-shift into another creature for the dura-
+tion or until you take a Magic action to shape-shift 
+into a different eligible form. The new form must be 
+of a creature that has a Challenge Rating no higher 
+than your level or Challenge Rating. You must have 
+seen the sort of creature before, and it can’t be a 
+Construct or an Undead.
+ When you cast the spell, you gain a number of 
+Temporary Hit Points equal to the Hit Points of the 
+first form into which you shape-shift. These Tempo -
+rary Hit Points vanish if any remain when the spell 
+ends.
+ Your game statistics are replaced by the stat block 
+of the chosen form, but you retain your creature 
+type; alignment; personality; Intelligence, Wisdom, 
+and Charisma scores; Hit Points; Hit Point Dice; pro -
+ficiencies; and ability to communicate. If you have 
+the Spellcasting feature, you retain it too.
+ Upon shape-shifting, you determine whether your 
+equipment drops to the ground or changes in size 
+and shape to fit the new form while you’re in it. 
+Shatter
+Level 2 Evocation (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a chip of mica)
+Duration: Instantaneous
+A loud noise erupts from a point of your choice 
+within range. Each creature in a 10-foot-radius 
+Sphere centered there makes a Constitution saving 
+throw, taking 3d8 Thunder damage on a failed save 
+or half as much damage on a successful one. A Con -
+struct has Disadvantage on the save.
+ A nonmagical object that isn’t being worn or car -
+ried also takes the damage if it’s in the spell’s area.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 2.
+Shield
+Level 1 Abjuration (Sorcerer, Wizard)
+Casting Time: Reaction, which you take when you are 
+hit by an attack roll or targeted by the Magic Missile  
+spell
+Range: Self
+Components: V, S
+Duration: 1 round
+An imperceptible barrier of magical force protects 
+you. Until the start of your next turn, you have a +5 

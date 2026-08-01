@@ -1,0 +1,75 @@
+System Reference Document 5.2.1
+45
+Level 4 Druid Spells
+Spell School Special
+Blight Necromancy —
+Charm Monster Enchantment —
+Confusion Enchantment C
+Conjure Minor Elementals Conjuration C
+Conjure Woodland Beings Conjuration C
+Control Water Transmutation C
+Divination Divination R, M
+Dominate Beast Enchantment C
+Fire Shield Evocation —
+Freedom of Movement Abjuration —
+Giant Insect Conjuration C
+Hallucinatory Terrain Illusion —
+Ice Storm Evocation —
+Locate Creature Divination C
+Polymorph Transmutation C
+Stone Shape Transmutation —
+Stoneskin Transmutation C, M
+Wall of Fire Evocation C
+Level 5 Druid Spells
+Spell School Special
+Antilife Shell Abjuration C
+Awaken Transmutation M
+Commune with Nature Divination R
+Cone of Cold Evocation —
+Conjure Elemental Conjuration C
+Contagion Necromancy —
+Geas Enchantment —
+Greater Restoration Abjuration M
+Insect Plague Conjuration C
+Mass Cure Wounds Abjuration —
+Planar Binding Abjuration M
+Reincarnate Necromancy M
+Scrying Divination C, M
+Tree Stride Conjuration C
+Wall of Stone Evocation C
+Level 6 Druid Spells
+Spell School Special
+Conjure Fey Conjuration C
+Find the Path Divination C, M
+Flesh to Stone Transmutation C
+Heal Abjuration —
+Heroes’ Feast Conjuration M
+Move Earth Transmutation C
+Sunbeam Evocation C
+Transport via Plants Conjuration —
+Wall of Thorns Conjuration C
+Wind Walk Transmutation —
+Level 7 Druid Spells
+Spell School Special
+Fire Storm Evocation —
+Mirage Arcane Illusion —
+Plane Shift Conjuration M
+Regenerate Transmutation —
+Reverse Gravity Transmutation C
+Symbol Abjuration M
+Level 8 Druid Spells
+Spell School Special
+Animal Shapes Transmutation —
+Antipathy/Sympathy Enchantment —
+Befuddlement Enchantment —
+Control Weather Transmutation C
+Earthquake Transmutation C
+Incendiary Cloud Conjuration C
+Sunburst Evocation —
+Tsunami Conjuration C
+Level 9 Druid Spells
+Spell School Special
+Foresight Divination —
+Shapechange Transmutation C, M
+Storm of Vengeance Conjuration C
+True Resurrection Necromancy M

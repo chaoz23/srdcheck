@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   245	  
+telekinesis	  (5	  charges),	  wall	  of	  fire	  (4	  charges),	  or	  
+web	  (2	  charges).	  
+	   You	  can	  also	  use	  an	  action	  to	  cast	  one	  of	  the	  
+following	  spells	  from	  the	  staff	  without	  using	  any	  
+charges:	  arcane	  lock,	  detect	  magic,	  enlarge/reduce,	  
+light,	  mage	  hand,	  or	  protection	  from	  evil	  and	  good. 	  
+	   Retributive	  Strike. 	  You	  can	  use	  an	  action	  to	  break	  
+the	  staff	  over	  your	  knee	  or	  against	  a	  solid	  surface,	  
+performing	  a	  retributive	  strike.	  The	  staff	  is	  
+destroyed	  and	  releases	  its	  remaining	  magic	  in	  an	  
+explosion	  that	  expands	  to 	  fill	  a	  30-­‐‑foot-­‐‑radius	  sphere	  
+centered	  on	  it.	  
+	   You	  have	  a	  50	  percent	  chance	  to	  instantly	  travel	  to	  
+a	  random	  plane	  of	  existence,	  avoiding	  the	  explosion.	  
+If	  you	  fail	  to	  avoid	  the	  effect,	  you	  take	  force	  damage	  
+equal	  to	  16	  ×	  the	  number	  of	  charges	  in	  the	  staff. 	  
+Every	  other	  creature	  in	  the	  area	  must	  make	  a	  DC	  17	  
+Dexterity	  saving	  throw.	  On	  a	  failed	  save,	  a	  creature	  
+takes	  an	  amount	  of	  damage	  based	  on	  how	  far	  away	  it	  
+is	  from	  the	  point	  of	  origin,	  as	  shown	  in	  the	  following	  
+table.	  On	  a	  successful	  save,	  a	  creature	  takes 	  half	  as	  
+much	  damage. 	  
+Distance	  from	  Origin 	   Damage	  
+10	  ft.	  away	  or	  closer 	   8	  ×	  the	  number	  of	  charges	  in	  the	  staff 	  
+11	  to	  20	  ft.	  away	   6	  ×	  the	  number	  of	  charges	  in	  the	  staff 	  
+21	  to	  30	  ft.	  away	   4	  ×	  the	  number	  of	  charges	  in	  the	  staff 	  
+Staff of the Python 
+Staff,	  uncommon	  (requires	  attunement	  by	  a	  cleric,	  
+druid,	  or	  warlock) 	  
+You	  can	  use	  an	  action	  to	  speak	  this	  staff’s	  command	  
+word	  and	  throw	  the	  staff	  on	  the	  ground	  within	  10	  
+feet	  of	  you.	  The	  staff	  becomes	  a	  giant	  constrictor	  
+snake	  under	  your	  control	  and	  acts	  on	  its	   own	  
+initiative	  count.	  By	  using	  a	  bonus	  action	  to	  speak	  the	  
+command	  word	  again,	  you	  return	  the	  staff	  to	  its	  
+normal	  form	  in	  a	  space	  formerly	  occupied	  by	  the	  
+snake.	  
+	   On	  your	  turn,	  you	  can	  mentally	  command	  the	  
+snake	  if	  it	  is	  within	  60	  feet	  of	  you	  and	  you	  aren’ t	  
+incapacitated.	  You	  decide	  what	  action	  the	  snake	  
+takes	  and	  where	  it	  moves	  during	  its	  next	  turn,	  or	  you	  
+can	  issue	  it	  a	  general	  command,	  such	  as	  to	  attack	  
+your	  enemies	  or	  guard	  a	  location. 	  
+	   If	  the	  snake	  is	  reduced	  to	  0	  hit	  points,	  it	  dies	  and	  
+reverts	  to	  its	  staff	  form.	  The	  staff	  then	  shatters	  and	  is	  
+destroyed.	  If	  the	  snake	  reverts	  to	  staff	  form	  before	  
+losing	  all	  its	  hit	  points,	  it	  regains	  all	  of	  them. 	  
+Staff of the Woodlands 
+Staff,	  rare	  (requires	  attunement	  by	  a	  druid) 	  
+This	  staff	  can	  be	  wielded	  as	  a	  magic	  qua rterstaff	  that	  
+grants	  a	  +2	  bonus	  to	  attack	  and	  damage	  rolls	  made	  
+with	  it.	  While	  holding	  it,	  you	  have	  a	  +2	  bonus	  to	  spell	  
+attack	  rolls.	  
+	   The	  staff	  has	  10	  charges	  for	  the	  following	  
+properties.	  It	  regains	  1d6	  +	  4	  expended	  charges	  
+daily	  at	  dawn.	  If	  you	  expend	   the	  last	  charge,	  roll	  a	  
+d20.	  On	  a	  1,	  the	  staff	  loses	  its	  properties	  and	  
+becomes	  a	  nonmagical	  quarterstaff. 	  
+	   Spells.	  You	  can	  use	  an	  action	  to	  expend	  1	  or	  more	  
+of	  the	  staff’s	  charges	  to	  cast	  one	  of	  the	  following	  
+spells	  from	  it,	  using	  your	  spell	  save	  DC:	   animal	  
+friendship	  (1	  charge),	  awaken	  (5	  charges),	  barkskin	  
+(2	  charges),	  locate	  animals	  or	  plants 	  (2	  charges),	  
+speak	  with	  animals 	  (1	  charge),	  speak	  with	  plants	   (3	  
+charges),	  or	  wall	  of	  thorns	  (6	  charges).	  
+	   You	  can	  also	  use	  an	  action	  to	  cast	  the	   pass	  without	  
+trace	  spell	  from	  the	  staff	  without	  using	  any	  charges. 	  
+	   Tree	  Form.	  You	  can	  use	  an	  action	  to	  plant	  one	  end	  
+of	  the	  staff	  in	  fertile	  earth	  and	  expend	  1	  charge	  to	  
+transform	  the	  staff	  into	  a	  healthy	  tree.	  The	  tree	  is	  60	  
+feet	  tall	  and	  has	  a	  5 -­‐‑foot-­‐‑diameter	  trunk,	  and 	  its	  
+branches	  at	  the	  top	  spread	  out	  in	  a	  20 -­‐‑foot	  radius.	  
+The	  tree	  appears	  ordinary	  but	  radiates	  a	  faint	  aura	  
+of	  transmutation	  magic	  if	  targeted	  by	   detect	  magic.	  
+While	  touching	  the	  tree	  and	  using	  another	  action	  to	  
+speak	  its	  command	  word,	  you	  return	  the	  staf f	  to	  its	  
+normal	  form.	  Any	  creature	  in	  the	  tree	  falls	  when	  it	  
+reverts	  to	  a	  staff. 	  
+Staff of Thunder and Lightning 
+Staff,	  very	  rare	  (requires	  attunement) 	  
+This	  staff	  can	  be	  wielded	  as	  a	  magic	  quarterstaff	  that	  
+grants	  a	  +2	  bonus	  to	  attack	  and	  damage	  rolls	  made	  
+with	  it.	  It	  also	  has	  the	  following	  additional	  
+properties.	  When	  one	  of	  these	  properties	  is	  used,	  it	  
+can’t	  be	  used	  again	  until	  the	  next	  dawn. 	  
+	   Lightning.	  When	  you	  hit	  with	  a	  melee	  attack	  using	  
+the	  staff,	  you	  can	  cause	  the	  target	  to	  take	  an	  extra	  
+2d6	  lightning	  damage.	  
+	   Thunder.	  When	  you	  hit	  with	  a	  melee	  attack	  using	  
+the	  staff,	  you	  can	  cause	  the	  staff	  to	  emit	  a	  crack	  of	  
+thunder,	  audible	  out	  to	  300	  feet.	  The	  target	  you	  hit	  
+must	  succeed	  on	  a	  DC	  17	  Constitution	  saving	  throw	  
+or	  become	  stunned	  until	  the	  end	  of	  your	   next	  turn.	  
+	   Lightning	  Strike. 	  You	  can	  use	  an	  action	  to	  cause	  a	  
+bolt	  of	  lightning	  to	  leap	  from	  the	  staff’s	  tip	  in	  a	  line	  
+that	  is	  5	  feet	  wide	  and	  120	  feet	  long.	  Each	  creature	  in	  
+that	  line	  must	  make	  a	  DC	  17	  Dexterity	  saving	  throw,	  

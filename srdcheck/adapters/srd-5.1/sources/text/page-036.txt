@@ -1,0 +1,89 @@
+System	  Reference	   Document	  5.1 	   36	  
+you	  gain	  levels,	  your	  choices	  should	  reflect	  the	  types	  
+of	  monsters	  you	  have	   encountered	  on	  your	  
+adventures.	  
+Natural Explorer 
+You	  are	  particularly	  familiar	  with	  one	  type	  of	  natural	  
+environment	  and	  are	  adept	  at	  traveling	  and	  
+surviving	  in	  such	  regions.	  Choose	  one	  type	  of	  
+favored	  terrain:	  arctic,	  coast,	  desert,	  forest,	  
+grassland,	  moun tain,	  or	  swamp.	  When	  you	  make	  an	  
+Intelligence	  or	  Wisdom	  check	  related	  to	  your	  
+favored	  terrain,	  your	  proficiency	  bonus	  is	  doubled	  if	  
+you	  are	  using	  a	  skill	  that	  you’re	  proficient	  in. 	  
+	   While	  traveling	  for	  an	  hour	  or	  more	  in	  your	  
+favored	  terrain,	  you	  gain	  the	   following	  benefits: 	  
+• Difficult	  terrain	  doesn’t	  slow	  your	  group’s	  travel.
+• Your	  group	  can’t	  become	  lost	  except	  by	  magical
+means.
+• Even	  when	  you	  are	  engaged	  in	  another	  activity
+while	  traveling	  (such	  as	  foraging,	  navigating,	  or
+tracking),	  you	  remain	  alert	  to	  dan ger.
+• If	  you	  are	  traveling	  alone,	  you	  can	  move	  stealthily
+at	  a	  normal	  pace.
+• When	  you	  forage,	  you	  find	  twice	  as	  much	  food	  as
+you	  normally	  would.
+• While	  tracking	  other	  creatures,	  you	  also	  learn
+their	  exact	  number,	  their	  sizes,	  and	  how	  long	  ago
+they	  passed	  thro ugh	  the	  area.
+You	  choose	  additional	  favored	  terrain	  types	  at	  6th
+and	  10th	  level. 	  
+Fighting Style 
+At	  2nd	  level,	  you	  adopt	  a	  particular	  style	  of	  fighting	  
+as	  your	  specialty.	  Choose 	  one	  of	  the	  following	  
+options.	  You	  can’t	  take	  a	  Fighting	  Style	  option	  more	  
+than	  once,	  even	  if	  you	  later	  get	  to	  choose	  again. 	  
+Archery 
+You	  gain	  a	  +2	  bonus	  to	  attack	  rolls	  you	  make	  with	  
+ranged	  weapons. 	  
+Defense 
+While	  you	  are	  wearing	  armor,	  you	  gain	  a	  +1	  bonus	  to	  
+AC.	  
+Dueling 
+When	  you	  are	  wielding	  a	  melee	  weapon	  in	  one	  hand	  
+and	  no	  other	  we apons,	  you	  gain	  a	  +2	  bonus	  to	  
+damage	  rolls	  with	  that	  weapon. 	  
+Two-Weapon Fighting 
+When	  you	  engage	  in	  two -­‐‑weapon	  fighting,	  you	  can	  
+add	  your	  ability	  modifier	  to	  the	  damage	  of	  the	  
+second	  attack.	  
+Spellcasting 
+By	  the	  time	  you	  reach	  2nd	  level,	  you	  have	  learned	  to 	  
+use	  the	  magical	  essence	  of	  nature	  to	  cas t	  spells,	  
+much	  as	  a	  druid	  does. 	  
+Spell Slots 
+The	  Ranger	  table	  shows	  how	  many	  spell	  slots	  you	  
+have	  to	  cast	  your	  spells	  of	  1st	  level	  and	  higher.	  To	  
+cast	  one	  of	  these	  spells,	  you	  must	  expend	  a	  slot	  of	  
+the	  spell’s	  level	   or	  higher.	  You	  regain	  all	  expended	  
+spell	  slots	  when	  you	  finish	  a	  long	  rest. 	  
+	   For	  example,	  if	  you	  know	  the	  1st -­‐‑level	  spell	  animal	  
+friendship	  and	  have	  a	  1st-­‐‑level	  and	  a	  2nd -­‐‑level	  spell	  
+slot	  available,	  you	  can	  cast	  animal	  friendship 	  using	  
+either	  slot.	  
+Spells Known of 1st Level and Higher 
+You	  know	  two	  1st -­‐‑level	  spells	  of	  your	  choice	  from	  
+the	  ranger	  spell	  list. 	  
+	   The	  Spells	  Known	  column	  of	  the	  Ranger	  table	  
+shows	  when	  you	  learn	  more	  ranger	  spells	  of	  your	  
+choice.	  Each	  of	  these	  spells	  must	  be	  of	  a	  level	  for	  
+which	  you	  have	  spell	  slots.	  For	  instance,	  when	  you	  
+reach	  5th	  level	  in	  this	  class,	  you	  can	  learn	  one	  new	  
+spell	  of	  1st	  or	  2nd	  level. 	  
+	   Additionally,	  when	  you	  gain	  a	  level	  in	  this	  class,	  
+you	  can	  choose	  one	  of	  the	  ranger	  spells	  you	  know	  
+and	  replace	  it	  with	  another	  spel l	  from	  the	  ranger	  
+spell	  list,	  which	  also	  must	  be	  of	  a	  level	  for	  which	  you	  
+have	  spell	  slots. 	  
+Spellcasting Ability 
+Wisdom	  is	  your	  spellcasting	  ability	  for	  your	  ranger	  
+spells,	  since	  your	  magic	  draws	  on	  your	  attunement	  
+to	  nature.	  You	  use	  your	  Wisdom	  whenever	  a 	  spell	  
+refers	  to	  your	  spellcasting	  ability.	  In	  addition,	  you	  
+use	  your	  Wisdom	  modifier	  when	  setting	  the	  saving	  
+throw	  DC	  for	  a	  ranger	  spell	  you	  cast	  and	  when	  
+making	  an	  attack	  roll	  with	  one. 	  
+Spell save DC = 8	  +	  your	  proficiency	  bonus	  + 	  
+your	  Wisdom	  modifier 	  
+Spell attack modifier = your	  proficiency	  bonus	  + 	  
+your	  Wisdom	  modifier 	  

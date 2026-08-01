@@ -1,0 +1,93 @@
+System	  Reference	   Document	  5.1 	   133	  
+A	  creature	  you	   touch	  regains	  a	  number	  of	  hit	  points	  
+equal	  to	  1d8	  +	  your	  spellcasting	  ability	  modifier.	  
+This	  spell	  has	  no	  effect	  on	  undead	  or	  constructs. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  the	  healing	  increases	  
+by	  1d8	  for	  each	  slot	  level	  above	  1st.	  
+Dancing Lights 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  phosphorus	  or	  
+wychwood,	  or	  a	  glowworm) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  create	  up	  to	  four	  torch -­‐‑sized	  lights	  withi n	  range,	  
+making	  them	  appear	  as	  torches,	  lanterns,	  or	  glowing	  
+orbs	  that	  hover	  in	  the	  air	  for	  the	  duration.	  You	  can	  
+also	  combine	  the	  four	  lights	  into	  one	  glowing	  
+vaguely	  humanoid	  form	  of	  Medium	  size.	  Whichever	  
+form	  you	  choose,	  each	  light	  sheds	  dim	  light	  in	  a	   10-­‐‑
+foot	  radius.	  
+	   As	  a	  bonus	  action	  on	  your	  turn,	  you	  can	  move	  the	  
+lights	  up	  to	  60	  feet	  to	  a	  new	  spot	  within	  range.	  A	  
+light	  must	  be	  within	  20	  feet	  of	  another	  light	  created	  
+by	  this	  spell,	  and	  a	  light	  winks	  out	  if	  it	  exceeds	  the	  
+spell’s	  range.	  
+Darkness 
+2nd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  M	  (bat	  fur	  and	  a	  drop	  of	  pitch	  or	  
+piece	  of	  coal)	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+Magical	  darkness	  spreads	  from	  a	  point	  you	  choose	  
+within	  range	  to	  fill	  a	  15 -­‐‑foot-­‐‑radius	  sphere	  for 	  the	  
+duration.	  The	  darkness	  spreads	  around	  corners.	  A	  
+creature	  with	  darkvision	  can’t	  see	  through	  this	  
+darkness,	  and	  nonmagical	  light	  can’t	  illuminate	  it. 	  
+	   If	  the	  point	  you	  choose	  is	  on	  an	  object	  you	  are	  
+holding	  or	  one	  that	  isn’t	  being	  worn	  or	  carried,	  the	  
+darkness	  emanates	  from	  the	  object	  and	  moves	  with	  
+it.	  Completely	  covering	  the	  source	  of	  the	  darkness	  
+with	  an	  opaque	  object,	  such	  as	  a	  bowl	  or	  a	  helm,	  
+blocks	  the	  darkness. 	  
+	   If	  any	  of	  this	  spell’s	  area	  overlaps	  with	  an	  area	  of	  
+light	  created	  by	  a	  spell	  of	  2nd	  level	  or	  lower,	  the	  
+spell	  that	  created	  the	  light	  is	  dispelled. 	  
+Darkvision 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (either	  a	  pinch	  of	  dried	  carrot	  
+or	  an	  agate)	  
+Duration:	  8	  hours	  
+You	  touch	  a	  willing	  creature	  to	  grant	  i t	  the	  ability	  to	  
+see	  in	  the	  dark.	  For	  the	  duration,	  that	  creature	  has	  
+darkvision	  out	  to	  a	  range	  of	  60	  feet. 	  
+Daylight 
+3rd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  1	  hour	  
+A	  60-­‐‑foot-­‐‑radius	  sphere	  of	  light	  spreads	  out	  fr om	  a	  
+point	  you	  choose	  within	  range.	  The	  sphere	  is	  bright	  
+light	  and	  sheds	  dim	  light	  for	  an	  additional	  60	  feet. 	  
+	   If	  you	  chose	  a	  point	  on	  an	  object	  you	  are	  holding	  
+or	  one	  that	  isn’t	  being	  worn	  or	  carried,	  the	  light	  
+shines	  from	  the	  object	  and	  moves	  with	  it.	  Co mpletely	  
+covering	  the	  affected	  object	  with	  an	  opaque	  object,	  
+such	  as	  a	  bowl	  or	  a	  helm,	  blocks	  the	  light. 	  
+	   If	  any	  of	  this	  spell’s	  area	  overlaps	  with	  an	  area	  of	  
+darkness	  created	  by	  a	  spell	  of	  3rd	  level	  or	  lower,	  the	  
+spell	  that	  created	  the	  darkness	  is	  dispell ed.	  
+Death Ward 
+4th-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  8	  hours	  
+You	  touch	  a	  creature	  and	  grant	  it	  a	  measure	  of	  
+protection	  from	  death. 	  
+	   The	  first	  time	  the	  target	  would	  drop	  to	  0	  hit	  points	  
+as	  a	  result	  of	  taking	  dam age,	  the	  target	  instead	  drops	  
+to	  1	  hit	  point,	  and	  the	  spell	  ends. 	  
+	   If	  the	  spell	  is	  still	  in	  effect	  when	  the	  target	  is	  
+subjected	  to	  an	  effect	  that	  would	  kill	  it	  
+instantaneously	  without	  dealing	  damage,	  that	  effect	  
+is	  instead	  negated	  against	  the	  target,	  and	  t he	  spell	  
+ends.	  
+Delayed Blast Fireball 
+7th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  

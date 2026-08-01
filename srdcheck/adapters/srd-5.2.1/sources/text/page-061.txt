@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+61
+Ranger Subclass: Hunter
+Protect Nature and People from Destruction
+You stalk prey in the wilds and elsewhere, using 
+your abilities as a Hunter to protect nature and 
+people everywhere from forces that would destroy 
+them.
+Level 3: Hunter’s Lore
+You can call on the forces of nature to reveal certain 
+strengths and weaknesses of your prey. While a 
+creature is marked by your Hunter’s Mark , you know 
+whether that creature has any Immunities, Resis -
+tances, or Vulnerabilities, and if the creature has 
+any, you know what they are.
+Level 3: Hunter’s Prey
+You gain one of the following feature options of your 
+choice. Whenever you finish a Short or Long Rest, 
+you can replace the chosen option with the other 
+one.
+ Colossus Slayer. Your tenacity can wear down 
+even the most resilient foes. When you hit a crea-
+ture with a weapon, the weapon deals an extra 1d8 
+damage to the target if it’s missing any of its Hit 
+Points. You can deal this extra damage only once 
+per turn.
+ Horde Breaker. Once on each of your turns when 
+you make an attack with a weapon, you can make 
+another attack with the same weapon against a dif -
+ferent creature that is within 5 feet of the original 
+target, that is within the weapon’s range, and that 
+you haven’t attacked this turn.
+Level 7: Defensive Tactics
+You gain one of the following feature options of your 
+choice. Whenever you finish a Short or Long Rest, 
+you can replace the chosen option with the other 
+one.
+ Escape the Horde. Opportunity Attacks have Dis -
+advantage against you.
+ Multiattack Defense.  When a creature hits you 
+with an attack roll, that creature has Disadvantage 
+on all other attack rolls against you this turn.
+Level 11: Superior Hunter’s Prey
+Once per turn when you deal damage to a creature 
+marked by your Hunter’s Mark, you can also deal 
+that spell’s extra damage to a different creature that 
+you can see within 30 feet of the first creature.
+Level 15: Superior Hunter’s Defense
+When you take damage, you can take a Reaction to 
+give yourself Resistance to that damage and any 
+other damage of the same type until the end of the 
+current turn.
+Rogue
+Core Rogue Traits
+Primary Ability Dexterity
+Hit Point Die D8 per Rogue level
+Saving Throw 
+Proficiencies
+Dexterity and Intelligence
+Skill Proficiencies Choose 4: Acrobatics, Ath -
+letics, Deception, Insight, 
+Intimidation, Investigation, 
+Perception, Persuasion, Sleight 
+of Hand, or Stealth
+Weapon Proficiencies Simple weapons and Martial 
+weapons that have the Finesse 
+or Light property
+Tool Proficiencies Thieves’ Tools
+Armor Training Light armor
+Starting Equipment Choose A or B: (A) Leather Ar -
+mor, 2 Daggers, Short  sword, 
+Shortbow, 20 Arrows, Quiver, 
+Thieves’ Tools, Burglar’s Pack, 
+and 8 GP; or (B) 100 GP
+Becoming a Rogue …
+As a Level 1 Character
+• Gain all the traits in the Core Rogue Traits table.
+• Gain the Rogue’s level 1 features, which are listed 
+in the Rogue Features table.
+As a Multiclass Character
+• Gain the following traits from the Core Rogue 
+Traits table: Hit Point Die, proficiency in one skill 
+of your choice from the Rogue’s skill list, pro-
+ficiency with Thieves’ Tools, and training with 
+Light armor.
+• Gain the Rogue’s level 1 features, which are listed 
+in the Rogue Features table.
+Rogue Class Features
+As a Rogue, you gain the following class features 
+when you reach the specified Rogue levels. These 
+features are listed in the Rogue Features table.
+Level 1: Expertise
+You gain Expertise in two of your skill proficiencies 
+of your choice. Sleight of Hand and Stealth are rec -
+ommended if you have proficiency in them.
+ At Rogue level 6, you gain Expertise in two more 
+of your skill proficiencies of your choice.
+Level 1: Sneak Attack
+You know how to strike subtly and exploit a foe’s 
+distraction. Once per turn, you can deal an extra 
+1d6 damage to one creature you hit with an attack 

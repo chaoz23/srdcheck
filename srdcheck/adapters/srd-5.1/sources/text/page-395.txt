@@ -1,0 +1,81 @@
+System	  Reference	   Document	  5.1 	   395	  
+Appendix MM-B: 
+Nonplayer 
+Characters 
+This	  appendix	  contains	  statistics	  for	  various	  
+humanoid	  nonplayer	  characters	  (NPCs)	  that	  
+adventurers	  might	  encounter	   during	  a	  campaign,	  
+including	  lowly	  commoners	  and	  mighty	  archmages.	  
+These	  stat	  blocks	  can	  be	  used	  to	  represent	  both	  
+human	  and	  nonhuman	  NPCs. 	  
+Customizing NPCs 
+There	  are	  many	  easy	  ways	  to	  customize	  the	  NPCs	  in	  
+this	  appendix	  for	  your	  home	  campaign. 	  
+	   Racial	  Traits.	  You	  can	  add	  racial	  traits	  to	  an	  NPC.	  
+For	  example,	  a	  halfling	  druid	  might	  have	  a	  speed	  of	  
+25	  feet	  and	  the	  Lucky	  trait.	  Adding	  racial	  traits	  to	  an	  
+NPC	  doesn’t	  alter	  its	  challenge	  rating.	  For	  more	  on	  
+racial	  traits,	  see	  the	   Player’s	  Handbook .	  
+	   Spell	  Swaps.	  One	  way	  to	  customize	  an	  NPC	  
+spellcaster	  is	  to	  replace	  one	  or	  more	  of	  its	  spells.	  You	  
+can	  substitute	  any	  spell	  on	  the	  NPC’s	  spell	  list	  with	  a	  
+different	  spell	  of	  the	  same	  level	  from	  the	  same	  spell	  
+list.	  Swapping	  spells	  in	  this	  manner	  doesn’t	  alter	  an	  
+NPC’s	  challenge	  rating. 	  
+	   Armor	  and	  Weapon	  Swaps. 	  You	  can	  upgrade	  or	  
+downgrade	  an	  NPC’s	  armor,	  or	  add	  or	  switch	  
+weapons.	  Adjustments	  to	  Armor	  Class	  and	  damage	  
+can	  change	  an	  NPC’s	  challenge	  rating. 	  
+	   Magic	  Items.	  The	  more	  powerful	  an	  NPC,	  the	  
+more	  likely	  it	  has	  on e	  or	  more	  magic	  items	  in	  its	  
+possession.	  An	  archmage,	  for	  example,	  might	  have	  a	  
+magic	  staff	  or	  wand,	  as	  well	  as	  one	  or	  more	  potions	  
+and	  scrolls.	  Giving	  an	  NPC	  a	  potent	  damage -­‐‑dealing	  
+magic	  item	  could	  alter	  its	  challenge	  rating. 	  
+Acolyte	  
+Medium	  humanoid	  (any 	  race),	  any	  alignment 	  
+Armor	  Class	  10	  
+Hit	  Points	  9	  (2d8)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   10	  (+0)	   10	  (+0)	   10	  (+0)	   14	  (+2)	   11	  (+0)	  
+Skills	  Medicine	  +4,	  Religion	  +2 	  
+Senses	  passive	  Perception	  12 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  1/4	  (50	  XP)	  
+Spellcasting.	  The	  acolyte	  is	  a	  1st -­‐level	  spellcaster.	  Its	  
+spellcasting	  ability	  is	  Wisdom	  (spell	  save	  DC	  12,	  +4	  to	  
+hit	  with	  spell	  attacks).	  The	  acolyte	  has	  following	  cleric	  
+spells	  prepared: 	  
+Cantrips	  (at	  will):	   light,	  sacred	  flame,	  thaumaturgy	  
+1st	  level	  (3	  slots):	   bless,	  cure	  wounds,	  sanctuary	  
+Actions	  
+Club.	  Melee	  Weapon	  Attack: 	  +2	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  2	  (1d4)	  bludgeoning	  damage. 	  
+Acolytes	  are	  junior	  members	  of	  a	  clergy,	  usually	  
+answerable	  to	  a	  priest.	  They	  perform	  a	  variety	  of	  
+functions	  in	  a	  temple	  and	  are	  granted	  minor	  
+spellcasting	  power	  by	  their	  deities. 	  
+Archmage	  
+Medium	  humanoid	  (any	  race),	  any	  alignment 	  
+Armor	  Class	  12	  (15	  with	  mage	  armor)	  
+Hit	  Points	  99	  (18d8	  +	  18)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   14	  (+2)	   12	  (+1)	   20	  (+5)	   15	  (+2)	   16	  (+3)	  
+Saving	  Throws	  Int	  +9,	  Wis	  +6	  
+Skills	  Arcana	  +13,	  History	  +13 	  
+Damage	  Resistance 	  damage	  from	  spells;	  nonmagical	  
+bludgeoning,	  piercing,	  and	  sla shing	  (from	  stoneskin)	  
+Senses	  passive	  Perception	  12 	  
+Languages	  any	  six	  languages 	  
+Challenge	  12	  (8,400	  XP)	  
+Magic	  Resistance. 	  The	  archmage	  has	  advantage	  on	  
+saving	  throws	  against	  spells	  and	  other	  magical	  effects. 	  
+Spellcasting.	  The	  archmage	  is	  an	  18th -­‐level	  spellcaster.	  
+Its	  spellcasting	  ability	  is	  Intelligence	  (spell	  save	  DC	  17,	  
++9	  to	  hit	  with	  spell	  attacks).	  The	  archmage	  can	  cast
+disguise	  self	  and	  invisibility	  at	  will	  and	  has	  the	  followin g
+wizard	  spells	  prepared:
+Cantrips	  (at	  will):	  fire	  bolt,	  light,	  mage	  hand,	  
+prestidigitation ,	  shocking	  grasp	  

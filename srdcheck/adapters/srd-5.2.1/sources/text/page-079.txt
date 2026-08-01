@@ -1,0 +1,94 @@
+System Reference Document 5.2.1
+79
+of your career, you gain each of your subclass’s fea-
+tures that are of your Wizard level or lower.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Wizard levels 
+8, 12, and 16.
+Level 5: Memorize Spell
+Whenever you finish a Short Rest, you can study 
+your spellbook and replace one of the level 1+ Wiz-
+ard spells you have prepared for your Spellcasting 
+feature with another level 1+ spell from the book.
+Level 18: Spell Mastery
+You have achieved such mastery over certain spells 
+that you can cast them at will. Choose a level 1 and 
+a level 2 spell in your spellbook that have a casting 
+time of an action. You always have those spells pre -
+pared, and you can cast them at their lowest level 
+without expending a spell slot. To cast either spell at 
+a higher level, you must expend a spell slot.
+ Whenever you finish a Long Rest, you can study 
+your spellbook and replace one of those spells with 
+an eligible spell of the same level from the book.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Spell Recall is recommended.
+Level 20: Signature Spells
+Choose two level 3 spells in your spellbook as your 
+signature spells. You always have these spells pre -
+pared, and you can cast each of them once at level 3 
+without expending a spell slot. When you do so, you 
+can’t cast them in this way again until you finish a 
+Short or Long Rest. To cast either spell at a higher 
+level, you must expend a spell slot.
+Wizard Spell List
+This section presents the Wizard spell list. The 
+spells are organized by spell level and then alpha-
+betized, and each spell’s school of magic is listed. 
+In the Special column, C means the spell requires 
+Concentration, R means it’s a Ritual, and M means it 
+requires a specific Material component.
+Cantrips (Level 0 Wizard Spells)
+Spell School Special
+Acid Splash Evocation —
+Chill Touch Necromancy —
+Dancing Lights Illusion C
+Elementalism Transmutation —
+Fire Bolt Evocation —
+Light Evocation —
+Spell School Special
+Mage Hand Conjuration —
+Mending Transmutation —
+Message Transmutation —
+Minor Illusion Illusion —
+Poison Spray Necromancy —
+Prestidigitation Transmutation —
+Ray of Frost Evocation —
+Shocking Grasp Evocation —
+True Strike Divination —
+Level 1 Wizard Spells
+Spell School Special
+Alarm Abjuration R
+Burning Hands Evocation —
+Charm Person Enchantment —
+Chromatic Orb Evocation M
+Color Spray Illusion —
+Comprehend Languages Divination R
+Detect Magic Divination C, R
+Disguise Self Illusion —
+Expeditious Retreat Transmutation C
+False Life Necromancy –
+Feather Fall Transmutation —
+Find Familiar Conjuration R, M
+Floating Disk Conjuration R
+Fog Cloud Conjuration C
+Grease Conjuration —
+Hideous Laughter Enchantment C
+Ice Knife Conjuration —
+Identify Divination R, M
+Illusory Script Illusion R, M
+Jump Transmutation —
+Longstrider Transmutation —
+Mage Armor Abjuration —
+Magic Missile Evocation —
+Protection from Evil and Good Abjuration C, M
+Ray of Sickness Necromancy —
+Shield Abjuration —
+Silent Image Illusion C
+Sleep Enchantment C
+Thunderwave Evocation —
+Unseen Servant Conjuration R

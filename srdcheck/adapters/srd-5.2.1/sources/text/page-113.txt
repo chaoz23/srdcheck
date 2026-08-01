@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+113
+• If you deal damage to the target with an attack 
+roll or a spell, the target takes an extra 1d8 Ne -
+crotic damage.
+ Using a Higher-Level Spell Slot. If you cast this 
+spell using a level 4 spell slot, you can maintain 
+Concentration on it for up to 10 minutes. If you use 
+a level 5+ spell slot, the spell doesn’t require Con -
+centration, and the duration becomes 8 hours (level 
+5–6 slot) or 24 hours (level 7–8 slot). If you use a 
+level 9 spell slot, the spell lasts until dispelled.
+Black Tentacles
+Level 4 Conjuration (Wizard)
+Casting Time: Action
+Range: 90 feet
+Components: V, S, M (a tentacle)
+Duration: Concentration, up to 1 minute
+Squirming, ebony tentacles fill a 20-foot square on 
+ground that you can see within range. For the du -
+ration, these tentacles turn the ground in that area 
+into Difficult Terrain.
+ Each creature in that area makes a Strength sav -
+ing throw. On a failed save, it takes 3d6 Bludgeoning 
+damage, and it has the Restrained condition until 
+the spell ends. A creature also makes that save if 
+it enters the area or ends it turn there. A creature 
+makes that save only once per turn.
+ A Restrained creature can take an action to make 
+a Strength (Athletics) check against your spell save 
+DC, ending the condition on itself on a success.
+Blade Barrier
+Level 6 Evocation (Cleric)
+Casting Time: Action
+Range: 90 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You create a wall of whirling blades made of magical 
+energy. The wall appears within range and lasts for 
+the duration. You make a straight wall up to 100 
+feet long, 20 feet high, and 5 feet thick, or a ringed 
+wall up to 60 feet in diameter, 20 feet high, and 5 
+feet thick. The wall provides Three-Quarters Cover, 
+and its space is Difficult Terrain.
+ Any creature in the wall’s space makes a Dexter -
+ity saving throw, taking 6d10 Force damage on a 
+failed save or half as much damage on a successful 
+one. A creature also makes that save if it enters the 
+wall’s space or ends it turn there. A creature makes 
+that save only once per turn.
+Bless
+Level 1 Enchantment (Cleric, Paladin)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a Holy Symbol worth 5+ GP)
+Duration: Concentration, up to 1 minute
+You bless up to three creatures within range. When -
+ever a target makes an attack roll or a saving throw 
+before the spell ends, the target adds 1d4 to the at -
+tack roll or save.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Blight
+Level 4 Necromancy (Druid, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Instantaneous
+A creature that you can see within range makes 
+a Constitution saving throw, taking 8d8 Necrotic 
+damage on a failed save or half as much damage 
+on a successful one. A Plant creature automatically 
+fails the save.
+ Alternatively, target a nonmagical plant that isn’t 
+a creature, such as a tree or shrub. It doesn’t make a 
+save; it simply withers and dies.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 4.
+Blindness/Deafness
+Level 2 Transmutation (Bard, Cleric, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V
+Duration: 1 minute
+One creature that you can see within range must 
+succeed on a Constitution saving throw, or it has 
+the Blinded or Deafened condition (your choice) 
+for the duration. At the end of each of its turns, the 
+target repeats the save, ending the spell on itself on 
+a success.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 2.
+Blink
+Level 3 Transmutation (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: 1 minute
+Roll 1d6 at the end of each of your turns for the 
+duration. On a roll of 4–6, you vanish from your cur -
+rent plane of existence and appear in the Ethereal 
+Plane (the spell ends instantly if you are already on 
+that plane). While on the Ethereal Plane, you can 

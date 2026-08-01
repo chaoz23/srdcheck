@@ -1,0 +1,103 @@
+System	  Reference	   Document	  5.1 	   197	  
+Strength	  check,	  freeing	  itself	  or	  another	  creature	  
+within	  its	  reach	  on	  a	  success.	  The	  net	  has	  AC	  10	  and	  
+20	  hit	  points.	  Dealing	  5	  slashing	  damage	  to	  the	  net	  
+(AC	  10)	  destroys	  a	  5 -­‐‑foot-­‐‑square	  section	  of	  it,	  freeing	  
+any	  creature	  trapped	  in	  that	  section. 	  
+Fire-Breathing Statue 
+Magic	  trap	  
+This	  trap	  is	  activated	  when	  an	  intruder	  steps	  on	  a	  
+hidden	  pressure	  plate,	  releasing	  a	  magical	  gout	  of	  
+flame	  from	  a	  nearby	  statue.	  The	  statue	  can	  be	  of	  
+anything,	  including	  a	  dragon	  or	  a	  wiz ard	  casting	  a	  
+spell.	  
+	   The	  DC	  is	  15	  to	  spot	  the	  pressure	  plate,	  as	  well	  as	  
+faint	  scorch	  marks	  on	  the	  floor	  and	  walls.	  A	  spell	  or	  
+other	  effect	  that	  can	  sense	  the	  presence	  of	  magic,	  
+such	  as	  detect	  magic,	  reveals	  an	  aura	  of	  evocation	  
+magic	  around	  the	  statue. 	  
+	   The	  trap	  activates	  when	  more	  than	  20	  pounds	  of	  
+weight	  is	  placed	  on	  the	  pressure	  plate,	  causing	  the	  
+statue	  to	  release	  a	  30 -­‐‑foot	  cone	  of	  fire.	  Each	  creature	  
+in	  the	  fire	  must	  make	  a	  DC	  13	  Dexterity	  saving	  throw,	  
+taking	  22	  (4d10)	  fire	  damage	  on	  a	  failed	  save,	  or	  half	  
+as	  much	  damage	  on	  a	  successful	  one. 	  
+	   Wedging	  an	  iron	  spike	  or	  other	  object	  under	  the	  
+pressure	  plate	  prevents	  the	  trap	  from	  activating.	  A	  
+successful	  dispel	  magic	  (DC	  13)	  cast	  on	  the	  statue	  
+destroys	  the	  trap. 	  
+Pits 
+Mechanical	  trap 	  
+Four	  basic	  pit	  traps	  are	  presented	  here. 	  
+	   Simple	  Pit.	  A	  simple	  pit	  trap	  is	  a	  hole	  dug	  in	  the	  
+ground.	  The	  hole	  is	  covered	  by	  a	  large	  cloth	  
+anchored	  on	  the	  pit’s	  edge	  and	  camouflaged	  with	  
+dirt	  and	  debris. 	  
+	   The	  DC	  to	  spot	  the	  pit	  is	  10.	  Anyone	  stepping	  on	  
+the	  cloth	  falls	  through	  and	  pulls	  the	  cloth	  down	  into	  
+the	  pit,	  taking	  damage	  based	  on	  the	  pit’s	  depth	  
+(usually	  10	  feet,	  but	  some	  pits	  are	  deeper). 	  
+	   Hidden	  Pit.	  This	  pit	  has	  a	  cover	  constructed	  from	  
+material	  identical	  to	  the	  floor	  around	  it. 	  
+	   A	  successful	  DC	  15	   Wisdom	  (Perception)	  check	  
+discerns	  an	  absence	  of	  foot	  traffic	  over	  the	  section	  of	  
+floor	  that	  forms	  the	  pit’s	  cover.	  A	  successful	  DC	  15	  
+Intelligence	  (Investigation)	  check	  is	  necessary	  to	  
+confirm	  that	  the	  trapped	  section	  of	  floor	  is	  actually	  
+the	  cover	  of	  a	  pit.	  
+	   When	  a	  creature	  steps	  on	  the	  cover,	  it	  swings	  open	  
+like	  a	  trapdoor,	  causing	  the	  intruder	  to	  spill	  into	  the	  
+pit	  below.	  The	  pit	  is	  usually	  10	  or	  20	  feet	  deep	  but	  
+can	  be	  deeper. 	  
+	   Once	  the	  pit	  trap	  is	  detected,	  an	  iron	  spike	  or	  
+similar	  object	  can	  be	  wedg ed	  between	  the	  pit’s	  cover	  
+and	  the	  surrounding	  floor	  in	  such	  a	  way	  as	  to	  
+prevent	  the	  cover	  from	  opening,	  thereby	  making	  it	  
+safe	  to	  cross.	  The	  cover	  can	  also	  be	  magically	  held	  
+shut	  using	  the	   arcane	  lock	  spell	  or	  similar	  magic. 	  
+	   Locking	  Pit.	  This	  pit	  trap	  is 	  identical	  to	  a	  hidden	  
+pit	  trap,	  with	  one	  key	  exception:	  the	  trap	  door	  that	  
+covers	  the	  pit	  is	  spring -­‐‑loaded.	  After	  a	  creature	  falls	  
+into	  the	  pit,	  the	  cover	  snaps	  shut	  to	  trap	  its	  victim	  
+inside.	  
+	   A	  successful	  DC	  20	  Strength	  check	  is	  necessary	  to	  
+pry	  the	  cover	  open.	  The	  cover	  can	  also	  be	  smashed	  
+open.	  A	  character	  in	  the	  pit	  can	  also	  attempt	  to	  
+disable	  the	  spring	  mechanism	  from	  the	  inside	  with	  a	  
+DC	  15	  Dexterity	  check	  using	  thieves’	  tools,	  provided	  
+that	  the	  mechanism	  can	  be	  reached	  and	  the	  
+character	  can	  see.	  In 	  some	  cases,	  a	  mechanism	  
+(usually	  hidden	  behind	  a	  secret	  door	  nearby)	  opens	  
+the	  pit.	  
+	   Spiked	  Pit.	  This	  pit	  trap	  is	  a	  simple,	  hidden,	  or	  
+locking	  pit	  trap	  with	  sharpened	  wooden	  or	  iron	  
+spikes	  at	  the	  bottom.	  A	  creature	  falling	  into	  the 	  pit	  
+takes	  11	  (2d10)	  piercing	  damage	  from	  the	  spikes,	  in	  
+addition	  to	  any	  falling	  damage.	  Even	  nastier	  versions	  
+have	  poison	  smeared	  on	  the	  spikes.	  In	  that	  case,	  
+anyone	  taking	  piercing	  damage	  from	  the	  spikes	  must	  
+also	  make	  a	  DC	  13	  Constitution	  saving	  throw,	   taking	  
+an	  22	  (4d10)	  poison	  damage	  on	  a	  failed	  save,	  or	  half	  
+as	  much	  damage	  on	  a	  successful	  one. 	  
+Poison Darts 
+Mechanical	  trap 	  
+When	  a	  creature	  steps	  on	  a	  hidden	  pressure	  plate,	  
+poison-­‐‑tipped	  darts	  shoot	  from	  spring -­‐‑loaded	  or	  
+pressurized	  tubes	  cleverly	  embedded	  in	  the	  
+surrounding	  walls.	  An	  area	  might	  include	  multiple	  
+pressure	  plates,	  each	  one	  rigged	  to	  its	  own	  set	  of	  
+darts.	  
+	   The	  tiny	  holes	  in	  the	  walls	  are	  obscured	  by	  dust	  
+and	  cobwebs,	  or	  cleverly	  hidden	  amid	   bas-­‐‑reliefs,	  
+murals,	  or	  frescoes	  that	  adorn	  the	  walls.	  The	  DC	  to	  
+spot	  them	  is	  15.	  With	  a	  successful	  DC	  15	  Intelligence	  
+(Investigation)	  check,	  a	  character	  can	  deduce	  the	  
+presence	  of	  the	  pressure	  plate	  from	  variations	  in	  the	  
+mortar	  and	  stone	  used	  to	  create	  i t,	  compared	  to	  the	  
+surrounding	  floor.	  Wedging	  an	  iron	  spike	  or	  other	  
+object	  under	  the	  pressure	  plate	  prevents	  the	  trap	  
+from	  activating.	  Stuffing	  the	  holes	  with	  cloth	  or	  wax	  
+prevents	  the	  darts	  contained	  within	  from	  launching. 	  
+	   The	  trap	  activates	  when	  more	  t han	  20	  pounds	  of	  
+weight	  is	  placed	  on	  the	  pressure	  plate,	  releasing	  four	  
+darts.	  Each	  dart	  makes	  a	  ranged	  attack	  with	  a	  +8	  

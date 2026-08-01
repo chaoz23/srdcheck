@@ -1,0 +1,104 @@
+System Reference Document 5.2.1
+136
+ Using a Higher-Level Spell Slot. Use the spell 
+slot’s level for the spell’s level in the stat block.
+Giant Insect
+Large Beast, Unaligned
+AC 11 + the spell’s level
+HP 30 + 10 for each spell level above 4
+Speed 40 ft., Climb 40 ft., Fly 40 ft. (Wasp only)
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3     dex 13 +1 +1 con 15 +2 +2
+int 4 −3 −3 WiS 14 +2 +2 chA 3 −4 −4
+Senses Darkvision 60 ft.; Passive Perception 12
+Languages Understands the languages you know
+CR None (XP 0; PB equals your Proficiency Bonus)
+Traits
+Spider Climb. The insect can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Actions
+Multiattack. The insect makes a number of attacks 
+equal to half this spell’s level (round down).
+Poison Jab. Melee Attack Roll: Bonus equals your spell 
+attack modifier, reach 10 ft. Hit: 1d6 + 3 plus the spell’s 
+level Piercing damage plus 1d4 Poison damage.
+Web Bolt (Spider Only). Ranged Attack Roll: Bonus 
+equals your spell attack modifier, range 60 ft. Hit: 1d10 
++ 3 plus the spell’s level Bludgeoning damage, and the 
+target’s Speed is reduced to 0 until the start of the in-
+sect’s next turn.
+Bonus Actions
+Venomous Spew (Centipede Only). Constitution Saving 
+Throw: Your spell save DC, one creature the insect can 
+see within 10 feet. Failure: The target has the Poisoned 
+condition until the start of the insect’s next turn.
+Glibness
+Level 8 Enchantment (Bard, Warlock)
+Casting Time: Action
+Range: Self
+Components: V
+Duration: 1 hour
+Until the spell ends, when you make a Charisma 
+check, you can replace the number you roll with a 
+15. Additionally, no matter what you say, magic that 
+would determine if you are telling the truth indi -
+cates that you are being truthful.
+Globe of Invulnerability
+Level 6 Abjuration (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a glass bead)
+Duration: Concentration, up to 1 minute
+An immobile, shimmering barrier appears in a 10-
+foot Emanation around you and remains for the 
+duration.
+ Any spell of level 5 or lower cast from outside the 
+barrier can’t affect anything within it. Such a spell 
+can target creatures and objects within the barrier, 
+but the spell has no effect on them. Similarly, the 
+area within the barrier is excluded from areas of 
+effect created by such spells.
+ Using a Higher-Level Spell Slot. The barrier 
+blocks spells of 1 level higher for each spell slot level 
+above 6.
+Glyph of Warding
+Level 3 Abjuration (Bard, Cleric, Wizard)
+Casting Time: 1 hour
+Range: Touch
+Components: V, S, M (powdered diamond worth 200+ 
+GP, which the spell consumes)
+Duration: Until dispelled or triggered
+You inscribe a glyph that later unleashes a magical 
+effect. You inscribe it either on a surface (such as a 
+table or a section of floor) or within an object that 
+can be closed (such as a book or chest) to conceal 
+the glyph. The glyph can cover an area no larger 
+than 10 feet in diameter. If the surface or object is 
+moved more than 10 feet from where you cast this 
+spell, the glyph is broken, and the spell ends with -
+out being triggered.
+ The glyph is nearly imperceptible and requires a 
+successful Wisdom (Perception) check against your 
+spell save DC to notice.
+ When you inscribe the glyph, you set its trigger 
+and choose whether it’s an explosive rune or a spell 
+glyph, as explained below.
+ Set the Trigger. You decide what triggers the 
+glyph when you cast the spell. For glyphs inscribed 
+on a surface, common triggers include touching or 
+stepping on the glyph, removing another object cov -
+ering it, or approaching within a certain distance of 
+it. For glyphs inscribed within an object, common 
+triggers include opening that object or seeing the 
+glyph. Once a glyph is triggered, this spell ends.
+ You can refine the trigger so that only creatures 
+of certain types activate it (for example, the glyph 
+could be set to affect Aberrations). You can also set 
+conditions for creatures that don’t trigger the glyph, 
+such as those who say a certain password.
+ Explosive Rune. When triggered, the glyph erupts 
+with magical energy in a 20-foot-radius Sphere cen -
+tered on the glyph. Each creature in the area makes 
+a Dexterity saving throw. A creature takes 5d8 Acid, 
+Cold, Fire, Lightning, or Thunder damage (your 

@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   256	  
+Hit	  Dice	  by	  Size	  
+Monster	  Size	   Hit	  Die	   Average	  HP	  per	  Die 	  
+Tiny	   d4	   2½	  
+Small	   d6	   3½	  
+Medium	   d8	   4½	  
+Large	   d10	   5½	  
+Huge	   d12	   6½	  
+Gargantuan	   d20	   10½	  
+	   A	  monster’s	  Constitution	  modifier	  also	  affects	  the	  
+number	  of	  hit	  points	  it	  has.	  Its	  Constitution	  modifier	  
+is	  multiplied	  by	  the	  number	  of	  Hit	  Dice	  it	  possesses,	  
+and	  the	  result	  is	   added	  to	  its	  hit	  points.	  For	  example,	  
+if	  a	  monster	  has	  a	  Constitution	  of	  12	  (+1	  modifier)	  
+and	  2d8	  Hit	  Dice,	  it	  has	  2d8	  +	  2	  hit	  points	  (average	  
+11).	  
+Speed 
+A	  monster’s	  speed	  tells	  you	  how	  far	  it	  can	  move	  on	  
+its	  turn.	  For	  more	  information	  on	  speed,	  see	  the	  
+Player’s	  Handbook. 	  
+	   All	  creatures	  have	  a	  walking	  speed,	  simply	  called	  
+the	  monster’s	  speed.	  Creatures	  that	  have	  no	  form	  of	  
+ground-­‐‑based	  locomotion	  have	  a	  walking	  speed	  of	  0	  
+feet.	  
+	   Some	  creatures	  have	  one	  or	  more	  of	  the	  following	  
+additional	  movement	  modes. 	  
+Burrow 
+A	  monster	  that	  has	  a	  burrowing	  speed	  can	  use	  that	  
+speed	  to	  move	  through	  sand,	  earth,	  mud,	  or	  ice.	  A	  
+monster	  can’t	  burrow	  through	  solid	  rock	  unless	  it	  
+has	  a	  special	  trait	  that	  allows	  it	  to	  do	  so. 	  
+Climb 
+A	  monster	  that	  has	  a	  climbing	  speed	  can	  use	  all	  or	  
+part	  of	  its	  movement	  to	  move	  on	  vertical	  surfaces.	  
+The	  monster	  doesn’t	  need	  to	  spend	  extra	  movement	  
+to	  climb.	  
+Fly 
+A	  monster	  that	  has	  a	  flying	  speed	  can	  use	  all	  or	  part	  
+of	  its	  movement	  to	  fly.	  Some	  monsters	  have	  the	  
+ability	  to	  hover,	  which	  makes	  them	  hard	  t o	  knock	  
+out	  of	  the	  air	  (as	  explained	  in	  the	  rules	  on	  flying	  in	  
+the	  Player’s	  Handbook ).	  Such	  a	  monster	  stops	  
+hovering	  when	  it	  dies. 	  
+Swim 
+A	  monster	  that	  has	  a	  swimming	  speed	  doesn’t	  need	  
+to	  spend	  extra	  movement	  to	  swim. 	  
+Ability Scores 
+Every	  monster	  has	  six	  a bility	  scores	  (Strength,	  
+Dexterity,	  Constitution,	  Intelligence,	  Wisdom,	  and	  
+Charisma)	  and	  corresponding	  modifiers.	  For	  more	  
+information	  on	  ability	  scores	  and	  how	  they’re	  used	  
+in	  play,	  see	  the	   Player’s	  Handbook. 	  
+Saving Throws 
+The	  Saving	  Throws	  entry	  is	  res erved	  for	  creatures	  
+that	  are	  adept	  at	  resisting	  certain	  kinds	  of	  effects.	  
+For	  example,	  a	  creature	  that	  isn’t	  easily	  charmed	  or	  
+frightened	  might	  gain	  a	  bonus	  on	  its	  Wisdom	  saving	  
+throws.	  Most	  creatures	  don’t	  have	  special	  saving	  
+throw	  bonuses,	  in	  which	  case	   this	  section	  is	  absent. 	  
+	   A	  saving	  throw	  bonus	  is	  the	  sum	  of	  a	  monster’s	  
+relevant	  ability	  modifier	  and	  its	  proficiency	  bonus,	  
+which	  is	  determined	  by	  the	  monster’s	  challenge	  
+rating	  (as	  shown	  in	  the	  Proficiency	  Bonus	  by	  
+Challenge	  Rating	  table). 	  
+Proficiency	  Bonus	  by	  Challenge	  Rating	  
+Challenge	  
+Proficiency	  
+Bonus	   Challenge	  
+Proficiency	  
+Bonus	  
+0	   +2 14	   +5
+1/8	   +2 15	   +5
+1/4	   +2 16	   +5
+1/2	   +2 17	   +6
+1	   +2 18	   +6
+2	   +2 19	   +6
+3	   +2 20	   +6
+4	   +2 21	   +7
+5	   +3 22	   +7
+6	   +3 23	   +7
+7	   +3 24	   +7
+8	   +3 25	   +8
+9	   +4 26	   +8
+10	   +4 27	   +8
+11	   +4 28	   +8
+12	   +4 29	   +9
+13	   +5 30	   +9
+Skills 
+The	  Skills	  entry	  is	  reserved	  for	  monsters	  that	  are	  
+proficient	  in	  one	  or	  more	  skills.	  For	  example,	  a	  
+monster	  that	  is	  very	  perceptive	  and	  stealthy	  might	  
+have	  bonuses	  to	  Wisdom	  (Perception)	  and	   Dexterity	  
+(Stealth)	  checks. 	  
+	   A	  skill	  bonus	  is	  the	  sum	  of	  a	  monster’s	  relevant	  
+ability	  modifier	  and	  its	  proficiency	  bonus,	  which	  is	  
+determined	  by	  the	  monster’s	  challenge	  rating	  (as	  
+shown	  in	  the	  Proficiency	  Bonus	  by	  Challenge	  Rating	  
+table).	  Other	  modifiers	   might	  apply.	  For	  instance,	  a	  

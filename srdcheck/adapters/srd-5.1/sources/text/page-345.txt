@@ -1,0 +1,85 @@
+System	  Reference	   Document	  5.1 	   345	  
+Sunlight	  Weakness. 	  While	  in	  sunlight,	  the	  shadow	  has	  
+disadvantage	  on	  attack	  rolls,	  ability	  checks,	  and	  saving	  
+throws.	  
+Actions	  
+Strength	  Drain.	   Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  
+5	  ft.,	  one	  creature.	   Hit:	  9	  (2d6	  +	  2)	  necrotic	  damage,	  
+and	  the	  target’s	  Strength	  score	  is	  reduced	  by	  1d4.	  The	  
+target	  dies	  if	  this	  reduces	  its	  Strength	  to	  0.	  Otherwise,	  
+the	  reduction	  lasts	  until	  the	  target	  finishes	  a	  short	  or	  
+long	  rest.	  
+	   If	  a	  non-­‐evil	  humanoid	  dies	  from	  this	  attack,	  a	  new	  
+shadow	  rises	  from	  the	  corp se	  1d4	  hours	  later. 	  
+Shambling	  Mound	  
+Large	  plant,	  unaligned 	  
+Armor	  Class	  15	  (natural	  armor) 	  
+Hit	  Points	  136	  (16d10	  +	  48) 	  
+Speed	  20	  ft.,	  swim	  20	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   8	  (−1)	   16	  (+3)	   5	  (−3)	   10	  (+0)	   5	  (−3)	  
+Skills	  Stealth	  +2	  
+Damage	  Resistances 	  cold,	  fire	  
+Damage	  Immunities 	  lightning	  
+Condition	  Immunities 	  blinded,	  deafened,	  exhaustion 	  
+Senses	  blindsight	  60	  ft.	  (blind	  beyond	  this	  radius),	  
+passive	  Perception	  10	  
+Languages	  —	  
+Challenge	  5	  (1,800	  XP)	  
+Lightning	  Absorption .	  Whenever	  the	  shambling	  mound	  
+is	  subjected	  to	  lightning	  damage,	  it	  takes	  no	  damage	  
+and	  regains	  a	  number	  of	  hit	  points	  equal	  to	  the	  
+lightning	  damage	  dealt. 	  
+Actions	  
+Multiattack.	  The	  shambling	  mound	  makes	  two	  slam	  
+attacks.	  If	  both	  attacks	  hit	  a	  Medium	  or	  smaller	  target,	  
+the	  target	  is	  grapple d	  (escape	  DC	  14),	  and	  the	  
+shambling	  mound	  uses	  its	  Engulf	  on	  it. 	  
+Slam.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  13	  (2d8	  +	  4)	  bludgeoning	  damage. 	  
+Engulf.	  The	  shambling	  mound	  engulfs	  a	  Medium	  or	  
+smaller	  creature	  grappled	  by	  it.	  The	  engul fed	  target	  is	  
+blinded,	  restrained,	  and	  unable	  to	  breathe,	  and	  it	  must	  
+succeed	  on	  a	  DC	  14	  Constitution	  saving	  throw	  at	  the	  
+start	  of	  each	  of	  the	  mound’s	  turns	  or	  take	  13	  (2d8	  +	  4)	  
+bludgeoning	  damage.	  If	  the	  mound	  moves,	  the	  
+engulfed	  target	  moves	  with	  it.	  The 	  mound	  can	  have	  
+only	  one	  creature	  engulfed	  at	  a	  time. 	  
+Shield	  Guardian	  
+Large	  construct,	  unaligned 	  
+Armor	  Class	  17	  (natural	  armor) 	  
+Hit	  Points	  142	  (15d10	  +	  60) 	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   8	  (−1)	   18	  (+4)	   7	  (−2)	   10	  (+0)	   3	  (−4)	  
+Senses	  blindsight	  10	  ft.,	  darkvision	  60	  ft.,	  passive	  
+Perception	  10	  
+Damage	  Immunities 	  poison	  
+Condition	  Immunities 	  charmed,	  exhaustion,	  frightened,	  
+paralyzed,	  poisoned 	  
+Languages	  understands	  commands	  given	  in	  any	  
+language	  but	  can’t	  speak 	  
+Challenge	  7	  (2,900	  XP)	  
+Bound.	  The	  shield	  guardian	  is	  magically	  bound	  to	  an	  
+amulet.	  As	  long	  as	  the	  guardian	  and	  its	  amulet	  are	  on	  
+the	  same	  plane	  of	  existence,	  the	  amulet’s	  wearer	  can	  
+telepathically	  call	  the	  guardian	  to	  travel	  to	  it,	  and	  the	  
+guardian	  knows	  the	  distance	  and	  direction	  to	  the	  
+amulet.	  If	  the	  guardian	  is	  within	  60	  feet	  of	  the	  amulet’s	  
+wearer,	  half	  of	  any	  damage	  the	  wearer	  takes	  (rounded	  
+up)	  is	  transferred	  to	  the	  guardian. 	  
+Regeneration.	  The	  shield	  guardian	  regains	  10	  hit	  points	  
+at	  the	  start	  of	  its	  turn	  if	  it	  has	  at	  least	  1	  hit	  poin t.	  
+Spell	  Storing.	  A	  spellcaster	  who	  wears	  the	  shield	  
+guardian’s	  amulet	  can	  cause	  the	  guardian	  to	  store	  one	  
+spell	  of	  4th	  level	  or	  lower.	  To	  do	  so,	  the	  wearer	  must	  
+cast	  the	  spell	  on	  the	  guardian.	  The	  spell	  has	  no	  effect	  
+but	  is	  stored	  within	  the	  guardian.	  Whe n	  commanded	  
+to	  do	  so	  by	  the	  wearer	  or	  when	  a	  situation	  arises	  that	  
+was	  predefined	  by	  the	  spellcaster,	  the	  guardian	  casts	  
+the	  stored	  spell	  with	  any	  parameters	  set	  by	  the	  original	  
+caster,	  requiring	  no	  components.	  When	  the	  spell	  is	  cast	  
+or	  a	  new	  spell	  is	  stor ed,	  any	  previously	  stored	  spell	  is	  
+lost.	  
+Actions	  
+Multiattack.	  The	  guardian	  makes	  two	  fist	  attacks. 	  

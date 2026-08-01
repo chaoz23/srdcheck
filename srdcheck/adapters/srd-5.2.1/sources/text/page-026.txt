@@ -1,0 +1,93 @@
+System Reference Document 5.2.1
+26
+in the Multiclass Spellcaster table, you have four 
+level 1 spell slots, three level 2 slots, and two level 3 
+slots. However, you can’t prepare any level 3 spells, 
+nor can you prepare any level 2 Ranger spells. You 
+can use the spell slots of those levels to cast the 
+spells you do prepare—and potentially enhance 
+their effects.
+ Pact Magic. If you have the Pact Magic feature 
+from the Warlock class and the Spellcasting feature, 
+you can use the spell slots you gain from Pact Magic 
+to cast spells you have prepared from classes with 
+the Spellcasting feature, and you can use the spell 
+slots you gain from the Spellcasting feature to cast 
+Warlock spells you have prepared.
+Multiclass Spellcaster:  
+Spell Slots per Spell Level
+Level 1 2 3 4 5 6 7 8 9
+1 2 — — — — — — — —
+2 3 — — — — — — — —
+3 4 2 — — — — — — —
+4 4 3 — — — — — — —
+5 4 3 2 — — — — — —
+6 4 3 3 — — — — — —
+7 4 3 3 1 — — — — —
+8 4 3 3 2 — — — — —
+9 4 3 3 3 1 — — — —
+10 4 3 3 3 2 — — — —
+11 4 3 3 3 2 1 — — —
+12 4 3 3 3 2 1 — — —
+13 4 3 3 3 2 1 1 — —
+14 4 3 3 3 2 1 1 — —
+15 4 3 3 3 2 1 1 1 —
+16 4 3 3 3 2 1 1 1 —
+17 4 3 3 3 2 1 1 1 1
+18 4 3 3 3 3 1 1 1 1
+19 4 3 3 3 3 2 1 1 1
+20 4 3 3 3 3 2 2 1 1
+Trinkets
+When you make your character, you can roll once 
+on the Trinkets table to gain a Tiny trinket, a simple 
+item lightly touched by mystery. The GM might also 
+use this table. It can help stock a room in a dungeon 
+or fill a creature’s pockets.
+Trinkets
+1d100 Trinket
+01 A mummified goblin hand
+02 A crystal that faintly glows in moonlight
+03 A gold coin minted in an unknown land
+04 A diary written in a language you don’t know
+05 A brass ring that never tarnishes
+06 An old chess piece made from glass
+07 A pair of knucklebone dice, each with a skull 
+symbol on the side that would normally show 
+six pips
+08 A small idol depicting a nightmarish creature 
+that gives you unsettling dreams when you 
+sleep near it
+09 A lock of someone’s hair
+10 The deed for a parcel of land in a realm un -
+known to you
+11 A 1-ounce block made from an unknown 
+material
+12 A small cloth doll skewered with needles
+13 A tooth from an unknown beast
+14 An enormous scale, perhaps from a dragon
+15 A bright-green feather
+16 An old divination card bearing your likeness
+17 A glass orb filled with moving smoke
+18 A 1-pound egg with a bright-red shell
+19 A pipe that blows bubbles
+20 A glass jar containing a bit of flesh floating in 
+pickling fluid
+21 A gnome-crafted music box that plays a song 
+you dimly remember from your childhood
+22 A wooden statuette of a smug halfling
+23 A brass orb etched with strange runes
+24 A multicolored stone disk
+25 A silver icon of a raven
+26 A bag containing forty-seven teeth, one of 
+which is rotten
+27 A shard of obsidian that always feels warm to 
+the touch
+28 A dragon’s talon strung on a leather necklace
+29 A pair of old socks
+30 A blank book whose pages refuse to hold ink, 
+chalk, graphite, or any other marking
+31 A silver badge that is a five-pointed star
+32 A knife that belonged to a relative
+33 A glass vial filled with nail clippings
+34 A rectangular metal device with two tiny metal 
+cups on one end that throws sparks when wet

@@ -1,0 +1,87 @@
+System	  Reference	   Document	  5.1 	   349	  
+Actions	  
+Longsword.	  Melee	  Weapon	  Attack: 	  +2	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  1	  slashing	  damage. 	  
+Shortbow.	  Ranged	  Weapon	  Attack: 	  +6	  to	  hit,	  range	  
+40/160	  ft.,	  one	  target.	   Hit:	  1	  piercing	  damage,	  and	  the	  
+target	  must	  succeed	  on	  a	  DC	  10	  Constitution	  savi ng	  
+throw	  or	  become	  poisoned	  for	  1	  minute.	  If	  its	  saving	  
+throw	  result	  is	  5	  or	  lower,	  the	  poisoned	  target	  falls	  
+unconscious	  for	  the	  same	  duration,	  or	  until	  it	  takes	  
+damage	  or	  another	  creature	  takes	  an	  action	  to	  shake	  it	  
+awake.	  
+Heart	  Sight.	  The	  sprite	  touches 	  a	  creature	  and	  
+magically	  knows	  the	  creature’s	  current	  emotional	  state.	  
+If	  the	  target	  fails	  a	  DC	  10	  Charisma	  saving	  throw,	  the	  
+sprite	  also	  knows	  the	  creature’s	  alignment.	  Celestials,	  
+fiends,	  and	  undead	  automatically	  fail	  the	  saving	  throw. 	  
+Invisibility.	  The	  sprite	  magically	  turns	  invisible	  until	  it	  
+attacks	  or	  casts	  a	  spell,	  or	  until	  its	  concentration	  ends	  
+(as	  if	  concentrating	  on	  a	  spell).	  Any	  equipment	  the	  
+sprite	  wears	  or	  carries	  is	  invisible	  with	  it. 	  
+Stirge	  
+Tiny	  beast,	  unaligned 	  
+Armor	  Class	  14	  (natural	  arm or)	  
+Hit	  Points	  2	  (1d4)	  
+Speed	  10	  ft.,	  fly	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+4	  (−3)	   16	  (+3)	   11	  (+0)	   2	  (−4)	   8	  (−1)	   6	  (−2)	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  9 	  
+Languages	  —	  
+Challenge	  1/8	  (25	  XP)	  
+Actions	  
+Blood	  Drain.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  
+ft.,	  one	  creature.	   Hit:	  5	  (1d4	  +	  3)	  piercing	  damage,	  and	  
+the	  stirge	  attaches	  to	  the	  target.	  While	  attached,	  the	  
+stirge	  doesn’t	  attack.	  Instead,	  at	  the	  start	  of	  each	  of	  
+the	  stirge’s	  turns,	  the	  target	  loses	  5	  (1d4	  +	  3)	  hit	  points	  
+due	  to	  blood	  loss.	  
+The	  stirge	  can	  detach	  itself	  by	  spending	  5	  feet	  of	  its	  
+movement.	  It	  does	  so	  after	  it	  drains	  10	  hit	  points	  of	  
+blood	  from	  the	  target	  or	  the	  target	  dies.	  A	  creature,	  
+including	  the	  target,	  can	  use	  its	  action	  to	  detach	  the	  
+stirge.	  
+Succubus/Incubus	  
+Medium	  fiend	  (shapechanger),	  neutral	  evil 	  
+Armor	  Class	  15	  (natural	  armor) 	  
+Hit	  Points	  66	  (12d8	  +	  12)	  
+Speed	  30	  ft.,	  fly	  60	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+8	  (−1)	   17	  (+3)	   13	  (+1)	   15	  (+2)	   12	  (+1)	   20	  (+5)	  
+Skills	  Deception	  +9,	  Insight	  +5,	  Perception	  +5,	  
+Persuasion	  +9,	  Stealth	  +7	  
+Damage	  Resistances 	  cold,	  fire,	  lightning,	  poison;	  
+bludgeoning,	  piercing,	  and	  slashing	  from	  nonmagical	  
+attacks	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  15 	  
+Languages	  Abyssal,	  Common,	  Infernal,	  telepathy	  60	  ft. 	  
+Challenge	  4	  (1,100	  XP)	  
+Telepathic	  Bond.	  The	  fiend	  ignores	  the	  range	  
+restriction	  on	  its	  telepathy	  when	  communicating	  with	  a	  
+creature	  it	  has	  charmed.	  The	  two	  don’t	  even	  need	  to	  
+be	  on	  the	  same	  plane	  of	  existence. 	  
+Shapechanger. 	  The	  fiend	  can	  use	  its	  action	  to	  
+polymorph	  into	  a	  Small	  or	  M edium	  humanoid,	  or	  back	  
+into	  its	  true	  form.	  Without	  wings,	  the	  fiend	  loses	  its	  
+flying	  speed.	  Other	  than	  its	  size	  and	  speed,	  its	  statistics	  
+are	  the	  same	  in	  each	  form.	  Any	  equipment	  it	  is	  wearing	  
+or	  carrying	  isn’t	  transformed.	  It	  reverts	  to	  its	  true	  form	  
+if	  it	  dies.	  
+Actions	  
+Claw	  (Fiend	  Form	  Only).	   Melee	  Weapon	  Attack: 	  +5	  to	  
+hit,	  reach	  5	  ft.,	  one	  target.	   Hit:	  6	  (1d6	  +	  3)	  slashing	  
+damage.	  
+Charm.	  One	  humanoid	  the	  fiend	  can	  see	  within	  30	  feet	  
+of	  it	  must	  succeed	  on	  a	  DC	  15	  Wisdom	  saving	  throw	  or	  
+be	  magically	  charm ed	  for	  1	  day.	  The	  charmed	  target	  
+obeys	  the	  fiend’s	  verbal	  or	  telepathic	  commands.	  If	  the	  
+target	  suffers	  any	  harm	  or	  receives	  a	  suicidal	  command,	  
+it	  can	  repeat	  the	  saving	  throw,	  ending	  the	  effect	  on	  a	  
+success.	  If	  the	  target	  successfully	  saves	  against	  the	  
+effect,	  or	  if	  the	  effect	  on	  it	  ends,	  the	  target	  is	  immune	  
+to	  this	  fiend’s	  Charm	  for	  the	  next	  24	  hours. 	  
+	   The	  fiend	  can	  have	  only	  one	  target	  charmed	  at	  a	  
+time.	  If	  it	  charms	  another,	  the	  effect	  on	  the	  previous	  
+target	  ends.	  
+Draining	  Kiss.	  The	  fiend	  kisses	  a	  crea ture	  charmed	  by	  it	  
+or	  a	  willing	  creature.	  The	  target	  must	  make	  a	  DC	  15	  

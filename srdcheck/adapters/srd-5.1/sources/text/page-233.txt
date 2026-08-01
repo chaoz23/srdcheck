@@ -1,0 +1,94 @@
+System	  Reference	   Document	  5.1 	   233	  
+swarms	  move	  toward	  the	  music	  by	  the	  shortest	  
+available	  route	  but	  aren’t	  under	  your	  control	  
+otherwise.	  The	  pipes	  regain	  1d3	  expended	  charges	  
+daily	  at	  dawn.	  
+	   Whenever	  a	  swarm	  of	  rats	  that	  isn’t	  under	  another	  
+creature’s	  control	  comes	  within	  30	  feet	  of	  you	  while	  
+you	  are	  playing	  the	  pipes,	  you	  can	  make	  a	  Charisma	  
+check	  contested	  by	  the	  swarm’s	  Wisdom	  check.	  If	  
+you	  lose	  the	  contest,	  the	  swarm	  behaves	  as	  it	  
+normally	  would	  and	  can’t	  be	  swayed	  by	  the	  pipes’	  
+music	  for	  the	  next	  24	  hours.	  If	  you	  win	  the	  contest,	  
+the	  swarm	  is	  swayed	  by	  the	  pipes’	  music	  and	  
+becomes	  friendly	  to	  you	  and	  your	  companions	  for	  as	  
+long	  as	  you	  continue	  to	  play	  the	  pipes	  each	  round	  as	  
+an	  action.	  A	  friendly	  swarm	  obeys	  your	  commands.	  If	  
+you	  issue	  no	  commands	  to	  a	  friendly	  swarm,	  it	  
+defends	  itself	  but	  otherwise	  takes	  no	  actions.	  If	  a	  
+friendly	  swarm	  starts	  its	  turn	  and	  can’t	  hear	  the	  
+pipes’	  music,	  your	  control	  over	  that	  swarm	  ends,	  and	  
+the	  swarm	  behaves	  as	  it	  normally	  would	  and	  can’t	  be	  
+swayed	  by	  the	  pipes’	  music	  for	  the	  next	  24	  hours. 	  
+Plate Armor of Etherealness 
+Armor	  (plate),	  legendary	  (requires	  attunement) 	  
+While	  you’re	  wearing	  this	  armor,	  you	  can	  speak	  its	  
+command	  word	  as	  an	  action	  to	  gain	  the 	  effect	  of	  the	  
+etherealness	  spell,	  which	  last	  for	  10	  minutes	  or	  until	  
+you	  remove	  the	  armor	  or	  use	  an	  action	  to	  speak	  the	  
+command	  word	  again.	  This	  property	  of	  the	  armor	  
+can’t	  be	  used	  again	  until	  the	  next	  dawn. 	  
+Portable Hole 
+Wondrous	  item,	  rare 	  
+This	  fine	  black	  cloth,	  soft	  as	  silk,	  is	  folded	  up	  to	  the	  
+dimensions	  of	  a	  handkerchief.	  It	  unfolds	  into	  a	  
+circular	  sheet	  6	  feet	  in	  diameter. 	  
+	   You	  can	  use	  an	  action	  to	  unfold	  a	   portable	  hole	  and	  
+place	  it	  on	  or	  against	  a	  solid	  surface,	  whereupon	  the	  
+portable	  hole	  creates	  an	  extradimensional	  hole	  10	  
+feet	  deep.	  The	  cylindrical	  space	  within	  the	  hole	  
+exists	  on	  a	  different	  plane,	  so	  it	  can’t	  be	  used	  to	  
+create	  open	  passages.	  Any	  creature	  inside	  an	  open	  
+portable	  hole	  can	  exit	  the	  hole	  by	  climbing	  out	  of	  it. 	  
+	   You	  can	  use	  an	  act ion	  to	  close	  a	  portable	  hole	  by	  
+taking	  hold	  of	  the	  edges	  of	  the	  cloth	  and	  folding	  it	  up.	  
+Folding	  the	  cloth	  closes	  the	  hole,	  and	  any	  creatures	  
+or	  objects	  within	  remain	  in	  the	  extradimensional	  
+space.	  No	  matter	  what’s	  in	  it,	  the	  hole	  weighs	  next	  to	  
+nothing.	  
+	   If	  the	  hole	  is	  folded	  up,	  a	  creature	  within	  the	  hole’s	  
+extradimensional	  space	  can	  use	  an	  action	  to	  make	  a	  
+DC	  10	  Strength	  check.	  On	  a	  successful	  check,	  the	  
+creature	  forces	  its	  way	  out	  and	  appears	  within	  5	  feet	  
+of	  the	  portable	  hole	  or	  the	  creature	  carrying	  i t.	  A	  
+breathing	  creature	  within	  a	  closed	   portable	  hole	  can	  
+survive	  for	  up	  to	  10	  minutes,	  after	  which	  time	  it	  
+begins	  to	  suffocate. 	  
+	   Placing	  a	  portable	  hole	  inside	  an	  extradimensional	  
+space	  created	  by	  a	   bag	  of	  holding,	  handy	  haversack ,	  
+or	  similar	  item	  instant ly	  destroys	  both	  items	  and	  
+opens	  a	  gate	  to	  the	  Astral	  Plane.	  The	  gate	  originates	  
+where	  the	  one	  item	  was	  placed	  inside	  the	  other.	  Any	  
+creature	  within	  10	  feet	  of	  the	  gate	  is	  sucked	  through	  
+it	  and	  deposited	  in	  a	  random	  location	  on	  the	  Astral	  
+Plane.	  The	  gate	  t hen	  closes.	  The	  gate	  is	  one -­‐‑way	  only	  
+and	  can’t	  be	  reopened. 	  
+Potion of Animal Friendship 
+Potion,	  uncommon 	  
+When	  you	  drink	  this	  potion,	  you	  can	  cast	  the	   animal	  
+friendship	  spell	  (save	  DC	  13)	  for	  1	  hour	  at	  will.	  
+Agitating	  this	  muddy	  liquid	  brings	  little	  bits	  in to	  
+view:	  a	  fish	  scale,	  a	  hummingbird	  tongue,	  a	  cat	  claw,	  
+or	  a	  squirrel	  hair. 	  
+Potion of Clairvoyance 
+Potion,	  rare	  
+When	  you	  drink	  this	  potion,	  you	  gain	  the	  effect	  of	  the	  
+clairvoyance	  spell.	  An	  eyeball	  bobs	  in	  this	  yellowish	  
+liquid	  but	  vanishes	  when	  the	  potio n	  is	  opened.	  
+Potion of Climbing 
+Potion,	  common 	  
+When	  you	  drink	  this	  potion,	  you	  gain	  a	  climbing	  
+speed	  equal	  to	  your	  walking	  speed	  for	  1	  hour.	  
+During	  this	  time,	  you	  have	  advantage	  on	  Strength	  
+(Athletics)	  checks	  you	  make	  to	  climb.	  The	  potion	  is	  
+separated	  into 	  brown,	  silver,	  and	  gray	  layers	  
+resembling	  bands	  of	  stone.	  Shaking	  the	  bottle	  fails	  to	  
+mix	  the	  colors. 	  
+Potion of Diminution 
+Potion,	  rare	  
+When	  you	  drink	  this	  potion,	  you	  gain	  the	  “reduce”	  
+effect	  of	  the	  enlarge/reduce 	  spell	  for	  1d4	  hours	  (no	  
+concentration	  re quired).	  The	  red	  in	  the	  potion’s	  
+liquid	  continuously	  contracts	  to	  a	  tiny	  bead	  and	  then	  
+expands	  to	  color	  the	  clear	  liquid	  around	  it.	  Shaking	  
+the	  bottle	  fails	  to	  interrupt	  this	  process. 	  

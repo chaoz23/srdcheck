@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   226	  
+on	  saving	  throws	  against	  spells	  and	  other	  magical	  
+effects.	  If	  you	  have	  17	  or	  more	  levels	  in	  the	  paladin	  
+class,	  the	  radius	  of	  the	  aura	  increases	  to	  30	  feet. 	  
+Horn of Blasting 
+Wondrous	  item,	  rare 	  
+You	  can	  use	  an	  action	  to	  speak	  the	  horn’s	  command	  
+word	  and	  then	  blow	  the	  horn,	  which	  emits	  a	  
+thunderous	  blast	  in	  a	  30 -­‐‑foot	  cone	  that	  is	  audible	  
+600	  feet	  away.	  Each	  creatu re	  in	  the	  cone	  must	  make	  
+a	  DC	  15	  Constitution	  saving	  throw.	  On	  a	  failed	  save,	  a	  
+creature	  takes	  5d6	  thunder	  damage	  and	  is	  deafened	  
+for	  1	  minute.	  On	  a	  successful	  save,	  a	  creature	  takes	  
+half	  as	  much	  damage	  and	  isn’t	  deafened.	  Creatures	  
+and	  objects	  made	  of	  glass	  or	  crystal	  have	  
+disadvantage	  on	  the	  saving	  throw	  and	  take	  10d6	  
+thunder	  damage	  instead	  of	  5d6. 	  
+	   Each	  use	  of	  the	  horn’s	  magic	  has	  a	  20	  percent	  
+chance	  of	  causing	  the	  horn	  to	  explode.	  The	  explosion	  
+deals	  10d6	  fire	  damage	  to	  the	  blower	  and	  destroys	  
+the	  horn.	  
+Horn of Valhalla 
+Wondrous	  item,	  rare	  (silver	  or	  brass),	  very	  rare	  
+(bronze),	  or	  legendary	  (iron) 	  
+You	  can	  use	  an	  action	  to	  blow	  this	  horn.	  In	  response,	  
+warrior	  spirits	  from	  the	  Valhalla	  appear	  within	  60	  
+feet	  of	  you.	  They	  use	  the	  statistics	  of	  a	  berserker .	  
+They	  return	  to	  Valhalla	  after	  1	  hour	  or	  when	  they	  
+drop	  to	  0	  hit	  points.	  Once	  you	  use	  the	  horn,	  it	  can’t	  
+be	  used	  again	  until	  7	  days	  have	  passed. 	  
+	   Four	  types	  of	  horn	  of	  Valhalla 	  are	  known	  to	  exist,	  
+each	  made	  of	  a	  different	  metal.	  The	  horn’s	  type	  
+determines	  how	  many	  berserkers	  answer	  its	  
+summons,	  as	  well	  as	  the	  requirement	  for	  its	  use.	  The	  
+GM	  chooses	  the	  horn’s	  type	  or	  determines	  it	  
+randomly.	  
+d100	   Horn	  
+Type	  
+Berserkers	  
+Summoned	  
+Requirement	  
+01–40	   Silver	   2d4	  +	  2	   None	  
+41–75	   Brass	   3d4	  +	  3	   Proficiency	  with	  all	  
+simple	  weapons	  
+76–90	   Bronze	   4d4	  +	  4	   Proficiency	  with	  all	  
+medium	  armor	  
+91–00	   Iron	   5d4	  +	  5	   Proficiency	  with	  all	  
+martial	  weapons	  
+	   If	  you	  blow	  the	  horn	  without	  meeting	  its	  
+requirement,	  the	  summoned	  berserkers	  attack	  you.	  
+If	  you	  meet	  the	  requirement,	  they	   are	  friendly	  to	  you	  
+and	  your	  companions	  and	  follow	  your	  commands. 	  
+Horseshoes of a Zephyr 
+Wondrous	  item,	  very	  rare 	  
+These	  iron	  horseshoes	  come	  in	  a	  set	  of	  four.	  While	  
+all	  four	  shoes	  are	  affixed	  to	  the	  hooves	  of	  a	  horse	  or	  
+similar	  creature,	  they	  allow	  the	  cre ature	  to	  move	  
+normally	  while	  floating	  4	  inches	  above	  the	  ground.	  
+This	  effect	  means	  the	  creature	  can	  cross	  or	  stand	  
+above	  nonsolid	  or	  unstable	  surfaces,	  such	  as	  water	  
+or	  lava.	  The	  creature	  leaves	  no	  tracks	  and	  ignores	  
+difficult	  terrain.	  In	  addition,	  the	  cre ature	  can	  move	  
+at	  normal	  speed	  for	  up	  to	  12	  hours	  a	  day	  without	  
+suffering	  exhaustion	  from	  a	  forced	  march. 	  
+Horseshoes of Speed 
+Wondrous	  item,	  rare 	  
+These	  iron	  horseshoes	  come	  in	  a	  set	  of	  four.	  While	  
+all	  four	  shoes	  are	  affixed	  to	  the	  hooves	  of	  a	  horse	  or	  
+similar	  creature,	  they	  increase	  the	  creature’s	  
+walking	  speed	  by	  30	  feet. 	  
+Immovable Rod 
+Rod,	  uncommon 	  
+This	  flat	  iron	  rod	  has	  a	  button	  on	  one	  end.	  You	  can	  
+use	  an	  action	  to	  press	  the	  button,	  which	  causes	  the	  
+rod	  to	  become	  magically	  fixed	  in	  place.	  Until	  you	  or	  
+another	  creature	  uses	  an	  action	  to	  push	  the	  button	  
+again,	  the	  rod	  doesn’t	  move,	  even	  if	  it	  is	  defying	  
+gravity.	  The	  rod	  can	  hold	  up	  to	  8,000	  pounds	  of	  
+weight.	  More	  weight	  causes	  the	  rod	  to	  deactivate	  
+and	  fall.	  A	  creature	  can	  use	  an	  action	  to	  make	  a	  DC	  
+30	  Strength	  check,	  moving	  the	  fixed	  rod	  up	  to	  10	  feet	  
+on	  a	  success.	  
+Instant Fortress 
+Wondrous	  item,	  rare 	  
+You	  can	  use	  an	  action	  to	  place	  this	  1 -­‐‑inch	  metal	  cube	  
+on	  the	  ground	  and	  speak	  its	  command	  word.	  The	  
+cube	  rapidly	  grows	  into	  a	  fortress	  that	  remains	  until	  
+you	  use	  an	  action	  to	  speak	  the	  command	  word	  that	  
+dismisses	  it,	  which	  works	  only	  if	  the	  fortress	  is	  
+empty.	  
+	   The	  fortress	  is	  a	  square	  tower,	  20	  feet	  on	  a	  side	  
+and	  30	  feet	  high,	  with	  arrow	  slits	  on	  all	  sides	  and	  a	  
+battlement	  atop	  it.	  Its	  interior	  is	  divided	  into	   two	  
+floors,	  with	  a	  ladder	  running	  along	  one	  wall	  to	  
+connect	  them.	  The	  ladder	  ends	  at	  a	  trapdoor	  leading	  
+to	  the	  roof.	  When	  activated,	  the	  tower	  has	  a	  small	  
+door	  on	  the	  side	  facing	  you.	  The	  door	  opens	  only	  at	  
+your	  command,	  which	  you	  can	  speak	  as	  a	  bonus	  
+action.	  It	  is	  immune	  to	  the	   knock	  spell	  and	  similar	  
+magic,	  such	  as	  that	  of	  a 	  chime	  of	  opening .	  

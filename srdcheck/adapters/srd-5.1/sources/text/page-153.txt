@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   153	  
+difficult	  or	  impassable	  terrain.	  A	  pond	  can	  be	  made	  
+to	  seem	  like	  a	  grassy	  meadow,	  a	  precipice	  like	  a	  
+gentle	  slope,	  or	  a	  rock -­‐‑strewn	  gully	  like	  a	  wide	  and	  
+smooth	  road.	  Manufactured	  structures,	  e quipment,	  
+and	  creatures	  within	  the	  area	  aren’t	  changed	  in	  
+appearance.	  
+	   The	  tactile	  characteristics	  of	  the	  terrain	  are	  
+unchanged,	  so	  creatures	  entering	  the	  area	  are	  likely	  
+to	  see	  through	  the	  illusion.	  If	  the	  difference	  isn’t	  
+obvious	  by	  touch,	  a	  creature	  car efully	  examining	  the	  
+illusion	  can	  attempt	  an	  Intelligence	  (Investigation)	  
+check	  against	  your	  spell	  save	  DC	  to	  disbelieve	  it.	  A	  
+creature	  who	  discerns	  the	  illusion	  for	  what	  it	  is,	  sees	  
+it	  as	  a	  vague	  image	  superimposed	  on	  the	  terrain. 	  
+Harm 
+6th-­‐‑level	  necromanc y	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  unleash	  a	  virulent	  disease	  on	  a	  creature	  that	  you	  
+can	  see	  within	  range.	  The	  target	  must	  make	  a	  
+Constitution	  saving	  throw.	  On	  a	  failed	  save,	  it	  takes	  
+14d6	  necrotic	  damage,	   or	  half	  as	  much	  damage	  on	  a	  
+successful	  save.	  The	  damage	  can’t	  reduce	  the	  target’s	  
+hit	  points	  below	  1.	  If	  the	  target	  fails	  the	  saving	  throw,	  
+its	  hit	  point	  maximum	  is	  reduced	  for	  1	  hour	  by	  an	  
+amount	  equal	  to	  the	  necrotic	  damage	  it	  took.	  Any	  
+effect	  that	  removes	  a	  disease	  allows	  a	  creature’s	  hit	  
+point	  maximum	  to	  return	  to	  normal	  before	  that	  time	  
+passes.	  
+Haste 
+3rd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (a	  shaving	  of	  licorice	  root) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Choose	  a	  willing	  creature	  that	  you	  can	  see	  within	  
+range.	  Until	  the	  spell	  ends,	  the	  target’s	  speed	  is	  
+doubled,	  it	  gains	  a	  +2	  bonus	  to	  AC,	  it	  has	  advantage	  
+on	  Dexterity	  saving	  throws,	  and	  it	  gains	  an	  
+additional	  action	  on	  each	  of	  its	  turns.	  That	  action	  can	  
+be	  used	  only	  to	  take	  the	  Attack	  (one	  weapon	  attack	  
+only),	  Dash,	  Disengage,	  Hide,	  or	  Use	  an	  Object	  action. 	  
+	   When	  the	  spell	  ends,	  the	  target	  can’t	  move	  or	  take	  
+actions	  until	  after	  its	  next	  turn,	  as	  a	  wave	  of	  lethargy	  
+sweeps	  over	  it. 	  
+Heal 
+6th-­‐‑level	  evocation	  
+Casting	  Time:	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+Choose	  a	  creature	  that	  you	  can	  see	  within	  range.	  A	  
+surge	  of	  positive	  energy	  washes	  through	  the	  
+creature,	  causing	  it	  to	  regain	  70	  hit	  points.	  This	  spell	  
+also	  ends	  blindness,	   deafness,	  and	  any	  diseases	  
+affecting	  the	  target.	  This	  spell	  has	  no	  effect	  on	  
+constructs	  or	  undead. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  7th	  level	  or	  higher,	  the	  amount	  of	  
+healing	  increases	  by	  10	  for	  each	  slot	  level	  above	  6th. 	  
+Healing Word 
+1st-­‐‑level	  evocation	  
+Casting	  Time:	   1	  bonus	  action 	  
+Range:	  60	  feet	  
+Components:	  V	  
+Duration:	  Instantaneous	  
+A	  creature	  of	  your	  choice	  that	  you	  can	  see	  within	  
+range	  regains	  hit	  points	  equal	  to	  1d4	  +	  your	  
+spellcasting	  ability	  modifier.	  This	  spell	  has	  n o	  effect	  
+on	  undead	  or	  constructs. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  the	  healing	  increases	  
+by	  1d4	  for	  each	  slot	  level	  above	  1st. 	  
+Heat Metal 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  piece	  of	  iron	  and	  a	  flame) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Choose	  a	  manufactured	  metal	  object,	  such	  as	  a	  metal	  
+weapon	  or	  a	  suit	  of	  heavy	  or	  medium	  metal	  armor,	  
+that	  you	  can	  see	  within	  range.	  You	  cause	  the	  object	  
+to	  glow	  red-­‐‑hot.	  Any	  creature	  in	  physical	  contact	  
+with	  the	  object	  takes	  2d8	  fire	  damage	  when	  you	  cast	  
+the	  spell.	  Until	  the	  spell	  ends,	  you	  can	  use	  a	  bonus	  
+action	  on	  each	  of	  your	  subsequent	  turns	  to	  cause	  
+this	  damage	  again. 	  
+	   If	  a	  creature	  is	  holding	  or	  wearing	  the	  object	   and	  
+takes	  the	  damage	  from	  it,	  the	  creature	  must	  succeed	  
+on	  a	  Constitution	  saving	  throw	  or	  drop	  the	  object	  if	  
+it	  can.	  If	  it	  doesn’t	  drop	  the	  object,	  it	  has	  
+disadvantage	  on	  attack	  rolls	  and	  ability	  checks	  until	  
+the	  start	  of	  your	  next	  turn. 	  

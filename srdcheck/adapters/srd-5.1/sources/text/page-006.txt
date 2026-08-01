@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   6	  
+one.	  The	  damage	  increases	  to	  3d6	  at	  6th	  level,	  4d6	  at	  
+11th	  level,	  and	  5d6	  at	  16th	  level. 	  
+	   After	  you	  use	  your	  breath	  weapon,	  you	  can’t	  use	  it	  
+again	  until	  you	  complete	  a	  short	  or	  long	  rest. 	  
+	   Damage	  Resistance.	   You	  have	  resistance	  to	  the	  
+damage	  type	  asso ciated	  with	  your	  draconic	  ancestry. 	  
+	   Languages.	  You	  can	  speak,	  read,	  and	  write	  
+Common	  and	  Draconic.	  Draconic	  is	  thought	  to	  be	  one	  
+of	  the	  oldest	  languages	  and	  is	  often	  used	  in	  the	  study	  
+of	  magic.	  The	  language	  sounds	  harsh	  to	  most	  other	  
+creatures	  and	  include s	  numerous	  hard	  consonants	  
+and	  sibilants.	  
+Gnome 
+Gnome Traits 
+Your	  gnome	  character	  has	  certain	  characteristics	  in	  
+common	  with	  all	  other	  gnomes. 	  
+	   Ability	  Score	  Increase. 	  Your	  Intelligence	  score	  
+increases	  by	  2. 	  
+	   Age.	  Gnomes	  mature	  at	  the	  same	  rate	  humans	  do,	  
+and	  most	  are	  expected	  to	  settle	  down	  into	  an	  adult	  
+life	  by	  around	  age	  40.	  They	  can	  live	  350	  to	  almost	  
+500	  years.	  
+	   Alignment.	  Gnomes	  are	  most	  often	  good.	  Those	  
+who	  tend	  toward	  law	  are	  sages,	  engineers,	  
+researchers,	  scholars,	  investigators,	  or	  inventors.	  
+Those	  who	  tend	  toward	  chaos	  are	  minstrels,	  
+tricksters,	  wanderers,	  or	  fanciful	  jewelers.	  Gnomes	  
+are	  good-­‐‑hearted,	  and	  even	  the	  tricksters	  among	  
+them	  are	  more	  playful	  than	  vicious.	  
+	   Size.	  Gnomes	  are	  between	  3	  and	  4	  feet	  tall	  and	  
+average	  about	  40	  pounds.	  Your	  size	  is	  Small. 	  
+Speed.	  Your	  base	  walking	  speed	  is	  25	  feet. 	  
+	   Darkvision.	  Accustomed	  to	  life	  underground,	  you	  
+have	  superior	  vision	  in	  dark	  and	  dim	  conditions.	  You	  
+can	  see	  in	  dim	  light	  within	  60	  feet	  of	  you	  as	  if	  it	  we re	  
+bright	  light,	  and	  in	  darkness	  as	  if	  it	  were	  dim	  light.	  
+You	  can’t	  discern	  color	  in	  darkness,	  only	  shades	  of	  
+gray.	  
+Gnome	  Cunning. 	  You	  have	  advantage	  on	  all	  
+Intelligence,	  Wisdom,	  and	  Charisma	  saving	  throws	  
+against	  magic.	  
+	   Languages.	  You	  can	  speak,	  read,	  a nd	  write	  
+Common	  and	  Gnomish.	  The	  Gnomish	  language,	  
+which	  uses	  the	  Dwarvish	  script,	  is	  renowned	  for	  its	  
+technical	  treatises	  and	  its	  catalogs	  of	  knowledge	  
+about	  the	  natural	  world. 	  
+Rock Gnome 
+As	  a	  rock	  gnome,	  you	  have	  a	  natural	  inventiveness	  
+and	  hardiness	  beyond	  that	  of	  other	  gnomes. 	  
+	   Ability	  Score	  Increase. 	  Your	  Constitution	  score	  
+increases	  by	  1. 	  
+	   Artificer’s	  Lore. 	  Whenever	  you	  make	  an	  
+Intelligence	  (History)	  check	  related	  to	  magic	  items,	  
+alchemical	  objects,	  or	  technological	  devices,	  you	  can	  
+add	  twice	  your	  pro ficiency	  bonus,	  instead	  of	  any	  
+proficiency	  bonus	  you	  normally	  apply. 	  
+	   Tinker.	  You	  have	  proficiency	  with	  artisan’s	  tools	  
+(tinker’s	  tools).	  Using	  those	  tools,	  you	  can	  spend	  1	  
+hour	  and	  10	  gp	  worth	  of	  materials	  to	  construct	  a	  
+Tiny	  clockwork	  device	  (AC	  5,	  1	  hp) .	  The	  device	  
+ceases	  to	  function	  after	  24	  hours	  (unless	  you	  spend	  
+1	  hour	  repairing	  it	  to	  keep	  the	  device	  functioning),	  
+or	  when	  you	  use	  your	  action	  to	  dismantle	  it;	  at	  that	  
+time,	  you	  can	  reclaim	  the	  materials	  used	  to	  create	  it.	  
+You	  can	  have	  up	  to	  three	  such	   devices	  active	  at	  a	  
+time.	  
+	   When	  you	  create	  a	  device,	  choose	  one	  of	  the	  
+following	  options: 	  
+Clockwork	  Toy.	   This	  toy	  is	  a	  clockwork	  animal,	  
+monster,	  or	  person,	  such	  as	  a	  frog,	  mouse,	  bird,	  
+dragon,	  or	  soldier.	  When	  placed	  on	  the	  ground,	  the	  
+toy	  moves	  5	  feet	  ac ross	  the	  ground	  on	  each	  of	  your	  
+turns	  in	  a	  random	  direction.	  It	  makes	  noises	  as	  
+appropriate	  to	  the	  creature	  it	  represents. 	  
+Fire	  Starter.	  The	  device	  produces	  a	  miniature	  flame,	  
+which	  you	  can	  use	  to	  light	  a	  candle,	  torch,	  or	  
+campfire.	  Using	  the	  device	  requir es	  your	  action. 	  
+Music	  Box.	  When	  opened,	  this	  music	  box	  plays	  a	  
+single	  song	  at	  a	  moderate	   volume.	  The	  box	  stops	  
+playing	  when	  it	  reaches	  the	  s ong’s	  end	  or	  when	  it	  
+is	  closed.	  
+Half-Elf 
+Half-Elf Traits 
+Your	  half-­‐‑elf	  character	  has	  some	  qualities	  in	  
+common	  with	  elves	  and	  some	  that	  are	  unique	  to	  
+half-­‐‑elves.	  
+	   Ability	  Score	  Increase. 	  Your	  Charisma	  score	  
+increases	  by	  2,	  and	  two	  other	  ability	  scores	  of	  your	  
+choice	  increase	  by	  1. 	  
+	   Age.	  Half-­‐‑elves	  mature	  at	  the	  same	  rate	  humans	  
+do	  and	  reach	  adulthood	  around	  the	  age	  of	  2 0.	  They	  
+live	  much	  longer	  than	  humans,	  however,	  often	  
+exceeding	  180	  years. 	  
+	   Alignment.	  Half-­‐‑elves	  share	  the	  chaotic	  bent	  of	  
+their	  elven	  heritage.	  They	  value	  both	  personal	  
+freedom	  and	  creative	  expression,	  demonstrating	  
+neither	  love	  of	  leaders	  nor	  desire	  for	   followers.	  They	  
+chafe	  at	  rules,	  resent	  others’	  demands,	  and	  

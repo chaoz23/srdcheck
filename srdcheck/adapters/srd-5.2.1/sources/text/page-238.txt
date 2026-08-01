@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+238
+Plane Spells (Charges)
+Air Chain Lightning (3 charges), Feather Fall  (0 
+charges), Gust of Wind (2 charges), Wind 
+Wall (1 charge) 
+Earth Earthquake (5 charges), Stone Shape (2 
+charges), Stoneskin  (3 charges), Wall of Stone 
+(3 charges)
+Fire Burning Hands (1 charge), Fireball  (2 charges), 
+Fire Storm (4 charges), Wall of Fire (3 charges)
+Water Create or Destroy Water  (1 charge), Ice Storm 
+(2 charges), Tsunami (5 charges), Wall of Ice 
+(3 charges), Water Walk (2 charges)
+Ring of Evasion
+Ring, Rare (Requires Attunement)
+This ring has 3 charges, and it regains 1d3 ex -
+pended charges daily at dawn. When you fail a Dex -
+terity saving throw while wearing the ring, you can 
+take a Reaction to expend 1 charge to succeed on 
+that save instead.
+Ring of Feather Falling
+Ring, Rare (Requires Attunement)
+When you fall while wearing this ring, you descend 
+60 feet per round and take no damage from falling.
+Ring of Free Action
+Ring, Rare (Requires Attunement)
+While you wear this ring, Difficult Terrain doesn’t 
+cost you extra movement. In addition, magic can 
+neither reduce any of your Speeds nor cause you to 
+have the Paralyzed or Restrained condition.
+Ring of Invisibility
+Ring, Legendary (Requires Attunement)
+While wearing this ring, you can take a Magic action 
+to give yourself the Invisible condition. You remain 
+Invisible until the ring is removed or until you take 
+a Bonus Action to become visible again.
+Ring of Jumping
+Ring, Uncommon (Requires Attunement)
+While wearing this ring, you can cast Jump from it, 
+but can target only yourself when you do so.
+Ring of Mind Shielding
+Ring, Uncommon (Requires Attunement)
+While wearing this ring, you are immune to magic 
+that allows other creatures to read your thoughts, 
+determine whether you are lying, know your align -
+ment, or know your creature type. Creatures can 
+telepathically communicate with you only if you 
+allow it.
+ You can take a Magic action to cause the ring to 
+become imperceptible until you take another Magic 
+action to make it perceptible, until you remove the 
+ring, or until you die.
+ If you die while wearing the ring, your soul enters 
+it, unless it already houses a soul. You can remain in 
+the ring or depart for the afterlife. As long as your 
+soul is in the ring, you can telepathically commu -
+nicate with any creature wearing it. A wearer can’t 
+prevent this telepathic communication.
+Ring of Protection
+Ring, Rare (Requires Attunement)
+You gain a +1 bonus to Armor Class and saving 
+throws while wearing this ring.
+Ring of Regeneration
+Ring, Very Rare (Requires Attunement)
+While wearing this ring, you regain 1d6 Hit Points 
+every 10 minutes if you have at least 1 Hit Point. If 
+you lose a body part, the ring causes the missing 
+part to regrow and return to full functionality after 
+1d6 + 1 days if you have at least 1 Hit Point the 
+whole time.
+Ring of Resistance
+Ring, Rare 
+You have Resistance to one damage type while 
+wearing this ring. The gemstone in the ring indi -
+cates the type, which the GM chooses or determines 
+randomly by rolling on the following table.
+1d10 Damage Type Gemstone
+1 Acid Pearl
+2 Cold Tourmaline
+3 Fire Garnet
+4 Force Sapphire
+5 Lightning Citrine
+6 Necrotic Jet
+7 Poison Amethyst
+8 Psychic Jade
+9 Radiant Topaz
+10 Thunder Spinel
+Ring of Shooting Stars
+Ring, Very Rare (Requires Attunement)
+You can cast Dancing Lights or Light from the ring.
+ The ring has 6 charges and regains 1d6 expended 
+charges daily at dawn. You can expend its charges 
+to use the properties below.
+ Faerie Fire. You can expend 1 charge to cast Fa-
+erie Fire from the ring.
+ Lightning Spheres. You can expend 2 charges as 
+a Magic action to create up to four 3-foot-diameter 
+spheres of lightning.
+ Each sphere appears in an unoccupied space you 
+can see within 120 feet of yourself. The spheres 

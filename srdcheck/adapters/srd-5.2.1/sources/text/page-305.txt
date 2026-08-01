@@ -1,0 +1,95 @@
+305
+System Reference Document 5.2.1
+Mages
+Mage
+Medium or Small Humanoid (Wizard), Neutral
+AC 15  Initiative +2 (12)
+HP 81 (18d8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 9 −1 −1 Dex 14 +2 +2 Con 11 +0 +0
+Int 17 +3 +6 WIS 12 +1 +4 Cha 11 +0 +0
+Skills Arcana +6, History +6, Perception +4
+Gear Wand
+Senses Passive Perception 14
+Languages Common plus three other languages
+CR 6 (XP 2,300; PB +3)
+Actions
+Multiattack. The mage makes three Arcane 
+Burst attacks.
+Arcane Burst. Melee or Ranged Attack Roll: +6, reach 
+5 ft. or range 120 ft. Hit: 16 (3d8 + 3) Force damage.
+Spellcasting. The mage casts one of the following 
+spells, using Intelligence as the spellcasting ability (spell 
+save DC 14):
+At Will: Detect Magic, Light, Mage Armor (included in 
+AC), Mage Hand, Prestidigitation
+2/Day Each: Fireball (level 4 version), Invisibility
+1/Day Each: Cone of Cold, Fly
+Bonus Actions
+Misty Step (3/Day). The mage casts Misty Step, using 
+the same spellcasting ability as Spellcasting.
+Reactions
+Protective Magic (3/Day). The mage casts Counterspell 
+or Shield in response to the spell’s trigger, using the 
+same spellcasting ability as Spellcasting.
+Archmage
+Medium or Small Humanoid (Wizard), Neutral
+AC 17  Initiative +7 (17)
+HP 170 (31d8 + 31)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 14 +2 +2 Con 12 +1 +1
+Int 20 +5 +9 WIS 15 +2 +6 Cha 16 +3 +3
+Skills Arcana +13, History +9, Perception +6
+Immunities Psychic; Charmed (with Mind Blank)
+Gear Wand
+Senses Passive Perception 16
+Languages Common plus five other languages
+CR 12 (XP 8,000; PB +4)
+Traits
+Magic Resistance. The archmage has Advantage on 
+saving throws against spells and other magical effects.
+Actions
+Multiattack. The archmage makes four Arcane 
+Burst attacks.
+Arcane Burst. Melee or Ranged Attack Roll: +9, reach 
+5 ft. or range 150 ft. Hit: 27 (4d10 + 5) Force damage.
+Spellcasting. The archmage casts one of the following 
+spells, using Intelligence as the spellcasting ability (spell 
+save DC 17):
+At Will: Detect Magic, Detect Thoughts, Disguise Self, 
+Invisibility, Light, Mage Armor (included in AC), Mage 
+Hand, Prestidigitation
+2/Day Each: Fly, Lightning Bolt (level 7 version)
+1/Day Each: Cone of Cold (level 9 version), Mind Blank 
+(cast before combat), Scrying, Teleport
+Bonus Actions
+Misty Step (3/Day). The mage casts Misty Step, using 
+the same spellcasting ability as Spellcasting.
+Reactions
+Protective Magic (3/Day). The archmage casts Coun-
+terspell or Shield in response to the spell’s trigger, using 
+the same spellcasting ability as Spellcasting.
+Magmin
+Magmin
+Small Elemental, Chaotic Neutral
+AC 14  Initiative +2 (12)
+HP 13 (3d6 + 3)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 7 −2 −2 Dex 15 +2 +2 Con 12 +1 +1
+Int 8 −1 −1 WIS 11 +0 +0 Cha 10 +0 +0
+Immunities Fire
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Primordial (Ignan)
+CR 1/2 (XP 100; PB +2)
+Traits
+Death Burst. The magmin explodes when it dies. Dex-
+terity Saving Throw: DC 11, each creature in a 10-foot 
+Emanation originating from the magmin. Failure: 7 (2d6) 
+Fire damage. Success: Half damage.
+Actions
+Touch. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 
+2) Fire damage. If the target is a creature or a flammable 
+object that isn’t being worn or carried, it starts burning.

@@ -1,0 +1,94 @@
+317
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 28 +9 +9 Dex 7 −2 −2 Con 22 +6 +11
+Int 1 −5 −5 WIS 8 −1 +4 Cha 4 −3 −3
+Senses Blindsight 30 ft., Tremorsense 60 ft.; 
+Passive Perception 9
+Languages None
+CR 15 (XP 13,000; PB +5)
+Traits
+Tunneler. The worm can burrow through solid rock at 
+half its Burrow Speed and leaves a 10-foot-diameter 
+tunnel in its wake.
+Actions
+Multiattack. The worm makes one Bite attack and one 
+Tail Stinger attack.
+Bite. Melee Attack Roll: +14, reach 10 ft. Hit: 22 
+(3d8 + 9) Piercing damage. If the target is a Large or 
+smaller creature, it has the Grappled condition (escape 
+DC 19), and it has the Restrained condition until the 
+grapple ends.
+Tail Stinger. Melee Attack Roll: +14, reach 10 ft. Hit: 
+16 (2d6 + 9) Piercing damage plus 35 (10d6) Poi-
+son damage.
+Bonus Actions
+Swallow. Strength Saving Throw: DC 19, one Large or 
+smaller creature Grappled by the worm (it can have up 
+to three creatures swallowed at a time). Failure: The tar-
+get is swallowed by the worm, and the Grappled con-
+dition ends. A swallowed creature has the Blinded and 
+Restrained conditions, has Total Cover against attacks 
+and other effects outside the worm, and takes 17 (5d6) 
+Acid damage at the start of each of the worm’s turns. 
+ If the worm takes 30 damage or more on a single turn 
+from a creature inside it, the worm must succeed on a 
+DC 21 Constitution saving throw at the end of that turn 
+or regurgitate all swallowed creatures, each of which 
+falls in a space within 5 feet of the worm and has the 
+Prone condition. If the worm dies, any swallowed crea-
+ture no longer has the Restrained condition and can 
+escape from the corpse using 20 feet of movement, 
+exiting Prone.
+Quasit
+Quasit
+Tiny Fiend (Demon), Chaotic Evil
+AC 13   Initiative +3 (13)
+HP 25 (10d4)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 5 −3 −3 Dex 17 +3 +3 Con 10 +0 +0
+Int 7 −2 −2 WIS 10 +0 +0 Cha 10 +0 +0
+Skills Stealth +5
+Resistances Cold, Fire, Lightning
+Immunities Poison; Poisoned
+Senses Darkvision 120 ft.; Passive Perception 10
+Languages Abyssal, Common
+CR 1 (XP 200; PB +2)
+Traits
+Magic Resistance. The quasit has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) 
+Slashing damage, and the target has the Poisoned con-
+dition until the start of the quasit’s next turn.
+Invisibility. The quasit casts Invisibility on itself, requir-
+ing no spell components and using Charisma as the 
+spellcasting ability.
+Scare (1/Day). Wisdom Saving Throw: DC 10, one 
+creature within 20 feet. Failure: The target has the 
+Frightened condition. At the end of each of its turns, the 
+target repeats the save, ending the effect on itself on a 
+success. After 1 minute, it succeeds automatically.
+Shape-Shift. The quasit shape-shifts to resemble a bat 
+(Speed 10 ft., Fly 40 ft.), a centipede (40 ft., Climb 40 
+ft.), or a toad (40 ft., Swim 40 ft.), or it returns to its 
+true form. Its game statistics are the same in each form, 
+except for its Speed. Any equipment it is wearing or 
+carrying isn’t transformed.
+Rakshasa
+Rakshasa
+Medium Fiend, Lawful Evil
+AC 17  Initiative +8 (18)
+HP 221 (26d8 + 104)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 17 +3 +3 Con 18 +4 +4
+Int 13 +1 +1 WIS 16 +3 +3 Cha 20 +5 +5
+Skills Deception +10, Insight +8, Perception +8
+Vulnerabilities Piercing damage from weapons wielded by 
+creatures under the effect of a Bless spell
+Immunities Charmed, Frightened
+Senses Truesight 60 ft.; Passive Perception 18
+Languages Common, Infernal
+CR 13 (XP 10,000; PB +5)

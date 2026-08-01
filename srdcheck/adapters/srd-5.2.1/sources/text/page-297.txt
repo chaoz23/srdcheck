@@ -1,0 +1,93 @@
+297
+System Reference Document 5.2.1
+Half-Dragon
+Half-Dragon
+Medium Dragon, Neutral
+AC 18  Initiative +5 (15)
+HP 105 (14d8 + 42)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 14 +2 +5 Con 16 +3 +3
+Int 10 +0 +0 WIS 15 +2 +5 Cha 14 +2 +2
+Skills Athletics +7 , Perception +5, Stealth +5
+Resistances Damage type chosen for the Draconic Origin 
+trait below
+Senses Blindsight 10 ft., Darkvision 60 ft.; 
+Passive Perception 15
+Languages Common, Draconic
+CR 5 (XP 1,800; PB +3)
+Traits
+Draconic Origin. The half-dragon is related to a type 
+of dragon associated with one of the following damage 
+types (GM’s choice): Acid, Cold, Fire, Lightning, or Poi-
+son. This choice affects other aspects of the stat block.
+Actions
+Multiattack. The half-dragon makes two Claw attacks.
+Claw. Melee Attack Roll: +7 , reach 10 ft. Hit: 6 (1d4 
++ 4) Slashing damage plus 7 (2d6) damage of the type 
+chosen for the Draconic Origin trait.
+Dragon’s Breath (Recharge 5–6). Dexterity Saving 
+Throw: DC 14, each creature in a 30-foot Cone. Failure: 
+28 (8d6) damage of the type chosen for the Draconic 
+Origin trait. Success: Half damage.
+Bonus Actions
+Leap. The half-dragon jumps up to 30 feet by spending 
+10 feet of movement.
+Harpy
+Harpy
+Medium Monstrosity, Chaotic Evil
+AC 11  Initiative +1 (11)
+HP 38 (7d8 + 7)
+Speed 20 ft., Fly 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 13 +1 +1 Con 12 +1 +1
+Int 7 −2 −2 WIS 10 +0 +0 Cha 13 +1 +1
+Senses Passive Perception 10
+Languages Common
+CR 1 (XP 200; PB +2)
+Actions
+Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 6 (2d4 + 1) 
+Slashing damage.
+Luring Song. The harpy sings a magical melody, which 
+lasts until the harpy’s Concentration ends on it. Wisdom 
+Saving Throw: DC 11, each Humanoid and Giant in a 
+300-foot Emanation originating from the harpy when 
+the song starts. Failure: The target has the Charmed 
+condition until the song ends and repeats the save at 
+the end of each of its turns. While Charmed, the target 
+has the Incapacitated condition and ignores the Luring 
+Song of other harpies. If the target is more than 5 feet 
+from the harpy, the target moves on its turn toward the 
+harpy by the most direct route, trying to get within 5 
+feet of the harpy. It doesn’t avoid Opportunity Attacks; 
+however, before moving into damaging terrain (such 
+as lava or a pit) and whenever it takes damage from a 
+source other than the harpy, the target repeats the save. 
+Success: The target is immune to this harpy’s Luring 
+Song for 24 hours.
+Hell Hound
+Hell Hound
+Medium Fiend, Lawful Evil
+AC 15  Initiative +1 (11)
+HP 58 (9d8 + 18)
+Speed 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 12 +1 +1 Con 14 +2 +2
+Int 6 −2 −2 WIS 13 +1 +1 Cha 6 −2 −2
+Skills Perception +5
+Immunities Fire
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages Understands Infernal but can’t speak
+CR 3 (XP 700; PB +2)
+Traits
+Pack Tactics. The hound has Advantage on an attack 
+roll against a creature if at least one of the hound’s al-
+lies is within 5 feet of the creature and the ally doesn’t 
+have the Incapacitated condition.
+Actions
+Multiattack. The hound makes two Bite attacks.
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) 
+Piercing damage plus 3 (1d6) Fire damage.
+Fire Breath (Recharge 5–6). Dexterity Saving Throw: 
+DC 12, each creature in a 15-foot Cone. Failure: 17 
+(5d6) Fire damage. Success: Half damage.

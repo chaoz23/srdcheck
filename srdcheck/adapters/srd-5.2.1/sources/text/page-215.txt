@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+215
+links to a particular Outer Plane chosen by the GM 
+or determined by rolling on the following table.
+1d100 Outer Plane 1d100 Outer Plane
+01–05 Abyss 55–59 Gehenna
+06–10 Acheron 60–64 Hades
+11–17 Arborea 65–69 Limbo
+18–25 Arcadia 70–77 Mechanus
+26–33 Beastlands 78–85 Mount Celestia
+34–41 Bytopia 86–90 Nine Hells
+42–46 Carceri 91–95 Pandemonium
+47–54 Elysium 96–00 Ysgard
+Cape of the Mountebank
+Wondrous Item, Rare 
+This cape smells faintly of brimstone. While wear -
+ing it, you can use it to cast Dimension Door as a 
+Magic action. This property can’t be used again 
+until the next dawn.
+ When you teleport with that spell, you leave be -
+hind a cloud of smoke. The space you left is Lightly 
+Obscured by that smoke until the end of your 
+next turn.
+Carpet of Flying
+Wondrous Item, Very Rare 
+You can make this carpet hover and fly by taking a 
+Magic action and using the carpet’s command word. 
+It moves according to your directions if you are 
+within 30 feet of it.
+ Four sizes of Carpet of Flying exist. The GM 
+chooses the size of a given carpet or determines it 
+randomly by rolling on the following table. A carpet 
+can carry up to twice the weight shown on the table, 
+but its Fly Speed is halved if it carries more than its 
+normal capacity.
+1d100 Size Capacity Fly Speed
+01–20 3 ft. × 5 ft. 200 lb. 80 feet
+21–55 4 ft. × 6 ft. 400 lb. 60 feet
+56–80 5 ft. × 7 ft. 600 lb. 40 feet
+81–00 6 ft. × 9 ft. 800 lb. 30 feet
+Censer of Controlling Air Elementals
+Wondrous Item, Rare 
+While gently swinging this censer, you can take a 
+Magic action to summon an Air Elemental . The 
+elemental appears in an unoccupied space as close 
+to the censer as possible, understands your lan -
+guages, obeys your commands, and takes its turn 
+immediately after you on your Initiative count. The 
+elemental disappears after 1 hour, when it dies, or 
+when you dismiss it as a Bonus Action. The censer 
+can’t be used this way again until the next dawn.
+Chime of Opening
+Wondrous Item, Rare 
+This hollow metal tube measures about 1 foot long 
+and weighs 1 pound. As a Magic action, you can 
+strike the chime to cast Knock. The spell’s custom -
+ary knocking sound is replaced by the clear, ringing 
+tone of the chime, which is audible out to 300 feet.
+ The chime can be used 10 times. After the tenth 
+time, it cracks and becomes useless.
+Circlet of Blasting
+Wondrous Item, Uncommon 
+While wearing this circlet, you can cast Scorching 
+Ray with it (+5 to hit). The circlet can’t cast this spell 
+again until the next dawn.
+Cloak of Arachnida
+Wondrous Item, Very Rare (Requires Attunement)
+This fine garment is made of black silk interwoven 
+with faint, silvery threads. While wearing it, you 
+gain the following benefits.
+ Poison Resistance. You have Resistance to Poison 
+damage.
+ Spider Climb. You have a Climb Speed equal to 
+your Speed and can move up, down, and across ver -
+tical surfaces and along ceilings, while leaving your 
+hands free.
+ Spider Walk. You can’t be caught in webs of any 
+sort and can move through webs as if they were Dif -
+ficult Terrain.
+ Web. You can cast Web (save DC 13). The web 
+created by the spell fills twice its normal area. Once 
+used, this property can’t be used again until the 
+next dawn.
+Cloak of Displacement
+Wondrous Item, Rare (Requires Attunement)
+While you wear this cloak, it magically projects an 
+illusion that makes you appear to be standing in a 
+place near your actual location, causing any crea-
+ture to have Disadvantage on attack rolls against 
+you. If you take damage, the property ceases to 
+function until the start of your next turn. This prop -
+erty is suppressed while your Speed is 0.
+Cloak of Elvenkind
+Wondrous Item, Uncommon (Requires Attunement)
+While you wear this cloak, Wisdom (Perception) 
+checks made to perceive you have Disadvantage, 
+and you have Advantage on Dexterity (Stealth) 
+checks.
+Cloak of Invisibility
+Wondrous Item, Legendary (Requires Attunement)
+This cloak has 3 charges and regains 1d3 expended 
+charges daily at dawn. While wearing the cloak, you 
+can take a Magic action to pull its hood over your 

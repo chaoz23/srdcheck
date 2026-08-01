@@ -1,0 +1,77 @@
+System	  Reference	   Document	  5.1 	   379	  
+Senses	  passive	  Perception	  11 	  
+Languages	  —	  
+Challenge	  1/2	  (100	  XP)	  
+Charge.	  If	  the	  sea	  horse	  moves	  at	  least	  20	  feet	  straight	  
+toward	  a	  target	  and	  then	  hits	  it	  with	  a	  ram	  attack	  on	  
+the	  same	  turn,	  the	  target	  takes	  an	  extra	  7	  (2d6)	  
+bludgeoning	  damage.	  It	  the	  target	  is	  a	  creature,	  it	  must	  
+succeed	  on	  a	  DC	  11	  Strength	  saving	  throw	  or	  be	  
+knocked	  prone. 	  
+Water	  Breathing.	   The	  sea	  horse	  can	  breathe	  only	  
+underwater.	  
+Actions	  
+Ram.	  Melee	  Weapon	  Attack: 	  +3	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  4	  (1d6	  +	  1)	  bludgeoning	  damage. 	  
+Like	  their	  smaller	  kin,	   giant	  sea	  horses	   are	  shy,	  
+colorful	  fish	  with	  elongated	  bodies	  and	  curled	  tails.	  
+Aquatic	  elves	  train	  them	  as	  mounts. 	  
+Giant	  Shark	  
+Huge	  beast,	  unaligned 	  
+Armor	  Class	  13	  (natural	  armor) 	  
+Hit	  Points	  126	  (11d12	  +	  55) 	  
+Speed	  0	  ft.,	  swim	  50	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+23	  (+6)	   11	  (+0)	   21	  (+5)	   1	  (−5)	   10	  (+0)	   5	  (−3)	  
+Skills	  Perception	  +3	  
+Senses	  blindsight	  60	  ft.,	  passive	  Perception	  13 	  
+Languages	  —	  
+Challenge	  5	  (1,800	  XP)	  
+Blood	  Frenzy.	  The	  shark	  has	  advantage	  on	  melee	  attack	  
+rolls	  against	  any	  creature	  that	  doesn’t	  have	  all	  its	  hit	  
+points.	  
+Water	  Breathing.	   The	  shark	  can	  breathe	  only	  
+underwater.	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +9	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  22	  (3d10	  +	  6)	  piercing	  damage. 	  
+A	  giant	  shark	  is	  30	  feet	  long	  and	  normally	  found	  in	  
+deep	  oceans.	  Utterly	  fearless,	  it	  preys	  on	  anything	  
+that	  crosses	  its	  path,	  including	  whales	  and	  ships. 	  
+Giant	  Spider	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  26	  (4d10	  +	  4)	  
+Speed	  30	  ft.,	  climb	  30	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+14	  (+2)	   16	  (+3)	   12	  (+1)	   2	  (−4)	   11	  (+0)	   4	  (−3)	  
+Skills	  Stealth	  +7	  
+Senses	  blindsight	  10	  ft.,	  darkvision	  60	  ft.,	  passive	  
+Perception	  10	  
+Languages	  —	  
+Challenge	  1	  (200	  XP)	  
+Spider	  Climb.	  The	  spider	  can	  climb	  difficult	  surfaces,	  
+including	  upside	   down	  on	  ceilings,	  without	  needing	  to	  
+make	  an	  ability	  check. 	  
+Web	  Sense.	  While	  in	  contact	  with	  a	  web,	  the	  spider	  
+knows	  the	  exact	  location	  of	  any	  other	  creature	  in	  
+contact	  with	  the	  same	  web. 	  
+Web	  Walker.	  The	  spider	  ignores	  movement	  restrictions	  
+caused	  by	  webbi ng.	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  7	  (1d8	  +	  3)	  piercing	  damage,	  and	  the	  
+target	  must	  make	  a	  DC	  11	  Constitution	  saving	  throw,	  
+taking	  9	  (2d8)	  poison	  damage	  on	  a	  failed	  save,	  or	  half	  
+as	  much	  damage	  on	  a	  successful 	  one.	  If	  the	  poison	  
+damage	  reduces	  the	  target	  to	  0	  hit	  points,	  the	  target	  is	  
+stable	  but	  poisoned	  for	  1	  hour,	  even	  after	  regaining	  hit	  
+points,	  and	  is	  paralyzed	  while	  poisoned	  in	  this	  way. 	  
+Web	  (Recharge	  5 –6).	  Ranged	  Weapon	  Attack: 	  +5	  to	  hit,	  
+range	  30/60	  ft., 	  one	  creature.	  Hit:	  The	  target	  is	  
+restrained	  by	  webbing.	  As	  an	  action,	  the	  restrained	  
+target	  can	  make	  a	  DC	  12	  Strength	  check,	  bursting	  the	  
+webbing	  on	  a	  success.	  The	  webbing	  can	  also	  be	  
+attacked	  and	  destroyed	  (AC	  10;	  hp	  5;	  vulnerability	  to	  
+fire	  damage;	  immu nity	  to	  bludgeoning,	  poison,	  and	  
+psychic	  damage). 	  

@@ -1,0 +1,101 @@
+255
+System Reference Document 5.2.1
+Running a MonsteR
+To ensure a monster acts in accordance with its 
+Challenge Rating, follow these rules during combat:
+Special Abilities. If the monster has a special abil-
+ity that deals a lot of damage but has a limited 
+number of uses, such as a recharging breath 
+weapon or a spell it can cast only once per day, 
+have it use that special ability as quickly and as 
+often as possible.
+Multiattack. If the monster has Multiattack, have 
+it use Multiattack on any of its turns in which 
+it’s not using one of its more powerful abilities.
+Bonus Actions, Reactions, Legendary Actions. If 
+the monster has Bonus Actions, Reactions, or 
+Legendary Actions in its stat block, make sure it 
+uses them as often as it can.
+Hit Points
+A monster’s Hit Points are presented as a number 
+followed by parentheses, where the monster’s Hit 
+Point Dice are provided, along with any contribu -
+tion from its Constitution. Either use the number for 
+the monster’s Hit Points or roll the die expression in 
+parentheses to determine the monster’s Hit Points 
+randomly; don’t use both.
+ A monster’s size typically determines the die used 
+to calculate its Hit Points, as shown in the Hit Dice 
+by Size table.
+Hit Dice by Size
+Monster Size Hit Die Average HP per Die
+Tiny d4 2½
+Small d6 3½
+Medium d8 4½
+Large d10 5½
+Huge d12 6½
+Gargantuan d20 10½
+A monster’s Constitution modifier is multiplied by 
+the number of Hit Dice it possesses, and the result 
+is added to its Hit Points. For example, if a monster 
+has a Constitution of 12 (+1 modifier) and 2d8 Hit 
+Dice, it has 2d8 + 2 Hit Points (average 11).
+ For more on Hit Points, see “Playing the Game .”
+Speed
+The Speed entry specifies a monster’s Speed. Some 
+monsters have one or more of the following speeds: 
+Burrow, Climb, Fly, Swim. Rules for Speed and these 
+specials speeds appear in “Rules Glossary .”
+Ability Scores
+Every monster has six ability scores along with 
+corresponding ability score modifiers and saving 
+throw modifiers. For more information on ability 
+scores and saving throws, see “Playing the Game .”
+Skills
+The Skills entry specifies a monster’s skill profi -
+ciencies, if any. For example, a monster that is very 
+perceptive and stealthy might have bonuses to Wis -
+dom (Perception) and Dexterity (Stealth) checks. A 
+skill bonus is the sum of a monster’s relevant ability 
+modifier and its Proficiency Bonus. Other modifiers 
+might apply.
+Resistances and Vulnerabilities
+These entries list a monster’s Resistances and Vul -
+nerabilities, if any. See “Playing the Game” for more 
+information.
+Immunities
+This entry lists the monster’s Immunities, if any. If 
+the monster has damage and condition Immunities, 
+the damage types are listed before the conditions. 
+See “Playing the Game” for details.
+Gear
+Monsters have proficiency with their equipment. If 
+a monster has equipment that can be given away or 
+retrieved, the items are listed in the Gear entry. The 
+monster’s stat block might include special flour -
+ishes that happen when the monster uses an item, 
+and the stat block might ignore the rules in “Equip -
+ment” for that item. When used by someone else, a 
+retrievable item uses its “Equipment” rules, ignor -
+ing any special flourishes in the stat block.
+ The Gear entry doesn’t necessarily list all of a 
+monster’s equipment. For example, a monster that 
+wears clothes is assumed to be dressed appropri -
+ately, and those clothes aren’t in this entry.
+ Equipment mentioned outside the Gear entry is 
+considered to be supernatural or highly specialized, 
+and it is unusable when the monster is defeated.
+Ammunition and Ranged Attacks
+A monster that requires ammunition to make 
+ranged attacks carries the necessary ammunition.
+Equipping a Monster with Other Items
+You may equip monsters with additional gear how -
+ever you like, using the items in “Equipment” for 
+inspiration. You decide how much of a monster’s 
+equipment is recoverable after the creature is slain 
+and whether any of that equipment is still usable.
+ Beware of giving a monster combat-oriented 
+magic items, since those might alter the monster’s 
+Challenge Rating. If you do give a monster a magic 
+item, the monster can have Attunement with magic 
+items as noted in “Equipment.” A monster with 

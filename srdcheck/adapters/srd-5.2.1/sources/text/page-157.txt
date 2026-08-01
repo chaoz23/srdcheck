@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+157
+image, and any noise it makes sounds hollow to the 
+creature.
+Protection from Energy
+Level 3 Abjuration (Cleric, Druid, Ranger, Sorcerer, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Concentration, up to 1 hour
+For the duration, the willing creature you touch has 
+Resistance to one damage type of your choice: Acid, 
+Cold, Fire, Lightning, or Thunder.
+Protection from Evil and Good
+Level 1 Abjuration (Cleric, Druid, Paladin, Warlock, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a flask of Holy Water worth 25+ 
+GP, which the spell consumes)
+Duration: Concentration up to 10 minutes
+Until the spell ends, one willing creature you touch 
+is protected against creatures that are Aberrations, 
+Celestials, Elementals, Fey, Fiends, or Undead. 
+The protection grants several benefits. Creatures 
+of those types have Disadvantage on attack rolls 
+against the target. The target also can’t be pos -
+sessed by or gain the Charmed or Frightened condi -
+tions from them. If the target is already possessed, 
+Charmed, or Frightened by such a creature, the tar -
+get has Advantage on any new saving throw against 
+the relevant effect.
+Protection from Poison
+Level 2 Abjuration (Cleric, Druid, Paladin, Ranger)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: 1 hour
+You touch a creature and end the Poisoned condi -
+tion on it. For the duration, the target has Advan -
+tage on saving throws to avoid or end the Poisoned 
+condition, and it has Resistance to Poison damage.
+Purify Food and Drink
+Level 1 Transmutation (Cleric, Druid, Paladin)
+Casting Time: Action or Ritual
+Range: 10 feet
+Components: V, S
+Duration: Instantaneous
+You remove poison and rot from nonmagical food 
+and drink in a 5-foot-radius Sphere centered on a 
+point within range.
+Raise Dead
+Level 5 Necromancy (Bard, Cleric, Paladin)
+Casting Time: 1 hour
+Range: Touch
+Components: V, S, M (a diamond worth 500+ GP, which 
+the spell consumes)
+Duration: Instantaneous
+With a touch, you revive a dead creature if it has 
+been dead no longer than 10 days and it wasn’t Un -
+dead when it died.
+ The creature returns to life with 1 Hit Point. This 
+spell also neutralizes any poisons that affected the 
+creature at the time of death.
+ This spell closes all mortal wounds, but it doesn’t 
+restore missing body parts. If the creature is lack -
+ing body parts or organs integral for its survival—
+its head, for instance—the spell automatically fails.
+ Coming back from the dead is an ordeal. The tar -
+get takes a −4 penalty to D20 Tests. Every time the 
+target finishes a Long Rest, the penalty is reduced 
+by 1 until it becomes 0.
+Ray of Enfeeblement
+Level 2 Necromancy (Warlock, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+A beam of enervating energy shoots from you to -
+ward a creature within range. The target must 
+make a Constitution saving throw. On a successful 
+save, the target has Disadvantage on the next attack 
+roll it makes until the start of your next turn.
+ On a failed save, the target has Disadvantage on 
+Strength-based D20 Tests for the duration. During 
+that time, it also subtracts 1d8 from all its damage 
+rolls. The target repeats the save at the end of each 
+of its turns, ending the spell on a success.
+Ray of Frost
+Evocation Cantrip (Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Instantaneous
+A frigid beam of blue-white light streaks toward a 
+creature within range. Make a ranged spell attack 
+against the target. On a hit, it takes 1d8 Cold dam -
+age, and its Speed is reduced by 10 feet until the 
+start of your next turn.
+ Cantrip Upgrade. The damage increases by 1d8 
+when you reach levels 5 (2d8), 11 (3d8), and 17 
+(4d8).

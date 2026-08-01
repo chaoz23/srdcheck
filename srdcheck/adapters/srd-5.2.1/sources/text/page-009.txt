@@ -1,0 +1,75 @@
+System Reference Document 5.2.1
+9
+that skill but doesn’t add its Proficiency Bonus. For 
+example, if a character tries to climb a cliff, the GM 
+might ask for a Strength (Athletics) check. If the 
+character has Athletics proficiency, the character 
+adds their Proficiency Bonus to the Strength check. 
+If the character lacks that proficiency, they make 
+the check without adding their Proficiency Bonus.
+Skill List
+The skills are shown on the Skills table, which notes 
+example uses for each skill proficiency as well as 
+the ability check the skill most often applies to.
+Determining Skills
+A character’s starting skill proficiencies are deter -
+mined at character creation, and a monster’s skill 
+proficiencies appear in its stat block.
+Saving Throw Proficiencies
+Proficiency in a saving throw lets a character add 
+their Proficiency Bonus to saves that use a partic -
+ular ability. For example, proficiency in Wisdom 
+saves lets you add your Proficiency Bonus to your 
+Wisdom saves. Some monsters also have saving 
+throw proficiencies, as noted in their stat blocks.
+ Each class gives proficiency in at least two saving 
+throws, representing that class’s training in evading 
+or resisting certain threats. Wizards, for example, 
+are proficient in Intelligence and Wisdom saves; 
+they train to resist mental assault.
+Equipment Proficiencies
+A character gains proficiency with various weapons 
+and tools from their class and background. There 
+are two categories of equipment proficiency:
+Weapons. Anyone can wield a weapon, but profi -
+ciency makes you better at wielding it. If you have 
+proficiency with a weapon, you add your Profi -
+ciency Bonus to attack rolls you make with it.
+Tools. If you have proficiency with a tool, you can 
+add your Proficiency Bonus to any ability check 
+you make that uses the tool. If you have profi -
+ciency in the skill that’s also used with that check, 
+you have Advantage on the check too. This means 
+you can benefit from both skill proficiency and 
+tool proficiency on the same ability check.
+Actions
+When you do something other than moving or com-
+municating, you typically take an action. The Action 
+table lists the game’s main actions, which are de -
+fined in more detail in “Rules Glossary.”
+Actions
+Action Summary
+Attack Attack with a weapon or an Unarmed 
+Strike.
+Dash For the rest of the turn, give yourself extra 
+movement equal to your Speed.
+Skills
+Skill Ability Example Uses
+Acrobatics Dexterity Stay on your feet in a tricky situation, or perform an acrobatic stunt.
+Animal Handling Wisdom Calm or train an animal, or get an animal to behave in a certain way.
+Arcana Intelligence Recall lore about spells, magic items, and the planes of existence.
+Athletics Strength Jump farther than normal, stay afloat in rough water, or break something.
+Deception Charisma Tell a convincing lie, or wear a disguise convincingly.
+History Intelligence Recall lore about historical events, people, nations, and cultures.
+Insight Wisdom Discern a person’s mood and intentions.
+Intimidation Charisma Awe or threaten someone into doing what you want.
+Investigation Intelligence Find obscure information in books, or deduce how something works. 
+Medicine Wisdom Diagnose an illness, or determine what killed the recently slain.
+Nature Intelligence Recall lore about terrain, plants, animals, and weather.
+Perception Wisdom Using a combination of senses, notice something that’s easy to miss.
+Performance Charisma Act, tell a story, perform music, or dance.
+Persuasion Charisma Honestly and graciously convince someone of something.
+Religion Intelligence Recall lore about gods, religious rituals, and holy symbols.
+Sleight of Hand Dexterity Pick a pocket, conceal a handheld object, or perform legerdemain.
+Stealth Dexterity Escape notice by moving quietly and hiding behind things.
+Survival Wisdom Follow tracks, forage, find a trail, or avoid natural hazards. 

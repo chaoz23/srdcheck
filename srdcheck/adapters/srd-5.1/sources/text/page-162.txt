@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   162	  
+You	  touch	  a	  nonmagical	  weapon.	  Until	  the	  spell	  ends,	  
+that	  weapon	  becomes	  a	  magic	  weapon	  with	  a	  +1	  
+bonus	  to	  attack	  rolls	  and	  damage	  rolls. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spel l	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  bonus	  increases	  
+to	  +2.	  When	  you	  use	  a	  spell	  slot	  of	  6th	  level	  or	  higher,	  
+the	  bonus	  increases	  to	  +3. 	  
+Magnificent Mansion 
+7th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  300	  feet	  
+Components:	  V,	  S,	  M	  (a	  miniature	  portal	  carved	  
+from	  ivory,	  a	  small	  piece	  of	  polished	  marble,	  and	  a	  
+tiny	  silver	  spoon,	  each	  item	  worth	  at	  least	  5	  gp) 	  
+Duration:	  24	  hours	  
+You	  conjure	  an	  extradimensional	  dwelling	  in	  range	  
+that	  lasts	  for	  the	  duration.	  You	  choose	  where	  its	  one	  
+entrance	  is	  located.	  The	  entrance	  shimmers	  faintly	  
+and	  is	  5	  feet	  wide	  and	  10	  feet	  tall.	  You	  and	  any	  
+creature	  you	  designate	  when	  you	  cast	  the	  spell	  can	  
+enter	  the	  extradimensional	  dwelling	  as	  long	  as	  the	  
+portal	  remains	  open.	  You	  can	  open	  or	  close	  the	  
+portal	  if	  you	  are 	  within	  30	  feet	  of	  it.	  While	  closed,	  the	  
+portal	  is	  invisible. 	  
+	   Beyond	  the	  portal	  is	  a	  magnificent	  foyer	  with	  
+numerous	  chambers	  beyond.	  The	  atmosphere	  is	  
+clean,	  fresh,	  and	  warm. 	  
+	   You	  can	  create	  any	  floor	  plan	  you	  like,	  but	  the	  
+space	  can’t	  exceed	  50	  cubes,	  each	  cube	  being	  10	  feet	  
+on	  each	  side.	  The	  place	  is	  furnished	  and	  decorated	  as	  
+you	  choose.	  It	  contains	  sufficient	  food	  to	  serve	  a	  
+nine-­‐‑course	  banquet	  for	  up	  to	  100	  people.	  A	  staff	  of	  
+100	  near-­‐‑transparent	  servants	  attends	  all	  who	  enter.	  
+You	  decide	  the	  visual	   appearance	  of	  these	  servants	  
+and	  their	  attire.	  They	  are	  completely	  obedient	  to	  
+your	  orders.	  Each	  servant	  can	  perform	  any	  task	  a	  
+normal	  human	  servant	  could	  perform,	  but	  they	  can’t	  
+attack	  or	  take	  any	  action	  that	  would	  directly	  harm	  
+another	  creature.	  Thus	  the 	  servants	  can	  fetch	  things,	  
+clean,	  mend,	  fold	  clothes,	  light	  fires,	  serve	  food,	  pour	  
+wine,	  and	  so	  on.	  The	  servants	  can	  go	  anywhere	  in	  
+the	  mansion	  but	  can’t	  leave	  it.	  Furnishings	  and	  other	  
+objects	  created	  by	  this	  spell	  dissipate	  into	  smoke	  if	  
+removed	  from	  t he	  mansion.	  When	  the	  spell	  ends,	  
+any	  creatures	  inside	  the	  extradimensional	  space	  are	  
+expelled	  into	  the	  open	  spaces	  nearest	  to	  the	  
+entrance.	  
+Major Image 
+3rd-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  fleece) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  create	  the	  image	  of	  an	  object,	  a	  creature,	  or	  
+some	  other	  visible	  phenomenon	  that	  is	  no	  larger	  
+than	  a	  20-­‐‑foot	  cube.	  The	  image	  appears	  at	  a	  spot	  that	  
+you	  can	  see	  within	  range	  and	  lasts	  for	  the	  duration.	  
+It	  seems	  completely	  real,	  including	  sounds,	  smells,	  
+and	  temperature	  appropriate	  to	  the	  thing	  depicted.	  
+You	  can’t	  create	  sufficient	  heat	  or	  cold	  to	  cause	  
+damage,	  a	  sound	  loud	  enough	  to	  deal	  thunder	  
+damage	  or	  deafen	  a	  creature,	  or	  a	  smell	  that	  might	  
+sicken	  a	  creature 	  (like	  a	  troglodyte’s	  stench). 	  
+	   As	  long	  as	  you	  are	  within	  range	  of	  the	  illusion,	  you	  
+can	  use	  your	  action	  to	  cause	  the	  image	  to	  move	  to	  
+any	  other	  spot	  within	  range.	  As	  the	  image	  changes	  
+location,	  you	  can	  alter	  its	  appearance	  so	  that	  its	  
+movements	  appear	  nat ural	  for	  the	  image.	  For	  
+example,	  if	  you	  create	  an	  image	  of	  a	  creature	  and	  
+move	  it,	  you	  can	  alter	  the	  image	  so	  that	  it	  appears	  to	  
+be	  walking.	  Similarly,	  you	  can	  cause	  the	  illusion	  to	  
+make	  different	  sounds	  at	  different	  times,	  even	  
+making	  it	  carry	  on	  a	  conver sation,	  for	  example. 	  
+	   Physical	  interaction	  with	  the	  image	  reveals	  it	  to	  be	  
+an	  illusion,	  because	  things	  can	  pass	  through	  it.	  A	  
+creature	  that	  uses	  its	  action	  to	  examine	  the	  image	  
+can	  determine	  that	  it	  is	  an	  illusion	  with	  a	  successful	  
+Intelligence	  (Investigat ion)	  check	  against	  your	  spell	  
+save	  DC.	  If	  a	  creature	  discerns	  the	  illusion	  for	  what	  it	  
+is,	  the	  creature	  can	  see	  through	  the	  image,	  and	  its	  
+other	  sensory	  qualities	  become	  faint	  to	  the	  creature. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  6th	  level	  or	  higher,	  the	  spell	  lasts	  until	  
+dispelled,	  without	  requiring	  your	  concentration. 	  
+Mass Cure Wounds 
+5th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+A	  wave	  of	  healing	  energy	  washes	  out	  from	  a	  point	  of	  
+your	  choice	  within	  range.	  Choose	  up	  to	  six	  creatures	  
+in	  a	  30-­‐‑foot-­‐‑radius	  sphere	  centered	  on	  that	  point.	  
+Each	  target	  regains	  hit	  points	  equal	  to	  3d8	  +	  your	  
+spellcasting	  ability	  modifier.	  This	  spell	  has	  no	   effect	  
+on	  undead	  or	  constructs. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  6th	  level	  or	  higher,	  the	  healing	  increases	  
+by	  1d8	  for	  each	  slot	  level	  above	  5th. 	  

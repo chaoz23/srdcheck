@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+171
+creature’s name. The creature then appears in an 
+unoccupied space you choose within 10 feet of you.
+True Seeing
+Level 6 Divination (Bard, Cleric, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (mushroom powder worth 25+ 
+GP, which the spell consumes)
+Duration: 1 hour
+For the duration, the willing creature you touch has 
+Truesight with a range of 120 feet.
+True Strike
+Divination Cantrip (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Self
+Components: S, M (a weapon with which you have profi -
+ciency and that is worth 1+ CP)
+Duration: Instantaneous
+Guided by a flash of magical insight, you make one 
+attack with the weapon used in the spell’s casting. 
+The attack uses your spellcasting ability for the at -
+tack and damage rolls instead of using Strength or 
+Dexterity. If the attack deals damage, it can be Ra-
+diant damage or the weapon’s normal damage type 
+(your choice).
+ Cantrip Upgrade. Whether you deal Radiant dam -
+age or the weapon’s normal damage type, the attack 
+deals extra Radiant damage when you reach levels 5 
+(1d6), 11 (2d6), and 17 (3d6).
+Tsunami
+Level 8 Conjuration (Druid)
+Casting Time: 1 minute
+Range: 1 mile
+Components: V, S
+Duration: Concentration, up to 6 rounds
+A wall of water springs into existence at a point you 
+choose within range. You can make the wall up to 
+300 feet long, 300 feet high, and 50 feet thick. The 
+wall lasts for the duration.
+ When the wall appears, each creature in its area 
+makes a Strength saving throw, taking 6d10 Blud -
+geoning damage on a failed save or half as much 
+damage on a successful one.
+ At the start of each of your turns after the wall 
+appears, the wall, along with any creatures in it, 
+moves 50 feet away from you. Any Huge or smaller 
+creature inside the wall or whose space the wall 
+enters when it moves must succeed on a Strength 
+saving throw or take 5d10 Bludgeoning damage. A 
+creature can take this damage only once per round. 
+At the end of the turn, the wall’s height is reduced 
+by 50 feet, and the damage the wall deals on later 
+rounds is reduced by 1d10. When the wall reaches 0 
+feet in height, the spell ends.
+ A creature caught in the wall can move by swim -
+ming. Because of the wave’s force, though, the crea-
+ture must succeed on a Strength (Athletics) check 
+against your spell save DC to move at all. If it fails 
+the check, it can’t move. A creature that moves out 
+of the wall falls to the ground.
+Unseen Servant
+Level 1 Conjuration (Bard, Warlock, Wizard)
+Casting Time: Action or Ritual
+Range: 60 feet
+Components: V, S, M (a bit of string and of wood)
+Duration: 1 hour
+This spell creates an Invisible, mindless, shapeless, 
+Medium force that performs simple tasks at your 
+command until the spell ends. The servant springs 
+into existence in an unoccupied space on the 
+ground within range. It has AC 10, 1 Hit Point, and a 
+Strength of 2, and it can’t attack. If it drops to 0 Hit 
+Points, the spell ends.
+ Once on each of your turns as a Bonus Action, you 
+can mentally command the servant to move up to 
+15 feet and interact with an object. The servant can 
+perform simple tasks that a human could do, such as 
+fetching things, cleaning, mending, folding clothes, 
+lighting fires, serving food, and pouring drinks. 
+Once you give the command, the servant performs 
+the task to the best of its ability until it completes 
+the task, then waits for your next command.
+ If you command the servant to perform a task that 
+would move it more than 60 feet away from you, the 
+spell ends.
+Vampiric Touch
+Level 3 Necromancy (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 1 minute
+The touch of your shadow-wreathed hand can si -
+phon life force from others to heal your wounds. 
+Make a melee spell attack against one creature 
+within reach. On a hit, the target takes 3d6 Necrotic 
+damage, and you regain Hit Points equal to half the 
+amount of Necrotic damage dealt.
+ Until the spell ends, you can make the attack again 
+on each of your turns as a Magic action, targeting 
+the same creature or a different one.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 3.
+Vicious Mockery
+Enchantment Cantrip (Bard)
+Casting Time: Action
+Range: 60 feet

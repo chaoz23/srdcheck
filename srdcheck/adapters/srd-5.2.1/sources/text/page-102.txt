@@ -1,0 +1,104 @@
+System Reference Document 5.2.1
+102
+Item Cost
+Comfortable 2 SP
+Wealthy 3 SP
+Aristocratic 6 SP
+Item Cost
+Wine (bottle)
+Common 2 SP
+Fine 10 GP
+Hirelings
+Skilled hirelings include anyone hired to perform 
+a service that involves a proficiency (including 
+weapon, tool, or skill): a mercenary, an artisan, a 
+scribe, or the like. The pay shown on the Hirelings 
+table is a minimum; some expert hirelings require 
+more pay. Untrained hirelings are hired for work 
+that requires no particular proficiencies; they in -
+clude laborers and porters.
+Hirelings
+Service Cost
+Skilled hireling 2 GP per day
+Untrained hireling 2 SP per day
+Messenger 2 CP per mile
+Spellcasting
+Most settlements contain individuals who are will -
+ing to cast spells in exchange for payment. If a spell 
+has expensive components, add the cost of those 
+components to the cost listed in the Spellcasting 
+Services table. The higher the level of a desired 
+spell, the harder it is to find someone to cast it.
+Spellcasting Services
+Spell Level Availability Cost
+Cantrip Village, town, or city 30 GP
+1 Village, town, or city 50 GP
+2 Village, town, or city 200 GP
+3 Town or city only 300 GP
+4–5 Town or city only 2,000 GP
+6–8 City only 20,000 GP
+9 City only 100,000 GP
+Magic Items
+Adventures hold the promise—but not a guaran -
+tee—of finding magic items. Hundreds of magic 
+items are detailed in “Magic Items” later in this doc -
+ument. Here’s what you need to know about using 
+magic items.
+Identifying a Magic Item
+Some magic items are indistinguishable from their 
+nonmagical counterparts, while others are conspic -
+uously magical. Handling a magic item is enough to 
+give you a sense that it is extraordinary, but learn -
+ing a magic item’s properties isn’t automatic.
+ The Identify spell is the fastest way to reveal an 
+item’s properties. Alternatively, you can focus on 
+one magic item during a Short Rest while being in 
+physical contact with the item. At the end of the 
+rest, you learn its properties and how to use them 
+(but not any curse the item might bear).
+ Sometimes a magic item carries a clue to its prop -
+erties. The command word to activate a ring might 
+be etched inside the band, or a feathered design 
+might hint that it’s a Ring of Feather Falling.
+ Wearing or experimenting with an item can also 
+offer hints about its properties. In the specific case 
+of Potions, a little taste is enough to tell the taster 
+what a potion does. Other items might require more 
+experimentation. For example, if your character 
+puts on a Ring of Swimming, the GM might say, “Your 
+movement feels strangely fluid.” Perhaps you then 
+dive into a river to see what happens. The GM would 
+then say you swim unexpectedly well.
+Attunement
+Some magic items require a creature to form a 
+bond—called Attunement—with them before the 
+creature can use an item’s magical properties. With -
+out becoming attuned to an item that requires At -
+tunement, you gain only its nonmagical benefits un -
+less its description states otherwise. For example, a 
+magic Shield that requires Attunement provides the 
+benefits of a normal Shield if you aren’t attuned to 
+it, but none of its magical properties.
+Attune during a Short Rest
+Attuning to an item requires you to spend a Short 
+Rest focused on only that item while being in physi -
+cal contact with it (this can’t be the same Short Rest 
+used to learn the item’s properties). This focus can 
+take the form of weapon practice (for a Weapon), 
+meditation (for a Wand), or some other appropriate 
+activity. If the Short Rest is interrupted, the At -
+tunement attempt fails. Otherwise, at the end of the 
+Short Rest, you’re attuned to the magic item and can 
+access its full magical capabilities.
+No More Than Three Items
+You can be attuned to no more than three magic 
+items at a time. Any attempt to attune to a fourth 
+item fails; you must end your Attunement to an item 
+first. Additionally, you can’t attune to more than 
+one copy of an item. For example, you can’t attune to 
+more than one Ring of Protection  at a time.
+Ending Attunement
+Your Attunement to an item ends if you no longer 
+satisfy the prerequisites for Attunement, if the item 
+has been more than 100 feet away for at least 24 
+hours, if you die, or if another creature attunes to 

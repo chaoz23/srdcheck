@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+116
+You touch a creature or at least 1 cubic inch of its 
+flesh. An inert duplicate of that creature forms 
+inside the vessel used in the spell’s casting and fin -
+ishes growing after 120 days; you choose whether 
+the finished clone is the same age as the creature or 
+younger. The clone remains inert and endures indef -
+initely while its vessel remains undisturbed.
+ If the original creature dies after the clone fin -
+ishes forming, the creature’s soul transfers to the 
+clone if the soul is free and willing to return. The 
+clone is physically identical to the original and has 
+the same personality, memories, and abilities, but 
+none of the original’s equipment. The creature’s 
+original remains, if any, become inert and can’t be 
+revived, since the creature’s soul is elsewhere.
+Cloudkill
+Level 5 Conjuration (Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You create a 20-foot-radius Sphere of yellow-green 
+fog centered on a point within range. The fog lasts 
+for the duration or until strong wind (such as the 
+one created by Gust of Wind ) disperses it, ending the 
+spell. Its area is Heavily Obscured.
+ Each creature in the Sphere makes a Constitution 
+saving throw, taking 5d8 Poison damage on a failed 
+save or half as much damage on a successful one. A 
+creature must also make this save when the Sphere 
+moves into its space and when it enters the Sphere 
+or ends its turn there. A creature makes this save 
+only once per turn.
+ The Sphere moves 10 feet away from you at the 
+start of each of your turns.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 5.
+Color Spray
+Level 1 Illusion (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a pinch of colorful sand)
+Duration: Instantaneous
+You launch a dazzling array of flashing, colorful 
+light. Each creature in a 15-foot Cone originating 
+from you must succeed on a Constitution saving 
+throw or have the Blinded condition until the end of 
+your next turn.
+Command
+Level 1 Enchantment (Bard, Cleric, Paladin)
+Casting Time: Action
+Range: 60 feet
+Components: V
+Duration: Instantaneous
+You speak a one-word command to a creature you 
+can see within range. The target must succeed on a 
+Wisdom saving throw or follow the command on its 
+next turn. Choose the command from these options:
+Approach. The target moves toward you by the 
+shortest and most direct route, ending its turn if it 
+moves within 5 feet of you.
+Drop. The target drops whatever it is holding and 
+then ends its turn.
+Flee. The target spends its turn moving away from 
+you by the fastest available means.
+Grovel. The target has the Prone condition and then 
+ends its turn.
+Halt. On its turn, the target doesn’t move and takes 
+no action or Bonus Action.
+ Using a Higher-Level Spell Slot. You can affect 
+one additional creature for each spell slot level 
+above 1.
+Commune
+Level 5 Divination (Cleric)
+Casting Time: 1 minute or Ritual
+Range: Self
+Components: V, S, M (incense)
+Duration: 1 minute
+You contact a deity or a divine proxy and ask up 
+to three questions that can be answered with yes 
+or no. You must ask your questions before the 
+spell ends. You receive a correct answer for each 
+question.
+ Divine beings aren’t necessarily omniscient, so 
+you might receive “unclear” as an answer if a ques -
+tion pertains to information that lies beyond the de -
+ity’s knowledge. In a case where a one-word answer 
+could be misleading or contrary to the deity’s inter -
+ests, the GM might offer a short phrase as an answer 
+instead.
+ If you cast the spell more than once before finish -
+ing a Long Rest, there is a cumulative 25 percent 
+chance for each casting after the first that you get 
+no answer.
+Commune with Nature
+Level 5 Divination (Druid, Ranger)
+Casting Time: 1 minute or Ritual
+Range: Self
+Components: V, S
+Duration: Instantaneous
+You commune with nature spirits and gain knowl -
+edge of the surrounding area. In the outdoors, the 
+spell gives you knowledge of the area within 3 miles 
+of you. In caves and other natural underground 
+settings, the radius is limited to 300 feet. The spell 

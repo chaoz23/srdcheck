@@ -1,0 +1,95 @@
+358
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str	4 −3 −3 Dex	15 +2 +2 Con 11 +0 +0
+Int 3 −4 −4 WIS 10 +0 +0 Cha	4 −3 −3
+Skills Perception +2, Stealth +6
+Senses Darkvision 30 ft.; Passive Perception 12
+Languages None
+CR 0 (XP 10; PB +2)
+Traits
+Compression. The octopus can move through a space 
+as narrow as 1 inch without expending extra move-
+ment to do so.
+Water Breathing. The octopus can breathe only 
+underwater.
+Actions
+Tentacles. Melee Attack Roll: +4, reach 5 ft. Hit: 1 
+Bludgeoning damage.
+Reactions
+Ink Cloud (1/Day). Trigger: A creature ends its turn 
+within 5 feet of the octopus while underwater. Re-
+sponse: The octopus releases ink that fills a 5-foot 
+Cube centered on itself, and the octopus moves up to 
+its Swim Speed. The Cube is Heavily Obscured for 1 
+minute or until a strong current or similar effect dis-
+perses the ink.
+Owl
+Tiny Beast, Unaligned
+AC 11   Initiative +1 (11)
+HP 1 (1d4 − 1)
+Speed 5 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 3 −4 −4 Dex 13 +1 +1 Con 8 −1 −1
+Int 2 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +5, Stealth +5
+Senses Darkvision 120 ft.; Passive Perception 15
+Languages None
+CR 0 (XP 10; PB +2)
+Traits
+Flyby. The owl doesn’t provoke an Opportunity Attack 
+when it flies out of an enemy’s reach.
+Actions
+Talons. Melee Attack Roll: +3, reach 5 ft. Hit: 1 Slash-
+ing damage.
+Panther
+Medium Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 13 (3d8)
+Speed 50 ft., Climb 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str	 14 +2 +2 Dex 16 +3 +3 Con 10 +0 +0
+Int 3 −4 −4 WIS	 14 +2 +2 Cha 7 −2 −2
+Skills Perception +4, Stealth +7
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages None
+CR 1/4 (XP 50; PB +2)
+Actions
+Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) 
+Slashing damage.
+Bonus Actions
+Nimble Escape. The panther takes the Disengage or 
+Hide action.
+Piranha
+Tiny Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 1 (1d4 − 1)
+Speed 5 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 2 −4 −4 Dex 16 +3 +3 Con 9 −1 −1
+Int 1 −5 −5 WIS 7 −2 −2 Cha 2 −4 −4
+Senses Darkvision 60 ft.; Passive Perception 8
+Languages None
+CR 0 (XP 10; PB +2)
+Traits
+Water Breathing. The piranha can breathe only 
+underwater.
+Actions
+Bite. Melee Attack Roll: +5 (with Advantage if the target 
+doesn’t have all its Hit Points), reach 5 ft. Hit: 1 Pierc-
+ing damage.
+Plesiosaurus
+Large Beast (Dinosaur), Unaligned
+AC 13   Initiative +2 (12)
+HP 68 (8d10 + 24)
+Speed 20 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex	15 +2 +2 Con 16 +3 +3
+Int 2 −4 −4 WIS 12 +1 +1 Cha	5 −3 −3
+Skills Perception +3, Stealth +4
+Senses Passive Perception 13
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Hold Breath. The plesiosaurus can hold its breath 
+for 1 hour.

@@ -1,0 +1,95 @@
+284
+System Reference Document 5.2.1
+Ettercap
+Ettercap
+Medium Monstrosity, Neutral Evil
+AC 13   Initiative +2 (12)
+HP 44 (8d8 + 8)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 15 +2 +2 Con 13 +1 +1
+Int 7 −2 −2 WIS 12 +1 +1 Cha 8 −1 −1
+Skills Perception +3, Stealth +4, Survival +3
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Spider Climb. The ettercap can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Web Walker. The ettercap ignores movement re-
+strictions caused by webs, and the ettercap knows 
+the location of any other creature in contact with 
+the same web.
+Actions
+Multiattack. The ettercap makes one Bite attack and 
+one Claw attack.
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Piercing damage plus 2 (1d4) Poison damage, and the 
+target has the Poisoned condition until the start of the 
+ettercap’s next turn.
+Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 7 (2d4 + 2) 
+Slashing damage.
+Web Strand (Recharge 5–6). Dexterity Saving Throw: 
+DC 12, one Large or smaller creature the ettercap can 
+see within 30 feet. Failure: The target has the Restrained 
+condition until the web is destroyed (AC 10; HP 5; 
+Vulnerability to Fire damage; Immunity to Bludgeoning, 
+Poison, and Psychic damage).
+Bonus Actions
+Reel. The ettercap pulls one creature within 30 feet of 
+itself that is Restrained by its Web Strand up to 25 feet 
+straight toward itself.
+Ettin
+Ettin
+Large Giant, Chaotic Evil
+AC 12   Initiative −1 (9)
+HP 85 (10d10 + 30)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +5 Dex 8 −1 −1 Con 17 +3 +3
+Int 6 −2 −2 WIS 10 +0 +0 Cha 8 −1 −1
+Skills Perception +4
+Immunities Blinded, Charmed, Deafened, Frightened, 
+Stunned, Unconscious
+Gear Battleaxe, Morningstar
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages Giant
+CR 4 (XP 1,100; PB +2)
+Actions
+Multiattack. The ettin makes one Battleaxe attack and 
+one Morningstar attack.
+Battleaxe. Melee Attack Roll: +7 , reach 5 ft. Hit: 14 
+(2d8 + 5) Slashing damage. If the target is a Large or 
+smaller creature, it has the Prone condition.
+Morningstar. Melee Attack Roll: +7 , reach 5 ft. Hit: 14 
+(2d8 + 5) Piercing damage, and the target has Disad-
+vantage on the next attack roll it makes before the end 
+of its next turn.
+Fire Elemental
+Fire Elemental
+Large Elemental, Neutral
+AC 13  Initiative +3 (13)
+HP 93 (11d10 + 33)
+Speed 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 17 +3 +3 Con 16 +3 +3
+Int 6 −2 −2 WIS 10 +0 +0 Cha 7 −2 −2
+Resistances Bludgeoning, Piercing, Slashing
+Immunities Fire, Poison; Exhaustion, Grappled, Paralyzed, 
+Petrified, Poisoned, Prone, Restrained, Unconscious
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Primordial (Ignan)
+CR 5 (XP 1,800; PB +3)
+Traits
+Fire Aura. At the end of each of the elemental’s turns, 
+each creature in a 10-foot Emanation originating from 
+the elemental takes 5 (1d10) Fire damage. Creatures and 
+flammable objects in the Emanation start burning.
+Fire Form. The elemental can move through a space as 
+narrow as 1 inch without expending extra movement 
+to do so, and it can enter a creature’s space and stop 
+there. The first time it enters a creature’s space on a 
+turn, that creature takes 5 (1d10) Fire damage.
+Illumination. The elemental sheds Bright Light in a 30-
+foot radius and Dim Light for an additional 30 feet.

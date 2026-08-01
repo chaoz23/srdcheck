@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+127
+Earthquake
+Level 8 Transmutation (Cleric, Druid, Sorcerer)
+Casting Time: Action
+Range: 500 feet
+Components: V, S, M (a fractured rock)
+Duration: Concentration, up to 1 minute
+Choose a point on the ground that you can see 
+within range. For the duration, an intense tremor 
+rips through the ground in a 100-foot-radius circle 
+centered on that point. The ground there is Difficult 
+Terrain.
+ When you cast this spell and at the end of each of 
+your turns for the duration, each creature on the 
+ground in the area makes a Dexterity saving throw. 
+On a failed save, a creature has the Prone condition, 
+and its Concentration is broken.
+ You can also cause the effects below.
+ Fissures. A total of 1d6 fissures open in the spell’s 
+area at the end of the turn you cast it. You choose 
+the fissures’ locations, which can’t be under struc -
+tures. Each fissure is 1d10 × 10 feet deep and 10 
+feet wide, and it extends from one edge of the spell’s 
+area to another edge. A creature in the same space 
+as a fissure must succeed on a Dexterity saving 
+throw or fall in. A creature that successfully saves 
+moves with the fissure’s edge as it opens.
+ Structures.  The tremor deals 50 Bludgeoning 
+damage to any structure in contact with the ground 
+in the area when you cast the spell and at the end of 
+each of your turns until the spell ends. If a structure 
+drops to 0 Hit Points, it collapses.
+ A creature within a distance from a collapsing 
+structure equal to half the structure’s height makes 
+a Dexterity saving throw. On a failed save, the crea-
+ture takes 12d6 Bludgeoning damage, has the Prone 
+condition, and is buried in the rubble, requiring a 
+DC 20 Strength (Athletics) check as an action to es -
+cape. On a successful save, the creature takes half as 
+much damage only.
+Eldritch Blast
+Evocation Cantrip (Warlock)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Instantaneous
+You hurl a beam of crackling energy. Make a ranged 
+spell attack against one creature or object in range. 
+On a hit, the target takes 1d10 Force damage.
+ Cantrip Upgrade. The spell creates two beams at 
+level 5, three beams at level 11, and four beams at 
+level 17. You can direct the beams at the same target 
+or at different ones. Make a separate attack roll for 
+each beam.
+Elementalism
+Transmutation Cantrip (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Instantaneous
+You exert control over the elements, creating one of 
+the following effects within range.
+ Beckon Air. You create a breeze strong enough to 
+ripple cloth, stir dust, rustle leaves, and close open 
+doors and shutters, all in a 5-foot Cube. Doors and 
+shutters being held open by someone or something 
+aren’t affected.
+ Beckon Earth. You create a thin shroud of dust or 
+sand that covers surfaces in a 5-foot-square area, or 
+you cause a single word to appear in your handwrit -
+ing in a patch of dirt or sand.
+ Beckon Fire. You create a thin cloud of harmless 
+embers and colored, scented smoke in a 5-foot Cube. 
+You choose the color and scent, and the embers can 
+light candles, torches, or lamps in that area. The 
+smoke’s scent lingers for 1 minute.
+ Beckon Water. You create a spray of cool mist that 
+lightly dampens creatures and objects in a 5-foot 
+Cube. Alternatively, you create 1 cup of clean water 
+either in an open container or on a surface, and the 
+water evaporates in 1 minute.
+ Sculpt Element. You cause dirt, sand, fire, smoke, 
+mist, or water that can fit in a 1-foot Cube to assume 
+a crude shape (such as that of a creature) for 1 hour.
+Enhance Ability
+Level 2 Transmutation (Bard, Cleric, Druid, Ranger, 
+Sorcerer, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (fur or a feather)
+Duration: Concentration, up to 1 hour
+You touch a creature and choose Strength, Dex -
+terity, Intelligence, Wisdom, or Charisma. For the 
+duration, the target has Advantage on ability checks 
+using the chosen ability.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 2. You can choose a different ability for each 
+target.
+Enlarge/Reduce
+Level 2 Transmutation (Bard, Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a pinch of powdered iron)
+Duration: Concentration, up to 1 minute
+For the duration, the spell enlarges or reduces a 
+creature or an object you can see within range (see 

@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   225	  
+	   Placing	  the	  haversack	  inside	  an	  extradimensional	  
+space	  created	  by	  a	   bag	  of	  holding,	  portable	  hole ,	  or	  
+similar	  item	  instantly	  destroys	  both	  items	  and	  opens	  
+a	  gate	  to	  the	  Astral	  Plane.	  The	  gate	  originates	  where	  
+the	  one	  item	  was	  placed	  inside	  the	  other.	  Any	  
+creature	  within	  10	  feet	  of	  the	  gate	  is	  sucked	  through	  
+it	  and	  deposited	  in	  a	   random	  location	  on	  the	  Astral	  
+Plane.	  The	  gate	  then	  closes.	  The	  gate	  is	  one -­‐‑way	  only	  
+and	  can’t	  be	  reopened. 	  
+Hat of Disguise 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+While	  wearing	  this	  hat,	  you	  can	  use	  an	  action	  to	  cast	  
+the	  disguise	  self	  spell	  from	  it	  at	  will.	  The	  spell	  ends	  if	  
+the	  hat	  is	  removed. 	  
+Headband of Intellect 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+Your	  Intelligence	  score	  is	  19	  while	  you	  wear	  this	  
+headband.	  It	  has	  no	  effect	  on	  you	  if	  your	  Intelligence	  
+is	  already	  19	  or	  higher. 	  
+Helm of Brilliance 
+Wondrous	  item,	  very	  rare	  (requires	  attunement) 	  
+This	  dazzling	  helm	  is	  set	  with	  1d10	  diamonds,	  2d10	  
+rubies,	  3d10	  fire	  opals,	  and	  4d10	  opals.	  Any	  gem	  
+pried	  from	  the	  helm	  crumbles	  to	  dust.	  When	  all	  the	  
+gems	  are	  removed	  or	  destroyed,	  the	  helm	  loses	  its	  
+magic.	  
+You	  gain	  the	  following	  benefits	  while	  wearing	  it: 	  
+• You	  can	  use	  an	  action	  to	  cast	  one	  of	  the	  following
+spells	  (save	  DC	  18),	  using	  one	  of	  the	  helm’s	  gem
+s
+of	  the	  specified	  type	  as	  a	  component:	   daylight
+(opal),	  fireball	  (fire	  opal),	  prismatic	  spray
+(diamond),	  or	  wall	  of	  fire	  (ruby).	  The	  gem	  is
+destroyed	  when	  the	  spell	  is	  cast	  and	  disappears
+from	  the	  helm.
+• As	  long	  as	  it	  has	  at	  least	  one	  diamond,	  the	  helm
+emits	  dim	  light	  in	  a	  30 -­‐‑foot	  radius	  when	  at	  least
+one	  undead	  is	  within	  that	  area.	  Any	  undead	  that
+starts	  its	  turn	  in	  that	  area	  takes	  1d6	  radiant
+damage.
+• As	  long	  as	  the	  helm	  has	  at	  least	  one	  ruby,	  you	  have
+resistance	  to	  fire	  damage.
+• As	  long	  as	  the	  helm	  has	  at	  least	  one	  fire	  opal,	  you
+can	  use	  an	  action	  and	  speak	  a	  command	  word	  to
+cause	  one	  weapon	  you	  are	  holding	  to	  burst	  into
+flames.	  The	  flames	  emit	  bright	  light	  in	  a	  10-­‐‑ foot
+radius	  and	  dim	  light	  for	  an	  additional	  10	  feet.	  The
+flames	  are	  harmless	  to	  you	  and	  the	  weapon.	  When
+you	  hit	  with	  an	  attack	  using	  the	  blazing	  weapon,
+the	  target	  takes	  an	  extra	  1d6	  fire	  dama ge.	  The	  
+flames	  last	  until	  you	  use	  a	  bonus	  action	  to	  speak	  
+the	  command	  word	  again	  or	  until	  you	  drop	  or	  
+stow	  the	  weapon. 	  
+	   Roll	  a	  d20	  if	  you	  are	  wearing	  the	  helm	  and	  take	  
+fire	  damage	  as	  a	  result	  of	  failing	  a	  saving	  throw	  
+against	  a	  spell.	  On	  a	  roll	  of	  1,	  the	  h elm	  emits	  beams	  
+of	  light	  from	  its	  remaining	  gems.	  Each	  creature	  
+within	  60	  feet	  of	  the	  helm	  other	  than	  you	  must	  
+succeed	  on	  a	  DC	  17	  Dexterity	  saving	  throw	  or	  be	  
+struck	  by	  a	  beam,	  taking	  radiant	  damage	  equal	  to	  the	  
+number	  of	  gems	  in	  the	  helm.	  The	  helm	  and	  its 	  gems	  
+are	  then	  destroyed. 	  
+Helm of Comprehending Languages 
+Wondrous	  item,	  uncommon 	  
+While	  wearing	  this	  helm,	  you	  can	  use	  an	  action	  to	  
+cast	  the	  comprehend	  languages 	  spell	  from	  it	  at	  will. 	  
+Helm of Telepathy 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+While	  wearing	  this	  helm,	  you	  can	  use	  an	  action	  to	  
+cast	  the	  detect	  thoughts 	  spell	  (save	  DC	  13)	  from	  it.	  As	  
+long	  as	  you	  maintain	  concentration	  on	  the	  spell,	  you	  
+can	  use	  a	  bonus	  action	  to	  send	  a	  telepathic	  message	  
+to	  a	  creature	  you	  are	  focused	  on.	  It	  can	  reply —using	  
+a	  bonus	  action	  to	  do	  so —while	  your	  focus	  on	  it	  
+continues.	  
+	   While	  focusing	  on	  a	  creature	  with	   detect	  thoughts ,	  
+you	  can	  use	  an	  action	  to	  cast	  the	   suggestion	  spell	  
+(save	  DC	  13)	  from	  the	  helm	  on	  that	  creature.	  Once	  
+used,	  the	  suggestion	  property	  can’t	  be	  used	   again	  
+until	  the	  next	  dawn. 	  
+Helm of Teleportation 
+Wondrous	  item,	  rare	  (requires	  attunement) 	  
+This	  helm	  has	  3	  charges.	  While	  wearing	  it,	  you	  can	  
+use	  an	  action	  and	  expend	  1	  charge	  to	  cast	  the	  
+teleport	  spell	  from	  it.	  The	  helm	  regains	  1d3	  
+expended	  charges	  daily	   at	  dawn.	  
+Holy Avenger 
+Weapon	  (any	  sword),	  legendary	  (requires	  attunement	  
+by	  a	  paladin)	  
+You	  gain	  a	  +3	  bonus	  to	  attack	  and	  damage	  rolls	  
+made	  with	  this	  magic	  weapon.	  When	  you	  hit	  a	  fiend	  
+or	  an	  undead	  with	  it,	  that	  creature	  takes	  an	  extra	  
+2d10	  radiant	  damage. 	  
+	   While	  you	  hold	  the	  drawn	  sword,	  it	  creates	  an	  
+aura	  in	  a	  10-­‐‑foot	  radius	  around	  you.	  You	  and	  all	  
+creatures	  friendly	  to	  you	  in	  the	  aura	  have	  advantage	  

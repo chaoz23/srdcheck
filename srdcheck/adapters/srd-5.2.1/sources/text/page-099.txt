@@ -1,0 +1,102 @@
+System Reference Document 5.2.1
+99
+ Fuel. Oil serves as fuel for Lamps and Lanterns. 
+Once lit, a flask of Oil burns for 6 hours in a Lamp or 
+Lantern. That duration doesn’t need to be consecu -
+tive; you can extinguish the burning Oil (as a Utilize 
+action) and rekindle it again until it has burned for a 
+total of 6 hours.
+Paper (2 SP)
+One sheet of Paper can hold about 250 handwritten 
+words.
+Parchment (1 SP)
+One sheet of Parchment can hold about 250 hand -
+written words.
+Perfume (5 GP)
+Perfume comes in a 4-ounce vial. For 1 hour after 
+applying Perfume to yourself, you have Advantage 
+on Charisma (Persuasion) checks made to influence 
+an Indifferent Humanoid within 5 feet of yourself.
+Poison, Basic (100 GP)
+As a Bonus Action, you can use a vial of Basic Poison 
+to coat one weapon or up to three pieces of ammu -
+nition. A creature that takes Piercing or Slashing 
+damage from the poisoned weapon or ammunition 
+takes an extra 1d4 Poison damage. Once applied, 
+the poison retains potency for 1 minute or until its 
+damage is dealt, whichever comes first.
+Pole (5 CP)
+A Pole is 10 feet long. You can use it to touch 
+something up to 10 feet away. If you must make a 
+Strength (Athletics) check as part of a High or Long 
+Jump, you can use the Pole to vault, giving yourself 
+Advantage on the check.
+Pot, Iron (2 GP)
+An Iron Pot holds up to 1 gallon.
+Potion of Healing (50 GP)
+This potion is a magic item. As a Bonus Action, you 
+can drink it or administer it to another creature 
+within 5 feet of yourself. The creature that drinks 
+the magical red fluid in this vial regains 2d4 + 2 Hit 
+Points.
+Pouch (5 SP)
+A Pouch holds up to 6 pounds within one-fifth of a 
+cubic foot.
+Priest’s Pack (33 GP)
+A Priest’s Pack contains the following items: Back -
+pack, Blanket, Holy Water, Lamp, 7 days of Rations, 
+Robe, and Tinderbox.
+Quiver (1 GP)
+A Quiver holds up to 20 Arrows.
+Ram, Portable (4 GP)
+You can use a Portable Ram to break down doors. 
+When doing so, you gain a +4 bonus to the Strength 
+check. One other character can help you use the 
+ram, giving you Advantage on this check.
+Rations (5 SP)
+Rations consist of travel-ready food, including jerky, 
+dried fruit, hardtack, and nuts. See “Malnutrition” 
+in “Rules Glossary” for the risks of not eating.
+Robe (1 GP)
+A Robe has vocational or ceremonial significance. 
+Some events and locations admit only people wear -
+ing a Robe bearing certain colors or symbols.
+Rope (1 GP)
+As a Utilize action, you can tie a knot with Rope if 
+you succeed on a DC 10 Dexterity (Sleight of Hand) 
+check. The Rope can be burst with a successful DC 
+20 Strength (Athletics) check.
+ You can bind an unwilling creature with the Rope 
+only if the creature has the Grappled, Incapacitated, 
+or Restrained condition. If the creature’s legs are 
+bound, the creature has the Restrained condition 
+until it escapes. Escaping the Rope requires the 
+creature to make a successful DC 15 Dexterity (Ac -
+robatics) check as an action.
+Sack (1 CP)
+A Sack holds up to 30 pounds within 1 cubic foot.
+Scholar’s Pack (40 GP)
+A Scholar’s Pack contains the following items: Back -
+pack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 
+sheets of Parchment, and Tinderbox.
+Shovel (2 GP)
+Working for 1 hour, you can use a Shovel to dig a 
+hole that is 5 feet on each side in soil or similar 
+material.
+Signal Whistle (5 CP)
+When blown as a Utilize action, a Signal Whistle 
+produces a sound that can be heard up to 600 feet 
+away.
+Spell Scroll (Cantrip, 30 GP;  
+Level 1, 50 GP)
+A Spell Scroll (Cantrip) or Spell Scroll (Level 1) is a 
+magic item that bears the words of a cantrip or level 
+1 spell, respectively, determined by the scroll’s cre -
+ator. If the spell is on your class’s spell list, you can 
+read the scroll and cast the spell using its normal 
+casting time and without providing any Material 
+components.
+ If the spell requires a saving throw or an attack 
+roll, the spell save DC is 13, and the attack bonus 
+is +5. The scroll disintegrates when the casting is 
+completed.

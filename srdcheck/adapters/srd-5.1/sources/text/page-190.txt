@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   190	  
+Duration:	  Instantaneous	  
+You	  unleash	  a	  string	  of	  insults	  laced	  with	  subtle	  
+enchantments	  at	  a	  creature	  you	  can	  see	  within	  range.	  
+If	  the	  target	  can	  hear	  you	  (though	  it	  need	  not 	  
+understand	  you),	  it	  must	  succeed	  on	  a	  Wisdom	  
+saving	  throw	  or	  take	  1d4	  psychic	  damage	  and	  have	  
+disadvantage	  on	  the	  next	  attack	  roll	  it	  makes	  before	  
+the	  end	  of	  its	  next	  turn. 	  
+	   This	  spell's	  damage	  increases	  by	  1d4	  when	  you	  
+reach	  5th	  level	  (2d4),	  11th	  level	  ( 3d4),	  and	  17th	  
+level	  (4d4).	  
+Wall of Fire 
+4th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  small	  piece	  of	  phosphorus) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  create	  a	  wall	  of	  fire	  on	  a	  solid	  surface	  within	  
+range.	  You	  can 	  make	  the	  wall	  up	  to	  60	  feet	  long,	  20	  
+feet	  high,	  and	  1	  foot	  thick,	  or	  a	  ringed	  wall	  up	  to	  20	  
+feet	  in	  diameter,	  20	  feet	  high,	  and	  1	  foot	  thick.	  The	  
+wall	  is	  opaque	  and	  lasts	  for	  the	  duration. 	  
+	   When	  the	  wall	  appears,	  each	  creature	  within	  its	  
+area	  must	  make	  a	   Dexterity	  saving	  throw.	  On	  a	  failed	  
+save,	  a	  creature	  takes	  5d8	  fire	  damage,	  or	  half	  as	  
+much	  damage	  on	  a	  successful	  save. 	  
+	   One	  side	  of	  the	  wall,	  selected	  by	  you	  when	  you	  
+cast	  this	  spell,	  deals	  5d8	  fire	  damage	  to	  each	  
+creature	  that	  ends	  its	  turn	  within	  10	  fe et	  of	  that	  side	  
+or	  inside	  the	  wall.	  A	  creature	  takes	  the	  same	  damage	  
+when	  it	  enters	  the	  wall	  for	  the	  first	  time	  on	  a	  turn	  or	  
+ends	  its	  turn	  there.	  The	  other	  side	  of	  the	  wall	  deals	  
+no	  damage.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  5th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d8	  for	  each	  slot	  level	  above	  4th.	  
+Wall of Force 
+5th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  powder	  made	  by	  
+crushing	  a	  clear	  gemstone) 	  
+Duration:	  Concentration,	  up	  t o	  10	  minutes	  
+An	  invisible	  wall	  of	  force	  springs	  into	  existence	  at	  a	  
+point	  you	  choose	  within	  range.	  The	  wall	  appears	  in	  
+any	  orientation	  you	  choose,	  as	  a	  horizontal	  or	  
+vertical	  barrier	  or	  at	  an	  angle.	  It	  can	  be	  free	  floating	  
+or	  resting	  on	  a	  solid	  surface.	  Yo u	  can	  form	  it	  into	  a	  
+hemispherical	  dome	  or	  a	  sphere	  with	  a	  radius	  of	  up	  
+to	  10	  feet,	  or	  you	  can	  shape	  a	  flat	  surface	  made	  up	  of	  
+ten	  10-­‐‑foot-­‐‑by-­‐‑10-­‐‑foot	  panels.	  Each	  panel	  must	  be	  
+contiguous	  with	  another	  panel.	  In	  any	  form,	  the	  wall	  
+is	  1/4	  inch	  thick.	  It	  last s	  for	  the	  duration.	  If	  the	  wall	  
+cuts	  through	  a	  creature’s	  space	  when	  it	  appears,	  the	  
+creature	  is	  pushed	  to	  one	  side	  of	  the	  wall	  (your	  
+choice	  which	  side). 	  
+	   Nothing	  can	  physically	  pass	  through	  the	  wall.	  It	  is	  
+immune	  to	  all	  damage	  and	  can’t	  be	  dispelled	  by	  
+dispel	  magic.	  A	  disintegrate	  spell	  destroys	  the	  wall	  
+instantly,	  however.	  The	  wall	  also	  extends	  into	  the	  
+Ethereal	  Plane,	  blocking	  ethereal	  travel	  through	  the	  
+wall.	  
+Wall of Ice 
+6th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  small	  piece	  of	  quartz) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  create	  a	  wall	  of	  ice	  on	  a	  solid	  surface	  within	  
+range.	  You	  can	  form	  it	  into	  a	  hemispherical	  dome	  or	  
+a	  sphere	  with	  a	  radius	  of	  up	  to	  10	  feet,	  or	  you	  can	  
+shape	  a	  flat	  surface	  made	  up	  of	  ten	  1 0-­‐‑foot-­‐‑square	  
+panels.	  Each	  panel	  must	  be	  contiguous	  with	  another	  
+panel.	  In	  any	  form,	  the	  wall	  is	  1	  foot	  thick	  and	  lasts	  
+for	  the	  duration. 	  
+	   If	  the	  wall	  cuts	  through	  a	  creature’s	  space	  when	  it	  
+appears,	  the	  creature	  within	  its	  area	  is	  pushed	  to	  
+one	  side	  of	  the	  wall	  and	  must	  make	  a	  Dexterity	  
+saving	  throw.	  On	  a	  failed	  save,	  the	  creature	  takes	  
+10d6	  cold	  damage,	  or	  half	  as	  much	  damage	  on	  a	  
+successful	  save. 	  
+	   The	  wall	  is	  an	  object	  that	  can	  be	  damaged	  and	  thus	  
+breached.	  It	  has	  AC	  12	  and	  30	  hit	  points	  per	  10 -­‐‑foot	  
+section,	  and	  it	  is	  vulnerable	  to	  fire	  damage.	  Reducing	  
+a	  10-­‐‑foot	  section	  of	  wall	  to	  0	  hit	  points	  destroys	  it	  
+and	  leaves	  behind	  a	  sheet	  of	  frigid	  air	  in	  the	  space	  
+the	  wall	  occupied.	  A	  creature	  moving	  through	  the	  
+sheet	  of	  frigid	  air	  for	  the	  first	  time	  on	  a	  turn	   must	  
+make	  a	  Constitution	  saving	  throw.	  That	  creature	  
+takes	  5d6	  cold	  damage	  on	  a	  failed	  save,	  or	  half	  as	  
+much	  damage	  on	  a	  successful	  one. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  7th	  level	  or	  higher,	  the	  damage	  the	  wall	  
+deals	  when	  it	  appears	  increases	  by	  2d6,	  and	  the	  
+damage	  from	  passing	  through	  the	  sheet	  of	  frigid	  air	  
+increases	  by	  1d6,	  for	  each	  slot	  level	  above	  6th. 	  
+Wall of Stone 
+5th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  

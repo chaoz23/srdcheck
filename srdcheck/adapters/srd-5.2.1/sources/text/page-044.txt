@@ -1,0 +1,80 @@
+System Reference Document 5.2.1
+44
+Druid Spell List
+This section presents the Druid spell list. The spells 
+are organized by spell level and then alphabetized, 
+and each spell’s school of magic is listed. In the Spe -
+cial column, C means the spell requires Concentra-
+tion, R means it’s a Ritual, and M means it requires a 
+specific Material component.
+Cantrips (Level 0 Druid Spells)
+Spell School Special
+Druidcraft Transmutation —
+Elementalism Transmutation —
+Guidance Divination C
+Mending Transmutation —
+Message Transmutation —
+Poison Spray Necromancy —
+Produce Flame Conjuration —
+Resistance Abjuration C
+Shillelagh Transmutation —
+Spare the Dying Necromancy —
+Starry Wisp Evocation —
+Level 1 Druid Spells
+Spell School Special
+Animal Friendship Enchantment —
+Charm Person Enchantment —
+Create or Destroy Water Transmutation —
+Cure Wounds Abjuration —
+Detect Magic Divination C, R
+Detect Poison and Disease Divination C, R
+Entangle Conjuration C
+Faerie Fire Evocation C
+Fog Cloud Conjuration C
+Goodberry Conjuration —
+Healing Word Abjuration —
+Ice Knife Conjuration —
+Jump Transmutation —
+Longstrider Transmutation —
+Protection from Evil and Good Abjuration C, M
+Purify Food and Drink Transmutation R
+Speak with Animals Divination R
+Thunderwave Evocation —
+Level 2 Druid Spells
+Spell School Special
+Aid Abjuration —
+Animal Messenger Enchantment R
+Augury Divination R, M
+Barkskin Transmutation —
+Continual Flame Evocation M
+Darkvision Transmutation —
+Enhance Ability Transmutation C
+Enlarge/Reduce Transmutation C
+Find Traps Divination —
+Flame Blade Evocation C
+Flaming Sphere Evocation C
+Gust of Wind Evocation C
+Heat Metal Transmutation C
+Hold Person Enchantment C
+Lesser Restoration Abjuration —
+Locate Animals or Plants Divination R
+Locate Object Divination C
+Moonbeam Evocation C
+Pass without Trace Abjuration C
+Protection from Poison Abjuration —
+Spike Growth Transmutation C
+Level 3 Druid Spells
+Spell School Special
+Call Lightning Conjuration C
+Conjure Animals Conjuration C
+Daylight Evocation —
+Dispel Magic Abjuration —
+Meld into Stone Transmutation R
+Plant Growth Transmutation —
+Protection from Energy Abjuration C
+Revivify Necromancy M
+Sleet Storm Conjuration C
+Speak with Plants Transmutation —
+Water Breathing Transmutation R
+Water Walk Transmutation R
+Wind Wall Evocation C

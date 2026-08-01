@@ -1,0 +1,93 @@
+316
+System Reference Document 5.2.1
+Priests
+Priest Acolyte
+Medium or Small Humanoid (Cleric), Neutral
+AC 13  Initiative +0 (10)
+HP 11 (2d8 + 2)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 10 +0 +0 Con 12 +1 +1
+Int 10 +0 +0 WIS 14 +2 +2 Cha 11 +0 +0
+Skills Medicine +4, Religion +2
+Gear Chain Shirt, Holy Symbol, Mace
+Senses Passive Perception 12
+Languages Common
+CR 1/4 (XP 50; PB +2)
+Actions
+Mace. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 
++ 2) Bludgeoning damage plus 2 (1d4) Radiant damage.
+Radiant Flame. Ranged Attack Roll: +4, range 60 ft. 
+Hit: 7 (2d6) Radiant damage.
+Spellcasting. The priest casts one of the following 
+spells, using Wisdom as the spellcasting ability:
+At Will: Light, Thaumaturgy
+Bonus Actions
+Divine Aid (1/Day). The priest casts Bless, Healing 
+Word, or Sanctuary, using the same spellcasting ability 
+as Spellcasting.
+Priest
+Medium or Small Humanoid (Cleric), Neutral
+AC 13  Initiative +0 (10)
+HP 38 (7d8 + 7)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 10 +0 +0 Con 12 +1 +1
+Int 13 +1 +1 WIS 16 +3 +3 Cha 13 +1 +1
+Skills Medicine +7 , Perception +5, Religion +5
+Gear Chain Shirt, Holy Symbol, Mace
+Senses Passive Perception 15
+Languages Common plus one other language
+CR 2 (XP 450; PB +2)
+Actions
+Multiattack. The priest makes two attacks, using Mace 
+or Radiant Flame in any combination.
+Mace. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 
+3) Bludgeoning damage plus 5 (2d4) Radiant damage.
+Radiant Flame. Ranged Attack Roll: +5, range 60 ft. 
+Hit: 11 (2d10) Radiant damage.
+Spellcasting. The priest casts one of the following 
+spells, using Wisdom as the spellcasting ability (spell 
+save DC 13):
+At Will: Light, Thaumaturgy
+1/Day: Spirit Guardians
+Bonus Actions
+Divine Aid (3/Day). The priest casts Bless, Dispel 
+Magic, Healing Word, or Lesser Restoration, using the 
+same spellcasting ability as Spellcasting.
+Pseudodragon
+Pseudodragon
+Tiny Dragon, Neutral Good
+AC 14   Initiative +2 (12)
+HP 10 (3d4 + 3)
+Speed 15 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 6 −2 −2 Dex 15 +2 +2 Con 13 +1 +1
+Int 10 +0 +0 WIS 12 +1 +1 Cha 10 +0 +0
+Skills Perception +5, Stealth +4
+Senses Blindsight 10 ft., Darkvision 60 ft.; 
+Passive Perception 15
+Languages Understands Common and Draconic but can’t 
+speak
+CR 1/4 (XP 50; PB +2)
+Traits
+Magic Resistance. The pseudodragon has Advan-
+tage on saving throws against spells and other magi-
+cal effects.
+Actions
+Multiattack. The pseudodragon makes two Bite attacks.
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 + 2) 
+Piercing damage.
+Sting. Constitution Saving Throw: DC 12, one creature 
+the pseudodragon can see within 5 feet. Failure: 5 (2d4) 
+Poison damage, and the target has the Poisoned condi-
+tion for 1 hour. Failure by 5 or More: While Poisoned, 
+the target also has the Unconscious condition, which 
+ends early if the target takes damage or a creature 
+within 5 feet of it takes an action to wake it.
+Purple Worm
+Purple Worm
+Gargantuan Monstrosity, Unaligned
+AC 18  Initiative +3 (13)
+HP 247 (15d20 + 90)
+Speed 50 ft., Burrow 50 ft.

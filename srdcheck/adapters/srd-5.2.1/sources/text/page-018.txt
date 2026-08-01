@@ -1,0 +1,50 @@
+System Reference Document 5.2.1
+18
+ Rolling a 1 or 20. When you roll a 1 on the d20 
+for a Death Saving Throw, you suffer two failures. If 
+you roll a 20 on the d20, you regain 1 Hit Point.
+ Damage at 0 Hit Points. If you take any damage 
+while you have 0 Hit Points, you suffer a Death Sav -
+ing Throw failure. If the damage is from a Critical 
+Hit, you suffer two failures instead. If the damage 
+equals or exceeds your Hit Point maximum, you die.
+Stabilizing a Character
+You can take the Help action to try to stabilize a 
+creature with 0 Hit Points, which requires a suc -
+cessful DC 10 Wisdom (Medicine) check.
+ A Stable creature doesn’t make Death Saving 
+Throws even though it has 0 Hit Points, but it still 
+has the Unconscious condition. If the creature takes 
+damage, it stops being Stable and starts making 
+Death Saving Throws again. A Stable creature that 
+isn’t healed regains 1 Hit Point after 1d4 hours.
+Temporary Hit Points
+Some spells and other effects confer Temporary Hit 
+Points, which are a buffer against losing actual Hit 
+Points, as explained below.
+Lose Temporary Hit Points First
+If you have Temporary Hit Points and take damage, 
+those points are lost first, and any leftover damage 
+carries over to your Hit Points. For example, if you 
+have 5 Temporary Hit Points and take 7 damage, 
+you lose those points and then lose 2 Hit Points.
+Duration
+Temporary Hit Points last until they’re depleted or 
+you finish a Long Rest (see “Rules Glossary”).
+They Don’t Stack
+Temporary Hit Points can’t be added together. If 
+you have Temporary Hit Points and receive more 
+of them, you decide whether to keep the ones you 
+have or to gain the new ones. For example, if a spell 
+grants you 12 Temporary Hit Points when you al -
+ready have 10, you can have 12 or 10, not 22.
+They’re Not Hit Points or Healing
+Temporary Hit Points can’t be added to your Hit 
+Points, healing can’t restore them, and receiving 
+Temporary Hit Points doesn’t count as healing. Be -
+cause Temporary Hit Points aren’t Hit Points, a crea-
+ture can be at full Hit Points and receive Temporary 
+Hit Points.
+ If you have 0 Hit Points, receiving Temporary Hit 
+Points doesn’t restore you to consciousness. Only 
+true healing can save you.

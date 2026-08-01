@@ -1,0 +1,97 @@
+System Reference Document 5.2.1
+96
+Ammunition
+Type Amount Storage Weight Cost
+Arrows 20 Quiver 1 lb. 1 GP
+Bolts 20 Case 1½ lb. 1 GP
+Bullets, Firearm 10 Pouch 2 lb. 3 GP
+Bullets, Sling 20 Pouch 1½ lb. 4 CP
+Needles 50 Pouch 1 lb. 1 GP
+Antitoxin (50 GP)
+As a Bonus Action, you can drink a vial of Antitoxin 
+to gain Advantage on saving throws to avoid or end 
+the Poisoned condition for 1 hour.
+Arcane Focus (Varies)
+An Arcane Focus takes one of the forms in the 
+Arcane Focuses table and is bejeweled or carved to 
+channel arcane magic. A Sorcerer, Warlock, or Wiz-
+ard can use such an item as a Spellcasting Focus.
+Arcane Focuses
+Focus Weight Cost
+Crystal 1 lb. 10 GP
+Orb 3 lb. 20 GP
+Rod 2 lb. 10 GP
+Staff (also a Quarterstaff) 4 lb. 5 GP
+Wand 1 lb. 10 GP
+Backpack (2 GP)
+A Backpack holds up to 30 pounds within 1 cubic 
+foot. It can also serve as a saddlebag.
+Ball Bearings (1 GP)
+As a Utilize action, you can spill Ball Bearings from 
+their pouch. They spread to cover a level, 10-foot-
+square area within 10 feet of yourself. A creature 
+that enters this area for the first time on a turn 
+must succeed on a DC 10 Dexterity saving throw or 
+have the Prone condition. It takes 10 minutes to re -
+cover the Ball Bearings.
+Barrel (2 GP)
+A Barrel holds up to 40 gallons of liquid or up to 4 
+cubic feet of dry goods.
+Basket (4 SP)
+A Basket holds up to 40 pounds within 2 cubic feet.
+Bedroll (1 GP)
+A Bedroll sleeps one Small or Medium creature. 
+While in a Bedroll, you automatically succeed on 
+saving throws against extreme cold (see “Gameplay 
+Toolbox”).
+Bell (1 GP)
+When rung as a Utilize action, a Bell produces a 
+sound that can be heard up to 60 feet away.
+Blanket (5 SP)
+While wrapped in a blanket, you have Advantage on 
+saving throws against extreme cold (see “Gameplay 
+Toolbox”).
+Block and Tackle (1 GP)
+A Block and Tackle allows you to hoist up to four 
+times the weight you can normally lift.
+Book (25 GP)
+A Book contains fiction or nonfiction. If you consult 
+an accurate nonfiction Book about its topic, you gain 
+a +5 bonus to Intelligence (Arcana, History, Nature, 
+or Religion) checks you make about that topic.
+Bottle, Glass (2 GP)
+A Glass Bottle holds up to 11/2 pints.
+Bucket (5 CP)
+A Bucket holds up to half a cubic foot of contents.
+Burglar’s Pack (16 GP)
+A Burglar’s Pack contains the following items: 
+Backpack, Ball Bearings, Bell, 10 Candles, Crowbar, 
+Hooded Lantern, 7 flasks of Oil, 5 days of Rations, 
+Rope, Tinderbox, and Waterskin.
+Caltrops (1 GP)
+As a Utilize action, you can spread Caltrops from 
+their bag to cover a 5-foot-square area within 5 feet 
+of yourself. A creature that enters this area for the 
+first time on a turn must succeed on a DC 15 Dex -
+terity saving throw or take 1 Piercing damage and 
+have its Speed reduced to 0 until the start of its next 
+turn. It takes 10 minutes to recover the Caltrops.
+Candle (1 CP)
+For 1 hour, a lit Candle sheds Bright Light in a 5-foot 
+radius and Dim Light for an additional 5 feet.
+Case, Crossbow Bolt (1 GP)
+A Crossbow Bolt Case holds up to 20 Bolts.
+Case, Map or Scroll (1 GP)
+A Map or Scroll Case holds up to 10 sheets of paper 
+or 5 sheets of parchment.
+Chain (5 GP)
+As a Utilize action, you can wrap a Chain around an 
+unwilling creature within 5 feet of yourself that has 
+the Grappled, Incapacitated, or Restrained condi -
+tion if you succeed on a DC 13 Strength (Athletics) 
+check. If the creature’s legs are bound, the creature 
+has the Restrained condition until it escapes. Es -
+caping the Chain requires the creature to make a 
+successful DC 18 Dexterity (Acrobatics) check as an 
+action. Bursting the Chain requires a successful DC 
+20 Strength (Athletics) check as an action.

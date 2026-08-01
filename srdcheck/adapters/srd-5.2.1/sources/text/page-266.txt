@@ -1,0 +1,95 @@
+266
+System Reference Document 5.2.1
+Points are divided evenly between the new puddings 
+(round down).
+Blink Dog
+Blink Dog
+Medium Fey, Lawful Good
+AC 13  Initiative +3 (13)
+HP 22 (4d8 + 4)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 17 +3 +3 Con 12 +1 +1
+Int 10 +0 +0 WIS 13 +1 +1 Cha 11 +0 +0
+Skills Perception +5, Stealth +5
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages Blink Dog; understands Elvish and Sylvan but 
+can’t speak them
+CR 1/4 (XP 50; PB +2)
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) 
+Piercing damage.
+Bonus Actions
+Teleport (Recharge 4–6). The dog teleports up to 40 
+feet to an unoccupied space it can see.
+Blue Dragons
+Blue Dragon Wyrmling
+Medium Dragon (Chromatic), Lawful Evil
+AC 17  Initiative +2 (12)
+HP 65 (10d8 + 20)
+Speed 30 ft., Burrow 15 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 10 +0 +2 Con 15 +2 +2
+Int 12 +1 +1 WIS 11 +0 +2 Cha 15 +2 +2
+Skills Perception +4, Stealth +2
+Immunities Lightning
+Senses Blindsight 10 ft., Darkvision 60 ft.; 
+Passive Perception 14
+Languages Draconic
+CR 3 (XP 700; PB +2)
+Actions
+Multiattack. The dragon makes two Rend attacks.
+Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 8 (1d10 
++ 3) Slashing damage plus 3 (1d6) Lightning damage.
+Lightning Breath (Recharge 5–6). Dexterity Saving 
+Throw: DC 12, each creature in a 30-foot-long, 5-foot-
+wide Line. Failure: 21 (6d6) Lightning damage. Success: 
+Half damage.
+Young Blue Dragon
+Large Dragon (Chromatic), Lawful Evil
+AC 18  Initiative +4 (14)
+HP 152 (16d10 + 64)
+Speed 40 ft., Burrow 20 ft., Fly 80 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +5 Dex 10 +0 +4 Con 19 +4 +4
+Int 14 +2 +2 WIS 13 +1 +5 Cha 17 +3 +3
+Skills Perception +9, Stealth +4
+Immunities Lightning
+Senses Blindsight 30 ft., Darkvision 120 ft.; 
+Passive Perception 19
+Languages Common, Draconic
+CR 9 (XP 5,000; PB +4)
+Actions
+Multiattack. The dragon makes three Rend attacks.
+Rend. Melee Attack Roll: +9, reach 10 ft. Hit: 12 (2d6 
++ 5) Slashing damage plus 5 (1d10) Lightning damage.
+Lightning Breath (Recharge 5–6). Dexterity Saving 
+Throw: DC 16, each creature in a 60-foot-long, 5-foot-
+wide Line. Failure: 55 (10d10) Lightning damage. Suc-
+cess: Half damage.
+Adult Blue Dragon
+Huge Dragon (Chromatic), Lawful Evil
+AC 19  Initiative +10 (20)
+HP 212 (17d12 + 102)
+Speed 40 ft., Burrow 30 ft., Fly 80 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 25 +7 +7 Dex 10 +0 +5 Con 23 +6 +6
+Int 16 +3 +3 WIS 15 +2 +7 Cha 20 +5 +5
+Skills Perception +12, Stealth +5
+Immunities Lightning
+Senses Blindsight 60 ft., Darkvision 120 ft.; 
+Passive Perception 22
+Languages Common, Draconic
+CR 16 (XP 15,000, or 18,000 in lair; PB +5)
+Traits
+Legendary Resistance (3/Day, or 4/Day in Lair). If 
+the dragon fails a saving throw, it can choose to suc-
+ceed instead.
+Actions
+Multiattack. The dragon makes three Rend attacks. It 
+can replace one attack with a use of Spellcasting to 
+cast Shatter.
+Rend. Melee Attack Roll: +12, reach 10 ft. Hit: 16 (2d8 
++ 7) Slashing damage plus 5 (1d10) Lightning damage.
+Lightning Breath (Recharge 5–6). Dexterity Saving 
+Throw: DC 19, each creature in a 90-foot-long, 5-foot-

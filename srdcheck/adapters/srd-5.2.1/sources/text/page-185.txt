@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+185
+move at least 10 feet immediately before the jump. 
+When you make a standing Long Jump, you can leap 
+only half that distance. Either way, each foot you 
+jump costs a foot of movement.
+ If you land in Difficult Terrain, you must succeed 
+on a DC 10 Dexterity (Acrobatics) check or have the 
+Prone condition.
+ This Long Jump rule assumes that the height of 
+the jump doesn’t matter, such as a jump across a 
+stream or chasm. At your GM’s option, you must suc -
+ceed on a DC 10 Strength (Athletics) check to clear a 
+low obstacle (no taller than a quarter of the jump’s 
+distance), such as a hedge or low wall. Otherwise, 
+you hit the obstacle.
+Long Rest
+A Long Rest is a period of extended downtime—at 
+least 8 hours—available to any creature. During a 
+Long Rest, you sleep for at least 6 hours and per -
+form no more than 2 hours of light activity, such as 
+reading, talking, eating, or standing watch.
+ During sleep, you have the Unconscious condition. 
+After you finish a Long Rest, you must wait at least 
+16 hours before starting another one.
+ Benefits of the Rest. To start a Long Rest, you 
+must have at least 1 Hit Point. When you finish the 
+rest, you gain the following benefits:
+Regain All HP. You regain all lost Hit Points and all 
+spent Hit Point Dice. If your Hit Point maximum 
+was reduced, it returns to normal.
+Ability Scores Restored.  If any of your ability 
+scores were reduced, they return to normal.
+Exhaustion Reduced.  If you have the Exhaustion 
+condition, its level decreases by 1.
+Special Feature.  Some features are recharged by a 
+Long Rest. If you have such a feature, it recharges 
+in the way specified in its description.
+ Interrupting the Rest. A Long Rest is stopped by 
+the following interruptions:
+• Rolling Initiative
+• Casting a spell other than a cantrip
+• Taking any damage
+• 1 hour of walking or other physical exertion
+If you rested at least 1 hour before the interruption, 
+you gain the benefits of a Short Rest. See also  “Short 
+Rest.”
+ You can resume a Long Rest immediately after an 
+interruption. If you do so, the rest requires 1 addi -
+tional hour per interruption to finish.
+Magic [Action]
+When you take the Magic action, you cast a spell 
+that has a casting time of an action or use a feature 
+or magic item that requires a Magic action to be 
+activated.
+ If you cast a spell that has a casting time of 1 min -
+ute or longer, you must take the Magic action on 
+each turn of that casting, and you must maintain 
+Concentration while you do so. If your Concentra-
+tion is broken, the spell fails, but you don’t expend a 
+spell slot. See also  “Concentration.”
+Magical Effect
+An effect is magical if it is created by a spell, a magic 
+item, or a phenomenon that a rule labels as magical.
+Malnutrition [Hazard]
+A creature needs an amount of food per day based 
+on its size, as shown in the Food Needs per Day ta-
+ble. A creature that eats but consumes less than half 
+the required food for a day must succeed on a DC 
+10 Constitution saving throw or gain 1 Exhaustion 
+level at the day’s end. A creature that eats nothing 
+for 5 days automatically gains 1 Exhaustion level at 
+the end of the fifth day as well as an additional level 
+at the end of each subsequent day without food.
+ Exhaustion caused by malnutrition can’t be re -
+moved until the creature eats the full amount of 
+food required for a day. See also  “Exhaustion.”
+Food Needs per Day
+Size Food Size Food
+Tiny 1/4 pound Large 4 pounds
+Small 1 pound Huge 16 pounds
+Medium 1 pound Gargantuan 64 pounds
+Monster
+A monster is a creature controlled by the GM, even 
+if the creature is benevolent. See also  “Creature” and 
+“NPC.”
+Nonplayer Character
+A nonplayer character (NPC) is a monster that has 
+a personal name and a distinct personality. See also  
+“Monster.”
+Object
+An object is a nonliving, distinct thing. Composite 
+things, like buildings, comprise more than one ob -
+ject. See also  “Breaking Objects.”
+Occupied Space
+A space is occupied if a creature is in it or if it is 
+completely filled by objects.
+Opportunity Attacks
+You can make an Opportunity Attack when a crea-
+ture that you can see leaves your reach using its 
+action, its Bonus Action, its Reaction, or one of its 
+speeds. To make the Opportunity Attack, take a Re -
+action to make one melee attack with a weapon or 
+an Unarmed Strike against the provoking creature. 
+The attack occurs right before the creature leaves 
+your reach. See also “Playing the Game” (“Combat”).

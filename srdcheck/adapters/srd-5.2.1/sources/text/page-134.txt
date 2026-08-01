@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+134
+Forcecage
+Level 7 Evocation (Bard, Warlock, Wizard)
+Casting Time: Action
+Range: 100 feet
+Components: V, S, M (ruby dust worth 1,500+ GP, 
+which the spell consumes)
+Duration: Concentration, up to 1 hour
+An immobile, Invisible, Cube-shaped prison com -
+posed of magical force springs into existence 
+around an area you choose within range. The prison 
+can be a cage or a solid box, as you choose.
+ A prison in the shape of a cage can be up to 20 feet 
+on a side and is made from 1/2-inch diameter bars 
+spaced 1/2 inch apart. A prison in the shape of a box 
+can be up to 10 feet on a side, creating a solid bar -
+rier that prevents any matter from passing through 
+it and blocking any spells cast into or out from the 
+area.
+ When you cast the spell, any creature that is com -
+pletely inside the cage’s area is trapped. Creatures 
+only partially within the area, or those too large to 
+fit inside it, are pushed away from the center of the 
+area until they are completely outside it.
+ A creature inside the cage can’t leave it by non -
+magical means. If the creature tries to use telepor -
+tation or interplanar travel to leave, it must first 
+make a Charisma saving throw. On a successful 
+save, the creature can use that magic to exit the 
+cage. On a failed save, the creature doesn’t exit the 
+cage and wastes the spell or effect. The cage also 
+extends into the Ethereal Plane, blocking ethereal 
+travel.
+ This spell can’t be dispelled by Dispel Magic .
+Foresight
+Level 9 Divination (Bard, Druid, Warlock, Wizard)
+Casting Time: 1 minute
+Range: Touch
+Components: V, S, M (a hummingbird feather)
+Duration: 8 hours
+You touch a willing creature and bestow a limited 
+ability to see into the immediate future. For the du -
+ration, the target has Advantage on D20 Tests, and 
+other creatures have Disadvantage on attack rolls 
+against it. The spell ends early if you cast it again.
+Freedom of Movement
+Level 4 Abjuration (Bard, Cleric, Druid, Ranger)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a leather strap)
+Duration: 1 hour
+You touch a willing creature. For the duration, 
+the target’s movement is unaffected by Difficult 
+Terrain, and spells and other magical effects can 
+neither reduce the target’s Speed nor cause the tar -
+get to have the Paralyzed or Restrained conditions. 
+The target also has a Swim Speed equal to its Speed.
+ In addition, the target can spend 5 feet of move -
+ment to automatically escape from nonmagical 
+restraints, such as manacles or a creature imposing 
+the Grappled condition on it.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 4.
+Freezing Sphere
+Level 6 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 300 feet
+Components: V, S, M (a miniature crystal sphere)
+Duration: Instantaneous
+A frigid globe streaks from you to a point of 
+your choice within range, where it explodes in a 
+60-foot-radius Sphere. Each creature in that area 
+makes a Constitution saving throw, taking 10d6 
+Cold damage on failed save or half as much damage 
+on a successful one.
+ If the globe strikes a body of water, it freezes the 
+water to a depth of 6 inches over an area 30 feet 
+square. This ice lasts for 1 minute. Creatures that 
+were swimming on the surface of frozen water are 
+trapped in the ice and have the Restrained condi -
+tion. A trapped creature can take an action to make 
+a Strength (Athletics) check against your spell save 
+DC to break free.
+ You can refrain from firing the globe after com -
+pleting the spell’s casting. If you do so, a globe about 
+the size of a sling bullet, cool to the touch, appears 
+in your hand. At any time, you or a creature you 
+give the globe to can throw the globe (to a range of 
+40 feet) or hurl it with a sling (to the sling’s normal 
+range). It shatters on impact, with the same effect 
+as a normal casting of the spell. You can also set the 
+globe down without shattering it. After 1 minute, if 
+the globe hasn’t already shattered, it explodes.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 6.
+Gaseous Form
+Level 3 Transmutation (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a bit of gauze)
+Duration: Concentration, up to 1 hour
+A willing creature you touch shape-shifts, along 
+with everything it’s wearing and carrying, into a 
+misty cloud for the duration. The spell ends on the 
+target if it drops to 0 Hit Points or if it takes a Magic 
+action to end the spell on itself.

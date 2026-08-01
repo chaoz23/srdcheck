@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+230
+1d20 Golem Time Cost
+1–5 Clay Golem 30 days 65,000 GP
+6 –17 Flesh Golem 60 days 50,000 GP
+18 Iron Golem 120 days 100,000 GP
+19–20 Stone Golem 90 days 80,000 GP
+Manual of Quickness of Action
+Wondrous Item, Very Rare 
+This book contains coordination and balance ex -
+ercises, and its words are charged with magic. 
+If you spend 48 hours over a period of 6 days or 
+fewer studying the book’s contents and practicing 
+its guidelines, your Dexterity increases by 2, to a 
+maximum of 30. The manual then loses its magic 
+but regains it in a century.
+Marvelous Pigments
+Wondrous Item, Very Rare 
+This fine wooden box contains 1d4 pots of pigment 
+and a brush (weighing 1 pound in total).
+ Using the brush and expending 1 pot of pigment, 
+you can paint any number of three-dimensional 
+objects and terrain features (such as walls, doors, 
+trees, flowers, weapons, webs, and pits), provided 
+these elements are all confined to a 20-foot Cube. 
+The effort takes 10 minutes (regardless of the num -
+ber of elements you create), during which time you 
+must remain in the Cube, and requires Concentra-
+tion. If your Concentration is broken or you leave 
+the Cube before the work is done, all the painted 
+elements vanish, and the pot of pigment is wasted.
+ When the work is done, all the painted objects 
+and terrain features become real. Thus, painting a 
+door on a wall creates an actual door, which can be 
+opened to whatever is beyond. Painting a pit creates 
+a real pit, the entire depth of which must lie within 
+the 20-foot Cube.
+ No object created by a pot of pigment can have a 
+value greater than 25 GP, and the total value of all 
+objects created by a pot of pigment can’t exceed 500 
+GP. If you paint objects of greater value (such as a 
+large pile of gold), they look authentic, but close in -
+spection reveals they’re made from paste, cookies, 
+or some other worthless material.
+ If you paint a form of energy such as fire or light -
+ning, the energy dissipates as soon as you complete 
+the painting, doing no harm.
+Medallion of Thoughts
+Wondrous Item, Uncommon (Requires Attunement)
+The medallion has 5 charges. While wearing it, you 
+can expend 1 charge to cast Detect Thoughts (save 
+DC 13) from it. The medallion regains 1d4 expended 
+charges daily at dawn.
+Mirror of Life Trapping
+Wondrous Item, Very Rare 
+When this 4-foot-tall, 2-foot-wide mirror is viewed 
+indirectly, its surface shows faint images of crea-
+tures. The mirror weighs 50 pounds, and it has AC 
+11, HP 10, Immunity to Poison and Psychic damage, 
+and Vulnerability to Bludgeoning damage. It shat -
+ters and is destroyed when reduced to 0 Hit Points.
+ If the mirror is hanging on a vertical surface and 
+you are within 5 feet of it, you can take a Magic 
+action and use a command word to activate it. It 
+remains activated until you take a Magic action and 
+repeat the command word to deactivate it.
+ Any creature other than you that sees its reflec -
+tion in the activated mirror while within 30 feet 
+of the mirror must succeed on a DC 15 Charisma 
+saving throw or be trapped, along with anything it 
+is wearing or carrying, in one of the mirror’s twelve 
+extradimensional cells. A creature that knows the 
+mirror’s nature makes the save with Advantage, 
+and Constructs succeed on the save automatically.
+ An extradimensional cell is an infinite expanse 
+filled with thick fog that reduces visibility to 10 
+feet. Creatures trapped in the mirror’s cells don’t 
+age, and they don’t need to eat, drink, or sleep. A 
+creature trapped within a cell can escape using 
+magic that permits planar travel. Otherwise, the 
+creature is confined to the cell until freed.
+  If the mirror traps a creature but its twelve ex -
+tradimensional cells are already occupied, the mir -
+ror frees one trapped creature at random to accom -
+modate the new prisoner. A freed creature appears 
+in an unoccupied space within sight of the mirror 
+but facing away from it. If the mirror is shattered, 
+all creatures it contains are freed and appear in un -
+occupied spaces near it.
+ While within 5 feet of the mirror, you can take a 
+Magic action to name one creature trapped in it or 
+call out a particular cell by number. The creature 
+named or contained in the named cell appears as an 
+image on the mirror’s surface. You and the creature 
+can then communicate.
+ In a similar way, you can take a Magic action and 
+use a second command word to free one creature 
+trapped in the mirror. The freed creature appears, 
+along with its possessions, in the unoccupied space 
+nearest to the mirror and facing away from it.
+ Placing the mirror inside an extradimensional 
+space created by a Bag of Holding, Portable Hole, 
+or similar item instantly destroys both items and 
+opens a gate to the Astral Plane. The gate originates 
+where the one item was placed inside the other. Any 
+creature within 10 feet of the gate and not behind 
+Total Cover is sucked through it to a random loca-
+tion on the Astral Plane. The gate then closes. The 
+gate is one-way only and can’t be reopened.

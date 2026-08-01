@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+143
+ The cloud moves 10 feet away from you in a direc -
+tion you choose at the start of each of your turns.
+Inflict Wounds
+Level 1 Necromancy (Cleric)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Instantaneous
+A creature you touch makes a Constitution saving 
+throw, taking 2d10 Necrotic damage on a failed save 
+or half as much damage on a successful one.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 1.
+Insect Plague
+Level 5 Conjuration (Cleric, Druid, Sorcerer)
+Casting Time: Action
+Range: 300 feet
+Components: V, S, M (a locust)
+Duration: Concentration, up to 10 minutes
+Swarming locusts fill a 20-foot-radius Sphere 
+centered on a point you choose within range. The 
+Sphere remains for the duration, and its area is 
+Lightly Obscured and Difficult Terrain.
+ When the swarm appears, each creature in it 
+makes a Constitution saving throw, taking 4d10 
+Piercing damage on a failed save or half as much 
+damage on a successful one. A creature also makes 
+this save when it enters the spell’s area for the first 
+time on a turn or ends its turn there. A creature 
+makes this save only once per turn.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 5.
+Instant Summons
+Level 6 Conjuration (Wizard)
+Casting Time: 1 minute or Ritual
+Range: Touch
+Components:  V, S, M (a sapphire worth 1,000+ GP)
+Duration: Until dispelled
+You touch the sapphire used in the casting and an 
+object weighing 10 pounds or less whose longest 
+dimension is 6 feet or less. The spell leaves an Invis -
+ible mark on that object and invisibly inscribes the 
+object’s name on the sapphire. Each time you cast 
+this spell, you must use a different sapphire.
+ Thereafter, you can take a Magic action to speak 
+the object’s name and crush the sapphire. The ob -
+ject instantly appears in your hand regardless of 
+physical or planar distances, and the spell ends.
+ If another creature is holding or carrying the ob -
+ject, crushing the sapphire doesn’t transport it, but 
+instead you learn who that creature is and where 
+that creature is currently located.
+Irresistible Dance
+Level 6 Enchantment (Bard, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V
+Duration: Concentration, up to 1 minute
+One creature that you can see within range must 
+make a Wisdom saving throw. On a successful save, 
+the target dances comically until the end of its next 
+turn, during which it must spend all its movement 
+to dance in place.
+ On a failed save, the target has the Charmed con -
+dition for the duration. While Charmed, the target 
+dances comically, must use all its movement to 
+dance in place, and has Disadvantage on Dexterity 
+saving throws and attack rolls, and other creatures 
+have Advantage on attack rolls against it. On each 
+of its turns, the target can take an action to collect 
+itself and repeat the save, ending the spell on itself 
+on a success.
+Invisibility
+Level 2 Illusion (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (an eyelash in gum arabic)
+Duration: Concentration, up to 1 hour
+A creature you touch has the Invisible condition un -
+til the spell ends. The spell ends early immediately 
+after the target makes an attack roll, deals damage, 
+or casts a spell.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 2.
+Jump
+Level 1 Transmutation (Druid, Ranger, Sorcerer, 
+Wizard)
+Casting Time: Bonus Action
+Range: Touch
+Component: V, S, M (a grasshopper’s hind leg)
+Duration: 1 minute
+You touch a willing creature. Once on each of its 
+turns until the spell ends, that creature can jump up 
+to 30 feet by spending 10 feet of movement.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Knock
+Level 2 Transmutation (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V
+Duration: Instantaneous

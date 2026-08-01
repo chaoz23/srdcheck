@@ -1,0 +1,79 @@
+System Reference Document 5.2.1
+75
+Cantrips (Level 0 Warlock Spells)
+Spell School Special
+Chill Touch Necromancy —
+Eldritch Blast Evocation —
+Mage Hand Conjuration —
+Minor Illusion Illusion —
+Poison Spray Necromancy —
+Prestidigitation Transmutation —
+True Strike Divination —
+Level 1 Warlock Spells
+Spell School Special
+Bane Enchantment C
+Charm Person Enchantment —
+Comprehend Languages Divination R
+Detect Magic Divination C, R
+Expeditious Retreat Transmutation C
+Hellish Rebuke Evocation —
+Hex Enchantment C
+Hideous Laughter Enchantment C
+Illusory Script Illusion R, M
+Protection from Evil and Good Abjuration C, M
+Speak with Animals Divination R
+Unseen Servant Conjuration R
+Level 2 Warlock Spells
+Spell School Special
+Darkness Evocation C
+Enthrall Enchantment C
+Hold Person Enchantment C
+Invisibility Illusion C
+Mind Spike Divination C
+Mirror Image Illusion —
+Misty Step Conjuration —
+Ray of Enfeeblement Necromancy C
+Spider Climb Transmutation C
+Suggestion Enchantment C
+Level 3 Warlock Spells
+Spell School Special
+Counterspell Abjuration —
+Dispel Magic Abjuration —
+Fear Illusion C
+Fly Transmutation C
+Spell School Special
+Gaseous Form Transmutation C
+Hypnotic Pattern Illusion C
+Magic Circle Abjuration M
+Major Image Illusion C
+Remove Curse Abjuration —
+Tongues Divination —
+Vampiric Touch Necromancy C
+Level 4 Warlock Spells
+Spell School Special
+Banishment Abjuration C
+Blight Necromancy —
+Charm Monster Enchantment —
+Dimension Door Conjuration —
+Hallucinatory Terrain Illusion —
+Level 5 Warlock Spells
+Spell School Special
+Contact Other Plane Divination R
+Dream Illusion —
+Hold Monster Enchantment C
+Mislead Illusion C
+Planar Binding Abjuration M
+Scrying Divination C, M
+Teleportation Circle Conjuration M
+Level 6 Warlock Spells
+Spell School Special
+Circle of Death Necromancy M
+Create Undead Necromancy M
+Eyebite Necromancy C
+True Seeing Divination M
+Level 7 Warlock Spells
+Spell School Special
+Etherealness Conjuration —
+Finger of Death Necromancy —
+Forcecage Evocation C, M
+Plane Shift Conjuration M

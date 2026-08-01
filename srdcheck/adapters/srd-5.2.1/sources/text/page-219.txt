@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+219
+scales and gift them. Other times, hunters carefully 
+preserve the hide of a dead dragon. In either case, 
+Dragon Scale Mail is highly valued.
+ While wearing this armor, you gain a +1 bonus to 
+Armor Class, you have Advantage on saving throws 
+against the breath weapons of Dragons, and you 
+have Resistance to one damage type determined by 
+the kind of dragon that provided the scales (see the 
+accompanying table).
+ Additionally, you can focus your senses as a Magic 
+action to discern the distance and direction to the 
+closest dragon within 30 miles of yourself that is 
+of the same type as the armor. This action can’t be 
+used again until the next dawn.
+Dragon Resistance Dragon Resistance
+Black Acid Gold Fire
+Blue Lightning Green Poison
+Brass Fire Red Fire
+Bronze Lightning Silver Cold
+Copper Acid White Cold
+Dragon Slayer
+Weapon (Any Simple or Martial), Rare 
+You gain a +1 bonus to attack rolls and damage rolls 
+made with this magic weapon.
+ The weapon deals an extra 3d6 damage of the 
+weapon’s type if the target is a Dragon.
+Dust of Disappearance
+Wondrous Item, Uncommon 
+This powder resembles fine sand. There is enough 
+of it for one use. When you take a Utilize action to 
+throw the dust into the air, you and each creature 
+and object within a 10-foot Emanation originating 
+from you have the Invisible condition for 2d4 min -
+utes. The duration is the same for all subjects, and 
+the dust is consumed when its magic takes effect. 
+Immediately after an affected creature makes an at -
+tack roll, deals damage, or casts a spell, the Invisible 
+condition ends for that creature.
+Dust of Dryness
+Wondrous Item, Uncommon 
+This small packet contains 1d6 + 4 pinches of dust. 
+As a Utilize action, you can sprinkle a pinch of the 
+dust over water, turning up to a 15-foot Cube of 
+water into one marble-sized pellet, which floats 
+or rests near where the dust was sprinkled. The 
+pellet’s weight is negligible. A creature can take 
+a Utilize action to smash the pellet against a hard 
+surface, causing the pellet to shatter and release the 
+water the dust absorbed. Doing so destroys the pel -
+let and ends its magic.
+ As a Utilize action, you can sprinkle a pinch of the 
+dust on an Elemental within 5 feet of yourself that 
+is composed mostly of water (such as a Water Ele -
+mental). Such a creature exposed to a pinch of the 
+dust makes a DC 13 Constitution saving throw, tak -
+ing 10d6 Necrotic damage on a failed save or half as 
+much damage on a successful one.
+Dust of Sneezing and Choking
+Wondrous Item, Uncommon 
+Found in a small container, this powder resembles 
+Dust of Disappearance, and Identify reveals it to be 
+such. There is enough of it for one use.
+ As a Utilize action, you can throw the dust into the 
+air, forcing yourself and every creature in a 30-foot 
+Emanation originating from you to make a DC 15 
+Constitution saving throw. Constructs, Elementals, 
+Oozes, Plants, and Undead succeed on the save 
+automatically.
+ On a failed save, a creature begins sneezing un -
+controllably; it has the Incapacitated condition and 
+is suffocating. The creature repeats the save at the 
+end of each of its turns, ending the effect on itself on 
+a success. The effect also ends on any creature tar -
+geted by a Lesser Restoration  spell.
+Dwarven Plate
+Armor (Half Plate Armor or Plate Armor), Very Rare 
+While wearing this armor, you gain a +2 bonus to 
+Armor Class. In addition, if an effect moves you 
+against your will along the ground, you can take a 
+Reaction to reduce the distance you are moved by 
+up to 10 feet.
+Dwarven Thrower
+Weapon (Warhammer), Very Rare (Requires 
+Attunement by a Dwarf or a Creature Attuned to a Belt 
+of Dwarvenkind)
+You gain a +3 bonus to attack rolls and damage rolls 
+made with this magic weapon. It has the Thrown 
+property with a normal range of 20 feet and a long 
+range of 60 feet. When you hit with a ranged attack 
+using this weapon, it deals an extra 1d8 Force dam -
+age, or an extra 2d8 Force damage if the target is 
+a Giant. Immediately after hitting or missing, the 
+weapon flies back to your hand.
+Efficient Quiver
+Wondrous Item, Uncommon 
+Each of the quiver’s three compartments connects 
+to an extradimensional space that allows the quiver 
+to hold numerous items while never weighing more 
+than 2 pounds. The shortest compartment can hold 
+up to 60 Arrows, Bolts, or similar objects. The mid -
+size compartment holds up to 18 Javelins or similar 
+objects. The longest compartment holds up to 6 long 
+objects, such as bows, Quarterstaffs, or Spears.
+ You can draw any item the quiver contains as if 
+doing so from a regular quiver or scabbard.

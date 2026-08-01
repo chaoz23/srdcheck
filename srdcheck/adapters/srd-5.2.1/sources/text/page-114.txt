@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+114
+perceive the plane you left, which is cast in shades 
+of gray, but you can’t see anything there more than 
+60 feet away. You can affect and be affected only 
+by other creatures on the Ethereal Plane, and crea-
+tures on the other plane can’t perceive you unless 
+they have a special ability that lets them perceive 
+things on the Ethereal Plane.
+ You return to the other plane at the start of your 
+next turn and when the spell ends if you are on the 
+Ethereal Plane. You return to an unoccupied space 
+of your choice that you can see within 10 feet of the 
+space you left. If no unoccupied space is available 
+within that range, you appear in the nearest unoc -
+cupied space.
+Blur
+Level 2 Illusion (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V
+Duration: Concentration, up to 1 minute
+Your body becomes blurred. For the duration, any 
+creature has Disadvantage on attack rolls against 
+you. An attacker is immune to this effect if it per -
+ceives you with Blindsight or Truesight.
+Burning Hands
+Level 1 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Instantaneous
+A thin sheet of flames shoots forth from you. Each 
+creature in a 15-foot Cone makes a Dexterity saving 
+throw, taking 3d6 Fire damage on a failed save or 
+half as much damage on a successful one.
+ Flammable objects in the Cone that aren’t being 
+worn or carried start burning.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 1.
+Call Lightning
+Level 3 Conjuration (Druid)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+A storm cloud appears at a point within range that 
+you can see above yourself. It takes the shape of a 
+Cylinder that is 10 feet tall with a 60-foot radius.
+ When you cast the spell, choose a point you can 
+see under the cloud. A lightning bolt shoots from the 
+cloud to that point. Each creature within 5 feet of 
+that point makes a Dexterity saving throw, taking 
+3d10 Lightning damage on a failed save or half as 
+much damage on a successful one.
+ Until the spell ends, you can take a Magic action to 
+call down lightning in that way again, targeting the 
+same point or a different one.
+ If you’re outdoors in a storm when you cast this 
+spell, the spell gives you control over that storm in -
+stead of creating a new one. Under such conditions, 
+the spell’s damage increases by 1d10.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 3.
+Calm Emotions
+Level 2 Enchantment (Bard, Cleric)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+Each Humanoid in a 20-foot-radius Sphere centered 
+on a point you choose within range must succeed 
+on a Charisma saving throw or be affected by one of 
+the following effects (choose for each creature):
+• The creature has Immunity to the Charmed and 
+Frightened conditions until the spell ends. If the 
+creature was already Charmed or Frightened, 
+those conditions are suppressed for the duration.
+• The creature becomes Indifferent about crea-
+tures of your choice that it’s Hostile toward. This 
+indifference ends if the target takes damage or 
+witnesses its allies taking damage. When the spell 
+ends, the creature’s attitude returns to normal.
+Chain Lightning
+Level 6 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (three silver pins)
+Duration: Instantaneous
+You launch a lightning bolt toward a target you can 
+see within range. Three bolts then leap from that 
+target to as many as three other targets of your 
+choice, each of which must be within 30 feet of the 
+first target. A target can be a creature or an object 
+and can be targeted by only one of the bolts.
+ Each target makes a Dexterity saving throw, tak -
+ing 10d8 Lightning damage on a failed save or half 
+as much damage on a successful one.
+ Using a Higher-Level Spell Slot. One additional 
+bolt leaps from the first target to another target for 
+each spell slot level above 6.
+Charm Monster
+Level 4 Enchantment (Bard, Druid, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: 1 hour

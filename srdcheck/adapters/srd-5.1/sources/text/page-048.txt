@@ -1,0 +1,91 @@
+System	  Reference	   Document	  5.1 	   48	  
+pact	  weapon	  if	  you	  die,	  if	  you	  perform	  the	  1 -­‐‑hour	  
+ritual	  on	  a	  different	  weapon,	  or	  if	  yo u	  use	  a	  1-­‐‑hour	  
+ritual	  to	  break	  your	  bond	  to	  it.	  The	  weapon	  appears	  
+at	  your	  feet	  if	  it	  is	  in	  the	  extradimensional	  space	  
+when	  the	  bond	  breaks. 	  
+Pact of the Tome 
+Your	  patron	  gives	  you	  a	  grimoire	  called	  a	  Book	  of	  
+Shadows.	  When	  you	  gain	  this	  feature,	  choose	  thre e	  
+cantrips	  from	  any	  class’s	  spell	  list	  (the	  three	  needn’t	  
+be	  from	  the	  same	  list).	  While	  the	  book	  is	  on	  your	  
+person,	  you	  can	  cast	  those	  cantrips	  at	  will.	  They	  
+don’t	  count	  against	  your	  number	  of	  cantrips	  known.	  
+If	  they	  don’t	  appear	  on	  the	  warlock	  spell	  list, 	  they	  
+are	  nonetheless	  warlock	  spells	  for	  you. 	  
+	   If	  you	  lose	  your	  Book	  of	  Shadows,	  you	  can	  perform	  
+a	  1-­‐‑hour	  ceremony	  to	  receive	  a	  replacement	  from	  
+your	  patron.	  This	  ceremony	  can	  be	  performed	  
+during	  a	  short	  or	  long	  rest,	  and	  it	  destroys	  the	  
+previous	  book.	  The	   book	  turns	  to	  ash	  when	  you	  die. 	  
+Ability Score Improvement 
+When	  you	  reach	  4th	  level,	  and	  again	  at	  8th,	  12th,	  
+16th,	  and	  19th	  level,	  you	  can	  increase	  one	  ability	  
+score	  of	  your	  choice	  by	  2,	  or	  you	  can	  increase	  two	  
+ability	  scores	  of	  your	  choice	  by	  1.	  As	  normal ,	  you	  
+can’t	  increase	  an	  ability	  score	  above	  20	  using	  this	  
+feature.	  
+Mystic Arcanum 
+At	  11th	  level,	  your	  patron	  bestows	  upon	  you	  a	  
+magical	  secret	  called	  an	  arcanum.	  Choose	  one	  6th -­‐‑
+level	  spell	  from	  the	  warlock	  spell	  list	  as	  this	  arcanum. 	  
+	   You	  can	  cast	  your	   arcanum	  spell	  once	  without	  
+expending	  a	  spell	  slot.	  You	  must	  finish	  a	  long	  rest	  
+before	  you	  can	  do	  so	  again. 	  
+	   At	  higher	  levels,	  you	  gain	  more	  warlock	  spells	  of	  
+your	  choice	  that	  can	  be	  cast	  in	  this	  way:	  one	  7th -­‐‑
+level	  spell	  at	  13th	  level,	  one	  8th -­‐‑level	  spell	  at	  15th	  
+level,	  and	  one	  9th -­‐‑level	  spell	  at	  17th	  level.	  You	  
+regain	  all	  uses	  of	  your	  Mystic	  Arcanum	  when	  you	  
+finish	  a	  long	  rest. 	  
+Eldritch Master 
+At	  20th	  level,	  you	  can	  draw	  on	  your	  inner	  reserve	  of	  
+mystical	  power	  while	  entreating	  your	  patron	  to	  
+regain	  expended 	  spell	  slots.	  You	  can	  spend	  1	  minute	  
+entreating	  your	  patron	  for	  aid	  to	   regain	  all	  your	  
+expended	  spell	  slots	  from	  your	  Pact	  Magic	  feature.	  
+Once	  you	  regain	  spell	  slots	  with	  this	  feature,	  you	  
+must	  finish	  a	  long	  rest	  before	  you	  can	  do	  so	  again. 	  
+Eldritch Invocations 
+If	  an	  eldritch	  invocation	  has	  prerequisites,	  you	  must	  
+meet	  them	  to	  learn	  it.	  You	  can	  learn	  the	  invocation	  at	  
+the	  same	  time	  that	  you	  meet	  its	  prerequisites.	  A	  level	  
+prerequisite	  refers	  to	  your	  level	  in	  this	  class. 	  
+Agonizing Blast 
+Prerequisite:	  eldritch	  blast	  cantrip	  
+When	  you	  cast	   eldritch	  blast,	  add	  your	  Charisma	  
+modifier	  to	  the	  damage	  it	  deals	  on	  a	  hit. 	  
+Armor of Shadows 
+You	  can	  cast	  mage	  armor	  on	  yourself	  at	  will,	  without	  
+expending	  a	  spell	  slot	  or	  material	  components. 	  
+Ascendant Step 
+Prerequisite:	  9th	   level	  
+You	  can	  cast	  levitate	  on	  yourself	  at	  will,	  without	  
+expending	  a	  spell	  slot	  or	  material	  components. 	  
+Beast Speech 
+You	  can	  cast	  speak	  with	  animals 	  at	  will,	  without	  
+expending	  a	  spell	  slot. 	  
+Beguiling Influence 
+You	  gain	  proficiency	  in	  the	  Deception	  and	  
+Persuasion	  skills.	  
+Bewitching Whispers 
+Prerequisite:	  7th	  level 	  
+You	  can	  cast	  compulsion	  once	  using	  a	  warlock	  spell	  
+slot.	  You	  can’t	  do	  so	  again	  until	  you	  finish	  a	  long	  rest. 	  
+Book of Ancient Secrets 
+Prerequisite:	  Pact	  of	  the	  Tome	  feature 	  
+You	  can	  now	  inscribe	  magi cal	  rituals	  in	  your	  Book	  of	  
+Shadows.	  Choose	  two	  1st -­‐‑level	  spells	  that	  have	  the	  
+ritual	  tag	  from	  any	  class’s	  spell	  list	  (the	  two	  needn’t	  
+be	  from	  the	  same	  list).	  The	  spells	  appear	  in	  the	  book	  
+and	  don’t	  count	  against	  the	  number	  of	  spells	  you	  
+know.	  With	  your	  Bo ok	  of	  Shadows	  in	  hand,	  you	  can	  
+cast	  the	  chosen	  spells	  as	  rituals.	  You	  can’t	  cast	  the	  
+spells	  except	  as	  rituals,	  unless	  you’ve	  learned	  them	  
+by	  some	  other	  means.	  You	  can	  also	  cast	  a	  warlock	  
+spell	  you	  know	  as	  a	  ritual	  if	  it	  has	  the	  ritual	  tag. 	  
+	   On	  your	  adventu res,	  you	  can	  add	  other	  ritual	  
+spells	  to	  your	  Book	  of	  Shadows.	  When	  you	  find	  such	  
+a	  spell,	  you	  can	  add	  it	  to	  the	  book	  if	  the	  spell’s	  level	  
+is	  equal	  to	  or	  less	  than	  half	  your	  warlock	  level	  
+(rounded	  up)	  and	  if	  you	  can	  spare	  the	  time	  to	  

@@ -1,0 +1,89 @@
+System Reference Document 5.2.1
+69
+Level 4 Sorcerer Spells
+Spell School Special
+Banishment Abjuration C
+Blight Necromancy —
+Charm Monster Enchantment —
+Confusion Enchantment C
+Dimension Door Conjuration —
+Dominate Beast Enchantment C
+Fire Shield Evocation —
+Greater Invisibility Illusion C
+Ice Storm Evocation —
+Polymorph Transmutation C
+Stoneskin Transmutation C, M
+Vitriolic Sphere Evocation —
+Wall of Fire Evocation C
+Level 5 Sorcerer Spells
+Spell School Special
+Animate Objects Transmutation C
+Arcane Hand Evocation C
+Cloudkill Conjuration C
+Cone of Cold Evocation —
+Creation Illusion —
+Dominate Person Enchantment C
+Hold Monster Enchantment C
+Insect Plague Conjuration C
+Seeming Illusion —
+Telekinesis Transmutation C
+Teleportation Circle Conjuration M
+Wall of Stone Evocation C
+Level 6 Sorcerer Spells
+Spell School Special
+Chain Lightning Evocation —
+Circle of Death Necromancy M
+Disintegrate Transmutation —
+Eyebite Necromancy C
+Flesh to Stone Transmutation C
+Freezing Sphere Evocation —
+Globe of Invulnerability Abjuration C
+Mass Suggestion Enchantment —
+Move Earth Transmutation C
+Sunbeam Evocation C
+True Seeing Divination M
+Level 7 Sorcerer Spells
+Spell School Special
+Delayed Blast Fireball Evocation C
+Etherealness Conjuration —
+Finger of Death Necromancy —
+Fire Storm Evocation —
+Plane Shift Conjuration M
+Prismatic Spray Evocation —
+Reverse Gravity Transmutation C
+Teleport Conjuration —
+Level 8 Sorcerer Spells
+Spell School Special
+Demiplane Conjuration —
+Dominate Monster Enchantment C
+Earthquake Transmutation C
+Incendiary Cloud Conjuration C
+Power Word Stun Enchantment —
+Sunburst Evocation —
+Level 9 Sorcerer Spells
+Spell School Special
+Gate Conjuration C, M
+Meteor Swarm Evocation —
+Power Word Kill Enchantment —
+Time Stop Transmutation —
+Wish Conjuration —
+Sorcerer Subclass: Draconic 
+Sorcery
+Breathe the Magic of Dragons
+Your innate magic comes from the gift of a dragon. 
+Perhaps an ancient dragon facing death bequeathed 
+some of its magical power to you or your ancestor. 
+You might have absorbed magic from a site infused 
+with dragons’ power. Or perhaps you handled a 
+treasure taken from a dragon’s hoard that was 
+steeped in draconic power. Or you might have a 
+dragon for an ancestor.
+Level 3: Draconic Resilience
+The magic in your body manifests physical traits 
+of your draconic gift. Your Hit Point maximum in -
+creases by 3, and it increases by 1 whenever you 
+gain another Sorcerer level.
+ Parts of you are also covered by dragon-like 
+scales. While you aren’t wearing armor, your base 
+Armor Class equals 10 plus your Dexterity and Cha-
+risma modifiers.

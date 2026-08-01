@@ -1,0 +1,100 @@
+288
+System Reference Document 5.2.1
+Actions
+Multiattack. The ghost makes two Withering 
+Touch attacks.
+Withering Touch. Melee Attack Roll: +5, reach 5 ft. 
+Hit: 19 (3d10 + 3) Necrotic damage.
+Etherealness. The ghost casts the Etherealness spell, 
+requiring no spell components and using Charisma as 
+the spellcasting ability. The ghost is visible on the Mate-
+rial Plane while on the Border Ethereal and vice versa, 
+but it can’t affect or be affected by anything on the 
+other plane.
+Horrific Visage. Wisdom Saving Throw: DC 13, each 
+creature in a 60-foot Cone that can see the ghost and 
+isn’t an Undead. Failure: 10 (2d6 + 3) Psychic damage, 
+and the target has the Frightened condition until the 
+start of the ghost’s next turn. Success: The target is im-
+mune to this ghost’s Horrific Visage for 24 hours.
+Possession (Recharge 6). Charisma Saving Throw: DC 
+13, one Humanoid the ghost can see within 5 feet. Fail-
+ure: The target is possessed by the ghost; the ghost dis-
+appears, and the target has the Incapacitated condition 
+and loses control of its body. The ghost now controls 
+the body, but the target retains awareness. The ghost 
+can’t be targeted by any attack, spell, or other effect, 
+except ones that specifically target Undead. The ghost’s 
+game statistics are the same, except it uses the pos-
+sessed target’s Speed, as well as the target’s Strength, 
+Dexterity, and Constitution modifiers. 
+ The possession lasts until the body drops to 0 Hit 
+Points or the ghost leaves as a Bonus Action. When the 
+possession ends, the ghost appears in an unoccupied 
+space within 5 feet of the target, and the target is im-
+mune to this ghost’s Possession for 24 hours. 
+ Success: The target is immune to this ghost’s Posses-
+sion for 24 hours.
+Ghoul
+Ghoul
+Medium Undead, Chaotic Evil
+AC 12  Initiative +2 (12)
+HP 22 (5d8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 15 +2 +2 Con 10 +0 +0
+Int 7 −2 −2 WIS 10 +0 +0 Cha 6 −2 −2
+Immunities Poison; Charmed, Exhaustion, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Common
+CR 1 (XP 200; PB +2)
+Actions
+Multiattack. The ghoul makes two Bite attacks.
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Piercing damage plus 3 (1d6) Necrotic damage.
+Claw. Melee Attack Roll: +4, reach 5 ft. Hit: 4 (1d4 
++ 2) Slashing damage. If the target is a creature that 
+isn’t an Undead or elf, it is subjected to the following 
+effect. Constitution Saving Throw: DC 10. Failure: The 
+target has the Paralyzed condition until the end of its 
+next turn.
+Gibbering Mouther
+Gibbering Mouther
+Medium Aberration, Chaotic Neutral
+AC 9  Initiative −1 (9)
+HP 52 (7d8 + 21)
+Speed 20 ft., Swim 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 8 −1 −1 Con 16 +3 +3
+Int 3 −4 −4 WIS 10 +0 +0 Cha 6 −2 −2
+Immunities Prone
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Aberrant Ground. The ground in a 10-foot Emanation 
+originating from the mouther is Difficult Terrain.
+Gibbering. The mouther babbles incoherently while 
+it doesn’t have the Incapacitated condition. Wisdom 
+Saving Throw: DC 10, any creature that starts its turn 
+within 20 feet of the mouther while it is babbling. 
+Failure: The target rolls 1d8 to determine what it does 
+during the current turn:
+1–4. The target does nothing.
+5–6. The target takes no action or Bonus Action and 
+uses all its movement to move in a random direction.
+7–8. The target makes a melee attack against a ran-
+domly determined creature within its reach or does 
+nothing if it can’t make such an attack.
+Actions
+Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 7 (2d6) 
+Piercing damage. If the target is a Medium or smaller 
+creature, it has the Prone condition. The target dies if 
+it is reduced to 0 Hit Points by this attack. Its body is 
+then absorbed into the mouther, leaving only equip-
+ment behind.
+Blinding Spittle (Recharge 5–6). Dexterity Saving 
+Throw: DC 10, each creature in a 10-foot-radius Sphere 
+centered on a point within 30 feet. Failure: 7 (2d6) Ra-
+diant damage, and the target has the Blinded condition 
+until the end of the mouther’s next turn.

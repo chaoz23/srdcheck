@@ -1,0 +1,98 @@
+System Reference Document 5.2.1
+97
+Chest (5 GP)
+A Chest holds up to 12 cubic feet of contents.
+Climber’s Kit (25 GP)
+A Climber’s Kit includes boot tips, gloves, pitons, 
+and a harness. As a Utilize action, you can use the 
+Climber’s Kit to anchor yourself; when you do, you 
+can’t fall more than 25 feet from the anchor point, 
+and you can’t move more than 25 feet from there 
+without undoing the anchor as a Bonus Action.
+Clothes, Fine (15 GP)
+Fine Clothes are made of expensive fabrics and 
+adorned with expertly crafted details. Some events 
+and locations admit only people wearing these 
+clothes.
+Clothes, Traveler’s (2 GP)
+Traveler’s Clothes are resilient garments designed 
+for travel in various environments.
+Component Pouch (25 GP)
+A Component Pouch is watertight and filled with 
+compartments that hold all the free Material com -
+ponents of your spells.
+Costume (5 GP)
+While wearing a Costume, you have Advantage on 
+any ability check you make to impersonate the per -
+son or type of person it represents.
+Crowbar (2 GP)
+Using a Crowbar gives you Advantage on Strength 
+checks where the Crowbar’s leverage can be 
+applied.
+Diplomat’s Pack (39 GP)
+A Diplomat’s Pack contains the following items: 
+Chest, Fine Clothes, Ink, 5 Ink Pens, Lamp, 2 Map 
+or Scroll Cases, 4 flasks of Oil, 5 sheets of Paper, 5 
+sheets of Parchment, Perfume, and Tinderbox.
+Druidic Focus (Varies)
+A Druidic Focus takes one of the forms in the Dru -
+idic Focuses table and is carved, tied with ribbon, or 
+painted to channel primal magic. A Druid or Ranger 
+can use such an object as a Spellcasting Focus.
+Druidic Focuses
+Focus Weight Cost
+Sprig of mistletoe — 1 GP
+Wooden staff (also a Quarterstaff) 4 lb. 5 GP
+Yew wand 1 lb. 10 GP
+Dungeoneer’s Pack (12 GP)
+A Dungeoneer’s Pack contains the following items: 
+Backpack, Caltrops, Crowbar, 2 flasks of Oil, 10 
+days of Rations, Rope, Tinderbox, 10 Torches, and 
+Waterskin.
+Entertainer’s Pack (40 GP)
+An Entertainer’s Pack contains the following items: 
+Backpack, Bedroll, Bell, Bullseye Lantern, 3 Cos -
+tumes, Mirror, 8 flasks of Oil, 9 days of Rations, Tin -
+derbox, and Waterskin.
+Explorer’s Pack (10 GP)
+An Explorer’s Pack contains the following items: 
+Backpack, Bedroll, 2 flasks of Oil, 10 days of Ra-
+tions, Rope, Tinderbox, 10 Torches, and Waterskin.
+Flask (2 CP)
+A Flask holds up to 1 pint.
+Grappling Hook (2 GP)
+As a Utilize action, you can throw the Grappling 
+Hook at a railing, a ledge, or another catch within 50 
+feet of yourself, and the hook catches on if you suc -
+ceed on a DC 13 Dexterity (Acrobatics) check. If you 
+tied a Rope to the hook, you can then climb it.
+Healer’s Kit (5 GP)
+A Healer’s Kit has ten uses. As a Utilize action, you 
+can expend one of its uses to stabilize an Uncon -
+scious creature that has 0 Hit Points without need -
+ing to make a Wisdom (Medicine) check.
+Holy Symbol (Varies)
+A Holy Symbol takes one of the forms in the Holy 
+Symbol table and is bejeweled or painted to chan -
+nel divine magic. A Cleric or Paladin can use a Holy 
+Symbol as a Spellcasting Focus.
+ The table indicates whether a Holy Symbol needs 
+to be held, worn, or borne on fabric (such as a tab -
+ard or banner) or a Shield.
+Holy Symbols
+Symbol Weight Cost
+Amulet (worn or held) 1 lb. 5 GP
+Emblem (borne on fabric or a Shield) — 5 GP
+Reliquary (held) 2 lb. 5 GP
+Holy Water (25 GP)
+When you take the Attack action, you can replace 
+one of your attacks with throwing a flask of Holy 
+Water. Target one creature you can see within 20 
+feet of yourself. The target must succeed on a Dex -
+terity saving throw (DC 8 plus your Dexterity mod -
+ifier and Proficiency Bonus) or take 2d8 Radiant 
+damage if it is a Fiend or an Undead.
+Hunting Trap (5 GP)
+As a Utilize action, you can set a Hunting Trap, 
+which is a sawtooth steel ring that snaps shut when 
+a creature steps on a pressure plate in the center. 

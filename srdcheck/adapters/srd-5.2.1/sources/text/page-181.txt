@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+181
+Deafened [Condition]
+While you have the Deafened condition, you experi -
+ence the following effect.
+ Can’t Hear. You can’t hear and automatically fail 
+any ability check that requires hearing.
+Death Saving Throw
+A player character must make a Death Saving 
+Throw (also called a Death Save) if they start their 
+turn with 0 Hit Points. See also  “Playing the Game” 
+(“Damage and Healing”).
+Dehydration [Hazard]
+A creature requires an amount of water per day 
+based on its size, as shown in the Water Needs per 
+Day table. A creature that drinks less than half the 
+required water for a day gains 1 Exhaustion level 
+at the day’s end. Exhaustion caused by dehydra-
+tion can’t be removed until the creature drinks the 
+full amount of water required for a day. See also  
+“Exhaustion.”
+Water Needs per Day
+Size Water
+Tiny 1/4 gallon
+Small 1 gallon
+Medium 1 gallon
+Size Water
+Large 4 gallons
+Huge 16 gallons
+Gargantuan 64 gallons
+Difficult Terrain
+If a space is Difficult Terrain, every foot of move -
+ment in that space costs 1 extra foot. For example, 
+moving 5 feet through Difficult Terrain costs 10 feet 
+of movement. Difficult Terrain isn’t cumulative; ei -
+ther a space is Difficult Terrain or it isn’t.
+ A space is Difficult Terrain if the space contains 
+any of the following or something similar:
+• A creature that isn’t Tiny or your ally
+• Furniture that is sized for creatures of your size or 
+larger
+• Heavy snow, ice, rubble, or undergrowth
+• Liquid that’s between shin- and waist-deep
+• A narrow opening sized for a creature one size 
+smaller than you
+• A slope of 20 degrees or more
+Difficulty Class
+A Difficulty Class (DC) is the target number for an 
+ability check or a saving throw. See also  “Playing the 
+Game” (“D20 Tests”).
+Dim Light
+An area with Dim Light is Lightly Obscured. See 
+also “Lightly Obscured” and “Playing the Game” 
+(“Exploration”).
+Disadvantage
+If you have Disadvantage on a D20 Test, roll two 
+d20s and use the lower roll. A roll can’t be affected 
+by more than one Disadvantage, and Advantage and 
+Disadvantage on the same roll cancel each other. See 
+also “Playing the Game” (“D20 Tests”).
+Disengage [Action]
+If you take the Disengage action, your movement 
+doesn’t provoke Opportunity Attacks for the rest of 
+the current turn.
+Dodge [Action]
+If you take the Dodge action, you gain the following 
+benefits: until the start of your next turn, any attack 
+roll made against you has Disadvantage if you can 
+see the attacker, and you make Dexterity saving 
+throws with Advantage.
+ You lose these benefits if you have the Incapaci -
+tated condition or if your Speed is 0.
+Emanation [Area of Effect]
+An Emanation is an area of effect that extends in 
+straight lines from a creature or an object in all di -
+rections. The effect that creates an Emanation spec -
+ifies the distance it extends.
+ An Emanation moves with the creature or object 
+that is its origin unless it is an instantaneous or a 
+stationary effect.
+ An Emanation’s origin (creature or object) isn’t 
+included in the area of effect unless its creator de -
+cides otherwise.
+Encounter
+An encounter is a scene in an adventure that is part 
+of at least one of the game’s three pillars: social in -
+teraction, exploration, or combat. See also  “Playing 
+the Game” (“Social Interaction,” “Exploration,” and 
+“Combat”).
+Enemy
+A creature is your enemy if it fights against you in 
+combat, actively works to harm you, or is desig -
+nated as your enemy by the rules or GM.
+Exhaustion [Condition]
+While you have the Exhaustion condition, you 
+experience the following effects.
+ Exhaustion Levels. This condition is cumulative. 
+Each time you receive it, you gain 1 Exhaustion 
+level. You die if your Exhaustion level is 6.
+ D20 Tests Affected. When you make a D20 Test, 
+the roll is reduced by 2 times your Exhaustion level.
+ Speed Reduced. Your Speed is reduced by a num-
+ber of feet equal to 5 times your Exhaustion level.
+ Removing Exhaustion Levels. Finishing a Long 
+Rest removes 1 of your Exhaustion levels. When 
+your Exhaustion level reaches 0, the condition ends.

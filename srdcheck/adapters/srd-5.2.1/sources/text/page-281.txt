@@ -1,0 +1,90 @@
+281
+System Reference Document 5.2.1
+Dragon Turtle
+Dragon Turtle
+Gargantuan Dragon, Neutral
+AC 20  Initiative +6 (16)
+HP 356 (23d20 + 115)
+Speed 20 ft., Swim 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 25 +7 +7 Dex 10 +0 +0 Con 20 +5 +11
+Int 10 +0 +0 WIS 12 +1 +7 Cha 12 +1 +1
+Resistances Fire
+Senses Darkvision 120 ft.; Passive Perception 11
+Languages Draconic, Primordial (Aquan)
+CR 17 (XP 18,000; PB +6)
+Traits
+Amphibious. The dragon can breathe air and water.
+Actions
+Multiattack. The dragon makes three Bite attacks. It 
+can replace one attack with a Tail attack.
+Bite. Melee Attack Roll: +13, reach 15 ft. Hit: 23 
+(3d10 + 7) Piercing damage plus 7 (2d6) Fire damage. 
+Being underwater doesn’t grant Resistance to this 
+Fire damage.
+Tail. Melee Attack Roll: +13, reach 15 ft. Hit: 18 (2d10 
++ 7) Bludgeoning damage. If the target is a Huge or 
+smaller creature, it has the Prone condition.
+Steam Breath (Recharge 5–6). Constitution Saving 
+Throw: DC 19, each creature in a 60-foot Cone. Failure: 
+56 (16d6) Fire damage. Success: Half damage. Failure or 
+Success: Being underwater doesn’t grant Resistance to 
+this Fire damage.
+Dretch
+Dretch
+Small Fiend (Demon), Chaotic Evil
+AC 11  Initiative +0 (10)
+HP 18 (4d6 + 4)
+Speed 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 11 +0 +0 Con 12 +1 +1
+Int 5 −3 −3 WIS 8 −1 −1 Cha 3 −4 −4
+Resistances Cold, Fire, Lightning
+Immunities Poison; Poisoned
+Senses Darkvision 60 ft.; Passive Perception 9
+Languages Abyssal; telepathy 60 ft. (works only with 
+creatures that understand Abyssal)
+CR 1/4 (XP 50; PB +2)
+Actions
+Rend. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) 
+Slashing damage.
+Fetid Cloud (1/Day). Constitution Saving Throw: DC 11, 
+each creature in a 10-foot Emanation originating from 
+the dretch. Failure: The target has the Poisoned condi-
+tion until the end of its next turn. While Poisoned, the 
+creature can take either an action or a Bonus Action on 
+its turn, not both, and it can’t take Reactions.
+Drider
+Drider
+Large Monstrosity, Chaotic Evil
+AC 19  Initiative +4 (14)
+HP 123 (13d10 + 52)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 19 +4 +4 Con 18 +4 +4
+Int 13 +1 +1 WIS 16 +3 +3 Cha 12 +1 +1
+Skills Perception +6, Stealth +10
+Senses Darkvision 120 ft.; Passive Perception 16
+Languages Elvish, Undercommon
+CR 6 (XP 2,300; PB +3)
+Traits
+Spider Climb. The drider can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Sunlight Sensitivity. While in sunlight, the drider has 
+Disadvantage on ability checks and attack rolls.
+Web Walker. The drider ignores movement restrictions 
+caused by webs, and the drider knows the location of 
+any other creature in contact with the same web.
+Actions
+Multiattack. The drider makes three attacks, using 
+Foreleg or Poison Burst in any combination.
+Foreleg. Melee Attack Roll: +7 , reach 10 ft. Hit: 13 (2d8 
++ 4) Piercing damage.
+Poison Burst. Ranged Attack Roll: +6, range 120 ft. Hit: 
+13 (3d6 + 3) Poison damage.
+Bonus Actions
+Magic of the Spider Queen (Recharge 5–6). The drider 
+casts Darkness, Faerie Fire, or Web, requiring no Mate-
+rial components and using Wisdom as the spellcasting 
+ability (spell save DC 14).

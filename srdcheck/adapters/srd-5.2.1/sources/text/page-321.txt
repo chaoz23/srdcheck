@@ -1,0 +1,96 @@
+321
+System Reference Document 5.2.1
+Antennae. The rust monster targets one nonmagical 
+metal object—armor or a weapon—worn or carried 
+by a creature within 5 feet of itself. Dexterity Saving 
+Throw: DC 11, the creature with the object. Failure: 
+The object takes a −1 penalty to the AC it offers (ar-
+mor) or to its attack rolls (weapon). Armor is destroyed 
+if the penalty reduces its AC to 10, and a weapon is 
+destroyed if its penalty reaches −5. The penalty can be 
+removed by casting the Mending spell on the armor 
+or weapon.
+Destroy Metal. The rust monster touches a nonmagi-
+cal metal object within 5 feet of itself that isn’t being 
+worn or carried. The touch destroys a 1-foot Cube of 
+the object.
+Reactions
+Reflexive Antennae. Trigger: An attack roll hits the rust 
+monster. Response: The rust monster uses Antennae.
+Sahuagin
+Sahuagin Warrior
+Medium Fiend, Lawful Evil
+AC 12  Initiative +0 (10)
+HP 22 (4d8 + 4)
+Speed 30 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 11 +0 +0 Con 12 +1 +1
+Int 12 +1 +1 WIS 13 +1 +1 Cha 9 −1 −1
+Skills Perception +5
+Resistances Acid, Cold
+Senses Darkvision 120 ft.; Passive Perception 15
+Languages Sahuagin
+CR 1/2 (XP 100; PB +2)
+Traits
+Blood Frenzy. The sahuagin has Advantage on at-
+tack rolls against any creature that doesn’t have all its 
+Hit Points.
+Limited Amphibiousness. The sahuagin can breathe air 
+and water, but it must be submerged at least once every 
+4 hours to avoid suffocating outside water.
+Shark Telepathy. The sahuagin can magically control 
+sharks within 120 feet of itself, using a special telepathy.
+Actions
+Multiattack. The sahuagin makes two Claw attacks.
+Claw. Melee Attack Roll: +3, reach 5 ft. Hit: 4 (1d6 + 1) 
+Slashing damage.
+Bonus Actions
+Aquatic Charge. The sahuagin swims up to its Swim 
+Speed straight toward an enemy it can see.
+Salamander
+Salamander
+Large Elemental, Neutral Evil
+AC 15   Initiative +2 (12)
+HP 90 (12d10 + 24)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 14 +2 +2 Con 15 +2 +2
+Int 11 +0 +0 WIS 10 +0 +0 Cha 12 +1 +1
+Vulnerabilities Cold
+Immunities Fire
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Primordial (Ignan)
+CR 5 (XP 1,800; PB +3)
+Traits
+Fire Aura. At the end of each of the salamander’s turns, 
+each creature of the salamander’s choice in a 5-foot 
+Emanation originating from the salamander takes 7 
+(2d6) Fire damage.
+Actions
+Multiattack. The salamander makes two Flame 
+Spear attacks. It can replace one attack with a use of 
+Constrict.
+Flame Spear. Melee or Ranged Attack Roll: +7 , reach 5 
+ft. or range 20/60 ft. Hit: 13 (2d8 + 4) Piercing damage 
+plus 7 (2d6) Fire damage. Hit or Miss: The spear magi-
+cally returns to the salamander’s hand immediately after 
+a ranged attack.
+Constrict. Strength Saving Throw: DC 15, one Large or 
+smaller creature the salamander can see within 10 feet. 
+Failure: 11 (2d6 + 4) Bludgeoning damage plus 7 (2d6) 
+Fire damage. The target has the Grappled condition (es-
+cape DC 14), and it has the Restrained condition until 
+the grapple ends.
+Satyr
+Satyr
+Medium Fey, Chaotic Neutral
+AC 13  Initiative +3 (13)
+HP 31 (7d8)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 16 +3 +3 Con 11 +0 +0
+Int 12 +1 +1 WIS 10 +0 +0 Cha 14 +2 +2
+Skills Perception +2, Performance +6, Stealth +5
+Senses Passive Perception 12
+Languages Common, Elvish, Sylvan
+CR 1/2 (XP 100; PB +2)

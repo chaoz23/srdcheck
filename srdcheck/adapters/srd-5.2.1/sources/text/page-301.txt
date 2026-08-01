@@ -1,0 +1,99 @@
+301
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 6 −2 −2 Dex 17 +3 +3 Con 13 +1 +1
+Int 11 +0 +0 WIS 12 +1 +1 Cha 14 +2 +2
+Skills Deception +4, Insight +3, Stealth +5
+Resistances Cold
+Immunities Fire, Poison; Poisoned
+Senses Darkvision 120 ft. (unimpeded by magical 
+Darkness); Passive Perception 11
+Languages Common, Infernal
+CR 1 (XP 200; PB +2)
+Traits
+Magic Resistance. The imp has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Sting. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) 
+Piercing damage plus 7 (2d6) Poison damage.
+Invisibility. The imp casts Invisibility on itself, requiring 
+no spell components and using Charisma as the spell-
+casting ability.
+Shape-Shift. The imp shape-shifts to resemble a rat 
+(Speed 20 ft.), a raven (20 ft., Fly 60 ft.), or a spider 
+(20 ft., Climb 20 ft.), or it returns to its true form. Its 
+game statistics are the same in each form, except for 
+its Speed. Any equipment it is wearing or carrying isn’t 
+transformed.
+Incubus
+Incubus
+Medium Fiend, Neutral Evil
+AC 15  Initiative +3 (13)
+HP 66 (12d8 + 12)
+Speed 30 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 8 −1 −1 Dex 17 +3 +3 Con 13 +1 +1
+Int 15 +2 +2 WIS 12 +1 +1 Cha 20 +5 +5
+Skills Deception +9, Insight +5, Perception +5, Persuasion 
++9, Stealth +7
+Resistances Cold, Fire, Poison, Psychic
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages Abyssal, Common, Infernal; telepathy 60 ft.
+CR 4 (XP 1,100; PB +2)
+Traits
+Succubus Form. When the incubus finishes a Long 
+Rest, it can shape-shift into a Succubus, using that stat 
+block instead of this one. Any equipment it is wearing 
+or carrying isn’t transformed.
+Actions
+Multiattack. The incubus makes two Restless 
+Touch attacks.
+Restless Touch. Melee Attack Roll: +7 , reach 5 ft. 
+Hit: 15 (3d6 + 5) Psychic damage, and the target is 
+cursed for 24 hours or until the incubus dies. Until the 
+curse ends, the target gains no benefit from finishing 
+Short Rests.
+Spellcasting. The incubus casts one of the following 
+spells, requiring no Material components and using 
+Charisma as the spellcasting ability (spell save DC 15):
+At Will: Disguise Self, Etherealness
+1/Day Each: Dream, Hypnotic Pattern
+Bonus Actions
+Nightmare (Recharge 6). Wisdom Saving Throw: DC 
+15, one creature the incubus can see within 60 feet. 
+Failure: If the target has 20 Hit Points or fewer, it has 
+the Unconscious condition for 1 hour, until it takes 
+damage, or until a creature within 5 feet of it takes an 
+action to wake it. Otherwise, the target takes 18 (4d8) 
+Psychic damage.
+Invisible Stalker
+Invisible Stalker
+Large Elemental, Neutral
+AC 14  Initiative +7 (22)
+HP 97 (13d10 + 26)
+Speed 50 ft., Fly 50 ft. (hover)
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 19 +4 +4 Con 14 +2 +2
+Int 10 +0 +0 WIS 15 +2 +2 Cha 11 +0 +0
+Skills Perception +8, Stealth +10
+Resistances Bludgeoning, Piercing, Slashing
+Immunities Poison; Exhaustion, Grappled, Paralyzed, 
+Petrified, Poisoned, Prone, Restrained, Unconscious
+Senses Darkvision 60 ft.; Passive Perception 18
+Languages Common, Primordial (Auran)
+CR 6 (XP 2,300; PB +3)
+Traits
+Air Form. The stalker can enter an enemy’s space and 
+stop there. It can move through a space as narrow as 1 
+inch without expending extra movement to do so.
+Invisibility. The stalker has the Invisible condition.
+Actions
+Multiattack. The stalker makes three Wind Swipe at-
+tacks. It can replace one attack with a use of Vortex.
+Wind Swipe. Melee Attack Roll: +7 , reach 5 ft. Hit: 11 
+(2d6 + 4) Force damage.
+Vortex. Constitution Saving Throw: DC 14, one Large 
+or smaller creature in the stalker’s space. Failure: 7 (1d8 
++ 3) Thunder damage, and the target has the Grappled 
+condition (escape DC 13). Until the grapple ends, the 
+target can’t cast spells with a Verbal component and 

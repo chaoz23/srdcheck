@@ -1,0 +1,96 @@
+355
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 14 +2 +2 Con 10 +0 +0
+Int 1 −5 −5 WIS 10 +0 +0 Cha 3 −4 −4
+Senses Passive Perception 10
+Languages None
+CR 1/2 (XP 100; PB +2)
+Traits
+Flyby. The wasp doesn’t provoke an Opportunity At-
+tack when it flies out of an enemy’s reach.
+Actions
+Sting. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Piercing damage plus 5 (2d4) Poison damage.
+Giant Weasel
+Medium Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 9 (2d8)
+Speed 40 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 11 +0 +0 Dex 17 +3 +3 Con 10 +0 +0
+Int 4 −3 −3 WIS 12 +1 +1 Cha 5 −3 −3
+Skills Acrobatics +5, Perception +3, Stealth +5
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages None
+CR 1/8 (XP 25; PB +2)
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) 
+Piercing damage.
+Giant Wolf Spider
+Medium Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 11 (2d8 + 2)
+Speed 40 ft., Climb 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 16 +3 +3 Con 13 +1 +1
+Int 3 −4 −4 WIS 12 +1 +1 Cha 4 −3 −3
+Skills Perception +3, Stealth +7
+Senses Blindsight 10 ft., Darkvision 60 ft.; 
+Passive Perception 13
+Languages None
+CR 1/4 (XP 50; PB +2)
+Traits
+Spider Climb. The spider can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) 
+Piercing damage plus 5 (2d4) Poison damage.
+Goat
+Medium Beast, Unaligned
+AC 10   Initiative +0 (10)
+HP 4 (1d8)
+Speed 40 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 11 +0 +2 Dex 10 +0 +0 Con 11 +0 +0
+Int 2 −4 −4 WIS 10 +0 +0 Cha 5 −3 −3
+Skills Perception +2
+Senses Darkvision 60 ft.; Passive Perception 12
+Languages None
+CR 0 (XP 10; PB +2)
+Actions
+Ram. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Blud-
+geoning damage, or 2 (1d4) Bludgeoning damage if the 
+goat moved 20+ feet straight toward the target immedi-
+ately before the hit.
+Hawk
+Tiny Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 1 (1d4 − 1)
+Speed 10 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 5 −3 −3 Dex 16 +3 +3 Con 8 −1 −1
+Int 2 −4 −4 WIS 14 +2 +2 Cha 6 −2 −2
+Skills Perception +6
+Senses Passive Perception 16
+Languages None
+CR 0 (XP 10; PB +2)
+Actions
+Talons. Melee Attack Roll: +5, reach 5 ft. Hit: 1 Slash-
+ing damage.
+Hippopotamus
+Large Beast, Unaligned
+AC 14  Initiative −2 (8)
+HP 82 (11d10 + 22)
+Speed 30 ft., Swim 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +7 Dex 7 −2 −2 Con 15 +2 +2
+Int 2 −4 −4 WIS 12 +1 +1 Cha 4 −3 −3
+Skills Perception +3
+Senses Passive Perception 13
+Languages None
+CR 4 (XP 1,100; PB +2)
+Traits
+Hold Breath. The hippopotamus can hold its breath for 
+10 minutes.

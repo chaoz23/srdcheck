@@ -1,0 +1,88 @@
+System Reference Document 5.2.1
+38
+Level 7: Blessed Strikes
+Divine power infuses you in battle. You gain one of 
+the following options of your choice (if you get ei -
+ther option from a Cleric subclass in an older book, 
+use only the option you choose for this feature).
+ Divine Strike. Once on each of your turns when 
+you hit a creature with an attack roll using a 
+weapon, you can cause the target to take an extra 
+1d8 Necrotic or Radiant damage (your choice).
+ Potent Spellcasting. Add your Wisdom modifier 
+to the damage you deal with any Cleric cantrip.
+Level 10: Divine Intervention
+You can call on your deity or pantheon to inter -
+vene on your behalf. As a Magic action, choose any 
+Cleric spell of level 5 or lower that doesn’t require a 
+Reaction to cast. As part of the same action, you cast 
+that spell without expending a spell slot or needing 
+Material components. You can’t use this feature 
+again until you finish a Long Rest.
+Level 14: Improved Blessed Strikes
+The option you chose for Blessed Strikes grows 
+more powerful.
+ Divine Strike. The extra damage of your Divine 
+Strike increases to 2d8.
+ Potent Spellcasting. When you cast a Cleric can -
+trip and deal damage to a creature with it, you can 
+give vitality to yourself or another creature within 
+60 feet of yourself, granting a number of Temporary 
+Hit Points equal to twice your Wisdom modifier.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Fate is recommended.
+Level 20: Greater Divine Intervention
+You can call on even more powerful divine interven -
+tion. When you use your Divine Intervention fea-
+ture, you can choose Wish when you select a spell. 
+If you do so, you can’t use Divine Intervention again 
+until you finish 2d4 Long Rests.
+Cleric Spell List
+This section presents the Cleric spell list. The spells 
+are organized by spell level and then alphabetized, 
+and each spell’s school of magic is listed. In the Spe -
+cial column, C means the spell requires Concentra-
+tion, R means it’s a Ritual, and M means it requires a 
+specific Material component.
+Cantrips (Level 0 Cleric Spells)
+Spell School Special
+Guidance Divination C
+Light Evocation —
+Mending Transmutation —
+Resistance Abjuration C
+Sacred Flame Evocation —
+Spare the Dying Necromancy —
+Thaumaturgy Transmutation —
+Level 1 Cleric Spells
+Spell School Special
+Bane Enchantment C
+Bless Enchantment C, M
+Command Enchantment —
+Create or Destroy Water Transmutation —
+Cure Wounds Abjuration —
+Detect Evil and Good Divination C
+Detect Magic Divination C, R
+Detect Poison and Disease Divination C, R
+Guiding Bolt Evocation —
+Healing Word Abjuration —
+Inflict Wounds Necromancy —
+Protection from Evil and Good Abjuration C, M
+Purify Food and Drink Transmutation R
+Sanctuary Abjuration —
+Shield of Faith Abjuration C
+Level 2 Cleric Spells
+Spell School Special
+Aid Abjuration —
+Augury Divination R, M
+Blindness/Deafness Transmutation —
+Calm Emotions Enchantment C
+Continual Flame Evocation M
+Enhance Ability Transmutation C
+Find Traps Divination —
+Gentle Repose Necromancy R, M
+Hold Person Enchantment C
+Lesser Restoration Abjuration —
+Locate Object Divination C
+Prayer of Healing Abjuration —

@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+154
+ The target’s gear melds into the new form. The 
+creature can’t use or otherwise benefit from any of 
+that equipment.
+Power Word Heal
+Level 9 Enchantment (Bard, Cleric)
+Casting Time: Action
+Range: 60 feet
+Component: V
+Duration: Instantaneous
+A wave of healing energy washes over one creature 
+you can see within range. The target regains all its 
+Hit Points. If the creature has the Charmed, Fright -
+ened, Paralyzed, Poisoned, or Stunned condition, 
+the condition ends. If the creature has the Prone 
+condition, it can use its Reaction to stand up.
+Power Word Kill
+Level 9 Enchantment (Bard, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 60 feet
+Component: V
+Duration: Instantaneous
+You compel one creature you can see within range 
+to die. If the target has 100 Hit Points or fewer, it 
+dies. Otherwise, it takes 12d12 Psychic damage.
+Power Word Stun
+Level 8 Enchantment (Bard, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V
+Duration: Instantaneous
+You overwhelm the mind of one creature you can 
+see within range. If the target has 150 Hit Points or 
+fewer, it has the Stunned condition. Otherwise, its 
+Speed is 0 until the start of your next turn.
+ The Stunned target makes a Constitution saving 
+throw at the end of each of its turns, ending the con -
+dition on itself on a success.
+Prayer of Healing
+Level 2 Abjuration (Cleric, Paladin)
+Casting Time: 10 minutes
+Range: 30 feet
+Components: V
+Duration: Instantaneous
+Up to five creatures of your choice who remain 
+within range for the spell’s entire casting gain the 
+benefits of a Short Rest and also regain 2d8 Hit 
+Points. A creature can’t be affected by this spell 
+again until that creature finishes a Long Rest.
+ Using a Higher-Level Spell Slot. The healing in-
+creases by 1d8 for each spell slot level above 2.
+Prestidigitation
+Transmutation Cantrip (Bard, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 10 feet
+Components: V, S
+Duration: Up to 1 hour
+You create a magical effect within range. Choose 
+the effect from the options below. If you cast this 
+spell multiple times, you can have up to three of its 
+non-instantaneous effects active at a time.
+ Sensory Effect.  You create an instantaneous, 
+harmless sensory effect, such as a shower of sparks, 
+a puff of wind, faint musical notes, or an odd odor.
+  Fire Play. You instantaneously light or snuff out a 
+candle, a torch, or a small campfire.
+ Clean or Soil. You instantaneously clean or soil an 
+object no larger than 1 cubic foot.
+ Minor Sensation. You chill, warm, or flavor up to 
+1 cubic foot of nonliving material for 1 hour.
+ Magic Mark. You make a color, a small mark, or a 
+symbol appear on an object or a surface for 1 hour.
+ Minor Creation. You create a nonmagical trinket 
+or an illusory image that can fit in your hand. It 
+lasts until the end of your next turn. A trinket can 
+deal no damage and has no monetary worth.
+Prismatic Spray
+Level 7 Evocation (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Instantaneous
+Eight rays of light flash from you in a 60-foot Cone. 
+Each creature in the Cone makes a Dexterity saving 
+throw. For each target, roll 1d8 to determine which 
+color ray affects it, consulting the Prismatic Rays 
+table.
+Prismatic Rays
+1d8 Ray
+1 Red. Failed Save: 12d6 Fire damage. Successful 
+Save: Half as much damage.
+2 Orange. Failed Save: 12d6 Acid damage. Successful 
+Save: Half as much damage.
+3 Yellow. Failed Save: 12d6 Lightning damage. Suc -
+cessful Save: Half as much damage.
+4 Green. Failed Save: 12d6 Poison damage. Success -
+ful Save: Half as much damage.

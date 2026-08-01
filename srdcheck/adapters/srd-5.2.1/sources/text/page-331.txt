@@ -1,0 +1,96 @@
+331
+System Reference Document 5.2.1
+Traits
+Amphibious. The giant can breathe air and water.
+Actions
+Multiattack. The giant makes two attacks, using Storm 
+Sword or Thunderbolt in any combination.
+Storm Sword. Melee Attack Roll: +14, reach 10 ft. 
+Hit: 23 (4d6 + 9) Slashing damage plus 13 (3d8) Light-
+ning damage.
+Thunderbolt. Ranged Attack Roll: +14, range 500 ft. 
+Hit: 22 (2d12 + 9) Lightning damage, and the target has 
+the Blinded and Deafened conditions until the start of 
+the giant’s next turn.
+Lightning Storm (Recharge 5–6). Dexterity Saving 
+Throw: DC 18, each creature in a 10-foot-radius, 
+40-foot-high Cylinder originating from a point the giant 
+can see within 500 feet. Failure: 55 (10d10) Lightning 
+damage. Success: Half damage.
+Spellcasting. The giant casts one of the following spells, 
+requiring no Material components and using Wisdom 
+as the spellcasting ability (spell save DC 18):
+At Will: Detect Magic, Light
+1/Day: Control Weather
+Succubus
+Succubus
+Medium Fiend, Neutral Evil
+AC 15  Initiative +3 (13)
+HP 71 (13d8 + 13)
+Speed 30 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 8 −1 −1 Dex 17 +3 +3 Con 13 +1 +1
+Int 15 +2 +2 WIS 12 +1 +1 Cha 20 +5 +5
+Skills Deception +9, Insight +5, Perception +5, Persuasion 
++9, Stealth +7
+Resistances Cold, Fire, Poison, Psychic
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages Abyssal, Common, Infernal; telepathy 60 ft.
+CR 4 (XP 1,100; PB +2)
+Traits
+Incubus Form. When the succubus finishes a Long 
+Rest, it can shape-shift into an Incubus, using that stat 
+block instead of this one.
+Actions
+Multiattack. The succubus makes one Fiendish Touch 
+attack and uses Charm or Draining Kiss.
+Fiendish Touch. Melee Attack Roll: +7 , reach 5 ft. Hit: 
+16 (2d10 + 5) Psychic damage.
+Charm. The succubus casts Dominate Person (level 8 
+version), requiring no spell components and using Cha-
+risma as the spellcasting ability (spell save DC 15).
+Draining Kiss. Constitution Saving Throw: DC 15, one 
+creature Charmed by the succubus within 5 feet. Fail-
+ure: 13 (3d8) Psychic damage. Success: Half damage. 
+Failure or Success: The target’s Hit Point maximum de-
+creases by an amount equal to the damage taken.
+Bonus Actions
+Shape-Shift. The succubus shape-shifts into a Medium 
+or Small Humanoid, or it returns to its true form. Its 
+game statistics are the same in each form, except its Fly 
+Speed is available only in its true form. Any equipment 
+it is wearing or carrying isn’t transformed.
+Tarrasque
+Tarrasque
+Gargantuan Monstrosity (Titan), Unaligned
+AC 25  Initiative +18 (28)
+HP 697 (34d20 + 340)
+Speed 60 ft., Burrow 40 ft., Climb 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 30 +10 +10 Dex 11 +0 +9 Con 30 +10 +10
+Int 3 −4 +5 WIS 11 +0 +9 Cha 11 +0 +9
+Skills Perception +9
+Resistances Bludgeoning, Piercing, Slashing
+Immunities Fire, Poison; Charmed, Deafened, Frightened, 
+Paralyzed, Poisoned
+Senses Blindsight 120 ft.; Passive Perception 19
+Languages None
+CR 30 (XP 155,000; PB +9)
+Traits
+Legendary Resistance (6/Day). If the tarrasque fails a 
+saving throw, it can choose to succeed instead.
+Magic Resistance. The tarrasque has Advantage on sav-
+ing throws against spells and other magical effects.
+Reflective Carapace. If the tarrasque is targeted by a 
+Magic Missile spell or a spell that requires a ranged 
+attack roll, roll 1d6. On a 1–5, the tarrasque is unaf-
+fected. On a 6, the tarrasque is unaffected and reflects 
+the spell, turning the caster into the target.
+Siege Monster. The tarrasque deals double damage to 
+objects and structures.
+Actions
+Multiattack. The tarrasque makes one Bite attack 
+and three other attacks, using Claw or Tail in any 
+combination.
+Bite. Melee Attack Roll: +19, reach 15 ft. Hit: 36 (4d12 
++ 10) Piercing damage, and the target has the Grappled 

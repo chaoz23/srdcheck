@@ -1,0 +1,99 @@
+System Reference Document 5.2.1
+209
+Magic Items A–Z
+Magic items are presented in alphabetical order. 
+ If a magic item description capitalizes a creature’s 
+name and presents it in bold  type, that’s a visual 
+cue pointing you to the creature’s stat block. Unless 
+the text states otherwise, the stat block is in “Mon -
+sters.” How to read and use a stat block is explained 
+in “Monsters.”
+Adamantine Armor
+Armor (Any Medium or Heavy, Except Hide Armor), 
+Uncommon
+This suit of armor is reinforced with adamantine, 
+one of the hardest substances in existence. While 
+you’re wearing it, any Critical Hit against you be -
+comes a normal hit.
+Ammunition, +1, +2, or +3
+Weapon (Any Ammunition), Uncommon (+1), Rare (+2), 
+or Very Rare (+3) 
+You have a bonus to attack rolls and damage rolls 
+made with this piece of magic ammunition. The bo -
+nus is determined by the rarity of the ammunition. 
+Once it hits a target, the ammunition is no longer 
+magical.
+ This ammunition is typically found or sold in 
+quantities of ten or twenty pieces. Ten pieces of this 
+ammunition are equivalent in value to a potion of 
+the same rarity.
+Ammunition of Slaying
+Weapon (Any Ammunition), Very Rare 
+This magic ammunition is meant to slay creatures 
+of a particular type, which the GM chooses or de -
+termines randomly by rolling on the table below. If 
+a creature of that type takes damage from the am -
+munition, the creature makes a DC 17 Constitution 
+saving throw, taking an extra 6d10 Force damage 
+on a failed save or half as much extra damage on a 
+successful one.
+ After dealing its extra damage to a creature, the 
+ammunition becomes nonmagical.
+1d100 Creature Type 1d100 Creature Type
+01–10 Aberrations 51–60 Fey
+11–15 Beasts 61–70 Fiends
+16–20 Celestials 71–75 Giants
+21–25 Constructs 76–80 Monstrosities
+26–35 Dragons 81–85 Oozes
+36–45 Elementals 86–90 Plants
+46–50 Humanoids 91–00 Undead
+Amulet of Health
+Wondrous Item, Rare (Requires Attunement)
+Your Constitution is 19 while you wear this amulet. 
+It has no effect on you if your Constitution is 19 or 
+higher without it.
+Amulet of Proof against Detection  
+and Location
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing this amulet, you can’t be targeted 
+by Divination spells or perceived through magical 
+scrying sensors unless you allow it.
+Amulet of the Planes
+Wondrous Item, Very Rare (Requires Attunement)
+While wearing this amulet, you can take a Magic 
+action to name a location that you are familiar with 
+on another plane of existence. Then make a DC 15 
+Intelligence (Arcana) check. On a successful check, 
+you cast Plane Shift. On a failed check, you and each 
+creature and object within 15 feet of you travel to 
+a random destination determined by rolling 1d100 
+and consulting the following table.
+1d100 Destination
+01–60 Random location on the plane you named
+61–70 Random location on an Inner Plane deter -
+mined by rolling 1d6: on a 1, the Plane of Air; 
+on a 2, the Plane of Earth; on a 3, the Plane of 
+Fire; on a 4, the Plane of Water; on a 5, the 
+Feywild; on a 6, the Shadowfell
+71–80 Random location on an Outer Plane deter -
+mined by rolling 1d8: on a 1, Arborea; on a 2, 
+Arcadia; on a 3, the Beastlands; on a 4, Byto-
+pia; on a 5, Elysium; on a 6, Mechanus; on a 7, 
+Mount Celestia; on an 8,  Ysgard
+81–90 Random location on an Outer Plane deter -
+mined by rolling 1d8: on a 1, the Abyss; on a 
+2, Acheron; on a 3, Carceri; on a 4, Gehenna; 
+on a 5, Hades; on a 6, Limbo; on a 7, the Nine 
+Hells; on an 8, Pandemonium
+91–00 Random location on the Astral Plane
+Animated Shield
+Armor (Shield), Very Rare (Requires Attunement)
+While holding this Shield, you can take a Bonus 
+Action to cause it to animate. The Shield leaps into 
+the air and hovers in your space to protect you as if 
+you were wielding it, leaving your hands free. The 
+Shield remains animate for 1 minute, until you take 
+a Bonus Action to end this effect, or until you die or 
+have the Incapacitated condition, at which point the 
+Shield falls to the ground or into your hand if you 
+have one free.

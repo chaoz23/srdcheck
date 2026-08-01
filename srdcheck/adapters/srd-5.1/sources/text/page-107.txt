@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   107	  
+Locate	  Creature	  
+Stone	  Shape	  
+5th Level 
+Commune	  
+Contagion	  
+Dispel	  Evil	  and	  Good 	  
+Flame	  Strike	  
+Geas	  
+Greater	  Restoration 	  
+Hallow	  
+Insect	  Plague	  
+Legend	  Lore	  
+Mass	  Cure	  Wounds 	  
+Planar	  Binding	  
+Raise	  Dead	  
+Scrying	  
+6th Level 
+Blade	  Barrier	  
+Create	  Undead 	  
+Find	  the	  Path	  
+Forbiddance	  
+Harm	  
+Heal	  
+Heroes’	  Feast	  
+Planar	  Ally	  
+True	  Seeing	  
+Word	  of	  Recall 	  
+7th Level 
+Conjure	  Celestial 	  
+Divine	  Word	  
+Etherealness	  
+Fire	  Storm	  
+Plane	  Shift	  
+Regenerate	  
+Resurrection	  
+Symbol	  
+8th Level 
+Antimagic	  Field 	  
+Control	  Weather 	  
+Earthquake	  
+Holy	  Aura	  
+9th Level 
+Astral	  Projection 	  
+Gate	  
+Mass	  Heal	  
+True	  Resurrection	  
+Druid Spells 
+Cantrips (0 Level) 
+Druidcraft	  
+Guidance	  
+Mending	  
+Poison	  Spray	  
+Produce	  Flame 	  
+Resistance	  
+Shillelagh	  
+1st Level 
+Animal	  Friendship 	  
+Charm	  Person	  
+Create	  or	  Destroy	  Water 	  
+Cure	  Wounds	  
+Detect	  Magic	  
+Detect	  Poison	  and	  Disease 	  
+Entangle	  
+Faerie	  Fire	  
+Fog	  Cloud	  
+Goodberry	  
+Healing	  Word	  
+Jump	  
+Longstrider	  
+Purify	  Food	  and	  Drink 	  
+Speak	  with	  Animals 	  
+Thunderwave	  
+2nd Level 
+Animal	  Messenger 	  
+Barkskin	  
+Darkvision	  
+Enhance	  Ability 	  
+Find	  Traps	  
+Flame	  Blade	  
+Flaming	  Sphere 	  
+Gust	  of	  Wind	  
+Heat	  Metal	  
+Hold	  Person	  
+Lesser	  Restoration 	  
+Locate	  Animals	  or	  Plants 	  
+Locate	  Object	  
+Moonbeam	  
+Pass	  without	  Trace 	  
+Protection	  from	  Poison 	  
+Spike	  Growth	  
+3rd Level 
+Call	  Lightning	  
+Conjure	  Animals 	  
+Daylight	  
+Dispel	  Magic	  

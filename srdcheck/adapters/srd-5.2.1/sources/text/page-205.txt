@@ -1,0 +1,99 @@
+System Reference Document 5.2.1
+205
+Magic iteM Rules
+Rules for identifying, attuning to, and using magic 
+items appear in “Equipment.” Additional rules are 
+presented below.
+ Attunement Prerequisites.  If a magic item has 
+a class prerequisite, a creature must be a member of 
+that class to attune to the item. If a creature must be 
+a spellcaster to attune to an item, the creature qual -
+ifies if it can cast at least one spell using its traits or 
+features, not by using a magic item or the like.
+ Items Made for Specific Creatures. Magic 
+items that are meant to be worn tend to magically 
+adjust themselves to the wearer. However, you can 
+decide that a magic item doesn’t adjust its size to fit 
+any wearer. For example, a particular armorer might 
+make items usable only by folk who are sized and 
+shaped like dwarves. 
+ Unusual Anatomy.  Use your discretion to decide 
+whether a creature can wear an item not made for 
+its anatomy. A ring placed on a tentacle might work, 
+but a yuan-ti with a snakelike tail instead of legs can’t 
+wear magic boots.
+ Paired Items. You can allow exceptions to the 
+rule that paired items must both be worn. For ex -
+ample, a character with only one arm might be able 
+to use a single Glove of Missile Snaring so long as the 
+matching glove is on their person.
+Scrolls
+An item in the Scroll category is a roll of paper or 
+parchment, sometimes attached to wooden rods 
+and typically kept safe in a tube of ivory, jade, 
+leather, metal, or wood. The most prevalent scroll is 
+the Spell Scroll, a spell stored in written form.
+ Using a Scroll. Scrolls are consumable items. Un -
+leashing the magic in a scroll requires the user to 
+read the scroll. When its magic has been invoked, 
+the scroll can’t be used again. Its words fade, or it 
+crumbles into dust.
+ Any creature that can understand a written lan -
+guage can read a scroll and attempt to activate it 
+unless its description notes otherwise.
+Staffs
+Items in the Staff category vary widely in appear -
+ance: some are of nearly equal diameter throughout 
+and smooth, others are gnarled and twisted, some 
+are made of wood, and others are composed of pol -
+ished metal or crystal. A staff weighs between 2 and 
+7 pounds and serves well as a walking stick or cane.
+ Unless its description notes otherwise, a staff can 
+be used as a nonmagical Quarterstaff and an Arcane 
+Focus.
+Wands
+An item in the Wand category is typically 12 to 15 
+inches long and crafted of metal, bone, or wood. It 
+is tipped with metal, crystal, stone, or some other 
+material.
+ Unless its description notes otherwise, a wand 
+can be used as an Arcane Focus.
+Weapons
+A magic weapon is typically a magical version of a 
+weapon from “Equipment.” Some magic weapons 
+specify the type of weapon they are in their de -
+scriptions, such as a Longsword or Longbow. If no 
+weapon type is specified, you may choose the type 
+or determine it randomly.
+ Ammunition. If a magic weapon has the Ammu -
+nition property, ammunition fired from it is consid -
+ered magical for the purpose of any rule that cares 
+whether a weapon is magical or not.
+Wondrous Items
+Wondrous Items include wearable items such 
+as boots, belts, capes, amulets, brooches, and 
+circlets. Bags, carpets, figurines, horns, musical 
+instruments, and more also fall into this category.
+Magic Item Rarity
+Every magic item has a rarity, which provides a 
+rough measure of an item’s power relative to other 
+magic items. The rarities are shown in the Magic 
+Item Rarities and Values table.
+ Common magic items, such as a Potion of Healing , 
+are the most plentiful. Artifacts, such as the Dragon 
+Orb, are priceless, unique, and difficult to acquire.
+Magic Item Values by Rarity
+Common magic items can often be bought in a 
+town or city. Uncommon and Rare magic items are 
+usually found only in cities, and rarer magic items 
+might be sold only in wondrous locations, such as a 
+city on another plane of existence. If you allow char -
+acters to buy and sell magic items in your campaign, 
+rarity can help you set prices for those items. Gold 
+Piece values are provided in the Magic Item Rarities 
+and Values table, though a seller might ask for a ser -
+vice rather than coin as payment.
+ If a magic item incorporates an item that has a 
+purchase cost in “Equipment” (such as a weapon or 
+a suit of armor), add that item’s cost to the magic 
+item’s value. For example, +1 Armor (Plate Armor) 

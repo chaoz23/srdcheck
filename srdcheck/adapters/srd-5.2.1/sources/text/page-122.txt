@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+122
+You create up to four torch-size lights within range, 
+making them appear as torches, lanterns, or glow -
+ing orbs that hover for the duration. Alternatively, 
+you combine the four lights into one glowing Me -
+dium form that is vaguely humanlike. Whichever 
+form you choose, each light sheds Dim Light in a 10-
+foot radius.
+ As a Bonus Action, you can move the lights up 
+to 60 feet to a space within range. A light must be 
+within 20 feet of another light created by this spell, 
+and a light vanishes if it exceeds the spell’s range.
+Darkness
+Level 2 Evocation (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, M (bat fur and a piece of coal)
+Duration: Concentration, up to 10 minutes
+For the duration, magical Darkness spreads from a 
+point within range and fills a 15-foot-radius Sphere. 
+Darkvision can’t see through it, and nonmagical 
+light can’t illuminate it.
+ Alternatively, you cast the spell on an object that 
+isn’t being worn or carried, causing the Darkness 
+to fill a 15-foot Emanation originating from that 
+object. Covering that object with something opaque, 
+such as a bowl or helm, blocks the Darkness.
+ If any of this spell’s area overlaps with an area of 
+Bright Light or Dim Light created by a spell of level 
+2 or lower, that other spell is dispelled.
+Darkvision
+Level 2 Transmutation (Druid, Ranger, Sorcerer, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a dried carrot)
+Duration: 8 hours
+For the duration, a willing creature you touch has 
+Darkvision with a range of 150 feet.
+Daylight
+Level 3 Evocation (Cleric, Druid, Paladin, Ranger, 
+Sorcerer)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: 1 hour
+For the duration, sunlight spreads from a point 
+within range and fills a 60-foot-radius Sphere. The 
+sunlight’s area is Bright Light and sheds Dim Light 
+for an additional 60 feet.
+ Alternatively, you cast the spell on an object that 
+isn’t being worn or carried, causing the sunlight 
+to fill a 60-foot Emanation originating from that 
+object. Covering that object with something opaque, 
+such as a bowl or helm, blocks the sunlight.
+ If any of this spell’s area overlaps with an area of 
+Darkness created by a spell of level 3 or lower, that 
+other spell is dispelled.
+Death Ward
+Level 4 Abjuration (Cleric, Paladin)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: 8 hours
+You touch a creature and grant it a measure of pro -
+tection from death. The first time the target would 
+drop to 0 Hit Points before the spell ends, the target 
+instead drops to 1 Hit Point, and the spell ends.
+ If the spell is still in effect when the target is sub -
+jected to an effect that would kill it instantly with -
+out dealing damage, that effect is negated against 
+the target, and the spell ends.
+Delayed Blast Fireball
+Level 7 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (a ball of bat guano and sulfur)
+Duration: Concentration, up to 1 minute
+A beam of yellow light flashes from you, then con -
+denses at a chosen point within range as a glowing 
+bead for the duration. When the spell ends, the bead 
+explodes, and each creature in a 20-foot-radius 
+Sphere centered on that point makes a Dexterity 
+saving throw. A creature takes Fire damage equal 
+to the total accumulated damage on a failed save or 
+half as much damage on a successful one.
+ The spell’s base damage is 12d6, and the damage 
+increases by 1d6 whenever your turn ends and the 
+spell hasn’t ended.
+ If a creature touches the glowing bead before the 
+spell ends, that creature makes a Dexterity saving 
+throw. On a failed save, the spell ends, causing the 
+bead to explode. On a successful save, the creature 
+can throw the bead up to 40 feet. If the thrown bead 
+enters a creature’s space or collides with a solid ob -
+ject, the spell ends, and the bead explodes.
+ When the bead explodes, flammable objects in the 
+explosion that aren’t being worn or carried start 
+burning.
+ Using a Higher-Level Spell Slot. The base damage 
+increases by 1d6 for each spell slot level above 7.
+Demiplane
+Level 8 Conjuration (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: S
+Duration: 1 hour

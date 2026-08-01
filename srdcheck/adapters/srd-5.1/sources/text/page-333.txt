@@ -1,0 +1,82 @@
+System	  Reference	   Document	  5.1 	   333	  
+Condition	  Immunities 	  prone	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  11 	  
+Languages	  —	  
+Challenge	  2	  (450	  XP)	  
+Shapechanger. 	  The	  mimic	  can	  use	  its	  action	  to	  
+polymorph	  into	  an	   object	  or	  back	  into	  its	  true,	  
+amorphous	  form.	  Its	  statistics	  are	  the	  same	  in	  each	  
+form.	  Any	  equipment	  it	  is	  wearing	  or	  carrying	  isn’t	  
+transformed.	  It	  reverts	  to	  its	  true	  form	  if	  it	  dies. 	  
+Adhesive	  (Object	  Form	  Only).	   The	  mimic	  adheres	  to	  
+anything	  that	  touc hes	  it.	  A	  Huge	  or	  smaller	  creature	  
+adhered	  to	  the	  mimic	  is	  also	  grappled	  by	  it	  (escape	  DC	  
+13).	  Ability	  checks	  made	  to	  escape	  this	  grapple	  have	  
+disadvantage.	  
+False	  Appearance	  (Object	  Form	  Only). 	  While	  the	  mimic	  
+remains	  motionless,	  it	  is	  indistinguishable	  fr om	  an	  
+ordinary	  object. 	  
+Grappler.	  The	  mimic	  has	  advantage	  on	  attack	  rolls	  
+against	  any	  creature	  grappled	  by	  it. 	  
+Actions	  
+Pseudopod.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  
+ft.,	  one	  target.	  Hit:	  7	  (1d8	  +	  3)	  bludgeoning	  damage.	  If	  
+the	  mimic	  is	  in	  object	  form,	  t he	  target	  is	  subjected	  to	  
+its	  Adhesive	  trait.	  
+Bite.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  7	  (1d8	  +	  3)	  piercing	  damage	  plus	  4	  (1d8)	  
+acid	  damage.	  
+Minotaur	  
+Large	  monstrosity,	  chaotic	  evil 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  76	  (9d10	  +	  27)	  
+Speed	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   11	  (+0)	   16	  (+3)	   6	  (−2)	   16	  (+3)	   9	  (−1)	  
+Skills	  Perception	  +7	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  17 	  
+Languages	  Abyssal	  
+Challenge	  3	  (700	  XP)	  
+Charge.	  If	  the	  minotaur	  moves	  at	  least	  10	  fee t	  straight	  
+toward	  a	  target	  and	  then	  hits	  it	  with	  a	  gore	  attack	  on	  
+the	  same	  turn,	  the	  target	  takes	  an	  extra	  9	  (2d8)	  
+piercing	  damage.	  If	  the	  target	  is	  a	  creature,	  it	  must	  
+succeed	  on	  a	  DC	  14	  Strength	  saving	  throw	  or	  be	  
+pushed	  up	  to	  10	  feet	  away	  and	  knocked	  pr one.	  
+Labyrinthine	  Recall. 	  The	  minotaur	  can	  perfectly	  recall	  
+any	  path	  it	  has	  traveled. 	  
+Reckless.	  At	  the	  start	  of	  its	  turn,	  the	  minotaur	  can	  gain	  
+advantage	  on	  all	  melee	  weapon	  attack	  rolls	  it	  makes	  
+during	  that	  turn,	  but	  attack	  rolls	  against	  it	  have	  
+advantage	  until	  the	  start	  of	  its	  next	  turn. 	  
+Actions	  
+Greataxe.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  17	  (2d12	  +	  4)	  slashing	  damage. 	  
+Gore.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  13	  (2d8	  +	  4)	  piercing	  damage. 	  
+Mummies 
+Mummy	  
+Medium	  undead, lawful	  evil	  
+Armor	  Class	  11	  (natural	  armor) 	  
+Hit	  Points	  58	  (9d8	  +	  18)	  
+Speed	  20	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+16	  (+3)	   8	  (−1)	   15	  (+2)	   6	  (−2)	   10	  (+0)	   12	  (+1)	  
+Saving	  Throws	  Wis	  +2	  
+Damage	  Vulnerabilities 	  fire	  
+Damage	  Resistances 	  bludgeoning,	  piercing,	  and	  
+slashing	  from	  nonmagical	  attacks 	  
+Damage	  Immunities 	  necrotic,	  poison 	  
+Condition	  Immunities 	  charmed,	  exhaustion,	  frightened,	  
+paralyzed,	  poisoned 	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  the	  languages	  it	  knew	  in	  lif e	  
+Challenge	  3	  (700	  XP)	  
+Actions	  
+Multiattack.	  The	  mummy	  can	  use	  its	  Dreadful	  Glare	  
+and	  makes	  one	  attack	  with	  its	  rotting	  fist. 	  
+Rotting	  Fist.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  
+ft.,	  one	  target.	  Hit:	  10	  (2d6	  +	  3)	  bludgeoning	  damage	  
+plus	  10	  (3d6)	  necrotic	   damage.	  If	  the	  target	  is	  a	  
+creature,	  it	  must	  succeed	  on	  a	  DC	  12	  Constitution	  
+saving	  throw	  or	  be	  cursed	  with	  mummy	  rot.	  The	  cursed	  

@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+121
+Create or Destroy Water
+Level 1 Transmutation (Cleric, Druid)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a mix of water and sand)
+Duration: Instantaneous
+You do one of the following:
+Create Water. You create up to 10 gallons of clean 
+water within range in an open container. Alter -
+natively, the water falls as rain in a 30-foot Cube 
+within range, extinguishing exposed flames there.
+Destroy Water. You destroy up to 10 gallons of 
+water in an open container within range. Alter -
+natively, you destroy fog in a 30-foot Cube within 
+range.
+ Using a Higher-Level Spell Slot. You create or 
+destroy 10 additional gallons of water, or the size of 
+the Cube increases by 5 feet, for each spell slot level 
+above 1.
+Create Undead
+Level 6 Necromancy (Cleric, Warlock, Wizard)
+Casting Time: 1 minute
+Range: 10 feet
+Components: V, S, M (one 150+ GP black onyx stone 
+for each corpse)
+Duration: Instantaneous
+You can cast this spell only at night. Choose up 
+to three corpses of Medium or Small Humanoids 
+within range. Each one becomes a Ghoul  under your 
+control (see “Monsters” for its stat block).
+ As a Bonus Action on each of your turns, you can 
+mentally command any creature you animated with 
+this spell if the creature is within 120 feet of you (if 
+you control multiple creatures, you can command 
+any of them at the same time, issuing the same com -
+mand to them). You decide what action the creature 
+will take and where it will move on its next turn, or 
+you can issue a general command, such as to guard 
+a particular place. If you issue no commands, the 
+creature takes the Dodge action and moves only to 
+avoid harm. Once given an order, the creature con -
+tinues to follow the order until its task is complete.
+ The creature is under your control for 24 hours, 
+after which it stops obeying any command you’ve 
+given it. To maintain control of the creature for an -
+other 24 hours, you must cast this spell on the crea-
+ture before the current 24-hour period ends. This 
+use of the spell reasserts your control over up to 
+three creatures you have animated with this spell 
+rather than animating new ones.
+ Using a Higher-Level Spell Slot. If you use a level 
+7 spell slot, you can animate or reassert control 
+over four Ghouls. If you use a level 8 spell slot, you 
+can animate or reassert control over five Ghouls  
+or two Ghasts  or Wights. If you use a level 9 spell 
+slot, you can animate or reassert control over six 
+Ghouls, three Ghasts  or Wights, or two Mummies . 
+See “Monsters” for these stat blocks.
+Creation
+Level 5 Illusion (Sorcerer, Wizard)
+Casting Time: 1 minute
+Range: 30 feet
+Components: V, S, M (a paintbrush)
+Duration: Special
+You pull wisps of shadow material from the Shad -
+owfell to create an object within range. It is either 
+an object of vegetable matter (soft goods, rope, 
+wood, and the like) or mineral matter (stone, crys -
+tal, metal, and the like). The object must be no 
+larger than a 5-foot Cube, and the object must be of 
+a form and material that you have seen.
+ The spell’s duration depends on the object’s ma-
+terial, as shown in the Materials table. If the object 
+is composed of multiple materials, use the shortest 
+duration. Using any object created by this spell as 
+another spell’s Material component causes the other 
+spell to fail.
+Materials
+Material Duration
+Vegetable matter 24 hours
+Stone or crystal 12 hours
+Precious metals 1 hour
+Gems 10 minutes
+Adamantine or mithral 1 minute
+ Using a Higher-Level Spell Slot. The Cube in -
+creases by 5 feet for each spell slot level above 5.
+Cure Wounds
+Level 1 Abjuration (Bard, Cleric, Druid, Paladin, 
+Ranger)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Instantaneous
+A creature you touch regains a number of Hit Points 
+equal to 2d8 plus your spellcasting ability modifier.
+ Using a Higher-Level Spell Slot. The healing in-
+creases by 2d8 for each spell slot level above 1.
+Dancing Lights
+Illusion Cantrip (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (a bit of phosphorus)
+Duration: Concentration, up to 1 minute

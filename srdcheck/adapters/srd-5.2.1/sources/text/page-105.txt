@@ -1,0 +1,102 @@
+System Reference Document 5.2.1
+105
+ Some spells, such as Magic Missile  and Cure 
+Wounds, have more powerful effects when cast at a 
+higher level, as detailed in a spell’s description.
+School of Magic
+Each spell belongs to a school of magic. The schools 
+are listed in the Schools of Magic table. These cate -
+gories help describe spells but have no rules of their 
+own, although some other rules refer to them.
+Schools of Magic
+School Typical Effects
+Abjuration Prevents or reverses harmful effects
+Conjuration Transports creatures or objects
+Divination Reveals information
+Enchantment Influences minds
+Evocation Channels energy to create effects that 
+are often destructive
+Illusion Deceives the mind or senses
+Necromancy Manipulates life and death
+Transmutation Transforms creatures or objects
+Class Spell Lists
+If a spell is on a class’s spell list, the class’s name 
+appears in parentheses after the spell’s school of 
+magic. Some features add a spell to a character’s 
+spell list even if the character isn’t a member of a 
+class in the parentheses.
+Casting Time
+Most spells require the Magic action to cast, but 
+some spells require a Bonus Action, a Reaction, or 1 
+minute or more. A spell’s Casting Time entry speci -
+fies which of those is required.
+One Spell with a Spell Slot per Turn
+On a turn, you can expend only one spell slot to cast 
+a spell. This rule means you can’t, for example, cast 
+a spell with a spell slot using the Magic action and 
+another one using a Bonus Action on the same turn.
+Reaction and Bonus Action Triggers
+A spell that has a casting time of a Reaction is cast 
+in response to a trigger that is defined in the spell’s 
+Casting Time entry. Some spells that have a casting 
+time of a Bonus Action are also cast in response to a 
+trigger defined in the spell.
+Longer Casting Times
+Certain spells—including a spell cast as a Rit -
+ual—require more time to cast: minutes or even 
+hours. While you cast a spell with a casting time of 
+1 minute or more, you must take the Magic action 
+on each of your turns, and you must maintain Con -
+centration (see “Rules Glossary”) while you do so. If 
+your Concentration is broken, the spell fails, but you 
+don’t expend a spell slot. To cast the spell again, you 
+must start over.
+Range
+A spell’s range indicates how far from the spell -
+caster the spell’s effect can originate, and the spell’s 
+description specifies which part of the effect is lim -
+ited by the range.
+ A range usually takes one of the following forms:
+Distance.  The range is expressed in feet.
+Touch. The spell’s effect originates on something, 
+as defined by the spell, that the spellcaster must 
+touch within their reach.
+Self. The spell is cast on the spellcaster or emanates 
+from them, as specified in the spell.
+If a spell has movable effects, they aren’t restricted 
+by its range unless the spell’s description says 
+otherwise.
+Components
+A spell’s components are physical requirements the 
+spellcaster must meet to cast the spell. Each spell’s 
+description indicates whether it requires Verbal 
+(V), Somatic (S), or Material (M) components. If the 
+spellcaster can’t provide one or more of a spell’s 
+components, the spellcaster can’t cast the spell.
+Verbal (V)
+A Verbal component is the chanting of esoteric 
+words that sound like nonsense to the uninitiated. 
+The words must be uttered in a normal speaking 
+voice. The words themselves aren’t the source of the 
+spell’s power; rather, the particular combination of 
+sounds, with specific pitch and resonance, sets the 
+threads of magic in motion. Thus, a creature who is 
+gagged or in an area of magical silence can’t cast a 
+spell with a Verbal component.
+Somatic (S)
+A Somatic component is a forceful gesticulation 
+or an intricate set of gestures. A spellcaster must 
+use at least one of their hands to perform these 
+movements.
+Material (M)
+A Material component is a particular material used 
+in a spell’s casting, as specified in parentheses in 
+the Components entry. These materials aren’t con -
+sumed by the spell unless the spell’s description 
+states otherwise. The spellcaster must have a hand 
+free to access them, but it can be the same hand 
+used to perform Somatic components, if any.
+ If a spell doesn’t consume its materials and 
+doesn’t specify a cost for them, a spellcaster can use 
+a Component Pouch (see “Equipment”) instead of 
+providing the materials specified in the spell, or the 

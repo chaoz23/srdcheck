@@ -1,0 +1,78 @@
+System	  Reference	   Document	  5.1 	   378	  
+Giant	  Poisonous	  Snake	  
+Medium	  beast,	  unaligned 	  
+Armor	  Class	  14	  
+Hit	  Points	  11	  (2d8	  +	  2)	  
+Speed	  30	  ft.,	  swim	  30	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   18	  (+4)	   13	  (+1)	   2	  (−4)	   10	  (+0)	   3	  (−4)	  
+Skills	  Perception	  +2	  
+Senses	  blindsight	  10	  ft.,	  passive	  Perception	  12 	  
+Languages	  —	  
+Challenge	  1/4	  (50	  XP)	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  10	  ft.,	  one	  
+target.	  Hit:	  6	  (1d4	  +	  4)	  piercing	  damage,	  and	  the	  target	  
+must	  make	  a	  DC	  11	  Constitution	  saving	  throw,	  taking	  
+10	  (3d6)	  poison	  damage	  on	  a	  failed	  save,	  or	  half	  as	  
+much	  damage	  on	  a	  successful	  one. 	  
+Giant	  Rat	  
+Small	  beast,	  unaligned	  
+Armor	  Class	  12	  
+Hit	  Points	  7	  (2d6)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+7	  (−2)	   15	  (+2)	   11	  (+0)	   2	  (−4)	   10	  (+0)	   4	  (−3)	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  —	  
+Challenge	  1/8	  (25	  XP)	  
+Keen	  Smell.	  The	  rat	  has	  advantage	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  smell. 	  
+Pack	  Tactics.	  The	  rat	  has	  advantage	  on	  an	  attack	  roll	  
+against	  a	  creature	  if	  at	  least	  one	  of	  the	  rat’s	  allies	  is	  
+within	  5	  feet	  of	  the	  creature	  and	  the	  ally	  isn’t	  
+incapacitated.	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  4	  (1d4	  +	  2)	  piercing	  damage. 	  
+Variant: Diseased Giant Rats  
+Some	  giant	  rats	  carry	  vile	  diseases	  that	  they	  spread	  with	  their	  
+bites.	  A	  diseased	  giant	  rat	  has	  a	  challeng e	  rating	  of	  1/8	  (25	  
+XP)	  and	  the	  following	  action	  instead	  of	  its	  normal	  bite	  attack. 	  
+Bite.	  Melee	  Weapon	  Attack:	   +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  4	  (1d4	  +	  2)	  piercing	  damage.	  If	  the	  target	  is	  a	  
+creature,	  it	  must	  succeed	  on	  a	  DC	  10	  Constitution	  savin g	  
+throw	  or	  contract	  a	  disease.	  Until	  the	  disease	  is	  cured,	  the	  
+target	  can’t	  regain	  hit	  points	  except	  by	  magical	  means,	  and	  
+the	  target’s	  hit	  point	  maximum	  decreases	  by	  3	  (1d6)	  every	  24	  
+hours.	  If	  the	  target’s	  hit	  point	  maximum	  drops	  to	  0	  as	  a	  result	  
+of	  this	  disease,	  the	  target	  dies. 	  
+Giant	  Scorpion	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  15	  (natural	  armor) 	  
+Hit	  Points	  52	  (7d10	  +	  14)	  
+Speed	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   13	  (+1)	   15	  (+2)	   1	  (−5)	   9	  (−1)	   3	  (−4)	  
+Senses	  blindsight	  60	  ft.,	  passive	  Perception	  9 	  
+Languages	  —	  
+Challenge	  3	  (700	  XP)	  
+Actions	  
+Multiattack.	  The	  scorpion	  makes	  three	  attacks:	  two	  
+with	  its	  claws	  and	  one	  with	  its	  sting. 	  
+Claw.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  6	  (1d8	  +	  2)	  bludgeoning	  damage,	  and	  the	  
+target	  is	  grappled	  ( escape	  DC	  12).	  The	  scorpion	  has	  two	  
+claws,	  each	  of	  which	  can	  grapple	  only	  one	  target. 	  
+Sting.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  7	  (1d10	  +	  2)	  piercing	  damage,	  and	  the	  
+target	  must	  make	  a	  DC	  12	  Constitution	  saving	  throw,	  
+taking	  22	  (4d10)	  poison	  damage	  on	  a	  failed	  save,	  or	  
+half	  as	  much	  damage	  on	  a	  successful	  one. 	  
+Giant	  Sea	  Horse	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  13	  (natural	  armor) 	  
+Hit	  Points	  16	  (3d10)	  
+Speed	  0	  ft.,	  swim	  40	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+12	  (+1)	   15	  (+2)	   11	  (+0)	   2	  (−4)	   12	  (+1)	   5	  (−3)	  

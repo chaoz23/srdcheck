@@ -1,0 +1,95 @@
+320
+System Reference Document 5.2.1
+and Restrained conditions, it has Total Cover against 
+attacks and other effects outside the remorhaz, and it 
+takes 10 (3d6) Acid damage plus 10 (3d6) Fire damage 
+at the start of each of the remorhaz’s turns. 
+ If the remorhaz takes 30 damage or more on a single 
+turn from a creature inside it, the remorhaz must suc-
+ceed on a DC 15 Constitution saving throw at the end 
+of that turn or regurgitate all swallowed creatures, each 
+of which falls in a space within 5 feet of the remorhaz 
+and has the Prone condition. If the remorhaz dies, any 
+swallowed creature no longer has the Restrained condi-
+tion and can escape from the corpse by using 15 feet of 
+movement, exiting Prone.
+Roc
+Roc
+Gargantuan Monstrosity, Unaligned
+AC 15  Initiative +8 (18)
+HP 248 (16d20 + 80)
+Speed 20 ft., Fly 120 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 28 +9 +9 Dex 10 +0 +4 Con 20 +5 +5
+Int 3 −4 −4 WIS 10 +0 +4 Cha 9 −1 −1
+Skills Perception +8
+Senses Passive Perception 18
+Languages None
+CR 11 (XP 7 ,200; PB +4)
+Actions
+Multiattack. The roc makes two Beak attacks. It can 
+replace one attack with a Talons attack.
+Beak. Melee Attack Roll: +13, reach 10 ft. Hit: 28 (3d12 
++ 9) Piercing damage.
+Talons. Melee Attack Roll: +13, reach 5 ft. Hit: 23 (4d6 
++ 9) Slashing damage. If the target is a Huge or smaller 
+creature, it has the Grappled condition (escape DC 19) 
+from both talons, and it has the Restrained condition 
+until the grapple ends.
+Bonus Actions
+Swoop (Recharge 5–6). If the roc has a creature Grap-
+pled, the roc flies up to half its Fly Speed without pro-
+voking Opportunity Attacks and drops that creature.
+Roper
+Roper
+Large Aberration, Neutral Evil
+AC 20   Initiative +5 (15)
+HP 93 (11d10 + 33)
+Speed 10 ft., Climb 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 8 −1 −1 Con 17 +3 +3
+Int 7 −2 −2 WIS 16 +3 +3 Cha 6 −2 −2
+Skills Perception +6, Stealth +5
+Senses Darkvision 60 ft.; Passive Perception 16
+Languages None
+CR 5 (XP 1,800; PB +3)
+Traits
+Spider Climb. The roper can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Actions
+Multiattack. The roper makes two Tentacle attacks, 
+uses Reel, and makes two Bite attacks.
+Bite. Melee Attack Roll: +7 , reach 5 ft. Hit: 17 (3d8 + 4) 
+Piercing damage.
+Tentacle. Melee Attack Roll: +7 , reach 60 ft. Hit: The 
+target has the Grappled condition (escape DC 14) from 
+one of six tentacles, and the target has the Poisoned 
+condition until the grapple ends. 
+ The tentacle can be damaged, freeing a creature it has 
+Grappled when destroyed (AC 20, HP 10, Immunity to 
+Poison and Psychic damage). Damaging the tentacle 
+deals no damage to the roper, and a destroyed tentacle 
+regrows at the start of the roper’s next turn.
+Reel. The roper pulls each creature Grappled by it up 
+to 30 feet straight toward it.
+Rust Monster
+Rust Monster
+Medium Monstrosity, Unaligned
+AC 14   Initiative +1 (11)
+HP 33 (6d8 + 6)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 12 +1 +1 Con 13 +1 +1
+Int 2 −4 −4 WIS 13 +1 +1 Cha 6 −2 −2
+Senses Darkvision 60 ft.; Passive Perception 11
+Languages None
+CR 1/2 (XP 100; PB +2)
+Traits
+Iron Scent. The rust monster can pinpoint the location 
+of ferrous metal within 30 feet of itself.
+Actions
+Multiattack. The rust monster makes one Bite attack 
+and uses Antennae twice.
+Bite. Melee Attack Roll: +3, reach 5 ft. Hit: 5 (1d8 + 1) 
+Piercing damage.

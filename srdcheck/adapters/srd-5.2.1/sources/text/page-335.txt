@@ -1,0 +1,101 @@
+335
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 16 +3 +6 Con 16 +3 +3
+Int 11 +0 +0 WIS 10 +0 +3 Cha 12 +1 +1
+Skills Perception +3, Stealth +6
+Resistances Necrotic
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages Common plus one other language
+CR 5 (XP 1,800; PB +3)
+Traits
+Spider Climb. The vampire can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Vampire Weakness. The vampire has these 
+weaknesses:
+Forbiddance. The vampire can’t enter a residence with-
+out an invitation from an occupant.
+Running Water. The vampire takes 20 Acid damage if it 
+ends its turn in running water.
+Stake to the Heart. The vampire is destroyed if a 
+weapon that deals Piercing damage is driven into the 
+vampire’s heart while the vampire has the Incapaci-
+tated condition.
+Sunlight. The vampire takes 20 Radiant damage if it 
+starts its turn in sunlight. While in sunlight, it has Dis-
+advantage on attack rolls and ability checks.
+Actions
+Multiattack. The vampire makes two Claw attacks and 
+uses Bite.
+Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (2d4 + 3) 
+Slashing damage. If the target is a Medium or smaller 
+creature, it has the Grappled condition (escape DC 13) 
+from one of two claws.
+Bite. Constitution Saving Throw: DC 14, one creature 
+within 5 feet that is willing or that has the Grappled, 
+Incapacitated, or Restrained condition. Failure: 5 (1d4 
++ 3) Piercing damage plus 10 (3d6) Necrotic dam-
+age. The target’s Hit Point maximum decreases by an 
+amount equal to the Necrotic damage taken, and the 
+vampire regains Hit Points equal to that amount.
+Bonus Actions
+Deathless Agility. The vampire takes the Dash or Dis-
+engage action.
+Vampire
+Medium or Small Undead, Lawful Evil
+AC 16  Initiative +14 (24)
+HP 195 (23d8 + 92)
+Speed 40 ft., Climb 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 18 +4 +9 Con 18 +4 +9
+Int 17 +3 +3 WIS 15 +2 +7 Cha 18 +4 +9
+Skills Perception +7 , Stealth +9
+Resistances Necrotic
+Senses Darkvision 120 ft.; Passive Perception 17
+Languages Common plus two other languages
+CR 13 (XP 10,000, or 11,500 in lair; PB +5)
+Traits
+Legendary Resistance (3/Day, or 4/Day in Lair). If 
+the vampire fails a saving throw, it can choose to suc-
+ceed instead.
+Misty Escape. If the vampire drops to 0 Hit Points out-
+side its resting place, the vampire uses Shape-Shift to 
+become mist (no action required). If it can’t use Shape-
+Shift, it is destroyed. 
+ While it has 0 Hit Points in mist form, it can’t return 
+to its vampire form, and it must reach its resting place 
+within 2 hours or be destroyed. Once in its resting 
+place, it returns to its vampire form and has the Para-
+lyzed condition until it regains any Hit Points, and it 
+regains 1 Hit Point after spending 1 hour there.
+Spider Climb. The vampire can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Vampire Weakness. The vampire has these 
+weaknesses:
+Forbiddance. The vampire can’t enter a residence with-
+out an invitation from an occupant.
+Running Water. The vampire takes 20 Acid damage if it 
+ends its turn in running water.
+Stake to the Heart. If a weapon that deals Piercing 
+damage is driven into the vampire’s heart while the 
+vampire has the Incapacitated condition in its resting 
+place, the vampire has the Paralyzed condition until 
+the weapon is removed.
+Sunlight. The vampire takes 20 Radiant damage if it 
+starts its turn in sunlight. While in sunlight, it has Dis-
+advantage on attack rolls and ability checks.
+Actions
+Multiattack (Vampire Form Only). The vampire makes 
+two Grave Strike attacks and uses Bite.
+Grave Strike (Vampire Form Only). Melee Attack Roll: 
++9, reach 5 ft. Hit: 8 (1d8 + 4) Bludgeoning damage 
+plus 7 (2d6) Necrotic damage. If the target is a Large or 
+smaller creature, it has the Grappled condition (escape 
+DC 14) from one of two hands.
+Bite (Bat or Vampire Form Only). Constitution Saving 
+Throw: DC 17 , one creature within 5 feet that is willing 
+or that has the Grappled, Incapacitated, or Restrained 
+condition. Failure: 6 (1d4 + 4) Piercing damage plus 13 
+(3d8) Necrotic damage. The target’s Hit Point maximum 

@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+245
+1d100 Result
+01–50 The sphere is destroyed.
+51–85 The sphere moves through the portal or into 
+the extradimensional space.
+86–00 A spatial rift sends the sphere and each crea -
+ture and object within 180 feet of the sphere 
+to a random plane of existence.
+Staff of Charming
+Staff, Rare (Requires Attunement by a Bard, Cleric, 
+Druid, Sorcerer, Warlock, or Wizard)
+This staff has 10 charges. While holding the staff, 
+you can use any of its properties:
+Cast Spell.  You can expend 1 of the staff’s charges 
+to cast Charm Person, Command, or Comprehend 
+Languages from it using your spell save DC.
+Reflect Enchantment. If you succeed on a saving 
+throw against an Enchantment spell that targets 
+only you, you can take a Reaction to expend 1 
+charge from the staff and turn the spell back on 
+its caster as if you had cast the spell.
+Resist Enchantment.  If you fail a saving throw 
+against an Enchantment spell that targets only 
+you, you can turn your failed save into a success -
+ful one. You can’t use this property of the staff 
+again until the next dawn.
+ Regaining Charges. The staff regains 1d8 + 2 ex -
+pended charges daily at dawn. If you expend the last 
+charge, roll 1d20. On a 1, the staff crumbles to dust 
+and is destroyed.
+Staff of Fire
+Staff, Very Rare (Requires Attunement by a Druid, 
+Sorcerer, Warlock, or Wizard)
+You have Resistance to Fire damage while you hold 
+this staff.
+ Spells. The staff has 10 charges. While holding the 
+staff, you can cast one of the spells on the following 
+table from it, using your spell save DC. The table in -
+dicates how many charges you must expend to cast 
+the spell.
+ 
+Spell
+Charge 
+Cost
+ 
+Spell
+Charge 
+Cost
+Burning Hands 1 Wall of Fire 4
+Fireball 3
+ Regaining Charges. The staff regains 1d6 + 4 
+expended charges daily at dawn. If you expend the 
+last charge, roll 1d20. On a 1, the staff crumbles into 
+cinders and is destroyed.
+Staff of Frost
+Staff, Very Rare (Requires Attunement by a Druid, 
+Sorcerer, Warlock, or Wizard)
+You have Resistance to Cold damage while you hold 
+this staff.
+ Spells. The staff has 10 charges. While holding the 
+staff, you can cast one of the spells on the following 
+table from it, using your spell save DC. The table in -
+dicates how many charges you must expend to cast 
+the spell.
+ 
+Spell
+Charge 
+Cost
+ 
+Spell
+Charge 
+Cost
+Cone of Cold 5 Ice Storm 4
+Fog Cloud 1 Wall of Ice 4
+ Regaining Charges. The staff regains 1d6 + 4 ex -
+pended charges daily at dawn. If you expend the last 
+charge, roll 1d20. On a 1, the staff turns to water 
+and is destroyed.
+Staff of Healing
+Staff, Rare (Requires Attunement by a Bard, Cleric, or 
+Druid)
+This staff has 10 charges. While holding the staff, 
+you can cast one of the spells on the following table 
+from it, using your spellcasting ability modifier. The 
+table indicates how many charges you must expend 
+to cast the spell.
+Spell Charge Cost
+Cure Wounds 1 charge per spell level 
+(maximum 4 for a level 4 
+spell)
+Lesser Restoration 2
+Mass Cure Wounds 5
+ Regaining Charges. The staff regains 1d6 + 4 
+expended charges daily at dawn. If you expend the 
+last charge, roll 1d20. On a 1, the staff vanishes in a 
+flash of light, lost forever.
+Staff of Power
+Staff, Very Rare (Requires Attunement by a Sorcerer, 
+Warlock, or Wizard)
+This staff has 20 charges and can be wielded as a 
+magic Quarterstaff that grants a +2 bonus to attack 
+rolls and damage rolls made with it. While hold -
+ing it, you gain a +2 bonus to Armor Class, saving 
+throws, and spell attack rolls.
+ Spells. While holding the staff, you can cast one of 
+the spells on the following table from it, using your 
+spell save DC. The table indicates how many charges 
+you must expend to cast the spell.

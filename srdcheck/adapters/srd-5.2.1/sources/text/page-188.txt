@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+188
+Size
+A creature or an object belongs to a size category: 
+Tiny, Small, Medium, Large, Huge, or Gargantuan. 
+A creature’s size determines how much space the 
+creature occupies in combat. An object’s size affects 
+its Hit Points. See also  “Breaking Objects” and “Play -
+ing the Game” (“Combat”).
+Skill
+A skill is an area of specialization associated with 
+an ability check. If you have proficiency in a skill, 
+you can add your Proficiency Bonus when you make 
+an ability check associated with that skill. See also  
+“Playing the Game” (“Proficiency”).
+Speed
+A creature has a Speed, which is the distance in feet 
+the creature can cover when it moves on its turn. 
+See also “Climbing,” “Crawling,” “Flying,” “Jumping,” 
+“Swimming” and “Playing the Game” (“Combat”).
+ Special Speeds.  Some creatures have special 
+speeds, such as a Burrow Speed, Climb Speed, Fly 
+Speed, or Swim Speed, each of which is defined 
+in this glossary. If you have more than one speed, 
+choose which one to use when you move; you can 
+switch between the speeds during your move. 
+Whenever you switch, subtract the distance already 
+moved from the new speed. The result determines 
+how much farther you can move. If the result is 0 or 
+less, you can’t use the new speed during the current 
+move. For example, if you have a Speed of 30 and a 
+Fly Speed of 40, you could fly 10 feet, walk 10 feet, 
+and leap into the air to fly 20 feet more.
+ Changes to Your Speeds. If an effect increases or 
+decreases your Speed for a time, any special speed 
+you have increases or decreases by an equal amount 
+for the same duration. For example, if your Speed 
+is reduced to 0 and you have a Climb Speed, your 
+Climb Speed is also reduced to 0. Similarly, if your 
+Speed is halved and you have a Fly Speed, your Fly 
+Speed is also halved.
+Spell
+A spell is a magical effect that has the characteris -
+tics described in “Spells.”
+Spell Attack
+A spell attack is an attack roll made as part of a spell 
+or another magical effect. See also  “Spells” (“Casting 
+Spells”).
+Spellcasting Focus
+A Spellcasting Focus is an object that certain crea-
+tures can use in place of a spell’s Material compo -
+nents if those materials aren’t consumed by the 
+spell and don’t have a cost specified. Some classes 
+allow its members to use certain types of Spellcast -
+ing Focuses. See also  “Spells” (“Casting Spells”).
+Sphere [Area of Effect]
+A Sphere is an area of effect that extends in straight 
+lines from a point of origin outward in all direc -
+tions. The effect that creates a Sphere specifies the 
+distance it extends as the radius of the Sphere.
+ A Sphere’s point of origin is included in the 
+Sphere’s area of effect.
+Stable
+A creature is Stable if it has 0 Hit Points but isn’t 
+required to make Death Saving Throws. See also  
+“Playing the Game” (“Damage and Healing”).
+Stat Block
+A stat block contains the game statistics of a mon -
+ster. Each stat block includes the following informa-
+tion presented after the monster’s name.
+ Size. A monster is Tiny, Small, Medium, Large, 
+Huge, or Gargantuan. See also  “Size.”
+ Creature Type. This entry notes the family of be -
+ings a monster belongs to, along with any descrip -
+tive tags. See also  “Creature Type.”
+ Alignment. An alignment is suggested for the 
+monster, with the GM determining its actual align -
+ment. See also “Alignment.”
+ AC, Initiative, and HP. These entries give the 
+monster’s Armor Class, Initiative, and Hit Points, 
+which are detailed in “Playing the Game.” In paren -
+theses after the Hit Points, the monster’s Hit Point 
+Dice are provided, along with the contribution of its 
+Constitution, if any, to its Hit Points. Following the 
+Initiative modifier is an Initiative score. Some crea-
+tures that are created by magic lack Hit Dice and 
+Initiative information.
+ Speed.  Here the monster’s Speed is provided, 
+along with any special speeds. See also  “Burrow 
+Speed,” “Climb Speed,” “Fly Speed,” and “Swim 
+Speed.”
+ Ability Scores. A table provides the monster’s 
+ability scores, modifiers, and saving throw modifi -
+ers, all of which are detailed in “Playing the Game.”
+ Skills. This entry lists the monster’s skill pro -
+ficiencies, if any. See also  “Playing the Game” 
+(“Proficiency”).
+ Resistances and Vulnerabilities. These entries 
+list the monster’s Resistances and Vulnerabilities, if 
+any. See also “Resistance” and “Vulnerability.”
+ Immunities. This section lists the monster’s 
+damage and condition Immunities, if any. See also  
+“Immunity.”
+ Gear.  If the monster has any equipment that can 
+be given away or retrieved, it’s listed in this entry.
+ Senses. This entry lists the monster’s special 
+senses, such as Darkvision, and its Passive Percep -
+tion. See also “Passive Perception.”
+ Languages.  This entry lists any languages the 
+monster knows.

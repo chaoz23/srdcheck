@@ -1,0 +1,94 @@
+327
+System Reference Document 5.2.1
+Legendary Actions
+Legendary Action Uses: 3. Immediately after another 
+creature’s turn, the solar can expend a use to take one of 
+the following actions. The solar regains all expended uses 
+at the start of each of its turns.
+Blinding Gaze. Constitution Saving Throw: DC 25, one 
+creature the solar can see within 120 feet. Failure: The 
+target has the Blinded condition for 1 minute. Failure or 
+Success: The solar can’t take this action again until the 
+start of its next turn.
+Radiant Teleport. The solar teleports up to 60 feet to an 
+unoccupied space it can see. Dexterity Saving Throw: 
+DC 25, each creature in a 10-foot Emanation originat-
+ing from the solar at its destination space. Failure: 11 
+(2d10) Radiant damage. Success: Half damage.
+Specter
+Specter
+Medium Undead, Chaotic Evil
+AC 12  Initiative +2 (12)
+HP 22 (5d8)
+Speed 30 ft., Fly 50 ft. (hover)
+MOD SAVE MOD SAVE MOD SAVE
+Str 1 −5 −5 Dex 14 +2 +2 Con 11 +0 +0
+Int 10 +0 +0 WIS 10 +0 +0 Cha 11 +0 +0
+Resistances Acid, Bludgeoning, Cold, Fire, Lightning, 
+Piercing, Slashing, Thunder
+Immunities Necrotic, Poison; Charmed, Exhaustion, 
+Grappled, Paralyzed, Petrified, Poisoned, Prone, 
+Restrained, Unconscious
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Understands Common plus one other language 
+but can’t speak
+CR 1 (XP 200; PB +2)
+Traits
+Incorporeal Movement. The specter can move through 
+other creatures and objects as if they were Difficult 
+Terrain. It takes 5 (1d10) Force damage if it ends its turn 
+inside an object.
+Sunlight Sensitivity. While in sunlight, the specter has 
+Disadvantage on ability checks and attack rolls.
+Actions
+Life Drain. Melee Attack Roll: +4, reach 5 ft. Hit: 7 
+(2d6) Necrotic damage. If the target is a creature, its Hit 
+Point maximum decreases by an amount equal to the 
+damage taken.
+Sphinxes
+Sphinx of Wonder
+Tiny Celestial, Lawful Good
+AC 13   Initiative +3 (13)
+HP 24 (7d4 + 7)
+Speed 20 ft., Fly 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 6 −2 −2 Dex 17 +3 +3 Con 13 +1 +1
+Int 15 +2 +2 WIS 12 +1 +1 Cha 11 +0 +0
+Skills Arcana +4, Religion +4, Stealth +5
+Resistances Necrotic, Psychic, Radiant
+Senses Darkvision 60 ft.; Passive Perception 11
+Languages Celestial, Common
+CR 1 (XP 200; PB +2)
+Traits
+Magic Resistance. The sphinx has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 5 (1d4 + 3) 
+Slashing damage plus 7 (2d6) Radiant damage.
+Reactions
+Burst of Ingenuity (2/Day). Trigger: The sphinx or an-
+other creature within 30 feet makes an ability check or 
+a saving throw. Response: The sphinx adds 2 to the roll.
+Sphinx of Lore
+Large Celestial, Lawful Neutral
+AC 17  Initiative +10 (20)
+HP 170 (20d10 + 60)
+Speed 40 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 15 +2 +2 Con 16 +3 +3
+Int 18 +4 +4 WIS 18 +4 +4 Cha 18 +4 +4
+Skills Arcana +12, History +12, Perception +8, 
+Religion +12
+Resistances Necrotic, Radiant
+Immunities Psychic; Charmed, Frightened
+Senses Truesight 120 ft.; Passive Perception 18
+Languages Celestial, Common
+CR 11 (XP 7 ,200, or 8,400 in lair; PB +4)
+Traits
+Inscrutable. No magic can observe the sphinx remotely 
+or detect its thoughts without its permission. Wisdom 
+(Insight) checks made to ascertain its intentions or sin-
+cerity are made with Disadvantage.
+Legendary Resistance (3/Day, or 4/Day in Lair). If 
+the sphinx fails a saving throw, it can choose to suc-
+ceed instead.

@@ -1,0 +1,80 @@
+System	  Reference	   Document	  5.1 	   267	  
+Deadly	  Leap.	  If	  the	  bulette	  jumps	  at	  least	  15	  feet	  as	  
+part	  of	  its	  movement,	  it	  can	  then	  use	  this	  action	  to	  land	  
+on	  its	  feet	  in	  a	  space	  that	  contains	  one	  or	  more	  other	  
+creatures.	  Each	  of	  those	  creatures	  must	  succeed	  on	  a	  
+DC	  16	  Strength	  or	  Dexterity	  saving	  throw	  (target ’s	  
+choice)	  or	  be	  knocked	  prone	  and	  take	  14	  (3d6	  +	  4)	  
+bludgeoning	  damage	  plus	  14	  (3d6	  +	  4)	  slashing	  
+damage.	  On	  a	  successful	  save,	  the	  creature	  takes	  only	  
+half	  the	  damage,	  isn’t	  knocked	  prone,	  and	  is	  pushed	  5	  
+feet	  out	  of	  the	  bulette’s	  space	  into	  an	  unoccupie d	  
+space	  of	  the	  creature’s	  choice.	  If	  no	  unoccupied	  space	  
+is	  within	  range,	  the	  creature	  instead	  falls	  prone	  in	  the	  
+bulette’s	  space. 	  
+Monsters (C) 
+Centaur	  
+Large	  monstrosity,	  neutral	  good 	  
+Armor	  Class	  12	  
+Hit	  Points	  45	  (6d10	  +	  12)	  
+Speed	  50	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   14	  (+2)	   14	  (+2)	   9	  (−1)	   13	  (+1)	   11	  (+0)	  
+Skills	  Athletics	  +6,	  Perception	  +3,	  Survival	  +3 	  
+Senses	  passive	  Perception	  13 	  
+Languages	  Elvish,	  Sylvan	  
+Challenge	  2	  (450	  XP)	  
+Charge.	  If	  the	  centaur	  moves	  at	  least	  30	  feet	  straight	  
+toward	  a	  target	  and 	  then	  hits	  it	  with	  a	  pike	  attack	  on	  
+the	  same	  turn,	  the	  target	  takes	  an	  extra	  10	  (3d6)	  
+piercing	  damage. 	  
+Actions	  
+Multiattack.	  The	  centaur	  makes	  two	  attacks:	  one	  with	  
+its	  pike	  and	  one	  with	  its	  hooves	  or	  two	  with	  its	  
+longbow.	  
+Pike.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  10	  ft.,	  one	  
+target.	  Hit:	  9	  (1d10	  +	  4)	  piercing	  damage. 	  
+Hooves.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  11	  (2d6	  +	  4)	  bludgeoning	  damage. 	  
+Longbow.	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  range	  
+150/600	  ft.,	  one	  target.	   Hit:	  6	  (1d8	  +	  2)	  piercing	  
+damage.	  
+Chimera	  
+Large	  monstrosity,	  chaotic	  evil 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  114	  (12d10	  +	  48) 	  
+Speed	  30	  ft.,	  fly	  60	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+19	  (+4)	   11	  (+0)	   19	  (+4)	   3	  (−4)	   14	  (+2)	   10	  (+0)	  
+Skills	  Perception	  +8	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  18 	  
+Languages	  understands	  Draconic	  but	  can’t	  speak 	  
+Challenge	  6	  (2,300	  XP)	  
+Actions	  
+Multiattack.	  The	  chimera	  makes	  three	  attacks:	  one	  
+with	  its	  bite,	  one	  with	  its	  horns,	  and	  one	  with	  its	  claws.	  
+When	  its	  fire	  breath	  is	  available,	  it	  c an	  use	  the	  breath	  
+in	  place	  of	  its	  bite	  or	  horns. 	  
+Bite.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  11	  (2d6	  +	  4)	  piercing	  damage. 	  
+Horns.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  10	  (1d12	  +	  4)	  bludgeoning	  damage. 	  
+Claws.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  11	  (2d6	  +	  4)	  slashing	  damage. 	  
+Fire	  Breath	  (Recharge	  5 –6).	  The	  dragon	  head	  exhales	  
+fire	  in	  a	  15-­‐foot	  cone.	  Each	  creature	  in	  that	  area	  must	  
+make	  a	  DC	  15	  Dexterity	  saving	  throw,	  taking	  31	  (7d8)	  
+fire	  damage	  on	  a	  failed	  save,	  or	  half	  as	  much	  damage	  
+on	  a	  successful	  one. 	  
+Chuul	  
+Large	  aberration,	  chaotic	  evil 	  
+Armor	  Class	  16	  (natural	  armor) 	  
+Hit	  Points	  93	  (11d10	  +	  33) 	  
+Speed	  30	  ft.,	  swim	  30	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+19	  (+4)	   10	  (+0)	   16	  (+3)	   5	  (−3)	   11	  (+0)	   5	  (−3)	  
+Skills	  Perception	  +4	  
+Damage	  Immunities 	  poison	  
+Condition	  Immunities 	  poisoned	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  14 	  
+Languages	  understands	  Deep	  Speech	  but	  can’t	  speak 	  

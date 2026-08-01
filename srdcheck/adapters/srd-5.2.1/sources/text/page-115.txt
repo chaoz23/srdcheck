@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+115
+One creature you can see within range makes a 
+Wisdom saving throw. It does so with Advantage 
+if you or your allies are fighting it. On a failed save, 
+the target has the Charmed condition until the 
+spell ends or until you or your allies damage it. The 
+Charmed creature is Friendly to you. When the spell 
+ends, the target knows it was Charmed by you.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 4.
+Charm Person
+Level 1 Enchantment (Bard, Druid, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: 1 hour
+One Humanoid you can see within range makes a 
+Wisdom saving throw. It does so with Advantage 
+if you or your allies are fighting it. On a failed save, 
+the target has the Charmed condition until the 
+spell ends or until you or your allies damage it. The 
+Charmed creature is Friendly to you. When the spell 
+ends, the target knows it was Charmed by you.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Chill Touch
+Necromancy Cantrip (Sorcerer, Warlock, Wizard)
+Casting Time:  Action
+Range: Touch
+Components: V, S
+Duration: Instantaneous
+Channeling the chill of the grave, make a melee spell 
+attack against a target within reach. On a hit, the 
+target takes 1d10 Necrotic damage, and it can’t re -
+gain Hit Points until the end of your next turn.
+ Cantrip Upgrade. The damage increases by 1d10 
+when you reach levels 5 (2d10), 11 (3d10), and 17 
+(4d10).
+Chromatic Orb
+Level 1 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 90 feet
+Components: V, S, M (a diamond worth 50+ GP)
+Duration: Instantaneous
+You hurl an orb of energy at a target within range. 
+Choose Acid, Cold, Fire, Lightning, Poison, or Thun -
+der for the type of orb you create, and then make a 
+ranged spell attack against the target. On a hit, the 
+target takes 3d8 damage of the chosen type.
+ If you roll the same number on two or more of 
+the d8s, the orb leaps to a different target of your 
+choice within 30 feet of the target. Make an attack 
+roll against the new target, and make a new damage 
+roll. The orb can’t leap again unless you cast the 
+spell with a level 2+ spell slot.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 1. The 
+orb can leap a maximum number of times equal to 
+the level of the slot expended, and a creature can be 
+targeted only once by each casting of this spell.
+Circle of Death
+Level 6 Necromancy (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (the powder of a crushed black 
+pearl worth 500+ GP)
+Duration: Instantaneous
+Negative energy ripples out in a 60-foot-radius 
+Sphere from a point you choose within range. Each 
+creature in that area makes a Constitution saving 
+throw, taking 8d8 Necrotic damage on a failed save 
+or half as much damage on a successful one.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 2d8 for each spell slot level above 6.
+Clairvoyance
+Level 3 Divination (Bard, Cleric, Sorcerer, Wizard)
+Casting Time: 10 minutes
+Range: 1 mile
+Components: V, S, M (a focus worth 100+ GP, either a 
+jeweled horn for hearing or a glass eye for seeing)
+Duration: Concentration, up to 10 minutes
+You create an Invisible sensor within range in a 
+location familiar to you (a place you have visited 
+or seen before) or in an obvious location that is 
+unfamiliar to you (such as behind a door, around a 
+corner, or in a grove of trees). The intangible, invul -
+nerable sensor remains in place for the duration.
+ When you cast the spell, choose seeing or hearing. 
+You can use the chosen sense through the sensor as 
+if you were in its space. As a Bonus Action, you can 
+switch between seeing and hearing.
+ A creature that sees the sensor (such as a creature 
+benefiting from See Invisibility  or Truesight) sees a 
+luminous orb about the size of your fist.
+Clone
+Level 8 Necromancy (Wizard)
+Casting Time: 1 hour
+Range: Touch
+Components: V, S, M (a diamond worth 1,000+ GP, 
+which the spell consumes, and a sealable vessel worth 
+2,000+ GP that is large enough to hold the creature 
+being cloned)
+Duration: Instantaneous

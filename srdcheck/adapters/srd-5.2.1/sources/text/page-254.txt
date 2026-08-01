@@ -1,0 +1,104 @@
+254
+System Reference Document 5.2.1
+Monsters
+Stat Block Overview
+A monster has a stat block that contains the rules 
+necessary to use it in the game. Stat blocks are di -
+vided into the following parts:
+Name and General Details. The name of the mon-
+ster is followed by its size, creature type (along 
+with any descriptive tags), and alignment.
+Combat Highlights.  Armor Class, Hit Points, Speed, 
+and Initiative are provided here.
+Ability Scores.  A monster’s ability scores, ability 
+modifiers, and saving throws are listed here.
+Other Details. The monster’s Senses, Languages, 
+and CR entries appear here. Additional details ap -
+pear in some monsters, such as skill proficiencies, 
+Resistances, Immunities, and Gear. If a monster 
+lacks those details, entries for them don’t appear.
+Traits.  Monster characteristics that are active at all 
+times or during certain situations appear here.
+Actions. The monster can take the actions here in 
+addition to those in “Playing the Game.”
+Bonus Actions.  This section provides a monster’s 
+Bonus Actions, if any.
+Reactions and Legendary Actions.  These sections 
+provide Reactions and Legendary Actions, if any.
+Parts of a Stat Block
+The rules for a stat block are detailed in “Rules Glos -
+sary”  and in this section.
+Size
+A monster is Tiny, Small, Medium, Large, Huge, 
+or Gargantuan. If size options are presented, you 
+choose the creature’s size from those options. See 
+“Playing the Game” for information on size.
+Creature Type
+Each monster has a tag that identifies the type of 
+creature it is. Certain spells, magic items, class fea-
+tures, and other effects in the game interact in spe -
+cial ways with creatures of a particular type.
+ The game includes the following creature types, 
+which have no rules of their own:
+Aberrations  are utterly alien beings, such as abo -
+leths and cloakers.
+Beasts are non-Humanoid natural creatures, like 
+horses and wolves, as well as most giant animals.
+Celestials are magical creatures, such as angels and 
+pegasi, with ties to the Upper Planes.
+Constructs  are magically created creatures such as 
+homunculi and shield guardians.
+Dragons are scaly beings of ancient origin, such as 
+red dragons and wyverns.
+Elementals are beings from the Elemental Planes, 
+such as efreet and water elementals.
+Fey are creatures tied to the Feywild or the forces 
+of nature, such as dryads and goblins.
+Fiends are creatures tied to terrifying Lower 
+Planes, such as balors and hell hounds.
+Giants are towering beings with humanlike shapes, 
+like fire giants and trolls.
+Humanoids are people defined by their roles and 
+professions, such as mages, pirates, and warriors. 
+They include members of varied species.
+Monstrosities  are unnatural creatures with 
+strange origins, such as mimics and owlbears.
+Oozes are gelatinous creatures, including black 
+puddings and gelatinous cubes.
+Plants are sentient vegetation and fungal monsters, 
+such as shambling mounds and treants.
+Undead are spirits and the reanimated dead, such 
+as ghosts, vampires, and zombies.
+Descriptive Tags
+A monster might have one or more tags in parenthe -
+ses following its type. Such tags provide additional 
+categorization and have no rules of their own, but 
+certain game effects might refer to them.
+Alignment
+The alignment specified in a monster’s stat block is 
+a default suggestion of how to roleplay the monster, 
+inspired by its traditional role in the game or real- 
+world folklore. Change a monster’s alignment to 
+suit your storytelling needs. The Neutral alignment, 
+in particular, is an invitation for you to consider 
+whether an individual leans toward one of the other 
+alignments.
+ “Character Creation”  describes the nine align -
+ments and unaligned creatures.
+Armor Class
+A monster’s Armor Class (AC) includes its natural 
+armor, Dexterity, gear, and other defenses. See 
+“Playing the Game” for information on Armor Class.
+Initiative
+The Initiative entry specifies the monster’s Initia-
+tive modifier followed by the monster’s Initiative 
+score in parentheses. Use the modifier when you 
+roll to determine a monster’s Initiative. A monster’s 
+Initiative modifier is typically equal to its Dexterity 
+modifier, but some monsters have additional mod -
+ifiers, such as Proficiency Bonus, applied to that 
+number.
+ If you don’t want to roll a monster’s Initiative, use 
+the Initiative score as the monster’s Initiative in 
+combat. Initiative is further detailed in “Playing the 
+Game.”

@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   123	  
+Creatures	  that	  aren’t	  there	  can’t	  perceive	  you	  or	  
+interact	  with	  you,	  unless	  they	  have	  the	  ability	  to	  do	  
+so.	  
+Blur 
+2nd-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Your	  body	  becomes	  blurred,	  shifting	  and	  wavering	  
+to	  all	  who	  can	  see	  you.	  For	  the	  duration,	  any	  
+creature	  has	  disadvantage	  on	  attack	  rolls	  against	  you.	  
+An	  attacker	  is	  immune	  to	  this	  effect	  if	  it	  doesn’t	  rely	  
+on	  sight,	  as	  with	  blindsight,	  or	  can	  see	  through	  
+illusions,	  as	  with	  truesight. 	  
+Branding Smite 
+2nd-­‐‑level	  evocation 	  
+Casting	  Time: 	  1	  bonus	  action 	  
+Range:	  Self	  
+Components:	  V	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+The	  next	  time	  you	  hit	  a	  creature	  with	  a	  weapon	  
+attack	  before	  this	  spell	  ends,	  the	  weapon	  gleams	  
+with	  astral	  radiance	  as	  you	  strike.	  The	  attack	  deals	  
+an	  extra	  2d6	  radiant	  damage	  to	  the	  target,	  which	  
+becomes	  visible	  if	  it's	  invisible,	  and	  the	  target	  sheds	  
+dim	  light	  in	  a	  5-­‐‑ foot	  radius	  and	  can't	  become	  
+invisible	  until	  the	  spell	  ends. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  the	  extra	  damage	  
+increases	  by	  1d6	  for	  each	  slot	  level	  above	  2nd. 	  
+Burning Hands 
+1st-­‐‑level	  evocation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  (15-­‐‑foot	  cone)	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+As	  you	  hold	  your	  hands	  with	  thumbs	  touching	  and	  
+fingers	  spread,	  a	  thin	  sheet	  of	  flames	  shoots	  forth	  
+from	  your	  outstretched	  fingertips.	  Each	  creature	  in	  a	  
+15-­‐‑foot	  cone	  must	  make	  a	  Dexterity	  saving	  throw.	  A	  
+creature	  takes	  3d6	  fire	  damage	  on	  a	  failed	  save,	  or	  
+half	  as	  much	  damage	  on	  a	  successful	  one. 	  
+	   The	  fire	  ignites	  any	  flammable	  objects	  in	  the	  area	  
+that	  aren’t	  being	  worn	  or	  carried. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  the	  damage	  
+increases	  by	  1d6	  for	  each	  slot	  level 	  above	  1st.	  
+Call Lightning 
+3rd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+A	  storm	  cloud	  appears	  in	  the	  shape	  of	  a	  cylinder	  that	  
+is	  10	  feet	  tall	  with	  a	  60 -­‐‑foot	  radius,	  centered	  on	  a	  
+point	  you	  can	  see	  100	  feet	  directly	  above	  you.	  The	  
+spell	  fails	  if	  you	  can’t	  see	  a	  point	  in	  the	  air	  where	  the	  
+storm	  cloud	  could	  appear	  (for	  example,	  if	  you	  are	  in	  
+a	  room	  that	  can’t	  accommodate	  the	  cloud). 	  
+	   When	  you	  cast	  the	  spell,	  choose	  a	  point	  you	  can	  
+see	  within	  range.	  A	  bolt	  of	  lightning	  flashes	  down	  
+from	  the	  cloud	  to	  that	  point.	  Each	  creature	  within	  5	  
+feet	  of	  that	  point	  must	  make	  a	  Dexterity	  saving	  
+throw.	  A	  creature	  takes	  3d10	  lightning	  damage	  on	  a	  
+failed	  save,	  or	  half	  as	  much	  damage	  on	  a	  successful	  
+one.	  On	  each	  of	  your	  turns	  until	  the	  spell	  ends,	  you	  
+can	  use	  your	  action	  to	  call	  down	  lightning	  in	  this	  way	  
+again,	  targeting	  the	  same	  point	  or	  a	  different	  one. 	  
+	   If	  you	  are	  outdoors	  in	  stormy	  conditions	  when	  you	  
+cast	  this	  spell,	  the	  spell	  gives	  you	  control	  over 	  the	  
+existing	  storm	  instead	  of	  creating	  a	  new	  one.	  Under	  
+such	  conditions,	  the	  spell’s	  damage	  increases	  by	  
+1d10.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  or	  higher	  level,	  the	  damage	  increases	  
+by	  1d10	  for	  each	  slot	  level	  above	  3r d.	  
+Calm Emotions 
+2nd-­‐‑level	  enchantment 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  attempt	  to	  suppress	  strong	  emotions	  in	  a	  group	  
+of	  people.	  Each	  humanoid	  in	  a	  20 -­‐‑foot-­‐‑radius	  sphere	  
+centered	  on	  a	  point 	  you	  choose	  within	  range	  must	  
+make	  a	  Charisma	  saving	  throw;	  a	  creature	  can	  
+choose	  to	  fail	  this	  saving	  throw	  if	  it	  wishes.	  If	  a	  
+creature	  fails	  its	  saving	  throw,	  choose	  one	  of	  the	  
+following	  two	  effects. 	  
+	   You	  can	  suppress	  any	  effect	  causing	  a	  target	  to	  be	  
+charmed	  or	  frightened.	  When	  this	  spell	  ends,	  any	  
+suppressed	  effect	  resumes,	  provided	  that	  its	  
+duration	  has	  not	  expired	  in	  the	  meantime. 	  
+	   Alternatively,	  you	  can	  make	  a	  target	  indifferent	  
+about	  creatures	  of	  your	  choice	  that	  it	  is	  hostile	  
+toward.	  This	  indifferen ce	  ends	  if	  the	  target	  is	  
+attacked	  or	  harmed	  by	  a	  spell	  or	  if	  it	  witnesses	  any	  

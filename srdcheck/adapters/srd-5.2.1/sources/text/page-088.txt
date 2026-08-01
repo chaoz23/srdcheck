@@ -1,0 +1,93 @@
+System Reference Document 5.2.1
+88
+Defense
+Fighting Style Feat (Prerequisite: Fighting Style 
+Feature)
+While you’re wearing Light, Medium, or Heavy ar -
+mor, you gain a +1 bonus to Armor Class.
+Great Weapon Fighting
+Fighting Style Feat (Prerequisite: Fighting Style 
+Feature)
+When you roll damage for an attack you make with 
+a Melee weapon that you are holding with two 
+hands, you can treat any 1 or 2 on a damage die as a 
+3. The weapon must have the Two-Handed or Versa-
+tile property to gain this benefit.
+Two-Weapon Fighting
+Fighting Style Feat (Prerequisite: Fighting Style 
+Feature)
+When you make an extra attack as a result of using 
+a weapon that has the Light property, you can add 
+your ability modifier to the damage of that attack if 
+you aren’t already adding it to the damage.
+Epic Boon Feats
+Boon of Combat Prowess
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase one ability score 
+of your choice by 1, to a maximum of 30.
+ Peerless Aim. When you miss with an attack roll, 
+you can hit instead. Once you use this benefit, you 
+can’t use it again until the start of your next turn.
+Boon of Dimensional Travel
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase one ability score 
+of your choice by 1, to a maximum of 30.
+ Blink Steps. Immediately after you take the At -
+tack action or the Magic action, you can teleport up 
+to 30 feet to an unoccupied space you can see.
+Boon of Fate
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase one ability score 
+of your choice by 1, to a maximum of 30.
+ Improve Fate. When you or another creature 
+within 60 feet of you succeeds on or fails a D20 
+Test, you can roll 2d4 and apply the total rolled as a 
+bonus or penalty to the d20 roll. Once you use this 
+benefit, you can’t use it again until you roll Initiative 
+or finish a Short or Long Rest.
+Boon of Irresistible Offense
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase your Strength or 
+Dexterity score by 1, to a maximum of 30.
+ Overcome Defenses.  The Bludgeoning, Pierc -
+ing, and Slashing damage you deal always ignores 
+Resistance.
+ Overwhelming Strike. When you roll a 20 on the 
+d20 for an attack roll, you can deal extra damage 
+to the target equal to the ability score increased by 
+this feat. The extra damage’s type is the same as the 
+attack’s type. 
+Boon of Spell Recall
+Epic Boon Feat (Prerequisite: Level 19+, Spellcasting 
+Feature) 
+You gain the following benefits.
+ Ability Score Increase. Increase your Intelligence, 
+Wisdom, or Charisma score by 1, to a maximum of 
+30.
+ Free Casting. Whenever you cast a spell with a 
+level 1–4 spell slot, roll 1d4. If the number you roll is 
+the same as the slot’s level, the slot isn’t expended. 
+Boon of the Night Spirit
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase one ability score 
+of your choice by 1, to a maximum of 30.
+ Merge with Shadows. While within Dim Light or 
+Darkness, you can give yourself the Invisible condi -
+tion as a Bonus Action. The condition ends on you 
+immediately after you take an action, a Bonus Ac -
+tion, or a Reaction.
+ Shadowy Form. While within Dim Light or Dark -
+ness, you have Resistance to all damage except Psy -
+chic and Radiant.
+Boon of Truesight
+Epic Boon Feat (Prerequisite: Level 19+)
+You gain the following benefits.
+ Ability Score Increase. Increase one ability score 
+of your choice by 1, to a maximum of 30.
+ Truesight.  You have Truesight with a range of 60 
+feet.

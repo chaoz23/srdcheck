@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   167	  
+on.	  It	  takes	  10	  minutes	  for	  these	  changes	  to	  
+complete.	  
+	   At	  the	  end	  of	  every	  10	  minutes	  you	  spend	  
+concentrating	  on	  the	  spell,	  you	  can	  choose	  a	  new	  
+area	  of	  terrain	  to	  affect. 	  
+	   Because	  the	  terrain’s	  transformation	  occurs	  
+slowly,	  creatures	  in	  th e	  area	  can’t	  usually	  be	  trapped	  
+or	  injured	  by	  the	  ground’s	  movement. 	  
+	   This	  spell	  can’t	  manipulate	  natural	  stone	  or	  stone	  
+construction.	  Rocks	  and	  structures	  shift	  to	  
+accommodate	  the	  new	  terrain.	  If	  the	  way	  you	  shape	  
+the	  terrain	  would	  make	  a	  structure	  unstab le,	  it	  might	  
+collapse.	  
+	   Similarly,	  this	  spell	  doesn’t	  directly	  affect	  plant	  
+growth.	  The	  moved	  earth	  carries	  any	  plants	  along	  
+with	  it.	  
+Nondetection 
+3rd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  diamond	  dust	  
+worth	  25	  gp	  sprinkled	  over	  the	  target,	  which	  the	  
+spell	  consumes) 	  
+Duration:	  8	  hours	  
+For	  the	  duration,	  you	  hide	  a	  target	  that	  you	  touch	  
+from	  divination	  magic.	  The	  target	  can	  be	  a	  willing	  
+creature	  or	  a	  place	  or	  an	  object	  no	  l arger	  than	  10	  
+feet	  in	  any	  dimension.	  The	  target	  can’t	  be	  targeted	  
+by	  any	  divination	  magic	  or	  perceived	  through	  
+magical	  scrying	  sensors. 	  
+Pass without Trace 
+2nd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (ashes	  from	  a	  burned	  leaf	  of	  
+mistletoe	  and	  a	  sprig	  of	  spruce) 	  
+Duration:	  Concentration,	  up	  to	  1	  hour 	  
+A	  veil	  of	  shadows	  and	  silence	  radiates	  from	  you,	  
+masking	  you	  and	  your	  companions	  from	  detection.	  
+For	  the	  duration,	  each	  creature	  you	  choose	  within	   30	  
+feet	  of	  you	  (including	  you)	  has	  a	  +10	  bonus	  to	  
+Dexterity	  (Stealth)	  checks	  and	  can’t	  be	  tracked	  
+except	  by	  magical	  means.	  A	  creature	  that	  receives	  
+this	  bonus	  leaves	  behind	  no	  tracks	  or	  other	  traces	  of	  
+its	  passage.	  
+Passwall 
+5th-­‐‑level	  transmutation 	  
+Casting	  Time:	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  sesame	  seeds) 	  
+Duration:	  1	  hour	  
+A	  passage	  appears	  at	  a	  point	  of	  your	  choice	  that	  you	  
+can	  see	  on	  a	  wooden,	  plaster,	  or	  stone	  surface	  (such	  
+as	  a	  wall,	  a	  ceiling,	  or	  a	  floor)	  within	  range,	  and	  lasts 	  
+for	  the	  duration.	  You	  choose	  the	  opening’s	  
+dimensions:	  up	  to	  5	  feet	  wide,	  8	  feet	  tall,	  and	  20	  feet	  
+deep.	  The	  passage	  creates	  no	  instability	  in	  a	  
+structure	  surrounding	  it. 	  
+	   When	  the	  opening	  disappears,	  any	  creatures	  or	  
+objects	  still	  in	  the	  passage	  created	   by	  the	  spell	  are	  
+safely	  ejected	  to	  an	  unoccupied	  space	  nearest	  to	  the	  
+surface	  on	  which	  you	  cast	  the	  spell. 	  
+Phantasmal Killer 
+4th-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  tap	  into	  the 	  nightmares	  of	  a	  creature	  you	  can	  
+see	  within	  range	  and	  create	  an	  illusory	  
+manifestation	  of	  its	  deepest	  fears,	  visible	  only	  to	  that	  
+creature.	  The	  target	  must	  make	  a	  Wisdom	  saving	  
+throw.	  On	  a	  failed	  save,	  the	  target	  becomes	  
+frightened	  for	  the	  duration.	  At	  th e	  end	  of	  each	  of	  the	  
+target’s	  turns	  before	  the	  spell	  ends,	  the	  target	  must	  
+succeed	  on	  a	  Wisdom	  saving	  throw	  or	  take	  4d10	  
+psychic	  damage.	  On	  a	  successful	  save,	  the	  spell	  ends. 	  
+	   At	  Higher	  Levels.	   When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  5th	  level	  or	  hi gher,	  the	  damage	  increases	  
+by	  1d10	  for	  each	  slot	  level	  above	  4th. 	  
+Phantom Steed 
+3rd-­‐‑level	  illusion	  (ritual) 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  30	  feet	  
+Components:	  V,	  S	  
+Duration:	  1	  hour	  
+A	  Large	  quasi-­‐‑real,	  horselike	  creature	  appears	  on	  the	  
+ground	  in	  an	  unoccupied	  space	  of	  your	  choice	  within	  
+range.	  You	  decide	  the	  creature’s	  appearance,	  but	  it	  is	  
+equipped	  with	  a	  saddle,	  bit,	  and	  bridle.	  Any	  of	  the	  
+equipment	  created	  by	  the	  spell	  vanishes	  in	  a	  puff	  of	  
+smoke	  if	  it	  is	  carried	  more	  than	  10	  feet	  away	  from	  
+the	  steed.	  
+	   For	  the	  duration,	  you	  or	  a	  creature	  you	  choose	  can	  
+ride	  the	  steed.	  The	  creature	  uses	  the	  statistics	  for	  a	  
+riding	  horse,	  except	  it	  has	  a	  speed	  of	  100	  feet	  and	  
+can	  travel	  10	  miles	  in	  an	  hour,	  or	  13	  miles	  at	  a	  fast	  

@@ -1,0 +1,75 @@
+System Reference Document 5.2.1
+81
+Spell School Special
+Polymorph Transmutation C
+Private Sanctum Abjuration —
+Resilient Sphere Abjuration C
+Secret Chest Conjuration M
+Stone Shape Transmutation —
+Stoneskin Transmutation C, M
+Vitriolic Sphere Evocation —
+Wall of Fire Evocation C
+Level 5 Wizard Spells
+Spell School Special
+Animate Objects Transmutation C
+Arcane Hand Evocation C
+Cloudkill Conjuration C
+Cone of Cold Evocation —
+Conjure Elemental Conjuration C
+Contact Other Plane Divination R
+Creation Illusion —
+Dominate Person Enchantment C
+Dream Illusion —
+Geas Enchantment —
+Hold Monster Enchantment C
+Legend Lore Divination M
+Mislead Illusion C
+Modify Memory Enchantment C
+Passwall Transmutation —
+Planar Binding Abjuration M
+Scrying Divination C, M
+Seeming Illusion —
+Summon Dragon Conjuration C, M
+Telekinesis Transmutation C
+Telepathic Bond Divination R
+Teleportation Circle Conjuration M
+Wall of Force Evocation C
+Wall of Stone Evocation C
+Level 6 Wizard Spells
+Spell School Special
+Chain Lightning Evocation —
+Circle of Death Necromancy M
+Contingency Abjuration M
+Create Undead Necromancy M
+Disintegrate Transmutation —
+Eyebite Necromancy C
+Flesh to Stone Transmutation C
+Freezing Sphere Evocation —
+Globe of Invulnerability Abjuration C
+Guards and Wards Abjuration M
+Instant Summons Conjuration R, M
+Irresistible Dance Enchantment C
+Magic Jar Necromancy M
+Mass Suggestion Enchantment —
+Move Earth Transmutation C
+Programmed Illusion Illusion M
+Sunbeam Evocation C
+True Seeing Divination M
+Wall of Ice Evocation C
+Level 7 Wizard Spells
+Spell School Special
+Arcane Sword Evocation C, M
+Delayed Blast Fireball Evocation C
+Etherealness Conjuration —
+Finger of Death Necromancy —
+Forcecage Evocation C, M
+Magnificent Mansion Conjuration M
+Mirage Arcane Illusion —
+Plane Shift Conjuration M
+Prismatic Spray Evocation —
+Project Image Illusion C, M
+Reverse Gravity Transmutation C
+Sequester Transmutation M
+Simulacrum Illusion M
+Symbol Abjuration M
+Teleport Conjuration —

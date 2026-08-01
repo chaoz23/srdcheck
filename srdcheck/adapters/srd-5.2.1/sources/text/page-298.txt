@@ -1,0 +1,90 @@
+298
+System Reference Document 5.2.1
+Hezrou
+Hezrou
+Large Fiend (Demon), Chaotic Evil
+AC 18  Initiative +6 (16)
+HP 157 (15d10 + 75)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +7 Dex 17 +3 +3 Con 20 +5 +8
+Int 5 −3 −3 WIS 12 +1 +4 Cha 13 +1 +1
+Resistances Cold, Fire, Lightning
+Immunities Poison; Poisoned
+Senses Darkvision 120 ft.; Passive Perception 11
+Languages Abyssal; telepathy 120 ft.
+CR 8 (XP 3,900; PB +3)
+Traits
+Demonic Restoration. If the hezrou dies outside the 
+Abyss, its body dissolves into ichor, and it gains a new 
+body instantly, reviving with all its Hit Points some-
+where in the Abyss.
+Magic Resistance. The hezrou has Advantage on saving 
+throws against spells and other magical effects.
+Stench. Constitution Saving Throw: DC 16, any creature 
+that starts its turn in a 10-foot Emanation originating 
+from the hezrou. Failure: The target has the Poisoned 
+condition until the start of its next turn.
+Actions
+Multiattack. The hezrou makes three Rend attacks.
+Rend. Melee Attack Roll: +7 , reach 5 ft. Hit: 6 (1d4 + 4) 
+Slashing damage plus 9 (2d8) Poison damage.
+Bonus Actions
+Leap. The hezrou jumps up to 30 feet by spending 10 
+feet of movement.
+Hill Giant
+Hill Giant
+Huge Giant, Chaotic Evil
+AC 13  Initiative +2 (12)
+HP 105 (10d12 + 40)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 21 +5 +5 Dex 8 −1 −1 Con 19 +4 +4
+Int 5 −3 −3 WIS 9 −1 −1 Cha 6 −2 −2
+Skills Perception +2
+Senses Passive Perception 12
+Languages Giant
+CR 5 (XP 1,800; PB +3)
+Actions
+Multiattack. The giant makes two attacks, using Tree 
+Club or Trash Lob in any combination.
+Tree Club. Melee Attack Roll: +8, reach 10 ft. Hit: 18 
+(3d8 + 5) Bludgeoning damage. If the target is a Large 
+or smaller creature, it has the Prone condition.
+Trash Lob. Ranged Attack Roll: +8, range 60/240 
+ft. Hit: 16 (2d10 + 5) Bludgeoning damage, and the 
+target has the Poisoned condition until the end of its 
+next turn.
+Hippogriff
+Hippogriff
+Large Monstrosity, Unaligned
+AC 11  Initiative +1 (11)
+HP 26 (4d10 + 4)
+Speed 40 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 13 +1 +1 Con 13 +1 +1
+Int 2 −4 −4 WIS 12 +1 +1 Cha 8 −1 −1
+Skills Perception +5
+Senses Passive Perception 15
+Languages None
+CR 1 (XP 200; PB +2)
+Traits
+Flyby. The hippogriff doesn’t provoke an Opportunity 
+Attack when it flies out of an enemy’s reach.
+Actions
+Multiattack. The hippogriff makes two Rend attacks.
+Rend. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) 
+Slashing damage.
+Hobgoblins
+Hobgoblin Warrior
+Medium Fey (Goblinoid), Lawful Evil
+AC 18  Initiative +3 (13)
+HP 11 (2d8 + 2)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 12 +1 +1 Con 12 +1 +1
+Int 10 +0 +0 WIS 10 +0 +0 Cha 9 −1 −1
+Gear Half Plate Armor, Longbow, Longsword, Shield
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Common, Goblin
+CR 1/2 (XP 100; PB +2)

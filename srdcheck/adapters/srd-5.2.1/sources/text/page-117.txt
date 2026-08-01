@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+117
+doesn’t function where nature has been replaced by 
+construction, such as in castles and settlements.
+ Choose three of the following facts; you learn 
+those facts as they pertain to the spell’s area:
+• Locations of settlements
+• Locations of portals to other planes of existence
+• Location of one Challenge Rating 10+ creature 
+(GM’s choice) that is a Celestial, an Elemental, a 
+Fey, a Fiend, or an Undead
+• The most prevalent kind of plant, mineral, or 
+Beast (you choose which to learn)
+• Locations of bodies of water
+For example, you could determine the location of a 
+powerful monster in the area, the locations of bod -
+ies of water, and the locations of any towns.
+Comprehend Languages
+Level 1 Divination (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action or Ritual
+Range: Self
+Components: V, S, M (a pinch of soot and salt)
+Duration: 1 hour
+For the duration, you understand the literal mean-
+ing of any language that you hear or see signed. You 
+also understand any written language that you see, 
+but you must be touching the surface on which the 
+words are written. It takes about 1 minute to read 
+one page of text. This spell doesn’t decode symbols 
+or secret messages.
+Compulsion
+Level 4 Enchantment (Bard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+Each creature of your choice that you can see within 
+range must succeed on a Wisdom saving throw or 
+have the Charmed condition until the spell ends.
+ For the duration, you can take a Bonus Action to 
+designate a direction that is horizontal to you. Each 
+Charmed target must use as much of its movement 
+as possible to move in that direction on its next 
+turn, taking the safest route. After moving in this 
+way, a target repeats the save, ending the spell on 
+itself on a success.
+Cone of Cold
+Level 5 Evocation (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a small crystal or glass cone)
+Duration: Instantaneous
+You unleash a blast of cold air. Each creature in 
+a 60-foot Cone originating from you makes a 
+Constitution saving throw, taking 8d8 Cold damage 
+on a failed save or half as much damage on a suc -
+cessful one. A creature killed by this spell becomes 
+a frozen statue until it thaws.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 5.
+Confusion
+Level 4 Enchantment (Bard, Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 90 feet
+Components: V, S, M (three nut shells)
+Duration: Concentration, up to 1 minute
+Each creature in a 10-foot-radius Sphere centered 
+on a point you choose within range must succeed on 
+a Wisdom saving throw, or that target can’t take Bo -
+nus Actions or Reactions and must roll 1d10 at the 
+start of each of its turns to determine its behavior 
+for that turn, consulting the table below.
+1d10 Behavior for the Turn
+1 The target doesn’t take an action, and it uses all 
+its movement to move. Roll 1d4 for the direc -
+tion: 1, north; 2, east; 3, south; or 4, west.
+2–6 The target doesn’t move or take actions.
+7–8 The target doesn’t move, and it takes the At -
+tack action to make one melee attack against 
+a random creature within reach. If none are 
+within reach, the target takes no action.
+9–10 The target chooses its behavior.
+ At the end of each of its turns, an affected target 
+repeats the save, ending the spell on itself on a 
+success.
+ Using a Higher-Level Spell Slot. The Sphere’s 
+radius increases by 5 feet for each spell slot level 
+above 4.
+Conjure Animals
+Level 3 Conjuration (Druid, Ranger)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure nature spirits that appear as a Large 
+pack of spectral, intangible animals in an unoccu -
+pied space you can see within range. The pack lasts 
+for the duration, and you choose the spirits’ animal 
+form, such as wolves, serpents, or birds.
+ You have Advantage on Strength saving throws 
+while you’re within 5 feet of the pack, and when you 
+move on your turn, you can also move the pack up 
+to 30 feet to an unoccupied space you can see.
+ Whenever the pack moves within 10 feet of a crea-
+ture you can see and whenever a creature you can 
+see enters a space within 10 feet of the pack or ends 

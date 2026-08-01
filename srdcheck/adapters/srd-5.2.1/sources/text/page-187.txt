@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+187
+trapdoor, I’ll pull the lever that opens it,” and “If the 
+zombie steps next to me, I move away.”
+ When the trigger occurs, you can either take your 
+Reaction right after the trigger finishes or ignore 
+the trigger.
+ When you Ready a spell, you cast it as normal (ex -
+pending any resources used to cast it) but hold its 
+energy, which you release with your Reaction when 
+the trigger occurs. To be readied, a spell must have 
+a casting time of an action, and holding on to the 
+spell’s magic requires Concentration, which you can 
+maintain up to the start of your next turn. If your 
+Concentration is broken, the spell dissipates with -
+out taking effect.
+Resistance
+If you have Resistance to a damage type, damage 
+of that type is halved against you (round down). 
+Resistance is applied only once to an instance of 
+damage. See also “Playing the Game” (“Damage and 
+Healing”).
+Restrained [Condition]
+While you have the Restrained condition, you expe -
+rience the following effects.
+ Speed 0. Your Speed is 0 and can’t increase.
+ Attacks Affected.  Attack rolls against you have 
+Advantage, and your attack rolls have Disadvantage.
+ Saving Throws Affected. You have Disadvantage 
+on Dexterity saving throws.
+Ritual
+If you have a spell prepared that has the Ritual tag, 
+you can cast that spell as a Ritual. The Ritual ver -
+sion of a spell takes 10 minutes longer to cast than 
+normal. It also doesn’t expend a spell slot, which 
+means the ritual version of a spell can’t be cast at a 
+higher level. See also “Spells.”
+Round Down
+Whenever you divide or multiply a number in the 
+game, round down if you end up with a fraction, 
+even if the fraction is one-half or greater. Some 
+rules make an exception and tell you to round up.
+Save
+Save is another name for a saving throw. See also  
+“Saving Throw.”
+Saving Throw
+A saving throw—also called a save—represents an 
+attempt to avoid or resist a threat. You normally 
+make a saving throw only when a rule requires you 
+to do so, but you can decide to fail the save without 
+rolling. The result of a save is detailed in the effect 
+that allowed it. If a target is forced to make a save 
+and lacks the ability score used by it, the target au -
+tomatically fails. See also  “Playing the Game” (“D20 
+Test s”).
+Search [Action]
+When you take the Search action, you make a Wis -
+dom check to discern something that isn’t obvious. 
+The Search table suggests which skills are applica-
+ble when you take this action, depending on what 
+you’re trying to detect.
+Search
+Skill Thing to Detect
+Insight Creature’s state of mind
+Medicine Creature’s ailment or cause of death
+Perception Concealed creature or object
+Survival Tracks or food
+Shape-Shifting
+If an effect, such as Wild Shape or the Polymorph  
+spell, lets you shape-shift, its description specifies 
+what happens to you. Unless that description says 
+otherwise, any ongoing effects on you—conditions, 
+spells, curses, and the like—carry over from one 
+form to the other. You revert to your true form if 
+you die.
+Short Rest
+A Short Rest is a 1-hour period of downtime, during 
+which a creature does nothing more strenuous than 
+reading, talking, eating, or standing watch. To start 
+a Short Rest, you must have at least 1 Hit Point.
+ Benefits of the Rest. When you finish the rest, you 
+gain the following benefits:
+Spend Hit Point Dice. You can spend one or more 
+of your Hit Point Dice to regain Hit Points. For 
+each Hit Point Die you spend in this way, roll the 
+die and add your Constitution modifier to it. You 
+regain Hit Points equal to the total (minimum of 1 
+Hit Point). You can decide to spend an additional 
+Hit Point Die after each roll.
+Special Feature.  Some features are recharged by a 
+Short Rest. If you have such a feature, it recharges 
+in the way specified in its description.
+ Interrupting the Rest. A Short Rest is stopped by 
+the following interruptions:
+• Rolling Initiative
+• Casting a spell other than a cantrip
+• Taking any damage
+An interrupted Short Rest confers no benefits.
+Simultaneous Effects
+If two or more things happen at the same time on a 
+turn, the person at the game table—player or GM—
+whose turn it is decides the order in which those 
+things happen. For example, if two effects occur at 
+the start of a player character’s turn, the player de -
+cides which of the effects happens first.

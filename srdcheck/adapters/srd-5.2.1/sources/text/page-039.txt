@@ -1,0 +1,78 @@
+System Reference Document 5.2.1
+39
+Spell School Special
+Protection from Poison Abjuration —
+Silence Illusion C, R
+Spiritual Weapon Evocation C
+Warding Bond Abjuration M
+Zone of Truth Enchantment —
+Level 3 Cleric Spells
+Spell School Special
+Animate Dead Necromancy —
+Beacon of Hope Abjuration C
+Bestow Curse Necromancy C
+Clairvoyance Divination C, M
+Create Food and Water Conjuration —
+Daylight Evocation —
+Dispel Magic Abjuration —
+Glyph of Warding Abjuration M
+Magic Circle Abjuration M
+Mass Healing Word Abjuration —
+Meld into Stone Transmutation R
+Protection from Energy Abjuration C
+Remove Curse Abjuration —
+Revivify Necromancy M
+Sending Divination —
+Speak with Dead Necromancy —
+Spirit Guardians Conjuration C
+Tongues Divination —
+Water Walk Transmutation R
+Level 4 Cleric Spells
+Spell School Special
+Aura of Life Abjuration C
+Banishment Abjuration C
+Control Water Transmutation C
+Death Ward Abjuration —
+Divination Divination R, M
+Freedom of Movement Abjuration —
+Guardian of Faith Conjuration —
+Locate Creature Divination C
+Stone Shape Transmutation —
+Level 5 Cleric Spells
+Spell School Special
+Commune Divination R
+Contagion Necromancy —
+Dispel Evil and Good Abjuration C
+Flame Strike Evocation —
+Geas Enchantment —
+Greater Restoration Abjuration M
+Hallow Abjuration M
+Insect Plague Conjuration C
+Legend Lore Divination M
+Mass Cure Wounds Abjuration —
+Planar Binding Abjuration M
+Raise Dead Necromancy M
+Scrying Divination C, M
+Level 6 Cleric Spells
+Spell School Special
+Blade Barrier Evocation C
+Create Undead Necromancy M
+Find the Path Divination C, M
+Forbiddance Abjuration R, M
+Harm Necromancy —
+Heal Abjuration —
+Heroes’ Feast Conjuration M
+Planar Ally Conjuration —
+Sunbeam Evocation C
+True Seeing Divination M
+Word of Recall Conjuration —
+Level 7 Cleric Spells
+Spell School Special
+Conjure Celestial Conjuration C
+Divine Word Evocation —
+Etherealness Conjuration —
+Fire Storm Evocation —
+Plane Shift Conjuration M
+Regenerate Transmutation —
+Resurrection Necromancy M
+Symbol Abjuration M

@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   120	  
+that	  apply	  to	  it	  have	  no	  effect	  on	  your	  phy sical	  body,	  
+nor	  do	  they	  persist	  when	  you	  return	  to	  it. 	  
+	   The	  spell	  ends	  for	  you	  and	  your	  companions	  when	  
+you	  use	  your	  action	  to	  dismiss	  it.	  When	  the	  spell	  
+ends,	  the	  affected	  creature	  returns	  to	  its	  physical	  
+body,	  and	  it	  awakens. 	  
+	   The	  spell	  might	  also	  end	  ea rly	  for	  you	  or	  one	  of	  
+your	  companions.	  A	  successful	   dispel	  magic	  spell	  
+used	  against	  an	  astral	  or	  physical	  body	  ends	  the	  spell	  
+for	  that	  creature.	  If	  a	  creature’s	  original	  body	  or	  its	  
+astral	  form	  drops	  to	  0	  hit	  points,	  the	  spell	  ends	  for	  
+that	  creature.	  If	  th e	  spell	  ends	  and	  the	  silver	  cord	  is	  
+intact,	  the	  cord	  pulls	  the	  creature’s	  astral	  form	  back	  
+to	  its	  body,	  ending	  its	  state	  of	  suspended	  animation. 	  
+	   If	  you	  are	  returned	  to	  your	  body	  prematurely,	  
+your	  companions	  remain	  in	  their	  astral	  forms	  and	  
+must	  find	  their 	  own	  way	  back	  to	  their	  bodies,	  usually	  
+by	  dropping	  to	  0	  hit	  points. 	  
+Augury 
+2nd-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (specially	  marked	  sticks,	  bones,	  
+or	  similar	  tokens	  worth	  at	  least	  25	  gp) 	  
+Duration:	  Instantaneous	  
+By	  casting	  gem -­‐‑inlaid	  sticks,	  rolling	  dragon	  bones,	  
+laying	  out	  ornate	  cards,	  or	  employing	  some	  other	  
+divining	  tool,	  you	  receive	  an	  omen	  from	  an	  
+otherworldly	  entity	  about	  the	  results	  of	  a	  specific	  
+course	  of	  action	  that	  you	  plan	  to	  take	  within	  the	  next	  
+30	  minutes.	  The	  GM	  chooses	  from	  the	  following	  
+possible	  omens: 	  
+• Weal,	  for	  good	  results
+• Woe,	  for	  bad	  results
+• Weal	  and	  woe,	  for	  both	  good	  and	  bad	  results
+• Nothing,	  for	  results	  that	  aren’t	  especially	  good	  or
+bad
+The	  spell	  doesn’t	  take	  into	  account	  any	  possible	  
+circumstances	  that	  might	  change	  the	  outcome,	  such	  
+as	  the	  casting	  of	  additional	  spells	  or	  the	  loss	  or	  gain	  
+of	  a	  companion. 	  
+	   If	  you	  cast	  the	  spell	  two	  or	  more	  times	  before	  
+completing	  your	  next	  long	  rest,	  there	  is	  a	  cumulative	  
+25	  percent	  chance	  for	  each	  casting	  af ter	  the	  first	  that	  
+you	  get	  a	  random	  reading.	  The	  GM	  makes	  this	  roll	  in	  
+secret.	  
+Awaken 
+5th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  8	  hours	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (an	  agate	  worth	  at	  least	  1,000	  
+gp,	  which	  the	  spell	  consumes) 	  
+Duration:	  Instantaneous	  
+After	  spending	  the	  casting	  time	  tracing	  magical	  
+pathways	  within	  a	  precious	  gemstone,	  you	  touch	  a	  
+Huge	  or	  smaller	  beast	  or	  plant.	  The	  target	  must	  have	  
+either	  no	  Intelligence	  score	  or	  an	  Intelligence	  of	  3	  or	  
+less.	  The	  target	  gains	  an	  Intelligence	  of	  10.	  The	  
+target	  also	  gains	  the	  ability	  to	  speak	  one	  language	  
+you	  know.	  If	  the	  target	  is	  a	  plant,	  it	  gains	  the	  ability	  
+to	  move	  its	  limbs,	  roots,	  vines,	  creepers,	  and	  so	  forth,	  
+and	  it	  gains	  senses	  similar	  to	  a	  human’s.	  Your	  GM	  
+chooses	  statistics	  appropriate	  for	  the	  awakene d	  
+plant,	  such	  as	  the	  statistics	  for	  the	  awakened	  shrub	  
+or	  the	  awakened	  tree. 	  
+	   The	  awakened	  beast	  or	  plant	  is	  charmed	  by	  you	  
+for	  30	  days	  or	  until	  you	  or	  your	  companions	  do	  
+anything	  harmful	  to	  it.	  When	  the	  charmed	  condition	  
+ends,	  the	  awakened	  creature	  choose s	  whether	  to	  
+remain	  friendly	  to	  you,	  based	  on	  how	  you	  treated	  it	  
+while	  it	  was	  charmed. 	  
+Bane 
+1st-­‐‑level	  enchantment 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (a	  drop	  of	  blood) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Up	  to	  three	  creatures	  of	  y our	  choice	  that	  you	  can	  see	  
+within	  range	  must	  make	  Charisma	  saving	  throws.	  
+Whenever	  a	  target	  that	  fails	  this	  saving	  throw	  makes	  
+an	  attack	  roll	  or	  a	  saving	  throw	  before	  the	  spell	  ends,	  
+the	  target	  must	  roll	  a	  d4	  and	  subtract	  the	  number	  
+rolled	  from	  the	  attack 	  roll	  or	  saving	  throw. 	  
+	   At	  Higher	  Levels .	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  you	  can	  target	  one	  
+additional	  creature	  for	  each	  slot	  level	  above	  1st. 	  
+Banishment 
+4th-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (an	  item	  distasteful	  to	  the	  
+target)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  attempt	  to	  send	  one	  creature	  that	  you	  can	  see	  
+within	  range	  to	  another	  plane	  of	  existence.	  The	  
+target	  must	  succeed	  on	  a	  Charisma	  saving	  throw	  or	  
+be	  banished.	  

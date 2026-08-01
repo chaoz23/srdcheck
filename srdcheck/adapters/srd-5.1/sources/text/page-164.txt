@@ -1,0 +1,95 @@
+System	  Reference	   Document	  5.1 	   164	  
+checks	  you	  make	  to	  hear	  sounds	  outside	  it	  are	  made	  
+with	  disadvantage.	  You	  remain	  aware	  of	  the	  passage	  
+of	  time	  and	  can	  cast	  spells	  on	  yourself	  while	  merged	  
+in	  the	  stone.	  You	  can	  use	  your	  movement	  to	  leave	  
+the	  stone	  where	  you	  entered	  it,	  which	  ends	  the	  spell.	  
+You	  otherwise	  can’t	  move. 	  
+	   Minor	  physical	  damage	  to	  the	  stone	  doesn’t	  harm	  
+you,	  but	  its	  partial	  destruction	  or	  a	  change	  in	  its	  
+shape	  (to	  the	  extent	  that	  y ou	  no	  longer	  fit	  within	  it)	  
+expels	  you	  and	  deals	  6d6	  bludgeoning	  damage	  to	  
+you.	  The	  stone’s	  complete	  destruction	  (or	  
+transmutation	  into	  a	  different	  substance)	  expels	  you	  
+and	  deals	  50	  bludgeoning	  damage	  to	  you.	  If	  expelled,	  
+you	  fall	  prone	  in	  an	  unoccupied	  s pace	  closest	  to	  
+where	  you	  first	  entered. 	  
+Mending 
+Transmutation	  cantrip 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (two	  lodestones)	  
+Duration:	  Instantaneous	  
+This	  spell	  repairs	  a	  single	  break	  or	  tear	  in	  an	  object	  
+you	  touch,	  such	  as	  a	  broken	  chain 	  link,	  two	  halves	  of	  
+a	  broken	  key,	  a	  torn	  cloak,	  or	  a	  leaking	  wineskin.	  As	  
+long	  as	  the	  break	  or	  tear	  is	  no	  larger	  than	  1	  foot	  in	  
+any	  dimension,	  you	  mend	  it,	  leaving	  no	  trace	  of	  the	  
+former	  damage. 	  
+	   This	  spell	  can	  physically	  repair	  a	  magic	  item	  or	  
+construct,	  but	  the	  spell	  can’t	  restore	  magic	  to	  such	  
+an	  object.	  
+Message 
+Transmutation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  short	  piece	  of	  copper	  wire) 	  
+Duration:	  1	  round	  
+You	  point	  your	  finger	  toward	  a	  creature	  within	  
+range	  and	  whisper 	  a	  message.	  The	  target	  (and	  only	  
+the	  target)	  hears	  the	  message	  and	  can	  reply	  in	  a	  
+whisper	  that	  only	  you	  can	  hear. 	  
+	   You	  can	  cast	  this	  spell	  through	  solid	  objects	  if	  you	  
+are	  familiar	  with	  the	  target	  and	  know	  it	  is	  beyond	  
+the	  barrier.	  Magical	  silence,	  1	  foot	   of	  stone,	  1	  inch	  of	  
+common	  metal,	  a	  thin	  sheet	  of	  lead,	  or	  3	  feet	  of	  wood	  
+blocks	  the	  spell.	  The	  spell	  doesn’t	  have	  to	  follow	  a	  
+straight	  line	  and	  can	  travel	  freely	  around	  corners	  or	  
+through	  openings.	  
+Meteor Swarm 
+9th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  1	  mile	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+Blazing	  orbs	  of	  fire	  plummet	  to	  the	  ground	  at	  four	  
+different	  points	  you	  can	  see	  within	  range.	  Each	  
+creature	  in	  a	  40 -­‐‑foot-­‐‑radius	  sphere	  centered	  on	  each	  
+point	  you	  choose	  must	  make	  a	  Dexterity	  saving	  
+throw.	  The	  sphere	  spreads	  around	  corners.	  A	  
+creature	  takes	  20d6	  fire	  damage	  and	  20d6	  
+bludgeoning	  damage	  on	  a	  failed	  save,	  or	  half	  as	  much	  
+damage	  on	  a	  successful	  one.	  A	  creature	  in	  the	  area	  of	  
+more	  than	  one	  fiery	  burst	  is	  affected	  only	  once. 	  
+	   The	  spell	  dama ges	  objects	  in	  the	  area	  and	  ignites	  
+flammable	  objects	  that	  aren’t	  being	  worn	  or	  carried. 	  
+Mind Blank 
+8th-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  24	  hours	  
+Until	  the	  spell	  ends,	  one	  willing	  creature	  you	  touch	  is	  
+immune	  to	  psychic	  damage,	  any	  effect	  that	  would	  
+sense	  its	  emotions	  or	  read	  its	  thoughts,	  divination	  
+spells,	  and	  the	  charmed	  condition.	  The	  spell	  even	  
+foils	  wish	  spells	  and	  spells	  or	  effects	  of	  similar 	  power	  
+used	  to	  affect	  the	  target’s	  mind	  or	  to	  gain	  
+information	  about	  the	  target. 	  
+Minor Illusion 
+Illusion	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  S,	  M	  (a	  bit	  of	  fleece) 	  
+Duration:	  1	  minute	  
+You	  create	  a	  sound	  or	  an	  image	  of	  an	  object	  within	  
+range	  that	  lasts	  for	  the	  duration.	  The	  illusion	  also	  
+ends	  if	  you	  dismiss	  it	  as	  an	  action	  or	  cast	  this	  spell	  
+again.	  
+	   If	  you	  create	  a	  sound,	  its	  volume	  can	  range	  from	  a	  
+whisper	  to	  a	  scream.	  It	  can	  be	  your	  voice,	  someone	  
+else’s	  voice,	  a	  lion’s	  roar,	  a	  beating 	  of	  drums,	  or	  any	  
+other	  sound	  you	  choose.	  The	  sound	  continues	  
+unabated	  throughout	  the	  duration,	  or	  you	  can	  make	  
+discrete	  sounds	  at	  different	  times	  before	  the	  spell	  
+ends.	  

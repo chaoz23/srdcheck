@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+169
+ Many major temples, guildhalls, and other import -
+ant places have permanent teleportation circles. 
+Each circle includes a unique sigil sequence—a 
+string of runes arranged in a particular pattern. 
+ When you first gain the ability to cast this spell, 
+you learn the sigil sequences for two destinations 
+on the Material Plane, determined by the GM. You 
+might learn additional sigil sequences during your 
+adventures. You can commit a new sigil sequence to 
+memory after studying it for 1 minute.
+ You can create a permanent teleportation circle 
+by casting this spell in the same location every day 
+for 365 days.
+Thaumaturgy
+Transmutation Cantrip (Cleric)
+Casting Time: Action
+Range: 30 feet
+Components: V
+Duration: Up to 1 minute
+You manifest a minor wonder within range. You cre -
+ate one of the effects below within range. If you cast 
+this spell multiple times, you can have up to three of 
+its 1-minute effects active at a time.
+ Altered Eyes. You alter the appearance of your 
+eyes for 1 minute.
+ Booming Voice. Your voice booms up to three 
+times as loud as normal for 1 minute. For the dura-
+tion, you have Advantage on Charisma (Intimida-
+tion) checks.
+ Fire Play. You cause flames to flicker, brighten, 
+dim, or change color for 1 minute.
+ Invisible Hand. You instantaneously cause an un -
+locked door or window to fly open or slam shut.
+ Phantom Sound. You create an instantaneous 
+sound that originates from a point of your choice 
+within range, such as a rumble of thunder, the cry of 
+a raven, or ominous whispers.
+ Tremors. You cause harmless tremors in the 
+ground for 1 minute.
+Thunderwave
+Level 1 Evocation (Bard, Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Instantaneous
+You unleash a wave of thunderous energy. Each 
+creature in a 15-foot Cube originating from you 
+makes a Constitution saving throw. On a failed 
+save, a creature takes 2d8 Thunder damage and is 
+pushed 10 feet away from you. On a successful save, 
+a creature takes half as much damage only.
+ In addition, unsecured objects that are entirely 
+within the Cube are pushed 10 feet away from you, 
+and a thunderous boom is audible within 300 feet.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 1.
+Time Stop
+Level 9 Transmutation (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V
+Duration: Instantaneous
+You briefly stop the flow of time for everyone but 
+yourself. No time passes for other creatures, while 
+you take 1d4 + 1 turns in a row, during which you 
+can use actions and move as normal.
+ This spell ends if one of the actions you use during 
+this period, or any effects that you create during it, 
+affects a creature other than you or an object being 
+worn or carried by someone other than you. In addi -
+tion, the spell ends if you move to a place more than 
+1,000 feet from the location where you cast it.
+Tiny Hut
+Level 3 Evocation (Bard, Wizard)
+Casting Time: 1 minute or Ritual
+Range: Self
+Components: V, S, M (a crystal bead)
+Duration: 8 hours
+A 10-foot Emanation springs into existence around 
+you and remains stationary for the duration. The 
+spell fails when you cast it if the Emanation isn’t big 
+enough to fully encapsulate all creatures in its area.
+ Creatures and objects within the Emanation 
+when you cast the spell can move through it freely. 
+All other creatures and objects are barred from 
+passing through it. Spells of level 3 or lower can’t be 
+cast through it, and the effects of such spells can’t 
+extend into it.
+ The atmosphere inside the Emanation is comfort-
+able and dry, regardless of the weather outside. Until 
+the spell ends, you can command the interior to have 
+Dim Light or Darkness (no action required). The Em-
+anation is opaque from the outside and of any color 
+you choose, but it’s transparent from the inside.
+ The spell ends early if you leave the Emanation or 
+if you cast it again.
+Tongues
+Level 3 Divination (Bard, Cleric, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, M (a miniature ziggurat)
+Duration: 1 hour
+This spell grants the creature you touch the ability 
+to understand any spoken or signed language that 
+it hears or sees. Moreover, when the target commu -
+nicates by speaking or signing, any creature that 

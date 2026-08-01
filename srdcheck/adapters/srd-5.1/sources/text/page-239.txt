@@ -1,0 +1,101 @@
+System	  Reference	   Document	  5.1 	   239	  
+Robe of Stars 
+Wondrous	  item,	  very	  rare	  (requires	  attunement) 	  
+This	  black	  or	  dark	  blue	  robe	  is	  embroidered	  with	  
+small	  white	  or	  silver	  stars.	  You	  gain	  a	  +1 	  bonus	  to	  
+saving	  throws	  while	  you	  wear	  it. 	  
+	   Six	  stars,	  located	  on	  the	  robe’s	  upper	  front	  portion,	  
+are	  particularly	  large.	  While	  wearing	  this	  robe,	  you	  
+can	  use	  an	  action	  to	  pull	  off	  one	  of	  the	  stars	  and	  use	  
+it	  to	  cast	  magic	  missile	  as	  a	  5th-­‐‑level	  spell.	  Daily	  at	  
+dusk,	  1d6	  removed	  stars	  reappear	  on	  the	  robe. 	  
+	   While	  you	  wear	  the	  robe,	  you	  can	  use	  an	  action	  to	  
+enter	  the	  Astral	  Plane	  along	  with	  everything	  you	  are	  
+wearing	  and	  carrying.	  You	  remain	  there	  until	  you	  
+use	  an	  action	  to	  return	  to	  the	  plane	  you	  were	  on.	  Y ou	  
+reappear	  in	  the	  last	  space	  you	  occupied,	  or	  if	  that	  
+space	  is	  occupied,	  the	  nearest	  unoccupied	  space. 	  
+Robe of the Archmagi 
+Wondrous	  item,	  legendary	  (requires	  attunement	  by	  a	  
+sorcerer,	  warlock,	  or	  wizard) 	  
+This	  elegant	  garment	  is	  made	  from	  exquisite	  cloth	   of	  
+white,	  gray,	  or	  black	  and	  adorned	  with	  silvery	  runes.	  
+The	  robe’s	  color	  corresponds	  to	  the	  alignment	  for	  
+which	  the	  item	  was	  created.	  A	  white	  robe	  was	  made	  
+for	  good,	  gray	  for	  neutral,	  and	  black	  for	  evil.	  You	  
+can’t	  attune	  to	  a	   robe	  of	  the	  archmagi 	  that	  doesn’t	  
+correspond	  to	  your	  alignment. 	  
+You	  gain	  these	  benefits	  while	  wearing	  the	  robe: 	  
+• If	  you	  aren’t	  wearing	  armor,	  your	  base	  Armor
+Class	  is	  15	  +	  your	  Dexterity	  modifier.
+• You	  have	  advantage	  on	  saving	  throws	  against
+spells	  and	  other	  magical	  effects.
+• Your	  spell	  save	  DC	  and	  spell	  attack	  bonus	  each
+increase	  by	  2.
+Robe of Useful Items 
+Wondrous	  item,	  uncommon 	  
+This	  robe	  has	  cloth	  patches	  of	  various	  shapes	  and	  
+colors	  covering	  it.	  While	  wearing	  the	  robe,	  you	  can	  
+use	  an	  action	  to	  detach	  one	  of	  the	  patches,	  causing	  it	  
+to	  become	  the	  object	  or	  creature	  it	  represents.	  Once	  
+the	  last	  patch	  is	  removed,	  the	  robe	  becomes	  an	  
+ordinary	  garment. 	  
+The	  robe	  has	  two	  of	  each	  of	  the	  following	  patches: 	  
+• Dagger
+• Bullseye	  lantern	  (filled	  and	  lit)
+• Steel	  mirror
+• 10-­‐‑foot	  pole
+• Hempen	  rope	  (50	  feet, 	  coiled)
+• Sack
+	   In	  addition,	  the	  robe	  has	  4d4	  other	  patches.	  The	  
+GM	  chooses	  the	  patches	  or	  determines	  them	  
+randomly.	  
+d100	   Patch	  
+01–08	   Bag	  of	  100	  gp	  
+09–15	   Silver	  coffer	  (1	  foot	  long,	  6	  inches	  wide	  and	  
+deep)	  worth	  500	  gp 	  
+16–22	   Iron	  door	  (up	  to	  10	  feet	  wide 	  and	  10	  feet	  high,	  
+barred	  on	  one	  side	  of	  your	  choice),	  which	  you	  
+can	  place	  in	  an	  opening	  you	  can	  reach;	  it	  
+conforms	  to	  fit	  the	  opening,	  attaching	  and	  
+hinging	  itself	  
+23–30	   10	  gems	  worth	  100	  gp	  each 	  
+31–44	   Wooden	  ladder	  (24	  feet	  long) 	  
+45–51	   A	  riding	  horse	  with	  saddle	  bags	  
+52–59	   Pit	  (a	  cube	  10	  feet	  on	  a	  side),	  which	  you	  can	  
+place	  on	  the	  ground	  within	  10	  feet	  of	  you 	  
+60–68	   4	  potions	  of	  healing 	  
+69–75	   Rowboat	  (12	  feet	  long) 	  
+76–83	   Spell	  scroll	  containing	  one	  spell	  of	  1st	  to	  3rd	  
+level	  
+84–90	   2	  mastiffs	  
+91–96	   Window	  (2	  feet	  by	  4	  feet,	  up	  to	  2	  feet	  deep),	  
+which	  you	  can	  place	  on	  a	  vertical	  surface	  you	  
+can	  reach	  
+97–00	   Portable	  ram	  
+Rod of Absorption 
+Rod,	  very	  rare	  (requires	  attunement) 	  
+While	  holding	  this	  rod,	  you	  can	  use	  your	  reaction	  to	  
+absorb	  a	  spell	  that	  is	  ta rgeting	  only	  you	  and	  not	  with	  
+an	  area	  of	  effect.	  The	  absorbed	  spell’s	  effect	  is	  
+canceled,	  and	  the	  spell’s	  energy —not	  the	  spell	  
+itself—is	  stored	  in	  the	  rod.	  The	  energy	  has	  the	  same	  
+level	  as	  the	  spell	  when	  it	  was	  cast.	  The	  rod	  can	  
+absorb	  and	  store	  up	  to	  50	  l evels	  of	  energy	  over	  the	  
+course	  of	  its	  existence.	  Once	  the	  rod	  absorbs	  50	  
+levels	  of	  energy,	  it	  can’t	  absorb	  more.	  If	  you	  are	  
+targeted	  by	  a	  spell	  that	  the	  rod	  can’t	  store,	  the	  rod	  
+has	  no	  effect	  on	  that	  spell. 	  
+	   When	  you	  become	  attuned	  to	  the	  rod,	  you	  know	  
+how	  many	  levels	  of	  energy	  the	  rod	  has	  absorbed	  
+over	  the	  course	  of	  its	  existence,	  and	  how	  many	  levels	  
+of	  spell	  energy	  it	  currently	  has	  stored. 	  
+	   If	  you	  are	  a	  spellcaster	  holding	  the	  rod,	  you	  can	  
+convert	  energy	  stored	  in	  it	  into	  spell	  slots	  to	  cast	  
+spells	  you	  have	  prepared	  or	  know.	  You	  can	  create	  
+spell	  slots	  only	  of	  a	  level	  equal	  to	  or	  lower	  than	  your	  
+own	  spell	  slots,	  up	  to	  a	  maximum	  of	  5th	  level.	  You	  
+use	  the	  stored	  levels	  in	  place	  of	  your	  slots,	  but	  
+otherwise	  cast	  the	  spell	  as	  normal.	  For	  example,	  you	  
+can	  use	  3	  levels	  stored	  in	  the	  rod	  as	  a	  3rd -­‐‑level	  spell	  
+slot.	  

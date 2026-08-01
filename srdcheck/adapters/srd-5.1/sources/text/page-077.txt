@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   77	  
+GM	  can	  also	  decide	  that	  circumstances	  influence	  a	  
+roll	  in	  one	  direction	  or	  the	  other	  and	  grant	  
+advantage	  or	  impose	  disadvantage	  as	  a	  result. 	  
+Proficiency Bonus 
+Characters	  have	  a	  proficiency	  bonus	  determined	  by	  
+level.	  Monsters	  also	  have	  this	  bonus,	  which	  is	  
+incorporated	  in	  their	  stat	  blocks.	  The	  bonus	  is	  used	  
+in	  the	  rules	  on	  ability	  checks,	  saving	  throws,	  and	  
+attack	  rolls.	  
+	   Your	  proficiency	  bonus	  can’t	  be	  added	  to	  a	  single	  
+die	  roll	  or	  other	  number	  more	  than	  once.	  For	  
+example,	  if	  two	  different	  rules	  say	  you	  can	  add	  your	  
+proficiency	  bonus	  to	  a	  Wisdom	  saving	  throw,	  you	  
+nevertheless	  add	  the	  bonus	  only	  once	  when	  you	  
+make	  the	  save. 	  
+	   Occasionally,	  your	  proficiency	  bonus	  might	  be	  
+multiplied	  or	  divided	  (doubled	  or	  halved,	  for	  
+example)	  before	  you	  apply	  it.	  For	  example,	  the	  
+rogue’s	  Expertise	  feature	  doubles	  the	  proficiency	  
+bonus	  for	  certain	  ability	  checks.	  If	  a	  circumstance	  
+suggests	  that	  your	  proficiency	  bonus	  applies	  more	  
+than	  once	  to	  the	  same	  roll,	  you	  still	  add	  it	  only	  once	  
+and	  multiply	  or	  divide	  it	  only	  once. 	  
+	   By	  the	  same	  token,	  if	  a	  feature	  or	  effect	  allows	  you	  
+to	  multiply	  your	  proficiency	  bonus	  when	  making	  an	  
+ability	  check	  that	  wouldn’t	  normally	  benefit	  from	  
+your	  proficiency	  bonus,	   you	  still	  don’t	  add	  the	  bonus	  
+to	  the	  check.	  For	  that	  check	  your	  proficiency	  bonus	  
+is	  0,	  given	  the	  fact	  that	  multiplying	  0	  by	  any	  number	  
+is	  still	  0.	  For	  instance,	  if	  you	  lack	  proficiency	  in	  the	  
+History	  skill,	  you	  gain	  no	  benefit	  from	  a	  feature	  that	  
+lets	  you	  double	  your	  proficiency	  bonus	  when	  you	  
+make	  Intelligence	  (History)	  checks. 	  
+	   In	  general,	  you	  don’t	  multiply	  your	  proficiency	  
+bonus	  for	  attack	  rolls	  or	  saving	  throws.	  If	  a	  feature	  
+or	  effect	  allows	  you	  to	  do	  so,	  these	  same	  rules	  apply. 	  
+Ability Checks 
+An	  ability	  check	  tests	  a	  character’s	  or	  monster’s	  
+innate	  talent	  and	  training	  in	  an	  effort	  to	  overcome	  a	  
+challenge.	  The	  GM	  calls	  for	  an	  ability	  check	  when	  a	  
+character	  or	  monster	  attempts	  an	  action	  (other	  than	  
+an	  attack)	  that	  has	  a	  chance	  of	  failure.	  When	  the	  
+outcome	  is	  uncertain,	  the	  dice	  determine	  the	  results. 	  
+	   For	  every	  ability	  check,	  the	  GM	  decides	  which	  of	  the	  
+six	  abilities	  is	  relevant	  to	  the	  task	  at	  hand	  and	  the	  
+difficulty	  of	  the	  task,	  represented	  by	  a	  Difficulty	  Class.	  
+The	  more	  difficult	  a	  task,	  the	  higher	  its	  DC.	  The	  
+Typical	  Difficulty	  Classes	  table	  shows	  the	  most	  
+common	  DCs.	  
+Typical	  Difficulty	  Classes	  
+Task	  Difficulty	   DC	  
+Very	  easy	   5	  
+Easy	   10	  
+Medium	   15	  
+Hard	   20	  
+Very	  hard	   25	  
+Nearly	  impossible	   30	  
+	   To	  make	  an	  ability	  check,	  roll	  a	  d20	  and	  add	  the	  
+relevant	  ability	  modifier.	  As	  with	  other	  d20	  rolls,	  
+apply	  bonuses	  and	  penalties,	  and	  compare	  the	  total	  
+to	  the	  DC.	  If	  the	  total	  equals	  or	  exceeds	  the	  DC,	  the	  
+ability	  check	  is	  a	  success —the	  creature	  overcomes	  
+the	  challenge	  at	  hand.	  Otherwise,	  it’s	  a	  failure,	  which	  
+means	  the	  character	  or	  monster	  makes	  no	  progress	  
+toward	  the	  objective	  or	  makes	  progress	  combined	  
+with	  a	  setback	  determined	  by	  the	  GM. 	  
+Contests 
+Sometimes	  one	  character’s	  or	  monster’s	  efforts	  are	  
+directly	  opposed	  to	  another’s.	  This	  can	  occur	  when	  
+both	  of	  them	  are	  trying	  to	  do	  the	  same	  thing	  and	  
+only	  one	  can	  succeed,	  such	  as	  attempting	  to	  snatch	  
+up	  a	  magic	  ring	  that	  has	  fallen	  on	  the	  floor.	  This	  
+situation	  also	  applies	  when	  one	  of	  them	  is	  trying	  to	  
+prevent	  the	  other	  one	  from	  accomplishing	  a	  goal —
+for	  example,	  when 	  a	  monster	  tries	  to	  force	  open	  a	  
+door	  that	  an	  adventurer	  is	  holding	  closed.	  In	  
+situations	  like	  these,	  the	  outcome	  is	  determined	  by	  a	  
+special	  form	  of	  ability	  check,	  called	  a	  contest. 	  
+	   Both	  participants	  in	  a	  contest	  make	  ability	  checks	  
+appropriate	  to	  their	  e fforts.	  They	  apply	  all	  
+appropriate	  bonuses	  and	  penalties,	  but	  instead	  of	  
+comparing	  the	  total	  to	  a	  DC,	  they	  compare	  the	  totals	  
+of	  their	  two	  checks.	  The	  participant	  with	  the	  higher	  
+check	  total	  wins	  the	  contest.	  That	  character	  or	  
+monster	  either	  succeeds	  at	  th e	  action	  or	  prevents	  
+the	  other	  one	  from	  succeeding. 	  
+	   If	  the	  contest	  results	  in	  a	  tie,	  the	  situation	  remains	  
+the	  same	  as	  it	  was	  before	  the	  contest.	  Thus,	  one	  
+contestant	  might	  win	  the	  contest	  by	  default.	  If	  two	  
+characters	  tie	  in	  a	  contest	  to	  snatch	  a	  ring	  of f	  the	  
+floor,	  neither	  character	  grabs	  it.	  In	  a	  contest	  between	  
+a	  monster	  trying	  to	  open	  a	  door	  and	  an	  adventurer	  
+trying	  to	  keep	  the	  door	  closed,	  a	  tie	  means	  that	  the	  
+door	  remains	  shut. 	  
+Skills 
+Each	  ability	  covers	  a	  broad	  range	  of	  capabilities,	  
+including	  skills	  that	  a	  character	  or	  a	  monster	  can	  be	  
+proficient	  in.	  A	  skill	  represents	  a	  specific	  aspect	  of	  an	  

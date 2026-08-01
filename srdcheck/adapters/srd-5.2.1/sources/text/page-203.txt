@@ -1,0 +1,53 @@
+System Reference Document 5.2.1
+203
+Example 3. A high-difficulty encounter for six level 
+15 characters has an XP budget of 7,800 × 6, for a 
+total of 46,800 XP. With that, you could build this 
+encounter:
+•  2 Adult Red Dragons (18,000 XP each) and 2 Fire 
+Giants (5,000 XP each), for 46,000 XP total
+Troubleshooting
+When creating and running combat encounters, 
+keep the following in mind.
+Many Creatures
+The more creatures in an encounter, the higher 
+the risk that a lucky streak on their part could deal 
+more damage to the characters than you expect. If 
+your encounter includes more than two creatures 
+per character, include fragile creatures that can be 
+defeated quickly. This guideline is especially im -
+portant for characters of level 1 or 2.
+Adjustments
+A player’s absence might warrant removing crea-
+tures from an encounter to keep it at the intended 
+difficulty. Also, die rolls and other factors can result 
+in an encounter being easier or harder than in -
+tended. You can adjust an encounter on the fly, such 
+as by having creatures flee (making the encounter 
+easier) or adding reinforcements (making the en -
+counter harder).
+CR 0 Creatures
+Creatures that have a CR of 0, particularly ones that 
+are worth 0 XP, should be used sparingly. If you 
+want to include many CR 0 critters in an encounter, 
+use swarms instead.
+Number of Stat Blocks
+The best combat encounters often pair one kind of 
+creature with another, such as fire giants paired 
+with hell hounds. Be mindful of the number of stat 
+blocks you need to run the encounter. Referencing 
+more than two or three stat blocks for a single en -
+counter can be daunting, particularly if the crea-
+tures are complex.
+Powerful Creatures
+If your combat encounter includes a creature whose 
+CR is higher than the party’s level, be aware that 
+such a creature might deal enough damage with a 
+single action to take out one or more characters. For 
+example, an Ogre  (CR 2) can kill a level 1 Wizard 
+with a single blow.
+Unusual Features
+If a monster has a feature that lower-level charac -
+ters can’t easily overcome, consider not adding that 
+monster to an encounter for characters whose level 
+is lower than the monster’s Challenge Rating.

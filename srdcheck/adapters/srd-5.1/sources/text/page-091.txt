@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   91	  
+specified,	  and	  anything	  that	  deprives	  you	  of	  your	  
+ability	  to	  take	  actions	  also	  prevents	  you	  from	  taking	  
+a	  bonus	  action. 	  
+Other Activity on Your Turn 
+Your	  turn	  can	  include	  a	  variety	  of	  flourishes	  that	  
+require	  neither	  your	  action	  nor	  your	  move. 	  
+	   You	  can	  communicate	  however	  you	  are	  able,	  
+through	  brief	  utterances	  and	  gestures,	  as	  you	  take	  
+your	  turn.	  
+	   You	  can	  also	  interact	  with	  one	  object	  or	  feature	  of	  
+the	  environment	  for	  free,	  during	  either	  your	  move	  or	  
+your	  action.	  For	  example,	  you	  could	  open	  a	  door	  
+during	  your	  move	  as	  you	  stride	  toward	  a	  foe,	  or	  you	  
+could	  draw	  your	  weapon	  as	  part	  of	  the	  same	  action	  
+you	  use	  to	  attack. 	  
+	   If	  you	  want	  to	  interact	   with	  a	  second	  object,	  you	  
+need	  to	  use	  your	  action.	  Some	  magic	  items	  and	  other	  
+special	  objects	  always	  requ ire	  an	  action	  to	  use,	  as	  
+stated	  in	  their	  descriptions. 	  
+	   The	  GM	  might	  requir e	  you	  to	  use	  an	  action	  for	  any	  
+of	  these	  activities	  when	  it	  needs	  special	  care	  or	  when	  
+it	  presents	  an	  unusual 	  obstacle.	  For	  instance,	  the	  GM	  
+could	  reasonably	  expect	  you	  to	  use	  an	  action	  to	  open	  
+a	  stuck	  door	  or	  turn	  a	  crank	  to	  lower	  a	  drawbridge. 	  
+Reactions 
+Certain	  special	  abilities,	  spells,	  and	  situations	  allow	  
+you	  to	  take	  a	  special	  action	  called	  a	  reaction.	  A	  
+reaction	  is	  an	  instant	  response	  to	  a	  trigger	  of	  some	  
+kind,	  which	  can	  occur	  on	  your	  turn	  or 	  on	  someone	  
+else’s.	  The	  opportunity	  attack 	  is	  the	  most	  common	  
+type	  of	  reaction.	  
+	   When	  you	  take	  a	  reaction,	  you	  can’t	  take	  another	  
+one	  until	  the	  start	  of	  your	  next	  turn.	  If	  the	  reaction	  
+interrupts	  another	  creature’s	  turn,	  that	  creature	  can	  
+continue	  its	  turn 	  right	  after	  the	  reaction. 	  
+Movement and Position 
+In	  combat,	  characters	  and	  monsters	  are	  in	  constant	  
+motion,	  often	  using	  movement	  and	  position	  to	  gain	  
+the	  upper	  hand. 	  
+	   On	  your	  turn,	  you	  can	  move	  a	  distance	  up	  to	  your	  
+speed.	  You	  can	  use	  as	  much	  or	  as	  little	   of	  your	  speed	  
+as	  you	  like	  on	  your	  turn,	  following	  the	  rules	  here. 	  
+	   Your	  movement	  can	  include	  jumping,	  climbing,	  
+and	  swimming.	  These	  different	  modes	  of	  movement	  
+can	  be	  combined	  with	  walking,	  or	  they	  can	  
+constitute	  your	  entire	  move.	  However	  you’re	  moving,	  
+you	  deduct	  the	  distance	  of	  each	  part	  of	  your	  move	  
+from	  your	  speed	  until	  it	  is	  used	  up	  or	  until	  you	  are	  
+done	  moving.	  
+Breaking Up Your Move 
+You	  can	  break	  up	  your	  movement	  on	  your	  turn,	  
+using	  some	  of	  your	  speed	  before	  and	  after	  your	  
+action.	  For	  example,	  if	  you	   have	  a	  speed	  of	  30	  feet,	  
+you	  can	  move	  10	  feet,	  take	  your	  action,	  and	  then	  
+move	  20	  feet.	  
+Moving between Attacks 
+If	  you	  take	  an	  action	  that	  includes	  more	  than	  one	  
+weapon	  attack,	  you	  can	  break	  up	  your	  movement	  
+even	  further	  by	  moving	  between	  those	  attacks.	  For 	  
+example,	  a	  fighter	  who	  can	  make	  two	  attacks	  with	  
+the	  Extra	  Attack	  feature	  and	  who	  has	  a	  speed	  of	  25	  
+feet	  could	  move	  10	  feet,	  make	  an	  attack,	  move	  15	  
+feet,	  and	  then	  attack	  again. 	  
+Using Different Speeds 
+If	  you	  have	  more	  than	  one	  speed,	  such	  as	  your	  
+walking	  speed	  and	  a	  flying	  speed,	  you	  can	  switch	  
+back	  and	  forth	  between	  your	  speeds	  during	  your	  
+move.	  Whenever	  you	  switch,	  subtract	  the	  distance	  
+you’ve	  already	  moved	  from	  the	  new	  speed.	  The	  
+result	  determines	  how	  much	  farther	  you	  can	  move.	  
+If	  the	  result	  is	  0	  or	  les s,	  you	  can’t	  use	  the	  new	  speed	  
+during	  the	  current	  move. 	  
+	   For	  example,	  if	  you	  have	  a	  speed	  of	  30	  and	  a	  flying	  
+speed	  of	  60	  because	  a	  wizard	  cast	  the	   fly	  spell	  on	  you,	  
+you	  could	  fly	  20	  feet,	  then	  walk	  10	  feet,	  and	  then	  
+leap	  into	  the	  air	  to	  fly	  30	  feet	  more. 	  
+Difficult Terrain 
+Combat	  rarely	  takes	  place	  in	  bare	  rooms	  or	  on	  
+featureless	  plains.	  Boulder -­‐‑strewn	  caverns,	  briar -­‐‑
+choked	  forests,	  treacherous	  staircases —the	  setting	  
+of	  a	  typical	  fight	  contains	  difficult	  terrain. 	  
+	   Every	  foot	  of	  movement	  in	  difficult	  terrain 	  costs	  1	  
+extra	  foot.	  This	  rule	  is	  true	  even	  if	  multiple	  things	  in	  
+a	  space	  count	  as	  difficult	  terrain. 	  
+	   Low	  furniture,	  rubble,	  undergrowth,	  steep	  stairs,	  
+snow,	  and	  shallow	  bogs	  are	  examples	  of	  difficult	  
+terrain.	  The	  space	  of	  another	  creature,	  whether	  
+hostile	  or	  not,	  also	  counts	  as	  difficult	  terrain. 	  
+Being Prone 
+Combatants	  often	  find	  themselves	  lying	  on	  the	  
+ground,	  either	  because	  they	  are	  knocked	  down	  or	  
+because	  they	  throw	  themselves	  down.	  In	  the	  game,	  
+they	  are	  prone,	  a	  condition	  described	  in	  appendix	  
+PH-­‐‑A.	  
+	   You	  can	  drop	  prone	  without	  using	  any	  of	  your	  
+speed.	  Standing	  up	  takes	  more	  effort;	  doing	  so	  costs	  
+an	  amount	  of	  movement	  equal	  to	  half	  your	  speed.	  

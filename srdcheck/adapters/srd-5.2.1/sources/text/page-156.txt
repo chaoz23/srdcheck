@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+156
+Private Sanctum
+Level 4 Abjuration (Wizard)
+Casting Time: 10 minutes
+Range: 120 feet
+Components: V, S, M (a thin sheet of lead)
+Duration: 24 hours
+You make an area within range magically secure. 
+The area is a Cube that can be as small as 5 feet to 
+as large as 100 feet on each side. The spell lasts for 
+the duration.
+ When you cast the spell, you decide what sort of 
+security the spell provides, choosing any of the fol -
+lowing properties:
+• Sound can’t pass through the barrier at the edge 
+of the warded area.
+• The barrier of the warded area appears dark and 
+foggy, preventing vision (including Darkvision) 
+through it.
+• Sensors created by Divination spells can’t appear 
+inside the protected area or pass through the bar -
+rier at its perimeter.
+• Creatures in the area can’t be targeted by Divina-
+tion spells.
+• Nothing can teleport into or out of the warded 
+area.
+• Planar travel is blocked within the warded area.
+ Casting this spell on the same spot every day for 
+365 days makes the spell last until dispelled.
+ Using a Higher-Level Spell Slot. You can increase 
+the size of the Cube by 100 feet for each spell slot 
+level above 4.
+Produce Flame
+Conjuration Cantrip (Druid)
+Casting Time: Bonus Action
+Range: Self
+Components: V, S
+Duration: 10 minutes
+A flickering flame appears in your hand and re -
+mains there for the duration. While there, the flame 
+emits no heat and ignites nothing, and it sheds 
+Bright Light in a 20-foot radius and Dim Light for an 
+additional 20 feet. The spell ends if you cast it again.
+ Until the spell ends, you can take a Magic action to 
+hurl fire at a creature or an object within 60 feet of 
+you. Make a ranged spell attack. On a hit, the target 
+takes 1d8 Fire damage.
+ Cantrip Upgrade. The damage increases by 1d8 
+when you reach levels 5 (2d8), 11 (3d8), and 17 
+(4d8).
+Programmed Illusion
+Level 6 Illusion (Bard, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (jade dust worth 25+ GP)
+Duration: Until dispelled
+You create an illusion of an object, a creature, or 
+some other visible phenomenon within range that 
+activates when a specific trigger occurs. The illu -
+sion is imperceptible until then. It must be no larger 
+than a 30-foot Cube, and you decide when you cast 
+the spell how the illusion behaves and what sounds 
+it makes. This scripted performance can last up to 5 
+minutes.
+ When the trigger you specify occurs, the illusion 
+springs into existence and performs in the manner 
+you described. Once the illusion finishes perform -
+ing, it disappears and remains dormant for 10 min -
+utes, after which the illusion can be activated again.
+ The trigger can be as general or as detailed as you 
+like, though it must be based on visual or audible 
+phenomena that occur within 30 feet of the area. 
+For example, you could create an illusion of yourself 
+to appear and warn off others who attempt to open 
+a trapped door.
+ Physical interaction with the image reveals it 
+to be illusory, since things can pass through it. A 
+creature that takes the Study action to examine 
+the image can determine that it is an illusion with a 
+successful Intelligence (Investigation) check against 
+your spell save DC. If a creature discerns the illu -
+sion for what it is, the creature can see through the 
+image, and any noise it makes sounds hollow to the 
+creature.
+Project Image
+Level 7 Illusion (Bard, Wizard)
+Casting Time: Action
+Range: 500 miles
+Components: V, S, M (a statuette of yourself worth 
+5+ GP)
+Duration: Concentration, up to 1 day
+You create an illusory copy of yourself that lasts for 
+the duration. The copy can appear at any location 
+within range that you have seen before, regardless 
+of intervening obstacles. The illusion looks and 
+sounds like you, but it is intangible. If the illusion 
+takes any damage, it disappears, and the spell ends.
+ You can see through the illusion’s eyes and hear 
+through its ears as if you were in its space. As a 
+Magic action, you can move it up to 60 feet and 
+make it gesture, speak, and behave in whatever way 
+you choose. It mimics your mannerisms perfectly.
+ Physical interaction with the image reveals it 
+to be illusory, since things can pass through it. A 
+creature that takes the Study action to examine 
+the image can determine that it is an illusion with a 
+successful Intelligence (Investigation) check against 
+your spell save DC. If a creature discerns the illu -
+sion for what it is, the creature can see through the 

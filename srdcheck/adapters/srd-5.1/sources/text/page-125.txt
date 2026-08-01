@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   125	  
+	   A	  creature	  that	  can	  see	  the	   sensor	  (such	  as	  a	  
+creature	  benefiting	  from	   see	  invisibility	  or	  truesight)	  
+sees	  a	  luminous,	  intangible	  orb	  about	  the	  size	  of	  
+your	  fist.	  
+Clone 
+8th-­‐‑level	  necromancy 	  
+Casting	  Time: 	  1	  hour	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  diamond	  worth	  at	  least	  
+1,000	  gp	  and	  at	  least	  1	  cubic	  inch	  of	  flesh	  of	  the	  
+creature	  that	  is	  to	  be	  cloned,	  which	  the	  spell	  
+consumes,	  and	  a	  vessel	  worth	  at	  least	  2,000	  gp	  
+that	  has	  a	  sealable	  lid	  and	  is	  large	  enough	  to	  hold	  a	  
+Medium	  creature,	  such	  as	  a	  huge	  urn,	  coffin,	  mud-­‐‑
+filled	  cyst	  in	  the	  gro und,	  or	  crystal	  container	  filled	  
+with	  salt	  water) 	  
+Duration:	  Instantaneous	  
+This	  spell	  grows	  an	  inert	  duplicate	  of	  a	  living	  
+creature	  as	  a	  safeguard	  against	  death.	  This	  clone	  
+forms	  inside	  a	  sealed	  vessel	  and	  grows	  to	  full	  size	  
+and	  maturity	  after	  120	  days;	  you 	  can	  also	  choose	  to	  
+have	  the	  clone	  be	  a	  younger	  version	  of	  the	  same	  
+creature.	  It	  remains	  inert	  and	  endures	  indefinitely,	  
+as	  long	  as	  its	  vessel	  remains	  undisturbed. 	  
+	   At	  any	  time	  after	  the	  clone	  matures,	  if	  the	  original	  
+creature	  dies,	  its	  soul	  transfers	  to	  t he	  clone,	  
+provided	  that	  the	  soul	  is	  free	  and	  willing	  to	  return.	  
+The	  clone	  is	  physically	  identical	  to	  the	  original	  and	  
+has	  the	  same	  personality,	  memories,	  and	  abilities,	  
+but	  none	  of	  the	  original’s	  equipment.	  The	  original	  
+creature’s	  physical	  remains,	  if	  they 	  still	  exist,	  
+become	  inert	  and	  can’t	  thereafter	  be	  restored	  to	  life,	  
+since	  the	  creature’s	  soul	  is	  elsewhere. 	  
+Cloudkill 
+5th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  create	  a	  20-­‐‑foot-­‐‑radius	  sphere	  of	  poisonous,	  
+yellow-­‐‑green	  fog	  centered	  on	  a	  point	  you	  choose	  
+within	  range.	  The	  fog	  spreads	  around	  corners.	  It	  
+lasts	  for	  the	  duration	  or	  until	  strong	  wind	  disperses	  
+the	  fog,	  ending	  the	  spell.	  Its	  area	  is	  heavily	  obscured.	  
+	   When	  a	  creature	  enters	  the	  spell’s	  area	  for	  the	  first	  
+time	  on	  a	  turn	  or	  starts	  its	  turn	  there,	  that	  creature	  
+must	  make	  a	  Constitution	  saving	  throw.	  The	  
+creature	  takes	  5d8	  poison	  damage	  on	  a	  failed	  save,	  
+or	  half	  as	  much	  damage	  on	  a	  successful	  one.	  
+Creatures	  are	  affect ed	  even	  if	  they	  hold	  their	  breath	  
+or	  don’t	  need	  to	  breathe. 	  
+	   The	  fog	  moves	  10	  feet	  away	  from	  you	  at	  the	  start	  
+of	  each	  of	  your	  turns,	  rolling	  along	  the	  surface	  of	  the	  
+ground.	  The	  vapors,	  being	  heavier	  than	  air,	  sink	  to	  
+the	  lowest	  level	  of	  the	  land,	  even	  pou ring	  down	  
+openings.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  6th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d8	  for	  each	  slot	  level	  above	  5th. 	  
+Color Spray 
+1st-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  (15-­‐‑foot	  cone)	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  powder	  or	  sand	  
+that	  is	  colored	  red,	  yellow,	  and	  blue) 	  
+Duration:	  1	  round	  
+A	  dazzling	  array	  of	  flashing,	  colored	  light	  springs	  
+from	  your	  hand.	  Roll	  6d10;	  the	  total	  is	  how	  many	  hit	  
+points	  of	  creatures	  this	  spell	  can	  effect.	  Creatures	  in	  
+a	  15-­‐‑foot	  cone	  originating	  from	  you	  are	  affected	  in	  
+ascending	  order	  of	  their	  current	  hit	  points	  (ignoring	  
+unconscious	  creatures	  and	  creatures	  that	  can’t	  see). 	  
+	   Starting	  with	  the	  creature	  that	  has	  the	  lowest	  
+current	  hit	  points,	  each	  creature	  affected	  by	  thi s	  
+spell	  is	  blinded	  until	  the	  spell	  ends.	  Subtract	  each	  
+creature’s	  hit	  points	  from	  the	  total	  before	  moving	  on	  
+to	  the	  creature	  with	  the	  next	  lowest	  hit	  points.	  A	  
+creature’s	  hit	  points	  must	  be	  equal	  to	  or	  less	  than	  
+the	  remaining	  total	  for	  that	  creature	  to	  be	   affected.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  roll	  an	  additional	  
+2d10	  for	  each	  slot	  level	  above	  1st. 	  
+Command 
+1st-­‐‑level	  enchantment 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V	  
+Duration:	  1	  round	  
+You	  speak	  a	  one-­‐‑word	  command	  to	  a	  creature	  you	  
+can	  see	  within	  range.	  The	  target	  must	  succeed	  on	  a	  
+Wisdom	  saving	  throw	  or	  follow	  the	  command	  on	  its	  
+next	  turn.	  The	  spell	  has	  no	  effect	  if	  the	  target	  is	  
+undead,	  if	  it	  doesn’t	  understand	  your	  language,	  or	  if	  
+your	  command	  is	  directly	  harmful	  to	  it. 	  
+	   Some	  typical	  commands	  and	  their	  effects	  follow.	  
+You	  might	  issue	  a	  command	  other	  than	  one	  
+described	  here.	  If	  you	  do	  so,	  the	  GM	  determines	  how	  

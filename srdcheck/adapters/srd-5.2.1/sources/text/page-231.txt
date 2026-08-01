@@ -1,0 +1,116 @@
+System Reference Document 5.2.1
+231
+Mithral Armor
+Armor (Any Medium or Heavy, Except Hide Armor), 
+Uncommon 
+Mithral is a light, flexible metal. Armor made of this 
+substance can be worn under normal clothes. If the 
+armor normally imposes Disadvantage on Dexterity 
+(Stealth) checks or has a Strength requirement, the 
+mithral version of the armor doesn’t.
+Mysterious Deck
+Wondrous Item, Legendary 
+Usually found in a box or pouch, this deck contains 
+a number of cards made of ivory or vellum. Most 
+(75 percent) of these decks have thirteen cards, but 
+some have twenty-two. Use the appropriate column 
+of the Mysterious Deck table when randomly deter -
+mining cards drawn from the deck.
+ Before you draw a card, you must declare how 
+many cards you intend to draw and then draw them 
+randomly. Any cards drawn in excess of this num -
+ber have no effect. Otherwise, as soon as you draw a 
+card from the deck, its magic takes effect. You must 
+draw each card no more than 1 hour after the pre -
+vious draw. If you fail to draw the chosen number, 
+the remaining number of cards fly from the deck on 
+their own and take effect all at once.
+ Once a card is drawn, it disappears. Unless the 
+card is the Fool or Jester, the card reappears in the 
+deck, making it possible to draw the same card 
+twice. (Once the Fool or Jester has left the deck, re -
+roll on the table if that card comes up again.)
+Mysterious Deck
+1d100  
+(13-Card 
+Deck)
+1d100  
+(22-Card 
+Deck)
+ 
+Card
+— 01–05 Balance
+— 06–10 Comet
+— 11–14 Donjon
+01–08 15–18 Euryale
+— 19–23 Fates
+09–16 24–27 Flames
+— 28–31 Fool
+— 32–36 Gem
+17–24 37–41 Jester
+25–32 42–46 Key
+33–40 47–51 Knight
+41–48 52–56 Moon
+— 57–60 Puzzle
+49–56 61–64 Rogue
+57–64 65–68 Ruin
+— 69–73 Sage
+1d100  
+(13-Card 
+Deck)
+1d100  
+(22-Card 
+Deck)
+ 
+Card
+65–72 74–77 Skull
+73–80 78–82 Star
+81–88 83–87 Sun
+— 88–91 Talons
+89–96 92–96 Throne
+97–00 97–00 Void
+ Each card’s effect is described below.
+ Balance. You can increase one of your ability 
+scores by 2, to a maximum of 22, provided you also 
+decrease another one of your ability scores by 2. 
+You can’t decrease an ability that has a score of 5 
+or lower. Alternatively, you can choose not to ad -
+just your ability scores, in which case this card has 
+no effect.
+ Comet. The next time you enter combat against 
+one or more Hostile creatures, you can select one 
+of them as your foe when you roll Initiative. If you 
+reduce your foe to 0 Hit Points during that combat, 
+you have Advantage on Death Saving Throws for 1 
+year. If someone else reduces your chosen foe to 0 
+Hit Points or you don’t choose a foe, this card has no 
+effect.
+ Donjon. You disappear and become entombed 
+in a state of suspended animation in an extradi -
+mensional sphere. Everything you’re wearing and 
+carrying disappears with you except for Artifacts, 
+which stay behind in the space you occupied when 
+you disappeared. You remain imprisoned until you 
+are found and removed from the sphere. You can’t 
+be located by any Divination magic, but a Wish spell 
+can reveal the location of your prison. You draw no 
+more cards.
+ Euryale. The card’s medusa-like visage curses 
+you. You take a −2 penalty to saving throws while 
+cursed in this way. Only a god or the magic of the 
+Fates card can end this curse.
+ Fates. Reality’s fabric unravels and spins anew, al -
+lowing you to avoid or erase one event as if it never 
+happened. You can use the card’s magic as soon 
+as you draw the card or at any other time before 
+you die.
+ Flames. A powerful devil becomes your enemy. 
+The devil seeks your ruin and torments you, savor -
+ing your suffering before attempting to slay you. 
+This enmity lasts until either you or the devil dies.
+ Fool. You have Disadvantage on D20 Tests for the 
+next 72 hours. Draw another card; this draw doesn’t 
+count as one of your declared draws.
+ Gem. Twenty-five pieces of jewelry worth 2,000 
+GP each or fifty gems worth 1,000 GP each appear at 
+your feet.

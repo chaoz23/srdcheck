@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+229
+action to lower the hood, reducing the lantern’s light 
+to Dim Light in a 5-foot radius.
+Luck Blade
+Weapon (Glaive, Greatsword, Longsword, Rapier, 
+Scimitar, Sickle, or Shortsword), Legendary (Requires 
+Attunement)
+You gain a +1 bonus to attack rolls and damage rolls 
+made with this magic weapon. While the weapon is 
+on your person, you also gain a +1 bonus to saving 
+throws.
+ Luck. If the weapon is on your person, you can call 
+on its luck (no action required) to reroll one failed 
+D20 Test if you don’t have the Incapacitated condi -
+tion. You must use the second roll. Once used, this 
+property can’t be used again until the next dawn.
+ Wish. The weapon has 1d3 charges. While holding 
+it, you can expend 1 charge and cast Wish from it. 
+Once used, this property can’t be used again until 
+the next dawn. The weapon loses this property if it 
+has no charges.
+Mace of Disruption
+Weapon (Mace), Rare (Requires Attunement)
+When you hit a Fiend or an Undead with this magic 
+weapon, that creature takes an extra 2d6 Radiant 
+damage. If the target has 25 Hit Points or fewer 
+after taking this damage, it must succeed on a DC 
+15 Wisdom saving throw or be destroyed. On a suc -
+cessful save, the creature has the Frightened condi -
+tion until the end of your next turn.
+ Light. While you hold this weapon, it sheds Bright 
+Light in a 20-foot radius and Dim Light for an addi -
+tional 20 feet.
+Mace of Smiting
+Weapon (Mace), Rare 
+You gain a +1 bonus to attack rolls and damage 
+rolls made with this magic weapon. The bonus in -
+creases to +3 when you use the weapon to attack a 
+Construct.
+ When you roll a 20 on an attack roll made with 
+this weapon, the target takes an extra 7 Bludgeon -
+ing damage, or 14 Bludgeoning damage if it’s a 
+Construct. If a Construct has 25 Hit Points or fewer 
+after taking this damage, it is destroyed.
+Mace of Terror
+Weapon (Mace), Rare (Requires Attunement)
+This magic weapon has 3 charges and regains 1d3 
+expended charges daily at dawn. While holding 
+the weapon, you can take a Magic action and ex -
+pend 1 charge to release a wave of terror from it. 
+Each creature of your choice within 30 feet of you 
+must succeed on a DC 15 Wisdom saving throw or 
+have the Frightened condition for 1 minute. While 
+Frightened in this way, a creature must spend its 
+turns trying to move as far away from you as it can, 
+and it can’t make Opportunity Attacks. For its ac -
+tion, it can use only the Dash action or try to escape 
+from an effect that prevents it from moving. If it 
+has nowhere it can move, the creature can take the 
+Dodge action. At the end of each of its turns, a crea-
+ture repeats the save, ending the effect on itself on 
+a success.
+Mantle of Spell Resistance
+Wondrous Item, Rare (Requires Attunement)
+You have Advantage on saving throws against spells 
+while you wear this cloak.
+Manual of Bodily Health
+Wondrous Item, Very Rare 
+This book contains health and nutrition tips, and 
+its words are charged with magic. If you spend 48 
+hours over a period of 6 days or fewer studying the 
+book’s contents and practicing its guidelines, your 
+Constitution increases by 2, to a maximum of 30. 
+The manual then loses its magic but regains it in a 
+century.
+Manual of Gainful Exercise
+Wondrous Item, Very Rare 
+This book describes fitness exercises, and its words 
+are charged with magic. If you spend 48 hours over 
+a period of 6 days or fewer studying the book’s con -
+tents and practicing its guidelines, your Strength in -
+creases by 2, to a maximum of 30. The manual then 
+loses its magic but regains it in a century.
+Manual of Golems
+Wondrous Item, Very Rare 
+This tome contains information and incantations 
+necessary to make a particular type of golem. The 
+GM chooses the type or determines it randomly by 
+rolling on the accompanying table. To decipher and 
+use the manual, you must be a spellcaster with at 
+least two level 5 spell slots. A creature that can’t 
+use a Manual of Golems and attempts to read it takes 
+6d6 Psychic damage.
+ To create a golem, you must spend the time shown 
+on the table, working without interruption with the 
+manual at hand and resting no more than 8 hours 
+per day. You must also pay the specified cost to pur -
+chase supplies.
+ Once you finish creating the golem, the book is 
+consumed in eldritch flames. The golem becomes 
+animate when the ashes of the manual are sprinkled 
+on it. See “Monsters” for the golem’s stat block. The 
+golem is under your control, and it understands and 
+obeys your commands.

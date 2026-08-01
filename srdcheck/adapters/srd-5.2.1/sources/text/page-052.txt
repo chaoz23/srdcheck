@@ -1,0 +1,96 @@
+System Reference Document 5.2.1
+52
+ Patient Defense. When you expend a Focus Point 
+to use Patient Defense, you gain a number of Tem -
+porary Hit Points equal to two rolls of your Martial 
+Arts die.
+ Step of the Wind. When you expend a Focus Point 
+to use Step of the Wind, you can choose a willing 
+creature within 5 feet of yourself that is Large or 
+smaller. You move the creature with you until the 
+end of your turn. The creature’s movement doesn’t 
+provoke Opportunity Attacks.
+Level 10: Self-Restoration
+Through sheer force of will, you can remove one 
+of the following conditions from yourself at the 
+end of each of your turns: Charmed, Frightened, or 
+Poisoned.
+ In addition, forgoing food and drink doesn’t give 
+you levels of Exhaustion.
+Level 13: Deflect Energy
+You can now use your Deflect Attacks feature 
+against attacks that deal any damage type, not just 
+Bludgeoning, Piercing, or Slashing.
+Level 14: Disciplined Survivor
+Your physical and mental discipline grant you profi -
+ciency in all saving throws.
+ Additionally, whenever you make a saving throw 
+and fail, you can expend 1 Focus Point to reroll it, 
+and you must use the new roll.
+Level 15: Perfect Focus
+When you roll Initiative and don’t use Uncanny Me -
+tabolism, you regain expended Focus Points until 
+you have 4 if you have 3 or fewer.
+Level 18: Superior Defense
+At the start of your turn, you can expend 3 Focus 
+Points to bolster yourself against harm for 1 min -
+ute or until you have the Incapacitated condition. 
+During that time, you have Resistance to all damage 
+except Force damage.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Irresistible Offense is recommended.
+Level 20: Body and Mind
+You have developed your body and mind to new 
+heights. Your Dexterity and Wisdom scores increase 
+by 4, to a maximum of 25.
+Monk Subclass: Warrior of the 
+Open Hand
+Master Unarmed Combat Techniques
+Warriors of the Open Hand are masters of unarmed 
+combat. They learn techniques to push and trip 
+their opponents and manipulate their own energy 
+to protect themselves from harm.
+Level 3: Open Hand Technique
+Whenever you hit a creature with an attack granted 
+by your Flurry of Blows, you can impose one of the 
+following effects on that target.
+ Addle.  The target can’t make Opportunity Attacks 
+until the start of its next turn.
+ Push.  The target must succeed on a Strength sav -
+ing throw or be pushed up to 15 feet away from you.
+ Topple.  The target must succeed on a Dexterity 
+saving throw or have the Prone condition.
+Level 6: Wholeness of Body
+You gain the ability to heal yourself. As a Bonus Ac -
+tion, you can roll your Martial Arts die. You regain 
+a number of Hit Points equal to the number rolled 
+plus your Wisdom modifier (minimum of 1 Hit Point 
+regained).
+ You can use this feature a number of times equal 
+to your Wisdom modifier (minimum of once), and 
+you regain all expended uses when you finish a 
+Long Rest.
+Level 11: Fleet Step
+When you take a Bonus Action other than Step of 
+the Wind, you can also use Step of the Wind imme -
+diately after that Bonus Action.
+Level 17: Quivering Palm
+You gain the ability to set up lethal vibrations in 
+someone’s body. When you hit a creature with an 
+Unarmed Strike, you can expend 4 Focus Points 
+to start these imperceptible vibrations, which last 
+for a number of days equal to your Monk level. The 
+vibrations are harmless unless you take an action 
+to end them. Alternatively, when you take the At -
+tack action on your turn, you can forgo one of the 
+attacks to end the vibrations. To end them, you and 
+the target must be on the same plane of existence. 
+When you end them, the target must make a Consti -
+tution saving throw, taking 10d12 Force damage on 
+a failed save or half as much damage on a successful 
+one.
+ You can have only one creature under the effect 
+of this feature at a time. You can end the vibrations 
+harmlessly (no action required).

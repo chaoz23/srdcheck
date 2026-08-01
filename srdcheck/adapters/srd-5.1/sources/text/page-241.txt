@@ -1,0 +1,93 @@
+System	  Reference	   Document	  5.1 	   241	  
+trusted	  leader.	  If	  harmed	  by	  you	  or	  your	  companions,	  
+or	  commanded	  to	  do	  something	  contrary	  to	  its	  
+nature,	  a	  target	  ceases	  to	  be	  charmed	  in	  this	  way.	  
+The	  rod	  can’t	  be	  used	  again	  until	  the	  next	  dawn. 	  
+Rod of Security 
+Rod,	  very	  rare	  
+While	  holding	  this	  rod,	  you	  can	  use	  an	  action	  to	  
+activate	  it.	  The	  rod	  then	  instantly	  transports	  you	  and	  
+up	  to	  199	  other	  willing	  creatures	  you	  can	  see	  to	  a	  
+paradise	  that	  exists	  in	  an	  extraplanar	  space.	  You	  
+choose	  the	  form	  that	  the	  par adise	  takes.	  It	  could	  be	  a	  
+tranquil	  garden,	  lovely	  glade,	  cheery	  tavern,	  
+immense	  palace,	  tropical	  island,	  fantastic	  carnival,	  or	  
+whatever	  else	  you	  can	  imagine.	  Regardless	  of	  its	  
+nature,	  the	  paradise	  contains	  enough	  water	  and	  food	  
+to	  sustain	  its	  visitors.	  E verything	  else	  that	  can	  be	  
+interacted	  with	  inside	  the	  extraplanar	  space	  can	  
+exist	  only	  there.	  For	  example,	  a	  flower	  picked	  from	  a	  
+garden	  in	  the	  paradise	  disappears	  if	  it	  is	  taken	  
+outside	  the	  extraplanar	  space. 	  
+	   For	  each	  hour	  spent	  in	  the	  paradise,	  a	   visitor	  
+regains	  hit	  points	  as	  if	  it	  had	  spent	  1	  Hit	  Die.	  Also,	  
+creatures	  don’t	  age	  while	  in	  the	  paradise,	  although	  
+time	  passes	  normally.	  Visitors	  can	  remain	  in	  the	  
+paradise	  for	  up	  to	  200	  days	  divided	  by	  the	  number	  
+of	  creatures	  present	  (round	  down). 	  
+	   When	  the	  time	  runs	  out	  or	  you	  use	  an	  action	  to	  
+end	  it,	  all	  visitors	  reappear	  in	  the	  location	  they	  
+occupied	  when	  you	  activated	  the	  rod,	  or	  an	  
+unoccupied	  space	  nearest	  that	  location.	  The	  rod	  
+can’t	  be	  used	  again	  until	  ten	  days	  have	  passed. 	  
+Rope of Climbing 
+Wondrous	  item,	  uncommon 	  
+This	  60-­‐‑foot	  length	  of	  silk	  rope	  weighs	  3	  pounds	  and	  
+can	  hold	  up	  to	  3,000	  pounds.	  If	  you	  hold	  one	  end	  of	  
+the	  rope	  and	  use	  an	  action	  to	  speak	  the	  command	  
+word,	  the	  rope	  animates.	  As	  a	  bonus	  action,	  you	  can	  
+command	  the	  other	  end	  to	  move	  towar d	  a	  
+destination	  you	  choose.	  That	  end	  moves	  10	  feet	  on	  
+your	  turn	  when	  you	  first	  command	  it	  and	  10	  feet	  on	  
+each	  of	  your	  turns	  until	  reaching	  its	  destination,	  up	  
+to	  its	  maximum	  length	  away,	  or	  until	  you	  tell	  it	  to	  
+stop.	  You	  can	  also	  tell	  the	  rope	  to	  fasten	  it self	  
+securely	  to	  an	  object	  or	  to	  unfasten	  itself,	  to	  knot	  or	  
+unknot	  itself,	  or	  to	  coil	  itself	  for	  carrying. 	  
+	   If	  you	  tell	  the	  rope	  to	  knot,	  large	  knots	  appear	  at	  1 -­‐‑
+foot	  intervals	  along	  the	  rope.	  While	  knotted,	  the	  rope	  
+shortens	  to	  a	  50 -­‐‑foot	  length	  and	  grant s	  advantage	  on	  
+checks	  made	  to	  climb	  it. 	  
+	   The	  rope	  has	  AC	  20	  and	  20	  hit	  points.	  It	  regains	  1	  
+hit	  point	  every	  5	  minutes	  as	  long	  as	  it	  has	  at	  least	  1	  
+hit	  point.	  If	  the	  rope	  drops	  to	  0	  hit	  points,	  it	  is	  
+destroyed.	  
+Rope of Entanglement 
+Wondrous	  item,	  rare 	  
+This	  rope	  is	  30	  feet	  long	  and	  weighs	  3	  pounds.	  If	  you	  
+hold	  one	  end	  of	  the	  rope	  and	  use	  an	  action	  to	  speak	  
+its	  command	  word,	  the	  other	  end	  darts	  forward	  to	  
+entangle	  a	  creature	  you	  can	  see	  within	  20	  feet	  of	  you.	  
+The	  target	  must	  succeed	  on	  a	  DC	  15	  Dexterity	  saving 	  
+throw	  or	  become	  restrained. 	  
+	   You	  can	  release	  the	  creature	  by	  using	  a	  bonus	  
+action	  to	  speak	  a	  second	  command	  word.	  A	  target	  
+restrained	  by	  the	  rope	  can	  use	  an	  action	  to	  make	  a	  
+DC	  15	  Strength	  or	  Dexterity	  check	  (target’s	  choice).	  
+On	  a	  success,	  the	  creature	  i s	  no	  longer	  restrained	  by	  
+the	  rope.	  
+	   The	  rope	  has	  AC	  20	  and	  20	  hit	  points.	  It	  regains	  1	  
+hit	  point	  every	  5	  minutes	  as	  long	  as	  it	  has	  at	  least	  1	  
+hit	  point.	  If	  the	  rope	  drops	  to	  0	  hit	  points,	  it	  is	  
+destroyed.	  
+Scarab of Protection 
+Wondrous	  item,	  legendary	  (req uires	  attunement) 	  
+If	  you	  hold	  this	  beetle -­‐‑shaped	  medallion	  in	  your	  
+hand	  for	  1	  round,	  an	  inscription	  appears	  on	  its	  
+surface	  revealing	  its	  magical	  nature.	  It	  provides	  two	  
+benefits	  while	  it	  is	  on	  your	  person: 	  
+• You	  have	  advantage	  on	  saving	  throws	  against
+spells.
+• The	  scarab	  has	  12	  charges.	  If	  you	  fail	  a	  saving
+throw	  against	  a	  necromancy	  spell	  or	  a	  harmful
+effect	  originating	  from	  an	  undead	  creature,	  you
+can	  use	  your	  reaction	  to	  expend	  1	  charge	  and	  turn
+the	  failed	  save	  into	  a	  successful	  one.	  The	  scarab
+crumbles	  into	  powder	  and	  is	  destroyed	  when	  its
+last	  charge	  is	  expended.
+Scimitar of Speed 
+Weapon	  (scimitar),	  very	  rare	  (requires	  attunement) 	  
+You	  gain	  a	  +2	  bonus	  to	  attack	  and	  damage	  rolls	  
+made	  with	  this	  magic	  weapon.	  In	  addition,	  you	  can	  
+make	  one	  attack	  with	  it	  as	  a	  b onus	  action	  on	  each	  of	  
+your	  turns.	  

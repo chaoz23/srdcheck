@@ -1,0 +1,113 @@
+System Reference Document 5.2.1
+152
+the target realizes that the phantasm is an illusion, 
+and the spell ends.
+ While affected by the spell, the target treats the 
+phantasm as if it were real and rationalizes any il -
+logical outcomes from interacting with it. For exam -
+ple, if the target steps through a phantasmal bridge 
+and survives the fall, it believes the bridge exists 
+and something else caused it to fall.
+ An affected target can even take damage from 
+the illusion if the phantasm represents a dangerous 
+creature or hazard. On each of your turns, such a 
+phantasm can deal 2d8 Psychic damage to the tar -
+get if it is in the phantasm’s area or within 5 feet of 
+the phantasm. The target perceives the damage as a 
+type appropriate to the illusion.
+Phantasmal Killer
+Level 4 Illusion (Bard, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+You tap into the nightmares of a creature you can 
+see within range and create an illusion of its deep -
+est fears, visible only to that creature. The target 
+makes a Wisdom saving throw. On a failed save, the 
+target takes 4d10 Psychic damage and has Disad -
+vantage on ability checks and attack rolls for the 
+duration. On a successful save, the target takes half 
+as much damage, and the spell ends.
+ For the duration, the target makes a Wisdom sav -
+ing throw at the end of each of its turns. On a failed 
+save, it takes the Psychic damage again. On a suc -
+cessful save, the spell ends.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 4.
+Phantom Steed
+Level 3 Illusion (Wizard)
+Casting Time: 1 minute or Ritual
+Range: 30 feet
+Components: V, S
+Duration: 1 hour
+A Large, quasi-real, horselike creature appears on 
+the ground in an unoccupied space of your choice 
+within range. You decide the creature’s appearance, 
+and it is equipped with a saddle, bit, and bridle. Any 
+of the equipment created by the spell vanishes in a 
+puff of smoke if it is carried more than 10 feet away 
+from the steed.
+ For the duration, you or a creature you choose 
+can ride the steed. The steed uses the Riding Horse 
+stat block (see “Monsters”), except it has a Speed of 
+100 feet and can travel 13 miles in an hour. When 
+the spell ends, the steed gradually fades, giving the 
+rider 1 minute to dismount. The spell ends early if 
+the steed takes any damage.
+Planar Ally
+Level 6 Conjuration (Cleric)
+Casting Time: 10 minutes
+Range: 60 feet
+Components: V, S
+Duration: Instantaneous
+You beseech an otherworldly entity for aid. The be -
+ing must be known to you: a god, a demon prince, or 
+some other being of cosmic power. That entity sends 
+a Celestial, an Elemental, or a Fiend loyal to it to aid 
+you, making the creature appear in an unoccupied 
+space within range. If you know a specific creature’s 
+name, you can speak that name when you cast this 
+spell to request that creature, though you might get 
+a different creature anyway (GM’s choice).
+ When the creature appears, it is under no com -
+pulsion to behave a particular way. You can ask it 
+to perform a service in exchange for payment, but 
+it isn’t obliged to do so. The requested task could 
+range from simple (fly us across the chasm, or help 
+us fight a battle) to complex (spy on our enemies, or 
+protect us during our foray into the dungeon). You 
+must be able to communicate with the creature to 
+bargain for its services.
+ Payment can take a variety of forms. A Celestial 
+might require a sizable donation of gold or magic 
+items to an allied temple, while a Fiend might de -
+mand a living sacrifice or a gift of treasure. Some 
+creatures might exchange their service for a quest 
+undertaken by you.
+ A task that can be measured in minutes requires a 
+payment worth 100 GP per minute. A task measured 
+in hours requires 1,000 GP per hour. And a task 
+measured in days (up to 10 days) requires 10,000 
+GP per day. The GM can adjust these payments 
+based on the circumstances under which you cast 
+the spell. If the task is aligned with the creature’s 
+ethos, the payment might be halved or even waived. 
+Nonhazardous tasks typically require only half the 
+suggested payment, while especially dangerous 
+tasks might require a greater gift. Creatures rarely 
+accept tasks that seem suicidal.
+ After the creature completes the task, or when the 
+agreed-upon duration of service expires, the crea -
+ture returns to its home plane after reporting back 
+to you if possible. If you are unable to agree on a 
+price for the creature’s service, the creature imme -
+diately returns to its home plane.
+Planar Binding
+Level 5 Abjuration (Bard, Cleric, Druid, Warlock, 
+Wizard)
+Casting Time: 1 hour
+Range: 60 feet
+Components: V, S, M (a jewel worth 1,000+ GP, which 
+the spell consumes)
+Duration: 24 hours

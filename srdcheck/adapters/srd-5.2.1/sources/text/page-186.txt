@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+186
+Paralyzed [Condition]
+While you have the Paralyzed condition, you experi -
+ence the following effects.
+ Incapacitated.  You have the Incapacitated 
+condition.
+ Speed 0. Your Speed is 0 and can’t increase.
+ Saving Throws Affected. You automatically fail 
+Strength and Dexterity saving throws.
+ Attacks Affected.  Attack rolls against you have 
+Advantage.
+ Automatic Critical Hits. Any attack roll that hits 
+you is a Critical Hit if the attacker is within 5 feet of 
+you.
+Passive Perception
+Passive Perception is a score that reflects a crea-
+ture’s general awareness of its surroundings. The 
+GM uses this score when determining whether a 
+creature notices something without consciously 
+making a Wisdom (Perception) check.
+ A creature’s Passive Perception equals 10 plus the 
+creature’s Wisdom (Perception) check bonus. If the 
+creature has Advantage on such checks, increase 
+the score by 5. If the creature has Disadvantage on 
+them, decrease the score by 5. For example, a level 
+1 character with a Wisdom of 15 and proficiency in 
+Perception has a Passive Perception of 14 (10 + 2 + 
+2). If that character has Advantage on Wisdom (Per -
+ception) checks, the score becomes 19.
+Per Day
+If a rule says you can use something a certain num -
+ber of times per day, that means you must finish a 
+Long Rest to use it again after you run out of uses.
+Petrified [Condition]
+While you have the Petrified condition, you experi -
+ence the following effects.
+ Turned to Inanimate Substance.  You are trans-
+formed, along with any nonmagical objects you are 
+wearing and carrying, into a solid inanimate sub -
+stance (usually stone). Your weight increases by a 
+factor of ten, and you cease aging.
+ Incapacitated.  You have the Incapacitated 
+condition.
+ Speed 0. Your Speed is 0 and can’t increase.
+ Attacks Affected.  Attack rolls against you have 
+Advantage.
+ Saving Throws Affected. You automatically fail 
+Strength and Dexterity saving throws.
+ Resist Damage. You have Resistance to all 
+damage.
+ Poison Immunity. You have Immunity to the Poi-
+soned condition.
+Player Character
+A player character is a character controlled by a 
+player. See also “Character Creation.”
+Poisoned [Condition]
+While you have the Poisoned condition, you experi -
+ence the following effect.
+ Ability Checks and Attacks Affected. You have 
+Disadvantage on attack rolls and ability checks.
+Possession
+Some effects cause a creature to be possessed by 
+another creature or entity. A possessing effect de -
+fines how the possession operates. Possession can 
+be prevented by the Protection from Evil and Good 
+spell and ended by the Dispel Evil and Good spell.
+Proficiency
+If you have proficiency with something, you can add 
+your Proficiency Bonus to any D20 Test you make 
+using that thing. A creature might have proficiency 
+in a skill or saving throw or with a weapon or tool. 
+See also “Playing the Game” (“Proficiency”).
+Prone [Condition]
+While you have the Prone condition, you experience 
+the following effects.
+ Restricted Movement. Your only movement op -
+tions are to crawl or to spend an amount of move -
+ment equal to half your Speed (round down) to 
+right yourself and thereby end the condition. If your 
+Speed is 0, you can’t right yourself.
+ Attacks Affected.  You have Disadvantage on at-
+tack rolls. An attack roll against you has Advantage 
+if the attacker is within 5 feet of you. Otherwise, 
+that attack roll has Disadvantage.
+Reach
+A creature has a reach of 5 feet unless a rule says 
+otherwise.
+Reaction
+A Reaction is a special action taken in response to 
+a trigger defined in the Reaction’s description. You 
+can take a Reaction on another creature’s turn, and 
+if you take it on your turn, you can do so even if you 
+also take an action, a Bonus Action, or both. Once 
+you take a Reaction, you can’t take another one 
+until the start of your next turn. The Opportunity 
+Attack is a Reaction available to all creatures. See 
+also “Opportunity Attacks” and “Playing the Game” 
+(“Actions”).
+Ready [Action]
+You take the Ready action to wait for a particular 
+circumstance before you act. To do so, you take this 
+action on your turn, which lets you act by taking a 
+Reaction before the start of your next turn.
+ First, you decide what perceivable circumstance 
+will trigger your Reaction. Then, you choose the 
+action you will take in response to that trigger, or 
+you choose to move up to your Speed in response 
+to it. Examples include “If the cultist steps on the 

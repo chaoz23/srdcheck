@@ -1,0 +1,89 @@
+353
+System Reference Document 5.2.1
+Giant Rat
+Small Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 7 (2d6)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 7 −2 −2 Dex 16 +3 +5 Con 11 +0 +0
+Int 2 −4 −4 WIS 10 +0 +0 Cha 4 −3 −3
+Skills Perception +2
+Senses Darkvision 60 ft.; Passive Perception 12
+Languages None
+CR 1/8 (XP 25; PB +2)
+Traits
+Pack Tactics. The rat has Advantage on an attack roll 
+against a creature if at least one of the rat’s allies is 
+within 5 feet of the creature and the ally doesn’t have 
+the Incapacitated condition.
+Actions
+Bite. Melee Attack Roll: +5, reach 5 feet. Hit: 5 (1d4 
++ 3) Piercing damage.
+Giant Scorpion
+Large Beast, Unaligned
+AC 15   Initiative +1 (11)
+HP 52 (7d10 + 14)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 13 +1 +1 Con 15 +2 +2
+Int 1 −5 −5 WIS 9 −1 −1 Cha 3 −4 −4
+Senses Blindsight 60 ft.; Passive Perception 9
+Languages None
+CR 3 (XP 700; PB +2)
+Actions
+Multiattack. The scorpion makes two Claw attacks and 
+one Sting attack.
+Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 + 3) 
+Bludgeoning damage. If the target is a Large or smaller 
+creature, it has the Grappled condition (escape DC 13) 
+from one of two claws.
+Sting. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) 
+Piercing damage plus 11 (2d10) Poison damage.
+Giant Seahorse
+Large Beast, Unaligned
+AC 14   Initiative +1 (11)
+HP 16 (3d10)
+Speed 5 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 12 +1 +1 Con 11 +0 +0
+Int 2 −4 −4 WIS 12 +1 +1 Cha 5 −3 −3
+Senses Passive Perception 11
+Languages None
+CR 1/2 (XP 100; PB +2)
+Traits
+Water Breathing. The seahorse can breathe only 
+underwater.
+Actions
+Ram. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 
++ 2) Bludgeoning damage, or 11 (2d8 + 2) Bludgeoning 
+damage if the seahorse moved 20+ feet straight toward 
+the target immediately before the hit.
+Bonus Actions
+Bubble Dash. While underwater, the seahorse moves 
+up to half its Swim Speed without provoking Opportu-
+nity Attacks.
+Giant Shark
+Huge Beast, Unaligned
+AC 13   Initiative +3 (13)
+HP 92 (8d12 + 40)
+Speed 5 ft., Swim 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 23 +6 +6 Dex 11 +0 +0 Con 21 +5 +5
+Int 1 −5 −5 WIS 10 +0 +0 Cha 5 −3 −3
+Skills Perception +3
+Senses Blindsight 60 ft.; Passive Perception 13
+Languages None
+CR 5 (XP 1,800; PB +3)
+Traits
+Water Breathing. The shark can breathe only underwater.
+Actions
+Multiattack. The shark makes two Bite attacks.
+Bite. Melee Attack Roll: +9 (with Advantage if the target 
+doesn’t have all its Hit Points), reach 5 ft. Hit: 22 (3d10 
++ 6) Piercing damage.
+Giant Spider
+Large Beast, Unaligned
+AC 14   Initiative +3 (13)
+HP 26 (4d10 + 4)
+Speed 30 ft., Climb 30 ft.

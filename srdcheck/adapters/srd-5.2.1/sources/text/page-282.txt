@@ -1,0 +1,97 @@
+282
+System Reference Document 5.2.1
+Druid
+Druid
+Medium or Small Humanoid (Druid), Neutral
+AC 13  Initiative +1 (11)
+HP 44 (8d8 + 8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 12 +1 +1 Con 13 +1 +1
+Int 12 +1 +1 WIS 16 +3 +3 Cha 11 +0 +0
+Skills Medicine +5, Nature +3, Perception +5
+Gear Studded Leather Armor
+Senses Passive Perception 15
+Languages Common, Druidic, Sylvan
+CR 2 (XP 450; PB +2)
+Actions
+Multiattack. The druid makes two attacks, using Vine 
+Staff or Verdant Wisp in any combination.
+Vine Staff. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 
++ 3) Bludgeoning damage plus 2 (1d4) Poison damage.
+Verdant Wisp. Ranged Attack Roll: +5, range 90 ft. Hit: 
+10 (3d6) Radiant damage.
+Spellcasting. The druid casts one of the following 
+spells, using Wisdom as the spellcasting ability (spell 
+save DC 13):
+At Will: Druidcraft, Speak with Animals
+2/Day Each: Entangle, Thunderwave
+1/Day Each: Animal Messenger, Long-
+strider, Moonbeam
+Dryad
+Dryad
+Medium Fey, Neutral
+AC 16  Initiative +1 (11)
+HP 22 (5d8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 12 +1 +1 Con 11 +0 +0
+Int 14 +2 +2 WIS 15 +2 +2 Cha 18 +4 +4
+Skills Perception +4, Stealth +5
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages Elvish, Sylvan
+CR 1 (XP 200; PB +2)
+Traits
+Magic Resistance. The dryad has Advantage on saving 
+throws against spells and other magical effects.
+Speak with Beasts and Plants. The dryad can com-
+municate with Beasts and Plants as if they shared 
+a language.
+Actions
+Multiattack. The dryad makes one Vine Lash or 
+Thorn Burst attack, and it can use Spellcasting to cast 
+Charm Monster.
+Vine Lash. Melee Attack Roll: +6, reach 10 ft. Hit: 8 
+(1d8 + 4) Slashing damage.
+Thorn Burst. Ranged Attack Roll: +6, range 60 ft. Hit: 7 
+(1d6 + 4) Piercing damage.
+Spellcasting. The dryad casts one of the following 
+spells, requiring no Material components and using 
+Charisma as the spellcasting ability (spell save DC 14):
+At Will: Animal Friendship, Charm Monster (lasts 24 
+hours; ends early if the dryad casts the spell again), 
+Druidcraft
+1/Day Each: Entangle, Pass without Trace
+Bonus Actions
+Tree Stride. If within 5 feet of a Large or bigger tree, the 
+dryad teleports to an unoccupied space within 5 feet 
+of a second Large or bigger tree that is within 60 feet of 
+the previous tree.
+Earth Elemental
+Earth Elemental
+Large Elemental, Neutral
+AC 17  Initiative −1 (9)
+HP 147 (14d10 + 70)
+Speed 30 ft., Burrow 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 20 +5 +5 Dex 8 −1 −1 Con 20 +5 +5
+Int 5 −3 −3 WIS 10 +0 +0 Cha 5 −3 −3
+Vulnerabilities Thunder
+Immunities Poison; Exhaustion, Paralyzed, Petrified, 
+Poisoned, Unconscious
+Senses Darkvision 60 ft., Tremorsense 60 ft.; 
+Passive Perception 10
+Languages Primordial (Terran)
+CR 5 (XP 1,800; PB +3)
+Traits
+Earth Glide. The elemental can burrow through 
+nonmagical, unworked earth and stone. While do-
+ing so, the elemental doesn’t disturb the material it 
+moves through.
+Siege Monster. The elemental deals double damage to 
+objects and structures.
+Actions
+Multiattack. The elemental makes two attacks, using 
+Slam or Rock Launch in any combination.
+Slam. Melee Attack Roll: +8, reach 10 ft. Hit: 14 (2d8 
++ 5) Bludgeoning damage.

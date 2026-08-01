@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+241
+1d100 Patch
+84–90 2 Mastiffs
+91–96 Window (2 feet by 4 feet, up to 2 feet deep), 
+which you can place on a vertical surface you 
+can reach
+97–00 Portable Ram
+Rod of Absorption
+Rod, Very Rare (Requires Attunement)
+While holding this rod, you can take a Reaction to 
+absorb a spell that is targeting only you and doesn’t 
+create an area of effect. The absorbed spell’s effect 
+is canceled, and the spell’s energy—not the spell it-
+self—is stored in the rod. The energy has the same 
+level as the spell when it was cast. A canceled spell 
+dissipates with no effect, and any resources used to 
+cast it are wasted. The rod can absorb and store up 
+to 50 levels of energy over the course of its existence. 
+Once the rod absorbs 50 levels of energy, it can’t ab-
+sorb more. If you are targeted by a spell that the rod 
+can’t store, the rod has no effect on that spell.
+ When you become attuned to the rod, you know 
+how many levels of energy the rod has absorbed 
+over the course of its existence and how many levels 
+of spell energy it currently has stored.
+ If you are a spellcaster holding the rod, you can 
+convert energy stored in it into spell slots to cast 
+spells you have prepared or know. You can create 
+spell slots only of a level equal to or lower than your 
+own spell slots, up to a maximum of level 5. You use 
+the stored levels in place of your slots but otherwise 
+cast the spell as normal. For example, you can use 3 
+levels stored in the rod as a level 3 spell slot.
+ A newly found rod typically has 1d10 levels of 
+spell energy stored in it. A rod that can no longer 
+absorb spell energy and has no energy remaining 
+becomes nonmagical.
+Rod of Alertness
+Rod, Very Rare (Requires Attunement)
+This rod has the following properties.
+ Alertness. While holding the rod, you have 
+Advantage on Wisdom (Perception) checks and on 
+Initiative rolls.
+ Spells. While holding the rod, you can cast the fol -
+lowing spells from it:
+• Detect Evil and Good
+• Detect Magic
+• Detect Poison and Disease
+• See Invisibility
+ Protective Aura.  As a Magic action, you can plant 
+the haft end of the rod in the ground, whereupon 
+the rod’s head sheds Bright Light in a 60-foot radius 
+and Dim Light for an additional 60 feet. While in 
+that Bright Light, you and your allies gain a +1 
+bonus to Armor Class and saving throws and can 
+sense the location of any Invisible creature that is 
+also in the Bright Light.
+ The rod’s head stops glowing and the effect ends 
+after 10 minutes or when a creature takes a Magic 
+action to pull the rod from the ground. Once used, 
+this property can’t be used again until the next 
+dawn.
+Rod of Lordly Might
+Rod, Legendary (Requires Attunement)
+This rod has a flanged head, and it functions as a 
+magic Mace that grants a +3 bonus to attack rolls 
+and damage rolls made with it. The rod has proper -
+ties associated with six different buttons that are 
+set in a row along the haft. It has three other prop -
+erties as well, detailed below.
+ Buttons. You can press one of the following but-
+tons as a Bonus Action; a button’s effect lasts until 
+you push a different button or until you push the 
+same button again, which causes the rod to revert 
+to its normal form:
+Button 1. A fiery blade sprouts from the end op -
+posite the rod’s flanged head. The flames shed 
+Bright Light in a 40-foot radius and Dim Light for 
+an additional 40 feet, and the blade functions as 
+a magic Longsword or Shortsword (your choice) 
+that deals an extra 2d6 Fire damage on a hit.
+Button 2. The rod’s flanged head folds down and 
+two crescent-shaped blades spring out, trans -
+forming the rod into a magic Battleaxe that grants 
+a +3 bonus to attack rolls and damage rolls made 
+with it.
+Button 3. The rod’s flanged head folds down, a 
+spear point springs from the rod’s tip, and the 
+rod’s handle lengthens into a 6-foot haft, trans -
+forming the rod into a magic Spear that grants a 
++3 bonus to attack rolls and damage rolls made 
+with it.
+Button 4. The rod transforms into a climbing pole 
+up to 50 feet long (you specify the length), though 
+the rod’s buttons remain within your reach. In 
+surfaces as hard as granite, a spike at the bot -
+tom and three hooks at the top anchor the pole. 
+Horizontal bars 3 inches long fold out from the 
+sides, 1 foot apart, forming a ladder. The pole can 
+bear up to 4,000 pounds. More weight or lack of 
+solid anchoring causes the rod to revert to its 
+normal form.
+Button 5. The rod transforms into a handheld 
+battering ram and grants its user a +10 bonus 
+to Strength (Athletics) checks made to break 
+through doors, barricades, and other barriers.
+Button 6. The rod assumes or remains in its nor -
+mal form and indicates magnetic north. (Nothing 
+happens if this function of the rod is used in a 

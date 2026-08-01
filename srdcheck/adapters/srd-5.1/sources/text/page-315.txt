@@ -1,0 +1,78 @@
+System	  Reference	   Document	  5.1 	   315	  
+Rampage.	  When	  the	  gnoll	  reduces	  a	  creature	  to	  0	  hit	  
+points	  with	  a	  melee	  attack	  on	  its	  turn,	  the	  gnoll	  can	  
+take	  a	  bonus	  action	  to	  move	  up	  to	  half	  its	  speed	  and	  
+make	  a	  bite	  attack. 	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach 	  5	  ft.,	  one	  
+creature.	  Hit:	  4	  (1d4	  +	  2)	  piercing	  damage. 	  
+Spear.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  20/60	  ft.,	  one	  target.	   Hit:	  5	  (1d6	  +	  
+2) piercing	  damage,	  or	  6	  (1d8	  +	  2)	  piercing	  damage	  if
+used	  with	  two	  hands	  to	  make	  a	  melee	  att ack.
+Longbow.	  Ranged	  Weapon	  Attack: 	  +3	  to	  hit,	  range	  
+150/600	  ft.,	  one	  target.	   Hit:	  5	  (1d8	  +	  1)	  piercing	  
+damage.	  
+Gnome,	  Deep	  (Svirfneblin)	  
+Small	  humanoid	  (gnome),	  neutral	  good 	  
+Armor	  Class	  15	  (chain	  shirt) 	  
+Hit	  Points	  16	  (3d6	  +	  6)	  
+Speed	  20	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   14	  (+2)	   14	  (+2)	   12	  (+1)	   10	  (+0)	   9	  (−1)	  
+Skills	  Investigation	  +3,	  Perception	  +2,	  Stealth	  +4 	  
+Senses	  darkvision	  120	  ft.,	  passive	  Perception	  12 	  
+Languages	  Gnomish,	  Terran,	  Undercommon 	  
+Challenge	  1/2	  (100	  XP)	  
+Stone	  Camouflage. 	  The	  gnome	  has	  advantage	  on	  
+Dexterity	  (Stealth)	  checks	  made	  to	  hide	  in	  rocky	  terrain. 	  
+Gnome	  Cunning. 	  The	  gnome	  has	  advantage	  on	  
+Intelligence,	  Wisdom,	  and	  Charisma	  saving	  throws	  
+against	  magic.	  
+Innate	  Spellcasting. 	  The	  gnome’s	  innate	  spellcasting	  
+ability	  is	  Intelligence	  (spell	  save	  DC	  11).	  It	  can	  innately	  
+cast	  the	  following	  spells,	  requiring	  no	  material	  
+components:	  
+At	  will:	  nondetection	  (self	  only)	  
+1/day	  each:	  blindness/deafness ,	  blur,	  disguise	  self	  
+Actions	  
+War	  Pick.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft .,	  
+one	  target.	  Hit:	  6	  (1d8	  +	  2)	  piercing	  damage. 	  
+Poisoned	  Dart.	   Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+range	  30/120	  ft.,	  one	  creature.	  Hit:	  4	  (1d4	  +	  2)	  piercing	  
+damage,	  and	  the	  target	  must	  succeed	  on	  a	  DC	  12	  
+Constitution	  saving	  throw	  or	  be	  poisoned	  for	  1	  minute. 	  
+The	  target	  can	  repeat	  the	  saving	  throw	  at	  the	  end	  of	  
+each	  of	  its	  turns,	  ending	  the	  effect	  on	  itself	  on	  a	  
+success.	  
+Goblin	  
+Small	  humanoid	  (goblinoid),	  neutral	  evil 	  
+Armor	  Class	  15	  (leather	  armor,	  shield) 	  
+Hit	  Points	  7	  (2d6)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+8	  (−1)	   14	  (+2)	   10	  (+0)	   10	  (+0)	   8	  (−1)	   8	  (−1)	  
+Skills	  Stealth	  +6	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  9 	  
+Languages	  Common,	  Goblin 	  
+Challenge	  1/4	  (50	  XP)	  
+Nimble	  Escape.	   The	  goblin	  can	  take	  the	  Disengage	  or	  
+Hide	  action	  as	  a	  bonus	  action	  on	  each	  of 	  its	  turns.	  
+Actions	  
+Scimitar.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  5	  (1d6	  +	  2)	  slashing	  damage. 	  
+Shortbow.	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  range	  
+80/320	  ft.,	  one	  target.	   Hit:	  5	  (1d6	  +	  2)	  piercing	  damage. 	  
+Golems 
+Clay	  Golem	  
+Large	  construct,	  unaligned 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  133	  (14d10	  +	  56) 	  
+Speed	  20	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+20	  (+5)	   9	  (−1)	   18	  (+4)	   3	  (−4)	   8	  (−1)	   1	  (−5)	  
+Damage	  Immunities	   acid,	  poison,	  psychic;	  bludgeoning,	  
+piercing,	  and	  slashing	  from	  nonmagical	  att acks	  that	  
+aren’t	  adamantine 	  
+Condition	  Immunities	   charmed,	  exhaustion,	  frightened,	  
+paralyzed,	  petrified,	  poisoned 	  

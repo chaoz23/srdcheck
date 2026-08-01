@@ -1,0 +1,82 @@
+System	  Reference	   Document	  5.1 	   354	  
+Vampire	  Spawn	  
+Medium	  undead,	  neutral	  evil 	  
+Armor	  Class	  15	  (natural	  armor) 	  
+Hit	  Points	  82	  (11d8	  +	  33)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+16	  (+3)	   16	  (+3)	   16	  (+3)	   11	  (+0)	   10	  (+0)	   12	  (+1)	  
+Saving	  Throws	  Dex	  +6,	  Wis	  +3	  
+Skills	  Perception	  +3,	  Stealth	  +6 	  
+Damage	  Resistances 	  necrotic;	  bludgeoning,	  piercing,	  
+and	  slashing	  from	  nonmagical	  attacks	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  13 	  
+Languages	  the	  languages	  it	  knew	  in	  life 	  
+Challenge	  5	  (1,800	  XP)	  
+Regeneration.	  The	  vampire	  regains	  10	  hit	  points	  at	  the	  
+start	  of	  its	  turn	  if	  it	  has	  at	  least	  1	  hit	  point	  and	  isn’t	  in	  
+sunlight	  or	  running	  water.	  If	  the	  vampire	  takes	  radiant	  
+damage	  or	  damage	  from	  holy	  water,	  this	  trait	  doesn’t	  
+function	  at	  the	  s tart	  of	  the	  vampire’s	  next	  turn. 	  
+Spider	  Climb.	  The	  vampire	  can	  climb	  difficult	  surfaces,	  
+including	  upside	  down	  on	  ceilings,	  without	  needing	  to	  
+make	  an	  ability	  check. 	  
+Vampire	  Weaknesses. 	  The	  vampire	  has	  the	  following	  
+flaws:	  
+	   Forbiddance.	  The	  vampire	  can’t	  e nter	  a	  residence	  
+without	  an	  invitation	  from	  one	  of	  the	  occupants. 	  
+	   Harmed	  by	  Running	  Water. 	  The	  vampire	  takes	  20	  
+acid	  damage	  when	  it	  ends	  its	  turn	  in	  running	  water. 	  
+	   Stake	  to	  the	  Heart. 	  The	  vampire	  is	  destroyed	  if	  a	  
+piercing	  weapon	  made	  of	  wood	  is	  driven	  i nto	  its	  heart	  
+while	  it	  is	  incapacitated	  in	  its	  resting	  place. 	  
+	   Sunlight	  Hypersensitivity. 	  The	  vampire	  takes	  20	  
+radiant	  damage	  when	  it	  starts	  its	  turn	  in	  sunlight.	  
+While	  in	  sunlight,	  it	  has	  disadvantage	  on	  attack	  rolls	  
+and	  ability	  checks. 	  
+Actions	  
+Multiattack.	  The	  vampire	  makes	  two	  attacks,	  only	  one	  
+of	  which	  can	  be	  a	  bite	  attack. 	  
+Claws.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  8	  (2d4	  +	  3)	  slashing	  damage.	  Instead	  of	  
+dealing	  damage,	  the	  vampire	  can	  grapple	  the	  target	  
+(escape	  DC	  13). 	  
+Bite.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+willing	  creature,	  or	  a	  creature	  that	  is	  grappled	  by	  the	  
+vampire,	  incapacitated,	  or	  restrained.	   Hit:	  6	  (1d6	  +	  3)	  
+piercing	  damage	  plus	  7	  (2d6)	  necrotic	  damage.	  The	  
+target’s	  hit	  point	  maximum	  is	  reduced	  by	  an 	  amount	  
+equal	  to	  the	  necrotic	  damage	  taken,	  and	  the	  vampire	  
+regains	  hit	  points	  equal	  to	  that	  amount.	  The	  reduction	  
+lasts	  until	  the	  target	  finishes	  a	  long	  rest.	  The	  target	  dies	  
+if	  this	  effect	  reduces	  its	  hit	  point	  maximum	  to	  0. 	  
+Monsters (W) 
+Wight	  
+Medium	  undead,	  neutral	  evil 	  
+Armor	  Class	  14	  (studded	  leather) 	  
+Hit	  Points	  45	  (6d8	  +	  18)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   14	  (+2)	   16	  (+3)	   10	  (+0)	   13	  (+1)	   15	  (+2)	  
+Skills	  Perception	  +3,	  Stealth	  +4 	  
+Damage	  Resistances 	  necrotic;	  bludgeoning,	  piercing,	  
+and	  slashing	  from	  nonmagical	  attacks	  that	  aren’t	  
+silvered	  
+Damage	  Immunities 	  poison	  
+Condition	  Immunities 	  exhaustion,	  poisoned 	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  13 	  
+Languages	  the	  languages	  it	  knew	  in	  life 	  
+Challenge	  3	  (700	  XP)	  
+Sunlight	  Sensitivity. 	  While	  in	  sunlight,	  the	  wight	  has	  
+disadvantage	  on	  attack	  rolls,	  as	  well	  as	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Multiattack.	  The	  wight	  makes	  two	  longsword	  attacks	  
+or	  two	  longbow	  attacks.	  It	  can	  use	  its	  Life	  Drain	  in	  place	  
+of	  one	  longsword	   attack.	  
+Life	  Drain.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  
+one	  creature.	  Hit:	  5	  (1d6	  +	  2)	  necrotic	  damage.	  The	  
+target	  must	  succeed	  on	  a	  DC	  13	  Constitution	  saving	  
+throw	  or	  its	  hit	  point	  maximum	  is	  reduced	  by	  an	  
+amount	  equal	  to	  the	  damage	  taken.	  This	  r eduction	  
+lasts	  until	  the	  target	  finishes	  a	  long	  rest.	  The	  target	  dies	  

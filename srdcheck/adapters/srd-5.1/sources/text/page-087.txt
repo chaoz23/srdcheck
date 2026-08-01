@@ -1,0 +1,95 @@
+System	  Reference	   Document	  5.1 	   87	  
+Eating	  half	  a	  pound	  of	  food	  in	  a	  day	  counts	  as	  half	  a	  
+day	  without	  food. 	  
+	   A	  character	  can	  go	  without	  food	  for	  a	  number	  of	  
+days	  equal	  to	  3	  +	  his	  or	  her	  Constitution	  modifier	  
+(minimum	  1).	  At	  the	  end	  of	  each	  day	  beyond	  that	  
+limit,	  a	  character	  aut omatically	  suffers	  one	  level	  of	  
+exhaustion.	  
+	   	  A	  normal	  day	  of	  eating	  resets	  the	  count	  of	  days	  
+without	  food	  to	  zero. 	  
+Water 
+A	  character	  needs	  one	  gallon	  of	  water	  per	  day,	  or	  
+two	  gallons	  per	  day	  if	  the	  weather	  is	  hot.	  A	  character	  
+who	  drinks	  only	  half	  that	  muc h	  water	  must	  succeed	  
+on	  a	  DC	  15	  Constitution	  saving	  throw	  or	  suffer	  one	  
+level	  of	  exhaustion	  at	  the	  end	  of	  the	  day.	  A	  character	  
+with	  access	  to	  even	  less	  water	  automatically	  suffers	  
+one	  level	  of	  exhaustion	  at	  the	  end	  of	  the	  day. 	  
+	   If	  the	  character	  already	  has 	  one	  or	  more	  levels	  of	  
+exhaustion,	  the	  character	  takes	  two	  levels	  in	  either	  
+case.	  
+Interacting with Objects 
+A	  character’s	  interaction	  with	  objects	  in	  an	  
+environment	  is	  often	  simple	  to	  resolve	  in	  the	  game.	  
+The	  player	  tells	  the	  GM	  that	  his	  or	  her	  character	  is	  
+doing	  something,	  such	  as	  moving	  a	  lever,	  and	  the	  GM	  
+describes	  what,	  if	  anything,	  happens. 	  
+	   For	  example,	  a	  character	  might	  decide	  to	  pull	  a	  
+lever,	  which	  might,	  in	  turn,	  raise	  a	  portcullis,	  cause	  a	  
+room	  to	  flood	  with	  water,	  or	  open	  a	  secret	  door	  in	  a	  
+nearby	  wall.	  If	  the	  lever	  is	  rusted	  in	  position,	  though,	  
+a	  character	  might	  need	  to	  force	  it.	  In	  such	  a	  situation,	  
+the	  GM	  might	  call	  for	  a	  Strength	  check	  to	  see	  
+whether	  the	  character	  can	  wrench	  the	  lever	  into	  
+place.	  The	  GM	  sets	  the	  DC	  for	  any	  such	  check	  based	  
+on	  the	  difficulty	  of	  the	  task. 	  
+	   Characters	  can	  also	  damage	  objects	  with	  their	  
+weapons	  and	  spells.	  Objects	  are	  immune	  to	  poison	  
+and	  psychic	  damage,	  but	  otherwise	  they	  can	  be	  
+affected	  by	  physical	  and	  magical	  attacks	  much	  like	  
+creatures	  can.	  The	  GM	  determines	  an 	  object’s	  Armor	  
+Class	  and	  hit	  points,	  and	  might	  decide	  that	  certain	  
+objects	  have	  resistance	  or	  immunity	  to	  certain	  kinds	  
+of	  attacks.	  (It’s	  hard	  to	  cut	  a	  rope	  with	  a	  club,	  for	  
+example.)	  Objects	  always	  fail	  Strength	  and	  Dexterity	  
+saving	  throws,	  and	  they	  are	   immune	  to	  effects	  that	  
+require	  other	  saves.	  When	  an	  object	  drops	  to	  0	  hit	  
+points,	  it	  breaks. 	  
+	   A	  character	  can	  also	  attempt	  a	  Strength	  check	  to	  
+break	  an	  object.	  The	  GM	  sets	  the	  DC	  for	  any	  such	  
+check.	  
+Resting 
+Heroic	  though	  they	  might	  be,	  adventurers	  can’t	  
+spend	  every	  hour	  of	  the	  day	  in	  the	  thick	  of	  
+exploration,	  social	  interaction,	  and	  combat.	  They	  
+need	  rest—time	  to	  sleep	  and	  eat,	  tend	  their	  wounds,	  
+refresh	  their	  minds	  and	  spirits	  for	  spellcasting,	  and	  
+brace	  themselves	  for	  further	  adventure.	   	  
+	   Adventurers	  can	   take	  short	  rests	  in	  the	  midst	  of	  an	  
+adventuring	  day	  and	  a	  long	  rest	  to	  end	  the	  day. 	  
+Short Rest 
+A	  short	  rest	  is	  a	  period	  of	  downtime,	  at	  least	  1	  hour	  
+long,	  during	  which	  a	  character	  does	  nothing	  more	  
+strenuous	  than	  eating,	  drinking,	  reading,	  and	  
+tending	  to	  wounds.	  
+	   A	  character	  can	  spend	  one	  or	  more	  Hit	  Dice	  at	  the	  
+end	  of	  a	  short	  rest,	  up	  to	  the	  character’s	  maximum	  
+number	  of	  Hit	  Dice,	  which	  is	  equal	  to	  the	  character’s	  
+level.	  For	  each	  Hit	  Die	  spent	  in	  this	  way,	  the	  player	  
+rolls	  the	  die	  and	  adds	  the	  character’s	   Constitution	  
+modifier	  to	  it.	  The	  character	  regains	  hit	  points	  equal	  
+to	  the	  total.	  The	  player	  can	  decide	  to	  spend	  an	  
+additional	  Hit	  Die	  after	  each	  roll.	  A	  character	  regains	  
+some	  spent	  Hit	  Dice	  upon	  finishing	  a	  long	  rest,	  as	  
+explained	  below. 	  
+Long Rest 
+A	  long	  rest	  is	  a	  period	  of	  extended	  downtime,	  at	  least	  
+8	  hours	  long,	  during	  which	  a	  character	  sleeps	  or	  
+performs	  light	  activity:	  reading,	  talking,	  eating,	  or	  
+standing	  watch	  for	  no	  more	  than	  2	  hours.	  If	  the	  rest	  
+is	  interrupted	  by	  a	  period	  of	  strenuous	  activity —at	  
+least	  1	  hour	  of	  walking,	  fighting,	  casting	  spells,	  or	  
+similar	  adventuring	  activity —the	  characters	  must	  
+begin	  the	  rest	  again	  to	  gain	  any	  benefit	  from	  it. 	  
+	   At	  the	  end	  of	  a	  long	  rest,	  a	  character	  regains	  all	  
+lost	  hit	  points.	  The	  character	  also	  regains	  spent	   Hit	  
+Dice,	  up	  to	  a	  number	  of	  dice	  equal	  to	  half	  of	  the	  
+character’s	  total	  number	  of	  them	  (minimum	  of	  one	  
+die).	  For	  example,	  if	  a	  character	  has	  eight	  Hit	  Dice,	  he	  
+or	  she	  can	  regain	  four	  spent	  Hit	  Dice	  upon	  finishing	  a	  
+long	  rest.	  
+	   A	  character	  can’t	  benefit	  fro m	  more	  than	  one	  long	  
+rest	  in	  a	  24-­‐‑hour	  period,	  and	  a	  character	  must	  have	  
+at	  least	  1	  hit	  point	  at	  the	  start	  of	  the	  rest	  to	  gain	  its	  
+benefits.	  

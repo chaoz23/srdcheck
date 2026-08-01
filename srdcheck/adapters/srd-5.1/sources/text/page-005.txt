@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   5	  
+	   Halfling	  Nimbleness.	   You	  can	  move	  through	  the	  
+space	  of	  any	  creature	  that	  is	  of	  a	  size	  larger	  than	  
+yours.	  
+	   Languages.	  You	  can	  speak,	  read,	  and	  write	  
+Common	  and	  Halfling.	  The	  Halfling	  language	  isn’t	  
+secret,	  but	  halflings	  are	  loath	  to	  share	  it	  with	  others.	  
+They	  write	  very	  little,	  so	  they	  don’t	  have	  a	  rich	  body	  
+of	  literature.	  Their	  oral	  tradition,	  however,	  is	  very	  
+strong.	  Almost	  all	  halflings	  speak	  Common	  to	  
+converse	  with	  the	  people	  in	  whose	  lands	  they	  dwell	  
+or	  through	  which	  they	  are	  traveling. 	  
+Lightfoot 
+As	  a	  lightfoot	  halfling,	  you	  can	  easily	  hide	  from	  
+notice,	  even	  using	  other	  people	  as	  cover.	  You’re	  
+inclined	  to	  be	  affable	  and	  get	  along	  well	  with	  others. 	  
+	   Lightfoots	  are	  more	  prone	  to	  wanderlust	  than	  
+other	  halflings,	  and	  often	  dwell	  alongside	  other	  races	  
+or	  take	  up	  a	  nomadic	  life. 	  
+	   Ability	  Score	  Increase. 	  Your	  Charisma	  score	  
+increases	  by	  1. 	  
+	   Naturally	  Stealthy. 	  You	  can	  attempt	  to	  hide	  even	  
+when	  you	  are	  obscured	  only	  by	  a	  creature	  that	  is	  at	  
+least	  one	  size	  larger	  than	  you. 	  
+Human 
+Human Traits 
+It’s	  hard	  to	  make	  generalizations	  about	  humans,	  but	  
+your	  human	  character	  h as	  these	  traits. 	  
+	   Ability	  Score	  Increase.	   Your	  ability	  scores	  each	  
+increase	  by	  1.	  
+	   Age.	  Humans	  reach	  adulthood	  in	  their	  late	  teens	  
+and	  live	  less	  than	  a	  century. 	  
+	   Alignment.	  Humans	  tend	  toward	  no	  particular	  
+alignment.	  The	  best	  and	  the	  worst	  are	  found	  among	  
+them.	  
+	   Size.	  Humans	  vary	  widely	  in	  height	  and	  build,	  
+from	  barely	  5	  feet	  to	  well	  over	  6	  feet	  tall.	  Regardless	  
+of	  your	  position	  in	  that	  range,	  your	  size	  is	  Medium. 	  
+Speed.	  Your	  base	  walking	  speed	  is	  30	  feet. 	  
+	   Languages.	  You	  can	  speak,	  read,	  and	  write	  
+Common	  and	  one	  extra	  language	  of	  your	  choice.	  
+Humans	  typically	  learn	  the	  languages	  of	  other	  
+peoples	  they	  deal	  with,	  including	  obscure	  dialects.	  
+They	  are	  fond	  of	  sprinkling	  their	  speech	  with	  words	  
+borrowed	  from	  other	  tongues:	  Orc	  curses,	  Elvish	  
+musical	  expressions ,	  Dwarvish	  military	  phrases,	  and	  
+so	  on.	  
+Dragonborn 
+Dragonborn Traits 
+Your	  draconic	  heritage	  manifests	  in	  a	  variety	  of	  
+traits	  you	  share	  with	  other	  dragonborn. 	  
+	   Ability	  Score	  Increase. 	  Your	  Strength	  score	  
+increases	  by	  2,	  and	  your	  Charisma	  score	  increases	  
+by	  1.	  
+	   Age.	  Young	  dragonborn	  grow	  quickly.	  They	  walk	  
+hours	  after	  hatching,	  attain	  the	  size	  and	  
+development	  of	  a	  10 -­‐‑year-­‐‑old	  human	  child	  by	  the	  
+age	  of	  3,	  and	  reach	  adulthood	  by	  15.	  They	  live	  to	  be	  
+around	  80.	  
+	   Alignment.	  Dragonborn	  tend	  to	  extremes,	  making	  
+a	  conscious	  choice	  for	  one	  side	  or	  the	  other	  in	  the	  
+cosmic	  war	  between	  good	  and	  evil.	  Most	  dragonborn	  
+are	  good,	  but	  those	  who	  side	  with	  evil	  can	  be	  terrible	  
+villains.	  
+	   Size.	  Dragonborn	  are	  taller	  and	  heavier	  than	  
+humans,	  standing	  well	  over	  6	  feet	  tall	  and	  averaging	  
+almost	  250	  pounds.	  Your	  size	  is	  Medium. 	  
+Speed.	  Your	  base	  walking	  speed	  is	  30	  feet. 	  
+Draconic	  Ancestry	  
+Dragon	   Damage	  Type	   Breath	  Weapon	  
+Black	   Acid	   5	  by	  30	  ft.	  line	  (Dex.	  save) 	  
+Blue	   Lightning	   5	  by	  30	  ft.	  line	  (Dex.	  save)	  
+Brass	   Fire	   5	  by	  30	  ft.	  line	  (Dex.	  save) 	  
+Bronze	   Lightning	   5	  by	  30	  ft.	  line	  (Dex.	  save) 	  
+Copper	   Acid	   5	  by	  30	  ft.	  line	  (Dex.	  save) 	  
+Gold	   Fire	   15	  ft.	  cone	  (Dex.	  save) 	  
+Green	   Poison	   15	  ft.	  cone	  (Con.	  save) 	  
+Red	   Fire	   15	  ft.	  cone	  (Dex.	  save) 	  
+Silver	   Cold	   15	  ft.	  cone	  (Con.	  save) 	  
+White	   Cold	   15	  ft.	  cone	  (Con.	  save) 	  
+	   Draconic	  Ancestry. 	  You	  have	  draconic	  ancestry.	  
+Choose	  one	  type	  of	  dragon	  from	  the	  Draconic	  
+Ancestry	  table.	  Your	  breath	  weapon	  and	  damage	  
+resistance	  are	  determined	  by	  the	  dragon	  type,	  as	  
+shown	  in	  the	  table. 	  
+	   Breath	  Weapon. 	  You	  can	  use	  your	  action	  to	  
+exhale	  destructive	  energy.	  Your	  draconic	  ancestry	  
+determines	  the	  size,	  shape,	  and	  damage	  type	  of	  the	  
+exhalation.	  
+	   When	  you	  use	  your	  breath	  weapon,	  each	  creature	  
+in	  the	  area	  of	  the	  exhalation	  mus t	  make	  a	  saving	  
+throw,	  the	  type	  of	  which	  is	  determined	  by	  your	  
+draconic	  ancestry.	  The	  DC	  for	  this	  saving	  throw	  
+equals	  8	  +	  your	  Constitution	  modifier	  +	  your	  
+proficiency	  bonus.	  A	  creature	  takes	  2d6	  damage	  on	  a	  
+failed	  save,	  and	  half	  as	  much	  damage	  on	  a	  succes sful	  

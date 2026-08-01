@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   176	  
+You	  touch	  a	  creature	  that	  has	  died	  within	  the	  last	  
+minute.	  That	  creature	  returns	  to	  life	  with	  1	  hit	  point.	  
+This	  spell	  can’t	  return	  to	  life	  a	  creature	  that	  has	  died	  
+of	  old	  age,	  nor	  can	  it	  restore	  any	  missing	  body	  parts. 	  
+Rope Trick 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time:	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (powdered	  corn	  extract	  and	  a	  
+twisted	  loop	  of	  parchment) 	  
+Duration:	  1	  hour	  
+You	  touch	  a	  length	  of	  rope	  that	  is	  up	  to	  60	  feet	  long.	  
+One	  end	  of	  the	  rope	  then	  rises	  into	  the	  air	  until	  the	  
+whole	  rope	  hangs	   perpendicular	  to	  the	  ground.	  At	  
+the	  upper	  end	  of	  the	  rope,	  an	  invisible	  entrance	  
+opens	  to	  an	  extradimensional	  space	  that	  lasts	  until	  
+the	  spell	  ends.	  
+	   The	  extradimensional	  space	  can	  be	  reached	  by	  
+climbing	  to	  the	  top	  of	  the	  rope.	  The	  space	  can	  hold	  as	  
+many	  as	  eight	  Medium	  or	  smaller	  creatures.	  The	  
+rope	  can	  be	  pulled	  into	  the	  space,	  making	  the	  rope	  
+disappear	  from	  view	  outside	  the	  space. 	  
+	   Attacks	  and	  spells	  can’t	  cross	  through	  the	  entrance	  
+into	  or	  out	  of	  the	  extradimensional	  space,	  but	  those	  
+inside	  can	  see	  out	   of	  it	  as	  if	  through	  a	  3 -­‐‑foot-­‐‑by-­‐‑5-­‐‑
+foot	  window	  centered	  on	  the	  rope. 	  
+	   Anything	  inside	  the	  extradimensional	  space	  drops	  
+out	  when	  the	  spell	  ends. 	  
+Sacred Flame 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+Flame-­‐‑like	  radiance	  descends	  on	  a	  creature	  that	  you	  
+can	  see	  within	  range.	  The	  target	  must	  succeed	  on	  a	  
+Dexterity	  saving	  throw	  or	  take	  1d8	  radiant	  damage.	  
+The	  target	  gains	  no	  benefit	  from	  cover	  for	  this	  saving	  
+throw.	  
+	   The	  spell’s	  damage	  increases	  by	  1d8	  when	  y ou	  
+reach	  5th	  level	  (2d8),	  11th	  level	  (3d8),	  and	  17th	  
+level	  (4d8).	  
+Sanctuary 
+1st-­‐‑level	  abjuration 	  
+Casting	  Time:	   1	  bonus	  action 	  
+Range:	  30	  feet	  
+Components:	   V,	  S,	  M	  (a	  small	  silver	  mirror)	  
+Duration:	  1	  minute	  
+You	  ward	  a	  creature	  within	  range	  against	  attack.	  
+Until	  the	  spell	  ends,	  any	  creature	  who	  targets	  the	  
+warded	  creature	  with	  an	  attack	  or	  a	  harmful	  spell	  
+must	  first	  make	  a	  Wisdom	  saving	  throw.	  On	  a	  failed	  
+save,	  the	  creature	  must	  choose	  a	  new	  target	  or	  lose	  
+the	  attack	  or	  spell.	  This	  spell	  doesn’t	  protect	  the	  
+warded	  creature	  from	  area	  effects,	  such	  as	  the	  
+explosion	  of	  a	  fireball. 	  
+	   If	  the	  warded	  creature	  makes	  an	  attack	  or	  casts	  a	  
+spell	  that	  affects	  an	  enemy	  creature,	  this	  spell	  ends. 	  
+Scorching Ray 
+2nd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  create	  three	  rays	  of	  fire	  and	  hurl	  them	  at	  targets	  
+within	  range.	  You	  can	  hurl	  them	  at	  one	  target	  or	  
+several.	  
+	   Make	  a	  ranged	  spell	  attack	  for	  each	  ray.	  On	  a	  hit,	  
+the	  target	  takes	  2d6	  fire	  damage. 	  
+	   At	  Higher	  Level s.	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  you	  create	  one	  
+additional	  ray	  for	  each	  slot	  level	  above	  2nd. 	  
+Scrying 
+5th-­‐‑level	  divination 	  
+Casting	  Time: 	  10	  minutes	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  focus	  worth	  at	  least	  1,000	  
+gp,	  such	  as	  a	  crystal	  ball,	  a	  silver	  mirror,	  or	  a	  font	  
+filled	  with	  holy	  water) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  can	  see	  and	  hear	  a	  particular	  creature	  you	  
+choose	  that	  is	  on	  the	  same	  plane	  of	  existence	  as	  you.	  
+The	  target	  must	  make	  a	  Wisdom	  saving	  throw ,	  
+which	  is	  modified	  by	  how	  well	  you	  know	  the	  target	  
+and	  the	  sort	  of	  physical	  connection	  you	  have	  to	  it.	  If	  
+a	  target	  knows	  you’re	  casting	  this	  spell,	  it	  can	  fail	  the	  
+saving	  throw	  voluntarily	  if	  it	  wants	  to	  be	  observed. 	  
+Knowledge	   Save	  Modifier	  
+Secondhand	  (you	  have	  heard	  of	  the	  target) 	   +5
+Firsthand	  (you	  have	  met	  the	  target) 	   +0
+Familiar	  (you	  know	  the	  target	  well) 	   −5
+Connection	   Save	  Modifier	  
+Likeness	  or	  picture 	   −2
+Possession	  or	  garment 	   −4
+Body	  part,	  lock	  of	  hair,	  bit	  of	  nail,	  or	  the	  like 	   −10

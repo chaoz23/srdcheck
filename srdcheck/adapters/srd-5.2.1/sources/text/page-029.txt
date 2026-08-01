@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+29
+ While active, your Rage follows the rules below.
+ Damage Resistance.  You have Resistance to Blud-
+geoning, Piercing, and Slashing damage.
+ Rage Damage. When you make an attack using 
+Strength—with either a weapon or an Unarmed 
+Strike—and deal damage to the target, you gain 
+a bonus to the damage that increases as you gain 
+levels as a Barbarian, as shown in the Rage Damage 
+column of the Barbarian Features table.
+ Strength Advantage.  You have Advantage on 
+Strength checks and Strength saving throws.
+ No Concentration or Spells. You can’t maintain 
+Concentration, and you can’t cast spells.
+ Duration. The Rage lasts until the end of your 
+next turn, and it ends early if you don Heavy armor 
+or have the Incapacitated condition. If your Rage 
+is still active on your next turn, you can extend 
+the Rage for another round by doing one of the 
+following:
+• Make an attack roll against an enemy.
+• Force an enemy to make a saving throw.
+• Take a Bonus Action to extend your Rage.
+Each time the Rage is extended, it lasts until the end 
+of your next turn. You can maintain a Rage for up to 
+10 minutes.
+Level 1: Unarmored Defense
+While you aren’t wearing any armor, your base Ar -
+mor Class equals 10 plus your Dexterity and Consti -
+tution modifiers. You can use a Shield and still gain 
+this benefit.
+Level 1: Weapon Mastery
+Your training with weapons allows you to use the 
+mastery properties of two kinds of Simple or Mar -
+tial Melee weapons of your choice, such as Great -
+axes and Handaxes. Whenever you finish a Long 
+Rest, you can practice weapon drills and change one 
+of those weapon choices.
+ When you reach certain Barbarian levels, you gain 
+the ability to use the mastery properties of more 
+kinds of weapons, as shown in the Weapon Mastery 
+column of the Barbarian Features table.
+Level 2: Danger Sense
+You gain an uncanny sense of when things aren’t as 
+they should be, giving you an edge when you dodge 
+perils. You have Advantage on Dexterity saving 
+throws unless you have the Incapacitated condition.
+Level 2: Reckless Attack
+You can throw aside all concern for defense to at -
+tack with increased ferocity. When you make your 
+first attack roll on your turn, you can decide to at -
+tack recklessly. Doing so gives you Advantage on at -
+tack rolls using Strength until the start of your next 
+turn, but attack rolls against you have Advantage 
+during that time.
+Level 3: Barbarian Subclass
+You gain a Barbarian subclass of your choice. The 
+Path of the Berserker subclass is detailed after this 
+class’s description. A subclass is a specialization 
+that grants you features at certain Barbarian levels. 
+For the rest of your career, you gain each of your 
+subclass’s features that are of your Barbarian level 
+or lower.
+Level 3: Primal Knowledge
+You gain proficiency in another skill of your choice 
+from the skill list available to Barbarians at level 1.
+ In addition, while your Rage is active, you can 
+channel primal power when you attempt certain 
+tasks; whenever you make an ability check using 
+one of the following skills, you can make it as a 
+Strength check even if it normally uses a differ -
+ent ability: Acrobatics, Intimidation, Perception, 
+Stealth, or Survival. When you use this ability, your 
+Strength represents primal power coursing through 
+you, honing your agility, bearing, and senses.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Barbarian lev -
+els 8, 12, and 16.
+Level 5: Extra Attack
+You can attack twice instead of once whenever you 
+take the Attack action on your turn.
+Level 5: Fast Movement
+Your speed increases by 10 feet while you aren’t 
+wearing Heavy armor.
+Level 7: Feral Instinct
+Your instincts are so honed that you have Advan -
+tage on Initiative rolls.
+Level 7: Instinctive Pounce
+As part of the Bonus Action you take to enter your 
+Rage, you can move up to half your Speed.
+Level 9: Brutal Strike
+If you use Reckless Attack, you can forgo any Ad -
+vantage on one Strength-based attack roll of your 
+choice on your turn. The chosen attack roll mustn’t 
+have Disadvantage. If the chosen attack roll hits, the 
+target takes an extra 1d10 damage of the same type 
+dealt by the weapon or Unarmed Strike, and you can 
+cause one Brutal Strike effect of your choice. You 
+have the following effect options.
+ Forceful Blow. The target is pushed 15 feet 
+straight away from you. You can then move up to 
+half your Speed straight toward the target without 
+provoking Opportunity Attacks.

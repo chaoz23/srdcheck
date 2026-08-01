@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   182	  
+Spider Climb 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  drop	  of	  bitumen	  and	  a	  
+spider)	  
+Duration:	  Concentration,	  up	  to	  1	  hour 	  
+Until	  the	  spell	  ends,	  one	  willing	  creature	  you	  touch	  
+gains	  the	  ability	  to	  move	  up,	  down,	  and	  across	  
+vertical	  surfaces	  and	  upside	  down	  along	  ceilings,	  
+while	  leaving	  its	  hands	  free.	  The	  target	  also	  gains	  a	  
+climbing	  speed	  equal	  to	  its	  walking	  speed. 	  
+Spike Growth 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  150	  feet	  
+Components:	  V,	  S,	  M	  (seven	  sharp	  thorns	  or	  seven	  
+small	  twigs,	  each	  sharpened	  to	  a	  point) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+The	  ground	  in	  a	  20 -­‐‑foot	  radius	  centered	  on	  a	  point	  
+within	  range	  twists	  and	  sprouts	  hard	  spikes	  and	  
+thorns.	  The	  area 	  becomes	  difficult	  terrain	  for	  the	  
+duration.	  When	  a	  creature	  moves	  into	  or	  within	  the	  
+area,	  it	  takes	  2d4	  piercing	  damage	  for	  every	  5	  feet	  it	  
+travels.	  
+	   The	  transformation	  of	  the	  ground	  is	  camouflaged	  
+to	  look	  natural.	  Any	  creature	  that	  can’t	  see	  the	  area	  
+at	  the	  time	  the	  spell	  is	  cast	  must	  make	  a	  Wisdom	  
+(Perception)	  check	  against	  your	  spell	  save	  DC	  to	  
+recognize	  the	  terrain	  as	  hazardous	  before	  entering	  it. 	  
+Spirit Guardians 
+3rd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  (15-­‐‑foot	  radius)	  
+Components:	  V,	  S,	  M	  (a	  holy	  symbol)	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  call	  forth	  spirits	  to	  protect	  you.	  They	  flit	  around	  
+you	  to	  a	  distance	  of	  15	  feet	  for	  the	  duration.	  If	  you	  
+are	  good	  or	  neutral,	  their	  spectral	  form	  appears	  
+angelic	  or	  fey	  (your	  choice).	   If	  you	  are	  evil,	  they	  
+appear	  fiendish. 	  
+	   When	  you	  cast	  this	  spell,	  you	  can	  designate	  any	  
+number	  of	  creatures	  you	  can	  see	  to	  be	  unaffected	  by	  
+it.	  An	  affected	  creature’s	  speed	  is	  halved	  in	  the	  area,	  
+and	  when	  the	  creature	  enters	  the	  area	  for	  the	  first	  
+time	  on	  a	  turn	  or	  starts	  its	  turn	  there,	  it	  must	  make	  a	  
+Wisdom	  saving	  throw.	  On	  a	  failed	  save,	  the	  creature	  
+takes	  3d8	  radiant	  damage	  (if	  you	  are	  good	  or	  
+neutral)	  or	  3d8	  necrotic	  damage	  (if	  you	  are	  evil).	  On	  
+a	  successful	  save,	  the	  creature	  takes	  half	  as	  much	  
+damage.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d8	  for	  each	  slot	  level	  above	  3rd. 	  
+Spiritual Weapon 
+2nd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  bonus	  action 	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  1	  minute	  
+You	  create	  a	  floating,	  spectral	  weapon	  within	  range	  
+that	  lasts	  for	  the	  duration	  or	  until	  you	  cast	  this	  spell	  
+again.	  When	  you	  cast	  the	  spell,	  you	  can	  make	  a	  melee	  
+spell	  attack	  against	  a	  creature	  within	  5	  feet	  of	  the	  
+weapon.	  On	  a	  hit,	  the	  target	  tak es	  force	  damage	  
+equal	  to	  1d8	  +	  your	  spellcasting	  ability	  modifier. 	  
+	   As	  a	  bonus	  action	  on	  your	  turn,	  you	  can	  move	  the	  
+weapon	  up	  to	  20	  feet	  and	  repeat	  the	  attack	  against	  a	  
+creature	  within	  5	  feet	  of	  it. 	  
+	   The	  weapon	  can	  take	  whatever	  form	  you	  choose.	  
+Clerics	  of	  deities	  who	  are	  associated	  with	  a	  
+particular	  weapon	  (as	  St.	  Cuthbert	  is	  known	  for	  his	  
+mace	  and	  Thor	  for	  his	  hammer)	  make	  this	  spell’s	  
+effect	  resemble	  that	  weapon. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  the	   damage	  
+increases	  by	  1d8	  for	  every	  two	  slot	  levels	  above	  2nd. 	  
+Stinking Cloud 
+3rd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  90	  feet	  
+Components:	  V,	  S,	  M	  (a	  rotten	  egg	  or	  several	  skunk	  
+cabbage	  leaves) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  create	  a	  20-­‐‑foot-­‐‑radius	  sphere	  of	  yellow,	  
+nauseating	  gas	  centered	  on	  a	  point	  within	  range.	  The	  
+cloud	  spreads	  around	  corners,	  and	  its	  area	  is	  heavily	  
+obscured.	  The	  cloud	  lingers	  in	  the	  air	  for	  the	  
+duration.	  
+	   Each	  creature	  that	  is	  completely	  within	  the	  cloud	  
+at	  the	  start	  of	  its	  turn	  must	  make	  a	  Constitution	  
+saving	  throw	  against	  poison.	  On	  a	  failed	  save,	  the	  
+creature	  spends	  its	  action	  that	  turn	  retching	  and	  
+reeling.	  Creatures	  that	  don’t	  need	  to	  breathe	  or	  are	  
+immune	  to	  poison	  automatically	  succeed	  on	  this	  
+saving	  throw.	  

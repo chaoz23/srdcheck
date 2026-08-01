@@ -1,0 +1,86 @@
+System	  Reference	   Document	  5.1 	   50	  
+Sculptor of Flesh 
+Prerequisite:	  7th	  level 	  
+You	  can	  cast	  polymorph	  once	  using	  a	  warlock	  spell	  
+slot.	  You	  can’t	  do	  so	  again	  until	  you	  finish	  a	  long	  rest. 	  
+Sign of Ill Omen 
+Prerequisite:	  5th	  level 	  
+You	  can	  cast	  bestow	  curse	  once	  using	  a	  warlock	  spell	  
+slot.	  You	  can’t	  do	  so	  again	  until	  you	  finish	  a	  long	  rest. 	  
+Thief of Five Fates 
+You	  can	  cast	  bane	  once	  using	  a	  warlock	  spell	  slot.	  
+You	  can’t	  do	  so	  again	  until	  you	  finish	  a	  long	  rest. 	  
+Thirsting Blade 
+Prerequisite:	  5th	  level,	  Pact	  of	  the	  Blade	  feature 	  
+You	  can	  attack	  with	  your	  pact	  weapon	  twice,	  instead	  
+of	  once,	  whenever	  you	  take	  the	  Attack	  action	  on	  your	  
+turn.	  
+Visions of Distant Realms 
+Prerequisite:	  15th	  level 	  
+You	  can	  cast	  arcane	  eye	  at	  will,	  without	  expending	  a	  
+spell	  slot.	  
+Voice of the Chain Master 
+Prerequisite:	  Pact	  of	  the	  Chain	  feature 	  
+You	  can	  communicate	  telepathically	  with	  your	  
+familiar	  and	  perceive	  through	  your	  familiar’s	  senses	  
+as	  long	  as	  you	  are	  on	  the	  same	  plane	  of	  existence. 	  
+Additionally,	  while	  perceiving	  through	  your	  
+familiar’s	  senses,	  you	  can	  also	  speak	  through	  your	  
+familiar	  in	  your	  own	  voice,	  even	  if	  your	  familiar	  is	  
+normally	  incapable	  of	  speech. 	  
+Whispers of the Grave 
+Prerequisite:	  9th	  level 	  
+You	  can	  cast	  speak	  with	  dead 	  at	  will,	  without	  
+expending	  a	  spell	  slot. 	  
+Witch Sight 
+Prerequisite:	  15th	  level 	  
+You	  can	  see	  the	  true	  form	  of	  any	  shapechanger	  or	  
+creature	  concealed	  by	  illusion	  or	  transmutation	  
+magic	  while	  the	  creature	  is	  within	  30	  feet	  of	  you	  and	  
+within	  line	  of	  sight. 	  
+Otherworldly Patrons 
+The	  beings	  that	  serve	  as	  patrons	  for	  warlocks	  are	  
+mighty	  inhabitants	  of	  other	  planes	  of	  existence —not	  
+gods,	  but	  almost	  godlike	  in	  their	  power.	  Various	  
+patrons	  give	  their	  warlocks	  access	  to	  different	  
+powers	  and	  invocations,	  and	  expect	  signific ant	  
+favors	  in	  return. 	  
+	   Some	  patrons	  collect	  warlocks,	  doling	  out	  mystic	  
+knowledge	  relatively	  freely	  or	  boasting	  of	  their	  
+ability	  to	  bind	  mortals	  to	  their	  will.	  Other	  patrons	  
+bestow	  their	  power	  only	  grudgingly,	  and	  might	  
+make	  a	  pact	  with	  only	  one	  warlock.	  W arlocks	  who	  
+serve	  the	  same	  patron	  might	  view	  each	  other	  as	  
+allies,	  siblings,	  or	  rivals. 	  
+The Fiend 
+You	  have	  made	  a	  pact	  with	  a	  fiend	  from	  the	  lower	  
+planes	  of	  existence,	  a	  being	  whose	  aims	  are	  evil,	  
+even	  if	  you	  strive	  against	  those	  aims.	  Such	  beings	  
+desire	  the	  corruption	  or	  destruction	  of	  all	  things,	  
+ultimately	  including	  you.	  Fiends	  powerful	  enough	  to	  
+forge	  a	  pact	  include	  demon	  lords	  such	  as	  
+Demogorgon,	  Orcus,	  Fraz’Urb -­‐‑luu,	  and	  Baphomet;	  
+archdevils	  such	  as	  Asmodeus,	  Dispater,	  
+Mephistopheles,	  and	  Belial;	  pit	  f iends	  and	  balors	  that	  
+are	  especially	  mighty;	  and	  ultroloths	  and	  other	  lords	  
+of	  the	  yugoloths. 	  
+Expanded Spell List 
+The	  Fiend	  lets	  you	  choose	  from	  an	  expanded	  list	  of	  
+spells	  when	  you	  learn	  a	  warlock	  spell.	  The	  following	  
+spells	  are	  added	  to	  the	  warlock	  spell	   list	  for	  you.	  
+Fiend	  Expanded	  Spells	  
+Spell	  Level	   Spells	  
+1st	   burning	  hands,	  command 	  
+2nd	   blindness/deafness,	  scorching	  ray 	  
+3rd	   fireball,	  stinking	  cloud 	  
+4th	   fire	  shield,	  wall	  of	  fire 	  
+5th	   flame	  strike,	  hallow 	  
+Dark One’s Blessing 
+Starting	  at	  1st	  level,	   when	  you	  reduce	  a	  hostile	  
+creature	  to	  0	  hit	  points,	  you	  gain	  temporary	  hit	  
+points	  equal	  to	  your	  Charisma	  modifier	  +	  your	  
+warlock	  level	  (minimum	  of	  1). 	  
+Dark One’s Own Luck 
+Starting	  at	  6th	  level,	  you	  can	  call	  on	  your	  patron	  to	  
+alter	  fate	  in	  your	  favor.	  When	   you	  make	  an	  ability	  
+check	  or	  a	  saving	  throw,	  you	  can	  use	  this	  feature	  to	  

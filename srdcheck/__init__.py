@@ -3,7 +3,40 @@
 Kernel package: content-neutral (truth T7). Rule content lives in adapters.
 """
 
-from .access import (  # noqa: F401
+
+def _detect_version():
+    """The single source of engine version truth.
+
+    Both answers derive from pyproject's `version`; only the route differs.
+    A source checkout is authoritative about itself, so it is checked FIRST:
+    importlib.metadata would otherwise report some older srdcheck installed in
+    the same interpreter while Python is actually importing this tree. An
+    installed wheel has no adjacent pyproject.toml and falls through to
+    package metadata.
+
+    Never hardcode a second version literal here — that drift is exactly what
+    shipped 0.5.0 with an MCP server announcing itself as 0.2.0.
+    """
+    import pathlib
+    import re
+    pyproject = pathlib.Path(__file__).resolve().parent.parent / "pyproject.toml"
+    try:
+        m = re.search(r'^version\s*=\s*"([^"]+)"',
+                      pyproject.read_text(encoding="utf-8"), re.M)
+        if m:
+            return m.group(1)
+    except OSError:
+        pass
+    from importlib.metadata import PackageNotFoundError, version
+    try:
+        return version("srdcheck")
+    except PackageNotFoundError:
+        return "0+unknown"
+
+
+__version__ = _detect_version()
+
+from .access import (  # noqa: E402,F401
     AdapterHandle, available_adapters, edition_check, load_adapter,
 )
 from .verdict import (  # noqa: F401

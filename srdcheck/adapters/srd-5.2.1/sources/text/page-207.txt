@@ -1,0 +1,100 @@
+System Reference Document 5.2.1
+207
+Magic Item Tools
+Item Category Required Tool
+Armor Leatherworker’s Tools, Smith’s 
+Tools, or Weaver’s Tools depend-
+ing on the kind of armor as noted 
+in the tools’ descriptions
+Potion Alchemist’s Supplies or Herbalism 
+Kit
+Ring Jeweler’s Tools
+Rod Woodcarver’s Tools
+Scroll Calligrapher’s Supplies
+Staff Woodcarver’s Tools
+Wand Woodcarver’s Tools
+Weapon Leatherworker’s Tools, Smith’s 
+Tools, or Woodcarver’s Tools de-
+pending on the kind of weapon as 
+noted in the tools’ descriptions
+Wondrous Item Tinker’s Tools or the tool required 
+to make the nonmagical item on 
+which the magic item is based
+Spells
+If a magic item allows its user to cast any spells 
+from it, you must have all those spells prepared ev -
+ery day you spend crafting the item.
+Time and Cost
+Crafting a magic item takes an amount of time and 
+money based on the item’s rarity as shown in the 
+Magic Item Crafting Time and Cost table.
+ Work per Day. For each day of crafting, you must 
+work for 8 hours. If an item requires multiple days, 
+those days needn’t be consecutive.
+ Assistants.  Characters can combine their efforts 
+to shorten the crafting time. Divide the time needed 
+to create an item by the number of characters work -
+ing on it. Normally, only one other character can 
+assist you, but the GM might allow more assistants.
+ Raw Materials. The cost in the table represents 
+the raw materials needed to make a magic item. The 
+GM determines whether appropriate raw materials 
+are available. In a city, there is a 75 percent chance 
+that the materials are available, and in any other 
+settlement, that chance is 25 percent. If materials 
+aren’t available, you must wait at least 7 days before 
+checking on the availability again.
+ If a magic item incorporates an item that has a 
+purchase cost (such as a weapon or a suit of armor), 
+you must also pay that entire cost or craft that item 
+using the rules in “Equipment.” For example, to 
+make +1 Armor (Plate Armor), you must pay 3,500 
+GP or pay 2,000 GP and craft the armor.
+Magic Item Crafting Time and Cost
+Item Rarity  Time*  Cost*
+Common 5 days 50 GP
+Uncommon 10 days 200 GP
+Rare 50 days 2,000 GP
+Very Rare 125 days 20,000 GP
+Legendary 250 days 100,000 GP
+*The time and cost are halved for a consumable item other than 
+a Spell Scroll , whose crafting time and cost are given in “Equipment.”
+Sentient Magic Items
+Some magic items have sentience and personality. 
+Such an item might be possessed, haunted by the 
+spirit of a previous owner, or self-aware thanks to 
+the magic used to create it. A sentient item might be 
+a cherished ally to its wielder or a continual thorn in 
+the side.
+ Most sentient items are weapons, but other kinds 
+of items can manifest sentience. Single-use items 
+such as potions and scrolls are never sentient.
+ The GM controls sentient magic items and their 
+activated properties. A bearer who maintains a 
+good relationship with the item can access those 
+properties. If the relationship is strained, a conflict 
+can ensue (see “Conflict” below).
+Sentient Magic Item Traits
+When you make a sentient magic item, you create 
+the item’s persona much as you would create an 
+NPC, with these exceptions.
+Abilities
+A sentient magic item has Intelligence, Wisdom, and 
+Charisma scores. Choose the item’s abilities, or de -
+termine them randomly as follows: roll 4d6 for each 
+one, dropping the lowest roll and totaling the rest.
+Alignment
+A sentient magic item has an alignment. Its creator 
+or nature might suggest an alignment. Otherwise, 
+pick an alignment or roll on the Sentient Item’s 
+Alignment table.
+Communication
+A sentient item communicates by sharing its emo -
+tions, broadcasting its thoughts telepathically, or 
+speaking aloud. You can choose how it communi -
+cates or roll on the Sentient Item’s Communication 
+table.
+Senses
+A sentient item can perceive its surroundings out to 
+a limited range. You can choose its senses or roll on 
+the Sentient Item’s Senses table.

@@ -1,0 +1,83 @@
+System	  Reference	   Document	  5.1 	   307	  
+takes	  an	  action	  to	  douse	  the	  fire,	  the	  creature	  takes	  5	  
+(1d10)	  fire	  damage	  at	  the	  start	  of	  each	  of	  its	  turns. 	  
+Illumination.	  The	  elemental	  sheds	  bright	  light	  in	  a	  30-­‐
+foot	  radius	  and	  dim	  light	  in	  an	  additional	  30	  feet. 	  
+Water	  Susceptibility.	   For	  every	  5	  feet	  the	  elemental	  
+moves	  in	  water,	  or	  for	  every	  gallon	  of	  water	  splashed	  
+on	  it,	  it	  takes	  1	  cold	  damage. 	  
+Actions	  
+Multiattack.	  The	  elemental	  makes	  two	  touch	  attacks. 	  
+Touch.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  10	  (2d6	  +	  3)	  fire	  damage.	  If	  the	  target	  is	  a	  
+creature	  or	  a	  flammable	  object,	  it	  ignites.	  Until	  a	  
+creature	  takes	  an	  action	  to	  douse	  the	  fire,	  the	  target	  
+takes	  5	  (1d10)	  fire	  damage	  at	  the	  start	  of	  each	  of	  its	  
+turns.	  
+Water	  Elemental	  
+Large	  elemental,	  neutral 	  
+Armor	  Class	  14	  (natural	  armor) 	  
+Hit	  Points	  114	  (12d10	  +	  48) 	  
+Speed	  30	  ft.,	  swim	  90	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   14	  (+2)	   18	  (+4)	   5	  (−3)	   10	  (+0)	   8	  (−1)	  
+Damage	  Resistances 	  acid;	  bludgeoning,	  piercing,	  and	  
+slashing	  from	  nonmagical	  att acks	  
+Damage	  Immunities 	  poison	  
+Condition	  Immunities	   exhaustion,	  grappled,	  paralyzed,	  
+petrified,	  poisoned,	  prone,	  restrained,	  unconscious 	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  Aquan	  
+Challenge	  5	  (1,800	  XP)	  
+Water	  Form.	  The	  elemental	  can	  e nter	  a	  hostile	  
+creature’s	  space	  and	  stop	  there.	  It	  can	  move	  through	  a	  
+space	  as	  narrow	  as	  1	  inch	  wide	  without	  squeezing. 	  
+Freeze.	  If	  the	  elemental	  takes	  cold	  damage,	  it	  partially	  
+freezes;	  its	  speed	  is	  reduced	  by	  20	  feet	  until	  the	  end	  of	  
+its	  next	  turn.	  
+Actions	  
+Multiattack.	  The	  elemental	  makes	  two	  slam	  attacks. 	  
+Slam.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  13	  (2d8	  +	  4)	  bludgeoning	  damage. 	  
+Whelm	  (Recharge	  4–6).	  Each	  creature	  in	  the	  
+elemental’s	  space	  must	  make	  a	  DC	  15	  Strength	  saving	  
+throw.	  On	  a	  failure,	  a	  target	  takes	  13	  (2d8	  +	  4)	  
+bludgeoning	  damage.	  If	  it	  is	  Large	  or	  smaller,	  it	  is	  also	  
+grappled	  (escape	  DC	  14).	  Until	  this	  grapple	  ends,	  the	  
+target	  is	  restrained	  and	  unable	  to	  breathe	  unless	  it	  can	  
+breathe	  water.	  If	  the	  saving	  throw	  is	  success ful,	  the	  
+target	  is	  pushed	  out	  of	  the	  elemental’s	  space. 	  
+	   The	  elemental	  can	  grapple	  one	  Large	  creature	  or	  up	  
+to	  two	  Medium	  or	  smaller	  creatures	  at	  one	  time.	  At	  the	  
+start	  of	  each	  of	  the	  elemental’s	  turns,	  each	  target	  
+grappled	  by	  it	  takes	  13	  (2d8	  +	  4)	  bludgeo ning	  damage.	  
+A	  creature	  within	  5	  feet	  of	  the	  elemental	  can	  pull	  a	  
+creature	  or	  object	  out	  of	  it	  by	  taking	  an	  action	  to	  make	  
+a	  DC	  14	  Strength	  and	  succeeding. 	  
+Elf,	  Drow	  
+Medium	  humanoid	  (elf),	  neutral	  evil 	  
+Armor	  Class	  15	  (chain	  shirt) 	  
+Hit	  Points	  13	  (3d8)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   14	  (+2)	   10	  (+0)	   11	  (+0)	   11	  (+0)	   12	  (+1)	  
+Skills	  Perception	  +2,	  Stealth	  +4 	  
+Senses	  darkvision	  120	  ft.,	  passive	  Perception	  12 	  
+Languages	  Elvish,	  Undercommon 	  
+Challenge	  1/4	  (50	  XP)	  
+Fey	  Ancestry.	  The	  drow	  has	  advant age	  on	  saving	  
+throws	  against	  being	  charmed,	  and	  magic	  can’t	  put	  the	  
+drow	  to	  sleep.	  
+Innate	  Spellcasting. 	  The	  drow’s	  spellcasting	  ability	  is	  
+Charisma	  (spell	  save	  DC	  11).	  It	  can	  innately	  cast	  the	  
+following	  spells,	  requiring	  no	  material	  components: 	  
+At	  will:	  dancing	  lights	  
+1/day	  each:	  darkness,	  faerie	  fire	  
+Sunlight	  Sensitivity. 	  While	  in	  sunlight,	  the	  drow	  has	  
+disadvantage	  on	  attack	  rolls,	  as	  well	  as	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Shortsword.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  
+ft.,	  one	  target.	  Hit:	  5	  (1d6	  +	  2)	  piercing	  damage. 	  
+Hand	  Crossbow. 	  Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+range	  30/120	  ft.,	  one	  target.	   Hit:	  5	  (1d6	  +	  2)	  piercing	  

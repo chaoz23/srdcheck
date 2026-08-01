@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   163	  
+Mass Heal 
+9th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+A	  flood	  of	  healing	  energy	  flows	  from	  you	  into	  injured	  
+creatures	  around	  you.	  You	  restore	  up	  to	  700	  hit	  
+points,	  divided	  as	  you	  choose	  among	  any	  number	  of	  
+creatures	  that	  you	  can	  see	  within	  range.	  Creatures	  
+healed	  by	  this	  spell	   are	  also	  cured	  of	  all	  diseases	  and	  
+any	  effect	  making	  them	  blinded	  or	  deafened.	  This	  
+spell	  has	  no	  effect	  on	  undead	  or	  constructs. 	  
+Mass Healing Word 
+3rd-­‐‑level	  evocation	  
+Casting	  Time:	   1	  bonus	  action 	  
+Range:	  60	  feet	  
+Components:	  V	  
+Duration:	  Instantaneous	  
+As	  you	  call	  out	  words	  of	  restoration,	  up	  to	  six	  
+creatures	  of	  your	  choice	  that	  you	  can	  see	  within	  
+range	  regain	  hit	  points	  equal	  to	  1d4	  +	  your	  
+spellcasting	  ability	  modifier.	  This	  spell	  has	  no	  effect	  
+on	  undead	  or	  constructs. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spe ll	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  healing	  increases	  
+by	  1d4	  for	  each	  slot	  level	  above	  3rd.	  
+Mass Suggestion 
+6th-­‐‑level	  enchantment	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  M	  (a	  snake’s	  tongue	  and	  either	  a	  bit	  
+of	  honeycomb	  or	  a	  drop 	  of	  sweet	  oil)	  
+Duration:	  24	  hours	  
+You	  suggest	  a	  course	  of	  activity	  (limited	  to	  a	  
+sentence	  or	  two)	  and	  magically	  influence	  up	  to	  
+twelve	  creatures	  of	  your	  choice	  that	  you	  can	  see	  
+within	  range	  and	  that	  can	  hear	  and	  understand	  you.	  
+Creatures	  that	  can’t	  be	  char med	  are	  immune	  to	  this	  
+effect.	  The	  suggestion	  must	  be	  worded	  in	  such	  a	  
+manner	  as	  to	  make	  the	  course	  of	  action	  sound	  
+reasonable.	  Asking	  the	  creature	  to	  stab	  itself,	  throw	  
+itself	  onto	  a	  spear,	  immolate	  itself,	  or	  do	  some	  other	  
+obviously	  harmful	  act	  automatic ally	  negates	  the	  
+effect	  of	  the	  spell. 	  
+	   Each	  target	  must	  make	  a	  Wisdom	  saving	  throw.	  
+On	  a	  failed	  save,	  it	  pursues	  the	  course	  of	  action	  you	  
+described	  to	  the	  best	  of	  its	  ability.	  The	  suggested	  
+course	  of	  action	  can	  continue	  for	  the	  entire	  duration.	  
+If	  the	  suggested	  activity	  can	  be	  completed	  in	  a	  
+shorter	  time,	  the	  spell	  ends	  when	  the	  subject	  
+finishes	  what	  it	  was	  asked	  to	  do. 	  
+	   You	  can	  also	  specify	  conditions	  that	  will	  trigger	  a	  
+special	  activity	  during	  the	  duration.	  For	  example,	  
+you	  might	  suggest	  that	  a	  group	  of	  s oldiers	  give	  all	  
+their	  money	  to	  the	  first	  beggar	  they	  meet.	  If	  the	  
+condition	  isn’t	  met	  before	  the	  spell	  ends,	  the	  activity	  
+isn’t	  performed. 	  
+	   If	  you	  or	  any	  of	  your	  companions	  damage	  a	  
+creature	  affected	  by	  this	  spell,	  the	  spell	  ends	  for	  that	  
+creature.	  
+	   At	  Higher	  Levels.	  When	  you	  cast	  this	  spell	  using	  a	  
+7th-­‐‑level	  spell	  slot,	  the	  duration	  is	  10	  days.	  When	  
+you	  use	  an	  8th -­‐‑level	  spell	  slot,	  the	  duration	  is	  30	  
+days.	  When	  you	  use	  a	  9th -­‐‑level	  spell	  slot,	  the	  
+duration	  is	  a	  year	  and	  a	  day. 	  
+Maze 
+8th-­‐‑level	  conjuration 	  
+Casting	  Time:	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  banish	  a	  creature	  that	  you	  can	  see	  within	  range	  
+into	  a	  labyrinthine	  demiplane.	  The	  target	  remains	  
+there	  for	  the	  duration	  or	  until	  it	  escapes	  the	  maze. 	  
+	   The	  target	  can	  use	  its	  action	  to	  attempt	  to	  escape.	  
+When	  it	  does	  so,	  it	  makes	  a	  DC	  20	  Intelligence	  check.	  
+If	  it	  succeeds,	  it	  escapes,	  and	  the	  spell	  ends	  (a	  
+minotaur	  or	  goristro	  demon	  automatically	  succeeds). 	  
+	   When	  the	  spell	  ends,	  the	  target	  reappears	  in	  the	  
+space	  it	  left	  or,	  if	  that	  space	  is	  occupied,	  in	  the	  
+nearest	  unoccupied	  space. 	  
+Meld into Stone 
+3rd-­‐‑level	  transmutation	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  8	  hours	  
+You	  step	  into	  a	  stone	  object	  or	  surface	  large	  enough	  
+to	  fully	  contain	  your	  body,	  melding	  yourself	  and	  all	  
+the	  equipment	  you	  carry	  with	  the	  stone	  for	  the	  
+duration.	  Using	  your	  movement,	  you	  step	  into	  the	  
+stone	  at	  a	  point	  you	  can	  touch.	  Nothing	  of	  your	  
+presence	  remains	  visible	  or	  otherwise	  detectable	  by	  
+nonmagical	  sens es.	  
+	   While	  merged	  with	  the	  stone,	  you	  can’t	  see	  what	  
+occurs	  outside	  it,	  and	  any	  Wisdom	  (Perception)	  

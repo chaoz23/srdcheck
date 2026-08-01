@@ -1,0 +1,50 @@
+srdcheck — third-party content notices
+======================================
+
+The srdcheck *code* is licensed under the MIT License; see LICENSE.
+
+This distribution additionally redistributes rules text from the System
+Reference Documents published by Wizards of the Coast LLC. That text is NOT
+covered by the MIT License. It is redistributed under the Creative Commons
+Attribution 4.0 International License (CC-BY-4.0), which permits
+redistribution with attribution.
+
+Redistributed files
+-------------------
+
+  srdcheck/adapters/srd-5.2.1/sources/text/*.txt
+  srdcheck/adapters/srd-5.2.1/sources/index.json
+  srdcheck/adapters/srd-5.1/sources/text/*.txt
+  srdcheck/adapters/*/atoms/*.json          (quoted rule excerpts)
+  srdcheck/adapters/*/entities.json         (derived rules data)
+
+These are mechanical extractions of the official CC-BY SRD PDFs, whose
+SHA-256 hashes are pinned in each adapter's sources/ directory. They are
+included in the installed package because `srdcheck cite` returns verbatim,
+page-numbered source text as provenance and must work offline.
+
+Required attribution
+--------------------
+
+This work includes material from the System Reference Document 5.2.1
+("SRD 5.2.1") by Wizards of the Coast LLC, available at
+https://www.dndbeyond.com/srd. The SRD 5.2.1 is licensed under the Creative
+Commons Attribution 4.0 International License, available at
+https://creativecommons.org/licenses/by/4.0/legalcode.
+
+This work includes material from the System Reference Document 5.1
+("SRD 5.1") by Wizards of the Coast LLC, available at
+https://www.dndbeyond.com/srd. The SRD 5.1 is licensed under the Creative
+Commons Attribution 4.0 International License, available at
+https://creativecommons.org/licenses/by/4.0/legalcode.
+
+srdcheck is not affiliated with, endorsed, sponsored, or approved by Wizards
+of the Coast LLC.
+
+Scope limit
+-----------
+
+Only official Creative Commons SRD material is redistributed here. No
+commercial adventure modules, rulebooks, or other non-SRD publications are
+included in this repository or its distributions, and none may be added;
+scripts/check_repo_hygiene.py enforces this in CI.

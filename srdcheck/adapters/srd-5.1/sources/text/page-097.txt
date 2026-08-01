@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   97	  
+together.	  Then	  add	  any	  relevant	  modifiers	  as	  normal.	  
+To	  speed	  up	  play,	  you	  can	  roll	  all	  the	  damage	  dice	  at	  
+once.	  
+	   For	  example,	  if	  you	  score	  a	  critical	  hit	  with	  a	  
+dagger,	  roll	  2d4	  for	  the	  damage,	  rather	  than	  1d4,	  and	  
+then	  add	  your	  relevant	  ability	  modifier.	  If	  the	  attack	  
+involves	  other	  damage	  dice,	  such	  as	  from	  the	  rogue’s	  
+Sneak	  Attack	  feature,	  you	  roll	  those	  dice	  twice	  as	  
+well.	  
+Damage Types 
+Different	  attacks,	  damaging	  spells,	  and	  other	  harmful	  
+effects	  deal	  different	  types	  of	  damage.	  Damage	  types	  
+have	  no	  rules	  of	  their	  own,	  but	  other	  rules,	  such	  as	  
+damage	  resistance,	  rely	  on	  the	  types. 	  
+	   The	  damage	  types	  follow,	  with	  examples	  to	  help	  a	  
+GM	  assign	  a	  damage	  type	  to	  a	  new	  effect. 	  
+	   Acid.	  The	  corrosive	  spray	  of	  a	  black	  dragon’s	  
+breath	  and	  the	  dissolving	  enzymes	  secreted	  by	  a	  
+black	  pudding	  deal	  acid	  damage. 	  
+	   Bludgeoning.	   Blunt	  force	  attacks —hammers,	  
+falling,	  constriction,	  and	  the	  like —deal	  bludgeoning	  
+damage.	  
+	   Cold.	  The	  infernal	  chill	  radiating	  from	  an	  ice	  
+devil’s	  spear	  and	  the	  frigid	  bl ast	  of	  a	  white	  dragon’s	  
+breath	  deal	  cold	  damage. 	  
+	   Fire.	  Red	  dragons	  breathe	  fire,	  and	  many	  spells	  
+conjure	  flames	  to	  deal	  fire	  damage. 	  
+	   Force.	  Force	  is	  pure	  magical	  energy	  focused	  into	  a	  
+damaging	  form.	  Most	  effects	  that	  deal	  force	  damage	  
+are	  spells,	  includi ng	  magic	  missile	  and	  spiritual	  
+weapon.	  
+	   Lightning.	  A	  lightning	  bolt	  spell	  and	  a	  blue	  
+dragon’s	  breath	  deal	  lightning	  damage. 	  
+	   Necrotic.	  Necrotic	  damage,	  dealt	  by	  certain	  
+undead	  and	  a	  spell	  such	  as	   chill	  touch,	  withers	  
+matter	  and	  even	  the	  soul. 	  
+	   Piercing.	  Puncturing	  and	  impaling	  attacks,	  
+including	  spears	  and	  monsters’	  bites,	  deal	  piercing	  
+damage.	  
+	   Poison.	  Venomous	  stings	  and	  the	  toxic	  gas	  of	  a	  
+green	  dragon’s	  breath	  deal	  poison	  damage. 	  
+	   Psychic.	  Mental	  abilities	  such	  as	  a	  mind	  flayer’s	  
+psionic	  blast	  deal	  psychic	  damage.	  
+	   Radiant.	  Radiant	  damage,	  dealt	  by	  a	  cleric’s	   flame	  
+strike	  spell	  or	  an	  angel’s	  smiting	  weapon,	  sears	  the	  
+flesh	  like	  fire	  and	  overloads	  the	  spirit	  with	  power. 	  
+	   Slashing.	  Swords,	  axes,	  and	  monsters’	  claws	  deal	  
+slashing	  damage. 	  
+	   Thunder.	  A	  concussive	  burst	  of	  sound,	  such	  as	  the	  
+effect	  of	  the	  thunderwave	  spell,	  deals	  thunder	  
+damage.	  
+Damage Resistance and 
+Vulnerability 
+Some	  creatures	  and	  objects	  are	  exceedingly	  difficult	  
+or	  unusually	  easy	  to	  hurt	  with	  certain	  types	  of	  
+damage.	  
+	   If	  a	  creature	  or	  an	  obje ct	  has	  resistance	  to	  a	  
+damage	  type,	  damage	  of	  that	  type	  is	  halved	  against	  it.	  
+If	  a	  creature	  or	  an	  object	  has	   vulnerability	  to	  a	  
+damage	  type,	  damage	  of	  that	  type	  is	  doubled	  against	  
+it.	  
+	   Resistance	  and	  then	  vulnerability	  are	  applied	  after	  
+all	  other	  modifiers 	  to	  damage.	  For	  example,	  a	  
+creature	  has	  resistance	  to	  bludgeoning	  damage	  and	  
+is	  hit	  by	  an	  attack	  that	  deals	  25	  bludgeoning	  damage.	  
+The	  creature	  is	  also	  within	  a	  magical	  aura	  that	  
+reduces	  all	  damage	  by	  5.	  The	  25	  damage	  is	  first	  
+reduced	  by	  5	  and	  then	  halved, 	  so	  the	  creature	  takes	  
+10	  damage.	  
+	   Multiple	  instances	  of	  resistance	  or	  vulnerability	  
+that	  affect	  the	  same	  damage	  type	  count	  as	  only	  one	  
+instance.	  For	  example,	  if	  a	  creature	  has	  resistance	  to	  
+fire	  damage	  as	  well	  as	  resistance	  to	  all	  nonmagical	  
+damage,	  the	  damage	  of	  a	  nonmagical	  fire	  is	  reduced	  
+by	  half	  against	  the	  creature,	  not	  reduced	  by	  three -­‐‑
+quarters.	  
+Healing 
+Unless	  it	  results	  in	  death,	  damage	  isn’t	  permanent.	  
+Even	  death	  is	  reversible	  through	  powerful	  magic.	  
+Rest	  can	  restore	  a	  creature’s	  hit	  points,	  and	  magical	  
+methods	  such	  as	  a	   cure	  wounds	  spell	  or	  a	  potion	  of	  
+healing	  can	  remove	  damage	  in	  an	  instant. 	  
+	   When	  a	  creature	  receives	  healing	  of	  any	  kind,	  hit	  
+points	  regained	  are	  added	  to	  its	  current	  hit	  points.	  A	  
+creature’s	  hit	  points	  can’t	  exceed	  its	  hit	  point	  
+maximum,	  so	  any	  hit	  points	  regained	  in	  excess	  of	  
+this	  number	  are	  lost.	  For	  example,	  a	  druid	  grants	  a	  
+ranger	  8	  hit	  points	  of	  healing.	  If	  the	  ranger	  has	  14	  
+current	  hit	  points	  and	  has	  a	  hit	  point	  maximum	  of	  20,	  
+the	  ranger	  regains	  6	  hit	  points	  from	  the	  druid,	  not	  8. 	  
+	   A	  creature	  that	  has	  died	  can’t	  regain	  hit	  points	  
+until	  magic	  such	  as	  the	   revivify	  spell	  has	  restored	  i t	  
+to	  life.	  
+Dropping to 0 Hit Points 
+When	  you	  drop	  to	  0	  hit	  points,	  you	  either	  die	  
+outright	  or	  fall	  unconscious,	  as	  explained	  in	  the	  
+following	  sections. 	  

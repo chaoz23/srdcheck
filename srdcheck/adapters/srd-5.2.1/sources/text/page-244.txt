@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+244
+Slippers of Spider Climbing
+Wondrous Item, Uncommon (Requires Attunement)
+While you wear these light shoes, you can move 
+up, down, and across vertical surfaces and along 
+ceilings, while leaving your hands free. You have a 
+Climb Speed equal to your Speed. However, the slip -
+pers don’t allow you to move this way on a slippery 
+surface, such as one covered by ice or oil.
+Sovereign Glue
+Wondrous Item, Legendary 
+This viscous, milky-white substance can form a per -
+manent adhesive bond between any two objects. It 
+must be stored in a jar or flask that has been coated 
+inside with Oil of Slipperiness . When found, a con-
+tainer contains 1d6 + 1 ounces.
+ One ounce of the glue can cover a 1-foot square 
+surface. Applying an ounce of Sovereign Glue  takes 
+a Utilize action, and the applied glue takes 1 minute 
+to set. Once it has done so, the bond it creates can be 
+broken only by the application of Universal Solvent  
+or Oil of Etherealness, or with a Wish spell.
+Spellguard Shield
+Armor (Shield), Very Rare (Requires Attunement)
+While holding this Shield, you have Advantage on 
+saving throws against spells and other magical 
+effects, and spell attack rolls have Disadvantage 
+against you.
+Spell Scroll
+Scroll, Rarity Varies 
+A Spell Scroll bears the words of a single spell, writ -
+ten in a mystical cipher. If the spell is on your spell 
+list, you can read the scroll and cast its spell with -
+out Material components. Otherwise, the scroll is 
+unintelligible. Casting the spell by reading the scroll 
+requires the spell’s normal casting time. Once the 
+spell is cast, the scroll crumbles to dust. If the cast -
+ing is interrupted, the scroll isn’t lost.
+ If the spell is on your spell list but of a higher level 
+than you can normally cast, you make an ability 
+check using your spellcasting ability to determine 
+whether you cast the spell. The DC equals 10 plus 
+the spell’s level. On a failed check, the spell disap -
+pears from the scroll with no other effect.
+ The level of the spell on the scroll determines the 
+spell’s saving throw DC and attack bonus, as well as 
+the scroll’s rarity, as shown in the following table.
+Spell Level Rarity Save DC Attack Bonus
+Cantrip Common 13 +5
+1 Common 13 +5
+2 Uncommon 13 +5
+3 Uncommon 15 +7
+Spell Level Rarity Save DC Attack Bonus
+4 Rare 15 +7
+5 Rare 17 +9
+6 Very Rare 17 +9
+7 Very Rare 18 +10
+8 Very Rare 18 +10
+9 Legendary 19 +11
+ Copying a Scroll into a Spellbook. A Wizard spell 
+on a Spell Scroll can be copied into a spellbook. 
+When a spell is copied in this way, the copier must 
+succeed on an Intelligence (Arcana) check with a 
+DC equal to 10 plus the spell’s level. On a successful 
+check, the spell is copied. Whether the check suc -
+ceeds or fails, the Spell Scroll  is destroyed.
+Sphere of Annihilation
+Wondrous Item, Legendary 
+This 2-foot-diameter black sphere is a hole in the 
+multiverse, hovering in space and stabilized by a 
+magical field surrounding it.
+ The sphere obliterates all matter it passes 
+through and all matter that passes through it. Ar -
+tifacts are the exception. Unless an Artifact is sus -
+ceptible to damage from a Sphere of Annihilation, it 
+passes through the sphere unscathed. Anything else 
+that touches the sphere but isn’t wholly engulfed 
+and obliterated by it takes 8d10 Force damage.
+ Controlling the Sphere. A Sphere of Annihilation is 
+stationary until someone takes control of it. If you 
+are within 60 feet of a sphere, you can take a Magic 
+action to make a DC 25 Intelligence (Arcana) check. 
+On a successful check, you control the sphere until 
+the start of your next turn, and if it was under an -
+other creature’s control, that creature loses control 
+of the sphere. On a failed check, the sphere moves 
+10 feet toward you in a straight line. 
+ While in control of the sphere, you can take a 
+Bonus Action to cause it to move in one direction 
+of your choice, up to a number of feet equal to 
+5 times your Intelligence modifier (minimum 5 
+feet). Any creature whose space the sphere enters 
+must succeed on a DC 19 Dexterity saving throw 
+or be touched by it, taking 8d10 Force damage. A 
+creature reduced to 0 Hit Points by this damage is 
+obliterated, leaving its possessions behind but no 
+other physical remains.
+ Sphere Interactions.  If the sphere comes into 
+contact with a planar portal (such as that created by 
+the Gate spell) or an extradimensional space (such 
+as that within a Portable Hole ), the GM determines 
+randomly what happens using the following table.

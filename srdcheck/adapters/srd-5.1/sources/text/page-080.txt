@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   80	  
+that	  most	  characters	  don’t	  usually	  have	  to	  worry	  
+about	  it.	  
+	   Push,	  Drag,	  or	  Lift.	   You	  can	  push,	  drag,	  or	  lift	  a	  
+weight	  in	  pounds	  up	  to	  twice	  your	  carrying	  capac ity	  
+(or	  30	  times	  your	  Strength	  score).	  While	  pushing	  or	  
+dragging	  weight	  in	  excess	  of	  your	  carrying	  capacity,	  
+your	  speed	  drops	  to	  5	  feet. 	  
+	   Size	  and	  Strength. 	  Larger	  creatures	  can	  bear	  
+more	  weight,	  whereas	  Tiny	  creatures	  can	  carry	  less.	  
+For	  each	  size	  category	  above	  Medium,	  double	  the	  
+creature’s	  carrying	  capacity	  and	  the	  amount	  it	  can	  
+push,	  drag,	  or	  lift.	  For	  a	  Tiny	  creature,	  halve	  these	  
+weights.	  
+Variant: Encumbrance 
+The	  rules	  for	  lifting	  and	  carrying	  are	  intentionally	  
+simple.	  Here	  is	  a	  variant	  if	  you	  are	  look ing	  for	  more	  
+detailed	  rules	  for	  determining	  how	  a	  character	  is	  
+hindered	  by	  the	  weight	  of	  equipment.	  When	  you	  use	  
+this	  variant,	  ignore	  the	  Strength	  column	  of	  the	  
+Armor	  table.	  	  
+	   If	  you	  carry	  weight	  in	  excess	  of	  5	  times	  your	  
+Strength	  score,	  you	  are	   encumbered,	  which	  means	  
+your	  speed	  drops	  by	  10	  feet. 	  
+	   If	  you	  carry	  weight	  in	  excess	  of	  10	  times	  your	  
+Strength	  score,	  up	  to	  your	  maximum	  carrying	  
+capacity,	  you	  are	  instead	   heavily	  encumbered,	  
+which	  means	  your	  speed	  drops	  by	  20	  feet	  and	  you	  
+have	  disadvantage	  on	  abilit y	  checks,	  attack	  rolls,	  and	  
+saving	  throws	  that	  use	  Strength,	  Dexterity,	  or	  
+Constitution.	  
+Dexterity 
+Dexterity	  measures	  agility,	  reflexes,	  and	  balance. 	  
+Dexterity Checks 
+A	  Dexterity	  check	  can	  model	  any	  attempt	  to	  move	  
+nimbly,	  quickly,	  or	  quietly,	  or	  to	  keep	  f rom	  falling	  on	  
+tricky	  footing.	  The	  Acrobatics,	  Sleight	  of	  Hand,	  and	  
+Stealth	  skills	  reflect	  aptitude	  in	  certain	  kinds	  of	  
+Dexterity	  checks. 	  
+	   Acrobatics.	  Your	  Dexterity	  (Acrobatics)	  check	  
+covers	  your	  attempt	  to	  stay	  on	  your	  feet	  in	  a	  tricky	  
+situation,	  such	  as 	  when	  you’re	  trying	  to	  run	  across	  a	  
+sheet	  of	  ice,	  balance	  on	  a	  tightrope,	  or	  stay	  upright	  
+on	  a	  rocking	  ship’s	  deck.	  The	  GM	  might	  also	  call	  for	  a	  
+Dexterity	  (Acrobatics)	  check	  to	  see	  if	  you	  can	  
+perform	  acrobatic	  stunts,	  including	  dives,	  rolls,	  
+somersaults,	  and	  flips. 	  
+	   Sleight	  of	  Hand.	   Whenever	  you	  attempt	  an	  act	  of	  
+legerdemain	  or	  manual	  trickery,	  such	  as	  planting	  
+something	  on	  someone	  else	  or	  concealing	  an	  object	  
+on	  your	  person,	  make	  a	  Dexterity	  (Sleight	  of	  Hand)	  
+check.	  The	  GM	  might	  also	  call	  for	  a	  Dexterity	  ( Sleight	  
+of	  Hand)	  check	  to	  determine	  whether	  you	  can	  lift	  a	  
+coin	  purse	  off	  another	  person	  o r	  slip	  something	  out	  
+of	  another	  person’s	  pocket. 	  
+	   Stealth.	  Make	  a	  Dexterity	  (Stealth)	  check	  when	  
+you	  attempt	  to	  conceal	  yourself	  from	  enemies,	  slink	  
+past	  guards,	  slip 	  away	  without	  being	  noticed,	  or	  
+sneak	  up	  on	  someone	  without	  being	  seen	  or	  heard. 	  
+	   Other	  Dexterity	  Checks.	   The	  GM	  might	  call	  for	  a	  
+Dexterity	  check	  when	  you	  try	  to	  accomplish	  tasks	  
+like	  the	  following: 	  
+• Control	  a	  heavily	  laden	  cart	  on	  a	  steep	  descent
+• Steer	  a	  chariot	  around	  a	  tight	  turn
+• Pick	  a	  lock
+• Disable	  a	  trap
+• Securely	  tie	  up	  a	  prisoner
+• Wriggle	  free	  of	  bonds
+• Play	  a	  stringed	  instrument
+• Craft	  a	  small	  or	  detailed	  object
+Attack Rolls and Damage 
+You	  add	  your	  Dexterity	  modifier	  to	  your	  attack	  roll	  
+and	  your	  damage	   roll	  when	  attacking	  with	  a	  ranged	  
+weapon,	  such	  as	  a	  sling	  or	  a	  longbow.	  You	  can	  also	  
+add	  your	  Dexterity	  modifier	  to	  your	  attack	  roll	  and	  
+your	  damage	  roll	  when	  attacking	  with	  a	  melee	  
+weapon	  that	  has	  the	  finesse	  property,	  such	  as	  a	  
+dagger	  or	  a	  rapier. 	  
+Armor Class 
+Depending	  on	  the	  armor	  you	  wear,	  you	  might	  add	  
+some	  or	  all	  of	  your	  Dexterity	  modifier	  to	  your	  Armor	  
+Class.	  
+Initiative 
+At	  the	  beginning	  of	  every	  combat,	  you	  roll	  initiative	  
+by	  making	  a	  Dexterity	  check.	  Initiative	  determines	  
+the	  order	  of	  creatures’	   turns	  in	  combat. 	  
+Hiding 
+The	  GM	  decides	  when	  circumstances	  are	  appropriate	  for	  
+hiding.	  When	  you	  try	  to	  hide,	  make	  a	  Dexterity	  (Stealth)	  
+check.	  Until	  you	  are	  discovered	  or	  you	  stop	  hiding,	  that	  
+check’s	  total	  is	  contested	  by	  the	  Wisdom	  (Perception)	  check	  
+of	  any	  creature	  that	  actively	  searches	  for	  signs	  of	  your	  
+presence.	  
+You	  can’t	  hide	  from	  a	  creature	  that	  can	  see	  you	  clearly,	  
+and	  you	  give	  away	  your	  position	  if	  you	  make	  noise,	  such	  as	  
+shouting	  a	  warning	  or	  knocking	  over	  a	  vase. 	  
+An	  invisible	  creature	  can	  alway s	  try	  to	  hide.	  Signs	  of	  its	  
+passage	  might	  still	  be	  noticed,	  and	  it	  does	  have	  to	  stay	  quiet. 	  
+In	  combat,	  most	  creatures	  stay	  alert	  for	  signs	  of	  danger	  all	  
+around,	  so	  if	  you	  come	  out	  of	  hiding	  and	  approach	  a	  

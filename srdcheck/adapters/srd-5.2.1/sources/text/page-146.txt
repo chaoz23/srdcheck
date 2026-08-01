@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+146
+• Targets within the Cylinder can’t be possessed 
+by or gain the Charmed or Frightened condition 
+from the creature.
+ Each time you cast this spell, you can cause its 
+magic to operate in the reverse direction, prevent -
+ing a creature of the specified type from leaving the 
+Cylinder and protecting targets outside it.
+ Using a Higher-Level Spell Slot. The duration in-
+creases by 1 hour for each spell slot level above 3.
+Magic Jar
+Level 6 Necromancy (Wizard)
+Casting Time: 1 minute
+Range: Self
+Components: V, S, M (a gem, crystal, or reliquary worth 
+500+ GP)
+Duration: Until dispelled
+Your body falls into a catatonic state as your soul 
+leaves it and enters the container you used for the 
+spell’s Material component. While your soul inhab -
+its the container, you are aware of your surround -
+ings as if you were in the container’s space. You 
+can’t move or take Reactions. The only action you 
+can take is to project your soul up to 100 feet out of 
+the container, either returning to your living body 
+(and ending the spell) or attempting to possess a 
+Humanoid’s body.
+ You can attempt to possess any Humanoid within 
+100 feet of you that you can see (creatures warded 
+by a Protection from Evil and Good or Magic Circle  
+spell can’t be possessed). The target makes a Cha-
+risma saving throw. On a failed save, your soul en -
+ters the target’s body, and the target’s soul becomes 
+trapped in the container. On a successful save, the 
+target resists your efforts to possess it, and you 
+can’t attempt to possess it again for 24 hours.
+ Once you possess a creature’s body, you control it. 
+Your Hit Points, Hit Point Dice, Strength, Dexterity, 
+Constitution, Speed, and senses are replaced by the 
+creature’s. You otherwise keep your game statistics.
+ Meanwhile, the possessed creature’s soul can per -
+ceive from the container using its own senses, but it 
+can’t move and it is Incapacitated.
+ While possessing a body, you can take a Magic ac -
+tion to return from the host body to the container if 
+it is within 100 feet of you, returning the host crea-
+ture’s soul to its body. If the host body dies while 
+you’re in it, the creature dies, and you make a Cha-
+risma saving throw against your own spellcasting 
+DC. On a success, you return to the container if it is 
+within 100 feet of you. Otherwise, you die.
+ If the container is destroyed or the spell ends, 
+your soul returns to your body. If your body is more 
+than 100 feet away from you or if your body is dead, 
+you die. If another creature’s soul is in the container 
+when it is destroyed, the creature’s soul returns to 
+its body if the body is alive and within 100 feet. Oth -
+erwise, that creature dies.
+ When the spell ends, the container is destroyed.
+Magic Missile
+Level 1 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Instantaneous
+You create three glowing darts of magical force. 
+Each dart strikes a creature of your choice that you 
+can see within range. A dart deals 1d4 + 1 Force 
+damage to its target. The darts all strike simultane -
+ously, and you can direct them to hit one creature or 
+several.
+ Using a Higher-Level Spell Slot. The spell creates 
+one more dart for each spell slot level above 1.
+Magic Mouth
+Level 2 Illusion (Bard, Wizard)
+Casting Time: 1 minute or Ritual
+Range: 30 feet
+Components: V, S, M (jade dust worth 10+ GP, which 
+the spell consumes)
+Duration: Until dispelled
+You implant a message within an object in range—a 
+message that is uttered when a trigger condition is 
+met. Choose an object that you can see and that isn’t 
+being worn or carried by another creature. Then 
+speak the message, which must be 25 words or 
+fewer, though it can be delivered over as long as 10 
+minutes. Finally, determine the circumstance that 
+will trigger the spell to deliver your message.
+ When that trigger occurs, a magical mouth ap -
+pears on the object and recites the message in your 
+voice and at the same volume you spoke. If the ob -
+ject you chose has a mouth or something that looks 
+like a mouth (for example, the mouth of a statue), 
+the magical mouth appears there, so the words 
+appear to come from the object’s mouth. When you 
+cast this spell, you can have the spell end after it 
+delivers its message, or it can remain and repeat its 
+message whenever the trigger occurs.
+ The trigger can be as general or as detailed as you 
+like, though it must be based on visual or audible 
+conditions that occur within 30 feet of the object. 
+For example, you could instruct the mouth to speak 
+when any creature moves within 30 feet of the ob -
+ject or when a silver bell rings within 30 feet of it.
+Magic Weapon
+Level 2 Transmutation (Paladin, Ranger, Sorcerer, 
+Wizard)
+Casting Time: Bonus Action
+Range: Touch

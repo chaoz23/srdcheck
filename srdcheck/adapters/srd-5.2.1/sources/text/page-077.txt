@@ -1,0 +1,74 @@
+System Reference Document 5.2.1
+77
+Wizard
+Core Wizard Traits
+Primary Ability Intelligence
+Hit Point Die D6 per Wizard level
+Saving Throw 
+Proficiencies
+Intelligence and Wisdom
+Skill Proficiencies Choose 2: Arcana, History, In -
+sight, Investigation, Medicine, 
+Nature, or Religion
+Weapon Proficiencies Simple weapons
+Armor Training None
+Starting Equipment Choose A or B: (A) 2 Daggers, 
+Arcane Focus (Quarterstaff), 
+Robe, Spellbook, Scholar’s 
+Pack, and 5 GP; or (B) 55 GP
+Becoming a Wizard …
+As a Level 1 Character
+• Gain all the traits in the Core Wizard Traits table.
+• Gain the Wizard’s level 1 features, which are 
+listed in the Wizard Features table.
+As a Multiclass Character
+• Gain the Hit Point Die from the Core Wizard Traits 
+table.
+• Gain the Wizard’s level 1 features, which are 
+listed in the Wizard Features table. See the mul -
+ticlassing rules in “Character Creation” to deter -
+mine your available spell slots.
+Wizard Class Features
+As a Wizard, you gain the following class features 
+when you reach the specified Wizard levels. These 
+features are listed in the Wizard Features table.
+Level 1: Spellcasting
+As a student of arcane magic, you have learned to 
+cast spells. See “Spells” for the rules on spellcasting. 
+The information below details how you use those 
+rules with Wizard spells, which appear in the Wiz-
+ard spell list later in the class’s description.
+ Cantrips. You know three Wizard cantrips of your 
+choice. Light, Mage Hand, and Ray of Frost are rec -
+ommended. Whenever you finish a Long Rest, you 
+can replace one of your cantrips from this feature 
+with another Wizard cantrip of your choice.
+Wizard Features
+Proficiency
+Bonus
+Prepared
+Spells
+——Spell Slots per Spell Level——
+Level Class Features Cantrips 1 2 3 4 5 6 7 8 9
+1 +2 Spellcasting, Ritual Adept, 
+Arcane Recovery
+3 4 2 — — — — — — — —
+2 +2 Scholar 3 5 3 — — — — — — — —
+3 +2 Wizard Subclass 3 6 4 2 — — — — — — —
+4 +2 Ability Score Improvement 4 7 4 3 — — — — — — —
+5 +3 Memorize Spell 4 9 4 3 2 — — — — — —
+6 +3 Subclass feature 4 10 4 3 3 — — — — — —
+7 +3 — 4 11 4 3 3 1 — — — — —
+8 +3 Ability Score Improvement 4 12 4 3 3 2 — — — — —
+9 +4 — 4 14 4 3 3 3 1 — — — —
+10 +4 Subclass feature 5 15 4 3 3 3 2 — — — —
+11 +4 — 5 16 4 3 3 3 2 1 — — —
+12 +4 Ability Score Improvement 5 16 4 3 3 3 2 1 — — —
+13 +5 — 5 17 4 3 3 3 2 1 1 — —
+14 +5 Subclass feature 5 18 4 3 3 3 2 1 1 — —
+15 +5 — 5 19 4 3 3 3 2 1 1 1 —
+16 +5 Ability Score Improvement 5 21 4 3 3 3 2 1 1 1 —
+17 +6 — 5 22 4 3 3 3 2 1 1 1 1
+18 +6 Spell Mastery 5 23 4 3 3 3 3 1 1 1 1
+19 +6 Epic Boon 5 24 4 3 3 3 3 2 1 1 1
+20 +6 Signature Spells 5 25 4 3 3 3 3 2 2 1 1

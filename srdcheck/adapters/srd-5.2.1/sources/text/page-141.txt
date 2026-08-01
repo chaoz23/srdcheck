@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+141
+Components: V, S, M (a straight piece of iron)
+Duration: Concentration, up to 1 minute
+Choose a creature that you can see within range. 
+The target must succeed on a Wisdom saving throw 
+or have the Paralyzed condition for the duration. At 
+the end of each of its turns, the target repeats the 
+save, ending the spell on itself on a success.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 5.
+Hold Person
+Level 2 Enchantment (Bard, Cleric, Druid, Sorcerer, 
+Warlock, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a straight piece of iron)
+Duration: Concentration, up to 1 minute
+Choose a Humanoid that you can see within range. 
+The target must succeed on a Wisdom saving throw 
+or have the Paralyzed condition for the duration. At 
+the end of each of its turns, the target repeats the 
+save, ending the spell on itself on a success.
+ Using a Higher-Level Spell Slot. You can target 
+one additional Humanoid for each spell slot level 
+above 2.
+Holy Aura
+Level 8 Abjuration (Cleric)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a reliquary worth 1,000+ GP)
+Duration: Concentration, up to 1 minute
+For the duration, you emit an aura in a 30-foot Em -
+anation. While in the aura, creatures of your choice 
+have Advantage on all saving throws, and other 
+creatures have Disadvantage on attack rolls against 
+them. In addition, when a Fiend or an Undead hits 
+an affected creature with a melee attack roll, the at -
+tacker must succeed on a Constitution saving throw 
+or have the Blinded condition until the end of its 
+next turn.
+Hunter’s Mark
+Level 1 Divination (Ranger)
+Casting Time: Bonus Action
+Range: 90 feet
+Components: V
+Duration: Concentration, up to 1 hour
+You magically mark one creature you can see within 
+range as your quarry. Until the spell ends, you deal 
+an extra 1d6 Force damage to the target whenever 
+you hit it with an attack roll. You also have Advan -
+tage on any Wisdom (Perception or Survival) check 
+you make to find it.
+ If the target drops to 0 Hit Points before this spell 
+ends, you can take a Bonus Action to move the mark 
+to a new creature you can see within range.
+ Using a Higher-Level Spell Slot. Your Concentra -
+tion can last longer with a spell slot of level 3–4 (up 
+to 8 hours) or 5+ (up to 24 hours).
+Hypnotic Pattern
+Level 3 Illusion (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: S, M (a pinch of confetti)
+Duration: Concentration, up to 1 minute
+You create a twisting pattern of colors in a 30-foot 
+Cube within range. The pattern appears for a mo -
+ment and vanishes. Each creature in the area who 
+can see the pattern must succeed on a Wisdom 
+saving throw or have the Charmed condition for the 
+duration. While Charmed, the creature has the Inca-
+pacitated condition and a Speed of 0.
+ The spell ends for an affected creature if it takes 
+any damage or if someone else uses an action to 
+shake the creature out of its stupor.
+Ice Knife
+Level 1 Conjuration (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: S, M (a drop of water or a piece of ice)
+Duration: Instantaneous
+You create a shard of ice and fling it at one creature 
+within range. Make a ranged spell attack against 
+the target. On a hit, the target takes 1d10 Piercing 
+damage. Hit or miss, the shard then explodes. The 
+target and each creature within 5 feet of it must 
+succeed on a Dexterity saving throw or take 2d6 
+Cold damage.
+ Using a Higher-Level Spell Slot. The Cold damage 
+increases by 1d6 for each spell slot level above 1.
+Ice Storm
+Level 4 Evocation (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 300 feet
+Components: V, S, M (a mitten)
+Duration: Instantaneous
+Hail falls in a 20-foot-radius, 40-foot-high Cylinder 
+centered on a point within range. Each creature 
+in the Cylinder makes a Dexterity saving throw. A 
+creature takes 2d10 Bludgeoning damage and 4d6 
+Cold damage on a failed save or half as much dam -
+age on a successful one.
+ Hailstones turn ground in the Cylinder into Diffi -
+cult Terrain until the end of your next turn.

@@ -1,0 +1,85 @@
+System	  Reference	   Document	  5.1 	   40	  
+such	  as	  whether	  an	  area	  is	  dangerous	  or	  the	  
+territory	  of	  a	  thieves’	  guild,	  whether	  loot	  is	  nearby,	  
+or	  whether	  the	  people	  in	  an	  area	  are	  easy	  marks	  or	  
+will	  provide	  a	  safe	  house	  for	  thieves	  on	  the	  run. 	  
+Cunning Action 
+Starting	  at	  2nd	  level,	  your	  quick	  thinking	  and	  agility	  
+allow	  you	  to	  move	  and	  act	  quickly.	  You	  can 	  take	  a	  
+bonus	  action	  on	  each	  of	  your	  turns	  in	  combat.	  This	  
+action	  can	  be	  used	  only	  to	  take	  the	  Dash,	  Disengage,	  
+or	  Hide	  action. 	  
+Roguish Archetype 
+At	  3rd	  level,	  you	  choose	  an	  archetype	  that	  you	  
+emulate	  in	  the	  exercise	  of	  your	  rogue	  abilities ,	  such	  
+as	  Thief.	  Your	  archetype	  choice	  grants	  you	  features	  
+at	  3rd	  level	  and	  then	  again	  at	  9th,	  13th,	  and	  17th	  
+level.	  
+Ability Score Improvement 
+When	  you	  reach	  4th	  level,	  and	  again	  at	  8th,	  10th,	  
+12th,	  16th,	  and	  19th	  level,	  you	  can	  increase	  one	  
+ability	  score	  of	  your	  choice	  b y	  2,	  or	  you	  can	  increase	  
+two	  ability	  scores	  of	  your	  choice	  by	  1.	  As	  normal,	  
+you	  can’t	  increase	  an	  ability	  score	  above	  20	  using	  
+this	  feature.	  
+Uncanny Dodge 
+Starting	  at	  5th	  level,	  when	  an	  attacker	  that	  you	  can	  
+see	  hits	  you	  with	  an	  attack,	  you	  can	  use	  your	  
+reaction	  to	  halve	  the	  attack’s	  damage	  against	  you. 	  
+Evasion 
+Beginning	  at	  7th	  level,	  you	  can	  nimbly	  dodge	  out	  of	  
+the	  way	  of	  certain	  area	  effects,	  such	  as	  a	  red	  dragon’s	  
+fiery	  breath	  or	  an	   ice	  storm	  spell.	  When	  you	  are	  
+subjected	  to	  an	  effect	  that	  allows	  you	  to	   make	  a	  
+Dexterity	  saving	  throw	  to	  take	  only	  half	  damage,	  you	  
+instead	  take	  no	  damage	  if	  you	  succeed	  on	  the	  saving	  
+throw,	  and	  only	  half	  damage	  if	  you	  fail. 	  
+Reliable Talent 
+By	  11th	  level,	  you	  have	  refined	  your	  chosen	  skills	  
+until	  they	  approach	  perfection.	  When ever	  you	  make	  
+an	  ability	  check	  that	  lets	  you	  add	  your	  proficiency	  
+bonus,	  you	  can	  treat	  a	  d20	  roll	  of	  9	  or	  lower	  as	  a	  10. 	  
+Blindsense 
+Starting	  at	  14th	  level,	  if	  you	  are	  able	  to	  hear,	  you	  are	  
+aware	  of	  the	  location	  of	  any	  hidden	  or	  invisible	  
+creature	  within	  10 	  feet	  of	  you.	  
+Slippery Mind 
+By	  15th	  level,	  you	  have	  acquired	  greater	  mental	  
+strength.	  You	  gain	  proficiency	  in	  Wisdom	  saving	  
+throws.	  
+Elusive 
+Beginning	  at	  18th	  level,	  you	  are	  so	  evasive	  that	  
+attackers	  rarely	  gain	  the	  upper	  hand	  against	  you.	  No	  
+attack	  roll	  has	  advantage	  against	  you	  while	  you	  
+aren’t	  incapacitated. 	  
+Stroke of Luck 
+At	  20th	  level,	  you	  have	  an	  uncanny	  knack	  for	  
+succeeding	  when	  you	  need	  to.	  If	  your	  attack	  misses	  a	  
+target	  within	  range,	  you	  can	  turn	  the	  miss	  into	  a	  hit.	  
+Alternatively,	  if	   you	  fail	  an	  ability	  check,	  you	  can	  treat	  
+the	  d20	  roll	  as	  a	  20.	  
+	   Once	  you	  use	  this	  feature,	  you	  can’t	  use	  it	  again	  
+until	  you	  finish	  a	  short	  or	  long	  rest. 	  
+Roguish Archetypes 
+Rogues	  have	  many	  features	  in	  common,	  including	  
+their	  emphasis	  on	  perfecting	  their	  skills,	  their	  
+precise	  and	  deadly	  approach	  to	  combat,	  and	  their	  
+increasingly	  quick	  reflexes.	  But	  different	  rogues	  
+steer	  those	  talents	  in	  varying	  directions,	  embodied	  
+by	  the	  rogue	  archetypes.	  Your	  choice	  of	  archetype	  is	  
+a	  reflection	  of	  your	  focus —not	  necessarily	  an	  
+indication	  of	  your	  chosen	  profession,	  but	  a	  
+description	  of	  your	  preferred	  techniques. 	  
+Thief 
+You	  hone	  your	  skills	  in	  the	  larcenous	  arts.	  Burglars,	  
+bandits,	  cutpurses,	  and	  other	  criminals	  typically	  
+follow	  this	  archetype,	  but	  so	  do	  rogues	  who	  prefer	  to	  
+think	  of	  themselves	  as	  professional	  treasure	  seekers,	  
+explorers,	  delvers,	  and	  investigators.	  In	  addition	  to	  
+improving	  your	  agility	  and	  stealth,	  you	  learn	  skills	  
+useful	  for	  delving	  into	  ancient	  ruins,	  reading	  
+unfamiliar	  languages,	  and	  using	  magic	  items	  you	  
+normally	  couldn’t	  employ.	  
+Fast Hands 
+Starting	  at	  3rd	  level,	  you	  can	  use	  the	  bonus	  action	  
+granted	  by	  your	  Cunning	  Action	  to	  make	  a	  Dexterity	  

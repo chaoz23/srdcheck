@@ -1,0 +1,94 @@
+343
+System Reference Document 5.2.1
+Traits
+Incorporeal Movement. The wraith can move through 
+other creatures and objects as if they were Difficult 
+Terrain. It takes 5 (1d10) Force damage if it ends its turn 
+inside an object.
+Sunlight Sensitivity. While in sunlight, the wraith has 
+Disadvantage on ability checks and attack rolls.
+Actions
+Life Drain. Melee Attack Roll: +6, reach 5 ft. Hit: 21 
+(4d8 + 3) Necrotic damage. If the target is a creature, its 
+Hit Point maximum decreases by an amount equal to 
+the damage taken.
+Create Specter. The wraith targets a Humanoid corpse 
+within 10 feet of itself that has been dead for no longer 
+than 1 minute. The target’s spirit rises as a Specter in 
+the space of its corpse or in the nearest unoccupied 
+space. The specter is under the wraith’s control. The 
+wraith can have no more than seven specters under its 
+control at a time.
+Wyvern
+Wyvern
+Large Dragon, Unaligned
+AC 14  Initiative +0 (10)
+HP 127 (15d10 + 45)
+Speed 30 ft., Fly 80 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 10 +0 +0 Con 16 +3 +3
+Int 5 −3 −3 WIS 12 +1 +1 Cha 6 −2 −2
+Skills Perception +4
+Senses Darkvision 120 ft.; Passive Perception 14
+Languages None
+CR 6 (XP 2,300; PB +3)
+Actions
+Multiattack. The wyvern makes one Bite attack and 
+one Sting attack.
+Bite. Melee Attack Roll: +7 , reach 5 ft. Hit: 13 (2d8 + 4) 
+Piercing damage.
+Sting. Melee Attack Roll: +7 , reach 10 ft. Hit: 11 (2d6 
++ 4) Piercing damage plus 24 (7d6) Poison damage, and 
+the target has the Poisoned condition until the start of 
+the wyvern’s next turn.
+Xorn
+Xorn
+Medium Elemental, Neutral
+AC 19  Initiative +0 (10)
+HP 84 (8d8 + 48)
+Speed 20 ft., Burrow 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 10 +0 +0 Con 22 +6 +6
+Int 11 +0 +0 WIS 10 +0 +0 Cha 11 +0 +0
+Skills Perception +6, Stealth +6
+Immunities Poison; Paralyzed, Petrified, Poisoned
+Senses Darkvision 60 ft., Tremorsense 60 ft.; 
+Passive Perception 16
+Languages Primordial (Terran)
+CR 5 (XP 1,800; PB +3)
+Traits
+Earth Glide. The xorn can burrow through nonmagical, 
+unworked earth and stone. While doing so, the xorn 
+doesn’t disturb the material it moves through.
+Treasure Sense. The xorn can pinpoint the location of 
+precious metals and stones within 60 feet of itself.
+Actions
+Multiattack. The xorn makes one Bite attack and three 
+Claw attacks.
+Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 17 (4d6 + 3) 
+Piercing damage.
+Claw. Melee Attack Roll: +6, reach 5 ft. Hit: 8 (1d10 + 
+3) Slashing damage.
+Bonus Actions
+Charge. The xorn moves up to its Speed or Burrow 
+Speed straight toward an enemy it can sense.
+Zombies
+Zombie
+Medium Undead, Neutral Evil
+AC 8    Initiative −2 (8)
+HP 15 (2d8 + 6)
+Speed 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 13 +1 +1 Dex 6 −2 −2 Con 16 +3 +3
+Int 3 −4 −4 WIS 6 −2 +0 Cha 5 −3 −3
+Immunities Poison; Exhaustion, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 8
+Languages Understands Common plus one other language 
+but can’t speak
+CR 1/4 (XP 50; PB +2)
+Traits
+Undead Fortitude. If damage reduces the zombie to 0 
+Hit Points, it makes a Constitution saving throw (DC 5 
+plus the damage taken) unless the damage is Radiant or 
+from a Critical Hit. On a successful save, the zombie 
+drops to 1 Hit Point instead.

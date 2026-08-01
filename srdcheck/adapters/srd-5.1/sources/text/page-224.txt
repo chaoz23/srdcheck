@@ -1,0 +1,94 @@
+System	  Reference	   Document	  5.1 	   224	  
+Giant Slayer 
+Weapon	  (any	  axe	  or	  sword),	  rare 	  
+You	  gain	  a	  +1	  bonus	  to	  attack	  and	  damage	  rolls	  
+made	  with	  this	  magic	  weapon. 	  
+	   When	  you	  hit	  a	  giant	  with	  it,	  the	  giant	  takes	  an	  
+extra	  2d6	  damage	  of	  the	  weapon’s	  type	  and	  must	  
+succeed	  on	  a	  DC	  15	  Strength	  saving	  throw	  or	  fall	  
+prone.	  For	  the	  purpose	  of	  this	  weapon,	  “giant”	  refers	  
+to	  any	  creature	  with	  the	  giant	  type,	  including	  ettins	  
+and	  trolls.	  
+Glamoured Studded Leather 
+Armor	  (studded	  leather),	  rare 	  
+While	  wearing	  this	  armor,	  you	  gain	  a	  +1	  bonus	  to	  AC.	  
+You	  can	  also	  use	  a	  bonus	  acti on	  to	  speak	  the	  armor’s	  
+command	  word	  and	  cause	  the	  armor	  to	  assume	  the	  
+appearance	  of	  a	  normal	  set	  of	  clothing	  or	  some	  other	  
+kind	  of	  armor.	  You	  decide	  what	  it	  looks	  like,	  
+including	  color,	  style,	  and	  accessories,	  but	  the	  armor	  
+retains	  its	  normal	  bulk	  and	  weight.	  The	  illusory	  
+appearance	  lasts	  until	  you	  use	  this	  property	  again	  or	  
+remove	  the	  armor.	  
+Gloves of Missile Snaring 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+These	  gloves	  seem	  to	  almost	  meld	  into	  your	  hands	  
+when	  you	  don	  them.	  When	  a	  ranged	  weapon	  attac k	  
+hits	  you	  while	  you’re	  wearing	  them,	  you	  can	  use	  
+your	  reaction	  to	  reduce	  the	  damage	  by	  1d10	  +	  your	  
+Dexterity	  modifier,	  provided	  that	  you	  have	  a	  free	  
+hand.	  If	  you	  reduce	  the	  damage	  to	  0,	  you	  can	  catch	  
+the	  missile	  if	  it	  is	  small	  enough	  for	  you	  to	  hold	  in	  th at	  
+hand.	  
+Gloves of Swimming and Climbing 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+While	  wearing	  these	  gloves,	  climbing	  and	  swimming	  
+don’t	  cost	  you	  extra	  movement,	  and	  you	  gain	  a	  +5	  
+bonus	  to	  Strength	  (Athletics)	  checks	  made	  to	  climb	  
+or	  swim.	  
+Goggles of Night 
+Wondrous	  item,	  uncommon 	  
+While	  wearing	  these	  dark	  lenses,	  you	  have	  
+darkvision	  out	  to	  a	  range	  of	  60	  feet.	  If	  you	  already	  
+have	  darkvision,	  wearing	  the	  goggles	  increases	  its	  
+range	  by	  60	  feet.	  
+Hammer of Thunderbolts 
+Weapon	  (maul),	  legendary 	  
+You	  gain	  a	  +1	  bonus	  to	  attack	  and	  damage	  rolls	  
+made	  with	  this	  magic	  weapon. 	  
+	   Giant’s	  Bane	  (Requires	  Attunement). 	  You	  must	  
+be	  wearing	  a	  belt	  of	  giant	  strength 	  (any	  variety)	  and	  
+gauntlets	  of	  ogre	  power 	  to	  attune	  to	  this	  weapon.	  The	  
+attunement	  ends	  if	  you	  take	  off	  either	   of	  those	  items.	  
+While	  you	  are	  attuned	  to	  this	  weapon	  and	  holding	  it,	  
+your	  Strength	  score	  increases	  by	  4	  and	  can	  exceed	  
+20,	  but	  not	  30.	  When	  you	  roll	  a	  20	  on	  an	  attack	  roll	  
+made	  with	  this	  weapon	  against	  a	  giant,	  the	  giant	  
+must	  succeed	  on	  a	  DC	  17	  Constitutio n	  saving	  throw	  
+or	  die.	  
+	   The	  hammer	  also	  has	  5	  charges.	  While	  attuned	  to	  
+it,	  you	  can	  expend	  1	  charge	  and	  make	  a	  ranged	  
+weapon	  attack	  with	  the	  hammer,	  hurling	  it	  as	  if	  it	  
+had	  the	  thrown	  property	  with	  a	  normal	  range	  of	  20	  
+feet	  and	  a	  long	  range	  of	  60	  feet.	  If	   the	  attack	  hits,	  the	  
+hammer	  unleashes	  a	  thunderclap	  audible	  out	  to	  300	  
+feet.	  The	  target	  and	  every	  creature	  within	  30	  feet	  of	  
+it	  must	  succeed	  on	  a	  DC	  17	  Constitution	  saving	  
+throw	  or	  be	  stunned	  until	  the	  end	  of	  your	  next	  turn.	  
+The	  hammer	  regains	  1d4	  +	  1	  expe nded	  charges	  daily	  
+at	  dawn.	  
+Handy Haversack 
+Wondrous	  item,	  rare 	  
+This	  backpack	  has	  a	  central	  pouch	  and	  two	  side	  
+pouches,	  each	  of	  which	  is	  an	  extradimensional	  space.	  
+Each	  side	  pouch	  can	  hold	  up	  to	  20	  pounds	  of	  
+material,	  not	  exceeding	  a	  volume	  of	  2	  cubic	  feet .	  The	  
+large	  central	  pouch	  can	  hold	  up	  to	  8	  cubic	  feet	  or	  80	  
+pounds	  of	  material.	  The	  backpack	  always	  weighs	  5	  
+pounds,	  regardless	  of	  its	  contents. 	  
+	   Placing	  an	  object	  in	  the	  haversack	  follows	  the	  
+normal	  rules	  for	  interacting	  with	  objects.	  Retrieving	  
+an	  item	  from	  the	  haversack	  requires	  you	  to	  use	  an	  
+action.	  When	  you	  reach	  into	  the	  haversack	  for	  a	  
+specific	  item,	  the	  item	  is	  always	  magically	  on	  top. 	  
+	   The	  haversack	  has	  a	  few	  limitations.	  If	  it	  is	  
+overloaded,	  or	  if	  a	  sharp	  object	  pierces	  it	  or	  tears	  it,	  
+the	  haversack	  ruptures	  and	  is	  destroyed.	  If	  the	  
+haversack	  is	  destroyed,	  its	  contents	  are	  lost	  forever,	  
+although	  an	  artifact	  always	  turns	  up	  again	  
+somewhere.	  If	  the	  haversack	  is	  turned	  inside	  out,	  its	  
+contents	  spill	  forth,	  unharmed,	  and	  the	  haversack	  
+must	  be	  put	  right 	  before	  it	  can	  be	  used	  again.	  If	  a	  
+breathing	  creature	  is	  placed	  within	  the	  haversack,	  
+the	  creature	  can	  survive	  for	  up	  to	  10	  minutes,	  after	  
+which	  time	  it	  begins	  to	  suffocate. 	  

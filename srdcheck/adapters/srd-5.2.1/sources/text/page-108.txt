@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+108
+or one of your allies deals damage to the target, the 
+spells ends.
+ Using a Higher-Level Spell Slot. You can target 
+one additional Beast for each spell slot level above 1.
+Animal Messenger
+Level 2 Enchantment (Bard, Druid, Ranger)
+Casting Time: Action or Ritual
+Range: 30 feet
+Components: V, S, M (a morsel of food)
+Duration: 24 hours
+A Tiny Beast of your choice that you can see within 
+range must succeed on a Charisma saving throw, 
+or it attempts to deliver a message for you (if the 
+target’s Challenge Rating isn’t 0, it automatically 
+succeeds). You specify a location you have visited 
+and a recipient who matches a general descrip -
+tion, such as “a person dressed in the uniform of 
+the town guard” or “a red-haired dwarf wearing a 
+pointed hat.” You also communicate a message of 
+up to twenty-five words. The Beast travels for the 
+duration toward the specified location, covering 
+about 25 miles per 24 hours or 50 miles if the Beast 
+can fly.
+ When the Beast arrives, it delivers your message 
+to the creature that you described, mimicking your 
+communication. If the Beast doesn’t reach its desti -
+nation before the spell ends, the message is lost, and 
+the Beast returns to where you cast the spell.
+ Using a Higher-Level Spell Slot. The spell’s dura-
+tion increases by 48 hours for each spell slot level 
+above 2.
+Animal Shapes
+Level 8 Transmutation (Druid)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: 24 hours
+Choose any number of willing creatures that you 
+can see within range. Each target shape-shifts into 
+a Large or smaller Beast of your choice that has a 
+Challenge Rating of 4 or lower. You can choose a dif -
+ferent form for each target. On later turns, you can 
+take a Magic action to transform the targets again.
+ A target’s game statistics are replaced by the 
+chosen Beast’s statistics, but the target retains its 
+creature type; Hit Points; Hit Point Dice; alignment; 
+ability to communicate; and Intelligence, Wisdom, 
+and Charisma scores. The target’s actions are lim -
+ited by the Beast form’s anatomy, and it can’t cast 
+spells. The target’s equipment melds into the new 
+form, and the target can’t use any of that equipment 
+while in that form.
+ The target gains a number of Temporary Hit 
+Points equal to the Hit Points of the first form into 
+which it shape-shifts. These Temporary Hit Points 
+vanish if any remain when the spell ends. The trans -
+formation lasts for the duration or until the target 
+ends it as a Bonus Action.
+Animate Dead
+Level 3 Necromancy (Cleric, Wizard)
+Casting Time: 1 minute
+Range: 10 feet
+Components: V, S, M (a drop of blood, a piece of flesh, 
+and a pinch of bone dust)
+Duration: Instantaneous
+Choose a pile of bones or a corpse of a Medium or 
+Small Humanoid within range. The target becomes 
+an Undead creature: a Skeleton  if you chose bones 
+or a Zombie if you chose a corpse (see “Monsters” 
+for the stat blocks).
+ On each of your turns, you can take a Bonus Ac -
+tion to mentally command any creature you made 
+with this spell if the creature is within 60 feet of 
+you (if you control multiple creatures, you can 
+command any of them at the same time, issuing the 
+same command to each one). You decide what action 
+the creature will take and where it will move on 
+its next turn, or you can issue a general command, 
+such as to guard a chamber or corridor. If you issue 
+no commands, the creature takes the Dodge action 
+and moves only to avoid harm. Once given an order, 
+the creature continues to follow it until its task is 
+complete.
+ The creature is under your control for 24 hours, 
+after which it stops obeying any command you’ve 
+given it. To maintain control of the creature for an -
+other 24 hours, you must cast this spell on the crea-
+ture again before the current 24-hour period ends. 
+This use of the spell reasserts your control over up 
+to four creatures you have animated with this spell 
+rather than animating a new creature.
+ Using a Higher-Level Spell Slot. You animate or 
+reassert control over two additional Undead crea-
+tures for each spell slot level above 3. Each of the 
+creatures must come from a different corpse or pile 
+of bones.
+Animate Objects
+Level 5 Transmutation (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+Objects animate at your command. Choose a num -
+ber of nonmagical objects within range that aren’t 
+being worn or carried, aren’t fixed to a surface, and 
+aren’t Gargantuan. The maximum number of objects 
+is equal to your spellcasting ability modifier; for 
+this number, a Medium or smaller target counts as 

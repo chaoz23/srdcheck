@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   150	  
+	   You	  can	  further	  refine	  the	  trigger	  so	  the	  sp ell	  
+activates	  only	  under	  certain	  circumstances	  or	  
+according	  to	  physical	  characteristics	  (such	  as	  height	  
+or	  weight),	  creature	  kind	  (for	  example,	  the	  ward	  
+could	  be	  set	  to	  affect	  aberrations	  or	  drow),	  or	  
+alignment.	  You	  can	  also	  set	  conditions	  for	  creatures	  
+that	  don’t	  trigger	  the	  glyph,	  such	  as	  those	  who	  say	  a	  
+certain	  password. 	  
+	   When	  you	  inscribe	  the	  glyph,	  choose	   explosive	  
+runes	  or	  a	  spell	  glyph.	  
+	   Explosive	  Runes. 	  When	  triggered,	  the	  glyph	  
+erupts	  with	  magical	  energy	  in	  a	  20 -­‐‑foot-­‐‑radius	  
+sphere	  centered	  on	  the	  glyph.	  The	  sphere	  spreads	  
+around	  corners.	  Each	  creature	  in	  the	  area	  must	  
+make	  a	  Dexterity	  saving	  throw.	  A	  creature	  takes	  5d8	  
+acid,	  cold,	  fire,	  lightning,	  or	  thunder	  damage	  on	  a	  
+failed	  saving	  throw	  (your	  choice	  when	  you	  create	  
+the	  glyph),	  or	  half	  as	  much	  dam age	  on	  a	  successful	  
+one.	  
+	   Spell	  Glyph.	  You	  can	  store	  a	  prepared	  spell	  of	  3rd	  
+level	  or	  lower	  in	  the	  glyph	  by	  casting	  it	  as	  part	  of	  
+creating	  the	  glyph.	  The	  spell	  must	  target	  a	  single	  
+creature	  or	  an	  area.	  The	  spell	  being	  stored	  has	  no	  
+immediate	  effect	  when	  ca st	  in	  this	  way.	  When	  the	  
+glyph	  is	  triggered,	  the	  stored	  spell	  is	  cast.	  If	  the	  spell	  
+has	  a	  target,	  it	  targets	  the	  creature	  that	  triggered	  the	  
+glyph.	  If	  the	  spell	  affects	  an	  area,	  the	  area	  is	  centered	  
+on	  that	  creature.	  If	  the	  spell	  summons	  hostile	  
+creatures	  or	  creates	  harmful	  objects	  or	  traps,	  they	  
+appear	  as	  close	  as	  possible	  to	  the	  intruder	  and	  attack	  
+it.	  If	  the	  spell	  requires	  concentration,	  it	  lasts	  until	  the	  
+end	  of	  its	  full	  duration. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  lev el	  or	  higher,	  the	  damage	  of	  an	  
+explosive	  runes	   glyph	  increases	  by	  1d8	  for	  each	  slot	  
+level	  above	  3rd.	  If	  you	  create	  a	   spell	  glyph,	  you	  can	  
+store	  any	  spell	  of	  up	  to	  the	  same	  level	  as	  the	  slot	  you	  
+use	  for	  the	  glyph	  of	  warding. 	  
+Goodberry 
+1st-­‐‑level	  transmutatio n	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  sprig	  of	  mistletoe) 	  
+Duration:	  Instantaneous	  
+Up	  to	  ten	  berries	  appear	  in	  your	  hand	  and	  are	  
+infused	  with	  magic	  for	  the	  duration.	  A	  creature	  can	  
+use	  its	  action	  to	  eat	  one	  berry.	  Eating	  a	  berry	  
+restores	  1	  hit	  point,	  and	  the	  berry	  provides	  enough	  
+nourishment	  to	  sustain	  a	  creature	  for	  one	  day. 	  
+	   The	  berries	  lose	  their	  potency	  if	  they	  have	  not	  
+been	  consumed	  within	  24	  hours	  of	  the	  casting	  of	  this	  
+spell.	  
+Grease 
+1st-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  pork	  rind	  or	  butter) 	  
+Duration:	  1	  minute	  
+Slick	  grease	  covers	  the	  ground	  in	  a	  10 -­‐‑foot	  square	  
+centered	  on	  a	  point	  within	  range	  and	  turns	  it	  into	  
+difficult	  terrain	  for	  the	  duration. 	  
+	   When	  the	  grease	  appear s,	  each	  creature	  standing	  
+in	  its	  area	  must	  succeed	  on	  a	  Dexterity	  saving	  throw	  
+or	  fall	  prone.	  A	  creature	  that	  enters	  the	  area	  or	  ends	  
+its	  turn	  there	  must	  also	  succeed	  on	  a	  Dexterity	  
+saving	  throw	  or	  fall	  prone. 	  
+Greater Invisibility 
+4th-­‐‑level	  illusion	  
+Casting	  Time:	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  or	  a	  creature	  you	  touch	  becomes	  invisible	  until	  
+the	  spell	  ends.	  Anything	  the	  target	  is	  wearing	  or	  
+carrying	  is	  invisible	  as	  long	  as	  it	  is	  on	  the	  target’s	  
+person.	  
+Greater Restoration 
+5th-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (diamond	  dust	  worth	  at	  least	  
+100	  gp,	  which	  the	  spell	  consumes) 	  
+Duration:	  Instantaneous	  
+You	  imbue	  a	  creature	  you	  touch	  with	  positive	  energy	  
+to	  undo	  a	  debilitating	  e ffect.	  You	  can	  reduce	  the	  
+target’s	  exhaustion	  level	  by	  one,	  or	  end	  one	  of	  the	  
+following	  effects	  on	  the	  target: 	  
+• One	  effect	  that	  charmed	  or	  petrified	  the	  target
+• One	  curse,	  including	  the	  target’s	  attunement	  to	  a
+cursed	  magic	  item
+• Any	  reduction	  to	  one	  of	  the	   target’s	  ability	  scores
+• One	  effect	  reducing	  the	  target’s	  hit	  point
+maximum
+Guardian of Faith 
+4th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V	  

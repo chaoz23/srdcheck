@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+149
+You point toward a creature within range and 
+whisper a message. The target (and only the target) 
+hears the message and can reply in a whisper that 
+only you can hear.
+ You can cast this spell through solid objects if you 
+are familiar with the target and know it is beyond 
+the barrier. Magical silence; 1 foot of stone, metal, 
+or wood; or a thin sheet of lead blocks the spell.
+Meteor Swarm
+Level 9 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 1 mile
+Components: V, S
+Duration: Instantaneous
+Blazing orbs of fire plummet to the ground at four 
+different points you can see within range. Each 
+creature in a 40-foot-radius Sphere centered on 
+each of those points makes a Dexterity saving 
+throw. A creature takes 20d6 Fire damage and 20d6 
+Bludgeoning damage on a failed save or half as 
+much damage on a successful one. A creature in the 
+area of more than one fiery Sphere is affected only 
+once.
+ A nonmagical object that isn’t being worn or car -
+ried also takes the damage if it’s in the spell’s area, 
+and the object starts burning if it’s flammable.
+Mind Blank
+Level 8 Abjuration (Bard, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: 24 hours
+Until the spell ends, one willing creature you touch 
+has Immunity to Psychic damage and the Charmed 
+condition. The target is also unaffected by anything 
+that would sense its emotions or alignment, read 
+its thoughts, or magically detect its location, and 
+no spell—not even Wish—can gather information 
+about the target, observe it remotely, or control its 
+mind.
+Mind Spike
+Level 2 Divination (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: S
+Duration: Concentration, up to 1 hour
+You drive a spike of psionic energy into the mind of 
+one creature you can see within range. The target 
+makes a Wisdom saving throw, taking 3d8 Psychic 
+damage on a failed save or half as much damage on 
+a successful one. On a failed save, you also always 
+know the target’s location until the spell ends, but 
+only while the two of you are on the same plane 
+of existence. While you have this knowledge, the 
+target can’t become hidden from you, and if it has 
+the Invisible condition, it gains no benefit from that 
+condition against you.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 2.
+Minor Illusion
+Illusion Cantrip (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: S, M (a bit of fleece)
+Duration: 1 minute
+You create a sound or an image of an object within 
+range that lasts for the duration. See the descrip -
+tions below for the effects of each. The illusion ends 
+if you cast this spell again.
+ If a creature takes a Study action to examine the 
+sound or image, the creature can determine that it 
+is an illusion with a successful Intelligence (Inves -
+tigation) check against your spell save DC. If a crea-
+ture discerns the illusion for what it is, the illusion 
+becomes faint to the creature.
+ Sound. If you create a sound, its volume can range 
+from a whisper to a scream. It can be your voice, 
+someone else’s voice, a lion’s roar, a beating of 
+drums, or any other sound you choose. The sound 
+continues unabated throughout the duration, or you 
+can make discrete sounds at different times before 
+the spell ends.
+ Image. If you create an image of an object—such 
+as a chair, muddy footprints, or a small chest—it 
+must be no larger than a 5-foot Cube. The image 
+can’t create sound, light, smell, or any other sensory 
+effect. Physical interaction with the image reveals it 
+to be an illusion, since things can pass through it.
+Mirage Arcane
+Level 7 Illusion (Bard, Druid, Wizard)
+Casting Time: 10 minutes
+Range: Sight
+Components: V, S
+Duration: 10 days
+You make terrain in an area up to 1 mile square 
+look, sound, smell, and even feel like some other 
+sort of terrain. Open fields or a road could be made 
+to resemble a swamp, hill, crevasse, or some other 
+rough or impassable terrain. A pond can be made to 
+seem like a grassy meadow, a precipice like a gentle 
+slope, or a rock-strewn gully like a wide and smooth 
+road.
+ Similarly, you can alter the appearance of struc -
+tures or add them where none are present. The spell 
+doesn’t disguise, conceal, or add creatures.
+ The illusion includes audible, visual, tactile, and 
+olfactory elements, so it can turn clear ground 

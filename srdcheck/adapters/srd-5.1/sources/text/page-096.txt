@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   96	  
+	   Moving	  a	  Grappled	  Creature.	   When	  you	  move,	  
+you	  can	  drag	  or	  carry	  the	  grappled	  creature	  with	  you,	  
+but	  your	  speed	  is	  halved,	  unless	  the	  creature	  is	  two	  
+or	  more	  sizes	  smaller	  than	  you. 	  
+Contests in Combat  
+Battle	  often	  involves	  pitting	  your	  prowess	  against	  that 	  of	  
+your	  foe.	  Such	  a	  challenge	  is	  represented	  by	  a	  contest.	  This	  
+section	  includes	  the	  most	  common	  contests	  that	  require	  an	  
+action	  in	  combat:	  grappling	  and	  shoving	  a	  creature.	  The	  GM	  
+can	  use	  these	  contests	  as	  models	  for	  improvising	  others. 	  
+Shoving a Creature 
+Using	  the	  Attack	  action,	  you	  can	  make	  a	  special	  
+melee	  attack	  to	  shove	  a	  creature,	  either	  to	  knock	  it	  
+prone	  or	  push	  it	  away	  from	  you.	  If	  you’re	  able	  to	  
+make	  multiple	  attacks	  with	  the	  Attack	  action,	  this	  
+attack	  replaces	  one	  of	  them. 	  
+	   The	  target	  must	  be	  no	   more	  than	  one	  size	  larger	  
+than	  you	  and	  must	  be	  within	  your	  reach.	  Instead	  of	  
+making	  an	  attack	  roll,	  you	  make	  a	  Strength	  
+(Athletics)	  check	  contested	  by	  the	  target’s	  Strength	  
+(Athletics)	  or	  Dexterity	  (Acrobatics)	  check	  (the	  
+target	  chooses	  the	  ability	  to	  use) .	  If	  you	  win	  the	  
+contest,	  you	  either	  knock	  the	  target	  prone	  or	  push	  it	  
+5	  feet	  away	  from	  you. 	  
+Cover 
+Walls,	  trees,	  creatures,	  and	  other	  obstacles	  can	  
+provide	  cover	  during	  combat,	  making	  a	  target	  more	  
+difficult	  to	  harm.	  A	  target	  can	  benefit	  from	  cover	  
+only	  when	  an	  attack	  or	  other	  effect	  originates	  on	  the	  
+opposite	  side	  of	  the	  cover. 	  
+	   There	  are	  three	  degrees	  of	  cover.	  If	  a	  target	  is	  
+behind	  multiple	  sources	  of	  cover,	  only	  the	  most	  
+protective	  degree	  of	  cover	  applies;	  the	  degrees	  
+aren’t	  added	  together.	  For	  example, 	  if	  a	  target	  is	  
+behind	  a	  creature	  that	  gives	  half	  cover	  and	  a	  tree	  
+trunk	  that	  gives	  three -­‐‑quarters	  cover,	  the	  target	  has	  
+three-­‐‑quarters	  cover. 	  
+	   A	  target	  with	  half	  cover	  has	  a	  +2	  bonus	  to	  AC	  and	  
+Dexterity	  saving	  throws.	  A	  target	  has	  half	  cover	  if	  an	  
+obstacle	  blocks	  at	  least	  half	  of	  its	  body.	  The	  obstacle	  
+might	  be	  a	  low	  wall,	  a	  large	  piece	  of	  furniture,	  a	  
+narrow	  tree	  trunk,	  or	  a	  creature,	  whether	  that	  
+creature	  is	  an	  enemy	  or	  a	  friend. 	  
+	   A	  target	  with	  three-­‐‑quarters	  cover 	  has	  a	  +5	  
+bonus	  to	  AC	  and	  Dexterity	  savi ng	  throws.	  A	  target	  
+has	  three-­‐‑quarters	  cover	  if	  about	  three -­‐‑quarters	  of	  it	  
+is	  covered	  by	  an	  obstacle.	  The	  obstacle	  might	  be	  a	  
+portcullis,	  an	  arrow	  slit,	  or	  a	  thick	  tree	  trunk. 	  
+	   A	  target	  with	  total	  cover	  can’t	  be	  targeted	  directly	  
+by	  an	  attack	  or	  a	  spell,	  although	  some	  spells	  can	  
+reach	  such	  a	  target	  by	  including	  it	  in	  an	  area	  of	  effect.	  
+A	  target	  has	  total	  cover	  if	  it	  is	  completely	  concealed	  
+by	  an	  obstacle. 	  
+Damage and Healing 
+Injury	  and	  the	  risk	  of	  death	  a re	  constant	  companions	  
+of	  those	  who	  explore	  fantasy	  gaming	  worlds.	  The	  
+thrust	  of	  a	  sword,	  a	  well -­‐‑placed	  arrow,	  or	  a	  blast	  of	  
+flame	  from	  a	  fireball	  spell	  all	  have	  the	  potential	  to	  
+damage,	  or	  even	  kill,	  the	  hardiest	  of	  creatures. 	  
+Hit Points 
+Hit	  points	  repres ent	  a	  combination	  of	  physical	  and	  
+mental	  durability,	  the	  will	  to	  live,	  and	  luck.	  Creatures	  
+with	  more	  hit	  points	  are	  more	  difficult	  to	  kill.	  Those	  
+with	  fewer	  hit	  points	  are	  more	  fragile. 	  
+	   A	  creature’s	  current	  hit	  points	  (usually	  just	  called	  
+hit	  points)	  can	   be	  any	  number	  from	  the	  creature’s	  hit	  
+point	  maximum	  down	  to	  0.	  This	  number	  changes	  
+frequently	  as	  a	  creature	  takes	  damage	  or	  receives	  
+healing.	  
+	   Whenever	  a	  creature	  takes	  damage,	  that	  damage	  is	  
+subtracted	  from	  its	  hit	  points.	  The	  loss	  of	  hit	  points	  
+has	  no	  effect	  on	  a	  creature’s	  capabilities	  until	  the	  
+creature	  drops	  to	  0	  hit	  points. 	  
+Damage Rolls 
+Each	  weapon,	  spell,	  and	  harmful	  monster	  ability	  
+specifies	  the	  damage	  it	  deals.	  You	  roll	  the	  damage	  
+die	  or	  dice,	  add	  any	  modifiers,	  and	  apply	  the	  damage	  
+to	  your	  target.	  Magic	  weapons,	  special	  abilities,	  and	  
+other	  factors	  can	  grant	  a	  bonus	  to	  damage.	  With	  a	  
+penalty,	  it	  is	  possible	  to	  deal	  0	  damage,	  but	  never	  
+negative	  damage. 	  
+	   When	  attacking	  with	  a	   weapon,	  you	  add	  your	  
+ability	  modifier —the	  same	  modifier	  used	  for	  the	  
+attack	  roll—to	  the	  damage.	  A	   spell	  tells	  you	  which	  
+dice	  to	  roll	  for	  damage	  and	  whether	  to	  add	  any	  
+modifiers.	  
+	   If	  a	  spell	  or	  other	  effect	  deals	  damage	  to	   more	  
+than	  one	  target 	  at	  the	  same	  time,	  roll	  the	  damage	  
+once	  for	  all	  of	  them.	  For	  example,	  when	  a	  wizard	  
+casts	  fireball	  or	  a	  cleric	  casts	   flame	  strike,	  the	  spell’s	  
+damage	  is	  rolled	  once	  for	  all	  creatures	  caught	  in	  the	  
+blast.	  
+Critical Hits 
+When	  you	  score	  a	  critical	  hit,	  you	  get	  to	  roll	  extra	  
+dice	  for	  the	  attack’s	  damage	  against	  the	  target.	  Roll	  
+all	  of	  the	  attack’s	   damage	  dice	  twice	  and	  add	  them	  

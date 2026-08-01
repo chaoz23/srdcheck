@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+8
+HEroic inspiration
+Sometimes the GM or a rule gives you Heroic Inspira -
+tion. If you have Heroic Inspiration, you can expend it 
+to reroll any die immediately after rolling it, and you 
+must use the new roll.
+ Only One at a Time. You can never have more 
+than one instance of Heroic Inspiration. If something 
+gives you Heroic Inspiration and you already have it, 
+you can give it to a player character in your group 
+who lacks it.
+ Gaining Heroic Inspiration.  Your GM can 
+give you Heroic Inspiration for a variety of reasons. 
+Typically, GMs award it when you do something par -
+ticularly heroic, in character, or entertaining. It’s a 
+reward for making the game more fun for everyone 
+playing.
+ Other rules might allow your character to gain 
+Heroic Inspiration independent of the GM’s decision. 
+For example, Human characters start each day with 
+Heroic Inspiration.
+GM can also decide that circumstances grant Ad -
+vantage or impose Disadvantage.
+Roll Two D20s
+When a roll has either Advantage or Disadvantage, 
+roll a second d20 when you make the roll. Use the 
+higher of the two rolls if you have Advantage, and 
+use the lower roll if you have Disadvantage. For ex -
+ample, if you have Disadvantage and roll an 18 and a 
+3, use the 3. If you instead have Advantage and roll 
+those numbers, use the 18.
+They Don’t Stack
+If multiple situations affect a roll and they all grant 
+Advantage on it, you still roll only two d20s. Simi -
+larly, if multiple situations impose Disadvantage on 
+a roll, you roll only two d20s.
+ If circumstances cause a roll to have both Advan -
+tage and Disadvantage, the roll has neither of them, 
+and you roll one d20. This is true even if multiple 
+circumstances impose Disadvantage and only one 
+grants Advantage or vice versa. In such a situation, 
+you have neither Advantage nor Disadvantage.
+Interactions with Rerolls
+When you have Advantage or Disadvantage and 
+something in the game lets you reroll or replace the 
+d20, you can reroll or replace only one die, not both. 
+You choose which one.
+ For example, if you have Heroic Inspiration (see 
+the sidebar below) and roll a 3 and an 18 on an abil -
+ity check that has Advantage or Disadvantage, you 
+could expend your Heroic Inspiration to reroll one 
+of those dice, not both of them.
+Proficiency
+Characters and monsters are good at various 
+things. Some are skilled with many weapons, while 
+others can use only a few. Some are better at under -
+standing people’s motives, and others are better at 
+unlocking the secrets of the multiverse. All crea-
+tures have a Proficiency Bonus, which reflects the 
+impact that training has on the creature’s capabil -
+ities. A character’s Proficiency Bonus increases as 
+the character gains levels (described in “Character 
+Creation”). A monster’s Proficiency Bonus is based 
+on its Challenge Rating (see “Rules Glossary”). The 
+Proficiency Bonus table shows how the bonus is 
+determined.
+ This bonus is applied to a D20 Test when the crea-
+ture has proficiency in a skill, in a saving throw, or 
+with an item that the creature uses to make the D20 
+Test. The bonus is also used for spell attacks and for 
+calculating the DC of saving throws for spells.
+Proficiency Bonus
+Level or CR Bonus
+Up to 4 +2
+5–8 +3
+9–12 +4
+13–16 +5
+Level or CR Bonus
+17–20 +6
+21–24 +7
+25–28 +8
+29–30 +9
+The Bonus Doesn’t Stack
+Your Proficiency Bonus can’t be added to a die roll 
+or another number more than once. For example, if 
+a rule allows you to make a Charisma (Deception or 
+Persuasion) check, you add your Proficiency Bonus 
+if you’re proficient in either skill, but you don’t add 
+it twice if you’re proficient in both skills.
+ Occasionally, a Proficiency Bonus might be mul -
+tiplied or divided (doubled or halved, for example) 
+before being added. For example, the Expertise 
+feature (see “Rules Glossary”) doubles the Profi -
+ciency Bonus for certain ability checks. Whenever 
+the bonus is used, it can be multiplied only once and 
+divided only once.
+Skill Proficiencies
+Most ability checks involve using a skill, which rep -
+resents a category of things creatures try to do with 
+an ability check. The descriptions of the actions 
+you take (see “Actions” later in “Playing the Game”) 
+specify which skill applies if you make an ability 
+check for that action, and many other rules note 
+when a skill is relevant. The GM has the ultimate say 
+on whether a skill is relevant in a situation.
+ If a creature is proficient in a skill, the creature 
+applies its Proficiency Bonus to ability checks in -
+volving that skill. Without proficiency in a skill, a 
+creature can still make ability checks involving 

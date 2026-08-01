@@ -1,0 +1,94 @@
+System	  Reference	   Document	  5.1 	   232	  
+vial	  is	  required	  for	  each	  size	  category	  above	  
+Medium).	  Applying	  the	  oil	  takes	  10	  minutes.	  The	  
+affected	  creature	  then	  gains	  the	  effect	  of	  the	  
+etherealness	  spell	  for	  1	  hour. 	  
+Oil of Sharpness 
+Potion,	  very	  rare 	  
+This	  clear,	  gelatinous	  oil	  sparkles	  with	  tiny,	  ultrathin	  
+silver	  shards.	  The	  oil	  can	  coat	  one	  slashing	  or	  
+piercing	  weapon	  or	  up	  to	  5	  pieces	  of	  slashing	  or	  
+piercing	  ammunition.	  Applying	  the	  oil	  takes	  1	  
+minute.	  For	  1	  hour,	  the	  coated	  item	  is	  magical	  and	  
+has	  a	  +3	  bonus	  to	  attack	  and	  damage	  rolls. 	  
+Oil of Slipperiness 
+Potion,	  uncommon 	  
+This	  sticky	  black	  unguent	  is	  thick	  and	  heavy	  in	  the	  
+container,	  but	  it	  flows	  quickly	  when	  poured.	  The	  oil	  
+can	  cover	  a	  Medium	  or	  smaller	  creature,	  along	  with	  
+the	  equipment	  it’s	  wearing	  and	  carrying	  (one	  
+additional	  vial	  is	  required	  for	  each	  size	  category	  
+above	  Medium).	  Applying	  the	  oil	  takes	  10	  minutes.	  
+The	  affected	  creature	  then	  gains	  the	  effect	  of	  a	  
+freedom	  of	  movement 	  spell	  for	  8	  hours. 	  
+	   Alternatively,	  the	  oil	  can	  be	  poured	  on	  the	  ground	  
+as	  an	  action,	  where	  it	  covers	  a	  10 -­‐‑foot	  square,	  
+duplicating	  the	  effect 	  of	  the	  grease	  spell	  in	  that	  area	  
+for	  8	  hours.	  
+Pearl of Power 
+Wondrous	  item,	  uncommon	  (requires	  attunement	  by	  a	  
+spellcaster)	  
+While	  this	  pearl	  is	  on	  your	  person,	  you	  can	  use	  an	  
+action	  to	  speak	  its	  command	  word	  and	  regain	  one	  
+expended	  spell	  slot.	  If	  the	  expe nded	  slot	  was	  of	  4th	  
+level	  or	  higher,	  the	  new	  slot	  is	  3rd	  level.	  Once	  you	  
+use	  the	  pearl,	  it	  can` t	  be	  used	  again	  until	  the	  nex
+t
+dawn.	  
+Periapt of Health 
+Wondrous	  item,	  uncommon 	  
+You	  are	  immune	  to	  contracting	  any	  disease	  while	  
+you	  wear	  this	  pendant.	  If	  you	  are 	  already	  infected	  
+with	  a	  disease,	  the	  effects	  of	  the	  disease	  are	  
+suppressed	  you	  while	  you	  wear	  the	  pendant. 	  
+Periapt of Proof against Poison 
+Wondrous	  item,	  rare 	  
+This	  delicate	  silver	  chain	  has	  a	  brilliant -­‐‑cut	  black	  
+gem	  pendant.	  While	  you	  wear	  it,	  poisons	  have	  no	  
+effect	  on	  you.	  You	  are	  immune	  to	  the	  poisoned	  
+condition	  and	  have	  immunity	  to	  poison	  damage. 	  
+Periapt of Wound Closure 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+While	  you	  wear	  this	  pendant,	  you	  stabilize	  whenever	  
+you	  are	  dying	  at	  the	  start	  of	  your	  t urn.	  In	  addition,	  
+whenever	  you	  roll	  a	  Hit	  Die	  to	  regain	  hit	  points,	  
+double	  the	  number	  of	  hit	  points	  it	  restores. 	  
+Philter of Love 
+Potion,	  uncommon 	  
+The	  next	  time	  you	  see	  a	  creature	  within	  10	  minutes	  
+after	  drinking	  this	  philter,	  you	  become	  charmed	  by	  
+that	  creature	  for	  1	  hour.	  If	  the	  creature	  is	  of	  a	  species	  
+and	  gender	  you	  are	  normally	  attracted	  to,	  you	  
+regard	  it	  as	  your	  true	  love	  while	  you	  are	  charmed.	  
+This	  potion’s	  rose -­‐‑hued,	  effervescent	  liquid	  contains	  
+one	  easy-­‐‑to-­‐‑miss	  bubble	  shaped	  like	  a	  heart. 	  
+Pipes of Haunting 
+Wondrous	  item,	  uncommon 	  
+You	  must	  be	  proficient	  with	  wind	  instruments	  to	  use	  
+these	  pipes.	  They	  have	  3	  charges.	  You	  can	  use	  an	  
+action	  to	  play	  them	  and	  expend	  1	  charge	  to	  create	  an	  
+eerie,	  spellbinding	  tune.	  Each	  creature	  within	  30	  feet	  
+of	  you	  that	  hea rs	  you	  play	  must	  succeed	  on	  a	  DC	  15	  
+Wisdom	  saving	  throw	  or	  become	  frightened	  of	  you	  
+for	  1	  minute.	  If	  you	  wish,	  all	  creatures	  in	  the	  area	  
+that	  aren’t	  hostile	  toward	  you	  automatically	  succeed	  
+on	  the	  saving	  throw.	  A	  creature	  that	  fails	  the	  saving	  
+throw	  can	  repeat	  it	  at	  the	  end	  of	  each	  of	  its	  turns,	  
+ending	  the	  effect	  on	  itself	  on	  a	  success.	  A	  creature	  
+that	  succeeds	  on	  its	  saving	  throw	  is	  immune	  to	  the	  
+effect	  of	  these	  pipes	  for	  24	  hours.	  The	  pipes	  regain	  
+1d3	  expended	  charges	  daily	  at	  dawn. 	  
+Pipes of the Sewers 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+You	  must	  be	  proficient	  with	  wind	  instruments	  to	  use	  
+these	  pipes.	  While	  you	  are	  attuned	  to	  the	  pipes,	  
+ordinary	  rats	  and	  giant	  rats	  are	  indifferent	  toward	  
+you	  and	  will	  not	  attack	  you	  unless	  you	  threaten	  or	  
+harm	  them.	  
+	   The	  pipes	  have	  3	  charges.	  If	  you	  play	  the	  pipes	  as	  
+an	  action,	  you	  can	  use	  a	  bonus	  action	  to	  expend	  1	  to	  
+3	  charges,	  calling	  forth	  one	  swarm	  of	  rats	  with	  each	  
+expended	  charge,	  provided	  that	  enough	  rats	  are	  
+within	  half	  a	  mile	  of	  you	  to	  be	  called	  in	  this	  f ashion	  
+(as	  determined	  by	  the	  GM).	  If	  there	  aren’t	  enough	  
+rats	  to	  form	  a	  swarm,	  the	  charge	  is	  wasted.	  Called	  

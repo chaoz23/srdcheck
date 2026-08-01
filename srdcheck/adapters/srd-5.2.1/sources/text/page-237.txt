@@ -1,0 +1,110 @@
+System Reference Document 5.2.1
+237
+ This potion’s cloudy green fluid smells of the sea 
+and has a jellyfish-like bubble floating in it.
+Quarterstaff of the Acrobat
+Weapon (Quarterstaff), Very Rare (Requires 
+Attunement)
+You have a +2 bonus to attack rolls and damage rolls 
+made with this magic weapon.
+ While holding this weapon, you can cause it to 
+emit green Dim Light out to 10 feet, either as a Bo -
+nus Action or after you roll Initiative, or you can 
+extinguish the light as a Bonus Action.
+ While holding this weapon, you can take a Bonus 
+Action to alter its form, turning it into a 6-inch rod 
+(for ease of storage) or a 10-foot pole, or reverting it 
+a Quarterstaff; the weapon will elongate only as far 
+as the surrounding space allows.
+ In certain forms, the weapon has the following ad -
+ditional properties.
+ Acrobatic Assist (Quarterstaff and 10-Foot Pole 
+Forms Only). While holding this weapon, you have 
+Advantage on Dexterity (Acrobatics) checks.
+ Attack Deflection (Quarterstaff Form Only). 
+When you are hit by an attack while holding the 
+weapon, you can take a Reaction to twirl the 
+weapon around you, gaining a +5 bonus to your Ar -
+mor Class against the triggering attack, potentially 
+causing the attack to miss you. You can’t use this 
+property again until you finish a Short or Long Rest.
+ Ranged Weapon (Quarterstaff Form Only). This 
+weapon has the Thrown property with a normal 
+range of 30 feet and a long range of 120 feet. Im -
+mediately after you make a ranged attack with the 
+weapon, it flies back to your hand. 
+Ring of Animal Influence
+Ring, Rare 
+This ring has 3 charges, and it regains 1d3 ex -
+pended charges daily at dawn. While wearing the 
+ring, you can expend 1 charge to cast one of the fol -
+lowing spells (save DC 13) from it:
+• Animal Friendship
+• Fear (affects Beasts only)
+• Speak with Animals
+Ring of Djinni Summoning
+Ring, Legendary (Requires Attunement)
+While wearing this ring, you can take a Magic action 
+to summon a particular Djinni  from the Elemental 
+Plane of Air. The djinni appears in an unoccupied 
+space you choose within 120 feet of yourself. It 
+remains as long as you maintain Concentration, to a 
+maximum of 1 hour, or until it drops to 0 Hit Points.
+ While summoned, the djinni is Friendly to you and 
+your allies, and it obeys your commands. If you fail 
+to command it, the djinni defends itself against at -
+tackers but takes no other actions.
+ After the djinni departs, it can’t be summoned 
+again for 24 hours, and the ring becomes nonmagi -
+cal if the djinni dies.
+ Rings of Djinni Summoning are often created by the 
+djinn they summon and given to mortals as gifts of 
+friendship or tokens of esteem. 
+Ring of Elemental Command
+Ring, Legendary (Requires Attunement)
+Each Ring of Elemental Command is linked to one of 
+the four Elemental Planes. The GM chooses or ran -
+domly determines the linked plane. For example, a 
+Ring of Elemental Command (air) is linked to the Ele -
+mental Plane of Air.
+ Every Ring of Elemental Command has the follow-
+ing two properties:
+Elemental Bane.  While wearing the ring, you have 
+Advantage on attack rolls against Elementals and 
+they have Disadvantage on attack rolls against 
+you.
+Elemental Compulsion.  While wearing the ring, 
+you can take a Magic action to try to compel an 
+Elemental you see within 60 feet of yourself. The 
+Elemental makes a DC 18 Wisdom saving throw. 
+On a failed save, the Elemental has the Charmed 
+condition until the start your next turn, and you 
+determine what it does with its move and action 
+on its next turn.
+ Elemental Focus. While wearing the ring, you 
+benefit from additional properties corresponding to 
+the ring’s linked Elemental Plane:
+Air. You know Auran, you have Resistance to Light -
+ning damage, and you have a Fly Speed equal to 
+your Speed and can hover.
+Earth.  You know Terran, and you have Resistance 
+to Acid damage. Terrain composed of rubble, 
+rocks, or dirt isn’t Difficult Terrain for you. In ad -
+dition, you can move through solid earth or rock 
+as if those areas were Difficult Terrain without 
+disturbing the matter through which you pass. If 
+you end your turn in solid earth or rock, you are 
+shunted out to the nearest unoccupied space you 
+last occupied.
+Fire. You know Ignan, and you have Immunity to 
+Fire damage.
+Water. You know Aquan, you gain a Swim Speed of 
+60 feet, and you can breathe underwater.
+ Spellcasting. The ring has 5 charges and re -
+gains 1d4 + 1 expended charges daily at dawn. 
+While wearing the ring, you can cast a spell from 
+it. Choose the spell from the list of available spells 
+based on the Elemental Plane the ring is linked to, 
+as shown in the following table. The table indicates 
+how many charges you must expend to cast the 
+spell, which has a save DC of 18.

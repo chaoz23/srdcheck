@@ -1,0 +1,92 @@
+274
+System Reference Document 5.2.1
+Paralyzing Tentacles. Constitution Saving Throw: DC 
+13, one creature Grappled by the chuul. Failure: The 
+target has the Poisoned condition and repeats the save 
+at the end of each of its turns, ending the effect on itself 
+on a success. After 1 minute, it succeeds automatically. 
+While Poisoned, the target has the Paralyzed condition.
+Clay Golem
+Clay Golem
+Large Construct, Unaligned
+AC 14  Initiative +3 (13)
+HP 123 (13d10 + 52)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 20 +5 +5 Dex 9 −1 −1 Con 18 +4 +4
+Int 3 −4 −4 WIS 8 −1 −1 Cha 1 −5 −5
+Resistances Bludgeoning, Piercing, Slashing
+Immunities Acid, Poison, Psychic; Charmed, Exhaustion, 
+Frightened, Paralyzed, Petrified, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 9
+Languages Common plus one other language
+CR 9 (XP 5,000; PB +4)
+Traits
+Acid Absorption. Whenever the golem is subjected to 
+Acid damage, it takes no damage and instead regains a 
+number of Hit Points equal to the Acid damage dealt.
+Berserk. Whenever the golem starts its turn Bloodied, 
+roll 1d6. On a 6, the golem goes berserk. On each of 
+its turns while berserk, the golem attacks the nearest 
+creature it can see. If no creature is near enough to 
+move to and attack, the golem attacks an object. Once 
+the golem goes berserk, it continues to be berserk until 
+it is destroyed or it is no longer Bloodied.
+Immutable Form. The golem can’t shape-shift.
+Magic Resistance. The golem has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The golem makes two Slam attacks, or it 
+makes three Slam attacks if it used Hasten this turn.
+Slam. Melee Attack Roll: +9, reach 5 ft. Hit: 10 (1d10 
++ 5) Bludgeoning damage plus 6 (1d12) Acid damage, 
+and the target’s Hit Point maximum decreases by an 
+amount equal to the Acid damage taken.
+Bonus Actions
+Hasten (Recharge 5–6). The golem takes the Dash and 
+Disengage actions.
+Cloaker
+Cloaker
+Large Aberration, Chaotic Neutral
+AC 14  Initiative +5 (15)
+HP 91 (14d10 + 14)
+Speed 10 ft., Fly 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 15 +2 +2 Con 12 +1 +1
+Int 13 +1 +1 WIS 14 +2 +2 Cha 7 −2 −2
+Skills Stealth +5
+Immunities Frightened
+Senses Darkvision 120 ft.; Passive Perception 12
+Languages Deep Speech, Undercommon
+CR 8 (XP 3,900; PB +3)
+Traits
+Light Sensitivity. While in Bright Light, the cloaker has 
+Disadvantage on attack rolls.
+Actions
+Multiattack. The cloaker makes one Attach attack and 
+two Tail attacks.
+Attach. Melee Attack Roll: +6, reach 5 ft. Hit: 13 (3d6 
++ 3) Piercing damage. If the target is a Large or smaller 
+creature, the cloaker attaches to it. While the cloaker 
+is attached, the target has the Blinded condition, and 
+the cloaker can’t make Attach attacks against other tar-
+gets. In addition, the cloaker halves the damage it takes 
+(round down), and the target takes the same amount 
+of damage. 
+ The cloaker can detach itself by spending 5 feet of 
+movement. The target or a creature within 5 feet of it 
+can take an action to try to detach the cloaker, doing so 
+by succeeding on a DC 14 Strength (Athletics) check.
+Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 8 (1d10 
++ 3) Slashing damage.
+Bonus Actions
+Moan. Wisdom Saving Throw: DC 13, each creature 
+in a 60-foot Emanation originating from the cloaker. 
+Failure: The target has the Frightened condition until 
+the end of the cloaker’s next turn. Success: The target is 
+immune to this cloaker’s Moan for the next 24 hours.
+Phantasms (Recharge after a Short or Long Rest). The 
+cloaker casts the Mirror Image spell, requiring no spell 
+components and using Wisdom as the spellcasting abil-
+ity. The spell ends early if the cloaker starts or ends its 
+turn in Bright Light.

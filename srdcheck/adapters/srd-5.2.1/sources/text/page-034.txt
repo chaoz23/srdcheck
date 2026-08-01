@@ -1,0 +1,88 @@
+System Reference Document 5.2.1
+34
+Spell School Special
+Invisibility Illusion C
+Knock Transmutation —
+Lesser Restoration Abjuration —
+Locate Animals or Plants Divination R
+Locate Object Divination C
+Magic Mouth Illusion R, M
+Mirror Image Illusion —
+See Invisibility Divination —
+Shatter Evocation —
+Silence Illusion C, R
+Suggestion Enchantment C
+Zone of Truth Enchantment —
+Level 3 Bard Spells
+Spell School Special
+Bestow Curse Necromancy C
+Clairvoyance Divination C, M
+Dispel Magic Abjuration —
+Fear Illusion C
+Glyph of Warding Abjuration M
+Hypnotic Pattern Illusion C
+Major Image Illusion C
+Mass Healing Word Abjuration —
+Nondetection Abjuration M
+Plant Growth Transmutation —
+Sending Divination —
+Slow Transmutation C
+Speak with Dead Necromancy —
+Speak with Plants Transmutation —
+Stinking Cloud Conjuration C
+Tiny Hut Evocation R
+Tongues Divination —
+Level 4 Bard Spells
+Spell School Special
+Charm Monster Enchantment —
+Compulsion Enchantment C
+Confusion Enchantment C
+Dimension Door Conjuration —
+Freedom of Movement Abjuration —
+Greater Invisibility Illusion C
+Hallucinatory Terrain Illusion —
+Locate Creature Divination C
+Phantasmal Killer Illusion C
+Polymorph Transmutation C
+Level 5 Bard Spells
+Spell School Special
+Animate Objects Transmutation C
+Awaken Transmutation M
+Dominate Person Enchantment C
+Dream Illusion —
+Geas Enchantment —
+Greater Restoration Abjuration M
+Hold Monster Enchantment C
+Legend Lore Divination M
+Mass Cure Wounds Abjuration —
+Mislead Illusion C
+Modify Memory Enchantment C
+Planar Binding Abjuration M
+Raise Dead Necromancy M
+Scrying Divination C, M
+Seeming Illusion —
+Telepathic Bond Divination R
+Teleportation Circle Conjuration M
+Level 6 Bard Spells
+Spell School Special
+Eyebite Necromancy C
+Find the Path Divination C, M
+Guards and Wards Abjuration M
+Heroes’ Feast Conjuration M
+Irresistible Dance Enchantment C
+Mass Suggestion Enchantment —
+Programmed Illusion Illusion M
+True Seeing Divination M
+Level 7 Bard Spells
+Spell School Special
+Arcane Sword Evocation C, M
+Etherealness Conjuration —
+Forcecage Evocation C, M
+Magnificent Mansion Conjuration M
+Mirage Arcane Illusion —
+Prismatic Spray Evocation —
+Project Image Illusion C, M
+Regenerate Transmutation —
+Resurrection Necromancy M
+Symbol Abjuration M
+Teleport Conjuration —

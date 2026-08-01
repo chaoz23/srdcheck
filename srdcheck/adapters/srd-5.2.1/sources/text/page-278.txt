@@ -1,0 +1,88 @@
+278
+System Reference Document 5.2.1
+and no Concentration or Temporary Hit Points re-
+quired to maintain the spell)
+1/Day Each: Create Food and Water, Dream, Greater 
+Restoration, Scrying, Sleep
+Bonus Actions
+Divine Aid (2/Day). The couatl casts Bless, Lesser Res-
+toration, or Sanctuary, requiring no spell components 
+and using the same spellcasting ability as Spellcasting.
+Crawling Claw
+Swarm of Crawling Claws
+Medium Swarm of Tiny Undead, Neutral Evil
+AC 12  Initiative +2 (12)
+HP 49 (11d8)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 14 +2 +2 Con 11 +0 +0
+Int 5 −3 −3 WIS 10 +0 +0 Cha 4 −3 −3
+Resistances Bludgeoning, Piercing, Slashing
+Immunities Necrotic, Poison; Charmed, Exhaustion, 
+Frightened, Grappled, Incapacitated, Paralyzed, 
+Petrified, Poisoned, Prone, Restrained, Stunned
+Senses Blindsight 30 ft.; Passive Perception 10
+Languages Understands Common but can’t speak
+CR 3 (XP 700; PB +2)
+Traits
+Swarm. The swarm can occupy another creature’s 
+space and vice versa, and the swarm can move 
+through any opening large enough for a Tiny creature. 
+The swarm can’t regain Hit Points or gain Temporary 
+Hit Points.
+Actions
+Swarm of Grasping Hands. Melee Attack Roll: +4, 
+reach 5 ft. Hit: 20 (4d8 + 2) Necrotic damage, or 11 
+(2d8 + 2) Necrotic damage if the swarm is Bloodied. 
+If the target is a Medium or smaller creature, it has the 
+Prone condition.
+Cultists
+Cultist
+Medium or Small Humanoid, Neutral
+AC 12  Initiative +1 (11)
+HP 9 (2d8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 11 +0 +0 Dex 12 +1 +1 Con 10 +0 +0
+Int 10 +0 +0 WIS 11 +0 +2 Cha 10 +0 +0
+Skills Deception +2, Religion +2
+Gear Leather Armor, Sickle
+Senses Passive Perception 10
+Languages Common
+CR 1/8 (XP 25; PB +2)
+Actions
+Ritual Sickle. Melee Attack Roll: +3, reach 5 ft. Hit: 3 
+(1d4 + 1) Slashing damage plus 1 Necrotic damage.
+Cultist Fanatic
+Medium or Small Humanoid, Neutral
+AC 13  Initiative +2 (12)
+HP 44 (8d8 + 8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 11 +0 +0 Dex 14 +2 +2 Con 12 +1 +1
+Int 10 +0 +0 WIS 14 +2 +4 Cha 13 +1 +1
+Skills Deception +3, Persuasion +3, Religion +2
+Gear Holy Symbol, Leather Armor
+Senses Passive Perception 12
+Languages Common
+CR 2 (XP 450; PB +2)
+Actions
+Pact Blade. Melee Attack Roll: +4, reach 5 ft. 
+Hit: 6 (1d8 + 2) Slashing damage plus 7 (2d6) Ne-
+crotic damage.
+Spellcasting. The cultist casts one of the following 
+spells, using Wisdom as the spellcasting ability (spell 
+save DC 12, +4 to hit with spell attacks):
+At Will: Light, Thaumaturgy
+2/Day: Command
+1/Day: Hold Person
+Bonus Actions
+Spiritual Weapon (2/Day). The cultist casts the Spiritual 
+Weapon spell, using the same spellcasting ability as 
+Spellcasting.
+Darkmantle
+Darkmantle
+Small Aberration, Unaligned
+AC 11  Initiative +3 (13)
+HP 22 (5d6 + 5)
+Speed 10 ft., Fly 30 ft.

@@ -1,0 +1,76 @@
+System	  Reference	   Document	  5.1 	   370	  
+Constrict.	  Melee	  Weapon	  Attack:	   +4	  to	  hit,	  reach	  5	  ft.,	  
+one	  creature.	  Hit:	  6	  (1d8	  +	  2)	  bludgeoning	  damage,	  and	  
+the	  target	  is	  grappled	  (escape	  DC	  14).	  Until	  this	  grapple	  
+ends,	  the	  creature	  is	  restrained,	  and	  the	  snake	  can’t	  
+constrict	  another	  target. 	  
+Crab	  
+Tiny	  beast,	  unaligned 	  
+Armor	  Class	  11	  (natural	  armor) 	  
+Hit	  Points	  2	  (1d4)	  
+Speed	  20	  ft.,	  swim	  20	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+2	  (−4)	   11	  (+0)	   10	  (+0)	   1	  (−5)	   8	  (−1)	   2	  (−4)	  
+Skills	  Stealth	  +2	  
+Senses	  blindsight	  30	  ft.,	  passive	  Perception	  9 	  
+Languages	  —	  
+Challenge	  0	  (10	  XP)	  
+Amphibious.	  The	  crab	  can	  breathe	  air	  and	  water. 	  
+Actions	  
+Claw.	  Melee	  Weapon	  Attack: 	  +0	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  1	  bludgeoning	  damage. 	  
+Crocodile	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  12	  (natural	  armor) 	  
+Hit	  Points	  19	  (3d10	  +	  3)	  
+Speed	  20	  ft.,	  swim	  30	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   10	  (+0)	   13	  (+1)	   2	  (−4)	   10	  (+0)	   5	  (−3)	  
+Skills	  Stealth	  +2	  
+Senses	  passive	  Perception	  10 	  
+Languages	  —	  
+Challenge	  1/2	  (100	  XP)	  
+Hold	  Breath.	  The	  crocodile	  can	  hold	  its	  breath	  for	  15	  
+minutes.	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  7	  (1d10	  +	  2)	  piercing	  damage,	  and	  the	  
+target	  is	  grappled	  (escape	  DC	  12).	  Until	  this	  grapple	  
+ends,	  the	  target	  is	  restrained,	  and	  the	  crocodile	  can’t	  
+bite	  another	  target. 	  
+Death	  Dog	  
+Medium	  monstrosity,	  neutral	  evil 	  
+Armor	  Class	  12	  
+Hit	  Points	  39	  (6d8	  +	  12)	  
+Speed	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   14	  (+2)	   14	  (+2)	   3	  (−4)	   13	  (+1)	   6	  (−2)	  
+Skills	  Perception	  +5,	  Stealth	  +4 	  
+Senses	  darkvision	  120	  ft.,	  passive	  Perception	  15 	  
+Languages	  —	  
+Challenge	  1	  (200	  XP)	  
+Two-­‐Headed.	  The	  dog	  has	  advantage	  on	  Wisdom	  
+(Perception)	  checks	  and	  on	  saving	  throws	  against	  being	  
+blinded,	  charmed,	  deafened,	  frightened,	  stunned,	  or	  
+knocked	  unconscious. 	  
+Actions	  
+Multiattack.	  The	  dog	  makes	  two	  bite	  attacks. 	  
+Bite.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  5	  (1d6	  +	  2)	  piercing	  damage.	  If	  the	  target	  is	  
+a	  creature,	  it	  must	  succeed	  on	  a	  DC	  12	  Constitution	  
+saving	  throw	  against	  disease	  or	  become	  poisoned	  until	  
+the	  disease	  is	  cured.	  Every	  24	  hours	  that	  elapse,	  the	  
+creature	  must	  repeat	  the 	  saving	  throw,	  reducing	  its	  hit	  
+point	  maximum	  by	  5	  (1d10)	  on	  a	  failure.	  This	  reduction	  
+lasts	  until	  the	  disease	  is	  cured.	  The	  creature	  dies	  if	  the	  
+disease	  reduces	  its	  hit	  point	  maximum	  to	  0. 	  
+A	  death	  dog	  is	  an	  ugly	  two-­‐‑headed	  hound	  that	  
+roams	  plains,	  and	  de serts.	  Hate	  burns	  in	  a	  death	  
+dog’s	  heart,	  and	  a	  taste	  for	  humanoid	  flesh	  drives	  it	  
+to	  attack	  travelers	  and	  explorers.	  Death	  dog	  saliva	  
+carries	  a	  foul	  disease	  that	  causes	  a	  victim’s	  flesh	  to	  
+slowly	  rot	  off	  the	  bone. 	  
+Deer	  
+Medium	  beast,	  unaligned 	  
+Armor	  Class	  13	  
+Hit	  Points	  4	  (1d8)	  

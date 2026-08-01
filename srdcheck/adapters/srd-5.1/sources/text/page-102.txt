@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   102	  
+requires	  a	  somatic	  com ponent,	  the	  caster	  must	   have	  
+free	  use	  of	  at	  least	  one	  hand	  to	  perform	  these	  gestures.	  
+Material (M) 
+Casting	  some	  spells	  requires	  particular	  objects,	  
+specified	  in	  parentheses	  in	  the	  component	  entry.	  A	  
+character	  can	  use	  a	   component	  pouch 	  or	  a	  
+spellcasting	  foc us	  (found	  in	  “Equipment”)	  in	  place	  
+of	  the	  components	  specified	  for	  a	  spell.	  But	  if	  a	  cost	  
+is	  indicated	  for	  a	  component,	  a	  character	  must	  have	  
+that	  specific	  component	  before	  he	  or	  she	  can	  cast	  the	  
+spell.	  
+	   If	  a	  spell	  states	  that	  a	  material	  component	  is	  
+consumed	  by	  the	  spell,	  the	  caster	  must	  provide	  this	  
+component	  for	  each	  casting	  of	  the	  spell. 	  
+	   A	  spellcaster	  must	  have	  a	  hand	  free	  to	  access	  a	  
+spell’s	  material	  components —or	  to	  hold	  a	  
+spellcasting	  focus —but	  it	  can	  be	  the	  same	  hand	  that	  
+he	  or	  she	  uses	  to	  perform	   somatic	  components. 	  
+Duration 
+A	  spell’s	  duration	  is	  the	  length	  of	  time	  the	  spell	  
+persists.	  A	  duration	  can	  be	  expressed	  in	  rounds,	  
+minutes,	  hours,	  or	  even	  years.	  Some	  spells	  specify	  
+that	  their	  effects	  last	  until	  the	  spells	  are	  dispelled	  or	  
+destroyed.	  
+Instantaneous 
+Many	  spells	  are	  instantaneous.	  The	  spell	  harms,	  
+heals,	  creates,	  or	  alters	  a	  creature	  or	  an	  object	  in	  a	  
+way	  that	  can’t	  be	  dispelled,	  because	  its	  magic	  exists	  
+only	  for	  an	  instant. 	  
+Concentration 
+Some	  spells	  require	  you	  to	  maintain	  concentration	  in	  
+order	  to	  keep	  their	  magic	  active.	  If	  you	  lose	  
+concentration,	  such	  a	  spell	  ends. 	  
+	   If	  a	  spell	  must	  be	  maintained	  with	  concentration,	  
+that	  fact	  appears	  in	  its	  Duration	  entry,	  and	  the	  spell	  
+specifies	  how	  long	  you	  can	  concentrate	  on	  it.	  You	  
+can	  end	  concentration	  at 	  any	  time	  (no	  action	  
+required).	  
+	   Normal	  activity,	  such	  as	  moving	  and	  attacking,	  
+doesn’t	  interfere	  with	  concentration.	  The	  following	  
+factors	  can	  break	  concentration: 	  
+• Casting	  another	  spell	  that	  requires
+concentration.	   You	  lose	  concentration	  on	  a	  spell
+if	  you	  cast	  another	  spell	  that	  require
+s
+concentration.	  You	  can’t	  concentrate	  on	  two	  spell s
+at	  once.
+• Taking	  damage. 	  Whenever	  you	  take	  damage
+while	  you	  are	  concentrating	  on	  a	  spell,	  you	  must
+make	  a	  Constitution	  saving	  throw	  to	  maintain	  
+your	  concentration.	  The	  DC	  e quals	  10	  or	  half	  the	  
+damage	  you	  take,	  whichever	  number	  is	  higher.	  If	  
+you	  take	  damage	  from	  multiple	  sources,	  such	  as	  an	  
+arrow	  and	  a	  dragon’s	  breath,	  you	  make	  a	  separate	  
+saving	  throw	  for	  each	  source	  of	  damage. 	  
+• Being	  incapacitated	  or	  killed. 	  You	  lose
+concentration	  on	  a	  spell	  if	  you	  are	  incapacitated	  or
+if	  you	  die.
+The	  GM	  might	  also	  decide	  that	  certai n
+environmental	  phenomena,	  such	  as	  a	  wave	  crashing	  
+over	  you	  while	  you’re	  on	  a	  storm -­‐‑tossed	  ship,	  
+require	  you	  to	  succeed	  on	  a	  DC	  10	  Constitution	  
+saving	  throw	  to	  ma intain	  concentration	  on	  a	  spell. 	  
+Targets 
+A	  typical	  spell	  requires	  you	  to	  pick	  one	  or	  more	  
+targets	  to	  be	  affected	  by	  the	  spell’s	  magic.	  A	  spell’s	  
+description	  tells	  you	  whether	  the	  spell	  targets	  
+creatures,	  objects,	  or	  a	  point	  of	   origin	  for	  an	  area	  of	  
+effect	  (described	  below).	  
+	   Unless	  a	  spell	  has	  a	  perceptible	  effect,	  a	  creature	  
+might	  not	  know	  it	  was	  targeted	  by	  a	  spell	  at	  all.	  An	  
+effect	  like	  crackling	  lightning	  is	  obvious,	  but	  a	  more	  
+subtle	  effect,	  such	  as	  an	  attempt	  to	  read	  a	  creature’s	  
+thoughts,	  typically	   goes	  unnoticed,	  unless	  a	  spell	  
+says	  otherwise. 	  
+A Clear Path to the Target 
+To	  target	  something,	  you	  must	  have	  a	  clear	  path	  to	  it,	  
+so	  it	  can’t	  be	  behind	  total	  cover. 	  
+	   If	  you	  place	  an	  area	  of	  effect	  at	  a	  point	  that	  you	  
+can’t	  see	  and	  an	  obstruction,	  such	  as	  a	   wall,	  is	  
+between	  you	  and	  that	  point,	  the	  point	  of	  origin	  
+comes	  into	  being	  on	  the	  near	  side	  of	  that	  obstruction. 	  
+Targeting Yourself 
+If	  a	  spell	  targets	  a	  creature	  of	  your	  choice,	  you	  can	  
+choose	  yourself,	  unless	  the	  creature	  must	  be	  hostile	  
+or	  specifically	  a	   creature	  other	  than	  you.	  If	  you	  are	  in	  
+the	  area	  of	  effect	  of	  a	  spell	  you	  cast,	  you	  can	  target	  
+yourself.	  
+Areas of Effect 
+Spells	  such	  as	  burning	  hands	  and	  cone	  of	  cold	  cover	  
+an	  area,	  allowing	  them	  to	  affect	  multiple	  creatures	  at	  
+once.	  
+	   A	  spell’s	  description	   specifies	  its	  area	  of	  effect,	  
+which	  typically	  has	  one	  of	  five	  different	  shapes:	  cone,	  
+cube,	  cylinder,	  line,	  or	  sphere.	  Every	  area	  of	  effect	  
+has	  a	  point	  of	  origin ,	  a	  location	  from	  which	  the	  
+spell’s	  energy	  erupts.	  The	  rules	  for	  each	  shape	  

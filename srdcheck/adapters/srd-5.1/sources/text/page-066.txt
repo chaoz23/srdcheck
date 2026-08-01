@@ -1,0 +1,66 @@
+System	  Reference	   Document	  5.1 	   66	  
+Club	   1	  sp	   1d4	  bludgeoning	   2	  lb.	   Light	  
+Dagger	   2	  gp	   1d4	  piercing	   1	  lb.	   Finesse,	  light,	  thrown	  (range	  20/60) 	  
+Greatclub	   2	  sp	   1d8	  bludgeoning	   10	  lb.	   Two-­‐handed	  
+Handaxe	   5	  gp	   1d6	  slashing	   2	  lb.	   Light,	  thrown	  (range	  20/60) 	  
+Javelin	   5	  sp	   1d6	  piercing	   2	  lb.	   Thrown	  (range	  30/120) 	  
+Light	  hammer	   2	  gp	   1d4	  bludgeoning	   2	  lb.	   Light,	  thrown	  (range	  20/60) 	  
+Mace	   5	  gp	   1d6	  bludgeoning	   4	  lb.	   —	  
+Quarterstaff	   2	  sp	   1d6	  bludgeoning	   4	  lb.	   Versatile	  (1d8)	  
+Sickle	   1	  gp	   1d4	  slashing	   2	  lb.	   Light	  
+Spear	   1	  gp	   1d6	  piercing	   3	  lb.	   Thrown	  (range	  20/60),	  versatile	  (1d8) 	  
+Simple	  Ranged	  Weapons 	  
+Crossbow,	  light	   25	  gp	   1d8	  piercing	   5	  lb.	   Ammunition	  (range	   80/320),	  loading,	  two -­‐handed	  
+Dart	   5	  cp	   1d4	  piercing	   1/4	  lb.	   Finesse,	  thrown	  (range	  20/60) 	  
+Shortbow	   25	  gp	   1d6	  piercing	   2	  lb.	   Ammunition	  (range	  80/320),	  two -­‐handed	  
+Sling	   1	  sp	   1d4	  bludgeoning	   —	   Ammunition	  (range	  30/120) 	  
+Martial	  Melee	  Weapons 	  
+Battleaxe	   10	  gp	   1d8	  slashing	   4	  lb.	   Versatile	  (1d10)	  
+Flail	   10	  gp	   1d8	  bludgeoning	   2	  lb.	   —	  
+Glaive	   20	  gp	   1d10	  slashing	   6	  lb.	   Heavy,	  reach,	  two-­‐handed	  
+Greataxe	   30	  gp	   1d12	  slashing	   7	  lb.	   Heavy,	  two-­‐handed	  
+Greatsword	   50	  gp	   2d6	  slashing	   6	  lb.	   Heavy,	  two-­‐handed	  
+Halberd	   20	  gp	   1d10	  slashing	   6	  lb.	   Heavy,	  reach,	  two-­‐handed	  
+Lance	   10	  gp	   1d12	  piercing	   6	  lb.	   Reach,	  special	  
+Longsword	   15	  gp	   1d8	  slashing	   3	  lb.	   Versatile	  (1d10)	  
+Maul	   10	  gp	   2d6	  bludgeoning	   10	  lb.	   Heavy,	  two-­‐handed	  
+Morningstar	   15	  gp	   1d8	  piercing	   4	  lb.	   —	  
+Pike	   5	  gp	   1d10	  piercing	   18	  lb.	   Heavy,	  reach,	  two-­‐handed	  
+Rapier	   25	  gp	   1d8	  piercing	   2	  lb.	   Finesse	  
+Scimitar	   25	  gp	   1d6	  slashing	   3	  lb.	   Finesse,	  light	  
+Shortsword	   10	  gp	   1d6	  piercing	   2	  lb.	   Finesse,	  light	  
+Trident	   5	  gp	   1d6	  piercing	   4	  lb.	   Thrown	  (range	  20/60),	  versatile	  (1d8) 	  
+War	  pick	   5	  gp	   1d8	  piercing	   2	  lb.	   —	  
+Warhammer	   15	  gp	   1d8	  bludgeoning	   2	  lb.	   Versatile	  (1d10)	  
+Whip	   2	  gp	   1d4	  slashing	   3	  lb.	   Finesse,	  reach	  
+Martial	  Ranged	  Weapons 	  
+Blowgun	   10	  gp	   1	  piercing	   1	  lb.	   Ammunition	  (range 	  25/100),	  loading	  
+Crossbow,	  hand	   75	  gp	   1d6	  piercing	   3	  lb.	   Ammunition	  (range	  30/120),	  light,	  loading 	  
+Crossbow,	  heavy	   50	  gp	   1d10	  piercing	   18	  lb.	   Ammunition	  (range	  100/400),	  heavy,	  loading,	  two -­‐handed	  
+Longbow	   50	  gp	   1d8	  piercing	   2	  lb.	   Ammunition	  (range	   150/600),	  heavy,	  two -­‐handed	  
+Net	   1	  gp	   —	   3	  lb.	   Special,	  thrown	  (range	  5/15) 	  
+Adventuring Gear 
+This	  section	  describes	  items	  that	  have	  special	  rules	  
+or	  require	  further	  explanation. 	  
+	   Acid.	  As	  an	  action,	  you	  can	  splash	  the	  contents	  of	  
+this	  vial	  onto	  a	  creature	  within	  5	  feet	  of	  you	  or	  throw	  
+the	  vial	  up	  to	  20	  feet,	  shattering	  it	  on	  impact.	  In	  
+either	  case,	  make	  a	  ranged	  attack	  against	  a	  creature	  
+or	  object,	  treating	  the	  acid	  as	  an	  improvised	  weapon.	  
+On	  a	  hit,	  the	  target	  takes	  2d6	  acid	  damage. 	  
+	   Alchemist’s	  Fire.	   This	  sticky,	  adhesive	  fluid	  ignites	  
+when	  exposed	  to	  air.	  As	  an	  action,	  you	  can	  throw	  this	  
+flask	  up	  to	  20	  feet,	  shattering	  it	  on	  impact.	  Make	  a	  
+ranged	  attack	  against	  a	  creature	  or	  object,	  treating	  
+the	  alchemist's	  fire	  as	  an	  improvised	  weapo n.	  On	  a	  
+hit,	  the	  target	  takes	  1d4	  fire	  damage	  at	  the	  start	  of	  
+each	  of	  its	  turns.	  A	  creature	  can	  end	  this	  damage	  by	  
+using	  its	  action	  to	  make	  a	  DC	  10	  Dexterity	  check	  to	  
+extinguish	  the	  flames. 	  
+	   Antitoxin.	  A	  creature	  that	  drinks	  this	  vial	  of	  liquid	  
+gains	  advantage	  on	  saving	  throws	  against	  poison	  for	  
+1	  hour.	  It	  confers	  no	  benefit	  to	  undead	  or	  constructs. 	  
+	   Arcane	  Focus. 	  An	  arcane	  focus	  is	  a	  special	  item —
+an	  orb,	  a	  crystal,	  a	  rod,	  a	  specially	  constructed	  staff,	  a	  
+wand-­‐‑like	  length	  of	  wood,	  or	  some	  similar	  item —
+designed	  to	  channel	  the	  power	  of	  arcane	  spells.	  A	  

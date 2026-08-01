@@ -1,0 +1,111 @@
+System Reference Document 5.2.1
+242
+location that has no magnetic north.) The rod also 
+gives you knowledge of your approximate depth 
+beneath the ground or your height above it.
+ Drain Life. When you hit a creature with a melee 
+attack using the rod, you can force the target to 
+make a DC 17 Constitution saving throw. On a failed 
+save, the target takes an extra 4d6 Necrotic dam -
+age, and you regain a number of Hit Points equal to 
+half that Necrotic damage. Once used, this property 
+can’t be used again until the next dawn.
+ Paralyze. When you hit a creature with a melee 
+attack using the rod, you can force the target to 
+make a DC 17 Constitution saving throw. On a failed 
+save, the target has the Paralyzed condition for 1 
+minute. The target repeats the save at the end of 
+each of its turns, ending the effect on a success. 
+Once used, this property can’t be used again until 
+the next dawn.
+ Terrify. While holding the rod, you can take a 
+Magic action to force each creature you can see 
+within 30 feet of yourself to make a DC 17 Wisdom 
+saving throw. On a failed save, a target has the 
+Frightened condition for 1 minute. A Frightened 
+target repeats the save at the end of each of its 
+turns, ending the effect on itself on a success. Once 
+used, this property can’t be used again until the 
+next dawn.
+Rod of Resurrection
+Rod, Legendary (Requires Attunement)
+The rod has 5 charges. While you hold it, you can 
+cast one of the following spells from it: Heal (ex-
+pends 1 charge) or Resurrection (expends 5 charges).
+ The rod regains 1 expended charge daily at dawn. 
+If you expend the last charge, roll 1d20. On a 1, the 
+rod disappears in a harmless burst of radiance.
+Rod of Rulership
+Rod, Rare (Requires Attunement)
+You can take a Magic action to present the rod and 
+command obedience from each creature of your 
+choice that you can see within 120 feet of your -
+self. Each target must succeed on a DC 15 Wisdom 
+saving throw or have the Charmed condition for 8 
+hours. While Charmed in this way, the creature re -
+gards you as its trusted leader. If harmed by you or 
+your allies or commanded to do something contrary 
+to its nature, a target ceases to be Charmed in this 
+way. Once used, this property can’t be used again 
+until the next dawn.
+Rod of Security
+Rod, Very Rare 
+While holding this rod, you can take a Magic action 
+to activate it. The rod then instantly transports you 
+and up to 199 other willing creatures you can see 
+to a demiplane. You choose the form the demiplane 
+takes. It could be a tranquil garden, a cheery tavern, 
+an immense palace, a tropical island, a fantastic car -
+nival, or whatever else you can imagine. Regardless 
+of its nature, the demiplane contains enough water 
+and food to sustain its visitors, and the demiplane’s 
+environment can’t harm its occupants. Everything 
+else that can be interacted with there can exist 
+only there. For example, a flower picked from a 
+garden there disappears if it is taken outside the 
+demiplane.
+ For each hour spent in the demiplane, a visitor 
+regains Hit Points as if it had spent 1 Hit Point Die. 
+Also, creatures don’t age while there, although time 
+passes normally. Visitors can remain there for up to 
+200 days divided by the number of creatures pres -
+ent (round down).
+ When the time runs out or you take a Magic action 
+to end the effect, all visitors reappear in the loca-
+tion they occupied when you activated the rod or an 
+unoccupied space nearest that location. Once used, 
+this property can’t be used again until 10 days have 
+passed.
+Rope of Climbing
+Wondrous Item, Uncommon 
+This 60-foot length of rope can hold up to 3,000 
+pounds. While holding one end of the rope, you can 
+take a Magic action to command the other end of the 
+rope to animate and move toward a destination you 
+choose, up to the rope’s length away from you. That 
+end moves 10 feet on your turn when you first com -
+mand it and 10 feet at the start of each of your sub -
+sequent turns until reaching its destination or until 
+you tell it to stop. You can also tell the rope to fasten 
+itself securely to an object or to unfasten itself, to 
+knot or unknot itself, or to coil itself for carrying.
+ If you tell the rope to knot, large knots appear at 
+1-foot intervals along the rope. While knotted, the 
+rope shortens to a 50-foot length and grants Advan -
+tage on ability checks made to climb using the rope.
+ The rope has AC 20, HP 20, and Immunity to Poi -
+son and Psychic damage. It regains 1 Hit Point every 
+5 minutes as long as it has at least 1 Hit Point. If the 
+rope drops to 0 Hit Points, it is destroyed.
+Rope of Entanglement
+Wondrous Item, Rare 
+This rope is 30 feet long. While holding one end of 
+the rope, you can take a Magic action to command 
+the other end to dart forward and entangle one 
+creature you can see within 20 feet of yourself. The 
+target must succeed on a DC 15 Dexterity saving 
+throw or have the Restrained condition. You can re -
+lease the target by letting go of your end of the rope 
+(causing the rope to coil up in the target’s space) 
+or by using a Bonus Action to repeat the command 
+(causing the rope to coil up in your hand).

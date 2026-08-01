@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+98
+The trap is affixed by a heavy chain to an immo -
+bile object, such as a tree or a spike driven into the 
+ground. A creature that steps on the plate must 
+succeed on a DC 13 Dexterity saving throw or take 
+1d4 Piercing damage and have its Speed reduced to 
+0 until the start of its next turn. Thereafter, until 
+the creature breaks free of the trap, its movement 
+is limited by the length of the chain (typically 3 
+feet). A creature can use its action to make a DC 
+13 Strength (Athletics) check, freeing itself or an -
+other creature within its reach on a success. Each 
+failed check deals 1 Piercing damage to the trapped 
+creature.
+Ink (10 GP)
+Ink comes in a 1-ounce bottle, which provides 
+enough ink to write about 500 pages.
+Ink Pen (2 CP)
+Using Ink, an Ink Pen is used to write or draw.
+Jug (2 CP)
+A Jug holds up to 1 gallon.
+Ladder (1 SP)
+A Ladder is 10 feet tall. You must climb to move up 
+or down it.
+Lamp (5 SP)
+A Lamp burns Oil as fuel to cast Bright Light in a 15-
+foot radius and Dim Light for an additional 30 feet.
+Lantern, Bullseye (10 GP)
+A Bullseye Lantern burns Oil as fuel to cast Bright 
+Light in a 60-foot Cone and Dim Light for an addi -
+tional 60 feet.
+Lantern, Hooded (5 GP)
+A Hooded Lantern burns Oil as fuel to cast Bright 
+Light in a 30-foot radius and Dim Light for an ad -
+ditional 30 feet. As a Bonus Action, you can lower 
+the hood, reducing the light to Dim Light in a 5-foot 
+radius, or raise it again.
+Lock (10 GP)
+A Lock comes with a key. Without the key, a crea-
+ture can use Thieves’ Tools to pick this Lock with a 
+successful DC 15 Dexterity (Sleight of Hand) check.
+Magnifying Glass (100 GP)
+A Magnifying Glass grants Advantage on any ability 
+check made to appraise or inspect a highly detailed 
+item. Lighting a fire with a Magnifying Glass re -
+quires light as bright as sunlight to focus, tinder to 
+ignite, and about 5 minutes for the fire to ignite.
+Manacles (2 GP)
+As a Utilize action, you can use Manacles to bind an 
+unwilling Small or Medium creature within 5 feet 
+of yourself that has the Grappled, Incapacitated, 
+or Restrained condition if you succeed on a DC 13 
+Dexterity (Sleight of Hand) check. While bound, a 
+creature has Disadvantage on attack rolls, and the 
+creature is Restrained if the Manacles are attached 
+to a chain or hook that is fixed in place. Escaping 
+the Manacles requires a successful DC 20 Dexterity 
+(Sleight of Hand) check as an action. Bursting them 
+requires a successful DC 25 Strength (Athletics) 
+check as an action.
+ Each set of Manacles comes with a key. Without 
+the key, a creature can use Thieves’ Tools to pick the 
+Manacles’ lock with a successful DC 15 Dexterity 
+(Sleight of Hand) check.
+Map (1 GP)
+If you consult an accurate Map, you gain a +5 bonus 
+to Wisdom (Survival) checks you make to find your 
+way in the place represented on it.
+Mirror (5 GP)
+A handheld steel Mirror is useful for personal cos -
+metics but also for peeking around corners and re -
+flecting light as a signal.
+Net (1 GP)
+When you take the Attack action, you can replace 
+one of your attacks with throwing a Net. Target a 
+creature you can see within 15 feet of yourself. The 
+target must succeed on a Dexterity saving throw 
+(DC 8 plus your Dexterity modifier and Proficiency 
+Bonus) or have the Restrained condition until it 
+escapes. The target succeeds automatically if it is 
+Huge or larger.
+ To escape, the target or a creature within 5 feet 
+of it must take an action to make a DC 10 Strength 
+(Athletics) check, freeing the Restrained creature 
+on a success. Destroying the Net (AC 10; 5 HP; Im -
+munity to Bludgeoning, Poison, and Psychic dam -
+age) also frees the target, ending the effect.
+Oil (1 SP)
+You can douse a creature, object, or space with Oil 
+or use it as fuel, as detailed below.
+ Dousing a Creature or an Object. When you 
+take the Attack action, you can replace one of your 
+attacks with throwing an Oil flask. Target one crea-
+ture or object within 20 feet of yourself. The target 
+must succeed on a Dexterity saving throw (DC 8 
+plus your Dexterity modifier and Proficiency Bonus) 
+or be covered in oil. If the target takes Fire damage 
+before the oil dries (after 1 minute), the target takes 
+an extra 5 Fire damage from burning oil.
+ Dousing a Space. You can take the Utilize ac -
+tion to pour an Oil flask on level ground to cover a 
+5-foot-square area within 5 feet of yourself. If lit, 
+the oil burns until the end of the turn 2 rounds from 
+when the oil was lit (or 12 seconds) and deals 5 Fire 
+damage to any creature that enters the area or ends 
+its turn there. A creature can take this damage only 
+once per turn.

@@ -1,0 +1,98 @@
+System	  Reference	   Document	  5.1 	   145	  
+Fire Storm 
+7th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  150	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+A	  storm	  made	  up	  of	  sheets	  of	  roaring	  f lame	  appears	  
+in	  a	  location	  you	  choose	  within	  range.	  The	  area	  of	  
+the	  storm	  consists	  of	  up	  to	  ten	  10 -­‐‑foot	  cubes,	  which	  
+you	  can	  arrange	  as	  you	  wish.	  Each	  cube	  must	  have	  at	  
+least	  one	  face	  adjacent	  to	  the	  face	  of	  another	  cube.	  
+Each	  creature	  in	  the	  area	  must	  make	  a	  Dexterity	  
+saving	  throw.	  It	  takes	  7d10	  fire	  damage	  on	  a	  failed	  
+save,	  or	  half	  as	  much	  damage	  on	  a	  successful	  one. 	  
+	   The	  fire	  damages	  objects	  in	  the	  area	  and	  ignites	  
+flammable	  objects	  that	  aren’t	  being	  worn	  or	  carried.	  
+If	  you	  choose,	  plant	  life	  in	  the	  area 	  is	  unaffected	  by	  
+this	  spell.	  
+Flame Blade 
+2nd-­‐‑level	  evocation 	  
+Casting	  Time: 	  1	  bonus	  action 	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (leaf	  of	  sumac) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  evoke	  a	  fiery	  blade	  in	  your	  free	  hand.	  The	  blade	  
+is	  similar	  in	  size	  and 	  shape	  to	  a	  scimitar,	  and	  it	  lasts	  
+for	  the	  duration.	  If	  you	  let	  go	  of	  the	  blade,	  it	  
+disappears,	  but	  you	  can	  evoke	  the	  blade	  again	  as	  a	  
+bonus	  action.	  
+	   You	  can	  use	  your	  action	  to	  make	  a	  melee	  spell	  
+attack	  with	  the	  fiery	  blade.	  On	  a	  hit,	  the	  target	  takes	  
+3d6	  fire	  damage.	  
+	   The	  flaming	  blade	  sheds	  bright	  light	  in	  a	  10 -­‐‑foot	  
+radius	  and	  dim	  light	  for	  an	  additional	  10	  feet. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d6	  for	  every	  two	  slot	  levels	  abo ve	  2nd.	  
+Flame Strike 
+5th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (pinch	  of	  sulfur)	  
+Duration:	  Instantaneous	  
+A	  vertical	  column	  of	  divine	  fire	  roars	  down	  from	  the	  
+heavens	  in	  a	  location	  you	  specify.	  Each	  creature	  in	  a	  
+10-­‐‑foot-­‐‑radius,	  40-­‐‑foot-­‐‑high	  cylinder	  centered	  on	  a	  
+point	  within	  range	  must	  make	  a	  Dexterity	  saving	  
+throw.	  A	  creature	  takes	  4d6	  fire	  damage	  and	  4d6	  
+radiant	  damage	  on	  a	  failed	  save,	  or	  half	  as	  much	  
+damage	  on	  a	  successful	  one. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  6th	  level	  or	  higher,	  the	  fire	  damage	  or	  
+the	  radiant	  damage	  (your	  choice)	  increases	  by	  1d6	  
+for	  each	  slot	  level	  above	  5th. 	  
+Flaming Sphere 
+2nd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  tallow,	  a	  pinch	  of	  
+brimstone,	  and	  a	  dusting	  of	  powdered	  iron) 	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+A	  5-­‐‑foot-­‐‑diameter	  sphere	  of	  fire	  appears	  in	  an	  
+unoccupied	  space	  of	  your	  choice	  within	  range	  and	  
+lasts	  for	  the	  duration.	  Any	  creature	  that	  ends	  its	  tu rn	  
+within	  5	  feet	  of	  the	  sphere	  must	  make	  a	  Dexterity	  
+saving	  throw.	  The	  creature	  takes	  2d6	  fire	  damage	  on	  
+a	  failed	  save,	  or	  half	  as	  much	  damage	  on	  a	  successful	  
+one.	  
+	   As	  a	  bonus	  action,	  you	  can	  move	  the	  sphere	  up	  to	  
+30	  feet.	  If	  you	  ram	  the	  sphere	  into	  a	  crea ture,	  that	  
+creature	  must	  make	  the	  saving	  throw	  against	  the	  
+sphere’s	  damage,	  and	  the	  sphere	  stops	  moving	  this	  
+turn.	  
+	   When	  you	  move	  the	  sphere,	  you	  can	  direct	  it	  over	  
+barriers	  up	  to	  5	  feet	  tall	  and	  jump	  it	  across	  pits	  up	  to	  
+10	  feet	  wide.	  The	  sphere	  ignites	  f lammable	  objects	  
+not	  being	  worn	  or	  carried,	  and	  it	  sheds	  bright	  light	  in	  
+a	  20-­‐‑foot	  radius	  and	  dim	  light	  for	  an	  additional	  20	  
+feet.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  the	  damage	  
+increases	  by	  1d6	  for	  each	  s lot	  level	  above	  2nd. 	  
+Flesh to Stone 
+6th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  lime,	  water,	  and	  
+earth)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  attempt	  to	  turn	  one	  creature	  that	  you	  can	  see	  
+within	  range	  into	  stone.	  If	  the	  target’s	  body	  is	  made	  
+of	  flesh,	  the	  creature	  must	  make	  a	  Constitution	  
+saving	  throw.	  On	   a	  failed	  save,	  it	  is	  restrained	  as	  its	  
+flesh	  begins	  to	  harden.	  On	  a	  successful	  save,	  the	  
+creature	  isn’t	  affected. 	  
+	   A	  creature	  restrained	  by	  this	  spel l	  must	  make	  
+another	  Constitution	  saving	  throw	  at	  the	  end	  of	  each	  

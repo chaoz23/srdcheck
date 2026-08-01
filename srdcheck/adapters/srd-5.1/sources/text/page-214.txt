@@ -1,0 +1,94 @@
+System	  Reference	   Document	  5.1 	   214	  
+issues	  a	  clear	  tone,	  and	  one	  lock	  or	  latch	  on	  the	  
+object	  opens	  unless	  the	  sound	  can’t	  reach	  the	  o bject.	  
+If	  no	  locks	  or	  latches	  remain,	  the	  object	  itself	  opens. 	  
+	   The	  chime	  can	  be	  used	  ten	  times.	  After	  the	  tenth	  
+time,	  it	  cracks	  and	  becomes	  useless. 	  
+Circlet of Blasting 
+Wondrous	  item,	  uncommon 	  
+While	  wearing	  this	  circlet,	  you	  can	  use	  an	  action	  to	  
+cast	  the	  scorching	  ray	  spell	  with	  it.	  When	  you	  make	  
+the	  spell’s	  attacks,	  you	  do	  so	  with	  an	  attack	  bonus	  of	  
++5.	  The	  circlet	  can’t	  be	  used	  this	  way	  again	  until	  the
+next	  dawn.
+Cloak of Arachnida 
+Wondrous	  item,	  very	  rare	  (requires	  attunement) 	  
+This	  fine	  garment	  is	  made	   of	  black	  silk	  interwoven	  
+with	  faint	  silvery	  threads.	  While	  wearing	  it,	  you	  gain	  
+the	  following	  benefits: 	  
+• You	  have	  resistance	  to	  poison	  damage.
+• You	  have	  a	  climbing	  speed	  equal	  to	  your	  walking
+speed.
+• You	  can	  move	  up,	  down,	  and	  across	  vertical
+surfaces	  and	  ups ide	  down	  along	  ceilings,	  while
+leaving	  your	  hands	  free.
+• You	  can’t	  be	  caught	  in	  webs	  of	  any	  sort	  and	  ca
+n
+move	  through	  webs	  as	  if	  they	  were	  difficult	  terrain.
+• You	  can	  use	  an	  action	  to	  cast	  the	   web	  spell	  (save
+DC	  13).	  The	  web	  created	  by	  the	  spell	  fills	  twice	   its
+normal	  area.	  Once	  used,	  this	  property	  of	  the	  cloa k
+can’t	  be	  used	  again	  until	  the	  next	  dawn.
+Cloak of Displacement 
+Wondrous	  item,	  rare	  (requires	  attunement) 	  
+While	  you	  wear	  this	  cloak,	  it	  projects	  an	  illusion	  that	  
+makes	  you	  appear	  to	  be	  standing	  in	  a	  pla ce	  near	  
+your	  actual	  location,	  causing	  any	  creature	  to	  have	  
+disadvantage	  on	  attack	  rolls	  against	  you.	  If	  you	  take	  
+damage,	  the	  property	  ceases	  to	  function	  until	  the	  
+start	  of	  your	  next	  turn.	  This	  property	  is	  suppressed	  
+while	  you	  are	  incapacitated,	  restrained, 	  or	  otherwise	  
+unable	  to	  move. 	  
+Cloak of Elvenkind 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+While	  you	  wear	  this	  cloak	  with	  its	  hood	  up,	  Wisdom	  
+(Perception)	  checks	  made	  to	  see	  you	  have	  
+disadvantage,	  and	  you	  have	  advantage	  on	  Dexterity	  
+(Stealth)	  checks	  made	  to	  hide,	  as	  the	  cloak’s	  color	  
+shifts	  to	  camouflage	  you.	  Pulling	  the	  hood	  up	  or	  
+down	  requires	  an	  action. 	  
+Cloak of Protection 
+Wondrous	  item,	  uncommon	  (requires	  attunement) 	  
+You	  gain	  a	  +1	  bonus	  to	  AC	  and	  saving	  throws	  while	  
+you	  wear	  this	  cloak. 	  
+Cloak of the Bat 
+Wondrous	  item,	  rare	  (requires	  attunement) 	  
+While	  wearing	  this	  cloak,	  you	  have	  advantage	  on	  
+Dexterity	  (Stealth)	  checks.	  In	  an	  area	  of	  dim	  light	  or	  
+darkness,	  you	  can	  grip	  the	  edges	  of	  the	  cloak	  with	  
+both	  hands	  and	  use	  it	  to	  fly	  at	  a	  speed	  of	  40	  feet.	  If	  
+you	  ever	  fail	  to	  grip	  the	  cloak’s	  edges	  while	  flying	  in	  
+this	  way,	  or	  if	  you	  are	  no	  longer	  in	  dim	  light	  or	  
+darkness,	  you	  lose	  this	  flying	  speed. 	  
+	   While	  wearing	  the	  cloak	  in	  an	  area	  of	  dim	  light	  or	  
+darkness,	  you	  can	  use	  your	  action	  to	  cast	   polymorph	  
+on	  yourself,	  transforming	  into	  a	  bat.	  While	  you	  are	  in	  
+the	  form	  of	  the	  bat,	  you	  retain	  your	  Intelligence,	  
+Wisdom,	  and	  Charisma	  scores.	  The	  cloak	  can’t	  be	  
+used	  this	  way	  again	  until	  the	  next	  dawn. 	  
+Cloak of the Manta Ray 
+Wondrous	  item,	  uncommon 	  
+While	  wearing	  this	  clo ak	  with	  its	  hood	  up,	  you	  can	  
+breathe	  underwater,	  and	  you	  have	  a	  swimming	  
+speed	  of	  60	  feet.	  Pulling	  the	  hood	  up	  or	  down	  
+requires	  an	  action. 	  
+Crystal Ball 
+Wondrous	  item,	  very	  rare	  or	  legendary	  (requires	  
+attunement)	  
+The	  typical	  crystal	  ball,	  a	  very	  rare	  item,	   is	  about	  6	  
+inches	  in	  diameter.	  While	  touching	  it,	  you	  can	  cast	  
+the	  scrying	  spell	  (save	  DC	  17)	  with	  it. 	  
+	   The	  following	  crystal	  ball	  variants	  are	  legendary	  
+items	  and	  have	  additional	  properties. 	  
+	   Crystal	  Ball	  of	  Mind	  Reading. 	  You	  can	  use	  an	  
+action	  to	  cast	  the 	  detect	  thoughts 	  spell	  (save	  DC	  17)	  
+while	  you	  are	  scrying	  with	  the	   crystal	  ball,	  targeting	  
+creatures	  you	  can	  see	  within	  30	  feet	  of	  the	  spell’s	  
+sensor.	  You	  don’t	  need	  to	  concentrate	  on	  this	   detect	  
+thoughts	  to	  maintain	  it	  during	  its	  duration,	  but	  it	  
+ends	  if	  scrying	  ends.	  
+	   Crystal	  Ball	  of	  Telepathy. 	  While	  scrying	  with	  the	  
+crystal	  ball,	  you	  can	  communicate	  telepathically	  with	  
+creatures	  you	  can	  see	  within	  30	  feet	  of	  the	  spell’s	  
+sensor.	  You	  can	  also	  use	  an	  action	  to	  cast	  the	  
+suggestion	  spell	  (save	  DC	  17)	  through	   the	  sensor	  on	  

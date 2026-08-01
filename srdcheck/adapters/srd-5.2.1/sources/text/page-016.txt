@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+16
+rEstinG
+Adventurers can’t spend every hour adventuring. 
+They need rest. Any creature can take hour-long 
+Short Rests in the midst of a day and an 8-hour Long 
+Rest to end it. Regaining Hit Points is one of the main 
+benefits of a rest. “Rules Glossary” provides the 
+rules for Short and Long Rests.
+Controlling a Mount
+You can control a mount only if it has been trained 
+to accept a rider. Domesticated horses, mules, and 
+similar creatures have such training.
+ The Initiative of a controlled mount changes to 
+match yours when you mount it. It moves on your 
+turn as you direct it, and it has only three action op -
+tions during that turn: Dash, Disengage, and Dodge. 
+A controlled mount can move and act even on the 
+turn that you mount it.
+ In contrast, an independent mount—one that lets 
+you ride but ignores your control—retains its place 
+in the Initiative order and moves and acts as it likes.
+Falling Off
+If an effect is about to move your mount against its 
+will while you’re on it, you must succeed on a DC 10 
+Dexterity saving throw or fall off, landing with the 
+Prone condition (see “Rules Glossary”) in an unoc -
+cupied space within 5 feet of the mount.
+ While mounted, you must make the same save if 
+you’re knocked Prone or the mount is.
+Underwater Combat
+A fight underwater follows these rules.
+Impeded Weapons
+When making a melee attack roll with a weapon 
+underwater, a creature that lacks a Swim Speed has 
+Disadvantage on the attack roll unless the weapon 
+deals Piercing damage.
+ A ranged attack roll with a weapon underwater 
+automatically misses a target beyond the weapon’s 
+normal range, and the attack roll has Disadvantage 
+against a target within normal range.
+Fire Resistance
+Anything underwater has Resistance to Fire dam -
+age (explained in “Damage and Healing”).
+Damage and Healing
+Injury and death are frequent threats, as detailed in 
+the following rules.
+Hit Points
+Hit Points represent durability and the will to live. 
+Creatures with more Hit Points are more difficult 
+to kill. Your Hit Point maximum is the number of 
+Hit Points you have when uninjured. Your current 
+Hit Points can be any number from that maximum 
+down to 0, which is the lowest Hit Points can go.
+ Whenever you take damage, subtract it from your 
+Hit Points. Hit Point loss has no effect on your capa-
+bilities until you reach 0 Hit Points.
+ If you have half your Hit Points or fewer, you’re 
+Bloodied, which has no game effect on its own but 
+which might trigger other game effects.
+Damage Rolls
+Each weapon, spell, and damaging monster ability 
+specifies the damage it deals. You roll the damage 
+dice, add any modifiers, and deal the damage to 
+your target. If there’s a penalty to the damage, it’s 
+possible to deal 0 damage but not negative damage.
+ When attacking with a weapon, you add your abil -
+ity modifier—the same modifier used for the attack 
+roll—to the damage roll. A spell tells you which dice 
+to roll for damage and whether to add any modi -
+fiers. Unless a rule says otherwise, you don’t add 
+your ability modifier to a fixed damage amount that 
+doesn’t use a roll, such as the damage of a Blowgun. 
+See “Equipment” for weapons’ damage dice and 
+“Spells” for spells’ damage dice.
+Critical Hits
+When you score a Critical Hit, you deal extra dam -
+age. Roll the attack’s damage dice twice, add them 
+together, and add any relevant modifiers as normal. 
+For example, if you score a Critical Hit with a Dag -
+ger, roll 2d4 for the damage rather than 1d4, and 
+add your relevant ability modifier. If the attack in -
+volves other damage dice, such as from the Rogue’s 
+Sneak Attack feature, you also roll those dice twice.
+Saving Throws and Damage
+Damage dealt via saving throws uses these rules.
+Damage against Multiple Targets
+When you create a damaging effect that forces two 
+or more targets to make saving throws against it at 
+the same time, roll the damage once for all the tar -
+gets. For example, when a wizard casts Fireball, the 
+spell’s damage is rolled once for all creatures caught 
+in the blast.
+Half Damage
+Many saving throw effects deal half damage (round 
+down) to a target when the target succeeds on the 
+saving throw. The halved damage is equal to half 
+the damage that would be dealt on a failed save.
+Damage Types
+Each instance of damage has a type, like Fire 
+or Slashing. Damage types are listed in “Rules 

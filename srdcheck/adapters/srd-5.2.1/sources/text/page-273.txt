@@ -1,0 +1,97 @@
+273
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 15 +2 +2 Con 18 +4 +7
+Int 11 +0 +0 WIS 12 +1 +4 Cha 14 +2 +2
+Resistances Bludgeoning, Cold, Piercing, Slashing
+Immunities Fire, Poison; Poisoned
+Senses Darkvision 120 ft. (unimpeded by magical 
+Darkness); Passive Perception 11
+Languages Infernal; telepathy 120 ft.
+CR 8 (XP 3,900; PB +3)
+Traits
+Diabolical Restoration. If the devil dies outside the 
+Nine Hells, its body disappears in sulfurous smoke, and 
+it gains a new body instantly, reviving with all its Hit 
+Points somewhere in the Nine Hells.
+Magic Resistance. The devil has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The devil makes two Chain attacks and 
+uses Conjure Infernal Chain.
+Chain. Melee Attack Roll: +7 , reach 10 ft. Hit: 11 (2d6 
++ 4) Slashing damage. If the target is a Large or smaller 
+creature, it has the Grappled condition (escape DC 14) 
+from one of two chains, and it has the Restrained con-
+dition until the grapple ends.
+Conjure Infernal Chain. The devil conjures a fiery 
+chain to bind a creature. Dexterity Saving Throw: 
+DC 15, one creature the devil can see within 60 feet. 
+Failure: 9 (2d4 + 4) Fire damage, and the target has 
+the Restrained condition until the end of the devil’s 
+next turn, at which point the chain disappears. If the 
+target is Large or smaller, the devil moves the target 
+up to 30 feet straight toward itself. Success: The chain 
+disappears.
+Reactions
+Unnerving Gaze. Trigger: A creature the devil can 
+see starts its turn within 30 feet of the devil and can 
+see the devil. Response—Wisdom Saving Throw: DC 
+15, the triggering creature. Failure: The target has the 
+Frightened condition until the end of its turn. Success: 
+The target is immune to this devil’s Unnerving Gaze 
+for 24 hours.
+Chimera
+Chimera
+Large Monstrosity, Chaotic Evil
+AC 14  Initiative +0 (10)
+HP 114 (12d10 + 48)
+Speed 30 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 11 +0 +0 Con 19 +4 +4
+Int 3 −4 −4 WIS 14 +2 +2 Cha 10 +0 +0
+Skills Perception +8
+Senses Darkvision 60 ft.; Passive Perception 18
+Languages Understands Draconic but can’t speak
+CR 6 (XP 2,300; PB +3)
+Actions
+Multiattack. The chimera makes one Ram attack, one 
+Bite attack, and one Claw attack. It can replace the 
+Claw attack with a use of Fire Breath if available.
+Bite. Melee Attack Roll: +7 , reach 5 ft. Hit: 11 (2d6 + 4) 
+Piercing damage, or 18 (4d6 + 4) Piercing damage if the 
+chimera had Advantage on the attack roll.
+Claw. Melee Attack Roll: +7 , reach 5 ft. Hit: 7 (1d6 + 4) 
+Slashing damage.
+Ram. Melee Attack Roll: +7 , reach 5 ft. Hit: 10 (1d12 
++ 4) Bludgeoning damage. If the target is a Medium or 
+smaller creature, it has the Prone condition.
+Fire Breath (Recharge 5–6). Dexterity Saving Throw: 
+DC 15, each creature in a 15-foot Cone. Failure: 31 
+(7d8) Fire damage. Success: Half damage.
+Chuul
+Chuul
+Large Aberration, Chaotic Evil
+AC 16  Initiative +0 (10)
+HP 76 (9d10 + 27)
+Speed 30 ft., Swim 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 10 +0 +0 Con 16 +3 +3
+Int 5 −3 −3 WIS 11 +0 +0 Cha 5 −3 −3
+Skills Perception +4
+Immunities Poison; Poisoned
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages Understands Deep Speech but can’t speak
+CR 4 (XP 1,100; PB +2)
+Traits
+Amphibious. The chuul can breathe air and water.
+Sense Magic. The chuul senses magic within 120 feet of 
+itself. This trait otherwise works like the Detect Magic 
+spell but isn’t itself magical.
+Actions
+Multiattack. The chuul makes two Pincer attacks and 
+uses Paralyzing Tentacles.
+Pincer. Melee Attack Roll: +6, reach 10 ft. Hit: 9 (1d10 
++ 4) Bludgeoning damage. If the target is a Large or 
+smaller creature, it has the Grappled condition (escape 
+DC 14) from one of two pincers.

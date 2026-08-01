@@ -1,0 +1,104 @@
+System Reference Document 5.2.1
+177
+Area of Effect
+The descriptions of many spells and other features 
+specify that they have an area of effect, which typ -
+ically has one of six shapes. These shapes are de -
+fined elsewhere in this glossary:
+Cone
+Cube
+Cylinder
+Emanation
+Line
+Sphere
+An area of effect has a point of origin, a location 
+from which the effect’s energy erupts. The rules for 
+each shape specify how to position its point of ori -
+gin. If all straight lines extending from the point of 
+origin to a location in the area of effect are blocked, 
+that location isn’t included in the area of effect. 
+To block a line, an obstruction must provide Total 
+Cover. See also “Cover.”
+ If the creator of an area of effect places it at an 
+unseen point and an obstruction—such as a wall—
+is between the creator and that point, the point 
+of origin comes into being on the near side of the 
+obstruction.
+Armor Class
+An Armor Class (AC) is the target number for an 
+attack roll. AC represents how difficult it is to hit a 
+target.
+ Your base AC calculation is 10 plus your Dexterity 
+modifier. If a rule gives you another base AC calcula-
+tion, you choose which calculation to use; you can’t 
+use more than one. See also  “Attack Roll.”
+Armor Training
+Armor training allows you to use armor of a certain 
+category without the following drawbacks. If you 
+wear Light, Medium, or Heavy armor and lack train -
+ing with it, you have Disadvantage on any D20 Test 
+that involves Strength or Dexterity, and you can’t 
+cast spells. If you use a Shield and lack training with 
+it, you don’t gain its AC bonus. See also  “Disadvan-
+tage” and “Equipment” (“Armor”).
+Attack [Action]
+When you take the Attack action, you can make one 
+attack roll with a weapon or an Unarmed Strike.
+ Equipping and Unequipping Weapons. You can 
+either equip or unequip one weapon when you make 
+an attack as part of this action. You do so either 
+before or after the attack. If you equip a weapon 
+before an attack, you don’t need to use it for that at -
+tack. Equipping a weapon includes drawing it from 
+a sheath or picking it up. Unequipping a weapon in -
+cludes sheathing, stowing, or dropping it.
+ Moving between Attacks. If you move on your 
+turn and have a feature, such as Extra Attack, that 
+gives you more than one attack as part of the Attack 
+action, you can use some or all of that movement to 
+move between those attacks.
+Attack Roll
+An attack roll is a D20 Test that represents making 
+an attack with a weapon, an Unarmed Strike, or a 
+spell. See also “Playing the Game” (“D20 Tests”).
+Attitude
+A monster has a starting attitude toward a player 
+character: Friendly, Hostile, or Indifferent. See also  
+“Friendly,” “Hostile,” “Indifferent,” and “Influence.”
+Attunement
+Some magic items require a creature to form a 
+bond—called Attunement—with them before the 
+creature can use an item’s magical properties. A 
+creature can have Attunement with no more than 
+three magic items at a time. See also  “Equipment” 
+(“Magic Items”).
+Blinded [Condition]
+While you have the Blinded condition, you experi -
+ence the following effects.
+ Can’t See. You can’t see and automatically fail any 
+ability check that requires sight.
+ Attacks Affected.  Attack rolls against you have 
+Advantage, and your attack rolls have Disadvantage.
+Blindsight
+If you have Blindsight, you can see within a specific 
+range without relying on physical sight. Within that 
+range, you can see anything that isn’t behind Total 
+Cover even if you have the Blinded condition or are 
+in Darkness. Moreover, in that range, you can see 
+something that has the Invisible condition.
+Bloodied
+A creature is Bloodied while it has half its Hit Points 
+or fewer remaining.
+Bonus Action
+A Bonus Action is a special action that you can take 
+on the same turn that you take an action. You can’t 
+take more than one Bonus Action on a turn, and you 
+have a Bonus Action to take only if a rule explicitly 
+says so. See also “Playing the Game” (“Actions”).
+Breaking Objects
+Objects can be harmed by attacks and by some 
+spells, using the rules below. If an object is exceed -
+ingly fragile, the GM may allow a creature to break 
+it automatically with the Attack or Utilize action.
+ Armor Class. The Object Armor Class table sug -
+gests ACs for various substances.

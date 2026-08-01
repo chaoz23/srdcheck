@@ -1,0 +1,114 @@
+System Reference Document 5.2.1
+42
+how you use those rules with Druid spells, which 
+appear on the Druid spell list later in the class’s 
+description.
+ Cantrips. You know two cantrips of your choice 
+from the Druid spell list. Druidcraft  and Produce 
+Flame are recommended.
+ Whenever you gain a Druid level, you can replace 
+one of your cantrips with another cantrip of your 
+choice from the Druid spell list.
+ When you reach Druid levels 4 and 10, you learn 
+another cantrip of your choice from the Druid spell 
+list, as shown in the Cantrips column of the Druid 
+Features table.
+ Spell Slots. The Druid Features table shows how 
+many spell slots you have to cast your level 1+ 
+spells. You regain all expended slots when you fin -
+ish a Long Rest.
+ Prepared Spells of Level 1+. You prepare the 
+list of level 1+ spells that are available for you to 
+cast with this feature. To start, choose four level 1 
+spells from the Druid spell list. Animal Friendship , 
+Cure Wounds, Faerie Fire, and Thunderwave are 
+recommended.
+ The number of spells on your list increases as you 
+gain Druid levels, as shown in the Prepared Spells 
+column of the Druid Features table. Whenever that 
+number increases, choose additional spells from the 
+Druid spell list until the number of spells on your 
+list matches the number on the table. The chosen 
+spells must be of a level for which you have spell 
+slots. For example, if you’re a level 3 Druid, your list 
+of prepared spells can include six spells of levels 1 
+and 2 in any combination.
+ If another Druid feature gives you spells that 
+you always have prepared, those spells don’t count 
+against the number of spells you can prepare with 
+this feature, but those spells otherwise count as 
+Druid spells for you.
+ Changing Your Prepared Spells. Whenever you 
+finish a Long Rest, you can change your list of pre -
+pared spells, replacing any of the spells with other 
+Druid spells for which you have spell slots.
+ Spellcasting Ability. Wisdom is your spellcasting 
+ability for your Druid spells.
+ Spellcasting Focus. You can use a Druidic Focus 
+as a Spellcasting Focus for your Druid spells.
+Level 1: Druidic
+You know Druidic, the secret language of Druids. 
+While learning this ancient tongue, you also un -
+locked the magic of communicating with animals; 
+you always have the Speak with Animals  spell 
+prepared.
+ You can use Druidic to leave hidden messages. You 
+and others who know Druidic automatically spot 
+such a message. Others spot the message’s presence 
+with a successful DC 15 Intelligence (Investigation) 
+check but can’t decipher it without magic.
+Level 1: Primal Order
+You have dedicated yourself to one of the following 
+sacred roles of your choice.
+ Magician.  You know one extra cantrip from the 
+Druid spell list. In addition, your mystical connec -
+tion to nature gives you a bonus to your Intelligence 
+(Arcana or Nature) checks. The bonus equals your 
+Wisdom modifier (minimum bonus of +1).
+ Warden.  Trained for battle, you gain proficiency 
+with Martial weapons and training with Medium 
+armor.
+Level 2: Wild Shape
+The power of nature allows you to assume the form 
+of an animal. As a Bonus Action, you shape-shift into 
+a Beast form that you have learned for this feature 
+(see “Known Forms” below). You stay in that form 
+for a number of hours equal to half your Druid level 
+or until you use Wild Shape again, have the Incapac -
+itated condition, or die. You can also leave the form 
+early as a Bonus Action.
+ Number of Uses. You can use Wild Shape twice. 
+You regain one expended use when you finish a 
+Short Rest, and you regain all expended uses when 
+you finish a Long Rest.
+ You gain additional uses when you reach certain 
+Druid levels, as shown in the Wild Shape column of 
+the Druid Features table.
+ Known Forms. You know four Beast forms for this 
+feature, chosen from among Beast stat blocks that 
+have a maximum Challenge Rating of 1/4 and that 
+lack a Fly Speed (see “Animals” in “Monsters” for 
+stat block options). The Rat, Riding Horse, Spider , 
+and Wolf are recommended. Whenever you finish a 
+Long Rest, you can replace one of your known forms 
+with another eligible form.
+ When you reach certain Druid levels, your number 
+of known forms and the maximum Challenge Rating 
+for those forms increases, as shown in the Beast 
+Shapes table. In addition, starting at level 8, you can 
+adopt a form that has a Fly Speed.
+ When choosing known forms, you may look in 
+other sources for eligible Beasts if the Game Master 
+permits you to do so.
+Beast Shapes
+Druid
+Level
+Known
+Forms
+Max
+CR
+Fly 
+Speed
+2 4 1/4 No
+4 6 1/2 No
+8 8 1 Yes

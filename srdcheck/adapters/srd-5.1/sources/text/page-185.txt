@@ -1,0 +1,101 @@
+System	  Reference	   Document	  5.1 	   185	  
+	   Discord.	  Each	  target	  must	  make	  a	  Constitution	  
+saving	  throw.	  On	  a	  failed	  save,	  a	  target	  bickers	  and	  
+argues	  with	  other	  creatures	  for	  1	  minute.	  During	  this	  
+time,	  it	  is	  incapable	  of	  meaningful	  communication	  
+and	  has	  disadvantage	  on	  attack	  rolls	  and	  ability	  
+checks.	  
+	   Fear.	  Each	  target	  must	  make	  a	  Wisdom	  saving	  
+throw	  and	  becomes	  frightened	  for	  1	  minute	  on	  a	  
+failed	  save.	  While	  frightened,	  the	  target	  drops	  
+whatever	  it	  is	  holding	  and	  must	  move	  at	  least	  30	  feet	  
+away	  from	  the	  glyph	  on	  each	  of	  its	  turns,	  if	  able. 	  
+	   Hopelessness. 	  Each	  target	  must	  make	  a	  Charisma	  
+saving	  throw.	  On	  a	   failed	  save,	  the	  target	  is	  
+overwhelmed	  with	  despair	  for	  1	  minute.	  During	  this	  
+time,	  it	  can’t	  attack	  or	  target	  any	  creature	  with	  
+harmful	  abilities,	  spells,	  or	  other	  magical	  effects. 	  
+	   Insanity.	  Each	  target	  must	  make	  an	  Intelligence	  
+saving	  throw.	  On	  a	  failed 	  save,	  the	  target	  is	  driven	  
+insane	  for	  1	  minute.	  An	  insane	  creature	  can’t	  take	  
+actions,	  can’t	  understand	  what	  other	  creatures	  say,	  
+can’t	  read,	  and	  speaks	  only	  in	  gibberish.	  The	  GM	  
+controls	  its	  movement,	  which	  is	  erratic. 	  
+	   Pain.	  Each	  target	  must	  make	  a	  Cons titution	  saving	  
+throw	  and	  becomes	  incapacitated	  with	  excruciating	  
+pain	  for	  1	  minute	  on	  a	  failed	  save. 	  
+	   Sleep.	  Each	  target	  must	  make	  a	  Wisdom	  saving	  
+throw	  and	  falls	  unconscious	  for	  10	  minutes	  on	  a	  
+failed	  save.	  A	  creature	  awakens	  if	  it	  takes	  damage	  or	  
+if	  someone	  uses	  an	  action	  to	  shake	  or	  slap	  it	  awake. 	  
+	   Stunning.	  Each	  target	  must	  make	  a	  Wisdom	  
+saving	  throw	  and	  becomes	  stunned	  for	  1	  minute	  on	  
+a	  failed	  save.	  
+Telekinesis 
+5th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  gain	  the	  ability	  to	  move	  or	  manipulate	  creatures	  
+or	  objects	  by	  thought.	  When	  you	  cast	  the	  spell,	  and	  
+as	  your	  action	  each	  round	  for	  the	  duration,	  you	  can	  
+exert	  your	  will	  on	  one	  creature	  or	  object	  that	  you	  
+can	  see	  within	  range,	  causing	  the	  appropriate	  effect	  
+below.	  You	  can	  affect	  the	  same	  target	  round	  after	  
+round,	  or	  choose	  a	  new	  one	  at	  any	  time.	  If	  you	  switch	  
+targets,	  the	  prior	  target	  is	  no	  longer	  affected	  by	  the	  
+spell.	  
+	   Creature.	  You	  can	  try	  to	  move	  a	  Huge	  or	  smaller	  
+creature.	  Make	  an	  ability	  check	  with	  your	  
+spellcasting	  ability	  contested	  by	  the	  creature’s	  
+Strength	  check.	  If	  you	  win	  the	  contest,	  you	  move	  the	  
+creature	  up	  to	  30	  feet	  in	  any	  direction,	  including	  
+upward	  but	  not	  beyond	  the	  range	  of	  this	  spell.	  Until	  
+the	  end	  of	  your	  next	  turn,	  the	  creature	  is	  restrained	  
+in	  your	  telekinetic	  grip.	  A	  creature	  lifted	  upward	  is	  
+suspended	  in	  mid -­‐‑air.	  
+	   On	  subsequent	  rounds,	  you	  can	  use	  your	  action	  to	  
+attempt	  to	  maintain	  your	  telekinetic	  grip	  on	  the	  
+creature	  by	  repeating	  the	  contest. 	  
+	   Object.	  You	  can	  try	  to	  move	  an	  object	  that	  weighs	  
+up	  to	  1,000	  pounds.	  If	  the	  object	  isn’t	  being	  worn	  or	  
+carried,	  you	  automatically	  move	  it	  up	  to	  30	  feet	  in	  
+any	  direction,	  but	  not	  beyond	  the	  range	  of	  this	  spell. 	  
+	   If	  the	  object	  is	  worn	  or	  carried	  by	  a	  creatu re,	  you	  
+must	  make	  an	  ability	  check	  with	  your	  spellcasting	  
+ability	  contested	  by	  that	  creature’s	  Strength	  check.	  If	  
+you	  succeed,	  you	  pull	  the	  object	  away	  from	  that	  
+creature	  and	  can	  move	  it	  up	  to	  30	  feet	  in	  any	  
+direction	  but	  not	  beyond	  the	  range	  of	  this	  spell .	  
+	   You	  can	  exert	  fine	  control	  on	  objects	  with	  your	  
+telekinetic	  grip,	  such	  as	  manipulating	  a	  simple	  tool,	  
+opening	  a	  door	  or	  a	  container,	  stowing	  or	  retrieving	  
+an	  item	  from	  an	  open	  container,	  or	  pouring	  the	  
+contents	  from	  a	  vial. 	  
+Telepathic Bond 
+5th-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (pieces	  of	  eggshell	  from	  two	  
+different	  kinds	  of	  creatures) 	  
+Duration:	  1	  hour	  
+You	  forge	  a	  telepathic	  link	  among	  up	  to	  eight	  willing	  
+creatures	  of	  your	  choice	  within	  range,	  psychically	  
+linking	  each	  creature	  to	  all	  the	  others	  for	  the	  
+duration.	  Creatures	  with	  Intelligence	  scores	  of	  2	  or	  
+less	  aren’t	  affected	  by	  this	  spell. 	  
+	   Until	  the	  spell	  ends,	  the	  targets	  can	  communicate	  
+telepathically	  through	  the	  bond	  whether	  or	  not	  they	  
+have	  a	  common	  la nguage.	  The	  communication	  is	  
+possible	  over	  any	  distance,	  though	  it	  can’t	  extend	  to	  
+other	  planes	  of	  existence. 	  
+Teleport 
+7th-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  10	  feet	  
+Components:	  V	  
+Duration:	  Instantaneous	  
+This	  spell	  instantly	  transports	  you	  and 	  up	  to	  eight	  
+willing	  creatures	  of	  your	  choice	  that	  you	  can	  see	  
+within	  range,	  or	  a	  single	  object	  that	  you	  can	  see	  

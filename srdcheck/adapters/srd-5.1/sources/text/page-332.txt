@@ -1,0 +1,76 @@
+System	  Reference	   Document	  5.1 	   332	  
+Hit	  Points	  21	  (6d6)	  
+Speed	  30	  ft.,	  fly	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+5	  (−3)	   11	  (+0)	   10	  (+0)	   11	  (+0)	   10	  (+0)	   12	  (+1)	  
+Damage	  Immunities 	  fire,	  poison	  
+Condition	  Immunities 	  poisoned	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  Aquan,	  Ignan	  
+Challenge	  1/4	  (50	  XP)	  
+Death	  Burst.	  When	  the	  mephit	  dies,	  it	  explodes	  in	  a	  
+cloud	  of	  steam.	  Each	  creature	  within	  5	  feet	  of	  the	  
+mephit	  must	  succeed	  on	  a	  DC	  10	  Dexterity	  saving	  
+throw	  or	  take	  4	  (1d8)	  fire	  damage. 	  
+Innate	  Spellcasting	  (1/Day). 	  The	  mephit	  can	  innately	  
+cast	  blur,	  requiring	  no	  material	  components.	  Its	  innate	  
+spellcasting	  ability	  is	  Charisma. 	  
+Actions	  
+Claws.	  Melee	  Weapon	  Attack:	   +2	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  2	  (1d4)	  slashing	  damage	  plus	  2	  (1d4)	  fire	  
+damage.	  
+Steam	  Breath	  (Recharge	  6).	   The	  mephit	  exhales	  a	  15 -­‐
+foot	  cone	  of	  scalding	  steam.	  Each	  creature	  in	  that	  area	  
+must	  succeed	  on	  a	  DC	  10	  Dexterity	  saving	  throw,	  taking	  
+4	  (1d8)	  fire	  damage	  on	  a	  failed	  save,	  or	  half	  as	  much	  
+damage	  on	  a	  successful	  one. 	  
+Merfolk	  
+Medium	  humanoid	  (merfolk),	  neutral 	  
+Armor	  Class	  11	  
+Hit	  Points	  11	  (2d8	  +	  2)	  
+Speed	  10	  ft.,	  swim	  40	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   13	  (+1)	   12	  (+1)	   11	  (+0)	   11	  (+0)	   12	  (+1)	  
+Skills	  Perception	  +2	  
+Senses	  passive	  Perception	  12 	  
+Languages	  Aquan,	  Common 	  
+Challenge	  1/8	  (25	  XP)	  
+Amphibious.	  The	  merfolk	  can	  breathe	  air	  and	   water.	  
+Actions	  
+Spear.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +2	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  20/60	  ft.,	  one	  target.	   Hit:	  3	  (1d6)	  
+piercing	  damage,	  or	  4	  (1d8)	  piercing	  damage	  if	  used	  
+with	  two	  hands	  to	  make	  a	  melee	  attack. 	  
+Merrow	  
+Large	  monstrosity,	  chaotic	  evil 	  
+Armor	  Class	  13	  (natural	  armor) 	  
+Hit	  Points	  45	  (6d10	  +	  12)	  
+Speed	  10	  ft.,	  swim	  40	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   10	  (+0)	   15	  (+2)	   8	  (−1)	   10	  (+0)	   9	  (−1)	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  10 	  
+Languages	  Abyssal,	  Aquan 	  
+Challenge	  2	  (450	  XP)	  
+Amphibious.	  The	  merrow	  can	  breathe	  air	  and	  water. 	  
+Actions	  
+Multiattack.	  The	  merrow	  makes	  two	  attacks:	  one	  with	  
+its	  bite	  and	  one	  with	  its	  claws	  or	  harpoon. 	  
+Bite.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  8	  (1d8	  +	  4)	  piercing	  damage. 	  
+Claws.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  9	  (2d4	  +	  4)	  slashing	  damage. 	  
+Harpoon.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +6	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  20/60	  ft.,	  one	  target.	   Hit:	  11	  (2d6	  +	  
+4) piercing	  damage.	  If	  the	  target	  is	  a	  Huge	  or	  smaller
+creature,	  it	  must	  succeed	  on	  a	  Strength	  contest	  agains t
+the	  merrow	  or	  be	  pulled	  up	  to	  20	  feet	  toward	  the
+merrow.
+Mimic	  
+Medium	  monstrosity	  (shapechanger),	  neutral 	  
+Armor	  Class	  12	  (natural	  armor) 	  
+Hit	  Points	  58	  (9d8	  +	  18)	  
+Speed	  15	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+17	  (+3)	   12	  (+1)	   15	  (+2)	   5	  (−3)	   13	  (+1)	   8	  (−1)	  
+Skills	  Stealth	  +5	  
+Damage	  Immunities 	  acid	  

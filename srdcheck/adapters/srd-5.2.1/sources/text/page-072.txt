@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+72
+against the number of spells you can prepare with 
+this feature, but those spells otherwise count as 
+Warlock spells for you.
+ Changing Your Prepared Spells. Whenever you 
+gain a Warlock level, you can replace one spell on 
+your list with another Warlock spell of an eligible 
+level.
+ Spellcasting Ability. Charisma is the spellcasting 
+ability for your Warlock spells.
+ Spellcasting Focus. You can use an Arcane Focus 
+as a Spellcasting Focus for your Warlock spells.
+Level 2: Magical Cunning
+You can perform an esoteric rite for 1 minute. At 
+the end of it, you regain expended Pact Magic spell 
+slots but no more than a number equal to half your 
+maximum (round up). Once you use this feature, you 
+can’t do so again until you finish a Long Rest.
+Level 3: Warlock Subclass
+You gain a Warlock subclass of your choice. The 
+Fiend Patron subclass is detailed after this class’s 
+description. A subclass is a specialization that 
+grants you features at certain Warlock levels. For 
+the rest of your career, you gain each of your sub -
+class’s features that are of your Warlock level or 
+lower.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Warlock levels 
+8, 12, and 16.
+Level 9: Contact Patron
+In the past, you usually contacted your patron 
+through intermediaries. Now you can communicate 
+directly; you always have the Contact Other Plane  
+spell prepared. With this feature, you can cast the 
+spell without expending a spell slot to contact your 
+patron, and you automatically succeed on the spell’s 
+saving throw.
+ Once you cast the spell with this feature, you can’t 
+do so in this way again until you finish a Long Rest.
+Level 11: Mystic Arcanum
+Your patron grants you a magical secret called an 
+arcanum. Choose one level 6 Warlock spell as this 
+arcanum.
+ You can cast your arcanum spell once without ex -
+pending a spell slot, and you must finish a Long Rest 
+before you can cast it in this way again.
+ As shown in the Warlock Features table, you gain 
+another Warlock spell of your choice that can be 
+cast in this way when you reach Warlock levels 
+13 (level 7 spell), 15 (level 8 spell), and 17 (level 9 
+spell). You regain all uses of your Mystic Arcanum 
+when you finish a Long Rest.
+ Whenever you gain a Warlock level, you can re -
+place one of your arcanum spells with another War -
+lock spell of the same level.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of 
+Fate is recommended.
+Level 20: Eldritch Master
+When you use your Magical Cunning feature, you 
+regain all your expended Pact Magic spell slots.
+Eldritch Invocation Options
+Eldritch Invocation options appear in alphabetical 
+order.
+Agonizing Blast
+Prerequisite: Level 2+ Warlock, a Warlock Cantrip 
+That Deals Damage
+Choose one of your known Warlock cantrips that 
+deals damage. You can add your Charisma modifier 
+to that spell’s damage rolls.
+ Repeatable. You can gain this invocation more 
+than once. Each time you do so, choose a different 
+eligible cantrip.
+Armor of Shadows
+You can cast Mage Armor on yourself without ex-
+pending a spell slot.
+Ascendant Step
+Prerequisite: Level 5+ Warlock
+You can cast Levitate on yourself without expending 
+a spell slot.
+Devil’s Sight
+Prerequisite: Level 2+ Warlock
+You can see normally in Dim Light and Darkness—
+both magical and nonmagical—within 120 feet of 
+yourself.
+Devouring Blade
+Prerequisite: Level 12+ Warlock, Thirsting Blade 
+Invocation
+The Extra Attack of your Thirsting Blade invocation 
+confers two extra attacks rather than one.
+Eldritch Mind
+You have Advantage on Constitution saving throws 
+that you make to maintain Concentration.
+Eldritch Smite
+Prerequisite: Level 5+ Warlock, Pact of the Blade 
+Invocation
+Once per turn when you hit a creature with your 
+pact weapon, you can expend a Pact Magic spell slot 
+to deal an extra 1d8 Force damage to the target, 

@@ -1,0 +1,100 @@
+System Reference Document 5.2.1
+236
+Potions of Healing
+Potion, Rarity Varies 
+You regain Hit Points when you drink this potion. 
+The number of Hit Points depends on the potion’s 
+rarity, as shown in the table below.
+ Whatever its potency, the potion’s red liquid glim -
+mers when agitated.
+Potion HP Regained Rarity
+Potion of Healing 2d4 + 2 Common
+Potion of Healing 
+(greater)
+4d4 + 4 Uncommon
+Potion of Healing 
+(superior)
+8d4 + 8 Rare
+Potion of Healing 
+(supreme)
+10d4 + 20 Very Rare
+Potion of Heroism
+Potion, Rare 
+When you drink this potion, you gain 10 Temporary 
+Hit Points that last for 1 hour. For the same dura-
+tion, you are under the effect of the Bless  spell (no 
+Concentration required).
+ This potion’s blue liquid bubbles and steams as if 
+boiling.
+Potion of Invisibility
+Potion, Rare 
+This potion’s container looks empty but feels as 
+though it holds liquid. When you drink the potion, 
+you have the Invisible condition for 1 hour. The 
+effect ends early if you make an attack roll, deal 
+damage, or cast a spell.
+Potion of Invulnerability
+Potion, Rare 
+For 1 minute after you drink this potion, you have 
+Resistance to all damage.
+ This potion’s syrupy liquid looks like liquefied 
+iron.
+Potion of Longevity
+Potion, Very Rare 
+When you drink this potion, your physical age is 
+reduced by 1d6 + 6 years, to a minimum of 13 years. 
+Each time you subsequently drink a Potion of Lon-
+gevity, there is 10 percent cumulative chance that 
+you instead age by 1d6 + 6 years.
+ Suspended in this amber liquid is a tiny heart that, 
+against all reason, is still beating. These ingredients 
+vanish when the potion is opened.
+Potion of Mind Reading
+Potion, Rare 
+When you drink this potion, you gain the effect of 
+the Detect Thoughts  spell (save DC 13) for 10 min-
+utes (no Concentration required). 
+ This potion’s dense, purple liquid has an ovoid 
+cloud of pink floating in it.
+Potion of Poison
+Potion, Uncommon 
+This concoction looks, smells, and tastes like a 
+Potion of Healing or another beneficial potion. How -
+ever, it is actually poison masked by illusion magic. 
+Identify reveals its true nature.
+ If you drink this potion, you take 4d6 Poison dam -
+age and must succeed on a DC 13 Constitution sav -
+ing throw or have the Poisoned condition for 1 hour.
+Potion of Resistance
+Potion, Uncommon 
+When you drink this potion, you have Resistance to 
+one type of damage for 1 hour. The GM chooses the 
+type or determines it randomly by rolling on the 
+following table.
+1d10 Damage Type 1d10 Damage Type
+1 Acid 6 Necrotic
+2 Cold 7 Poison
+3 Fire 8 Psychic
+4 Force 9 Radiant
+5 Lightning 10 Thunder
+Potion of Speed
+Potion, Very Rare 
+When you drink this potion, you gain the effect of 
+the Haste spell for 1 minute (no Concentration re -
+quired) without suffering the wave of lethargy that 
+typically occurs when the effect ends.
+ This potion’s yellow fluid is streaked with black 
+and swirls on its own.
+Potion of Vitality
+Potion, Very Rare 
+When you drink this potion, it removes any 
+Exhaustion levels you have and ends the Poisoned 
+condition on you. For the next 24 hours, you regain 
+the maximum number of Hit Points for any Hit Point 
+Die you spend.
+ This potion’s crimson liquid regularly pulses with 
+dull light, calling to mind a heartbeat.
+Potion of Water Breathing
+Potion, Uncommon 
+You can breathe underwater for 24 hours after 
+drinking this potion.

@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+164
+Speak with Animals
+Level 1 Divination (Bard, Druid, Ranger, Warlock)
+Casting Time: Action or Ritual
+Range: Self
+Components: V, S
+Duration: 10 minutes
+For the duration, you can comprehend and verbally 
+communicate with Beasts, and you can use any of 
+the Influence action’s skill options with them.
+ Most Beasts have little to say about topics that 
+don’t pertain to survival or companionship, but at 
+minimum, a Beast can give you information about 
+nearby locations and monsters, including whatever 
+it has perceived within the past day.
+Speak with Dead
+Level 3 Necromancy (Bard, Cleric, Wizard)
+Casting Time: Action
+Range: 10 feet
+Components: V, S, M (burning incense)
+Duration: 10 minutes
+You grant the semblance of life to a corpse of your 
+choice within range, allowing it to answer ques -
+tions you pose. The corpse must have a mouth, and 
+this spell fails if the deceased creature was Undead 
+when it died. The spell also fails if the corpse was 
+the target of this spell within the past 10 days.
+ Until the spell ends, you can ask the corpse up to 
+five questions. The corpse knows only what it knew 
+in life, including the languages it knew. Answers are 
+usually brief, cryptic, or repetitive, and the corpse 
+is under no compulsion to offer a truthful answer if 
+you are antagonistic toward it or it recognizes you 
+as an enemy. This spell doesn’t return the creature’s 
+soul to its body, only its animating spirit. Thus, the 
+corpse can’t learn new information, doesn’t compre -
+hend anything that has happened since it died, and 
+can’t speculate about future events.
+Speak with Plants
+Level 3 Transmutation (Bard, Druid, Ranger)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: 10 minutes
+You imbue plants in an immobile 30-foot Emanation 
+with limited sentience and animation, giving them 
+the ability to communicate with you and follow your 
+simple commands. You can question plants about 
+events in the spell’s area within the past day, gain -
+ing information about creatures that have passed, 
+weather, and other circumstances.
+ You can also turn Difficult Terrain caused by plant 
+growth (such as thickets and undergrowth) into 
+ordinary terrain that lasts for the duration. Or you 
+can turn ordinary terrain where plants are present 
+into Difficult Terrain that lasts for the duration.
+ The spell doesn’t enable plants to uproot them -
+selves and move about, but they can move their 
+branches, tendrils, and stalks for you.
+ If a Plant creature is in the area, you can commu -
+nicate with it as if you shared a common language.
+Spider Climb
+Level 2 Transmutation (Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a drop of bitumen and a spider)
+Duration: Concentration, up to 1 hour
+Until the spell ends, one willing creature you touch 
+gains the ability to move up, down, and across 
+vertical surfaces and along ceilings, while leaving 
+its hands free. The target also gains a Climb Speed 
+equal to its Speed.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 2.
+Spike Growth
+Level 2 Transmutation (Druid, Ranger)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (seven thorns)
+Duration: Concentration, up to 10 minutes
+The ground in a 20-foot-radius Sphere centered 
+on a point within range sprouts hard spikes and 
+thorns. The area becomes Difficult Terrain for the 
+duration. When a creature moves into or within the 
+area, it takes 2d4 Piercing damage for every 5 feet it 
+travels.
+ The transformation of the ground is camouflaged 
+to look natural. Any creature that can’t see the area 
+when the spell is cast must take a Search action 
+and succeed on a Wisdom (Perception or Survival) 
+check against your spell save DC to recognize the 
+terrain as hazardous before entering it.
+Spirit Guardians
+Level 3 Conjuration (Cleric)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a prayer scroll)
+Duration: Concentration, up to 10 minutes
+Protective spirits flit around you in a 15-foot Ema-
+nation for the duration. If you are good or neutral, 
+their spectral form appears angelic or fey (your 
+choice). If you are evil, they appear fiendish.
+ When you cast this spell, you can designate crea-
+tures to be unaffected by it. Any other creature’s 
+Speed is halved in the Emanation, and whenever the 
+Emanation enters a creature’s space and whenever 

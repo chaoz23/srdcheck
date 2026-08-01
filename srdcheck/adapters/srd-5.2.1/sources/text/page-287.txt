@@ -1,0 +1,99 @@
+287
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 3 −4 −4 Con 20 +5 +5
+Int 1 −5 −5 WIS 6 −2 −2 Cha 1 −5 −5
+Immunities Acid; Blinded, Charmed, Deafened, 
+Exhaustion, Frightened, Prone
+Senses Blindsight 60 ft.; Passive Perception 8
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Ooze Cube. The cube fills its entire space and is trans-
+parent. Other creatures can enter that space, but a 
+creature that does so is subjected to the cube’s Engulf 
+and has Disadvantage on the saving throw. 
+ Creatures inside the cube have Total Cover, and the 
+cube can hold one Large creature or up to four Medium 
+or Small creatures inside itself at a time. 
+ As an action, a creature within 5 feet of the cube can 
+pull a creature or an object out of the cube by suc-
+ceeding on a DC 12 Strength (Athletics) check, and the 
+puller takes 10 (3d6) Acid damage.
+Transparent. Even when the cube is in plain sight, a 
+creature must succeed on a DC 15 Wisdom (Percep-
+tion) check to notice the cube if the creature hasn’t wit-
+nessed the cube move or otherwise act.
+Actions
+Pseudopod. Melee Attack Roll: +4, reach 5 ft. Hit: 12 
+(3d6 + 2) Acid damage.
+Engulf. The cube moves up to its Speed without 
+provoking Opportunity Attacks. The cube can move 
+through the spaces of Large or smaller creatures if it has 
+room inside itself to contain them (see the Ooze Cube 
+trait). Dexterity Saving Throw: DC 12, each creature 
+whose space the cube enters for the first time during 
+this move. Failure: 10 (3d6) Acid damage, and the target 
+is engulfed. An engulfed target is suffocating, can’t cast 
+spells with a Verbal component, has the Restrained 
+condition, and takes 10 (3d6) Acid damage at the start 
+of each of the cube’s turns. When the cube moves, 
+the engulfed target moves with it. An engulfed target 
+can try to escape by taking an action to make a DC 
+12 Strength (Athletics) check. On a successful check, 
+the target escapes and enters the nearest unoccupied 
+space. Success: Half damage, and the target moves to 
+an unoccupied space within 5 feet of the cube. If there 
+is no unoccupied space, the target fails the save instead.
+Ghast
+Ghast
+Medium Undead, Chaotic Evil
+AC 13  Initiative +3 (13)
+HP 36 (8d8)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 17 +3 +3 Con 10 +0 +0
+Int 11 +0 +0 WIS 10 +0 +2 Cha 8 −1 −1
+Resistances Necrotic
+Immunities Poison; Charmed, Exhaustion, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages Common
+CR 2 (XP 450; PB +2)
+Traits
+Stench. Constitution Saving Throw: DC 10, any creature 
+that starts its turn in a 5-foot Emanation originating from 
+the ghast. Failure: The target has the Poisoned condi-
+tion until the start of its next turn. Success: The target is 
+immune to this ghast’s Stench for 24 hours.
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) 
+Piercing damage plus 9 (2d8) Necrotic damage.
+Claw. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 
++ 3) Slashing damage. If the target is a non-Undead 
+creature, it is subjected to the following effect. Consti-
+tution Saving Throw: DC 10. Failure: The target has the 
+Paralyzed condition until the end of its next turn.
+Ghost
+Ghost
+Medium Undead, Neutral
+AC 11  Initiative +1 (11)
+HP 45 (10d8)
+Speed 5 ft., Fly 40 ft. (hover)
+MOD SAVE MOD SAVE MOD SAVE
+Str 7 −2 −2 Dex 13 +1 +1 Con 10 +0 +0
+Int 10 +0 +0 WIS 12 +1 +1 Cha 17 +3 +3
+Resistances Acid, Bludgeoning, Cold, Fire, Lightning, 
+Piercing, Slashing, Thunder
+Immunities Necrotic, Poison; Charmed, Exhaustion, 
+Frightened, Grappled, Paralyzed, Petrified, Poisoned, 
+Prone, Restrained
+Senses Darkvision 60 ft.; Passive Perception 11
+Languages Common plus one other language
+CR 4 (XP 1,100; PB +2)
+Traits
+Ethereal Sight. The ghost can see 60 feet into the Ethe-
+real Plane when it is on the Material Plane.
+Incorporeal Movement. The ghost can move through 
+other creatures and objects as if they were Difficult 
+Terrain. It takes 5 (1d10) Force damage if it ends its turn 
+inside an object.

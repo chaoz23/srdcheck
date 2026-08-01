@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+148
+Mass Healing Word
+Level 3 Abjuration (Bard, Cleric)
+Casting Time: Bonus Action
+Range: 60 feet
+Components: V
+Duration: Instantaneous
+Up to six creatures of your choice that you can see 
+within range regain Hit Points equal to 2d4 plus 
+your spellcasting ability modifier.
+ Using a Higher-Level Spell Slot. The healing in-
+creases by 1d4 for each spell slot level above 3.
+Mass Suggestion
+Level 6 Enchantment (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, M (a snake’s tongue)
+Duration: 24 hours
+You suggest a course of activity—described in no 
+more than 25 words—to twelve or fewer creatures 
+you can see within range that can hear and under -
+stand you. The suggestion must sound achievable 
+and not involve anything that would obviously deal 
+damage to any of the targets or their allies. For 
+example, you could say, “Walk to the village down 
+that road, and help the villagers there harvest crops 
+until sunset.” Or you could say, “Now is not the time 
+for violence. Drop your weapons, and dance! Stop in 
+an hour.”
+ Each target must succeed on a Wisdom saving 
+throw or have the Charmed condition for the dura -
+tion or until you or your allies deal damage to the 
+target. Each Charmed target pursues the suggestion 
+to the best of its ability. The suggested activity can 
+continue for the entire duration, but if the sug -
+gested activity can be completed in a shorter time, 
+the spell ends for a target upon completing it.
+ Using a Higher-Level Spell Slot. The duration is 
+longer with a spell slot of level 7 (10 days), 8 (30 
+days), or 9 (366 days).
+Maze
+Level 8 Conjuration (Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You banish a creature that you can see within range 
+into a labyrinthine demiplane. The target remains 
+there for the duration or until it escapes the maze.
+ The target can take a Study action to try to es -
+cape. When it does so, it makes a DC 20 Intelligence 
+(Investigation) check. If it succeeds, it escapes, and 
+the spell ends.
+ When the spell ends, the target reappears in the 
+space it left or, if that space is occupied, in the near -
+est unoccupied space.
+Meld into Stone
+Level 3 Transmutation (Cleric, Druid, Ranger)
+Casting Time: Action or Ritual
+Range: Touch
+Components: V, S
+Duration: 8 hours
+You step into a stone object or surface large enough 
+to fully contain your body, merging yourself and 
+your equipment with the stone for the duration. 
+You must touch the stone to do so. Nothing of your 
+presence remains visible or otherwise detectable by 
+nonmagical senses.
+ While merged with the stone, you can’t see what 
+occurs outside it, and any Wisdom (Perception) 
+checks you make to hear sounds outside it are made 
+with Disadvantage. You remain aware of the pas -
+sage of time and can cast spells on yourself while 
+merged in the stone. You can use 5 feet of movement 
+to leave the stone where you entered it, which ends 
+the spell. You otherwise can’t move.
+ Minor physical damage to the stone doesn’t harm 
+you, but its partial destruction or a change in its 
+shape (to the extent that you no longer fit within it) 
+expels you and deals 6d6 Force damage to you. The 
+stone’s complete destruction (or transmutation into 
+a different substance) expels you and deals 50 Force 
+damage to you. If expelled, you move into an unoc -
+cupied space closest to where you first entered and 
+have the Prone condition.
+Mending
+Transmutation Cantrip (Bard, Cleric, Druid, Sorcerer, 
+Wizard)
+Casting Time: 1 minute
+Range: Touch
+Components: V, S, M (two lodestones)
+Duration: Instantaneous
+This spell repairs a single break or tear in an object 
+you touch, such as a broken chain link, two halves of 
+a broken key, a torn cloak, or a leaking wineskin. As 
+long as the break or tear is no larger than 1 foot in 
+any dimension, you mend it, leaving no trace of the 
+former damage.
+ This spell can physically repair a magic item, but 
+it can’t restore magic to such an object.
+Message
+Transmutation Cantrip (Bard, Druid, Sorcerer, 
+Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: S, M (a copper wire)
+Duration: 1 round

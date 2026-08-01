@@ -1,0 +1,104 @@
+System Reference Document 5.2.1
+216
+head and expend 1 charge to give yourself the Invis -
+ible condition for 1 hour. The effect ends early if you 
+pull the hood down (no action required) or cease 
+wearing the cloak.
+Cloak of Protection
+Wondrous Item, Uncommon (Requires Attunement)
+You gain a +1 bonus to Armor Class and saving 
+throws while you wear this cloak.
+Cloak of the Bat
+Wondrous Item, Rare (Requires Attunement)
+While wearing this cloak, you have Advantage on 
+Dexterity (Stealth) checks. In an area of Dim Light 
+or Darkness, you can grip the edges of the cloak and 
+use it to gain a Fly Speed of 40 feet. If you ever fail 
+to grip the cloak’s edges while flying in this way, or 
+if you are no longer in Dim Light or Darkness, you 
+lose this Fly Speed.
+ While wearing the cloak in an area of Dim Light 
+or Darkness, you can cast Polymorph on yourself, 
+shape-shifting into a Bat . While in that form, you 
+retain your Intelligence, Wisdom, and Charisma 
+scores. The cloak can’t be used this way again until 
+the next dawn.
+Cloak of the Manta Ray
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing this cloak, you can breathe underwa-
+ter, and you have a Swim Speed of 60 feet.
+Crystal Ball
+Wondrous Item, Very Rare (Requires Attunement)
+While touching this crystal orb, you can cast Scrying  
+(save DC 17) with it.
+Crystal Ball of Mind Reading
+Wondrous Item, Legendary (Requires Attunement)
+While touching this crystal orb, you can cast Scrying  
+(save DC 17) with it. In addition, you can cast Detect 
+Thoughts (save DC 17) targeting creatures you can 
+see within 30 feet of the spell’s sensor. You don’t 
+need to concentrate on this Detect Thoughts  spell 
+to maintain it during its duration, but it ends if the 
+Scrying spell ends.
+Crystal Ball of Telepathy
+Wondrous Item, Legendary (Requires Attunement)
+While touching this crystal orb, you can cast Scry-
+ing (save DC 17) with it. In addition, you can com -
+municate telepathically with creatures you can see 
+within 30 feet of the spell’s sensor. You can also cast 
+Suggestion (save DC 17) through the sensor on one 
+of those creatures. You don’t need to concentrate on 
+this Suggestion  to maintain it during its duration, 
+but it ends if Scrying ends. You can’t cast Suggestion 
+in this way again until the next dawn.
+Crystal Ball of True Seeing
+Wondrous Item, Legendary (Requires Attunement)
+While touching this crystal orb, you can cast Scrying  
+(save DC 17) with it. In addition, you have Truesight 
+with a range of 120 feet centered on the spell’s 
+sensor.
+Cube of Force
+Wondrous Item, Rare (Requires Attunement)
+This cube is about an inch across. Each face has a 
+distinct marking on it. You can press one of those 
+faces, expend the number of charges required for it, 
+and thereby cast the spell associated with it (save 
+DC 17), as shown in the Cube of Force Faces table.
+ The cube starts with 10 charges, and it regains 
+1d6 expended charges daily at dawn.
+Cube of Force Faces
+Spell Charge Cost
+Mage Armor 1
+Shield 1
+Tiny Hut 3
+Private Sanctum 4
+Resilient Sphere 4
+Wall of Force 5
+Cubic Gate
+Wondrous Item, Legendary 
+This cube is 3 inches across and radiates palpable 
+magical energy. The six sides of the cube are each 
+keyed to a different plane of existence, one of which 
+is the Material Plane. The other sides are linked to 
+planes determined by the GM.
+ The cube has 3 charges and regains 1d3 expended 
+charges daily at dawn. As a Magic action, you can 
+expend 1 of the cube’s charges to cast one of the fol -
+lowing spells using the cube.
+ Gate. Pressing one side of the cube, you cast Gate, 
+opening a portal to the plane of existence keyed to 
+that side.
+ Plane Shift. Pressing one side of the cube twice, 
+you cast Plane Shift, transporting the targets to the 
+plane of existence keyed to that side.
+Dagger of Venom
+Weapon (Dagger), Rare 
+You gain a +1 bonus to attack rolls and damage rolls 
+made with this magic weapon.
+ You can take a Bonus Action to magically coat the 
+blade with poison. The poison remains for 1 minute 
+or until an attack using this weapon hits a creature. 
+That creature must succeed on a DC 15 Constitution 
+saving throw or take 2d10 Poison damage and have 
+the Poisoned condition for 1 minute. The weapon 
+can’t be used this way again until the next dawn.

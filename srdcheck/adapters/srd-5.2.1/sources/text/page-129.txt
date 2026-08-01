@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+129
+Expeditious Retreat
+Level 1 Transmutation (Sorcerer, Warlock, Wizard)
+Casting Time: Bonus Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You take the Dash action, and until the spell ends, 
+you can take that action again as a Bonus Action.
+Eyebite
+Level 6 Necromancy (Bard, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 1 minute
+For the duration, your eyes become an inky void. 
+One creature of your choice within 60 feet of you 
+that you can see must succeed on a Wisdom saving 
+throw or be affected by one of the following effects 
+of your choice for the duration.
+ On each of your turns until the spell ends, you can 
+take a Magic action to target another creature but 
+can’t target a creature again if it has succeeded on a 
+save against this casting of the spell.
+ Asleep. The target has the Unconscious condition. 
+It wakes up if it takes any damage or if another 
+creature takes an action to shake it awake.
+ Panicked. The target has the Frightened con -
+dition. On each of its turns, the Frightened target 
+must take the Dash action and move away from you 
+by the safest and shortest route available. If the tar -
+get moves to a space at least 60 feet away from you 
+where it can’t see you, this effect ends.
+ Sickened. The target has the Poisoned condition.
+Fabricate
+Level 4 Transmutation (Wizard)
+Casting Time: 10 minutes
+Range: 120 feet
+Components: V, S
+Duration: Instantaneous
+You convert raw materials into products of the same 
+material. For example, you can fabricate a wooden 
+bridge from a clump of trees, a rope from a patch of 
+hemp, or clothes from flax or wool.
+ Choose raw materials that you can see within 
+range. You can fabricate a Large or smaller object 
+(contained within a 10-foot Cube or eight connected 
+5-foot Cubes) given a sufficient quantity of mate -
+rial. If you’re working with metal, stone, or another 
+mineral substance, however, the fabricated object 
+can be no larger than Medium (contained within a 
+5-foot Cube). The quality of any fabricated objects is 
+based on the quality of the raw materials.
+ Creatures and magic items can’t be created by 
+this spell. You also can’t use it to create items that 
+require a high degree of skill—such as weapons and 
+armor—unless you have proficiency with the type 
+of Artisan’s Tools used to craft such objects.
+Faerie Fire
+Level 1 Evocation (Bard, Druid)
+Casting Time: Action
+Range: 60 feet
+Components: V
+Duration: Concentration, up to 1 minute
+Objects in a 20-foot Cube within range are outlined 
+in blue, green, or violet light (your choice). Each 
+creature in the Cube is also outlined if it fails a Dex -
+terity saving throw. For the duration, objects and 
+affected creatures shed Dim Light in a 10-foot ra-
+dius and can’t benefit from the Invisible condition.
+ Attack rolls against an affected creature or object 
+have Advantage if the attacker can see it.
+Faithful Hound
+Level 4 Conjuration (Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a silver whistle)
+Duration: 8 hours
+You conjure a phantom watchdog in an unoccupied 
+space that you can see within range. The hound 
+remains for the duration or until the two of you are 
+more than 300 feet apart from each other.
+ No one but you can see the hound, and it is in -
+tangible and invulnerable. When a Small or larger 
+creature comes within 30 feet of it without first 
+speaking the password that you specify when you 
+cast this spell, the hound starts barking loudly. The 
+hound has Truesight with a range of 30 feet.
+ At the start of each of your turns, the hound at -
+tempts to bite one enemy within 5 feet of it. That 
+enemy must succeed on a Dexterity saving throw or 
+take 4d8 Force damage.
+ On your later turns, you can take a Magic action to 
+move the hound up to 30 feet.
+False Life
+Level 1 Necromancy (Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a drop of alcohol)
+Duration: Instantaneous
+You gain 2d4 + 4 Temporary Hit Points.
+ Using a Higher-Level Spell Slot. You gain 5 addi -
+tional Temporary Hit Points for each spell slot level 
+above 1.

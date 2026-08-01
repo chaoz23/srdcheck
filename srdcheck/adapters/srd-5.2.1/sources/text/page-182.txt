@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+182
+Experience Points
+As they overcome challenges and complete ad -
+ventures, characters earn Experience Points (XP), 
+which are awarded by the Game Master. When a 
+character’s XP total crosses certain thresholds, 
+the character’s level increases. See also  “Level 
+Advancement.”
+Expertise
+Expertise is a feature that enhances your use of a 
+skill proficiency. When you make an ability check 
+with a skill proficiency in which you have Expertise, 
+your Proficiency Bonus is doubled for that check un -
+less the bonus is doubled by another feature.
+ If you gain Expertise, you gain it in one skill in 
+which you have proficiency. You can’t have Exper -
+tise in the same skill proficiency more than once.
+ See also “Playing the Game” (“Proficiency”).
+Falling [Hazard]
+A creature that falls takes 1d6 Bludgeoning dam -
+age at the end of the fall for every 10 feet it fell, to 
+a maximum of 20d6. When the creature lands, it 
+has the Prone condition unless it avoids taking any 
+damage from the fall.
+ A creature that falls into water or another liquid 
+can use its Reaction to make a DC 15 Strength (Ath -
+letics) or Dexterity (Acrobatics) check to hit the 
+surface head or feet first. On a successful check, any 
+damage resulting from the fall is halved.
+Flying
+A variety of effects allow a creature to fly. While fly -
+ing, you fall if you have the Incapacitated or Prone 
+condition or your Fly Speed is reduced to 0. You can 
+stay aloft in those circumstances if you can hover. 
+See also “Falling” and “Fly Speed.”
+Fly Speed
+A Fly Speed can be used to travel through the air. 
+While you have a Fly Speed, you can stay aloft until 
+you land, fall, or die. See also  “Flying” and “Speed.”
+Friendly [Attitude]
+A Friendly creature views you favorably. You 
+have Advantage on an ability check to influence a 
+Friendly creature. See also  “Influence.”
+Frightened [Condition]
+While you have the Frightened condition, you expe -
+rience the following effects.
+ Ability Checks and Attacks Affected. You have 
+Disadvantage on ability checks and attack rolls 
+while the source of fear is within line of sight.
+ Can’t Approach. You can’t willingly move closer to 
+the source of fear.
+Grappled [Condition]
+While you have the Grappled condition, you experi -
+ence the following effects.
+ Speed 0. Your Speed is 0 and can’t increase.
+ Attacks Affected.  You have Disadvantage on at-
+tack rolls against any target other than the grappler.
+ Movable.  The grappler can drag or carry you 
+when it moves, but every foot of movement costs it 1 
+extra foot unless you are Tiny or two or more sizes 
+smaller than it.
+Grappling
+A creature can grapple another creature. Charac -
+ters typically grapple by using an Unarmed Strike. 
+Many monsters have special attacks that allow 
+them to quickly grapple prey. However a grapple is 
+initiated, it follows these rules. See also  “Unarmed 
+Strike” and “Grappled.”
+ Grappled Condition. Successfully grappling a 
+creature gives it the Grappled condition.
+ One Grapple per Hand. A creature must have a 
+hand free to grapple another creature. Some stat 
+blocks and game effects allow a creature to grapple 
+using a tentacle, a maw, or another body part. What -
+ever part a grappler uses, it can grapple only one 
+creature at a time with that part, and the grappler 
+can’t use that part to target another creature unless 
+it ends the grapple.
+ Ending a Grapple. A Grappled creature can use 
+its action to make a Strength (Athletics) or Dexter -
+ity (Acrobatics) check against the grapple’s escape 
+DC, ending the condition on itself on a success. The 
+condition also ends if the grappler has the Inca-
+pacitated condition or if the distance between the 
+Grappled target and the grappler exceeds the grap -
+ple’s range. In addition, the grappler can release the 
+target at any time (no action required).
+Hazard
+A hazard is an environmental danger. See also  
+“Burning,” “Dehydration,” “Falling,” “Malnutrition,” 
+and “Suffocation.”
+Healing
+Healing is how you regain Hit Points. See also  “Play-
+ing the Game” (“Damage and Healing”).
+Heavily Obscured
+You have the Blinded condition while trying to see 
+something in a Heavily Obscured space. See also  
+“Blinded,” “Darkness,” and “Playing the Game” 
+(“Exploration”).
+Help [Action]
+When you take the Help action, you do one of the 
+following.
+ Assist an Ability Check. Choose one of your 
+skill or tool proficiencies and one ally who is near 

@@ -1,0 +1,81 @@
+System	  Reference	   Document	  5.1 	   342	  
+Damage	  Immunities 	  cold,	  fire	  
+Senses	  darkvision	  60	  ft.,	  tremorsense	  60	  ft.,	   passive	  
+Perception	  10	  
+Languages	  —	  
+Challenge	  11	  (7,200	  XP)	  
+Heated	  Body.	  A	  creature	  that	  touches	  the	  remorhaz	  or	  
+hits	  it	  with	  a	  melee	  attack	  while	  within	  5	  feet	  of	  it	  ta kes	  
+10	  (3d6)	  fire	  damage. 	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +11	  to	  hit,	  reach	  10	  ft.,	  
+one	  target.	  Hit:	  40	  (6d10	  +	  7)	  piercing	  damage	  plus	  10	  
+(3d6)	  fire	  damage.	  If	  the	  target	  is	  a	  creature,	  it	  is	  
+grappled	  (escape	  DC	  17).	  Until	  this	  grapple	  ends,	  the	  
+target	  is	  restrained,	  and	  the	  remorhaz	  can’t	  bite	  
+another	  target. 	  
+Swallow.	  The	  remorhaz	  makes	  one	  bite	  attack	  against	  
+a	  Medium	  or	  smaller	  creature	  it	  is	  grappling.	  If	  the	  
+attack	  hits,	  that	  creature	  takes	  the	  bite’s	  damage	  and	  is	  
+swallowed,	  and	  the	  grapple	  ends.	   While	  swallowed,	  the	  
+creature	  is	  blinded	  and	  restrained,	  it	  has	  total	  cover	  
+against	  attacks	  and	  other	  effects	  outside	  the	  remorhaz,	  
+and	  it	  takes	  21	  (6d6)	  acid	  damage	  at	  the	  start	  of	  each	  
+of	  the	  remorhaz’s	  turns. 	  
+	   If	  the	  remorhaz	  takes	  30	  damage	  or	  more	  on	   a	  single	  
+turn	  from	  a	  creature	  inside	  it,	  the	  remorhaz	  must	  
+succeed	  on	  a	  DC	  15	  Constitution	  saving	  throw	  at	  the	  
+end	  of	  that	  turn	  or	  regurgitate	  all	  swallowed	  creatures,	  
+which	  fall	  prone	  in	  a	  space	  within	  10	  feet	  of	  the	  
+remorhaz.	  If	  the	  remorhaz	  dies,	  a	  swal lowed	  creature	  is	  
+no	  longer	  restrained	  by	  it	  and	  can	  escape	  from	  the	  
+corpse	  using	  15	  feet	  of	  movement,	  exiting	  prone. 	  
+Roc	  
+Gargantuan	  monstrosity,	  unaligned 	  
+Armor	  Class	  15	  (natural	  armor) 	  
+Hit	  Points	  248	  (16d20	  +	  80) 	  
+Speed	  20	  ft.,	  fly	  120	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+28	  (+9)	   10	  (+0)	   20	  (+5)	   3	  (−4)	   10	  (+0)	   9	  (−1)	  
+Saving	  Throws	  Dex	  +4,	  Con	  +9,	  Wis	  +4,	  Cha	  +3 	  
+Skills	  Perception	  +4	  
+Senses	  passive	  Perception	  14 	  
+Languages	  —	  
+Challenge	  11	  (7,200	  XP)	  
+Keen	  Sight.	  The	  roc	  has	  advantage	  on	  Wisdom	  
+(Perception)	  checks	  that	  rely	  on	  sight. 	  
+Actions	  
+Multiattack.	  The	  roc	  makes	  two	  attacks:	  one	  with	  its	  
+beak	  and	  one	  with	  its	  talons. 	  
+Beak.	  Melee	  Weapon	  Attack: 	  +13	  to	  hit,	  reach	  10	  ft.,	  
+one	  target.	  Hit:	  27	  (4d8	  +	  9)	  piercing	   damage.	  
+Talons.	  Melee	  Weapon	  Attack: 	  +13	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  23	  (4d6	  +	  9)	  slashing	  damage,	  and	  the	  
+target	  is	  grappled	  (escape	  DC	  19).	  Until	  this	  grapple	  
+ends,	  the	  target	  is	  restrained,	  and	  the	  roc	  can’t	  use	  its	  
+talons	  on	  another	  target. 	  
+Roper	  
+Large	  monstrosity,	  neutral	  evil 	  
+Armor	  Class	  20	  (natural	  armor) 	  
+Hit	  Points	  93	  (11d10	  +	  33) 	  
+Speed	  10	  ft.,	  climb	  10	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   8	  (−1)	   17	  (+3)	   7	  (−2)	   16	  (+3)	   6	  (−2)	  
+Skills	  Perception	  +6,	  Stealth	  +5 	  
+Senses	  darkvision	  60	  ft.,	  pas sive	  Perception	  16 	  
+Languages	  —	  
+Challenge	  5	  (1,800	  XP)	  
+False	  Appearance. 	  While	  the	  roper	  remains	  motionless,	  
+it	  is	  indistinguishable	  from	  a	  normal	  cave	  formation,	  
+such	  as	  a	  stalagmite. 	  
+Grasping	  Tendrils.	   The	  roper	  can	  have	  up	  to	  six	  tendrils	  
+at	  a	  time.	  Each	  tendril	  can	  be	  attacked	  (AC	  20;	  10	  hit	  
+points;	  immunity	  to	  poison	  and	  psychic	  damage).	  
+Destroying	  a	  tendril	  deals	  no	  damage	  to	  the	  roper,	  
+which	  can	  extrude	  a	  replacement	  tendril	  on	  its	  next	  
+turn.	  A	  tendril	  can	  also	  be	  broken	  if	  a	  creature	  takes	  an	  
+action	  and	  succeeds	  on	  a	  DC	  15	  Strength	  check	  against	  
+it.	  
+Spider	  Climb.	  The	  roper	  can	  climb	  difficult	  surfaces,	  
+including	  upside	  down	  on	  ceilings,	  without	  needing	  to	  
+make	  an	  ability	  check. 	  

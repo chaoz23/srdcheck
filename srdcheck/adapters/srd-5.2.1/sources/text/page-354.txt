@@ -1,0 +1,98 @@
+354
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 16 +3 +3 Con 12 +1 +1
+Int 2 −4 −4 WIS 11 +0 +0 Cha 4 −3 −3
+Skills Perception +4, Stealth +7
+Senses Darkvision 60 ft.; Passive Perception 14
+Languages None
+CR 1 (XP 200; PB +2)
+Traits
+Spider Climb. The spider can climb difficult surfaces, 
+including along ceilings, without needing to make an 
+ability check.
+Web Walker. The spider ignores movement restrictions 
+caused by webs, and it knows the location of any other 
+creature in contact with the same web.
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 7 (1d8 + 3) 
+Piercing damage plus 7 (2d6) Poison damage.
+Web (Recharge 5–6). Dexterity Saving Throw: DC 13, 
+one creature the spider can see within 60 feet. Failure: 
+The target has the Restrained condition until the web is 
+destroyed (AC 10; HP 5; Vulnerability to Fire damage; 
+Immunity to Poison and Psychic damage).
+Giant Toad
+Large Beast, Unaligned
+AC 11   Initiative +1 (11)
+HP 39 (6d10 + 6)
+Speed 30 ft., Swim 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 13 +1 +1 Con 13 +1 +1
+Int 2 −4 −4 WIS 10 +0 +0 Cha 3 −4 −4
+Senses Darkvision 60 ft.; Passive Perception 10
+Languages None
+CR 1 (XP 200; PB +2)
+Traits
+Amphibious. The toad can breathe air and water.
+Standing Leap. The toad’s Long Jump is up to 20 feet 
+and its High Jump is up to 10 feet with or without a 
+running start.
+Actions
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Piercing damage plus 5 (2d4) Poison damage. If the tar-
+get is a Medium or smaller creature, it has the Grappled 
+condition (escape DC 12).
+Swallow. The toad swallows a Medium or smaller target 
+it is grappling. While swallowed, the target isn’t Grap-
+pled but has the Blinded and Restrained conditions, 
+and it has Total Cover against attacks and other effects 
+outside the toad. In addition, the target takes 10 (3d6) 
+Acid damage at the end of each of the toad’s turns. The 
+toad can have only one target swallowed at a time, and 
+it can’t use Bite while it has a swallowed target. If the 
+toad dies, a swallowed creature is no longer Restrained 
+and can escape from the corpse using 5 feet of move-
+ment, exiting with the Prone condition.
+Giant Venomous Snake
+Medium Beast, Unaligned
+AC 14   Initiative +4 (14)
+HP 11 (2d8 + 2)
+Speed 40 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 18 +4 +4 Con 13 +1 +1
+Int 2 −4 −4 WIS 10 +0 +0 Cha 3 −4 −4
+Skills Perception +2
+Senses Blindsight 10 ft.; Passive Perception 12
+Languages None
+CR 1/4 (XP 50; PB +2)
+Actions
+Bite. Melee Attack Roll: +6, reach 10 ft. Hit: 6 (1d4 + 4) 
+Piercing damage plus 4 (1d8) Poison damage.
+Giant Vulture
+Large Monstrosity, Neutral Evil
+AC 10  Initiative +0 (10)
+HP 25 (3d10 + 9)
+Speed 10 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 10 +0 +0 Con 16 +3 +3
+Int 6 −2 −2 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +3
+Resistances Necrotic
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages Understands Common but can’t speak
+CR 1 (XP 200; PB +2)
+Traits
+Pack Tactics. The vulture has Advantage on an attack 
+roll against a creature if at least one of the vulture’s al-
+lies is within 5 feet of the creature and the ally doesn’t 
+have the Incapacitated condition.
+Actions
+Gouge. Melee Attack Roll: +4, reach 5 ft. Hit: 9 (2d6 
++ 2) Piercing damage, and the target has the Poisoned 
+condition until the end of its next turn.
+Giant Wasp
+Medium Beast, Unaligned
+AC 13   Initiative +2 (12)
+HP 22 (5d8)
+Speed 10 ft., Fly 50 ft.

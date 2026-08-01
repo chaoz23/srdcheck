@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+119
+see and whenever a creature you can see enters 
+the Emanation or ends its turn there, you can force 
+that creature to make a Wisdom saving throw. The 
+creature takes 5d8 Force damage on a failed save or 
+half as much damage on a successful one. A creature 
+makes this save only once per turn.
+ In addition, you can take the Disengage action as a 
+Bonus Action for the spell’s duration.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 4.
+Contact Other Plane
+Level 5 Divination (Warlock, Wizard)
+Casting Time: 1 minute or Ritual
+Range: Self
+Components: V
+Duration: 1 minute
+You mentally contact a demigod, the spirit of a long-
+dead sage, or some other knowledgeable entity 
+from another plane. Contacting this otherworldly 
+intelligence can break your mind. When you cast 
+this spell, make a DC 15 Intelligence saving throw. 
+On a successful save, you can ask the entity up to 
+five questions. You must ask your questions before 
+the spell ends. The GM answers each question with 
+one word, such as “yes,” “no,” “maybe,” “never,” “ir -
+relevant,” or “unclear” (if the entity doesn’t know 
+the answer to the question). If a one-word answer 
+would be misleading, the GM might instead offer a 
+short phrase as an answer.
+ On a failed save, you take 6d6 Psychic damage and 
+have the Incapacitated condition until you finish a 
+Long Rest. A Greater Restoration  spell cast on you 
+ends this effect.
+Contagion
+Level 5 Necromancy (Cleric, Druid)
+Casting Time: Action
+Range: Touch
+Component: V, S
+Duration: 7 days
+Your touch inflicts a magical contagion. The target 
+must succeed on a Constitution saving throw or 
+take 11d8 Necrotic damage and have the Poisoned 
+condition. Also, choose one ability when you cast 
+the spell. While Poisoned, the target has Disadvan -
+tage on saving throws made with the chosen ability.
+ The target must repeat the saving throw at the 
+end of each of its turns until it gets three successes 
+or failures. If the target succeeds on three of these 
+saves, the spell ends on the target. If the target fails 
+three of the saves, the spell lasts for 7 days on it.
+ Whenever the Poisoned target receives an effect 
+that would end the Poisoned condition, the target 
+must succeed on a Constitution saving throw, or the 
+Poisoned condition doesn’t end on it.
+Contingency
+Level 6 Abjuration (Wizard)
+Casting Time: 10 minutes
+Range: Self
+Components: V, S, M (a gem-encrusted statuette of 
+yourself worth 1,500+ GP)
+Duration: 10 days
+Choose a spell of level 5 or lower that you can cast, 
+that has a casting time of an action, and that can 
+target you. You cast that spell—called the contin -
+gent spell—as part of casting Contingency , expend-
+ing spell slots for both, but the contingent spell 
+doesn’t come into effect. Instead, it takes effect 
+when a certain trigger occurs. You describe that 
+trigger when you cast the two spells. For example, 
+a Contingency cast with Water Breathing  might stip -
+ulate that Water Breathing comes into effect when 
+you are engulfed in water or a similar liquid.
+ The contingent spell takes effect immediately af -
+ter the trigger occurs for the first time, whether or 
+not you want it to, and then Contingency  ends.
+ The contingent spell takes effect only on you, even 
+if it can normally target others. You can use only 
+one Contingency spell at a time. If you cast this spell 
+again, the effect of another Contingency  spell on you 
+ends. Also, Contingency  ends on you if its material 
+component is ever not on your person.
+Continual Flame
+Level 2 Evocation (Cleric, Druid, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (ruby dust worth 50+ GP, which 
+the spell consumes)
+Duration: Until dispelled
+A flame springs from an object that you touch. The 
+effect casts Bright Light in a 20-foot radius and Dim 
+Light for an additional 20 feet. It looks like a regular 
+flame, but it creates no heat and consumes no fuel. 
+The flame can be covered or hidden but not smoth -
+ered or quenched.
+Control Water
+Level 4 Transmutation (Cleric, Druid, Wizard)
+Casting Time: Action
+Range: 300 feet
+Components: V, S, M (a mixture of water and dust)
+Duration: Concentration, up to 10 minutes
+Until the spell ends, you control any water inside 
+an area you choose that is a Cube up to 100 feet on 
+a side, using one of the following effects. As a Magic 
+action on your later turns, you can repeat the same 
+effect or choose a different one.
+ Flood. You cause the water level of all standing 
+water in the area to rise by as much as 20 feet. If you 

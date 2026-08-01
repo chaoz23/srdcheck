@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+126
+ You have a telepathic link with the Charmed tar -
+get while the two of you are on the same plane of 
+existence. On your turn, you can use this link to 
+issue commands to the target (no action required), 
+such as “Attack that creature,” “Move over there,” or 
+“Fetch that object.” The target does its best to obey 
+on its turn. If it completes an order and doesn’t re -
+ceive further direction from you, it acts and moves 
+as it likes, focusing on protecting itself.
+ You can command the target to take a Reaction 
+but must take your own Reaction to do so.
+ Using a Higher-Level Spell Slot. Your Concentra -
+tion can last longer with a level 9 spell slot (up to 8 
+hours).
+Dominate Person
+Level 5 Enchantment (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+One Humanoid you can see within range must 
+succeed on a Wisdom saving throw or have the 
+Charmed condition for the duration. The target has 
+Advantage on the save if you or your allies are fight -
+ing it. Whenever the target takes damage, it repeats 
+the save, ending the spell on itself on a success.
+ You have a telepathic link with the Charmed tar -
+get while the two of you are on the same plane of 
+existence. On your turn, you can use this link to 
+issue commands to the target (no action required), 
+such as “Attack that creature,” “Move over there,” or 
+“Fetch that object.” The target does its best to obey 
+on its turn. If it completes an order and doesn’t re -
+ceive further direction from you, it acts and moves 
+as it likes, focusing on protecting itself.
+ You can command the target to take a Reaction 
+but must take your own Reaction to do so.
+ Using a Higher-Level Spell Slot. Your Concentra -
+tion can last longer with a spell slot of level 6 (up to 
+10 minutes), 7 (up to 1 hour), or 8+ (up to 8 hours).
+Dragon’s Breath
+Level 2 Transmutation (Sorcerer, Wizard)
+Casting Time: Bonus Action
+Range: Touch
+Components: V, S, M (a hot pepper)
+Duration: Concentration, up to 1 minute
+You touch one willing creature, and choose Acid, 
+Cold, Fire, Lightning, or Poison. Until the spell 
+ends, the target can take a Magic action to exhale 
+a 15-foot Cone. Each creature in that area makes a 
+Dexterity saving throw, taking 3d6 damage of the 
+chosen type on a failed save or half as much damage 
+on a successful one.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 2.
+Dream
+Level 5 Illusion (Bard, Warlock, Wizard)
+Casting Time: 1 minute
+Range: Special
+Components: V, S, M (a handful of sand)
+Duration: 8 hours
+You target a creature you know on the same plane 
+of existence. You or a willing creature you touch 
+enters a trance state to act as a dream messenger. 
+While in the trance, the messenger is Incapacitated 
+and has a Speed of 0.
+ If the target is asleep, the messenger appears in 
+the target’s dreams and can converse with the tar -
+get as long as it remains asleep, through the spell’s 
+duration. The messenger can also shape the dream’s 
+environment, creating landscapes, objects, and 
+other images. The messenger can emerge from the 
+trance at any time, ending the spell. The target re -
+calls the dream perfectly upon waking.
+ If the target is awake when you cast the spell, the 
+messenger knows it and can either end the trance 
+(and the spell) or wait for the target to sleep, at 
+which point the messenger enters its dreams.
+ You can make the messenger terrifying to the tar -
+get. If you do so, the messenger can deliver a mes -
+sage of no more than ten words, and then the target 
+makes a Wisdom saving throw. On a failed save, the 
+target gains no benefit from its rest, and it takes 
+3d6 Psychic damage when it wakes up.
+Druidcraft
+Transmutation Cantrip (Druid)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Instantaneous
+Whispering to the spirits of nature, you create one 
+of the following effects within range.
+ Weather Sensor. You create a Tiny, harmless sen -
+sory effect that predicts what the weather will be at 
+your location for the next 24 hours. The effect might 
+manifest as a golden orb for clear skies, a cloud for 
+rain, falling snowflakes for snow, and so on. This 
+effect persists for 1 round.
+ Bloom. You instantly make a flower blossom, a 
+seed pod open, or a leaf bud bloom.
+ Sensory Effect.  You create a harmless sensory ef -
+fect, such as falling leaves, spectral dancing fairies, 
+a gentle breeze, the sound of an animal, or the faint 
+odor of skunk. The effect must fit in a 5-foot Cube.
+ Fire Play. You light or snuff out a candle, a torch, 
+or a campfire.

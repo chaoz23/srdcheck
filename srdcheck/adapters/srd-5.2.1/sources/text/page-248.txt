@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+248
+ Thunder and Lightning. Immediately after you 
+hit with a melee attack using the staff, you can take 
+a Bonus Action to use the Lightning and Thunder 
+properties (see above) at the same time. Doing so 
+doesn’t expend the daily use of those properties, 
+only the use of this one.
+ Lightning Strike. You can take a Magic action to 
+cause a bolt of lightning to leap from the staff’s tip 
+in a Line that is 5 feet wide and 120 feet long. Each 
+creature in that Line makes a DC 17 Dexterity sav -
+ing throw, taking 9d6 Lightning damage on a failed 
+save or half as much damage on a successful one.
+ Thunderclap. You can take a Magic action to 
+cause the staff to produce a thunderclap audible out 
+to 600 feet. Every creature within a 60-foot Emana-
+tion originating from you makes a DC 17 Constitu -
+tion saving throw. On a failed save, a creature takes 
+2d6 Thunder damage and has the Deafened condi -
+tion for 1 minute. On a successful save, a creature 
+takes half as much damage only.
+Staff of Withering
+Staff, Rare (Requires Attunement)
+This staff has 3 charges and regains 1d3 expended 
+charges daily at dawn.
+ The staff can be wielded as a magic Quarterstaff. 
+On a hit, it deals damage as a normal Quarterstaff, 
+and you can expend 1 charge to deal an extra 2d10 
+Necrotic damage to the target and force it to make 
+a DC 15 Constitution saving throw. On a failed 
+save, the target has Disadvantage for 1 hour on any 
+ability check or saving throw that uses Strength or 
+Constitution.
+Stone of Controlling Earth Elementals
+Wondrous Item, Rare 
+While touching this 5-pound stone to the ground, 
+you can take a Magic action to summon an Earth 
+Elemental. The elemental appears in an unoccupied 
+space you choose within 30 feet of yourself, obeys 
+your commands, and takes its turn immediately 
+after you on your Initiative count. The elemental 
+disappears after 1 hour, when it dies, or when you 
+dismiss it as a Bonus Action. The stone can’t be used 
+this way again until the next dawn.
+Stone of Good Luck (Luckstone)
+Wondrous Item, Uncommon (Requires Attunement)
+While this polished agate is on your person, you 
+gain a +1 bonus to ability checks and saving throws.
+Sun Blade
+Weapon (Longsword), Rare (Requires Attunement)
+This item appears to be a sword hilt.
+ Blade of Radiance. While grasping the hilt, you 
+can take a Bonus Action to cause a blade of pure 
+radiance to spring into existence or make the 
+blade disappear. While the blade exists, this magic 
+weapon functions as a Longsword with the Finesse 
+property. If you are proficient with Longswords or 
+Shortswords, you are proficient with the Sun Blade .
+ You gain a +2 bonus to attack rolls and damage 
+rolls made with this weapon, which deals Radiant 
+damage instead of Slashing damage. When you hit 
+an Undead with it, that target takes an extra 1d8 
+Radiant damage.
+ Sunlight. The sword’s luminous blade emits 
+Bright Light in a 15-foot radius and Dim Light for 
+an additional 15 feet. The light is sunlight. While 
+the blade persists, you can take a Magic action to 
+expand or reduce its radius of Bright Light and Dim 
+Light by 5 feet each, to a maximum of 30 feet each 
+or a minimum of 10 feet each.
+Sword of Life Stealing
+Weapon (Glaive, Greatsword, Longsword, Rapier, 
+Scimitar, or Shortsword), Rare (Requires Attunement)
+When you attack a creature with this magic weapon 
+and roll a 20 on the d20 for the attack roll, that 
+target takes an extra 15 Necrotic damage if it isn’t 
+a Construct or an Undead, and you gain Temporary 
+Hit Points equal to the amount of Necrotic damage 
+taken.
+Sword of Sharpness
+Weapon (Glaive, Greatsword, Longsword, or Scimitar), 
+Very Rare (Requires Attunement)
+When you attack an object with this magic weapon 
+and hit, maximize your weapon damage dice 
+against the target.
+ When you attack a creature with this weapon 
+and roll a 20 on the d20 for the attack roll, that tar -
+get takes an extra 14 Slashing damage and gains 
+1 Exhaustion level.
+Sword of Wounding
+Weapon (Glaive, Greatsword, Longsword, Rapier, 
+Scimitar, or Shortsword), Rare (Requires Attunement)
+When you hit a creature with an attack using 
+this magic weapon, the target takes an extra 2d6 
+Necrotic damage and must succeed on a DC 15 
+Constitution saving throw or be unable to regain Hit 
+Points for 1 hour. The target repeats the save at the 
+end of each of its turns, ending the effect on itself on 
+a success.
+Talisman of Pure Good
+Wondrous Item, Legendary (Requires Attunement by a 
+Cleric or Paladin)
+This talisman is a mighty symbol of goodness. A 
+Fiend or an Undead that touches the talisman takes 
+8d6 Radiant damage and takes the damage again 
+each time it ends its turn holding or carrying the 
+talisman.

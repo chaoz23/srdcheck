@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+160
+Scrying
+Level 5 Divination (Bard, Cleric, Druid, Warlock, 
+Wizard)
+Casting Time: 10 minutes
+Range: Self
+Components: V, S, M (a focus worth 1,000+ GP, such as 
+a crystal ball, mirror, or water-filled font)
+Duration: Concentration, up to 10 minutes
+You can see and hear a creature you choose that is 
+on the same plane of existence as you. The target 
+makes a Wisdom saving throw, which is modified 
+(see the tables below) by how well you know the 
+target and the sort of physical connection you have 
+to it. The target doesn’t know what it is making the 
+save against, only that it feels uneasy.
+Your Knowledge of the Target Is … Save Modifier
+Secondhand (heard of the target) +5
+Firsthand (met the target) +0
+Extensive (know the target well) −5
+You Have the Target’s … Save Modifier
+Picture or other likeness −2
+Garment or other possession −4
+Body part, lock of hair, or bit of nail −10
+ On a successful save, the target isn’t affected, and 
+you can’t use this spell on it again for 24 hours.
+ On a failed save, the spell creates an Invisible, 
+intangible sensor within 10 feet of the target. You 
+can see and hear through the sensor as if you were 
+there. The sensor moves with the target, remaining 
+within 10 feet of it for the duration. If something 
+can see the sensor, it appears as a luminous orb 
+about the size of your fist.
+ Instead of targeting a creature, you can target a 
+location you have seen. When you do so, the sensor 
+appears at that location and doesn’t move.
+Searing Smite
+Level 1 Evocation (Paladin)
+Casting Time: Bonus Action, which you take immedi -
+ately after hitting a target with a Melee weapon or an 
+Unarmed Strike
+Range: Self
+Component: V
+Duration: 1 minute
+As you hit the target, it takes an extra 1d6 Fire dam -
+age from the attack. At the start of each of its turns 
+until the spell ends, the target takes 1d6 Fire dam -
+age and then makes a Constitution saving throw. 
+On a failed save, the spell continues. On a successful 
+save, the spell ends.
+ Using a Higher-Level Spell Slot. All the damage 
+increases by 1d6 for each spell slot level above 1.
+Secret Chest
+Level 4 Conjuration (Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a chest, 3 feet by 2 feet by 2 feet, 
+constructed from rare materials worth 5,000+ GP, and 
+a Tiny replica of the chest made from the same materi -
+als worth 50+ GP)
+Duration: Until dispelled
+You hide a chest and all its contents on the Ethereal 
+Plane. You must touch the chest and the miniature 
+replica that serve as Material components for the 
+spell. The chest can contain up to 12 cubic feet of 
+nonliving material (3 feet by 2 feet by 2 feet).
+ While the chest remains on the Ethereal Plane, 
+you can take a Magic action and touch the replica to 
+recall the chest. It appears in an unoccupied space 
+on the ground within 5 feet of you. You can send the 
+chest back to the Ethereal Plane by taking a Magic 
+action to touch the chest and the replica.
+ After 60 days, there is a cumulative 5 percent 
+chance at the end of each day that the spell ends. 
+The spell also ends if you cast this spell again or if 
+the Tiny replica chest is destroyed. If the spell ends 
+and the larger chest is on the Ethereal Plane, the 
+chest remains there for you or someone else to find.
+See Invisibility
+Level 2 Divination (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a pinch of talc)
+Duration: 1 hour
+For the duration, you see creatures and objects that 
+have the Invisible condition as if they were visible, 
+and you can see into the Ethereal Plane. Creatures 
+and objects there appear ghostly.
+Seeming
+Level 5 Illusion (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: 8 hours
+You give an illusory appearance to each creature of 
+your choice that you can see within range. An un -
+willing target can make a Charisma saving throw, 
+and if it succeeds, it is unaffected by this spell.
+ You can give the same appearance or different 
+ones to the targets. The spell can change the ap -
+pearance of the targets’ bodies and equipment. 
+You can make each creature seem 1 foot shorter or 
+taller and appear heavier or lighter. A target’s new 
+appearance must have the same basic arrangement 
+of limbs as the target, but the extent of the illusion 

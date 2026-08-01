@@ -1,0 +1,101 @@
+System	  Reference	   Document	  5.1 	   130	  
+creature	  behaves	  as	  if	  under	  the	  effects	  of	  the	  
+confusion	  spell	  during	  combat. 	  
+	   Seizure.	  The	  creature	  is	  overcome	  with	  shaking.	  
+The	  creature	  has	  disadvantage	  on	  Dexterity	  checks,	  
+Dexterity	  saving	  throws,	  and	  attack	  rolls	  that	  use	  
+Dexterity.	  
+	   Slimy	  Doom.	  The	  creature	  begins	  to	  bleed	  
+uncontrollably.	  The	  creature	  has	  disadvantage	  on	  
+Constitution	  checks	  and	  Constitution	  saving	  throws.	  
+In	  addition,	  whenever	  the	  creature	  takes	  damage,	  it	  
+is	  stunned	  until	  the	  end	  of	  its	  next	  turn. 	  
+Contingency 
+6th-­‐‑level	  evocation	  
+Casting	  Time:	  10	  minutes	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  statuette	  of	  yourself	  carved	  
+from	  ivory	  and	  decorated	  with	  gems	  worth	  at	  least	  
+1,500	  gp)	  
+Duration:	  10	  days	  
+Choose	  a	  spell	  of	  5th	  level	  or	  lower	  that	  you	  can	  cast,	  
+that	  has	  a	  casting	  time	  of	  1	  action,	  and	  that	  can	  
+target	  you.	  You	  cast	  that	  spell —called	  the	  contingent	  
+spell—as	  part	  of	  casting	   contingency,	  expending	  
+spell	  slots	  for	  both,	  but	  the	  contingent	  spell	  d oesn’t	  
+come	  into	  effect.	  Instead,	  it	  takes	  effect	  when	  a	  
+certain	  circumstance	  occurs.	  You	  describe	  that	  
+circumstance	  when	  you	  cast	  the	  two	  spells.	   For	  
+example,	  a	  contingency	  cast	  with	  water	  breathing 	  
+might	  stipulate	  that	   water	  breathing 	  comes	  into	  
+effect	  when	  you	  are	  engulfed	  in	  water	  or	  a	  similar	  
+liquid.	  
+	   The	  contingent	  spell	  takes	  effect	  immediately	  after	  
+the	  circumstance	  is	  met	  for	  the	  first	  time,	  whether	  or	  
+not	  you	  want	  it	  to,	  and	  then	   contingency	  ends.	  
+	   The	  contingent	  spell	  takes	  effect	  only	  on	  you,	  ev en	  
+if	  it	  can	  normally	  target	  others.	  You	  can	  use	  only	  one	  
+contingency	  spell	  at	  a	  time.	  If	  you	  cast	  this	  spell	  again,	  
+the	  effect	  of	  another	   contingency	  spell	  on	  you	  ends.	  
+Also,	  contingency	  ends	  on	  you	  if	  its	  material	  
+component	  is	  ever	  not	  on	  your	  person. 	  
+Continual Flame 
+2nd-­‐‑level	  evocation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (ruby	  dust	  worth	  50	  gp,	  which	  
+the	  spell	  consumes)	  
+Duration:	  Until	  dispelled	  
+A	  flame,	  equivalent	  in	  brightness	  to	  a	  torch,	  springs	  
+forth	  from	  an	  object	  that	  you	  touch. 	  The	  effect	  looks	  
+like	  a	  regular	  flame,	  but	  it	  creates	  no	  heat	  and	  
+doesn’t	  use	  oxygen.	  A	   continual	  flame 	  can	  be	  covered	  
+or	  hidden	  but	  not	  smothered	  or	  quenched. 	  
+Control Water 
+4th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  300	  feet	  
+Components:	  V,	  S,	  M	  (a	  drop	  of	  water	  and	  a	  pinch	  of	  
+dust)	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+Until	  the	  spell	  ends,	  you	  control	  any	  freestanding	  
+water	  inside	  an	  area	  you	  choose	  that	  is	  a	  cube	  up	  to	  
+100	  feet	  on	  a	  side.	  You	  can	  choose	  from	  any	  of	  the	  
+following	  effects	  w hen	  you	  cast	  this	  spell.	  As	  an	  
+action	  on	  your	  turn,	  you	  can	  repeat	  the	  same	  effect	  
+or	  choose	  a	  different	  one. 	  
+	   Flood.	  You	  cause	  the	  water	  level	  of	  all	  standing	  
+water	  in	  the	  area	  to	  rise	  by	  as	  much	  as	  20	  feet.	  If	  the	  
+area	  includes	  a	  shore,	  the	  flooding	  wate r	  spills	  over	  
+onto	  dry	  land.	  
+	   If	  you	  choose	  an	  area	  in	  a	  large	  body	  of	  water,	  you	  
+instead	  create	  a	  20 -­‐‑foot	  tall	  wave	  that	  travels	  from	  
+one	  side	  of	  the	  area	  to	  the	  other	  and	  then	  crashes	  
+down.	  Any	  Huge	  or	  smaller	  vehicles	  in	  the	  wave’s	  
+path	  are	  carried	  with 	  it	  to	  the	  other	  side.	  Any	  Huge	  
+or	  smaller	  vehicles	   struck	  by	  the	  wave	  have	  a	  25	  
+percent	  chance	  of	  capsizing.	  
+	   The	  water	  level	  remains	  elevated	  until	  the	  spell	  
+ends	  or	  you	  choose	  a	  different	  effect.	  If	  this	  effect	  
+produced	  a	  wave,	  the	  wave	  repeats	  on	  the	  s tart	  of	  
+your	  next	  turn	  while	  the	  flood	  effect	  lasts. 	  
+	   Part	  Water.	  You	  cause	  water	  in	  the	  area	  to	  move	  
+apart	  and	  create	  a	  trench.	  The	  trench	  extends	  across	  
+the	  spell’s	  area,	  and	  the	  separated	  water	  forms	  a	  
+wall	  to	  either	  side.	  The	  trench	  remains	  until	  the	  s pell	  
+ends	  or	  you	  choose	  a	  different	  effect.	  The	  water	  then	  
+slowly	  fills	  in	  the	  trench	  over	  the	  course	  of	  the	  next	  
+round	  until	  the	  normal	  water	  level	  is	  restored. 	  
+	   Redirect	  Flow.	   You	  cause	  flowing	  water	  in	  the	  
+area	  to	  move	  in	  a	  direction	  you	  choose,	  even	  if 	  the	  
+water	  has	  to	  flow	  over	  obstacles,	  up	  walls,	  or	  in	  
+other	  unlikely	  directions.	  The	  water	  in	  the	  area	  
+moves	  as	  you	  direct	  it,	  but	  once	  it	  moves	  beyond	  the	  
+spell’s	  area,	  it	  resumes	  its	  flow	  based	  on	  the	  terrain	  
+conditions.	  The	  water	  continues	  to	  move	  in	  t he	  
+direction	  you	  chose	  until	  the	  spell	  ends	  or	  you	  
+choose	  a	  different	  effect. 	  
+	   Whirlpool.	  This	  effect	  requires	  a	  body	  of	  water	  at	  
+least	  50	  feet	  square	  and	  25	  feet	  deep.	  You	  cause	  a	  
+whirlpool	  to	  form	  in	  the	  center	  of	  the	  area.	  The	  
+whirlpool	  forms	  a	  vortex	  t hat	  is	  5	  feet	  wide	  at	  the	  

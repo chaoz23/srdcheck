@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+111
+Components: V, S, M (a small square of silk)
+Duration: 24 hours
+With a touch, you place an illusion on a willing crea-
+ture or an object that isn’t being worn or carried. A 
+creature gains the Mask effect below, and an object 
+gains the False Aura effect below. The effect lasts 
+for the duration. If you cast the spell on the same 
+target every day for 30 days, the illusion lasts until 
+dispelled.
+ Mask (Creature). Choose a creature type other 
+than the target’s actual type. Spells and other magi -
+cal effects treat the target as if it were a creature of 
+the chosen type.
+ False Aura (Object). You change the way the tar -
+get appears to spells and magical effects that detect 
+magical auras, such as Detect Magic . You can make 
+a nonmagical object appear magical, make a magic 
+item appear nonmagical, or change the object’s aura 
+so that it appears to belong to a school of magic you 
+choose.
+Astral Projection
+Level 9 Necromancy (Cleric, Warlock, Wizard)
+Casting Time: 1 hour
+Range: 10 feet
+Components: V, S, M (for each of the spell’s targets, 
+one jacinth worth 1,000+ GP and one silver bar worth 
+100+ GP, all of which the spell consumes)
+Duration: Until dispelled
+You and up to eight willing creatures within range 
+project your astral bodies into the Astral Plane 
+(the spell ends instantly if you are already on that 
+plane). Each target’s body is left behind in a state of 
+suspended animation; it has the Unconscious condi -
+tion, doesn’t need food or air, and doesn’t age.
+ A target’s astral form resembles its body in almost 
+every way, replicating its game statistics and pos -
+sessions. The principal difference is the addition of 
+a silvery cord that trails from between the shoulder 
+blades of the astral form. The cord fades from view 
+after 1 foot. If the cord is cut—which happens only 
+when an effect states that it does so—the target’s 
+body and astral form both die.
+ A target’s astral form can travel through the As -
+tral Plane. The moment an astral form leaves that 
+plane, the target’s body and possessions travel 
+along the silver cord, causing the target to re-enter 
+its body on the new plane.
+ Any damage or other effects that apply to an as -
+tral form have no effect on the target’s body and 
+vice versa. If a target’s body or astral form drops to 
+0 Hit Points, the spell ends for that target. The spell 
+ends for all the targets if you take a Magic action to 
+dismiss it.
+ When the spell ends for a target who isn’t dead, 
+the target reappears in its body and exits the state 
+of suspended animation.
+Augury
+Level 2 Divination (Cleric, Druid, Wizard)
+Casting Time: 1 minute or Ritual
+Range: Self
+Components: V, S, M (specially marked sticks, bones, 
+cards, or other divinatory tokens worth 25+ GP)
+Duration: Instantaneous
+You receive an omen from an otherworldly entity 
+about the results of a course of action that you plan 
+to take within the next 30 minutes. The GM chooses 
+the omen from the Omens table.
+Omens
+Omen For Results That Will Be …
+Weal Good
+Woe Bad
+Weal and woe Good and bad
+Indifference Neither good nor bad
+The spell doesn’t account for circumstances, such as 
+other spells, that might change the results.
+ If you cast the spell more than once before finish -
+ing a Long Rest, there is a cumulative 25 percent 
+chance for each casting after the first that you get 
+no answer.
+Aura of Life
+Level 4 Abjuration (Cleric, Paladin)
+Casting Time: Action
+Range: Self
+Components: V
+Duration: Concentration, up to 10 minutes
+An aura radiates from you in a 30-foot Emanation 
+for the duration. While in the aura, you and your 
+allies have Resistance to Necrotic damage, and your 
+Hit Point maximums can’t be reduced. If an ally with 
+0 Hit Points starts its turn in the aura, that ally re -
+gains 1 Hit Point.
+Awaken
+Level 5 Transmutation (Bard, Druid)
+Casting Time: 8 hours
+Range: Touch
+Components: V, S, M (an agate worth 1,000+ GP, which 
+the spell consumes)
+Duration: Instantaneous
+You spend the casting time tracing magical path -
+ways within a precious gemstone, and then touch 
+the target. The target must be either a Beast or 
+Plant creature with an Intelligence of 3 or less or a 
+natural plant that isn’t a creature. The target gains 

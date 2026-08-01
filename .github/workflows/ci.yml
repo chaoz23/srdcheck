@@ -5,26 +5,64 @@ on:
   pull_request:
 
 jobs:
-  test:
+  # Cheap, no-network gates. Runs first so a licensing or metadata violation
+  # fails in seconds instead of after the SRD fetch.
+  hygiene:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install pytest pypdf==6.14.2
+      - name: No unlicensed third-party material, big binaries, or build artifacts
+        run: python scripts/check_repo_hygiene.py
+      - name: Fresh clone stays small
+        run: |
+          size=$(git count-objects -vH | awk '/size-pack/ {print $2$3}')
+          echo "pack size: $size"
+          bytes=$(git count-objects -v | awk '/size-pack/ {print $2}')
+          # size-pack is reported in KiB; 20 MiB ceiling.
+          test "$bytes" -lt 20480 || {
+            echo "::error::pack exceeds 20 MiB — a large binary was committed"
+            exit 1; }
+
+  test:
+    needs: hygiene
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+        include:
+          - os: macos-latest
+            python-version: "3.12"
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install pytest pypdf==6.14.2 build setuptools
       - name: Fetch SRD and extract text (provenance-verified)
         run: |
           bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh
+          bash srdcheck/adapters/srd-5.1/sources/fetch.sh
+      - name: Committed SRD text matches extraction from the pinned PDFs
+        # The extracted text is redistributed in the wheel (CC-BY-4.0) so that
+        # `cite` works offline. Re-extracting and diffing proves the committed
+        # copy is genuinely derived from the hash-pinned source, not asserted.
+        shell: bash
+        run: |
+          cp -R srdcheck/adapters/srd-5.2.1/sources/text /tmp/committed-text-521
           python srdcheck/adapters/srd-5.2.1/sources/extract.py
+          diff -r /tmp/committed-text-521 srdcheck/adapters/srd-5.2.1/sources/text
       - name: Rebuild 5.2.1 registry and verify it matches the committed one
         run: |
           cp srdcheck/adapters/srd-5.2.1/entities.json /tmp/committed-521.json
           python srdcheck/adapters/srd-5.2.1/build_entities.py
           diff /tmp/committed-521.json srdcheck/adapters/srd-5.2.1/entities.json
-      - name: Fetch + rebuild the SRD 5.1 registry and verify it matches
+      - name: Rebuild the SRD 5.1 registry and verify it matches
         run: |
-          bash srdcheck/adapters/srd-5.1/sources/fetch.sh
           cp srdcheck/adapters/srd-5.1/entities.json /tmp/committed-51.json
           python srdcheck/adapters/srd-5.1/build_entities.py
           diff /tmp/committed-51.json srdcheck/adapters/srd-5.1/entities.json
@@ -38,3 +76,25 @@ jobs:
           python -m srdcheck conformance srd-5.2.1
           python -m srdcheck conformance srd-5.1
           python -m srdcheck conformance toy-tictactoe
+
+  # The gate 0.5.0 lacked: prove the *installed artifact* implements the
+  # advertised behaviour, from a pristine tree, outside the repo, offline.
+  cold-install:
+    needs: hygiene
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install pytest build setuptools pypdf==6.14.2
+      - name: Fetch SRD sources
+        run: |
+          bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh
+          bash srdcheck/adapters/srd-5.1/sources/fetch.sh
+      - name: Cold wheel install + headline journeys
+        run: python -m pytest tests/test_packaging.py tests/test_metadata_fresh.py -q

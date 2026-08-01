@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+163
+You create a simulacrum of one Beast or Humanoid 
+that is within 10 feet of you for the entire casting of 
+the spell. You finish the casting by touching both the 
+creature and a pile of ice or snow that is the same 
+size as that creature, and the pile turns into the 
+simulacrum, which is a creature. It uses the game 
+statistics of the original creature at the time of cast -
+ing, except it is a Construct, its Hit Point maximum 
+is half as much, and it can’t cast this spell.
+ The simulacrum is Friendly to you and creatures 
+you designate. It obeys your commands and acts on 
+your turn in combat. The simulacrum can’t gain lev -
+els, and it can’t take Short or Long Rests.
+ If the simulacrum takes damage, the only way 
+to restore its Hit Points is to repair it as you take a 
+Long Rest, during which you expend components 
+worth 100 GP per Hit Point restored. The simula-
+crum must stay within 5 feet of you for the repair.
+ The simulacrum lasts until it drops to 0 Hit Points, 
+at which point it reverts to snow and melts away. If 
+you cast this spell again, any simulacrum you cre -
+ated with this spell is instantly destroyed.
+Sleep
+Level 1 Enchantment (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a pinch of sand or rose petals)
+Duration: Concentration, up to 1 minute
+Each creature of your choice in a 5-foot-radius 
+Sphere centered on a point within range must suc -
+ceed on a Wisdom saving throw or have the Inca-
+pacitated condition until the end of its next turn, 
+at which point it must repeat the save. If the target 
+fails the second save, the target has the Unconscious 
+condition for the duration. The spell ends on a tar -
+get if it takes damage or someone within 5 feet of it 
+takes an action to shake it out of the spell’s effect.
+ Creatures that don’t sleep, such as elves, or that 
+have Immunity to the Exhaustion condition auto -
+matically succeed on saves against this spell.
+Sleet Storm
+Level 3 Conjuration (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (a miniature umbrella)
+Duration: Concentration, up to 1 minute
+Until the spell ends, sleet falls in a 40-foot-tall, 
+20-foot-radius Cylinder centered on a point you 
+choose within range. The area is Heavily Obscured, 
+and exposed flames in the area are doused.
+ Ground in the Cylinder is Difficult Terrain. When 
+a creature enters the Cylinder for the first time on 
+a turn or starts its turn there, it must succeed on a 
+Dexterity saving throw or have the Prone condition 
+and lose Concentration.
+Slow
+Level 3 Transmutation (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (a drop of molasses)
+Duration: Concentration, up to 1 minute
+You alter time around up to six creatures of your 
+choice in a 40-foot Cube within range. Each target 
+must succeed on a Wisdom saving throw or be af -
+fected by this spell for the duration.
+ An affected target’s Speed is halved, it takes a −2 
+penalty to AC and Dexterity saving throws, and it 
+can’t take Reactions. On its turns, it can take either 
+an action or a Bonus Action, not both, and it can 
+make only one attack if it takes the Attack action. If 
+it casts a spell with a Somatic component, there is 
+a 25 percent chance the spell fails as a result of the 
+target making the spell’s gestures too slowly.
+ An affected target repeats the save at the end 
+of each of its turns, ending the spell on itself on a 
+success.
+Sorcerous Burst
+Evocation Cantrip (Sorcerer)
+Casting Time: Action
+Range: 120 feet
+Component: V, S
+Duration: Instantaneous
+You cast sorcerous energy at one creature or object 
+within range. Make a ranged spell attack against the 
+target. On a hit, the target takes 1d8 damage of a 
+type you choose: Acid, Cold, Fire, Lightning, Poison, 
+Psychic, or Thunder.
+ If you roll an 8 on a d8 for this spell, you can roll 
+another d8, and add it to the damage. When you cast 
+this spell, the maximum number of these d8s you 
+can add to the spell’s damage equals your spellcast -
+ing ability modifier.
+ Cantrip Upgrade. The damage increases by 1d8 
+when you reach levels 5 (2d8), 11 (3d8), and 17 
+(4d8).
+Spare the Dying
+Necromancy Cantrip (Cleric, Druid)
+Casting Time: Action
+Range: 15 feet
+Components: V, S
+Duration: Instantaneous
+Choose a creature within range that has 0 Hit Points 
+and isn’t dead. The creature becomes Stable.
+ Cantrip Upgrade. The range doubles when you 
+reach levels 5 (30 feet), 11 (60 feet), and 17 (120 
+feet).

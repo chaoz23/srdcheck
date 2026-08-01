@@ -1,0 +1,91 @@
+System Reference Document 5.2.1
+80
+Level 2 Wizard Spells
+Spell School Special
+Acid Arrow Evocation —
+Alter Self Transmutation C
+Arcane Lock Abjuration M
+Arcanist’s Magic Aura Illusion —
+Augury Divination R, M
+Blindness/Deafness Transmutation —
+Blur Illusion C
+Continual Flame Evocation M
+Darkness Evocation C
+Darkvision Transmutation —
+Detect Thoughts Divination C
+Dragon’s Breath Transmutation C
+Enhance Ability Transmutation C
+Enlarge/Reduce Transmutation C
+Flaming Sphere Evocation C
+Gentle Repose Necromancy R, M
+Gust of Wind Evocation C
+Hold Person Enchantment C
+Invisibility Illusion C
+Knock Transmutation —
+Levitate Transmutation C
+Locate Object Divination C
+Magic Mouth Illusion R, M
+Magic Weapon Transmutation —
+Mind Spike Divination C
+Mirror Image Illusion —
+Misty Step Conjuration —
+Ray of Enfeeblement Necromancy C
+Rope Trick Transmutation —
+Scorching Ray Evocation —
+See Invisibility Divination —
+Shatter Evocation —
+Spider Climb Transmutation C
+Suggestion Enchantment C
+Web Conjuration C
+Level 3 Wizard Spells
+Spell School Special
+Animate Dead Necromancy —
+Bestow Curse Necromancy C
+Blink Transmutation —
+Clairvoyance Divination C, M
+Counterspell Abjuration —
+Dispel Magic Abjuration —
+Spell School Special
+Fear Illusion C
+Fireball Evocation —
+Fly Transmutation C
+Gaseous Form Transmutation C
+Glyph of Warding Abjuration M
+Haste Transmutation C
+Hypnotic Pattern Illusion C
+Lightning Bolt Evocation —
+Magic Circle Abjuration M
+Major Image Illusion C
+Nondetection Abjuration M
+Phantom Steed Illusion R
+Protection from Energy Abjuration C
+Remove Curse Abjuration —
+Sending Divination —
+Sleet Storm Conjuration C
+Slow Transmutation C
+Speak with Dead Necromancy —
+Stinking Cloud Conjuration C
+Tiny Hut Evocation R
+Tongues Divination —
+Vampiric Touch Necromancy C
+Water Breathing Transmutation R
+Level 4 Wizard Spells
+Spell School Special
+Arcane Eye Divination C
+Banishment Abjuration C
+Black Tentacles Conjuration C
+Blight Necromancy —
+Charm Monster Enchantment —
+Confusion Enchantment C
+Conjure Minor Elementals Conjuration C
+Control Water Transmutation C
+Dimension Door Conjuration —
+Divination Divination R, M
+Fabricate Transmutation —
+Faithful Hound Conjuration —
+Fire Shield Evocation —
+Greater Invisibility Illusion C
+Hallucinatory Terrain Illusion —
+Ice Storm Evocation —
+Locate Creature Divination C
+Phantasmal Killer Illusion C

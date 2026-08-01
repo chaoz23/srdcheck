@@ -1,0 +1,37 @@
+System Reference Document 5.2.1
+191
+Unconscious [Condition]
+While you have the Unconscious condition, you ex -
+perience the following effects.
+ Inert.  You have the Incapacitated and Prone 
+conditions, and you drop whatever you’re holding. 
+When this condition ends, you remain Prone.
+ Speed 0. Your Speed is 0 and can’t increase.
+ Attacks Affected.  Attack rolls against you have 
+Advantage.
+ Saving Throws Affected. You automatically fail 
+Strength and Dexterity saving throws.
+ Automatic Critical Hits. Any attack roll that hits 
+you is a Critical Hit if the attacker is within 5 feet of 
+you.
+ Unaware.  You’re unaware of your surroundings.
+Unoccupied Space
+A space is unoccupied if no creatures are in it and it 
+isn’t completely filled by objects.
+Utilize [Action]
+You normally interact with an object while doing 
+something else, such as when you draw a sword as 
+part of the Attack action. When an object requires 
+an action for its use, you take the Utilize action.
+Vulnerability
+If you have Vulnerability to a damage type, damage 
+of that type is doubled against you. Vulnerability is 
+applied only once to an instance of damage. See also  
+“Playing the Game” (“Damage and Healing”).
+Weapon
+A weapon is an object that is in the Simple or 
+Martial weapon category. See also  “Equipment” 
+(“Weapons”).
+Weapon Attack
+A weapon attack is an attack roll made with a 
+weapon. See also “Weapon.”

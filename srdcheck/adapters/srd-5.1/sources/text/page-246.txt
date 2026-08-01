@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   246	  
+taking	  9d6	  lightning	  damage	  on	  a	  failed	  save,	  or	  half	  
+as	  much	  damage	  on	  a	  successful	  one. 	  
+	   Thunderclap.	  You	  can	  use	  an	  action	  to	  cause	  the	  
+staff	  to	  issue	  a	  deafening	  thunderclap,	  audible	  out	  to	  
+600	  feet.	  Each	  creature	  within	  60	  feet	  of	  you	  (not	  
+including	  you)	  must	  make	  a	  DC	  17	  Consti tution	  
+saving	  throw.	  On	  a	  failed	  save,	  a	  creature	  takes	  2d6	  
+thunder	  damage	  and	  becomes	  deafened	  for	  1	  minute.	  
+On	  a	  successful	  save,	  a	  creature	  takes	  half	  damage	  
+and	  isn’t	  deafened. 	  
+	   Thunder	  and	  Lightning. 	  You	  can	  use	  an	  action	  to	  
+use	  the	  Lightning	  Strike	  and	  Thunderclap	  properties	  
+at	  the	  same	  time.	  Doing	  so	  doesn’t	  expend	  the	  daily	  
+use	  of	  those	  properties,	  only	  the	  use	  of	  this	  one. 	  
+Staff of Withering 
+Staff,	  rare	  (requires	  attunement	  by	  a	  cleric,	  druid,	  or	  
+warlock)	  
+This	  staff	  has	  3	  charges	  and	  regains	  1d3	  ex pended	  
+charges	  daily	  at	  dawn. 	  
+	   The	  staff	  can	  be	  wielded	  as	  a	  magic	  quarterstaff.	  
+On	  a	  hit,	  it	  deals	  damage	  as	  a	  normal	  quarterstaff,	  
+and	  you	  can	  expend	  1	  charge	  to	  deal	  an	  extra	  2d10	  
+necrotic	  damage	  to	  the	  target.	  In	  addition,	  the	  target	  
+must	  succeed	  on	  a	   DC	  15	  Constitution	  saving	  throw	  
+or	  have	  disadvantage	  for	  1	  hour	  on	  any	  ability	  check	  
+or	  saving	  throw	  that	  uses	  Strength	  or	  Constitution. 	  
+Stone of Controlling Earth Elementals 
+Wondrous	  item,	  rare 	  
+If	  the	  stone	  is	  touching	  the	  ground,	  you	  can	  use	  an	  
+action	  to	  speak	  its	  command	  word	  and	  summon	  an	  
+earth	  elemental,	  as	  if	  you	  had	  cast	  the	   conjure	  
+elemental	  spell.	  The	  stone	  can’t	  be	  used	  this	  way	  
+again	  until	  the	  next	  dawn.	  The	  stone	  weighs	  5	  
+pounds.	  
+Stone of Good Luck (Luckstone) 
+Wondrous	  item,	  uncommon	  (requires	  a ttunement)	  
+While	  this	  polished	  agate	  is	  on	  your	  person,	  you	  gain	  
+a	  +1	  bonus	  to	  ability	  checks	  and	  saving	  throws. 	  
+Sun Blade 
+Weapon	  (longsword),	  rare	  (requires	  attunement) 	  
+This	  item	  appears	  to	  be	  a	  longsword	  hilt.	  While	  
+grasping	  the	  hilt,	  you	  can	  use	  a	  bonus	  action	  to	  cause	  
+a	  blade	  of	  pure	  radiance	  to	  spring	  into	  existence,	  or	  
+make	  the	  blade	  disappear.	  While	  the	  blade	  exists,	  
+this	  magic	  longsword	  has	  the	  finesse	  property.	  If 	  you	  
+are	  proficient	  with	  shortswords	  or	  longswords,	  you	  
+are	  proficient	  with	  the	   sun	  blade.	  
+	   You	  gain	  a	  +2	  bonus	  to	  attack	  and	  damage	  rolls	  
+made	  with	  this	  weapon,	  which	  deals	  radiant	  damage	  
+instead	  of	  slashing	  damage.	  When	  you	  hit	  an	  undead	  
+with	  it,	  that	  target	  takes	  an	  extra	  1d8	  radiant	  
+damage.	  
+	   The	  sword’s	  luminous	  blade	  emits	  bright	  light	  in	  a	  
+15-­‐‑foot	  radius	  and	  dim	  light	  for	  an	  additional	  15	  feet.	  
+The	  light	  is	  sunlight.	  While	  the	  blade	  persists,	  you	  
+can	  use	  an	  action	  to	  expand	  or	  reduce	  its	  radius	  of	  
+bright	  and	  dim	  light	  by	  5	  feet	  each,	  to	  a	  maximum	  of	  
+30	  feet	  each	  or	  a	  minimum	  of	  10	  feet	  each. 	  
+Sword of Life Stealing 
+Weapon	  (any	  sword),	  rare	  (requires	  attunement) 	  
+When	  you	  attack	  a	  creature	  with	  this	  magic	  weapon	  
+and	  roll	  a	  20	  on	  the	  attack	  roll,	  that	  targ et	  takes	  an	  
+extra	  3d6	  necrotic	  damage,	  provided	  that	  the	  target	  
+isn’t	  a	  construct	  or	  an	  undead.	  You	  gain	  temporary	  
+hit	  points	  equal	  to	  the	  extra	  damage	  dealt. 	  
+Sword of Sharpness 
+Weapon	  (any	  sword	  that	  deals	  slashing	  damage),	  very	  
+rare	  (requires	  attunement) 	  
+When	  you	  attack	  an	  object	  with	  this	  magic	  sword	  
+and	  hit,	  maximize	  your	  weapon	  damage	  dice	  against	  
+the	  target.	  
+	   When	  you	  attack	  a	  creature	  with	  this	  weapon	  and	  
+roll	  a	  20	  on	  the	  attack	  roll,	  that	  target	  takes	  an	  extra	  
+4d6	  slashing	  damage.	  Then	  roll	  another	   d20.	  If	  you	  
+roll	  a	  20,	  you	  lop	  off	  one	  of	  the	  target’s	  limbs,	  with	  
+the	  effect	  of	  such	  loss	  determined	  by	  the	  GM.	  If	  the	  
+creature	  has	  no	  limb	  to	  sever,	  you	  lop	  off	  a	  portion	  of	  
+its	  body	  instead. 	  
+	   In	  addition,	  you	  can	  speak	  the	  sword’s	  command	  
+word	  to	  cause	   the	  blade	  to	  shed	  bright	  light	  in	  a	  10 -­‐‑
+foot	  radius	  and	  dim	  light	  for	  an	  additional	  10	  feet.	  
+Speaking	  the	  command	  word	  again	  or	  sheathing	  the	  
+sword	  puts	  out	  the	  light. 	  
+Sword of Wounding 
+Weapon	  (any	  sword),	  rare	  (requires	  attunement) 	  
+Hit	  points	  lost	  to	  this	   weapon’s	  damage	  can	  be	  
+regained	  only	  through	  a	  short	  or	  long	  rest,	  rather	  
+than	  by	  regeneration,	  magic,	  or	  any	  other	  means. 	  
+	   Once	  per	  turn,	  when	  you	  hit	  a	  creature	  with	  an	  
+attack	  using	  this	  magic	  weapon,	  you	  can	  wound	  the	  
+target.	  At	  the	  start	  of	  each	  of	  the 	  wounded	  creature’s	  
+turns,	  it	  takes	  1d4	  necrotic	  damage	  for	  each	  time	  
+you’ve	  wounded	  it,	  and	  it	  can	  then	  make	  a	  DC	  15	  
+Constitution	  saving	  throw,	  ending	  the	  effect	  of	  all	  
+such	  wounds	  on	  itself	  on	  a	  success.	  Alternatively,	  the	  
+wounded	  creature,	  or	  a	  creature 	  within	  5	  feet	  of	  it,	  

@@ -1,0 +1,78 @@
+System	  Reference	   Document	  5.1 	   376	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack:	   +1	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  2	  (1d6	  −	  1)	  slashing	  dam age.	  
+A	  giant	  fire	  beetle	   is	  a	  nocturnal	  creature	  that	  takes	  
+its	  name	  from	  a	  pair	  of	  glowing	  glands	  that	  give	  off	  
+light.	  Miners	  and	  adventurers	  prize	  these	  creatures,	  
+for	  a	  giant	  fire	  beetle’s	  glands	  continue	  to	  shed	  light	  
+for	  1d6	  days	  after	  the	  beetle	  die s.	  Giant	  fire	  beetles	  
+are	  most	  commonly	  found	  underground	  and	  in	  dark	  
+forests.	  
+Giant	  Frog	  
+Medium	  beast,	  unaligned 	  
+Armor	  Class	  11	  
+Hit	  Points	  18	  (4d8)	  
+Speed	  30	  ft.,	  swim	  30	  ft. 	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+12	  (+1)	   13	  (+1)	   11	  (+0)	   2	  (−4)	   10	  (+0)	   3	  (−4)	  
+Skills	  Perception	  +2,	  Stealth	  +3 	  
+Senses	  darkvision	  30	  ft.,	  passive	  Perception	  12 	  
+Languages	  —	  
+Challenge	  1/4	  (50	  XP)	  
+Amphibious.	  The	  frog	  can	  breathe	  air	  and	  water. 	  
+Standing	  Leap.	   The	  frog’s	  long	  jump	  is	  up	  to	  20	  feet	  
+and	  its	  high	  jump	  is	  up	  to	  10	  feet,	  with	  or	   without	  a	  
+running	  start.	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +3	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  4	  (1d6	  +	  1)	  piercing	  damage,	  and	  the	  target	  
+is	  grappled	  (escape	  DC	  11).	  Until	  this	  grapple	  ends,	  the	  
+target	  is	  restrained,	  and	  the	  frog	  can’t	  bite	  another	  
+target.	  
+Swallow.	  The	  frog	  makes	  one	  bite	  attack	  against	  a	  
+Small	  or	  smaller	  target	  it	  is	  grappling.	  If	  the	  attack	  hits,	  
+the	  target	  is	  swallowed,	  and	  the	  grapple	  ends.	  The	  
+swallowed	  target	  is	  blinded	  and	  restrained,	  it	  has	  total	  
+cover	  against	  attacks	  and	  oth er	  effects	  outside	  the	  frog,	  
+and	  it	  takes	  5	  (2d4)	  acid	  damage	  at	  the	  start	  of	  each	  of	  
+the	  frog’s	  turns.	  The	  frog	  can	  have	  only	  one	  target	  
+swallowed	  at	  a	  time.	  
+	   If	  the	  frog	  dies,	  a	  swallowed	  creature	  is	  no	  longer	  
+restrained	  by	  it	  and	  can	  escape	  from	  the	  cor pse	  using	  5	  
+feet	  of	  movement,	  exiting	  prone. 	  
+Giant	  Goat	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  11	  (natural	  armor) 	  
+Hit	  Points	  19	  (3d10	  +	  3)	  
+Speed	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+17	  (+3)	   11	  (+0)	   12	  (+1)	   3	  (−4)	   12	  (+1)	   6	  (−2)	  
+Senses	  passive	  Perception	  11 	  
+Languages	  —	  
+Challenge	  1/2	  (100	  XP)	  
+Charge.	  If	  the	  goat	  moves	  at	  least	  20	  feet	  straight	  
+toward	  a	  target	  and	  then	  hits	  it	  with	  a	  ram	  attack	  on	  
+the	  same	  turn,	  the	  target	  takes	  an	  extra	  5	  (2d4)	  
+bludgeoning	  damage.	  If	  the	  target	  is	  a	  creature,	  it	  must	  
+succeed	  on	  a	  DC	  13	  Strength	  saving	  throw	  or	  be	  
+knocked	  prone. 	  
+Sure-­‐Footed.	  The	  goat	  has	  advantage	  on	  Strength	  and	  
+Dexterity	  saving	  throws	  made	  against	  effects	  that	  
+would	  knock	  it	  prone. 	  
+Actions	  
+Ram.	  Melee	  Weapon	  Attack: 	  +5	  to	  hit,	  reach	  5	  ft.,	  one	  
+target.	  Hit:	  8	  (2d4	  +	  3)	  bludgeoning	  damage. 	  
+Giant	  Hyena	  
+Large	  beast,	  unaligned 	  
+Armor	  Class	  12	  
+Hit	  Points	  45	  (6d10	  +	  12)	  
+Speed	  50	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+16	  (+3)	   14	  (+2)	   14	  (+2)	   2	  (−4)	   12	  (+1)	   7	  (−2)	  
+Skills	  Perception	  +3	  
+Senses	  passive	  Perception	  13 	  
+Languages	  —	  
+Challenge	  1	  (200	  XP)	  
+Rampage.	  When	  the	  hyena	  reduces	  a	  creature	  to	  0	  hit	  
+points	  with	  a	  melee	  attack	  on	  its	  turn,	  the	  hyena	  can	  

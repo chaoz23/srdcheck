@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+153
+You attempt to bind a Celestial, an Elemental, a 
+Fey, or a Fiend to your service. The creature must 
+be within range for the entire casting of the spell. 
+(Typically, the creature is first summoned into the 
+center of the inverted version of the Magic Circle  
+spell to trap it while this spell is cast.) At the com -
+pletion of the casting, the target must succeed on 
+a Charisma saving throw or be bound to serve you 
+for the duration. If the creature was summoned or 
+created by another spell, that spell’s duration is ex -
+tended to match the duration of this spell.
+ A bound creature must follow your commands 
+to the best of its ability. You might command the 
+creature to accompany you on an adventure, to 
+guard a location, or to deliver a message. If the 
+creature is Hostile, it strives to twist your com -
+mands to achieve its own objectives. If the creature 
+carries out your commands completely before the 
+spell ends, it travels to you to report this fact if you 
+are on the same plane of existence. If you are on a 
+different plane, it returns to the place where you 
+bound it and remains there until the spell ends.
+ Using a Higher-Level Spell Slot. The duration 
+increases with a spell slot of level 6 (10 days), 7 (30 
+days), 8 (180 days), and 9 (366 days).
+Plane Shift
+Level 7 Conjuration (Cleric, Druid, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S, M (a forked, metal rod worth 250+ 
+GP and attuned to a plane of existence)
+Duration: Instantaneous
+You and up to eight willing creatures who link 
+hands in a circle are transported to a different plane 
+of existence. You can specify a target destination in 
+general terms, such as a specific city on the Elemen -
+tal Plane of Fire or palace on the second level of the 
+Nine Hells, and you appear in or near that destina-
+tion, as determined by the GM.
+ Alternatively, if you know the sigil sequence of a 
+teleportation circle on another plane of existence, 
+this spell can take you to that circle. If the teleporta-
+tion circle is too small to hold all the creatures you 
+transported, they appear in the closest unoccupied 
+spaces next to the circle.
+Plant Growth
+Level 3 Transmutation (Bard, Druid, Ranger)
+Casting Time: Action (Overgrowth) or 
+8 hours (Enrichment)
+Range: 150 feet
+Components: V, S
+Duration: Instantaneous
+This spell channels vitality into plants. The casting 
+time you use determines whether the spell has the 
+Overgrowth or the Enrichment effect below.
+ Overgrowth. Choose a point within range. All 
+normal plants in a 100-foot-radius Sphere centered 
+on that point become thick and overgrown. A crea-
+ture moving through that area must spend 4 feet of 
+movement for every 1 foot it moves. You can exclude 
+one or more areas of any size within the spell’s area 
+from being affected.
+ Enrichment. All plants in a half-mile radius cen -
+tered on a point within range become enriched for 
+365 days. The plants yield twice the normal amount 
+of food when harvested. They can benefit from only 
+one Plant Growth per year.
+Poison Spray
+Necromancy Cantrip (Druid, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Instantaneous
+You spray toxic mist at a creature within range. 
+Make a ranged spell attack against the target. On a 
+hit, the target takes 1d12 Poison damage.
+ Cantrip Upgrade. The damage increases by 1d12 
+when you reach levels 5 (2d12), 11 (3d12), and 17 
+(4d12).
+Polymorph
+Level 4 Transmutation (Bard, Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a caterpillar cocoon)
+Duration: Concentration, up to 1 hour
+You attempt to transform a creature that you can 
+see within range into a Beast. The target must suc -
+ceed on a Wisdom saving throw or shape-shift into 
+a Beast form for the duration. That form can be any 
+Beast you choose that has a Challenge Rating equal 
+to or less than the target’s (or the target’s level if 
+it doesn’t have a Challenge Rating). The target’s 
+game statistics are replaced by the stat block of the 
+chosen Beast, but the target retains its alignment, 
+personality, creature type, Hit Points, and Hit Point 
+Dice. See the “Animals” section of “Monsters” for a 
+sample of Beast stat blocks.
+ The target gains a number of Temporary Hit 
+Points equal to the Hit Points of the Beast form. 
+These Temporary Hit Points vanish if any remain 
+when the spell ends. The spell ends early on the tar -
+get if it has no Temporary Hit Points left.
+ The target is limited in the actions it can perform 
+by the anatomy of its new form, and it can’t speak or 
+cast spells.

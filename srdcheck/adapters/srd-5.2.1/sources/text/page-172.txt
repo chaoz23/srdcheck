@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+172
+Components: V
+Duration: Instantaneous
+You unleash a string of insults laced with subtle 
+enchantments at one creature you can see or hear 
+within range. The target must succeed on a Wisdom 
+saving throw or take 1d6 Psychic damage and have 
+Disadvantage on the next attack roll it makes before 
+the end of its next turn.
+ Cantrip Upgrade. The damage increases by 1d6 
+when you reach levels 5 (2d6), 11 (3d6), and 17 
+(4d6).
+Vitriolic Sphere
+Level 4 Evocation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (a drop of bile)
+Duration: Instantaneous
+You point at a location within range, and a glow -
+ing, 1-foot-diameter ball of acid streaks there and 
+explodes in a 20-foot-radius Sphere. Each creature 
+in that area makes a Dexterity saving throw. On a 
+failed save, a creature takes 10d4 Acid damage and 
+another 5d4 Acid damage at the end of its next turn. 
+On a successful save, a creature takes half the initial 
+damage only.
+ Using a Higher-Level Spell Slot. The initial dam -
+age increases by 2d4 for each spell slot level above 
+4.
+Wall of Fire
+Level 4 Evocation (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (a piece of charcoal)
+Duration: Concentration, up to 1 minute
+You create a wall of fire on a solid surface within 
+range. You can make the wall up to 60 feet long, 20 
+feet high, and 1 foot thick, or a ringed wall up to 20 
+feet in diameter, 20 feet high, and 1 foot thick. The 
+wall is opaque and lasts for the duration.
+ When the wall appears, each creature in its area 
+makes a Dexterity saving throw, taking 5d8 Fire 
+damage on a failed save or half as much damage on 
+a successful one.
+ One side of the wall, selected by you when you 
+cast this spell, deals 5d8 Fire damage to each crea-
+ture that ends its turn within 10 feet of that side or 
+inside the wall. A creature takes the same damage 
+when it enters the wall for the first time on a turn or 
+ends its turn there. The other side of the wall deals 
+no damage.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 4.
+Wall of Force
+Level 5 Evocation (Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (a shard of glass)
+Duration: Concentration, up to 10 minutes
+An Invisible wall of force springs into existence at 
+a point you choose within range. The wall appears 
+in any orientation you choose, as a horizontal or 
+vertical barrier or at an angle. It can be free floating 
+or resting on a solid surface. You can form it into a 
+hemispherical dome or a globe with a radius of up 
+to 10 feet, or you can shape a flat surface made up 
+of ten 10-foot-by-10-foot panels. Each panel must 
+be contiguous with another panel. In any form, the 
+wall is 1/4 inch thick and lasts for the duration. If 
+the wall cuts through a creature’s space when it ap -
+pears, the creature is pushed to one side of the wall 
+(you choose which side).
+ Nothing can physically pass through the wall. It 
+is immune to all damage and can’t be dispelled by 
+Dispel Magic. A Disintegrate spell destroys the wall 
+instantly, however. The wall also extends into the 
+Ethereal Plane and blocks ethereal travel through 
+the wall.
+Wall of Ice
+Level 6 Evocation (Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S, M (a piece of quartz)
+Duration: Concentration, up to 10 minutes
+You create a wall of ice on a solid surface within 
+range. You can form it into a hemispherical dome 
+or a globe with a radius of up to 10 feet, or you can 
+shape a flat surface made up of ten 10-foot-square 
+panels. Each panel must be contiguous with another 
+panel. In any form, the wall is 1 foot thick and lasts 
+for the duration.
+ If the wall cuts through a creature’s space when 
+it appears, the creature is pushed to one side of the 
+wall (you choose which side) and makes a Dexterity 
+saving throw, taking 10d6 Cold damage on a failed 
+save or half as much damage on a successful one.
+ The wall is an object that can be damaged and 
+thus breached. It has AC 12 and 30 Hit Points per 
+10-foot section, and it has Immunity to Cold, Poi -
+son, and Psychic damage and Vulnerability to Fire 
+damage. Reducing a 10-foot section of wall to 0 Hit 
+Points destroys it and leaves behind a sheet of frigid 
+air in the space the wall occupied.
+ A creature moving through the sheet of frigid air 
+for the first time on a turn makes a Constitution 
+saving throw, taking 5d6 Cold damage on a failed 
+save or half as much damage on a successful one.

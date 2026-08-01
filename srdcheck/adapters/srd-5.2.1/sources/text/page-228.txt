@@ -1,0 +1,111 @@
+System Reference Document 5.2.1
+228
+ Mastery (Legendary).  Your Proficiency Bonus in -
+creases by 1 while this pale green prism orbits your 
+head.
+ Protection (Rare). You gain a +1 bonus to Armor 
+Class while this dusty-rose prism orbits your head.
+ Regeneration (Legendary). You regain 15 Hit 
+Points at the end of each hour this pearly white 
+spindle orbits your head if you have at least 1 Hit 
+Point.
+ Reserve (Rare). This vibrant purple prism stores 
+spells cast into it, holding them until you use them. 
+The stone can store up to 4 levels of spells at a time. 
+When found, it contains 1d4 levels of stored spells 
+chosen by the GM.
+ Any creature can cast a spell of level 1 through 4 
+into the stone by touching it as the spell is cast. The 
+spell has no effect, other than to be stored in the 
+stone. If the stone can’t hold the spell, the spell is 
+expended without effect. The level of the slot used 
+to cast the spell determines how much space it uses.
+ While this stone orbits your head, you can cast 
+any spell stored in it. The spell uses the slot level, 
+spell save DC, spell attack bonus, and spellcast -
+ing ability of the original caster but is otherwise 
+treated as if you cast the spell. The spell cast from 
+the stone is no longer stored in it, freeing up space.
+ Strength (Very Rare). Your Strength increases by 
+2, to a maximum of 20, while this pale blue rhom -
+boid orbits your head.
+ Sustenance (Rare). You don’t need to eat or drink 
+while this clear spindle orbits your head.
+Iron Bands
+Wondrous Item, Rare 
+This rusty iron sphere measures 3 inches in diame -
+ter and weighs 1 pound. You can take a Magic action 
+to throw the sphere at a Huge or smaller creature 
+you can see within 60 feet of yourself. As the sphere 
+moves through the air, it opens into a tangle of 
+metal bands.
+ Make a ranged attack roll with an attack bonus 
+equal to your Dexterity modifier plus your Profi -
+ciency Bonus. On a hit, the target has the Restrained 
+condition until you take a Bonus Action to issue a 
+command that releases it. Doing so or missing with 
+the attack causes the bands to contract and become 
+a sphere once more.
+ A creature that can touch the bands, including the 
+one Restrained, can take an action to make a DC 20 
+Strength (Athletics) check to break the iron bands. 
+On a successful check, the item is destroyed, and the 
+Restrained creature is freed. On a failed check, any 
+further attempts made by that creature automati -
+cally fail until 24 hours have elapsed.
+ Once the bands are used, they can’t be used again 
+until the next dawn.
+Iron Flask
+Wondrous Item, Legendary 
+While holding this brass-stoppered iron flask, you 
+can take a Magic action to target a creature that 
+you can see within 60 feet of yourself. If the flask 
+is empty and the target is native to a plane of exis -
+tence other than the one you’re on, the target must 
+succeed on a DC 17 Wisdom saving throw or be 
+trapped in the flask. If the target has been trapped 
+by the flask before, it has Advantage on the save. 
+Once trapped, a creature remains in the flask until 
+released. The flask can hold only one creature at a 
+time. A creature trapped in the flask doesn’t age and 
+doesn’t need to breathe, eat, or drink.
+ You can take a Magic action to remove the flask’s 
+stopper and release the creature in the flask. The 
+creature then obeys your commands for 1 hour, 
+understanding those commands even if it doesn’t 
+know the language in which the commands are 
+given. If you issue no commands or give the crea-
+ture a command that is likely to result in its death 
+or imprisonment, it defends itself but otherwise 
+takes no actions. At the end of the duration, the 
+creature acts in accordance with its normal disposi -
+tion and alignment.
+ An Identify spell reveals if the flask contains a 
+creature, but the only way to determine the type 
+of creature is to open the flask. A newly discovered 
+Iron Flask might already contain a creature chosen 
+by the GM.
+Javelin of Lightning
+Weapon (Javelin), Uncommon 
+Each time you make an attack roll with this magic 
+weapon and hit, you can have it deal Lightning dam -
+age instead of Piercing damage.
+ Lightning Bolt. When you throw this weapon at 
+a target no farther than 120 feet from you, you can 
+forgo making a ranged attack roll and instead turn 
+the weapon into a bolt of lightning. This bolt forms 
+a 5-foot-wide Line between you and the target. The 
+target and each other creature in the Line (exclud -
+ing you) makes a DC 13 Dexterity saving throw, tak -
+ing 4d6 Lightning damage on a failed save or half 
+as much damage on a successful one. Immediately 
+after dealing this damage, the weapon reappears in 
+your hand. This property can’t be used again until 
+the next dawn.
+Lantern of Revealing
+Wondrous Item, Uncommon 
+While lit, this hooded lantern burns for 6 hours on 1 
+pint of oil, shedding Bright Light in a 30-foot radius 
+and Dim Light for an additional 30 feet. Invisible 
+creatures and objects are visible as long as they are 
+in the lantern’s Bright Light. You can take a Utilize 

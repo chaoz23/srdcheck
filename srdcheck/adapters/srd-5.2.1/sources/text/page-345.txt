@@ -1,0 +1,92 @@
+345
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 16 +3 +3 Con 13 +1 +1
+Int 4 −3 −3 WIS 14 +2 +2 Cha 6 −2 −2
+Skills Stealth +5
+Senses Passive Perception 12
+Languages None
+CR 4 (XP 1,100; PB +2)
+Traits
+Amphibious. The archelon can breathe air and water.
+Actions
+Multiattack. The archelon makes two Bite attacks.
+Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 14 (3d6 + 4) 
+Piercing damage.
+Baboon
+Small Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 3 (1d6)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 8 −1 −1 Dex 14 +2 +2 Con 11 +0 +0
+Int 4 −3 −3 WIS 12 +1 +1 Cha 6 −2 −2
+Senses Passive Perception 11
+Languages None
+CR 0 (XP 10; PB +2)
+Traits
+Pack Tactics. The baboon has Advantage on an attack 
+roll against a creature if at least one of the baboon’s 
+allies is within 5 feet of the creature and the ally doesn’t 
+have the Incapacitated condition.
+Actions
+Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 − 1) 
+Piercing damage.
+Badger
+Tiny Beast, Unaligned
+AC 11   Initiative +0 (10)
+HP 5 (1d4 + 3)
+Speed 20 ft., Burrow 5 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 11 +0 +0 Con 16 +3 +3
+Int 2 −4 −4 WIS 12 +1 +1 Cha 5 −3 −3
+Skills Perception +3
+Resistances Poison
+Senses Darkvision 30 ft.; Passive Perception 13
+Languages None
+CR 0 (XP 10; PB +2)
+Actions
+Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 1 Piercing 
+damage.
+Bat
+Tiny Beast, Unaligned
+AC 12  Initiative +2 (12)
+HP 1 (1d4 − 1)
+Speed 5 ft., Fly 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 2 −4 −4 Dex 15 +2 +2 Con 8 −1 −1
+Int 2 −4 −4 WIS 12 +1 +1 Cha 4 −3 −3
+Senses Blindsight 60 ft.; Passive Perception 11
+Languages None
+CR 0 (XP 10; PB +2)
+Actions
+Bite. Melee Attack Roll: +4, reach 5 ft. Hit: 1 Piercing 
+damage.
+Black Bear
+Medium Beast, Unaligned
+AC 11  Initiative +1 (11)
+HP 19 (3d8 + 6)
+Speed 30 ft., Climb 30 ft., Swim 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +2 Dex 12 +1 +1 Con 14 +2 +2
+Int 2 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +5
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages None
+CR 1/2 (XP 100; PB +2)
+Actions
+Multiattack. The bear makes two Rend attacks.
+Rend. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Slashing damage.
+Blood Hawk
+Small Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 7 (2d6)
+Speed 10 ft., Fly 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 6 −2 −2 Dex 14 +2 +2 Con 10 +0 +0
+Int 3 −4 −4 WIS 14 +2 +2 Cha 5 −3 −3
+Skills Perception +6
+Senses Passive Perception 16
+Languages None
+CR 1/8 (XP 25; PB +2)

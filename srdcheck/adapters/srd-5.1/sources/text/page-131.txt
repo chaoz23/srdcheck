@@ -1,0 +1,95 @@
+System	  Reference	   Document	  5.1 	   131	  
+base,	  up	  to	  50	  feet	  wide	  at	  the	  top,	  and	  25	  feet	  tall.	  
+Any	  creature	  or	  object	  in	  the	  water	  and	  within	  25	  
+feet	  of	  the	  vortex	  is	  pulled	  10	  feet	  toward	  it.	  A	  
+creature	  can	  swim	  away	  from	  the	  vortex	  by	  making	  a	  
+Strength	  (Athletics)	  che ck	  against	  your	  spell	  save	  DC. 	  
+	   When	  a	  creature	  enters	  the	  vortex	  for	  the	  first	  
+time	  on	  a	  turn	  or	  starts	  its	  turn	  there,	  it	  must	  make	  a	  
+Strength	  saving	  throw.	  On	  a	  failed	  save,	  the	  creature	  
+takes	  2d8	  bludgeoning	  damage	  and	  is	  caught	  in	  the	  
+vortex	  until	  the 	  spell	  ends.	  On	  a	  successful	  save,	  the	  
+creature	  takes	  half	  damage,	  and	  isn’t	  caught	  in	  the	  
+vortex.	  A	  creature	  caught	  in	  the	  vortex	  can	  use	  its	  
+action	  to	  try	  to	  swim	  away	  from	  the	  vortex	  as	  
+described	  above,	  but	  has	  disadvantage	  on	  the	  
+Strength	  (Athletics)	  c heck	  to	  do	  so.	  
+	   The	  first	  time	  each	  turn	  that	  an	  object	  enters	  the	  
+vortex,	  the	  object	  takes	  2d8	  bludgeoning	  damage;	  
+this	  damage	  occurs	  each	  round	  it	  remains	  in	  the	  
+vortex.	  
+Control Weather 
+8th-­‐‑level	  transmutation 	  
+Casting	  Time: 	  10	  minutes	  
+Range:	  Self	  (5-­‐‑mile	  radius)	  
+Components:	  V,	  S,	  M	  (burning	  incense	  and	  bits	  of	  
+earth	  and	  wood	  mixed	  in	  water) 	  
+Duration:	  Concentration,	  up	  to	  8	  hours 	  
+You	  take	  control	  of	  the	  weather	  within	  5	  miles	  of	  you	  
+for	  the	  duration.	  You	  must	  be	  outdoors	  to	  cast	  this	  
+spell.	  Moving	  to	  a	  place	  where	  you	  don’t	  have	  a	  clear	  
+path	  to	  the	  sky	  ends	  the	  spell	  early. 	  
+	   When	  you	  cast	  the	  spell,	  you	  change	  the	  current	  
+weather	  conditions,	  which	  are	  determined	  by	  the	  
+GM	  based	  on	  the	  climate	  and	  season.	  You	  can	  change	  
+precipitation,	  temperatur e,	  and	  wind.	  It	  takes	  1d4	  ×	  
+10	  minutes	  for	  the	  new	  conditions	  to	  take	  effect.	  
+Once	  they	  do	  so,	  you	  can	  change	  the	  conditions	  again.	  
+When	  the	  spell	  ends,	  the	  weather	  gradually	  returns	  
+to	  normal.	  
+	   When	  you	  change	  the	  weather	  conditions,	  find	  a	  
+current	  condition	  on	  the	  following	  tables	  and	  change	  
+its	  stage	  by	  one,	  up	  or	  down.	  When	  changing	  the	  
+wind,	  you	  can	  change	  its	  direction. 	  
+Precipitation	  
+Stage	   Condition	  
+1	   Clear	  
+2	   Light	  clouds	  
+3	   Overcast	  or	  ground	  fog 	  
+4	   Rain,	  hail,	  or	  snow 	  
+5	   Torrential	  rain,	  driving	   hail,	  or	  blizzard	  
+Temperature	  
+Stage	   Condition	  
+1	   Unbearable	  heat	  
+2	   Hot	  
+3	   Warm	  
+4	   Cool	  
+5	   Cold	  
+6	   Arctic	  cold	  
+Wind	  
+Stage	   Condition	  
+1	   Calm	  
+2	   Moderate	  wind	  
+3	   Strong	  wind	  
+4	   Gale	  
+5	   Storm	  
+Counterspell 
+3rd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  reaction,	  which	  you	  take	  when	  you	  
+see	  a	  creature	  within	  60	  feet	  of	  you	  casting	  a	  spell 	  
+Range:	  60	  feet	  
+Components:	  S	  
+Duration:	  Instantaneous	  
+You	  attempt	  to	  interrupt	  a	  creature	  in	  the	  process	  of	  
+casting	  a	  spell.	  If	  the	  creature	  is	  casting	  a	  spell	  of	  3rd	  
+level	  or	  lower,	  its	  spell	  fails	  and	  has	  no	  effect.	  If	  it	  is	  
+casting	  a	  spell	  of	  4th	  level	  or	  higher,	  make	  an	  ability	  
+check	  using	  your	  spellcasting	  ability.	  The	  DC	  equals	  
+10	  +	  the	  spell's	  level.	  On	  a	  success,	  the	  creature's	  
+spell	  fails	  and	  has	  no	  effect. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  interrupted	  spell	  
+has	  no	  effect	  if	  its	  level	  is	  less	  than	  or	  equal	  to	  the	  
+level	  of	  the	  spell	  slot	  you	  used. 	  
+Create Food and Water 
+3rd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  create	  45	  pounds	  of	  food	  and	  30	  gallons	  of	  
+water	  on	  the	  ground	  or	  in	  containers	  within	  range,	  
+enough	  to	  sustain	  up	  to	  fifteen	  humanoids	  or	  five	  
+steeds	  for	  24	  hours.	  The	  food	  is	  bland	  but	  no urishing,	  
+and	  spoils	  if	  uneaten	  after	  24	  hours.	  The	  water	  is	  
+clean	  and	  doesn’t	  go	  bad. 	  

@@ -1,0 +1,101 @@
+System	  Reference	   Document	  5.1 	   119	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (gold	  dust	  worth	  at	  least	  25	  gp,	  
+which	  the	  spell	  consumes) 	  
+Duration:	  Until	  dispelled	  
+You	  touch	  a	  closed	  door,	  window,	  gate,	  chest,	  or	  
+other	  entryway,	  and	  it	  becomes	  locked	  for	  the	  
+duration.	  You	  and	  t he	  creatures	  you	  designate	  when	  
+you	  cast	  this	  spell	  can	  open	  the	  object	  normally.	  You	  
+can	  also	  set	  a	  password	  that,	  when	  spoken	  within	  5	  
+feet	  of	  the	  object,	  suppresses	  this	  spell	  for	  1	  minute.	  
+Otherwise,	  it	  is	  impassable	  until	  it	  is	  broken	  or	  the	  
+spell	  is	  dispelled	  or	  suppressed.	  Casting	   knock	  on	  the	  
+object	  suppresses	   arcane	  lock	  for	  10	  minutes. 	  
+	   While	  affected	  by	  this	  spell,	  the	  object	  is	  more	  
+difficult	  to	  break	  or	  force	  open;	  the	  DC	  to	  break	  it	  or	  
+pick	  any	  locks	  on	  it	  increases	  by	  10. 	  
+Arcane Sword 
+7th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  miniature	  platinum	  sword	  
+with	  a	  grip	  and	  pommel	  of	  copper	  and	  zinc,	  worth	  
+250	  gp)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+You	  create	  a	  sword -­‐‑shaped	  plane	  of	  force	  that	  
+hovers	  within	  range.	  It	  lasts	  for	  the	  duration.	  
+	   When	  the	  sword	  appears,	  you	  make	  a	  melee	  spell	  
+attack	  against	  a	  target	  of	  your	  choice	  within	  5	  feet	  of	  
+the	  sword.	  On	  a	  hit,	  the	  target	  takes	  3d10	  force	  
+damage.	  Until	  the	  spell	  ends,	  you	  can	  use	  a	  bonus	  
+action	  on	  each	  of	  y our	  turns	  to	  move	  the	  sword	  up	  to	  
+20	  feet	  to	  a	  spot	  you	  can	  see	  and	  repeat	  this	  attack	  
+against	  the	  same	  target	  or	  a	  different	  one. 	  
+Arcanist’s Magic Aura 
+2nd-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  small	  square	  of	  silk) 	  
+Duration:	  24	  hours	  
+You	  place	  an	  illusion	  on	  a	  creature	  or	  an	  object	  you	  
+touch	  so	  that	  divination	  spells	  reveal	  false	  
+information	  about	  it.	  The	  target	  can	  be	  a	  willing	  
+creature	  or	  an	  object	  that	  isn’t	  being	  carried	  or	  worn	  
+by	  another	  creature. 	  
+	   When	  you	  cast	  the	  spell,	  choose	  one	  or	  both	  of	  the	  
+following	  effects.	  The	  effect	  lasts	  for	  the	  duration.	  If	  
+you	  cast	  this	  spell	  on	  the	  same	  creature	  or	  object	  
+every	  day	  for	  30	  days,	  placing	  the	  same	  effect	  on	  it	  
+each	  time,	  the	  illusion	  lasts	  until	  it	  is	  dispelled. 	  
+	   False	  Aura.	  You	  change	  the	  way	  the	  target	  
+appears	  to	  spells	  and	  magical	  effects,	  such	  as	   detect	  
+magic,	  that	  detect	  magical	  auras .	  You	  can	  make	  a	  
+nonmagical	  object	  appear	  magical,	  a	  magical	  object	  
+appear	  nonmagical,	  or	  change	  the	  object’s	  magical	  
+aura	  so	  that	  it	  appears	  to	  belong	  to	  a	  specific	  school	  
+of	  magic	  that	  you	  choose.	  When	  you	  use	  this	  effect	  
+on	  an	  object,	  you	  can	  make	  the	  false	  magic	  apparent	  
+to	  any	  creature	  that	  handles	  the	  item. 	  
+	   Mask.	  You	  change	  the	  way	  the	  target	  appears	  to	  
+spells	  and	  magical	  effe cts	  that	  detect	  creature	  types,	  
+such	  as	  a	  paladin’s	  Divine	  Sense	  or	  the	  trigger	  of	  a	  
+symbol	  spell.	  You	  choose	  a	  creature	  type	  and	  other	  
+spells	  and	  magical	  effects	  treat	  the	  target	  as	  if	  it	  
+were	  a	  creature	  of	  that	  type	  or	  of	  that	  alignment. 	  
+Astral Projection 
+9th-­‐‑level	  necromancy 	  
+Casting	  Time: 	  1	  hour	  
+Range:	  10	  feet	  
+Components:	  V,	  S,	  M	  (for	  each	  creature	  you	  affect	  
+with	  this	  spell,	  you	  must	  provide	  one	  jacinth	  
+worth	  at	  least	  1,000	  gp	  and	  one	  ornately	  carved	  
+bar	  of	  silver	  worth	  at	  least	  100	  gp,	  all	  of	  which	  the	  
+spell	  consumes) 	  
+Duration:	  Special	  
+You	  and	  up	  to	  eight	  willing	  creatur es	  within	  range	  
+project	  your	  astral	  bodies	  into	  the	  Astral	  Plane	  (the	  
+spell	  fails	  and	  the	  casting	  is	  wasted	  if	  you	  are	  already	  
+on	  that	  plane).	  The	  material	  body	  you	  leave	  behind	  
+is	  unconscious	  and	  in	  a	  state	  of	  suspended	  
+animation;	  it	  doesn’t	  need	  food	  or	   air	  and	  doesn’t	  
+age.	  
+	   Your	  astral	  body	  resembles	  your	  mortal	  form	  in	  
+almost	  every	  way,	  replicating	  your	  game	  statistics	  
+and	  possessions.	  The	  principal	  difference	  is	  the	  
+addition	  of	  a	  silvery	  cord	  that	  extends	  from	  between	  
+your	  shoulder	  blades	  and	  trails	  be hind	  you,	  fading	  to	  
+invisibility	  after	  1	  foot.	  This	  cord	  is	  your	  tether	  to	  
+your	  material	  body.	  As	  long	  as	  the	  tether	  remains	  
+intact,	  you	  can	  find	  your	  way	  home.	  If	  the	  cord	  is	  
+cut—something	  that	  can	  happen	  only	  when	  an	  effect	  
+specifically	  states	  that	  it	  do es—your	  soul	  and	  body	  
+are	  separated,	  killing	  you	  instantly. 	  
+	   Your	  astral	  form	  can	  freely	  travel	  through	  the	  
+Astral	  Plane	  and	  can	  pass	  through	  portals	  there	  
+leading	  to	  any	  other	  plane.	  If	  you	  enter	  a	  new	  plane	  
+or	  return	  to	  the	  plane	  you	  were	  on	  when	  casting 	  this	  
+spell,	  your	  body	  and	   possessions	  are	  transported	  
+along	  the	  silver	  cord,	  allowing	  you	  to	  re-­‐‑enter	  your	  
+body	  as	  you	  enter	  the	  new	  plane.	  Your	  astral	  form	  is	  
+a	  separate	  incarnation.	  Any	  damage	  or	  other	  effects	  

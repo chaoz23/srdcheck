@@ -1,0 +1,93 @@
+System	  Reference	   Document	  5.1 	   158	  
+person.	  The	  spell	  ends	  for	  a	  target	  that	  attacks	  or	  
+casts	  a	  spell.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  you	  can	  target	  one	  
+additional	  creature	  for	  each	  slot	  level	   above	  2nd.	  
+Irresistible Dance 
+6th-­‐‑level	  enchantment	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Choose	  one	  creature	  that	  you	  can	  see	  within	  range.	  
+The	  target	  begins	  a	  comic	  dance	  in	  place:	  shuffling,	  
+tapping	  its	  feet,	  and	  capering	  for	  the	  duration.	  
+Creatures	  that	  can’t	  be	  charmed	  are	  immune	  to	  this	  
+spell.	  
+	   A	  dancing	  creature	  must	  use	  all	  its	  movement	  to	  
+dance	  without	  leaving	  its	  space	  and	  has	  
+disadvantage	  on	  Dexterity	  saving	  throws	  and	  attack	  
+rolls.	  While	  the	   target	  is	  affected	  by	  this	  spell,	  other	  
+creatures	  have	  advantage	  on	  attack	  rolls	  against	  it.	  
+As	  an	  action,	  a	  dancing	  creature	  makes	  a	  Wisdom	  
+saving	  throw	  to	  regain	  control	  of	  itself.	  On	  a	  
+successful	  save,	  the	  spell	  ends. 	  
+Jump 
+1st-­‐‑level	  transmutation 	  
+Casting	  Time:	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  grasshopper’s	  hind	  leg) 	  
+Duration:	  1	  minute	  
+You	  touch	  a	  creature.	  The	  creature’s	  jump	  distance	  is	  
+tripled	  until	  the	  spell	  ends. 	  
+Knock 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V	  
+Duration:	  Instantaneous	  
+Choose	  an	  object	  that	  you	  can	  see	  within	  range.	  The	  
+object	  can	  be	  a	  door,	  a	  box,	  a	  chest,	  a	  set	  of	  manacles,	  
+a	  padlock,	  or	  another	  object	  that	  contains	  a	  
+mundane	  or	  magical	  means	  that	  prevents	  access. 	  
+	   A	  target	  that	  is 	  held	  shut	  by	  a	  mundane	  lock	  or	  
+that	  is	  stuck	  or	  barred	  becomes	  unlocked,	  unstuck,	  
+or	  unbarred.	  If	  the	  object	  has	  multiple	  locks,	  only	  
+one	  of	  them	  is	  unlocked. 	  
+	   If	  you	  choose	  a	  target	  that	  is	  held	  shut	  with	   arcane	  
+lock,	  that	  spell	  is	  suppressed	  for	  10	   minutes,	  during	  
+which	  time	  the	  target	  can	  be	  opened	  and	  shut	  
+normally.	  
+	   When	  you	  cast	  the	  spell,	  a	  loud	  knock,	  audible	  
+from	  as	  far	  away	  as	  300	  feet,	  emanates	  from	  the	  
+target	  object.	  
+Legend Lore 
+5th-­‐‑level	  divination 	  
+Casting	  Time: 	  10	  minutes	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (incense	  worth	  at	  least	  250	  gp,	  
+which	  the	  spell	  consumes,	  and	  four	  ivory	  strips	  
+worth	  at	  least	  50	  gp	  each) 	  
+Duration:	  Instantaneous	  
+Name	  or	  describe	  a	  person,	  place,	  or	  object.	  The	  spell	  
+brings	  to	  your	  mind	  a	  brief	  summary	  of	  the	  
+significant	  lore	  about	  the	  thing	  you	  named.	  The	  lore	  
+might	  consist	  of	  current	  tales,	  forgotten	  stories,	  or	  
+even	  secret	  lore	  that	  has	  never	  been	  widely	  known.	  
+If	  the	  thing	  you	  named	  isn’t	  of	  legendary	  importance,	  
+you	  gain	  no	  information.	  The	  more	  information	  you	  
+already	  have	  about	  the	  thing,	  the	  more	  precise	  and	  
+detailed	  the	  information	  you	  receive	  is. 	  
+	   The	  information	  you	  learn	  is	  accurate	  but	  might	  be	  
+couched	  in	  figurative	  language.	  For	  example,	  if	  you	  
+have	  a	  mysterious	  magic	  axe	  on	  hand,	  the	  spell	  
+might	  yield	  this	  i nformation:	  “Woe	  to	  the	  evildoer	  
+whose	  hand	  touches	  the	  axe,	  for	  even	  the	  haft	  slices	  
+the	  hand	  of	  the	  evil	  ones.	  Only	  a	  true	  Child	  of	  Stone,	  
+lover	  and	  beloved	  of	  Moradin,	  may	  awaken	  the	  true	  
+powers	  of	  the	  axe,	  and	  only	  with	  the	  sacred	  word	  
+Rudnogg	  on	  the	  lips.”	  
+Lesser Restoration 
+2nd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  touch	  a	  creature	  and	  can	  end	  either	  one	  disease	  
+or	  one	  condition	  afflicting	  it.	  The	  condition	  can	  be	  
+blinded,	  deafened,	  paralyzed ,	  or	  poisoned.	  
+Levitate 
+2nd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  

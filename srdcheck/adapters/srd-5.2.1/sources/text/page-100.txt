@@ -1,0 +1,97 @@
+System Reference Document 5.2.1
+100
+Spikes, Iron (1 GP)
+Iron Spikes come in bundles of ten. As a Utilize 
+action, you can use a blunt object, such as a Light 
+Hammer, to hammer a spike into wood, earth, or a 
+similar material. You can do so to jam a door shut or 
+to then tie a Rope or Chain to the Spike.
+Spyglass (1,000 GP)
+Objects viewed through a Spyglass are magnified to 
+twice their size.
+String (1 SP)
+String is 10 feet long. You can tie a knot in it as a Uti -
+lize action.
+Tent (2 GP)
+A Tent sleeps up to two Small or Medium creatures.
+Tinderbox (5 SP)
+A Tinderbox is a small container holding flint, fire 
+steel, and tinder (usually dry cloth soaked in light 
+oil) used to kindle a fire. Using it to light a Candle, 
+Lamp, Lantern, or Torch—or anything else with 
+exposed fuel—takes a Bonus Action. Lighting any 
+other fire takes 1 minute.
+Torch (1 CP)
+A Torch burns for 1 hour, casting Bright Light in 
+a 20-foot radius and Dim Light for an additional 
+20 feet. When you take the Attack action, you can 
+attack with the Torch, using it as a Simple Melee 
+weapon. On a hit, the target takes 1 Fire damage.
+Vial (1 GP)
+A Vial holds up to 4 ounces.
+Waterskin (2 SP)
+A Waterskin holds up to 4 pints. If you don’t drink 
+sufficient water, you risk dehydration (see “Rules 
+Glossary”).
+Mounts and Vehicles
+A mount can help you move more quickly through 
+the wilderness, but its primary purpose is to carry 
+gear that would otherwise slow you down. The 
+Mounts and Other Animals table shows each ani -
+mal’s carrying capacity. See “Monsters” for the ani -
+mals’ stat blocks.
+Mounts and Cargo
+An animal pulling a carriage, cart, chariot, sled, or 
+wagon can move weight up to five times its base 
+carrying capacity, including the weight of the vehi -
+cle. If multiple animals pull the same vehicle, add 
+their carrying capacities together.
+Barding
+Barding is armor designed for a mount. Any type 
+of armor on the Armor table in “Equipment” can 
+be purchased as barding. The cost is four times the 
+normal cost, and it weighs twice as much.
+Saddles
+A saddle comes with a bit, a bridle, reins, and any 
+other equipment needed to use the saddle. A Mil -
+itary Saddle gives Advantage on any ability check 
+you make to remain mounted. An Exotic Saddle is 
+required for riding an aquatic or a flying mount.
+Mounts and Other Animals
+Item Carrying Capacity Cost
+Camel 450 lb. 50 GP
+Elephant 1,320 lb. 200 GP
+Horse, Draft 540 lb. 50 GP
+Horse, Riding 480 lb. 75 GP
+Mastiff 195 lb. 25 GP
+Mule 420 lb. 8 GP
+Pony 225 lb. 30 GP
+Warhorse 540 lb. 400 GP
+Tack, Harness, and Drawn Vehicles
+Item Weight Cost
+Carriage 600 lb. 100 GP
+Cart 200 lb. 15 GP
+Chariot 100 lb. 250 GP
+Feed per day 10 lb. 5 CP
+Saddle
+Exotic 40 lb. 60 GP
+Military 30 lb. 20 GP
+Riding 25 lb. 10 GP
+Sled 300 lb. 20 GP
+Stabling per day — 5 SP
+Wagon 400 lb. 35 GP
+Large Vehicles
+The Airborne and Waterborne Vehicles table pro -
+vides statistics for various types of large vehicles. 
+The following notes apply.
+Speed
+A ship sailing against a strong wind moves at half 
+speed. In a dead calm (no wind), waterborne ships 
+can’t move under sail and must be rowed. Keelboats 
+and Rowboats are used on lakes and rivers. If going 
+downstream, add the speed of the current (typically 
+3 miles per hour) to the speed of the vehicle. These 
+vehicles can’t be rowed against any significant cur -
+rent, but they can be pulled upstream by draft an -
+imals on the shores. A Rowboat can be carried and 
+weighs 100 pounds.

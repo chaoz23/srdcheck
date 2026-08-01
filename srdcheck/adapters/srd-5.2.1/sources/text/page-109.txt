@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+109
+one object, a Large target counts as two, and a Huge 
+target counts as three.
+ Each target animates, sprouts legs, and becomes 
+a Construct that uses the Animated Object  stat 
+block; this creature is under your control until the 
+spell ends or until it is reduced to 0 Hit Points. Each 
+creature you make with this spell is an ally to you 
+and your allies. In combat, it shares your Initiative 
+count and takes its turn immediately after yours. 
+ Until the spell ends, you can take a Bonus Action 
+to mentally command any creature you made with 
+this spell if the creature is within 500 feet of you (if 
+you control multiple creatures, you can command 
+any of them at the same time, issuing the same 
+command to each one). If you issue no commands, 
+the creature takes the Dodge action and moves only 
+to avoid harm. When the creature drops to 0 Hit 
+Points, it reverts to its object form, and any remain -
+ing damage carries over to that form. 
+ Using a Higher-Level Spell Slot. The creature’s 
+Slam damage increases by 1d4 (Medium or smaller), 
+1d6 (Large), or 1d12 (Huge) for each spell slot level 
+above 5. 
+or make attacks with Ranged or Reach weapons 
+through the barrier.
+ If you move so that an affected creature is forced 
+to pass through the barrier, the spell ends.
+Antimagic Field
+Level 8 Abjuration (Cleric, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (iron filings)
+Duration: Concentration, up to 1 hour
+An aura of antimagic surrounds you in 10-foot Em -
+anation. No one can cast spells, take Magic actions, 
+or create other magical effects inside the aura, and 
+those things can’t target or otherwise affect any -
+thing inside it. Magical properties of magic items 
+don’t work inside the aura or on anything inside it.
+ Areas of effect created by spells or other magic 
+can’t extend into the aura, and no one can teleport 
+into or out of it or use planar travel there. Portals 
+close temporarily while in the aura.
+ Ongoing spells, except those cast by an Artifact or 
+a deity, are suppressed in the area. While an effect 
+is suppressed, it doesn’t function, but the time it 
+spends suppressed counts against its duration.
+ Dispel Magic has no effect on the aura, and the au -
+ras created by different Antimagic Field spells don’t 
+nullify each other.
+Antipathy/Sympathy
+Level 8 Enchantment (Bard, Druid, Wizard)
+Casting Time: 1 hour
+Range: 60 feet
+Components: V, S, M (a mix of vinegar and honey)
+Duration: 10 days
+As you cast the spell, choose whether it creates 
+antipathy or sympathy, and target one creature or 
+object that is Huge or smaller. Then specify a kind of 
+creature, such as red dragons, goblins, or vampires. 
+A creature of the chosen kind makes a Wisdom 
+saving throw when it comes within 120 feet of the 
+target. Your choice of antipathy or sympathy deter -
+mines what happens to a creature when it fails that 
+save:
+Antipathy. The creature has the Frightened condi -
+tion. The Frightened creature must use its move -
+ment on its turns to get as far away as possible 
+from the target, moving by the safest route.
+Sympathy. The creature has the Charmed condi -
+tion. The Charmed creature must use its move -
+ment on its turns to get as close as possible to the 
+target, moving by the safest route. If the creature 
+is within 5 feet of the target, the creature can’t 
+willingly move away. If the target damages the 
+Charmed creature, that creature can make a 
+Animated Object
+Huge or Smaller Construct, Unaligned
+AC 15
+HP 10 (Medium or smaller), 20 (Large), 40 (Huge) 
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3     dex 10 +0 +0 con 10 +0 +0
+int 3 −4 −4 WiS 3 −4 −4 chA 1 −5 −5
+Immunities Poison, Psychic; Charmed, Exhaustion, 
+Frightened, Paralyzed, Poisoned
+Senses Blindsight 30 ft.; Passive Perception 6
+Languages Understands the languages you know
+CR None (XP 0; PB equals your Proficiency Bonus)
+Actions
+Slam. Melee Attack Roll: Bonus equals your spell attack 
+modifier, reach 5 ft. Hit: Force damage equal to 1d4 
++ 3 (Medium or smaller), 2d6 + 3 + your spellcasting 
+ability modifier (Large), or 2d12 + 3 + your spellcasting 
+ability modifier (Huge).
+Antilife Shell
+Level 5 Abjuration (Druid)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 1 hour
+An aura extends from you in a 10-foot Emanation 
+for the duration. The aura prevents creatures other 
+than Constructs and Undead from passing or reach -
+ing through it. An affected creature can cast spells 

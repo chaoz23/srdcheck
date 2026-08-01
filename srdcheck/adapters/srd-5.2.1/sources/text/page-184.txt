@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+184
+Incapacitated [Condition]
+While you have the Incapacitated condition, you ex -
+perience the following effects.
+ Inactive.  You can’t take any action, Bonus Action, 
+or Reaction.
+ No Concentration. Your Concentration is broken.
+ Speechless.  You can’t speak.
+ Surprised.  If you’re Incapacitated when you roll 
+Initiative, you have Disadvantage on the roll.
+Indifferent [Attitude]
+An Indifferent creature has no desire to help or hin -
+der you. Indifferent is the default attitude of a mon -
+ster. See also “Influence.”
+Influence [Action]
+With the Influence action, you urge a monster to 
+do something. Describe or roleplay how you’re 
+communicating with the monster. Are you trying to 
+deceive, intimidate, amuse, or gently persuade? The 
+GM then determines whether the monster feels will -
+ing, unwilling, or hesitant due to your interaction; 
+this determination establishes whether an ability 
+check is necessary, as explained below.
+ Willing.  If your urging aligns with the monster’s 
+desires, no ability check is necessary; the monster 
+fulfills your request in a way it prefers.
+ Unwilling.  If your urging is repugnant to the mon -
+ster or counter to its alignment, no ability check is 
+necessary; it doesn’t comply.
+ Hesitant.  If you urge the monster to do something 
+that it is hesitant to do, you must make an ability 
+check, which is affected by the monster’s attitude: 
+Indifferent, Friendly, or Hostile, each of which is 
+defined in this glossary. The Influence Checks ta-
+ble suggests which ability check to make based on 
+how you’re interacting with the monster. The GM 
+chooses the check, which has a default DC equal to 
+15 or the monster’s Intelligence score, whichever 
+is higher. On a successful check, the monster does 
+as urged. On a failed check, you must wait 24 hours 
+(or a duration set by the GM) before urging it in the 
+same way again.
+Influence Checks
+Ability Check Interaction
+Charisma (Deception) Deceiving a monster 
+that understands you
+Charisma (Intimidation) Intimidating a monster
+Charisma (Performance) Amusing a monster
+Charisma (Persuasion) Persuading a monster 
+that understands you
+Wisdom (Animal Handling) Gently coaxing a Beast 
+or Monstrosity
+Initiative
+Initiative determines the order of turns during com -
+bat. The combat rules in “Playing the Game” explain 
+how to roll Initiative.
+ Sometimes a GM might have combatants use 
+their Initiative scores instead of rolling Initiative. 
+Your Initiative score equals 10 plus your Dexterity 
+modifier. If you have Advantage on Initiative rolls, 
+increase your Initiative score by 5. If you have Dis -
+advantage on those rolls, decrease that score by 5. 
+See also “Playing the Game” (“Combat”).
+Invisible [Condition]
+While you have the Invisible condition, you experi -
+ence the following effects.
+ Surprise.  If you’re Invisible when you roll Initia-
+tive, you have Advantage on the roll.
+ Concealed.  You aren’t affected by any effect that 
+requires its target to be seen unless the effect’s cre -
+ator can somehow see you. Any equipment you are 
+wearing or carrying is also concealed.
+ Attacks Affected.  Attack rolls against you have 
+Disadvantage, and your attack rolls have Advan -
+tage. If a creature can somehow see you, you don’t 
+gain this benefit against that creature.
+Jumping
+When you jump, you make either a Long Jump (hor -
+izontal) or a High Jump (vertical). See also  “Long 
+Jump” and “High Jump.”
+Knocking Out a Creature
+When you would reduce a creature to 0 Hit Points 
+with a melee attack, you can instead reduce the 
+creature to 1 Hit Point. The creature then has the 
+Unconscious condition and starts a Short Rest.
+ The creature remains Unconscious until it regains 
+any Hit Points or until someone uses an action to 
+administer first aid to it, which requires a success -
+ful DC 10 Wisdom (Medicine) check.
+Lightly Obscured
+You have Disadvantage on Wisdom (Perception) 
+checks to see something in a Lightly Obscured 
+space. See also “Dim Light” and “Playing the Game” 
+(“Exploration”).
+Line [Area of Effect]
+A Line is an area of effect that extends from a point 
+of origin in a straight path along its length and cov -
+ers an area defined by its width. The effect that cre -
+ates a Line specifies its length and width.
+ A Line’s point of origin isn’t included in the area of 
+effect unless its creator decides otherwise.
+Long Jump
+When you make a Long Jump, you leap horizontally 
+a number of feet up to your Strength score if you 

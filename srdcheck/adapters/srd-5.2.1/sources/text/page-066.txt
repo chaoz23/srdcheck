@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+66
+• The spell save DC of your Sorcerer spells 
+increases by 1.
+• You have Advantage on the attack rolls of 
+Sorcerer spells you cast.
+You can use this feature twice, and you regain all 
+expended uses of it when you finish a Long Rest.
+Level 2: Font of Magic
+You can tap into the wellspring of magic within 
+yourself. This wellspring is represented by Sorcery 
+Points, which allow you to create a variety of magi -
+cal effects.
+ You have 2 Sorcery Points, and you gain more as 
+you reach higher levels, as shown in the Sorcery 
+Points column of the Sorcerer Features table. You 
+can’t have more Sorcery Points than the number 
+shown in the table for your level. You regain all ex -
+pended Sorcery Points when you finish a Long Rest.
+ You can use your Sorcery Points to fuel the op -
+tions below, along with other features, such as 
+Metamagic, that use those points.
+ Converting Spell Slots to Sorcery Points. You 
+can expend a spell slot to gain a number of Sorcery 
+Points equal to the slot’s level (no action required).
+ Creating Spell Slots. As a Bonus Action, you can 
+transform unexpended Sorcery Points into one spell 
+slot. The Creating Spell Slots table shows the cost 
+of creating a spell slot of a given level, and it lists 
+the minimum Sorcerer level you must be to create 
+a slot. You can create a spell slot no higher than 
+level 5.
+ Any spell slot you create with this feature van -
+ishes when you finish a Long Rest.
+Creating Spell Slots
+Spell Slot  
+Level
+Sorcery Point 
+Cost
+Min. Sorcerer 
+Level
+1 2 2
+2 3 3
+3 5 5
+4 6 7
+5 7 9
+Level 2: Metamagic
+Because your magic flows from within, you can 
+alter your spells to suit your needs; you gain two 
+Metamagic options of your choice from “Meta  magic 
+Options” later in this class’s description. You use 
+the chosen options to temporarily modify spells you 
+cast. To use an option, you must spend the number 
+of Sorcery Points that it costs.
+ You can use only one Metamagic option on a spell 
+when you cast it unless otherwise noted in one of 
+those options.
+ Whenever you gain a Sorcerer level, you can re -
+place one of your Metamagic options with one you 
+don’t know. You gain two more options at Sorcerer 
+level 10 and two more at Sorcerer level 17.
+Level 3: Sorcerer Subclass
+You gain a Sorcerer subclass of your choice. The 
+Draconic Sorcery subclass is detailed after this 
+class’s description. A subclass is a specialization 
+that grants you features at certain Sorcerer levels. 
+For the rest of your career, you gain each of your 
+subclass’s features that are of your Sorcerer level or 
+lower.
+Level 4: Ability Score Improvement
+You gain the Ability Score Improvement feat (see 
+“Feats”) or another feat of your choice for which you 
+qualify. You gain this feature again at Sorcerer lev -
+els 8, 12, and 16.
+Level 5: Sorcerous Restoration
+When you finish a Short Rest, you can regain ex -
+pended Sorcery Points, but no more than a number 
+equal to half your Sorcerer level (round down). Once 
+you use this feature, you can’t do so again until you 
+finish a Long Rest.
+Level 7: Sorcery Incarnate
+If you have no uses of Innate Sorcery left, you can 
+use it if you spend 2 Sorcery Points when you take 
+the Bonus Action to activate it.
+ In addition, while your Innate Sorcery feature is 
+active, you can use up to two of your Metamagic op -
+tions on each spell you cast.
+Level 19: Epic Boon
+You gain an Epic Boon feat (see “Feats”) or another 
+feat of your choice for which you qualify. Boon of Di -
+mensional Travel is recommended.
+Level 20: Arcane Apotheosis
+While your Innate Sorcery feature is active, you can 
+use one Metamagic option on each of your turns 
+without spending Sorcery Points on it.
+Metamagic Options
+The following options are available to your Meta-
+magic feature. The options are presented in alpha-
+betical order.
+Careful Spell
+Cost: 1 Sorcery Point
+When you cast a spell that forces other creatures 
+to make a saving throw, you can protect some of 
+those creatures from the spell’s full force. To do so, 
+spend 1 Sorcery Point and choose a number of those 
+creatures up to your Charisma modifier (minimum 
+of one creature). A chosen creature automatically 
+succeeds on its saving throw against the spell, and 

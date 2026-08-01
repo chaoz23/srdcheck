@@ -1,14 +1,25 @@
-srdcheck/adapters/srd-5.2.1/sources/*.pdf
+# --- Generated build artifacts (never commit; see docs/RELEASE.md) ---
+build/
+dist/
+*.egg-info/
 __pycache__/
 *.pyc
+.venv/
 .DS_Store
 node_modules/
-srdcheck/adapters/srd-5.2.1/sources/text/
-srdcheck/adapters/srd-5.2.1/sources/index.json
-.venv/
 
-# SRD 5.1 adapter sources (version-layer epic)
+# --- Upstream source PDFs -------------------------------------------------
+# The official SRD PDFs are CC-BY-4.0 but are large binaries and fully
+# regenerable: run each adapter's ./fetch.sh, which verifies a pinned SHA-256.
+# The *extracted text* IS committed (see NOTICE) so that `srdcheck cite` works
+# from an installed wheel, offline, outside a prepared checkout.
+srdcheck/adapters/srd-5.2.1/sources/*.pdf
 srdcheck/adapters/srd-5.1/sources/*.pdf
-srdcheck/adapters/srd-5.1/sources/text/
-srdcheck/adapters/srd-5.1/sources/index.json
+
+# --- Third-party material: NEVER commit -----------------------------------
+# Commercial adventure modules and any other non-SRD rulebook content are NOT
+# covered by this repository's MIT (code) or CC-BY-4.0 (SRD) licenses and must
+# never be tracked or redistributed. Enforced by scripts/check_repo_hygiene.py.
+eval/modules/
+
 .claude/settings.local.json

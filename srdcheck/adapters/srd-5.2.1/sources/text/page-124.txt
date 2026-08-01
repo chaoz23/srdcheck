@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+124
+ If you, the other creature, or both would arrive in 
+a space occupied by a creature or completely filled 
+by one or more objects, you and any creature trav -
+eling with you each take 4d6 Force damage, and the 
+teleportation fails.
+Disguise Self
+Level 1 Illusion (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: 1 hour
+You make yourself—including your clothing, armor, 
+weapons, and other belongings on your person—
+look different until the spell ends. You can seem 
+1 foot shorter or taller and can appear heavier or 
+lighter. You must adopt a form that has the same 
+basic arrangement of limbs as you have. Otherwise, 
+the extent of the illusion is up to you.
+ The changes wrought by this spell fail to hold 
+up to physical inspection. For example, if you use 
+this spell to add a hat to your outfit, objects pass 
+through the hat, and anyone who touches it would 
+feel nothing.
+ To discern that you are disguised, a creature must 
+take the Study action to inspect your appearance 
+and succeed on an Intelligence (Investigation) check 
+against your spell save DC.
+Disintegrate
+Level 6 Transmutation (Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a lodestone and dust)
+Duration: Instantaneous
+You launch a green ray at a target you can see 
+within range. The target can be a creature, a non -
+magical object, or a creation of magical force, such 
+as the wall created by Wall of Force.
+ A creature targeted by this spell makes a Dexter -
+ity saving throw. On a failed save, the target takes 
+10d6 + 40 Force damage. If this damage reduces it 
+to 0 Hit Points, it and everything nonmagical it is 
+wearing and carrying are disintegrated into gray 
+dust. The target can be revived only by a True Res-
+urrection or a Wish spell.
+ This spell automatically disintegrates a Large or 
+smaller nonmagical object or a creation of magical 
+force. If such a target is Huge or larger, this spell 
+disintegrates a 10-foot-Cube portion of it.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 3d6 for each spell slot level above 6.
+Dispel Evil and Good
+Level 5 Abjuration (Cleric, Paladin)
+Casting Time: Action
+Range: Self
+Components: V, S, M (powdered silver and iron)
+Duration: Concentration, up to 1 minute
+For the duration, Celestials, Elementals, Fey, Fiends, 
+and Undead have Disadvantage on attack rolls 
+against you. You can end the spell early by using ei -
+ther of the following special functions.
+ Break Enchantment.  As a Magic action, you touch 
+a creature that is possessed by or has the Charmed 
+or Frightened condition from one or more creatures 
+of the types above. The target is no longer pos -
+sessed, Charmed, or Frightened by such creatures.
+ Dismissal.  As a Magic action, you target one crea-
+ture you can see within 5 feet of you that has one of 
+the creature types above. The target must succeed 
+on a Charisma saving throw or be sent back to its 
+home plane if it isn’t there already. If they aren’t on 
+their home plane, Undead are sent to the Shadow -
+fell, and Fey are sent to the Feywild.
+Dispel Magic
+Level 3 Abjuration (Bard, Cleric, Druid, Paladin, 
+Ranger, Sorcerer, Warlock, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Instantaneous
+Choose one creature, object, or magical effect 
+within range. Any ongoing spell of level 3 or lower 
+on the target ends. For each ongoing spell of level 4 
+or higher on the target, make an ability check using 
+your spellcasting ability (DC 10 plus that spell’s 
+level). On a successful check, the spell ends.
+ Using a Higher-Level Spell Slot. You automati -
+cally end a spell on the target if the spell’s level is 
+equal to or less than the level of the spell slot you 
+use.
+Dissonant Whispers
+Level 1 Enchantment (Bard)
+Casting Time: Action
+Range: 60 feet
+Components: V
+Duration: Instantaneous
+One creature of your choice that you can see within 
+range hears a discordant melody in its mind. The 
+target makes a Wisdom saving throw. On a failed 
+save, it takes 3d6 Psychic damage and must imme -
+diately use its Reaction, if available, to move as far 
+away from you as it can, using the safest route. On a 
+successful save, the target takes half as much dam -
+age only. 
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 1.

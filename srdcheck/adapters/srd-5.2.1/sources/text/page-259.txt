@@ -1,0 +1,93 @@
+259
+System Reference Document 5.2.1
+Whirlwind (Recharge 4–6). Strength Saving Throw: DC 
+13, one Medium or smaller creature in the elemental’s 
+space. Failure: 24 (4d10 + 2) Thunder damage, and the 
+target is pushed up to 20 feet straight away from the 
+elemental and has the Prone condition. Success: Half 
+damage only.
+Animated Objects
+Animated Armor
+Medium Construct, Unaligned
+AC 18  Initiative +2 (12)
+HP 33 (6d8 + 6)
+Speed 25 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 14 +2 +2 Dex 11 +0 +0 Con 13 +1 +1
+Int 1 −5 −5 WIS 3 −4 −4 Cha 1 −5 −5
+Immunities Poison, Psychic; Charmed, Deafened, 
+Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+Senses Blindsight 60 ft.; Passive Perception 6
+Languages None
+CR 1 (XP 200; PB +2)
+Actions
+Multiattack. The armor makes two Slam attacks.
+Slam. Melee Attack Roll: +4, reach 5 ft. Hit: 5 (1d6 + 2) 
+Bludgeoning damage.
+Animated Flying Sword
+Small Construct, Unaligned
+AC 17  Initiative +4 (14)
+HP 14 (4d6)
+Speed 5 ft., Fly 50 ft. (hover)
+MOD SAVE MOD SAVE MOD SAVE
+Str 12 +1 +1 Dex 15 +2 +4 Con 11 +0 +0
+Int 1 −5 −5 WIS 5 −3 −3 Cha 1 −5 −5
+Immunities Poison, Psychic; Charmed, Deafened, 
+Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+Senses Blindsight 60 ft.; Passive Perception 7
+Languages None
+CR 1/4 (XP 50; PB +2)
+Actions
+Slash. Melee Attack Roll: +4, reach 5 ft. Hit: 6 (1d8 + 2) 
+Slashing damage.
+Animated Rug of Smothering
+Large Construct, Unaligned
+AC 12  Initiative +4 (14)
+HP 27 (5d10)
+Speed 10 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 14 +2 +2 Con 10 +0 +0
+Int 1 −5 −5 WIS 3 −4 −4 Cha 1 −5 −5
+Immunities Poison, Psychic; Charmed, Deafened, 
+Exhaustion, Frightened, Paralyzed, Petrified, Poisoned
+Senses Blindsight 60 ft.; Passive Perception 6
+Languages None
+CR 2 (XP 450; PB +2)
+Actions
+Smother. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 
++ 3) Bludgeoning damage. If the target is a Medium or 
+smaller creature, the rug can give it the Grappled con-
+dition (escape DC 13) instead of dealing damage. Until 
+the grapple ends, the target has the Blinded and Re-
+strained conditions, is suffocating, and takes 10 (2d6 + 
+3) Bludgeoning damage at the start of each of its turns. 
+The rug can smother only one creature at a time. 
+ While grappling the target, the rug can’t take this ac-
+tion, the rug halves the damage it takes (round down), 
+and the target takes the same amount of damage.
+Ankheg
+Ankheg
+Large Monstrosity, Unaligned
+AC 14  Initiative +0 (10)
+HP 45 (6d10 + 12)
+Speed 30 ft., Burrow 10 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 11 +0 +0 Con 14 +2 +2
+Int 1 −5 −5 WIS 13 +1 +1 Cha 6 −2 −2
+Senses Darkvision 60 ft., Tremorsense 60 ft.; 
+Passive Perception 11
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Tunneler. The ankheg can burrow through solid rock 
+at half its Burrow Speed and leaves a 10-foot-diameter 
+tunnel in its wake.
+Actions
+Bite. Melee Attack Roll: +5 (with Advantage if the target 
+is Grappled by the ankheg), reach 5 ft. Hit: 10 (2d6 + 3) 
+Slashing damage plus 3 (1d6) Acid damage. If the target 
+is a Large or smaller creature, it has the Grappled con-
+dition (escape DC 13).
+Acid Spray (Recharge 6). Dexterity Saving Throw: DC 
+12, each creature in a 30-foot-long, 5-foot-wide Line. 
+Failure: 14 (4d6) Acid damage. Success: Half damage.

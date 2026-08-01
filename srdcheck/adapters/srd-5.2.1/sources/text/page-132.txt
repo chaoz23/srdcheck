@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+132
+Fire Bolt
+Evocation Cantrip (Sorcerer, Wizard)
+Casting Time: Action
+Range: 120 feet
+Components: V, S
+Duration: Instantaneous
+You hurl a mote of fire at a creature or an object 
+within range. Make a ranged spell attack against the 
+target. On a hit, the target takes 1d10 Fire damage. 
+A flammable object hit by this spell starts burning if 
+it isn’t being worn or carried.
+ Cantrip Upgrade. The damage increases by 1d10 
+when you reach levels 5 (2d10), 11 (3d10), and 17 
+(4d10).
+Fire Shield
+Level 4 Evocation (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S, M (a bit of phosphorus or a firefly)
+Duration: 10 minutes
+Wispy flames wreathe your body for the duration, 
+shedding Bright Light in a 10-foot radius and Dim 
+Light for an additional 10 feet.
+ The flames provide you with a warm shield or a 
+chill shield, as you choose. The warm shield grants 
+you Resistance to Cold damage, and the chill shield 
+grants you Resistance to Fire damage.
+ In addition, whenever a creature within 5 feet 
+of you hits you with a melee attack roll, the shield 
+erupts with flame. The attacker takes 2d8 Fire dam -
+age from a warm shield or 2d8 Cold damage from a 
+chill shield.
+Fire Storm
+Level 7 Evocation (Cleric, Druid, Sorcerer)
+Casting Time: Action
+Range: 150 feet
+Components: V, S
+Duration: Instantaneous
+A storm of fire appears within range. The area of 
+the storm consists of up to ten 10-foot Cubes, which 
+you arrange as you like. Each Cube must be contig -
+uous with at least one other Cube. Each creature 
+in the area makes a Dexterity saving throw, taking 
+7d10 Fire damage on a failed save or half as much 
+damage on a successful one.
+ Flammable objects in the area that aren’t being 
+worn or carried start burning.
+Flame Blade
+Level 2 Evocation (Druid, Sorcerer)
+Casting Time: Bonus Action
+Range: Self
+Components: V, S, M (a sumac leaf)
+Duration: Concentration, up to 10 minutes
+You evoke a fiery blade in your free hand. The blade 
+is similar in size and shape to a scimitar, and it lasts 
+for the duration. If you let go of the blade, it disap -
+pears, but you can evoke it again as a Bonus Action.
+ As a Magic action, you can make a melee spell at -
+tack with the fiery blade. On a hit, the target takes 
+Fire damage equal to 3d6 plus your spellcasting 
+ability modifier.
+ The flaming blade sheds Bright Light in a 10-foot 
+radius and Dim Light for an additional 10 feet.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 2.
+Flame Strike
+Level 5 Evocation (Cleric)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a pinch of sulfur)
+Duration: Instantaneous
+A vertical column of brilliant fire roars down from 
+above. Each creature in a 10-foot-radius, 40-foot-
+high Cylinder centered on a point within range 
+makes a Dexterity saving throw, taking 5d6 Fire 
+damage and 5d6 Radiant damage on a failed save or 
+half as much damage on a successful one.
+ Using a Higher-Level Spell Slot. The Fire damage 
+and the Radiant damage increase by 1d6 for each 
+spell slot level above 5.
+Flaming Sphere
+Level 2 Conjuration (Druid, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a ball of wax)
+Duration: Concentration, up to 1 minute
+You create a 5-foot-diameter sphere of fire in an un -
+occupied space on the ground within range. It lasts 
+for the duration. Any creature that ends its turn 
+within 5 feet of the sphere makes a Dexterity saving 
+throw, taking 2d6 Fire damage on a failed save or 
+half as much damage on a successful one.
+ As a Bonus Action, you can move the sphere up to 
+30 feet, rolling it along the ground. If you move the 
+sphere into a creature’s space, that creature makes 
+the save against the sphere, and the sphere stops 
+moving for the turn.
+ When you move the sphere, you can direct it over 
+barriers up to 5 feet tall and jump it across pits up 
+to 10 feet wide. Flammable objects that aren’t be -
+ing worn or carried start burning if touched by the 
+sphere, and it sheds Bright Light in a 20-foot radius 
+and Dim Light for an additional 20 feet.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 2.

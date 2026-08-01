@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+140
+Choose a manufactured metal object, such as a 
+metal weapon or a suit of Heavy or Medium metal 
+armor, that you can see within range. You cause 
+the object to glow red-hot. Any creature in physical 
+contact with the object takes 2d8 Fire damage when 
+you cast the spell. Until the spell ends, you can take 
+a Bonus Action on each of your later turns to deal 
+this damage again if the object is within range.
+ If a creature is holding or wearing the object and 
+takes the damage from it, the creature must suc -
+ceed on a Constitution saving throw or drop the 
+object if it can. If it doesn’t drop the object, it has 
+Disadvantage on attack rolls and ability checks un -
+til the start of your next turn.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 2.
+Hellish Rebuke
+Level 1 Evocation (Warlock)
+Casting Time: Reaction, which you take in response to 
+taking damage from a creature that you can see within 
+60 feet of yourself
+Range: 60 feet
+Components: V, S
+Duration: Instantaneous
+The creature that damaged you is momentarily sur -
+rounded by green flames. It makes a Dexterity sav -
+ing throw, taking 2d10 Fire damage on a failed save 
+or half as much damage on a successful one.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 1.
+Heroes’ Feast
+Level 6 Conjuration (Bard, Cleric, Druid)
+Casting Time: 10 minutes
+Range: Self
+Components: V, S, M (a gem-encrusted bowl worth 
+1,000+ GP, which the spell consumes)
+Duration: Instantaneous
+You conjure a feast that appears on a surface in 
+an unoccupied 10-foot Cube next to you. The feast 
+takes 1 hour to consume and disappears at the end 
+of that time, and the beneficial effects don’t set in 
+until this hour is over. Up to twelve creatures can 
+partake of the feast.
+ A creature that partakes gains several benefits, 
+which last for 24 hours. The creature has Resis -
+tance to Poison damage, and it has Immunity to the 
+Frightened and Poisoned conditions. Its Hit Point 
+maximum also increases by 2d10, and it gains the 
+same number of Hit Points.
+Heroism
+Level 1 Enchantment (Bard, Paladin)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Concentration, up to 1 minute
+A willing creature you touch is imbued with brav -
+ery. Until the spell ends, the creature is immune to 
+the Frightened condition and gains Temporary Hit 
+Points equal to your spellcasting ability modifier at 
+the start of each of its turns.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Hex
+Level 1 Enchantment (Warlock)
+Casting Time: Bonus Action
+Range: 90 feet
+Components: V, S, M (the petrified eye of a newt)
+Duration: Concentration, up to 1 hour
+You place a curse on a creature that you can see 
+within range. Until the spell ends, you deal an extra 
+1d6 Necrotic damage to the target whenever you hit 
+it with an attack roll. Also, choose one ability when 
+you cast the spell. The target has Disadvantage on 
+ability checks made with the chosen ability.
+ If the target drops to 0 Hit Points before this spell 
+ends, you can take a Bonus Action on a later turn to 
+curse a new creature.
+ Using a Higher-Level Spell Slot. Your Concentra -
+tion can last longer with a spell slot of level 2 (up to 
+4 hours), 3–4 (up to 8 hours), or 5+ (24 hours).
+Hideous Laughter
+Level 1 Enchantment (Bard, Warlock, Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a tart and a feather)
+Duration: Concentration, up to 1 minute
+One creature of your choice that you can see within 
+range makes a Wisdom saving throw. On a failed 
+save, it has the Prone and Incapacitated conditions 
+for the duration. During that time, it laughs uncon -
+trollably if it’s capable of laughter, and it can’t end 
+the Prone condition on itself.
+ At the end of each of its turns and each time it 
+takes damage, it makes another Wisdom saving 
+throw. The target has Advantage on the save if the 
+save is triggered by damage. On a successful save, 
+the spell ends.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Hold Monster
+Level 5 Enchantment (Bard, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 90 feet

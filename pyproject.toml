@@ -4,11 +4,12 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "srdcheck"
-version = "0.5.0"
+version = "0.5.1"
 description = "Deterministic rules verdicts for game-running agents — cited, reproducible, honest about jurisdiction. SRD 5.2.1 is adapter #1."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
+license-files = ["LICENSE", "NOTICE"]
 authors = [{name = "chaoz23"}]
 keywords = ["srd", "ttrpg", "rules-engine", "ai-agents", "mcp", "verdicts"]
 classifiers = [
@@ -28,8 +29,23 @@ srdcheck-mcp = "srdcheck.mcp:script"
 [project.optional-dependencies]
 dev = ["pytest", "pypdf"]
 
+[tool.pytest.ini_options]
+markers = [
+    "slow: builds a wheel and installs it into a throwaway venv",
+]
+
 [tool.setuptools]
 packages = ["srdcheck"]
 
 [tool.setuptools.package-data]
-srdcheck = ["adapters/**/*.json", "adapters/**/*.py", "adapters/**/*.md"]
+# *.txt carries the extracted CC-BY-4.0 SRD source text. It is REQUIRED at
+# runtime: `srdcheck cite` reads sources/text/page-*.txt to return verbatim,
+# page-numbered provenance. Omitting it silently degrades every cite call to
+# cannot-adjudicate (the 0.5.0 release defect). Asserted by
+# tests/test_packaging.py::test_wheel_contains_source_text.
+srdcheck = [
+    "adapters/**/*.json",
+    "adapters/**/*.py",
+    "adapters/**/*.md",
+    "adapters/**/sources/text/*.txt",
+]

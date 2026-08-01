@@ -1,0 +1,89 @@
+356
+System Reference Document 5.2.1
+Actions
+Multiattack. The hippopotamus makes two Bite attacks.
+Bite. Melee Attack Roll: +7 , reach 5 ft. Hit: 16 (2d10 + 
+5) Piercing damage.
+Hunter Shark
+Large Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 45 (6d10 + 12)
+Speed 5 ft., Swim 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 14 +2 +2 Con 15 +2 +2
+Int 1 −5 −5 WIS 10 +0 +0 Cha 4 −3 −3
+Skills Perception +2
+Senses Blindsight 60 ft.; Passive Perception 12
+Languages None
+CR 2 (XP 450; PB +2)
+Traits
+Water Breathing. The shark can breathe only underwater.
+Actions
+Bite. Melee Attack Roll: +6 (with Advantage if the tar-
+get doesn’t have all its Hit Points), reach 5 ft. Hit: 14 
+(3d6 + 4) Piercing damage.
+Hyena
+Medium Beast, Unaligned
+AC 11   Initiative +1 (11)
+HP 5 (1d8 + 1)
+Speed 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 11 +0 +0 Dex 13 +1 +1 Con 12 +1 +1
+Int 2 −4 −4 WIS 12 +1 +1 Cha 5 −3 −3
+Skills Perception +3
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages None
+CR 0 (XP 10; PB +2)
+Traits
+Pack Tactics. The hyena has Advantage on an attack 
+roll against a creature if at least one of the hyena’s allies 
+is within 5 feet of the creature and the ally doesn’t have 
+the Incapacitated condition.
+Actions
+Bite. Melee Attack Roll: +2, reach 5 ft. Hit: 3 (1d6) 
+Piercing damage.
+Jackal
+Small Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 3 (1d6)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 8 −1 −1 Dex 15 +2 +2 Con 11 +0 +0
+Int 3 −4 −4 WIS 12 +1 +1 Cha 6 −2 −2
+Skills Perception +5, Stealth +4
+Senses Darkvision 90 ft.; Passive Perception 15
+Languages None
+CR 0 (XP 10; PB +2)
+Actions
+Bite. Melee Attack Roll: +1, reach 5 ft. Hit: 1 (1d4 – 1) 
+Piercing damage.
+Killer Whale
+Huge Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 90 (12d12 + 12)
+Speed 5 ft., Swim 60 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 19 +4 +4 Dex 14 +2 +2 Con 13 +1 +1
+Int 3 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +3, Stealth +4
+Senses Blindsight 120 ft.; Passive Perception 13
+Languages None
+CR 3 (XP 700; PB +2)
+Traits
+Hold Breath. The whale can hold its breath for 
+30 minutes.
+Actions
+Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 21 (5d6 
++ 4) Piercing damage.
+Lion
+Large Beast, Unaligned
+AC 12   Initiative +2 (12)
+HP 22 (4d10)
+Speed 50 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 17 +3 +3 Dex 15 +2 +2 Con 11 +0 +0
+Int 3 −4 −4 WIS 12 +1 +1 Cha 8 −1 −1
+Skills Perception +3, Stealth +4
+Senses Darkvision 60 ft.; Passive Perception 13
+Languages None
+CR 1 (XP 200; PB +2)

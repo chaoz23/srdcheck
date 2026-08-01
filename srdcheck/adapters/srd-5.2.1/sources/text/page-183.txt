@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+183
+enough for you to assist verbally or physically when 
+they make an ability check. That ally has Advantage 
+on the next ability check they make with the chosen 
+skill or tool. This benefit expires if the ally doesn’t 
+use it before the start of your next turn. The GM has 
+final say on whether your assistance is possible.
+ Assist an Attack Roll. You momentarily distract 
+an enemy within 5 feet of you, giving Advantage to 
+the next attack roll by one of your allies against that 
+enemy. This benefit expires at the start of your next 
+turn.
+Heroic Inspiration
+If you (a player character) have Heroic Inspiration, 
+you can expend it to reroll any die immediately af -
+ter rolling it, and you must use the new roll.
+ If you gain Heroic Inspiration but already have it, 
+it’s lost unless you give it to a player character who 
+lacks it.
+Hide [Action]
+With the Hide action, you try to hide yourself. To do 
+so, you must succeed on a DC 15 Dexterity (Stealth) 
+check while you’re Heavily Obscured or behind 
+Three-Quarters Cover or Total Cover, and you must 
+be out of any enemy’s line of sight; if you can see a 
+creature, you can discern whether it can see you.
+ On a successful check, you have the Invisible con -
+dition while hidden. Make note of your check’s total, 
+which is the DC for a creature to find you with a 
+Wisdom (Perception) check.
+ You stop being hidden immediately after any of 
+the following occurs: you make a sound louder than 
+a whisper, an enemy finds you, you make an attack 
+roll, or you cast a spell with a Verbal component.
+High Jump
+When you make a High Jump, you leap into the 
+air a number of feet equal to 3 plus your Strength 
+modifier (minimum of 0 feet) if you move at least 
+10 feet on foot immediately before the jump. When 
+you make a standing High Jump, you can jump only 
+half that distance. Either way, each foot of the jump 
+costs a foot of movement.
+ You can extend your arms half your height above 
+yourself during the jump. Thus, you can reach a dis -
+tance equal to the height of the jump plus 1 1/2 times 
+your height.
+Hit Point Dice
+Hit Point Dice, or Hit Dice for short, help determine 
+a player character’s Hit Point maximum, as ex -
+plained in “Character Creation.” Most monsters also 
+have Hit Dice. A creature can spend Hit Dice during 
+a Short Rest to regain Hit Points. See also  “Short 
+Rest.”
+Hit Points
+Hit Points (HP) are a measure of how difficult it is 
+to kill or destroy a creature or an object. Damage 
+reduces Hit Points, and healing restores them. 
+You can’t have more Hit Points than your Hit Point 
+maximum, and you can’t have less than 0. See also  
+“Breaking Objects” and “Playing the Game” (“Dam -
+age and Healing”).
+Hostile [Attitude]
+A Hostile creature views you unfavorably. You have 
+Disadvantage on an ability check to influence a Hos -
+tile creature. See also  “Influence.”
+Hover
+Some creatures can hover, as noted in their stat 
+blocks, and some spells and other effects grant the 
+ability to hover. Hovering while flying prevents 
+you from falling in certain circumstances. See also  
+“Flying.”
+Illusions
+Spells and other effects sometimes create magical il-
+lusions. Such an effect defines what the illusion does 
+and which senses or mental faculties it deceives.
+ If an illusion manifests in space, the illusion is 
+insubstantial and weightless, yet it seems to be 
+affected by the environment as if the illusion were 
+real unless the effect that created it specifies oth -
+erwise. For example, a visual illusion of a creature 
+casts shadows and reflections, and wind appears 
+to affect the illusory creature. Similarly, an audible 
+illusion echoes in an echoey space.
+Immunity
+If you have Immunity to a damage type or a condi -
+tion, it doesn’t affect you in any way.
+Improvised Weapons
+An improvised weapon is an object wielded as a 
+makeshift weapon, such as broken glass, a table leg, 
+or a frying pan. A Simple or Martial weapon also 
+counts as an improvised weapon if it’s wielded in 
+a way contrary to its design; if you use a Ranged 
+weapon to make a melee attack or throw a Me -
+lee weapon that lacks the Thrown property, the 
+weapon counts as an improvised weapon. An impro -
+vised weapon follows the rules below.
+ Proficiency. Don’t add your Proficiency Bonus to 
+attack rolls with an improvised weapon.
+ Damage.  On a hit, the weapon deals 1d4 damage 
+of a type the GM thinks is appropriate for the object.
+ Range.  If you throw the weapon, it has a normal 
+range of 20 feet and a long range of 60 feet.
+ Weapon Equivalents. If an improvised weapon 
+resembles a Simple or Martial weapon, the GM may 
+say it functions as that weapon and uses that weap -
+on’s rules. For example, the GM could treat a table 
+leg as a Club.

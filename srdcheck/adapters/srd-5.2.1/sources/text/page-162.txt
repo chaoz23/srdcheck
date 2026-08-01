@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+162
+bonus to AC, including against the triggering attack, 
+and you take no damage from Magic Missile .
+Shield of Faith
+Level 1 Abjuration (Cleric, Paladin)
+Casting Time: Bonus Action
+Range: 60 feet
+Components: V, S, M (a prayer scroll)
+Duration: Concentration, up to 10 minutes
+A shimmering field surrounds a creature of your 
+choice within range, granting it a +2 bonus to AC for 
+the duration.
+Shillelagh
+Transmutation Cantrip (Druid)
+Casting Time: Bonus Action
+Range: Self
+Components: V, S, M (mistletoe)
+Duration: 1 minute
+A Club or Quarterstaff you are holding is imbued 
+with nature’s power. For the duration, you can use 
+your spellcasting ability instead of Strength for the 
+attack and damage rolls of melee attacks using that 
+weapon, and the weapon’s damage die becomes 
+a d8. If the attack deals damage, it can be Force 
+damage or the weapon’s normal damage type (your 
+choice).
+ The spell ends early if you cast it again or if you let 
+go of the weapon.
+ Cantrip Upgrade. The damage die changes when 
+you reach levels 5 (d10), 11 (d12), and 17 (2d6).
+Shining Smite
+Level 2 Transmutation (Paladin)
+Casting Time: Bonus Action, which you take immedi -
+ately after hitting a creature with a Melee weapon or 
+an Unarmed Strike
+Range: Self
+Component: V
+Duration: Concentration, up to  1 minute
+The target hit by the strike takes an extra 2d6 Radi -
+ant damage from the attack. Until the spell ends, the 
+target sheds Bright Light in a 5-foot radius, attack 
+rolls against it have Advantage, and it can’t benefit 
+from the Invisible condition.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d6 for each spell slot level above 2.
+Shocking Grasp
+Evocation Cantrip (Sorcerer, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Instantaneous
+Lightning springs from you to a creature that you 
+try to touch. Make a melee spell attack against the 
+target. On a hit, the target takes 1d8 Lightning dam -
+age, and it can’t make Opportunity Attacks until the 
+start of its next turn.
+ Cantrip Upgrade. The damage increases by 1d8 
+when you reach levels 5 (2d8), 11 (3d8), and 17 
+(4d8).
+Silence
+Level 2 Illusion (Bard, Cleric, Ranger)
+Casting Time: Action or Ritual
+Range: 120 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+For the duration, no sound can be created within 
+or pass through a 20-foot-radius Sphere centered 
+on a point you choose within range. Any creature 
+or object entirely inside the Sphere has Immunity 
+to Thunder damage, and creatures have the Deaf -
+ened condition while entirely inside it. Casting a 
+spell that includes a Verbal component is impossible 
+there.
+Silent Image
+Level 1 Illusion (Bard, Sorcerer, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S, M (a bit of fleece)
+Duration: Concentration, up to 10 minutes
+You create the image of an object, a creature, or 
+some other visible phenomenon that is no larger 
+than a 15-foot Cube. The image appears at a spot 
+within range and lasts for the duration. The image 
+is purely visual; it isn’t accompanied by sound, 
+smell, or other sensory effects.
+ As a Magic action, you can cause the image 
+to move to any spot within range. As the image 
+changes location, you can alter its appearance so 
+that its movements appear natural for the image. 
+For example, if you create an image of a creature 
+and move it, you can alter the image so that it ap -
+pears to be walking.
+ Physical interaction with the image reveals it to 
+be an illusion, since things can pass through it. A 
+creature that takes a Study action to examine the 
+image can determine that it is an illusion with a 
+successful Intelligence (Investigation) check against 
+your spell save DC. If a creature discerns the illu -
+sion for what it is, the creature can see through the 
+image.
+Simulacrum
+Level 7 Illusion (Wizard)
+Casting Time: 12 hours
+Range: Touch
+Components: V, S, M (powdered ruby worth 1,500+ GP, 
+which the spell consumes)
+Duration: Until dispelled

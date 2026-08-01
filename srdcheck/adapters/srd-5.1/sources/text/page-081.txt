@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   81	  
+creature,	  it	  usually	  sees	  you.	  However,	  under	  cert ain	  
+circumstances,	  the	   GM	  might	  allow	  you	  to	  stay	  hidden	  as	  you	  
+approach	  a	  creature	  that	  is	  distracted,	  allowing	  you	  to	  gain	  
+advantage	  on	  an	  attack	  roll	  before	  you	  are	  seen. 	  
+Passive	  Perception. When	  you	  hide,	  there’s	  a	  chance	  
+someone	  will	  notice	  you	  even	   if	  they	  aren’t	  searching.	  To	  
+determine	  whether	  such	  a	  creature	  notices	  you,	  the	   GM	  
+compares	  your	  Dexterity	  (Stealth)	  check	  with	  that	  creature’s	  
+passive	  Wisdom	  (Perception)	  score,	  which	  equals	  10	  +	  the	  
+creature’s	  Wisdom	  modifier,	  as	  well	  as	  any	  other	  bonuses	  or	  
+penalties.	  If	  the	  creature	  has	  advantage,	  add	  5.	  For	  
+disadvantage,	  subtract	  5.	  For	  example,	  if	  a	  1st -­‐level	  character	  
+(with	  a	  proficiency	  bonus	  of	  +2)	  has	  a	  Wisdom	  of	  15	  (a	  +2	  
+modifier)	  and	  proficiency	  in	  Perception,	  he	  or	  she	  has	  a	  
+passive	  Wisdom	  (Per ception)	  of	  14.	  
+What	  Can	  You	  See? 	  One	  of	  the	  main	  factors	  in	  
+determining	  whether	  you	  can	  find	  a	  hidden	  creature	  or	  
+object	  is	  how	  well	  you	  can	  see	  in	  an	  area,	  which	  might	  be	  
+lightly or heavily obscured,	  as	  explained	  in	  "The	  
+Environment.”	  
+Constitution 
+Constitution	  measures	  health,	  stamina,	  and	  vital	  
+force.	  
+Constitution Checks 
+Constitution	  checks	  are	  uncommon,	  and	  no	  skills	  
+apply	  to	  Constitution	  checks,	  because	  the	  endurance	  
+this	  ability	  represents	  is	  largely	  passive	  rather	  than	  
+involving	  a	  specific	  effort	  o n	  the	  part	  of	  a	  character	  
+or	  monster.	  A	  Constitution	  check	  can	  model	  your	  
+attempt	  to	  push	  beyond	  normal	  limits,	  however. 	  
+	   The	  GM	  might	  call	  for	  a	  Constitution	  check	  when	  
+you	  try	  to	  accomplish	  tasks	  like	  the	  following: 	  
+• Hold	  your	  breath
+• March	  or	  labor	  for	  ho urs	  without	  rest
+• Go	  without	  sleep
+• Survive	  without	  food	  or	  water
+• Quaff	  an	  entire	  stein	  of	  ale	  in	  one	  go
+Hit Points 
+Your	  Constitution	  modifier	  contributes	  to	  your	  hit	  
+points.	  Typically,	  you	  add	  your	  Constitution	  modifier	  
+to	  each	  Hit	  Die	  you	  roll	  for	  your	  hit 	  points.	  
+	   If	  your	  Constitution	  modifier	  changes,	  your	  hit	  
+point	  maximum	  changes	  as	  well,	  as	  though	  you	  had	  
+the	  new	  modifier	  from	  1st	  level.	  For	  example,	  if	  you	  
+raise	  your	  Constitution	  score	  when	  you	  reach	  4th	  
+level	  and	  your	  Constitution	  modifier	  increases	   from	  
++1	  to	  +2,	  you	  adjust	  your	  hit	  point	  maximum	  as
+though	  the	  modifier	  had	  always	  been	  +2.	  So	  you	  add
+3	  hit	  points	  for	  your	  first	  three	  levels,	  and	  then	  roll
+your	  hit	  points	  for	  4th	  level	  using	  your	  new	  modifier.	  
+Or	  if	  you’re	  7th	  level	  and	  some	  effect	  low ers	  your	  
+Constitution	  score	  so	  as	  to	  reduce	  your	  Constitution	  
+modifier	  by	  1,	  your	  hit	  point	  maximum	  is	  reduced	  by	  
+7.	  
+Intelligence 
+Intelligence	  measures	  mental	  acuity,	  accuracy	  of	  
+recall,	  and	  the	  ability	  to	  reason. 	  
+Intelligence Checks 
+An	  Intelligence	  check	   comes	  into	  play	  when	  you	  
+need	  to	  draw	  on	  logic,	  education,	  memory,	  or	  
+deductive	  reasoning.	  The	  Arcana,	  History,	  
+Investigation,	  Nature,	  and	  Religion	  skills	  reflect	  
+aptitude	  in	  certain	  kinds	  of	  Intelligence	  checks. 	  
+	   Arcana.	  Your	  Intelligence	  (Arcana)	  check	  
+measures	  your	  ability	  to	  recall	  lore	  about	  spells,	  
+magic	  items,	  eldritch	  symbols,	  magical	  traditions,	  
+the	  planes	  of	  existence,	  and	  the	  inhabitants	  of	  those	  
+planes.	  
+	   History.	  Your	  Intelligence	  (History)	  check	  
+measures	  your	  ability	  to	  recall	  lore	  about	  histor ical	  
+events,	  legendary	  people,	  ancient	  kingdoms,	  past	  
+disputes,	  recent	  wars,	  and	  lost	  civilizations. 	  
+	   Investigation.	   When	  you	  look	  around	  for	  clues	  
+and	  make	  deductions	  based	  on	  those	  clues,	  you	  
+make	  an	  Intelligence	  (Investigation)	  check.	  You	  
+might	  deduce	  t he	  location	  of	  a	  hidden	  object,	  discern	  
+from	  the	  appearance	  of	  a	  wound	  what	  kind	  of	  
+weapon	  dealt	  it,	  or	  determine	  the	  weakest	  point	  in	  a	  
+tunnel	  that	  could	  cause	  it	  to	  collapse.	  Poring	  through	  
+ancient	  scrolls	  in	  search	  of	  a	  hidden	  fragment	  of	  
+knowledge	  migh t	  also	  call	  for	  an	  Intelligence	  
+(Investigation)	  check. 	  
+	   Nature.	  Your	  Intelligence	  (Nature)	  check	  
+measures	  your	  ability	  to	  recall	  lore	  about	  terrain,	  
+plants	  and	  animals,	  the	  weather,	  and	  natural	  cycles. 	  
+	   Religion.	  Your	  Intelligence	  (Religion)	  check	  
+measures	  your	  ability	  to	  recall	  lore	  about	  deities,	  
+rites	  and	  prayers,	  religious	  hierarchies,	   holy	  symbols,	  
+and	  the	  practices	   of	  secret	  cults.	  
+	   Other	  Intelligence	  Checks.	   The	  GM	  might	  call	  for	  
+an	  Intelligence	  check	  when	  you	  try	  to	  accomplish	  
+tasks	  like	  the	  followi ng:	  
+• Communicate	  with	  a	  creature	  without	  using	  words
+• Estimate	  the	  value	  of	  a	  precious	  item
+• Pull	  together	  a	  disguise	  to	  pass	  as	  a	  city	  guard
+• Forge	  a	  document
+• Recall	  lore	  about	  a	  craft	  or	  trade
+• Win	  a	  game	  of	  skill

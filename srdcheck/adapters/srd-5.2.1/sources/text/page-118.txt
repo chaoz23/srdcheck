@@ -1,0 +1,108 @@
+System Reference Document 5.2.1
+118
+its turn there, you can force that creature to make 
+a Dexterity saving throw. On a failed save, the crea-
+ture takes 3d10 Slashing damage. A creature makes 
+this save only once per turn.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d10 for each spell slot level above 3.
+Conjure Celestial
+Level 7 Conjuration (Cleric)
+Casting Time: Action
+Range: 90 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure a spirit from the Upper Planes, which 
+manifests as a pillar of light in a 10-foot-radius, 
+40-foot-high Cylinder centered on a point within 
+range. For each creature you can see in the Cylinder, 
+choose which of these lights shines on it:
+Healing Light.  The target regains Hit Points equal 
+to 4d12 plus your spellcasting ability modifier.
+Searing Light.  The target makes a Dexterity saving 
+throw, taking 6d12 Radiant damage on a failed 
+save or half as much damage on a successful one.
+Until the spell ends, Bright Light fills the Cylinder, 
+and when you move on your turn, you can also move 
+the Cylinder up to 30 feet.
+ Whenever the Cylinder moves into the space of a 
+creature you can see and whenever a creature you 
+can see enters the Cylinder or ends its turn there, 
+you can bathe it in one of the lights. A creature can 
+be affected by this spell only once per turn.
+ Using a Higher-Level Spell Slot. The healing and 
+damage increase by 1d12 for each spell slot level 
+above 7.
+Conjure Elemental
+Level 5 Conjuration (Druid, Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure a Large, intangible spirit from the Ele -
+mental Planes that appears in an unoccupied space 
+within range. Choose the spirit’s element, which 
+determines its damage type: air (Lightning), earth 
+(Thunder), fire (Fire), or water (Cold). The spirit 
+lasts for the duration.
+ Whenever a creature you can see enters the spir -
+it’s space or starts its turn within 5 feet of the spirit, 
+you can force that creature to make a Dexterity sav -
+ing throw if the spirit has no creature Restrained. 
+On failed save, the target takes 8d8 damage of the 
+spirit’s type, and the target has the Restrained 
+condition until the spell ends. At the start of each 
+of its turns, the Restrained target repeats the save. 
+On a failed save, the target takes 4d8 damage of the 
+spirit’s type. On a successful save, the target isn’t 
+Restrained by the spirit.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 5.
+Conjure Fey
+Level 6 Conjuration (Druid)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure a Medium spirit from the Feywild in 
+an unoccupied space you can see within range. 
+The spirit lasts for the duration, and it looks like 
+a Fey creature of your choice. When the spirit ap -
+pears, you can make one melee spell attack against 
+a creature within 5 feet of it. On a hit, the target 
+takes Psychic damage equal to 3d12 plus your 
+spellcasting ability modifier, and the target has the 
+Frightened condition until the start of your next 
+turn, with both you and the spirit as the source of 
+the fear.
+ As a Bonus Action on your later turns, you can 
+teleport the spirit to an unoccupied space you can 
+see within 30 feet of the space it left and make the 
+attack against a creature within 5 feet of it.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d12 for each spell slot level above 6.
+Conjure Minor Elementals
+Level 4 Conjuration (Druid, Wizard)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure spirits from the Elemental Planes that 
+flit around you in a 15-foot Emanation for the dura-
+tion. Until the spell ends, any attack you make deals 
+an extra 2d8 damage when you hit a creature in the 
+Emanation. This damage is Acid, Cold, Fire, or Light -
+ning (your choice when you make the attack).
+ In addition, the ground in the Emanation is Diffi -
+cult Terrain for your enemies.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 4.
+Conjure Woodland Beings
+Level 4 Conjuration (Druid, Ranger)
+Casting Time: Action
+Range: Self
+Components: V, S
+Duration: Concentration, up to 10 minutes
+You conjure nature spirits that flit around you in a 
+10-foot Emanation for the duration. Whenever the 
+Emanation enters the space of a creature you can 

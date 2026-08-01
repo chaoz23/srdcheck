@@ -1,0 +1,104 @@
+System Reference Document 5.2.1
+235
+extradimensional hole 10 feet deep. The cylindrical 
+space within the hole exists on a different plane 
+of existence, so it can’t be used to create open pas -
+sages. Any creature inside an open Portable Hole  
+can exit the hole by climbing out of it.
+ You can take a Magic action to close a Portable 
+Hole by taking hold of the edges of the cloth and 
+folding it up. Folding the cloth closes the hole, and 
+any creatures or objects within remain in the ex -
+tradimensional space. No matter what’s in it, the 
+hole weighs next to nothing.
+ If the hole is folded up, a creature within the hole’s 
+extradimensional space can take an action to make 
+a DC 10 Strength (Athletics) check. On a successful 
+check, the creature forces its way out and appears 
+within 5 feet of the Portable Hole . A closed Portable 
+Hole holds enough air for 1 hour of breathing, di -
+vided by the number of breathing creatures inside.
+ Placing a Portable Hole inside an extradimensional 
+space created by a Bag of Holding, Handy Haversack, 
+or similar item instantly destroys both items and 
+opens a gate to the Astral Plane. The gate originates 
+where the one item was placed inside the other. Any 
+creature within 10 feet of the gate and not behind 
+Total Cover is sucked through it and deposited in 
+a random location on the Astral Plane. The gate 
+then closes. The gate is one-way only and can’t be 
+reopened.
+Potion of Animal Friendship
+Potion, Uncommon 
+When you drink this potion, you can cast the level 
+3 version of the Animal Friendship spell (save DC 13).
+ Agitating this potion’s muddy liquid brings little 
+bits into view: a fish scale, a hummingbird feather, a 
+cat claw, or a squirrel hair.
+Potion of Clairvoyance
+Potion, Rare 
+When you drink this potion, you gain the effect of 
+the Clairvoyance spell (no Concentration required).
+ An eyeball bobs in this potion’s yellowish liquid 
+but vanishes when the potion is opened.
+Potion of Climbing
+Potion, Common 
+When you drink this potion, you gain a Climb Speed 
+equal to your Speed for 1 hour. During this time, you 
+have Advantage on Strength (Athletics) checks to 
+climb.
+ This potion is separated into brown, silver, and 
+gray layers resembling bands of stone. Shaking the 
+bottle fails to mix the colors.
+Potion of Diminution
+Potion, Rare 
+When you drink this potion, you gain the “reduce” 
+effect of the Enlarge/Reduce spell for 1d4 hours (no 
+Concentration required).
+ The red in the potion’s liquid continuously con -
+tracts to a tiny bead and then expands to color the 
+clear liquid around it. Shaking the bottle fails to in -
+terrupt this process.
+Potion of Flying
+Potion, Very Rare 
+When you drink this potion, you gain a Fly Speed 
+equal to your Speed for 1 hour and can hover. If 
+you’re in the air when the potion wears off, you fall 
+unless you have some other means of staying aloft.
+ This potion’s clear liquid floats at the top of its 
+container and has cloudy white impurities drifting 
+in it.
+Potion of Gaseous Form
+Potion, Rare 
+When you drink this potion, you gain the effect of 
+the Gaseous Form spell for 1 hour (no Concentration 
+required) or until you end the effect as a Bonus 
+Action.
+ This potion’s container seems to hold fog that 
+moves and pours like water.
+Potion of Giant Strength
+Potion, Rarity Varies 
+When you drink this potion, your Strength score 
+changes for 1 hour. The type of giant determines the 
+score (see the table below). The potion has no effect 
+on you if your Strength is equal to or greater than 
+that score.
+ This potion’s transparent liquid has floating in it a 
+sliver of light resembling a giant’s fingernail.
+Potion Str. Rarity
+Potion of Giant Strength (hill) 21 Uncommon
+Potion of Giant Strength (frost or 
+stone)
+23 Rare
+Potion of Giant Strength (fire) 25 Rare
+Potion of Giant Strength (cloud) 27 Very Rare
+Potion of Giant Strength (storm) 29 Legendary
+Potion of Growth
+Potion, Uncommon 
+When you drink this potion, you gain the “enlarge” 
+effect of the Enlarge/Reduce spell for 10 minutes (no 
+Concentration required).
+ The red in the potion’s liquid continuously ex -
+pands from a tiny bead to color the clear liquid 
+around it and then contracts. Shaking the bottle 
+fails to interrupt this process.

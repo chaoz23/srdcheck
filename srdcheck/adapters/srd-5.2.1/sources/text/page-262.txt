@@ -1,0 +1,98 @@
+262
+System Reference Document 5.2.1
+MOD SAVE MOD SAVE MOD SAVE
+Str 15 +2 +4 Dex 16 +3 +5 Con 14 +2 +2
+Int 14 +2 +2 WIS 11 +0 +2 Cha 14 +2 +2
+Skills Athletics +4, Deception +4
+Gear Pistol, Scimitar, Studded Leather Armor
+Senses Passive Perception 10
+Languages Common, Thieves’ Cant
+CR 2 (XP 450; PB +2)
+Actions
+Multiattack. The bandit makes two attacks, using Scim-
+itar and Pistol in any combination.
+Scimitar. Melee Attack Roll: +5, reach 5 ft. Hit: 6 (1d6 
++ 3) Slashing damage.
+Pistol. Ranged Attack Roll: +5, range 30/90 ft. Hit: 8 
+(1d10 + 3) Piercing damage.
+Reactions
+Parry. Trigger: The bandit is hit by a melee attack roll 
+while holding a weapon. Response: The bandit adds 2 
+to its AC against that attack, possibly causing it to miss.
+Barbed Devil
+Barbed Devil
+Medium Fiend (Devil), Lawful Evil
+AC 15  Initiative +3 (13)
+HP 110 (13d8 + 52)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +6 Dex 17 +3 +3 Con 18 +4 +7
+Int 12 +1 +1 WIS 14 +2 +5 Cha 14 +2 +5
+Skills Deception +5, Insight +5, Perception +8
+Resistances Cold
+Immunities Fire, Poison; Poisoned
+Senses Darkvision 120 ft. (unimpeded by magical 
+Darkness); Passive Perception 18
+Languages Infernal; telepathy 120 ft.
+CR 5 (XP 1,800; PB +3)
+Traits
+Barbed Hide. At the start of each of its turns, the devil 
+deals 5 (1d10) Piercing damage to any creature it is 
+grappling or any creature grappling it.
+Diabolical Restoration. If the devil dies outside the 
+Nine Hells, its body disappears in sulfurous smoke, and 
+it gains a new body instantly, reviving with all its Hit 
+Points somewhere in the Nine Hells.
+Magic Resistance. The devil has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The devil makes one Claws attack and one 
+Tail attack, or it makes two Hurl Flame attacks.
+Claws. Melee Attack Roll: +6, reach 5 ft. Hit: 10 (2d6 
++ 3) Piercing damage. If the target is a Large or smaller 
+creature, it has the Grappled condition (escape DC 13) 
+from both claws.
+Tail. Melee Attack Roll: +6, reach 10 ft. Hit: 14 (2d10 
++ 3) Slashing damage.
+Hurl Flame. Ranged Attack Roll: +5, range 150 ft. Hit: 
+17 (5d6) Fire damage. If the target is a flammable object 
+that isn’t being worn or carried, it starts burning.
+Basilisk
+Basilisk
+Medium Monstrosity, Unaligned
+AC 15  Initiative −1 (9)
+HP 52 (8d8 + 16)
+Speed 20 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 8 −1 −1 Con 15 +2 +2
+Int 2 −4 −4 WIS 8 −1 −1 Cha 7 −2 −2
+Senses Darkvision 60 ft.; Passive Perception 9
+Languages None
+CR 3 (XP 700; PB +2)
+Actions
+Bite. Melee Attack Roll: +5, reach 5 ft. Hit: 10 (2d6 + 3) 
+Piercing damage plus 7 (2d6) Poison damage.
+Bonus Actions
+Petrifying Gaze (Recharge 4–6). Constitution Saving 
+Throw: DC 12, each creature in a 30-foot Cone. If 
+the basilisk sees its reflection in the Cone, the basilisk 
+must make this save. First Failure: The target has the 
+Restrained condition and repeats the save at the end of 
+its next turn if it is still Restrained, ending the effect on 
+itself on a success. Second Failure: The target has the 
+Petrified condition instead of the Restrained condition.
+Bearded Devil
+Bearded Devil
+Medium Fiend (Devil), Lawful Evil
+AC 13  Initiative +2 (12)
+HP 58 (9d8 + 18)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +5 Dex 15 +2 +2 Con 15 +2 +4
+Int 9 −1 −1 WIS 11 +0 +0 Cha 14 +2 +4
+Resistances Cold
+Immunities Fire, Poison; Frightened, Poisoned
+Senses Darkvision 120 ft. (unimpeded by magical 
+Darkness); Passive Perception 10
+Languages Infernal; telepathy 120 ft.
+CR 3 (XP 700; PB +2)

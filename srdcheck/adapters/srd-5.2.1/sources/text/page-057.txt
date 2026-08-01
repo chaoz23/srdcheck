@@ -1,0 +1,74 @@
+System Reference Document 5.2.1
+57
+Level 15: Smite of Protection
+Your magical smite now radiates protective energy. 
+Whenever you cast Divine Smite , you and your allies 
+have Half Cover while in your Aura of Protection. 
+The aura has this benefit until the start of your next 
+turn.
+Level 20: Holy Nimbus
+As a Bonus Action, you can imbue your Aura of Pro -
+tection with holy power, granting the benefits be -
+low for 10 minutes or until you end them (no action 
+required). Once you use this feature, you can’t use it 
+again until you finish a Long Rest. You can also re -
+store your use of it by expending a level 5 spell slot 
+(no action required).
+ Holy Ward. You have Advantage on any saving 
+throw you are forced to make by a Fiend or an 
+Undead.
+ Radiant Damage. Whenever an enemy starts its 
+turn in the aura, that creature takes Radiant dam -
+age equal to your Charisma modifier plus your Pro -
+ficiency Bonus.
+ Sunlight.  The aura is filled with Bright Light that 
+is sunlight.
+Ranger
+Core Ranger Traits
+Primary Ability Dexterity and Wisdom
+Hit Point Die D10 per Ranger level
+Saving Throw 
+Proficiencies
+Strength and Dexterity
+Skill Proficiencies Choose 3: Animal Handling, 
+Athletics, Insight, Investigation, 
+Nature, Perception, Stealth, or 
+Survival
+Weapon Proficiencies Simple and Martial weapons
+Armor Training Light and Medium armor and 
+Shields
+Starting Equipment Choose A or B: (A) Studded 
+Leather Armor, Scimitar, 
+Shortsword, Longbow, 20 Ar -
+rows, Quiver, Druidic Focus 
+(sprig of mistletoe), Explorer’s 
+Pack, and 7 GP; or (B) 150 GP
+Becoming a Ranger …
+As a Level 1 Character
+• Gain all the traits in the Core Ranger Traits table.
+• Gain the Ranger’s level 1 features, which are 
+listed in the Ranger Features table.
+As a Multiclass Character
+• Gain the following traits from the Core Ranger 
+Traits table: Hit Point Die, proficiency with Mar-
+tial weapons, proficiency in one skill of your 
+choice from the Ranger’s skill list, and training 
+with Light and Medium armor and Shields.
+• Gain the Ranger’s level 1 features, which are 
+listed in the Ranger Features table. See the mul -
+ticlassing rules in “Character Creation” to deter -
+mine your available spell slots.
+Ranger Class Features
+As a Ranger, you gain the following class features 
+when you reach the specified Ranger levels. These 
+features are listed in the Ranger Features table.
+Level 1: Spellcasting
+You have learned to channel the magical essence of 
+nature to cast spells. See “Spells” for the rules on 
+spellcasting. The information below details how you 
+use those rules with Ranger spells, which appear in 
+the Ranger spell list later in the class’s description.
+ Spell Slots. The Ranger Features table shows 
+how many spell slots you have to cast your level 1+ 
+spells. You regain all expended slots when you fin -
+ish a Long Rest.

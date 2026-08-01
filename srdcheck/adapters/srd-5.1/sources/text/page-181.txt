@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   181	  
+You	  alter	  time	  around	  up	  to	   six	  creatures	  of	  your	  
+choice	  in	  a	  40-­‐‑foot	  cube	  within	  range.	  Each	  target	  
+must	  succeed	  on	  a	  Wisdom	  saving	  throw	  or	  be	  
+affected	  by	  this	  spell	  for	  the	  duration. 	  
+	   An	  affected	  target’s	  speed	  is	  halved,	  it	  takes	  a	  −2	  
+penalty	  to	  AC	  and	  Dexterity	  saving	  throws,	  and	  it	  
+can’t	  use	  reactions.	  On	  its	  turn,	  it	  can	  use	  either	  an	  
+action	  or	  a	  bonus	  action,	  not	  both.	  Regardless	  of	  the	  
+creature’s	  abilities	  or	  magic	  items,	  it	  can’t	  make	  
+more	  than	  one	  melee	  or	  ranged	  attack	  during	  its	  
+turn.	  
+	   If	  the	  creature	  attempts	  to	  cast	  a	   spell	  with	  a	  
+casting	  time	  of	  1	  action,	  roll	  a	  d20.	  On	  an	  11	  or	  
+higher,	  the	  spell	  doesn’t	  take	  effect	  until	  the	  
+creature’s	  next	  turn,	  and	  the	  creature	  must	  use	  its	  
+action	  on	  that	  turn	  to	  complete	  the	  spell.	  If	  it	  can’t,	  
+the	  spell	  is	  wasted. 	  
+	   A	  creature	  affe cted	  by	  this	  spell	  makes	  another	  
+Wisdom	  saving	  throw	  at	  the	  end	  of	  its	  turn.	  On	  a	  
+successful	  save,	  the	  effect	  ends	  for	  it. 	  
+Spare the Dying 
+Necromancy	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  touch	  a	  living	  cr eature	  that	  has	  0	  hit	  points.	  The	  
+creature	  becomes	  stable.	  This	  spell	  has	  no	  effect	  on	  
+undead	  or	  constructs. 	  
+Speak with Animals 
+1st-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  10	  minutes	  
+You	  gain	  the	  ability	  to	  c omprehend	  and	  verbally	  
+communicate	  with	  beasts	  for	  the	  duration.	  The	  
+knowledge	  and	  awareness	  of	  many	  beasts	  is	  limited	  
+by	  their	  intelligence,	  but	  at	  minimum,	  beasts	  can	  
+give	  you	  information	  about	  nearby	  locations	  and	  
+monsters,	  including	  whatever	  they	  can	  p erceive	  or	  
+have	  perceived	  within	  the	  past	  day.	  You	  might	  be	  
+able	  to	  persuade	  a	  beast	  to	  perform	  a	  small	  favor	  for	  
+you,	  at	  the	  GM’s	  discretion. 	  
+Speak with Dead 
+3rd-­‐‑level	  necromancy 	  
+Casting	  Time: 	  1	  action	  
+Range:	  10	  feet	  
+Components:	  V,	  S,	  M	  (burning	  incense) 	  
+Duration:	  10	  minutes	  
+You	  grant	  the	  semblance	  of	  life	  and	  intelligence	  to	  a	  
+corpse	  of	  your	  choice	  within	  range,	  allowing	  it	  to	  
+answer	  the	  questions	  you	  pose.	  The	  corpse	  must	  still	  
+have	  a	  mouth	  and	  can’t	  be	  undead.	  The	  spell	  fails	  if	  
+the	  corpse	  was	  the	  target	  of	  this	  spell	  within	  the	  last	  
+10	  days.	  
+	   Until	  the	  spell	  ends,	  you	  can	  ask	  the	  corpse	  up	  to	  
+five	  questions.	  The	  corpse	  knows	  only	  what	  it	  knew	  
+in	  life,	  including	  the	  languages	  it	  knew.	  Answers	  are	  
+usually	  brief,	  cryptic,	  or	  repetitive,	  and	  the	  corpse	  is	  
+under	  no	  compulsion	  to	  offer	  a	  truthful	  answer	  if	  
+you	  are	  hostile	  to	  it	  or	  it	  recognizes	  you	  as	  an	  enemy.	  
+This	  spell	  doesn’t	  return	  the	  creature’s	  soul	  to	  its	  
+body,	  only	  its	  animating	  spirit.	  Thus,	  the	  corpse	  can’t	  
+learn	  new	  information,	  doesn’t	  comprehend	  
+anything	  that	  has	  happened	  since	  it	  died,	  and	  can’t	  
+speculate	  about	  future	  events. 	  
+Speak with Plants 
+3rd-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  (30-­‐‑foot	  radius)	  
+Components:	  V,	  S	  
+Duration:	  10	  minutes	  
+You	  imbue	  plants	  within	  30	  feet	  of	  you	   with	  limited	  
+sentience	  and	  animation,	  giving	  them	  the	  ability	  to	  
+communicate	  with	  you	  and	  follow	  your	  simple	  
+commands.	  You	  can	  question	  plants	  about	  events	  in	  
+the	  spell’s	  area	  within	  the	  past	  day,	  gaining	  
+information	  about	  creatures	  that	  have	  passed,	  
+weather,	  and	  other	  circumstances. 	  
+	   You	  can	  also	  turn	  difficult	  terrain	  caused	  by	  plant	  
+growth	  (such	  as	  thickets	  and	  undergrowth)	  into	  
+ordinary	  terrain	  that	  lasts	  for	  the	  duration.	  Or	  you	  
+can	  turn	  ordinary	  terrain	  where	  plants	  are	  present	  
+into	  difficult	  terrain	   that	  lasts	  for	  the	  duration,	  
+causing	  vines	  and	  branches	  to	  hinder	  pursuers,	  for	  
+example.	  
+	   Plants	  might	  be	  able	  to	  perform	  other	  tasks	  on	  
+your	  behalf,	  at	  the	  GM’s	  discretion.	  The	  spell	  doesn’t	  
+enable	  plants	  to	  uproot	  themselves	  and	  move	  about,	  
+but	  they	  can	  freely	  move	  branches,	  tendrils,	  and	  
+stalks.	  
+	   If	  a	  plant	  creature	  is	  in	  the	  area,	  you	  can	  
+communicate	  with	  it	  as	  if	  you	  shared	  a	  common	  
+language,	  but	  you	  gain	  no	  magical	  ability	  to	  influence	  
+it.	  
+This	  spell	  can	  cause	  the	  plants	  created	  by	  the	  
+entangle	  spell	  to	  release	  a	  restrained	  creature. 	  

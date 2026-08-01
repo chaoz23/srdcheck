@@ -1,0 +1,109 @@
+System Reference Document 5.2.1
+246
+ 
+Spell
+Charge 
+Cost
+Cone of Cold 5
+Fireball (level 5 version) 5
+Globe of Invulnerability 6
+Hold Monster 5
+Levitate 2
+Lightning Bolt (level 5 version) 5
+Magic Missile 1
+Ray of Enfeeblement 1
+Wall of Force 5
+ Regaining Charges. The staff regains 2d8 + 4 
+expended charges daily at dawn. If you expend the 
+last charge, roll 1d20. On a 1, the staff retains its +2 
+bonus to attack rolls and damage rolls but loses all 
+other properties. On a 20, the staff regains 1d8 + 2 
+charges.
+ Retributive Strike. You can take a Magic action to 
+break the staff over your knee or against a solid sur -
+face. The staff is destroyed and releases its magic in 
+an explosion that fills a 30-foot Emanation originat -
+ing from itself. You have a 50 percent chance to in -
+stantly travel to a random plane of existence, avoid -
+ing the explosion. If you fail to avoid the effect, you 
+take Force damage equal to 16 times the number 
+of charges in the staff. Each other creature in the 
+area makes a DC 17 Dexterity saving throw. On a 
+failed save, a creature takes Force damage equal to 
+4 times the number of charges in the staff. On a suc -
+cessful save, a creature takes half as much damage.
+Staff of Striking
+Staff, Very Rare (Requires Attunement)
+This staff can be wielded as a magic Quarterstaff 
+that grants a +3 bonus to attack rolls and damage 
+rolls made with it.
+ The staff has 10 charges. When you hit with 
+a melee attack using it, you can expend up to 3 
+charges. For each charge you expend, the target 
+takes an extra 1d6 Force damage.
+ Regaining Charges. The staff regains 1d6 + 4 
+expended charges daily at dawn. If you expend the 
+last charge, roll 1d20. On a 1, the staff becomes a 
+nonmagical Quarterstaff.
+Staff of Swarming Insects
+Staff, Rare (Requires Attunement by a Bard, Cleric, 
+Druid, Sorcerer, Warlock, or Wizard)
+This staff has 10 charges.
+ Insect Cloud. While holding the staff, you can 
+take a Magic action and expend 1 charge to cause 
+a swarm of harmless flying insects to fill a 30-
+foot Emanation originating from you. The insects 
+remain for 10 minutes, making the area Heavily 
+Obscured for creatures other than you. A strong 
+wind (like that created by Gust of Wind ) disperses 
+the swarm and ends the effect.
+ Spells. While holding the staff, you can cast one of 
+the spells on the following table from it, using your 
+spell save DC and spell attack modifier. The table in -
+dicates how many charges you must expend to cast 
+the spell. 
+Spell Charge 
+Cost
+Giant Insect 4
+Insect Plague 5
+ Regaining Charges. The staff regains 1d6 + 4 
+expended charges daily at dawn. If you expend the 
+last charge, roll 1d20. On a 1, a swarm of insects 
+consumes and destroys the staff, then disperses.
+Staff of the Magi
+Staff, Legendary (Requires Attunement by a Sorcerer, 
+Warlock, or Wizard)
+This staff has 50 charges and can be wielded as a 
+magic Quarterstaff that grants a +2 bonus to attack 
+rolls and damage rolls made with it. While you hold 
+it, you gain a +2 bonus to spell attack rolls.
+ Spell Absorption.  While holding the staff, you 
+have Advantage on saving throws against spells. 
+In addition, you can take a Reaction when another 
+creature casts a spell that targets only you. If you 
+do, the staff absorbs the magic of the spell, cancel -
+ing its effect and gaining a number of charges equal 
+to the absorbed spell’s level. However, if doing so 
+brings the staff’s total number of charges above 50, 
+the staff explodes as if you activated its Retributive 
+Strike (see below).
+ Spells. While holding the staff, you can cast one of 
+the spells on the following table from it, using your 
+spell save DC. The table indicates how many charges 
+you must expend to cast the spell.
+ 
+Spell
+Charge 
+Cost
+Arcane Lock 0
+Conjure Elemental 7
+Detect Magic 0
+Dispel Magic 3
+Enlarge/Reduce 0
+Fireball (level 7 version) 7
+Flaming Sphere 2
+Ice Storm 4
+Invisibility 2
+Knock 2
+Light 0
+Lightning Bolt (level 7 version) 7

@@ -1,0 +1,107 @@
+System Reference Document 5.2.1
+112
+an Intelligence of 10 and the ability to speak one 
+language you know. If the target is a natural plant, 
+it becomes a Plant creature and gains the ability to 
+move its limbs, roots, vines, creepers, and so forth, 
+and it gains senses similar to a human’s. The GM 
+chooses statistics appropriate for the awakened 
+Plant, such as the statistics for the Awakened 
+Shrub or Awakened Tree  in “Monsters.”
+ The awakened target has the Charmed condition 
+for 30 days or until you or your allies deal damage 
+to it. When that condition ends, the awakened crea-
+ture chooses its attitude toward you.
+Bane
+Level 1 Enchantment (Bard, Cleric, Warlock)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a drop of blood)
+Duration: Concentration, up to 1 minute
+Up to three creatures of your choice that you can 
+see within range must each make a Charisma saving 
+throw. Whenever a target that fails this save makes 
+an attack roll or a saving throw before the spell 
+ends, the target must subtract 1d4 from the attack 
+roll or save.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 1.
+Banishment
+Level 4 Abjuration (Cleric, Paladin, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 30 feet
+Components: V, S, M (a pentacle)
+Duration: Concentration, up to 1 minute
+One creature that you can see within range must 
+succeed on a Charisma saving throw or be trans -
+ported to a harmless demiplane for the duration. 
+While there, the target has the Incapacitated con -
+dition. When the spell ends, the target reappears in 
+the space it left or in the nearest unoccupied space 
+if that space is occupied.
+ If the target is an Aberration, a Celestial, an Ele -
+mental, a Fey, or a Fiend, the target doesn’t return 
+if the spell lasts for 1 minute. The target is instead 
+transported to a random location on a plane (GM’s 
+choice) associated with its creature type.
+ Using a Higher-Level Spell Slot. You can target 
+one additional creature for each spell slot level 
+above 4.
+Barkskin
+Level 2 Transmutation (Druid, Ranger)
+Casting Time: Bonus Action
+Range: Touch
+Component: V, S, M (a handful of bark)
+Duration: 1 hour
+You touch a willing creature. Until the spell ends, 
+the target’s skin assumes a bark-like appearance, 
+and the target has an Armor Class of 17 if its AC is 
+lower than that.
+Beacon of Hope
+Level 3 Abjuration (Cleric)
+Casting Time: Action
+Range: 30 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+Choose any number of creatures within range. For 
+the duration, each target has Advantage on Wisdom 
+saving throws and Death Saving Throws and re -
+gains the maximum number of Hit Points possible 
+from any healing.
+Befuddlement
+Level 8 Enchantment (Bard, Druid, Warlock, Wizard)
+Casting Time: Action
+Range: 150 feet
+Components: V, S, M (a key ring with no keys)
+Duration: Instantaneous
+You blast the mind of a creature that you can see 
+within range. The target makes an Intelligence sav -
+ing throw.
+ On a failed save, the target takes 10d12 Psychic 
+damage and can’t cast spells or take the Magic ac -
+tion. At the end of every 30 days, the target repeats 
+the save, ending the effect on a success. The effect 
+can also be ended by the Greater Restoration , Heal, 
+or Wish spell.
+ On a successful save, the target takes half as much 
+damage only.
+Bestow Curse
+Level 3 Necromancy (Bard, Cleric, Wizard)
+Casting Time: Action
+Range: Touch
+Components: V, S
+Duration: Concentration, up to 1 minute
+You touch a creature, which must succeed on a Wis -
+dom saving throw or become cursed for the dura-
+tion. Until the curse ends, the target suffers one of 
+the following effects of your choice:
+• Choose one ability. The target has Disadvantage 
+on ability checks and saving throws made with 
+that ability.
+• The target has Disadvantage on attack rolls 
+against you.
+• In combat, the target must succeed on a Wisdom 
+saving throw at the start of each of its turns or be 
+forced to take the Dodge action on that turn.

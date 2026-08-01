@@ -1,0 +1,97 @@
+System	  Reference	   Document	  5.1 	   165	  
+	   If	  you	  create	  an	  image	  of	  an	  object— such	  as	  a	  
+chair,	  muddy	  footprints,	  or	  a	  small	  che st—it	  must	  be	  
+no	  larger	  than	  a	  5 -­‐‑foot	  cube.	  The	  image	  can’t	  create	  
+sound,	  light,	  smell,	  or	  any	  other	  sensory	  effect.	  
+Physical	  interaction	  with	  the	  image	  reveals	  it	  to	  be	  
+an	  illusion,	  because	  things	  can	  pass	  through	  it. 	  
+	   If	  a	  creature	  uses	  its	  action	  to	  exa mine	  the	  sound	  
+or	  image,	  the	  creature	  can	  determine	  that	  it	  is	  an	  
+illusion	  with	  a	  successful	  Intelligence	  (Investigation)	  
+check	  against	  your	  spell	  save	  DC.	  If	  a	  creature	  
+discerns	  the	  illusion	  for	  what	  it	  is,	  the	  illusion	  
+becomes	  faint	  to	  the	  creature. 	  
+Mirage Arcane 
+7th-­‐‑level	  illusion	  
+Casting	  Time: 	  10	  minutes	  
+Range:	  Sight	  
+Components:	  V,	  S	  
+Duration:	  10	  days	  
+You	  make	  terrain	  in	  an	  area	  up	  to	  1	  mile	  square	  look,	  
+sound,	  smell,	  and	  even	  feel	  like	  some	  other	  sort	  of	  
+terrain.	  The	  terrain’s	  general	  shape	  remains	  the 	  
+same,	  however.	  Open	  fields	  or	  a	  road	  could	  be	  made	  
+to	  resemble	  a	  swamp,	  hill,	  crevasse,	  or	  some	  other	  
+difficult	  or	  impassable	  terrain.	  A	  pond	  can	  be	  made	  
+to	  seem	  like	  a	  grassy	  meadow,	  a	  precipice	  like	  a	  
+gentle	  slope,	  or	  a	  rock -­‐‑strewn	  gully	  like	  a	  wide	  and	  
+smooth	  road.	  
+	   Similarly,	  you	  can	  alter	  the	  appearance	  of	  
+structures,	  or	  add	  them	  where	  none	  are	  present.	  The	  
+spell	  doesn’t	  disguise,	  conceal,	  or	  add	  creatures. 	  
+	   The	  illusion	  includes	  audible,	  visual,	  tactile,	  and	  
+olfactory	  elements,	  so	  it	  can	  turn	  clear	  g round	  into	  
+difficult	  terrain	  (or	  vice	  versa)	  or	  otherwise	  impede	  
+movement	  through	  the	  area.	  Any	  piece	  of	  the	  
+illusory	  terrain	  (such	  as	  a	  rock	  or	  stick)	  that	  is	  
+removed	  from	  the	  spell’s	  area	  disappears	  
+immediately.	  
+	   Creatures	  with	  truesight	  can	  see	  through	   the	  
+illusion	  to	  the	  terrain’s	  true	  form;	  however,	  all	  other	  
+elements	  of	  the	  illusion	  remain,	  so	  while	  the	  
+creature	  is	  aware	  of	  the	  illusion’s	  presence,	  the	  
+creature	  can	  still	  physically	  interact	  with	  the	  illusion. 	  
+Mirror Image 
+2nd-­‐‑level	  illusion	  
+Casting	  Time:	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  1	  minute	  
+Three	  illusory	  duplicates	  of	  yourself	  appear	  in	  your	  
+space.	  Until	  the	  spell	  ends,	  the	  duplicates	  move	  with	  
+you	  and	  mimic	  your	  actions,	  shifting	  position	  so	  it’s	  
+impossible	  to	  track	  which	  image	  is 	  real.	  You	  can	  use	  
+your	  action	  to	  dismiss	  the	  illusory	  duplicates. 	  
+	   Each	  time	  a	  creature	  targets	  you	  with	  an	  attack	  
+during	  the	  spell’s	  duration,	  roll	  a	  d20	  to	  determine	  
+whether	  the	  attack	  instead	  targets	  one	  of	  your	  
+duplicates.	  
+If	  you	  have	  three	  duplicate s,	  you	  must	  roll	  a	  6	  or	  
+higher	  to	  change	  the	  attack’s	  target	  to	  a	  duplicate.	  
+With	  two	  duplicates,	  you	  must	  roll	  an	  8	  or	  higher.	  
+With	  one	  duplicate,	  you	  must	  roll	  an	  11	  or	  higher. 	  
+	   A	  duplicate’s	  AC	  equals	  10	  +	  your	  Dexterity	  
+modifier.	  If	  an	  attack	  hits	  a	  du plicate,	  the	  duplicate	  is	  
+destroyed.	  A	  duplicate	  can	  be	  destroyed	  only	  by	  an	  
+attack	  that	  hits	  it.	  It	  ignores	  all	  other	  damage	  and	  
+effects.	  The	  spell	  ends	  when	  all	  three	  duplicates	  are	  
+destroyed.	  
+	   A	  creature	  is	  unaffected	  by	  this	  spell	  if	  it	  can’t	  see,	  
+if	  it	  relies	  on	  senses	  other	  than	  sight,	  such	  as	  
+blindsight,	  or	  if	  it	  can	  perceive	  illusions	  as	  false,	  as	  
+with	  truesight. 	  
+Mislead 
+5th-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  S	  
+Duration:	  Concentration,	  up	  to	  1	  hour 	  
+You	  become	  invisible	  at	   the	  same	  time	  that	  an	  
+illusory	  double	  of	  you	  appears	  where	  you	  are	  
+standing.	  The	  double	  lasts	  for	  the	  duration,	  but	  the	  
+invisibility	  ends	  if	  you	  attack	  or	  cast	  a	  spell. 	  
+	   You	  can	  use	  your	  action	  to	  move	  your	  illusory	  
+double	  up	  to	  twice	  your	  speed	  and	  make	  i t	  gesture,	  
+speak,	  and	  behave	  in	  whatever	  way	  you	  choose. 	  
+	   You	  can	  see	  through	  its	  eyes	  and	  hear	  through	  its	  
+ears	  as	  if	  you	  were	  located	  where	  it	  is.	  On	  each	  of	  
+your	  turns	  as	  a	  bonus	  action,	  you	  can	  switch	  from	  
+using	  its	  senses	  to	  using	  your	  own,	  or	  back	  ag ain.	  
+While	  you	  are	  using	  its	  senses,	  you	  are	  blinded	  and	  
+deafened	  in	  regard	  to	  your	  own	  surroundings. 	  
+Misty Step 
+2nd-­‐‑level	  conjuration 	  
+Casting	  Time:	   1	  bonus	  action 	  
+Range:	  Self	  
+Components:	  V	  
+Duration:	  Instantaneous	  

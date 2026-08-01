@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   144	  
+traveling	  there,	  whenever	  you	  are	  presented	  with	  a	  
+choice	  of	  paths	  along	  the	  way,	  you	  automatically	  
+determine	  which	  path	  is	  the	  shortest	  and	  most	  direct	  
+route	  (but	  not	  necessarily	  the	  safest	  route)	  to	  the	  
+destination.	  
+Find Traps 
+2nd-­‐‑level	  divination 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  sense	  the	  presence	  of	  any	  trap	  within	  range	  that	  
+is	  within	  line	  of	  sight.	  A	  trap,	  for	  the	  purpose	  of	  this	  
+spell,	  includes	  anything	  that	  would	  inflict	  a	  sudden	  
+or	  unexpected	  effect	  you	  consider	  harmful	  or	  
+undesirable,	  which	  was	  specific ally	  intended	  as	  such	  
+by	  its	  creator.	  Thus,	  the	  spell	  would	  sense	  an	  area	  
+affected	  by	  the	   alarm	  spell,	  a	  glyph	  of	  warding ,	  or	  a	  
+mechanical	  pit	  trap,	  but	  it	  would	  not	  reveal	  a	  natural	  
+weakness	  in	  the	  floor,	  an	  unstable	  ceiling,	  or	  a	  
+hidden	  sinkhole. 	  
+	   This	  spell	  merely	  reveals	  that	  a	  trap	  is	  present.	  
+You	  don’t	  learn	  the	  location	  of	  each	  trap,	  but	  you	  do	  
+learn	  the	  general	  nature	  of	  the	  danger	  posed	  by	  a	  
+trap	  you	  sense. 	  
+Finger of Death 
+7th-­‐‑level	  necromancy 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  send	  negative	  energy	  coursing	  through	  a	  
+creature	  that	  you	  can	  see	  within	  range,	  causing	  it	  
+searing	  pain.	  The	  target	  must	  make	  a	  Constitution	  
+saving	  throw.	  It	  takes	  7d8	  +	  30	  necrotic	  damage	  on	  a	  
+failed	  save,	  or	  half	  as	  much	  damage	  on	  a	  successful	  
+one.	  
+	   A	  humanoid	  killed	  by	  this	  spell	  rises	  at	  the	  start	  of	  
+your	  next	  turn	  as	  a	  zombie	  that	  is	  permanently	  
+under	  your	  command,	  following	  your	  verbal	  orders	  
+to	  the	  best	  of	  its	  ability. 	  
+Fireball 
+3rd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  150	  feet	  
+Components:	  V,	  S,	  M	  (a	  tiny	  ball	  of	  bat	  guano	  and	  
+sulfur)	  
+Duration:	  Instantaneous	  
+A	  bright	  streak	  flashes	  from	  your	  pointing	  finger	  to	  a	  
+point	  you	  choose	  within	  range	  and	  then	  blossoms	  
+with	  a	  low	  roar	  into	  an	  explosion	  of	  flame.	  Each	  
+creature	  in	  a	  20-­‐‑foot-­‐‑radius	  sphere	  centered	  on	  that	  
+point	  must	  make	  a	  Dexterity	  saving	  throw.	  A	  target	  
+takes	  8d6	  fire	  damage	  on	  a	  failed	  save,	  or	  half	  as	  
+much	  damage	  on	  a	  successful	  one. 	  
+	   The	  fire	  spreads	  around	  corners.	  It	  ignites	  
+flammable	  objects	  in	  the	  area 	  that	  aren’t	  being	  worn	  
+or	  carried.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  1d6	  for	  each	  slot	  level	  above	  3rd. 	  
+Fire Bolt 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+You	  hurl	  a	  mote	  of	  fire	  at	  a	  creature	  or	  object	  within	  
+range.	  Make	  a	  ranged	  spell	  attack	  against	  the	  target.	  
+On	  a	  hit,	  the	  target	  takes	  1d10	  fire	  damage.	  A	  
+flammable	  object	  hit	  by	  this	  spell	  ignites	  if	  it	  isn't	  
+being	  worn	  or	  carried.	  
+	   This	  spell's	  damage	  increases	  by	  1d10	  when	  you	  
+reach	  5th	  level	  (2d10),	  11th	  level	  (3d10),	  and	  17th	  
+level	  (4d10).	  
+Fire Shield 
+4th-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  phosphorus	  or	  a	  
+firefly)	  
+Duration:	  10	  minutes	  
+Thin	  and	  wispy	  flames	  wreathe	  your	  body	  for	  the	  
+duration,	  shedding	  bright	  light	  in	  a	  10 -­‐‑foot	  radius	  
+and	  dim	  light	  for	  an	  additional	  10	  feet.	  You	  can	  end	  
+the	  spell	  early	  by	  using	  an	  action	  to	  dismiss	  it. 	  
+	   The	  flames	  provide	  you	  with	  a	  warm	   shield	  or	  a	  
+chill	  shield,	  as	  you	  choose.	  The	  warm	  shield	  grants	  
+you	  resistance	  to	  cold	  damage,	  and	  the	  chill	  shield	  
+grants	  you	  resistance	  to	  fire	  damage. 	  
+	   In	  addition,	  whenever	  a	  creature	  within	  5	  feet	  of	  
+you	  hits	  you	  with	  a	  melee	  attack,	  the	  shield	  erupts 	  
+with	  flame.	  The	  attacker	  takes	  2d8	  fire	  damage	  from	  
+a	  warm	  shield,	  or	  2d8	  cold	  damage	  from	  a	  cold	  
+shield.	  

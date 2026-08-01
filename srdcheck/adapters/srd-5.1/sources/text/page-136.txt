@@ -1,0 +1,100 @@
+System	  Reference	   Document	  5.1 	   136	  
+Components:	  V,	  S,	  M	  (a	  lodestone	  and	  a	  pinch	  of	  
+dust)	  
+Duration:	  Instantaneous	  
+A	  thin	  green	  ray	  springs	  from	  your	  pointing	  finger	  to	  
+a	  target	  that	  you	  can	  see	  within	  range.	  The	  target	  can	  
+be	  a	  creature,	  an	  object,	  or	  a	  creation	  of	  magical	  
+force,	  such	  as	  the	  wall	  created	  by	   wall	  of	  force.	  
+	   A	  creature	  targeted	  by	  this	  spell	  must	  make	  a 	  
+Dexterity	  saving	  throw.	  On	  a	  failed	  save,	  the	  target	  
+takes	  10d6	  +	  40	  force	  damage.	  If	  this	  damage	  
+reduces	  the	  target	  to	  0	  hit	  points,	  it	  is	  disintegrated. 	  
+	   A	  disintegrated	  creature	  and	  everything	  it	  is	  
+wearing	  and	  carrying,	  except	  magic	  items,	  are	  
+reduced	  to	  a	  pile	  of	  fine	  gray	  dust.	  The	  creature	  can	  
+be	  restored	  to	  life	  only	  by	  means	  of	  a	   true	  
+resurrection	  or	  a	  wish	  spell.	  
+	   This	  spell	  automatically	  disintegrates	  a	  Large	  or	  
+smaller	  nonmagical	  object	  or	  a	  creation	  of	  magical	  
+force.	  If	  the	  target	  is	  a	  Huge	  or 	  larger	  object	  or	  
+creation	  of	  force,	  this	  spell	  disintegrates	  a	  10 -­‐‑foot-­‐‑
+cube	  portion	  of	  it.	  A	  magic	  item	  is	  unaffected	  by	  this	  
+spell.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  7th	  level	  or	  higher,	  the	  damage	  increases	  
+by	  3d6	  for	  each	  slot	  level	  above	  6th. 	  
+Dispel Evil and Good 
+5th-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (holy	  water	  or	  powdered	  silver	  
+and	  iron)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+Shimmering	  energy	  surrounds	  and	  protects	  you	  
+from	  fey,	  undead,	  and	  creatures	  originating	  from	  
+beyond	  the	  Material	  Plane.	  For	  the	  duration,	  
+celestials,	  elementals,	  fey,	  fiends,	  and	  undead	  have	  
+disadvantage	  on	  attack	  rolls	  against	  you. 	  
+	   You	  can	  end	  the	  spell	  early	  by	  using	  either	  of	  the	  
+following	  special	  functi ons.	  
+	   Break	  Enchantment. 	  As	  your	  action,	  you	  touch	  a	  
+creature	  you	  can	  reach	  that	  is	  charmed,	  frightened,	  
+or	  possessed	  by	  a	  celestial,	  an	  elemental,	  a	  fey,	  a	  
+fiend,	  or	  an	  undead.	  The	  creature	  you	  touch	  is	  no	  
+longer	  charmed,	  frightened,	  or	  possessed	  by	  such	  
+creatures.	  
+	   Dismissal.	  As	  your	  action,	  make	  a	  melee	  spell	  
+attack	  against	  a	  celestial,	  an	  elemental,	  a	  fey,	  a	  fiend,	  
+or	  an	  undead	  you	  can	  reach.	  On	  a	  hit,	  you	  attempt	  to	  
+drive	  the	  creature	  back	  to	  its	  home	  plane.	  The	  
+creature	  must	  succeed	  on	  a	  Charisma	  savi ng	  throw	  
+or	  be	  sent	  back	  to	  its	  home	  plane	  (if	  it	  isn’t	  there	  
+already).	  If	  they	  aren’t	  on	  their	  home	  plane,	  undead	  
+are	  sent	  to	  the	  Shadowfell,	  and	  fey	  are	  sent	  to	  the	  
+Feywild.	  
+Dispel Magic 
+3rd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+Choose	  one	  creature,	  object,	  or	  magical	  effect	  within	  
+range.	  Any	  spell	  of	  3rd	  level	  or	  lower	  on	  the	  target	  
+ends.	  For	  each	  spell	  of	  4th	  level	  or	  higher	  on	  the	  
+target,	  make	  an	  ability	  check	  using	  your	  spellcasting	  
+ability.	  The	  DC	  equals	  10	  +	  the	  spell’s	  level.	  On	  a	  
+successful	  check,	  the	  spell	  ends. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  you	  automatically	  
+end	  the	  effects	  of	  a	  spell	  on	  the	  target	  if	  the	  spell’s	  
+level	  is	  equal	  to	  o r	  less	  than	  the	  level	  of	  the	  spell	  slot	  
+you	  used.	  
+Divination 
+4th-­‐‑level	  divination	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (incense	  and	  a	  sacrificial	  
+offering	  appropriate	  to	  your	  religion,	  together	  
+worth	  at	  least	  25	  gp,	  which	  the	  spell	  consumes) 	  
+Duration:	  Instantaneous	  
+Your	  magic	  and	  an	  offering	  put	  you	  in	  contact	  with	  a	  
+god	  or	  a	  god’s	  servants.	  You	  ask	  a	  single	  quest ion	  
+concerning	  a	  specific	  goal,	  event,	  or	  activity	  to	  occur	  
+within	  7	  days.	  The	  GM	  offers	  a	  truthful	  reply.	  The	  
+reply	  might	  be	  a	  short	  phrase,	  a	  cryptic	  rhyme,	  or	  an	  
+omen.	  
+	   The	  spell	  doesn’t	  take	  into	  account	  any	  possible	  
+circumstances	  that	  might	  change	  the 	  outcome,	  such	  
+as	  the	  casting	  of	  additional	  spells	  or	  the	  loss	  or	  gain	  
+of	  a	  companion. 	  
+	   If	  you	  cast	  the	  spell	  two	  or	  more	  times	  before	  
+finishing	  your	  next	  long	  rest,	  there	  is	  a	  cumulative	  
+25	  percent	  chance	  for	  each	  casting	  after	  the	  first	  that	  
+you	  get	  a	  random	  reading.	  The	  GM	  makes	  this	  roll	  in	  
+secret.	  
+Divine Favor 
+1st-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  bonus	  action 	  
+Range:	  Self	  
+Components:	  V,	  S	  

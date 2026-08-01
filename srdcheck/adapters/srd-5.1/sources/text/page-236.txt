@@ -1,0 +1,90 @@
+System	  Reference	   Document	  5.1 	   236	  
+rocks,	  or	  dirt	  as	  if	  it	  were	  normal	  terrain.	  You	  can	  
+also	  speak	  and	  understand	  Terran. 	  
+	   If	  you	  help	  slay	  an	  earth	  elemental	  while	  attuned	  
+to	  the	  ring,	  you	  gain	  access	  to	  the	  following	  
+additional	  properties: 	  
+• You	  have	  resistance	  to	  acid	  damage.
+• You	  can	  move	  through	  solid	  earth	  or	  rock	  as	  if
+those	  areas	  were	  difficult	  terrain.	  If	  you	  end	  you r
+turn	  there,	  you	  are	  shunted	  out	  to	  the	  nearest
+unoccupied	  space	  you	  last	  occupied.
+• You	  can	  cast	  the	  following	  spells	  from	  the	  ring,
+expending	  the	  necessary	  number	  of	  charges:	   stone
+shape	  (2	  charges),	  stoneskin	  (3	  charges),	  or	   wall	  of
+stone	  (3	  charges).
+Ring	  of	  Fire	  Elemental	  Command. 	  You	  can
+expend	  2	  of	  the	  ring’s	  charges	  to	  cast	   dominate	  
+monster	  on	  a	  fire	  elemental.	  In	  addition,	  you	  have	  
+resistance	  to	  fire	  damage.	  You	  can	  also	  speak	  and	  
+understand	  Ignan. 	  
+	   If	  you	  help	  slay	  a	  fire	  elemental	  while	  attuned	  to	  
+the	  ring,	  you	  gain	  access	  to	  the	  following	  additional	  
+properties:	  
+• You	  are	  immune	  to	  fire	  damage.
+• You	  can	  cast	  the	  following	  spells	  from	  the	  ring,
+expending	  the	  necessary	  number	  of	  charges:
+burning	  hands 	  (1	  charge),	  fireball	  (2	  charges),	  and
+wall	  of	  fire	  (3	  charges).
+Ring	  of	  Water	  Elemental	  Command. 	  You	  can
+expend	  2	  of	  the	  ring’s	  charges	  to	  cast	   dominate	  
+monster	  on	  a	  water	  elemental.	  In	  addition,	  you	  can	  
+stand	  on	  and	  walk	  across	  liquid	  surfaces	  as	  if	  they	  
+were	  solid	  ground.	  You	  can	  also	  speak	  and	  
+understand	  Aquan.	  
+	   If	  you	  help	  slay	  a	  water	  elemental	  while	  attuned	  to	  
+the	  ring,	  you	  gain	  access	  to	  the	  following	  additional	  
+properties:	  
+• You	  can	  breathe	  underwater	  and	  have	  a
+swimming	  speed	  equal	  to	  your	  walking	  speed.
+• You	  can	  cast	  the	  following	  spells	  from	  the	  r ing,
+expending	  the	  necessary	  number	  of	  charges:
+create	  or	  destroy	  water	   (1	  charge),	  control	  water	  (3
+charges),	  ice	  storm	  (2	  charges),	  or	   wall	  of	  ice	  (3
+charges).
+Ring of Evasion 
+Ring,	  rare	  (requires	  attunement) 	  
+This	  ring	  has	  3	  charges,	  and	  it	  regains	  1d3	  e xpended	  
+charges	  daily	  at	  dawn.	  When	  you	  fail	  a	  Dexterity	  
+saving	  throw	  while	  wearing	  it,	  you	  can	  use	  your	  
+reaction	  to	  expend	  1	  of	  its	  charges	  to	  succeed	  on	  that	  
+saving	  throw	  instead. 	  
+Ring of Feather Falling 
+Ring,	  rare	  (requires	  attunement) 	  
+When	  you	  fall	  whi le	  wearing	  this	  ring,	  you	  descend	  
+60	  feet	  per	  round	  and	  take	  no	  damage	  from	  falling. 	  
+Ring of Free Action 
+Ring,	  rare	  (requires	  attunement) 	  
+While	  you	  wear	  this	  ring,	  difficult	  terrain	  doesn’t	  
+cost	  you	  extra	  movement.	  In	  addition,	  magic	  can	  
+neither	  reduce	  you r	  speed	  nor	  cause	  you	  to	  be	  
+paralyzed	  or	  restrained. 	  
+Ring of Invisibility 
+Ring,	  legendary	  (requires	  attunement) 	  
+While	  wearing	  this	  ring,	  you	  can	  turn	  invisible	  as	  an	  
+action.	  Anything	  you	  are	  wearing	  or	  carrying	  is	  
+invisible	  with	  you.	  You	  remain	  invisible	   until	  the	  
+ring	  is	  removed,	  until	  you	  attack	  or	  cast	  a	  spell,	  or	  
+until	  you	  use	  a	  bonus	  action	  to	  become	  visible	  again. 	  
+Ring of Jumping 
+Ring,	  uncommon	  (requires	  attunement) 	  
+While	  wearing	  this	  ring,	  you	  can	  cast	  the	   jump	  spell	  
+from	  it	  as	  a	  bonus	  action	  at	  wil l,	  but	  can	  target	  only	  
+yourself	  when	  you	  do	  so. 	  
+Ring of Mind Shielding 
+Ring,	  uncommon	  (requires	  attunement) 	  
+While	  wearing	  this	  ring,	  you	  are	  immune	  to	  magic	  
+that	  allows	  other	  creatures	  to	  read	  your	  thoughts,	  
+determine	  whether	  you	  are	  lying,	  know	  your	  
+alignment,	  or	  know	  your	  creature	  type.	  Creatures	  
+can	  telepathically	  communicate	  with	  you	  only	  if	  you	  
+allow	  it.	  
+	   You	  can	  use	  an	  action	  to	  cause	  the	  ring	  to	  become	  
+invisible	  until	  you	  use	  another	  action	  to	  make	  it	  
+visible,	  until	  you	  remove	  the	  ring,	  or	  until	  you	   die.	  
+	   If	  you	  die	  while	  wearing	  the	  ring,	  your	  soul	  enters	  
+it,	  unless	  it	  already	  houses	  a	  soul.	  You	  can	  remain	  in	  
+the	  ring	  or	  depart	  for	  the	  afterlife.	  As	  long	  as	  your	  
+soul	  is	  in	  the	  ring,	  you	  can	  telepathically	  
+communicate	  with	  any	  creature	  wearing	  it.	  A	  w earer	  
+can’t	  prevent	  this	  telepathic	  communication. 	  

@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   258	  
+Challenge 
+A	  monster’s	  challenge	  rating 	  tells	  you	  how	  great	  a	  
+threat	  the	  monster	  is.	  An	  appropriately	  equipped	  
+and	  well-­‐‑rested	  party	  of	  four	  adventurers	  should	  be	  
+able	  to	  defeat	  a	  monster	  that	  has	  a	  challenge	  rating	  
+equal	  to	  its	  level	  without	  suffering	  any	  deaths.	  For	  
+example,	  a	  party	  of	  four	  3 rd-­‐‑level	  characters	  should	  
+find	  a	  monster	  with	  a	  challenge	  rating	  of	  3	  to	  be	  a	  
+worthy	  challenge,	  but	  not	  a	  deadly	  one. 	  
+	   Monsters	  that	  are	  significantly	  weaker	  than	  1st -­‐‑
+level	  characters	  have	  a	  challenge	  rating	  lower	  than	  1.	  
+Monsters	  with	  a	  challenge	  rating	   of	  0	  are	  
+insignificant	  except	  in	  large	  numbers;	  those	  with	  no	  
+effective	  attacks	  are	  worth	  no	  experience	  points,	  
+while	  those	  that	  have	  attacks	  are	  worth	  10	  XP	  each. 	  
+	   Some	  monsters	  present	  a	  greater	  challenge	  than	  
+even	  a	  typical	  20th -­‐‑level	  party	  can	  handle.	   These	  
+monsters	  have	  a	  challenge	  rating	  of	  21	  or	  higher	  and	  
+are	  specifically	  designed	  to	  test	  player	  skill. 	  
+Experience Points 
+The	  number	  of	  experience	  points	  (XP)	  a	  monster	  is	  
+worth	  is	  based	  on	  its	  challenge	  rating.	  Typically,	  XP	  
+is	  awarded	  for	  defeating	  th e	  monster,	  although	  the	  
+GM	  may	  also	  award	  XP	  for	  neutralizing	  the	  threat	  
+posed	  by	  the	  monster	  in	  some	  other	  manner. 	  
+	   Unless	  something	  tells	  you	  otherwise,	  a	  monster	  
+summoned	  by	  a	  spell	  or	  other	  magical	  ability	  is	  
+worth	  the	  XP	  noted	  in	  its	  stat	  block. 	  
+Experience	  Points	  by	  Challenge	  Rating	  
+Challenge	   XP	   Challenge	   XP	  
+0	   0	  or	  10	   14	   11,500	  
+1/8	   25	   15	   13,000	  
+1/4	   50	   16	   15,000	  
+1/2	   100	   17	   18,000	  
+1	   200	   18	   20,000	  
+2	   450	   19	   22,000	  
+3	   700	   20	   25,000	  
+4	   1,100	   21	   33,000	  
+5	   1,800	   22	   41,000	  
+6	   2,300	   23	   50,000	  
+7	   2,900	   24	   62,000	  
+8	   3,900	   25	   75,000	  
+9	   5,000	   26	   90,000	  
+10	   5,900	   27	   105,000	  
+11	   7,200	   28	   120,000	  
+12	   8,400	   29	   135,000	  
+13	   10,000	   30	   155,000	  
+Special Traits 
+Special	  traits	  (which	  appear	  after	  a	  monster’s	  
+challenge	  rating	  but	  before	  any	  actions	  or	   reactions)	  
+are	  characteristics	  that	  are	  likely	  to	  be	  relevant	  in	  a	  
+combat	  encounter	  and	  that	  require	  some	  
+explanation.	  
+Innate Spellcasting 
+A	  monster	  with	  the	  innate	  ability	  to	  cast	  spells	  has	  
+the	  Innate	  Spellcasting	  special	  trait.	  Unless	  noted	  
+otherwise,	  an	  innate	  spell	  of	  1st	  level	  or	  higher	  is	  
+always	  cast	  at	  its	  lowest	  possible	  level	  and	  can’t	  be	  
+cast	  at	  a	  higher	  level.	  If	  a	  monster	  has	  a	  cantrip	  
+where	  its	  level	  matters	  and	  no	  level	  is	  given,	  use	  the	  
+monster’s	  challenge	  rating. 	  
+	   An	  innate	  spell	  can	  have	  s pecial	  rules	  or	  
+restrictions.	  For	  example,	  a	  drow	  mage	  can	  innately	  
+cast	  the	  levitate	  spell,	  but	  the	  spell	  has	  a	  “self	  only”	  
+restriction,	  which	  means	  that	  the	  spell	  affects	  only	  
+the	  drow	  mage. 	  
+	   A	  monster’s	  innate	  spells	  can’t	  be	  swapped	  out	  
+with	  other	  spel ls.	  If	  a	  monster’s	  innate	  spells	  don’t	  
+require	  attack	  rolls,	  no	  attack	  bonus	  is	  given	  for	  
+them.	  
+Spellcasting 
+A	  monster	  with	  the	  Spellcasting	  special	  trait	  has	  a	  
+spellcaster	  level	  and	  spell	  slots,	  which	  it	  uses	  to	  cast	  
+its	  spells	  of	  1st	  level	  and	  higher	  (as 	  explained	  in	  the	  
+Player’s	  Handbook ).	  The	  spellcaster	  level	  is	  also	  used	  
+for	  any	  cantrips	  included	  in	  the	  feature. 	  
+	   The	  monster	  has	  a	  list	  of	  spells	  known	  or	  prepared	  
+from	  a	  specific	  class.	  The	  list	  might	  also	  include	  
+spells	  from	  a	  feature	  in	  that	  class,	  s uch	  as	  the	  Divine	  
+Domain	  feature	  of	  the	  cleric	  or	  the	  Druid	  Circle	  
+feature	  of	  the	  druid.	  The	  monster	  is	  considered	  a	  
+member	  of	  that	  class	  when	  attuning	  to	  or	  using	  a	  
+magic	  item	  that	  requires	  membership	  in	  the	  class	  or	  
+access	  to	  its	  spell	  list. 	  
+	   A	  monster	  can	  cast	  a	  spell	  from	  its	  list	  at	  a	  higher	  
+level	  if	  it	  has	  the	  spell	  slot	  to	  do	  so.	  For	  example,	  a	  
+drow	  mage	  with	  the	  3rd -­‐‑level	  lightning	  bolt	  spell	  can	  
+cast	  it	  as	  a	  5th-­‐‑level	  spell	  by	  using	  one	  of	  its	  5th -­‐‑level	  
+spell	  slots.	  
+	   You	  can	  change	  the	  spells	  that	   a	  monster	  knows	  or	  
+has	  prepared,	  replacing	  any	  spell	  on	  its	  spell	  list	  with	  
+a	  spell	  of	  the	  same	  level	  and	  from	  the	  same	  class	  list.	  
+If	  you	  do	  so,	  you	  might	  cause	  the	  monster	  to	  be	  a	  
+greater	  or	  lesser	  threat	  than	  suggested	  by	  its	  
+challenge	  rating. 	  

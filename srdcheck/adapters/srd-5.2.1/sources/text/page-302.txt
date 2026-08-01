@@ -1,0 +1,86 @@
+302
+System Reference Document 5.2.1
+takes 7 (2d6) Thunder damage at the start of each of the 
+stalker’s turns.
+Iron Golem
+Iron Golem
+Large Construct, Unaligned
+AC 20  Initiative +9 (19)
+HP 252 (24d10 + 120)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 24 +7 +7 Dex 9 −1 −1 Con 20 +5 +5
+Int 3 −4 −4 WIS	 11 +0 +0 Cha	1 −5 −5
+Immunities Fire, Poison, Psychic; Charmed, Exhaustion, 
+Frightened, Paralyzed, Petrified, Poisoned
+Senses Darkvision 120 ft.; Passive Perception 10
+Languages Understands Common plus two other 
+languages but can’t speak
+CR 16 (XP 15,000; PB +5)
+Traits
+Fire Absorption. Whenever the golem is subjected to 
+Fire damage, it regains a number of Hit Points equal to 
+the Fire damage dealt.
+Immutable Form. The golem can’t shape-shift.
+Magic Resistance. The golem has Advantage on saving 
+throws against spells and other magical effects.
+Actions
+Multiattack. The golem makes two attacks, using 
+Bladed Arm or Fiery Bolt in any combination.
+Bladed Arm. Melee Attack Roll: +12, reach 10 ft. 
+Hit: 20 (3d8 + 7) Slashing damage plus 10 (3d6) 
+Fire damage.
+Fiery Bolt. Ranged Attack Roll: +10, range 120 ft. Hit: 
+36 (8d8) Fire damage.
+Poison Breath (Recharge 6). Constitution Saving 
+Throw: DC 18, each creature in a 60-foot Cone. Fail-
+ure: 55 (10d10) Poison damage. Success: Half damage.
+Knight
+Knight
+Medium or Small Humanoid, Neutral
+AC 18  Initiative +0 (10)
+HP 52 (8d8 + 16)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str	 16 +3 +3 Dex	 11 +0 +0 Con	14 +2 +4
+Int	 11 +0 +0 WIS	 11 +0 +2 Cha	15 +2 +2
+Immunities Frightened
+Gear Greatsword, Heavy Crossbow, Plate Armor
+Senses Passive Perception 10
+Languages Common plus one other language
+CR 3 (XP 700; PB +2)
+Actions
+Multiattack. The knight makes two attacks, using 
+Greatsword or Heavy Crossbow in any combination.
+Greatsword. Melee Attack Roll: +5, reach 5 ft. Hit: 10 
+(2d6 + 3) Slashing damage plus 4 (1d8) Radiant damage.
+Heavy Crossbow. Ranged Attack Roll: +2, range 
+100/400 ft. Hit: 11 (2d10) Piercing damage plus 4 (1d8) 
+Radiant damage.
+Reactions
+Parry. Trigger: The knight is hit by a melee attack roll 
+while holding a weapon. Response: The knight adds 2 
+to its AC against that attack, possibly causing it to miss. 
+Kobold
+Kobold Warrior
+Small Dragon, Neutral
+AC 14  Initiative +2 (12)
+HP 7 (3d6 − 3)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 7 −2 −2 Dex	15 +2 +2 Con 9 −1 −1
+Int 8 −1 −1 WIS 7 −2 −2 Cha 8 −1 −1
+Gear Daggers (3)
+Senses Darkvision 60 ft.; Passive Perception 8
+Languages Common, Draconic
+CR 1/8 (XP 25; PB +2)
+Traits
+Pack Tactics. The kobold has Advantage on an attack 
+roll against a creature if at least one of the kobold’s al-
+lies is within 5 feet of the creature and the ally doesn’t 
+have the Incapacitated condition.
+Sunlight Sensitivity. While in sunlight, the kobold has 
+Disadvantage on ability checks and attack rolls.
+Actions
+Dagger. Melee or Ranged Attack Roll: +4, reach 5 ft. or 
+range 20/60 ft. Hit: 4 (1d4 + 2) Piercing damage.

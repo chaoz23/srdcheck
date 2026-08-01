@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+199
+Traps
+Traps should be used sparingly, lest they lose their 
+charm. A hidden pit can be a fun surprise, but too 
+many traps in an adventure can lead players to be -
+come overly cautious, which slows down the game.
+ The best traps are fleeting distractions that 
+skilled characters can overcome in a short amount 
+of time or deadly puzzles that require quick think -
+ing and teamwork to overcome. Traps that are un -
+detectable and inescapable are rarely fun.
+Parts of a Trap
+The description of a trap includes the following 
+parts after the trap’s name:
+Severity and Levels.  A trap is designated as a nui -
+sance or as deadly for characters of certain levels.  
+A nuisance trap is unlikely to seriously harm char -
+acters of the indicated levels, whereas a deadly 
+trap can grievously damage characters of the indi -
+cated levels.
+Trigger. Traps are often set to go off when a crea-
+ture enters an area or touches an object. Examples 
+of triggers include stepping on a pressure plate, 
+crossing a trip wire, turning a doorknob, or using 
+the wrong key in a lock.
+Duration. Some traps have durations expressed 
+in rounds, minutes, or hours. Others specify that 
+their effects last until the trap is destroyed or 
+dispelled. If a trap’s duration is instantaneous, its 
+effect is resolved instantly. If a trap resets after 
+activating, that fact is noted in this entry. A trap is 
+otherwise inert after activation.
+Use caution when introducing a trap to characters 
+of a level lower than the trap’s level range. A trap 
+that is a nuisance at one level range could be deadly 
+to characters of a lower level range.
+Example Traps
+Traps are presented in alphabetical order.
+Collapsing Roof
+Deadly Trap (Levels 1–4)
+Trigger:  A creature crosses a trip wire
+Duration: Instantaneous
+This trap uses a trip wire to collapse an unstable 
+section of ceiling. The trip wire is 3 inches off the 
+ground and stretches between two weak supports 
+that topple when the trip wire is pulled.
+ The first creature that crosses the trip wire 
+causes the supports to topple and the unstable sec -
+tion of ceiling to collapse. Each creature beneath the 
+unstable section of ceiling must succeed on a DC 13 
+Dexterity saving throw, taking 11 (2d10) Bludgeon -
+ing damage on a failed save or half as much damage 
+on a successful one. Rubble from the collapse turns 
+the trapped area into Difficult Terrain.  
+ Detect and Disarm.  As a Search action, a creature 
+can examine the trapped area and make a DC 11 
+Wisdom (Perception) check, detecting the trip wire 
+and the unstable section of ceiling on a successful 
+check. Once detected, the trip wire can be easily cut 
+or avoided (no ability check required).
+ At Higher Levels. You can scale the trap for higher 
+levels by increasing the damage and the save DC, as 
+shown in the following table. 
+Levels Bludgeoning Damage Save DC
+5–10 22 (4d10) 15
+11–16 55 (10d10) 17
+17–20 99 (18d10) 19
+Falling Net
+Nuisance Trap (Levels 1–4)
+Trigger:  A creature crosses a trip wire
+Duration: Instantaneous
+A falling net trap uses a trip wire to release a 
+weighted, 10-foot-square Net suspended from the 
+ceiling. The trip wire is 3 inches off the ground and 
+stretches between two columns or trees. 
+ The first creature that crosses the trip wire 
+causes the Net to fall on it. The target must suc -
+ceed on a DC 10 Dexterity saving throw or have the 
+Restrained condition until it escapes. The target 
+succeeds automatically if it’s Huge or larger. A crea-
+ture can take an action to make a DC 10 Strength 
+(Athletics) check, freeing itself or another creature 
+within its reach from the Net on a successful check.  
+ Detect and Disarm.  As a Search action, a creature 
+can examine the trapped area and make a DC 11 
+Wisdom (Perception) check, detecting the trip wire 
+and the suspended Net on a successful check. Once 
+detected, the trip wire can be easily cut or avoided 
+(no ability check required).
+ Destroy the Net. Reducing the Net to 0 Hit Points 
+frees any creature trapped in it (see “Adventuring 
+Gear” for the Net’s statistics).
+ Set the Trap. A creature that has Thieves’ Tools 
+and all the trap’s components (including a Net) can 
+try to set a falling net trap, doing so with a success -
+ful DC 13 Dexterity (Sleight of Hand) check. Each 
+attempt to set this trap takes 10 minutes.
+ At Higher Levels. You can scale the trap for higher 
+levels by increasing the weight of the Net, which 
+increases the save DC and the DC of the Strength 
+(Athletics) check as follows: DC 12 at levels 5–10, DC 
+14 at levels 11–16, or DC 16 at levels 17–20. 
+Fire-Casting Statue
+Deadly Trap (Levels 1–4)
+Trigger:  A creature moves onto a pressure plate

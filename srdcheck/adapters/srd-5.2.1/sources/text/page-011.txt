@@ -1,0 +1,101 @@
+System Reference Document 5.2.1
+11
+NPC reacts. A cowardly bandit might buckle under 
+threats of imprisonment. A stubborn merchant 
+refuses to help if the characters badger her. A vain 
+dragon laps up flattery.
+ When interacting with an NPC, pay attention to 
+the GM’s portrayal of the NPC’s personality. You 
+might be able to learn an NPC’s goals and then use 
+that information to influence the NPC.
+ If you offer NPCs something they want or play 
+on their sympathies, fears, or goals, you can form 
+friendships, ward off violence, or learn a key piece 
+of information. On the other hand, if you insult a 
+proud warrior or speak ill of a noble’s allies, your 
+efforts to convince or deceive will likely fail.
+Ability Checks
+Ability checks can be key in determining the out -
+come of a social interaction. Your roleplaying efforts 
+can alter an NPC’s attitude, but there might still be 
+an element of chance if the GM wants dice to play 
+a role in determining an NPC’s response to you. In 
+such situations, the GM will typically ask you to 
+take the Influence action.
+ Pay attention to your skill proficiencies when 
+thinking of how you will interact with an NPC; use 
+an approach that relies on your group’s skill pro -
+ficiencies. For example, if the group needs to trick 
+a guard into letting them into a castle, the Rogue 
+who is proficient in Deception should lead the 
+discussion.
+Exploration
+Exploration involves delving into places that are 
+dangerous and full of mystery. The rules in this sec -
+tion detail some of the ways adventurers interact 
+with the environment in such places.
+Adventuring Equipment
+As adventurers explore, their equipment can help 
+them in many ways. For example, they can reach 
+out-of-the-way places with a Ladder, perceive things 
+they wouldn’t otherwise notice with a Torch or 
+another light source, bypass locked doors and con -
+tainers with Thieves’ Tools, and create obstacles for 
+pursuers with Caltrops.
+ See “Equipment” for rules on many items that are 
+useful on adventures. The items in the“Tools” and 
+“Adventuring Gear” sections are especially useful. 
+The weapons in “Equipment” can also be used for 
+more than battle; you could use a Quarterstaff, 
+for example, to push a sinister-looking button that 
+you’re reluctant to touch.
+Vision and Light
+Some adventuring tasks—such as noticing danger, 
+hitting an enemy, and targeting certain spells—are 
+affected by sight, so effects that obscure vision can 
+hinder you, as explained below.
+Obscured Areas
+An area might be Lightly or Heavily Obscured. In a 
+Lightly Obscured area—such as an area with Dim 
+Light, patchy fog, or moderate foliage—you have 
+Disadvantage on Wisdom (Perception) checks that 
+rely on sight.
+ A Heavily Obscured area—such as an area with 
+Darkness, heavy fog, or dense foliage—is opaque. 
+You have the Blinded condition (see “Rules Glos -
+sary”) when trying to see something there.
+Light
+The presence or absence of light determines the cat -
+egory of illumination in an area, as defined below.
+ Bright Light. Bright Light lets most creatures see 
+normally. Even gloomy days provide Bright Light, as 
+do torches, lanterns, fires, and other sources of illu -
+mination within a specific radius.
+ Dim Light. Dim Light, also called shadows, cre -
+ates a Lightly Obscured area. An area of Dim Light 
+is usually a boundary between Bright Light and 
+surrounding Darkness. The soft light of twilight and 
+dawn also counts as Dim Light. A full moon might 
+bathe the land in Dim Light.
+ Darkness.  Darkness creates a Heavily Obscured 
+area. Characters face Darkness outdoors at night 
+(even most moonlit nights), within the confines of 
+an unlit dungeon, or in an area of magical Darkness.
+Special Senses
+Some creatures have special senses that help them 
+perceive things in certain situations. “Rules Glos -
+sary” defines the following special senses:
+Blindsight
+Darkvision
+Tremorsense
+Truesight
+Hiding
+Adventurers and monsters often hide, whether to 
+spy on one another, sneak past a guardian, or set an 
+ambush. The Game Master decides when circum -
+stances are appropriate for hiding. When you try to 
+hide, you take the Hide action.
+Interacting with Objects
+Interacting with objects is often simple to resolve. 
+The player tells the GM that their character is do -
+ing something, such as moving a lever or opening 

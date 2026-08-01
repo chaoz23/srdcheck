@@ -1,0 +1,102 @@
+System Reference Document 5.2.1
+178
+Object Armor Class
+AC Substance AC Substance
+11 Cloth, paper, rope 19 Iron, steel
+13 Crystal, glass, ice 21 Mithral
+15 Wood 23 Adamantine
+17 Stone
+ Hit Points. An object is destroyed when it has 0 
+Hit Points. The Object Hit Points table suggests Hit 
+Points for fragile and resilient objects that are Large 
+or smaller. To track Hit Points for a Huge or Gargan -
+tuan object, divide it into Large or smaller sections, 
+and track each section’s Hit Points separately. The 
+GM determines whether destroying part of an ob -
+ject causes the whole thing to collapse.
+Object Hit Points
+Size Fragile Resilient
+Tiny (bottle, lock) 2 (1d4) 5 (2d4)
+Small (chest, lute) 3 (1d6) 10 (3d6)
+Medium (barrel, chandelier) 4 (1d8) 18 (4d8)
+Large (cart, dining table) 5 (1d10) 27 (5d10)
+ Damage Types and Objects. Objects have Immu -
+nity to Poison and Psychic damage. The GM might 
+decide that some damage types are more or less ef -
+fective against an object. For example, Bludgeoning 
+damage works well for smashing things but not for 
+cutting. Paper or cloth objects might have Vulnera-
+bility to Fire damage.
+ Damage Threshold. Big objects, such as castle 
+walls, often have extra resilience represented by a 
+damage threshold. See also  “Damage Threshold.”
+ No Ability Scores. An object lacks ability scores 
+unless a rule assigns scores to the object. Without 
+ability scores, an object can’t make ability checks, 
+and it fails all saving throws.
+Bright Light
+Bright Light is normal illumination. See also  “Play-
+ing the Game” (“Exploration”).
+Burning [Hazard]
+A burning creature or object takes 1d4 Fire damage 
+at the start of each of its turns. As an action, you 
+can extinguish fire on yourself by giving yourself 
+the Prone condition and rolling on the ground. 
+The fire also goes out if it is doused, submerged, or 
+suffocated.
+Burrow Speed
+A creature that has a Burrow Speed can use that 
+speed to move through sand, earth, mud, or ice. The 
+creature can’t burrow through solid rock unless the 
+creature has a trait that allows it to do so. See also  
+“Speed.”
+Campaign
+A campaign is a series of adventures. See also  
+“Adventure.”
+Cantrip
+A cantrip is a level 0 spell, which is cast without a 
+spell slot. See also  “Spells.”
+Carrying Capacity
+Your size and Strength score determine the maxi -
+mum weight in pounds that you can carry, as shown 
+in the Carrying Capacity table. The table also shows 
+the maximum weight you can drag, lift, or push.
+ While dragging, lifting, or pushing weight in ex -
+cess of the maximum weight you can carry, your 
+Speed can be no more than 5 feet.
+Carrying Capacity
+Creature Size Carry Drag/Lift/Push
+Tiny Str. × 7.5 lb. Str. × 15 lb.
+Small/Medium Str. × 15 lb. Str. × 30 lb.
+Large Str. × 30 lb. Str. × 60 lb.
+Huge Str. × 60 lb. Str. × 120 lb.
+Gargantuan Str. × 120 lb. Str. × 240 lb.
+Challenge Rating
+Challenge Rating (CR) summarizes the threat a 
+monster poses to a group of four player characters. 
+Compare a monster’s CR to the characters’ level. If 
+the CR is higher, the monster is likely a danger. If the 
+CR is lower, the monster likely poses little threat. 
+But circumstances and the number of player charac -
+ters can significantly alter how threatening a mon -
+ster is in actual play. “Gameplay Toolbox” (“Combat 
+Encounters”) provides guidance to the GM on using 
+CR while planning potential combat encounters. See 
+also “Stat Block.”
+Character Sheet
+A character sheet is a paper or digital record that 
+you use to track your character’s information. See 
+also “Character Creation.”
+Charmed [Condition]
+While you have the Charmed condition, you experi -
+ence the following effects.
+ Can’t Harm the Charmer. You can’t attack the 
+charmer or target the charmer with damaging abili -
+ties or magical effects.
+ Social Advantage. The charmer has Advantage on 
+any ability check to interact with you socially.
+Climbing
+While you’re climbing, each foot of movement costs 
+1 extra foot (2 extra feet in Difficult Terrain). You 
+ignore this extra cost if you have a Climb Speed and 
+use it to climb.

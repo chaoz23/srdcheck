@@ -1,0 +1,75 @@
+System	  Reference	   Document	  5.1 	   336	  
+components	  to	  cast	  its	  spells.	  It	  has	  th e	  following	  
+wizard	  spells	  prepared: 	  
+Cantrips	  (at	  will):	   mage	  hand,	  minor	  illusion ,	  ray	  of	  
+frost	  
+1st	  level	  (4	  slots):	   charm	  person,	  detect	  magic,	  sleep	  
+2nd	  level	  (3	  slots):	   detect	  thoughts ,	  hold	  person	  
+3rd	  level	  (3	  slots):	   lightning	  bolt,	  water	  breathing 	  
+4th	  level	  (3	  slots):	   blight,	  dimension	  door 	  
+5th	  level	  (2	  slots):	   dominate	  person	  
+Actions	  
+Bite.	  Melee	  Weapon	  Attack: 	  +7	  to	  hit,	  reach	  10	  ft.,	  one	  
+creature.	  Hit:	  7	  (1d6	  +	  4)	  piercing	  damage,	  and	  the	  
+target	  must	  make	  a	  DC	  13	  Constitution	  saving	  throw,	  
+taking	  31	  (7d8)	  poison	  damage	  on	  a	  failed	  save,	  or	  half	  
+as	  much	  damage	  on	  a	  successful	  one. 	  
+Nightmare	  
+Large	  fiend,	  neutral	  evil 	  
+Armor	  Class	  13	  (natural	  armor) 	  
+Hit	  Points	  68	  (8d10	  +	  24)	  
+Speed	  60	  ft.,	  fly	  90	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+18	  (+4)	   15	  (+2)	   16	  (+3)	   10	  (+0)	   13	  (+1)	   15	  (+2)	  
+Damage	  Immunities 	  fire	  
+Senses	  passive	  Perception	  11 	  
+Languages	  understands	  Abyssal,	  Common,	  and	  Infernal	  
+but	  can’t	  speak 	  
+Challenge	  3	  (700	  XP)	  
+Confer	  Fire	  Resistance. 	  The	  nightmare	  can	  grant	  
+resistance	  to	  fire	  damage	  to	  anyone	  riding	  it. 	  
+Illumination.	  The	  nightmare	  sheds	  bright	  light	  in	  a	  10-­‐
+foot	  radius	  and	  dim	  light	  for	  an	  additional	  10	  feet. 	  
+Actions	  
+Hooves.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  13	  (2d8	  +	  4)	  bludgeoning	  damage	  plus	  
+7	  (2d6)	  fire	  damage. 	  
+Ethereal	  Stride.	   The	  nightmare	  and	  up	  to	  three	  willing	  
+creatures	  within	  5	  feet	  of	  it	  magically	  enter	  the	  
+Ethereal	  Plane	  from	  the	  Material	  Plane,	  or	  vice	  versa. 	  
+Monsters (O) 
+Ogre	  
+Large	  giant,	  chaotic	  evil 	  
+Armor	  Class	  11	  (hide	  armor) 	  
+Hit	  Points	  59	  (7d10	  +	  21)	  
+Speed	  40	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+19	  (+4)	   8	  (−1)	   16	  (+3)	   5	  (−3)	   7	  (−2)	   7	  (−2)	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  8 	  
+Languages	  Common,	  Giant 	  
+Challenge	  2	  (450	  XP)	  
+Actions	  
+Greatclub.	  Melee	  Weapon	  Attack: 	  +6	  to	  hit,	  reach	  5	  ft.,	  
+one	  target.	  Hit:	  13	  (2d8	  +	  4)	  bludgeoning	  damage. 	  
+Javelin.	  Melee	  or	  Ranged	  Weapon	  Attack: 	  +6	  to	  hit,	  
+reach	  5	  ft.	  or	  range	  30/120	  ft.,	  one	  target.	   Hit:	  11	  (2d6	  
++ 4)	  piercing	  damage.
+Oni	  
+Large	  giant,	  lawful	  evil 	  
+Armor	  Class	  16	  (chain	  mail)	  
+Hit	  Points	  110	  (13d10	  +	  39) 	  
+Speed	  30	  ft.,	  fly	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+19	  (+4)	   11	  (+0)	   16	  (+3)	   14	  (+2)	   12	  (+1)	   15	  (+2)	  
+Saving	  Throws	  Dex	  +3,	  Con	  +6,	  Wis	  +4,	  Cha	  +5 	  
+Skills	  Arcana	  +5,	  Deception	  +8,	  Perception	  +4 	  
+Senses	  darkvision	  60	  ft.,	  passive	  Perception	  14 	  
+Languages	  Common,	  Giant 	  
+Challenge	  7	  (2,900	  XP)	  
+Innate	  Spellcasting. 	  The	  oni’s	  innate	  spellcasting	  ability	  
+is	  Charisma	  (spell	  save	  DC	  13).	  The	  oni	  can	  innately	  cast	  
+the	  following	  spells,	  requiring	  no	  material	  components: 	  
+At	  will:	  darkness,	  invisibility	  
+1/day	  each:	  charm	  person,	  cone	  of	  cold,	  gaseous	  form,	  
+sleep	  
+Magic	  Weapons. 	  The	  oni’s	  weapon	  attacks	  are	  magical. 	  

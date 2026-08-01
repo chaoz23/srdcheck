@@ -1,0 +1,99 @@
+System Reference Document 5.2.1
+180
+Cylinder [Area of Effect]
+A Cylinder is an area of effect that extends in 
+straight lines from a point of origin located at the 
+center of the circular top or bottom of the Cylinder. 
+The effect that creates a Cylinder specifies the ra-
+dius of the Cylinder’s base and the Cylinder’s height.
+ A Cylinder’s point of origin is included in the area 
+of effect.
+D20 Test
+D20 Tests encompass the three main d20 rolls of 
+the game: ability checks, attack rolls, and saving 
+throws. If something in the game affects D20 Tests, 
+it affects all three of these rolls. The GM determines 
+whether a D20 Test is warranted in a given circum -
+stance. See also  “Playing the Game” (“D20 Tests”).
+Damage
+Damage represents harm that causes a creature or 
+an object to lose Hit Points.
+Damage Roll
+A damage roll is a die roll, adjusted by any applica-
+ble modifiers, that deals damage to a target. See also  
+“Playing the Game” (“Damage and Healing”).
+Damage Threshold
+A creature or an object that has a damage thresh -
+old has Immunity to all damage unless it takes an 
+amount of damage from a single attack or effect 
+equal to or greater than its damage threshold, in 
+which case it takes that entire instance of dam -
+age. Any damage that fails to meet or exceed the 
+damage threshold is superficial and doesn’t reduce 
+Hit Points. For example, if an object has a damage 
+threshold of 10, the object takes no damage if 9 
+damage is dealt to it, since that damage fails to 
+exceed the threshold. If the same object is dealt 11 
+damage, it takes all of that damage.
+Damage Types
+Attacks and other harmful effects deal different 
+types of damage. Damage types have no rules of 
+their own, but other rules, such as Resistance, rely 
+on the types. The Damage Types table offers exam -
+ples to help a GM assign a type to a new effect.
+Damage Types
+Type Examples
+Acid Corrosive liquids, digestive enzymes
+Bludgeoning Blunt objects, constriction, falling
+Cold Freezing water, icy blasts
+Fire Flames, unbearable heat
+Force Pure magical energy
+Lightning Electricity
+Type Examples
+Necrotic Life-draining energy
+Piercing Fangs, puncturing objects
+Poison Toxic gas, venom
+Psychic Mind-rending energy
+Radiant Holy energy, searing radiation
+Slashing Claws, cutting objects
+Thunder Concussive sound
+Darkness
+An area of Darkness is Heavily Obscured. See 
+also “Heavily Obscured” and “Playing the Game” 
+(“Exploration”).
+Darkvision
+If you have Darkvision, you can see in Dim Light 
+within a specified range as if it were Bright Light 
+and in Darkness within that range as if it were 
+Dim Light. You discern colors in that Darkness 
+only as shades of gray. See also  “Playing the Game” 
+(“Exploration”).
+Dash [Action]
+When you take the Dash action, you gain extra 
+movement for the current turn. The increase equals 
+your Speed after applying any modifiers. With a 
+Speed of 30 feet, for example, you can move up to 
+60 feet on your turn if you Dash. If your Speed of 30 
+feet is reduced to 15 feet, you can move up to 30 feet 
+this turn if you Dash.
+ If you have a special speed, such as a Fly Speed or 
+Swim Speed, you can use that speed instead of your 
+Speed when you take this action. You choose which 
+speed to use each time you take it. See also  “Speed.”
+Dead
+A dead creature has no Hit Points and can’t regain 
+them unless it is first revived by magic such as the 
+Raise Dead or Revivify spell. When such a spell is 
+cast, the spirit knows who is casting it and can re -
+fuse. The spirit of a dead creature has left the body 
+and departed for the Outer Planes, and reviving the 
+creature requires calling the spirit back. 
+ If the creature returns to life, the revival effect 
+determines the creature’s current Hit Points. Un -
+less otherwise stated, the creature returns to life 
+with any conditions, magical contagions, or curses 
+that were affecting it at death if the durations of 
+those effects are still ongoing. If the creature died 
+with any Exhaustion levels, it returns with 1 fewer 
+level. If the creature had Attunement to one or more 
+magic items, it is no longer attuned to them.

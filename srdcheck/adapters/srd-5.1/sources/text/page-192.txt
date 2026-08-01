@@ -1,0 +1,99 @@
+System	  Reference	   Document	  5.1 	   192	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (a	  piece	  of	  cork) 	  
+Duration:	  1	  hour	  
+This	  spell	  grants	  the	  ability	  to	  move	  across	  any	  
+liquid	  surface—such	  as	  water,	  acid,	  mud,	  snow,	  
+quicksand,	  or	  lava —as	  if	  it	  were	  harmless	  solid	  
+ground	  (creatures	  crossing	  molten	  lava	  can	  still	  take	  
+damage	  from	  the	  heat).	  Up	  to	  ten	  willing	  creatures	  
+you	  can	  see	  within	  range	  gain	  this	  ability	  for	  the	  
+duration.	  
+	   If	  you	  target	  a	  cre ature	  submerged	  in	  a	  liquid,	  the	  
+spell	  carries	  the	  target	  to	  the	  surface	  of	  the	  liquid	  at	  
+a	  rate	  of	  60	  feet	  per	  round. 	  
+Web 
+2nd-­‐‑level	  conjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	   V,	  S,	  M	  (a	  bit	  of	  spiderweb) 	  
+Duration:	  Concentration,	  up	  to	  1 	  hour	  
+You	  conjure	  a	  mass	  of	  thick,	  sticky	  webbing	  at	  a	  
+point	  of	  your	  choice	  within	  range.	  The	  webs	  fill	  a	  20 -­‐‑
+foot	  cube	  from	  that	  point	  for	  the	  duration.	  The	  webs	  
+are	  difficult	  terrain	  and	  lightly	  obscure	  their	  area. 	  
+	   If	  the	  webs	  aren’t	  anchored	  between	  two 	  solid	  
+masses	  (such	  as	  walls	  or	  trees)	  or	  layered	  across	  a	  
+floor,	  wall,	  or	  ceiling,	  the	  conjured	  web	  collapses	  on	  
+itself,	  and	  the	  spell	  ends	  at	  the	  start	  of	  your	  next	  turn.	  
+Webs	  layered	  over	  a	  flat	  surface	  have	  a	  depth	  of	  5	  
+feet.	  
+	   Each	  creature	  that	  starts 	  its	  turn	  in	  the	  webs	  or	  
+that	  enters	  them	  during	  its	  turn	  must	  make	  a	  
+Dexterity	  saving	  throw.	  On	  a	  failed	  save,	  the	  creature	  
+is	  restrained	  as	  long	  as	  it	  remains	  in	  the	  webs	  or	  
+until	  it	  breaks	  free. 	  
+	   A	  creature	  restrained	  by	  the	  webs	  can	  use	  its	  
+action	  to	  make	  a	  Strength	  check	  against	  your	  spell	  
+save	  DC.	  If	  it	  succeeds,	  it	  is	  no	  longer	  restrained. 	  
+	   The	  webs	  are	  flammable.	  Any	  5 -­‐‑foot	  cube	  of	  webs	  
+exposed	  to	  fire	  burns	  away	  in	  1	  round,	  dealing	  2d4	  
+fire	  damage	  to	  any	  creature	  that	  starts	  its	  turn	  in	  the	  
+fire.	  
+Weird 
+9th-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  one	  minute 	  
+Drawing	  on	  the	  deepest	  fears	  of	  a	  group	  of	  creatures,	  
+you	  create	  illusory	  creatures	  in	  their	  minds,	  visible	  
+only	  to	  them.	  Each	  creatur e	  in	  a	  30-­‐‑foot-­‐‑radius	  
+sphere	  centered	  on	  a	  point	  of	  your	  choice	  within	  
+range	  must	  make	  a	  Wisdom	  saving	  throw.	  On	  a	  
+failed	  save,	  a	  creature	  becomes	  frightened	  for	  the	  
+duration.	  The	  illusion	  calls	  on	  the	  creature’s	  deepest	  
+fears,	  manifesting	  its	  worst	  nightm ares	  as	  an	  
+implacable	  threat.	  At	  the	  end	  of	  each	  of	  the	  
+frightened	  creature’s	  turns,	  it	  must	  succeed	  on	  a	  
+Wisdom	  saving	  throw	  or	  take	  4d10	  psychic	  damage.	  
+On	  a	  successful	  save,	  the	  spell	  ends	  for	  that	  creature. 	  
+Wind Walk 
+6th-­‐‑level	  transmutation 	  
+Casting	  Time:	  1	  minute	  
+Range:	  30	  feet	  
+Components:	  V,	  S,	  M	  (fire	  and	  holy	  water) 	  
+Duration:	  8	  hours	  
+You	  and	  up	  to	  ten	  willing	  creatures	  you	  can	  see	  
+within	  range	  assume	  a	  gaseous	  form	  for	  the	  duration,	  
+appearing	  as	  wisps	  of	  cloud.	  While	  in	  this	  cloud	  form,	  
+a	  creature	  has	  a	  flying	  speed	  of	  300	  feet	  and	  has	  
+resistance	  to	  damage	  from	  nonmagical	  weapons.	  The	  
+only	  actions	  a	  creature	  can	  take	  in	  this	  form	  are	  the	  
+Dash	  action	  or	  to	  revert	  to	  its	  normal	  form.	  
+Reverting	  takes	  1	  minute,	  during	  which	  time	  a	  
+creature	  is	  incapacitate d	  and	  can’t	  move.	  Until	  the	  
+spell	  ends,	  a	  creature	  can	  revert	  to	  cloud	  form,	  which	  
+also	  requires	  the	  1 -­‐‑minute	  transformation. 	  
+	   If	  a	  creature	  is	  in	  cloud	  form	  and	  flying	  when	  the	  
+effect	  ends,	  the	  creature	  descends	  60	  feet	  per	  round	  
+for	  1	  minute	  until	  it	  lan ds,	  which	  it	  does	  safely.	  If	  it	  
+can’t	  land	  after	  1	  minute,	  the	  creature	  falls	  the	  
+remaining	  distance. 	  
+Wind Wall 
+3rd-­‐‑level	  evocation	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S,	  M	  (a	  tiny	  fan	  and	  a	  feather	  of	  
+exotic	  origin)	  
+Duration:	  Concentration,	  up	  to	  1	  minute 	  
+A	  wall	  of	  strong	  wind	  rises	  from	  the	  ground	  at	  a	  
+point	  you	  choose	  within	  range.	  You	  can	  make	  the	  
+wall	  up	  to	  50	  feet	  long,	  15	  feet	  high,	  and	  1	  foot	  thick.	  
+You	  can	  shape	  the	  wall	  in	  any	  way	  you	  choose	  so	  
+long	  as	  it	  makes	  one	  continuous	   path	  along	  the	  
+ground.	  The	  wall	  lasts	  for	  the	  duration. 	  
+	   When	  the	  wall	  appears,	  each	  creature	  within	  its	  
+area	  must	  make	  a	  Strength	  saving	  throw.	  A	  creature	  
+takes	  3d8	  bludgeoning	  damage	  on	  a	  failed	  save,	  or	  
+half	  as	  much	  damage	  on	  a	  successful	  one. 	  

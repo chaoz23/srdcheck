@@ -1,0 +1,77 @@
+System	  Reference	   Document	  5.1 	   402	  
+Actions	  
+Multiattack.	  The	  scout	  makes	  two	  melee	   attacks	  or	  
+two	  ranged	  attacks. 	  
+Shortsword.	  Melee	  Weapon	  Attack:	   +4	  to	  hit,	  reach	  5	  
+ft.,	  one	  target.	  Hit:	  5	  (1d6	  +	  2)	  piercing	  damage. 	  
+Longbow.	  Ranged	  Weapon	  Attack:	   +4	  to	  hit,	  ranged	  
+150/600	  ft.,	  one	  target.	   Hit:	  6	  (1d8	  +	  2)	  piercing	  
+damage.	  
+Scouts	  are	  skilled	  hunters	  and	  trackers	  who	  offer	  
+their	  services	  for	  a	  fee.	  Most	  hunt	  wild	  game,	  but	  a	  
+few	  work	  as	  bounty	  hunters,	  serve	  as	  guides,	  or	  
+provide	  military	  reconnaissance. 	  
+Spy	  
+Medium	  humanoid	  (any	  race),	  any	  alignment 	  
+Armor	  Class	  12	  
+Hit	  Points	  27	  (6d8)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+10	  (+0)	   15	  (+2)	   10	  (+0)	   12	  (+1)	   14	  (+2)	   16	  (+3)	  
+Skills	  Deception	  +5,	  Insight	  +4,	  Investigation	  +5,	  
+Perception	  +6,	  Persuasion	  +5,	  Sleight	  of	  Hand	  +4,	  
+Stealth	  +4	  
+Senses	  passive	  Perception	  16 	  
+Languages	  any	  two	  languages 	  
+Challenge	  1	  (200	  XP)	  
+Cunning	  Action. 	  On	  each	  of	  its	  turns,	  the	  spy	  can	  use	  a	  
+bonus	  action	  to	  take	  the	  Dash,	  Disengage,	  or	  Hide	  
+action.	  
+Sneak	  Attack	  (1/Turn). 	  The	  spy	  deals	  an	  extra	  7	  (2d6)	  
+damage	  when	  it	  hits	  a	  target	  with	  a	  weapon	  attack	  and	  
+has	  advantage	  on	  the	  attack	  roll,	  or	  when	  the	  target	  is	  
+within	  5	  feet	  of	  an	  ally	  of	  the	  spy	  that	  isn’t	  
+incapacitated	  and	  the	  spy	  doesn’t	  have	  disadvantage	  
+on	  the	  attack	  roll. 	  
+Actions	  
+Multiattack.	  The	  spy	  makes	  two	  melee	  attacks. 	  
+Shortsword.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  
+ft.,	  one	  target.	  Hit:	  5	  (1d6	  +	  2)	  piercing	  damage. 	  
+Hand	  Crossbow.	   Ranged	  Weapon	  Attack: 	  +4	  to	  hit,	  
+range	  30/120	  ft.,	  one	  target.	   Hit:	  5	  (1d6	  +	  2)	  piercing	  
+damage.	  
+Rulers,	  nobles,	  merchants,	  guildmasters,	  and	  other	  
+wealthy	  individuals	  us e	  spies	  to	  gain	  the	  upper	  hand	  
+in	  a	  world	  of	  cutthroat	  politics.	  A	  spy	  is	  trained	  to	  
+secretly	  gather	  information.	  Loyal	  spies	  would	  
+rather	  die	  than	  divulge	  information	  that	  could	  
+compromise	  them	  or	  their	  employers. 	  
+Thug	  
+Medium	  humanoid	  (any	  race),	  any	  non -­‐good	  alignment 	  
+Armor	  Class	  11	  (leather	  armor) 	  
+Hit	  Points	  32	  (5d8	  +	  10)	  
+Speed	  30	  ft.	  
+STR	   DEX	   CON	   INT	   WIS	   CHA	  
+15	  (+2)	   11	  (+0)	   14	  (+2)	   10	  (+0)	   10	  (+0)	   11	  (+0)	  
+Skills	  Intimidation	  +2 	  
+Senses	  passive	  Perception	  10 	  
+Languages	  any	  one	  language	  (usually	  Common) 	  
+Challenge	  1/2	  (100	  XP)	  
+Pack	  Tactics.	  The	  thug	  has	  advantage	  on	  an	  attack	  roll	  
+against	  a	  creature	  if	  at	  least	  one	  of	  the	  thug’s	  allies	  is	  
+within	  5	  feet	  of	  the	  creature	  and	  the	  ally	  isn’t	  
+incapacitated.	  
+Actions	  
+Multiattack.	  The	  thug	  makes	  two	  melee	  attacks. 	  
+Mace.	  Melee	  Weapon	  Attack: 	  +4	  to	  hit,	  reach	  5	  ft.,	  one	  
+creature.	  Hit:	  5	  (1d6	  +	  2)	  bludgeoning	  damage. 	  
+Heavy	  Crossbow. 	  Ranged	  Weapon	  Attack: 	  +2	  to	  hit,	  
+range	  100/400	  ft.,	  one	  target.	   Hit:	  5	  (1d10)	  piercing	  
+damage.	  
+Thugs	  are	  ruthless	  enforcers	  skilled	  at	  intimidation	  
+and	  violence.	  They	  work	  for	  money	  and	  have	  few	  
+scruples.	  
+Tribal	  Warrior	  
+Medium	  humanoid	  (any	  race),	  any	  alignment 	  
+Armor	  Class	  12	  (hide	  armor) 	  
+Hit	  Points	  11	  (2d8	  +	  2)	  

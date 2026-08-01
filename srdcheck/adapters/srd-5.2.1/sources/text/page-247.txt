@@ -1,0 +1,105 @@
+System Reference Document 5.2.1
+247
+ 
+Spell
+Charge 
+Cost
+Mage Hand 0
+Passwall 5
+Plane Shift 7
+Protection from Evil and Good 0
+Telekinesis 5
+Wall of Fire 4
+Web 2
+ Regaining Charges. The staff regains 4d6 + 2 ex -
+pended charges daily at dawn. If you expend the last 
+charge, roll 1d20. On a 20, the staff regains 1d12 + 1 
+charges.
+ Retributive Strike. You can take a Magic action to 
+break the staff over your knee or against a solid sur -
+face. The staff is destroyed and releases its magic in 
+an explosion that fills a 30-foot Emanation originat -
+ing from itself. You have a 50 percent chance to in -
+stantly travel to a random plane of existence, avoid -
+ing the explosion. If you fail to avoid the effect, you 
+take Force damage equal to 16 times the number 
+of charges in the staff. Each other creature in the 
+area makes a DC 17 Dexterity saving throw. On a 
+failed save, a creature takes Force damage equal to 
+6 times the number of charges in the staff. On a suc -
+cessful save, a creature takes half as much damage.
+Staff of the Python
+Staff, Uncommon (Requires Attunement)
+As a Magic action, you can throw this staff so that it 
+lands in an unoccupied space within 10 feet of you, 
+causing the staff to become a Giant Constrictor 
+Snake in that space. The snake is under your con -
+trol and shares your Initiative count, taking its turn 
+immediately after yours. 
+ On your turn, you can mentally command the 
+snake (no action required) if it is within 60 feet of 
+you and you don’t have the Incapacitated condition. 
+You decide what action the snake takes and where it 
+moves during its turn, or you can issue it a general 
+command, such as to attack your enemies or guard 
+a location. Absent commands from you, the snake 
+defends itself.
+ As a Bonus Action, you can command the snake 
+to revert to staff form in its current space, and you 
+can’t use the staff’s property again for 1 hour. If the 
+snake is reduced to 0 Hit Points, it dies and reverts 
+to its staff form; the staff then shatters and is de -
+stroyed. If the snake reverts to staff form before 
+losing all its Hit Points, it regains all of them. 
+Staff of the Woodlands
+Staff, Rare (Requires Attunement by a Druid)
+This staff has 6 charges and can be wielded as a 
+magic Quarterstaff that grants a +2 bonus to attack 
+rolls and damage rolls made with it. While holding 
+it, you have a +2 bonus to spell attack rolls.
+ Spells. While holding the staff, you can cast one of 
+the spells on the following table from it, using your 
+spell save DC. The table indicates how many charges 
+you must expend to cast the spell.
+Spell Charge 
+Cost
+Animal Friendship 1
+Awaken 5
+Barkskin 2
+Locate Animals or Plants 2
+Pass without Trace 2
+Speak with Animals 1
+Speak with Plants 3
+Wall of Thorns 6
+ Tree Form. You can take a Magic action to plant 
+one end of the staff in earth in an unoccupied space 
+and expend 1 charge to transform the staff into 
+a healthy tree. The tree is 60 feet tall and has a 
+5-foot-diameter trunk, and its branches at the top 
+spread out in a 20-foot radius. The tree appears 
+ordinary but radiates a faint aura of Transmutation 
+magic that can be discerned with the Detect Magic  
+spell. While touching the tree and using a Magic 
+action, you return the staff to its normal form. Any 
+creature in the tree falls when the tree reverts to 
+a staff.
+ Regaining Charges. The staff regains 1d6 ex -
+pended charges daily at dawn. If you expend the last 
+charge, roll 1d20. On a 1, the staff loses its proper -
+ties and becomes a nonmagical Quarterstaff.
+Staff of Thunder and Lightning
+Staff, Very Rare (Requires Attunement)
+This staff can be wielded as a magic Quarterstaff 
+that grants a +2 bonus to attack rolls and damage 
+rolls made with it. It also has the following addi -
+tional properties. Once one of these properties is 
+used, it can’t be used again until the next dawn.
+ Lightning. When you hit with a melee attack 
+using the staff, you can cause the target to take an 
+extra 2d6 Lightning damage (no action required).
+ Thunder. When you hit with a melee attack using 
+the staff, you can cause the staff to emit a crack of 
+thunder audible out to 300 feet (no action required). 
+The target you hit must succeed on a DC 17 Consti -
+tution saving throw or have the Stunned condition 
+until the end of your next turn.

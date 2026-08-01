@@ -1,0 +1,92 @@
+329
+System Reference Document 5.2.1
+Spirit Naga
+Spirit Naga
+Large Fiend, Chaotic Evil
+AC 17  Initiative +3 (13)
+HP 135 (18d10 + 36)
+Speed 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 17 +3 +6 Con 14 +2 +5
+Int 16 +3 +3 WIS 15 +2 +5 Cha 16 +3 +6
+Immunities Poison; Charmed, Poisoned
+Senses Darkvision 60 ft.; Passive Perception 12
+Languages Abyssal, Common
+CR 8 (XP 3,900; PB +3)
+Traits
+Fiendish Restoration. If it dies, the naga returns to life 
+in 1d6 days and regains all its Hit Points. Only a Wish 
+spell can prevent this trait from functioning.
+Actions
+Multiattack. The naga makes three attacks, using Bite 
+or Necrotic Ray in any combination.
+Bite. Melee Attack Roll: +7 , reach 10 ft. Hit: 7 (1d6 + 4) 
+Piercing damage plus 14 (4d6) Poison damage.
+Necrotic Ray. Ranged Attack Roll: +6, range 60 ft. Hit: 
+21 (6d6) Necrotic damage.
+Spellcasting. The naga casts one of the following 
+spells, requiring no Somatic or Material components 
+and using Intelligence as the spellcasting ability (spell 
+save DC 14):
+At Will: Detect Magic, Mage Hand, Minor Illusion, Wa-
+ter Breathing
+2/Day Each: Detect Thoughts, Dimension Door, 
+Hold Person (level 3 version), Lightning Bolt (level 
+4 version)
+Sprite
+Sprite
+Tiny Fey, Neutral Good
+AC 15   Initiative +4 (14)
+HP 10 (4d4)
+Speed 10 ft., Fly 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 3 −4 −4 Dex 18 +4 +4 Con 10 +0 +0
+Int 14 +2 +2 WIS 13 +1 +1 Cha 11 +0 +0
+Skills Perception +3, Stealth +8
+Senses Passive Perception 13
+Languages Common, Elvish, Sylvan
+CR 1/4 (XP 50; PB +2)
+Actions
+Needle Sword. Melee Attack Roll: +6, reach 5 ft. Hit: 6 
+(1d4 + 4) Piercing damage.
+Enchanting Bow. Ranged Attack Roll: +6, range 
+40/160 ft. Hit: 1 Piercing damage, and the target has 
+the Charmed condition until the start of the sprite’s 
+next turn.
+Heart Sight. Charisma Saving Throw: DC 10, one crea-
+ture within 5 feet the sprite can see (Celestials, Fiends, 
+and Undead automatically fail the save). Failure: The 
+sprite knows the target’s emotions and alignment.
+Invisibility. The sprite casts Invisibility on itself, requir-
+ing no spell components and using Charisma as the 
+spellcasting ability.
+Spy
+Spy
+Medium or Small Humanoid, Neutral
+AC 12  Initiative +4 (14)
+HP 27 (6d8)
+Speed 30 ft., Climb 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 10 +0 +0 Dex 15 +2 +2 Con 10 +0 +0
+Int 12 +1 +1 WIS 14 +2 +2 Cha 16 +3 +3
+Skills Deception +5, Insight +4, Investigation +5, 
+Perception +6, Sleight of Hand +4, Stealth +6
+Gear Hand Crossbow, Shortsword, Thieves’ Tools
+Senses Passive Perception 16
+Languages Common plus one other language
+CR 1 (XP 200; PB +2)
+Actions
+Shortsword. Melee Attack Roll: +4, reach 5 ft. Hit: 5 
+(1d6 + 2) Piercing damage plus 7 (2d6) Poison damage.
+Hand Crossbow. Ranged Attack Roll: +4, range 30/120 
+ft. Hit: 5 (1d6 + 2) Piercing damage plus 7 (2d6) Poi-
+son damage.
+Bonus Actions
+Cunning Action. The spy takes the Dash, Disengage, or 
+Hide action.
+Stirge
+Stirge
+Tiny Monstrosity, Unaligned
+AC 13  Initiative +3 (13)
+HP 5 (2d4)
+Speed 10 ft., Fly 40 ft.

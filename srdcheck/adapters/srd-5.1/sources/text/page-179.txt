@@ -1,0 +1,95 @@
+System	  Reference	   Document	  5.1 	   179	  
+crystal,	  or	  metal	  has	  disadvantage	  on	  this	  saving	  
+throw.	  
+	   A	  nonmagical	  object 	  that	  isn’t	  being	  worn	  or	  
+carried	  also	  takes	  the	  damage	  if	  it’s	  in	  the	  spell’s	  
+area.	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  3rd	  level	  or	  higher,	  the	  damage	  
+increases	  by	  1d8	  for	  each	  slot	  level	  above	  2nd. 	  
+Shield 
+1st-­‐‑level	  abjuration	  
+Casting	  Time: 	  1	  reaction,	  which	  you	  take	  when	  you	  
+are	  hit	  by	  an	  attack	  or	  targeted	  by	  the	   magic	  
+missile	  spell	  
+Range:	  Self	  
+Components:	  V,	  S	  
+Duration:	  1	  round	  
+An	  invisible	  barrier	  of	  magical	  force	  appears	  and	  
+protects	  you.	  Until	  the	  start	  of	  your	   next	  turn,	  you	  
+have	  a	  +5	  bonus	  to	  AC,	  including	  against	  the	  
+triggering	  attack,	  and	  you	  take	  no	  damage	  from 	  
+magic	  missile.	  
+Shield of Faith 
+1st-­‐‑level	  abjuration 	  
+Casting	  Time:	   1	  bonus	  action 	  
+Range:	  60	  feet	  
+Components:	   V,	  S,	  M	  (a	  small	  parchment	  with	  a	  bit	  
+of	  holy	  text	  written	  on	  it) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+A	  shimmering	  field	  appears	  and	  surrounds	  a	  
+creature	  of	  your	  choice	  within	  range,	  granting	  it	  a	  +2	  
+bonus	  to	  AC	  for	  the	  duration. 	  
+Shillelagh 
+Transmutation	  cantrip 	  
+Casting	  Time: 	  1	  bonus	  action 	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (mistletoe,	  a	  shamrock	  leaf,	  
+and	  a	  club	  or	  quarterstaff) 	  
+Duration:	  1	  minute	  
+The	  wood	  of	  a	  club	  or	  quarterstaff	  you	  are	  holding	  is	  
+imbued	  with	  nature’s	  power.	  For	  the	  duration,	  you	  
+can	  use	  your	  spellcasting	  ability	  instead	   of	  Strength	  
+for	  the	  attack	  and	  damage	  rolls	  of	  melee	  attacks	  
+using	  that	  weapon,	  and	  the	  weapon’s	  damage	  die	  
+becomes	  a	  d8.	  The	  weapon	  also	  becomes	  magical,	  if	  
+it	  isn’t	  already.	  The	  spell	  ends	  if	  you	  cast	  it	  again	  or	  if	  
+you	  let	  go	  of	  the	  weapon. 	  
+Shocking Grasp 
+Evocation	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S	  
+Duration:	  Instantaneous	  
+Lightning	  springs	  from	  your	  hand	  to	  deliver	  a	  shock	  
+to	  a	  creature	  you	  try	  to	  touch.	  Make	  a	  melee	  spell	  
+attack	  against	  the	  target.	  You	  have	  advantage	  on	  the	  
+attack	  roll	  if	  the	  target	  is	  wearing	  armor	  made	  of	  
+metal.	  On	  a	  hit,	  the	  target	  takes	  1d8	  lightning	  
+damage,	  and	  it	  can’t	  take	  reactions	  until	  the	  start	  of	  
+its	  next	  turn.	  
+	   The	  spell’s	  damage	  increases	  by	  1d8	  when	  you	  
+reach	  5th	  level	  (2d8),	  11th	  level	  (3d8),	   and	  17th	  
+level	  (4d8).	  
+Silence 
+2nd-­‐‑level	  illusion	  (ritual) 	  
+Casting	  Time: 	  1	  action	  
+Range:	  120	  feet	  
+Components:	  V,	  S	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+For	  the	  duration,	  no	  sound	  can	  be	  created	  within	  or	  
+pass	  through	  a	  20 -­‐‑foot-­‐‑radius	  sphere	  centered	  on	  a	  
+point	  you	  choose	  within	  range.	  Any	  creature	  or	  
+object	  entirely	  inside	  the	  sphere	  is	  immune	  to	  
+thunder	  damage,	  and	  creatures	  are	  deafened	  while	  
+entirely	  inside	  it.	  Casting	  a	  spell	  that	  includes	  a	  
+verbal	  component	  is	  impossible	  there. 	  
+Silent Image 
+1st-­‐‑level	  illusion	  
+Casting	  Time: 	  1	  action	  
+Range:	  60	  feet	  
+Components:	  V,	  S,	  M	  (a	  bit	  of	  fleece) 	  
+Duration:	  Concentration,	  up	  to	  10	  minutes 	  
+You	  create	  the	  image	  of	  an 	  object,	  a	  creature,	  or	  
+some	  other	  visible	  phenomenon	  that	  is	  no	  larger	  
+than	  a	  15-­‐‑foot	  cube.	  The	  image	  appears	  at	  a	  spot	  
+within	  range	  and	  lasts	  for	  the	  duration.	  The	  image	  is	  
+purely	  visual;	  it	  isn’t	  accompanied	  by	  sound,	  smell,	  
+or	  other	  sensory	  effects. 	  
+	   You	  can	  use	  your	  action	  to	  cause	  the	  image	  to	  
+move	  to	  any	  spot	  within	  range.	  As	  the	  image	  changes	  
+location,	  you	  can	  alter	  its	  appearance	  so	  that	  its	  
+movements	  appear	  natural	  for	  the	  image.	  For	  
+example,	  if	  you	  create	  an	  image	  of	  a	  creature	  and	  
+move	  it,	  you	  can	  alter	  the	  image	  so	  that	  it	  appears	  to	  
+be	  walking.	  

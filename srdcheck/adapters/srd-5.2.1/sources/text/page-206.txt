@@ -1,0 +1,96 @@
+System Reference Document 5.2.1
+206
+has a value of 5,500 GP, which is the sum of a Rare 
+magic item’s value (4,000 GP) and the cost of Plate 
+Armor (1,500 GP).
+Magic Item Rarities and Values
+Rarity Value* Rarity Value*
+Common 100 GP Very Rare 40,000 GP
+Uncommon 400 GP Legendary 200,000 GP
+Rare 4,000 GP Artifact Priceless
+*Halve the value for a consumable item other than a Spell Scroll . 
+The value of a Spell Scroll  is double what it costs to scribe the scroll 
+(as specified in the “Scribing Spell Scrolls” section of “Equipment”).
+Activating a Magic Item
+It usually takes a Magic action to activate a magic 
+item. The item’s user might also need to do some -
+thing special. The description of each item category 
+or individual item details how an item is activated. 
+Certain items use the following rules for their 
+activation.
+Command Word
+A command word is a word or short phrase that 
+must be spoken or signed for an item to work. Spo -
+ken command words must be audible and fail to 
+work in areas where all sound is suppressed, as in 
+the area of the Silence  spell.
+Consumable Items
+Some items are consumed—used up, in other 
+words—when they are activated. A Potion of Healing  
+must be swallowed, for example, while the writing 
+vanishes from a scroll when it is read. Once used, a 
+consumable item loses its magic.
+Spells Cast from Items
+Some magic items allow the user to cast a spell from 
+the item. The spell is cast at the lowest possible 
+spell and caster level, doesn’t expend any of the us -
+er’s spell slots, and requires no components unless 
+the item’s description notes otherwise. The spell 
+uses its normal casting time, range, and duration, 
+and the user of the item must concentrate if the 
+spell requires Concentration. Many items, such as 
+Potions, bypass the casting of a spell and confer the 
+spell’s effects with its usual duration. Certain items 
+make exceptions to these rules, changing the cast -
+ing time, duration, or other parts of a spell.
+ A magic item may require the user to use their 
+own spellcasting ability when casting a spell from 
+the item. If the user has more than one spellcasting 
+ability, the user chooses which one to use with the 
+item. If the user doesn’t have a spellcasting ability, 
+their spellcasting ability modifier is +0 for the item, 
+and the user’s Proficiency Bonus applies.
+Charges
+Some magic items have charges that must be ex -
+pended to activate their properties. The number 
+of charges an item has remaining is revealed when 
+the Identify spell is cast on it. A creature attuned to 
+an item knows how many charges the item has and 
+how many it regains.
+“The Next Dawn”
+Magic items often have charges or properties that 
+recharge at the next dawn or some other specified 
+time. If such an item is on a world or plane of exis -
+tence where the specified event doesn’t occur, the 
+GM determines when the item recharges.
+Cursed Items
+A magic item’s description specifies whether it 
+bears a curse. Most methods of identifying items, in -
+cluding the Identify  spell, fail to reveal such a curse.
+ Attunement to a cursed item can’t be ended volun -
+tarily unless the curse is broken first, such as with a 
+Remove Curse spell.
+Magic Item Resilience
+A magic item is at least as durable as a nonmagical 
+item of its kind. Most magic items, other than Po -
+tions and Scrolls, have Resistance to all damage.
+ An Artifact can be destroyed only in some special 
+way. Otherwise, it is impervious to damage. Learn -
+ing how to destroy an Artifact usually requires 
+research or the completion of a quest.
+Crafting Magic Items
+“Equipment” contains rules on brewing Potions of 
+Healing and scribing Spell Scrolls . To create other 
+magic items, follow the rules below. In these rules, 
+“you” refers to the character crafting the magic 
+item.
+Arcana Proficiency
+To craft a magic item, you and any assistants must 
+have proficiency in the Arcana skill.
+Tools
+The Magic Item Tools table lists which tool is re -
+quired to make a magic item of each category. You 
+must use the required tool to make an item and 
+have proficiency with that tool. Any assistants must 
+also have proficiency with it. For more information 
+on the tools, see “Equipment.”

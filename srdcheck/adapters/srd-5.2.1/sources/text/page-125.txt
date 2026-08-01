@@ -1,0 +1,106 @@
+System Reference Document 5.2.1
+125
+Divination
+Level 4 Divination (Cleric, Druid, Wizard)
+Casting Time: Action or Ritual
+Range: Self
+Components: V, S, M (incense worth 25+ GP, which the 
+spell consumes)
+Duration: Instantaneous
+This spell puts you in contact with a god or a god’s 
+servants. You ask one question about a specific goal, 
+event, or activity to occur within 7 days. The GM of -
+fers a truthful reply, which might be a short phrase 
+or cryptic rhyme. The spell doesn’t account for cir -
+cumstances that might change the answer, such as 
+the casting of other spells.
+ If you cast the spell more than once before finish -
+ing a Long Rest, there is a cumulative 25 percent 
+chance for each casting after the first that you get 
+no answer.
+Divine Favor
+Level 1 Transmutation (Paladin)
+Casting Time: Bonus Action
+Range: Self
+Components: V, S
+Duration: 1 minute
+Until the spell ends, your attacks with weapons deal 
+an extra 1d4 Radiant damage on a hit.
+Divine Smite
+Level 1 Evocation (Paladin)
+Casting Time: Bonus Action, which you take immedi -
+ately after hitting a target with a Melee weapon or an 
+Unarmed Strike
+Range: Self
+Component: V
+Duration: Instantaneous
+The target takes an extra 2d8 Radiant damage from 
+the attack. The damage increases by 1d8 if the tar -
+get is a Fiend or an Undead.
+ Using a Higher-Level Spell Slot. The damage in -
+creases by 1d8 for each spell slot level above 1.
+Divine Word
+Level 7 Evocation (Cleric)
+Casting Time: Bonus Action
+Range: 30 feet
+Components: V
+Duration: Instantaneous
+You utter a word imbued with power from the Up -
+per Planes. Each creature of your choice in range 
+makes a Charisma saving throw. On a failed save, 
+a target that has 50 Hit Points or fewer suffers an 
+effect based on its current Hit Points, as shown in 
+the Divine Word Effects table. Regardless of its Hit 
+Points, a Celestial, an Elemental, a Fey, or a Fiend 
+target that fails its save is forced back to its plane of 
+origin (if it isn’t there already) and can’t return to 
+the current plane for 24 hours by any means short 
+of a Wish spell.
+Divine Word Effects
+Hit Points Effect 
+0–20 The target dies.
+21–30 The target has the Blinded, Deafened, and 
+Stunned conditions for 1 hour.
+31–40 The target has the Blinded and Deafened 
+conditions for 10 minutes.
+41–50 The target has the Deafened condition for 
+1 minute.
+Dominate Beast
+Level 4 Enchantment (Druid, Ranger, Sorcerer)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 minute
+One Beast you can see within range must succeed 
+on a Wisdom saving throw or have the Charmed 
+condition for the duration. The target has Advan-
+tage on the save if you or your allies are fighting it. 
+Whenever the target takes damage, it repeats the 
+save, ending the spell on itself on a success.
+ You have a telepathic link with the Charmed tar -
+get while the two of you are on the same plane of 
+existence. On your turn, you can use this link to 
+issue commands to the target (no action required), 
+such as “Attack that creature,” “Move over there,” or 
+“Fetch that object.” The target does its best to obey 
+on its turn. If it completes an order and doesn’t re -
+ceive further direction from you, it acts and moves 
+as it likes, focusing on protecting itself.
+ You can command the target to take a Reaction 
+but must take your own Reaction to do so.
+ Using a Higher-Level Spell Slot. Your Concentra -
+tion can last longer with a spell slot of level 5 (up to 
+10 minutes), 6 (up to 1 hour), or 7+ (up to 8 hours).
+Dominate Monster
+Level 8 Enchantment (Bard, Sorcerer, Warlock, 
+Wizard)
+Casting Time: Action
+Range: 60 feet
+Components: V, S
+Duration: Concentration, up to 1 hour
+One creature you can see within range must 
+succeed on a Wisdom saving throw or have the 
+Charmed condition for the duration. The target has 
+Advantage on the save if you or your allies are fight -
+ing it. Whenever the target takes damage, it repeats 
+the save, ending the spell on itself on a success.

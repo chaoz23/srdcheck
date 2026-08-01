@@ -1,0 +1,76 @@
+System Reference Document 5.2.1
+68
+Level 1 Sorcerer Spells
+Spell School Special
+Burning Hands Evocation —
+Charm Person Enchantment —
+Chromatic Orb Evocation M
+Color Spray Illusion —
+Comprehend Languages Divination R
+Detect Magic Divination C, R
+Disguise Self Illusion —
+Expeditious Retreat Transmutation C
+False Life Necromancy –
+Feather Fall Transmutation —
+Fog Cloud Conjuration C
+Grease Conjuration —
+Ice Knife Conjuration —
+Jump Transmutation —
+Mage Armor Abjuration —
+Magic Missile Evocation —
+Ray of Sickness Necromancy —
+Shield Abjuration —
+Silent Image Illusion C
+Sleep Enchantment C
+Thunderwave Evocation —
+Level 2 Sorcerer Spells
+Spell School Special
+Alter Self Transmutation C
+Blindness/Deafness Transmutation —
+Blur Illusion C
+Darkness Evocation C
+Darkvision Transmutation —
+Detect Thoughts Divination C
+Dragon’s Breath Transmutation C
+Enhance Ability Transmutation C
+Enlarge/Reduce Transmutation C
+Flame Blade Evocation C
+Flaming Sphere Evocation C
+Gust of Wind Evocation C
+Spell School Special
+Hold Person Enchantment C
+Invisibility Illusion C
+Knock Transmutation —
+Levitate Transmutation C
+Magic Weapon Transmutation —
+Mirror Image Illusion —
+Misty Step Conjuration —
+Scorching Ray Evocation —
+See Invisibility Divination —
+Shatter Evocation —
+Spider Climb Transmutation C
+Suggestion Enchantment C
+Web Conjuration C
+Level 3 Sorcerer Spells
+Spell School Special
+Blink Transmutation —
+Clairvoyance Divination C, M
+Counterspell Abjuration —
+Daylight Evocation —
+Dispel Magic Abjuration —
+Fear Illusion C
+Fireball Evocation —
+Fly Transmutation C
+Gaseous Form Transmutation C
+Haste Transmutation C
+Hypnotic Pattern Illusion C
+Lightning Bolt Evocation —
+Major Image Illusion C
+Protection from Energy Abjuration C
+Sleet Storm Conjuration C
+Slow Transmutation C
+Stinking Cloud Conjuration C
+Tongues Divination —
+Vampiric Touch Necromancy C
+Water Breathing Transmutation R
+Water Walk Transmutation R

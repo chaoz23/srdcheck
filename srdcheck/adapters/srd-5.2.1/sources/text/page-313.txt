@@ -1,0 +1,95 @@
+313
+System Reference Document 5.2.1
+Claw. Melee Attack Roll: +7 , reach 10 ft. Hit: 10 (1d12 
++ 4) Slashing damage plus 9 (2d8) Necrotic damage.
+Nightmare Ray. Ranged Attack Roll: +5, range 60 ft. 
+Hit: 9 (2d6 + 2) Psychic damage, and the target has 
+the Frightened condition until the start of the oni’s 
+next turn.
+Shape-Shift. The oni shape-shifts into a Small or Me-
+dium Humanoid or a Large Giant, or it returns to its 
+true form. Other than its size, its game statistics are the 
+same in each form. Any equipment it is wearing or car-
+rying isn’t transformed.
+Spellcasting. The oni casts one of the following spells, 
+requiring no Material components and using Charisma 
+as the spellcasting ability (spell save DC 13):
+1/Day Each: Charm Person (level 2 version), Darkness, 
+Gaseous Form, Sleep
+Bonus Actions
+Invisibility. The oni casts Invisibility on itself, requiring 
+no spell components and using the same spellcasting 
+ability as Spellcasting.
+Otyugh
+Otyugh
+Large Aberration, Neutral
+AC 14  Initiative +0 (10)
+HP 104 (11d10 + 44)
+Speed 30 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 16 +3 +3 Dex 11 +0 +0 Con 19 +4 +7
+Int 6 −2 −2 WIS 13 +1 +1 Cha 6 −2 −2
+Senses Darkvision 120 ft.; Passive Perception 11
+Languages Otyugh; telepathy 120 ft. (doesn’t allow the 
+receiving creature to respond telepathically)
+CR 5 (XP 1,800; PB +3)
+Actions
+Multiattack. The otyugh makes one Bite attack and two 
+Tentacle attacks.
+Bite. Melee Attack Roll: +6, reach 5 ft. Hit: 12 (2d8 + 3) 
+Piercing damage, and the target has the Poisoned con-
+dition. Whenever the Poisoned target finishes a Long 
+Rest, it is subjected to the following effect. Constitution 
+Saving Throw: DC 15. Failure: The target’s Hit Point 
+maximum decreases by 5 (1d10) and doesn’t return to 
+normal until the Poisoned condition ends on the target. 
+Success: The Poisoned condition ends.
+Tentacle. Melee Attack Roll: +6, reach 10 ft. Hit: 12 
+(2d8 + 3) Piercing damage. If the target is a Medium or 
+smaller creature, it has the Grappled condition (escape 
+DC 13) from one of two tentacles.
+Tentacle Slam. Constitution Saving Throw: DC 14, each 
+creature Grappled by the otyugh. Failure: 16 (3d8 + 3) 
+Bludgeoning damage, and the target has the Stunned 
+condition until the start of the otyugh’s next turn. Suc-
+cess: Half damage only.
+Owlbear
+Owlbear
+Large Monstrosity, Unaligned
+AC 13  Initiative +1 (11)
+HP 59 (7d10 + 21)
+Speed 40 ft., Climb 40 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 20 +5 +5 Dex 12 +1 +1 Con 17 +3 +3
+Int 3 −4 −4 WIS 12 +1 +1 Cha 7 −2 −2
+Skills Perception +5
+Senses Darkvision 60 ft.; Passive Perception 15
+Languages None
+CR 3 (XP 700; PB +2)
+Actions
+Multiattack. The owlbear makes two Rend attacks.
+Rend. Melee Attack Roll: +7 , reach 5 ft. Hit: 14 (2d8 
++ 5) Slashing damage.
+Pegasus
+Pegasus
+Large Celestial, Chaotic Good
+AC 12  Initiative +2 (12)
+HP 59 (7d10 + 21)
+Speed 60 ft., Fly 90 ft.
+MOD SAVE MOD SAVE MOD SAVE
+Str 18 +4 +4 Dex 15 +2 +4 Con 16 +3 +5
+Int 10 +0 +0 WIS 15 +2 +4 Cha 13 +1 +3
+Skills Perception +6
+Senses Passive Perception 16
+Languages Understands Celestial, Common, Elvish, and 
+Sylvan but can’t speak
+CR 2 (XP 450; PB +2)
+Actions
+Hooves. Melee Attack Roll: +6, reach 5 ft. Hit: 7 (1d6 
++ 4) Bludgeoning damage plus 5 (2d4) Radiant damage.
+Phase Spider
+Phase Spider
+Large Monstrosity, Unaligned
+AC 14  Initiative +3 (13)
+HP 45 (7d10 + 7)
+Speed 30 ft., Climb 30 ft.

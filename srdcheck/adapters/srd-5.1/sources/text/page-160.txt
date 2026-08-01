@@ -1,0 +1,96 @@
+System	  Reference	   Document	  5.1 	   160	  
+Describe	  or	  name	  an	  object	  that	  is	  fam iliar	  to	  you.	  
+You	  sense	  the	  direction	  to	  the	  object’s	  location,	  as	  
+long	  as	  that	  object	  is	  within	  1,000	  feet	  of	  you.	  If	  the	  
+object	  is	  in	  motion,	  you	  know	  the	  direction	  of	  its	  
+movement.	  
+	   The	  spell	  can	  locate	  a	  specific	  object	  known	  to	  you,	  
+as	  long	  as	  you	  hav e	  seen	  it	  up	  close —within	  30	  
+feet—at	  least	  once.	  Alternatively,	  the	  spell	  can	  locate	  
+the	  nearest	  object	  of	  a	  particular	  kind,	  such	  as	  a	  
+certain	  kind	  of	  apparel,	  jewelry,	  furniture,	  tool,	  or	  
+weapon.	  
+	   This	  spell	  can’t	  locate	  an	  object	  if	  any	  thickness	  of	  
+lead,	  even	  a	  thin	  sheet,	  blocks	  a	  direct	  path	  between	  
+you	  and	  the	  object. 	  
+Longstrider 
+1st-­‐‑level	  transmutation 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	  V,	  S,	  M	  (a	  pinch	  of	  dirt) 	  
+Duration:	  1	  hour	  
+You	  touch	  a	  creature.	  The	  target’s	  speed	  increases	  by	  
+10	  feet	  until	  the	  spell	  ends. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  2nd	  level	  or	  higher,	  you	  can	  target	  one	  
+additional	  creature	  for	  each	  slot	  level	  above	  1st. 	  
+Mage Armor 
+1st-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  action	  
+Range:	  Touch	  
+Components:	   V,	  S,	  M	  (a	  piece	  of	  cured	  leather) 	  
+Duration:	  8	  hours	  
+You	  touch	  a	  willing	  creature	  who	  isn’t	  wearing	  
+armor,	  and	  a	  protective	  magical	  force	  surrounds	  it	  
+until	  the	  spell	  ends.	  The	  target’s	  base	  AC	  becomes	  13	  
++ its	  Dexterity	  modifier.	  The	  spell	  end s	  if	  the	  target
+dons	  armor	  or	  if	  you	  dismiss	  the	  spell	  as	  an	  action.
+Mage Hand 
+Conjuration	  cantrip 	  
+Casting	  Time: 	  1	  action	  
+Range:	  30	  feet	  
+Components:	  V,	  S	  
+Duration:	  1	  minute	  
+A	  spectral,	  floating	  hand	  appears	  at	  a	  point	  you	  
+choose	  within	  range.	  The	  hand	  last s	  for	  the	  duration	  
+or	  until	  you	  dismiss	  it	  as	  an	  action.	  The	  hand	  
+vanishes	  if	  it	  is	  ever	  more	  than	  30	  feet	  away	  from	  
+you	  or	  if	  you	  cast	  this	  spell	  again. 	  
+	   You	  can	  use	  your	  action	  to	  control	  the	  hand.	  You	  
+can	  use	  the	  hand	  to	  manipulate	  an	  object,	  open	  an	  
+unlocked	  door	  or	  container,	  stow	  or	  retrieve	  an	  item	  
+from	  an	  open	  container,	  or	  pour	  the	  contents	  out	  of	  a	  
+vial.	  You	  can	  move	  the	  hand	  up	  to	  30	  feet	  each	  time	  
+you	  use	  it.	  
+	   The	  hand	  can’t	  attack,	  activate	  magic	  items,	  or	  
+carry	  more	  than	  10	  pounds. 	  
+Magic Circle 
+3rd-­‐‑level	  abjuration 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  10	  feet	  
+Components:	  V,	  S,	  M	  (holy	  water	  or	  powdered	  silver	  
+and	  iron	  worth	  at	  least	  100	  gp,	  which	  the	  spell	  
+consumes)	  
+Duration:	  1	  hour	  
+You	  create	  a	  10 -­‐‑foot-­‐‑radius,	  20-­‐‑foot-­‐‑tall	  cylinder	  of	  
+magical	  energy	   centered	  on	  a	  point	  on	  the	  ground	  
+that	  you	  can	  see	  within	  range.	  Glowing	  runes	  appear	  
+wherever	  the	  cylinder	  intersects	  with	  the	  floor	  or	  
+other	  surface.	  
+	   Choose	  one	  or	  more	  of	  the	  following	  types	  of	  
+creatures:	  celestials,	  elementals,	  fey,	  fiends,	  or	  
+undead.	  The	  circle	  affects	  a	  creature	  of	  the	  chosen	  
+type	  in	  the	  following	  ways: 	  
+• The	  creature	  can’t	  willingly	  enter	  the	  cylinder	  by
+nonmagical	  means.	  If	  the	  creature	  tries	  to	  use
+teleportation	  or	  interplanar	  travel	  to	  do	  so,	  it	  mus t
+first	  succeed	  on	  a	  Charisma	  sav ing	  throw.
+• The	  creature	  has	  disadvantage	  on	  attack	  rolls
+against	  targets	  within	  the	  cylinder.
+• Targets	  within	  the	  cylinder	  can’t	  be	  charmed,
+frightened,	  or	  possessed	  by	  the	  creature.
+When	  you	  cast	  this	  spell,	  you	  can	  elect	  to	  cause	  its
+magic	  to	  operate	  in	   the	  reverse	  direction,	  preventing	  
+a	  creature	  of	  the	  specified	  type	  from	  leaving	  the	  
+cylinder	  and	  protecting	  targets	  outside	  it. 	  
+	   At	  Higher	  Levels. 	  When	  you	  cast	  this	  spell	  using	  a	  
+spell	  slot	  of	  4th	  level	  or	  higher,	  the	  duration	  
+increases	  by	  1	  hour	  for	  each	  slot	  level	  above	  3rd. 	  
+Magic Jar 
+6th-­‐‑level	  necromancy 	  
+Casting	  Time: 	  1	  minute	  
+Range:	  Self	  
+Components:	  V,	  S,	  M	  (a	  gem,	  crystal,	  reliquary,	  or	  
+some	  other	  ornamental	  container	  worth	  at	  least	  
+500	  gp)	  
+Duration:	  Until	  dispelled 	  

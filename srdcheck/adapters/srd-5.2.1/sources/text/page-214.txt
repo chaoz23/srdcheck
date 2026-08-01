@@ -1,0 +1,103 @@
+System Reference Document 5.2.1
+214
+Boots of Speed
+Wondrous Item, Rare (Requires Attunement)
+While you wear these boots, you can take a Bonus 
+Action to click the boots’ heels together. If you do, 
+the boots double your Speed, and any creature that 
+makes an Opportunity Attack against you has Dis -
+advantage on the attack roll. If you click your heels 
+together again, you end the effect.
+ When you’ve used the boots’ property for a total 
+of 10 minutes, the magic ceases to function for you 
+until you finish a Long Rest.
+Boots of Striding and Springing
+Wondrous Item, Uncommon (Requires Attunement)
+While you wear these boots, your Speed becomes 
+30 feet unless your Speed is higher, and your Speed 
+isn’t reduced by you carrying weight in excess of 
+your carrying capacity or wearing Heavy Armor.
+ Once on each of your turns, you can jump up to 30 
+feet by spending only 10 feet of movement.
+Boots of the Winterlands
+Wondrous Item, Uncommon (Requires Attunement)
+These furred boots are snug and feel warm. While 
+wearing them, you gain the following benefits.
+ Cold Resistance. You have Resistance to Cold 
+damage and can tolerate temperatures of 0 degrees 
+Fahrenheit or lower without any additional 
+protection.
+ Winter Strider. You ignore Difficult Terrain cre -
+ated by ice or snow.
+Bowl of Commanding Water Elementals
+Wondrous Item, Rare 
+While this bowl is filled with water and you are 
+within 5 feet of it, you can take a Magic action to 
+summon a Water Elemental . The elemental ap-
+pears in an unoccupied space as close to the bowl 
+as possible, understands your languages, obeys 
+your commands, and takes its turn immediately 
+after you on your Initiative count. The elemental 
+disappears after 1 hour, when it dies, or when you 
+dismiss it as a Bonus Action. The bowl can’t be used 
+this way again until the next dawn.
+ The bowl is about 1 foot in diameter and half as 
+deep. It holds about 3 gallons.
+Bracers of Archery
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing these bracers, you have proficiency 
+with the Longbow and Shortbow, and you gain a +2 
+bonus to damage rolls made with such weapons.
+Bracers of Defense
+Wondrous Item, Rare (Requires Attunement)
+While wearing these bracers, you gain a +2 bonus to 
+Armor Class if you are wearing no armor and using 
+no Shield.
+Brazier of Commanding Fire Elementals
+Wondrous Item, Rare 
+While you are within 5 feet of this brazier, you can 
+take a Magic action to summon a Fire Elemental . 
+The elemental appears in an unoccupied space as 
+close to the brazier as possible, understands your 
+languages, obeys your commands, and takes its turn 
+immediately after you on your Initiative count. The 
+elemental disappears after 1 hour, when it dies, or 
+when you dismiss it as a Bonus Action. The brazier 
+can’t be used this way again until the next dawn.
+Brooch of Shielding
+Wondrous Item, Uncommon (Requires Attunement)
+While wearing this brooch, you have Resistance to 
+Force damage, and you have Immunity to damage 
+from the Magic Missile spell.
+Broom of Flying
+Wondrous Item, Uncommon (Requires Attunement)
+This wooden broom functions like a mundane 
+broom until you stand astride it and take a Magic 
+action to make it hover beneath you, at which time 
+it can be ridden in the air. It has a Fly Speed of 50 
+feet. It can carry up to 400 pounds, but its Fly Speed 
+becomes 30 feet while carrying over 200 pounds. 
+The broom stops hovering when you land or when 
+you’re no longer riding it.
+ As a Magic action, you can send the broom to 
+travel alone to a destination within 1 mile of you if 
+you name the location and are familiar with it. The 
+broom comes back to you when you take a Magic 
+action and use a command word if the broom is still 
+within 1 mile of you.
+Candle of Invocation
+Wondrous Item, Very Rare (Requires Attunement)
+This candle’s magic is activated when the candle 
+is lit, which requires a Magic action. After burning 
+for 4 hours, the candle is destroyed. You can snuff 
+it out early for use at a later time. Deduct the time 
+it burned in increments of 1 minute from its total 
+burn time.
+ While lit, the candle sheds Dim Light in a 30-foot 
+radius. While you are within that light, you have 
+Advantage on D20 Tests. In addition, a Cleric or 
+Druid in the light can cast level 1 spells they have 
+prepared without expending spell slots.
+ Alternatively, when you light the candle for the 
+first time, you can cast Gate with it. Doing so de -
+stroys the candle. The portal created by the spell 
