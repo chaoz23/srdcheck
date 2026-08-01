@@ -1,5 +1,10 @@
 [build-system]
-requires = ["setuptools>=68"]
+# project.license-files and the SPDX project.license expression need the PEP
+# 639 support introduced in the setuptools 77 line, but releases before 83
+# carry a Unicode-normalization manifest-exclusion vulnerability relevant to
+# sdists. Version 83.0.0 is the first safe project floor and requires Python
+# >=3.10.
+requires = ["setuptools>=83.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -17,6 +22,10 @@ classifiers = [
     "Intended Audience :: Developers",
     "Topic :: Games/Entertainment :: Role-Playing",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
 ]
 
 [project.urls]

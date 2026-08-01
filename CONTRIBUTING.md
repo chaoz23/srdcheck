@@ -30,6 +30,9 @@ and host it in your own repo — the catalog points, it never hosts.
 
 ## Dev setup
 
+Python 3.10–3.13 is supported. See the [support matrix](docs/support-matrix.md)
+for the full Ubuntu and representative Windows/macOS CI contracts.
+
 ```console
 $ pip install -e ".[dev]"
 $ bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh && python srdcheck/adapters/srd-5.2.1/sources/extract.py   # SRD text for citation work

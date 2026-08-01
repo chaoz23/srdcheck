@@ -17,12 +17,12 @@ SOURCE_PAGE = "srdcheck/adapters/srd-5.2.1/sources/text/page-116.txt"
 ADAPTER_MANIFEST = "srdcheck/adapters/srd-5.2.1/manifest.json"
 
 
-def run(argv, cwd, *, stdin=None, env=None):
+def run(argv, cwd, *, stdin=None, env=None, allowed_returncodes=(0,)):
     result = subprocess.run(
-        argv, cwd=cwd, input=stdin, text=True, capture_output=True, timeout=120,
-        env=env,
+        argv, cwd=cwd, input=stdin, text=True, encoding="utf-8",
+        capture_output=True, timeout=120, env=env,
     )
-    if result.returncode:
+    if result.returncode not in allowed_returncodes:
         raise SystemExit(
             f"command failed ({result.returncode}): {' '.join(map(str, argv))}\n"
             f"stdout:\n{result.stdout}\nstderr:\n{result.stderr}"
@@ -59,6 +59,9 @@ def inspect_artifact(artifact):
                          if prefix + name in names]
         read = payloads.__getitem__
         member = lambda name: prefix + name
+        assert prefix + "docs/support-matrix.md" in names, (
+            "source distribution omits the published support contract"
+        )
     else:
         raise AssertionError(f"unsupported artifact: {artifact}")
 
@@ -77,7 +80,24 @@ def inspect_artifact(artifact):
     metadata = email.message_from_bytes(read(metadata_name))
     assert metadata["Name"] == "srdcheck"
     assert metadata["Version"]
+    base_requirements = [
+        requirement for requirement in metadata.get_all("Requires-Dist", [])
+        if "extra ==" not in requirement
+    ]
+    assert not base_requirements, (
+        "the documented zero-dependency runtime acquired base requirements: "
+        + ", ".join(base_requirements)
+    )
     return metadata["Version"]
+
+
+def console_entrypoints(site, platform_name=None):
+    """Return the two project.scripts launchers for a --target install."""
+    windows = (platform_name or os.name) == "nt"
+    scripts_dir = site / ("Scripts" if windows else "bin")
+    suffix = ".exe" if windows else ""
+    return (scripts_dir / f"srdcheck{suffix}",
+            scripts_dir / f"srdcheck-mcp{suffix}")
 
 
 def smoke(artifact):
@@ -85,15 +105,20 @@ def smoke(artifact):
     artifact_version = inspect_artifact(artifact)
     with tempfile.TemporaryDirectory(prefix="srdcheck-cold-") as raw:
         root = pathlib.Path(raw)
-        site = root / "site"
-        outside = root / "outside-checkout"
+        # Spaces and non-ASCII path components are intentional. This same
+        # public-artifact smoke runs on Windows, macOS, and Ubuntu, so it also
+        # guards path handling rather than only proving a friendly POSIX path.
+        site = root / "installed rules Ω"
+        outside = root / "outside checkout — café 玩家"
         outside.mkdir()
         python = pathlib.Path(sys.executable)
+        utf8_env = dict(os.environ)
+        utf8_env["PYTHONUTF8"] = "1"
         run([
             str(python), "-m", "pip", "install", "--no-deps", "--no-index",
             "--no-build-isolation", "--target", str(site), str(artifact),
-        ], outside)
-        clean_env = dict(os.environ)
+        ], outside, env=utf8_env)
+        clean_env = dict(utf8_env)
         clean_env["PYTHONPATH"] = str(site)
         clean_env["PYTHONDONTWRITEBYTECODE"] = "1"
 
@@ -107,6 +132,14 @@ def smoke(artifact):
             outside, env=clean_env,
         ))
         assert jurisdiction["exit_code"] == 0
+
+        unicode_name = "Café Familiar Ω"
+        unknown = json.loads(run(
+            [str(python), "-m", "srdcheck", "jurisdiction", unicode_name],
+            outside, env=clean_env, allowed_returncodes=(2,),
+        ))
+        assert unknown["exit_code"] == 2
+        assert unicode_name in unknown["why"]
 
         query = json.loads(run(
             [str(python), "-m", "srdcheck", "query", "mage-hand.use",
@@ -136,7 +169,7 @@ def smoke(artifact):
         assert library["query_xp"] == 450
         assert pathlib.Path(library["file"]).is_relative_to(site)
 
-        messages = "".join(json.dumps(item) + "\n" for item in [
+        messages = "".join(json.dumps(item, ensure_ascii=False) + "\n" for item in [
             {"jsonrpc": "2.0", "id": 1, "method": "initialize",
              "params": {
                  "protocolVersion": "2025-06-18",
@@ -148,6 +181,9 @@ def smoke(artifact):
             {"jsonrpc": "2.0", "id": 3, "method": "tools/call",
              "params": {"name": "mage_hand_use", "arguments": {
                  "kind": "manipulate_object", "weight_lb": 1, "distance_ft": 10}}},
+            {"jsonrpc": "2.0", "id": 4, "method": "tools/call",
+             "params": {"name": "jurisdiction", "arguments": {
+                 "name": unicode_name}}},
         ])
         replies = [json.loads(line) for line in run(
             [str(python), "-m", "srdcheck.mcp"], outside,
@@ -157,14 +193,68 @@ def smoke(artifact):
         assert by_id[1]["result"]["serverInfo"]["version"] == library["version"]
         assert all("outputSchema" in tool for tool in by_id[2]["result"]["tools"])
         assert by_id[3]["result"]["structuredContent"]["exit_code"] == 0
+        assert by_id[4]["result"]["structuredContent"]["exit_code"] == 2
+        assert unicode_name in by_id[4]["result"]["structuredContent"]["why"]
+
+        # --target places project.scripts launchers beneath the target itself.
+        # Invoke them directly so Windows .exe wrappers and both entry-point
+        # declarations are covered, not just the equivalent `python -m` paths.
+        cli_entry, mcp_entry = console_entrypoints(site)
+        assert cli_entry.is_file(), "installed srdcheck entry point is missing"
+        assert mcp_entry.is_file(), "installed srdcheck-mcp entry point is missing"
+
+        cli_payload = json.loads(run(
+            [str(cli_entry), "jurisdiction", "Fireball"], outside,
+            env=clean_env,
+        ))
+        assert cli_payload["exit_code"] == 0
+
+        entry_replies = [json.loads(line) for line in run(
+            [str(mcp_entry)], outside, stdin=messages, env=clean_env,
+        ).splitlines()]
+        entry_by_id = {item["id"]: item for item in entry_replies}
+        assert (entry_by_id[1]["result"]["serverInfo"]["version"]
+                == library["version"])
+        assert entry_by_id[3]["result"]["structuredContent"]["exit_code"] == 0
+        assert entry_by_id[4]["result"]["structuredContent"]["exit_code"] == 2
     print(f"cold artifact: OK {artifact.name}")
+
+
+def discover_artifacts(inputs):
+    """Expand artifact files or directories without relying on shell globs.
+
+    GitHub Actions uses different default shells on Windows and Unix. Accepting
+    a directory lets every CI lane invoke the exact same portable command.
+    """
+    found = []
+    for item in inputs:
+        if item.is_dir():
+            found.extend(sorted(
+                path for path in item.iterdir()
+                if path.suffix == ".whl" or path.name.endswith(".tar.gz")
+            ))
+        else:
+            found.append(item)
+    unique = []
+    seen = set()
+    for artifact in found:
+        resolved = artifact.resolve()
+        if resolved not in seen:
+            seen.add(resolved)
+            unique.append(resolved)
+    if not unique:
+        raise SystemExit("no wheel or sdist artifacts found")
+    return unique
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("artifacts", nargs="+", type=pathlib.Path)
+    parser.add_argument(
+        "artifacts", nargs="+", type=pathlib.Path,
+        help="wheel/sdist files or directories containing them",
+    )
     args = parser.parse_args()
-    for artifact in args.artifacts:
+    for artifact in discover_artifacts(args.artifacts):
         smoke(artifact)
 
 
