@@ -7,14 +7,10 @@
    "section": "SRD 5.2.1 p.202 'Gameplay Toolbox > Building Combat Encounters > XP Budget per Character'"
   }
  ],
- "data": {
-  "citation": "SRD 5.2.1 p.202",
-  "per_character": 100
- },
- "exit_code": 0,
+ "exit_code": 2,
  "rule_ids": [
   "encounter.xp-budget-per-character"
  ],
- "verdict": "legal",
- "why": "Level 2 low encounter: 100 XP per character."
+ "verdict": "cannot-adjudicate",
+ "why": "Difficulty 'Test Name' is not one of ['low', 'moderate', 'high']."
 }

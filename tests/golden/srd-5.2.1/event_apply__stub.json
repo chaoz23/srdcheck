@@ -1,8 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.0",
  "citations": [],
+ "data": {
+  "validation_errors": [
+   "$.event.type: required field is missing"
+  ]
+ },
  "exit_code": 2,
  "rule_ids": [],
  "verdict": "cannot-adjudicate",
- "why": "'None' is not a declared-event type this adapter reduces."
+ "why": "Invalid input; correct the request before adjudication: $.event.type: required field is missing"
 }

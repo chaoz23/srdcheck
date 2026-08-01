@@ -8,6 +8,33 @@ CANNOT_ADJUDICATE = 2
 
 _NAMES = {LEGAL: "legal", ILLEGAL: "illegal", CANNOT_ADJUDICATE: "cannot-adjudicate"}
 
+VERDICT_OUTPUT_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "verdict": {"type": "string", "enum": list(_NAMES.values())},
+        "exit_code": {"type": "integer", "enum": list(_NAMES)},
+        "why": {"type": "string"},
+        "citations": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "section": {"type": "string"},
+                    "page": {"type": "integer"},
+                    "quote": {"type": "string"},
+                },
+                "required": ["section"],
+                "additionalProperties": False,
+            },
+        },
+        "rule_ids": {"type": "array", "items": {"type": "string"}},
+        "adapter": {"type": "string"},
+        "data": {"type": "object"},
+    },
+    "required": ["verdict", "exit_code", "why", "citations", "rule_ids", "adapter"],
+    "additionalProperties": False,
+}
+
 
 @dataclass
 class Citation:

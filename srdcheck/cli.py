@@ -5,6 +5,7 @@
   python -m srdcheck edition-check "<name>" [--category creature] [--current srd-5.2.1] [--prior srd-5.1]
   python -m srdcheck conformance <adapter-id>   # the bar any adapter must clear
   python -m srdcheck new-adapter <name>         # scaffold a conformant skeleton
+  python -m srdcheck capabilities               # versions, digests, protocol, tools
   python -m srdcheck --schema
   echo '{"type": "...", "params": {...}}' | python -m srdcheck --pipe
 
@@ -17,6 +18,9 @@ import pathlib
 import sys
 
 from .engine import Engine
+from .schema import errors as schema_errors
+from .verdict import cannot_adjudicate
+from .verdict import VERDICT_OUTPUT_SCHEMA
 
 ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent / "adapters"
 
@@ -25,23 +29,15 @@ SCHEMA = {
         "type": "object",
         "properties": {
             "type": {"type": "string",
+                     "minLength": 1,
                      "description": "query type: 'jurisdiction' or any "
                                     "adapter-defined type (see tool.json)"},
             "params": {"type": "object"},
         },
         "required": ["type"],
+        "additionalProperties": False,
     },
-    "output": {
-        "type": "object",
-        "properties": {
-            "verdict": {"enum": ["legal", "illegal", "cannot-adjudicate"]},
-            "exit_code": {"enum": [0, 1, 2]},
-            "why": {"type": "string"},
-            "citations": {"type": "array"},
-            "rule_ids": {"type": "array"},
-            "adapter": {"type": "string"},
-        },
-    },
+    "output": VERDICT_OUTPUT_SCHEMA,
     "exit_codes": {"0": "legal", "1": "illegal", "2": "cannot-adjudicate",
                    "3": "usage or internal error (not a verdict)"},
 }
@@ -65,9 +61,20 @@ def main(argv=None):
     if args[0] == "--schema":
         print(json.dumps(SCHEMA, indent=2))
         return 0
+    if args[0] == "capabilities" and len(args) == 1:
+        from .access import capabilities
+        print(json.dumps(capabilities(), indent=2))
+        return 0
     try:
         if args[0] == "--pipe":
             q = json.loads(sys.stdin.read())
+            problems = schema_errors(q, SCHEMA["input"])
+            if problems:
+                return _emit(cannot_adjudicate(
+                    "Invalid input; correct the request before adjudication: "
+                    + "; ".join(problems),
+                    data={"validation_errors": problems},
+                ))
             return _emit(_engine().query(q["type"], q.get("params", {})))
         if args[0] == "conformance" and len(args) == 2:
             from .conformance import check as _cf

@@ -17,7 +17,8 @@ class TestHiddenArcher:
     def test_unknown_fields_refuse_and_name_offenders(self, eng):
         v = eng.query("attack.modifiers",
                       {"attacker": {"unseen": True},
-                       "target": {"cannot_see_attacker": True}})
+                       "target": {"cannot_see_attacker": True},
+                       "distance_ft": 30})
         assert v.exit_code == 2
         assert "attacker.unseen" in v.data["unknown_fields"]
         assert "target.cannot_see_attacker" in v.data["unknown_fields"]
@@ -25,14 +26,16 @@ class TestHiddenArcher:
 
     def test_correct_field_composes_advantage_with_citation(self, eng):
         v = eng.query("attack.modifiers",
-                      {"attacker": {"unseen_by_target": True}, "target": {}})
+                      {"attacker": {"unseen_by_target": True}, "target": {},
+                       "distance_ft": 30})
         assert v.exit_code == 0
         assert v.data["roll"] == "advantage"
         assert any("Unseen Attackers" in c.section for c in v.citations)
 
     def test_unseen_target_disadvantage(self, eng):
         v = eng.query("attack.modifiers",
-                      {"attacker": {}, "target": {"unseen_by_attacker": True}})
+                      {"attacker": {}, "target": {"unseen_by_attacker": True},
+                       "distance_ft": 30})
         assert v.data["roll"] == "disadvantage"
 
     def test_seen_exception_no_advantage(self, eng):
@@ -40,11 +43,13 @@ class TestHiddenArcher:
         yields no unseen advantage."""
         v = eng.query("attack.modifiers",
                       {"attacker": {"unseen_by_target": True},
-                       "target": {"can_see_attacker": True}})
+                       "target": {"can_see_attacker": True},
+                       "distance_ft": 30})
         assert v.data["roll"] == "straight"
 
     def test_clean_case_still_straight(self, eng):
-        v = eng.query("attack.modifiers", {"attacker": {}, "target": {}})
+        v = eng.query("attack.modifiers", {"attacker": {}, "target": {},
+                                             "distance_ft": 30})
         assert v.data["roll"] == "straight"
 
 

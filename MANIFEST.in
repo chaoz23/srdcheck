@@ -1,0 +1,2 @@
+include LICENSE NOTICE README.md tool.json server.json
+recursive-include srdcheck/adapters *.json *.py *.md *.txt

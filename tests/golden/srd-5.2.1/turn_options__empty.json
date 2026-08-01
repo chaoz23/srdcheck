@@ -2,27 +2,12 @@
  "adapter": "srd-5.2.1@0.2.0",
  "citations": [],
  "data": {
-  "options": [
-   {
-    "do": "action",
-    "spell_slot_available": true
-   },
-   {
-    "do": "bonus-action",
-    "spell_slot_available": true
-   },
-   {
-    "do": "reaction",
-    "note": "usable on your own turn",
-    "spell_slot_available": true
-   },
-   {
-    "do": "free-interaction"
-   }
+  "validation_errors": [
+   "$.speed: required field is missing"
   ]
  },
- "exit_code": 0,
+ "exit_code": 2,
  "rule_ids": [],
- "verdict": "legal",
- "why": "4 option kinds remain this turn."
+ "verdict": "cannot-adjudicate",
+ "why": "Invalid input; correct the request before adjudication: $.speed: required field is missing"
 }

@@ -23,6 +23,14 @@ def _pyproject_version():
     return re.search(r'^version\s*=\s*"([^"]+)"', text, re.M).group(1)
 
 
+def _initialize_params(protocol_version):
+    return {
+        "protocolVersion": protocol_version,
+        "capabilities": {},
+        "clientInfo": {"name": "metadata-test", "version": "1.0"},
+    }
+
+
 def test_package_version_is_the_single_source():
     assert srdcheck.__version__ == _pyproject_version()
 
@@ -37,7 +45,7 @@ def test_mcp_initialize_reports_engine_and_rulesets_separately():
     schemas needs both. Adapters legitimately version independently."""
     server = mcp.Server()
     reply = server.handle({"jsonrpc": "2.0", "id": 1, "method": "initialize",
-                           "params": {"protocolVersion": mcp.PROTOCOL_VERSION}})
+                           "params": _initialize_params(mcp.PROTOCOL_VERSION)})
     info = reply["result"]["serverInfo"]
     assert info["version"] == srdcheck.__version__
     names = {r["name"] for r in info["rulesets"]}
@@ -55,7 +63,7 @@ def test_protocol_version_is_negotiated_not_echoed():
 
     server = mcp.Server()
     reply = server.handle({"jsonrpc": "2.0", "id": 1, "method": "initialize",
-                           "params": {"protocolVersion": "1999-01-01"}})
+                           "params": _initialize_params("1999-01-01")})
     assert reply["result"]["protocolVersion"] == mcp.PROTOCOL_VERSION
 
 

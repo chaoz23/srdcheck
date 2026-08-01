@@ -1,0 +1,89 @@
+name: release-artifacts
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-cold-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Verify clean source and tag/version identity
+        run: python scripts/verify_release_identity.py --require-clean
+      - run: python -m pip install --upgrade pip build setuptools pypdf==6.14.2 spdx-tools==0.8.5
+      - name: Pin reproducible build timestamp
+        run: echo "SOURCE_DATE_EPOCH=$(git log -1 --pretty=%ct)" >> "$GITHUB_ENV"
+      - name: Verify packaged source text against the hash-pinned SRD
+        run: |
+          bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh
+          cp -R srdcheck/adapters/srd-5.2.1/sources/text /tmp/committed-text-521
+          python srdcheck/adapters/srd-5.2.1/sources/extract.py
+          diff -r /tmp/committed-text-521 srdcheck/adapters/srd-5.2.1/sources/text
+      - name: Build wheel and sdist
+        run: |
+          python -m build
+          python scripts/normalize_sdist.py dist/*.tar.gz
+      - name: Verify byte-reproducible artifacts
+        run: |
+          python -m build --outdir reproducibility-check
+          python scripts/normalize_sdist.py reproducibility-check/*.tar.gz
+          cmp dist/*.whl reproducibility-check/*.whl
+          cmp dist/*.tar.gz reproducibility-check/*.tar.gz
+      - name: Cold-install and exercise both artifacts
+        run: python scripts/cold_artifact_smoke.py dist/*.whl dist/*.tar.gz
+      - name: Generate checksums and SPDX SBOM
+        run: |
+          python scripts/build_sbom.py dist/*.whl --output dist/srdcheck.spdx.json
+          pyspdxtools -i dist/srdcheck.spdx.json
+          sha256sum dist/*.whl dist/*.tar.gz dist/*.spdx.json > dist/SHA256SUMS
+      - uses: actions/upload-artifact@v4
+        with:
+          name: srdcheck-release-artifacts
+          path: dist/
+          if-no-files-found: error
+
+  cold-test-python-edges:
+    needs: build-and-cold-test
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.13"]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install --upgrade setuptools
+      - uses: actions/download-artifact@v4
+        with:
+          name: srdcheck-release-artifacts
+          path: dist
+      - name: Cold-install and exercise wheel and sdist
+        run: python scripts/cold_artifact_smoke.py dist/*.whl dist/*.tar.gz
+
+  attest-tagged-build:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [build-and-cold-test, cold-test-python-edges]
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      attestations: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: srdcheck-release-artifacts
+          path: dist
+      - uses: actions/attest-build-provenance@v3
+        with:
+          subject-path: "dist/*"
