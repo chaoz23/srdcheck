@@ -25,6 +25,7 @@ from . import verdict as v
 from .engine import Engine
 
 ADAPTERS_DIR = pathlib.Path(__file__).resolve().parent / "adapters"
+CLAIMS_PATH = pathlib.Path(__file__).resolve().parent / "capability_claims.json"
 
 
 def available_adapters():
@@ -64,7 +65,11 @@ def _adapter_digest(root):
 def capabilities():
     """Machine-readable engine and bundled-adapter capability contract."""
     from . import __version__
+    from .contract import (CAPABILITIES_SCHEMA_VERSION, COMPATIBILITY_WINDOW,
+                           VERDICT_SCHEMA_VERSION, WHY_STABILITY,
+                           supported_engine_minors)
     from .mcp import PROTOCOL_VERSION, SUPPORTED_PROTOCOL_VERSIONS
+    claims = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
     adapters = []
     tool_names = {"jurisdiction"}
     for identifier in available_adapters():
@@ -78,18 +83,43 @@ def capabilities():
             "identifier": identifier,
             "name": manifest["name"],
             "version": manifest["version"],
+            "data_version": (manifest["data_version"]
+                             if "data_version" in manifest
+                             else manifest["version"]),
+            "rules_version": (manifest["rules_version"]
+                              if "rules_version" in manifest
+                              else manifest["version"]),
             "ruleset": manifest.get("ruleset", ""),
             "default_load": manifest.get("default_load", True),
             "digest": _adapter_digest(root),
             "query_types": sorted(queries),
         })
+    release_adapters = [
+        {key: adapter[key] for key in ("identifier", "version", "data_version",
+                                       "rules_version", "digest")}
+        for adapter in adapters
+    ]
     return {
-        "schema_version": "1.0",
+        "schema_version": CAPABILITIES_SCHEMA_VERSION,
         "engine": {"name": "srdcheck", "version": __version__},
+        "machine_contracts": {
+            "verdict_schema_version": VERDICT_SCHEMA_VERSION,
+            "capabilities_schema_version": CAPABILITIES_SCHEMA_VERSION,
+            "compatibility_window": COMPATIBILITY_WINDOW,
+            "supported_engine_minors": supported_engine_minors(__version__),
+            "why_stability": WHY_STABILITY,
+        },
+        "release_tuple": {
+            "engine_version": __version__,
+            "adapters": release_adapters,
+        },
         "mcp_protocol_version": PROTOCOL_VERSION,
         "mcp_supported_protocol_versions": list(SUPPORTED_PROTOCOL_VERSIONS),
         "adapters": adapters,
         "mcp_tools": sorted(tool_names),
+        "result_contract": claims["result_contract"],
+        "query_coverage": claims["query_coverage"],
+        "targets": claims["targets"],
     }
 
 

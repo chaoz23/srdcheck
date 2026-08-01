@@ -23,10 +23,12 @@ def test_assist_ability_check_needs_the_relevant_proficiency():
     no = h(kind="ability-check", helper_has_relevant_proficiency=False)
     assert no.exit_code == 1
     assert "help.assist-choose-proficiency" in no.rule_ids
+    assert h(kind="ability-check").exit_code == 2
 
 
 def test_assist_attack_roll_needs_an_enemy_within_5ft():
-    assert h(kind="attack-roll").exit_code == 0
+    assert h(kind="attack-roll").exit_code == 2
+    assert h(kind="attack-roll", enemy_within_5ft=True).exit_code == 0
     assert h(kind="attack-roll", enemy_within_5ft=False).exit_code == 1
 
 

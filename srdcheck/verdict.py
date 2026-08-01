@@ -2,6 +2,8 @@
 
 from dataclasses import dataclass, field
 
+from .contract import VERDICT_SCHEMA_VERSION
+
 LEGAL = 0
 ILLEGAL = 1
 CANNOT_ADJUDICATE = 2
@@ -9,6 +11,7 @@ CANNOT_ADJUDICATE = 2
 _NAMES = {LEGAL: "legal", ILLEGAL: "illegal", CANNOT_ADJUDICATE: "cannot-adjudicate"}
 
 VERDICT_OUTPUT_SCHEMA = {
+    "x-srdcheck-schema-version": VERDICT_SCHEMA_VERSION,
     "type": "object",
     "properties": {
         "verdict": {"type": "string", "enum": list(_NAMES.values())},
@@ -31,7 +34,8 @@ VERDICT_OUTPUT_SCHEMA = {
         "adapter": {"type": "string"},
         "data": {"type": "object"},
     },
-    "required": ["verdict", "exit_code", "why", "citations", "rule_ids", "adapter"],
+    "required": ["verdict", "exit_code", "why", "citations", "rule_ids",
+                 "adapter"],
     "additionalProperties": False,
 }
 

@@ -1,6 +1,8 @@
 {
  "name": "toy-tictactoe",
  "version": "0.1.0",
+ "data_version": "0.1.0",
+ "rules_version": "0.1.0",
  "ruleset": "Tic-tac-toe (spec-proof toy)",
  "source": {
   "path": "RULES.md",

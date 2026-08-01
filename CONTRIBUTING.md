@@ -21,8 +21,9 @@ and host it in your own repo — the catalog points, it never hosts.
 ## What makes a good PR here
 
 - A new rule atom cites section, page, and verbatim quote from the SRD text.
-- A new handler's every verdict path cites; honest exit 2 at the edges beats
-  guessed coverage (a wrong verdict is the only unforgivable bug).
+- A new handler cites every applied-rule path; an input or jurisdiction boundary
+  refuses without inventing a citation. Honest exit 2 beats guessed coverage (a
+  wrong verdict is the only unforgivable bug).
 - Kernel changes contain zero game vocabulary (a lint test will catch you).
 - New adjudication comes with goldens; new enumeration comes with
   enumerate/validate consistency coverage.

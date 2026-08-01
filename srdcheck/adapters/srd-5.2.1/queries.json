@@ -13,7 +13,7 @@
      "items": {
       "type": "string"
      },
-     "description": "active conditions by name (all 15 SRD conditions modeled; unknown names refused)"
+     "description": "active conditions by name (all 15 are registry-classified for this turn-economy surface; unknown names are refused)"
     },
     "exhaustion_level": {
      "type": "integer",
@@ -126,7 +126,7 @@
   }
  },
  "reaction.available": {
-  "description": "Is taking a Reaction legal right now? Reactions refresh at the start of your own turn (not the round) and are usable on your own turn.",
+  "description": "Is taking a Reaction legal right now? Reactions refresh at the start of your own turn (not the round) and are usable on your own turn. Incapacitated and conditions that definitionally include it (Stunned, Paralyzed, Petrified, Unconscious) prevent a Reaction. Unknown or non-condition names are refused.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -549,7 +549,7 @@
   }
  },
  "opportunity-attack.provoked": {
-  "description": "Does a creature's movement provoke an Opportunity Attack? Provokes only when a creature the reactor can see leaves the reactor's reach using its own movement. It does NOT provoke on Disengage, Teleportation, forced movement, or an unseen mover (SRD 5.2.1 p.15). Whether reach is actually left is caller geometry (T6); whether the reactor has a Reaction is reaction.available. Returns data {provoked: bool}.",
+  "description": "Does a creature's movement provoke an Opportunity Attack? Provokes only when a creature the reactor can see leaves the reactor's reach using its own movement. It does NOT provoke on Disengage, Teleportation, forced movement, or an unseen mover (SRD 5.2.1 p.15). Supply movement_kind; a voluntary path also needs caller-observed leaves_reach and mover_seen_by_reactor unless a supplied false prerequisite already proves no provocation. Missing facts return cannot-adjudicate. Whether the reactor has a Reaction is reaction.available. Returns data {provoked: bool}.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -564,18 +564,18 @@
     },
     "mover_seen_by_reactor": {
      "type": "boolean",
-     "description": "can the reactor see the moving creature (default true)"
+     "description": "caller fact: can the reactor see the moving creature"
     },
     "leaves_reach": {
      "type": "boolean",
-     "description": "does the movement take the creature out of the reactor's reach (caller-supplied geometry; default true)"
+     "description": "caller geometry fact: does the movement take the creature out of the reactor's reach"
     }
    },
    "additionalProperties": false
   }
  },
  "grapple.initiate": {
-  "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC (8 + Strength modifier + Proficiency Bonus) and the size / free-hand legality. legal with data {dc?, dc_formula, kind, on_fail} \u2014 the dc NUMBER appears only when the caller supplied str_modifier AND proficiency_bonus; otherwise the verdict returns the formula alone (a base-8 rendered as THE DC is a wrong-looking verdict) if the attempt is valid; illegal if the target is more than one size larger, or (grapple) no free hand. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6).",
+  "description": "Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD 5.2.1 p.190): computes the save DC formula and checks supplied size / free-hand prerequisites. Both sizes are required; Grapple also requires has_free_hand. Missing prerequisite facts return cannot-adjudicate. legal returns data {dc?, dc_formula, kind, on_fail}; the dc NUMBER appears only when the caller supplied str_modifier AND proficiency_bonus, while those formula blanks may remain omitted. The target's Strength-or-Dexterity save (its choice) is resolved separately via save.check with this DC; the escape contest is out of scope (T6).",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -646,7 +646,7 @@
   }
  },
  "help.assist": {
-  "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires choosing one of the helper's own skill/tool proficiencies \u2014 without the relevant proficiency it can't grant Advantage (illegal); the GM has final say on whether assistance is possible (surfaced as data.gm_discretion, not adjudicated). Assist an Attack Roll needs an enemy within 5 ft. Returns data {grants_advantage}. kind = ability-check | attack-roll.",
+  "description": "Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check requires an explicit helper_has_relevant_proficiency fact; false is illegal and omission is cannot-adjudicate. Fictional possibility remains an authorized DM ruling, including when the caller is the agent-DM (surfaced as data.gm_discretion). Assist an Attack Roll likewise requires an explicit enemy_within_5ft fact. Returns data {grants_advantage}. kind = ability-check | attack-roll.",
   "inputSchema": {
    "type": "object",
    "properties": {

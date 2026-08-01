@@ -1,7 +1,7 @@
 # Release contract
 
-This document specifies the v0.5 release truth repaired in issues #16, #17,
-#18, #19, and #21.
+This document carries the v0.5 release truth repaired in issues #16, #17, #18,
+#19, and #21 forward into the v0.6 machine compatibility contract.
 
 ## Version identities
 
@@ -10,29 +10,52 @@ This document specifies the v0.5 release truth repaired in issues #16, #17,
   `serverInfo`, capabilities, generated metadata, and registry metadata must
   match it.
 - **Adapter versions** remain independent and come from each `manifest.json`.
-  A rules-data correction changes the adapter version; it does not pretend to
-  be an engine release.
+  Bundled adapters also declare additive `data_version` and `rules_version`
+  identities. Older/external manifests remain conformant: their aggregate
+  adapter version is the fallback for a split identity only when that key is
+  absent. Every present adapter, data, or rules identity must be a complete
+  SemVer 2.0 string; an explicit empty or malformed identity fails conformance
+  rather than being masked by the aggregate version. A correction changes the
+  affected adapter identity; it does not pretend to be an engine release.
 - **Capability schema version** versions the shape of `srdcheck capabilities`.
 - **MCP protocol versions** declare the revisions this server implements and
   the preferred revision it offers when a client requests an unsupported one.
 
-`python -m srdcheck capabilities` is the machine-readable source for all four.
+`python -m srdcheck capabilities` is the machine-readable source for all four
+and records the exact engine/adapter/data/rules/digest release tuple.
 Adapter digests bind the provenance, entities, query schemas, atoms, and shipped
 per-page citation text used by a process.
 
 Version changes follow these rules:
 
 - Engine patch/minor/major versions cover compatible fixes, additive public
-  engine behavior, and breaking engine/API behavior respectively.
+  engine behavior, and breaking engine/API behavior respectively. During
+  alpha, machine semantics are supported for the current and immediately
+  previous engine minor (`N/N-1`).
 - Adapter versions cover executable handlers and rules data. Corrected
   extraction or a demonstrably wrong ruling is a documented patch; additive
   optional query/schema surface is a minor; renamed or removed tools, newly
   required inputs, and other incompatible schema changes are major.
-- The capabilities `schema_version` changes whenever consumers must interpret
-  its shape differently. MCP protocol support is reported separately and never
-  inferred from the engine or adapter version.
-- Every shipped change that intentionally alters a golden verdict identifies
-  the affected adapter version and correction in release notes.
+- Verdict and capabilities schema identities change whenever consumers must
+  interpret their shape differently. Existing field meanings and types are
+  stable within an identity. Because verdict v1 rejects unknown top-level
+  fields, its property set is frozen; adding an emitted top-level field requires
+  a new schema identity and migration. Capabilities schema 2.0 is introduced in
+  engine 0.6.0 for the machine contracts, exact release tuple, query coverage,
+  and target map. MCP protocol support is reported separately and never inferred
+  from the engine or adapter version.
+- The templated `why` string is explanatory, non-contractual prose. Exact
+  goldens still make wording changes visible in review, but semantic
+  compatibility fixtures intentionally project it out.
+- Every shipped change that corrects a wrong ruling identifies the affected
+  adapter, queries, rule IDs, exact corrected engine/adapter/data/rules tuple,
+  and migration note in `docs/ruling-corrections.json`. High/critical
+  corrections also require a public notice and caller action; CI validates the
+  record.
+
+The generated `docs/capability-map.json` and `.md` distinguish shipped tools,
+their checked/unchecked scope, and target architecture. CI checks both files
+against runtime capability and adapter metadata.
 
 ## Installed citation data
 

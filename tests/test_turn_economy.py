@@ -134,15 +134,35 @@ def test_two_free_interactions_illegal():
     assert "turn.one-free-interaction" in v.rule_ids
 
 
-def test_reaction_available():  # eval ae-05 / ae-06 / ss-01
+def test_reaction_available_honors_incapacitated_and_embeds():  # ae-05/06, ss-01
     ok = E.query("reaction.available", {"spent_since_turn_start": False})
     assert ok.exit_code == 0 and "your own turn" in ok.why
     no = E.query("reaction.available", {"spent_since_turn_start": True})
     assert no.exit_code == 1
-    inc = E.query("reaction.available",
-                  {"spent_since_turn_start": False,
-                   "conditions": ["Incapacitated"]})
-    assert inc.exit_code == 1
+    embeds = {
+        "Incapacitated": None,
+        "Stunned": "condition.stunned.incapacitated",
+        "Paralyzed": "condition.paralyzed.incapacitated",
+        "Petrified": "condition.petrified.incapacitated",
+        "Unconscious": "condition.unconscious.inert",
+    }
+    for condition, embed_rule in embeds.items():
+        result = E.query(
+            "reaction.available",
+            {"spent_since_turn_start": False, "conditions": [condition]})
+        assert result.exit_code == 1, condition
+        assert "condition.incapacitated.inactive" in result.rule_ids
+        if embed_rule:
+            assert embed_rule in result.rule_ids
+
+
+def test_reaction_available_refuses_unknown_and_non_condition_names():
+    for value in ("Made Up Condition", "Fireball"):
+        result = E.query(
+            "reaction.available",
+            {"spent_since_turn_start": False, "conditions": [value]})
+        assert result.exit_code == 2, value
+        assert not result.citations
 
 
 def test_spent_budgets_carry_in():  # mid-turn queries, not just fresh turns
