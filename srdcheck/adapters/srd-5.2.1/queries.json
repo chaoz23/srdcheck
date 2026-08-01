@@ -116,6 +116,8 @@
     },
     "exhaustion_level": {
      "type": "integer",
+     "minimum": 0,
+     "maximum": 6,
      "description": "the acting creature's Exhaustion level (0-6)"
     }
    },

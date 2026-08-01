@@ -140,12 +140,30 @@ def _effective_speed(adapter, p, cites, rules):
     return speed
 
 
+def _validated_turn_params(adapter, query_type, params):
+    """Apply the published turn schema even on direct adapter dispatch.
+
+    Engine calls already validate and normalize before reaching a handler.
+    Adapters remain directly callable for conformance and embedding, so the two
+    turn surfaces repeat their boundary gate here instead of trusting callers.
+    """
+    schema = adapter.query_meta[query_type]["inputSchema"]
+    problems = schema_issues(params, schema)
+    if problems:
+        from srdcheck.engine import validation_refusal
+        return None, validation_refusal(problems, adapter.id)
+    return normalize_integers(params, schema), None
+
+
 def turn_plan(adapter, p):
     """Judge a proposed own-turn plan against budgets and modeled conditions.
 
     params: speed, conditions[], spent{action,bonus_action,reaction,
     free_interaction,movement_ft,spell_slots_this_turn}, plan[{do,...}].
     """
+    p, refusal = _validated_turn_params(adapter, "turn.plan", p)
+    if refusal is not None:
+        return refusal
     a = adapter.atoms
     aid = adapter.id
     if int(p.get("speed", 0)) < 0:
@@ -414,6 +432,9 @@ def _condition_gate(adapter, p):
 def turn_options(adapter, p):
     """T5: enumerate what remains legal this turn given the same state
     shape turn.plan takes (speed, conditions, spent) — no plan."""
+    p, refusal = _validated_turn_params(adapter, "turn.options", p)
+    if refusal is not None:
+        return refusal
     gate = _condition_gate(adapter, p)
     if gate:
         return gate
