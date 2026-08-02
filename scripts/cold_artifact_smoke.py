@@ -165,6 +165,16 @@ def smoke(artifact):
         ))
         assert query["exit_code"] == 0 and query["rule_ids"]
 
+        shared = json.loads(run(
+            [str(python), "-m", "srdcheck", "query", "mage-hand.use",
+             '{"kind":"attack"}', "--table-evaluation"],
+            outside, env=clean_env, allowed_returncodes=(1,),
+        ))
+        assert shared["schema_version"] == "table.evaluation/1.0"
+        assert shared["status"] == "findings"
+        assert shared["authority_status"] == "self_attested"
+        assert "mage-hand.cant-attack" in shared["findings"][0]["evidence_refs"]
+
         capabilities = json.loads(run(
             [str(python), "-m", "srdcheck", "capabilities"],
             outside, env=clean_env,

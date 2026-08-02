@@ -23,6 +23,7 @@
    "jurisdiction <name>": "Is this named entity known to the loaded rulesets? exit 0 = known content (all matching categories in data.categories); exit 2 = unknown/third-party content.",
    "cite <heading>": "Verbatim, page-numbered source text for a named SRD heading. Provenance surface: returns the page's own text, never interpretation.",
    "query <type> <params-json>": "Adjudicate a structured proposal. Query types are supplied by the loaded adapters; see query_types below.",
+   "query <type> <params-json> --table-evaluation": "Project the scoped verdict into deterministic, self-attested table.evaluation/1.0. Table and execution authority stay external.",
    "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
    "--schema": "Print JSON Schema for input and output.",
    "capabilities": "Print engine, protocol, adapter versions/digests, query types, refusal recovery contract, and MCP tool names."
@@ -52,6 +53,7 @@
   ]
  },
  "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter, data?}. Exit-2 data contains stable reason and recovery fields. Schema and refusal contract identities are published by --schema, MCP outputSchema, and capabilities.",
+ "table_evaluation": "query/--pipe --table-evaluation maps legal to checked_clean, illegal to an exact-evidence finding, and structured refusals to invalid, unsupported, or incomplete. Output is always self_attested.",
  "notes": "The 'why' field is templated explanatory prose, not a machine compatibility field. Verdicts are deterministic: same query, same answer, every time. On cannot-adjudicate, branch on structured recovery data rather than prose; an authorized agent-DM may resolve a DM-authority table ruling directly. turn.options and turn.plan are consistency-tested against each other. Use `capabilities` for checked/unchecked scope, refusal mappings, and the exact release tuple.",
  "mcp": {
   "command": "python3 -m srdcheck.mcp",

@@ -42,6 +42,9 @@ def build():
         "query <type> <params-json>": (
             "Adjudicate a structured proposal. Query types are supplied by "
             "the loaded adapters; see query_types below."),
+        "query <type> <params-json> --table-evaluation": (
+            "Project the scoped verdict into deterministic, self-attested "
+            "table.evaluation/1.0. Table and execution authority stay external."),
         "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
         "--schema": "Print JSON Schema for input and output.",
         "capabilities": ("Print engine, protocol, adapter versions/digests, "
@@ -73,6 +76,11 @@ def build():
                    "contains stable reason and recovery fields. Schema and "
                    "refusal contract identities are published by --schema, "
                    "MCP outputSchema, and capabilities."),
+        "table_evaluation": (
+            "query/--pipe --table-evaluation maps legal to checked_clean, "
+            "illegal to an exact-evidence finding, and structured refusals to "
+            "invalid, unsupported, or incomplete. Output is always "
+            "self_attested."),
         "notes": (
             "The 'why' field is templated explanatory prose, not a machine "
             "compatibility field. Verdicts are deterministic: same query, same "

@@ -42,3 +42,5 @@ from .verdict import (  # noqa: F401
     CANNOT_ADJUDICATE, ILLEGAL, LEGAL,
     Citation, Verdict, cannot_adjudicate, illegal, legal,
 )
+from .table_evaluation import (TABLE_EVALUATION_SCHEMA_VERSION,
+                               project_table_evaluation)  # noqa: F401
