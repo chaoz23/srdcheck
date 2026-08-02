@@ -7,6 +7,8 @@ import itertools
 import pathlib
 import sys
 
+import pytest
+
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
@@ -82,6 +84,47 @@ def test_exhaustion_enumeration_is_a_reasoned_deferral():
     assert v.exit_code == 2 and "graduated" in v.why
 
 
+@pytest.mark.parametrize(("level", "expected_exit"), [
+    (-1, 2),
+    (0, 2),
+    (1, 0),
+    (6, 0),
+    (7, 2),
+])
+@pytest.mark.parametrize("query_type", ["turn.plan", "turn.options"])
+def test_exhaustion_boundaries_match_for_engine_and_direct_adapter_calls(
+        query_type, level, expected_exit):
+    params = {
+        "speed": 30,
+        "conditions": ["Exhaustion"],
+        "exhaustion_level": level,
+    }
+    if query_type == "turn.plan":
+        params["plan"] = []
+
+    results = (
+        E.query(query_type, params),
+        E.adapters[0].handle(query_type, params),
+    )
+    for result in results:
+        assert result.exit_code == expected_exit
+        if expected_exit == 2:
+            assert result.data["reason_code"] == "invalid-input"
+            assert result.data["recoverability"] == "retry"
+            assert result.data["suggested_next_action"] == "repair-request"
+            assert result.data["missing_inputs"] == []
+
+
+def test_turn_schemas_pin_the_same_exhaustion_bounds():
+    schemas = E.adapters[0].query_meta
+    plan_level = schemas["turn.plan"]["inputSchema"]["properties"][
+        "exhaustion_level"]
+    options_level = schemas["turn.options"]["inputSchema"]["properties"][
+        "exhaustion_level"]
+    assert options_level["minimum"] == plan_level["minimum"] == 0
+    assert options_level["maximum"] == plan_level["maximum"] == 6
+
+
 def _single_steps(opts_verdict):
     """Candidate single-step plans implied by an options payload, plus
     probes just past each boundary (must be rejected by turn.plan)."""
@@ -125,3 +168,23 @@ def test_t5_consistency_sweep():
             pv = E.query("turn.plan", {**state, "plan": [step]})
             assert pv.exit_code != 0, ("not enumerated but accepted",
                                        state, step)
+
+
+@pytest.mark.parametrize("level", [1, 6])
+def test_t5_consistency_sweep_includes_exhaustion_boundaries(level):
+    state = {
+        "speed": 30,
+        "conditions": ["Exhaustion"],
+        "exhaustion_level": level,
+        "spent": {},
+    }
+    ov = E.query("turn.options", state)
+    assert ov.exit_code == 0, (state, ov.why)
+    inside, outside = _single_steps(ov)
+    for step in inside:
+        pv = E.query("turn.plan", {**state, "plan": [step]})
+        assert pv.exit_code == 0, ("enumerated but rejected", state, step,
+                                   pv.why)
+    for step in outside:
+        pv = E.query("turn.plan", {**state, "plan": [step]})
+        assert pv.exit_code != 0, ("not enumerated but accepted", state, step)
