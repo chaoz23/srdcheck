@@ -165,6 +165,16 @@ def smoke(artifact):
         ))
         assert query["exit_code"] == 0 and query["rule_ids"]
 
+        shared = json.loads(run(
+            [str(python), "-m", "srdcheck", "query", "mage-hand.use",
+             '{"kind":"attack"}', "--table-evaluation"],
+            outside, env=clean_env, allowed_returncodes=(1,),
+        ))
+        assert shared["schema_version"] == "table.evaluation/1.0"
+        assert shared["status"] == "findings"
+        assert shared["authority_status"] == "self_attested"
+        assert "mage-hand.cant-attack" in shared["findings"][0]["evidence_refs"]
+
         capabilities = json.loads(run(
             [str(python), "-m", "srdcheck", "capabilities"],
             outside, env=clean_env,
@@ -201,6 +211,11 @@ def smoke(artifact):
             {"jsonrpc": "2.0", "id": 4, "method": "tools/call",
              "params": {"name": "jurisdiction", "arguments": {
                  "name": unicode_name}}},
+            {"jsonrpc": "2.0", "id": 5, "method": "tools/call",
+             "params": {"name": "table_evaluation", "arguments": {
+                 "query_type": "mage-hand.use", "params": {"kind": "attack"},
+                 "context": {"session_id": "artifact-session",
+                             "correlation_id": "artifact-call"}}}},
         ])
         replies = [json.loads(line) for line in run(
             [str(python), "-m", "srdcheck.mcp"], outside,
@@ -212,6 +227,11 @@ def smoke(artifact):
         assert by_id[3]["result"]["structuredContent"]["exit_code"] == 0
         assert by_id[4]["result"]["structuredContent"]["exit_code"] == 2
         assert unicode_name in by_id[4]["result"]["structuredContent"]["why"]
+        projected = by_id[5]["result"]["structuredContent"]
+        assert projected["status"] == "findings"
+        assert projected["authority_status"] == "self_attested"
+        assert projected["subject"]["session_id"] == "artifact-session"
+        assert "correlation:artifact-call" in projected["subject"]["entity_refs"]
 
         # --target places project.scripts launchers beneath the target itself.
         # Invoke them directly so Windows .exe wrappers and both entry-point

@@ -15,6 +15,10 @@ from copy import deepcopy
 from . import __version__
 from .engine import Engine, NON_EMPTY_NAME_INPUT_SCHEMA
 from .schema import ValidationError, validate
+from .table_evaluation import (
+    CALLER_CONTEXT_SCHEMA, TABLE_EVALUATION_OUTPUT_SCHEMA,
+    project_table_evaluation,
+)
 from .verdict import VERDICT_OUTPUT_SCHEMA
 
 PROTOCOL_VERSION = "2025-06-18"
@@ -45,6 +49,26 @@ JURISDICTION_TOOL = {
     "outputSchema": VERDICT_OUTPUT_SCHEMA,
 }
 
+TABLE_EVALUATION_TOOL = {
+    "name": "table_evaluation",
+    "description": (
+        "Adjudicate one named SRDCheck query and project its exact scoped "
+        "result into deterministic table.evaluation/1.0. Always self-attested, "
+        "including when the calling agent is the DM; table authority remains "
+        "with the caller or protected host."),
+    "inputSchema": {
+        "type": "object",
+        "additionalProperties": False,
+        "required": ["query_type", "params"],
+        "properties": {
+            "query_type": {"type": "string", "minLength": 1},
+            "params": {"type": "object"},
+            "context": CALLER_CONTEXT_SCHEMA,
+        },
+    },
+    "outputSchema": TABLE_EVALUATION_OUTPUT_SCHEMA,
+}
+
 
 def _published_input_schema(adapter, meta):
     """Expand adapter-local refs into self-contained MCP tool schemas.
@@ -73,8 +97,9 @@ def _published_input_schema(adapter, meta):
 
 
 def build_tools(engine):
-    tools = [JURISDICTION_TOOL]
-    mapping = {"jurisdiction": "jurisdiction"}
+    tools = [JURISDICTION_TOOL, TABLE_EVALUATION_TOOL]
+    mapping = {"jurisdiction": "jurisdiction",
+               "table_evaluation": "table_evaluation"}
     for a in engine.adapters:
         for qt, meta in sorted(a.query_meta.items()):
             name = qt.replace(".", "_").replace("-", "_")
@@ -188,12 +213,31 @@ class Server:
         if not isinstance(args, dict):
             return self._error(mid, -32602, "invalid params: arguments must be an object")
         qt = self.mapping[name]
+        if qt == "table_evaluation":
+            try:
+                normalized = validate(
+                    args, TABLE_EVALUATION_TOOL["inputSchema"])
+            except ValidationError:
+                return self._result(mid, {
+                    "content": [{"type": "text",
+                                 "text": "invalid table_evaluation arguments"}],
+                    "isError": True,
+                })
         try:
-            if qt == "jurisdiction":
+            if qt == "table_evaluation":
+                query_type = normalized["query_type"]
+                query_params = normalized["params"]
+                native = self.engine.query(query_type, query_params).as_dict()
+                validate(native, VERDICT_OUTPUT_SCHEMA)
+                vd = project_table_evaluation(
+                    native, query_type, query_params, normalized.get("context"))
+                validate(vd, TABLE_EVALUATION_OUTPUT_SCHEMA)
+            elif qt == "jurisdiction":
                 vd = self.engine.query("jurisdiction", args).as_dict()
+                validate(vd, VERDICT_OUTPUT_SCHEMA)
             else:
                 vd = self.engine.query(qt, args).as_dict()
-            validate(vd, VERDICT_OUTPUT_SCHEMA)
+                validate(vd, VERDICT_OUTPUT_SCHEMA)
         except ValidationError:
             return self._result(mid, {
                 "content": [{"type": "text", "text": "internal output validation failed"}],

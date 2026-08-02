@@ -36,6 +36,32 @@ def build():
             }
             entry["description"] = adapter.query_meta[query_type]["description"]
         shipped.append(entry)
+    shipped.append({
+        "adapter": "kernel",
+        "query_type": "table.evaluation",
+        "tool": "table_evaluation",
+        "capability": (
+            "Project one native rules query into table.evaluation/1.0 with "
+            "machine-readable scope, caller references, and portable evidence."),
+        "checked_scope": [
+            "deterministic projection of one named query",
+            "self-attested coverage and exact finding evidence",
+            "caller-owned session, entity, and correlation references",
+        ],
+        "unchecked_scope": [
+            "global action or table legality",
+            "table, encounter-state, or execution authority",
+            "protected-host attestation",
+        ],
+        "evidence": [
+            "tests/test_table_evaluation.py",
+            "tests/test_mcp.py::test_table_evaluation_tool_is_opt_in_scoped_and_joinable",
+            "scripts/cold_artifact_smoke.py",
+        ],
+        "description": (
+            "Opt-in shared-envelope transport; native verdict tools remain "
+            "unchanged."),
+    })
     return {
         "schema_version": CLAIMS_SCHEMA_VERSION,
         "generated_from": (

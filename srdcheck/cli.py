@@ -13,6 +13,7 @@ Exit codes ARE the verdict: 0 legal / 1 illegal / 2 cannot-adjudicate.
 (3 = usage or internal error, never a verdict.)
 """
 
+import hashlib
 import json
 import pathlib
 import sys
@@ -39,6 +40,11 @@ SCHEMA = {
         "additionalProperties": False,
     },
     "output": VERDICT_OUTPUT_SCHEMA,
+    "table_evaluation": (
+        "query/--pipe --table-evaluation emits deterministic self-attested "
+        "table.evaluation/1.0; optional --table-context JSON supplies "
+        "caller-owned session/entity/correlation references; table and "
+        "execution authority remain external"),
     "exit_codes": {"0": "legal", "1": "illegal", "2": "cannot-adjudicate",
                    "3": "usage or internal error (not a verdict)"},
 }
@@ -49,13 +55,60 @@ def _engine():
     return Engine(default_adapter_paths())
 
 
-def _emit(verdict):
-    print(json.dumps(verdict.as_dict(), indent=2))
+def _emit(verdict, table_evaluation=False, query_type=None, params=None,
+          table_context=None):
+    value = verdict.as_dict()
+    if table_evaluation:
+        from .table_evaluation import project_table_evaluation
+        value = project_table_evaluation(
+            value, query_type, params, context=table_context)
+        print(json.dumps(value, indent=2))
+        return value["exit_code"]
+    print(json.dumps(value, indent=2))
     return verdict.exit_code
+
+
+def _invalid_json_evaluation(query_type, raw, message, table_context=None):
+    from .table_evaluation import project_table_evaluation
+    from .verdict import cannot_adjudicate
+
+    digest = hashlib.sha256(raw.encode("utf-8", errors="replace")).hexdigest()
+    verdict = cannot_adjudicate(
+        message, reason_code="invalid-input", missing_inputs=["/params"])
+    return project_table_evaluation(
+        verdict, query_type or "invalid-query", {"invalid_json_sha256": digest},
+        context=table_context)
 
 
 def main(argv=None):
     args = list(sys.argv[1:] if argv is None else argv)
+    table_evaluation = "--table-evaluation" in args
+    if args.count("--table-evaluation") > 1:
+        print(json.dumps({"error": "--table-evaluation may be supplied once"}))
+        return 3
+    if table_evaluation:
+        args.remove("--table-evaluation")
+    table_context = None
+    if args.count("--table-context") > 1:
+        print(json.dumps({"error": "--table-context may be supplied once"}))
+        return 3
+    if "--table-context" in args:
+        index = args.index("--table-context")
+        if index + 1 >= len(args):
+            print(json.dumps({"error": "--table-context requires JSON"}))
+            return 3
+        raw_context = args[index + 1]
+        del args[index:index + 2]
+        if not table_evaluation:
+            print(json.dumps({
+                "error": "--table-context requires --table-evaluation"
+            }))
+            return 3
+        try:
+            table_context = json.loads(raw_context)
+        except json.JSONDecodeError:
+            print(json.dumps({"error": "--table-context must be valid JSON"}))
+            return 3
     if not args:
         print(__doc__)
         return 3
@@ -66,13 +119,35 @@ def main(argv=None):
         from .access import capabilities
         print(json.dumps(capabilities(), indent=2))
         return 0
+    if table_evaluation and args[0] not in {"query", "--pipe"}:
+        print(json.dumps({
+            "error": "--table-evaluation is valid only with query or --pipe"
+        }))
+        return 3
     try:
         if args[0] == "--pipe":
-            q = json.loads(sys.stdin.read())
+            raw = sys.stdin.read()
+            try:
+                q = json.loads(raw)
+            except json.JSONDecodeError as exc:
+                if table_evaluation:
+                    value = _invalid_json_evaluation(
+                        "invalid-query", raw, "query JSON is invalid",
+                        table_context)
+                    print(json.dumps(value, indent=2))
+                    return value["exit_code"]
+                raise exc
             problems = schema_issues(q, SCHEMA["input"])
             if problems:
-                return _emit(validation_refusal(problems))
-            return _emit(_engine().query(q["type"], q.get("params", {})))
+                q_type = (q.get("type", "invalid-query")
+                          if isinstance(q, dict) else "invalid-query")
+                q_params = (q.get("params", {})
+                            if isinstance(q, dict) else {})
+                return _emit(validation_refusal(problems), table_evaluation,
+                             q_type, q_params, table_context)
+            return _emit(_engine().query(q["type"], q.get("params", {})),
+                         table_evaluation, q["type"], q.get("params", {}),
+                         table_context)
         if args[0] == "conformance" and len(args) == 2:
             from .conformance import check as _cf
             probs = _cf(args[1])
@@ -88,7 +163,18 @@ def main(argv=None):
         if args[0] == "jurisdiction" and len(args) == 2:
             return _emit(_engine().jurisdiction(args[1]))
         if args[0] == "query" and len(args) == 3:
-            return _emit(_engine().query(args[1], json.loads(args[2])))
+            try:
+                params = json.loads(args[2])
+            except json.JSONDecodeError as exc:
+                if table_evaluation:
+                    value = _invalid_json_evaluation(
+                        args[1], args[2], "params JSON is invalid",
+                        table_context)
+                    print(json.dumps(value, indent=2))
+                    return value["exit_code"]
+                raise exc
+            return _emit(_engine().query(args[1], params), table_evaluation,
+                         args[1], params, table_context)
         if args[0] == "edition-check" and len(args) >= 2:
             from .access import edition_check
             name = args[1]
