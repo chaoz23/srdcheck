@@ -51,9 +51,9 @@
    "adapter": "srd-5.2.1",
    "query_type": "attack.modifiers",
    "capability": "Compose modeled attack modifiers from structured combatant facts.",
-   "checked_scope": ["documented condition modifiers", "Prone distance behavior", "ranged attacks in close combat"],
-   "unchecked_scope": ["cover and line-of-sight geometry", "weapon or feature prerequisites", "facts the caller did not supply"],
-   "evidence": ["tests/test_roll_modifiers.py::test_prone_target_distance_flip", "tests/test_roll_modifiers.py::test_ranged_in_close_combat_disadvantage_and_exceptions", "tests/test_roll_modifiers.py::test_target_petrified_and_unconscious_grant_advantage"]
+   "checked_scope": ["documented condition modifiers", "Prone distance behavior", "condition-sensitive fact dependencies and category gates", "ranged attacks in close combat with Incapacitated embeds"],
+   "unchecked_scope": ["cover and line-of-sight geometry not supplied as facts", "weapon or feature prerequisites"],
+   "evidence": ["tests/test_condition_fact_dependencies.py::test_attack_condition_fact_matrices", "tests/test_condition_fact_dependencies.py::test_ranged_enemy_dependency_claim_evidence", "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence", "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"]
   },
   {
    "adapter": "srd-5.2.1",
@@ -107,9 +107,9 @@
    "adapter": "srd-5.2.1",
    "query_type": "check.make",
    "capability": "Compose or resolve an ability check from caller-supplied facts and roll.",
-   "checked_scope": ["DC comparison", "modeled condition and social modifiers", "supplied d20 and modifiers"],
+   "checked_scope": ["DC comparison", "modeled condition and social modifiers", "condition-sensitive fact dependencies and category gates", "supplied d20 and modifiers"],
    "unchecked_scope": ["rolling dice", "choosing a DC", "deriving modifiers", "narrative outcome"],
-   "evidence": ["tests/test_checks.py::test_poisoned_and_frightened_impose_disadvantage_on_checks", "tests/test_checks.py::test_blinded_auto_fails_sight_checks_only"]
+   "evidence": ["tests/test_condition_fact_dependencies.py::test_check_condition_fact_matrices", "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence", "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"]
   },
   {
    "adapter": "srd-5.2.1",

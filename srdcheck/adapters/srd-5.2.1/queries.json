@@ -174,7 +174,7 @@
   }
  },
  "attack.modifiers": {
-  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and \u2014 for ranged attacks \u2014 the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
+  "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and \u2014 for ranged attacks \u2014 the Ranged Attacks in Close Combat Disadvantage). Condition-sensitive observations such as charmer/grappler relationships, visibility, and the nearby-enemy census are required rather than defaulted. Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -199,7 +199,7 @@
       },
       "frightened_source_in_sight": {
        "type": "boolean",
-       "description": "caller fact: can the Frightened attacker see the source of its fear (defaults true)"
+       "description": "required when the attacker is Frightened: can it see the source of its fear?"
       }
      },
      "additionalProperties": false
@@ -239,7 +239,7 @@
     },
     "nearby_enemies": {
      "type": "array",
-     "description": "enemies within 5 ft of the attacker (caller supplies the geometry). A ranged attack gets Disadvantage if any can see the attacker and isn't Incapacitated.",
+     "description": "required for a ranged attack; enemies within 5 ft of the attacker (an explicit empty list means none). A ranged attack gets Disadvantage if any can see the attacker and isn't Incapacitated.",
      "items": {
       "type": "object",
       "properties": {
@@ -483,7 +483,7 @@
   }
  },
  "check.make": {
-  "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. A missing DC returns missing-fact; malformed inputs or unsupported condition content return their structured recovery class.",
+  "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (supply check_requires, including an explicit empty array for neither); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. Condition-sensitive observations are required rather than defaulted. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. Missing required facts return exact paths; malformed inputs or unsupported condition content return their structured recovery class.",
   "inputSchema": {
    "type": "object",
    "properties": {
@@ -513,8 +513,18 @@
      "description": "the checking creature's active conditions"
     },
     "check_requires": {
-     "type": "string",
-     "description": "'sight' or 'hearing' \u2014 triggers Blinded/Deafened auto-fail"
+     "type": [
+      "string",
+      "array"
+     ],
+     "items": {
+      "type": "string",
+      "enum": [
+       "sight",
+       "hearing"
+      ]
+     },
+     "description": "required for a Blinded or Deafened actor: 'sight', 'hearing', 'neither', or an array of required senses; an empty array means neither"
     },
     "social": {
      "type": "boolean",
@@ -532,7 +542,7 @@
     },
     "frightened_source_in_sight": {
      "type": "boolean",
-     "description": "caller fact: the Frightened creature can see the source of its fear (defaults true)"
+     "description": "required when the actor is Frightened: can it see the source of its fear?"
     }
    },
    "required": [
