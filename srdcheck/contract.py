@@ -31,7 +31,9 @@ WHY_STABILITY = "non-contractual"
 # shipped minor might be 0.7 rather than an invented 0.8.  Make each new minor
 # name its actual predecessor so a version bump cannot silently claim a window
 # that has no fixture.
-PREVIOUS_ENGINE_MINOR = {"0.6": "0.5"}
+# 0.6 lived on main but was never published; 0.5 is therefore the actual
+# previous public minor for both the internal 0.6 line and the 0.7 release.
+PREVIOUS_ENGINE_MINOR = {"0.6": "0.5", "0.7": "0.5"}
 
 
 def is_semver_2_0(value):
