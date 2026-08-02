@@ -73,7 +73,7 @@ def capabilities():
     claims = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
     refusal_contract = v.refusal_contract()
     adapters = []
-    tool_names = {"jurisdiction"}
+    tool_names = {"jurisdiction", "table_evaluation"}
     for identifier in available_adapters():
         root = ADAPTERS_DIR / identifier
         manifest = json.loads((root / "manifest.json").read_text())

@@ -45,7 +45,8 @@ def test_handshake_and_tool_list():
                      "method": "notifications/initialized"}) is None
     tools = s.handle(rpc("tools/list"))["result"]["tools"]
     names = {t["name"] for t in tools}
-    assert names == {"jurisdiction", "turn_plan", "turn_options",
+    assert names == {"jurisdiction", "table_evaluation",
+                     "turn_plan", "turn_options",
                      "reaction_available", "roll_compose",
                      "attack_modifiers", "mage_hand_use", "spell_facts", "feature_uses",
                      "event_apply", "creature_valid", "creature_stats",
@@ -54,8 +55,14 @@ def test_handshake_and_tool_list():
                      "ttt_move", "ttt_options"}
     for t in tools:
         assert t["description"] and t["inputSchema"]["type"] == "object"
-        assert t["outputSchema"]["required"] == [
-            "verdict", "exit_code", "why", "citations", "rule_ids", "adapter"]
+        if t["name"] == "table_evaluation":
+            assert t["outputSchema"]["properties"]["schema_version"]["enum"] == [
+                "table.evaluation/1.0"]
+            assert t["outputSchema"]["properties"]["authority_status"]["enum"] == [
+                "self_attested"]
+        else:
+            assert t["outputSchema"]["required"] == [
+                "verdict", "exit_code", "why", "citations", "rule_ids", "adapter"]
 
 
 def test_tool_calls_return_verdicts():
@@ -83,6 +90,31 @@ def test_tool_calls_return_verdicts():
 
     r = s.handle(rpc("tools/call", {"name": "nope", "arguments": {}}))
     assert r["result"]["isError"]
+
+
+def test_table_evaluation_tool_is_opt_in_scoped_and_joinable():
+    s = ready_server()
+    response = s.handle(rpc("tools/call", {
+        "name": "table_evaluation",
+        "arguments": {
+            "query_type": "mage-hand.use",
+            "params": {"kind": "attack"},
+            "context": {"session_id": "session-mcp",
+                        "entity_refs": ["actor:wizard"],
+                        "correlation_id": "discord-99"},
+        },
+    }))
+    result = response["result"]["structuredContent"]
+    assert response["result"]["isError"] is False
+    assert result["status"] == "findings"
+    assert result["authority_status"] == "self_attested"
+    assert result["subject"]["session_id"] == "session-mcp"
+    assert "srdcheck-query-scope:mage-hand.use" in \
+        result["subject"]["entity_refs"]
+    assert "correlation:discord-99" in result["subject"]["entity_refs"]
+    finding = result["findings"][0]
+    assert set(finding["evidence_refs"]) == set(
+        finding["effective_policy"]["evidence"])
 
     r = s.handle(rpc("no/such/method"))
     assert r["error"]["code"] == -32601
@@ -194,7 +226,7 @@ def test_stdio_subprocess_end_to_end():
     assert len(replies) == 3
     by_id = {r["id"]: r for r in replies}
     assert by_id[1]["result"]["serverInfo"]["name"] == "srdcheck"
-    assert len(by_id[2]["result"]["tools"]) == 22
+    assert len(by_id[2]["result"]["tools"]) == 23
     sc = by_id[3]["result"]["structuredContent"]
     assert sc["data"]["roll"] == "straight"  # the infiltration composition
     assert proc.returncode == 0

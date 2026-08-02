@@ -60,6 +60,7 @@ A `legal` result below means only that the named checked scope passed.
 | `feature_uses` | Return the modeled use-count formula for the closed feature set. | Divine Sense and Lay on Hands formulas; arithmetic when all blanks are supplied | other features; tables; whether a use remains in campaign state | `tests/test_spell_facts.py::test_divine_sense_blanks`; `tests/test_spell_facts.py::test_lay_on_hands_blanks` |
 | `ttt_move` | Check one move against the bundled tutorial ruleset. | board shape, turn order, cell occupancy, and terminal state | strategy; choosing a move | `tests/test_toy_adapter.py::test_move_legality` |
 | `ttt_options` | Enumerate legal cells under the bundled tutorial ruleset. | legal empty cells for the current player | strategy; ranking options | `tests/test_toy_adapter.py::test_enumerate_validate_consistency` |
+| `table_evaluation` | Project one native rules query into table.evaluation/1.0 with machine-readable scope, caller references, and portable evidence. | deterministic projection of one named query; self-attested coverage and exact finding evidence; caller-owned session, entity, and correlation references | global action or table legality; table, encounter-state, or execution authority; protected-host attestation | `tests/test_table_evaluation.py`; `tests/test_mcp.py::test_table_evaluation_tool_is_opt_in_scoped_and_joinable`; `scripts/cold_artifact_smoke.py` |
 
 ## Target architecture — not shipped
 

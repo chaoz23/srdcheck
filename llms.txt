@@ -19,7 +19,11 @@ distinct from SRD-derived results.
 
 For a suite result envelope, add `--table-evaluation` to `query` or `--pipe`.
 The deterministic `table.evaluation/1.0` projection is always self_attested;
-it preserves exact rule/citation evidence and never grants table authority.
+it preserves self-contained rule/citation evidence and never grants table
+authority, including when the caller is an agent-DM. Its subject includes a
+machine-readable named-query scope. Add `--table-context` JSON for caller-owned
+session/entity/correlation references, or call the opt-in MCP tool
+`table_evaluation` with `{query_type, params, context?}`.
 
 On `cannot-adjudicate`, branch on the recovery fields in `data`, never on
 `why`: repair the request, provide the named missing facts, select an adapter,

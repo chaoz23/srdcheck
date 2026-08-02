@@ -44,7 +44,9 @@ def build():
             "the loaded adapters; see query_types below."),
         "query <type> <params-json> --table-evaluation": (
             "Project the scoped verdict into deterministic, self-attested "
-            "table.evaluation/1.0. Table and execution authority stay external."),
+            "table.evaluation/1.0. Add --table-context JSON for caller-owned "
+            "session/entity/correlation references. Table and execution "
+            "authority stay external."),
         "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
         "--schema": "Print JSON Schema for input and output.",
         "capabilities": ("Print engine, protocol, adapter versions/digests, "
@@ -80,7 +82,8 @@ def build():
             "query/--pipe --table-evaluation maps legal to checked_clean, "
             "illegal to an exact-evidence finding, and structured refusals to "
             "invalid, unsupported, or incomplete. Output is always "
-            "self_attested."),
+            "self_attested. Its named-query scope is machine-readable and "
+            "every finding evidence ref resolves in its effective policy."),
         "notes": (
             "The 'why' field is templated explanatory prose, not a machine "
             "compatibility field. Verdicts are deterministic: same query, same "
@@ -99,7 +102,9 @@ def build():
                 "Zero-dependency stdlib MCP server. Tool descriptions/schemas "
                 "are supplied by loaded adapters (queries.json). Verdicts "
                 "arrive as structuredContent; illegal and cannot-adjudicate "
-                "are results, not protocol errors."),
+                "are results, not protocol errors. The opt-in table_evaluation "
+                "tool projects one native query without changing native tool "
+                "response schemas."),
         },
         "_generated_by": "scripts/gen_tool_json.py",
     }
