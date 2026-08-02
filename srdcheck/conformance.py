@@ -5,6 +5,44 @@ import json
 import pathlib
 
 
+def _manifest_root_kind(value):
+    if value is None:
+        return "null"
+    if isinstance(value, list):
+        return "array"
+    if isinstance(value, str):
+        return "string"
+    if isinstance(value, bool):
+        return "boolean"
+    if isinstance(value, (int, float)):
+        return "number"
+    return type(value).__name__
+
+
+def _read_manifest(mpath):
+    """Read one manifest without letting the diagnostic entry gate crash."""
+    try:
+        raw = mpath.read_bytes()
+    except FileNotFoundError:
+        return None, ["missing manifest.json"]
+    except OSError:
+        return None, ["could not read manifest.json"]
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return None, ["manifest.json is not valid UTF-8"]
+    try:
+        manifest = json.loads(text)
+    except json.JSONDecodeError:
+        return None, ["manifest.json is not valid JSON"]
+    if not isinstance(manifest, dict):
+        return None, [
+            "manifest.json root must be an object; got "
+            f"{_manifest_root_kind(manifest)}"
+        ]
+    return manifest, []
+
+
 def check(adapter_id, adapters_dir=None):
     from .access import AdapterHandle, ADAPTERS_DIR
     from .contract import is_semver_2_0
@@ -14,9 +52,9 @@ def check(adapter_id, adapters_dir=None):
     adir = root / adapter_id
     # 1. manifest: provenance is non-negotiable
     mpath = adir / "manifest.json"
-    if not mpath.exists():
-        return [f"missing manifest.json"]
-    m = json.loads(mpath.read_text())
+    m, fatal = _read_manifest(mpath)
+    if fatal:
+        return fatal
     for k in ("name", "license"):
         if not m.get(k):
             problems.append(f"manifest missing '{k}'")
@@ -34,7 +72,9 @@ def check(adapter_id, adapters_dir=None):
     if not (m.get("attribution") or m.get("license") in ("MIT", "CC0")):
         problems.append("manifest missing 'attribution' (required for licensed content)")
     src = m.get("source") or {}
-    if src and not src.get("sha256"):
+    if not isinstance(src, dict):
+        problems.append("manifest 'source' must be an object")
+    elif src and not src.get("sha256"):
         problems.append("manifest.source lacks sha256 (hash-pin the source document)")
     # Validate the directory the caller resolved, including third-party roots;
     # never substitute a bundled adapter that happens to share its identifier.
