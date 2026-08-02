@@ -7,6 +7,7 @@ handlers: accepted integral floats are normalized to fresh integer values.
 """
 
 import math
+import re
 from dataclasses import dataclass
 
 
@@ -120,6 +121,21 @@ def issues(value, schema, path="$", limit=50):
             if "maxLength" in spec and len(current) > spec["maxLength"]:
                 add(current_path, "max-length",
                     f"length must be at most {spec['maxLength']}")
+            if "pattern" in spec:
+                pattern = spec["pattern"]
+                if not isinstance(pattern, str):
+                    add(current_path, "invalid-schema",
+                        "pattern must be a string")
+                else:
+                    try:
+                        matches = re.search(pattern, current) is not None
+                    except re.error:
+                        add(current_path, "invalid-schema",
+                            "pattern must be a valid regular expression")
+                    else:
+                        if not matches:
+                            add(current_path, "pattern",
+                                f"must match pattern {pattern!r}")
         if isinstance(current, (int, float)) and not isinstance(current, bool):
             if not _is_finite_number(current):
                 add(current_path, "finite", "number must be finite")

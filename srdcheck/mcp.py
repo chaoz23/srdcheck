@@ -13,7 +13,7 @@ import sys
 from copy import deepcopy
 
 from . import __version__
-from .engine import Engine, JURISDICTION_INPUT_SCHEMA
+from .engine import Engine, NON_EMPTY_NAME_INPUT_SCHEMA
 from .schema import ValidationError, validate
 from .verdict import VERDICT_OUTPUT_SCHEMA
 
@@ -41,7 +41,7 @@ JURISDICTION_TOOL = {
                     "content (all matching categories in data.categories); "
                     "2 = unknown or "
                     "third-party content, honestly refused."),
-    "inputSchema": JURISDICTION_INPUT_SCHEMA,
+    "inputSchema": NON_EMPTY_NAME_INPUT_SCHEMA,
     "outputSchema": VERDICT_OUTPUT_SCHEMA,
 }
 

@@ -7,15 +7,18 @@ honest exit 2 — never a guess (T1, T8).
 
 from . import verdict as v
 from .adapter import Adapter
-from .schema import (ValidationIssue, issues as schema_issues,
-                     normalize_integers)
+from .schema import issues as schema_issues, normalize_integers
 
-JURISDICTION_INPUT_SCHEMA = {
+NON_EMPTY_NAME_INPUT_SCHEMA = {
     "type": "object",
-    "properties": {"name": {"type": "string", "minLength": 1}},
+    "properties": {
+        "name": {"type": "string", "minLength": 1, "pattern": r"\S"},
+    },
     "required": ["name"],
     "additionalProperties": False,
 }
+# Kept as an import-compatible alias for existing jurisdiction integrations.
+JURISDICTION_INPUT_SCHEMA = NON_EMPTY_NAME_INPUT_SCHEMA
 
 
 def validation_refusal(problems, adapter=""):
@@ -45,10 +48,7 @@ class Engine:
         self.adapters = [Adapter(p) for p in adapter_paths]
 
     def jurisdiction(self, name):
-        problems = schema_issues({"name": name}, JURISDICTION_INPUT_SCHEMA)
-        if isinstance(name, str) and not name.strip():
-            problems = [ValidationIssue(
-                "$.name", "min-length", "expected a non-empty string")]
+        problems = schema_issues({"name": name}, NON_EMPTY_NAME_INPUT_SCHEMA)
         if problems:
             return self._invalid_input(problems)
         for a in self.adapters:
@@ -68,6 +68,9 @@ class Engine:
             missing_inputs=[])
 
     def cite(self, name):
+        problems = schema_issues({"name": name}, NON_EMPTY_NAME_INPUT_SCHEMA)
+        if problems:
+            return self._invalid_input(problems)
         for a in self.adapters:
             hit = a.cite(name)
             if hit:
@@ -87,7 +90,7 @@ class Engine:
                 "Query type must be a non-empty string.",
                 reason_code="invalid-input", missing_inputs=[])
         if query_type == "jurisdiction":
-            problems = schema_issues(params, JURISDICTION_INPUT_SCHEMA)
+            problems = schema_issues(params, NON_EMPTY_NAME_INPUT_SCHEMA)
             if problems:
                 return self._invalid_input(problems)
             return self.jurisdiction(params["name"])
