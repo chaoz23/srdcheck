@@ -50,6 +50,7 @@ def _adapter_digest(root):
     digest = hashlib.sha256()
     included = {"manifest.json", "entities.json", "queries.json",
                 "spell_facts.json", "state_schema.json",
+                "condition_dependencies.json",
                 "handlers.py"}
     paths = [p for p in root.rglob("*")
              if p.is_file() and (p.name in included or "atoms" in p.parts

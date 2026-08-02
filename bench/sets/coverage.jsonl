@@ -3,7 +3,7 @@
 {"id":"cov-econ-1","kind":"action-economy","event":"Casts a slot spell with the action and another with a bonus action.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"action","spell":{"level":2}},{"do":"bonus-action","spell":{"level":1}}]}}}
 {"id":"cov-econ-2","kind":"action-economy","event":"Takes two bonus actions in a turn.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"bonus-action"},{"do":"bonus-action"}]}}}
 {"id":"cov-atk-1","kind":"attack-modifiers","event":"Attacks a prone target from 5 feet.","route":{"type":"attack.modifiers","params":{"attacker":{},"target":{"conditions":["Prone"]},"distance_ft":5}}}
-{"id":"cov-atk-2","kind":"attack-modifiers","event":"An invisible attacker strikes.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Invisible"]},"target":{},"distance_ft":10}}}
+{"id":"cov-atk-2","kind":"attack-modifiers","event":"An invisible attacker strikes a target that cannot see them.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Invisible"]},"target":{"can_see_attacker":false},"distance_ft":10}}}
 {"id":"cov-atk-3","kind":"attack-modifiers","event":"A restrained creature attacks.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Restrained"]},"target":{},"distance_ft":5}}}
 {"id":"cov-roll-1","kind":"roll-composition","event":"Three sources grant advantage, one imposes disadvantage.","route":{"type":"roll.compose","params":{"advantage_sources":["a","b","c"],"disadvantage_sources":["d"]}}}
 {"id":"cov-react-1","kind":"reaction","event":"Tries an opportunity attack after the reaction was spent.","route":{"type":"reaction.available","params":{"spent_since_turn_start":true}}}
@@ -25,9 +25,9 @@
 {"id":"cov-spell-1","kind":"spell-effect","event":"Fireball deals 8d6 fire in a 20-foot radius.","route":{"type":null}}
 {"id":"cov-spell-2","kind":"spell-effect","event":"Bless adds 1d4 to the attack roll.","route":{"type":null}}
 {"id":"cov-spell-3","kind":"spell-effect","event":"Hold Person paralyzes the target on a failed save.","route":{"type":null}}
-{"id":"cov-cond-1","kind":"unmodeled-condition","event":"A Frightened creature makes an attack.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Frightened"]},"target":{},"distance_ft":5}}}
+{"id":"cov-cond-1","kind":"unmodeled-condition","event":"A Frightened creature makes an attack while it can see the source of its fear.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Frightened"],"frightened_source_in_sight":true},"target":{},"distance_ft":5}}}
 {"id":"cov-cond-2","kind":"unmodeled-condition","event":"A Poisoned creature's turn.","route":{"type":"turn.plan","params":{"speed":30,"conditions":["Poisoned"],"plan":[{"do":"action"}]}}}
-{"id":"cov-cond-3","kind":"unmodeled-condition","event":"A Charmed creature tries to attack its charmer.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Charmed"]},"target":{},"distance_ft":5}}}
+{"id":"cov-cond-3","kind":"unmodeled-condition","event":"A Charmed creature tries to attack its charmer.","route":{"type":"attack.modifiers","params":{"attacker":{"conditions":["Charmed"]},"target":{"is_charmer_of_attacker":true},"distance_ft":5}}}
 {"id":"cov-feat-1","kind":"feature-prereq","event":"A lone two-weapon-fighting offhand attack with no Attack action.","route":{"type":"turn.plan","params":{"speed":30,"plan":[{"do":"bonus-action"}]}}}
 {"id":"cov-contest-1","kind":"contest","event":"A grapple contest: Athletics vs Athletics.","route":{"type":null}}
 {"id":"cov-contest-2","kind":"contest","event":"A shove: Athletics vs the target's Acrobatics.","route":{"type":null}}

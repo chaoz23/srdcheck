@@ -31,7 +31,7 @@
     "version": "0.2.1",
     "data_version": "0.2.1",
     "rules_version": "0.2.1",
-    "digest": "4412cb3b1c32a975b18873283f0eb9a646d65121b3e6477ccad8b3ea2e51dbef"
+    "digest": "55c6b2da76e468ea3fabbf010bbb4df6f2c5ab7619dbfe257d4b1c9d85ec62ba"
    },
    {
     "identifier": "toy-tictactoe",
@@ -255,17 +255,18 @@
    "checked_scope": [
     "documented condition modifiers",
     "Prone distance behavior",
-    "ranged attacks in close combat"
+    "condition-sensitive fact dependencies and category gates",
+    "ranged attacks in close combat with Incapacitated embeds"
    ],
    "unchecked_scope": [
-    "cover and line-of-sight geometry",
-    "weapon or feature prerequisites",
-    "facts the caller did not supply"
+    "cover and line-of-sight geometry not supplied as facts",
+    "weapon or feature prerequisites"
    ],
    "evidence": [
-    "tests/test_roll_modifiers.py::test_prone_target_distance_flip",
-    "tests/test_roll_modifiers.py::test_ranged_in_close_combat_disadvantage_and_exceptions",
-    "tests/test_roll_modifiers.py::test_target_petrified_and_unconscious_grant_advantage"
+    "tests/test_condition_fact_dependencies.py::test_attack_condition_fact_matrices",
+    "tests/test_condition_fact_dependencies.py::test_ranged_enemy_dependency_claim_evidence",
+    "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence",
+    "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"
    ],
    "tool": "attack_modifiers",
    "adapter_versions": {
@@ -273,7 +274,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and — for ranged attacks — the Ranged Attacks in Close Combat Disadvantage). Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited."
+   "description": "Compose an attack roll's Advantage/Disadvantage from both combatants' conditions and distance (Prone's 5-foot flip, Blinded, Restrained, Paralyzed, Stunned, Invisible with the seen exception, the Grappled attacker rule, and — for ranged attacks — the Ranged Attacks in Close Combat Disadvantage). Condition-sensitive observations such as charmer/grappler relationships, visibility, and the nearby-enemy census are required rather than defaulted. Exhaustion is returned as a flat modifier, never Advantage. Genuinely ambiguous rules text (e.g. a seen Invisible target) returns cannot-adjudicate with the ambiguous sentence cited."
   },
   {
    "adapter": "srd-5.2.1",
@@ -429,6 +430,7 @@
    "checked_scope": [
     "DC comparison",
     "modeled condition and social modifiers",
+    "condition-sensitive fact dependencies and category gates",
     "supplied d20 and modifiers"
    ],
    "unchecked_scope": [
@@ -438,8 +440,9 @@
     "narrative outcome"
    ],
    "evidence": [
-    "tests/test_checks.py::test_poisoned_and_frightened_impose_disadvantage_on_checks",
-    "tests/test_checks.py::test_blinded_auto_fails_sight_checks_only"
+    "tests/test_condition_fact_dependencies.py::test_check_condition_fact_matrices",
+    "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence",
+    "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"
    ],
    "tool": "check_make",
    "adapter_versions": {
@@ -447,7 +450,7 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. A missing DC returns missing-fact; malformed inputs or unsupported condition content return their structured recovery class."
+   "description": "Adjudicate an ability check (a D20 Test) against a DC, condition-aware. Actor conditions: Blinded/Deafened auto-fail a check that requires sight/hearing (supply check_requires, including an explicit empty array for neither); Poisoned/Frightened impose Disadvantage; Exhaustion its flat d20 penalty. Condition-sensitive observations are required rather than defaulted. On a social check where the actor is the target's charmer (target_charmed_by_actor + social), the actor has Advantage. Caller rolls (T6): with d20_result it returns {total, dc, success, roll[, auto_fail]}; without it composes {roll, dc, net_modifier}. Missing required facts return exact paths; malformed inputs or unsupported condition content return their structured recovery class."
   },
   {
    "adapter": "srd-5.2.1",

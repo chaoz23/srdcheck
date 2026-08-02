@@ -39,7 +39,8 @@ def test_reroll_only_one_die():  # eval st-03
 
 def test_invisible_archer_vs_prone_guard():  # eval ss-06 / doc example 2
     v = attack(attacker={"conditions": ["Invisible"]},
-               target={"conditions": ["Prone"]}, distance_ft=20)
+               target={"conditions": ["Prone"], "can_see_attacker": False},
+               distance_ft=20)
     assert v.exit_code == 0
     assert v.data["roll"] == "straight"
     assert len(v.data["advantage_sources"]) == 1
@@ -68,7 +69,8 @@ def test_paralyzed_and_stunned_targets_grant_advantage():
 
 
 def test_grappled_attacker_vs_non_grappler():  # 2024 addition
-    v = attack(attacker={"conditions": ["Grappled"]}, target={}, distance_ft=5)
+    v = attack(attacker={"conditions": ["Grappled"]},
+               target={"is_grappler_of_attacker": False}, distance_ft=5)
     assert v.data["roll"] == "disadvantage"
     ok = attack(attacker={"conditions": ["Grappled"]},
                 target={"is_grappler_of_attacker": True}, distance_ft=5)
@@ -99,7 +101,8 @@ def test_unknown_condition_exit_2():
 
 
 def test_frightened_is_modeled_not_refused():
-    v = attack(attacker={"conditions": ["Frightened"]}, target={},
+    v = attack(attacker={"conditions": ["Frightened"],
+                         "frightened_source_in_sight": True}, target={},
                distance_ft=5)
     assert v.exit_code == 0 and v.data["roll"] == "disadvantage"
 
@@ -120,7 +123,8 @@ def test_poisoned_attacker_has_disadvantage():
 
 
 def test_frightened_disadvantage_only_when_source_in_sight():
-    seen = attack(attacker={"conditions": ["Frightened"]}, target={},
+    seen = attack(attacker={"conditions": ["Frightened"],
+                            "frightened_source_in_sight": True}, target={},
                   distance_ft=5)
     assert seen.data["roll"] == "disadvantage"
     unseen = attack(attacker={"conditions": ["Frightened"],
@@ -135,7 +139,8 @@ def test_charmed_cannot_attack_the_charmer():
     assert illegal.exit_code == 1
     assert "condition.charmed.cant-harm-charmer" in illegal.rule_ids
     # against anyone else, Charmed imposes nothing
-    other = attack(attacker={"conditions": ["Charmed"]}, target={}, distance_ft=5)
+    other = attack(attacker={"conditions": ["Charmed"]},
+                   target={"is_charmer_of_attacker": False}, distance_ft=5)
     assert other.exit_code == 0 and other.data["roll"] == "straight"
 
 

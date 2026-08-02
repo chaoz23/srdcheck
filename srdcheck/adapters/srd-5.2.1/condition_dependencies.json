@@ -1,0 +1,40 @@
+{
+ "schema_version": "1.0",
+ "surfaces": {
+  "attack.modifiers": {
+   "effects": {
+    "attacker.charmed": {"condition": "Charmed", "rule_ids": ["condition.charmed.cant-harm-charmer"], "required_facts": ["target.is_charmer_of_attacker"]},
+    "attacker.frightened": {"condition": "Frightened", "rule_ids": ["condition.frightened.attacks"], "required_facts": ["attacker.frightened_source_in_sight"]},
+    "attacker.poisoned": {"condition": "Poisoned", "rule_ids": ["condition.poisoned.attacks"], "required_facts": []},
+    "attacker.prone": {"condition": "Prone", "rule_ids": ["condition.prone.attacks"], "required_facts": []},
+    "attacker.blinded": {"condition": "Blinded", "rule_ids": ["condition.blinded.attacks"], "required_facts": []},
+    "attacker.restrained": {"condition": "Restrained", "rule_ids": ["condition.restrained.attacks"], "required_facts": []},
+    "attacker.grappled": {"condition": "Grappled", "rule_ids": ["condition.grappled.attacks"], "required_facts": ["target.is_grappler_of_attacker"]},
+    "attacker.invisible": {"condition": "Invisible", "rule_ids": ["condition.invisible.attacks"], "required_facts": ["target.can_see_attacker"]},
+    "attacker.exhaustion": {"condition": "Exhaustion", "rule_ids": ["condition.exhaustion.d20-penalty"], "required_facts": ["attacker.exhaustion_level"]},
+    "target.prone": {"condition": "Prone", "rule_ids": ["condition.prone.attacks"], "required_facts": ["distance_ft"]},
+    "target.blinded": {"condition": "Blinded", "rule_ids": ["condition.blinded.attacks"], "required_facts": []},
+    "target.restrained": {"condition": "Restrained", "rule_ids": ["condition.restrained.attacks"], "required_facts": []},
+    "target.paralyzed": {"condition": "Paralyzed", "rule_ids": ["condition.paralyzed.attacks", "condition.paralyzed.auto-crit"], "required_facts": ["distance_ft"]},
+    "target.stunned": {"condition": "Stunned", "rule_ids": ["condition.stunned.attacks"], "required_facts": []},
+    "target.petrified": {"condition": "Petrified", "rule_ids": ["condition.petrified.attacks"], "required_facts": []},
+    "target.unconscious": {"condition": "Unconscious", "rule_ids": ["condition.unconscious.attacks", "condition.unconscious.auto-crit"], "required_facts": ["distance_ft"]},
+    "target.invisible": {"condition": "Invisible", "rule_ids": ["condition.invisible.attacks"], "required_facts": ["attacker.can_see_target"]},
+    "nearby-enemy.incapacitated": {"condition": "Incapacitated", "rule_ids": ["attack.ranged-in-close-combat", "condition.incapacitated.inactive"], "required_facts": ["can_see_attacker", "conditions"]}
+   },
+   "query_dependencies": {
+    "ranged.close-combat": {"when": {"path": "ranged", "equals": true}, "required_facts": ["nearby_enemies"]}
+   }
+  },
+  "check.make": {
+   "effects": {
+    "actor.blinded": {"condition": "Blinded", "rule_ids": ["condition.blinded.cant-see"], "required_facts": ["check_requires"]},
+    "actor.deafened": {"condition": "Deafened", "rule_ids": ["condition.deafened.cant-hear"], "required_facts": ["check_requires"]},
+    "actor.poisoned": {"condition": "Poisoned", "rule_ids": ["condition.poisoned.attacks"], "required_facts": []},
+    "actor.frightened": {"condition": "Frightened", "rule_ids": ["condition.frightened.attacks"], "required_facts": ["frightened_source_in_sight"]},
+    "actor.exhaustion": {"condition": "Exhaustion", "rule_ids": ["condition.exhaustion.d20-penalty"], "required_facts": ["exhaustion_level"]},
+    "target.charmed-social": {"condition": "Charmed", "rule_ids": ["condition.charmed.social-advantage"], "required_facts": ["social", "target_charmed_by_actor"]}
+   }
+  }
+ }
+}

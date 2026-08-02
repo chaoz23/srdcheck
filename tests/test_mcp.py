@@ -185,7 +185,8 @@ def test_stdio_subprocess_end_to_end():
             rpc("tools/list", mid=2),
             rpc("tools/call", {"name": "attack_modifiers",
                                "arguments": {"attacker": {"conditions": ["Invisible"]},
-                                             "target": {"conditions": ["Prone"]},
+                                             "target": {"conditions": ["Prone"],
+                                                        "can_see_attacker": False},
                                              "distance_ft": 20}}, mid=3)]
     out, _ = proc.communicate(
         "".join(json.dumps(m) + "\n" for m in msgs), timeout=30)

@@ -121,6 +121,76 @@ def _expand_conditions(lower_conds):
     return expanded, embeds
 
 
+def _condition_dependency_contract(adapter):
+    """Load the adapter-owned, machine-readable condition/fact contract."""
+    cached = getattr(adapter, "_condition_dependency_contract", None)
+    if cached is None:
+        path = adapter.root / "condition_dependencies.json"
+        cached = json.loads(path.read_text(encoding="utf-8"))
+        adapter._condition_dependency_contract = cached
+    return cached
+
+
+def _effect_required_facts(adapter, surface, effect):
+    return _condition_dependency_contract(adapter)["surfaces"][surface][
+        "effects"][effect]["required_facts"]
+
+
+def _query_required_facts(adapter, surface, dependency):
+    return _condition_dependency_contract(adapter)["surfaces"][surface][
+        "query_dependencies"][dependency]["required_facts"]
+
+
+def _path_present(payload, path):
+    current = payload
+    for part in path.split("."):
+        if not isinstance(current, dict) or part not in current:
+            return False
+        current = current[part]
+    return True
+
+
+def _missing_fact_refusal(adapter, paths):
+    """Return one deterministic missing-fact verdict for exact request paths."""
+    from srdcheck.engine import validation_refusal
+    unique = list(dict.fromkeys(paths))
+    return validation_refusal([
+        ValidationIssue(f"$.{path}", "required", "required field is missing")
+        for path in unique
+    ], adapter.id)
+
+
+def _condition_category_gate(adapter, supplied, modeled, surface):
+    """Shared condition-name/category/model gate for roll surfaces."""
+    normalized = set()
+    for raw in supplied:
+        if not isinstance(raw, str) or not raw.strip():
+            return None, v.cannot_adjudicate(
+                "Condition names must be non-empty strings.",
+                adapter=adapter.id, reason_code="invalid-input",
+                missing_inputs=())
+        name = raw.strip()
+        categories = adapter.lookup_entity(name) or []
+        if not categories:
+            return None, v.cannot_adjudicate(
+                f"'{name}' is not a condition known to this ruleset.",
+                adapter=adapter.id, reason_code="unsupported-content",
+                missing_inputs=())
+        if "condition" not in categories:
+            return None, v.cannot_adjudicate(
+                f"'{name}' is known content, but is not a condition.",
+                adapter=adapter.id, reason_code="invalid-input",
+                missing_inputs=())
+        key = name.casefold()
+        if key not in modeled:
+            return None, v.cannot_adjudicate(
+                f"'{name}' is a real condition, but its {surface} effects are "
+                "not modeled in this adapter version.", adapter=adapter.id,
+                reason_code="unmodeled-rule", missing_inputs=())
+        normalized.add(key)
+    return normalized, None
+
+
 def _effective_speed(adapter, p, cites, rules):
     speed = p.get("speed", 0)
     for c, atom_id in _SPEED_ZERO.items():
@@ -520,6 +590,7 @@ _ATTACK_MODELED = {"prone", "invisible", "blinded", "restrained", "paralyzed",
                    # the exhaustion_level param, not adv/disadv from the bare
                    # name. Listed here so the name isn't refused as unbuilt.
                    "exhaustion"}
+_CHECK_MODELED = set(_MODELED_CONDITIONS)
 
 
 def _compose(adapter, adv, dis):
@@ -574,52 +645,80 @@ def attack_modifiers(adapter, p):
             f"Exhaustion level {exl} is outside the SRD range (0 to 6; a "
             "creature dies at 6); cannot adjudicate.", adapter=aid,
             reason_code="invalid-input", missing_inputs=())
-    for side in (atk, tgt):
-        for c in side.get("conditions", []):
-            if not c.strip():
-                return v.cannot_adjudicate(
-                    "Condition names must not be blank.", adapter=aid,
-                    reason_code="invalid-input", missing_inputs=())
-            categories = adapter.lookup_entity(c) or []
-            if not categories:
-                return v.cannot_adjudicate(
-                    f"'{c}' is not a condition known to this ruleset.",
-                    adapter=aid, reason_code="unsupported-content",
-                    missing_inputs=())
-            if "condition" not in categories:
-                return v.cannot_adjudicate(
-                    f"'{c}' is known content, but is not a condition.",
-                    adapter=aid, reason_code="invalid-input",
-                    missing_inputs=())
-            if c.lower() not in _ATTACK_MODELED:
-                return v.cannot_adjudicate(
-                    f"'{c}' is known content, but its attack-roll effects are "
-                    "not modeled in this adapter version; refusing rather "
-                    "than risking a wrong verdict.", adapter=aid,
-                    reason_code="unmodeled-rule", missing_inputs=())
-    ac = {c.lower() for c in atk.get("conditions", [])}
-    tc = {c.lower() for c in tgt.get("conditions", [])}
+    ac, refusal = _condition_category_gate(
+        adapter, atk.get("conditions", []), _ATTACK_MODELED, "attack-roll")
+    if refusal is not None:
+        return refusal
+    tc, refusal = _condition_category_gate(
+        adapter, tgt.get("conditions", []), _ATTACK_MODELED, "attack-roll")
+    if refusal is not None:
+        return refusal
+
+    missing = []
+    for condition, effect in (
+            ("charmed", "attacker.charmed"),
+            ("frightened", "attacker.frightened"),
+            ("grappled", "attacker.grappled"),
+            ("invisible", "attacker.invisible"),
+            ("exhaustion", "attacker.exhaustion")):
+        if condition in ac:
+            missing.extend(
+                path for path in _effect_required_facts(
+                    adapter, "attack.modifiers", effect)
+                if not _path_present(p, path))
+    if "invisible" in tc:
+        missing.extend(
+            path for path in _effect_required_facts(
+                adapter, "attack.modifiers", "target.invisible")
+            if not _path_present(p, path))
+
+    nearby_states = []
+    if p.get("ranged"):
+        missing.extend(
+            path for path in _query_required_facts(
+                adapter, "attack.modifiers", "ranged.close-combat")
+            if not _path_present(p, path))
+        for index, enemy in enumerate(p.get("nearby_enemies", [])):
+            prefix = f"nearby_enemies[{index}]"
+            if "can_see_attacker" not in enemy:
+                missing.append(f"{prefix}.can_see_attacker")
+            if (enemy.get("can_see_attacker") is True
+                    and "conditions" not in enemy):
+                missing.append(f"{prefix}.conditions")
+            supplied = enemy.get("conditions", [])
+            enemy_conditions, refusal = _condition_category_gate(
+                adapter, supplied, _ATTACK_MODELED,
+                "ranged-close-combat")
+            if refusal is not None:
+                return refusal
+            expanded, embed_atoms = _expand_conditions(enemy_conditions)
+            nearby_states.append((enemy, expanded, embed_atoms))
+    if missing:
+        return _missing_fact_refusal(adapter, missing)
+
     dist = p.get("distance_ft", 5)
     adv, dis, cites, rules = [], [], [], []
 
+    def cite_rule(atom_id):
+        if atom_id not in rules:
+            atom = a[atom_id]
+            cites.append(_cite(atom))
+            rules.append(atom_id)
+
     def hit(atom_id, side_list, label):
-        atom = a[atom_id]
         side_list.append(label)
-        cites.append(_cite(atom))
-        rules.append(atom_id)
+        cite_rule(atom_id)
 
     # Charmed is a legality question, not a modifier: a Charmed attacker can't
-    # attack the charmer. Only decidable when the caller says the target IS the
-    # charmer; otherwise it's just Disadvantage-free and legal.
+    # attack the charmer. The dependency contract requires the relationship
+    # fact so an omitted observation cannot silently mean "not the charmer."
     if "charmed" in ac and tgt.get("is_charmer_of_attacker"):
         atom = a["condition.charmed.cant-harm-charmer"]
         return v.illegal(
             "The attacker is Charmed by the target: it can't attack the charmer.",
             [_cite(atom)], aid, [atom["id"]])
     if "frightened" in ac:
-        # gated on line of sight to the source of fear (a caller fact, defaulting
-        # to the common case that a frightened creature can see what scares it).
-        if atk.get("frightened_source_in_sight", True):
+        if atk["frightened_source_in_sight"]:
             hit("condition.frightened.attacks", dis,
                 "attacker is Frightened and the source of fear is in sight")
         else:
@@ -632,12 +731,16 @@ def attack_modifiers(adapter, p):
         # a ranged attack has Disadvantage if a seeing, non-Incapacitated enemy
         # is within 5 ft. The caller supplies who is within 5 ft (geometry, T6);
         # srdcheck applies the can-see + not-Incapacitated rule.
-        threatening = [e for e in p.get("nearby_enemies", [])
-                       if e.get("can_see_attacker")
-                       and "incapacitated" not in
-                       {c.lower() for c in e.get("conditions", [])}]
+        cite_rule("attack.ranged-in-close-combat")
+        threatening = []
+        for enemy, conditions, embed_atoms in nearby_states:
+            if enemy["can_see_attacker"] and "incapacitated" not in conditions:
+                threatening.append(enemy)
+            elif enemy["can_see_attacker"]:
+                for atom_id in embed_atoms:
+                    cite_rule(atom_id)
         if threatening:
-            hit("attack.ranged-in-close-combat", dis,
+            dis.append(
                 "ranged attack within 5 ft of a seeing, non-Incapacitated enemy")
 
     if "prone" in ac:
@@ -646,7 +749,7 @@ def attack_modifiers(adapter, p):
         hit("condition.blinded.attacks", dis, "attacker is Blinded")
     if "restrained" in ac:
         hit("condition.restrained.attacks", dis, "attacker is Restrained")
-    if "grappled" in ac and not tgt.get("is_grappler_of_attacker"):
+    if "grappled" in ac and not tgt["is_grappler_of_attacker"]:
         hit("condition.grappled.attacks", dis,
             "attacker is Grappled, target is not the grappler")
     if atk.get("unseen_by_target") and not tgt.get("can_see_attacker"):
@@ -654,7 +757,7 @@ def attack_modifiers(adapter, p):
     if tgt.get("unseen_by_attacker") and not atk.get("can_see_target"):
         hit("attack.unseen-target", dis, "target is unseen by the attacker")
     if "invisible" in ac:
-        if tgt.get("can_see_attacker"):
+        if tgt["can_see_attacker"]:
             atom = a["condition.invisible.attacks"]
             cites.append(_cite(atom))
             rules.append(atom["id"])
@@ -689,7 +792,7 @@ def attack_modifiers(adapter, p):
                 rules.append(crit["id"])
             break
     if "invisible" in tc:
-        if atk.get("can_see_target"):
+        if atk["can_see_target"]:
             atom = a["condition.invisible.attacks"]
             return v.cannot_adjudicate(
                 "The target is Invisible but the attacker can somehow see it. "
@@ -1701,31 +1804,54 @@ def check_make(adapter, p):
         return v.cannot_adjudicate(
             f"'{ability}' is not an ability (str/dex/con/int/wis/cha).",
             adapter=aid, reason_code="invalid-input", missing_inputs=())
-    supplied_conditions = p.get("actor_conditions", [])
-    if any(not c.strip() for c in supplied_conditions):
-        return v.cannot_adjudicate(
-            "Condition names must not be blank.", adapter=aid,
-            reason_code="invalid-input", missing_inputs=())
-    conds = {c.lower() for c in supplied_conditions}
-    for c in conds:
-        categories = adapter.lookup_entity(c) or []
-        if not categories:
-            return v.cannot_adjudicate(
-                f"'{c}' is not a condition known to this ruleset.", adapter=aid,
-                reason_code="unsupported-content", missing_inputs=())
-        if "condition" not in categories:
-            return v.cannot_adjudicate(
-                f"'{c}' is known content, but is not a condition.", adapter=aid,
-                reason_code="invalid-input", missing_inputs=())
-    requires = (p.get("check_requires") or "").lower()
+    conds, refusal = _condition_category_gate(
+        adapter, p.get("actor_conditions", []), _CHECK_MODELED,
+        "ability-check")
+    if refusal is not None:
+        return refusal
 
-    if "blinded" in conds and requires == "sight":
+    missing = []
+    for condition, effect in (
+            ("blinded", "actor.blinded"),
+            ("deafened", "actor.deafened"),
+            ("frightened", "actor.frightened"),
+            ("exhaustion", "actor.exhaustion")):
+        if condition in conds:
+            missing.extend(
+                path for path in _effect_required_facts(
+                    adapter, "check.make", effect)
+                if not _path_present(p, path))
+    charm_facts = _effect_required_facts(
+        adapter, "check.make", "target.charmed-social")
+    if p.get("social") is True and "target_charmed_by_actor" not in p:
+        missing.append(charm_facts[1])
+    if p.get("target_charmed_by_actor") is True and "social" not in p:
+        missing.append(charm_facts[0])
+    if missing:
+        return _missing_fact_refusal(adapter, missing)
+
+    supplied_requires = p.get("check_requires", [])
+    if isinstance(supplied_requires, str):
+        normalized = supplied_requires.strip().casefold()
+        if normalized == "neither":
+            requires = set()
+        elif normalized in {"sight", "hearing"}:
+            requires = {normalized}
+        else:
+            return v.cannot_adjudicate(
+                "check_requires must be 'sight', 'hearing', 'neither', or "
+                "an array containing sight and/or hearing.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=())
+    else:
+        requires = {item.casefold() for item in supplied_requires}
+
+    if "blinded" in conds and "sight" in requires:
         bl = a["condition.blinded.cant-see"]
         return v.legal(
             "Automatic failure: a Blinded creature auto-fails a check that "
             "requires sight.", [_cite(bl)], aid, [bl["id"]],
             data={"dc": dc, "success": False, "auto_fail": True})
-    if "deafened" in conds and requires == "hearing":
+    if "deafened" in conds and "hearing" in requires:
         df = a["condition.deafened.cant-hear"]
         return v.legal(
             "Automatic failure: a Deafened creature auto-fails a check that "
@@ -1738,7 +1864,7 @@ def check_make(adapter, p):
         dis.append("Poisoned")
         cites.append(_cite(po))
         rules.append(po["id"])
-    if "frightened" in conds and p.get("frightened_source_in_sight", True):
+    if "frightened" in conds and p["frightened_source_in_sight"]:
         fr = a["condition.frightened.attacks"]  # covers ability checks too
         dis.append("Frightened (source in sight)")
         cites.append(_cite(fr))

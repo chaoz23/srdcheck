@@ -20,7 +20,8 @@ def test_blinded_auto_fails_sight_checks_only():
                   dc=5, d20_result=20)
     assert sight.data["success"] is False and sight.data["auto_fail"]
     # a check that doesn't require sight resolves normally
-    other = check(actor_conditions=["Blinded"], dc=5, d20_result=20)
+    other = check(actor_conditions=["Blinded"], check_requires=[],
+                  dc=5, d20_result=20)
     assert other.data["success"] is True
 
 
@@ -33,7 +34,9 @@ def test_deafened_auto_fails_hearing_checks():
 
 def test_poisoned_and_frightened_impose_disadvantage_on_checks():
     assert check(actor_conditions=["Poisoned"], dc=10).data["roll"] == "disadvantage"
-    assert check(actor_conditions=["Frightened"], dc=10).data["roll"] == "disadvantage"
+    assert check(actor_conditions=["Frightened"],
+                 frightened_source_in_sight=True,
+                 dc=10).data["roll"] == "disadvantage"
 
 
 def test_charmer_has_advantage_on_social_checks():
@@ -41,7 +44,8 @@ def test_charmer_has_advantage_on_social_checks():
     assert r.data["roll"] == "advantage"
     assert "condition.charmed.social-advantage" in r.rule_ids
     # not a social check: no advantage
-    assert check(target_charmed_by_actor=True, dc=10).data["roll"] == "straight"
+    assert check(target_charmed_by_actor=True, social=False,
+                 dc=10).data["roll"] == "straight"
 
 
 def test_exhaustion_penalty_on_checks():
