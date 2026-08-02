@@ -24,7 +24,7 @@ Machine metadata lives in `data`; agents branch on it instead of parsing `why`. 
 
 ## Release identity
 
-Engine `0.6.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.6, 0.5`.
+Engine `0.7.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.7, 0.5`.
 
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|

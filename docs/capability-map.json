@@ -3,7 +3,7 @@
  "generated_from": "srdcheck/capability_claims.json + srdcheck capabilities + adapter queries.json",
  "engine": {
   "name": "srdcheck",
-  "version": "0.6.0"
+  "version": "0.7.0"
  },
  "machine_contracts": {
   "verdict_schema_version": "1.0",
@@ -11,13 +11,13 @@
   "refusal_contract_version": "1.0",
   "compatibility_window": "N/N-1",
   "supported_engine_minors": [
-   "0.6",
+   "0.7",
    "0.5"
   ],
   "why_stability": "non-contractual"
  },
  "release_tuple": {
-  "engine_version": "0.6.0",
+  "engine_version": "0.7.0",
   "adapters": [
    {
     "identifier": "srd-5.1",

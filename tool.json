@@ -1,6 +1,6 @@
 {
  "name": "srdcheck",
- "version": "0.6.0",
+ "version": "0.7.0",
  "description": "Deterministic rules verdicts over the SRD for game-running agents. Exit codes are scoped results: 0 passes the named checked scope, 1 conflicts with it, 2 cannot-adjudicate (unknown content or a DM-authority decision, including when the caller is the agent-DM — an honest refusal, not an error). Applied rules carry citations; boundary refusals do not invent them.",
  "status": "alpha; versioned machine schemas and the N/N-1 semantic window are reported by `capabilities`",
  "rulesets": [
