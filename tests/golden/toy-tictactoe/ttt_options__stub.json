@@ -15,7 +15,56 @@
   "suggested_next_action": "repair-request"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Malformed board: expected 9 characters of X, O, and '.' \u2014 cannot adjudicate.",
+  "situation_facts": [
+   "/board = \"Test Name\" (source: caller; confidence: unknown)",
+   "/player = \"X\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/board",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "Test Name"
+   },
+   {
+    "confidence": null,
+    "path": "/player",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "X"
+   }
+  ],
+  "consumed": [
+   "/board",
+   "/player"
+  ],
+  "derived": [],
+  "missing": []
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "toy-tictactoe@0.1.0",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Malformed board: expected 9 characters of X, O, and '.' \u2014 cannot adjudicate."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "strategy",
   "ranking options"

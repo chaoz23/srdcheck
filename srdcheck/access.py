@@ -180,9 +180,12 @@ class AdapterHandle:
     def query_types(self):
         return sorted(self._a.query_types)
 
-    def query(self, query_type, params=None):
-        """Run a query through this adapter; returns the verdict as a dict."""
-        return self._engine.query(query_type, params or {}).as_dict()
+    def query(self, query_type, params=None, *, asserted_facts=None,
+              table_decision=None):
+        """Run a query and return a provenance-separated verdict receipt."""
+        return self._engine.query(
+            query_type, params or {}, asserted_facts=asserted_facts,
+            table_decision=table_decision).as_dict()
 
 
 def edition_check(name, category, current="srd-5.2.1", priors=("srd-5.1",)):

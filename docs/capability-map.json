@@ -6,7 +6,7 @@
   "version": "0.8.0"
  },
  "machine_contracts": {
-  "verdict_schema_version": "2.0",
+  "verdict_schema_version": "3.0",
   "capabilities_schema_version": "2.0",
   "refusal_contract_version": "1.0",
   "compatibility_window": "N/N-1",
@@ -135,8 +135,9 @@
    "rule-surface-complete": "The named rules surface was evaluated from supplied facts; unchecked scope remains outside the result.",
    "full-context-checkable": "The closed rules surface and all state it defines as relevant were supplied and checked."
   },
-  "authority_boundary": "srdcheck reports an SRD-derived result. The authorized DM, whether human or agent, owns table rulings and may rule directly when the result requires DM authority.",
-  "prose_stability": "The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, rule_ids, citations, and structured data instead of parsing why.",
+  "authority_boundary": "srdcheck reports an advisory SRD-derived rule_result. The authorized DM, whether human or agent, owns table_decision; recording one never rewrites the rule result or implies state mutation.",
+  "fact_provenance": "facts.asserted records caller parameter leaves and source/confidence metadata; facts.consumed references facts supplied to the selected rules handler; facts.derived points to rule_result as its basis; facts.missing remains separate from assumptions.",
+  "prose_stability": "The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, facts, rule_result, table_decision, state_mutation, rule_ids, citations, and structured data instead of parsing why.",
   "vision_rule": "Target capabilities are labeled target and are never advertised as executable tools."
  },
  "shipped": [

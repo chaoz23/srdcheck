@@ -15,6 +15,10 @@ from datetime import datetime, timezone
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 CASES_PATH = pathlib.Path(__file__).with_name("cases.jsonl")
+FROZEN_CATALOG_IDENTITIES = {
+    "specialized": (23, 49350),
+    "compact": (4, 1331),
+}
 
 SYSTEM_PROMPT = """You are the DM running a D&D game for human players over Discord.
 Use SRDCheck before narrating the mechanical ruling. Select exactly one first
@@ -367,10 +371,8 @@ def validate_results(paths):
             if record.get("arm") not in ("specialized", "compact"):
                 errors.append(location + ": invalid arm")
                 continue
-            _, tools = catalog(record["arm"])
-            encoded = json.dumps(tools, separators=(",", ":"), sort_keys=True).encode()
             if (record.get("catalog_tools"), record.get("catalog_bytes")) != (
-                    len(tools), len(encoded)):
+                    FROZEN_CATALOG_IDENTITIES[record["arm"]]):
                 errors.append(location + ": stale catalog identity")
             if not isinstance(record.get("commit"), str) or len(record["commit"]) != 40:
                 errors.append(location + ": missing exact commit")

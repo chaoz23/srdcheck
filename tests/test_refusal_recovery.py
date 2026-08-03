@@ -212,11 +212,12 @@ def test_every_first_party_refusal_golden_carries_the_contract():
     assert seen > 0
 
 
-def test_verdict_schema_v2_top_level_shape_stays_frozen():
+def test_verdict_schema_v3_top_level_shape_stays_frozen():
     assert set(v.VERDICT_OUTPUT_SCHEMA["properties"]) == {
         "verdict", "exit_code", "why", "citations", "rule_ids", "adapter",
         "coverage_level", "checked_scope", "unchecked_scope", "assumptions",
-        "data",
+        "facts", "rule_result", "table_decision", "state_mutation",
+        "explanation", "data",
     }
     assert v.VERDICT_OUTPUT_SCHEMA["properties"]["data"] == {"type": "object"}
     assert "reason_code" not in v.VERDICT_OUTPUT_SCHEMA["properties"]

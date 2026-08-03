@@ -12,20 +12,25 @@ structured facts and gets an SRD-derived verdict that applies only to that
 declared scope. A `legal` result means **passes that checked scope**; it never
 means that the whole action, turn, build, or scene is globally legal. Every
 native verdict carries a named `coverage_level`, `checked_scope`,
-`unchecked_scope`, and explicit `assumptions`; legal explanations also say
-that legality applies only within the checked scope.
+`unchecked_scope`, and explicit `assumptions`. Verdict schema 3.0 also separates
+asserted/consumed/derived/missing `facts`, advisory `rule_result`, scoped
+`table_decision`, and `state_mutation`; legal explanations say that legality
+applies only within the checked scope.
 
 The usual caller is a game-running agent, often the authorized DM itself:
 
 1. The agent-DM parses player intent and gathers table state.
-2. It calls one or more relevant srdcheck tools with structured facts.
+2. It calls one or more relevant srdcheck tools with structured facts, adding
+   source/confidence metadata when facts came from ASR, perception, or another
+   agent.
 3. It branches on machine fields, not on the non-contractual `why` prose.
 4. It resolves unchecked fiction, ambiguity, and table policy under its DM
    authority. A separate human DM can hold that authority too; the product does
    not assume that agent and DM are different actors.
 5. It supplies any die result from an auditable roller and declares any state
    event to `event.apply`.
-6. It narrates and commits state in the caller-owned ledger.
+6. It records any scoped `table_decision`, narrates, and commits a proposed
+   state replacement in the caller-owned ledger.
 
 srdcheck does not parse the player's sentence, roll dice, own a campaign clock,
 derive map geometry, choose tactics, or autonomously advance state.

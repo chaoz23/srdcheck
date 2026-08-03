@@ -21,7 +21,56 @@
   "suggested_next_action": "provide-facts"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Provide the prerequisite facts: attacker_size, target_size, has_free_hand. Strength modifier and Proficiency Bonus may remain blank when only the DC formula is needed.",
+  "situation_facts": [
+   "/kind = \"grapple\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/kind",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "grapple"
+   }
+  ],
+  "consumed": [
+   "/kind"
+  ],
+  "derived": [],
+  "missing": [
+   {
+    "path": "attacker_size"
+   },
+   {
+    "path": "target_size"
+   },
+   {
+    "path": "has_free_hand"
+   }
+  ]
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Provide the prerequisite facts: attacker_size, target_size, has_free_hand. Strength modifier and Proficiency Bonus may remain blank when only the DC formula is needed."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "prerequisite facts the caller omitted",
   "escape contests",

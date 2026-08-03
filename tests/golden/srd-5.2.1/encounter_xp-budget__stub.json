@@ -21,9 +21,66 @@
   "suggested_next_action": "repair-request"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Difficulty 'Test Name' is not one of ['low', 'moderate', 'high'].",
+  "situation_facts": [
+   "/difficulty = \"Test Name\" (source: caller; confidence: unknown)",
+   "/level = 2 (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/difficulty",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "Test Name"
+   },
+   {
+    "confidence": null,
+    "path": "/level",
+    "source": {
+     "kind": "caller"
+    },
+    "value": 2
+   }
+  ],
+  "consumed": [
+   "/difficulty",
+   "/level"
+  ],
+  "derived": [],
+  "missing": []
+ },
  "rule_ids": [
   "encounter.xp-budget-per-character"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 202,
+    "quote": "Using the XP Budget per Character table, cross-reference the party's level with the desired encounter difficulty. Multiply the number in the table by the number of characters in the party to get your XP budget for the encounter.",
+    "section": "SRD 5.2.1 p.202 'Gameplay Toolbox > Building Combat Encounters > XP Budget per Character'"
+   }
+  ],
+  "exit_code": 2,
+  "rule_ids": [
+   "encounter.xp-budget-per-character"
+  ],
+  "verdict": "cannot-adjudicate",
+  "why": "Difficulty 'Test Name' is not one of ['low', 'moderate', 'high']."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "encounter suitability",
   "monster tactics",

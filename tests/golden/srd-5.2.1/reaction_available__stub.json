@@ -16,9 +16,56 @@
  ],
  "coverage_level": "budget-only",
  "exit_code": 1,
+ "explanation": {
+  "rule": "The Reaction is spent. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn.",
+  "situation_facts": [
+   "/spent_since_turn_start = true (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/spent_since_turn_start",
+    "source": {
+     "kind": "caller"
+    },
+    "value": true
+   }
+  ],
+  "consumed": [
+   "/spent_since_turn_start"
+  ],
+  "derived": [],
+  "missing": []
+ },
  "rule_ids": [
   "turn.one-reaction-per-round"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 186,
+    "quote": "You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn.",
+    "section": "SRD 5.2.1 p.186 'Rules Glossary > Reaction'"
+   }
+  ],
+  "exit_code": 1,
+  "rule_ids": [
+   "turn.one-reaction-per-round"
+  ],
+  "verdict": "illegal",
+  "why": "The Reaction is spent. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "whether a proposed trigger occurred",
   "target and range legality"

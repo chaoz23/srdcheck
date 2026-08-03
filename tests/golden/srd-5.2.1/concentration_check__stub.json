@@ -19,9 +19,62 @@
   "dc": 10
  },
  "exit_code": 0,
+ "explanation": {
+  "rule": "Concentration DC is max(10, 2 // 2) = 10. Legal only within this checked scope.",
+  "situation_facts": [
+   "/damage = 2 (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/damage",
+    "source": {
+     "kind": "caller"
+    },
+    "value": 2
+   }
+  ],
+  "consumed": [
+   "/damage"
+  ],
+  "derived": [
+   {
+    "basis": "rule_result",
+    "path": "/data/dc",
+    "value": 10
+   }
+  ],
+  "missing": []
+ },
  "rule_ids": [
   "save.concentration-dc"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 179,
+    "quote": "The DC equals 10 or half the damage taken (round down), whichever number is higher, up to a maximum DC of 30.",
+    "section": "SRD 5.2.1 p.179 'Rules Glossary > Concentration'"
+   }
+  ],
+  "exit_code": 0,
+  "rule_ids": [
+   "save.concentration-dc"
+  ],
+  "verdict": "legal",
+  "why": "Concentration DC is max(10, 2 // 2) = 10. Legal only within this checked scope."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "tracking concentration over time",
   "detecting damage events",

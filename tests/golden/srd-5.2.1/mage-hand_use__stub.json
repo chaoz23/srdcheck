@@ -25,9 +25,56 @@
   "suggested_next_action": "resolve-table-ruling"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "The spell text neither grants nor forbids this use. Whether 'manipulate an object' extends to it \u2014 and any check required \u2014 must be resolved as a table ruling by the authorized DM, including the calling agent when it is the DM.",
+  "situation_facts": [
+   "/kind = \"Test Name\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/kind",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "Test Name"
+   }
+  ],
+  "consumed": [
+   "/kind"
+  ],
+  "derived": [],
+  "missing": []
+ },
  "rule_ids": [
   "mage-hand.granted-uses"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 145,
+    "quote": "you can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial",
+    "section": "SRD 5.2.1 p.145 'Spells > Mage Hand'"
+   }
+  ],
+  "exit_code": 2,
+  "rule_ids": [
+   "mage-hand.granted-uses"
+  ],
+  "verdict": "cannot-adjudicate",
+  "why": "The spell text neither grants nor forbids this use. Whether 'manipulate an object' extends to it \u2014 and any check required \u2014 must be resolved as a table ruling by the authorized DM, including the calling agent when it is the DM."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "fine-manipulation ambiguity",
   "duration or range trigger tracking across events",
