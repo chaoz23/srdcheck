@@ -332,6 +332,65 @@ def summarize(records):
     return {"|".join(map(str, key)): value for key, value in sorted(groups.items())}
 
 
+def load_results(paths):
+    return [json.loads(line) for path in paths
+            for line in pathlib.Path(path).read_text().splitlines() if line.strip()]
+
+
+def validate_results(paths):
+    cases = {case["id"]: case for case in load_cases()}
+    digest = case_digest()
+    errors = []
+    for path in paths:
+        records = load_results([path])
+        prefix = pathlib.Path(path).name
+        keys = [(record.get("id"), record.get("replicate")) for record in records]
+        expected_keys = {(case_id, replicate) for case_id in cases
+                         for replicate in (1, 2)}
+        if set(keys) != expected_keys or len(keys) != len(expected_keys):
+            errors.append(prefix + ": must contain each case exactly once per replicate")
+        identities = {(record.get("subject"), record.get("cohort"),
+                       record.get("arm")) for record in records}
+        if len(identities) != 1:
+            errors.append(prefix + ": must contain one subject/cohort/arm identity")
+        for record in records:
+            location = prefix + ":" + str(record.get("id")) + ":r" + str(
+                record.get("replicate"))
+            case = cases.get(record.get("id"))
+            if case is None:
+                errors.append(location + ": unknown case")
+                continue
+            if record.get("case_digest") != digest:
+                errors.append(location + ": stale case digest")
+            if record.get("lane") != case["lane"]:
+                errors.append(location + ": stale lane")
+            if record.get("arm") not in ("specialized", "compact"):
+                errors.append(location + ": invalid arm")
+                continue
+            _, tools = catalog(record["arm"])
+            encoded = json.dumps(tools, separators=(",", ":"), sort_keys=True).encode()
+            if (record.get("catalog_tools"), record.get("catalog_bytes")) != (
+                    len(tools), len(encoded)):
+                errors.append(location + ": stale catalog identity")
+            if not isinstance(record.get("commit"), str) or len(record["commit"]) != 40:
+                errors.append(location + ": missing exact commit")
+            if not isinstance(record.get("run_date"), str):
+                errors.append(location + ": missing run date")
+            answer = record.get("answer")
+            if answer is None:
+                recomputed = {"broken": True, "selection_success": False,
+                              "argument_success": False, "execution_success": False,
+                              "first_call_success": False}
+            else:
+                engine, _ = catalog(record["arm"])
+                recomputed = assess(engine, case, record["arm"], json.dumps(answer))
+            for metric in ("broken", "selection_success", "argument_success",
+                           "execution_success", "first_call_success"):
+                if record.get(metric) != recomputed[metric]:
+                    errors.append(location + ": stale score " + metric)
+    return errors
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser()
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -349,7 +408,9 @@ def main(argv=None):
     run_parser.add_argument("--cases", default=str(CASES_PATH))
     run_parser.add_argument("--output", required=True)
     score_parser = subparsers.add_parser("score")
-    score_parser.add_argument("results")
+    score_parser.add_argument("results", nargs="+")
+    result_parser = subparsers.add_parser("validate-results")
+    result_parser.add_argument("results", nargs="+")
     args = parser.parse_args(argv)
     if args.command == "validate-set":
         errors = validate_cases(args.cases)
@@ -368,8 +429,15 @@ def main(argv=None):
     if args.command == "run":
         run(args)
         return 0
-    records = [json.loads(line) for line in pathlib.Path(args.results).read_text().splitlines()
-               if line.strip()]
+    if args.command == "validate-results":
+        errors = validate_results(args.results)
+        if errors:
+            for error in errors:
+                print(error)
+            return 1
+        print(f"valid: {len(load_results(args.results))} result records")
+        return 0
+    records = load_results(args.results)
     print(json.dumps(summarize(records), indent=2, sort_keys=True))
     return 0
 

@@ -69,3 +69,13 @@ def test_dropped_fact_and_broken_output_fail_first_call():
     assert not result["first_call_success"]
     assert HARNESS.assess(engine, case, "specialized", "I would use turn_plan")[
         "broken"]
+
+
+def test_committed_hosted_results_are_complete_and_reproducibly_scored():
+    results = sorted((ROOT / "bench" / "tool_selection" / "results").glob("*.jsonl"))
+    assert len(results) == 4
+    assert HARNESS.validate_results(results) == []
+    records = HARNESS.load_results(results)
+    assert len(records) == 224
+    assert {record["cohort"] for record in records} == {"frontier", "mid-tier"}
+    assert all(record["case_digest"] == HARNESS.case_digest() for record in records)
