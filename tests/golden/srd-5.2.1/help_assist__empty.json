@@ -1,6 +1,15 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied proficiency, target, and distance facts describe the proposed assistance"
+ ],
+ "checked_scope": [
+  "caller-supplied ability-check proficiency fact",
+  "caller-supplied attack-assist five-foot fact",
+  "Advantage grant"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "kind"
@@ -14,6 +23,12 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "facts the caller omitted",
+  "whether assistance is fictionally possible",
+  "geometry discovery",
+  "the authorized DM's table ruling"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.kind: required field is missing"
 }

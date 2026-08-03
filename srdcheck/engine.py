@@ -7,6 +7,7 @@ honest exit 2 — never a guess (T1, T8).
 
 from . import verdict as v
 from .adapter import Adapter
+from .coverage import apply_query_scope as _scoped
 from .schema import issues as schema_issues, normalize_integers
 
 NON_EMPTY_NAME_INPUT_SCHEMA = {
@@ -19,7 +20,6 @@ NON_EMPTY_NAME_INPUT_SCHEMA = {
 }
 # Kept as an import-compatible alias for existing jurisdiction integrations.
 JURISDICTION_INPUT_SCHEMA = NON_EMPTY_NAME_INPUT_SCHEMA
-
 
 def validation_refusal(problems, adapter=""):
     """Turn typed validation issues into a structured recovery verdict."""
@@ -50,39 +50,45 @@ class Engine:
     def jurisdiction(self, name):
         problems = schema_issues({"name": name}, NON_EMPTY_NAME_INPUT_SCHEMA)
         if problems:
-            return self._invalid_input(problems)
+            return _scoped(self._invalid_input(problems), "kernel", "jurisdiction")
         for a in self.adapters:
             cats = a.lookup_entity(name)
             if cats:
                 categories = sorted(set(cats))
-                return v.legal(
+                return _scoped(v.legal(
                     f"'{name}' is known content: {', '.join(categories)}.",
                     adapter=a.id,
-                    data={"categories": categories})
+                    data={"categories": categories}), "kernel", "jurisdiction")
         known = ", ".join(a.id for a in self.adapters)
-        return v.cannot_adjudicate(
+        return _scoped(v.cannot_adjudicate(
             f"'{name}' is not present in any loaded ruleset ({known}). "
             "Unknown or third-party content cannot be adjudicated.",
             adapter=known,
             reason_code="unsupported-content",
-            missing_inputs=[])
+            missing_inputs=[]), "kernel", "jurisdiction")
 
     def cite(self, name):
+        scope = {
+            "coverage_level": "registry-only",
+            "checked_scope": ["loaded source-heading lookup", "returned source text"],
+            "unchecked_scope": ["rules interpretation", "mechanical legality"],
+            "assumptions": ["the supplied heading names the source passage the caller intends"],
+        }
         problems = schema_issues({"name": name}, NON_EMPTY_NAME_INPUT_SCHEMA)
         if problems:
-            return self._invalid_input(problems)
+            return v.with_scope(self._invalid_input(problems), **scope)
         for a in self.adapters:
             hit = a.cite(name)
             if hit:
-                return v.legal(
+                return v.with_scope(v.legal(
                     f"Verbatim source text for '{name}' (p.{hit['page']}).",
-                    adapter=a.id, data=hit)
+                    adapter=a.id, data=hit), **scope)
         known = ", ".join(a.id for a in self.adapters)
-        return v.cannot_adjudicate(
+        return v.with_scope(v.cannot_adjudicate(
             f"'{name}' not found as a heading in any loaded ruleset's source "
             f"text ({known}).", adapter=known,
             reason_code="unsupported-content",
-            missing_inputs=[])
+            missing_inputs=[]), **scope)
 
     def query(self, query_type, params):
         if not isinstance(query_type, str) or not query_type.strip():
@@ -92,20 +98,21 @@ class Engine:
         if query_type == "jurisdiction":
             problems = schema_issues(params, NON_EMPTY_NAME_INPUT_SCHEMA)
             if problems:
-                return self._invalid_input(problems)
+                return _scoped(self._invalid_input(problems), "kernel", query_type)
             return self.jurisdiction(params["name"])
         for a in self.adapters:
             if query_type in a.query_types:
                 schema = (a.query_meta.get(query_type) or {}).get("inputSchema")
                 problems = schema_issues(params, schema)
                 if problems:
-                    return self._invalid_input(problems, a.id)
+                    return _scoped(self._invalid_input(problems, a.id),
+                                   a.manifest["name"], query_type)
                 # JSON Schema defines 1 and 1.0 as the same integer. Handlers
                 # receive the canonical Python integer in a fresh structure so
                 # transport representation cannot change adjudication and the
                 # caller's request is never mutated.
-                return a.handle(
-                    query_type, normalize_integers(params, schema or {}))
+                return a.handle(query_type,
+                                normalize_integers(params, schema or {}))
         known = sorted(t for a in self.adapters for t in a.query_types)
         return v.cannot_adjudicate(
             f"No loaded adapter answers query type '{query_type}'. "

@@ -1,9 +1,16 @@
 {
- "schema_version": "1.0",
+ "schema_version": "2.0",
  "result_contract": {
   "canonical_promise": "A legal result means only that the query's named checked scope passed. It is not a claim of global or complete legality.",
+  "coverage_levels": {
+   "unknown": "No canonical scope claim is available; do not treat the result as complete.",
+   "registry-only": "Only named registry or fact-record membership was checked.",
+   "budget-only": "Only declared resource and action-economy budgets were checked.",
+   "rule-surface-complete": "The named rules surface was evaluated from supplied facts; unchecked scope remains outside the result.",
+   "full-context-checkable": "The closed rules surface and all state it defines as relevant were supplied and checked."
+  },
   "authority_boundary": "srdcheck reports an SRD-derived result. The authorized DM, whether human or agent, owns table rulings and may rule directly when the result requires DM authority.",
-  "prose_stability": "The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, rule_ids, citations, and structured data instead of parsing why.",
+  "prose_stability": "The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, rule_ids, citations, and structured data instead of parsing why.",
   "vision_rule": "Target capabilities are labeled target and are never advertised as executable tools."
  },
  "query_coverage": [
@@ -11,6 +18,8 @@
    "adapter": "kernel",
    "query_type": "jurisdiction",
    "capability": "Check whether a name occurs in a loaded adapter registry and report every matching content category.",
+   "coverage_level": "registry-only",
+   "assumptions": ["the supplied name identifies the content the caller intends to check"],
    "checked_scope": ["registry membership", "all matching registry categories"],
    "unchecked_scope": ["mechanical legality", "whether an unknown name is a typo, homebrew, or third-party content"],
    "evidence": ["tests/test_kernel.py::test_jurisdiction_known_content", "tests/test_kernel.py::test_jurisdiction_unknown_content", "tests/test_kernel.py::test_jurisdiction_returns_all_categories_for_colliding_name"]
@@ -19,6 +28,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "turn.plan",
    "capability": "Check a proposed turn against the modeled action-economy and movement budgets.",
+   "coverage_level": "budget-only",
+   "assumptions": ["caller-supplied speed, conditions, spent budgets, and plan describe the current proposed turn"],
    "checked_scope": ["action, bonus-action, reaction, interaction, movement, and spell-slot-per-turn budgets", "modeled condition effects on those budgets"],
    "unchecked_scope": ["whether a feature grants an action", "targets, ranges, line of sight, cover, inventory, and bespoke feature prerequisites"],
    "evidence": ["tests/test_turn_economy.py::test_two_bonus_actions_illegal", "tests/test_enumeration.py::test_t5_consistency_sweep"]
@@ -27,6 +38,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "turn.options",
    "capability": "Enumerate remaining modeled action-economy option kinds.",
+   "coverage_level": "budget-only",
+   "assumptions": ["caller-supplied speed, conditions, and spent budgets describe the current turn"],
    "checked_scope": ["remaining budget option kinds", "movement remaining and modeled stand/crawl costs"],
    "unchecked_scope": ["every legal creature action", "feature-specific actions, targets, geometry, and tactics"],
    "evidence": ["tests/test_enumeration.py::test_t5_consistency_sweep"]
@@ -35,6 +48,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "reaction.available",
    "capability": "Check whether the modeled reaction budget is available.",
+   "coverage_level": "budget-only",
+   "assumptions": ["caller-supplied conditions and reaction-spend state are accurate and current"],
    "checked_scope": ["reaction spent since turn start", "Incapacitated and the Stunned, Paralyzed, Petrified, and Unconscious definitional embeds"],
    "unchecked_scope": ["whether a proposed trigger occurred", "target and range legality"],
    "evidence": ["tests/test_turn_economy.py::test_reaction_available_honors_incapacitated_and_embeds", "tests/test_turn_economy.py::test_reaction_available_refuses_unknown_and_non_condition_names"]
@@ -43,6 +58,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "roll.compose",
    "capability": "Compose caller-supplied Advantage and Disadvantage sources.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["the caller supplied every applicable Advantage and Disadvantage source"],
    "checked_scope": ["cancellation and non-stacking of supplied sources", "reroll-one-die note"],
    "unchecked_scope": ["discovering sources from narrative or character state", "rolling dice"],
    "evidence": ["tests/test_roll_modifiers.py::test_two_adv_one_dis_is_straight", "tests/test_roll_modifiers.py::test_stacked_advantage_still_two_dice"]
@@ -51,6 +68,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "attack.modifiers",
    "capability": "Compose modeled attack modifiers from structured combatant facts.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied combatant, visibility, relationship, and distance facts are accurate and current"],
    "checked_scope": ["documented condition modifiers", "Prone distance behavior", "condition-sensitive fact dependencies and category gates", "ranged attacks in close combat with Incapacitated embeds"],
    "unchecked_scope": ["cover and line-of-sight geometry not supplied as facts", "weapon or feature prerequisites"],
    "evidence": ["tests/test_condition_fact_dependencies.py::test_attack_condition_fact_matrices", "tests/test_condition_fact_dependencies.py::test_ranged_enemy_dependency_claim_evidence", "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence", "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"]
@@ -59,6 +78,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "mage-hand.use",
    "capability": "Check one proposed Mage Hand use against its modeled grants, prohibitions, weight, and range.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["the supplied use kind describes the proposal", "supplied weight and distance facts are accurate when relevant to the result"],
    "checked_scope": ["listed uses and prohibitions", "10-pound limit", "30-foot range for the proposal"],
    "unchecked_scope": ["fine-manipulation ambiguity", "duration or range trigger tracking across events", "narrative consequences"],
    "evidence": ["tests/test_kernel.py::test_mage_hand_demo_goldens"]
@@ -67,6 +88,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "event.apply",
    "capability": "Fold one supported, caller-declared event into a hash-stamped next state.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["the supplied predecessor state is canonical and current", "the caller-declared event accurately describes what occurred"],
    "checked_scope": ["declared event validation and supported state transitions", "predecessor, event, rule, and ruling lineage"],
    "unchecked_scope": ["generating events", "advancing time autonomously", "geometry", "bespoke spell effects"],
    "evidence": ["tests/test_ledger.py::test_lineage_chain_and_tamper_detection", "tests/test_ledger.py::test_reducer_agrees_with_validator"]
@@ -75,6 +98,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "creature.valid",
    "capability": "Classify whether a name is a registered SRD 5.2.1 creature.",
+   "coverage_level": "registry-only",
+   "assumptions": ["the supplied name identifies the creature the caller intends to check"],
    "checked_scope": ["creature registry membership", "source citation for a match"],
    "unchecked_scope": ["creature action legality", "third-party content", "typo diagnosis"],
    "evidence": ["tests/test_creature_queries.py::test_valid_creature_is_legal_and_cited"]
@@ -83,6 +108,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "creature.stats",
    "capability": "Return registered Challenge Rating and XP facts for a creature.",
+   "coverage_level": "registry-only",
+   "assumptions": ["the supplied name identifies the creature whose registered facts are requested"],
    "checked_scope": ["name, Challenge Rating, XP, and source citation"],
    "unchecked_scope": ["stat-block actions and traits", "encounter or turn legality"],
    "evidence": ["tests/test_creature_queries.py::test_stats_returns_cr_xp_citation"]
@@ -91,6 +118,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "encounter.xp-budget",
    "capability": "Compute the SRD encounter XP budget from supplied level, difficulty, and party size.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied level, difficulty, and party size describe the intended encounter budget"],
    "checked_scope": ["per-character and total XP budget arithmetic"],
    "unchecked_scope": ["encounter suitability", "monster tactics", "party composition beyond size and level"],
    "evidence": ["tests/test_encounter_budget.py::test_issue_example", "tests/test_encounter_budget.py::test_cited"]
@@ -99,6 +128,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "save.check",
    "capability": "Compose or resolve a saving throw from caller-supplied facts and roll.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied DC, modifier, conditions, and optional d20 result are accurate for this save"],
    "checked_scope": ["DC comparison", "modeled condition modifiers and auto-fails", "supplied d20 and modifiers"],
    "unchecked_scope": ["rolling dice", "deriving sheet modifiers", "effects of success or failure"],
    "evidence": ["tests/test_combat_resolution.py::test_save_meets_or_exceeds_dc", "tests/test_combat_resolution.py::test_paralyzed_petrified_stunned_unconscious_auto_fail_str_dex"]
@@ -107,6 +138,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "check.make",
    "capability": "Compose or resolve an ability check from caller-supplied facts and roll.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied DC, modifier, conditions, relationships, and optional d20 result are accurate for this check"],
    "checked_scope": ["DC comparison", "modeled condition and social modifiers", "condition-sensitive fact dependencies and category gates", "supplied d20 and modifiers"],
    "unchecked_scope": ["rolling dice", "choosing a DC", "deriving modifiers", "narrative outcome"],
    "evidence": ["tests/test_condition_fact_dependencies.py::test_check_condition_fact_matrices", "tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence", "tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence"]
@@ -115,6 +148,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "concentration.check",
    "capability": "Compute and optionally resolve the concentration save caused by supplied damage.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["supplied damage, Constitution modifier, and optional d20 result are accurate for this concentration event"],
    "checked_scope": ["damage-derived DC", "supplied Constitution modifier and d20 result"],
    "unchecked_scope": ["tracking concentration over time", "detecting damage events", "rolling dice"],
    "evidence": ["tests/test_combat_resolution.py::test_concentration_dc_is_half_damage_floor_10_cap_30", "tests/test_combat_resolution.py::test_concentration_resolves_when_roll_supplied"]
@@ -123,6 +158,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "opportunity-attack.provoked",
    "capability": "Check provocation from caller-supplied movement and visibility facts.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied movement, reach-exit, visibility, and exception facts describe the provoking path"],
    "checked_scope": ["supplied movement kind", "supplied reach-exit and visibility facts on a potentially provoking voluntary path", "Disengage, teleportation, and forced-movement exceptions"],
    "unchecked_scope": ["facts the caller omitted", "computing geometry or reach exit", "reaction availability", "attack resolution"],
    "evidence": ["tests/test_opportunity_attack.py::test_voluntary_movement_by_a_seen_creature_provokes", "tests/test_opportunity_attack.py::test_disengage_teleport_and_forced_movement_do_not_provoke", "tests/test_opportunity_attack.py::test_missing_positive_prerequisites_refuse_instead_of_defaulting_true"]
@@ -131,6 +168,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "grapple.initiate",
    "capability": "Check Grapple or Shove initiation and compose its save DC formula.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied sizes, free-hand fact, and formula inputs describe the proposed initiation"],
    "checked_scope": ["caller-supplied attacker and target sizes", "caller-supplied free-hand fact for Grapple", "save DC formula and supplied formula blanks"],
    "unchecked_scope": ["prerequisite facts the caller omitted", "escape contests", "reach geometry", "rolling or resolving the target save"],
    "evidence": ["tests/test_grapple.py::test_target_more_than_one_size_larger_is_impossible", "tests/test_grapple.py::test_grapple_requires_a_free_hand", "tests/test_grapple.py::test_missing_prerequisite_facts_refuse_instead_of_defaulting_medium_or_free", "tests/test_formula_blanks.py::TestGrappleBlanks::test_no_blanks_yields_formula_never_a_number"]
@@ -139,6 +178,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "passive.perception",
    "capability": "Compute Passive Perception from a supplied modifier.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["the supplied Wisdom (Perception) modifier is already derived correctly"],
    "checked_scope": ["10 plus supplied Wisdom (Perception) modifier", "refusal of the non-SRD plus-or-minus-five convention"],
    "unchecked_scope": ["deriving the modifier", "Hide contests", "line of sight and lighting"],
    "evidence": ["tests/test_passive_perception.py::test_score_is_10_plus_modifier", "tests/test_passive_perception.py::test_advantage_disadvantage_are_refused_as_non_srd"]
@@ -147,6 +188,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "help.assist",
    "capability": "Check modeled prerequisites for the Help action.",
+   "coverage_level": "rule-surface-complete",
+   "assumptions": ["caller-supplied proficiency, target, and distance facts describe the proposed assistance"],
    "checked_scope": ["caller-supplied ability-check proficiency fact", "caller-supplied attack-assist five-foot fact", "Advantage grant"],
    "unchecked_scope": ["facts the caller omitted", "whether assistance is fictionally possible", "geometry discovery", "the authorized DM's table ruling"],
    "evidence": ["tests/test_help_action.py::test_assist_ability_check_needs_the_relevant_proficiency", "tests/test_help_action.py::test_assist_attack_roll_needs_an_enemy_within_5ft"]
@@ -155,6 +198,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "spell.facts",
    "capability": "Return registered casting-time, range, component, duration, and concentration facts.",
+   "coverage_level": "registry-only",
+   "assumptions": ["the supplied name identifies the registered spell whose facts are requested"],
    "checked_scope": ["registered spell facts", "fixed-duration expiry arithmetic on a caller clock"],
    "unchecked_scope": ["spell effects", "whether casting is legal", "slots, targets, and stateful expiry triggers"],
    "evidence": ["tests/test_spell_facts.py::test_ward_regression", "tests/test_spell_facts.py::test_mage_hand_not_concentration"]
@@ -163,6 +208,8 @@
    "adapter": "srd-5.2.1",
    "query_type": "feature.uses",
    "capability": "Return the modeled use-count formula for the closed feature set.",
+   "coverage_level": "registry-only",
+   "assumptions": ["the supplied name identifies the modeled feature and any formula inputs are accurate"],
    "checked_scope": ["Divine Sense and Lay on Hands formulas", "arithmetic when all blanks are supplied"],
    "unchecked_scope": ["other features", "tables", "whether a use remains in campaign state"],
    "evidence": ["tests/test_spell_facts.py::test_divine_sense_blanks", "tests/test_spell_facts.py::test_lay_on_hands_blanks"]
@@ -171,6 +218,8 @@
    "adapter": "toy-tictactoe",
    "query_type": "ttt.move",
    "capability": "Check one move against the bundled tutorial ruleset.",
+   "coverage_level": "full-context-checkable",
+   "assumptions": ["the supplied board and player represent the complete current tutorial-game state"],
    "checked_scope": ["board shape, turn order, cell occupancy, and terminal state"],
    "unchecked_scope": ["strategy", "choosing a move"],
    "evidence": ["tests/test_toy_adapter.py::test_move_legality"]
@@ -179,6 +228,8 @@
    "adapter": "toy-tictactoe",
    "query_type": "ttt.options",
    "capability": "Enumerate legal cells under the bundled tutorial ruleset.",
+   "coverage_level": "full-context-checkable",
+   "assumptions": ["the supplied board and player represent the complete current tutorial-game state"],
    "checked_scope": ["legal empty cells for the current player"],
    "unchecked_scope": ["strategy", "ranking options"],
    "evidence": ["tests/test_toy_adapter.py::test_enumerate_validate_consistency"]

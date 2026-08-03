@@ -1,6 +1,14 @@
 {
  "adapter": "toy-tictactoe@0.1.0",
+ "assumptions": [
+  "the supplied name identifies the content the caller intends to check"
+ ],
+ "checked_scope": [
+  "registry membership",
+  "all matching registry categories"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [],
   "reason_code": "unsupported-content",
@@ -9,6 +17,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "mechanical legality",
+  "whether an unknown name is a typo, homebrew, or third-party content"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "'Test Name' is not present in any loaded ruleset (toy-tictactoe@0.1.0). Unknown or third-party content cannot be adjudicated."
 }

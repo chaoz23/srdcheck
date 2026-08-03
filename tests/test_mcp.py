@@ -62,7 +62,8 @@ def test_handshake_and_tool_list():
                 "self_attested"]
         else:
             assert t["outputSchema"]["required"] == [
-                "verdict", "exit_code", "why", "citations", "rule_ids", "adapter"]
+                "verdict", "exit_code", "why", "citations", "rule_ids", "adapter",
+                "coverage_level", "checked_scope", "unchecked_scope", "assumptions"]
 
 
 def test_tool_calls_return_verdicts():

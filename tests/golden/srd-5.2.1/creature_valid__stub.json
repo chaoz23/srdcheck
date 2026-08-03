@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the creature the caller intends to check"
+ ],
+ "checked_scope": [
+  "creature registry membership",
+  "source citation for a match"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [],
   "reason_code": "unsupported-content",
@@ -9,6 +17,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "creature action legality",
+  "third-party content",
+  "typo diagnosis"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "'Test Name' is not a creature in SRD 5.2.1. It may be a 2014-only name, a typo, or third-party content \u2014 this version cannot distinguish those."
 }

@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the modeled feature and any formula inputs are accurate"
+ ],
+ "checked_scope": [
+  "Divine Sense and Lay on Hands formulas",
+  "arithmetic when all blanks are supplied"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [
    "feature"
@@ -14,6 +22,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "other features",
+  "tables",
+  "whether a use remains in campaign state"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.feature: required field is missing"
 }

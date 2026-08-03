@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the caller supplied every applicable Advantage and Disadvantage source"
+ ],
+ "checked_scope": [
+  "cancellation and non-stacking of supplied sources",
+  "reroll-one-die note"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "advantage_sources": [],
   "d20s": 1,
@@ -9,6 +17,10 @@
  },
  "exit_code": 0,
  "rule_ids": [],
+ "unchecked_scope": [
+  "discovering sources from narrative or character state",
+  "rolling dice"
+ ],
  "verdict": "legal",
- "why": "0 Advantage source(s) and 0 Disadvantage source(s) compose to: straight (1 d20)."
+ "why": "0 Advantage source(s) and 0 Disadvantage source(s) compose to: straight (1 d20). Legal only within this checked scope."
 }

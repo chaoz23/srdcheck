@@ -9,6 +9,7 @@ from scripts.capability_map import render_json, render_markdown
 from srdcheck.access import capabilities, default_adapter_paths
 from srdcheck.adapter import Adapter
 from srdcheck.contract import CLAIMS_SCHEMA_VERSION
+from srdcheck.verdict import COVERAGE_LEVELS
 
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -28,8 +29,10 @@ def test_claim_source_covers_every_shipped_query_exactly_once():
     evidence_nodes = []
     for entry in entries:
         assert entry["capability"]
+        assert entry["coverage_level"] in COVERAGE_LEVELS
         assert entry["checked_scope"]
         assert entry["unchecked_scope"]
+        assert entry["assumptions"]
         assert entry["evidence"]
         for evidence in entry["evidence"]:
             assert "::" in evidence, f"claim evidence must be a pytest node: {evidence}"
@@ -53,6 +56,8 @@ def test_target_claims_are_unambiguously_not_shipped():
     assert all(target["not_shipped"] for target in source["targets"])
     assert "whether human or agent" in source["result_contract"][
         "authority_boundary"]
+    assert set(source["result_contract"]["coverage_levels"]) == set(
+        COVERAGE_LEVELS)
     tool_card = json.loads((ROOT / "tool.json").read_text())
     assert "agent-DM" in tool_card["description"]
 
@@ -79,7 +84,7 @@ def test_anatomy_separates_executable_behavior_from_targets():
             "with the legal spots"):
         assert unsupported_claim not in current
     assert "agent-DM" in current
-    assert "Per-result scope fields are not part" in current.replace("\n", " ")
+    assert "Every native verdict carries" in current.replace("\n", " ")
 
 
 def test_public_claims_do_not_promise_citations_on_boundary_refusals():

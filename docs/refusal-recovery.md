@@ -5,8 +5,8 @@ exit code `2` while explaining, in stable machine fields, what prevented the
 named check and what the caller can do next. JSON-RPC errors remain reserved
 for malformed protocol or transport requests.
 
-The verdict v1 top-level property set is frozen, so refusal metadata lives
-inside the existing `data` object:
+Verdict schema v2 adds per-result coverage fields while keeping refusal control
+flow inside the existing `data` object:
 
 ```json
 {
@@ -16,6 +16,10 @@ inside the existing `data` object:
   "citations": [],
   "rule_ids": [],
   "adapter": "srd-5.2.1@0.2.1",
+  "coverage_level": "rule-surface-complete",
+  "checked_scope": ["listed uses and prohibitions"],
+  "unchecked_scope": ["fine-manipulation ambiguity", "narrative consequences"],
+  "assumptions": ["the supplied use kind describes the proposal"],
   "data": {
     "reason_code": "gm-discretion",
     "recoverability": "authority",

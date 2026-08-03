@@ -125,7 +125,8 @@ def test_present_blank_conditional_fact_is_invalid_not_missing(
 
 
 def test_mage_hand_normalizes_padding_before_deterministic_matching():
-    granted = E.query("mage-hand.use", {"kind": " manipulate_object "})
+    granted = E.query("mage-hand.use", {
+        "kind": " manipulate_object ", "weight_lb": 1, "distance_ft": 10})
     prohibited = E.query("mage-hand.use", {"kind": " attack "})
 
     assert granted.exit_code == 0

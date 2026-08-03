@@ -1,6 +1,16 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied combatant, visibility, relationship, and distance facts are accurate and current"
+ ],
+ "checked_scope": [
+  "documented condition modifiers",
+  "Prone distance behavior",
+  "condition-sensitive fact dependencies and category gates",
+  "ranged attacks in close combat with Incapacitated embeds"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "distance_ft"
@@ -14,6 +24,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "cover and line-of-sight geometry not supplied as facts",
+  "weapon or feature prerequisites"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.distance_ft: required field is missing"
 }

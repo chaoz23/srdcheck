@@ -13,6 +13,8 @@ import importlib.util
 import json
 import pathlib
 
+from .coverage import apply_query_scope
+
 
 class Adapter:
     def __init__(self, root):
@@ -93,4 +95,6 @@ class Adapter:
         return self.entity_facts.get((category, name.strip().lower()))
 
     def handle(self, query_type, params):
-        return self._handlers[query_type](self, params)
+        return apply_query_scope(
+            self._handlers[query_type](self, params),
+            self.manifest["name"], query_type)

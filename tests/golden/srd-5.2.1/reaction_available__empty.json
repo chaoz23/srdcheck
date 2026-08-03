@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied conditions and reaction-spend state are accurate and current"
+ ],
+ "checked_scope": [
+  "reaction spent since turn start",
+  "Incapacitated and the Stunned, Paralyzed, Petrified, and Unconscious definitional embeds"
+ ],
  "citations": [],
+ "coverage_level": "budget-only",
  "data": {
   "missing_inputs": [
    "spent_since_turn_start"
@@ -14,6 +22,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "whether a proposed trigger occurred",
+  "target and range legality"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.spent_since_turn_start: required field is missing"
 }

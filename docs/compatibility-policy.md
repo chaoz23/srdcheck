@@ -10,7 +10,7 @@ them.
   package version. `srdcheck --schema`, every MCP `outputSchema`, and
   `srdcheck capabilities` publish them.
 - Within one schema version, existing fields keep their type and meaning, and
-  existing required inputs do not become stricter. The verdict v1 envelope has
+  existing required inputs do not become stricter. The verdict v2 envelope has
   `additionalProperties: false`, so its top-level property set is frozen: a new
   emitted top-level field requires a new verdict schema identity and migration.
   Query-specific objects inside `data` may add fields only when that query's
@@ -18,7 +18,7 @@ them.
   license for silent semantic reinterpretation.
 - Each engine minor supports the current and immediately previous engine-minor
   semantics (`N/N-1`). The executable fixture in
-  `tests/compat/semantic-v0.5.json` is the current previous-minor floor. Its
+  `tests/compat/semantic-v0.7.json` is the current previous-minor floor. Its
   adapter version is historical provenance, not a pin on the current adapter:
   cases run against the current adapter with the same versioned ruleset
   identifier, so an independent data-only adapter patch does not invalidate the
@@ -34,13 +34,17 @@ them.
 
 A new schema version requires migration notes. Removing or reinterpreting a
 machine field, query, reason code, or enum is not an additive change. Engine
-0.6.0 moves `capabilities` from schema 1.0 to 2.0 because it adds machine
+0.6.0 moved `capabilities` from schema 1.0 to 2.0 because it added machine
 contracts, exact release tuples, refusal recovery, checked/unchecked query
-coverage, and targets. The verdict instance envelope stays within the same
-frozen top-level property set under schema 1.0.
+coverage, and targets. Engine 0.8.0 moves verdicts from schema 1.0 to 2.0. The
+v2 migration keeps every v1 field and adds four required fields:
+`coverage_level`, `checked_scope`, `unchecked_scope`, and `assumptions`.
+Consumers that validate the closed v1 schema must negotiate v2 through
+`--schema`, MCP `outputSchema`, or capabilities before accepting the new
+envelope; they must not silently discard the scope boundary.
 
 Exit-code-2 recovery metadata is additive inside the verdict's existing open
-`data` object, so it does not change the frozen verdict v1 top-level shape. Its
+`data` object, so it does not change the verdict v2 top-level shape. Its
 reason codes, recoverability values, next actions, canonical mappings, and
 authority semantics form a separately identified machine contract published by
 `srdcheck capabilities`. See [refusal recovery](refusal-recovery.md). Removing

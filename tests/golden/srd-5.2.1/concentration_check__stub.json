@@ -1,5 +1,12 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "supplied damage, Constitution modifier, and optional d20 result are accurate for this concentration event"
+ ],
+ "checked_scope": [
+  "damage-derived DC",
+  "supplied Constitution modifier and d20 result"
+ ],
  "citations": [
   {
    "page": 179,
@@ -7,6 +14,7 @@
    "section": "SRD 5.2.1 p.179 'Rules Glossary > Concentration'"
   }
  ],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "dc": 10
  },
@@ -14,6 +22,11 @@
  "rule_ids": [
   "save.concentration-dc"
  ],
+ "unchecked_scope": [
+  "tracking concentration over time",
+  "detecting damage events",
+  "rolling dice"
+ ],
  "verdict": "legal",
- "why": "Concentration DC is max(10, 2 // 2) = 10."
+ "why": "Concentration DC is max(10, 2 // 2) = 10. Legal only within this checked scope."
 }

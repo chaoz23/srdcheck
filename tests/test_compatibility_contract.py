@@ -36,7 +36,7 @@ def _current_adapter_for_historical_tuple(historical_adapter):
     return load_adapter(identifier)
 
 
-def test_verdict_schema_is_explicit_without_changing_v051_instances():
+def test_verdict_schema_is_explicit_without_embedding_identity_in_instances():
     assert VERDICT_OUTPUT_SCHEMA["x-srdcheck-schema-version"] == VERDICT_SCHEMA_VERSION
     assert SCHEMA["schema_version"] == VERDICT_SCHEMA_VERSION
     assert "schema_version" not in legal("wording may improve").as_dict()
@@ -45,8 +45,8 @@ def test_verdict_schema_is_explicit_without_changing_v051_instances():
     assert caps["machine_contracts"]["verdict_schema_version"] == VERDICT_SCHEMA_VERSION
 
 
-def test_verdict_schema_v1_top_level_and_existing_fields_are_frozen():
-    baseline = json.loads((COMPAT / "verdict-schema-1.0.json").read_text())
+def test_verdict_schema_v2_matches_its_frozen_fixture():
+    baseline = json.loads((COMPAT / "verdict-schema-2.0.json").read_text())
     current = VERDICT_OUTPUT_SCHEMA
     assert current["x-srdcheck-schema-version"] == baseline[
         "x-srdcheck-schema-version"]
@@ -54,12 +54,24 @@ def test_verdict_schema_v1_top_level_and_existing_fields_are_frozen():
     assert current["additionalProperties"] == baseline["additionalProperties"]
     assert set(current["required"]) == set(baseline["required"])
     assert set(current["properties"]) == set(baseline["properties"]), (
-        "verdict schema 1.0 forbids unknown top-level fields, so even a new "
+        "verdict schema 2.0 forbids unknown top-level fields, so even a new "
         "optional top-level property requires a new schema identity and migration")
     for name, schema in baseline["properties"].items():
         assert current["properties"].get(name) == schema, (
-            f"verdict schema 1.0 changed existing field {name!r}; publish a new "
+            f"verdict schema 2.0 changed existing field {name!r}; publish a new "
             "schema version and migration instead")
+
+
+def test_verdict_schema_1_to_2_migration_is_additive_and_explicit():
+    v1 = json.loads((COMPAT / "verdict-schema-1.0.json").read_text())
+    v2 = json.loads((COMPAT / "verdict-schema-2.0.json").read_text())
+    added = {"coverage_level", "checked_scope", "unchecked_scope", "assumptions"}
+    assert v1["x-srdcheck-schema-version"] == "1.0"
+    assert v2["x-srdcheck-schema-version"] == "2.0"
+    assert set(v2["properties"]) - set(v1["properties"]) == added
+    assert set(v2["required"]) - set(v1["required"]) == added
+    for field, schema in v1["properties"].items():
+        assert v2["properties"][field] == schema
 
 
 def _assert_shape(name, value, shape):
@@ -116,9 +128,12 @@ def test_capabilities_schema_1_to_2_migration_is_authentic_and_explicit():
 
 
 def test_previous_minor_semantic_fixture():
-    fixture = json.loads((COMPAT / "semantic-v0.5.json").read_text())
+    previous = supported_engine_minors(srdcheck.__version__)[1]
+    fixture = json.loads((COMPAT / f"semantic-v{previous}.json").read_text())
     assert fixture["source_engine_minor"] == supported_engine_minors(
         srdcheck.__version__)[1]
+    assert fixture["source_engine_tag"] == "v" + fixture["source_engine_version"]
+    assert len(fixture["source_engine_commit"]) == 40
     assert fixture["excluded_non_contractual_fields"] == ["why"]
     assert all("why" not in case["expected"] for case in fixture["cases"])
     adapter = _current_adapter_for_historical_tuple(fixture["source_adapter"])
@@ -188,7 +203,8 @@ def test_correction_registry_requires_public_notice_for_high_severity():
     assert len(ids) == len(set(ids))
 
 
-def test_prose_contract_does_not_invent_per_result_schema_field():
+def test_prose_contract_routes_agents_to_structured_scope_not_why():
     prose = srdcheck.capabilities()["result_contract"]["prose_stability"]
     assert "obtain the verdict schema identity" in prose
+    assert "coverage_level" in prose and "checked_scope" in prose
     assert "branch on schema_version" not in prose

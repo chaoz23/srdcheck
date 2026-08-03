@@ -41,7 +41,8 @@
   "legacy_fallback": "object"
  },
  "result_contract": {
-  "canonical_promise": "string",
+ "canonical_promise": "string",
+  "coverage_levels": "object",
   "authority_boundary": "string",
   "prose_stability": "string",
   "vision_rule": "string"
@@ -68,8 +69,10 @@
   "adapter": "string",
   "query_type": "string",
   "capability": "string",
+  "coverage_level": "string",
   "checked_scope": "array",
   "unchecked_scope": "array",
+  "assumptions": "array",
   "evidence": "array"
  },
  "target_item": {

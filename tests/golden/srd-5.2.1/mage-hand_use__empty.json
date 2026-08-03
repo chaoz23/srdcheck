@@ -1,6 +1,16 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied use kind describes the proposal",
+  "supplied weight and distance facts are accurate when relevant to the result"
+ ],
+ "checked_scope": [
+  "listed uses and prohibitions",
+  "10-pound limit",
+  "30-foot range for the proposal"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "kind"
@@ -14,6 +24,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "fine-manipulation ambiguity",
+  "duration or range trigger tracking across events",
+  "narrative consequences"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.kind: required field is missing"
 }

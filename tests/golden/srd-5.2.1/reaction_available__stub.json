@@ -1,5 +1,12 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied conditions and reaction-spend state are accurate and current"
+ ],
+ "checked_scope": [
+  "reaction spent since turn start",
+  "Incapacitated and the Stunned, Paralyzed, Petrified, and Unconscious definitional embeds"
+ ],
  "citations": [
   {
    "page": 186,
@@ -7,9 +14,14 @@
    "section": "SRD 5.2.1 p.186 'Rules Glossary > Reaction'"
   }
  ],
+ "coverage_level": "budget-only",
  "exit_code": 1,
  "rule_ids": [
   "turn.one-reaction-per-round"
+ ],
+ "unchecked_scope": [
+  "whether a proposed trigger occurred",
+  "target and range legality"
  ],
  "verdict": "illegal",
  "why": "The Reaction is spent. You can take a Reaction on another creature's turn, and if you take it on your turn, you can do so even if you also take an action, a Bonus Action, or both. Once you take a Reaction, you can't take another one until the start of your next turn."

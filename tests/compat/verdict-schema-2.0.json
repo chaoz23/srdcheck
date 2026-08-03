@@ -1,0 +1,31 @@
+{
+ "x-srdcheck-schema-version": "2.0",
+ "type": "object",
+ "properties": {
+  "verdict": {"type": "string", "enum": ["legal", "illegal", "cannot-adjudicate"]},
+  "exit_code": {"type": "integer", "enum": [0, 1, 2]},
+  "why": {"type": "string"},
+  "citations": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "section": {"type": "string"},
+     "page": {"type": "integer"},
+     "quote": {"type": "string"}
+    },
+    "required": ["section"],
+    "additionalProperties": false
+   }
+  },
+  "rule_ids": {"type": "array", "items": {"type": "string"}},
+  "adapter": {"type": "string"},
+  "coverage_level": {"type": "string", "enum": ["unknown", "registry-only", "budget-only", "rule-surface-complete", "full-context-checkable"]},
+  "checked_scope": {"type": "array", "items": {"type": "string"}},
+  "unchecked_scope": {"type": "array", "items": {"type": "string"}},
+  "assumptions": {"type": "array", "items": {"type": "string"}},
+  "data": {"type": "object"}
+ },
+ "required": ["verdict", "exit_code", "why", "citations", "rule_ids", "adapter", "coverage_level", "checked_scope", "unchecked_scope", "assumptions"],
+ "additionalProperties": false
+}

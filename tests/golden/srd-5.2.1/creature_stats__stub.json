@@ -1,6 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the creature whose registered facts are requested"
+ ],
+ "checked_scope": [
+  "name, Challenge Rating, XP, and source citation"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [],
   "reason_code": "unsupported-content",
@@ -9,6 +16,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "stat-block actions and traits",
+  "encounter or turn legality"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "'Test Name' is not a creature in SRD 5.2.1; no stats to return."
 }
