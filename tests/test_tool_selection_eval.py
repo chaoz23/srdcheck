@@ -71,11 +71,12 @@ def test_dropped_fact_and_broken_output_fail_first_call():
         "broken"]
 
 
-def test_committed_hosted_results_are_complete_and_reproducibly_scored():
+def test_committed_results_are_complete_and_reproducibly_scored():
     results = sorted((ROOT / "bench" / "tool_selection" / "results").glob("*.jsonl"))
-    assert len(results) == 4
+    assert len(results) == 6
     assert HARNESS.validate_results(results) == []
     records = HARNESS.load_results(results)
-    assert len(records) == 224
-    assert {record["cohort"] for record in records} == {"frontier", "mid-tier"}
+    assert len(records) == 336
+    assert {record["cohort"] for record in records} == {
+        "frontier", "mid-tier", "local"}
     assert all(record["case_digest"] == HARNESS.case_digest() for record in records)
