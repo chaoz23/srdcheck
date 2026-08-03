@@ -1,0 +1,13 @@
+# Bootstrap ownership map. This makes review routing explicit, but does not
+# satisfy the independent-review or second-maintainer requirements by itself.
+* @chaoz23
+
+/srdcheck/ @chaoz23
+/srdcheck/adapters/ @chaoz23
+/tests/ @chaoz23
+/bench/ @chaoz23
+/.github/workflows/ @chaoz23
+/docs/ @chaoz23
+/pyproject.toml @chaoz23
+/server.json @chaoz23
+/tool.json @chaoz23
