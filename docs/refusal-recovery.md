@@ -48,7 +48,10 @@ string remains non-contractual explanatory prose.
 dotted object keys and bracketed array indexes. It is empty when no additional
 fact can repair the request. A capability may return
 `use-other-capability` for known content sent to the wrong capability instead
-of the usual `unsupported-content` default.
+of the usual `unsupported-content` default. When an authorized direct decision
+or matching table policy is already attached to an authority-bound refusal,
+`apply-table-decision` replaces `resolve-table-ruling`; the advisory rules
+refusal remains intact and the caller does not prompt the DM again.
 
 `recoverability` has four stable values:
 
@@ -74,9 +77,11 @@ recovery path.
 5. For `resolve-table-ruling`, check `required_authority`. If the calling agent
    is the authorized DM, it may rule directly. Otherwise, route the question to
    whoever holds DM authority.
-6. Record the resulting authority decision as a **table ruling**, never as an
+6. For `apply-table-decision`, consume the attached `table_decision`; do not
+   prompt DM authority again.
+7. Record the resulting authority decision as a **table ruling**, never as an
    SRD-derived srdcheck result.
-7. For the legacy `stop` fallback, do not infer recovery from `why`.
+8. For the legacy `stop` fallback, do not infer recovery from `why`.
 
 This is intentionally role-neutral. “DM authority” describes permission, not a
 separate human. The primary caller may be an AI agent running the game.
@@ -90,6 +95,7 @@ separate human. The primary caller may be an AI agent running the game.
 {"reason_code":"unmodeled-rule","recoverability":"alternate-path","missing_inputs":[],"suggested_next_action":"use-other-capability"}
 {"reason_code":"rules-ambiguous","recoverability":"authority","missing_inputs":[],"suggested_next_action":"resolve-table-ruling","required_authority":"dm"}
 {"reason_code":"gm-discretion","recoverability":"authority","missing_inputs":[],"suggested_next_action":"resolve-table-ruling","required_authority":"dm"}
+{"reason_code":"gm-discretion","recoverability":"authority","missing_inputs":[],"suggested_next_action":"apply-table-decision","required_authority":"dm"}
 ```
 
 The complete vocabulary and canonical mappings are also published by

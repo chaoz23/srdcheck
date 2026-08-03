@@ -14,6 +14,7 @@ from copy import deepcopy
 
 from . import __version__
 from .engine import Engine, NON_EMPTY_NAME_INPUT_SCHEMA
+from .house_rules import MANIFEST_SCHEMA, POLICY_CONTEXT_SCHEMA
 from .provenance import ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA
 from .schema import ValidationError, validate
 from .table_evaluation import (
@@ -52,6 +53,8 @@ JURISDICTION_TOOL = {
             **deepcopy(NON_EMPTY_NAME_INPUT_SCHEMA["properties"]),
             "asserted_facts": ASSERTED_FACTS_SCHEMA,
             "table_decision": TABLE_DECISION_SCHEMA,
+            "table_policy": MANIFEST_SCHEMA,
+            "policy_context": POLICY_CONTEXT_SCHEMA,
         },
     },
     "outputSchema": VERDICT_OUTPUT_SCHEMA,
@@ -74,6 +77,8 @@ TABLE_EVALUATION_TOOL = {
             "context": CALLER_CONTEXT_SCHEMA,
             "asserted_facts": ASSERTED_FACTS_SCHEMA,
             "table_decision": TABLE_DECISION_SCHEMA,
+            "table_policy": MANIFEST_SCHEMA,
+            "policy_context": POLICY_CONTEXT_SCHEMA,
         },
     },
     "outputSchema": TABLE_EVALUATION_OUTPUT_SCHEMA,
@@ -89,7 +94,8 @@ def _published_input_schema(adapter, meta):
     the complete canonical state shape for client-side validation.
     """
     schema = deepcopy(meta.get("inputSchema", {"type": "object"}))
-    reserved = {"asserted_facts", "table_decision"}
+    reserved = {"asserted_facts", "table_decision", "table_policy",
+                "policy_context"}
     collisions = reserved.intersection(schema.get("properties", {}))
     if collisions:
         raise ValueError(
@@ -113,6 +119,10 @@ def _published_input_schema(adapter, meta):
         ASSERTED_FACTS_SCHEMA)
     schema.setdefault("properties", {})["table_decision"] = deepcopy(
         TABLE_DECISION_SCHEMA)
+    schema.setdefault("properties", {})["table_policy"] = deepcopy(
+        MANIFEST_SCHEMA)
+    schema.setdefault("properties", {})["policy_context"] = deepcopy(
+        POLICY_CONTEXT_SCHEMA)
     return schema
 
 
@@ -132,13 +142,15 @@ def build_tools(engine):
 
 
 def _query(engine, query_type, params, asserted_facts=None,
-           table_decision=None):
+           table_decision=None, table_policy=None, policy_context=None):
     """Keep legacy Engine-like test doubles and integrations callable."""
-    if asserted_facts is None and table_decision is None:
+    if (asserted_facts is None and table_decision is None
+            and table_policy is None and policy_context is None):
         return engine.query(query_type, params)
     return engine.query(
         query_type, params, asserted_facts=asserted_facts,
-        table_decision=table_decision)
+        table_decision=table_decision, table_policy=table_policy,
+        policy_context=policy_context)
 
 
 class Server:
@@ -261,26 +273,32 @@ class Server:
                     self.engine,
                     query_type, query_params,
                     normalized.get("asserted_facts"),
-                    normalized.get("table_decision")).as_dict()
+                    normalized.get("table_decision"),
+                    normalized.get("table_policy"),
+                    normalized.get("policy_context")).as_dict()
                 validate(native, VERDICT_OUTPUT_SCHEMA)
                 vd = project_table_evaluation(
                     native, query_type, query_params, normalized.get("context"))
                 validate(vd, TABLE_EVALUATION_OUTPUT_SCHEMA)
             elif qt == "jurisdiction":
                 rule_args = {key: value for key, value in args.items()
-                             if key not in {"asserted_facts", "table_decision"}}
+                             if key not in {"asserted_facts", "table_decision",
+                                            "table_policy", "policy_context"}}
                 vd = _query(
                     self.engine, "jurisdiction", rule_args,
                     args.get("asserted_facts"),
-                    args.get("table_decision")).as_dict()
+                    args.get("table_decision"), args.get("table_policy"),
+                    args.get("policy_context")).as_dict()
                 validate(vd, VERDICT_OUTPUT_SCHEMA)
             else:
                 rule_args = {key: value for key, value in args.items()
-                             if key not in {"asserted_facts", "table_decision"}}
+                             if key not in {"asserted_facts", "table_decision",
+                                            "table_policy", "policy_context"}}
                 vd = _query(
                     self.engine, qt, rule_args,
                     args.get("asserted_facts"),
-                    args.get("table_decision")).as_dict()
+                    args.get("table_decision"), args.get("table_policy"),
+                    args.get("policy_context")).as_dict()
                 validate(vd, VERDICT_OUTPUT_SCHEMA)
         except ValidationError:
             return self._result(mid, {

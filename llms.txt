@@ -19,6 +19,12 @@ currently validate multiclass builds or enumerate every creature-specific move.
 The calling agent may itself be the authorized DM; its table rulings remain
 distinct from SRD-derived results.
 
+For recurring DM rulings, supply a validated `srdcheck.table-policy/1.0`
+manifest plus request/encounter/session/campaign identity in `policy_context`.
+Matching policy applies automatically through existing query tools and remains
+separate from `rule_result`; same-scope conflicts fail closed. See
+[docs/table-policies.md](docs/table-policies.md).
+
 For a suite result envelope, add `--table-evaluation` to `query` or `--pipe`.
 The deterministic `table.evaluation/1.0` projection is always self_attested;
 it preserves self-contained rule/citation evidence and never grants table
@@ -30,6 +36,8 @@ session/entity/correlation references, or call the opt-in MCP tool
 On `cannot-adjudicate`, branch on the recovery fields in `data`, never on
 `why`: repair the request, provide the named missing facts, select an adapter,
 use another capability, resolve a table ruling, or stop.
+When an attached direct or stored DM decision already resolves an authority
+refusal, `apply-table-decision` means use it without prompting the DM again.
 `required_authority: "dm"` is permission-aware rather than person-aware: an
 authorized agent-DM may rule directly, while another caller escalates. See
 [docs/refusal-recovery.md](docs/refusal-recovery.md).

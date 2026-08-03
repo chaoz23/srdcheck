@@ -43,6 +43,7 @@ REFUSAL_NEXT_ACTIONS = (
     "select-adapter",
     "use-other-capability",
     "resolve-table-ruling",
+    "apply-table-decision",
     "stop",
 )
 REFUSAL_CONTRACT_VERSION = "1.0"
@@ -98,6 +99,10 @@ _REFUSAL_CONTRACT = {
         # Known content sent to the wrong capability should be rerouted rather
         # than making the caller look for a different content adapter.
         "unsupported-content": ["use-other-capability"],
+        # Once DM authority has already supplied a direct or stored decision,
+        # consumers apply it instead of relitigating the table question.
+        "rules-ambiguous": ["apply-table-decision"],
+        "gm-discretion": ["apply-table-decision"],
     },
     "legacy_fallback": {
         "reason_code": "unmodeled-rule",
@@ -267,6 +272,10 @@ def with_provenance(result, params, asserted_facts=None, table_decision=None, *,
     result.consumed_facts = ([fact["path"] for fact in result.asserted_facts]
                              if consumed else [])
     result.table_decision = deepcopy(table_decision)
+    if (table_decision is not None
+            and result.data.get("reason_code") in {
+                "rules-ambiguous", "gm-discretion"}):
+        result.data["suggested_next_action"] = "apply-table-decision"
     return result
 
 

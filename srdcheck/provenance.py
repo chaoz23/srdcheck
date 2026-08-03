@@ -9,7 +9,7 @@ SOURCE_KINDS = (
     "imported-state", "system",
 )
 DECISION_KINDS = ("ruling", "override")
-DECISION_SCOPES = ("request", "encounter", "session", "campaign")
+DECISION_SCOPES = ("once", "encounter", "session", "campaign")
 
 SOURCE_SCHEMA = {
     "type": "object",
@@ -63,6 +63,22 @@ TABLE_DECISION_SCHEMA = {
             },
         },
         "reason": {"type": "string", "minLength": 1, "maxLength": 2048},
+        "visibility": {"type": "string", "enum": ["dm-only", "table"]},
+        "reversible": {"type": "boolean"},
+        "policy_id": {"type": "string", "minLength": 1, "maxLength": 256},
+        "lineage": {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["authority", "affected_query", "affected_rule_ids",
+                         "source_rule_unchanged"],
+            "properties": {
+                "authority": {"type": "string", "enum": ["table-ruling"]},
+                "affected_query": {"type": "string", "minLength": 1},
+                "affected_rule_ids": {
+                    "type": "array", "items": {"type": "string"}},
+                "source_rule_unchanged": {"type": "boolean", "enum": [True]},
+            },
+        },
     },
 }
 

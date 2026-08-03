@@ -41,7 +41,8 @@ def build():
             "interpretation."),
         "query <type> <params-json>": (
             "Adjudicate a structured proposal. Query types are supplied by "
-            "the loaded adapters; see query_types below."),
+            "the loaded adapters; see query_types below. Existing query tools "
+            "accept optional table_policy and policy_context metadata."),
         "query <type> <params-json> --table-evaluation": (
             "Project the scoped verdict into deterministic, self-attested "
             "table.evaluation/1.0. Add --table-context JSON for caller-owned "
@@ -52,6 +53,9 @@ def build():
         "capabilities": ("Print engine, protocol, adapter versions/digests, "
                          "query types, refusal recovery contract, and MCP "
                          "tool names."),
+        "policy validate|export <manifest>": (
+            "Import and validate a portable srdcheck.table-policy/1.0 JSON "
+            "manifest, or export its canonical human/machine form."),
     }
     return {
         "name": "srdcheck",
@@ -79,7 +83,8 @@ def build():
                    "refusal contract identities are published by --schema, "
                    "MCP outputSchema, and capabilities."),
         "table_evaluation": (
-            "query/--pipe --table-evaluation maps legal to checked_clean, "
+            "query/--pipe --table-evaluation maps legal to checked_clean "
+            "(or checked_with_advisories when a table policy applies), "
             "illegal to an exact-evidence finding, and structured refusals to "
             "invalid, unsupported, or incomplete. Output is always "
             "self_attested. Its named-query scope is machine-readable and "
@@ -89,7 +94,8 @@ def build():
             "compatibility field. Verdicts are deterministic: same query, same "
             "answer, every time. On cannot-adjudicate, branch on structured "
             "recovery data rather than prose; an authorized agent-DM may "
-            "resolve a DM-authority table ruling directly. turn.options and "
+            "resolve a DM-authority table ruling directly and reuse it through "
+            "a caller-owned table-policy manifest. turn.options and "
             "turn.plan are consistency-tested against each other. Use "
             "`capabilities` for checked/unchecked scope, refusal mappings, "
             "and the exact release tuple."),

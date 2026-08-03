@@ -8,9 +8,11 @@ honest exit 2 — never a guess (T1, T8).
 from . import verdict as v
 from .adapter import Adapter
 from .coverage import apply_query_scope as _scoped
+from .house_rules import (MANIFEST_SCHEMA, POLICY_CONTEXT_SCHEMA,
+                          attach_lineage, import_manifest, resolve_policy)
 from .provenance import (ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA,
                          annotate_params)
-from .schema import issues as schema_issues, normalize_integers
+from .schema import ValidationIssue, issues as schema_issues, normalize_integers
 
 NON_EMPTY_NAME_INPUT_SCHEMA = {
     "type": "object",
@@ -93,7 +95,7 @@ class Engine:
             missing_inputs=[]), **scope)
 
     def query(self, query_type, params, *, asserted_facts=None,
-              table_decision=None):
+              table_decision=None, table_policy=None, policy_context=None):
         metadata_problems = []
         if asserted_facts is not None:
             metadata_problems.extend(schema_issues(
@@ -103,6 +105,17 @@ class Engine:
             metadata_problems.extend(schema_issues(
                 table_decision, TABLE_DECISION_SCHEMA,
                 path="$.table_decision"))
+        if table_policy is not None:
+            metadata_problems.extend(schema_issues(
+                table_policy, MANIFEST_SCHEMA, path="$.table_policy"))
+        if policy_context is not None:
+            metadata_problems.extend(schema_issues(
+                policy_context, POLICY_CONTEXT_SCHEMA,
+                path="$.policy_context"))
+        if table_decision is not None and table_policy is not None:
+            metadata_problems.append(ValidationIssue(
+                "$.table_policy", "conflict",
+                "cannot be combined with an explicit table_decision"))
         if metadata_problems:
             return v.with_provenance(
                 validation_refusal(metadata_problems), params, consumed=False)
@@ -116,9 +129,24 @@ class Engine:
                     data={"validation_errors": [str(exc)]}), params,
                     consumed=False)
 
+        if table_policy is not None:
+            try:
+                import_manifest(table_policy)
+                table_decision = resolve_policy(
+                    query_type, params, table_policy, policy_context)
+            except (KeyError, TypeError, ValueError) as exc:
+                return v.with_provenance(v.cannot_adjudicate(
+                    "Invalid or ambiguous table policy: " + str(exc),
+                    reason_code="invalid-input", missing_inputs=[],
+                    data={"validation_errors": [str(exc)]}), params,
+                    consumed=False)
+
         def receipt(result, *, consumed=True):
+            decision = (attach_lineage(
+                table_decision, query_type, result.rule_ids)
+                        if consumed else None)
             return v.with_provenance(
-                result, params, asserted_facts, table_decision,
+                result, params, asserted_facts, decision,
                 consumed=consumed)
 
         if not isinstance(query_type, str) or not query_type.strip():
@@ -150,7 +178,9 @@ class Engine:
                     return handled
                 return v.with_provenance(
                     handled, normalized,
-                    asserted_facts, table_decision)
+                    asserted_facts,
+                    attach_lineage(table_decision, query_type,
+                                   handled.rule_ids))
         known = sorted(t for a in self.adapters for t in a.query_types)
         return receipt(v.cannot_adjudicate(
             f"No loaded adapter answers query type '{query_type}'. "

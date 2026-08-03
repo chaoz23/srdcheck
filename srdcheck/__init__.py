@@ -46,3 +46,6 @@ from .table_evaluation import (TABLE_EVALUATION_SCHEMA_VERSION,
                                project_table_evaluation)  # noqa: F401
 from .provenance import (ASSERTED_FACTS_SCHEMA,
                          TABLE_DECISION_SCHEMA)  # noqa: F401
+from .house_rules import (MANIFEST_SCHEMA, MANIFEST_SCHEMA_ID,
+                          POLICY_CONTEXT_SCHEMA, export_manifest,
+                          import_manifest, resolve_policy)  # noqa: F401

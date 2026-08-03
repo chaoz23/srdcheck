@@ -1,6 +1,6 @@
 # Fact, rule, and DM-decision provenance
 
-Verdict schema 3.0 prevents a caller assertion—especially an ASR, transcript,
+Verdict schema 4.0 prevents a caller assertion—especially an ASR, transcript,
 vision, or agent inference—from looking like an SRD-derived fact or a DM ruling.
 It adds no MCP tool and does not make SRDCheck stateful.
 
@@ -20,7 +20,7 @@ Legacy unannotated parameter leaves are still visible as source `caller` with
 unknown confidence.
 
 An optional `table_decision` records a `ruling` or `override`, its text outcome,
-DM origin, and request/encounter/session/campaign scope. The calling agent may
+DM origin, and once/encounter/session/campaign scope. The calling agent may
 be that DM: use `origin.kind: "dm"` and identify the agent in `origin.id`.
 
 ```json
@@ -65,5 +65,6 @@ publishes the same optional metadata alongside its mechanic arguments. The
   status as distinct human-readable sections.
 
 This separation is a receipt, not authority escalation. Persistence and policy
-precedence belong to the rulings contract; stale-state/idempotency belongs to
+precedence are defined in [table policies](table-policies.md);
+stale-state/idempotency belongs to
 the transition contract.

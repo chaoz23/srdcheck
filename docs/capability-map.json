@@ -6,7 +6,7 @@
   "version": "0.8.0"
  },
  "machine_contracts": {
-  "verdict_schema_version": "3.0",
+  "verdict_schema_version": "4.0",
   "capabilities_schema_version": "2.0",
   "refusal_contract_version": "1.0",
   "compatibility_window": "N/N-1",
@@ -80,6 +80,7 @@
     "select-adapter",
     "use-other-capability",
     "resolve-table-ruling",
+    "apply-table-decision",
     "stop"
    ],
    "required_authority": [
@@ -117,6 +118,12 @@
   "allowed_action_overrides": {
    "unsupported-content": [
     "use-other-capability"
+   ],
+   "rules-ambiguous": [
+    "apply-table-decision"
+   ],
+   "gm-discretion": [
+    "apply-table-decision"
    ]
   },
   "legacy_fallback": {

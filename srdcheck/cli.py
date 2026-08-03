@@ -6,6 +6,8 @@
   python -m srdcheck conformance <adapter-id>   # the bar any adapter must clear
   python -m srdcheck new-adapter <name>         # scaffold a conformant skeleton
   python -m srdcheck capabilities               # versions, digests, protocol, tools
+  python -m srdcheck policy validate <manifest> # validate portable DM policies
+  python -m srdcheck policy export <manifest>   # canonical human/machine JSON
   python -m srdcheck --schema
   echo '{"type": "...", "params": {...}}' | python -m srdcheck --pipe
 
@@ -19,6 +21,8 @@ import pathlib
 import sys
 
 from .engine import Engine, validation_refusal
+from .house_rules import (MANIFEST_SCHEMA, POLICY_CONTEXT_SCHEMA,
+                          export_manifest, import_manifest)
 from .schema import issues as schema_issues
 from .provenance import ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA
 from .verdict import VERDICT_OUTPUT_SCHEMA
@@ -38,6 +42,8 @@ SCHEMA = {
             "params": {"type": "object"},
             "asserted_facts": ASSERTED_FACTS_SCHEMA,
             "table_decision": TABLE_DECISION_SCHEMA,
+            "table_policy": MANIFEST_SCHEMA,
+            "policy_context": POLICY_CONTEXT_SCHEMA,
         },
         "required": ["type"],
         "additionalProperties": False,
@@ -87,7 +93,9 @@ def main(argv=None):
     args = list(sys.argv[1:] if argv is None else argv)
     metadata = {}
     for flag, key in (("--asserted-facts", "asserted_facts"),
-                      ("--table-decision", "table_decision")):
+                      ("--table-decision", "table_decision"),
+                      ("--table-policy", "table_policy"),
+                      ("--policy-context", "policy_context")):
         if args.count(flag) > 1:
             print(json.dumps({"error": f"{flag} may be supplied once"}))
             return 3
@@ -134,7 +142,7 @@ def main(argv=None):
         return 3
     if metadata and args[0] != "query":
         print(json.dumps({
-            "error": "--asserted-facts/--table-decision require query"
+            "error": "provenance and table-policy flags require query"
         }))
         return 3
     if args[0] == "--schema":
@@ -143,6 +151,20 @@ def main(argv=None):
     if args[0] == "capabilities" and len(args) == 1:
         from .access import capabilities
         print(json.dumps(capabilities(), indent=2))
+        return 0
+    if args[0] == "policy" and len(args) == 3 and args[1] in {
+            "validate", "export"}:
+        try:
+            raw_manifest = pathlib.Path(args[2]).read_text(encoding="utf-8")
+            manifest = import_manifest(raw_manifest)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            print(json.dumps({"error": f"invalid table-policy manifest: {exc}"}))
+            return 3
+        if args[1] == "validate":
+            print(json.dumps({"ok": True, "schema": manifest["schema"],
+                              "policies": len(manifest["policies"])}, indent=2))
+        else:
+            print(export_manifest(manifest), end="")
         return 0
     if table_evaluation and args[0] not in {"query", "--pipe"}:
         print(json.dumps({
@@ -173,7 +195,9 @@ def main(argv=None):
             return _emit(_engine().query(
                              q["type"], q.get("params", {}),
                              asserted_facts=q.get("asserted_facts"),
-                             table_decision=q.get("table_decision")),
+                             table_decision=q.get("table_decision"),
+                             table_policy=q.get("table_policy"),
+                             policy_context=q.get("policy_context")),
                          table_evaluation, q["type"], q.get("params", {}),
                          table_context)
         if args[0] == "conformance" and len(args) == 2:
@@ -204,7 +228,9 @@ def main(argv=None):
             return _emit(_engine().query(
                              args[1], params,
                              asserted_facts=metadata.get("asserted_facts"),
-                             table_decision=metadata.get("table_decision")),
+                             table_decision=metadata.get("table_decision"),
+                             table_policy=metadata.get("table_policy"),
+                             policy_context=metadata.get("policy_context")),
                          table_evaluation,
                          args[1], params, table_context)
         if args[0] == "edition-check" and len(args) >= 2:
