@@ -24,6 +24,7 @@ VERDICT_SCHEMA_VERSION = "4.0"
 CAPABILITIES_SCHEMA_VERSION = "2.0"
 CLAIMS_SCHEMA_VERSION = "2.0"
 CORRECTIONS_SCHEMA_VERSION = "1.0"
+OBSERVABILITY_SCHEMA_VERSION = "srdcheck.observability/1.0"
 COMPATIBILITY_WINDOW = "N/N-1"
 WHY_STABILITY = "non-contractual"
 
@@ -33,7 +34,9 @@ WHY_STABILITY = "non-contractual"
 # that has no fixture.
 # 0.6 lived on main but was never published; 0.5 is therefore the actual
 # previous public minor for both the internal 0.6 line and the 0.7 release.
-PREVIOUS_ENGINE_MINOR = {"0.6": "0.5", "0.7": "0.5", "0.8": "0.7"}
+PREVIOUS_ENGINE_MINOR = {
+    "0.6": "0.5", "0.7": "0.5", "0.8": "0.7", "0.9": "0.8",
+}
 
 
 def is_semver_2_0(value):

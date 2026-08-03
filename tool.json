@@ -1,6 +1,6 @@
 {
  "name": "srdcheck",
- "version": "0.8.0",
+ "version": "0.9.0",
  "description": "Deterministic rules verdicts over the SRD for game-running agents. Exit codes are scoped results: 0 passes the named checked scope, 1 conflicts with it, 2 cannot-adjudicate (unknown content or a DM-authority decision, including when the caller is the agent-DM — an honest refusal, not an error). Applied rules carry citations; boundary refusals do not invent them.",
  "status": "alpha; versioned machine schemas and the N/N-1 semantic window are reported by `capabilities`",
  "rulesets": [
@@ -26,7 +26,8 @@
    "query <type> <params-json> --table-evaluation": "Project the scoped verdict into deterministic, self-attested table.evaluation/1.0. Add --table-context JSON for caller-owned session/entity/correlation references. Table and execution authority stay external.",
    "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
    "--schema": "Print JSON Schema for input and output.",
-   "capabilities": "Print engine, protocol, adapter versions/digests, query types, refusal recovery contract, and MCP tool names.",
+   "capabilities": "Print engine, protocol, adapter versions/digests, query types, refusal recovery and observability contracts, and MCP tool names.",
+   "query ... --trace [--request-id <id>]": "Keep the verdict on stdout and emit metadata-only lifecycle NDJSON on stderr.",
    "policy validate|export <manifest>": "Import and validate a portable srdcheck.table-policy/1.0 JSON manifest, or export its canonical human/machine form."
   },
   "query_types": [
@@ -56,7 +57,7 @@
  },
  "output": "JSON verdict object on stdout: {verdict, exit_code, why, citations[], rule_ids[], adapter, data?}. Exit-2 data contains stable reason and recovery fields. Schema and refusal contract identities are published by --schema, MCP outputSchema, and capabilities.",
  "table_evaluation": "query/--pipe --table-evaluation maps legal to checked_clean (or checked_with_advisories when a table policy applies), illegal to an exact-evidence finding, and structured refusals to invalid, unsupported, or incomplete. Output is always self_attested. Its named-query scope is machine-readable and every finding evidence ref resolves in its effective policy. Stateful queries expose cursor.state_precondition_hash.",
- "notes": "The 'why' field is templated explanatory prose, not a machine compatibility field. Verdicts are deterministic: same query, same answer, every time. On cannot-adjudicate, branch on structured recovery data rather than prose; an authorized agent-DM may resolve a DM-authority table ruling directly and reuse it through a caller-owned table-policy manifest. turn.options and turn.plan are consistency-tested against each other. For state writes, evaluate with event.apply and verify the exact proposal with transition.commit; the host owns atomic persistence. Use `capabilities` for checked/unchecked scope, refusal mappings, and the exact release tuple.",
+ "notes": "The 'why' field is templated explanatory prose, not a machine compatibility field. Verdicts are deterministic: same query, same answer, every time. On cannot-adjudicate, branch on structured recovery data rather than prose; an authorized agent-DM may resolve a DM-authority table ruling directly and reuse it through a caller-owned table-policy manifest. turn.options and turn.plan are consistency-tested against each other. For state writes, evaluate with event.apply and verify the exact proposal with transition.commit; the host owns atomic persistence. Use `capabilities` for checked/unchecked scope, refusal mappings, the metadata-only observability schema, and the exact release tuple.",
  "mcp": {
   "command": "python3 -m srdcheck.mcp",
   "transport": "stdio",
@@ -87,7 +88,7 @@
    "ttt_move",
    "ttt_options"
   ],
-  "notes": "Zero-dependency stdlib MCP server. Tool descriptions/schemas are supplied by loaded adapters (queries.json). Verdicts arrive as structuredContent; illegal and cannot-adjudicate are results, not protocol errors. The opt-in table_evaluation tool projects one native query without changing native tool response schemas."
+  "notes": "Zero-dependency stdlib MCP server. Tool descriptions/schemas are supplied by loaded adapters (queries.json). Verdicts arrive as structuredContent; illegal and cannot-adjudicate are results, not protocol errors. The opt-in table_evaluation tool projects one native query without changing native tool response schemas. Set SRDCHECK_TRACE=stderr and pass an optional request_id for out-of-band metadata-only tracing."
  },
  "_generated_by": "scripts/gen_tool_json.py"
 }

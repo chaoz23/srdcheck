@@ -67,9 +67,11 @@ def capabilities():
     """Machine-readable engine and bundled-adapter capability contract."""
     from . import __version__
     from .contract import (CAPABILITIES_SCHEMA_VERSION, COMPATIBILITY_WINDOW,
+                           OBSERVABILITY_SCHEMA_VERSION,
                            VERDICT_SCHEMA_VERSION, WHY_STABILITY,
                            supported_engine_minors)
     from .mcp import PROTOCOL_VERSION, SUPPORTED_PROTOCOL_VERSIONS
+    from .observability import observability_contract
     claims = json.loads(CLAIMS_PATH.read_text(encoding="utf-8"))
     refusal_contract = v.refusal_contract()
     adapters = []
@@ -108,6 +110,7 @@ def capabilities():
             "verdict_schema_version": VERDICT_SCHEMA_VERSION,
             "capabilities_schema_version": CAPABILITIES_SCHEMA_VERSION,
             "refusal_contract_version": refusal_contract["schema_version"],
+            "observability_contract_version": OBSERVABILITY_SCHEMA_VERSION,
             "compatibility_window": COMPATIBILITY_WINDOW,
             "supported_engine_minors": supported_engine_minors(__version__),
             "why_stability": WHY_STABILITY,
@@ -121,6 +124,7 @@ def capabilities():
         "adapters": adapters,
         "mcp_tools": sorted(tool_names),
         "refusal_contract": refusal_contract,
+        "observability_contract": observability_contract(),
         "result_contract": claims["result_contract"],
         "query_coverage": claims["query_coverage"],
         "targets": claims["targets"],

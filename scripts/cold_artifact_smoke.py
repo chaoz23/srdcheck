@@ -215,6 +215,11 @@ def smoke(artifact):
         assert capabilities["engine"]["version"] == artifact_version
         assert "turn_plan" in capabilities["mcp_tools"]
         assert "transition_commit" in capabilities["mcp_tools"]
+        assert capabilities["machine_contracts"][
+            "observability_contract_version"] == "srdcheck.observability/1.0"
+        assert capabilities["observability_contract"]["default"] == "disabled"
+        assert capabilities["observability_contract"][
+            "payload_policy"] == "metadata-only"
 
         library = json.loads(run([
             str(python), "-c",
@@ -257,6 +262,8 @@ def smoke(artifact):
         by_id = {item["id"]: item for item in replies}
         assert by_id[1]["result"]["serverInfo"]["version"] == library["version"]
         assert all("outputSchema" in tool for tool in by_id[2]["result"]["tools"])
+        assert all("request_id" in tool["inputSchema"]["properties"]
+                   for tool in by_id[2]["result"]["tools"])
         assert "transition_commit" in {
             tool["name"] for tool in by_id[2]["result"]["tools"]}
         assert by_id[3]["result"]["structuredContent"]["exit_code"] == 0

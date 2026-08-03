@@ -71,6 +71,7 @@ def build():
         "machine_contracts": caps["machine_contracts"],
         "release_tuple": caps["release_tuple"],
         "refusal_contract": caps["refusal_contract"],
+        "observability_contract": caps["observability_contract"],
         "result_contract": caps["result_contract"],
         "shipped": shipped,
         "targets": caps["targets"],
@@ -116,6 +117,13 @@ def render_markdown():
             f"`{recovery['suggested_next_action']}` | "
             f"`{recovery.get('required_authority', '—')}` |")
     lines.extend([
+        "",
+        "## Privacy-safe observability contract",
+        "",
+        f"`{doc['observability_contract']['schema_version']}` is "
+        f"{doc['observability_contract']['delivery']}, "
+        f"{doc['observability_contract']['default']} by default, and "
+        f"{doc['observability_contract']['payload_policy']}.",
         "",
         "## Release identity",
         "",

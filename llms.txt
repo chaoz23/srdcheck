@@ -78,6 +78,8 @@ explicitly report `state_mutation.status: "none"`. See
 - [docs/adapter-spec.md](docs/adapter-spec.md): rulesets are adapters; the
   kernel contains zero game vocabulary (lint-enforced). Build one for content
   you have rights to.
+- [docs/observability.md](docs/observability.md): metadata-only request tracing,
+  deterministic verdict IDs, redaction, and host-owned retention.
 - [bench/README.md](bench/README.md): the rules-fidelity benchmark — score any
   model or agent (`cmd:` driver reads stdin) against SRD-cited gold verdicts;
   published findings: frontier models ace rules knowledge and fail by false

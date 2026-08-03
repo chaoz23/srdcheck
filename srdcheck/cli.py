@@ -8,6 +8,7 @@
   python -m srdcheck capabilities               # versions, digests, protocol, tools
   python -m srdcheck policy validate <manifest> # validate portable DM policies
   python -m srdcheck policy export <manifest>   # canonical human/machine JSON
+  python -m srdcheck query ... --trace [--request-id <opaque-id>]
   python -m srdcheck --schema
   echo '{"type": "...", "params": {...}}' | python -m srdcheck --pipe
 
@@ -23,6 +24,7 @@ import sys
 from .engine import Engine, validation_refusal
 from .house_rules import (MANIFEST_SCHEMA, POLICY_CONTEXT_SCHEMA,
                           export_manifest, import_manifest)
+from .observability import JsonLineSink, configured_sink, observe_query
 from .schema import issues as schema_issues
 from .provenance import ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA
 from .verdict import VERDICT_OUTPUT_SCHEMA
@@ -64,6 +66,20 @@ def _engine():
     return Engine(default_adapter_paths())
 
 
+def _query(engine, query_type, params, metadata, trace_sink, request_id):
+    options = {
+        "asserted_facts": metadata.get("asserted_facts"),
+        "table_decision": metadata.get("table_decision"),
+        "table_policy": metadata.get("table_policy"),
+        "policy_context": metadata.get("policy_context"),
+    }
+    if trace_sink is None:
+        return engine.query(query_type, params, **options)
+    return observe_query(
+        engine, query_type, params, request_id=request_id, sink=trace_sink,
+        **options).verdict
+
+
 def _emit(verdict, table_evaluation=False, query_type=None, params=None,
           table_context=None):
     value = verdict.as_dict()
@@ -91,6 +107,28 @@ def _invalid_json_evaluation(query_type, raw, message, table_context=None):
 
 def main(argv=None):
     args = list(sys.argv[1:] if argv is None else argv)
+    try:
+        trace_sink = configured_sink()
+    except ValueError as exc:
+        print(json.dumps({"error": str(exc)}))
+        return 3
+    if args.count("--trace") > 1:
+        print(json.dumps({"error": "--trace may be supplied once"}))
+        return 3
+    if "--trace" in args:
+        args.remove("--trace")
+        trace_sink = JsonLineSink(sys.stderr)
+    request_id = None
+    if args.count("--request-id") > 1:
+        print(json.dumps({"error": "--request-id may be supplied once"}))
+        return 3
+    if "--request-id" in args:
+        index = args.index("--request-id")
+        if index + 1 >= len(args):
+            print(json.dumps({"error": "--request-id requires a value"}))
+            return 3
+        request_id = args[index + 1]
+        del args[index:index + 2]
     metadata = {}
     for flag, key in (("--asserted-facts", "asserted_facts"),
                       ("--table-decision", "table_decision"),
@@ -139,6 +177,14 @@ def main(argv=None):
             return 3
     if not args:
         print(__doc__)
+        return 3
+    if trace_sink is not None and args[0] not in {"query", "--pipe"}:
+        print(json.dumps({
+            "error": "observability tracing is valid only with query or --pipe"
+        }))
+        return 3
+    if request_id is not None and trace_sink is None:
+        print(json.dumps({"error": "--request-id requires tracing"}))
         return 3
     if metadata and args[0] != "query":
         print(json.dumps({
@@ -192,12 +238,14 @@ def main(argv=None):
                             if isinstance(q, dict) else {})
                 return _emit(validation_refusal(problems), table_evaluation,
                              q_type, q_params, table_context)
-            return _emit(_engine().query(
-                             q["type"], q.get("params", {}),
-                             asserted_facts=q.get("asserted_facts"),
-                             table_decision=q.get("table_decision"),
-                             table_policy=q.get("table_policy"),
-                             policy_context=q.get("policy_context")),
+            pipe_metadata = {
+                key: q.get(key) for key in (
+                    "asserted_facts", "table_decision", "table_policy",
+                    "policy_context")
+            }
+            return _emit(_query(
+                             _engine(), q["type"], q.get("params", {}),
+                             pipe_metadata, trace_sink, request_id),
                          table_evaluation, q["type"], q.get("params", {}),
                          table_context)
         if args[0] == "conformance" and len(args) == 2:
@@ -225,12 +273,9 @@ def main(argv=None):
                     print(json.dumps(value, indent=2))
                     return value["exit_code"]
                 raise exc
-            return _emit(_engine().query(
-                             args[1], params,
-                             asserted_facts=metadata.get("asserted_facts"),
-                             table_decision=metadata.get("table_decision"),
-                             table_policy=metadata.get("table_policy"),
-                             policy_context=metadata.get("policy_context")),
+            return _emit(_query(
+                             _engine(), args[1], params, metadata,
+                             trace_sink, request_id),
                          table_evaluation,
                          args[1], params, table_context)
         if args[0] == "edition-check" and len(args) >= 2:

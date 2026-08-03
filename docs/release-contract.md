@@ -20,6 +20,8 @@ This document carries the v0.5 release truth repaired in issues #16, #17, #18,
 - **Capability schema version** versions the shape of `srdcheck capabilities`.
 - **Refusal contract version** versions the machine vocabulary and canonical
   recovery mappings emitted for exit-code-2 results.
+- **Observability contract version** versions the optional, out-of-band,
+  metadata-only lifecycle event stream. Timing never enters a verdict.
 - **MCP protocol versions** declare the revisions this server implements and
   the preferred revision it offers when a client requests an unsupported one.
 
@@ -93,8 +95,10 @@ validated before they leave the process.
 The stdio MCP server implements the required initialize/initialized lifecycle,
 prefers the `2025-06-18` protocol revision, and also negotiates its declared
 `2025-03-26` compatibility revision. It advertises only static tools. Calls are
-synchronous and bounded, so it emits no progress or logging notifications; it
-accepts cancellation notifications without advertising asynchronous work.
+synchronous and bounded, so it emits no MCP progress or logging notifications;
+an operator may opt into the separately versioned metadata-only NDJSON stream
+on stderr. It accepts cancellation notifications without advertising
+asynchronous work.
 Clients must close stdin to shut it down, as required by the stdio lifecycle.
 
 ## Artifact gate
