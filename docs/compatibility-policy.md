@@ -10,7 +10,7 @@ them.
   package version. `srdcheck --schema`, every MCP `outputSchema`, and
   `srdcheck capabilities` publish them.
 - Within one schema version, existing fields keep their type and meaning, and
-  existing required inputs do not become stricter. The verdict v2 envelope has
+  existing required inputs do not become stricter. The verdict v3 envelope has
   `additionalProperties: false`, so its top-level property set is frozen: a new
   emitted top-level field requires a new verdict schema identity and migration.
   Query-specific objects inside `data` may add fields only when that query's
@@ -43,8 +43,15 @@ Consumers that validate the closed v1 schema must negotiate v2 through
 `--schema`, MCP `outputSchema`, or capabilities before accepting the new
 envelope; they must not silently discard the scope boundary.
 
+Engine 0.8.0 then moves verdicts from schema 2.0 to 3.0. The v3 migration keeps
+every v2 field and adds `facts`, `rule_result`, `table_decision`,
+`state_mutation`, and `explanation`. `facts` separates asserted, consumed,
+derived, and missing facts; `rule_result` is always advisory; a DM decision is
+recorded without changing it; and mutation status is explicit. Consumers must
+negotiate v3 before relying on those authority boundaries.
+
 Exit-code-2 recovery metadata is additive inside the verdict's existing open
-`data` object, so it does not change the verdict v2 top-level shape. Its
+`data` object, so it does not change an existing verdict top-level shape. Its
 reason codes, recoverability values, next actions, canonical mappings, and
 authority semantics form a separately identified machine contract published by
 `srdcheck capabilities`. See [refusal recovery](refusal-recovery.md). Removing

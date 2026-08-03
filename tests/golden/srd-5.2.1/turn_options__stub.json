@@ -41,9 +41,112 @@
   ]
  },
  "exit_code": 0,
+ "explanation": {
+  "rule": "5 option kinds remain this turn. Legal only within this checked scope.",
+  "situation_facts": [
+   "/speed = 2 (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/speed",
+    "source": {
+     "kind": "caller"
+    },
+    "value": 2
+   }
+  ],
+  "consumed": [
+   "/speed"
+  ],
+  "derived": [
+   {
+    "basis": "rule_result",
+    "path": "/data/options/0/do",
+    "value": "action"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/0/spell_slot_available",
+    "value": true
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/1/do",
+    "value": "bonus-action"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/1/spell_slot_available",
+    "value": true
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/2/do",
+    "value": "reaction"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/2/note",
+    "value": "usable on your own turn"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/2/spell_slot_available",
+    "value": true
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/3/do",
+    "value": "free-interaction"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/4/do",
+    "value": "move"
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/4/feet_remaining",
+    "value": 2
+   },
+   {
+    "basis": "rule_result",
+    "path": "/data/options/4/mode",
+    "value": "walk"
+   }
+  ],
+  "missing": []
+ },
  "rule_ids": [
   "turn.movement-budget"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 13,
+    "quote": "On your turn, you can move a distance up to your Speed and take one action.",
+    "section": "SRD 5.2.1 p.13 'Combat > Your Turn'"
+   }
+  ],
+  "exit_code": 0,
+  "rule_ids": [
+   "turn.movement-budget"
+  ],
+  "verdict": "legal",
+  "why": "5 option kinds remain this turn. Legal only within this checked scope."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "every legal creature action",
   "feature-specific actions, targets, geometry, and tactics"

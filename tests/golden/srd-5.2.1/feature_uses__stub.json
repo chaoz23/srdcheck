@@ -18,9 +18,61 @@
   "formula": "1 + Charisma modifier"
  },
  "exit_code": 0,
+ "explanation": {
+  "rule": "divine-sense: uses = 1 + Charisma modifier - supply ['charisma_modifier'] to resolve the number. Legal only within this checked scope.",
+  "situation_facts": [
+   "/feature = \"divine-sense\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/feature",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "divine-sense"
+   }
+  ],
+  "consumed": [
+   "/feature"
+  ],
+  "derived": [
+   {
+    "basis": "rule_result",
+    "path": "/data/formula",
+    "value": "1 + Charisma modifier"
+   }
+  ],
+  "missing": []
+ },
  "rule_ids": [
   "feature.uses"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 87,
+    "section": "SRD 5.2.1 p.87"
+   }
+  ],
+  "exit_code": 0,
+  "rule_ids": [
+   "feature.uses"
+  ],
+  "verdict": "legal",
+  "why": "divine-sense: uses = 1 + Charisma modifier - supply ['charisma_modifier'] to resolve the number. Legal only within this checked scope."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "other features",
   "tables",

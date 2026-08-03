@@ -20,6 +20,7 @@ import sys
 
 from .engine import Engine, validation_refusal
 from .schema import issues as schema_issues
+from .provenance import ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA
 from .verdict import VERDICT_OUTPUT_SCHEMA
 from .contract import VERDICT_SCHEMA_VERSION
 
@@ -35,6 +36,8 @@ SCHEMA = {
                      "description": "query type: 'jurisdiction' or any "
                                     "adapter-defined type (see tool.json)"},
             "params": {"type": "object"},
+            "asserted_facts": ASSERTED_FACTS_SCHEMA,
+            "table_decision": TABLE_DECISION_SCHEMA,
         },
         "required": ["type"],
         "additionalProperties": False,
@@ -82,6 +85,23 @@ def _invalid_json_evaluation(query_type, raw, message, table_context=None):
 
 def main(argv=None):
     args = list(sys.argv[1:] if argv is None else argv)
+    metadata = {}
+    for flag, key in (("--asserted-facts", "asserted_facts"),
+                      ("--table-decision", "table_decision")):
+        if args.count(flag) > 1:
+            print(json.dumps({"error": f"{flag} may be supplied once"}))
+            return 3
+        if flag in args:
+            index = args.index(flag)
+            if index + 1 >= len(args):
+                print(json.dumps({"error": f"{flag} requires JSON"}))
+                return 3
+            try:
+                metadata[key] = json.loads(args[index + 1])
+            except json.JSONDecodeError:
+                print(json.dumps({"error": f"{flag} must be valid JSON"}))
+                return 3
+            del args[index:index + 2]
     table_evaluation = "--table-evaluation" in args
     if args.count("--table-evaluation") > 1:
         print(json.dumps({"error": "--table-evaluation may be supplied once"}))
@@ -111,6 +131,11 @@ def main(argv=None):
             return 3
     if not args:
         print(__doc__)
+        return 3
+    if metadata and args[0] != "query":
+        print(json.dumps({
+            "error": "--asserted-facts/--table-decision require query"
+        }))
         return 3
     if args[0] == "--schema":
         print(json.dumps(SCHEMA, indent=2))
@@ -145,7 +170,10 @@ def main(argv=None):
                             if isinstance(q, dict) else {})
                 return _emit(validation_refusal(problems), table_evaluation,
                              q_type, q_params, table_context)
-            return _emit(_engine().query(q["type"], q.get("params", {})),
+            return _emit(_engine().query(
+                             q["type"], q.get("params", {}),
+                             asserted_facts=q.get("asserted_facts"),
+                             table_decision=q.get("table_decision")),
                          table_evaluation, q["type"], q.get("params", {}),
                          table_context)
         if args[0] == "conformance" and len(args) == 2:
@@ -173,7 +201,11 @@ def main(argv=None):
                     print(json.dumps(value, indent=2))
                     return value["exit_code"]
                 raise exc
-            return _emit(_engine().query(args[1], params), table_evaluation,
+            return _emit(_engine().query(
+                             args[1], params,
+                             asserted_facts=metadata.get("asserted_facts"),
+                             table_decision=metadata.get("table_decision")),
+                         table_evaluation,
                          args[1], params, table_context)
         if args[0] == "edition-check" and len(args) >= 2:
             from .access import edition_check

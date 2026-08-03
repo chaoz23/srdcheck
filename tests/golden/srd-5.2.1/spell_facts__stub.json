@@ -16,7 +16,46 @@
   "suggested_next_action": "select-adapter"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "'Test Name' is not a registered SRD 5.2.1 spell name.",
+  "situation_facts": [
+   "/name = \"Test Name\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/name",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "Test Name"
+   }
+  ],
+  "consumed": [
+   "/name"
+  ],
+  "derived": [],
+  "missing": []
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "'Test Name' is not a registered SRD 5.2.1 spell name."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "spell effects",
   "whether casting is legal",

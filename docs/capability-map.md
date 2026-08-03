@@ -5,8 +5,8 @@
 ## Result contract
 
 - **Canonical promise:** A legal result means only that the query's named checked scope passed. It is not a claim of global or complete legality.
-- **Authority:** srdcheck reports an SRD-derived result. The authorized DM, whether human or agent, owns table rulings and may rule directly when the result requires DM authority.
-- **Prose:** The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, rule_ids, citations, and structured data instead of parsing why.
+- **Authority:** srdcheck reports an advisory SRD-derived rule_result. The authorized DM, whether human or agent, owns table_decision; recording one never rewrites the rule result or implies state mutation.
+- **Prose:** The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, facts, rule_result, table_decision, state_mutation, rule_ids, citations, and structured data instead of parsing why.
 - **Vision:** Target capabilities are labeled target and are never advertised as executable tools.
 
 ## Exit-2 recovery contract
@@ -24,7 +24,7 @@ Machine metadata lives in `data`; agents branch on it instead of parsing `why`. 
 
 ## Release identity
 
-Engine `0.8.0`; verdict schema `2.0`; compatibility `N/N-1` over `0.8, 0.7`.
+Engine `0.8.0`; verdict schema `3.0`; compatibility `N/N-1` over `0.8, 0.7`.
 
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|

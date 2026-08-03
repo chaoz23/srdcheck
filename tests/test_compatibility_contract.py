@@ -45,8 +45,8 @@ def test_verdict_schema_is_explicit_without_embedding_identity_in_instances():
     assert caps["machine_contracts"]["verdict_schema_version"] == VERDICT_SCHEMA_VERSION
 
 
-def test_verdict_schema_v2_matches_its_frozen_fixture():
-    baseline = json.loads((COMPAT / "verdict-schema-2.0.json").read_text())
+def test_verdict_schema_v3_matches_its_frozen_fixture():
+    baseline = json.loads((COMPAT / "verdict-schema-3.0.json").read_text())
     current = VERDICT_OUTPUT_SCHEMA
     assert current["x-srdcheck-schema-version"] == baseline[
         "x-srdcheck-schema-version"]
@@ -54,11 +54,11 @@ def test_verdict_schema_v2_matches_its_frozen_fixture():
     assert current["additionalProperties"] == baseline["additionalProperties"]
     assert set(current["required"]) == set(baseline["required"])
     assert set(current["properties"]) == set(baseline["properties"]), (
-        "verdict schema 2.0 forbids unknown top-level fields, so even a new "
+        "verdict schema 3.0 forbids unknown top-level fields, so even a new "
         "optional top-level property requires a new schema identity and migration")
     for name, schema in baseline["properties"].items():
         assert current["properties"].get(name) == schema, (
-            f"verdict schema 2.0 changed existing field {name!r}; publish a new "
+            f"verdict schema 3.0 changed existing field {name!r}; publish a new "
             "schema version and migration instead")
 
 
@@ -72,6 +72,19 @@ def test_verdict_schema_1_to_2_migration_is_additive_and_explicit():
     assert set(v2["required"]) - set(v1["required"]) == added
     for field, schema in v1["properties"].items():
         assert v2["properties"][field] == schema
+
+
+def test_verdict_schema_2_to_3_migration_is_additive_and_explicit():
+    v2 = json.loads((COMPAT / "verdict-schema-2.0.json").read_text())
+    v3 = json.loads((COMPAT / "verdict-schema-3.0.json").read_text())
+    added = {"facts", "rule_result", "table_decision", "state_mutation",
+             "explanation"}
+    assert v2["x-srdcheck-schema-version"] == "2.0"
+    assert v3["x-srdcheck-schema-version"] == "3.0"
+    assert set(v3["properties"]) - set(v2["properties"]) == added
+    assert set(v3["required"]) - set(v2["required"]) == added
+    for field, schema in v2["properties"].items():
+        assert v3["properties"][field] == schema
 
 
 def _assert_shape(name, value, shape):
@@ -169,6 +182,10 @@ def test_why_is_not_part_of_semantic_compatibility():
     second = legal("clearer explanation", rule_ids=("contract.example",)).as_dict()
     first.pop("why")
     second.pop("why")
+    first["rule_result"].pop("why")
+    second["rule_result"].pop("why")
+    first["explanation"].pop("rule")
+    second["explanation"].pop("rule")
     assert first == second
 
 

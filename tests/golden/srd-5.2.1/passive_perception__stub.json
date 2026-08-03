@@ -19,9 +19,49 @@
   "score_formula": "10 + perception_modifier"
  },
  "exit_code": 0,
+ "explanation": {
+  "rule": "Passive Perception = 10 + the Wisdom (Perception) check modifier \u2014 supply perception_modifier to resolve the number. Legal only within this checked scope.",
+  "situation_facts": [],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [],
+  "consumed": [],
+  "derived": [
+   {
+    "basis": "rule_result",
+    "path": "/data/score_formula",
+    "value": "10 + perception_modifier"
+   }
+  ],
+  "missing": []
+ },
  "rule_ids": [
   "passive.perception-formula"
  ],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [
+   {
+    "page": 22,
+    "quote": "Passive Perception = 10 + Wisdom (Perception) check modifier",
+    "section": "SRD 5.2.1 p.22 'Playing the Game > Proficiency > Passive Perception'"
+   }
+  ],
+  "exit_code": 0,
+  "rule_ids": [
+   "passive.perception-formula"
+  ],
+  "verdict": "legal",
+  "why": "Passive Perception = 10 + the Wisdom (Perception) check modifier \u2014 supply perception_modifier to resolve the number. Legal only within this checked scope."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "deriving the modifier",
   "Hide contests",

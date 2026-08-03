@@ -44,3 +44,5 @@ from .verdict import (  # noqa: F401
 )
 from .table_evaluation import (TABLE_EVALUATION_SCHEMA_VERSION,
                                project_table_evaluation)  # noqa: F401
+from .provenance import (ASSERTED_FACTS_SCHEMA,
+                         TABLE_DECISION_SCHEMA)  # noqa: F401

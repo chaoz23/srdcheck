@@ -19,7 +19,50 @@
   "suggested_next_action": "provide-facts"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Provide helper_has_relevant_proficiency before adjudicating Assist an Ability Check.",
+  "situation_facts": [
+   "/kind = \"ability-check\" (source: caller; confidence: unknown)"
+  ],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [
+   {
+    "confidence": null,
+    "path": "/kind",
+    "source": {
+     "kind": "caller"
+    },
+    "value": "ability-check"
+   }
+  ],
+  "consumed": [
+   "/kind"
+  ],
+  "derived": [],
+  "missing": [
+   {
+    "path": "helper_has_relevant_proficiency"
+   }
+  ]
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Provide helper_has_relevant_proficiency before adjudicating Assist an Ability Check."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "facts the caller omitted",
   "whether assistance is fictionally possible",

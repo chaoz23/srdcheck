@@ -5,6 +5,11 @@ from copy import deepcopy
 from dataclasses import dataclass, field
 
 from .contract import VERDICT_SCHEMA_VERSION
+from .provenance import (EXPLANATION_SCHEMA, FACT_TRACE_SCHEMA,
+                         RULE_RESULT_SCHEMA, STATE_MUTATION_SCHEMA,
+                         TABLE_DECISION_SCHEMA, annotate_params,
+                         derived_facts, human_explanation, missing_facts,
+                         state_mutation)
 
 LEGAL = 0
 ILLEGAL = 1
@@ -107,6 +112,9 @@ def refusal_contract():
     """Return an isolated, JSON-serializable refusal contract description."""
     return deepcopy(_REFUSAL_CONTRACT)
 
+_TABLE_DECISION_OUTPUT_SCHEMA = deepcopy(TABLE_DECISION_SCHEMA)
+_TABLE_DECISION_OUTPUT_SCHEMA["type"] = ["object", "null"]
+
 VERDICT_OUTPUT_SCHEMA = {
     "x-srdcheck-schema-version": VERDICT_SCHEMA_VERSION,
     "type": "object",
@@ -133,11 +141,17 @@ VERDICT_OUTPUT_SCHEMA = {
         "checked_scope": {"type": "array", "items": {"type": "string"}},
         "unchecked_scope": {"type": "array", "items": {"type": "string"}},
         "assumptions": {"type": "array", "items": {"type": "string"}},
+        "facts": FACT_TRACE_SCHEMA,
+        "rule_result": RULE_RESULT_SCHEMA,
+        "table_decision": _TABLE_DECISION_OUTPUT_SCHEMA,
+        "state_mutation": STATE_MUTATION_SCHEMA,
+        "explanation": EXPLANATION_SCHEMA,
         "data": {"type": "object"},
     },
     "required": ["verdict", "exit_code", "why", "citations", "rule_ids",
                  "adapter", "coverage_level", "checked_scope",
-                 "unchecked_scope", "assumptions"],
+                 "unchecked_scope", "assumptions", "facts", "rule_result",
+                 "table_decision", "state_mutation", "explanation"],
     "additionalProperties": False,
 }
 
@@ -169,23 +183,49 @@ class Verdict:
     checked_scope: list[str] = field(default_factory=list)
     unchecked_scope: list[str] = field(default_factory=lambda: [_UNKNOWN_SCOPE])
     assumptions: list[str] = field(default_factory=list)
+    asserted_facts: list[dict] = field(default_factory=list)
+    consumed_facts: list[str] = field(default_factory=list)
+    table_decision: dict | None = None
 
     @property
     def verdict(self):
         return _NAMES[self.exit_code]
 
     def as_dict(self):
+        citations = [c.as_dict() for c in self.citations]
+        facts = deepcopy(self.asserted_facts)
+        mutation = state_mutation(self.data)
+        rule_result = {
+            "authority": "rules-advisory",
+            "verdict": self.verdict,
+            "exit_code": self.exit_code,
+            "why": self.why,
+            "adapter": self.adapter,
+            "rule_ids": list(self.rule_ids),
+            "citations": deepcopy(citations),
+        }
         d = {
             "verdict": self.verdict,
             "exit_code": self.exit_code,
             "why": self.why,
-            "citations": [c.as_dict() for c in self.citations],
+            "citations": citations,
             "rule_ids": self.rule_ids,
             "adapter": self.adapter,
             "coverage_level": self.coverage_level,
             "checked_scope": self.checked_scope,
             "unchecked_scope": self.unchecked_scope,
             "assumptions": self.assumptions,
+            "facts": {
+                "asserted": facts,
+                "consumed": deepcopy(self.consumed_facts),
+                "derived": derived_facts(self.data, asserted=facts),
+                "missing": missing_facts(self.data),
+            },
+            "rule_result": rule_result,
+            "table_decision": deepcopy(self.table_decision),
+            "state_mutation": mutation,
+            "explanation": human_explanation(
+                self.why, facts, self.table_decision, mutation),
         }
         if self.data:
             d["data"] = self.data
@@ -217,6 +257,16 @@ def with_scope(result, *, coverage_level, checked_scope, unchecked_scope,
     result.checked_scope = list(checked_scope)
     result.unchecked_scope = list(unchecked_scope)
     result.assumptions = list(assumptions)
+    return result
+
+
+def with_provenance(result, params, asserted_facts=None, table_decision=None, *,
+                    consumed=True):
+    """Attach caller fact metadata and a non-mutating DM/table decision."""
+    result.asserted_facts = annotate_params(params, asserted_facts)
+    result.consumed_facts = ([fact["path"] for fact in result.asserted_facts]
+                             if consumed else [])
+    result.table_decision = deepcopy(table_decision)
     return result
 
 

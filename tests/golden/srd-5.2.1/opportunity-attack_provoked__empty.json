@@ -19,7 +19,37 @@
   "suggested_next_action": "provide-facts"
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Provide movement_kind. It is required unless another supplied fact already makes provocation impossible.",
+  "situation_facts": [],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [],
+  "consumed": [],
+  "derived": [],
+  "missing": [
+   {
+    "path": "movement_kind"
+   }
+  ]
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Provide movement_kind. It is required unless another supplied fact already makes provocation impossible."
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "facts the caller omitted",
   "computing geometry or reach exit",

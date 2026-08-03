@@ -10,8 +10,9 @@
 > MIT.
 
 Use srdcheck for a query listed in `srdcheck capabilities`. Every native verdict
-carries `coverage_level`, `checked_scope`, `unchecked_scope`, and `assumptions`;
-treat those per-result fields as the boundary of the answer. Current examples include
+carries `coverage_level`, `checked_scope`, `unchecked_scope`, `assumptions`,
+`facts`, `rule_result`, `table_decision`, and `state_mutation`; treat those
+per-result fields as the boundary and provenance of the answer. Current examples include
 modeled turn budgets, supplied attack modifiers, registered spell facts,
 creature registry facts, and supported declared state events. It does not
 currently validate multiclass builds or enumerate every creature-specific move.
@@ -32,6 +33,12 @@ use another capability, resolve a table ruling, or stop.
 `required_authority: "dm"` is permission-aware rather than person-aware: an
 authorized agent-DM may rule directly, while another caller escalates. See
 [docs/refusal-recovery.md](docs/refusal-recovery.md).
+
+Annotate query parameter paths with `asserted_facts` entries containing
+`source` and `confidence`; optionally record a scoped `table_decision`. The DM
+decision is echoed separately and never rewrites `rule_result`; current queries
+explicitly report `state_mutation.status: "none"`. See
+[docs/fact-provenance.md](docs/fact-provenance.md).
 
 ## Install and first verdict
 

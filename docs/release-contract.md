@@ -42,10 +42,12 @@ Version changes follow these rules:
   interpret their shape differently. Existing field meanings and types are
   stable within an identity. Because verdict schemas reject unknown top-level
   fields, each property set is frozen; adding an emitted top-level field requires
-  a new schema identity and migration. Verdict schema 2.0 is introduced in
-  engine 0.8.0 and preserves every v1 field while requiring
+  a new schema identity and migration. Verdict schema 2.0 preserves every v1
+  field while requiring
   `coverage_level`, `checked_scope`, `unchecked_scope`, and `assumptions` on
-  every result. Capabilities schema 2.0 was introduced in
+  every result. Verdict schema 3.0, introduced before the 0.8.0 release,
+  preserves v2 and adds fact provenance plus distinct rule, table-decision,
+  mutation, and explanation fields. Capabilities schema 2.0 was introduced in
   engine 0.6.0 for the machine contracts, exact release tuple, refusal
   recovery contract, query coverage, and target map. MCP protocol support is
   reported separately and never inferred from the engine or adapter version.

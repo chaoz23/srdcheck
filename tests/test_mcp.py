@@ -63,7 +63,9 @@ def test_handshake_and_tool_list():
         else:
             assert t["outputSchema"]["required"] == [
                 "verdict", "exit_code", "why", "citations", "rule_ids", "adapter",
-                "coverage_level", "checked_scope", "unchecked_scope", "assumptions"]
+                "coverage_level", "checked_scope", "unchecked_scope", "assumptions",
+                "facts", "rule_result", "table_decision", "state_mutation",
+                "explanation"]
 
 
 def test_tool_calls_return_verdicts():

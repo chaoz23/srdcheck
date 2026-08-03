@@ -21,7 +21,37 @@
   ]
  },
  "exit_code": 2,
+ "explanation": {
+  "rule": "Invalid input; correct the request before adjudication: $.spent_since_turn_start: required field is missing",
+  "situation_facts": [],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [],
+  "consumed": [],
+  "derived": [],
+  "missing": [
+   {
+    "path": "spent_since_turn_start"
+   }
+  ]
+ },
  "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Invalid input; correct the request before adjudication: $.spent_since_turn_start: required field is missing"
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
  "unchecked_scope": [
   "whether a proposed trigger occurred",
   "target and range legality"

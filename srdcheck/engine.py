@@ -8,6 +8,8 @@ honest exit 2 — never a guess (T1, T8).
 from . import verdict as v
 from .adapter import Adapter
 from .coverage import apply_query_scope as _scoped
+from .provenance import (ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA,
+                         annotate_params)
 from .schema import issues as schema_issues, normalize_integers
 
 NON_EMPTY_NAME_INPUT_SCHEMA = {
@@ -90,36 +92,72 @@ class Engine:
             reason_code="unsupported-content",
             missing_inputs=[]), **scope)
 
-    def query(self, query_type, params):
+    def query(self, query_type, params, *, asserted_facts=None,
+              table_decision=None):
+        metadata_problems = []
+        if asserted_facts is not None:
+            metadata_problems.extend(schema_issues(
+                asserted_facts, ASSERTED_FACTS_SCHEMA,
+                path="$.asserted_facts"))
+        if table_decision is not None:
+            metadata_problems.extend(schema_issues(
+                table_decision, TABLE_DECISION_SCHEMA,
+                path="$.table_decision"))
+        if metadata_problems:
+            return v.with_provenance(
+                validation_refusal(metadata_problems), params, consumed=False)
+        if asserted_facts is not None:
+            try:
+                annotate_params(params, asserted_facts)
+            except (KeyError, TypeError, ValueError) as exc:
+                return v.with_provenance(v.cannot_adjudicate(
+                    "Invalid asserted fact metadata: " + str(exc),
+                    reason_code="invalid-input", missing_inputs=[],
+                    data={"validation_errors": [str(exc)]}), params,
+                    consumed=False)
+
+        def receipt(result, *, consumed=True):
+            return v.with_provenance(
+                result, params, asserted_facts, table_decision,
+                consumed=consumed)
+
         if not isinstance(query_type, str) or not query_type.strip():
-            return v.cannot_adjudicate(
+            return receipt(v.cannot_adjudicate(
                 "Query type must be a non-empty string.",
-                reason_code="invalid-input", missing_inputs=[])
+                reason_code="invalid-input", missing_inputs=[]), consumed=False)
         if query_type == "jurisdiction":
             problems = schema_issues(params, NON_EMPTY_NAME_INPUT_SCHEMA)
             if problems:
-                return _scoped(self._invalid_input(problems), "kernel", query_type)
-            return self.jurisdiction(params["name"])
+                return receipt(_scoped(
+                    self._invalid_input(problems), "kernel", query_type),
+                    consumed=False)
+            return receipt(self.jurisdiction(params["name"]))
         for a in self.adapters:
             if query_type in a.query_types:
                 schema = (a.query_meta.get(query_type) or {}).get("inputSchema")
                 problems = schema_issues(params, schema)
                 if problems:
-                    return _scoped(self._invalid_input(problems, a.id),
-                                   a.manifest["name"], query_type)
+                    return receipt(_scoped(
+                        self._invalid_input(problems, a.id),
+                        a.manifest["name"], query_type), consumed=False)
                 # JSON Schema defines 1 and 1.0 as the same integer. Handlers
                 # receive the canonical Python integer in a fresh structure so
                 # transport representation cannot change adjudication and the
                 # caller's request is never mutated.
-                return a.handle(query_type,
-                                normalize_integers(params, schema or {}))
+                normalized = normalize_integers(params, schema or {})
+                handled = a.handle(query_type, normalized)
+                if not hasattr(handled, "asserted_facts"):
+                    return handled
+                return v.with_provenance(
+                    handled, normalized,
+                    asserted_facts, table_decision)
         known = sorted(t for a in self.adapters for t in a.query_types)
-        return v.cannot_adjudicate(
+        return receipt(v.cannot_adjudicate(
             f"No loaded adapter answers query type '{query_type}'. "
             f"Available: {', '.join(known)}.",
             adapter=", ".join(a.id for a in self.adapters),
             reason_code="unmodeled-rule",
-            missing_inputs=[])
+            missing_inputs=[]), consumed=False)
 
     _invalid_input = staticmethod(validation_refusal)
 

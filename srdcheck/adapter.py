@@ -95,6 +95,8 @@ class Adapter:
         return self.entity_facts.get((category, name.strip().lower()))
 
     def handle(self, query_type, params):
-        return apply_query_scope(
+        from .verdict import with_provenance
+        result = apply_query_scope(
             self._handlers[query_type](self, params),
             self.manifest["name"], query_type)
+        return with_provenance(result, params)
