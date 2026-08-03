@@ -3,21 +3,22 @@
  "generated_from": "srdcheck/capability_claims.json + srdcheck capabilities + adapter queries.json",
  "engine": {
   "name": "srdcheck",
-  "version": "0.8.0"
+  "version": "0.9.0"
  },
  "machine_contracts": {
   "verdict_schema_version": "4.0",
   "capabilities_schema_version": "2.0",
   "refusal_contract_version": "1.1",
+  "observability_contract_version": "srdcheck.observability/1.0",
   "compatibility_window": "N/N-1",
   "supported_engine_minors": [
-   "0.8",
-   "0.7"
+   "0.9",
+   "0.8"
   ],
   "why_stability": "non-contractual"
  },
  "release_tuple": {
-  "engine_version": "0.8.0",
+  "engine_version": "0.9.0",
   "adapters": [
    {
     "identifier": "srd-5.1",
@@ -138,6 +139,131 @@
    "recoverability": "terminal",
    "missing_inputs": [],
    "suggested_next_action": "stop"
+  }
+ },
+ "observability_contract": {
+  "schema_version": "srdcheck.observability/1.0",
+  "delivery": "out-of-band",
+  "default": "disabled",
+  "payload_policy": "metadata-only",
+  "event_schema": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "schema_version",
+    "event",
+    "request_id",
+    "query_type",
+    "engine",
+    "adapters"
+   ],
+   "properties": {
+    "schema_version": {
+     "type": "string",
+     "enum": [
+      "srdcheck.observability/1.0"
+     ]
+    },
+    "event": {
+     "type": "string",
+     "enum": [
+      "request.started",
+      "request.completed",
+      "request.refused",
+      "request.error"
+     ]
+    },
+    "request_id": {
+     "type": "string",
+     "minLength": 1,
+     "maxLength": 244
+    },
+    "query_type": {
+     "type": "string",
+     "minLength": 1
+    },
+    "engine": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "name",
+      "version"
+     ],
+     "properties": {
+      "name": {
+       "type": "string"
+      },
+      "version": {
+       "type": "string"
+      }
+     }
+    },
+    "adapters": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "name",
+       "version",
+       "data_version",
+       "rules_version"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "version": {
+        "type": "string"
+       },
+       "data_version": {
+        "type": "string"
+       },
+       "rules_version": {
+        "type": "string"
+       }
+      }
+     }
+    },
+    "verdict_id": {
+     "type": "string",
+     "pattern": "^sha256:[0-9a-f]{64}$"
+    },
+    "outcome": {
+     "type": "string",
+     "enum": [
+      "legal",
+      "illegal",
+      "cannot-adjudicate"
+     ]
+    },
+    "exit_code": {
+     "type": "integer",
+     "enum": [
+      0,
+      1,
+      2
+     ]
+    },
+    "reason_code": {
+     "type": "string"
+    },
+    "validation_status": {
+     "type": "string",
+     "enum": [
+      "accepted",
+      "rejected"
+     ]
+    },
+    "duration_ms": {
+     "type": "number",
+     "minimum": 0
+    },
+    "error_type": {
+     "type": "string",
+     "minLength": 1
+    }
+   }
   }
  },
  "result_contract": {

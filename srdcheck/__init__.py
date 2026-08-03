@@ -49,3 +49,6 @@ from .provenance import (ASSERTED_FACTS_SCHEMA,
 from .house_rules import (MANIFEST_SCHEMA, MANIFEST_SCHEMA_ID,
                           POLICY_CONTEXT_SCHEMA, export_manifest,
                           import_manifest, resolve_policy)  # noqa: F401
+from .observability import (OBSERVABILITY_SCHEMA_VERSION, JsonLineSink,
+                            ObservedResult, observability_contract,
+                            observe_query, verdict_id)  # noqa: F401

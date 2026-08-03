@@ -23,9 +23,13 @@ Machine metadata lives in `data`; agents branch on it instead of parsing `why`. 
 | `gm-discretion` | `authority` | `resolve-table-ruling` | `dm` |
 | `stale-state` | `conflict` | `reconcile-state` | `—` |
 
+## Privacy-safe observability contract
+
+`srdcheck.observability/1.0` is out-of-band, disabled by default, and metadata-only.
+
 ## Release identity
 
-Engine `0.8.0`; verdict schema `4.0`; compatibility `N/N-1` over `0.8, 0.7`.
+Engine `0.9.0`; verdict schema `4.0`; compatibility `N/N-1` over `0.9, 0.8`.
 
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|

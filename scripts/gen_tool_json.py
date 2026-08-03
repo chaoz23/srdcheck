@@ -51,8 +51,11 @@ def build():
         "--pipe": "Read one {\"type\", \"params\"} JSON query from stdin.",
         "--schema": "Print JSON Schema for input and output.",
         "capabilities": ("Print engine, protocol, adapter versions/digests, "
-                         "query types, refusal recovery contract, and MCP "
-                         "tool names."),
+                         "query types, refusal recovery and observability "
+                         "contracts, and MCP tool names."),
+        "query ... --trace [--request-id <id>]": (
+            "Keep the verdict on stdout and emit metadata-only lifecycle "
+            "NDJSON on stderr."),
         "policy validate|export <manifest>": (
             "Import and validate a portable srdcheck.table-policy/1.0 JSON "
             "manifest, or export its canonical human/machine form."),
@@ -101,7 +104,8 @@ def build():
             "writes, evaluate with event.apply and verify the exact proposal "
             "with transition.commit; the host owns atomic persistence. Use "
             "`capabilities` for checked/unchecked scope, refusal mappings, "
-            "and the exact release tuple."),
+            "the metadata-only observability schema, and the exact release "
+            "tuple."),
         "mcp": {
             "command": "python3 -m srdcheck.mcp",
             "transport": "stdio",
@@ -113,7 +117,8 @@ def build():
                 "arrive as structuredContent; illegal and cannot-adjudicate "
                 "are results, not protocol errors. The opt-in table_evaluation "
                 "tool projects one native query without changing native tool "
-                "response schemas."),
+                "response schemas. Set SRDCHECK_TRACE=stderr and pass an "
+                "optional request_id for out-of-band metadata-only tracing."),
         },
         "_generated_by": "scripts/gen_tool_json.py",
     }

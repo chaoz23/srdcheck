@@ -70,6 +70,15 @@ recoverability, and `reconcile-state` action for state compare-and-swap
 failures. Contract 1.0 meanings are unchanged; consumers must discover 1.1
 before assuming every refusal belongs to the earlier closed vocabulary.
 
+Observability is a separately identified out-of-band contract. Version 1.0
+adds metadata-only lifecycle events with stable request identity, deterministic
+verdict identity, versions, refusal/validation class, and occurrence timing.
+It does not add a verdict field or change verdict schema 4.0. Consumers discover
+the event schema through `capabilities.observability_contract`; removing or
+reinterpreting an event or field requires a new observability identity.
+Engine 0.9.0 introduces this additive contract and keeps the exact released
+0.8.0 verdict semantics as its N-1 executable fixture.
+
 ## Exact release tuple
 
 The engine and an adapter do not share a version clock. Every runtime capability

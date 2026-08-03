@@ -15,6 +15,8 @@ from copy import deepcopy
 from . import __version__
 from .engine import Engine, NON_EMPTY_NAME_INPUT_SCHEMA
 from .house_rules import MANIFEST_SCHEMA, POLICY_CONTEXT_SCHEMA
+from .observability import (REQUEST_ID_MAX_LENGTH, configured_sink,
+                            observe_query)
 from .provenance import ASSERTED_FACTS_SCHEMA, TABLE_DECISION_SCHEMA
 from .schema import ValidationError, validate
 from .table_evaluation import (
@@ -55,6 +57,11 @@ JURISDICTION_TOOL = {
             "table_decision": TABLE_DECISION_SCHEMA,
             "table_policy": MANIFEST_SCHEMA,
             "policy_context": POLICY_CONTEXT_SCHEMA,
+            "request_id": {
+                "type": "string", "minLength": 1,
+                "maxLength": REQUEST_ID_MAX_LENGTH,
+                "description": "Caller-owned opaque request correlation ID.",
+            },
         },
     },
     "outputSchema": VERDICT_OUTPUT_SCHEMA,
@@ -79,6 +86,10 @@ TABLE_EVALUATION_TOOL = {
             "table_decision": TABLE_DECISION_SCHEMA,
             "table_policy": MANIFEST_SCHEMA,
             "policy_context": POLICY_CONTEXT_SCHEMA,
+            "request_id": {
+                "type": "string", "minLength": 1,
+                "maxLength": REQUEST_ID_MAX_LENGTH,
+            },
         },
     },
     "outputSchema": TABLE_EVALUATION_OUTPUT_SCHEMA,
@@ -95,7 +106,7 @@ def _published_input_schema(adapter, meta):
     """
     schema = deepcopy(meta.get("inputSchema", {"type": "object"}))
     reserved = {"asserted_facts", "table_decision", "table_policy",
-                "policy_context"}
+                "policy_context", "request_id"}
     collisions = reserved.intersection(schema.get("properties", {}))
     if collisions:
         raise ValueError(
@@ -123,6 +134,10 @@ def _published_input_schema(adapter, meta):
         MANIFEST_SCHEMA)
     schema.setdefault("properties", {})["policy_context"] = deepcopy(
         POLICY_CONTEXT_SCHEMA)
+    schema.setdefault("properties", {})["request_id"] = {
+        "type": "string", "minLength": 1,
+        "maxLength": REQUEST_ID_MAX_LENGTH,
+    }
     return schema
 
 
@@ -154,11 +169,32 @@ def _query(engine, query_type, params, asserted_facts=None,
 
 
 class Server:
-    def __init__(self, adapter_paths=None):
+    def __init__(self, adapter_paths=None, *, event_sink=None, clock_ns=None):
         from .access import default_adapter_paths
         self.engine = Engine(adapter_paths or default_adapter_paths())
         self.tools, self.mapping = build_tools(self.engine)
         self.lifecycle = "new"
+        self.event_sink = event_sink
+        self.clock_ns = clock_ns
+
+    def _query(self, query_type, params, arguments):
+        options = {
+            "asserted_facts": arguments.get("asserted_facts"),
+            "table_decision": arguments.get("table_decision"),
+            "table_policy": arguments.get("table_policy"),
+            "policy_context": arguments.get("policy_context"),
+        }
+        if self.event_sink is None:
+            return _query(self.engine, query_type, params, **options)
+        observed_options = {
+            "request_id": arguments.get("request_id"),
+            "sink": self.event_sink,
+            **options,
+        }
+        if self.clock_ns is not None:
+            observed_options["clock_ns"] = self.clock_ns
+        return observe_query(
+            self.engine, query_type, params, **observed_options).verdict
 
     def _server_info(self):
         """Engine version and ruleset versions are distinct facts: the engine
@@ -269,13 +305,8 @@ class Server:
             if qt == "table_evaluation":
                 query_type = normalized["query_type"]
                 query_params = normalized["params"]
-                native = _query(
-                    self.engine,
-                    query_type, query_params,
-                    normalized.get("asserted_facts"),
-                    normalized.get("table_decision"),
-                    normalized.get("table_policy"),
-                    normalized.get("policy_context")).as_dict()
+                native = self._query(
+                    query_type, query_params, normalized).as_dict()
                 validate(native, VERDICT_OUTPUT_SCHEMA)
                 vd = project_table_evaluation(
                     native, query_type, query_params, normalized.get("context"))
@@ -283,22 +314,17 @@ class Server:
             elif qt == "jurisdiction":
                 rule_args = {key: value for key, value in args.items()
                              if key not in {"asserted_facts", "table_decision",
-                                            "table_policy", "policy_context"}}
-                vd = _query(
-                    self.engine, "jurisdiction", rule_args,
-                    args.get("asserted_facts"),
-                    args.get("table_decision"), args.get("table_policy"),
-                    args.get("policy_context")).as_dict()
+                                            "table_policy", "policy_context",
+                                            "request_id"}}
+                vd = self._query(
+                    "jurisdiction", rule_args, args).as_dict()
                 validate(vd, VERDICT_OUTPUT_SCHEMA)
             else:
                 rule_args = {key: value for key, value in args.items()
                              if key not in {"asserted_facts", "table_decision",
-                                            "table_policy", "policy_context"}}
-                vd = _query(
-                    self.engine, qt, rule_args,
-                    args.get("asserted_facts"),
-                    args.get("table_decision"), args.get("table_policy"),
-                    args.get("policy_context")).as_dict()
+                                            "table_policy", "policy_context",
+                                            "request_id"}}
+                vd = self._query(qt, rule_args, args).as_dict()
                 validate(vd, VERDICT_OUTPUT_SCHEMA)
         except ValidationError:
             return self._result(mid, {
@@ -343,7 +369,7 @@ class Server:
 
 
 def script():
-    Server().serve()
+    Server(event_sink=configured_sink()).serve()
 
 
 if __name__ == "__main__":
