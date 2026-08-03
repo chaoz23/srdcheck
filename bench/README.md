@@ -56,6 +56,15 @@ Set files are versioned; results record the prompt version. Questions use
 original wording; `cannot-adjudicate` probes use invented content, never
 real third-party names.
 
+## Agent tool-selection lane
+
+[`tool_selection/PROTOCOL.md`](tool_selection/PROTOCOL.md) preregisters the
+issue #32 comparison between today's specialized MCP catalog and a virtual
+four-operation `capabilities/evaluate/enumerate/explain` protocol. Its DM-first
+cases, executable first-call scorer, catalog-size accounting, cohort gates, and
+compatibility guard are separate from the rules-fidelity leaderboard: tool
+discovery is not rules knowledge, and the two measurements are never blended.
+
 ## Coverage lane (what fraction of combat srdcheck can adjudicate)
 
 The correctness lanes above ask "is srdcheck *right*?" The coverage census
