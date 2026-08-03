@@ -1,6 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied level, difficulty, and party size describe the intended encounter budget"
+ ],
+ "checked_scope": [
+  "per-character and total XP budget arithmetic"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "level",
@@ -16,6 +23,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "encounter suitability",
+  "monster tactics",
+  "party composition beyond size and level"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.level: required field is missing; $.difficulty: required field is missing"
 }

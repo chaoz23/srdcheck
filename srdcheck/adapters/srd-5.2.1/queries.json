@@ -63,7 +63,8 @@
         ]
        },
        "feet": {
-        "type": "integer"
+        "type": "integer",
+        "description": "distance in feet; required when do is move"
        },
        "crawl": {
         "type": "boolean"
@@ -86,7 +87,16 @@
       "required": [
        "do"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "allOf": [
+       {
+        "if": {
+         "properties": {"do": {"const": "move"}},
+         "required": ["do"]
+        },
+        "then": {"required": ["feet"]}
+       }
+      ]
      }
     }
    },
@@ -264,7 +274,7 @@
   }
  },
  "mage-hand.use": {
-  "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Uses outside the text's can/can't lists return cannot-adjudicate with gm-discretion and resolve-table-ruling; an authorized agent-DM may rule directly.",
+  "description": "Adjudicate one proposed use of the Mage Hand cantrip: granted uses (manipulate, open unlocked, stow/retrieve, pour), prohibitions (attack, activate magic items), the 10-pound carry limit and 30-foot range leash. Granted uses require the relevant facts: distance for every granted use and weight when the hand carries or manipulates an object. Decisive prohibitions do not request irrelevant weight or distance. Uses outside the text's can/can't lists return cannot-adjudicate with gm-discretion and resolve-table-ruling; an authorized agent-DM may rule directly.",
   "inputSchema": {
    "type": "object",
    "properties": {

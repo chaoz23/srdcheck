@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied speed, conditions, spent budgets, and plan describe the current proposed turn"
+ ],
+ "checked_scope": [
+  "action, bonus-action, reaction, interaction, movement, and spell-slot-per-turn budgets",
+  "modeled condition effects on those budgets"
+ ],
  "citations": [],
+ "coverage_level": "budget-only",
  "data": {
   "missing_inputs": [
    "speed",
@@ -16,6 +24,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "whether a feature grants an action",
+  "targets, ranges, line of sight, cover, inventory, and bespoke feature prerequisites"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.speed: required field is missing; $.plan: required field is missing"
 }

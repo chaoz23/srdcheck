@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the creature the caller intends to check"
+ ],
+ "checked_scope": [
+  "creature registry membership",
+  "source citation for a match"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [
    "name"
@@ -14,6 +22,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "creature action legality",
+  "third-party content",
+  "typo diagnosis"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.name: required field is missing"
 }

@@ -1,6 +1,13 @@
 {
  "adapter": "toy-tictactoe@0.1.0",
+ "assumptions": [
+  "the supplied board and player represent the complete current tutorial-game state"
+ ],
+ "checked_scope": [
+  "legal empty cells for the current player"
+ ],
  "citations": [],
+ "coverage_level": "full-context-checkable",
  "data": {
   "missing_inputs": [],
   "reason_code": "invalid-input",
@@ -9,6 +16,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "strategy",
+  "ranking options"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Malformed board: expected 9 characters of X, O, and '.' \u2014 cannot adjudicate."
 }

@@ -10,8 +10,10 @@ srdcheck is a deterministic, capability-specific rules rail. The query metadata
 and generated capability map declare each tool's scope; a caller supplies
 structured facts and gets an SRD-derived verdict that applies only to that
 declared scope. A `legal` result means **passes that checked scope**; it never
-means that the whole action, turn, build, or scene is globally legal. Per-result
-scope fields are not part of the current verdict envelope.
+means that the whole action, turn, build, or scene is globally legal. Every
+native verdict carries a named `coverage_level`, `checked_scope`,
+`unchecked_scope`, and explicit `assumptions`; legal explanations also say
+that legality applies only within the checked scope.
 
 The usual caller is a game-running agent, often the authorized DM itself:
 

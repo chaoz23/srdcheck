@@ -1,5 +1,13 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied DC, modifier, conditions, and optional d20 result are accurate for this save"
+ ],
+ "checked_scope": [
+  "DC comparison",
+  "modeled condition modifiers and auto-fails",
+  "supplied d20 and modifiers"
+ ],
  "citations": [
   {
    "page": 6,
@@ -7,6 +15,7 @@
    "section": "SRD 5.2.1 p.6 'Playing the Game > D20 Tests'"
   }
  ],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "d20s": 1,
   "dc": 2,
@@ -17,6 +26,11 @@
  "rule_ids": [
   "save.d20-vs-dc"
  ],
+ "unchecked_scope": [
+  "rolling dice",
+  "deriving sheet modifiers",
+  "effects of success or failure"
+ ],
  "verdict": "legal",
- "why": "Saving throw: roll straight (1 d20) vs DC 2."
+ "why": "Saving throw: roll straight (1 d20) vs DC 2. Legal only within this checked scope."
 }

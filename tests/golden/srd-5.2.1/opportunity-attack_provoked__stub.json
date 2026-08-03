@@ -1,6 +1,15 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied movement, reach-exit, visibility, and exception facts describe the provoking path"
+ ],
+ "checked_scope": [
+  "supplied movement kind",
+  "supplied reach-exit and visibility facts on a potentially provoking voluntary path",
+  "Disengage, teleportation, and forced-movement exceptions"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "movement_kind"
@@ -11,6 +20,12 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "facts the caller omitted",
+  "computing geometry or reach exit",
+  "reaction availability",
+  "attack resolution"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Provide movement_kind. It is required unless another supplied fact already makes provocation impossible."
 }

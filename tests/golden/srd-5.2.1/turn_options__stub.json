@@ -1,5 +1,12 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied speed, conditions, and spent budgets describe the current turn"
+ ],
+ "checked_scope": [
+  "remaining budget option kinds",
+  "movement remaining and modeled stand/crawl costs"
+ ],
  "citations": [
   {
    "page": 13,
@@ -7,6 +14,7 @@
    "section": "SRD 5.2.1 p.13 'Combat > Your Turn'"
   }
  ],
+ "coverage_level": "budget-only",
  "data": {
   "options": [
    {
@@ -36,6 +44,10 @@
  "rule_ids": [
   "turn.movement-budget"
  ],
+ "unchecked_scope": [
+  "every legal creature action",
+  "feature-specific actions, targets, geometry, and tactics"
+ ],
  "verdict": "legal",
- "why": "5 option kinds remain this turn."
+ "why": "5 option kinds remain this turn. Legal only within this checked scope."
 }

@@ -27,6 +27,12 @@ def event_int(p, key):
 
 def mage_hand_use(adapter, p):
     """p: {kind, weight_lb?, distance_ft?} — one proposed use of the hand."""
+    schema = adapter.query_meta["mage-hand.use"]["inputSchema"]
+    problems = schema_issues(p, schema)
+    if problems:
+        from srdcheck.engine import validation_refusal
+        return validation_refusal(problems, adapter.id)
+    p = normalize_integers(p, schema)
     a = adapter.atoms
     aid = adapter.id
     kind = p["kind"].strip()
@@ -62,6 +68,16 @@ def mage_hand_use(adapter, p):
 
     grants = a["mage-hand.granted-uses"]
     if kind in grants["params"]["uses"]:
+        required = ["distance_ft"]
+        if kind in {"manipulate_object", "stow_retrieve_open", "pour_vial"}:
+            required.append("weight_lb")
+        missing = [name for name in required if name not in p]
+        if missing:
+            return v.cannot_adjudicate(
+                "The proposed granted use still depends on missing weight or "
+                "distance facts; provide only the listed facts before "
+                "adjudication.", adapter=aid,
+                reason_code="missing-fact", missing_inputs=missing)
         why = [f"granted use: '{grants['params']['uses'][kind]}'"]
         if "weight_lb" in p:
             why.append(f"{p['weight_lb']} lb is within the "

@@ -1,0 +1,118 @@
+{
+ "schema_version": "1.0",
+ "source_engine_version": "0.7.0",
+ "source_engine_minor": "0.7",
+ "source_engine_tag": "v0.7.0",
+ "source_engine_commit": "b1a21155624ce01d2abc50ec8cb2b19828e50151",
+ "source_adapter": "srd-5.2.1@0.2.1",
+ "excluded_non_contractual_fields": ["why"],
+ "source_query_types": [
+  "attack.modifiers", "check.make", "concentration.check", "creature.stats",
+  "creature.valid", "encounter.xp-budget", "event.apply", "feature.uses",
+  "grapple.initiate", "help.assist", "jurisdiction", "mage-hand.use",
+  "opportunity-attack.provoked", "passive.perception", "reaction.available",
+  "roll.compose", "save.check", "spell.facts", "turn.options", "turn.plan"
+ ],
+ "cases": [
+  {
+   "id": "known-jurisdiction", "query_type": "jurisdiction",
+   "params": {"name": "Fireball"},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": [], "citation_identity": []}
+  },
+  {
+   "id": "attack-condition-modifier", "query_type": "attack.modifiers",
+   "params": {"attacker": {"conditions": ["Blinded"]}, "distance_ft": 10},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["condition.blinded.attacks", "roll.advantage-mechanic"], "citation_identity": [{"section": "SRD 5.2.1 p.177 'Rules Glossary > Blinded [Condition]'", "page": 177}, {"section": "SRD 5.2.1 p.8 'D20 Tests > Advantage/Disadvantage > Roll Two D20s'", "page": 8}], "data_subset": {"roll": "disadvantage", "d20s": 2}}
+  },
+  {
+   "id": "resolved-ability-check", "query_type": "check.make",
+   "params": {"dc": 12, "modifier": 2, "d20_result": 10},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["save.d20-vs-dc"], "citation_identity": [{"section": "SRD 5.2.1 p.6 'Playing the Game > D20 Tests'", "page": 6}], "data_subset": {"dc": 12, "total": 12, "success": true}}
+  },
+  {
+   "id": "concentration-dc", "query_type": "concentration.check",
+   "params": {"damage": 24},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["save.concentration-dc"], "citation_identity": [{"section": "SRD 5.2.1 p.179 'Rules Glossary > Concentration'", "page": 179}], "data_subset": {"dc": 12}}
+  },
+  {
+   "id": "creature-stat-facts", "query_type": "creature.stats",
+   "params": {"name": "Ghast"},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": [], "citation_identity": [{"section": "SRD 5.2.1 p.287"}], "data_subset": {"name": "Ghast", "cr": "2", "xp": 450}}
+  },
+  {
+   "id": "valid-creature", "query_type": "creature.valid",
+   "params": {"name": "Ghast"},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": [], "citation_identity": [{"section": "SRD 5.2.1 p.287"}]}
+  },
+  {
+   "id": "encounter-budget", "query_type": "encounter.xp-budget",
+   "params": {"level": 3, "difficulty": "moderate", "party_size": 4},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["encounter.xp-budget-per-character"], "citation_identity": [{"section": "SRD 5.2.1 p.202 'Gameplay Toolbox > Building Combat Encounters > XP Budget per Character'", "page": 202}], "data_subset": {"per_character": 225, "party_size": 4, "total": 900}}
+  },
+  {
+   "id": "declared-action-fold", "query_type": "event.apply",
+   "params": {"state": {"speed": 30, "conditions": [], "turn": {"action_spent": false, "bonus_action_spent": false, "reaction_spent": false, "free_interaction_spent": false, "movement_ft_spent": 0, "spell_slots_spent_this_turn": 0}}, "event": {"type": "action"}},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["turn.break-up-move"], "citation_identity": [{"section": "SRD 5.2.1 p.14 'Movement and Position > Breaking Up Your Move'", "page": 14}], "data_subset": {"next_state": {"turn": {"action_spent": true}, "lineage": {"kind": "rule", "rule_ids": ["turn.break-up-move"]}}}}
+  },
+  {
+   "id": "feature-formula-filled", "query_type": "feature.uses",
+   "params": {"feature": "divine-sense", "charisma_modifier": 4},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["feature.uses"], "citation_identity": [{"section": "SRD 5.2.1 p.87", "page": 87}], "data_subset": {"uses": 5}}
+  },
+  {
+   "id": "grapple-initiation", "query_type": "grapple.initiate",
+   "params": {"kind": "grapple", "str_modifier": 3, "proficiency_bonus": 2, "attacker_size": "medium", "target_size": "medium", "has_free_hand": true},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["unarmed-strike.grapple"], "citation_identity": [{"section": "SRD 5.2.1 p.190 'Rules Glossary > Unarmed Strike'", "page": 190}], "data_subset": {"dc": 13, "kind": "grapple"}}
+  },
+  {
+   "id": "help-proficiency-gate", "query_type": "help.assist",
+   "params": {"kind": "ability-check", "helper_has_relevant_proficiency": true},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["help.assist-choose-proficiency", "help.assist-ability-advantage"], "citation_identity": [{"section": "SRD 5.2.1 p.182 'Rules Glossary > Help [Action] > Assist an Ability Check'", "page": 182}, {"section": "SRD 5.2.1 p.183 'Rules Glossary > Help [Action] > Assist an Ability Check'", "page": 183}], "data_subset": {"grants_advantage": true, "gm_discretion": true}}
+  },
+  {
+   "id": "mage-hand-attack-prohibition", "query_type": "mage-hand.use",
+   "params": {"kind": "attack"},
+   "expected": {"verdict": "illegal", "exit_code": 1, "rule_ids": ["mage-hand.cant-attack"], "citation_identity": [{"section": "SRD 5.2.1 p.145 'Spells > Mage Hand'", "page": 145}]}
+  },
+  {
+   "id": "opportunity-attack-provocation", "query_type": "opportunity-attack.provoked",
+   "params": {"movement_kind": "voluntary", "mover_seen_by_reactor": true, "leaves_reach": true},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["opportunity-attack.making"], "citation_identity": [{"section": "SRD 5.2.1 p.15 'Playing the Game > Making an Attack > Opportunity Attacks > Making an Opportunity Attack'", "page": 15}], "data_subset": {"provoked": true}}
+  },
+  {
+   "id": "passive-perception-formula", "query_type": "passive.perception",
+   "params": {"perception_modifier": 3},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["passive.perception-formula"], "citation_identity": [{"section": "SRD 5.2.1 p.22 'Playing the Game > Proficiency > Passive Perception'", "page": 22}], "data_subset": {"score": 13}}
+  },
+  {
+   "id": "reaction-available", "query_type": "reaction.available",
+   "params": {"spent_since_turn_start": false},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["turn.one-reaction-per-round"], "citation_identity": [{"section": "SRD 5.2.1 p.186 'Rules Glossary > Reaction'", "page": 186}]}
+  },
+  {
+   "id": "advantage-disadvantage-cancel", "query_type": "roll.compose",
+   "params": {"advantage_sources": ["a"], "disadvantage_sources": ["b"]},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["roll.both-cancel"], "citation_identity": [{"section": "SRD 5.2.1 p.8 'D20 Tests > Advantage/Disadvantage > They Don't Stack'", "page": 8}], "data_subset": {"roll": "straight", "d20s": 1}}
+  },
+  {
+   "id": "resolved-saving-throw", "query_type": "save.check",
+   "params": {"dc": 12, "modifier": 2, "d20_result": 10},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["save.d20-vs-dc"], "citation_identity": [{"section": "SRD 5.2.1 p.6 'Playing the Game > D20 Tests'", "page": 6}], "data_subset": {"dc": 12, "total": 12, "success": true}}
+  },
+  {
+   "id": "spell-facts", "query_type": "spell.facts",
+   "params": {"name": "Mage Hand"},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["spell.facts"], "citation_identity": [{"section": "SRD 5.2.1 p.145", "page": 145}], "data_subset": {"facts": {"duration": "1 minute", "concentration": false}}}
+  },
+  {
+   "id": "turn-budget-options", "query_type": "turn.options",
+   "params": {"speed": 30},
+   "expected": {"verdict": "legal", "exit_code": 0, "rule_ids": ["turn.movement-budget"], "citation_identity": [{"section": "SRD 5.2.1 p.13 'Combat > Your Turn'", "page": 13}], "data_subset": {"options": [{"do": "action", "spell_slot_available": true}, {"do": "bonus-action", "spell_slot_available": true}, {"do": "reaction", "note": "usable on your own turn", "spell_slot_available": true}, {"do": "free-interaction"}, {"do": "move", "feet_remaining": 30, "mode": "walk"}]}}
+  },
+  {
+   "id": "two-bonus-actions", "query_type": "turn.plan",
+   "params": {"speed": 30, "plan": [{"do": "bonus-action"}, {"do": "bonus-action"}]},
+   "expected": {"verdict": "illegal", "exit_code": 1, "rule_ids": ["turn.one-bonus-action"], "citation_identity": [{"section": "SRD 5.2.1 p.10 'Actions > Bonus Actions'", "page": 10}]}
+  }
+ ]
+}

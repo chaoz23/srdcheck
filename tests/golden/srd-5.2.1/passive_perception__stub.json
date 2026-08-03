@@ -1,5 +1,12 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied Wisdom (Perception) modifier is already derived correctly"
+ ],
+ "checked_scope": [
+  "10 plus supplied Wisdom (Perception) modifier",
+  "refusal of the non-SRD plus-or-minus-five convention"
+ ],
  "citations": [
   {
    "page": 22,
@@ -7,6 +14,7 @@
    "section": "SRD 5.2.1 p.22 'Playing the Game > Proficiency > Passive Perception'"
   }
  ],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "score_formula": "10 + perception_modifier"
  },
@@ -14,6 +22,11 @@
  "rule_ids": [
   "passive.perception-formula"
  ],
+ "unchecked_scope": [
+  "deriving the modifier",
+  "Hide contests",
+  "line of sight and lighting"
+ ],
  "verdict": "legal",
- "why": "Passive Perception = 10 + the Wisdom (Perception) check modifier \u2014 supply perception_modifier to resolve the number."
+ "why": "Passive Perception = 10 + the Wisdom (Perception) check modifier \u2014 supply perception_modifier to resolve the number. Legal only within this checked scope."
 }

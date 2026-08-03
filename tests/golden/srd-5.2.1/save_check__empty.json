@@ -1,6 +1,15 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied DC, modifier, conditions, and optional d20 result are accurate for this save"
+ ],
+ "checked_scope": [
+  "DC comparison",
+  "modeled condition modifiers and auto-fails",
+  "supplied d20 and modifiers"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "dc"
@@ -14,6 +23,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "rolling dice",
+  "deriving sheet modifiers",
+  "effects of success or failure"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.dc: required field is missing"
 }

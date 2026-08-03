@@ -88,6 +88,16 @@ def issues(value, schema, path="$", limit=50):
                 return
         if "enum" in spec and current not in spec["enum"]:
             add(current_path, "enum", f"expected one of {spec['enum']!r}")
+        if "const" in spec and current != spec["const"]:
+            add(current_path, "const", f"expected {spec['const']!r}")
+        for subschema in spec.get("allOf", []):
+            walk(current, subschema, current_path)
+        predicate = spec.get("if")
+        if isinstance(predicate, dict):
+            branch = (spec.get("then") if not issues(
+                current, predicate, current_path, limit=1) else spec.get("else"))
+            if isinstance(branch, dict):
+                walk(current, branch, current_path)
         if isinstance(current, dict):
             properties = spec.get("properties", {})
             for name in spec.get("required", []):

@@ -1,6 +1,16 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied combatant, visibility, relationship, and distance facts are accurate and current"
+ ],
+ "checked_scope": [
+  "documented condition modifiers",
+  "Prone distance behavior",
+  "condition-sensitive fact dependencies and category gates",
+  "ranged attacks in close combat with Incapacitated embeds"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "advantage_sources": [],
   "d20s": 1,
@@ -10,6 +20,10 @@
  },
  "exit_code": 0,
  "rule_ids": [],
+ "unchecked_scope": [
+  "cover and line-of-sight geometry not supplied as facts",
+  "weapon or feature prerequisites"
+ ],
  "verdict": "legal",
- "why": "Attack roll: straight (1 d20)."
+ "why": "Attack roll: straight (1 d20). Legal only within this checked scope."
 }

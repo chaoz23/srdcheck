@@ -12,6 +12,15 @@ CANNOT_ADJUDICATE = 2
 
 _NAMES = {LEGAL: "legal", ILLEGAL: "illegal", CANNOT_ADJUDICATE: "cannot-adjudicate"}
 
+COVERAGE_LEVELS = (
+    "unknown",
+    "registry-only",
+    "budget-only",
+    "rule-surface-complete",
+    "full-context-checkable",
+)
+_UNKNOWN_SCOPE = "scope metadata is unavailable for this verdict surface"
+
 # Stable agent control-flow vocabulary for exit 2.  ``why`` remains useful to
 # humans, but callers must never have to parse it to choose their next step.
 REFUSAL_REASON_CODES = (
@@ -120,10 +129,15 @@ VERDICT_OUTPUT_SCHEMA = {
         },
         "rule_ids": {"type": "array", "items": {"type": "string"}},
         "adapter": {"type": "string"},
+        "coverage_level": {"type": "string", "enum": list(COVERAGE_LEVELS)},
+        "checked_scope": {"type": "array", "items": {"type": "string"}},
+        "unchecked_scope": {"type": "array", "items": {"type": "string"}},
+        "assumptions": {"type": "array", "items": {"type": "string"}},
         "data": {"type": "object"},
     },
     "required": ["verdict", "exit_code", "why", "citations", "rule_ids",
-                 "adapter"],
+                 "adapter", "coverage_level", "checked_scope",
+                 "unchecked_scope", "assumptions"],
     "additionalProperties": False,
 }
 
@@ -151,6 +165,10 @@ class Verdict:
     adapter: str = ""
     rule_ids: list[str] = field(default_factory=list)
     data: dict = field(default_factory=dict)
+    coverage_level: str = "unknown"
+    checked_scope: list[str] = field(default_factory=list)
+    unchecked_scope: list[str] = field(default_factory=lambda: [_UNKNOWN_SCOPE])
+    assumptions: list[str] = field(default_factory=list)
 
     @property
     def verdict(self):
@@ -164,6 +182,10 @@ class Verdict:
             "citations": [c.as_dict() for c in self.citations],
             "rule_ids": self.rule_ids,
             "adapter": self.adapter,
+            "coverage_level": self.coverage_level,
+            "checked_scope": self.checked_scope,
+            "unchecked_scope": self.unchecked_scope,
+            "assumptions": self.assumptions,
         }
         if self.data:
             d["data"] = self.data
@@ -171,13 +193,31 @@ class Verdict:
 
 
 def legal(why, citations=(), adapter="", rule_ids=(), data=None):
-    return Verdict(LEGAL, why, list(citations), adapter, list(rule_ids),
+    return Verdict(LEGAL, _scoped_legal_why(why), list(citations), adapter, list(rule_ids),
                    data or {})
 
 
 def illegal(why, citations=(), adapter="", rule_ids=(), data=None):
     return Verdict(ILLEGAL, why, list(citations), adapter, list(rule_ids),
                    data or {})
+
+
+def _scoped_legal_why(why):
+    suffix = "Legal only within this checked scope."
+    text = str(why).rstrip()
+    return text if suffix.lower() in text.lower() else f"{text} {suffix}"
+
+
+def with_scope(result, *, coverage_level, checked_scope, unchecked_scope,
+               assumptions=()):
+    """Attach one canonical query claim to a verdict without sharing lists."""
+    if coverage_level not in COVERAGE_LEVELS:
+        raise ValueError(f"unknown coverage level: {coverage_level!r}")
+    result.coverage_level = coverage_level
+    result.checked_scope = list(checked_scope)
+    result.unchecked_scope = list(unchecked_scope)
+    result.assumptions = list(assumptions)
+    return result
 
 
 def _refusal_metadata(reason_code, missing_inputs, suggested_next_action):
@@ -242,9 +282,9 @@ def cannot_adjudicate(why, citations=(), adapter="", rule_ids=(), data=None, *,
                       suggested_next_action=None):
     """Return exit 2 with stable, structured recovery instructions.
 
-    ``data`` stays open in verdict schema v1, so adding these fields preserves
-    the frozen top-level envelope.  Reserved recovery keys are authored by this
-    function and deliberately override colliding keys in caller data.
+    ``data`` remains the refusal-metadata location in verdict schema v2.
+    Reserved recovery keys are authored by this function and deliberately
+    override colliding keys in caller data.
     """
     if data is not None and not isinstance(data, Mapping):
         raise TypeError("data must be a mapping")

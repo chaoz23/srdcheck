@@ -291,7 +291,8 @@ def test_declared_schema_keyword_set_is_fully_supported():
     supported = {
         "type", "properties", "required", "additionalProperties", "items",
         "enum", "minimum", "maximum", "minItems", "maxItems", "minLength",
-        "maxLength", "description", "title", "default",
+        "maxLength", "description", "title", "default", "const", "allOf",
+        "if", "then", "else",
     }
     seen = set()
 
@@ -303,6 +304,11 @@ def test_declared_schema_keyword_set_is_fully_supported():
             walk(schema["items"])
         if isinstance(schema.get("additionalProperties"), dict):
             walk(schema["additionalProperties"])
+        for child in schema.get("allOf", []):
+            walk(child)
+        for keyword in ("if", "then", "else"):
+            if isinstance(schema.get(keyword), dict):
+                walk(schema[keyword])
 
     for adapter in E.adapters + TOY.adapters:
         for meta in adapter.query_meta.values():

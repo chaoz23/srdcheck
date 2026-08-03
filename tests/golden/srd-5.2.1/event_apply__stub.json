@@ -1,6 +1,15 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied predecessor state is canonical and current",
+  "the caller-declared event accurately describes what occurred"
+ ],
+ "checked_scope": [
+  "declared event validation and supported state transitions",
+  "predecessor, event, rule, and ruling lineage"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "event.type"
@@ -14,6 +23,12 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "generating events",
+  "advancing time autonomously",
+  "geometry",
+  "bespoke spell effects"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.event.type: required field is missing"
 }

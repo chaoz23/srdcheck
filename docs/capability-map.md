@@ -6,7 +6,7 @@
 
 - **Canonical promise:** A legal result means only that the query's named checked scope passed. It is not a claim of global or complete legality.
 - **Authority:** srdcheck reports an SRD-derived result. The authorized DM, whether human or agent, owns table rulings and may rule directly when the result requires DM authority.
-- **Prose:** The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, rule_ids, citations, and structured data instead of parsing why.
+- **Prose:** The why field is explanatory and non-contractual. Consumers obtain the verdict schema identity from --schema, MCP outputSchema, or capabilities, then branch on verdict, exit_code, coverage_level, checked_scope, unchecked_scope, assumptions, rule_ids, citations, and structured data instead of parsing why.
 - **Vision:** Target capabilities are labeled target and are never advertised as executable tools.
 
 ## Exit-2 recovery contract
@@ -24,12 +24,12 @@ Machine metadata lives in `data`; agents branch on it instead of parsing `why`. 
 
 ## Release identity
 
-Engine `0.7.0`; verdict schema `1.0`; compatibility `N/N-1` over `0.7, 0.5`.
+Engine `0.8.0`; verdict schema `2.0`; compatibility `N/N-1` over `0.8, 0.7`.
 
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `55c6b2da76e4…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `8c9782f97dce…` |
 | `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `45746ba2683f…` |
 
 ## Shipped, executable today

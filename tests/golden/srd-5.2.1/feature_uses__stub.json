@@ -1,11 +1,19 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the modeled feature and any formula inputs are accurate"
+ ],
+ "checked_scope": [
+  "Divine Sense and Lay on Hands formulas",
+  "arithmetic when all blanks are supplied"
+ ],
  "citations": [
   {
    "page": 87,
    "section": "SRD 5.2.1 p.87"
   }
  ],
+ "coverage_level": "registry-only",
  "data": {
   "formula": "1 + Charisma modifier"
  },
@@ -13,6 +21,11 @@
  "rule_ids": [
   "feature.uses"
  ],
+ "unchecked_scope": [
+  "other features",
+  "tables",
+  "whether a use remains in campaign state"
+ ],
  "verdict": "legal",
- "why": "divine-sense: uses = 1 + Charisma modifier - supply ['charisma_modifier'] to resolve the number."
+ "why": "divine-sense: uses = 1 + Charisma modifier - supply ['charisma_modifier'] to resolve the number. Legal only within this checked scope."
 }

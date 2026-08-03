@@ -1,6 +1,15 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied sizes, free-hand fact, and formula inputs describe the proposed initiation"
+ ],
+ "checked_scope": [
+  "caller-supplied attacker and target sizes",
+  "caller-supplied free-hand fact for Grapple",
+  "save DC formula and supplied formula blanks"
+ ],
  "citations": [],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [
    "attacker_size",
@@ -13,6 +22,12 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "prerequisite facts the caller omitted",
+  "escape contests",
+  "reach geometry",
+  "rolling or resolving the target save"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Provide the prerequisite facts: attacker_size, target_size, has_free_hand. Strength modifier and Proficiency Bonus may remain blank when only the DC formula is needed."
 }

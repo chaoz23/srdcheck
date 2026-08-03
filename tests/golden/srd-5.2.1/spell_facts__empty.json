@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied name identifies the registered spell whose facts are requested"
+ ],
+ "checked_scope": [
+  "registered spell facts",
+  "fixed-duration expiry arithmetic on a caller clock"
+ ],
  "citations": [],
+ "coverage_level": "registry-only",
  "data": {
   "missing_inputs": [
    "name"
@@ -14,6 +22,11 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "spell effects",
+  "whether casting is legal",
+  "slots, targets, and stateful expiry triggers"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.name: required field is missing"
 }

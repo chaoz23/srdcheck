@@ -1,5 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the supplied use kind describes the proposal",
+  "supplied weight and distance facts are accurate when relevant to the result"
+ ],
+ "checked_scope": [
+  "listed uses and prohibitions",
+  "10-pound limit",
+  "30-foot range for the proposal"
+ ],
  "citations": [
   {
    "page": 145,
@@ -7,6 +16,7 @@
    "section": "SRD 5.2.1 p.145 'Spells > Mage Hand'"
   }
  ],
+ "coverage_level": "rule-surface-complete",
  "data": {
   "missing_inputs": [],
   "reason_code": "gm-discretion",
@@ -17,6 +27,11 @@
  "exit_code": 2,
  "rule_ids": [
   "mage-hand.granted-uses"
+ ],
+ "unchecked_scope": [
+  "fine-manipulation ambiguity",
+  "duration or range trigger tracking across events",
+  "narrative consequences"
  ],
  "verdict": "cannot-adjudicate",
  "why": "The spell text neither grants nor forbids this use. Whether 'manipulate an object' extends to it \u2014 and any check required \u2014 must be resolved as a table ruling by the authorized DM, including the calling agent when it is the DM."

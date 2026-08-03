@@ -1,6 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "caller-supplied speed, conditions, and spent budgets describe the current turn"
+ ],
+ "checked_scope": [
+  "remaining budget option kinds",
+  "movement remaining and modeled stand/crawl costs"
+ ],
  "citations": [],
+ "coverage_level": "budget-only",
  "data": {
   "missing_inputs": [
    "speed"
@@ -14,6 +22,10 @@
  },
  "exit_code": 2,
  "rule_ids": [],
+ "unchecked_scope": [
+  "every legal creature action",
+  "feature-specific actions, targets, geometry, and tactics"
+ ],
  "verdict": "cannot-adjudicate",
  "why": "Invalid input; correct the request before adjudication: $.speed: required field is missing"
 }
