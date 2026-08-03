@@ -1,0 +1,19 @@
+{
+ "schema": {
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+   "schema_version", "adapter", "idempotency_key", "transition_id",
+   "state_precondition_hash", "event", "result_hash"
+  ],
+  "properties": {
+   "schema_version": {"type": "string", "enum": ["srdcheck.transition/1.0"]},
+   "adapter": {"type": "string", "minLength": 1, "maxLength": 256},
+   "idempotency_key": {"type": "string", "minLength": 1, "maxLength": 256},
+   "transition_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+   "state_precondition_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+   "event": {"type": "object"},
+   "result_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"}
+  }
+ }
+}

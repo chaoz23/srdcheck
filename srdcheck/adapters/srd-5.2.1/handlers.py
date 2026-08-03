@@ -10,6 +10,9 @@ import json
 from srdcheck import verdict as v
 from srdcheck.schema import (ValidationIssue, issues as schema_issues,
                              normalize_integers)
+from srdcheck.transitions import (TRANSITION_SCHEMA, canonical_hash,
+                                  commit_receipt, identity,
+                                  proposal as transition_proposal)
 
 
 def _cite(atom):
@@ -1162,6 +1165,29 @@ def event_apply(adapter, p):
                 "state.lineage.self", "lineage-integrity",
                 "does not match the canonical hash of this state"),))
 
+    supplied_key = p.get("idempotency_key")
+    if (supplied_key is not None
+            and (not supplied_key.strip()
+                 or supplied_key != supplied_key.strip())):
+        return v.cannot_adjudicate(
+            "idempotency_key must be nonblank and have no surrounding "
+            "whitespace.", adapter=aid, reason_code="invalid-input",
+            missing_inputs=())
+
+    idempotency_key, state_precondition_hash, transition_id = identity(
+        aid, state, event, supplied_key)
+
+    def stamp_transition(verdict, next_state, transition_kind="rule"):
+        stamped_state = lineage.stamp(
+            state, event, verdict, next_state, kind=transition_kind,
+            idempotency_key=idempotency_key,
+            state_precondition_hash=state_precondition_hash,
+            transition_id=transition_id,
+        )
+        transition = transition_proposal(
+            aid, state, event, stamped_state, idempotency_key)
+        return stamped_state, transition
+
     if "concentration_on" in event:
         concentration = event["concentration_on"]
         if (not concentration.strip()
@@ -1318,9 +1344,9 @@ def event_apply(adapter, p):
             verdict = v.legal(
                 "Already dead; damage has no further effect.",
                 cites, aid, rules)
-            verdict.data = {
-                "next_state": lineage.stamp(state, event, verdict, nxt)
-            }
+            stamped, transition = stamp_transition(verdict, nxt)
+            verdict.data = {"next_state": stamped, "transition": transition,
+                            "state_precondition_hash": state_precondition_hash}
             return verdict
         crit = bool(event.get("crit"))
         # Damage typing (SRD p.17): Immunity zeroes, Resistance halves, then
@@ -1573,7 +1599,7 @@ def event_apply(adapter, p):
             adapter=aid, reason_code="invalid-input", missing_inputs=())
 
     verdict = v.legal(why, cites, aid, rules)
-    stamped = lineage.stamp(state, event, verdict, nxt, kind=kind)
+    stamped, transition = stamp_transition(verdict, nxt, kind)
     successor_problems = schema_issues(
         stamped, canonical_state_schema, path="next_state")
     if successor_problems:
@@ -1597,8 +1623,131 @@ def event_apply(adapter, p):
                 "next_state.lineage.self", "lineage-integrity",
                 "does not match the canonical hash of this state"),),
             subject="derived next_state")
-    verdict.data = {"next_state": stamped}
+    verdict.data = {"next_state": stamped, "transition": transition,
+                    "state_precondition_hash": state_precondition_hash}
     return verdict
+
+
+def transition_commit(adapter, p):
+    """Validate a caller-owned atomic commit or an idempotent retry."""
+    from srdcheck.engine import validation_refusal
+
+    aid = adapter.id
+    outer_problems = schema_issues(
+        p, adapter.query_meta["transition.commit"]["inputSchema"])
+    if outer_problems:
+        return validation_refusal(outer_problems, aid)
+    try:
+        json.dumps(p, allow_nan=False)
+    except (TypeError, ValueError, OverflowError, RecursionError):
+        return v.cannot_adjudicate(
+            "Commit request must contain only finite JSON values.",
+            adapter=aid, reason_code="invalid-input", missing_inputs=())
+
+    transition = p["transition"]
+    problems = schema_issues(
+        transition, TRANSITION_SCHEMA, path="transition")
+    if problems:
+        return validation_refusal(problems, aid)
+    if transition["adapter"] != aid:
+        return v.cannot_adjudicate(
+            "Transition adapter does not match the loaded ruleset.",
+            adapter=aid, reason_code="invalid-input", missing_inputs=(),
+            data={"validation_errors": [
+                "transition.adapter does not match the loaded adapter"]})
+
+    state = p["state"]
+    canonical_state_schema = _state_schema(adapter)
+    state_problems = schema_issues(
+        state, canonical_state_schema, path="state")
+    if state_problems:
+        return _invalid_state(aid, state_problems)
+    state = normalize_integers(state, canonical_state_schema)
+    blank_problems = _blank_state_issues(state)
+    if blank_problems:
+        return _invalid_state(aid, blank_problems)
+    condition_refusal = _state_condition_refusal(adapter, state)
+    if condition_refusal is not None:
+        return condition_refusal
+    lifecycle_refusal = _state_lifecycle_refusal(adapter, state)
+    if lifecycle_refusal is not None:
+        return lifecycle_refusal
+    from srdcheck import lineage
+    if ("lineage" in state
+            and state["lineage"]["self"] != lineage.canon_hash(state)):
+        return _invalid_state(
+            aid, (ValidationIssue(
+                "state.lineage.self", "lineage-integrity",
+                "does not match the canonical hash of this state"),))
+    actual_hash = canonical_hash(state)
+    expected_hash = transition["state_precondition_hash"]
+
+    # A retry after the host already persisted the successor returns the same
+    # semantic commit result without applying the event twice.
+    if actual_hash == transition["result_hash"]:
+        lineage_data = state.get("lineage") if isinstance(state, dict) else None
+        retry_matches = (
+            isinstance(lineage_data, dict)
+            and lineage_data.get("idempotency_key") ==
+                transition["idempotency_key"]
+            and lineage_data.get("state_precondition_hash") == expected_hash
+            and lineage_data.get("transition_id") == transition["transition_id"]
+            and lineage_data.get("event") == transition["event"]
+        )
+        if not retry_matches:
+            return v.cannot_adjudicate(
+                "Result hash matches, but lineage does not prove this "
+                "transition was committed.", adapter=aid,
+                reason_code="invalid-input", missing_inputs=(),
+                data={"validation_errors": [
+                    "state.lineage does not match transition identity"]})
+        return v.legal(
+            "Transition commit is already present; return the idempotent "
+            "result without applying the event again.", adapter=aid,
+            data={"next_state": state, "transition": transition,
+                  "commit": commit_receipt(transition),
+                  "state_precondition_hash": expected_hash})
+
+    if actual_hash != expected_hash:
+        return v.cannot_adjudicate(
+            "State changed after evaluation; do not apply this transition. "
+            "Reconcile event order and evaluate it again against current state.",
+            adapter=aid, reason_code="stale-state", missing_inputs=(),
+            data={
+                "expected_state_precondition_hash": expected_hash,
+                "actual_state_hash": actual_hash,
+                "idempotency_key": transition["idempotency_key"],
+                "transition_id": transition["transition_id"],
+                "retry": "re-evaluate the event against the current state",
+                "conflict": "another transition won the state compare-and-swap",
+                "reconciliation": "order events by the host's authoritative event log",
+            })
+
+    recomputed = event_apply(adapter, {
+        "state": state,
+        "event": transition["event"],
+        "idempotency_key": transition["idempotency_key"],
+    })
+    if recomputed.exit_code != v.LEGAL:
+        return v.cannot_adjudicate(
+            "Transition can no longer be reproduced from its precondition.",
+            adapter=aid, reason_code="invalid-input", missing_inputs=(),
+            data={"validation_errors": [recomputed.why]})
+    expected_transition = recomputed.data.get("transition")
+    if expected_transition != transition:
+        return v.cannot_adjudicate(
+            "Transition content failed deterministic integrity verification.",
+            adapter=aid, reason_code="invalid-input", missing_inputs=(),
+            data={"validation_errors": [
+                "transition does not match deterministic event.apply output"]})
+    return v.legal(
+        "Transition precondition and deterministic result verified; the host "
+        "may atomically persist next_state.", recomputed.citations, aid,
+        recomputed.rule_ids,
+        data={"next_state": recomputed.data["next_state"],
+              "transition": transition,
+              "commit": commit_receipt(transition),
+              "state_precondition_hash": expected_hash})
 
 
 def creature_valid(adapter, p):
@@ -2267,6 +2416,7 @@ HANDLERS = {
     "roll.compose": roll_compose,
     "attack.modifiers": attack_modifiers,
     "event.apply": event_apply,
+    "transition.commit": transition_commit,
     "creature.valid": creature_valid,
     "creature.stats": creature_stats,
     "encounter.xp-budget": encounter_xp_budget,

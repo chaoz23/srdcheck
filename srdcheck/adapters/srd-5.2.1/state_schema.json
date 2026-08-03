@@ -67,6 +67,12 @@
      "event": {"type": "object"},
      "rule_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
      "kind": {"type": "string", "enum": ["rule", "ruling"]},
+     "idempotency_key": {"type": "string", "minLength": 1, "maxLength": 256,
+      "description": "stable caller event key, or a deterministic auto key when omitted"},
+     "state_precondition_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "full canonical hash of the state this transition evaluated"},
+     "transition_id": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$",
+      "description": "stable identity binding adapter, event, idempotency key, and precondition"},
      "self": {"type": "string", "minLength": 1,
       "description": "SHA-256 prefix over the canonical state plus seq, prev, event, rule_ids, and kind"}
     },

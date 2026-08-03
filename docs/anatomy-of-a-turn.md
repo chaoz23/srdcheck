@@ -28,9 +28,15 @@ The usual caller is a game-running agent, often the authorized DM itself:
    authority. A separate human DM can hold that authority too; the product does
    not assume that agent and DM are different actors.
 5. It supplies any die result from an auditable roller and declares any state
-   event to `event.apply`.
-6. It records any scoped `table_decision`, narrates, and commits a proposed
-   state replacement in the caller-owned ledger.
+   event to `event.apply`, using the host's durable event ID as the
+   `idempotency_key`.
+6. It sends the returned proposal to `transition.commit`; only an exit-code-0
+   result is atomically persisted in the caller-owned ledger. A `stale-state`
+   conflict is reordered/re-evaluated against current state, never force-applied.
+7. It records any scoped `table_decision` and narrates the committed result.
+
+The complete compare-and-swap, retry, Discord ordering, and reconciliation
+contract is in [safe state transitions](state-transitions.md).
 
 srdcheck does not parse the player's sentence, roll dice, own a campaign clock,
 derive map geometry, choose tactics, or autonomously advance state.

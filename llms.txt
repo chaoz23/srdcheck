@@ -33,9 +33,18 @@ machine-readable named-query scope. Add `--table-context` JSON for caller-owned
 session/entity/correlation references, or call the opt-in MCP tool
 `table_evaluation` with `{query_type, params, context?}`.
 
+For state changes, call `event_apply` with caller-owned current state, the
+declared event, and a durable host event ID as `idempotency_key`. Then pass the
+exact returned `data.transition` and authoritative current state to
+`transition_commit`. Persist `data.next_state` only on exit code 0. A
+`stale-state` refusal means reconcile event order and re-evaluate; never patch
+or force-apply the old proposal. Retries return the same semantic commit
+receipt without applying an event twice. See
+[docs/state-transitions.md](docs/state-transitions.md).
+
 On `cannot-adjudicate`, branch on the recovery fields in `data`, never on
 `why`: repair the request, provide the named missing facts, select an adapter,
-use another capability, resolve a table ruling, or stop.
+use another capability, resolve a table ruling, reconcile stale state, or stop.
 When an attached direct or stored DM decision already resolves an authority
 refusal, `apply-table-decision` means use it without prompting the DM again.
 `required_authority: "dm"` is permission-aware rather than person-aware: an

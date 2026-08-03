@@ -60,11 +60,12 @@ publishes the same optional metadata alongside its mechanic arguments. The
   `rule_result`.
 - `state_mutation` is `none` for ordinary adjudication. `event.apply` reports
   its returned `next_state` as a `proposed` root replacement; SRDCheck does not
-  persist it. Transition protection is a separate contract.
+  persist it. The proposal carries full precondition/result hashes and is
+  verified by `transition.commit` before the caller atomically persists it.
 - `explanation` renders rule text, situation facts, DM decision, and mutation
   status as distinct human-readable sections.
 
-This separation is a receipt, not authority escalation. Persistence and policy
-precedence are defined in [table policies](table-policies.md);
-stale-state/idempotency belongs to
-the transition contract.
+This separation is a receipt, not authority escalation. Policy precedence is
+defined in [table policies](table-policies.md); stale-state, idempotency,
+retries, and event-order reconciliation are defined in
+[safe state transitions](state-transitions.md).

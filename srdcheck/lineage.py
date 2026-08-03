@@ -32,7 +32,9 @@ def canon_hash(state):
     ).hexdigest()[:16]
 
 
-def stamp(prev_state, event, verdict, next_state, kind="rule"):
+def stamp(prev_state, event, verdict, next_state, kind="rule", *,
+          idempotency_key=None, state_precondition_hash=None,
+          transition_id=None):
     seq = prev_state.get(LINEAGE_KEY, {}).get("seq", 0) + 1
     out = dict(next_state)
     out[LINEAGE_KEY] = {
@@ -43,6 +45,12 @@ def stamp(prev_state, event, verdict, next_state, kind="rule"):
         "kind": kind,
         "self": None,
     }
+    if idempotency_key is not None:
+        out[LINEAGE_KEY]["idempotency_key"] = idempotency_key
+    if state_precondition_hash is not None:
+        out[LINEAGE_KEY]["state_precondition_hash"] = state_precondition_hash
+    if transition_id is not None:
+        out[LINEAGE_KEY]["transition_id"] = transition_id
     out[LINEAGE_KEY]["self"] = canon_hash(out)
     return out
 
