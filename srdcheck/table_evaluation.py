@@ -171,6 +171,22 @@ def _diagnostic(verdict, refs):
     return result
 
 
+def _table_advisories(verdict):
+    decision = verdict.get("table_decision")
+    if not isinstance(decision, dict):
+        return []
+    return [{
+        "code": "srdcheck.table_ruling",
+        "message": str(decision.get("outcome") or "A table ruling applies."),
+        "authority": "table-ruling",
+        "policy_id": decision.get("policy_id"),
+        "scope": decision.get("scope"),
+        "visibility": decision.get("visibility", "table"),
+        "reversible": decision.get("reversible", True),
+        "lineage": decision.get("lineage"),
+    }]
+
+
 def project_table_evaluation(verdict, query_type, params, context=None):
     """Return a deterministic, self-attested shared evaluation envelope."""
     if not isinstance(verdict, dict):
@@ -195,8 +211,10 @@ def project_table_evaluation(verdict, query_type, params, context=None):
     errors = []
     findings = []
 
+    advisories = _table_advisories(verdict)
     if native_exit == 0 and native_name == "legal":
-        status, exit_code, complete = "checked_clean", 0, True
+        status = "checked_with_advisories" if advisories else "checked_clean"
+        exit_code, complete = 0, True
     elif native_exit == 1 and native_name == "illegal":
         if refs:
             status, exit_code, complete = "findings", 1, True
@@ -270,7 +288,7 @@ def project_table_evaluation(verdict, query_type, params, context=None):
                     "source_set_digest": policy_digest,
                     "session_descriptor_digest": None},
         "findings": findings,
-        "advisories": [],
+        "advisories": advisories,
         "warnings": [],
         "errors": errors,
     }

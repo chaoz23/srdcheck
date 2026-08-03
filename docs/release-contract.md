@@ -47,7 +47,10 @@ Version changes follow these rules:
   `coverage_level`, `checked_scope`, `unchecked_scope`, and `assumptions` on
   every result. Verdict schema 3.0, introduced before the 0.8.0 release,
   preserves v2 and adds fact provenance plus distinct rule, table-decision,
-  mutation, and explanation fields. Capabilities schema 2.0 was introduced in
+  mutation, and explanation fields. Verdict schema 4.0, also introduced before
+  the 0.8.0 release, changes only `table_decision`: `once` replaces `request`
+  and portable policy decisions may carry visibility, reversibility, policy
+  identity, and explicit table-ruling lineage. Capabilities schema 2.0 was introduced in
   engine 0.6.0 for the machine contracts, exact release tuple, refusal
   recovery contract, query coverage, and target map. MCP protocol support is
   reported separately and never inferred from the engine or adapter version.

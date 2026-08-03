@@ -45,8 +45,8 @@ def test_verdict_schema_is_explicit_without_embedding_identity_in_instances():
     assert caps["machine_contracts"]["verdict_schema_version"] == VERDICT_SCHEMA_VERSION
 
 
-def test_verdict_schema_v3_matches_its_frozen_fixture():
-    baseline = json.loads((COMPAT / "verdict-schema-3.0.json").read_text())
+def test_verdict_schema_v4_matches_its_frozen_fixture():
+    baseline = json.loads((COMPAT / "verdict-schema-4.0.json").read_text())
     current = VERDICT_OUTPUT_SCHEMA
     assert current["x-srdcheck-schema-version"] == baseline[
         "x-srdcheck-schema-version"]
@@ -54,11 +54,11 @@ def test_verdict_schema_v3_matches_its_frozen_fixture():
     assert current["additionalProperties"] == baseline["additionalProperties"]
     assert set(current["required"]) == set(baseline["required"])
     assert set(current["properties"]) == set(baseline["properties"]), (
-        "verdict schema 3.0 forbids unknown top-level fields, so even a new "
+            "verdict schema 4.0 forbids unknown top-level fields, so even a new "
         "optional top-level property requires a new schema identity and migration")
     for name, schema in baseline["properties"].items():
         assert current["properties"].get(name) == schema, (
-            f"verdict schema 3.0 changed existing field {name!r}; publish a new "
+            f"verdict schema 4.0 changed existing field {name!r}; publish a new "
             "schema version and migration instead")
 
 
@@ -85,6 +85,26 @@ def test_verdict_schema_2_to_3_migration_is_additive_and_explicit():
     assert set(v3["required"]) - set(v2["required"]) == added
     for field, schema in v2["properties"].items():
         assert v3["properties"][field] == schema
+
+
+def test_verdict_schema_3_to_4_migration_is_explicit_and_narrow():
+    v3 = json.loads((COMPAT / "verdict-schema-3.0.json").read_text())
+    v4 = json.loads((COMPAT / "verdict-schema-4.0.json").read_text())
+    assert v3["x-srdcheck-schema-version"] == "3.0"
+    assert v4["x-srdcheck-schema-version"] == "4.0"
+    assert set(v4["properties"]) == set(v3["properties"])
+    assert set(v4["required"]) == set(v3["required"])
+    for field, schema in v3["properties"].items():
+        if field != "table_decision":
+            assert v4["properties"][field] == schema
+    old = v3["properties"]["table_decision"]["properties"]
+    new = v4["properties"]["table_decision"]["properties"]
+    assert old["scope"]["properties"]["kind"]["enum"] == [
+        "request", "encounter", "session", "campaign"]
+    assert new["scope"]["properties"]["kind"]["enum"] == [
+        "once", "encounter", "session", "campaign"]
+    assert set(new) - set(old) == {
+        "visibility", "reversible", "policy_id", "lineage"}
 
 
 def _assert_shape(name, value, shape):

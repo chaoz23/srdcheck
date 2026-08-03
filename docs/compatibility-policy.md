@@ -50,6 +50,13 @@ derived, and missing facts; `rule_result` is always advisory; a DM decision is
 recorded without changing it; and mutation status is explicit. Consumers must
 negotiate v3 before relying on those authority boundaries.
 
+Before engine 0.8.0 ships, verdict schema 4.0 narrows the v3
+`table_decision` contract to persistent table policy. It renames the transient
+`request` scope to the user-facing `once` scope and adds optional visibility,
+reversibility, policy identity, and explicit `table-ruling` lineage. No other
+v3 field changes. Clients must negotiate v4 before supplying or interpreting a
+persistent table-policy manifest.
+
 Exit-code-2 recovery metadata is additive inside the verdict's existing open
 `data` object, so it does not change an existing verdict top-level shape. Its
 reason codes, recoverability values, next actions, canonical mappings, and

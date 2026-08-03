@@ -12,7 +12,7 @@ structured facts and gets an SRD-derived verdict that applies only to that
 declared scope. A `legal` result means **passes that checked scope**; it never
 means that the whole action, turn, build, or scene is globally legal. Every
 native verdict carries a named `coverage_level`, `checked_scope`,
-`unchecked_scope`, and explicit `assumptions`. Verdict schema 3.0 also separates
+`unchecked_scope`, and explicit `assumptions`. Verdict schema 4.0 also separates
 asserted/consumed/derived/missing `facts`, advisory `rule_result`, scoped
 `table_decision`, and `state_mutation`; legal explanations say that legality
 applies only within the checked scope.

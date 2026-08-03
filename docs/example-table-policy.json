@@ -1,0 +1,22 @@
+{
+  "schema": "srdcheck.table-policy/1.0",
+  "table": "Friday game",
+  "policies": [
+    {
+      "id": "campaign-reaction-variant",
+      "author": {"kind": "dm", "id": "discord-ai-dm"},
+      "reason": "This campaign uses the declared reaction variant.",
+      "query": {
+        "type": "reaction.available",
+        "match": {"/spent_since_turn_start": false}
+      },
+      "decision": {
+        "kind": "override",
+        "outcome": "The reaction is unavailable under the campaign variant."
+      },
+      "scope": {"kind": "campaign", "id": "campaign-7"},
+      "visibility": "table",
+      "reversible": true
+    }
+  ]
+}
