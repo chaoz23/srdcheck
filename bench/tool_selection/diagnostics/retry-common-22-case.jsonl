@@ -1,0 +1,1 @@
+{"id":"common-22","lane":"common","operation":"enumerate","prompt":"A prone Speed 30 character has moved 5 feet and spent no action. Enumerate remaining legal options, including standing cost.","query_type":"turn.options","params":{"speed":30,"conditions":["Prone"],"spent":{"movement_ft":5}},"expected":{"verdict":"legal","exit_code":0}}
