@@ -35,8 +35,10 @@ REFUSAL_REASON_CODES = (
     "unmodeled-rule",
     "rules-ambiguous",
     "gm-discretion",
+    "stale-state",
 )
-REFUSAL_RECOVERABILITY = ("retry", "alternate-path", "authority", "terminal")
+REFUSAL_RECOVERABILITY = (
+    "retry", "alternate-path", "authority", "conflict", "terminal")
 REFUSAL_NEXT_ACTIONS = (
     "repair-request",
     "provide-facts",
@@ -44,9 +46,10 @@ REFUSAL_NEXT_ACTIONS = (
     "use-other-capability",
     "resolve-table-ruling",
     "apply-table-decision",
+    "reconcile-state",
     "stop",
 )
-REFUSAL_CONTRACT_VERSION = "1.0"
+REFUSAL_CONTRACT_VERSION = "1.1"
 _REFUSAL_CONTRACT = {
     "schema_version": REFUSAL_CONTRACT_VERSION,
     "metadata_location": "data",
@@ -93,6 +96,10 @@ _REFUSAL_CONTRACT = {
             "recoverability": "authority",
             "suggested_next_action": "resolve-table-ruling",
             "required_authority": "dm",
+        },
+        "stale-state": {
+            "recoverability": "conflict",
+            "suggested_next_action": "reconcile-state",
         },
     },
     "allowed_action_overrides": {

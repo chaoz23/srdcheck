@@ -23,7 +23,7 @@ def test_preregistered_case_set_matches_the_engine():
 def test_arms_are_frozen_and_compact_budget_is_explicit():
     _, specialized = HARNESS.catalog("specialized")
     _, compact = HARNESS.catalog("compact")
-    assert len(specialized) == 23
+    assert len(specialized) == 24
     assert [tool["name"] for tool in compact] == [
         "capabilities", "evaluate", "enumerate", "explain"]
     assert len(compact) <= 6

@@ -1,0 +1,71 @@
+{
+ "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the host supplies its authoritative current state",
+  "the host atomically persists the returned next_state only on exit code 0"
+ ],
+ "checked_scope": [
+  "state compare-and-swap precondition",
+  "deterministic proposal integrity",
+  "idempotent committed-result replay",
+  "typed stale-state conflicts"
+ ],
+ "citations": [],
+ "coverage_level": "full-context-checkable",
+ "data": {
+  "missing_inputs": [
+   "state",
+   "transition"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts",
+  "validation_errors": [
+   "$.state: required field is missing",
+   "$.transition: required field is missing"
+  ]
+ },
+ "exit_code": 2,
+ "explanation": {
+  "rule": "Invalid input; correct the request before adjudication: $.state: required field is missing; $.transition: required field is missing",
+  "situation_facts": [],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [],
+  "consumed": [],
+  "derived": [],
+  "missing": [
+   {
+    "path": "state"
+   },
+   {
+    "path": "transition"
+   }
+  ]
+ },
+ "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Invalid input; correct the request before adjudication: $.state: required field is missing; $.transition: required field is missing"
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
+ "unchecked_scope": [
+  "server-side persistence",
+  "choosing event order",
+  "distributed locking",
+  "Discord delivery guarantees"
+ ],
+ "verdict": "cannot-adjudicate",
+ "why": "Invalid input; correct the request before adjudication: $.state: required field is missing; $.transition: required field is missing"
+}

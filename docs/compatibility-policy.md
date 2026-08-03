@@ -65,6 +65,11 @@ authority semantics form a separately identified machine contract published by
 or reinterpreting one of those values requires a contract migration; adding
 explanatory detail to `why` does not.
 
+Refusal contract 1.1 adds the `stale-state` reason, `conflict`
+recoverability, and `reconcile-state` action for state compare-and-swap
+failures. Contract 1.0 meanings are unchanged; consumers must discover 1.1
+before assuming every refusal belongs to the earlier closed vocabulary.
+
 ## Exact release tuple
 
 The engine and an adapter do not share a version clock. Every runtime capability

@@ -5,7 +5,11 @@ exit code `2` while explaining, in stable machine fields, what prevented the
 named check and what the caller can do next. JSON-RPC errors remain reserved
 for malformed protocol or transport requests.
 
-Verdict schema v2 adds per-result coverage fields while keeping refusal control
+The current vocabulary is refusal contract 1.1. It adds `stale-state`,
+`conflict`, and `reconcile-state`; every 1.0 mapping keeps its original
+meaning.
+
+Verdict schema v4 keeps refusal control
 flow inside the existing `data` object:
 
 ```json
@@ -43,6 +47,7 @@ string remains non-contractual explanatory prose.
 | `unmodeled-rule` | The content may be known, but this capability does not model the requested rule. | `alternate-path` | `use-other-capability` | — |
 | `rules-ambiguous` | The rules text does not determine one answer. | `authority` | `resolve-table-ruling` | `dm` |
 | `gm-discretion` | The rules deliberately leave the decision to table authority. | `authority` | `resolve-table-ruling` | `dm` |
+| `stale-state` | Authoritative state no longer matches the evaluated transition precondition. | `conflict` | `reconcile-state` | — |
 
 `missing_inputs` is always an array of request-relative machine paths, using
 dotted object keys and bracketed array indexes. It is empty when no additional
@@ -53,16 +58,17 @@ or matching table policy is already attached to an authority-bound refusal,
 `apply-table-decision` replaces `resolve-table-ruling`; the advisory rules
 refusal remains intact and the caller does not prompt the DM again.
 
-`recoverability` has four stable values:
+`recoverability` has five stable values:
 
 - `retry`: repair this request or provide its missing facts, then retry it;
 - `alternate-path`: select another adapter or capability;
 - `authority`: resolve the question through the named table authority; and
+- `conflict`: reconcile caller-owned state/event order and re-evaluate; and
 - `terminal`: no machine recovery is known, so stop.
 
 `stop` and `terminal` are the conservative fallback only for a legacy or
 third-party refusal that does not provide a first-party classification. Shipped
-first-party refusals use one of the six classes above and a more specific
+first-party refusals use one of the seven classes above and a more specific
 recovery path.
 
 ## Consumer algorithm
@@ -79,9 +85,12 @@ recovery path.
    whoever holds DM authority.
 6. For `apply-table-decision`, consume the attached `table_decision`; do not
    prompt DM authority again.
-7. Record the resulting authority decision as a **table ruling**, never as an
+7. For `reconcile-state`, order the host's durable events and evaluate the
+   event again against authoritative current state. Never patch or force-apply
+   the stale proposal; see [safe state transitions](state-transitions.md).
+8. Record the resulting authority decision as a **table ruling**, never as an
    SRD-derived srdcheck result.
-8. For the legacy `stop` fallback, do not infer recovery from `why`.
+9. For the legacy `stop` fallback, do not infer recovery from `why`.
 
 This is intentionally role-neutral. “DM authority” describes permission, not a
 separate human. The primary caller may be an AI agent running the game.
@@ -96,6 +105,7 @@ separate human. The primary caller may be an AI agent running the game.
 {"reason_code":"rules-ambiguous","recoverability":"authority","missing_inputs":[],"suggested_next_action":"resolve-table-ruling","required_authority":"dm"}
 {"reason_code":"gm-discretion","recoverability":"authority","missing_inputs":[],"suggested_next_action":"resolve-table-ruling","required_authority":"dm"}
 {"reason_code":"gm-discretion","recoverability":"authority","missing_inputs":[],"suggested_next_action":"apply-table-decision","required_authority":"dm"}
+{"reason_code":"stale-state","recoverability":"conflict","missing_inputs":[],"suggested_next_action":"reconcile-state"}
 ```
 
 The complete vocabulary and canonical mappings are also published by

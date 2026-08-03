@@ -88,7 +88,8 @@ def build():
             "illegal to an exact-evidence finding, and structured refusals to "
             "invalid, unsupported, or incomplete. Output is always "
             "self_attested. Its named-query scope is machine-readable and "
-            "every finding evidence ref resolves in its effective policy."),
+            "every finding evidence ref resolves in its effective policy. "
+            "Stateful queries expose cursor.state_precondition_hash."),
         "notes": (
             "The 'why' field is templated explanatory prose, not a machine "
             "compatibility field. Verdicts are deterministic: same query, same "
@@ -96,7 +97,9 @@ def build():
             "recovery data rather than prose; an authorized agent-DM may "
             "resolve a DM-authority table ruling directly and reuse it through "
             "a caller-owned table-policy manifest. turn.options and "
-            "turn.plan are consistency-tested against each other. Use "
+            "turn.plan are consistency-tested against each other. For state "
+            "writes, evaluate with event.apply and verify the exact proposal "
+            "with transition.commit; the host owns atomic persistence. Use "
             "`capabilities` for checked/unchecked scope, refusal mappings, "
             "and the exact release tuple."),
         "mcp": {

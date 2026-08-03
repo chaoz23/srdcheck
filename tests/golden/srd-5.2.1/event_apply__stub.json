@@ -1,12 +1,14 @@
 {
  "adapter": "srd-5.2.1@0.2.1",
  "assumptions": [
-  "the supplied predecessor state is canonical and current",
-  "the caller-declared event accurately describes what occurred"
+  "the supplied predecessor state is canonical",
+  "the caller-declared event accurately describes what occurred",
+  "the caller supplies a stable host event identity when identical events must remain distinct"
  ],
  "checked_scope": [
   "declared event validation and supported state transitions",
-  "predecessor, event, rule, and ruling lineage"
+  "full state-precondition and deterministic result hashes",
+  "stable transition identity and rule/ruling lineage"
  ],
  "citations": [],
  "coverage_level": "rule-surface-complete",
@@ -54,6 +56,7 @@
  },
  "table_decision": null,
  "unchecked_scope": [
+  "persisting state",
   "generating events",
   "advancing time autonomously",
   "geometry",

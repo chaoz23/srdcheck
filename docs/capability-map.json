@@ -8,7 +8,7 @@
  "machine_contracts": {
   "verdict_schema_version": "4.0",
   "capabilities_schema_version": "2.0",
-  "refusal_contract_version": "1.0",
+  "refusal_contract_version": "1.1",
   "compatibility_window": "N/N-1",
   "supported_engine_minors": [
    "0.8",
@@ -31,7 +31,7 @@
     "version": "0.2.1",
     "data_version": "0.2.1",
     "rules_version": "0.2.1",
-    "digest": "8c9782f97dcefe5532bd8db4ec895ca85f060631de1e6e1bb9cd65a79f00a291"
+    "digest": "fc9f0ccaa099b74d14528a3cf9faf2957221bfa6fa6f34fac846c68c5f78c3a4"
    },
    {
     "identifier": "toy-tictactoe",
@@ -43,7 +43,7 @@
   ]
  },
  "refusal_contract": {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "metadata_location": "data",
   "required_fields": [
    "reason_code",
@@ -66,12 +66,14 @@
     "unsupported-content",
     "unmodeled-rule",
     "rules-ambiguous",
-    "gm-discretion"
+    "gm-discretion",
+    "stale-state"
    ],
    "recoverability": [
     "retry",
     "alternate-path",
     "authority",
+    "conflict",
     "terminal"
    ],
    "suggested_next_action": [
@@ -81,6 +83,7 @@
     "use-other-capability",
     "resolve-table-ruling",
     "apply-table-decision",
+    "reconcile-state",
     "stop"
    ],
    "required_authority": [
@@ -113,6 +116,10 @@
     "recoverability": "authority",
     "suggested_next_action": "resolve-table-ruling",
     "required_authority": "dm"
+   },
+   "stale-state": {
+    "recoverability": "conflict",
+    "suggested_next_action": "reconcile-state"
    }
   },
   "allowed_action_overrides": {
@@ -348,17 +355,20 @@
   {
    "adapter": "srd-5.2.1",
    "query_type": "event.apply",
-   "capability": "Fold one supported, caller-declared event into a hash-stamped next state.",
+   "capability": "Evaluate one supported event into a precondition-bound, idempotent transition proposal.",
    "coverage_level": "rule-surface-complete",
    "assumptions": [
-    "the supplied predecessor state is canonical and current",
-    "the caller-declared event accurately describes what occurred"
+    "the supplied predecessor state is canonical",
+    "the caller-declared event accurately describes what occurred",
+    "the caller supplies a stable host event identity when identical events must remain distinct"
    ],
    "checked_scope": [
     "declared event validation and supported state transitions",
-    "predecessor, event, rule, and ruling lineage"
+    "full state-precondition and deterministic result hashes",
+    "stable transition identity and rule/ruling lineage"
    ],
    "unchecked_scope": [
+    "persisting state",
     "generating events",
     "advancing time autonomously",
     "geometry",
@@ -366,7 +376,7 @@
    ],
    "evidence": [
     "tests/test_ledger.py::test_lineage_chain_and_tamper_detection",
-    "tests/test_ledger.py::test_reducer_agrees_with_validator"
+    "tests/test_state_precondition_commits.py::test_proposals_and_result_hashes_are_deterministic_and_input_bound"
    ],
    "tool": "event_apply",
    "adapter_versions": {
@@ -374,7 +384,41 @@
     "data": "0.2.1",
     "rules": "0.2.1"
    },
-   "description": "The reducer (fold): apply one declared event to a canonical state object and receive the verdict plus the stamped next_state (lineage: predecessor hash, causing event, rule ids, rule-vs-ruling kind). Event types and their only allowed facts: turn-start; round-advance; action / bonus-action / reaction (optional spell:{level}, and concentration_on only with spell); free-interaction; move (feet, optional crawl); stand-up; condition-gained / condition-ended (name); damage (amount, optional crit and damage_type); heal (amount); death-save (result: the caller-supplied d20 1-20); and ruling (nonblank note, optional schema- and adapter-model-valid state_patch). Budget events are validated against budgets and conditions. Damage folds HP loss, Falling Unconscious, monster/massive-damage instant death, and death-save failures at 0 HP. Standard damage kills a monster at 0 HP; an authorized DM, including the calling agent-DM, records the SRD exception for an individual monster with a ruling that sets explicit dead false and character-style lifecycle state. Healing restores HP and, from 0, consciousness and resets death saves. A ruling is authorized DM discretion and is tagged as discretion, never as a rule. srdcheck never produces an event, advances time on its own, or generates randomness: the caller owns the loop; this is the fold."
+   "description": "Evaluate one declared event against a canonical state and return a precondition-bound transition proposal plus stamped next_state. Supply a stable host event identity (for Discord, the message/event snowflake) as idempotency_key; omission produces a deterministic auto key. Persist only through transition.commit so stale or out-of-order events fail closed. Event types: turn-start; round-advance; action / bonus-action / reaction; free-interaction; move; stand-up; condition-gained / condition-ended; damage; heal; death-save; and ruling. A ruling is authorized DM discretion, including the calling agent-DM when it holds that authority, and is never mislabeled as a rule. srdcheck never owns state, produces an event, advances time, or generates randomness."
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "transition.commit",
+   "capability": "Verify a state-bound transition for an atomic caller-owned commit or idempotent retry.",
+   "coverage_level": "full-context-checkable",
+   "assumptions": [
+    "the host supplies its authoritative current state",
+    "the host atomically persists the returned next_state only on exit code 0"
+   ],
+   "checked_scope": [
+    "state compare-and-swap precondition",
+    "deterministic proposal integrity",
+    "idempotent committed-result replay",
+    "typed stale-state conflicts"
+   ],
+   "unchecked_scope": [
+    "server-side persistence",
+    "choosing event order",
+    "distributed locking",
+    "Discord delivery guarantees"
+   ],
+   "evidence": [
+    "tests/test_state_precondition_commits.py::test_commit_is_idempotent_without_server_side_state",
+    "tests/test_state_precondition_commits.py::test_concurrent_and_out_of_order_discord_events_conflict_then_reconcile",
+    "tests/test_state_precondition_commits.py::test_tampered_proposal_and_false_retry_fail_closed"
+   ],
+   "tool": "transition_commit",
+   "adapter_versions": {
+    "adapter": "0.2.1",
+    "data": "0.2.1",
+    "rules": "0.2.1"
+   },
+   "description": "Verify and commit one event.apply proposal against caller-owned current state. Returns the same semantic receipt for the first atomic compare-and-swap and retries, rejects stale/out-of-order state with reason_code stale-state, and never persists server-side state. The host must atomically store next_state only after exit_code 0."
   },
   {
    "adapter": "srd-5.2.1",

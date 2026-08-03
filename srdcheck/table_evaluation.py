@@ -9,6 +9,7 @@ import json
 
 from . import __version__
 from .access import capabilities
+from .transitions import canonical_hash
 
 
 TABLE_EVALUATION_SCHEMA_VERSION = "table.evaluation/1.0"
@@ -205,6 +206,9 @@ def project_table_evaluation(verdict, query_type, params, context=None):
     session_id, entity_refs = _caller_context(context)
     entity_refs = [scope_ref] + [ref for ref in entity_refs if ref != scope_ref]
     policy_version, policy_digest = _adapter_policy(verdict.get("adapter"))
+    state_precondition_hash = None
+    if isinstance(params, dict) and isinstance(params.get("state"), dict):
+        state_precondition_hash = canonical_hash(params["state"])
     refs, evidence = _evidence(verdict)
     native_exit = verdict.get("exit_code")
     native_name = verdict.get("verdict")
@@ -281,7 +285,8 @@ def project_table_evaluation(verdict, query_type, params, context=None):
         "coverage": _coverage(status, evaluator_id, errors),
         "cursor": {"checked_through_event_id": None,
                    "gap_state": "none" if complete else "unknown",
-                   "input_digest": input_digest},
+                   "input_digest": input_digest,
+                   "state_precondition_hash": state_precondition_hash},
         "context": {"roster_digest": None,
                     "policy_digest": policy_digest,
                     "config_digest": None,

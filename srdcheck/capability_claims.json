@@ -88,12 +88,22 @@
   {
    "adapter": "srd-5.2.1",
    "query_type": "event.apply",
-   "capability": "Fold one supported, caller-declared event into a hash-stamped next state.",
+   "capability": "Evaluate one supported event into a precondition-bound, idempotent transition proposal.",
    "coverage_level": "rule-surface-complete",
-   "assumptions": ["the supplied predecessor state is canonical and current", "the caller-declared event accurately describes what occurred"],
-   "checked_scope": ["declared event validation and supported state transitions", "predecessor, event, rule, and ruling lineage"],
-   "unchecked_scope": ["generating events", "advancing time autonomously", "geometry", "bespoke spell effects"],
-   "evidence": ["tests/test_ledger.py::test_lineage_chain_and_tamper_detection", "tests/test_ledger.py::test_reducer_agrees_with_validator"]
+   "assumptions": ["the supplied predecessor state is canonical", "the caller-declared event accurately describes what occurred", "the caller supplies a stable host event identity when identical events must remain distinct"],
+   "checked_scope": ["declared event validation and supported state transitions", "full state-precondition and deterministic result hashes", "stable transition identity and rule/ruling lineage"],
+   "unchecked_scope": ["persisting state", "generating events", "advancing time autonomously", "geometry", "bespoke spell effects"],
+   "evidence": ["tests/test_ledger.py::test_lineage_chain_and_tamper_detection", "tests/test_state_precondition_commits.py::test_proposals_and_result_hashes_are_deterministic_and_input_bound"]
+  },
+  {
+   "adapter": "srd-5.2.1",
+   "query_type": "transition.commit",
+   "capability": "Verify a state-bound transition for an atomic caller-owned commit or idempotent retry.",
+   "coverage_level": "full-context-checkable",
+   "assumptions": ["the host supplies its authoritative current state", "the host atomically persists the returned next_state only on exit code 0"],
+   "checked_scope": ["state compare-and-swap precondition", "deterministic proposal integrity", "idempotent committed-result replay", "typed stale-state conflicts"],
+   "unchecked_scope": ["server-side persistence", "choosing event order", "distributed locking", "Discord delivery guarantees"],
+   "evidence": ["tests/test_state_precondition_commits.py::test_commit_is_idempotent_without_server_side_state", "tests/test_state_precondition_commits.py::test_concurrent_and_out_of_order_discord_events_conflict_then_reconcile", "tests/test_state_precondition_commits.py::test_tampered_proposal_and_false_retry_fail_closed"]
   },
   {
    "adapter": "srd-5.2.1",

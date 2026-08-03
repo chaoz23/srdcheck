@@ -21,6 +21,7 @@ Machine metadata lives in `data`; agents branch on it instead of parsing `why`. 
 | `unmodeled-rule` | `alternate-path` | `use-other-capability` | `—` |
 | `rules-ambiguous` | `authority` | `resolve-table-ruling` | `dm` |
 | `gm-discretion` | `authority` | `resolve-table-ruling` | `dm` |
+| `stale-state` | `conflict` | `reconcile-state` | `—` |
 
 ## Release identity
 
@@ -29,7 +30,7 @@ Engine `0.8.0`; verdict schema `4.0`; compatibility `N/N-1` over `0.8, 0.7`.
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `8c9782f97dce…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `fc9f0ccaa099…` |
 | `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `45746ba2683f…` |
 
 ## Shipped, executable today
@@ -45,7 +46,8 @@ A `legal` result below means only that the named checked scope passed.
 | `roll_compose` | Compose caller-supplied Advantage and Disadvantage sources. | cancellation and non-stacking of supplied sources; reroll-one-die note | discovering sources from narrative or character state; rolling dice | `tests/test_roll_modifiers.py::test_two_adv_one_dis_is_straight`; `tests/test_roll_modifiers.py::test_stacked_advantage_still_two_dice` |
 | `attack_modifiers` | Compose modeled attack modifiers from structured combatant facts. | documented condition modifiers; Prone distance behavior; condition-sensitive fact dependencies and category gates; ranged attacks in close combat with Incapacitated embeds | cover and line-of-sight geometry not supplied as facts; weapon or feature prerequisites | `tests/test_condition_fact_dependencies.py::test_attack_condition_fact_matrices`; `tests/test_condition_fact_dependencies.py::test_ranged_enemy_dependency_claim_evidence`; `tests/test_condition_fact_dependencies.py::test_condition_category_gate_claim_evidence`; `tests/test_condition_fact_dependencies.py::test_transport_parity_claim_evidence` |
 | `mage_hand_use` | Check one proposed Mage Hand use against its modeled grants, prohibitions, weight, and range. | listed uses and prohibitions; 10-pound limit; 30-foot range for the proposal | fine-manipulation ambiguity; duration or range trigger tracking across events; narrative consequences | `tests/test_kernel.py::test_mage_hand_demo_goldens` |
-| `event_apply` | Fold one supported, caller-declared event into a hash-stamped next state. | declared event validation and supported state transitions; predecessor, event, rule, and ruling lineage | generating events; advancing time autonomously; geometry; bespoke spell effects | `tests/test_ledger.py::test_lineage_chain_and_tamper_detection`; `tests/test_ledger.py::test_reducer_agrees_with_validator` |
+| `event_apply` | Evaluate one supported event into a precondition-bound, idempotent transition proposal. | declared event validation and supported state transitions; full state-precondition and deterministic result hashes; stable transition identity and rule/ruling lineage | persisting state; generating events; advancing time autonomously; geometry; bespoke spell effects | `tests/test_ledger.py::test_lineage_chain_and_tamper_detection`; `tests/test_state_precondition_commits.py::test_proposals_and_result_hashes_are_deterministic_and_input_bound` |
+| `transition_commit` | Verify a state-bound transition for an atomic caller-owned commit or idempotent retry. | state compare-and-swap precondition; deterministic proposal integrity; idempotent committed-result replay; typed stale-state conflicts | server-side persistence; choosing event order; distributed locking; Discord delivery guarantees | `tests/test_state_precondition_commits.py::test_commit_is_idempotent_without_server_side_state`; `tests/test_state_precondition_commits.py::test_concurrent_and_out_of_order_discord_events_conflict_then_reconcile`; `tests/test_state_precondition_commits.py::test_tampered_proposal_and_false_retry_fail_closed` |
 | `creature_valid` | Classify whether a name is a registered SRD 5.2.1 creature. | creature registry membership; source citation for a match | creature action legality; third-party content; typo diagnosis | `tests/test_creature_queries.py::test_valid_creature_is_legal_and_cited` |
 | `creature_stats` | Return registered Challenge Rating and XP facts for a creature. | name, Challenge Rating, XP, and source citation | stat-block actions and traits; encounter or turn legality | `tests/test_creature_queries.py::test_stats_returns_cr_xp_citation` |
 | `encounter_xp_budget` | Compute the SRD encounter XP budget from supplied level, difficulty, and party size. | per-character and total XP budget arithmetic | encounter suitability; monster tactics; party composition beyond size and level | `tests/test_encounter_budget.py::test_issue_example`; `tests/test_encounter_budget.py::test_cited` |

@@ -1,0 +1,96 @@
+{
+ "adapter": "srd-5.2.1@0.2.1",
+ "assumptions": [
+  "the host supplies its authoritative current state",
+  "the host atomically persists the returned next_state only on exit code 0"
+ ],
+ "checked_scope": [
+  "state compare-and-swap precondition",
+  "deterministic proposal integrity",
+  "idempotent committed-result replay",
+  "typed stale-state conflicts"
+ ],
+ "citations": [],
+ "coverage_level": "full-context-checkable",
+ "data": {
+  "missing_inputs": [
+   "transition.schema_version",
+   "transition.adapter",
+   "transition.idempotency_key",
+   "transition.transition_id",
+   "transition.state_precondition_hash",
+   "transition.event",
+   "transition.result_hash"
+  ],
+  "reason_code": "missing-fact",
+  "recoverability": "retry",
+  "suggested_next_action": "provide-facts",
+  "validation_errors": [
+   "transition.schema_version: required field is missing",
+   "transition.adapter: required field is missing",
+   "transition.idempotency_key: required field is missing",
+   "transition.transition_id: required field is missing",
+   "transition.state_precondition_hash: required field is missing",
+   "transition.event: required field is missing",
+   "transition.result_hash: required field is missing"
+  ]
+ },
+ "exit_code": 2,
+ "explanation": {
+  "rule": "Invalid input; correct the request before adjudication: transition.schema_version: required field is missing; transition.adapter: required field is missing; transition.idempotency_key: required field is missing; transition.transition_id: required field is missing; transition.state_precondition_hash: required field is missing; transition.event: required field is missing; transition.result_hash: required field is missing",
+  "situation_facts": [],
+  "state_mutation": "No state mutation was performed.",
+  "table_decision": "No DM/table decision was recorded; the rules result remains advisory."
+ },
+ "facts": {
+  "asserted": [],
+  "consumed": [],
+  "derived": [],
+  "missing": [
+   {
+    "path": "transition.schema_version"
+   },
+   {
+    "path": "transition.adapter"
+   },
+   {
+    "path": "transition.idempotency_key"
+   },
+   {
+    "path": "transition.transition_id"
+   },
+   {
+    "path": "transition.state_precondition_hash"
+   },
+   {
+    "path": "transition.event"
+   },
+   {
+    "path": "transition.result_hash"
+   }
+  ]
+ },
+ "rule_ids": [],
+ "rule_result": {
+  "adapter": "srd-5.2.1@0.2.1",
+  "authority": "rules-advisory",
+  "citations": [],
+  "exit_code": 2,
+  "rule_ids": [],
+  "verdict": "cannot-adjudicate",
+  "why": "Invalid input; correct the request before adjudication: transition.schema_version: required field is missing; transition.adapter: required field is missing; transition.idempotency_key: required field is missing; transition.transition_id: required field is missing; transition.state_precondition_hash: required field is missing; transition.event: required field is missing; transition.result_hash: required field is missing"
+ },
+ "state_mutation": {
+  "operations": [],
+  "status": "none"
+ },
+ "table_decision": null,
+ "unchecked_scope": [
+  "server-side persistence",
+  "choosing event order",
+  "distributed locking",
+  "Discord delivery guarantees"
+ ],
+ "verdict": "cannot-adjudicate",
+ "why": "Invalid input; correct the request before adjudication: transition.schema_version: required field is missing; transition.adapter: required field is missing; transition.idempotency_key: required field is missing; transition.transition_id: required field is missing; transition.state_precondition_hash: required field is missing; transition.event: required field is missing; transition.result_hash: required field is missing"
+}

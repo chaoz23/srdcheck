@@ -165,6 +165,38 @@ def smoke(artifact):
         ))
         assert query["exit_code"] == 0 and query["rule_ids"]
 
+        state = {
+            "speed": 30, "conditions": [],
+            "turn": {
+                "action_spent": False, "bonus_action_spent": False,
+                "reaction_spent": False,
+                "free_interaction_spent": False,
+                "movement_ft_spent": 0,
+                "spell_slots_spent_this_turn": 0,
+            },
+        }
+        event_request = {
+            "state": state,
+            "event": {"type": "move", "feet": 5},
+            "idempotency_key": "artifact-event-1",
+        }
+        proposal = json.loads(run(
+            [str(python), "-m", "srdcheck", "query", "event.apply",
+             json.dumps(event_request, separators=(",", ":"))],
+            outside, env=clean_env,
+        ))
+        committed = json.loads(run(
+            [str(python), "-m", "srdcheck", "query", "transition.commit",
+             json.dumps({
+                 "state": state,
+                 "transition": proposal["data"]["transition"],
+             }, separators=(",", ":"))],
+            outside, env=clean_env,
+        ))
+        assert committed["exit_code"] == 0
+        assert committed["data"]["commit"]["result_hash"] == \
+            proposal["data"]["transition"]["result_hash"]
+
         shared = json.loads(run(
             [str(python), "-m", "srdcheck", "query", "mage-hand.use",
              '{"kind":"attack"}', "--table-evaluation"],
@@ -182,6 +214,7 @@ def smoke(artifact):
         assert capabilities["engine"]["version"]
         assert capabilities["engine"]["version"] == artifact_version
         assert "turn_plan" in capabilities["mcp_tools"]
+        assert "transition_commit" in capabilities["mcp_tools"]
 
         library = json.loads(run([
             str(python), "-c",
@@ -224,6 +257,8 @@ def smoke(artifact):
         by_id = {item["id"]: item for item in replies}
         assert by_id[1]["result"]["serverInfo"]["version"] == library["version"]
         assert all("outputSchema" in tool for tool in by_id[2]["result"]["tools"])
+        assert "transition_commit" in {
+            tool["name"] for tool in by_id[2]["result"]["tools"]}
         assert by_id[3]["result"]["structuredContent"]["exit_code"] == 0
         assert by_id[4]["result"]["structuredContent"]["exit_code"] == 2
         assert unicode_name in by_id[4]["result"]["structuredContent"]["why"]

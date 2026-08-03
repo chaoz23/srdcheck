@@ -63,7 +63,7 @@ Every new `cannot_adjudicate(...)` call explicitly supplies `reason_code` and
 `missing_inputs`; the kernel derives the canonical recoverability, next action,
 and any required authority. Use an action override only for a contract-approved
 case such as known content sent to the wrong capability. See
-[refusal recovery](refusal-recovery.md) for the six classes and public mapping.
+[refusal recovery](refusal-recovery.md) for the seven classes and public mapping.
 An older third-party adapter that omits this metadata remains loadable, but its
 unclassified refusal fails closed as `terminal` / `stop` rather than inviting
 an unsafe guess.

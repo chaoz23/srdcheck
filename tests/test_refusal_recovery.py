@@ -27,6 +27,7 @@ TOY = ROOT / "srdcheck" / "adapters" / "toy-tictactoe"
         ("unmodeled-rule", [], "alternate-path", "use-other-capability", None),
         ("rules-ambiguous", [], "authority", "resolve-table-ruling", "dm"),
         ("gm-discretion", [], "authority", "resolve-table-ruling", "dm"),
+        ("stale-state", [], "conflict", "reconcile-state", None),
     ],
 )
 def test_reason_codes_derive_canonical_recovery(
@@ -123,7 +124,7 @@ def test_legacy_result_mutation_cannot_poison_later_results_or_contract():
 
 def test_contract_accessor_is_machine_readable_and_runtime_is_mutation_safe():
     contract = v.refusal_contract()
-    assert contract["schema_version"] == "1.0"
+    assert contract["schema_version"] == "1.1"
     assert contract["metadata_location"] == "data"
     assert contract["required_fields"] == [
         "reason_code", "recoverability", "missing_inputs",
@@ -178,7 +179,7 @@ def test_published_refusal_contract_is_internally_consistent():
 
 def test_capabilities_publish_the_complete_isolated_refusal_contract():
     first = capabilities()
-    assert first["machine_contracts"]["refusal_contract_version"] == "1.0"
+    assert first["machine_contracts"]["refusal_contract_version"] == "1.1"
     assert first["refusal_contract"] == v.refusal_contract()
     first["refusal_contract"]["reason_mappings"]["invalid-input"][
         "suggested_next_action"] = "stop"
