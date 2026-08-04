@@ -2,6 +2,17 @@
 
 <!-- one or two sentences -->
 
+## Accountable review and AI assistance
+
+- [ ] I name the human maintainer accountable for this change in the PR.
+- [ ] I disclosed AI assistance (or explicitly wrote “none”), including whether
+      it touched code, tests, benchmark questions/golds, or documentation.
+- [ ] I reviewed generated output against primary sources and repository
+      contracts; tool output is not treated as review evidence.
+- [ ] Any benchmark gold has independent experienced-DM review, or is clearly
+      labeled as an engine-derived consistency fixture rather than independent
+      rules-accuracy evidence.
+
 ## Provenance checklist (required)
 
 - [ ] All rule content in this PR derives from the official SRD 5.2.1 document

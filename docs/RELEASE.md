@@ -65,6 +65,15 @@ gh workflow run publish-pypi.yml \
 # 9. Publish the GitHub release only after PyPI shows both files. That event
 #    starts registry-smoke against the exact public version.
 gh release create vX.Y.Z --verify-tag --generate-notes
+
+# 10. From a clean detached checkout of the exact annotated tag, authenticate
+#     the checksum-verified official MCP publisher with GitHub and publish the
+#     matching server.json. Registry JWTs are short-lived: generate a fresh
+#     device flow if publication reports an expired token. Verify the official
+#     Registry API reports X.Y.Z active and latest; never publish from a later
+#     development branch whose server.json has already advanced.
+mcp-publisher login github
+mcp-publisher publish
 ```
 
 ## Acceptance before publishing
@@ -80,3 +89,14 @@ gh release create vX.Y.Z --verify-tag --generate-notes
 - [ ] `tests/test_metadata_fresh.py` green — every surface reports one version
 - [ ] `scripts/check_repo_hygiene.py` exits 0
 - [ ] `NOTICE` ships in the wheel metadata
+- [ ] GitHub Release and PyPI show the exact annotated-tag version
+- [ ] official MCP Registry reports the same version active and latest
+
+## Operator handoff evidence
+
+For every release, record the accountable operator, merge commit, annotated
+tag object and peeled commit, post-merge CI run, tagged artifact run, trusted
+PyPI run, GitHub Release URL, public cold-install result, and MCP Registry
+verification. A successor release operator must complete the drill in
+`TAKEOVER.md`; access held only by the current maintainer is a blocker, not a
+successful handoff.

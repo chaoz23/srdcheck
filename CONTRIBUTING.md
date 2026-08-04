@@ -4,6 +4,12 @@ Contributions are welcome — from humans and from agents. The bar is the same
 for both: the [product truths](docs/product-truths.md) are the review criteria,
 and CI enforces most of them mechanically.
 
+Every PR must name an accountable human and disclose whether AI assistance
+touched code, tests, benchmark questions/golds, or documentation. Review the
+result itself: an agent transcript or claim is not evidence. Historical and
+future contribution-accountability rules are recorded in the
+[takeover inventory](docs/TAKEOVER.md).
+
 ## The one rule that is never waived: provenance
 
 **All rule content must derive from the official SRD 5.2.1 document** (fetched
@@ -38,3 +44,6 @@ $ pip install -e ".[dev]"
 $ bash srdcheck/adapters/srd-5.2.1/sources/fetch.sh && python srdcheck/adapters/srd-5.2.1/sources/extract.py   # SRD text for citation work
 $ python -m pytest tests/ -q
 ```
+
+Operational owners should also read the [architecture handoff](docs/ARCHITECTURE-OPERATIONS.md),
+[incident runbook](docs/INCIDENT-RESPONSE.md), and [support policy](docs/SUPPORT.md).
