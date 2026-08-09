@@ -19,11 +19,17 @@ prescriptive only for new tools.
 ## The contract
 
 1. **Exit codes are the verdict.** `0` = pass/legal/clean · `1` = fail/illegal/
-   findings · `2` = **cannot-adjudicate — the honest lane.** Exit 2 is a
-   first-class answer meaning the question is outside the tool's codified
-   jurisdiction (unknown content, discretion, ambiguity). It is never an
-   error, and consuming agents must route it to a human rather than retry or
-   guess. Higher codes (3+) are usage/internal errors, never verdicts.
+   findings, in every member. The **honest lane** — a first-class
+   cannot-adjudicate answer meaning the question is outside the tool's
+   codified jurisdiction (unknown content, discretion, ambiguity) — is the
+   contract of the D&D trio: srdcheck and dmcheck use exit `2` for it;
+   charactercheck uses exit `2` for unhandled content (exit `3` = could not
+   retrieve). Consuming agents route the honest lane to a human; never retry
+   or guess. **Divergence, recorded honestly:** inkcheck and loudcheck
+   predate the honest lane and use exit `2` for usage/environment errors;
+   their refusals are expressed in output, not exit code. Each SKILL.md
+   states its own tool's exact contract — read that, not this table, when
+   invoking.
 2. **Deterministic verdict paths.** No model invocation, no network, no
    randomness anywhere in a verdict path. A model call to compute what a
    lookup or formula can decide is a defect. Same input, same verdict, every
