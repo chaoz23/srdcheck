@@ -12,12 +12,23 @@ The kernel knows the *shape* of these files, never their contents' meaning (T7).
 
 import hashlib
 import importlib.util
+import inspect
 import json
 import pathlib
 import re
 import sys
+import typing
 
 from .coverage import apply_query_scope
+
+if typing.TYPE_CHECKING:  # pragma: no cover - annotations only
+    from .verdict import Verdict
+
+#: The handler contract every adapter's HANDLERS registry maps to. Positional
+#: `(adapter, params)`, returning a Verdict. Enforced at load time by
+#: `_validated_handlers` so a malformed registry fails where it is declared,
+#: not mid-query with an opaque TypeError.
+Handler = typing.Callable[["Adapter", dict], "Verdict"]
 
 
 class Adapter:
@@ -53,7 +64,25 @@ class Adapter:
                 self.atoms[atom["id"]] = atom
         qm = self.root / "queries.json"
         self.query_meta = json.loads(qm.read_text()) if qm.exists() else {}
+        self._data = {}
         self._handlers = self._load_handlers()
+
+    def data(self, filename):
+        """Lazily read and cache an adapter-owned JSON data file, keyed on this
+        adapter instance. Content-neutral: the kernel parses the file and never
+        interprets it — what the shape means is the adapter's business.
+
+        Handlers use this instead of module-level caches so that adapter data
+        cannot outlive its adapter, two adapters cannot share one cache, and
+        dropping the Adapter is a complete teardown.
+
+        The cached object is shared, not copied, so callers must treat it as
+        read-only.
+        """
+        if filename not in self._data:
+            path = self.root / filename
+            self._data[filename] = json.loads(path.read_text(encoding="utf-8"))
+        return self._data[filename]
 
     def _module_name(self):
         """A module name unique to this adapter *path*, not just its name, so
@@ -92,7 +121,27 @@ class Adapter:
         except BaseException:
             sys.modules.pop(name, None)
             raise
-        return dict(getattr(mod, "HANDLERS", {}))
+        return self._validated_handlers(getattr(mod, "HANDLERS", {}))
+
+    def _validated_handlers(self, handlers):
+        """A registry is a contract, so check it where it is declared. An
+        adapter that ships a non-callable or a wrong-arity handler should fail
+        at load with the offending query type named, not at query time."""
+        if not isinstance(handlers, dict):
+            raise TypeError(
+                f"{self.root.name}: HANDLERS must be a dict of "
+                f"{{query_type: fn(adapter, params)}}, got "
+                f"{type(handlers).__name__}")
+        for query_type, fn in sorted(handlers.items()):
+            where = f"{self.root.name}: handler for '{query_type}'"
+            if not callable(fn):
+                raise TypeError(f"{where} is not callable ({type(fn).__name__})")
+            try:
+                inspect.signature(fn).bind(self, {})
+            except TypeError as exc:
+                raise TypeError(
+                    f"{where} does not accept (adapter, params): {exc}") from exc
+        return dict(handlers)
 
     @property
     def query_types(self):

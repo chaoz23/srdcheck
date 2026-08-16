@@ -9,15 +9,19 @@ see its docstring for the queries it answers. `common` is the shared base and
 depends on no sibling.
 """
 
+from srdcheck.adapter import Handler
+
 from .content import feature_uses, mage_hand_use, spell_facts
 from .turn import reaction_available, turn_options, turn_plan
 from .rolls import attack_modifiers, roll_compose
 from .checks import check_make, concentration_check, save_check
 from .state import event_apply, transition_commit
 from .creatures import creature_stats, creature_valid, encounter_xp_budget
-from .actions import grapple_initiate, help_assist, opportunity_attack_provoked, passive_perception
+from .actions import (grapple_initiate, help_assist,
+                      opportunity_attack_provoked, passive_perception)
 
-HANDLERS = {
+
+HANDLERS: dict[str, Handler] = {
     "spell.facts": spell_facts,
     "feature.uses": feature_uses,
     "mage-hand.use": mage_hand_use,

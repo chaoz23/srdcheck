@@ -6,6 +6,9 @@ Owns: save.check, check.make, concentration.check
 from srdcheck import verdict as v
 from .common import _cite, _condition_category_gate, _effect_required_facts, _missing_fact_refusal, _path_present, event_int
 from .rolls import _CHECK_MODELED, _compose
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
+
 
 # conditions that auto-fail Strength and Dexterity saves -> the citing atom
 _SAVE_AUTOFAIL_STR_DEX = {
@@ -17,7 +20,7 @@ _SAVE_AUTOFAIL_STR_DEX = {
 _ABILITIES = {"str", "dex", "con", "int", "wis", "cha"}
 
 
-def save_check(adapter, p):
+def save_check(adapter: Adapter, p: dict) -> Verdict:
     """Adjudicate a saving throw. Optionally ability-typed and condition-aware:
     pass `save_ability` (str/dex/con/int/wis/cha) and `saver_conditions` to apply
     the codified overrides — auto-fail Str/Dex (Paralyzed/Petrified/Stunned/
@@ -110,7 +113,7 @@ def save_check(adapter, p):
         f"{mode}: {'success' if ok else 'failure'}.", cites, aid, rules, data=data)
 
 
-def check_make(adapter, p):
+def check_make(adapter: Adapter, p: dict) -> Verdict:
     """Adjudicate an ability check (a D20 Test) against a DC, condition-aware.
     Actor conditions: Blinded/Deafened auto-fail a check that requires
     sight/hearing (pass check_requires); Poisoned/Frightened impose Disadvantage
@@ -236,7 +239,7 @@ def check_make(adapter, p):
         f"{mode}: {'success' if ok else 'failure'}.", cites, aid, rules, data=data)
 
 
-def concentration_check(adapter, p):
+def concentration_check(adapter: Adapter, p: dict) -> Verdict:
     """Concentration save on taking damage: DC = max(10, damage // 2), capped at
     30 (SRD 5.2.1 p.179); optionally resolve the declared d20 result."""
     a, aid = adapter.atoms, adapter.id

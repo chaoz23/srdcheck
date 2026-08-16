@@ -4,10 +4,10 @@ reading, the modeled-condition model, and the fact-dependency refusals.
 Owns no query. Every other module may import from here; this module imports
 from none of them.
 """
-import json
 
 from srdcheck import verdict as v
 from srdcheck.schema import (ValidationIssue)
+
 
 def _cite(atom):
     c = atom["citation"]
@@ -65,12 +65,7 @@ def _expand_conditions(lower_conds):
 
 def _condition_dependency_contract(adapter):
     """Load the adapter-owned, machine-readable condition/fact contract."""
-    cached = getattr(adapter, "_condition_dependency_contract", None)
-    if cached is None:
-        path = adapter.root / "condition_dependencies.json"
-        cached = json.loads(path.read_text(encoding="utf-8"))
-        adapter._condition_dependency_contract = cached
-    return cached
+    return adapter.data("condition_dependencies.json")
 
 
 def _effect_required_facts(adapter, surface, effect):

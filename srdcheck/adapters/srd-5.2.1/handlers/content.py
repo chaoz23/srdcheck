@@ -2,13 +2,15 @@
 
 Owns: spell.facts, feature.uses, mage-hand.use
 """
-import json
 
 from srdcheck import verdict as v
 from srdcheck.schema import (issues as schema_issues, normalize_integers)
 from .common import _cite
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
 
-def mage_hand_use(adapter, p):
+
+def mage_hand_use(adapter: Adapter, p: dict) -> Verdict:
     """p: {kind, weight_lb?, distance_ft?} — one proposed use of the hand."""
     schema = adapter.query_meta["mage-hand.use"]["inputSchema"]
     problems = schema_issues(p, schema)
@@ -80,17 +82,14 @@ def mage_hand_use(adapter, p):
 
 
 
-_SPELL_FACTS = None
-
-
 def _spell_facts(adapter):
-    global _SPELL_FACTS
-    if _SPELL_FACTS is None:
-        _SPELL_FACTS = json.load(open(adapter.root / "spell_facts.json"))
-    return _SPELL_FACTS
+    """Adapter-owned spell fact table. Cached on the adapter, never on this
+    module — a module-level cache is shared by every adapter that imports it
+    and outlives all of them."""
+    return adapter.data("spell_facts.json")
 
 
-def spell_facts(adapter, p):
+def spell_facts(adapter: Adapter, p: dict) -> Verdict:
     """Machine-readable spell facts (casting time, range, components,
     duration, concentration), census-anchored against the spell registry.
     With caller-supplied `cast_at`, returns expires_at as pure arithmetic on
@@ -153,7 +152,7 @@ _FEATURE_USES = {
 }
 
 
-def feature_uses(adapter, p):
+def feature_uses(adapter: Adapter, p: dict) -> Verdict:
     """Use-count formulas the SRD states as arithmetic. Formula-blanks
     discipline: no blanks supplied, no number - the formula alone."""
     aid = adapter.id
