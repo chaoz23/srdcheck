@@ -4,14 +4,18 @@
                   attribution, and the query types it claims jurisdiction over
   entities.json   {category: [names...]} — the content this adapter knows exists
   atoms/*.json    rule atoms: parameters + citations, consumed by handlers
-  handlers.py     query handlers (the game logic; never in the kernel)
+  handlers.py     query handlers (the game logic; never in the kernel), or a
+                  handlers/ package exporting the same HANDLERS registry
 
 The kernel knows the *shape* of these files, never their contents' meaning (T7).
 """
 
+import hashlib
 import importlib.util
 import json
 import pathlib
+import re
+import sys
 
 from .coverage import apply_query_scope
 
@@ -51,14 +55,43 @@ class Adapter:
         self.query_meta = json.loads(qm.read_text()) if qm.exists() else {}
         self._handlers = self._load_handlers()
 
+    def _module_name(self):
+        """A module name unique to this adapter *path*, not just its name, so
+        two versions of one adapter loaded from different roots cannot collide
+        in sys.modules."""
+        stem = re.sub(r"\W", "_", self.manifest["name"])
+        tag = hashlib.sha256(str(self.root.resolve()).encode()).hexdigest()[:8]
+        return f"srdcheck_adapter_{stem}_{tag}"
+
+    def _handler_spec(self, name):
+        """Handlers are either one `handlers.py` (the simple path the adapter
+        spec documents) or a `handlers/` package (for adapters whose rule
+        domains have outgrown a single file). Both must export HANDLERS."""
+        pkg = self.root / "handlers" / "__init__.py"
+        if pkg.exists():
+            return importlib.util.spec_from_file_location(
+                name, pkg,
+                submodule_search_locations=[str(self.root / "handlers")])
+        single = self.root / "handlers.py"
+        if single.exists():
+            return importlib.util.spec_from_file_location(name, single)
+        return None
+
     def _load_handlers(self):
-        hp = self.root / "handlers.py"
-        if not hp.exists():
+        name = self._module_name()
+        spec = self._handler_spec(name)
+        if spec is None:
             return {}
-        spec = importlib.util.spec_from_file_location(
-            f"srdcheck_adapter_{self.manifest['name'].replace('-', '_')}", hp)
         mod = importlib.util.module_from_spec(spec)
-        spec.loader.exec_module(mod)
+        # Registered before exec so intra-package (`from . import ...`) imports
+        # resolve; dropped again on failure so a broken adapter leaves nothing
+        # half-initialised behind for the next load to find.
+        sys.modules[name] = mod
+        try:
+            spec.loader.exec_module(mod)
+        except BaseException:
+            sys.modules.pop(name, None)
+            raise
         return dict(getattr(mod, "HANDLERS", {}))
 
     @property
