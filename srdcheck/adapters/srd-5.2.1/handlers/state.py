@@ -10,6 +10,9 @@ from srdcheck.schema import (ValidationIssue, issues as schema_issues, normalize
 from srdcheck.transitions import (TRANSITION_SCHEMA, canonical_hash, commit_receipt, identity, proposal as transition_proposal)
 from .common import _cite
 from .turn import turn_plan
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
+
 
 # The reducer (Epic 2 / T14). The model declares; the ledger derives.
 # Stunned/Paralyzed embed Incapacitated (cited atoms); unknown or unmodeled
@@ -30,10 +33,10 @@ _FRESH_TURN = {"action_spent": False, "bonus_action_spent": False,
 
 
 def _state_schema(adapter):
-    """Load the packaged canonical state contract for reducer validation."""
-    return json.loads(
-        (adapter.root / "state_schema.json").read_text(encoding="utf-8")
-    )["schema"]
+    """The packaged canonical state contract for reducer validation. Read
+    once per adapter — this used to re-read and re-parse the file on every
+    event.apply call. Treat the result as read-only."""
+    return adapter.data("state_schema.json")["schema"]
 
 
 def _invalid_state(adapter_id, problems, subject="state"):
@@ -271,7 +274,7 @@ def _state_to_plan_params(state):
     return params
 
 
-def event_apply(adapter, p):
+def event_apply(adapter: Adapter, p: dict) -> Verdict:
     """fold(state, declared_event) -> verdict (+ data.next_state on exit 0).
 
     Never produces an event, never advances time on its own, never rolls.
@@ -790,7 +793,7 @@ def event_apply(adapter, p):
     return verdict
 
 
-def transition_commit(adapter, p):
+def transition_commit(adapter: Adapter, p: dict) -> Verdict:
     """Validate a caller-owned atomic commit or an idempotent retry."""
     from srdcheck.engine import validation_refusal
 

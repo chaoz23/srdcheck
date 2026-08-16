@@ -6,8 +6,11 @@ passive.perception
 
 from srdcheck import verdict as v
 from .common import _cite
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
 
-def opportunity_attack_provoked(adapter, p):
+
+def opportunity_attack_provoked(adapter: Adapter, p: dict) -> Verdict:
     """Does a creature's movement provoke an Opportunity Attack? Provokes only
     when a creature the reactor can see leaves the reactor's reach using its own
     movement. It does NOT provoke on Disengage, Teleportation, forced movement
@@ -65,7 +68,7 @@ def opportunity_attack_provoked(adapter, p):
 _SIZES = ["tiny", "small", "medium", "large", "huge", "gargantuan"]
 
 
-def grapple_initiate(adapter, p):
+def grapple_initiate(adapter: Adapter, p: dict) -> Verdict:
     """Adjudicate initiating a Grapple or Shove via an Unarmed Strike (SRD p.190):
     compute the save DC (8 + Strength modifier + Proficiency Bonus) and the
     size / free-hand legality. The target's Strength-or-Dexterity save (its
@@ -124,7 +127,7 @@ def grapple_initiate(adapter, p):
         [_cite(atom)], aid, [atom["id"]], data=data)
 
 
-def help_assist(adapter, p):
+def help_assist(adapter: Adapter, p: dict) -> Verdict:
     """Adjudicate the Help action (SRD 5.2.1 p.182). Assist an Ability Check
     requires choosing one of YOUR skill/tool proficiencies — without the relevant
     proficiency it can't grant Advantage on that check (the codified gate). The
@@ -175,7 +178,7 @@ def help_assist(adapter, p):
         reason_code="invalid-input", missing_inputs=())
 
 
-def passive_perception(adapter, p):
+def passive_perception(adapter: Adapter, p: dict) -> Verdict:
     """Passive Perception = 10 + the Wisdom (Perception) check modifier (SRD
     5.2.1 p.22). The SRD defines no Advantage/Disadvantage adjustment to a
     passive score, so a request for one is honestly refused (T2/T8) rather than

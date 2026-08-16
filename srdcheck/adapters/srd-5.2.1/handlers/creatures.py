@@ -5,8 +5,11 @@ Owns: creature.valid, creature.stats, encounter.xp-budget
 
 from srdcheck import verdict as v
 from .common import _cite
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
 
-def creature_valid(adapter, p):
+
+def creature_valid(adapter: Adapter, p: dict) -> Verdict:
     """Is `name` a valid SRD 5.2.1 creature? (issue #3)
 
     legal = a creature in 5.2.1; illegal = SRD content but not a creature
@@ -41,7 +44,7 @@ def creature_valid(adapter, p):
         missing_inputs=())
 
 
-def creature_stats(adapter, p):
+def creature_stats(adapter: Adapter, p: dict) -> Verdict:
     """Return a creature's CR/XP with citation (issue #2). Depends on #1's data."""
     aid = adapter.id
     if "name" not in p:
@@ -73,7 +76,7 @@ def creature_stats(adapter, p):
               "citation": rec["citation"]})
 
 
-def encounter_xp_budget(adapter, p):
+def encounter_xp_budget(adapter: Adapter, p: dict) -> Verdict:
     """XP budget per character for a party level + difficulty (issue #4,
     SRD 5.2.1 p.202). Optionally multiply by party_size for the total budget."""
     a, aid = adapter.atoms, adapter.id
