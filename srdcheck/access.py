@@ -15,8 +15,12 @@ new versions slot in without a breaking change.
     a.names(category)               # the names within a category
     a.record(category, name)        # a fact record for a named entity, or None
     a.query(query_type, params)     # run a query; returns a verdict dict
+
+Everything this API returns is caller-owned: mutate it freely, and nothing you
+do to it can reach a later call, another handle, or a verdict.
 """
 
+import copy
 import hashlib
 import json
 import pathlib
@@ -146,7 +150,23 @@ def load_adapter(identifier):
 
 
 class AdapterHandle:
-    """A supported handle over one loaded adapter's content and queries."""
+    """A supported handle over one loaded adapter's content and queries.
+
+    Ownership rule: **every structure this class returns belongs to the
+    caller.** Mutating it cannot affect a later call, another handle, or a
+    verdict. Nested records are copied too, not just the outer container.
+
+    That is not cosmetic. `record()` previously returned the engine's live
+    fact record, so a caller that edited one silently rewrote the source facts
+    the engine then cites. The query still answered with a citation attached,
+    but reported the caller's edited values. A confident wrong answer carrying
+    provenance is the one failure this project exists to prevent, so the
+    public boundary copies.
+
+    The kernel-internal accessors (`Adapter.entity_record`, `Adapter.data`)
+    deliberately do *not* copy — they are the query path, and adapter code is
+    trusted to treat them as read-only.
+    """
 
     def __init__(self, engine):
         self._engine = engine
@@ -166,25 +186,37 @@ class AdapterHandle:
 
     @property
     def manifest(self):
-        return dict(self._a.manifest)
+        """This adapter's provenance manifest. Caller-owned, copied through
+        nested objects such as `source`."""
+        return copy.deepcopy(self._a.manifest)
 
     def categories(self):
-        """The content categories this adapter carries."""
+        """The content categories this adapter carries. Caller-owned (a fresh
+        list of immutable strings)."""
         return sorted(self._a.entities_by_category)
 
     def entities(self, category):
         """Full entries for a category (records where the adapter carries facts,
-        bare name strings otherwise)."""
-        return list(self._a.entities_by_category.get(category, []))
+        bare name strings otherwise). Caller-owned: both the list and every
+        record in it are copies.
+
+        This is a discovery surface, not the query path — adapter code reads
+        facts through `Adapter.entity_record`. The deep copy costs ~0.3 ms on
+        the largest bundled category (326 records) against ~26 us for a query,
+        which is why correctness wins here.
+        """
+        return copy.deepcopy(self._a.entities_by_category.get(category, []))
 
     def names(self, category):
-        """Just the names for a category."""
+        """Just the names for a category. Caller-owned."""
         return [e["name"] if isinstance(e, dict) else e
-                for e in self.entities(category)]
+                for e in self._a.entities_by_category.get(category, [])]
 
     def record(self, category, name):
-        """The fact record for a named entity, or None. Case-insensitive."""
-        return self._a.entity_record(category, name)
+        """The fact record for a named entity, or None. Case-insensitive.
+        Caller-owned: a copy, never the engine's live record."""
+        found = self._a.entity_record(category, name)
+        return copy.deepcopy(found) if found is not None else None
 
     def query_types(self):
         return sorted(self._a.query_types)
