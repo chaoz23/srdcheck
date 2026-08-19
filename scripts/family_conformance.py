@@ -220,10 +220,21 @@ def parse_skill(skill: Path) -> dict:
     stream_claim = None
     for _, para in paragraphs:
         low = para.lower()
-        if ("stderr" in low or "stdout" in low) and any(
-                w in low for w in ("fail", "error", "envelope", "invalid", "print")):
-            stream_claim = ("stderr" if "stderr" in low else "stdout", para)
-            break
+        if "stderr" not in low and "stdout" not in low:
+            continue
+        if not any(w in low for w in
+                   ("fail", "error", "envelope", "invalid", "print", "emit")):
+            continue
+        # Which stream is claimed to CARRY the payload? Merely *mentioning* a
+        # stream is not the claim -- an accurate doc names both ("prints JSON on
+        # stdout; stderr carries only usage errors"), and a naive "stderr appears,
+        # so stderr is claimed" test rejects exactly the documentation we want.
+        # The claim is the stream governed by the printing verb.
+        m = re.search(r"(?:prints?|emits?|writes?|outputs?)\b[^.]{0,60}?"
+                      r"\b(stdout|stderr)\b", low)
+        stream_claim = ((m.group(1) if m else
+                         ("stderr" if "stderr" in low else "stdout")), para)
+        break
 
     return {"documented": documented, "tight": tight, "honest": honest,
             "usage": usage, "stream_claim": stream_claim}
