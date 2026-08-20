@@ -62,6 +62,10 @@ def build():
     }
     return {
         "name": "srdcheck",
+        # FAMILY.md v2 clause 7 binds agent-first surfaces per member class.
+        # Declared here so the conformance gate reads it from the artifact
+        # rather than parsing the contract's prose.
+        "family_class": "verdict",
         "version": __version__,
         "description": (
             "Deterministic rules verdicts over the SRD for game-running "

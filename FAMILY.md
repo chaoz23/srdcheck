@@ -1,4 +1,4 @@
-# The check family — shared contract (v2)
+# The check family — shared contract (v2.1)
 
 Canonical copy: this file, in [srdcheck](https://github.com/chaoz23/srdcheck)
 (the family's reference implementation). Sibling repos link here.
@@ -76,6 +76,14 @@ Members differ by what they produce, and the contract binds them accordingly.
    | CLI `--pipe` | ✅ | — | — |
    | MCP server | ✅ | — | — |
 
+   **A member declares its own class** in `tool.json` as
+   `"family_class": "verdict" | "transport" | "adjacent"`. The declaration lives
+   in the artifact, not in this file's prose, so tooling reads it without
+   parsing markdown and a member owns its own classification. A member that
+   declares no class is not assumed to have one: the conformance gate reports
+   the omission and states which class-gated surfaces it therefore did not
+   check, rather than guessing.
+
    `--pipe` is one-query-in / one-verdict-out. It binds the verdict class because
    that shape is what a verdict tool *is*; a transport that records a session has
    no such shape, and requiring it there would produce a surface with no honest
@@ -114,6 +122,11 @@ repos pin by link, not by copy.
 
 ### Changelog
 
+- **v2.1** — Members declare their class machine-readably as `family_class` in
+  `tool.json`. v2 introduced classes but left them stated only in this file's
+  members table, so the conformance gate had no way to apply clause 7 per class
+  and reported `--pipe` as missing on a transport member that v2 exempts. An
+  undeclared class is reported as such, never guessed.
 - **v2** — Introduced member classes (verdict / transport / adjacent) and stated
   clause 7 per class, so `--pipe` and an MCP server bind the tools whose shape
   they fit. Corrected the preamble's claim to be wholly descriptive. Widened

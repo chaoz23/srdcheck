@@ -58,6 +58,19 @@ BUILTIN_PROBES = {
     "tablekit":       ["report"],
 }
 
+# FAMILY.md v2 clause 7 binds agent-first surfaces per member class. --pipe is
+# one-query-in/one-verdict-out and an MCP server exposes callable tools; neither
+# shape means anything for a session ledger, so both bind the verdict class only.
+CLASS_SURFACES = {
+    "verdict":   {"skill_md", "tool_json", "llms_txt", "schema_flag", "pipe", "mcp_server"},
+    "transport": {"skill_md", "tool_json", "llms_txt", "schema_flag"},
+    "adjacent":  {"skill_md", "tool_json", "llms_txt", "schema_flag"},
+}
+# Clause 1 (exit codes are the verdict; the honest lane) binds the verdict class
+# fully, and the transport class where it emits a verdict. It does not bind the
+# adjacent class: those tools are in different domains and predate the lane.
+CLAUSE_1_CLASSES = {"verdict", "transport"}
+
 HONEST_MARKERS = (
     "honest", "cannot", "can't", "do not retry", "don't retry", "never retry",
     "route it to a human", "to a human", "up to the dm", "discretion", "ambiguous",
@@ -78,6 +91,21 @@ def die(msg: str) -> None:
 
 
 # ---------------------------------------------------------------- discovery
+
+
+def read_family_class(repo: Path) -> str | None:
+    """Read the member class the repo declares for itself. Reading it from the
+    artifact keeps this gate off FAMILY.md's prose, which would couple it to
+    markdown formatting -- brittleness that has already bitten this parser."""
+    tool_json = repo / "tool.json"
+    if not tool_json.is_file():
+        return None
+    try:
+        declared = json.loads(tool_json.read_text())
+    except json.JSONDecodeError:
+        return None
+    value = declared.get("family_class") or declared.get("class")
+    return value if value in CLASS_SURFACES else None
 
 
 def _project_scripts(pyproject: Path) -> dict[str, str]:
@@ -251,6 +279,8 @@ def audit(repo: Path) -> dict:
 
     tool, argv = discover_entry(repo)
     parsed = parse_skill(skill)
+    family_class = read_family_class(repo)
+    surfaces = CLASS_SURFACES.get(family_class, set())
     findings: list[dict] = []
 
     def add(rule, severity, message, evidence):
@@ -270,12 +300,24 @@ def audit(repo: Path) -> dict:
     envelope_p = run(repo, argv, probe_args) if probe_args else None
 
     # --- clause 7: the flags are codified by name -------------------------------
-    pipe_p = run(repo, argv, ["--pipe"], stdin="")
-    if "unrecognized arguments: --pipe" in pipe_p["stderr"] or \
-       "unknown option" in pipe_p["stderr"] or "unknown command" in pipe_p["stderr"]:
-        add("MISSING_PIPE", "high",
-            "FAMILY.md clause 7 codifies `--pipe` by name; the CLI rejects it.",
-            f"`{tool} --pipe` -> exit {pipe_p['code']}: {oneline(pipe_p['stderr'])}")
+    if family_class is None:
+        add("UNDECLARED_CLASS", "medium",
+            "tool.json declares no `family_class`, so FAMILY.md v2's per-class "
+            "clause-7 surfaces (`--pipe`, MCP server) were NOT evaluated. Add "
+            '`"family_class": "verdict" | "transport" | "adjacent"`. Reporting '
+            "this rather than assuming a class: guessing `verdict` would invent "
+            "breaches for a transport, and guessing `transport` would hide real "
+            "ones for a verdict tool.",
+            f"{repo / 'tool.json'}")
+
+    if "pipe" in surfaces:
+        pipe_p = run(repo, argv, ["--pipe"], stdin="")
+        if "unrecognized arguments: --pipe" in pipe_p["stderr"] or \
+           "unknown option" in pipe_p["stderr"] or "unknown command" in pipe_p["stderr"]:
+            add("MISSING_PIPE", "high",
+                f"FAMILY.md clause 7 codifies `--pipe` by name and binds it to the "
+                f"{family_class} class; the CLI rejects it.",
+                f"`{tool} --pipe` -> exit {pipe_p['code']}: {oneline(pipe_p['stderr'])}")
 
     if schema_p["code"] != 0:
         add("SCHEMA_NOT_FLAG", "high",
@@ -308,7 +350,8 @@ def audit(repo: Path) -> dict:
                 f"{sorted(parsed['documented']) or 'nothing'}")
 
     # --- clause 1: the honest lane must not be overloaded with usage errors ------
-    bad_code = badflag_p["code"]
+    # Skipped for the adjacent class, which clause 1 does not bind.
+    bad_code = badflag_p["code"] if family_class in CLAUSE_1_CLASSES else None
     for hc in sorted(parsed["honest"]):
         if bad_code == hc and hc not in parsed["usage"]:
             # Quote the clause that actually carries the honest-lane language, not
@@ -344,6 +387,7 @@ def audit(repo: Path) -> dict:
 
     return {
         "tool": tool,
+        "family_class": family_class,
         "repo": str(repo),
         "entry": argv,
         "documented_codes": sorted(parsed["documented"]),
@@ -390,7 +434,8 @@ def main(argv: list[str] | None = None) -> int:
         for r in results:
             mark = "PASS" if r["conformant"] else "FAIL"
             print(f"\n{mark}  {r['tool']}  ({r['repo']})")
-            print(f"      documented {r['documented_codes']} · observed {r['observed_codes']}"
+            print(f"      class={r['family_class'] or 'UNDECLARED'} · "
+                  f"documented {r['documented_codes']} · observed {r['observed_codes']}"
                   f" · honest-lane {r['honest_lane_codes']}")
             for f in r["findings"]:
                 print(f"  [{f['severity']}] {f['rule']}")
