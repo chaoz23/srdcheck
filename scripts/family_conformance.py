@@ -410,6 +410,10 @@ def main(argv: list[str] | None = None) -> int:
                     help="read repo paths from stdin, one per line; one JSON result per line")
     ap.add_argument("--schema", action="store_true", help="print the I/O contract and exit 0")
     ap.add_argument("--json", action="store_true", help="machine-readable output")
+    ap.add_argument("--baseline", type=Path, metavar="PATH",
+                    help="accept the findings listed in PATH; fail only on new ones. "
+                         "A baseline entry that no longer fires is itself a failure, "
+                         "so fixes must shrink the file.")
     args = ap.parse_args(argv)
 
     if args.schema:
@@ -420,13 +424,36 @@ def main(argv: list[str] | None = None) -> int:
     if not targets:
         ap.error("no repos given (pass paths, or --pipe with paths on stdin)")
 
+    accepted = {}
+    if args.baseline:
+        if not args.baseline.is_file():
+            die(f"{args.baseline}: baseline file not found")
+        accepted = json.loads(args.baseline.read_text()).get("accepted", {})
+
     results, worst = [], 0
+    stale = []
     for repo in targets:
         r = audit(repo)
+        allowed = accepted.get(r["tool"], {})
+        fired = {f["rule"] for f in r["findings"]}
+        for f in r["findings"]:
+            f["accepted"] = f["rule"] in allowed
+            if f["accepted"]:
+                f["tracked_by"] = allowed[f["rule"]]
+        # A baseline entry that stopped firing must be removed, or the ratchet
+        # only ever loosens. Fixing a defect and leaving its waiver behind means
+        # the next regression is silently pre-accepted.
+        for rule, issue in allowed.items():
+            if rule not in fired:
+                stale.append((r["tool"], rule, issue))
+        r["new_findings"] = [f for f in r["findings"] if not f["accepted"]]
         results.append(r)
-        worst = max(worst, 1 if r["findings"] else 0)
+        worst = max(worst, 1 if r["new_findings"] else 0)
         if args.pipe:
             print(json.dumps(r), flush=True)
+
+    if stale:
+        worst = 1
 
     if args.json:
         print(json.dumps({"results": results}, indent=2))
@@ -438,11 +465,17 @@ def main(argv: list[str] | None = None) -> int:
                   f"documented {r['documented_codes']} · observed {r['observed_codes']}"
                   f" · honest-lane {r['honest_lane_codes']}")
             for f in r["findings"]:
-                print(f"  [{f['severity']}] {f['rule']}")
+                tag = f"  (accepted · {f['tracked_by']})" if f.get("accepted") else ""
+                print(f"  [{f['severity']}] {f['rule']}{tag}")
                 print(f"      {f['message']}")
                 print(f"      evidence: {f['evidence']}")
         total = sum(len(r["findings"]) for r in results)
-        print(f"\n{total} finding(s) across {len(results)} repo(s)")
+        fresh = sum(len(r.get("new_findings", r["findings"])) for r in results)
+        print(f"\n{total} finding(s) across {len(results)} repo(s); {fresh} not in the baseline")
+        for tool, rule, issue in stale:
+            print(f"\nSTALE BASELINE: {tool}/{rule} no longer fires but is still "
+                  f"waived (tracked by {issue}).\n  Remove it from the baseline — "
+                  f"a waiver left behind pre-accepts the next regression.")
     return worst
 
 
