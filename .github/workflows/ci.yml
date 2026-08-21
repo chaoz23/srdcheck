@@ -26,6 +26,31 @@ jobs:
             echo "::error::pack exceeds 20 MiB — a large binary was committed"
             exit 1; }
 
+  family-conformance:
+    needs: hygiene
+    # Executes this repo's documented exit contract against its real CLI and
+    # fails if SKILL.md's claims and the tool's behaviour disagree. The SKILL.md
+    # acceptance test checks that an agent can *invoke* the tool; this checks
+    # that what the file promises is *true*. Every family member's SKILL.md
+    # passed the former while failing the latter.
+    #
+    # Blocking, not advisory: known findings are waived in
+    # family-conformance-baseline.json, each naming the issue that tracks it, so
+    # this fails only on a NEW divergence. A waiver that stops firing also fails,
+    # so fixes shrink the baseline rather than leaving stale permission behind.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Install so the gate probes the real console script
+        run: pip install -e .
+      - name: SKILL.md claims match the CLI
+        run: |
+          python scripts/family_conformance.py . \
+            --baseline family-conformance-baseline.json
+
   test:
     needs: hygiene
     # Ubuntu carries the full correctness/provenance suite on every supported
