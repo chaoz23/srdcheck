@@ -1,5 +1,5 @@
 {
-  "_comment": "Findings accepted for now. Each MUST name the issue tracking it — a waiver without a ticket is just a hidden defect. A waiver that stops firing fails the gate, so fixes shrink this file.",
+  "_comment": "Findings accepted for now. Each MUST name the issue tracking it \u2014 a waiver without a ticket is just a hidden defect. A waiver that stops firing fails the gate, so fixes shrink this file.",
   "accepted": {
     "charactercheck": {
       "HONEST_LANE_OVERLOAD": "chaoz23/charactercheck#18"
@@ -9,7 +9,6 @@
       "HONEST_LANE_OVERLOAD": "chaoz23/dmcheck#15"
     },
     "tablekit": {
-      "SCHEMA_NOT_FLAG": "chaoz23/table-kit#23",
       "HONEST_LANE_OVERLOAD": "chaoz23/table-kit#1"
     }
   }
