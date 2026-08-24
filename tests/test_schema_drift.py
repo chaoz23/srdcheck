@@ -6,14 +6,14 @@ import re
 
 from srdcheck.adapter import Adapter
 import srdcheck.adapters  # noqa: F401
-import importlib.util
 import pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 AD = ROOT / "srdcheck" / "adapters" / "srd-5.2.1"
-spec = importlib.util.spec_from_file_location("h521", AD / "handlers.py")
-H = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(H)
+# Load through the kernel's own loader rather than a second copy of it, so the
+# oracle keeps scanning whatever layout the adapter actually ships (one
+# handlers.py or a handlers/ package).
+HANDLERS = Adapter(AD)._handlers
 
 import json
 QUERIES = json.loads((AD / "queries.json").read_text())
@@ -38,7 +38,7 @@ def declared(query_type):
 
 def test_every_handler_read_is_declared():
     failures = []
-    for qtype, fn in H.HANDLERS.items():
+    for qtype, fn in HANDLERS.items():
         top, nested = declared(qtype)
         if not top:
             continue  # schema declares no properties -> validation is off for it
