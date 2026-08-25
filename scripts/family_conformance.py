@@ -214,7 +214,12 @@ def parse_skill(skill: Path) -> dict:
     tight: dict[int, list[str]] = {}
 
     def record(code: int, ctx: str, is_tight: bool = False) -> None:
-        if not 0 <= code <= 3:
+        # 0/1/2 are the universal verdict contract; codes >=3 are each tool's own
+        # "no verdict was produced" taxonomy. charactercheck already spends 3 on
+        # could-not-retrieve, so its usage-error code has to go higher. Capping at
+        # 3 silently dropped anything above it, which then surfaced as a bogus
+        # UNDOCUMENTED_EXIT_CODE against a tool that documented itself correctly.
+        if not 0 <= code <= 9:
             return
         ctx = " ".join(ctx.split())[:220]
         documented.setdefault(code, []).append(ctx)
@@ -233,7 +238,7 @@ def parse_skill(skill: Path) -> dict:
         if "exit" not in head and "exit" not in para.lower():
             continue
         # "`0` = clean" / "0 passes the named scope" / "· 2 cannot-adjudicate"
-        for m in re.finditer(r"(?:^|[·(\s])`?([0-3])`?\s*(?:=|\s)\s*([A-Za-z][^·|]{2,90})", para):
+        for m in re.finditer(r"(?:^|[·(\s])`?([0-9])`?\s*(?:=|\s)\s*([A-Za-z][^·|]{2,90})", para):
             record(int(m.group(1)), f"{m.group(1)} {m.group(2)}", is_tight=True)
 
     honest, usage = set(), set()

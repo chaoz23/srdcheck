@@ -1,4 +1,4 @@
-# The check family — shared contract (v2.1)
+# The check family — shared contract (v2.2)
 
 Canonical copy: this file, in [srdcheck](https://github.com/chaoz23/srdcheck)
 (the family's reference implementation). Sibling repos link here.
@@ -39,13 +39,25 @@ Members differ by what they produce, and the contract binds them accordingly.
    cannot-adjudicate answer meaning the question is outside the tool's codified
    jurisdiction, or that the tool cannot answer it from the evidence it has
    (unknown content, discretion, ambiguity, incomplete coverage) — is the
-   contract of the verdict class: srdcheck and dmcheck use exit `2`;
-   charactercheck uses exit `2` for unhandled content and `3` for could-not-
-   retrieve. Consuming agents route the honest lane to a human; never retry or
-   guess. Usage errors are **not** the honest lane and should not share its exit
-   code; srdcheck's exit `3` is the family precedent. Each SKILL.md states its
-   own tool's exact contract — read that, not this table, when invoking, and see
-   clause 7 on how that statement is kept true.
+   contract of the verdict class: srdcheck, dmcheck and charactercheck all use
+   exit `2` (for charactercheck, unhandled content). Consuming agents route the
+   honest lane to a human; never retry or guess. Usage errors are **not** the
+   honest lane and must not share its exit code.
+
+   **`0`, `1` and `2` are the universal verdict contract.** Codes `3` and above
+   are the *no-verdict-was-produced* taxonomy: a consuming agent branches on
+   0/1/2 and treats anything `>= 3` as "this is not a verdict — read the
+   payload".
+
+   **`3` is usage error in every member.** A malformed call is the one
+   non-verdict outcome every tool has, so it is worth harmonising rather than
+   leaving each tool to pick: an agent that mis-invokes any member gets the same
+   answer. Further non-verdict outcomes take `4` and up, named in the tool's own
+   SKILL.md — charactercheck uses `4` for could-not-retrieve. A new tool takes
+   `3` for usage errors and the next free code for anything else.
+
+   Each SKILL.md states its own tool's exact contract — read that, not this
+   table, when invoking, and see clause 7 on how that statement is kept true.
 2. **Deterministic verdict paths.** No model invocation, no network, no
    randomness anywhere in a verdict path. A model call to compute what a lookup
    or formula can decide is a defect. Same input, same verdict, every time.
@@ -122,6 +134,12 @@ repos pin by link, not by copy.
 
 ### Changelog
 
+- **v2.2** — Stated the exit-code pattern explicitly: 0/1/2 are the universal
+  verdict contract and `>= 3` is the no-verdict taxonomy, with `3` = usage error
+  harmonised across every member. v2.1 called srdcheck's exit 3 "the family
+  precedent", which was too weak to settle what a member should do when 3 was
+  already spent — charactercheck moves could-not-retrieve to `4` rather than
+  taking a different usage code (chaoz23/charactercheck#18).
 - **v2.1** — Members declare their class machine-readably as `family_class` in
   `tool.json`. v2 introduced classes but left them stated only in this file's
   members table, so the conformance gate had no way to apply clause 7 per class
