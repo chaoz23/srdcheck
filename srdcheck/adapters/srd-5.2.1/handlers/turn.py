@@ -6,6 +6,9 @@ Owns: turn.plan, turn.options, reaction.available
 from srdcheck import verdict as v
 from srdcheck.schema import (issues as schema_issues, normalize_integers)
 from .common import _MODELED_CONDITIONS, _SPEED_ZERO, _cite, _expand_conditions
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
+
 
 def _effective_speed(adapter, p, cites, rules):
     speed = p.get("speed", 0)
@@ -41,7 +44,7 @@ def _validated_turn_params(adapter, query_type, params):
     return normalize_integers(params, schema), None
 
 
-def turn_plan(adapter, p):
+def turn_plan(adapter: Adapter, p: dict) -> Verdict:
     """Judge a proposed own-turn plan against budgets and modeled conditions.
 
     params: speed, conditions[], spent{action,bonus_action,reaction,
@@ -234,7 +237,7 @@ def turn_plan(adapter, p):
         cites, aid, rules)
 
 
-def reaction_available(adapter, p):
+def reaction_available(adapter: Adapter, p: dict) -> Verdict:
     """params: {spent_since_turn_start: bool, conditions: []}."""
     a, aid = adapter.atoms, adapter.id
     supplied = [c.strip() for c in p.get("conditions", [])]
@@ -315,7 +318,7 @@ def _condition_gate(adapter, p):
     return None
 
 
-def turn_options(adapter, p):
+def turn_options(adapter: Adapter, p: dict) -> Verdict:
     """T5: enumerate what remains legal this turn given the same state
     shape turn.plan takes (speed, conditions, spent) — no plan."""
     p, refusal = _validated_turn_params(adapter, "turn.options", p)

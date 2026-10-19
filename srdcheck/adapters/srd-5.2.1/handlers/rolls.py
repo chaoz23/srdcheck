@@ -5,6 +5,9 @@ Owns: roll.compose, attack.modifiers
 
 from srdcheck import verdict as v
 from .common import _MODELED_CONDITIONS, _cite, _condition_category_gate, _effect_required_facts, _expand_conditions, _missing_fact_refusal, _path_present, _query_required_facts
+from srdcheck.adapter import Adapter
+from srdcheck.verdict import Verdict
+
 
 # Attack-roll modifier composition. Conditions whose attack effects this
 # adapter version models; anything else known yields exit 2 (T1/T8).
@@ -37,7 +40,7 @@ def _compose(adapter, adv, dis):
     return "straight", 1, None
 
 
-def roll_compose(adapter, p):
+def roll_compose(adapter: Adapter, p: dict) -> Verdict:
     """Pure composition: {advantage_sources: [..], disadvantage_sources: [..],
     reroll_available?: bool} -> net roll mode."""
     adv = list(p.get("advantage_sources", []))
@@ -58,7 +61,7 @@ def roll_compose(adapter, p):
     return v.legal(why, cites, adapter.id, rules, data=data)
 
 
-def attack_modifiers(adapter, p):
+def attack_modifiers(adapter: Adapter, p: dict) -> Verdict:
     """Compose an attack roll's Advantage/Disadvantage from modeled conditions.
 
     params: attacker{conditions[], exhaustion_level?, can_be_seen_by_target?},

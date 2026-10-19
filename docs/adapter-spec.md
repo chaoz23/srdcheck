@@ -68,6 +68,37 @@ An older third-party adapter that omits this metadata remains loadable, but its
 unclassified refusal fails closed as `terminal` / `stop` rather than inviting
 an unsafe guess.
 
+### The handler contract
+
+Every entry in `HANDLERS` is `fn(adapter, params) -> Verdict` — the
+`srdcheck.adapter.Handler` alias. The registry is checked when the adapter
+loads, so a non-callable, a wrong-arity function, or a `HANDLERS` that is not
+a dict fails immediately with the offending query type named, rather than
+raising an opaque `TypeError` mid-verdict.
+
+`params` stays a plain `dict`. That is deliberate: the drift oracle
+(`tests/test_schema_drift.py`, the guard against silently swallowed params)
+finds every key a handler reads by scanning for `p.get("...")` and `p["..."]`
+in handler source. Wrapping params in a typed request object would pass every
+test while quietly reducing that oracle to zero findings.
+
+### Adapter-owned data files
+
+Read them through `adapter.data("some_file.json")`, which parses once and
+caches on the adapter instance:
+
+```python
+def _spell_facts(adapter):
+    return adapter.data("spell_facts.json")
+```
+
+The kernel parses the JSON and never interprets it — the shape is the
+adapter's business. Caching on the adapter rather than in a module-level
+global means the data cannot outlive its adapter, two adapters cannot share
+one cache, and dropping the `Adapter` is a complete teardown. **The cached
+object is shared, not copied: treat it as read-only.** A test asserts no
+handler module keeps a mutable module-level cache.
+
 ### Growing past one file
 
 An adapter may ship its handlers either way, and the kernel treats them

@@ -36,6 +36,16 @@ def declared(query_type):
     return top, nested
 
 
+def test_the_oracle_actually_reads_something():
+    """Guard the guard. This oracle finds param reads by scanning handler
+    source, so anything that changes how handlers are written or loaded can
+    silently reduce it to zero findings — at which point it passes forever
+    and protects nothing."""
+    assert len(HANDLERS) >= 20
+    total = sum(len(reads_of(fn)) for fn in HANDLERS.values())
+    assert total > 50, f"only {total} param reads seen; the scan has gone blind"
+
+
 def test_every_handler_read_is_declared():
     failures = []
     for qtype, fn in HANDLERS.items():

@@ -145,6 +145,48 @@ def test_digest_ignores_bytecode_caches(tmp_path):
     assert _adapter_digest(copy) == before
 
 
+def test_registry_must_be_a_dict_of_handlers(tmp_path):
+    root = _skeleton(tmp_path / "notadict")
+    (root / "handlers.py").write_text("HANDLERS = [1, 2, 3]\n")
+    with pytest.raises(TypeError, match="HANDLERS must be a dict"):
+        Adapter(root)
+
+
+def test_a_non_callable_handler_fails_at_load_naming_the_query(tmp_path):
+    root = _skeleton(tmp_path / "notcallable")
+    (root / "handlers.py").write_text('HANDLERS = {"probe.echo": "nope"}\n')
+    with pytest.raises(TypeError, match="probe.echo.*not callable"):
+        Adapter(root)
+
+
+def test_a_wrong_arity_handler_fails_at_load_not_at_query_time(tmp_path):
+    """The failure belongs where the registry is declared, not mid-verdict."""
+    root = _skeleton(tmp_path / "arity")
+    (root / "handlers.py").write_text(
+        "def echo(only_one_arg):\n    return None\n\n\n"
+        'HANDLERS = {"probe.echo": echo}\n')
+    with pytest.raises(TypeError, match="probe.echo.*does not accept"):
+        Adapter(root)
+
+
+def test_every_bundled_handler_matches_the_declared_contract():
+    """(adapter, params) -> Verdict, for every query every adapter claims."""
+    import inspect
+
+    from srdcheck.verdict import Verdict
+    roots = [d for d in sorted((ROOT / "srdcheck" / "adapters").iterdir())
+             if (d / "manifest.json").exists()]
+    assert roots, "no bundled adapters found"
+    for adapter_dir in roots:
+        adapter = Adapter(adapter_dir)
+        for query_type, fn in adapter._handlers.items():
+            params = list(inspect.signature(fn).parameters)
+            assert len(params) == 2, f"{query_type}: {params}"
+            verdict = adapter.handle(query_type, {})
+            assert isinstance(verdict, Verdict), (
+                f"{query_type} returned {type(verdict).__name__}")
+
+
 def test_bundled_adapters_never_ship_both_layouts():
     """A stale handlers.py beside a handlers/ package is ambiguous — the
     loader prefers the package, so the leftover file would be dead code that
