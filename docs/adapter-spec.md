@@ -15,7 +15,7 @@ srdcheck/adapters/<name>/
   entities.json    # what content exists — REQUIRED
   atoms/*.json     # rule atoms: parameters + citations
   queries.json     # query-type descriptions + input schemas (agent discovery)
-  handlers.py      # query handlers (the game logic)
+  handlers.py      # query handlers (the game logic) — or a handlers/ package
 ```
 
 ## manifest.json
@@ -67,6 +67,46 @@ case such as known content sent to the wrong capability. See
 An older third-party adapter that omits this metadata remains loadable, but its
 unclassified refusal fails closed as `terminal` / `stop` rather than inviting
 an unsafe guess.
+
+### Growing past one file
+
+An adapter may ship its handlers either way, and the kernel treats them
+identically:
+
+| Layout | Use it when |
+| :-- | :-- |
+| `handlers.py` | The default. One file, one export. Scaffolded adapters start here. |
+| `handlers/` package with `__init__.py` | The rule surface has outgrown one file. |
+
+The package must export the same `HANDLERS` registry from its `__init__.py`,
+which should contain the registry and nothing else — no rule logic. Submodules
+import siblings with ordinary relative imports (`from .common import _cite`).
+**Never ship both**: the loader prefers the package, so a leftover
+`handlers.py` becomes authoritative-looking dead code. A test enforces this.
+
+Rule logic counts toward the adapter digest wherever it lives, so splitting a
+file changes the adapter's digest without changing any verdict. That is
+intended — the digest is a source-identity marker, not a behaviour hash.
+
+The bundled `srd-5.2.1` adapter is the worked example. One module per rule
+domain, each owning the queries named in its docstring:
+
+| Module | Owns |
+| :-- | :-- |
+| `common.py` | Shared vocabulary: citations, param reading, the modeled-condition model, fact-dependency refusals. Owns no query; imports no sibling. |
+| `turn.py` | `turn.plan`, `turn.options`, `reaction.available` |
+| `rolls.py` | `roll.compose`, `attack.modifiers` |
+| `checks.py` | `save.check`, `check.make`, `concentration.check` |
+| `state.py` | `event.apply`, `transition.commit` |
+| `creatures.py` | `creature.valid`, `creature.stats`, `encounter.xp-budget` |
+| `actions.py` | `opportunity-attack.provoked`, `grapple.initiate`, `help.assist`, `passive.perception` |
+| `content.py` | `spell.facts`, `feature.uses`, `mage-hand.use` |
+
+Dependencies run one way — `common` ← everything, `rolls` ← `checks`,
+`turn` ← `state` — and must stay acyclic. To add a query: put it in the module
+that owns its domain (or add a module and document it here), then register it
+in `__init__.py`. Shared helpers belong in `common.py`, never in a sibling that
+another domain has to reach into.
 
 ### Integer normalization at dispatch
 

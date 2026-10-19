@@ -52,9 +52,14 @@ def _adapter_digest(root):
                 "spell_facts.json", "state_schema.json",
                 "condition_dependencies.json",
                 "handlers.py"}
+    # Rule logic counts toward adapter identity wherever it lives: a single
+    # handlers.py or every module of a handlers/ package. Missing the package
+    # would let the game logic change while the digest stayed put.
     paths = [p for p in root.rglob("*")
              if p.is_file() and (p.name in included or "atoms" in p.parts
+                                 or ("handlers" in p.parts and p.suffix == ".py")
                                  or ("sources" in p.parts and p.suffix == ".txt"))]
+    paths = [p for p in paths if "__pycache__" not in p.parts]
     for path in sorted(paths):
         digest.update(str(path.relative_to(root)).encode())
         digest.update(b"\0")

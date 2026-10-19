@@ -34,7 +34,7 @@ Engine `0.9.0`; verdict schema `4.0`; compatibility `N/N-1` over `0.9, 0.8`.
 | adapter | adapter version | data version | rules version | digest |
 |---|---:|---:|---:|---|
 | `srd-5.1` | `0.1.0` | `0.1.0` | `0.0.0` | `39e4a7891480…` |
-| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `fc9f0ccaa099…` |
+| `srd-5.2.1` | `0.2.1` | `0.2.1` | `0.2.1` | `4e4cf10369d2…` |
 | `toy-tictactoe` | `0.1.0` | `0.1.0` | `0.1.0` | `45746ba2683f…` |
 
 ## Shipped, executable today
